@@ -7,6 +7,6 @@
     <model fqName="jetbrains.mps.xml.editor" />
   </editor>
   <modelRoot rootPath="${language_descriptor}." namespacePrefix="jetbrains.mps.xml" />
-  <autoImport />
+  <library />
 </language>
 
