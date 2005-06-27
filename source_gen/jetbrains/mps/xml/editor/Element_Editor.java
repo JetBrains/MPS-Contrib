@@ -22,8 +22,8 @@ import jetbrains.mps.nodeEditor.CellLayout_Vertical;
 
 public class Element_Editor extends DefaultNodeEditor {
 
-  EditorCellListHandler myAttributeListHandler;
-  EditorCellListHandler myContentListHandler;
+  public EditorCellListHandler myAttributeListHandler;
+  public EditorCellListHandler myContentListHandler;
 
   public EditorCell createEditorCell(EditorContext context, SemanticNode node) {
     return this.createColumnCell(context, node);
@@ -171,7 +171,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
   public EditorCell createAttributeList(EditorContext context, SemanticNode node) {
     if(this.myAttributeListHandler == null) {
-      this.myAttributeListHandler = new Element_Editor_AttributeListHandler(node, "attribute", true);
+      this.myAttributeListHandler = new Element_Editor_AttributeListHandler(node, "attribute");
     }
     EditorCell_Collection editorCell = this.myAttributeListHandler.createCells(context, new CellLayout_Horizontal());
     editorCell.setSelectable(true);
@@ -183,7 +183,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
   public EditorCell createContentList(EditorContext context, SemanticNode node) {
     if(this.myContentListHandler == null) {
-      this.myContentListHandler = new Element_Editor_ContentListHandler(node, "content", true);
+      this.myContentListHandler = new Element_Editor_ContentListHandler(node, "content");
     }
     EditorCell_Collection editorCell = this.myContentListHandler.createCells(context, new CellLayout_Vertical());
     editorCell.setSelectable(true);
