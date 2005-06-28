@@ -76,7 +76,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
     editorCell.setEditable(true);
-    editorCell.setDefaultText("");
+    editorCell.setDefaultText("<?name?>");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
     editorCell.getTextLine().setFontType(MPSFonts.BOLD);

@@ -49,9 +49,8 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setBracketsColor(Color.black);
     editorCell.addEditorCell(this.createConstantCell(context, node, "<"));
     editorCell.addEditorCell(this.createNameCell(context, node));
-    editorCell.addEditorCell(this.createConstantCell1(context, node, ""));
     editorCell.addEditorCell(this.createAttributeList(context, node));
-    editorCell.addEditorCell(this.createConstantCell3(context, node, ">"));
+    editorCell.addEditorCell(this.createConstantCell2(context, node, ">"));
     return editorCell;
   }
   public EditorCell createRowCell1(EditorContext context, SemanticNode node) {
@@ -61,7 +60,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.addEditorCell(this.createConstantCell4(context, node, "    "));
+    editorCell.addEditorCell(this.createConstantCell3(context, node, "    "));
     editorCell.addEditorCell(this.createContentList(context, node));
     return editorCell;
   }
@@ -72,9 +71,9 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.addEditorCell(this.createConstantCell6(context, node, "</"));
+    editorCell.addEditorCell(this.createConstantCell5(context, node, "</"));
     editorCell.addEditorCell(this.createNameCell1(context, node));
-    editorCell.addEditorCell(this.createConstantCell7(context, node, ">"));
+    editorCell.addEditorCell(this.createConstantCell6(context, node, ">"));
     return editorCell;
   }
   public EditorCell createConstantCell(EditorContext context, SemanticNode node, String text) {
@@ -88,7 +87,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.getTextLine().setFontType(MPSFonts.BOLD);
     return editorCell;
   }
-  public EditorCell createConstantCell1(EditorContext context, SemanticNode node, String text) {
+  public EditorCell createConstantCell2(EditorContext context, SemanticNode node, String text) {
     EditorCell_Constant editorCell = EditorCell_Constant.create(context, node, text, false);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -96,6 +95,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
+    editorCell.getTextLine().setFontType(MPSFonts.BOLD);
     return editorCell;
   }
   public EditorCell createConstantCell3(EditorContext context, SemanticNode node, String text) {
@@ -106,10 +106,9 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.getTextLine().setFontType(MPSFonts.BOLD);
     return editorCell;
   }
-  public EditorCell createConstantCell4(EditorContext context, SemanticNode node, String text) {
+  public EditorCell createConstantCell5(EditorContext context, SemanticNode node, String text) {
     EditorCell_Constant editorCell = EditorCell_Constant.create(context, node, text, false);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -117,20 +116,10 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
+    editorCell.getTextLine().setFontType(MPSFonts.BOLD);
     return editorCell;
   }
   public EditorCell createConstantCell6(EditorContext context, SemanticNode node, String text) {
-    EditorCell_Constant editorCell = EditorCell_Constant.create(context, node, text, false);
-    editorCell.setSelectable(true);
-    editorCell.setDrawBorder(false);
-    editorCell.setEditable(false);
-    editorCell.setDefaultText("");
-    editorCell.setDrawBrackets(false);
-    editorCell.setBracketsColor(Color.black);
-    editorCell.getTextLine().setFontType(MPSFonts.BOLD);
-    return editorCell;
-  }
-  public EditorCell createConstantCell7(EditorContext context, SemanticNode node, String text) {
     EditorCell_Constant editorCell = EditorCell_Constant.create(context, node, text, false);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -147,7 +136,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
     editorCell.setEditable(true);
-    editorCell.setDefaultText("");
+    editorCell.setDefaultText("<no name>");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
     editorCell.getTextLine().setFontType(MPSFonts.BOLD);
