@@ -28,7 +28,8 @@ public class Text_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("<no text>");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.getTextLine().setFontType(MPSFonts.BOLD);
+    editorCell.getTextLine().setFontType(MPSFonts.ITALIC);
+    editorCell.getTextLine().setTextColor(Color.blue);
     editorCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteProperty(node, "text"));
     return editorCell;
   }
