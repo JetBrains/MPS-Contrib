@@ -6,7 +6,7 @@ package jetbrains.mps.xml.editor;
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.semanticModel.SNode;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorCell_Error;
 import java.awt.Color;
 
