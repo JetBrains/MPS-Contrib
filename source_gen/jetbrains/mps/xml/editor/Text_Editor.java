@@ -6,7 +6,7 @@ package jetbrains.mps.xml.editor;
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.semanticModel.SemanticNode;
+import jetbrains.mps.semanticModel.SNode;
 import jetbrains.mps.nodeEditor.PropertyAccessor;
 import jetbrains.mps.nodeEditor.EditorCell_Property;
 import java.awt.Color;
@@ -16,10 +16,10 @@ import jetbrains.mps.nodeEditor.CellAction_DeleteProperty;
 
 public class Text_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SemanticNode node) {
+  public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createTextCell(context, node);
   }
-  public EditorCell createTextCell(EditorContext context, SemanticNode node) {
+  public EditorCell createTextCell(EditorContext context, SNode node) {
     PropertyAccessor propertyAccessor = new PropertyAccessor(node, "text", false, false);
     EditorCell_Property editorCell = EditorCell_Property.create(context, propertyAccessor, node);
     editorCell.setSelectable(true);
