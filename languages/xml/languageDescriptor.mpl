@@ -6,7 +6,7 @@
   <editor>
     <model fqName="jetbrains.mps.xml.editor" />
   </editor>
-  <editor stereotype="generatorTemplates">
+  <editor stereotype="templates">
     <model fqName="jetbrains.mps.transformation.xml.editor" />
   </editor>
   <modelRoot rootPath="${language_descriptor}." namespacePrefix="jetbrains.mps.xml" />
