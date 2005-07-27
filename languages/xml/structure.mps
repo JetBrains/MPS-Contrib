@@ -2,7 +2,7 @@
 <model namespace="jetbrains.mps.xml">
   <maxReferenceID value="3" />
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <import referenceID="1" name="core" namespace="jetbrains.mps" />
+  <import referenceID="1" modelUID="jetbrains.mps.core@java_stub" />
   <import referenceID="2" name="structure" namespace="jetbrains.mps.core" />
   <import referenceID="3" name="library" namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1107866742882">
