@@ -16,9 +16,11 @@ import jetbrains.mps.nodeEditor.PropertyAccessor;
 import jetbrains.mps.nodeEditor.EditorCell_Property;
 import jetbrains.mps.nodeEditor.EditorCellAction;
 import jetbrains.mps.nodeEditor.CellAction_DeleteProperty;
+import jetbrains.mps.smodel.SReference;
 import jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration;
 import jetbrains.mps.smodel.SModelUtil;
 import jetbrains.mps.nodeEditor.EditorCell_Error;
+import jetbrains.mps.resolve.BadReferenceTextProvider;
 import jetbrains.mps.nodeEditor.CellAction_Empty;
 import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.CellAction_DeleteSmart;
@@ -38,6 +40,7 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createRowCell(context, node));
     editorCell.addEditorCell(this.createConstantCell1(context, node, ""));
     editorCell.addEditorCell(this.createRootElementCell(context, node));
+    editorCell.putUserObject(EditorCell.CELL_ID, "1119976778254");
     return editorCell;
   }
   public EditorCell createRowCell(EditorContext context, SNode node) {
@@ -49,6 +52,7 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.setBracketsColor(Color.black);
     editorCell.addEditorCell(this.createConstantCell(context, node, "document"));
     editorCell.addEditorCell(this.createNameCell(context, node));
+    editorCell.putUserObject(EditorCell.CELL_ID, "1119976784944");
     return editorCell;
   }
   public EditorCell createConstantCell1(EditorContext context, SNode node, String text) {
@@ -59,6 +63,7 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
+    editorCell.putUserObject(EditorCell.CELL_ID, "1119976839636");
     return editorCell;
   }
   public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
@@ -71,6 +76,7 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.setBracketsColor(Color.black);
     editorCell.getTextLine().setFontType(MPSFonts.BOLD);
     editorCell.getTextLine().setTextColor(MPSColors.DARK_BLUE);
+    editorCell.putUserObject(EditorCell.CELL_ID, "1119976794070");
     return editorCell;
   }
   public EditorCell createNameCell(EditorContext context, SNode node) {
@@ -85,12 +91,26 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.getTextLine().setFontType(MPSFonts.BOLD);
     editorCell.getTextLine().setTextColor(MPSColors.DARK_GREEN);
     editorCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteProperty(node, "name"));
+    editorCell.putUserObject(EditorCell.CELL_ID, "1119976811900");
     return editorCell;
   }
   public EditorCell createRootElementCell(EditorContext context, SNode node) {
     SNode referencedNode = null;
+    SReference reference = null;
     referencedNode = node.getChild("rootElement");
     LinkDeclaration linkDeclaration = SModelUtil.getLinkDeclaration(node, "rootElement");
+    if(!(reference == null) && !((reference.isResolved()))) {
+      EditorCell_Error noRefCell = EditorCell_Error.create(context, node, BadReferenceTextProvider.getBadReferenceText(reference));
+      noRefCell.setEditable(true);
+      noRefCell.setSelectable(true);
+      noRefCell.setDrawBorder(false);
+      noRefCell.setDrawBrackets(false);
+      noRefCell.setBracketsColor(Color.black);
+      noRefCell.setAction(EditorCellAction.DELETE, new CellAction_Empty());
+      noRefCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration));
+      noRefCell.putUserObject(EditorCell.CELL_ID, "1119976859013");
+      return noRefCell;
+    }
     if(referencedNode == null) {
       {
         EditorCell_Error noRefCell = EditorCell_Error.create(context, node, "<no root element>");
@@ -101,6 +121,7 @@ public class Document_Editor extends DefaultNodeEditor {
         noRefCell.setBracketsColor(Color.black);
         noRefCell.setAction(EditorCellAction.DELETE, new CellAction_Empty());
         noRefCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration));
+        noRefCell.putUserObject(EditorCell.CELL_ID, "1119976859013");
         return noRefCell;
       }
     }

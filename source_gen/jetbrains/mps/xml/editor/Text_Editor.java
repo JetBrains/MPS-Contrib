@@ -31,6 +31,7 @@ public class Text_Editor extends DefaultNodeEditor {
     editorCell.getTextLine().setFontType(MPSFonts.ITALIC);
     editorCell.getTextLine().setTextColor(Color.blue);
     editorCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteProperty(node, "text"));
+    editorCell.putUserObject(EditorCell.CELL_ID, "1107868239951");
     return editorCell;
   }
 }

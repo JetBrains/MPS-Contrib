@@ -22,6 +22,7 @@ public class ElementPart_Editor extends DefaultNodeEditor {
     editorCell.setEditable(true);
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
+    editorCell.putUserObject(EditorCell.CELL_ID, "1119977874007");
     return editorCell;
   }
 }
