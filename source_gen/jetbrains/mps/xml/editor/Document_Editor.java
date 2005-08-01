@@ -107,7 +107,7 @@ public class Document_Editor extends DefaultNodeEditor {
       noRefCell.setDrawBrackets(false);
       noRefCell.setBracketsColor(Color.black);
       noRefCell.setAction(EditorCellAction.DELETE, new CellAction_Empty());
-      noRefCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration));
+      noRefCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration, context));
       noRefCell.putUserObject(EditorCell.CELL_ID, "1119976859013");
       return noRefCell;
     }
@@ -120,7 +120,7 @@ public class Document_Editor extends DefaultNodeEditor {
         noRefCell.setDrawBrackets(false);
         noRefCell.setBracketsColor(Color.black);
         noRefCell.setAction(EditorCellAction.DELETE, new CellAction_Empty());
-        noRefCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration));
+        noRefCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration, context));
         noRefCell.putUserObject(EditorCell.CELL_ID, "1119976859013");
         return noRefCell;
       }
@@ -131,7 +131,7 @@ public class Document_Editor extends DefaultNodeEditor {
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
     editorCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteSmart(node, linkDeclaration, referencedNode));
-    editorCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration));
+    editorCell.setSubstituteInfo(new DefaultChildSubstituteInfo(node, linkDeclaration, context));
     return editorCell;
   }
 }
