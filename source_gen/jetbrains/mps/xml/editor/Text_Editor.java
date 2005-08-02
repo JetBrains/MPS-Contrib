@@ -20,7 +20,7 @@ public class Text_Editor extends DefaultNodeEditor {
     return this.createTextCell(context, node);
   }
   public EditorCell createTextCell(EditorContext context, SNode node) {
-    PropertyAccessor propertyAccessor = new PropertyAccessor(node, "text", false, false);
+    PropertyAccessor propertyAccessor = new PropertyAccessor(node, "text", false, false, context);
     EditorCell_Property editorCell = EditorCell_Property.create(context, propertyAccessor, node);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);

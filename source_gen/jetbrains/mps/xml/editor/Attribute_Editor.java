@@ -75,7 +75,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   public EditorCell createNameCell(EditorContext context, SNode node) {
-    PropertyAccessor propertyAccessor = new PropertyAccessor(node, "name", false, false);
+    PropertyAccessor propertyAccessor = new PropertyAccessor(node, "name", false, false, context);
     EditorCell_Property editorCell = EditorCell_Property.create(context, propertyAccessor, node);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -90,7 +90,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
   public EditorCell createValueCell(EditorContext context, SNode node) {
-    PropertyAccessor propertyAccessor = new PropertyAccessor(node, "value", false, false);
+    PropertyAccessor propertyAccessor = new PropertyAccessor(node, "value", false, false, context);
     EditorCell_Property editorCell = EditorCell_Property.create(context, propertyAccessor, node);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
