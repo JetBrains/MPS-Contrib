@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.xml" generatorPath="${mps_home}\source_gen">
+<language namespace="jetbrains.mps.xml" generatorOutputPath="${mps_home}\source_gen">
   <structure>
     <model modelUID="jetbrains.mps.xml.structure" />
   </structure>
@@ -9,14 +9,20 @@
   <editor stereotype="templates">
     <model modelUID="jetbrains.mps.transformation.xml.editor" />
   </editor>
-  <modelRoot rootPath="${language_descriptor}." namespacePrefix="jetbrains.mps.xml" />
-  <modelRoot rootPath="${mps_home}\languages\transformation\TLBase" namespacePrefix="jetbrains.mps.transformation.TLBase" />
-  <modelRoot rootPath="${mps_home}\languages\transformation\xml" namespacePrefix="jetbrains.mps.transformation.xml" />
-  <library />
+  <models>
+    <modelRoot path="${language_descriptor}\." namespacePrefix="jetbrains.mps.xml" />
+    <modelRoot path="${mps_home}\languages\transformation\TLBase" namespacePrefix="jetbrains.mps.transformation.TLBase" />
+    <modelRoot path="${mps_home}\languages\transformation\xml" namespacePrefix="jetbrains.mps.transformation.xml" />
+  </models>
+  <module />
+  <accessoryModels />
   <targetOfGenerator generatorClass="jetbrains.mps.xml.generator.target.DefaultXmlGenerator" />
   <generators>
-    <generator name="XML" templatesModel="jetbrains.mps.xml.generator.xml@templates" targetLanguage="jetbrains.mps.xml">
-      <modelRoot rootPath="${language_descriptor}\generator" namespacePrefix="jetbrains.mps.xml.generator" />
+    <generator name="XML" generatorUID="jetbrains.mps.xml#1129923280838" templatesModel="jetbrains.mps.xml.generator.xml@templates" targetLanguage="jetbrains.mps.xml">
+      <models>
+        <modelRoot path="${language_descriptor}\generator" namespacePrefix="jetbrains.mps.xml.generator" />
+      </models>
+      <module />
     </generator>
   </generators>
 </language>
