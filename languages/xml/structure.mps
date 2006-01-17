@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model namespace="jetbrains.mps.xml">
-  <maxReferenceID value="3" />
+<model name="jetbrains.mps.xml.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <import referenceID="1" modelUID="jetbrains.mps.core@java_stub" />
-  <import referenceID="2" name="structure" namespace="jetbrains.mps.core" />
-  <import referenceID="3" name="library" namespace="jetbrains.mps.bootstrap.structureLanguage" />
+  <maxImportIndex value="3" />
+  <import index="1" modelUID="jetbrains.mps.core@java_stub" />
+  <import index="2" modelUID="jetbrains.mps.core.structure" />
+  <import index="3" modelUID="jetbrains.mps.bootstrap.structureLanguage.library" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1107866742882">
     <property name="name" value="Attribute" />
     <link role="extends" targetNodeId="2.1078489098625" />
@@ -17,7 +17,7 @@
     <property name="name" value="ElementPart" />
     <link role="extends" targetNodeId="2.1078489098625" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1119980637296">
-      <link role="conceptPropertyDeclaration" targetNodeId="3.1107214854626" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2.1137473854053" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1107866778860">
