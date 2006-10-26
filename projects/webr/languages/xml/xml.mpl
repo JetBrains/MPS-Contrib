@@ -12,7 +12,17 @@
   </models>
   <module />
   <accessoryModels />
-  <generators />
+  <targetOfGenerator generatorClass="jetbrains.mps.xml.generator.target.DefaultXmlGenerator" />
+  <generators>
+    <generator generatorUID="webr.xml#1161532488276" targetLanguage="webr.xml">
+      <models>
+        <modelRoot path="${language_descriptor}\generators\xml\templates" namespacePrefix="webr.xml.generator.xml.template" />
+      </models>
+      <module>
+        <moduleRoot path="${language_descriptor}\." />
+      </module>
+    </generator>
+  </generators>
   <classPath />
 </language>
 
