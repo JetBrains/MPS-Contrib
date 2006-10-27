@@ -77,8 +77,13 @@
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161911500984">
     <link role="conceptDeclaration" targetNodeId="1.1161911457732" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1161911504548">
-      <link role="relationDeclaration" targetNodeId="1.1161911474092" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1161961882631">
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161961886493">
+        <property name="text" value="*" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1161961889607">
+        <link role="relationDeclaration" targetNodeId="1.1161911474092" />
+      </node>
     </node>
   </node>
 </model>
