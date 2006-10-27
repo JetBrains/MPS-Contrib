@@ -34,6 +34,8 @@
           <property name="text" value="&lt;" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161371871099">
+          <property name="textFgColor" value="DARK_BLUE" />
+          <property name="fontStyle" value="BOLD" />
           <link role="relationDeclaration" targetNodeId="1.1161371807366" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161371877976">
@@ -57,6 +59,8 @@
           <property name="text" value="&lt;/" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161371922068">
+          <property name="textFgColor" value="DARK_BLUE" />
+          <property name="fontStyle" value="BOLD" />
           <link role="relationDeclaration" targetNodeId="1.1161371807366" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161371929367">
@@ -69,6 +73,12 @@
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161911500984">
+    <link role="conceptDeclaration" targetNodeId="1.1161911457732" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1161911504548">
+      <link role="relationDeclaration" targetNodeId="1.1161911474092" />
     </node>
   </node>
 </model>
