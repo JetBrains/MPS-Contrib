@@ -69,5 +69,27 @@
       <link role="target" targetNodeId="1161373262136" resolveInfo="Text" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1162049559027">
+    <property name="name" value="PseudoElement" />
+    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1162049878481">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="openingText" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1161373262136" resolveInfo="Text" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1162049922342">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="content" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1161371727643" resolveInfo="Content" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1162049938796">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="closingText" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1161373262136" resolveInfo="Text" />
+    </node>
+  </node>
 </model>
 
