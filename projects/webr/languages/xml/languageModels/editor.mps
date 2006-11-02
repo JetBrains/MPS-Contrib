@@ -79,6 +79,7 @@
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
       <property name="textFgColor" value="DARK_GREEN" />
+      <property name="allowEmptyText" value="true" />
       <property name="fontStyle" value="BOLD" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
     </node>
