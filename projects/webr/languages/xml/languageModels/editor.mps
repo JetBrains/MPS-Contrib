@@ -151,6 +151,12 @@
         <property name="fontStyle" value="BOLD" />
         <link role="relationDeclaration" targetNodeId="1.1162498151290" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1162506055814">
+        <link role="relationDeclaration" targetNodeId="1.1162506020249" />
+        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1162506061362">
+          <property name="text" value=".." />
+        </node>
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1162498199988">
         <property name="text" value="/&gt;" />
       </node>
