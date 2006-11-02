@@ -17,6 +17,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371537251">
     <property name="name" value="Element" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498443588">
+      <property name="value" value="element" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1161371807366">
       <property name="name" value="name" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -44,6 +48,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161373262136">
     <property name="name" value="Text" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498464999">
+      <property name="value" value="text" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1161373273669">
       <property name="name" value="text" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -52,6 +60,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161911457732">
     <property name="name" value="ComplexText" />
     <link role="extends" targetNodeId="1161373262136" resolveInfo="Text" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498470751">
+      <property name="value" value="complex text" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1161911474092">
       <property name="sourceCardinality" value="1..n" />
       <property name="role" value="text" />
@@ -89,6 +101,18 @@
       <property name="role" value="closingText" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1161373262136" resolveInfo="Text" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1162498112774">
+    <property name="name" value="EmptyElement" />
+    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498452934">
+      <property name="value" value="empty element" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1162498151290">
+      <property name="name" value="name" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
   </node>
 </model>
