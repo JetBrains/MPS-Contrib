@@ -121,5 +121,15 @@
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1162733756353">
+    <property name="name" value="ContentList" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1162733789119">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="content" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1161371727643" resolveInfo="Content" />
+    </node>
+  </node>
 </model>
 
