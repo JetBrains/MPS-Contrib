@@ -123,7 +123,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1162733756353">
     <property name="name" value="ContentList" />
-    <link role="extends" targetNodeId="1.1133920641626" />
+    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162734929672">
       <property name="value" value="content list" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
