@@ -61,7 +61,7 @@
     <property name="name" value="ComplexText" />
     <link role="extends" targetNodeId="1161373262136" resolveInfo="Text" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498470751">
-      <property name="value" value="complex text" />
+      <property name="value" value="complexText" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1161911474092">
@@ -113,7 +113,7 @@
       <link role="target" targetNodeId="1161989785017" resolveInfo="Attribute" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498452934">
-      <property name="value" value="empty element" />
+      <property name="value" value="emptyElement" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1162498151290">
@@ -125,7 +125,7 @@
     <property name="name" value="ContentList" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162734929672">
-      <property name="value" value="content list" />
+      <property name="value" value="contentList" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1162733789119">
