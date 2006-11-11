@@ -163,24 +163,5 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1162733810620">
-    <link role="conceptDeclaration" targetNodeId="1.1162733756353" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1163215898362">
-      <property name="vertical" value="true" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163215904372">
-        <property name="text" value="---" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1163215899869">
-        <property name="vertical" value="true" />
-        <link role="relationDeclaration" targetNodeId="1.1162733789119" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163215899870">
-          <property name="text" value=".." />
-        </node>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163215954543">
-        <property name="text" value="----" />
-      </node>
-    </node>
-  </node>
 </model>
 
