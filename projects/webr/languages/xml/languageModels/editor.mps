@@ -76,7 +76,6 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161371929367">
           <property name="text" value="&gt;" />
-          <property name="selectable" value="false" />
         </node>
       </node>
     </node>
