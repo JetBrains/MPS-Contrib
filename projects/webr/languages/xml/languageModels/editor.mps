@@ -40,7 +40,8 @@
           <property name="vertical" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1161371763131" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161372503321">
-            <property name="text" value=".." />
+            <property name="editable" value="true" />
+            <property name="nullText" value=".." />
           </node>
         </node>
       </node>
