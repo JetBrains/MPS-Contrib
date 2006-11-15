@@ -23,7 +23,7 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1161989856270">
           <link role="relationDeclaration" targetNodeId="1.1161989815143" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161989870005">
-            <property name="text" value=".." />
+            <property name="editable" value="true" />
           </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161371877976">
@@ -41,7 +41,6 @@
           <link role="relationDeclaration" targetNodeId="1.1161371763131" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161372503321">
             <property name="editable" value="true" />
-            <property name="nullText" value=".." />
           </node>
         </node>
       </node>
