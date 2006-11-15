@@ -145,5 +145,15 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1163629288709">
+    <link role="conceptDeclaration" targetNodeId="1.1163629230879" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1163629370195">
+      <property name="vertical" value="true" />
+      <link role="relationDeclaration" targetNodeId="1.1163629255661" />
+      <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163629377837">
+        <property name="editable" value="true" />
+      </node>
+    </node>
+  </node>
 </model>
 
