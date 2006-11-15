@@ -3,17 +3,6 @@
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371449328">
-    <property name="rootable" value="true" />
-    <property name="name" value="Document" />
-    <link role="extends" targetNodeId="1.1078489098625" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1161371569346">
-      <property name="sourceCardinality" value="1..n" />
-      <property name="role" value="content" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1161371727643" resolveInfo="Content" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371537251">
     <property name="name" value="Element" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
