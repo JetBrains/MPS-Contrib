@@ -74,24 +74,6 @@
       <link role="target" targetNodeId="1163340203555" resolveInfo="BaseText" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1162498112774">
-    <property name="name" value="EmptyElement" />
-    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1162506020249">
-      <property name="sourceCardinality" value="0..n" />
-      <property name="role" value="attribute" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1161989785017" resolveInfo="Attribute" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498452934">
-      <property name="value" value="emptyElement" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1162498151290">
-      <property name="name" value="name" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163271518011">
     <property name="name" value="ComplexContent" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
