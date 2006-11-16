@@ -14,6 +14,10 @@
       <property name="name" value="name" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1163715507099">
+      <property name="name" value="isEmpty" />
+      <link role="dataType" targetNodeId="1.1082983657063" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1161371763131">
       <property name="sourceCardinality" value="0..n" />
       <property name="role" value="content" />
