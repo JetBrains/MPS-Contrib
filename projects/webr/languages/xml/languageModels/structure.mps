@@ -3,34 +3,6 @@
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371537251">
-    <property name="name" value="_Element" />
-    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498443588">
-      <property name="value" value="_element" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1161371807366">
-      <property name="name" value="name" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1163715507099">
-      <property name="name" value="isEmpty" />
-      <link role="dataType" targetNodeId="1.1082983657063" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1161371763131">
-      <property name="sourceCardinality" value="0..n" />
-      <property name="role" value="content" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1161371727643" resolveInfo="Content" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1161989815143">
-      <property name="sourceCardinality" value="0..n" />
-      <property name="role" value="attribute" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1161989785017" resolveInfo="Attribute" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371727643">
     <property name="name" value="Content" />
     <link role="extends" targetNodeId="1.1133920641626" />
