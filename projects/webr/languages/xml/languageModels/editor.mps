@@ -210,6 +210,8 @@
           <property name="selectable" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1163723617686">
+          <property name="textFgColor" value="DARK_BLUE" />
+          <property name="fontStyle" value="BOLD" />
           <link role="relationDeclaration" targetNodeId="1.1163723109232" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1163723629547">
@@ -228,6 +230,8 @@
             <property name="selectable" value="false" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1163723698354">
+            <property name="textFgColor" value="DARK_BLUE" />
+            <property name="fontStyle" value="BOLD" />
             <link role="relationDeclaration" targetNodeId="1.1163723109232" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1163723706919">
@@ -255,6 +259,8 @@
             <property name="selectable" value="false" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1163723801857">
+            <property name="textFgColor" value="DARK_BLUE" />
+            <property name="fontStyle" value="BOLD" />
             <property name="selectable" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1163723109232" />
           </node>
