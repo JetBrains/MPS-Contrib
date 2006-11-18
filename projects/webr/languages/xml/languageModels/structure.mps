@@ -14,7 +14,7 @@
     <property name="name" value="Text" />
     <link role="extends" targetNodeId="1163340203555" resolveInfo="BaseText" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498464999">
-      <property name="value" value="text" />
+      <property name="value" value="/text" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1161373273669">
@@ -81,7 +81,7 @@
     <property name="name" value="Element" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1163723196831">
-      <property name="value" value="&lt;" />
+      <property name="value" value="&lt;element&gt;" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1163723170454">
