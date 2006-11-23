@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xml.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="1" />
+  <maxImportIndex value="3" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
+  <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
+  <import index="3" modelUID="webr.xml.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371727643">
     <property name="name" value="Content" />
     <link role="extends" targetNodeId="1.1133920641626" />
@@ -113,6 +115,17 @@
       <property name="role" value="attribute" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1161989785017" resolveInfo="Attribute" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1164249652557">
+    <property name="name" value="ConceptLinkConcept" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.ReferenceConceptLinkDeclaration" id="1164249652558">
+      <property name="name" value="canHaveOption" />
+      <link role="targetType" targetNodeId="2.1071489090640" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1164249652559">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
 </model>
