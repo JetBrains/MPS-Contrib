@@ -7,7 +7,7 @@
   <import index="3" modelUID="webr.xml.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371727643">
     <property name="name" value="Content" />
-    <link role="extends" targetNodeId="1.1133920641626" />
+    <link role="extends" targetNodeId="1164249652557" resolveInfo="ConceptLinkConcept" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1161371746114">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
