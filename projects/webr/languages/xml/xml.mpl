@@ -10,7 +10,9 @@
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xml" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xml" />
   </models>
-  <module />
+  <module>
+    <moduleRoot path="${mps_home}\projects\webr\languages\gtext\gtext.mpl" />
+  </module>
   <accessoryModels />
   <targetOfGenerator generatorClass="jetbrains.mps.xml.generator.target.DefaultXmlGenerator" />
   <generators>
