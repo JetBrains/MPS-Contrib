@@ -118,7 +118,7 @@
       <property name="sourceCardinality" value="0..n" />
       <property name="role" value="attribute" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1161989785017" resolveInfo="Attribute" />
+      <link role="target" targetNodeId="1165235274815" resolveInfo="BaseAttribute" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1164249652557">
