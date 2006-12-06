@@ -122,7 +122,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1164249652557">
-    <property name="name" value="CLinkConcept" />
+    <property name="name" value="OptionListHolder" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.ReferenceConceptLinkDeclaration" id="1164249652558">
       <property name="name" value="canHaveOption" />
