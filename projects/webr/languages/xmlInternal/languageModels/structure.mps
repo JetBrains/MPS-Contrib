@@ -16,7 +16,7 @@
       <link role="target" targetNodeId="5.1068580123157" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1165761652407">
-      <property name="value" value="statement content" />
+      <property name="value" value="statementElement" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>

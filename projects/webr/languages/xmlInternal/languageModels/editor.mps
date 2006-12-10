@@ -12,7 +12,7 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165761827856">
       <property name="vertical" value="true" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165761833171">
-        <property name="text" value="statement content" />
+        <property name="text" value="&lt;statement element&gt;" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165761841064">
         <property name="selectable" value="false" />
@@ -23,6 +23,9 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1165761855068">
           <link role="relationDeclaration" targetNodeId="1.1165761667346" />
         </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165764447018">
+        <property name="text" value="&lt;/statement element&gt;" />
       </node>
     </node>
   </node>
