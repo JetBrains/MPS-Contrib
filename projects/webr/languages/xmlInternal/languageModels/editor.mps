@@ -53,5 +53,25 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1165767527324">
+    <link role="conceptDeclaration" targetNodeId="1.1165767479243" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165767529889">
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165767531813">
+        <property name="text" value="#" />
+        <property name="selectable" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165767535518">
+        <property name="text" value="{" />
+        <property name="selectable" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1165767568897">
+        <link role="relationDeclaration" targetNodeId="1.1165767506900" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165767538286">
+        <property name="text" value="}" />
+        <property name="selectable" value="false" />
+      </node>
+    </node>
+  </node>
 </model>
 
