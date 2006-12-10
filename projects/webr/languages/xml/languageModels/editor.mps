@@ -33,8 +33,7 @@
     <link role="conceptDeclaration" targetNodeId="1.1161989785017" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1161989917400">
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161989922917">
-        <property name="textFgColor" value="blue" />
-        <property name="fontStyle" value="BOLD" />
+        <property name="fontStyle" value="BOLD_ITALIC" />
         <link role="relationDeclaration" targetNodeId="1.1165235325770" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161989932810">
