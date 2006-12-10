@@ -29,5 +29,29 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1165765736467">
+    <link role="conceptDeclaration" targetNodeId="1.1165765736183" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165765736468">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165765736469">
+        <property name="text" value="content statement {" />
+        <property name="selectable" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165765736470">
+        <property name="selectable" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165765736471">
+          <property name="text" value="  " />
+          <property name="selectable" value="false" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1165765736472">
+          <link role="relationDeclaration" targetNodeId="1.1165765736184" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165765736473">
+        <property name="text" value="}" />
+        <property name="selectable" value="false" />
+      </node>
+    </node>
+  </node>
 </model>
 

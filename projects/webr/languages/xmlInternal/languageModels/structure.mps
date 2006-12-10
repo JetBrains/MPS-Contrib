@@ -20,5 +20,19 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1165765736183">
+    <property name="name" value="ContentStatement" />
+    <link role="extends" targetNodeId="5.1068580123157" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1165765736184">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="contentList" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="2.1163629230879" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1165765736185">
+      <property name="value" value="content statement" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
 </model>
 
