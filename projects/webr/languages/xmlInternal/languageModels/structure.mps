@@ -44,7 +44,7 @@
       <link role="target" targetNodeId="5.1068431790191" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1165767516464">
-      <property name="value" value="expressionText" />
+      <property name="value" value="#{expression}" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
