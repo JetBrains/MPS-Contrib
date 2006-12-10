@@ -7,7 +7,7 @@
   <import index="3" modelUID="webr.xmlInternal.structure" />
   <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1165761580958">
-    <property name="name" value="StatementContent" />
+    <property name="name" value="StatementElement" />
     <link role="extends" targetNodeId="2.1161371727643" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1165761667346">
       <property name="sourceCardinality" value="1" />
