@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="webr.xml" loggingEnabled="false" generatorOutputPath="${mps_home}\projects\webr\source_gen">
+<language namespace="webr.xml" generatorOutputPath="${mps_home}\projects\webr\source_gen">
   <structure>
     <model modelUID="webr.xml.structure" />
   </structure>
@@ -22,6 +22,7 @@
       </models>
       <module>
         <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
+        <moduleRoot path="${mps_home}\projects\DataNavigationQuery\languages\dnq\dnq.mpl" />
       </module>
     </generator>
   </generators>
