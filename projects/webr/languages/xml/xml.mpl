@@ -22,7 +22,6 @@
       </models>
       <module>
         <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
-        <moduleRoot path="${mps_home}\projects\DataNavigationQuery\languages\dnq\dnq.mpl" />
       </module>
     </generator>
   </generators>
