@@ -258,7 +258,7 @@
     <link role="applicableConcept" targetNodeId="1.1163723085294" />
     <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapItem" id="1166220162470">
       <property name="showInPopup" value="true" />
-      <property name="description" value="make empty" />
+      <property name="description" value="make element empty" />
       <node role="keystroke" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapKeystroke" id="1166220162471">
         <property name="modifiers" value="alt" />
         <property name="keycode" value="VK_ENTER" />
@@ -320,7 +320,7 @@
     </node>
     <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapItem" id="1166221164010">
       <property name="showInPopup" value="true" />
-      <property name="description" value="make not empty" />
+      <property name="description" value="make element not empty" />
       <node role="keystroke" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapKeystroke" id="1166221164011">
         <property name="modifiers" value="alt" />
         <property name="keycode" value="VK_ENTER" />
