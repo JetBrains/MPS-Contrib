@@ -251,23 +251,6 @@
         </node>
       </node>
     </node>
-    <node role="inspectedCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1163723833844">
-      <property name="drawBorder" value="false" />
-      <property name="vertical" value="true" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1163723836285">
-        <property name="drawBorder" value="false" />
-        <property name="selectable" value="false" />
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163723838115">
-          <property name="text" value="isEmpty:" />
-          <property name="drawBorder" value="false" />
-          <property name="selectable" value="false" />
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1163723852617">
-          <property name="drawBorder" value="false" />
-          <link role="relationDeclaration" targetNodeId="1.1163723122999" />
-        </node>
-      </node>
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapDeclaration" id="1166220073978">
     <property name="everyModel" value="true" />
