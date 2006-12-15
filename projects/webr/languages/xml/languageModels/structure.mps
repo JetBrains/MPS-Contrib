@@ -53,7 +53,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163271518011">
-    <property name="name" value="ComplexContent" />
+    <property name="name" value="HorizontalContentList" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1163271559357">
       <property name="sourceCardinality" value="1..n" />
@@ -62,7 +62,7 @@
       <link role="target" targetNodeId="1161371727643" resolveInfo="Content" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1163271540294">
-      <property name="value" value="complexContent" />
+      <property name="value" value="horizontalContentList" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
