@@ -4,7 +4,7 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <maxImportIndex value="22" />
+  <maxImportIndex value="23" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="14" modelUID="java.lang@java_stub" />
@@ -85,6 +85,7 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1163629288709">
     <link role="conceptDeclaration" targetNodeId="1.1163629230879" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Alternation" id="1166301006369">
+      <property name="drawBorder" value="false" />
       <property name="vertical" value="true" />
       <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166301006370">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166301006371">
@@ -98,23 +99,74 @@
           </node>
         </node>
       </node>
-      <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166301011434">
+      <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166301058124">
         <property name="drawBorder" value="false" />
-        <property name="vertical" value="true" />
-        <link role="relationDeclaration" targetNodeId="1.1163629255661" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166301011435">
-          <property name="editable" value="true" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166301061078">
+          <property name="textFgColor" value="blue" />
+          <property name="text" value="h" />
           <property name="drawBorder" value="false" />
         </node>
-      </node>
-      <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166301058124">
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166301061078">
-          <property name="text" value="h" />
-        </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166301078142">
+          <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166301084690">
             <property name="editable" value="true" />
+            <property name="drawBorder" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Alternation" id="1166303669050">
+        <property name="drawBorder" value="false" />
+        <property name="vertical" value="true" />
+        <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166303669051">
+          <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166303669052">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166303688216">
+              <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166303835480">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166303827931">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166303827336" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_GetParentOperation" id="1166303829557" />
+                </node>
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_IsInstanceOfOperation" id="1166303838918">
+                  <link role="concept" targetNodeId="1.1163629230879" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166304045424">
+          <property name="drawBorder" value="false" />
+          <property name="vertical" value="true" />
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304045425">
+            <property name="textFgColor" value="blue" />
+            <property name="text" value="v" />
+            <property name="drawBorder" value="false" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166304045426">
+            <property name="drawBorder" value="false" />
+            <property name="selectable" value="false" />
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304045427">
+              <property name="text" value="  " />
+              <property name="drawBorder" value="false" />
+              <property name="selectable" value="false" />
+            </node>
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304045428">
+              <property name="drawBorder" value="false" />
+              <property name="vertical" value="true" />
+              <link role="relationDeclaration" targetNodeId="1.1163629255661" />
+              <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304045429">
+                <property name="editable" value="true" />
+                <property name="drawBorder" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304051499">
+          <property name="drawBorder" value="false" />
+          <property name="vertical" value="true" />
+          <link role="relationDeclaration" targetNodeId="1.1163629255661" />
+          <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304051500">
+            <property name="editable" value="true" />
+            <property name="drawBorder" value="false" />
           </node>
         </node>
       </node>
