@@ -102,8 +102,7 @@
       <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166301058124">
         <property name="drawBorder" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166301061078">
-          <property name="textFgColor" value="blue" />
-          <property name="text" value="h" />
+          <property name="text" value="(" />
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166301078142">
@@ -113,6 +112,10 @@
             <property name="editable" value="true" />
             <property name="drawBorder" value="false" />
           </node>
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304753406">
+          <property name="text" value=")" />
+          <property name="drawBorder" value="false" />
         </node>
       </node>
       <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Alternation" id="1166303669050">
@@ -137,8 +140,7 @@
           <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304045425">
-            <property name="textFgColor" value="blue" />
-            <property name="text" value="v" />
+            <property name="text" value="(" />
             <property name="drawBorder" value="false" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166304045426">
@@ -158,6 +160,10 @@
                 <property name="drawBorder" value="false" />
               </node>
             </node>
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304772939">
+            <property name="text" value=")" />
+            <property name="drawBorder" value="false" />
           </node>
         </node>
         <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304051499">
