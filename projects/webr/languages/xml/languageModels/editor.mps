@@ -181,30 +181,6 @@
             <property name="fontStyle" value="BOLD" />
             <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1163723109232" />
-            <node role="menuDescriptor" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuDescriptor" id="1166207140980">
-              <node role="cellMenuPart" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_Generic_Item" id="1166207153871">
-                <property name="matchingText" value="make empty" />
-                <node role="handlerFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_Generic_Item_Handler" id="1166207153872">
-                  <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166207153873">
-                    <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1166207235115">
-                      <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166207252087">
-                        <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166207239695">
-                          <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_Abstract_editedNode" id="1166207235116" />
-                          <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1166207242743">
-                            <link role="property" targetNodeId="1.1163723122999" />
-                          </node>
-                        </node>
-                        <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Property_SetOperation" id="1166207255166">
-                          <node role="value" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1166207260418">
-                            <property name="value" value="true" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1163723706919">
             <property name="drawBorder" value="false" />
