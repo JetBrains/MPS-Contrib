@@ -332,5 +332,12 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1166232139036">
+    <link role="conceptDeclaration" targetNodeId="1.1161371727643" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1166232150304">
+      <property name="text" value="content" />
+      <property name="drawBorder" value="false" />
+    </node>
+  </node>
 </model>
 
