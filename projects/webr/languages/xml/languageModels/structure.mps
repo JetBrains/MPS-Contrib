@@ -51,6 +51,10 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1163340203555" resolveInfo="BaseText" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1166320210101">
+      <property name="value" value="attribute" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163340203555">
     <property name="name" value="BaseText" />
