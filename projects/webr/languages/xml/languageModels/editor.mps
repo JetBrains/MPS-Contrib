@@ -143,6 +143,7 @@
         </node>
       </node>
       <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Alternation" id="1166316630612">
+        <property name="drawBorder" value="false" />
         <property name="vertical" value="true" />
         <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166316630613">
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166316630614">
@@ -586,8 +587,8 @@
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1166232139036">
     <link role="conceptDeclaration" targetNodeId="1.1161371727643" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1166232150304">
-      <property name="text" value="content" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166321936578">
+      <property name="editable" value="true" />
       <property name="drawBorder" value="false" />
     </node>
   </node>
