@@ -77,7 +77,7 @@
       <link role="target" targetNodeId="1161371727643" resolveInfo="Content" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1166304178740">
-      <property name="value" value="contentList" />
+      <property name="value" value="(contentList)" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
