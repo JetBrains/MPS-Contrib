@@ -48,5 +48,20 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1166472279594">
+    <property name="rootable" value="true" />
+    <property name="name" value="Document" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1166472279595">
+      <property name="name" value="path" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1166472279596">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="rootElement" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="2.1163723085294" />
+    </node>
+  </node>
 </model>
 
