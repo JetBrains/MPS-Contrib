@@ -267,15 +267,14 @@
         <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166316142548">
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166316142549">
             <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166316156295">
-              <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166316160003">
-                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166316158595">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166316158063" />
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166316159502">
+              <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166498598153">
+                <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166498603545">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166498603513" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166498606781">
                     <link role="link" targetNodeId="1.1163723170454" />
                   </node>
-                </node>
-                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1166316161614">
-                  <link role="property" targetNodeId="1.1166231449055" />
                 </node>
               </node>
             </node>
