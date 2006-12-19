@@ -4,11 +4,12 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <maxImportIndex value="27" />
+  <maxImportIndex value="29" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="14" modelUID="java.lang@java_stub" />
-  <import index="27" modelUID="webr.xmlInternal.structure" />
+  <import index="28" modelUID="webr.util@java_stub" />
+  <import index="29" modelUID="jetbrains.mps.smodel@java_stub" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
@@ -76,11 +77,10 @@
       <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166301006370">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166301006371">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166301034150">
-            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166301036418">
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166301035917" />
-              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1166301038513">
-                <link role="property" targetNodeId="1.1166231449055" />
-              </node>
+            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166497903936">
+              <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
+              <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166498131801" />
             </node>
           </node>
         </node>
