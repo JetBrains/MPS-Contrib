@@ -120,6 +120,7 @@
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304045428">
               <property name="drawBorder" value="false" />
+              <property name="name" value="ver1" />
               <property name="vertical" value="true" />
               <link role="relationDeclaration" targetNodeId="1.1163629255661" />
               <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304045429">
@@ -135,6 +136,7 @@
         </node>
         <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304051499">
           <property name="drawBorder" value="false" />
+          <property name="name" value="ver2" />
           <property name="vertical" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304051500">
@@ -169,6 +171,7 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166316633199">
             <property name="drawBorder" value="false" />
+            <property name="name" value="hor2" />
             <link role="relationDeclaration" targetNodeId="1.1163629255661" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316633200">
               <property name="editable" value="true" />
@@ -182,6 +185,7 @@
         </node>
         <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166316671278">
           <property name="drawBorder" value="false" />
+          <property name="name" value="hor1" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316671279">
             <property name="editable" value="true" />
