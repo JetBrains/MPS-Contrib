@@ -521,15 +521,14 @@
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166315705104">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166315715651">
             <node role="expression" type="jetbrains.mps.baseLanguage.NotExpression" id="1166315738196">
-              <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166315738197">
-                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166315738198">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166315738199" />
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166315738200">
+              <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166577902296">
+                <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166577922860">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166577904250" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166577924471">
                     <link role="link" targetNodeId="1.1163723170454" />
                   </node>
-                </node>
-                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1166315738201">
-                  <link role="property" targetNodeId="1.1166231449055" />
                 </node>
               </node>
             </node>
@@ -569,15 +568,14 @@
       <node role="isApplicableFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_IsApplicableFunction" id="1166316985074">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166316985075">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166316987170">
-            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166316992190">
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166316990157">
-                <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166316989687" />
-                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166316991377">
+            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166577945379">
+              <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
+              <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166577945380">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166577945381" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166577945382">
                   <link role="link" targetNodeId="1.1163723170454" />
                 </node>
-              </node>
-              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1166316993379">
-                <link role="property" targetNodeId="1.1166231449055" />
               </node>
             </node>
           </node>
