@@ -14,7 +14,7 @@
     <moduleRoot path="${mps_home}\projects\webr\languages\gtext\gtext.mpl" />
   </module>
   <accessoryModels />
-  <targetOfGenerator generatorClass="jetbrains.mps.xml.generator.target.DefaultXmlGenerator" />
+  <targetOfGenerator />
   <generators>
     <generator generatorUID="webr.xml#1163716442262" targetLanguage="jetbrains.mps.baseLanguage">
       <models>
