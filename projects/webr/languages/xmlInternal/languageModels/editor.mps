@@ -121,7 +121,7 @@
     <link role="conceptDeclaration" targetNodeId="1.1166707460184" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166707553376">
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166707566612">
-        <property name="text" value="contentExpression" />
+        <property name="text" value="textExpression" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1166707580052">
         <link role="relationDeclaration" targetNodeId="1.1166707506435" />
