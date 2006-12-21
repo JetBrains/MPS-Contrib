@@ -3,6 +3,9 @@
   <structure>
     <model modelUID="webr.xml.structure" />
   </structure>
+  <actions>
+    <model modelUID="webr.xml.actions" />
+  </actions>
   <editor>
     <model modelUID="webr.xml.editor" />
   </editor>
