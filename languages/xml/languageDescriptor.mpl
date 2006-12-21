@@ -11,7 +11,7 @@
   </models>
   <module />
   <accessoryModels />
-  <targetOfGenerator generatorClass="jetbrains.mps.xml.generator.target.DefaultXmlGenerator" />
+  <targetOfGenerator />
   <generators>
     <generator name="XML" generatorUID="jetbrains.mps.xml#1129923280838" targetLanguage="jetbrains.mps.xml">
       <models>
