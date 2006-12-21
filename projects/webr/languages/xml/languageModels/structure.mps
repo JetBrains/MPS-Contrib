@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xml.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="3" />
+  <maxImportIndex value="4" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <import index="3" modelUID="webr.xml.structure" />
+  <import index="4" modelUID="jetbrains.mps.baseLanguage.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371727643">
     <property name="name" value="Content" />
     <link role="extends" targetNodeId="1.1133920641626" />
@@ -124,6 +125,20 @@
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1165235282019">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1166719760616">
+    <property name="name" value="ExpressionText" />
+    <link role="extends" targetNodeId="1163340203555" resolveInfo="BaseText" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1166719760617">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="expression" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="4.1068431790191" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1166719760618">
+      <property name="value" value="#{expression}" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
 </model>
