@@ -60,7 +60,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1166707460184">
-    <property name="name" value="ContentExpression" />
+    <property name="name" value="TextExpression" />
     <link role="extends" targetNodeId="5.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1166707506435">
       <property name="sourceCardinality" value="1" />
