@@ -9,7 +9,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeFactories" id="1166732178431">
     <property name="name" value="xml_node_factories" />
     <node role="nodeFactory" type="jetbrains.mps.bootstrap.actionsLanguage.NodeFactory" id="1166732267775">
-      <property name="description" value="creating default text child" />
       <link role="applicableConcept" targetNodeId="1.1163723085294" />
       <node role="setupFunction" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSetupFunction" id="1166732267776">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166732267777">
@@ -27,6 +26,26 @@
                 </node>
               </node>
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.LinkList_AddNewChildOperation" id="1166732843721">
+                <link role="concept" targetNodeId="1.1161373262136" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="nodeFactory" type="jetbrains.mps.bootstrap.actionsLanguage.NodeFactory" id="1166734414481">
+      <link role="applicableConcept" targetNodeId="1.1161989785017" />
+      <node role="setupFunction" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSetupFunction" id="1166734414482">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166734414483">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1166734427734">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166734444051">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166734430064">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSetupFunction_NewNode" id="1166734427735" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166734431440">
+                  <link role="link" targetNodeId="1.1161990719219" />
+                </node>
+              </node>
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Link_SetNewChildOperation" id="1166734452177">
                 <link role="concept" targetNodeId="1.1161373262136" />
               </node>
             </node>
