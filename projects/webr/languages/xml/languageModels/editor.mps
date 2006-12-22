@@ -724,5 +724,12 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1166802885616">
+    <link role="conceptDeclaration" targetNodeId="1.1163340203555" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1166802888430">
+      <property name="text" value="baseText" />
+      <property name="drawBorder" value="false" />
+    </node>
+  </node>
 </model>
 
