@@ -49,7 +49,7 @@
     <property name="name" value="TextExpression" />
     <link role="extends" targetNodeId="5.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1166707506435">
-      <property name="sourceCardinality" value="1" />
+      <property name="sourceCardinality" value="0..1" />
       <property name="role" value="baseText" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="2.1163340203555" />
