@@ -153,5 +153,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167523027466">
+    <property name="name" value="KnownElement" />
+    <link role="extends" targetNodeId="1167522915419" resolveInfo="BaseElement" />
+  </node>
 </model>
 
