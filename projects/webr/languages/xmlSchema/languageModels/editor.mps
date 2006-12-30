@@ -38,6 +38,13 @@
           <property name="drawBorder" value="false" />
         </node>
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167513487022" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167513860213">
+    <link role="conceptDeclaration" targetNodeId="1.1167513851570" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167513862574">
+      <property name="text" value="declaration" />
     </node>
   </node>
 </model>

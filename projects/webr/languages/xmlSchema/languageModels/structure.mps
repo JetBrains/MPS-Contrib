@@ -5,12 +5,19 @@
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167512696010">
     <property name="name" value="ElementDeclaration" />
-    <link role="extends" targetNodeId="1.1133920641626" />
+    <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167513239198">
     <property name="rootable" value="true" />
     <property name="name" value="Schema" />
     <link role="extends" targetNodeId="1.1078489098625" />
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167513851570">
+    <property name="name" value="Declaration" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167513857540">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
   </node>
 </model>
 
