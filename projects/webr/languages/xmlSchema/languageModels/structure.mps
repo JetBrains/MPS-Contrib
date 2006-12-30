@@ -26,6 +26,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167513851570" resolveInfo="Declaration" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167521381789">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="rootConceptReference" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167521027799" resolveInfo="RootConceptReference" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167513851570">
     <property name="name" value="Declaration" />
