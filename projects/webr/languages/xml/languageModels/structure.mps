@@ -85,7 +85,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163723085294">
     <property name="name" value="Element" />
-    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <link role="extends" targetNodeId="1167522915419" resolveInfo="BaseElement" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1163723196831">
       <property name="value" value="&lt;element&gt;" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -144,6 +144,13 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1166719760618">
       <property name="value" value="#{expression}" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167522915419">
+    <property name="name" value="BaseElement" />
+    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167522926107">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
 </model>
