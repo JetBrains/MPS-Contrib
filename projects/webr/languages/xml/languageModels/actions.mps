@@ -56,6 +56,10 @@
   </node>
   <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActions" id="1167519968820">
     <property name="name" value="xml_nodeSubstitute" />
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167519982306">
+      <property name="actionsFactoryAspectId" value="Content" />
+      <link role="applicableConcept" targetNodeId="1.1161371727643" />
+    </node>
   </node>
 </model>
 
