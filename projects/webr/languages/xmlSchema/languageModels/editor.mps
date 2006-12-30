@@ -18,6 +18,12 @@
           <property name="text" value="element" />
           <property name="drawBorder" value="false" />
         </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167514404113">
+          <property name="textFgColor" value="DARK_BLUE" />
+          <property name="fontStyle" value="BOLD" />
+          <property name="drawBorder" value="false" />
+          <link role="relationDeclaration" targetNodeId="1.1167514383002" />
+        </node>
       </node>
     </node>
   </node>

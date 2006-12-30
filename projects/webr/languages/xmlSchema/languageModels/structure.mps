@@ -6,6 +6,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167512696010">
     <property name="name" value="ElementDeclaration" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167514383002">
+      <property name="name" value="elementName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167514117391">
       <property name="value" value="elementDeclaration" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
