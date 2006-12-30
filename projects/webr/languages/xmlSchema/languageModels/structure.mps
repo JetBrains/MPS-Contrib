@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlSchema.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="1" />
+  <maxImportIndex value="2" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
+  <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167512696010">
     <property name="name" value="ElementDeclaration" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
@@ -31,6 +32,15 @@
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167513857540">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167521027799">
+    <property name="name" value="RootConceptReference" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167521057737">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="conceptDeclaration" />
+      <link role="target" targetNodeId="2.1071489090640" />
     </node>
   </node>
 </model>

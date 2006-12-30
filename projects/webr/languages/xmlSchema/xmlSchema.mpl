@@ -10,7 +10,9 @@
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xmlSchema" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xmlSchema" />
   </models>
-  <module />
+  <module>
+    <moduleRoot path="${mps_home}\languages\bootstrap\structureLanguage\languageDescriptor.mpl" />
+  </module>
   <accessoryModels />
   <generators />
   <classPath />
