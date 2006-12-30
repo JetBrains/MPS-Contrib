@@ -54,5 +54,8 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActions" id="1167519968820">
+    <property name="name" value="xml_nodeSubstitute" />
+  </node>
 </model>
 
