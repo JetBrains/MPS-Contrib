@@ -38,6 +38,9 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167591101530">
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1167591072023" />
+          <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167592470471">
+            <property name="drawBorder" value="false" />
+          </node>
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167530957677">
