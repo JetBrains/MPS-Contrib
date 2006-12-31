@@ -132,5 +132,15 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167598706590">
+    <property name="name" value="GroupExpressionContent" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167598747458">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="elementReference" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167531070757" resolveInfo="ElementReference" />
+    </node>
+  </node>
 </model>
 
