@@ -158,6 +158,7 @@
         <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167531223497">
+        <property name="separatorText" value="," />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1167531203932" />
         <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167531283106">
@@ -178,6 +179,7 @@
       <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167531095074">
         <link role="conceptDeclaration" targetNodeId="1.1167512696010" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167531098904">
+          <property name="textFgColor" value="blue" />
           <property name="drawBorder" value="false" />
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1167514383002" />
