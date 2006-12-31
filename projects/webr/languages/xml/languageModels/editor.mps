@@ -300,7 +300,7 @@
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1166316146400">
               <property name="drawBorder" value="false" />
-              <link role="relationDeclaration" targetNodeId="1.1163723170454" />
+              <link role="relationDeclaration" targetNodeId="1.1167524809395" />
             </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1166316146401">
@@ -346,7 +346,7 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1166316271946">
             <property name="drawBorder" value="false" />
-            <link role="relationDeclaration" targetNodeId="1.1163723170454" />
+            <link role="relationDeclaration" targetNodeId="1.1167524809395" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316285804">
             <property name="text" value="&lt;/" />
