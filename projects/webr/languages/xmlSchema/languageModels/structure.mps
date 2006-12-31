@@ -69,5 +69,9 @@
     <property name="name" value="ComplexTypeContent" />
     <link role="extends" targetNodeId="1.1133920641626" />
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167529299092">
+    <property name="name" value="GroupAttributeContent" />
+    <link role="extends" targetNodeId="1167528917685" resolveInfo="ComplexTypeContent" />
+  </node>
 </model>
 
