@@ -96,5 +96,14 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167531070757">
+    <property name="name" value="ElementReference" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167531079758">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="elementDeclaration" />
+      <link role="target" targetNodeId="1167512696010" resolveInfo="ElementDeclaration" />
+    </node>
+  </node>
 </model>
 
