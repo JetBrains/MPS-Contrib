@@ -102,10 +102,6 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1163723419051" resolveInfo="AttributeList" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167515935385">
-      <property name="role" value="elementDeclaration" />
-      <link role="target" targetNodeId="5.1167512696010" />
-    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1163723109232">
       <property name="name" value="name" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -156,6 +152,11 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167523027466">
     <property name="name" value="KnownElement" />
     <link role="extends" targetNodeId="1167522915419" resolveInfo="BaseElement" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167523262932">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="elementDeclaration" />
+      <link role="target" targetNodeId="5.1167512696010" />
+    </node>
   </node>
 </model>
 
