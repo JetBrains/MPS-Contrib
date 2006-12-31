@@ -105,5 +105,17 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167528928670">
+    <link role="conceptDeclaration" targetNodeId="1.1167528917685" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167528930157">
+      <property name="text" value="complexTypeContent" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167528966487">
+    <link role="conceptDeclaration" targetNodeId="1.1167527836415" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167528969317">
+      <link role="relationDeclaration" targetNodeId="1.1167528950236" />
+    </node>
+  </node>
 </model>
 
