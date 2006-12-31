@@ -38,6 +38,10 @@
           <property name="text" value="type:" />
           <property name="drawBorder" value="false" />
         </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167529078518">
+          <property name="drawBorder" value="false" />
+          <link role="relationDeclaration" targetNodeId="1.1167527862573" />
+        </node>
       </node>
     </node>
   </node>
@@ -109,11 +113,13 @@
     <link role="conceptDeclaration" targetNodeId="1.1167528917685" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167528930157">
       <property name="text" value="complexTypeContent" />
+      <property name="drawBorder" value="false" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167528966487">
     <link role="conceptDeclaration" targetNodeId="1.1167527836415" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167528969317">
+      <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1167528950236" />
     </node>
   </node>
