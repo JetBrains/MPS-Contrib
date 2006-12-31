@@ -70,6 +70,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167531070757" resolveInfo="ElementReference" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167598843765">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="groupExpressionContent" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167598706590" resolveInfo="GroupExpressionContent" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167530163513">
       <property name="value" value="sequence" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
