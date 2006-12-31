@@ -102,6 +102,12 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167597273853">
     <property name="name" value="GroupDeclaration" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167598158349">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="groupExpression" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167598074872" resolveInfo="GroupExpression" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167597749542">
       <property name="name" value="groupName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
