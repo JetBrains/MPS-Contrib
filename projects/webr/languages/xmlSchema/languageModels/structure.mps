@@ -7,12 +7,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167512696010">
     <property name="name" value="ElementDeclaration" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167590394881">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="complexTypeContent" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167528917685" resolveInfo="ComplexTypeContent" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167591072023">
       <property name="sourceCardinality" value="1..n" />
       <property name="role" value="typeExpression" />
@@ -67,32 +61,9 @@
       <link role="target" targetNodeId="2.1071489090640" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167528917685">
-    <property name="name" value="ComplexTypeContent" />
-    <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167529630418">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167529299092">
-    <property name="name" value="GroupAttributeContent" />
-    <link role="extends" targetNodeId="1167528917685" resolveInfo="ComplexTypeContent" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167529666017">
-      <property name="role" value="modelGroupComponent" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167529605995" resolveInfo="ModelGroupComponent" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167529605995">
-    <property name="name" value="ModelGroupComponent" />
-    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167529644357">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167530070286">
     <property name="name" value="Sequence" />
-    <link role="extends" targetNodeId="1167529605995" resolveInfo="ModelGroupComponent" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167531203932">
       <property name="sourceCardinality" value="1..n" />
       <property name="role" value="elementReference" />
