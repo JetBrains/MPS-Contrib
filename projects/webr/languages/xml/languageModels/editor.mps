@@ -731,5 +731,20 @@
       <property name="drawBorder" value="false" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167523152214">
+    <link role="conceptDeclaration" targetNodeId="1.1167523027466" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167523155701">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167523167157">
+        <property name="selectable" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167523169112">
+          <property name="text" value="&lt;" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167523171927">
+          <property name="text" value="&gt;" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
