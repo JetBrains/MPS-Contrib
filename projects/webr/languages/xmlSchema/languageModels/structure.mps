@@ -70,12 +70,6 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167531070757" resolveInfo="ElementReference" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167598843765">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="groupExpressionContent" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167598706590" resolveInfo="GroupExpressionContent" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167530163513">
       <property name="value" value="sequence" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -136,16 +130,6 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167598435306">
       <property name="value" value="choice" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167598706590">
-    <property name="name" value="GroupExpressionContent" />
-    <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167598747458">
-      <property name="sourceCardinality" value="1..n" />
-      <property name="role" value="elementReference" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167531070757" resolveInfo="ElementReference" />
     </node>
   </node>
 </model>

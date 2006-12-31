@@ -140,10 +140,6 @@
         <property name="text" value=")" />
         <property name="drawBorder" value="false" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167598863814">
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1167598843765" />
-      </node>
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167531091462">
@@ -216,28 +212,6 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167598450906">
         <property name="textFgColor" value="DARK_MAGENTA" />
         <property name="text" value="choice" />
-        <property name="drawBorder" value="false" />
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167598722153">
-    <link role="conceptDeclaration" targetNodeId="1.1167598706590" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167598728438">
-      <property name="drawBorder" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167598730424">
-        <property name="text" value="(" />
-        <property name="drawBorder" value="false" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167598763507">
-        <property name="separatorText" value="," />
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1167598747458" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167598768664">
-          <property name="drawBorder" value="false" />
-        </node>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167598734192">
-        <property name="text" value=")" />
         <property name="drawBorder" value="false" />
       </node>
     </node>
