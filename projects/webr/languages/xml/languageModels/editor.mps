@@ -159,7 +159,7 @@
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_GetParentOperation" id="1166316647097" />
                 </node>
                 <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_IsInstanceOfOperation" id="1166316650443">
-                  <link role="concept" targetNodeId="1.1163723085294" />
+                  <link role="concept" targetNodeId="1.1167522915419" />
                 </node>
               </node>
             </node>
