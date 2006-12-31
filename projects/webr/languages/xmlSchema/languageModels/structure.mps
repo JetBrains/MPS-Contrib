@@ -13,6 +13,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167528917685" resolveInfo="ComplexTypeContent" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167591072023">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="typeExpression" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167514383002">
       <property name="name" value="elementName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -79,7 +85,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167529605995">
     <property name="name" value="ModelGroupComponent" />
-    <link role="extends" targetNodeId="1.1133920641626" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167529644357">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
