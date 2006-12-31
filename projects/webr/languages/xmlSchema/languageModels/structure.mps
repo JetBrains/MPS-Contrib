@@ -18,7 +18,7 @@
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167514117391">
-      <property name="value" value="elementDeclaration" />
+      <property name="value" value="element" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
@@ -96,6 +96,14 @@
     <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167593517697">
       <property name="value" value="mixed" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167597273853">
+    <property name="name" value="GroupDeclaration" />
+    <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167597283979">
+      <property name="value" value="group" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
