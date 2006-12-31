@@ -45,6 +45,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167530957677">
         <property name="drawBorder" value="false" />
+        <property name="selectable" value="false" />
       </node>
     </node>
   </node>
