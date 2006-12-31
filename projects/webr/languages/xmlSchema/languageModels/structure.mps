@@ -63,7 +63,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167530070286">
     <property name="name" value="Sequence" />
-    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <link role="extends" targetNodeId="1167598074872" resolveInfo="GroupExpression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167531203932">
       <property name="sourceCardinality" value="1..n" />
       <property name="role" value="elementReference" />
@@ -102,9 +102,20 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167597273853">
     <property name="name" value="GroupDeclaration" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167597749542">
+      <property name="name" value="groupName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167597283979">
       <property name="value" value="group" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167598074872">
+    <property name="name" value="GroupExpression" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167598089717">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
 </model>

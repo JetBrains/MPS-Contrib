@@ -151,6 +151,7 @@
         <link role="conceptDeclaration" targetNodeId="1.1167512696010" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167531098904">
           <property name="textFgColor" value="blue" />
+          <property name="fontStyle" value="BOLD" />
           <property name="drawBorder" value="false" />
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1167514383002" />
@@ -182,6 +183,21 @@
         <property name="text" value="group" />
         <property name="drawBorder" value="false" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167597758419">
+        <property name="textFgColor" value="blue" />
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1167597749542" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167597770531">
+        <property name="text" value=": " />
+        <property name="drawBorder" value="false" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167598096093">
+    <link role="conceptDeclaration" targetNodeId="1.1167598074872" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167598097970">
+      <property name="text" value="groupExpression" />
     </node>
   </node>
 </model>
