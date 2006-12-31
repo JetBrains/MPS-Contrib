@@ -3,6 +3,9 @@
   <structure>
     <model modelUID="webr.xmlSchema.structure" />
   </structure>
+  <constraints>
+    <model modelUID="webr.xmlSchema.constraints" />
+  </constraints>
   <editor>
     <model modelUID="webr.xmlSchema.editor" />
   </editor>
