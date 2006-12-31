@@ -257,8 +257,8 @@
                 <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166498603545">
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166498603513" />
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1166498606781">
-                    <link role="link" targetNodeId="1.1163723170454" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167525390325">
+                    <link role="link" targetNodeId="1.1167524809395" />
                   </node>
                 </node>
               </node>

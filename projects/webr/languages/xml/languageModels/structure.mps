@@ -90,12 +90,6 @@
       <property name="value" value="&lt;element&gt;" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1163723170454">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="contentList" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1163629230879" resolveInfo="ContentList" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1163723503435">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="attributeList" />
