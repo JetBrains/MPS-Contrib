@@ -177,5 +177,13 @@
       <property name="drawBorder" value="false" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167593521995">
+    <link role="conceptDeclaration" targetNodeId="1.1167593501743" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167593524357">
+      <property name="textFgColor" value="DARK_MAGENTA" />
+      <property name="text" value="mixed" />
+      <property name="drawBorder" value="false" />
+    </node>
+  </node>
 </model>
 

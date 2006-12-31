@@ -91,5 +91,13 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167593501743">
+    <property name="name" value="MixedAttribute" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167593517697">
+      <property name="value" value="mixed" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
 </model>
 
