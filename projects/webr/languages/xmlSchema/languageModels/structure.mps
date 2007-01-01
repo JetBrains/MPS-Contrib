@@ -163,6 +163,14 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167613643739">
     <property name="name" value="OccursAttribute" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167613813068">
+      <property name="name" value="minOccurs" />
+      <link role="dataType" targetNodeId="1167613844319" resolveInfo="nonNegativeInteger" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConstrainedDataTypeDeclaration" id="1167613844319">
+    <property name="constraint" value="[0-9]+" />
+    <property name="name" value="nonNegativeInteger" />
   </node>
 </model>
 
