@@ -214,6 +214,11 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167617441340">
+      <property name="role" value="mixedAttribute" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167593501743" resolveInfo="MixedAttribute" />
+    </node>
   </node>
 </model>
 
