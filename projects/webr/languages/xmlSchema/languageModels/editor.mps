@@ -235,15 +235,19 @@
     <link role="conceptDeclaration" targetNodeId="1.1167611008071" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167611024997">
       <property name="text" value="referenceExpression" />
+      <property name="drawBorder" value="false" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167611675668">
     <link role="conceptDeclaration" targetNodeId="1.1167611637510" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167611679733">
+      <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1167611656526" />
       <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167611679734">
         <link role="conceptDeclaration" targetNodeId="1.1167597273853" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167611683111">
+          <property name="textFgColor" value="blue" />
+          <property name="drawBorder" value="false" />
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1167597749542" />
         </node>
