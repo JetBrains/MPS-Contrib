@@ -348,8 +348,24 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167618379609">
     <link role="conceptDeclaration" targetNodeId="1.1167618352310" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167618382346">
+      <property name="drawBorder" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167618384598">
+        <property name="textFgColor" value="DARK_MAGENTA" />
         <property name="text" value="extension" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167618617991">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1167618599536" />
+        <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167618617992">
+          <link role="conceptDeclaration" targetNodeId="1.1167615791597" />
+          <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167618620807">
+            <property name="textFgColor" value="blue" />
+            <property name="drawBorder" value="false" />
+            <property name="readOnly" value="true" />
+            <link role="relationDeclaration" targetNodeId="1.1167615988144" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -225,6 +225,11 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167618352310">
     <property name="name" value="Extension" />
     <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167618599536">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="complexType" />
+      <link role="target" targetNodeId="1167615791597" resolveInfo="ComplexType" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167618373217">
       <property name="value" value="extension" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
