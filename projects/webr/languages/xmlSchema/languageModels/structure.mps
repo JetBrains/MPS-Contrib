@@ -196,6 +196,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167615791597">
     <property name="name" value="ComplexType" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167615988144">
+      <property name="name" value="typeName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167615820698">
       <property name="value" value="complexType" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />

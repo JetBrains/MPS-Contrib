@@ -302,8 +302,20 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167615804489">
     <link role="conceptDeclaration" targetNodeId="1.1167615791597" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167615807148">
+      <property name="drawBorder" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167615808915">
+        <property name="textFgColor" value="DARK_MAGENTA" />
         <property name="text" value="complexType" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167615999365">
+        <property name="textFgColor" value="blue" />
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1167615988144" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167616011085">
+        <property name="text" value=": " />
+        <property name="drawBorder" value="false" />
       </node>
     </node>
   </node>
