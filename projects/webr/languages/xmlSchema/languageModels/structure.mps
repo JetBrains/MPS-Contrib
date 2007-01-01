@@ -145,5 +145,14 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167611637510">
+    <property name="name" value="GroupReference" />
+    <link role="extends" targetNodeId="1167611008071" resolveInfo="ReferenceExpression" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167611656526">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="groupDeclaration" />
+      <link role="target" targetNodeId="1167597273853" resolveInfo="GroupDeclaration" />
+    </node>
+  </node>
 </model>
 

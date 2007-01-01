@@ -237,5 +237,18 @@
       <property name="text" value="referenceExpression" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167611675668">
+    <link role="conceptDeclaration" targetNodeId="1.1167611637510" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167611679733">
+      <link role="relationDeclaration" targetNodeId="1.1167611656526" />
+      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167611679734">
+        <link role="conceptDeclaration" targetNodeId="1.1167597273853" />
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167611683111">
+          <property name="readOnly" value="true" />
+          <link role="relationDeclaration" targetNodeId="1.1167597749542" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
