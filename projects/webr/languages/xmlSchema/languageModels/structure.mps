@@ -129,9 +129,9 @@
     <link role="extends" targetNodeId="1167598074872" resolveInfo="GroupExpression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167610080186">
       <property name="sourceCardinality" value="1..n" />
-      <property name="role" value="elementReference" />
+      <property name="role" value="referenceExpression" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167531070757" resolveInfo="ElementReference" />
+      <link role="target" targetNodeId="1167611008071" resolveInfo="ReferenceExpression" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167598435306">
       <property name="value" value="choice" />
