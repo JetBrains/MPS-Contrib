@@ -133,6 +133,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167611008071" resolveInfo="ReferenceExpression" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167613671793">
+      <property name="sourceCardinality" value="0..1" />
+      <property name="role" value="occursAttribute" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167613643739" resolveInfo="OccursAttribute" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167598435306">
       <property name="value" value="choice" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -153,6 +159,10 @@
       <property name="role" value="groupDeclaration" />
       <link role="target" targetNodeId="1167597273853" resolveInfo="GroupDeclaration" />
     </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167613643739">
+    <property name="name" value="OccursAttribute" />
+    <link role="extends" targetNodeId="1.1133920641626" />
   </node>
 </model>
 
