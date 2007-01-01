@@ -284,5 +284,11 @@
       <property name="drawBorder" value="false" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167614833105">
+    <link role="conceptDeclaration" targetNodeId="1.1167614803853" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167614837295">
+      <property name="text" value="unbounded" />
+    </node>
+  </node>
 </model>
 

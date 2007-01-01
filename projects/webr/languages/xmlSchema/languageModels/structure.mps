@@ -185,5 +185,13 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167614803853">
+    <property name="name" value="UnboundedExpression" />
+    <link role="extends" targetNodeId="1167614628572" resolveInfo="MaxOccursExpression" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167614827839">
+      <property name="value" value="unbounded" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
 </model>
 
