@@ -164,12 +164,8 @@
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167613813068">
       <property name="name" value="minOccurs" />
-      <link role="dataType" targetNodeId="1167613844319" resolveInfo="nonNegativeInteger" />
+      <link role="dataType" targetNodeId="1.1082983657062" />
     </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConstrainedDataTypeDeclaration" id="1167613844319">
-    <property name="constraint" value="[0-9]+" />
-    <property name="name" value="nonNegativeInteger" />
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167614628572">
     <property name="name" value="MaxOccursExpression" />
