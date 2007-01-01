@@ -66,9 +66,9 @@
     <link role="extends" targetNodeId="1167598074872" resolveInfo="GroupExpression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167531203932">
       <property name="sourceCardinality" value="1..n" />
-      <property name="role" value="referenceExpression" />
+      <property name="role" value="typeExpression" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167611008071" resolveInfo="ReferenceExpression" />
+      <link role="target" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167530163513">
       <property name="value" value="sequence" />
@@ -77,7 +77,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167531070757">
     <property name="name" value="ElementReference" />
-    <link role="extends" targetNodeId="1167611008071" resolveInfo="ReferenceExpression" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167531079758">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="elementDeclaration" />
@@ -129,9 +129,9 @@
     <link role="extends" targetNodeId="1167598074872" resolveInfo="GroupExpression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167610080186">
       <property name="sourceCardinality" value="1..n" />
-      <property name="role" value="referenceExpression" />
+      <property name="role" value="typeExpression" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167611008071" resolveInfo="ReferenceExpression" />
+      <link role="target" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167613671793">
       <property name="sourceCardinality" value="0..1" />
@@ -144,16 +144,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167611008071">
-    <property name="name" value="ReferenceExpression" />
-    <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167611018525">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167611637510">
     <property name="name" value="GroupReference" />
-    <link role="extends" targetNodeId="1167611008071" resolveInfo="ReferenceExpression" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167611656526">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="groupDeclaration" />
