@@ -222,5 +222,13 @@
       <link role="target" targetNodeId="1167593501743" resolveInfo="MixedAttribute" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167618352310">
+    <property name="name" value="Extension" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167618373217">
+      <property name="value" value="extension" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
 </model>
 
