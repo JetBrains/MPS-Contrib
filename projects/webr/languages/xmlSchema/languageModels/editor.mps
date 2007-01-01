@@ -271,6 +271,17 @@
         <property name="text" value=":" />
         <property name="drawBorder" value="false" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167614680720">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1167614664687" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167614643074">
+    <link role="conceptDeclaration" targetNodeId="1.1167614628572" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167614645514">
+      <property name="text" value="maxOccursExpression" />
+      <property name="drawBorder" value="false" />
     </node>
   </node>
 </model>
