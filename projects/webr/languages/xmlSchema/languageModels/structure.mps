@@ -94,6 +94,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167593501743">
     <property name="name" value="MixedAttribute" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167620192650">
+      <property name="value" value="mixed" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167597273853">
     <property name="name" value="GroupDeclaration" />
@@ -233,6 +237,28 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167618373217">
       <property name="value" value="extension" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167620500667">
+    <property name="name" value="DeclarationBlock" />
+    <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167620857260">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="textLine" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167620778127" resolveInfo="TextLine" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167620521949">
+      <property name="value" value="declarationBlock" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167620778127">
+    <property name="name" value="TextLine" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167620796487">
+      <property name="name" value="line" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
   </node>
 </model>
