@@ -445,8 +445,11 @@
         <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167711109079">
+        <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1167711088999" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167711113018" />
+        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167711113018">
+          <property name="drawBorder" value="false" />
+        </node>
       </node>
     </node>
   </node>
@@ -454,6 +457,7 @@
     <link role="conceptDeclaration" targetNodeId="1.1167711059994" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167711077123">
       <property name="text" value="attributeExpression" />
+      <property name="drawBorder" value="false" />
     </node>
   </node>
 </model>
