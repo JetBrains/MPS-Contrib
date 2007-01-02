@@ -777,6 +777,10 @@
               </node>
             </node>
           </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167698709198">
+            <property name="drawBorder" value="false" />
+            <link role="relationDeclaration" targetNodeId="1.1167698528814" />
+          </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167579806502">
             <property name="text" value="&gt;" />
             <property name="drawBorder" value="false" />
@@ -839,6 +843,10 @@
               <link role="relationDeclaration" targetNodeId="31.1167514383002" />
             </node>
           </node>
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167698698368">
+          <property name="drawBorder" value="false" />
+          <link role="relationDeclaration" targetNodeId="1.1167698528814" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167579883281">
           <property name="text" value="&gt;" />
