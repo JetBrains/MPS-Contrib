@@ -267,6 +267,12 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167710782427">
     <property name="name" value="AttributeGroup" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167711088999">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="attributeExpression" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167711059994" resolveInfo="AttributeExpression" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167710946714">
       <property name="name" value="attributeGroupName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -274,6 +280,13 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167710912087">
       <property name="value" value="attributeGroup" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167711059994">
+    <property name="name" value="AttributeExpression" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167711069105">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
 </model>

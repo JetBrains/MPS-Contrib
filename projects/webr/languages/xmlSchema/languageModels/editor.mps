@@ -444,6 +444,16 @@
         <property name="text" value=": " />
         <property name="drawBorder" value="false" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167711109079">
+        <link role="relationDeclaration" targetNodeId="1.1167711088999" />
+        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167711113018" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167711074856">
+    <link role="conceptDeclaration" targetNodeId="1.1167711059994" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167711077123">
+      <property name="text" value="attributeExpression" />
     </node>
   </node>
 </model>
