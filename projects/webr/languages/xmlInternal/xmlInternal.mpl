@@ -17,6 +17,7 @@
     <moduleRoot path="${mps_home}\projects\webr\languages\gtext\gtext.mpl" />
     <moduleRoot path="${mps_home}\projects\webr\languages\xml\xml.mpl" />
     <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
+    <moduleRoot path="${mps_home}\projects\webr\languages\xmlSchema\xmlSchema.mpl" />
   </module>
   <accessoryModels />
   <generators>

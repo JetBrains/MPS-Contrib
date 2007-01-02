@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlInternal.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="5" />
+  <maxImportIndex value="6" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="webr.xml.structure" />
   <import index="3" modelUID="webr.xmlInternal.structure" />
   <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" />
+  <import index="6" modelUID="webr.xmlSchema.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1165761580958">
     <property name="name" value="StatementElement" />
     <link role="extends" targetNodeId="2.1161371727643" />
@@ -47,6 +48,11 @@
       <property name="role" value="rootElement" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="2.1163723085294" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167755779835">
+      <property name="sourceCardinality" value="0..1" />
+      <property name="role" value="schema" />
+      <link role="target" targetNodeId="6.1167513239198" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1166707460184">
