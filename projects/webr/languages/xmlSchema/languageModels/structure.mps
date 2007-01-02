@@ -252,5 +252,9 @@
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167697887602">
+    <property name="name" value="Attribute" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+  </node>
 </model>
 
