@@ -47,7 +47,7 @@
       <property name="sourceCardinality" value="1" />
       <property name="role" value="rootElement" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="2.1163723085294" />
+      <link role="target" targetNodeId="2.1167522915419" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167755779835">
       <property name="sourceCardinality" value="0..1" />

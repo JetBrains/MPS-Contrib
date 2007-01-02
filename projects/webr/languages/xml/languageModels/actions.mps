@@ -56,13 +56,13 @@
   </node>
   <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActions" id="1167519968820">
     <property name="name" value="xml_nodeSubstitute" />
-    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167519982306">
-      <property name="actionsFactoryAspectId" value="Content" />
-      <link role="applicableConcept" targetNodeId="1.1161371727643" />
-    </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167699332639">
       <property name="actionsFactoryAspectId" value="BaseAttribute" />
       <link role="applicableConcept" targetNodeId="1.1165235274815" />
+    </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167757687265">
+      <property name="actionsFactoryAspectId" value="Element" />
+      <link role="applicableConcept" targetNodeId="1.1163723085294" />
     </node>
   </node>
 </model>
