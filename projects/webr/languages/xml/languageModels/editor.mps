@@ -884,6 +884,16 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167700380922">
     <link role="conceptDeclaration" targetNodeId="1.1167700349452" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167700384113">
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167701355879">
+        <link role="relationDeclaration" targetNodeId="1.1167701332877" />
+        <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167701355880">
+          <link role="conceptDeclaration" targetNodeId="31.1167697887602" />
+          <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167701361647">
+            <property name="readOnly" value="true" />
+            <link role="relationDeclaration" targetNodeId="31.1167698115100" />
+          </node>
+        </node>
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167700385990">
         <property name="text" value="=" />
       </node>

@@ -164,6 +164,11 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167700349452">
     <property name="name" value="KnownAttribute" />
     <link role="extends" targetNodeId="1165235274815" resolveInfo="BaseAttribute" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167701332877">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="attributeDeclaration" />
+      <link role="target" targetNodeId="5.1167697887602" />
+    </node>
   </node>
 </model>
 
