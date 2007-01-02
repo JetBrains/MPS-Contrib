@@ -60,6 +60,10 @@
       <property name="actionsFactoryAspectId" value="Content" />
       <link role="applicableConcept" targetNodeId="1.1161371727643" />
     </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167699332639">
+      <property name="actionsFactoryAspectId" value="BaseAttribute" />
+      <link role="applicableConcept" targetNodeId="1.1165235274815" />
+    </node>
   </node>
 </model>
 
