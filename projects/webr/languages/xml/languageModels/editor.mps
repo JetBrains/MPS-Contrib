@@ -15,8 +15,8 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="allowEmptyText" value="true" />
       <property name="textFgColor" value="DARK_GREEN" />
+      <property name="allowEmptyText" value="true" />
       <property name="fontStyle" value="BOLD" />
       <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
@@ -240,7 +240,7 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1163723629547">
           <property name="drawBorder" value="false" />
-          <link role="relationDeclaration" targetNodeId="1.1163723503435" />
+          <link role="relationDeclaration" targetNodeId="1.1167698528814" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163723642909">
           <property name="text" value="/&gt;" />
@@ -284,7 +284,7 @@
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1166316146396">
               <property name="drawBorder" value="false" />
-              <link role="relationDeclaration" targetNodeId="1.1163723503435" />
+              <link role="relationDeclaration" targetNodeId="1.1167698528814" />
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316146397">
               <property name="text" value="&gt;" />
@@ -338,7 +338,7 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1166316200646">
             <property name="drawBorder" value="false" />
-            <link role="relationDeclaration" targetNodeId="1.1163723503435" />
+            <link role="relationDeclaration" targetNodeId="1.1167698528814" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316200647">
             <property name="text" value="&gt;" />
