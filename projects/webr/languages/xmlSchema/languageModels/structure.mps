@@ -254,7 +254,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167697887602">
     <property name="name" value="AttributeDeclaration" />
-    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <link role="extends" targetNodeId="1167711059994" resolveInfo="AttributeExpression" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167698115100">
       <property name="name" value="attributeName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -284,7 +284,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167711059994">
     <property name="name" value="AttributeExpression" />
-    <link role="extends" targetNodeId="1.1133920641626" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167711069105">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
