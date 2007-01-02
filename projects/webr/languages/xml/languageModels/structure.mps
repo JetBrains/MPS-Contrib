@@ -94,10 +94,6 @@
       <property name="name" value="name" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1163723122999">
-      <property name="name" value="isEmpty" />
-      <link role="dataType" targetNodeId="1.1082983657063" />
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163723419051">
     <property name="name" value="AttributeList" />
@@ -133,6 +129,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167522915419">
     <property name="name" value="BaseElement" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167707087891">
+      <property name="name" value="isEmpty" />
+      <link role="dataType" targetNodeId="1.1082983657063" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167524809395">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="contentList" />
