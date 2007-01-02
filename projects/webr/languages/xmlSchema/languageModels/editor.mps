@@ -460,5 +460,18 @@
       <property name="drawBorder" value="false" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167711447917">
+    <link role="conceptDeclaration" targetNodeId="1.1167711418665" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167711450747">
+      <link role="relationDeclaration" targetNodeId="1.1167711433182" />
+      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167711450748">
+        <link role="conceptDeclaration" targetNodeId="1.1167710782427" />
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167711453109">
+          <property name="readOnly" value="true" />
+          <link role="relationDeclaration" targetNodeId="1.1167710946714" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
