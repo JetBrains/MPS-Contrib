@@ -253,7 +253,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167697887602">
-    <property name="name" value="Attribute" />
+    <property name="name" value="AttributeDeclaration" />
     <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167698115100">
       <property name="name" value="attributeName" />
