@@ -434,6 +434,16 @@
         <property name="text" value="attributeGroup" />
         <property name="drawBorder" value="false" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167710972591">
+        <property name="textFgColor" value="blue" />
+        <property name="fontStyle" value="ITALIC" />
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1167710946714" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167711158835">
+        <property name="text" value=": " />
+        <property name="drawBorder" value="false" />
+      </node>
     </node>
   </node>
 </model>
