@@ -169,6 +169,12 @@
       <property name="role" value="attributeDeclaration" />
       <link role="target" targetNodeId="5.1167697887602" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167703268127">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="value" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1163340203555" resolveInfo="BaseText" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167701543016">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>

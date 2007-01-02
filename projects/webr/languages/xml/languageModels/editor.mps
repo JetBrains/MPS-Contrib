@@ -906,6 +906,9 @@
         <property name="text" value="&quot;" />
         <property name="drawBorder" value="false" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167703291707">
+        <link role="relationDeclaration" targetNodeId="1.1167703268127" />
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167701628076">
         <property name="text" value="&quot;" />
         <property name="drawBorder" value="false" />
