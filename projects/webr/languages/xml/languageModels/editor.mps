@@ -371,8 +371,8 @@
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapDeclaration" id="1166220073978">
     <property name="everyModel" value="true" />
-    <property name="name" value="Element_keymap" />
-    <link role="applicableConcept" targetNodeId="1.1163723085294" />
+    <property name="name" value="BaseElement_keymap" />
+    <link role="applicableConcept" targetNodeId="1.1167522915419" />
     <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapItem" id="1166220162470">
       <property name="showInPopup" value="true" />
       <property name="description" value="make element empty" />
