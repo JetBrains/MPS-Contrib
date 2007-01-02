@@ -38,6 +38,10 @@
     <property name="rootable" value="true" />
     <property name="name" value="Document" />
     <link role="extends" targetNodeId="1.1078489098625" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167755304238">
+      <property name="name" value="documentName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1166472279596">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="rootElement" />
