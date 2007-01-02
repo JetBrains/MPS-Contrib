@@ -445,6 +445,7 @@
         <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167711109079">
+        <property name="separatorText" value="," />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1167711088999" />
         <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167711113018">
