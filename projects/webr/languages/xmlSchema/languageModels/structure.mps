@@ -264,5 +264,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167710782427">
+    <property name="name" value="AttributeGroup" />
+    <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+  </node>
 </model>
 
