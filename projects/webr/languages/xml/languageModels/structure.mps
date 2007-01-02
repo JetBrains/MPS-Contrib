@@ -161,5 +161,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167700349452">
+    <property name="name" value="KnownAttribute" />
+    <link role="extends" targetNodeId="1165235274815" resolveInfo="BaseAttribute" />
+  </node>
 </model>
 

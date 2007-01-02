@@ -881,5 +881,13 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167700380922">
+    <link role="conceptDeclaration" targetNodeId="1.1167700349452" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167700384113">
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167700385990">
+        <property name="text" value="=" />
+      </node>
+    </node>
+  </node>
 </model>
 
