@@ -169,6 +169,9 @@
       <property name="role" value="attributeDeclaration" />
       <link role="target" targetNodeId="5.1167697887602" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167701543016">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
+    </node>
   </node>
 </model>
 

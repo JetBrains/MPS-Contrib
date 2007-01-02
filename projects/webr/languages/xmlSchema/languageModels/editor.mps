@@ -418,7 +418,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167698123899">
         <property name="textFgColor" value="blue" />
-        <property name="fontStyle" value="BOLD" />
+        <property name="fontStyle" value="BOLD_ITALIC" />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1167698115100" />
       </node>
