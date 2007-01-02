@@ -74,6 +74,27 @@
         </node>
       </node>
     </node>
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1167755120556">
+      <link role="applicableConcept" targetNodeId="1.1167513239198" />
+      <link role="applicableProperty" targetNodeId="2.1078489098626" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1167755126291">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167755126292">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167755128362">
+            <node role="expression" type="jetbrains.mps.baseLanguage.PlusExpression" id="1167755135929">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.StringLiteral" id="1167755139526">
+                <property name="value" value=" schema" />
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167755132771">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1167755132176" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1167755134538">
+                  <link role="property" targetNodeId="1.1167754958780" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1167753430535">
     <property name="name" value="xmlSchema_referent" />

@@ -26,6 +26,10 @@
     <property name="rootable" value="true" />
     <property name="name" value="Schema" />
     <link role="extends" targetNodeId="1.1078489098625" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167754958780">
+      <property name="name" value="schemaName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167514029204">
       <property name="sourceCardinality" value="1..n" />
       <property name="role" value="declarationBlock" />

@@ -41,9 +41,9 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167513294893">
         <property name="drawBorder" value="false" />
         <property name="selectable" value="false" />
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167513298317">
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167754971313">
           <property name="drawBorder" value="false" />
-          <link role="relationDeclaration" targetNodeId="2.1078489098626" />
+          <link role="relationDeclaration" targetNodeId="1.1167754958780" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167513302350">
           <property name="text" value="schema" />
