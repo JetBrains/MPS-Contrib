@@ -13,6 +13,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167616437135" resolveInfo="ComplexTypeContent" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167791120274">
+      <property name="sourceCardinality" value="0..1" />
+      <property name="role" value="complexTypeReference" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167514383002">
       <property name="name" value="elementName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
