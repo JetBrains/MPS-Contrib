@@ -105,13 +105,9 @@
         <property name="text" value="(" />
         <property name="drawBorder" value="false" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167531223497">
-        <property name="separatorText" value="," />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167797223191">
         <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1167531203932" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167531283106">
-          <property name="drawBorder" value="false" />
-        </node>
+        <link role="relationDeclaration" targetNodeId="1.1167797203049" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167530569008">
         <property name="text" value=")" />
