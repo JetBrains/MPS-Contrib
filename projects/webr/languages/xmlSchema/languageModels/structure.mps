@@ -194,12 +194,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167618352310">
     <property name="name" value="Extension" />
     <link role="extends" targetNodeId="1167794579628" resolveInfo="ContentItem" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167790720821">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="complexTypeReference" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167797649631">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="typeExpressionList" />
@@ -310,6 +304,12 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167794587363">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167851034776">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="complexTypeReference" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167795596947">
     <property name="name" value="TypeExpressionList" />
@@ -328,12 +328,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167798151953">
     <property name="name" value="SimpleContent" />
     <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167798205299">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="contentItem" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167794579628" resolveInfo="ContentItem" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167798175251">
       <property name="value" value="simpleContent" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
