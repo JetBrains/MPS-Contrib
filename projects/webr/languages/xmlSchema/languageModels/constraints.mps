@@ -43,8 +43,8 @@
       </node>
     </node>
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1167534323225">
-      <link role="applicableConcept" targetNodeId="1.1167512696010" />
       <link role="applicableProperty" targetNodeId="2.1156235010670" />
+      <link role="applicableConcept" targetNodeId="1.1167838236835" />
       <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1167534332945">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167534332946">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167534335091">
