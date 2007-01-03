@@ -303,5 +303,9 @@
       <link role="target" targetNodeId="1167615791597" resolveInfo="ComplexType" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167794310821">
+    <property name="name" value="ComplexContent" />
+    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+  </node>
 </model>
 

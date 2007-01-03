@@ -3,7 +3,7 @@
   <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <maxImportIndex value="24" />
+  <maxImportIndex value="25" />
   <import index="1" modelUID="webr.xmlSchema.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="7" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
@@ -461,6 +461,15 @@
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1167615988144" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167794459025">
+    <link role="conceptDeclaration" targetNodeId="1.1167794310821" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167794462731">
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167794465374">
+        <property name="textFgColor" value="DARK_MAGENTA" />
+        <property name="text" value="complexContent" />
       </node>
     </node>
   </node>
