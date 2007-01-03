@@ -486,5 +486,12 @@
       <property name="drawBorder" value="false" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167795643449">
+    <link role="conceptDeclaration" targetNodeId="1.1167795596947" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167795648404">
+      <link role="relationDeclaration" targetNodeId="1.1167795626698" />
+      <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167795654187" />
+    </node>
+  </node>
 </model>
 
