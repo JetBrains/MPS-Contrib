@@ -361,5 +361,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167838362804">
+    <property name="name" value="ElementWithType" />
+    <link role="extends" targetNodeId="1167838236835" resolveInfo="ElementDeclaration" />
+  </node>
 </model>
 
