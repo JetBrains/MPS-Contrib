@@ -319,7 +319,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167794579628">
     <property name="name" value="ContentItem" />
-    <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167794587363">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
