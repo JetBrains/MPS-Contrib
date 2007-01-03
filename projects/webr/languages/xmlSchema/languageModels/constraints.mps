@@ -10,6 +10,22 @@
   <import index="3" modelUID="jetbrains.mps.smodel.search@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1167534313552">
     <property name="name" value="xmlSchema_property" />
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1167860545649">
+      <link role="applicableConcept" targetNodeId="1.1167697887602" />
+      <link role="applicableProperty" targetNodeId="2.1156235010670" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1167860551447">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167860551448">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167860553347">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167860555381">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1167860554911" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1167860561788">
+                <link role="property" targetNodeId="1.1167698115100" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1167711508987">
       <link role="applicableConcept" targetNodeId="1.1167710782427" />
       <link role="applicableProperty" targetNodeId="2.1156235010670" />
