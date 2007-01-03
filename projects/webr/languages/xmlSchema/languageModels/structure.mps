@@ -287,5 +287,14 @@
       <link role="target" targetNodeId="1167710782427" resolveInfo="AttributeGroup" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167790566663">
+    <property name="name" value="ComplexTypeReference" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167790582664">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="complextType" />
+      <link role="target" targetNodeId="1167615791597" resolveInfo="ComplexType" />
+    </node>
+  </node>
 </model>
 
