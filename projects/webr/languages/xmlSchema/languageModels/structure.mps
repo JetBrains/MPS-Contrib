@@ -5,7 +5,7 @@
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167512696010">
-    <property name="name" value="ElementDeclaration" />
+    <property name="name" value="ElementWithContent" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167616624375">
       <property name="sourceCardinality" value="0..1" />
