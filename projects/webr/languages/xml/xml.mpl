@@ -6,6 +6,9 @@
   <actions>
     <model modelUID="webr.xml.actions" />
   </actions>
+  <constraints>
+    <model modelUID="webr.xml.constraints" />
+  </constraints>
   <editor>
     <model modelUID="webr.xml.editor" />
   </editor>
