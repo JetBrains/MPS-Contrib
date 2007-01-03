@@ -363,6 +363,11 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167848788431">
+      <property name="role" value="occursAttribute" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167613643739" resolveInfo="OccursAttribute" />
+    </node>
   </node>
 </model>
 
