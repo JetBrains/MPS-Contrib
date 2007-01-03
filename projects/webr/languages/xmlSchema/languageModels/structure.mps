@@ -14,12 +14,6 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167616437135" resolveInfo="ComplexTypeContent" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167791120274">
-      <property name="sourceCardinality" value="0..1" />
-      <property name="role" value="complexTypeReference" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167514117391">
       <property name="value" value="elementWithContent" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -360,6 +354,12 @@
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167838788027">
       <property name="name" value="elementName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167839027965">
+      <property name="sourceCardinality" value="0..1" />
+      <property name="role" value="complexTypeReference" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167838362804">
