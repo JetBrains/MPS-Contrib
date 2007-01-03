@@ -24,7 +24,7 @@
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167514117391">
-      <property name="value" value="element" />
+      <property name="value" value="elementWithContent" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
@@ -364,6 +364,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167838362804">
     <property name="name" value="ElementWithType" />
     <link role="extends" targetNodeId="1167838236835" resolveInfo="ElementDeclaration" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167838549657">
+      <property name="value" value="elementWithType" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
   </node>
 </model>
 

@@ -526,9 +526,11 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167838396851">
     <link role="conceptDeclaration" targetNodeId="1.1167838362804" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167838399495">
+      <property name="drawBorder" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167838401247">
         <property name="textFgColor" value="DARK_MAGENTA" />
         <property name="text" value="element" />
+        <property name="drawBorder" value="false" />
       </node>
     </node>
   </node>
