@@ -219,6 +219,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167797649631">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="typeExpressionList" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167795596947" resolveInfo="TypeExpressionList" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167618373217">
       <property name="value" value="extension" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
