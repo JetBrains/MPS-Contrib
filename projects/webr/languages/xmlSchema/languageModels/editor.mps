@@ -329,8 +329,8 @@
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167799627233">
-          <property name="allowEmptyText" value="true" />
           <property name="textFgColor" value="blue" />
+          <property name="allowEmptyText" value="true" />
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1167615988144" />
         </node>
@@ -619,6 +619,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapDeclaration" id="1167846164023">
+    <property name="everyModel" value="true" />
     <property name="name" value="TypeExpressionList_keymap" />
     <link role="applicableConcept" targetNodeId="1.1167795596947" />
     <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapItem" id="1167846204634">
