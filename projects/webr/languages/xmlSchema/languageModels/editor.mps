@@ -473,5 +473,11 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167794590583">
+    <link role="conceptDeclaration" targetNodeId="1.1167794579628" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167794592694">
+      <property name="text" value="contentItem" />
+    </node>
+  </node>
 </model>
 
