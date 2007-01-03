@@ -4,7 +4,7 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <maxImportIndex value="1" />
+  <maxImportIndex value="3" />
   <import index="1" modelUID="webr.xml.structure" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeFactories" id="1166732178431">
     <property name="name" value="xml_node_factories" />
