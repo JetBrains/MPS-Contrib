@@ -8,7 +8,7 @@
     <property name="name" value="ElementDeclaration" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167616624375">
-      <property name="sourceCardinality" value="1" />
+      <property name="sourceCardinality" value="0..1" />
       <property name="role" value="complexTypeContent" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167616437135" resolveInfo="ComplexTypeContent" />
