@@ -199,13 +199,9 @@
         <property name="text" value="(" />
         <property name="drawBorder" value="false" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167610098579">
-        <property name="separatorText" value="," />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167796535885">
         <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1167610080186" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167610103205">
-          <property name="drawBorder" value="false" />
-        </node>
+        <link role="relationDeclaration" targetNodeId="1.1167796515570" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167610066341">
         <property name="text" value=")" />
@@ -306,13 +302,9 @@
         <property name="text" value="&lt;" />
         <property name="drawBorder" value="false" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167617169733">
-        <property name="separatorText" value="," />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167795784759">
         <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1167616452558" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167617169734">
-          <property name="drawBorder" value="false" />
-        </node>
+        <link role="relationDeclaration" targetNodeId="1.1167795760976" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167617180582">
         <property name="text" value="&gt;" />
@@ -489,8 +481,12 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167795643449">
     <link role="conceptDeclaration" targetNodeId="1.1167795596947" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1167795648404">
+      <property name="separatorText" value="," />
+      <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1167795626698" />
-      <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167795654187" />
+      <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167795654187">
+        <property name="drawBorder" value="false" />
+      </node>
     </node>
   </node>
 </model>
