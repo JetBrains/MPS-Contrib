@@ -15,8 +15,8 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="textFgColor" value="DARK_GREEN" />
       <property name="allowEmptyText" value="true" />
+      <property name="textFgColor" value="DARK_GREEN" />
       <property name="fontStyle" value="BOLD" />
       <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
@@ -788,7 +788,7 @@
                   <property name="textFgColor" value="DARK_MAGENTA" />
                   <property name="drawBorder" value="false" />
                   <property name="readOnly" value="true" />
-                  <link role="relationDeclaration" targetNodeId="31.1167514383002" />
+                  <link role="relationDeclaration" targetNodeId="31.1167838788027" />
                 </node>
               </node>
             </node>
@@ -830,7 +830,7 @@
                   <property name="textFgColor" value="DARK_MAGENTA" />
                   <property name="drawBorder" value="false" />
                   <property name="readOnly" value="true" />
-                  <link role="relationDeclaration" targetNodeId="31.1167514383002" />
+                  <link role="relationDeclaration" targetNodeId="31.1167838788027" />
                 </node>
               </node>
             </node>
@@ -855,7 +855,7 @@
                 <property name="textFgColor" value="DARK_MAGENTA" />
                 <property name="drawBorder" value="false" />
                 <property name="readOnly" value="true" />
-                <link role="relationDeclaration" targetNodeId="31.1167514383002" />
+                <link role="relationDeclaration" targetNodeId="31.1167838788027" />
               </node>
             </node>
           </node>
@@ -885,7 +885,7 @@
                 <property name="textFgColor" value="DARK_MAGENTA" />
                 <property name="drawBorder" value="false" />
                 <property name="readOnly" value="true" />
-                <link role="relationDeclaration" targetNodeId="31.1167514383002" />
+                <link role="relationDeclaration" targetNodeId="31.1167838788027" />
               </node>
             </node>
           </node>
@@ -910,7 +910,7 @@
               <property name="textFgColor" value="DARK_MAGENTA" />
               <property name="drawBorder" value="false" />
               <property name="readOnly" value="true" />
-              <link role="relationDeclaration" targetNodeId="31.1167514383002" />
+              <link role="relationDeclaration" targetNodeId="31.1167838788027" />
             </node>
           </node>
         </node>

@@ -51,7 +51,7 @@
             <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167534341329">
               <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1167534340109" />
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1167534343158">
-                <link role="property" targetNodeId="1.1167514383002" />
+                <link role="property" targetNodeId="1.1167838788027" />
               </node>
             </node>
           </node>

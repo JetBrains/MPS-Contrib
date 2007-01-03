@@ -21,7 +21,7 @@
         <property name="textFgColor" value="blue" />
         <property name="fontStyle" value="BOLD" />
         <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1167514383002" />
+        <link role="relationDeclaration" targetNodeId="1.1167838788027" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167791175495">
         <property name="text" value="(" />
@@ -127,7 +127,7 @@
           <property name="fontStyle" value="BOLD" />
           <property name="drawBorder" value="false" />
           <property name="readOnly" value="true" />
-          <link role="relationDeclaration" targetNodeId="1.1167514383002" />
+          <link role="relationDeclaration" targetNodeId="1.1167838788027" />
         </node>
       </node>
     </node>

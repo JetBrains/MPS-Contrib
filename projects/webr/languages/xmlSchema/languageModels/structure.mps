@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlSchema.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="2" />
+  <maxImportIndex value="3" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
+  <import index="3" modelUID="webr.xmlSchema.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167512696010">
     <property name="name" value="ElementWithContent" />
     <link role="extends" targetNodeId="1167838236835" resolveInfo="ElementDeclaration" />
@@ -18,10 +19,6 @@
       <property name="role" value="complexTypeReference" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167514383002">
-      <property name="name" value="elementName" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1167514117391">
       <property name="value" value="elementWithContent" />
@@ -359,6 +356,10 @@
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167838254601">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167838788027">
+      <property name="name" value="elementName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167838362804">
