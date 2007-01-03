@@ -354,5 +354,12 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167838236835">
+    <property name="name" value="ElementDeclaration" />
+    <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167838254601">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+  </node>
 </model>
 
