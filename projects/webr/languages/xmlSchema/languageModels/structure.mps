@@ -360,9 +360,5 @@
       <link role="target" targetNodeId="1167790566663" resolveInfo="ComplexTypeReference" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167844953744">
-    <property name="name" value="VerticalTypeExpressionList" />
-    <link role="extends" targetNodeId="1167795596947" resolveInfo="TypeExpressionList" />
-  </node>
 </model>
 
