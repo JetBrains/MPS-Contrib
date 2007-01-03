@@ -171,11 +171,16 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167615791597">
     <property name="name" value="ComplexType" />
     <link role="extends" targetNodeId="1167513851570" resolveInfo="Declaration" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167617789661">
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167841515196">
       <property name="sourceCardinality" value="1" />
-      <property name="role" value="complexTypeContent" />
+      <property name="role" value="typeExpressionList" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167616437135" resolveInfo="ComplexTypeContent" />
+      <link role="target" targetNodeId="1167795596947" resolveInfo="TypeExpressionList" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167841735153">
+      <property name="role" value="mixedAttribute" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1167593501743" resolveInfo="MixedAttribute" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167615988144">
       <property name="name" value="typeName" />
