@@ -467,9 +467,15 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167794459025">
     <link role="conceptDeclaration" targetNodeId="1.1167794310821" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1167794462731">
+      <property name="drawBorder" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167794465374">
         <property name="textFgColor" value="DARK_MAGENTA" />
         <property name="text" value="complexContent" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167794787588">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1167794765257" />
       </node>
     </node>
   </node>
@@ -477,6 +483,7 @@
     <link role="conceptDeclaration" targetNodeId="1.1167794579628" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Error" id="1167794592694">
       <property name="text" value="contentItem" />
+      <property name="drawBorder" value="false" />
     </node>
   </node>
 </model>
