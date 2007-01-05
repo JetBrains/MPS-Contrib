@@ -27,6 +27,10 @@
       <property name="name" value="schemaName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1168022873076">
+      <property name="name" value="alwaysUseRoot" />
+      <link role="dataType" targetNodeId="1.1082983657063" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167514029204">
       <property name="sourceCardinality" value="1..n" />
       <property name="role" value="declarationBlock" />
@@ -34,7 +38,7 @@
       <link role="target" targetNodeId="1167620500667" resolveInfo="DeclarationBlock" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167537980718">
-      <property name="sourceCardinality" value="0..1" />
+      <property name="sourceCardinality" value="1" />
       <property name="role" value="rootElementReference" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1167531070757" resolveInfo="ElementReference" />
