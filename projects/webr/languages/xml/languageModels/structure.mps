@@ -87,7 +87,7 @@
     <property name="name" value="Element" />
     <link role="extends" targetNodeId="1167522915419" resolveInfo="BaseElement" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1163723196831">
-      <property name="value" value="&lt;element&gt;" />
+      <property name="value" value="generic element" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1163723109232">
