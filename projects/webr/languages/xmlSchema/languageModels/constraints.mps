@@ -145,6 +145,35 @@
           </node>
         </node>
       </node>
+      <node role="searchScopeCanCreate" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_ReferentSearchScope_CanCreate" id="1168359789773">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1168359789774">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1168359803838">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1168359803839">
+              <property name="name" value="schema" />
+              <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1168359803840">
+                <link role="concept" targetNodeId="1.1167513239198" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1168359803841">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_GetParentOperation" id="1168359803842">
+                  <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.OperationParm_Inclusion" id="1168359803843" />
+                  <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.OperationParm_Concept" id="1168359803844">
+                    <link role="concept" targetNodeId="1.1167513239198" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1168359803845" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1168359815103">
+            <node role="expression" type="jetbrains.mps.baseLanguage.NotEqualsExpression" id="1168359820481">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1168359823266" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168359818887">
+                <link role="variableDeclaration" targetNodeId="1168359803839" resolveInfo="schema" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
