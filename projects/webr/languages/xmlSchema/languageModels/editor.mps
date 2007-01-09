@@ -21,7 +21,8 @@
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167840625637">
-          <property name="textFgColor" value="blue" />
+          <property name="textFgColorQueryId" value="elementColor" />
+          <property name="textFgColor" value="query" />
           <property name="fontStyle" value="BOLD" />
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1167838788027" />
@@ -183,7 +184,8 @@
       <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167531095074">
         <link role="conceptDeclaration" targetNodeId="1.1167512696010" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167531098904">
-          <property name="textFgColor" value="blue" />
+          <property name="textFgColorQueryId" value="elementColor" />
+          <property name="textFgColor" value="query" />
           <property name="fontStyle" value="BOLD" />
           <property name="drawBorder" value="false" />
           <property name="readOnly" value="true" />
@@ -336,8 +338,8 @@
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167799627233">
-          <property name="allowEmptyText" value="true" />
           <property name="textFgColor" value="blue" />
+          <property name="allowEmptyText" value="true" />
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1167615988144" />
         </node>
@@ -599,7 +601,8 @@
         <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167838910667">
-        <property name="textFgColor" value="blue" />
+        <property name="textFgColorQueryId" value="elementColor" />
+        <property name="textFgColor" value="query" />
         <property name="fontStyle" value="BOLD" />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1167838788027" />
