@@ -197,8 +197,11 @@
                     <node role="lValue" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168382044597">
                       <link role="variableDeclaration" targetNodeId="1168381740154" resolveInfo="searchScope" />
                     </node>
-                    <node role="rValue" type="jetbrains.mps.baseLanguage.NewExpression" id="1168382051552">
-                      <link role="baseMethodDeclaration" extResolveInfo="7.constructor [Classifier]EmptySearchScope[ConstructorDeclaration] ()" />
+                    <node role="rValue" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1168382864201">
+                      <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]SModelSearchUtil).([StaticMethodDeclaration]createModelAndImportedModelsScope((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SModel]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [ISearchScope]))" />
+                      <link role="classConcept" extResolveInfo="7.[Classifier]SModelSearchUtil" />
+                      <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_model" id="1168382869452" />
+                      <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1168382874944" />
                     </node>
                   </node>
                 </node>
