@@ -946,7 +946,9 @@
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167701355880">
           <link role="conceptDeclaration" targetNodeId="31.1167697887602" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167701361647">
-            <property name="fontStyle" value="ITALIC" />
+            <property name="textFgColorQueryId" value="elementColor" />
+            <property name="textFgColor" value="query" />
+            <property name="fontStyle" value="BOLD_ITALIC" />
             <property name="drawBorder" value="false" />
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="31.1167698115100" />
