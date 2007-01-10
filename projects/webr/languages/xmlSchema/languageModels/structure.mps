@@ -376,6 +376,31 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1168467644385">
     <property name="name" value="UseAttribute" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1168468026313">
+      <property name="name" value="use" />
+      <link role="dataType" targetNodeId="1168467929746" resolveInfo="useAttributeEnum" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1168468170749">
+      <property name="value" value="use" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.EnumerationDataTypeDeclaration" id="1168467929746">
+    <property name="name" value="useAttributeEnum" />
+    <link role="memberDataType" targetNodeId="1.1082983041843" />
+    <link role="defaultMember" targetNodeId="1168468016577" resolveInfo="required" />
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1168467929747">
+      <property name="internalValue" value="optional" />
+      <property name="name" value="optional" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1168468006639">
+      <property name="internalValue" value="prohibited" />
+      <property name="name" value="prohibited" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1168468016577">
+      <property name="internalValue" value="required" />
+      <property name="name" value="required" />
+    </node>
   </node>
 </model>
 
