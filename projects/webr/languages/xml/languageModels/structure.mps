@@ -125,9 +125,6 @@
       <property name="value" value="#{expression}" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1168293063059">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167522915419">
     <property name="name" value="BaseElement" />
