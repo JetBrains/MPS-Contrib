@@ -61,8 +61,8 @@
       <link role="applicableConcept" targetNodeId="1.1165235274815" />
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167757687265">
-      <property name="actionsFactoryAspectId" value="Element" />
-      <link role="applicableConcept" targetNodeId="1.1163723085294" />
+      <property name="actionsFactoryAspectId" value="BaseElement" />
+      <link role="applicableConcept" targetNodeId="1.1167522915419" />
     </node>
   </node>
 </model>
