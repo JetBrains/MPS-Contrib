@@ -367,5 +367,9 @@
       <link role="target" targetNodeId="1167613643739" resolveInfo="OccursAttribute" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1168467644385">
+    <property name="name" value="UseAttribute" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+  </node>
 </model>
 

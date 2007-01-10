@@ -3,7 +3,7 @@
   <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <maxImportIndex value="36" />
+  <maxImportIndex value="37" />
   <import index="1" modelUID="webr.xmlSchema.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="7" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
@@ -338,8 +338,8 @@
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167799627233">
-          <property name="textFgColor" value="blue" />
           <property name="allowEmptyText" value="true" />
+          <property name="textFgColor" value="blue" />
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1167615988144" />
         </node>
@@ -669,6 +669,17 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1168467654230">
+    <link role="conceptDeclaration" targetNodeId="1.1168467644385" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1168467657264">
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168467658423">
+        <property name="text" value="[" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168467661081">
+        <property name="text" value="]" />
       </node>
     </node>
   </node>
