@@ -446,6 +446,10 @@
         <property name="text" value="attribute" />
         <property name="drawBorder" value="false" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1168467772600">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1168467754208" />
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167698123899">
         <property name="textFgColorQueryId" value="elementColor" />
         <property name="textFgColor" value="query" />
@@ -675,11 +679,14 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1168467654230">
     <link role="conceptDeclaration" targetNodeId="1.1168467644385" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1168467657264">
+      <property name="drawBorder" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168467658423">
         <property name="text" value="[" />
+        <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168467661081">
         <property name="text" value="]" />
+        <property name="drawBorder" value="false" />
       </node>
     </node>
   </node>
