@@ -136,5 +136,30 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1168473018848">
+    <link role="conceptDeclaration" targetNodeId="1.1168473018407" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1168473018849">
+      <property name="drawBorder" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018850">
+        <property name="text" value="#" />
+        <property name="drawBorder" value="false" />
+        <property name="selectable" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018851">
+        <property name="text" value="{" />
+        <property name="drawBorder" value="false" />
+        <property name="selectable" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1168473018852">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1168473018408" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018853">
+        <property name="text" value="}" />
+        <property name="drawBorder" value="false" />
+        <property name="selectable" value="false" />
+      </node>
+    </node>
+  </node>
 </model>
 
