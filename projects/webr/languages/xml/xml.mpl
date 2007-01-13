@@ -17,7 +17,7 @@
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xml" />
   </models>
   <module>
-    <moduleRoot path="${mps_home}\projects\webr\languages\gtext\gtext.mpl" />
+    <moduleRoot path="${mps_home}\platform\webr\languages\gtext\gtext.mpl" />
     <moduleRoot path="${mps_home}\projects\webr\languages\xmlSchema\xmlSchema.mpl" />
   </module>
   <accessoryModels />
