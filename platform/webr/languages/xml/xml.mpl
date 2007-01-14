@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="webr.xml" generatorOutputPath="${mps_home}\projects\webr\source_gen">
+<language namespace="webr.xml">
   <structure>
     <model modelUID="webr.xml.structure" />
   </structure>
@@ -33,6 +33,8 @@
       </module>
     </generator>
   </generators>
-  <classPath />
+  <classPath>
+    <entry path="${language_descriptor}\classes" />
+  </classPath>
 </language>
 
