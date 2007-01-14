@@ -24,7 +24,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
   public AbstractCellListHandler myContentListHandler_hor1_;
 
   public static boolean _QueryFunction_NodeCondition_1166301006370(SNode node, IScope scope) {
-    return XmlQueryUtil.isHorizontal(node);
+    return XmlQueryUtil.isHorizontal(node, scope);
   }
   public static boolean _QueryFunction_NodeCondition_1166303669051(SNode node, IScope scope) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.ContentList");

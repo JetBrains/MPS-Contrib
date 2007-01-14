@@ -26,7 +26,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
     return SPropertyOperations.getBoolean(node, "isEmpty");
   }
   public static boolean _QueryFunction_NodeCondition_1167707781225(SNode node, IScope scope) {
-    return XmlQueryUtil.isHorizontal(SLinkOperations.getTarget(node, "contentList", true));
+    return XmlQueryUtil.isHorizontal(SLinkOperations.getTarget(node, "contentList", true), scope);
   }
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {

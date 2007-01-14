@@ -20,9 +20,9 @@ public class QueriesGenerated {
     return true;
   }
   public static boolean baseMappingRule_Condition_1167338040829(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isHorizontal(node);
+    return XmlQueryUtil.isHorizontal(node, scope);
   }
   public static boolean baseMappingRule_Condition_1167338342843(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return !(XmlQueryUtil.isHorizontal(node));
+    return !(XmlQueryUtil.isHorizontal(node, scope));
   }
 }
