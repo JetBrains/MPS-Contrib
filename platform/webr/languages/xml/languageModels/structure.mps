@@ -10,6 +10,9 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371727643">
     <property name="name" value="Content" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptPropertyDeclaration" id="1168792704590">
+      <property name="name" value="isComplex" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1161371746114">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
@@ -82,6 +85,9 @@
       <property name="value" value="(contentList)" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1168792765501">
+      <link role="conceptPropertyDeclaration" targetNodeId="1168792704590" resolveInfo="isComplex" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163723085294">
     <property name="name" value="Element" />
@@ -133,6 +139,9 @@
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167522926107">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1168792743873">
+      <link role="conceptPropertyDeclaration" targetNodeId="1168792704590" resolveInfo="isComplex" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167523027466">

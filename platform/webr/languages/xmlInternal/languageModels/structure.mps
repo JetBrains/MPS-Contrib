@@ -20,6 +20,9 @@
       <property name="value" value="statementElement" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1168793018304">
+      <link role="conceptPropertyDeclaration" targetNodeId="2.1168792704590" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1165765736183">
     <property name="name" value="ContentStatement" />
