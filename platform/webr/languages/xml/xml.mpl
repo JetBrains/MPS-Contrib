@@ -29,7 +29,7 @@
       </models>
       <module>
         <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
-        <moduleRoot path="${mps_home}\projects\webr\devkits\baseGeneration\baseGeneration.devkit" />
+        <moduleRoot path="${mps_home}\platform\webr\devkits\baseGeneration.devkit" />
       </module>
     </generator>
   </generators>
