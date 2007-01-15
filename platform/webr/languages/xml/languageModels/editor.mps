@@ -5,16 +5,15 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
-  <maxImportIndex value="33" />
+  <maxImportIndex value="34" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="14" modelUID="java.lang@java_stub" />
-  <import index="28" modelUID="webr.util@java_stub" />
   <import index="29" modelUID="jetbrains.mps.smodel@java_stub" />
   <import index="30" modelUID="webr.xml.editor" />
   <import index="31" modelUID="webr.xmlSchema.structure" />
-  <import index="32" modelUID="webr.xmlInternal.structure" />
   <import index="33" modelUID="jetbrains.mps.nodeEditor@java_stub" />
+  <import index="34" modelUID="webr.xml.util@java_stub" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
@@ -84,8 +83,8 @@
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166301006371">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166301034150">
             <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166497903936">
-              <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
-              <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+              <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
+              <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166498131801" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1168817669281" />
             </node>
@@ -259,8 +258,8 @@
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166316142549">
             <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166316156295">
               <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166498598153">
-                <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
-                <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
+                <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166498603545">
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166498603513" />
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167525390325">
@@ -593,8 +592,8 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166315715651">
             <node role="expression" type="jetbrains.mps.baseLanguage.NotExpression" id="1166315738196">
               <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166577902296">
-                <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
-                <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
+                <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166577922860">
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166577904250" />
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167525073350">
@@ -644,8 +643,8 @@
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166316985075">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166316987170">
             <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166577945379">
-              <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
-              <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+              <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
+              <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166577945380">
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166577945381" />
                 <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167525080976">
@@ -746,8 +745,8 @@
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167707781226">
             <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167707781227">
               <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1167707781228">
-                <link role="classConcept" extResolveInfo="28.[Classifier]XmlQueryUtil" />
-                <link role="baseMethodDeclaration" extResolveInfo="28.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
+                <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167707781229">
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1167707781230" />
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167707781231">
