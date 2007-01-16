@@ -80,15 +80,17 @@
           <link role="relationDeclaration" targetNodeId="1.1167755304238" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167755289391">
+          <property name="layoutConstraint" value="punctuation" />
           <property name="text" value="." />
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167755292112">
+          <property name="layoutConstraint" value="punctuation" />
           <property name="text" value="xml" />
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167755685266">
-          <property name="text" value=" (" />
+          <property name="text" value="(" />
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167755690707">
