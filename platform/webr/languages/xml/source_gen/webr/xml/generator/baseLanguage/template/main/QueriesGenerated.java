@@ -27,6 +27,15 @@ public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_1167338342843(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return !(XmlQueryUtil.isHorizontal(node, scope));
   }
+  public static boolean ifMacro_Condition_1169058127707(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
+  }
+  public static String propertyMacro_GetPropertyValue_1169058220432(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SPropertyOperations.get(node, "text");
+  }
+  public static boolean ifMacro_Condition_1169058205461(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
+  }
   public static String propertyMacro_GetPropertyValue_1169055428805(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return " " + SPropertyOperations.get(node, "name") + "=\"";
   }
