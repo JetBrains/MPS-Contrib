@@ -9,6 +9,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.IOperationContext;
 import webr.xml.util.XmlQueryUtil;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import java.util.List;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
 public class QueriesGenerated {
@@ -34,6 +35,15 @@ public class QueriesGenerated {
     return SPropertyOperations.get(node, "text");
   }
   public static boolean ifMacro_Condition_1169058205461(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
+  }
+  public static boolean ifMacro_Condition_1169059302011(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
+  }
+  public static List sourceNodesQuery_1169059353058(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "text", true);
+  }
+  public static boolean ifMacro_Condition_1169059332446(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return XmlQueryUtil.isSeparate(node, scope);
   }
   public static String propertyMacro_GetPropertyValue_1169055428805(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
