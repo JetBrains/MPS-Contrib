@@ -8,6 +8,8 @@ import jetbrains.mps.generator.template.ITemplateGenerator;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.IOperationContext;
 import webr.xml.util.XmlQueryUtil;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
 public class QueriesGenerated {
 
@@ -24,5 +26,11 @@ public class QueriesGenerated {
   }
   public static boolean baseMappingRule_Condition_1167338342843(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return !(XmlQueryUtil.isHorizontal(node, scope));
+  }
+  public static String propertyMacro_GetPropertyValue_1169055428805(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return " " + SPropertyOperations.get(node, "name") + "=\"";
+  }
+  public static SNode sourceNodeQuery_1169055590748(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTarget(node, "value", true);
   }
 }
