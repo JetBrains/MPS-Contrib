@@ -89,21 +89,6 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1168792704590" resolveInfo="isComplex" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163723085294">
-    <property name="name" value="Element" />
-    <link role="extends" targetNodeId="1167522915419" resolveInfo="BaseElement" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1163723196831">
-      <property name="value" value="generic element" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1168818944093">
-      <link role="conceptPropertyDeclaration" targetNodeId="1168792704590" resolveInfo="isComplex" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1163723109232">
-      <property name="name" value="name" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1163723419051">
     <property name="name" value="AttributeList" />
     <link role="extends" targetNodeId="1.1133920641626" />
