@@ -33,4 +33,10 @@ public class QueriesGenerated {
   public static SNode sourceNodeQuery_1169055590748(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTarget(node, "value", true);
   }
+  public static String propertyMacro_GetPropertyValue_1169056138286(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return " " + SPropertyOperations.get(SLinkOperations.getTarget(node, "attributeDeclaration", false), "attributeName") + "=\"";
+  }
+  public static SNode sourceNodeQuery_1169056213100(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTarget(node, "value", true);
+  }
 }
