@@ -38,6 +38,8 @@
   </generators>
   <classPath>
     <entry path="${mps_home}\projects\baseLanguageExt\dev\classes" />
+    <entry path="${mps_home}\projects\baseLanguageExt\dates-runtime\classes" />
+    <entry path="${mps_home}\lib\joda-time\joda-time-1.4.jar" />
   </classPath>
 </language>
 
