@@ -40,11 +40,11 @@ public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
   }
 
   protected DateTimePrinter getPrinter(ReadablePartial partial, Locale locale) {
-    return getPrinter(partial.toDateTime(null), locale);
+    return getPrinter(partial != null ? partial.toDateTime(null) : null, locale);
   }
 
   protected DateTimePrinter getPrinter(long instant, Locale locale) {
-    return getPrinter(new DateTime(instant), locale);
+    return getPrinter(instant != 0 ? new DateTime(instant) : null, locale);
   }
 
   protected abstract DateTimePrinter getPrinter(DateTime dateTime, Locale locale);

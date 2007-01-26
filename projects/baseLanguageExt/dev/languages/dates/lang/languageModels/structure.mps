@@ -77,7 +77,7 @@
       <link role="target" targetNodeId="3.1068431790191" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169557643590">
-      <property name="sourceCardinality" value="0..1" />
+      <property name="sourceCardinality" value="1" />
       <property name="role" value="dateFormat" />
       <link role="target" targetNodeId="1169487448949" resolveInfo="DateFormat" />
     </node>
