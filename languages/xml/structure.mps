@@ -4,7 +4,6 @@
   <maxImportIndex value="3" />
   <import index="1" modelUID="jetbrains.mps.core@java_stub" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
-  <import index="3" modelUID="jetbrains.mps.bootstrap.structureLanguage.library" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1107866742882">
     <property name="name" value="Attribute" />
     <link role="extends" targetNodeId="2.1078489098625" />
