@@ -42,10 +42,17 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165765736468">
       <property name="drawBorder" value="false" />
       <property name="vertical" value="true" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165765736469">
-        <property name="text" value="content statement {" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1170434390094">
         <property name="drawBorder" value="false" />
         <property name="selectable" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1170434392643">
+          <property name="text" value="contentStatement" />
+          <property name="drawBorder" value="false" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1170434399473">
+          <property name="text" value="{" />
+          <property name="drawBorder" value="false" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165765736470">
         <property name="drawBorder" value="false" />
@@ -63,7 +70,6 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1165765736473">
         <property name="text" value="}" />
         <property name="drawBorder" value="false" />
-        <property name="selectable" value="false" />
       </node>
     </node>
   </node>
