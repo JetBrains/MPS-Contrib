@@ -151,12 +151,10 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018850">
         <property name="text" value="#" />
         <property name="drawBorder" value="false" />
-        <property name="selectable" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018851">
         <property name="text" value="{" />
         <property name="drawBorder" value="false" />
-        <property name="selectable" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1168473018852">
         <property name="drawBorder" value="false" />
@@ -165,7 +163,6 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018853">
         <property name="text" value="}" />
         <property name="drawBorder" value="false" />
-        <property name="selectable" value="false" />
       </node>
     </node>
   </node>
