@@ -6,6 +6,9 @@
   <typeSystem>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.types" />
   </typeSystem>
+  <helginsTypeSystem>
+    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.helgins" />
+  </helginsTypeSystem>
   <actions>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.actions" />
   </actions>
