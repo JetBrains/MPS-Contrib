@@ -17,5 +17,12 @@
       <link role="applicableConcept" targetNodeId="1.1167523027466" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActions" id="1170935479490">
+    <property name="name" value="xml_rTransform" />
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1170935486491">
+      <property name="actionsFactoryAspectId" value="Content" />
+      <link role="applicableConcept" targetNodeId="1.1161371727643" />
+    </node>
+  </node>
 </model>
 
