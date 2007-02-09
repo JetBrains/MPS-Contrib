@@ -27,6 +27,10 @@
       <property name="name" value="schemaName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1171028738656">
+      <property name="name" value="schemaUrl" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1168022873076">
       <property name="name" value="alwaysUseRoot" />
       <link role="dataType" targetNodeId="1.1082983657063" />
