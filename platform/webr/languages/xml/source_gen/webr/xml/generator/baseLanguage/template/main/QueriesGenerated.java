@@ -59,11 +59,23 @@ public class QueriesGenerated {
   public static boolean ifMacro_Condition_1171381407187(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.BaseElement"));
   }
+  public static boolean ifMacro_Condition_1171381951282(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
+  }
+  public static boolean ifMacro_Condition_1171382017569(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
+  }
+  public static boolean ifMacro_Condition_1171382033556(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
+  }
   public static boolean ifMacro_Condition_1171380789958(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return !(SPropertyOperations.getBoolean(node, "isEmpty"));
   }
   public static boolean ifMacro_Condition_1171380831926(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SPropertyOperations.getBoolean(node, "isEmpty");
+  }
+  public static boolean ifMacro_Condition_1171382041917(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return XmlQueryUtil.isSeparate(node, scope);
   }
   public static List sourceNodesQuery_1169059353058(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "text", true);
