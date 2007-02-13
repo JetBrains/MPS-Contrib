@@ -31,6 +31,12 @@ public class QueriesGenerated {
   public static String propertyMacro_GetPropertyValue_1169058220432(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SPropertyOperations.getString(node, "text");
   }
+  public static String propertyMacro_GetPropertyValue_1171380063320(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return "<" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName");
+  }
+  public static String propertyMacro_GetPropertyValue_1171380149402(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return "</" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName") + ">";
+  }
   public static String propertyMacro_GetPropertyValue_1169056138286(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return " " + SPropertyOperations.getString(SLinkOperations.getTarget(node, "attributeDeclaration", false), "attributeName") + "=\"";
   }
