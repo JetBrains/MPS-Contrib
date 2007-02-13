@@ -64,6 +64,9 @@ public class QueriesGenerated {
   public static SNode sourceNodeQuery_1171370219758(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTarget(node, "attributeList", true);
   }
+  public static SNode sourceNodeQuery_1171378601405(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTarget(node, "contentList", true);
+  }
   public static SNode sourceNodeQuery_1169056213100(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTarget(node, "value", true);
   }
