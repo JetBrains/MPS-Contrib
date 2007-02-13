@@ -29,10 +29,10 @@ public class QueriesGenerated {
     return !(XmlQueryUtil.isHorizontal(node, scope));
   }
   public static String propertyMacro_GetPropertyValue_1169058220432(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SPropertyOperations.get(node, "text");
+    return SPropertyOperations.getString(node, "text");
   }
   public static String propertyMacro_GetPropertyValue_1169056138286(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return " " + SPropertyOperations.get(SLinkOperations.getTarget(node, "attributeDeclaration", false), "attributeName") + "=\"";
+    return " " + SPropertyOperations.getString(SLinkOperations.getTarget(node, "attributeDeclaration", false), "attributeName") + "=\"";
   }
   public static boolean ifMacro_Condition_1169058127707(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return XmlQueryUtil.isSeparate(node, scope);
@@ -48,6 +48,21 @@ public class QueriesGenerated {
   }
   public static List sourceNodesQuery_1169059353058(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "text", true);
+  }
+  public static List sourceNodesQuery_1171370078625(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "content", true);
+  }
+  public static List sourceNodesQuery_1171370108399(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "content", true);
+  }
+  public static List sourceNodesQuery_1171369947641(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "attribute", true);
+  }
+  public static List sourceNodesQuery_1171370131329(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "content", true);
+  }
+  public static SNode sourceNodeQuery_1171370219758(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTarget(node, "attributeList", true);
   }
   public static SNode sourceNodeQuery_1169056213100(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTarget(node, "value", true);
