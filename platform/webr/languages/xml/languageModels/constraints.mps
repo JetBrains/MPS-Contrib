@@ -112,15 +112,10 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1168383688156">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1168383688157">
               <property name="name" value="elementDeclarations" />
-              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1168383688158">
-                <link role="classifier" extResolveInfo="5.[Classifier]List" />
-                <node role="parameter" type="jetbrains.mps.baseLanguage.ClassifierType" id="1168383688159">
-                  <link role="classifier" extResolveInfo="6.[Classifier]ElementDeclaration" />
-                </node>
-              </node>
+              <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1171448986856" />
               <node role="initializer" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1168383688160">
                 <link role="classConcept" extResolveInfo="2.[Classifier]ElementUtil" />
-                <link role="baseMethodDeclaration" extResolveInfo="2.static method ([Classifier]ElementUtil).([StaticMethodDeclaration]getElementDeclarations((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List, &lt;jetbrains.mps.baseLanguage.types.classifier [ElementDeclaration]&gt;]))" />
+                <link role="baseMethodDeclaration" extResolveInfo="2.static method ([Classifier]ElementUtil).([StaticMethodDeclaration]getElementDeclarations((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List, &lt;jetbrains.mps.baseLanguage.types.classifier [SNode]&gt;]))" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168383688161">
                   <link role="variableDeclaration" targetNodeId="1168383163370" resolveInfo="knownElement" />
                 </node>
@@ -129,9 +124,9 @@
             </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1168383746640">
-            <node role="condition" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1168383751802">
-              <link role="baseMethodDeclaration" extResolveInfo="5.method ([Classifier]List).([InstanceMethodDeclaration]isEmpty() : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-              <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168383748409">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1171448995950">
+              <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.IsEmptyOperation" id="1171448998969" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168383748409">
                 <link role="variableDeclaration" targetNodeId="1168383688157" resolveInfo="elementDeclarations" />
               </node>
             </node>
