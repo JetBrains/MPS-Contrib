@@ -4,15 +4,12 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <maxImportIndex value="12" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.structure" />
-  <import index="2" modelUID="jetbrains.mps.generator@java_stub" />
   <import index="3" modelUID="jetbrains.mps.generator.template@java_stub" />
   <import index="4" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
   <import index="7" modelUID="jetbrains.mps.smodel@java_stub" />
   <import index="8" modelUID="jetbrains.mps.core.structure" />
   <import index="9" modelUID="jetbrains.mps.util@java_stub" />
   <import index="10" modelUID="java.lang@java_stub" />
-  <import index="11" modelUID="jetbrains.mps.bootstrap.structureLanguage@java_stub" />
-  <import index="12" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1169555993608">
     <property name="name" value="QueriesUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1169556002655">
@@ -407,10 +404,14 @@
                     <link role="variableDeclaration" targetNodeId="1169650158176" resolveInfo="clazz" />
                     <node role="instance" type="jetbrains.mps.baseLanguage.ThisExpression" id="1169651152025" />
                   </node>
-                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169651343978">
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1171644022071">
                     <link role="baseMethodDeclaration" extResolveInfo="10.method ([Classifier]Object).([InstanceMethodDeclaration]getClass() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Class, &lt;jetbrains.mps.baseLanguage.types.classifier [Object]&gt;]))" />
-                    <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1169651353135">
-                      <link role="variableDeclaration" targetNodeId="1169650073025" resolveInfo="node" />
+                    <node role="instance" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1171644012628">
+                      <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]BaseAdapter).([StaticMethodDeclaration]fromNode((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [BaseAdapter]))" />
+                      <link role="classConcept" extResolveInfo="7.[Classifier]BaseAdapter" />
+                      <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171644014614">
+                        <link role="variableDeclaration" targetNodeId="1169650073025" resolveInfo="node" />
+                      </node>
                     </node>
                   </node>
                 </node>
