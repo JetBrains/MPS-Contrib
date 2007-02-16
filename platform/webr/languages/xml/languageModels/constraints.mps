@@ -10,7 +10,6 @@
   <import index="2" modelUID="webr.xml.util@java_stub" />
   <import index="3" modelUID="jetbrains.mps.core.structure" />
   <import index="5" modelUID="java.util@java_stub" />
-  <import index="6" modelUID="webr.xmlSchema@java_stub" />
   <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1167861109528">
     <property name="name" value="xml_referent" />
@@ -37,7 +36,7 @@
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167862898062">
             <node role="expression" type="jetbrains.mps.baseLanguage.NewExpression" id="1167862991513">
-              <link role="baseMethodDeclaration" extResolveInfo="7.constructor [Classifier]SimpleSearchScope[ConstructorDeclaration] ((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List, &lt;jetbrains.mps.baseLanguage.types.classifier [SNode]&gt;]))" />
+              <link role="baseMethodDeclaration" extResolveInfo="7.constructor [Classifier]SimpleSearchScope[ConstructorDeclaration] ((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List]))" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1171445966027">
                 <link role="classConcept" extResolveInfo="2.[Classifier]AttributeUtil" />
                 <link role="baseMethodDeclaration" extResolveInfo="2.static method ([Classifier]AttributeUtil).([StaticMethodDeclaration]getAttributeDeclarations_knownElement((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List, &lt;jetbrains.mps.baseLanguage.types.classifier [SNode]&gt;]))" />
