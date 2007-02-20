@@ -367,18 +367,6 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1171977840469">
-            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1171977840470">
-              <link role="classConcept" extResolveInfo="7.[Classifier]Assert" />
-              <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]Assert).([StaticMethodDeclaration]assertEquals((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Object]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Object])) : (jetbrains.mps.baseLanguage.types.void/jetbrains.mps.baseLanguage.types.void))" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171977840471">
-                <link role="variableDeclaration" targetNodeId="1171977840450" resolveInfo="dateTime1" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171977840472">
-                <link role="variableDeclaration" targetNodeId="1171977840454" resolveInfo="dateTime2" />
-              </node>
-            </node>
-          </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1171978521671">
             <node role="expected" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171978545033">
               <link role="variableDeclaration" targetNodeId="1171977840450" resolveInfo="dateTime1" />
