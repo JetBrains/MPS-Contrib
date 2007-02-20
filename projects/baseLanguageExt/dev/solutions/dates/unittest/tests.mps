@@ -127,56 +127,6 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1169557888371">
     <property name="name" value="DatesTest" />
-    <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1169653017217">
-      <property name="name" value="testFormat1" />
-      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169653017218">
-        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1169653123181">
-          <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1169653130246">
-            <link role="classConcept" extResolveInfo="7.[Classifier]Assert" />
-            <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]Assert).([StaticMethodDeclaration]assertEquals((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.void/jetbrains.mps.baseLanguage.types.void))" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169653242122">
-              <link role="baseMethodDeclaration" extResolveInfo="5.method ([Classifier]AbstractDateTime).([InstanceMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
-              <node role="instance" type="jetbrains.mps.baseLanguage.NewExpression" id="1169653230588">
-                <link role="baseMethodDeclaration" extResolveInfo="4.constructor [Classifier]DateTime[ConstructorDeclaration] ()" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1169653256013">
-                <property name="value" value="HH:mm:ss" />
-              </node>
-            </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1169653280054">
-              <link role="dateFormat" targetNodeId="1169549957527" resolveInfo="time" />
-              <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1169653280055" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1169653017219" />
-    </node>
-    <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1169653152990">
-      <property name="name" value="testFormat2" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1169653152992" />
-      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169653299180">
-        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1169653300624">
-          <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1169653300625">
-            <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]Assert).([StaticMethodDeclaration]assertEquals((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.void/jetbrains.mps.baseLanguage.types.void))" />
-            <link role="classConcept" extResolveInfo="7.[Classifier]Assert" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169653300626">
-              <link role="baseMethodDeclaration" extResolveInfo="5.method ([Classifier]AbstractDateTime).([InstanceMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
-              <node role="instance" type="jetbrains.mps.baseLanguage.NewExpression" id="1169653300627">
-                <link role="baseMethodDeclaration" extResolveInfo="4.constructor [Classifier]DateTime[ConstructorDeclaration] ()" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1169653300628">
-                <property name="value" value="yyyy-MM-dd" />
-              </node>
-            </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1169653346995">
-              <link role="dateFormat" targetNodeId="1169637469524" resolveInfo="date" />
-              <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.TodayExpression" id="1169653348606" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1169653741488">
       <property name="name" value="testFormat3" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169653741489">
@@ -388,6 +338,26 @@
             <node role="actual" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1171979222029">
               <link role="dateFormat" targetNodeId="1169549957527" resolveInfo="time" />
               <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1171979222030" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1171979454037">
+        <property name="methodName" value="format2" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1171979454038">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1171979471028">
+            <node role="expected" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1171979476480">
+              <link role="baseMethodDeclaration" extResolveInfo="5.method ([Classifier]AbstractDateTime).([InstanceMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+              <node role="instance" type="jetbrains.mps.baseLanguage.NewExpression" id="1171979476481">
+                <link role="baseMethodDeclaration" extResolveInfo="4.constructor [Classifier]DateTime[ConstructorDeclaration] ()" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1171979476482">
+                <property name="value" value="yyyy-MM-dd" />
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1171979483210">
+              <link role="dateFormat" targetNodeId="1169637469524" resolveInfo="date" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.TodayExpression" id="1171979483211" />
             </node>
           </node>
         </node>
