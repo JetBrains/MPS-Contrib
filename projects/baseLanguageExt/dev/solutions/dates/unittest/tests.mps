@@ -2,6 +2,7 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.unittest.tests">
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.baseLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage.unitTest" />
   <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   <import index="2" modelUID="java.lang@java_stub" />
