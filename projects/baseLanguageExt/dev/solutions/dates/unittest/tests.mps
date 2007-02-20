@@ -310,7 +310,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1171977712220">
-    <property name="testCaseName" value="DatesTest2" />
+    <property name="testCaseName" value="Dates" />
     <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.TestMethodList" id="1171977712221">
       <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1171977819788">
         <property name="methodName" value="now" />
