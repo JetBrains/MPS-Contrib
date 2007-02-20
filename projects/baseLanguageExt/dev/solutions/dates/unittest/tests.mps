@@ -372,6 +372,26 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1171979191793">
+        <property name="methodName" value="format1" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1171979191794">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1171979207628">
+            <node role="expected" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1171979215861">
+              <link role="baseMethodDeclaration" extResolveInfo="5.method ([Classifier]AbstractDateTime).([InstanceMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+              <node role="instance" type="jetbrains.mps.baseLanguage.NewExpression" id="1171979215862">
+                <link role="baseMethodDeclaration" extResolveInfo="4.constructor [Classifier]DateTime[ConstructorDeclaration] ()" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1171979215863">
+                <property name="value" value="HH:mm:ss" />
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1171979222029">
+              <link role="dateFormat" targetNodeId="1169549957527" resolveInfo="time" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1171979222030" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
