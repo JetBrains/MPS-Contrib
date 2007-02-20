@@ -127,44 +127,6 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1169557888371">
     <property name="name" value="DatesTest" />
-    <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1169652834322">
-      <property name="name" value="testToday" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1169652834324" />
-      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169652848074">
-        <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1169652848075">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1169652848076">
-            <property name="name" value="dateTime1" />
-            <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1169652901900">
-              <link role="classifier" extResolveInfo="4.[Classifier]LocalDate" />
-            </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.TodayExpression" id="1169652894524" />
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1169652848079">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1169652848080">
-            <property name="name" value="dateTime2" />
-            <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1169652927728">
-              <link role="classifier" extResolveInfo="4.[Classifier]LocalDate" />
-            </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.NewExpression" id="1169652848082">
-              <link role="baseMethodDeclaration" extResolveInfo="4.constructor [Classifier]LocalDate[ConstructorDeclaration] ()" />
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1169652848095">
-          <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1169652848096">
-            <link role="classConcept" extResolveInfo="7.[Classifier]Assert" />
-            <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]Assert).([StaticMethodDeclaration]assertEquals((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Object]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Object])) : (jetbrains.mps.baseLanguage.types.void/jetbrains.mps.baseLanguage.types.void))" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1169652962713">
-              <link role="variableDeclaration" targetNodeId="1169652848076" resolveInfo="dateTime1" />
-            </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1169652964745">
-              <link role="variableDeclaration" targetNodeId="1169652848080" resolveInfo="dateTime2" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1169653017217">
       <property name="name" value="testFormat1" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169653017218">
@@ -373,6 +335,39 @@
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171978548300">
               <link role="variableDeclaration" targetNodeId="1171977840454" resolveInfo="dateTime2" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1171979067925">
+        <property name="methodName" value="today" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1171979067926">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1171979080741">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1171979080742">
+              <property name="name" value="dateTime1" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171979080743">
+                <link role="classifier" extResolveInfo="4.[Classifier]LocalDate" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.TodayExpression" id="1171979080744" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1171979080745">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1171979080746">
+              <property name="name" value="dateTime2" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171979080747">
+                <link role="classifier" extResolveInfo="4.[Classifier]LocalDate" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.NewExpression" id="1171979080748">
+                <link role="baseMethodDeclaration" extResolveInfo="4.constructor [Classifier]LocalDate[ConstructorDeclaration] ()" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1171979100478">
+            <node role="expected" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171979103388">
+              <link role="variableDeclaration" targetNodeId="1171979080742" resolveInfo="dateTime1" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171979106389">
+              <link role="variableDeclaration" targetNodeId="1171979080746" resolveInfo="dateTime2" />
             </node>
           </node>
         </node>
