@@ -379,6 +379,14 @@
               </node>
             </node>
           </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1171978521671">
+            <node role="expected" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171978545033">
+              <link role="variableDeclaration" targetNodeId="1171977840450" resolveInfo="dateTime1" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171978548300">
+              <link role="variableDeclaration" targetNodeId="1171977840454" resolveInfo="dateTime2" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
