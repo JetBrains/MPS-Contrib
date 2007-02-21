@@ -60,5 +60,23 @@
       <link role="target" targetNodeId="1169491688591" resolveInfo="DateFormatTokenType" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074318583">
+    <property name="name" value="DateTimeProperty" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172074333844">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074383898">
+    <property name="rootable" value="true" />
+    <property name="name" value="DateTimePropertySettings" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172074400422">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="dateTimeProperty" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1172074318583" resolveInfo="DateTimeProperty" />
+    </node>
+  </node>
 </model>
 

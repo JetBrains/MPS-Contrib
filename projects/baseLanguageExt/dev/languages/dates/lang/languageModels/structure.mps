@@ -276,5 +276,72 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074800504">
+    <property name="name" value="DateTimeCompareOperation" />
+    <link role="extends" targetNodeId="3.1068431790191" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172075931971">
+      <property name="value" value="compare dates by &lt;{datetimeProperty}&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172077799868">
+      <property name="value" value="Compare datetimes" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1172075381034">
+      <property name="name" value="compareType" />
+      <link role="dataType" targetNodeId="1172075151844" resolveInfo="CompareType" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172074898284">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="op1" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172074912819">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="op2" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172074844144">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="datetimeProperty" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.EnumerationDataTypeDeclaration" id="1172075151844">
+    <property name="name" value="CompareType" />
+    <link role="memberDataType" targetNodeId="1.1082983041843" />
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075151845">
+      <property name="externalValue" value="==" />
+      <property name="internalValue" value="datetime equals" />
+      <property name="name" value="equals" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075185460">
+      <property name="externalValue" value="!=" />
+      <property name="internalValue" value="datetime not equals" />
+      <property name="name" value="notEquals" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075218062">
+      <property name="externalValue" value="&gt;" />
+      <property name="internalValue" value="datetime greater" />
+      <property name="name" value="greater" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075248796">
+      <property name="externalValue" value="&gt;=" />
+      <property name="internalValue" value="datetime greater or equals" />
+      <property name="name" value="greaterOrEquals" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075265977">
+      <property name="externalValue" value="&lt;" />
+      <property name="internalValue" value="datetime less" />
+      <property name="name" value="less" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075272162">
+      <property name="externalValue" value="&lt;=" />
+      <property name="internalValue" value="datetime less or equals" />
+      <property name="name" value="lessOrEquals" />
+    </node>
+  </node>
 </model>
 

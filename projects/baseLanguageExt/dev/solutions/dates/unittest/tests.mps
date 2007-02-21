@@ -394,5 +394,47 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1172075810592">
+    <property name="testCaseName" value="Compare" />
+    <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.TestMethodList" id="1172075810593">
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172075816800">
+        <property name="methodName" value="equals" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172075816801">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertTrue" id="1172076576648">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeCompareOperation" id="1172076577674">
+              <property name="compareType" value="equals" />
+              <link role="datetimeProperty" targetNodeId="1.1172074737375" />
+              <node role="op1" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172076577675" />
+              <node role="op2" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172076577676" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172076595459">
+        <property name="methodName" value="greater" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172076595460">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertFalse" id="1172076628547">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeCompareOperation" id="1172076630922">
+              <property name="compareType" value="greater" />
+              <link role="datetimeProperty" targetNodeId="1.1172074751786" />
+              <node role="op1" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172076632705" />
+              <node role="op2" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172076639122" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertFalse" id="1172077922497">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeCompareOperation" id="1172077941813">
+              <property name="compareType" value="greater" />
+              <link role="datetimeProperty" targetNodeId="1.1172074929011" />
+              <node role="op2" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172077944753" />
+              <node role="op1" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172077924499" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172079464202">
+            <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172079464203" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

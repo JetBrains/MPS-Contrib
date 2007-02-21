@@ -325,6 +325,36 @@
         </node>
       </node>
     </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1172076695467">
+      <property name="actionsFactoryAspectId" value="Expression_To_DateTimeCompareOperation" />
+      <property name="actionsFilterAspectId" value="filterBaseLanguage_CompareOperation" />
+      <property name="description" value="Compare datetime operation" />
+      <link role="applicableConcept" targetNodeId="2.1068431790191" />
+      <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstitutePreconditionFunction" id="1172076718514">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172076718515">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172076724738">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172076724739">
+              <property name="name" value="nw" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1172076724740">
+                <link role="classifier" targetNodeId="1171978333109" resolveInfo="NodeWrapper" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.NewExpression" id="1172076732021">
+                <link role="baseMethodDeclaration" targetNodeId="1171979915592" resolveInfo="NodeWrapper" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstitutePreconditionParm_sourceNode" id="1172076739514" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1172076743687">
+            <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172076748753">
+              <link role="baseMethodDeclaration" targetNodeId="1171980490457" resolveInfo="isInstanceOfDateTime" />
+              <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172076745579">
+                <link role="variableDeclaration" targetNodeId="1172076724739" resolveInfo="nw" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1171978333109">
     <property name="name" value="NodeWrapper" />
