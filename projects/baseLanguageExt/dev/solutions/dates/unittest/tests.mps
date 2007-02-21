@@ -429,9 +429,6 @@
               <node role="op1" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172077924499" />
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172079464202">
-            <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172079464203" />
-          </node>
         </node>
       </node>
     </node>
