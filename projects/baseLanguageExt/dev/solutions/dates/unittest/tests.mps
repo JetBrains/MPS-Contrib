@@ -3,13 +3,14 @@
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.unitTest" />
-  <maxImportIndex value="7" />
+  <maxImportIndex value="8" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   <import index="2" modelUID="java.lang@java_stub" />
   <import index="3" modelUID="java.io@java_stub" />
   <import index="4" modelUID="org.joda.time@java_stub" />
   <import index="5" modelUID="org.joda.time.base@java_stub" />
   <import index="7" modelUID="junit.framework@java_stub" />
+  <import index="8" modelUID="java.util@java_stub" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormatsTable" id="1169488395206">
     <property name="name" value="MainFormatTable" />
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1169549842090">
@@ -337,6 +338,64 @@
               <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1171979631939">
                 <link role="dateFormat" targetNodeId="1169564829638" resolveInfo="optionalDate" />
                 <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1171979631940" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1171974180613">
+    <property name="testCaseName" value="ConvertTest" />
+    <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.TestMethodList" id="1171974180614">
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1171974214960">
+        <property name="methodName" value="FromJava" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1171974214961">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1171974263049">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1171974263050">
+              <property name="name" value="date" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171974263051">
+                <link role="classifier" extResolveInfo="8.[Classifier]Date" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.NewExpression" id="1171974263052">
+                <link role="baseMethodDeclaration" extResolveInfo="8.constructor [Classifier]Date[ConstructorDeclaration] ()" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1171974263053">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1171974263054">
+              <property name="name" value="dt" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1171974263055" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToDateTimeOperation" id="1171974263056">
+                <node role="expression" type="jetbrains.mps.baseLanguage.NewExpression" id="1171974263057">
+                  <link role="baseMethodDeclaration" extResolveInfo="8.constructor [Classifier]Date[ConstructorDeclaration] ((jetbrains.mps.baseLanguage.types.long/jetbrains.mps.baseLanguage.types.long))" />
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1171974263058">
+                    <property name="value" value="0" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1171979452178">
+            <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToDateTimeOperation" id="1171979534782">
+              <node role="expression" type="jetbrains.mps.baseLanguage.NewExpression" id="1171979452179">
+                <link role="baseMethodDeclaration" extResolveInfo="8.constructor [Classifier]Date[ConstructorDeclaration] ()" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1171982024426">
+            <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToJavaCalendarOperation" id="1171982024427">
+              <node role="datetime" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171982077804">
+                <link role="variableDeclaration" targetNodeId="1171974263050" resolveInfo="date" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1171982095666">
+            <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToDateTimeOperation" id="1171982106719">
+              <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToJodaDateTimeOperation" id="1171982095667">
+                <node role="datetime" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171982099763">
+                  <link role="variableDeclaration" targetNodeId="1171974263054" resolveInfo="dt" />
+                </node>
               </node>
             </node>
           </node>

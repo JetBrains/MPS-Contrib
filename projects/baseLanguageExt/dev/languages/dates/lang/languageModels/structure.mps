@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="4" />
+  <language namespace="jetbrains.mps.baseLanguage" />
+  <maxImportIndex value="6" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   <import index="3" modelUID="jetbrains.mps.baseLanguage.structure" />
+  <import index="5" modelUID="org.joda.time@java_stub" />
+  <import index="6" modelUID="java.util@java_stub" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169481390637">
     <property name="rootable" value="true" />
     <property name="name" value="DateFormatsTable" />
@@ -178,6 +181,87 @@
       <property name="role" value="typedClosureParameter" />
       <link role="target" targetNodeId="1169634841825" resolveInfo="TypedClosureParameter" />
       <link role="specializedLink" targetNodeId="3.1068581517664" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171902375079">
+    <property name="name" value="DateTimeType" />
+    <link role="extends" targetNodeId="3.1164118113764" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1171902397815">
+      <property name="value" value="datetime" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171963068132">
+    <property name="name" value="UnaryDateTimeOperation" />
+    <link role="extends" targetNodeId="3.1068431790191" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1171964003156">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="datetime" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLinkDeclaration" id="1171963160406">
+      <property name="name" value="operationType" />
+      <link role="targetType" targetNodeId="3.1068431790189" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1171963236441">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171964197527">
+    <property name="name" value="ToDateTimeOperation" />
+    <link role="extends" targetNodeId="3.1068431790191" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1171964270700">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="expression" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1171964286873">
+      <property name="value" value=".datetime" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171966255769">
+    <property name="name" value="ToJodaDateTimeOperation" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1171966277582">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171966324413">
+        <link role="classifier" extResolveInfo="5.[Classifier]DateTime" />
+      </node>
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1171966504215">
+      <property name="value" value=".jodaDateTime" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171966683378">
+    <property name="name" value="ToJavaDateOperation" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1171966733449">
+      <property name="value" value=".javaDate" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1171966711584">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171966727759">
+        <link role="classifier" extResolveInfo="6.[Classifier]Date" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171967275008">
+    <property name="name" value="ToJavaCalendarOperation" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1171967301042">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171967304404">
+        <link role="classifier" extResolveInfo="6.[Classifier]Calendar" />
+      </node>
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1171967332937">
+      <property name="value" value=".javaCalendar" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
 </model>

@@ -8,6 +8,7 @@
   </module>
   <languages>
     <moduleRoot path="${mps_home}\projects\baseLanguageExt\dev\languages\dates\lang\dates.mpl" />
+    <moduleRoot path="${mps_home}\baseLanguage\ext\unitTest\unitTest.mpl" />
   </languages>
 </solution>
 
