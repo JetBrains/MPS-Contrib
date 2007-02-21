@@ -253,19 +253,24 @@
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1169557612323" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1169557750912">
-        <property name="text" value="#" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172066155438">
         <property name="drawBorder" value="false" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1169557768961">
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1169557643590" />
-        <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1169557768962">
-          <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
-          <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1169557773729">
-            <property name="drawBorder" value="false" />
-            <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="2.1078489098626" />
+        <property name="selectable" value="false" />
+        <link role="actionMap" targetNodeId="1172066082833" resolveInfo="FormatExression_KeyMap" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172066163903">
+          <property name="text" value="#" />
+          <property name="drawBorder" value="false" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1172066155439">
+          <property name="drawBorder" value="false" />
+          <link role="relationDeclaration" targetNodeId="1.1169557643590" />
+          <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172066155440">
+            <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
+            <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172066155441">
+              <property name="drawBorder" value="false" />
+              <property name="readOnly" value="true" />
+              <link role="relationDeclaration" targetNodeId="2.1078489098626" />
+            </node>
           </node>
         </node>
       </node>
@@ -366,18 +371,6 @@
       <property name="drawBorder" value="false" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1169630372862">
-    <link role="conceptDeclaration" targetNodeId="1.1169630349500" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1169630376629">
-      <property name="textFgColor" value="DARK_BLUE" />
-      <property name="text" value="today" />
-      <property name="drawBorder" value="false" />
-    </node>
-    <node role="inspectedCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1169630402146">
-      <property name="text" value="LocalDate corresponding to the current date" />
-      <property name="drawBorder" value="false" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1169631841789">
     <link role="conceptDeclaration" targetNodeId="1.1169631506005" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1169632541034">
@@ -459,8 +452,11 @@
         <link role="relationDeclaration" targetNodeId="1.1171964003156" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_ConceptProperty" id="1171966473900">
+        <property name="layoutConstraint" value="punctuation" />
+        <property name="editable" value="false" />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="2.1137473891462" />
+        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_KeyMap" />
       </node>
     </node>
   </node>
@@ -472,13 +468,84 @@
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1171964270700" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1171964311114">
-        <property name="text" value="." />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172066873242">
+        <property name="layoutConstraint" value="punctuation" />
+        <property name="text" value=".datetime" />
         <property name="drawBorder" value="false" />
+        <link role="actionMap" targetNodeId="1172065886141" resolveInfo="ToDateTimeOperation_KeyMap" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1171964315382">
-        <property name="text" value="datetime" />
-        <property name="drawBorder" value="false" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.CellActionMapDeclaration" id="1172065403260">
+    <property name="name" value="UnaryDateTimeOperation_KeyMap" />
+    <link role="applicableConcept" targetNodeId="1.1171963068132" />
+    <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMapItem" id="1172065438479">
+      <property name="description" value="Delete operation" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_ExecuteFunction" id="1172065438480">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172065438481">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172065525877">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172065526192">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_FunctionParm_selectedNode" id="1172065556367" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ReplaceWithAnotherOperation" id="1172065548896">
+                <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172065584442">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_FunctionParm_selectedNode" id="1172065584050" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1172065586099">
+                    <link role="link" targetNodeId="1.1171964003156" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.CellActionMapDeclaration" id="1172065886141">
+    <property name="name" value="ToDateTimeOperation_KeyMap" />
+    <link role="applicableConcept" targetNodeId="1.1171964197527" />
+    <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMapItem" id="1172065925329">
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_ExecuteFunction" id="1172065925330">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172065925331">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172065934942">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172065935319">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_FunctionParm_selectedNode" id="1172065934943" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ReplaceWithAnotherOperation" id="1172065940929">
+                <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172066010557">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_FunctionParm_selectedNode" id="1172066010290" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1172066028621">
+                    <link role="link" targetNodeId="1.1171964270700" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.CellActionMapDeclaration" id="1172066082833">
+    <property name="name" value="FormatExression_KeyMap" />
+    <link role="applicableConcept" targetNodeId="1.1169557513226" />
+    <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMapItem" id="1172066120068">
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_ExecuteFunction" id="1172066120069">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172066120070">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172066127165">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172066127386">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_FunctionParm_selectedNode" id="1172066127166" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ReplaceWithAnotherOperation" id="1172066130465">
+                <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172066132374">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellActionMap_FunctionParm_selectedNode" id="1172066132060" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1172066140859">
+                    <link role="link" targetNodeId="1.1169557612323" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
