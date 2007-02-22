@@ -2,7 +2,8 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.accessories">
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
-  <maxImportIndex value="0" />
+  <maxImportIndex value="1" />
+  <import index="1" modelUID="org.joda.time@java_stub" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenSettings" id="1169483995724">
     <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485527532">
       <property name="name" value="text" />
@@ -94,128 +95,128 @@
       </node>
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169483998897">
-      <property name="meaning" value="era" />
       <property name="examples" value="AD" />
+      <property name="meaning" value="era" />
       <property name="name" value="G" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484043695">
-      <property name="meaning" value="century of era (&gt;=0)" />
       <property name="examples" value="20" />
+      <property name="meaning" value="century of era (&gt;=0)" />
       <property name="name" value="C" />
       <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484079510">
-      <property name="meaning" value="year of era (&gt;=0)" />
       <property name="examples" value="1996" />
+      <property name="meaning" value="year of era (&gt;=0)" />
       <property name="name" value="Y" />
       <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484174294">
-      <property name="meaning" value="weekyear" />
       <property name="examples" value="1996" />
+      <property name="meaning" value="weekyear" />
       <property name="name" value="x" />
       <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484195467">
-      <property name="meaning" value="week of weekyear" />
       <property name="examples" value="27" />
+      <property name="meaning" value="week of weekyear" />
       <property name="name" value="w" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484218671">
-      <property name="meaning" value="day of week" />
       <property name="examples" value="2" />
+      <property name="meaning" value="day of week" />
       <property name="name" value="e" />
       <link role="presentationType" targetNodeId="1169490745785" resolveInfo="one-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484234126">
-      <property name="meaning" value="day of week" />
       <property name="examples" value="Tuesday; Tue" />
+      <property name="meaning" value="day of week" />
       <property name="name" value="E" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484269659">
-      <property name="meaning" value="year" />
       <property name="examples" value="1996" />
+      <property name="meaning" value="year" />
       <property name="name" value="y" />
       <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484284395">
-      <property name="meaning" value="day of year" />
       <property name="examples" value="189" />
+      <property name="meaning" value="day of year" />
       <property name="name" value="D" />
       <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484303193">
-      <property name="meaning" value="month of year" />
       <property name="examples" value="July; Jul; 07" />
+      <property name="meaning" value="month of year" />
       <property name="name" value="M" />
       <link role="presentationType" targetNodeId="1169485814057" resolveInfo="month" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484351382">
-      <property name="meaning" value="day of month" />
       <property name="examples" value="10" />
+      <property name="meaning" value="day of month" />
       <property name="name" value="d" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484382196">
-      <property name="meaning" value="halfday of day" />
       <property name="examples" value="PM" />
+      <property name="meaning" value="halfday of day" />
       <property name="name" value="a" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484404541">
-      <property name="meaning" value="hour of halfday (0~11)" />
       <property name="examples" value="0" />
+      <property name="meaning" value="hour of halfday (0~11)" />
       <property name="name" value="K" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484454153">
-      <property name="meaning" value="clockhour of halfday (1~12)" />
       <property name="examples" value="12" />
+      <property name="meaning" value="clockhour of halfday (1~12)" />
       <property name="name" value="h" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484470279">
-      <property name="meaning" value="hour of day (0~23)" />
       <property name="examples" value="0" />
+      <property name="meaning" value="hour of day (0~23)" />
       <property name="name" value="H" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484523297">
-      <property name="meaning" value="clockhour of day (1~24)" />
       <property name="examples" value="24" />
+      <property name="meaning" value="clockhour of day (1~24)" />
       <property name="name" value="k" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484544423">
-      <property name="meaning" value="minute of hour" />
       <property name="examples" value="30" />
+      <property name="meaning" value="minute of hour" />
       <property name="name" value="m" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484556768">
-      <property name="meaning" value="second of minute" />
       <property name="examples" value="55" />
+      <property name="meaning" value="second of minute" />
       <property name="name" value="s" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484570220">
-      <property name="meaning" value="fraction of second" />
       <property name="examples" value="978" />
+      <property name="meaning" value="fraction of second" />
       <property name="name" value="S" />
       <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484584515">
-      <property name="meaning" value="time zone" />
       <property name="examples" value="Pacific Standard Time; PST" />
+      <property name="meaning" value="time zone" />
       <property name="name" value="z" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484603731">
-      <property name="meaning" value="time zone offset/id" />
       <property name="examples" value="-0800; -08:00; America/Los_Angeles" />
+      <property name="meaning" value="time zone offset/id" />
       <property name="name" value="Z" />
       <link role="presentationType" targetNodeId="1169485922290" resolveInfo="zone" />
     </node>
@@ -223,24 +224,31 @@
   <node type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertySettings" id="1172074610338">
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074929011">
       <property name="name" value="millis" />
+      <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]millisOfSecond() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074612199">
       <property name="name" value="second" />
+      <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]secondOfMinute() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074618358">
       <property name="name" value="minute" />
+      <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]minuteOfHour() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074620250">
       <property name="name" value="hour" />
+      <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]hourOfDay() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074737375">
       <property name="name" value="day" />
+      <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]dayOfMonth() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074751786">
       <property name="name" value="month" />
+      <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]monthOfYear() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074760743">
       <property name="name" value="year" />
+      <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]yearOfEra() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
     </node>
   </node>
 </model>

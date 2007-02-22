@@ -3,6 +3,9 @@
   <structure>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   </structure>
+  <constraints>
+    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.constraints" />
+  </constraints>
   <editor>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.editor" />
   </editor>

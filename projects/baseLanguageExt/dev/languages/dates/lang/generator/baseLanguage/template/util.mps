@@ -399,7 +399,7 @@
                   <link role="variableDeclaration" targetNodeId="1169650102225" resolveInfo="result" />
                 </node>
                 <node role="rValue" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169651155393">
-                  <link role="baseMethodDeclaration" extResolveInfo="10.method ([Classifier]Class).([InstanceMethodDeclaration]isAssignableFrom((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Class, &lt;?&gt;])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                  <link role="baseMethodDeclaration" extResolveInfo="10.method ([Classifier]Class).([InstanceMethodDeclaration]isAssignableFrom((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Class])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
                   <node role="instance" type="jetbrains.mps.baseLanguage.FieldReference" id="1169651152024">
                     <link role="variableDeclaration" targetNodeId="1169650158176" resolveInfo="clazz" />
                     <node role="instance" type="jetbrains.mps.baseLanguage.ThisExpression" id="1169651152025" />

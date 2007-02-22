@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.baseLanguage.ext.dates.internal.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="2" />
+  <language namespace="jetbrains.mps.baseLanguage" />
+  <maxImportIndex value="3" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
+  <import index="3" modelUID="jetbrains.mps.baseLanguage.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169491669264">
     <property name="name" value="TokenPresentationOption" />
     <link role="extends" targetNodeId="1.1133920641626" />
@@ -65,6 +67,11 @@
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172074333844">
       <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172155646667">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="jodaDateTimeFieldType" />
+      <link role="target" targetNodeId="3.1081236700938" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074383898">
