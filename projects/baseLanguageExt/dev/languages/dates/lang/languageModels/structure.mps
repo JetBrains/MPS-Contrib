@@ -3,12 +3,13 @@
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   <import index="3" modelUID="jetbrains.mps.baseLanguage.structure" />
   <import index="5" modelUID="org.joda.time@java_stub" />
   <import index="6" modelUID="java.util@java_stub" />
+  <import index="7" modelUID="java.lang@java_stub" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169481390637">
     <property name="rootable" value="true" />
     <property name="name" value="DateFormatsTable" />
@@ -399,6 +400,29 @@
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172325617855">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="precision" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172327820761">
+    <property name="name" value="DateTimePropetyReference" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172327973863">
+      <property name="value" value=".&lt;{dateTimeProperty}&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172328004450">
+      <property name="value" value="Get integer value of datetime property" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172327946026">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ClassifierType" id="1172327966923">
+        <link role="classifier" extResolveInfo="7.[Classifier]Integer" />
+      </node>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172327896967">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimeProperty" />
       <link role="target" targetNodeId="2.1172074318583" />
     </node>
   </node>

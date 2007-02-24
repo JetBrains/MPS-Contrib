@@ -172,6 +172,35 @@
         </node>
       </node>
     </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1172329470744">
+      <property name="actionsFactoryAspectId" value="Expression_To_DateTimePropetyReference" />
+      <property name="description" value="Get property of datetime" />
+      <link role="applicableConcept" targetNodeId="2.1068431790191" />
+      <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstitutePreconditionFunction" id="1172329504653">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172329504654">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172329511407">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172329511408">
+              <property name="name" value="nw" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1172329511409">
+                <link role="classifier" targetNodeId="1171978333109" resolveInfo="NodeWrapper" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.NewExpression" id="1172329511410">
+                <link role="baseMethodDeclaration" targetNodeId="1171979915592" resolveInfo="NodeWrapper" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstitutePreconditionParm_sourceNode" id="1172329511411" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1172329511412">
+            <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172329511413">
+              <link role="baseMethodDeclaration" targetNodeId="1171980490457" resolveInfo="isInstanceOfDateTime" />
+              <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172329511414">
+                <link role="variableDeclaration" targetNodeId="1172329511408" resolveInfo="nw" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1171978333109">
     <property name="name" value="NodeWrapper" />

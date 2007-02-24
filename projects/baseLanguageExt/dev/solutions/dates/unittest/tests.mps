@@ -415,6 +415,25 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172329891614">
+        <property name="methodName" value="lessOrEquals" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172329891615">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertTrue" id="1172329898510">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeCompareOperation" id="1172329898511">
+              <property name="compareType" value="datetime less or equals" />
+              <link role="datetimeProperty" targetNodeId="1.1172074929011" />
+              <node role="op2" type="jetbrains.mps.baseLanguage.ext.dates.lang.RoundDateTimeOperation" id="1172329898512">
+                <link role="precision" targetNodeId="1.1172074737375" />
+                <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172329898513" />
+              </node>
+              <node role="op1" type="jetbrains.mps.baseLanguage.ext.dates.lang.FloorDateTimeOperation" id="1172329898514">
+                <link role="precision" targetNodeId="1.1172074751786" />
+                <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172329898515" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1172324818166">
@@ -467,6 +486,64 @@
             <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.CeilingDateTimeOperation" id="1172327019478">
               <link role="precision" targetNodeId="1.1172074760743" />
               <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172327015461" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1172329632465">
+    <property name="testCaseName" value="Property" />
+    <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.TestMethodList" id="1172329632466">
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172329639906">
+        <property name="methodName" value="minute" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172329639907">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172330272342">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172330272343">
+              <property name="name" value="month" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172330272344" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.RoundDateTimeOperation" id="1172330275243">
+                <link role="precision" targetNodeId="1.1172074737375" />
+                <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172330275244" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172330495198">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172330495199">
+              <property name="name" value="expected" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1172330495200">
+                <link role="classifier" extResolveInfo="2.[Classifier]Integer" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172330505563">
+                <property name="value" value="0" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1172329729736">
+            <node role="expected" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172330507643">
+              <link role="variableDeclaration" targetNodeId="1172330495199" resolveInfo="expected" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropetyReference" id="1172329762249">
+              <link role="dateTimeProperty" targetNodeId="1.1172074618358" />
+              <node role="datetime" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172330279464">
+                <link role="variableDeclaration" targetNodeId="1172330272343" resolveInfo="month" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172329677083">
+        <property name="methodName" value="month" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172329677084">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertTrue" id="1172330243042">
+            <node role="condition" type="jetbrains.mps.baseLanguage.LessThanExpression" id="1172330248158">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172330250927">
+                <property name="value" value="13" />
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropetyReference" id="1172330247359">
+                <link role="dateTimeProperty" targetNodeId="1.1172074751786" />
+                <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172330244654" />
+              </node>
             </node>
           </node>
         </node>
