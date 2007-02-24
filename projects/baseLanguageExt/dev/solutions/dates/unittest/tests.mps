@@ -68,6 +68,13 @@
         <link role="option" targetNodeId="1.1169485636390" />
       </node>
     </node>
+    <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172332021204">
+      <property name="name" value="week" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1172332141119">
+        <link role="type" targetNodeId="1.1169484234126" />
+        <link role="option" targetNodeId="1.1169485540970" />
+      </node>
+    </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1169564829638">
       <property name="name" value="optionalDate" />
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.ConditionalFormatToken" id="1169645782400">
@@ -544,6 +551,73 @@
                 <link role="dateTimeProperty" targetNodeId="1.1172074751786" />
                 <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172330244654" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1172331834181">
+    <property name="testCaseName" value="With" />
+    <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.TestMethodList" id="1172331834182">
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172331837293">
+        <property name="methodName" value="monday" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172331837294">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172332219818">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172332219819">
+              <property name="name" value="n" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172332219820" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172332223055" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172332112238">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172332112239">
+              <property name="name" value="firstOfJan" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172332112240" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeWithPropertyOperation" id="1172332125086">
+                <link role="dateTimeProperty" targetNodeId="1.1172074737375" />
+                <node role="expression" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172332125087">
+                  <property name="value" value="1" />
+                </node>
+                <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeWithPropertyOperation" id="1172332125088">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074751786" />
+                  <node role="expression" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172332639353">
+                    <property name="value" value="1" />
+                  </node>
+                  <node role="datetime" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172332225602">
+                    <link role="variableDeclaration" targetNodeId="1172332219819" resolveInfo="n" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172332212520">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172332212521">
+              <property name="name" value="firstOfFirstWeek" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172332212522" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeWithPropertyOperation" id="1172332307113">
+                <link role="dateTimeProperty" targetNodeId="1.1172332318159" />
+                <node role="expression" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172332368722">
+                  <property name="value" value="1" />
+                </node>
+                <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeWithPropertyOperation" id="1172332261298">
+                  <link role="dateTimeProperty" targetNodeId="1.1172162485440" />
+                  <node role="expression" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172332274640">
+                    <property name="value" value="1" />
+                  </node>
+                  <node role="datetime" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172332246081">
+                    <link role="variableDeclaration" targetNodeId="1172332219819" resolveInfo="n" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1172331980258">
+            <node role="expected" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172332376580">
+              <link role="variableDeclaration" targetNodeId="1172332112239" resolveInfo="firstOfJan" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172332380706">
+              <link role="variableDeclaration" targetNodeId="1172332212521" resolveInfo="firstOfFirstWeek" />
             </node>
           </node>
         </node>

@@ -426,5 +426,32 @@
       <link role="target" targetNodeId="2.1172074318583" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172331114860">
+    <property name="name" value="DateTimeWithPropertyOperation" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172331207547">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimeProperty" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172331281757">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="expression" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172331191416">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172331193757" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172331196659">
+      <property name="value" value="with" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172331249737">
+      <property name="value" value="same datetime but with property set to" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+  </node>
 </model>
 
