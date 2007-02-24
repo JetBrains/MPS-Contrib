@@ -74,28 +74,12 @@
         <node role="conditionPair" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenConditionalPair" id="1169646203451">
           <link role="format" targetNodeId="1169549957527" resolveInfo="time" />
           <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition" id="1169646203452">
-            <node role="dateTime" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeClosureParameter" id="1169646203453">
-              <property name="name" value="dateTime" />
-              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1169646203454">
-                <link role="classifier" extResolveInfo="4.[Classifier]DateTime" />
-              </node>
-            </node>
             <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169646203455">
-              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1169646869863">
-                <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169646880572">
-                  <link role="baseMethodDeclaration" extResolveInfo="5.method ([Classifier]AbstractPartial).([InstanceMethodDeclaration]equals((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Object])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-                  <node role="instance" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169646875148">
-                    <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime).([InstanceMethodDeclaration]toLocalDate() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [LocalDate]))" />
-                    <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.TypedClosureParameterReference" id="1169646869864">
-                      <link role="variableDeclaration" targetNodeId="1169646203453" resolveInfo="dateTime" />
-                    </node>
-                  </node>
-                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172071718911">
-                    <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime).([InstanceMethodDeclaration]toLocalDate() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [LocalDate]))" />
-                    <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToJodaDateTimeOperation" id="1172071601262">
-                      <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172071588363" />
-                    </node>
-                  </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172165982407">
+                <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeCompareOperation" id="1172165982408">
+                  <link role="datetimeProperty" targetNodeId="1.1172074737375" />
+                  <node role="op1" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172165983802" />
+                  <node role="op2" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition_datetimeToFormat" id="1172318772937" />
                 </node>
               </node>
             </node>
@@ -104,30 +88,13 @@
         <node role="conditionPair" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenConditionalPair" id="1169646886872">
           <link role="format" targetNodeId="1169549842090" resolveInfo="date/time" />
           <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition" id="1169646886873">
-            <node role="dateTime" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeClosureParameter" id="1169646886874">
-              <property name="name" value="dateTime" />
-              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1169646886875">
-                <link role="classifier" extResolveInfo="4.[Classifier]DateTime" />
-              </node>
-            </node>
             <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169646886876">
-              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1169646898076">
-                <node role="expression" type="jetbrains.mps.baseLanguage.NotExpression" id="1169646901665">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172071738199">
-                    <link role="baseMethodDeclaration" extResolveInfo="5.method ([Classifier]AbstractPartial).([InstanceMethodDeclaration]equals((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Object])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-                    <node role="instance" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172071738200">
-                      <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime).([InstanceMethodDeclaration]toLocalDate() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [LocalDate]))" />
-                      <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.TypedClosureParameterReference" id="1172071738201">
-                        <link role="variableDeclaration" targetNodeId="1169646886874" resolveInfo="dateTime" />
-                      </node>
-                    </node>
-                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172071738202">
-                      <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime).([InstanceMethodDeclaration]toLocalDate() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [LocalDate]))" />
-                      <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToJodaDateTimeOperation" id="1172071738203">
-                        <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172071738204" />
-                      </node>
-                    </node>
-                  </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172166073513">
+                <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeCompareOperation" id="1172166316423">
+                  <property name="compareType" value="datetime not equals" />
+                  <link role="datetimeProperty" targetNodeId="1.1172074737375" />
+                  <node role="op2" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition_datetimeToFormat" id="1172318774969" />
+                  <node role="op1" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172166276316" />
                 </node>
               </node>
             </node>

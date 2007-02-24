@@ -2,6 +2,7 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
@@ -154,29 +155,24 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169631506005">
     <property name="name" value="TokenCondition" />
     <link role="extends" targetNodeId="3.1137021947720" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169631741860">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="dateTime" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1169633993430" resolveInfo="DateTimeClosureParameter" />
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172162329997">
+      <link role="conceptLinkDeclaration" targetNodeId="3.1137545148427" />
+      <node role="target" type="jetbrains.mps.baseLanguage.BooleanType" id="1172162332013" />
     </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169633993430">
-    <property name="name" value="DateTimeClosureParameter" />
-    <link role="extends" targetNodeId="1169634841825" resolveInfo="TypedClosureParameter" />
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169634841825">
-    <property name="name" value="TypedClosureParameter" />
-    <link role="extends" targetNodeId="3.1068431474542" />
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169635500287">
-    <property name="name" value="TypedClosureParameterReference" />
-    <link role="extends" targetNodeId="3.1068498886296" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169635514835">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="typedClosureParameter" />
-      <link role="target" targetNodeId="1169634841825" resolveInfo="TypedClosureParameter" />
-      <link role="specializedLink" targetNodeId="3.1068581517664" />
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172162116793">
+      <link role="conceptLinkDeclaration" targetNodeId="3.1137546998352" />
+      <node role="target" type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172162157215">
+        <property name="name" value="TokenCondition_datetimeToFormat" />
+        <link role="extends" targetNodeId="3.1107135704075" />
+        <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172162288196">
+          <property name="value" value="datetimeToFormat" />
+          <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+        </node>
+        <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172162304446">
+          <link role="conceptLinkDeclaration" targetNodeId="3.1137545963098" />
+          <node role="target" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172162315705" />
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171902375079">
