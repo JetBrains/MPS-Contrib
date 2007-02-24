@@ -339,5 +339,68 @@
       <property name="name" value="lessOrEquals" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172324086632">
+    <property name="name" value="RoundDateTimeOperation" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172324242744">
+      <property name="value" value="round to" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172324257215">
+      <property name="value" value="Round datetime to the nearest" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172324135268">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172324137707" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172324147302">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="precision" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172325083904">
+    <property name="name" value="FloorDateTimeOperation" />
+    <link role="extends" targetNodeId="1172324086632" resolveInfo="RoundDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172325083905">
+      <property name="value" value="round down to" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172325083906">
+      <property name="value" value="Round datetime to the nearest that is less than" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172325083907">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172325083908" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172325083909">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="precision" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172325617850">
+    <property name="name" value="CeilingDateTimeOperation" />
+    <link role="extends" targetNodeId="1172324086632" resolveInfo="RoundDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172325617851">
+      <property name="value" value="round up to" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172325617852">
+      <property name="value" value="Round datetime to the nearest that is greater than" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172325617853">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172325617854" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172325617855">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="precision" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+  </node>
 </model>
 
