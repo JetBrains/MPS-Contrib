@@ -86,5 +86,19 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172445349008">
+    <property name="name" value="ProtectedText" />
+    <link role="extends" targetNodeId="2.1163340203555" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172445349009">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="content" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="2.1161371727643" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172445349010">
+      <property name="value" value="protectedText" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
 </model>
 
