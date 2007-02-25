@@ -19,9 +19,9 @@
   <module>
     <moduleRoot path="${mps_home}\platform\webr\languages\gtext\gtext.mpl" />
     <moduleRoot path="${mps_home}\platform\webr\languages\xmlSchema\xmlSchema.mpl" />
+    <moduleRoot path="${mps_home}\platform\webr\languages\xmlInternal\xmlInternal.mpl" />
   </module>
   <accessoryModels />
-  <targetOfGenerator />
   <generators>
     <generator generatorUID="webr.xml#1163716442262" targetLanguage="jetbrains.mps.baseLanguage">
       <models>
@@ -31,6 +31,7 @@
         <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
         <moduleRoot path="${mps_home}\platform\webr\devkit\baseGeneration.devkit" />
       </module>
+      <external-templates />
     </generator>
   </generators>
   <classPath>
