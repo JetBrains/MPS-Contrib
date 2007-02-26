@@ -3,12 +3,13 @@
   <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <maxImportIndex value="5" />
+  <maxImportIndex value="6" />
   <import index="1" modelUID="webr.xmlInternal.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="3" modelUID="webr.xmlInternal.editor" />
   <import index="4" modelUID="webr.xml.structure" />
   <import index="5" modelUID="webr.xmlSchema.structure" />
+  <import index="6" modelUID="jetbrains.mps.webr.dxmlInternal.structure" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1165761822666">
     <link role="conceptDeclaration" targetNodeId="1.1165761580958" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165761827856">
@@ -163,20 +164,6 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018853">
         <property name="text" value="}" />
         <property name="drawBorder" value="false" />
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1172445349589">
-    <link role="conceptDeclaration" targetNodeId="1.1172445349008" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172445349590">
-      <property name="drawBorder" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172445349591">
-        <property name="text" value="protectedText" />
-        <property name="drawBorder" value="false" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1172445349592">
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1172445349009" />
       </node>
     </node>
   </node>
