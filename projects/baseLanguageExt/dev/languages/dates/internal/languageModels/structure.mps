@@ -65,12 +65,21 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074318583">
     <property name="name" value="DateTimeProperty" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1172490222219">
+      <property name="name" value="pluralForm" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172074333844">
       <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172155646667">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="jodaDateTimeFieldType" />
+      <link role="target" targetNodeId="3.1081236700938" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172492673219">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="jodaPeriodType" />
       <link role="target" targetNodeId="3.1081236700938" />
     </node>
   </node>

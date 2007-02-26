@@ -287,6 +287,38 @@
               </node>
             </node>
           </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172492699268">
+            <property name="drawBorder" value="false" />
+            <property name="selectable" value="false" />
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172492704037">
+              <property name="text" value="Joda PeriodType" />
+              <property name="drawBorder" value="false" />
+            </node>
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1172492725461">
+              <property name="drawBorder" value="false" />
+              <link role="relationDeclaration" targetNodeId="1.1172492673219" />
+              <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172492725462">
+                <link role="conceptDeclaration" targetNodeId="4.1081236700938" />
+                <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172492735432">
+                  <property name="drawBorder" value="false" />
+                  <property name="readOnly" value="true" />
+                  <link role="relationDeclaration" targetNodeId="4.1083152972672" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172490250097">
+            <property name="drawBorder" value="false" />
+            <property name="selectable" value="false" />
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172490250098">
+              <property name="text" value="Plural form" />
+              <property name="drawBorder" value="false" />
+            </node>
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172490257913">
+              <property name="drawBorder" value="false" />
+              <link role="relationDeclaration" targetNodeId="1.1172490222219" />
+            </node>
+          </node>
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172155833779">

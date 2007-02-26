@@ -453,5 +453,54 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172487727591">
+    <property name="name" value="PeriodType" />
+    <link role="extends" targetNodeId="3.1164118113764" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172487784960">
+      <property name="value" value="period" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172489559047">
+    <property name="name" value="PeriodConstant" />
+    <link role="extends" targetNodeId="3.1068431790191" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172491543832">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="count" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172489570282">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimeProperty" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172493993365">
+    <property name="name" value="BinaryPeriodOperation" />
+    <link role="extends" targetNodeId="3.1068431790191" />
+    <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptPropertyDeclaration" id="1172495440825">
+      <property name="name" value="operationSign" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172494039959">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="op1" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172494053350">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="op2" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLinkDeclaration" id="1172494011646">
+      <property name="name" value="operationType" />
+      <link role="targetType" targetNodeId="3.1068431790189" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1172494034834">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+  </node>
 </model>
 
