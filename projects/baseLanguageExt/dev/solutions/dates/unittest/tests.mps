@@ -13,6 +13,20 @@
   <import index="8" modelUID="java.util@java_stub" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormatsTable" id="1169488395206">
     <property name="name" value="MainFormatTable" />
+    <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172684095976">
+      <property name="name" value="usDayOfWeek" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.FixedLocaleFormatToken" id="1172684075121">
+        <link role="locale" targetNodeId="1.1172681410396" />
+        <link role="dateFormat" targetNodeId="1172684313431" resolveInfo="fullWeek" />
+      </node>
+    </node>
+    <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172684313431">
+      <property name="name" value="fullDayOfWeek" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1172684320306">
+        <link role="type" targetNodeId="1.1169484234126" />
+        <link role="option" targetNodeId="1.1169485558751" />
+      </node>
+    </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1169549842090">
       <property name="name" value="date/time" />
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.ReferenceFormatToken" id="1169637567689">
@@ -75,9 +89,28 @@
         <link role="option" targetNodeId="1.1169485540970" />
       </node>
     </node>
+    <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172687345331">
+      <property name="name" value="empty" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.LiteralFormatToken" id="1172687350864">
+        <property name="value" value="-" />
+      </node>
+    </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1169564829638">
       <property name="name" value="optionalDate" />
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.ConditionalFormatToken" id="1169645782400">
+        <node role="conditionPair" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenConditionalPair" id="1172687359615">
+          <link role="format" targetNodeId="1172687345331" resolveInfo="empty" />
+          <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition" id="1172687359616">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172687359617">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172687373872">
+                <node role="expression" type="jetbrains.mps.baseLanguage.EqualsExpression" id="1172687373873">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1172687379127" />
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition_datetimeToFormat" id="1172687598000" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="conditionPair" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenConditionalPair" id="1169646203451">
           <link role="format" targetNodeId="1169549957527" resolveInfo="time" />
           <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition" id="1169646203452">
@@ -193,26 +226,15 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1171979603779">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1171979603780">
               <property name="name" value="yesterday" />
-              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171979603781">
-                <link role="classifier" extResolveInfo="4.[Classifier]LocalDate" />
-              </node>
-              <node role="initializer" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172067998157">
-                <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime).([InstanceMethodDeclaration]toLocalDate() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [LocalDate]))" />
-                <node role="instance" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172067988013">
-                  <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime).([InstanceMethodDeclaration]minusDays((jetbrains.mps.baseLanguage.types.int/jetbrains.mps.baseLanguage.types.int)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTime]))" />
-                  <node role="instance" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172067800588">
-                    <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime$Property).([InstanceMethodDeclaration]roundFloorCopy() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTime]))" />
-                    <node role="instance" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172067770585">
-                      <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]DateTime).([InstanceMethodDeclaration]dayOfMonth() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTime$Property]))" />
-                      <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToJodaDateTimeOperation" id="1172067686562">
-                        <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172067683311" />
-                      </node>
-                    </node>
-                  </node>
-                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172067991436">
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172686083933" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.MinusExpression" id="1172686140073">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.PeriodConstant" id="1172686142560">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074737375" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1172686144015">
                     <property name="value" value="1" />
                   </node>
                 </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172686103624" />
               </node>
             </node>
           </node>
@@ -224,13 +246,8 @@
               <link role="baseMethodDeclaration" extResolveInfo="2.method ([Classifier]String).([InstanceMethodDeclaration]length() : (jetbrains.mps.baseLanguage.types.int/jetbrains.mps.baseLanguage.types.int))" />
               <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1171979618089">
                 <link role="dateFormat" targetNodeId="1169564829638" resolveInfo="optionalDate" />
-                <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.ToDateTimeOperation" id="1172071481419">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1171979618090">
-                    <link role="baseMethodDeclaration" extResolveInfo="4.method ([Classifier]LocalDate).([InstanceMethodDeclaration]toDateTimeAtCurrentTime() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTime]))" />
-                    <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171979618091">
-                      <link role="variableDeclaration" targetNodeId="1171979603780" resolveInfo="yesterday" />
-                    </node>
-                  </node>
+                <node role="dateExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1171979618091">
+                  <link role="variableDeclaration" targetNodeId="1171979603780" resolveInfo="yesterday" />
                 </node>
               </node>
             </node>
@@ -244,6 +261,57 @@
               <node role="instance" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1171979631939">
                 <link role="dateFormat" targetNodeId="1169564829638" resolveInfo="optionalDate" />
                 <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1171979631940" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172687401894">
+        <property name="methodName" value="format5" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172687401895">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1172687415007">
+            <node role="expected" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172687417322">
+              <property name="value" value="-" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1172687424027">
+              <link role="dateFormat" targetNodeId="1169564829638" resolveInfo="optionalDate" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1172687422354" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1172682247715">
+        <property name="methodName" value="format6" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1172682247716">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172682255797">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172682255798">
+              <property name="name" value="monday" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1172682255799" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.FloorDateTimeOperation" id="1172682265835">
+                <link role="precision" targetNodeId="1.1172162485440" />
+                <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1172682261615" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1172682280107">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1172682280108">
+              <property name="name" value="expected" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1172682280109">
+                <link role="classifier" extResolveInfo="2.[Classifier]String" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172682284471">
+                <property name="value" value="Monday" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertEquals" id="1172684102560">
+            <node role="expected" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172684104594">
+              <link role="variableDeclaration" targetNodeId="1172682280108" resolveInfo="expected" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1172684112346">
+              <link role="dateFormat" targetNodeId="1172684095976" resolveInfo="usWeek" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1172684108767">
+                <link role="variableDeclaration" targetNodeId="1172682255798" resolveInfo="monday" />
               </node>
             </node>
           </node>

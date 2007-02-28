@@ -222,14 +222,33 @@
           <property name="drawBorder" value="false" />
           <property name="selectable" value="false" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1172074452255">
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172681040811">
           <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
-          <link role="relationDeclaration" targetNodeId="1.1172074400422" />
-          <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172074467703">
-            <property name="textFgColor" value="lightGray" />
-            <property name="text" value="&lt;no datetime properties&gt;" />
+          <property name="selectable" value="false" />
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1172681071011">
             <property name="drawBorder" value="false" />
+            <property name="vertical" value="true" />
+            <link role="relationDeclaration" targetNodeId="1.1172681020957" />
+            <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172681080415">
+              <property name="textFgColor" value="lightGray" />
+              <property name="text" value="&lt;no locales&gt;" />
+              <property name="drawBorder" value="false" />
+            </node>
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172681048011">
+            <property name="drawBorder" value="false" />
+            <property name="selectable" value="false" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1172681040812">
+            <property name="drawBorder" value="false" />
+            <property name="vertical" value="true" />
+            <link role="relationDeclaration" targetNodeId="1.1172074400422" />
+            <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172681040813">
+              <property name="textFgColor" value="lightGray" />
+              <property name="text" value="&lt;no datetime properties&gt;" />
+              <property name="drawBorder" value="false" />
+            </node>
           </node>
         </node>
       </node>
@@ -324,6 +343,28 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172155833779">
         <property name="text" value="}" />
         <property name="drawBorder" value="false" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1172680832439">
+    <link role="conceptDeclaration" targetNodeId="1.1172680728258" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172680836290">
+      <property name="drawBorder" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172680838842">
+        <property name="text" value="locale" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172681162364">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="2.1169194664001" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172681579546">
+        <property name="text" value="=" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1172681593079">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1172681540798" />
       </node>
     </node>
   </node>

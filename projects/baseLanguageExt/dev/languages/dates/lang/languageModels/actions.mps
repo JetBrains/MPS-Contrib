@@ -38,6 +38,10 @@
       <property name="actionsFactoryAspectId" value="ConditionalFormatToken" />
       <link role="applicableConcept" targetNodeId="1.1169562965517" />
     </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1172683973318">
+      <property name="actionsFactoryAspectId" value="FixedLocaleFormatToken" />
+      <link role="applicableConcept" targetNodeId="1.1172679701720" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />

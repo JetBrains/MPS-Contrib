@@ -24,11 +24,11 @@ public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
   }
 
   public void printTo(StringBuffer buf, long instant, Chronology chrono, int displayOffset, DateTimeZone displayZone, Locale locale) {
-    getPrinter(instant, locale).printTo(buf, instant, chrono, displayOffset, displayZone, locale);
+    getPrinter(instant, displayOffset, displayZone, locale).printTo(buf, instant, chrono, displayOffset, displayZone, locale);
   }
 
   public void printTo(Writer out, long instant, Chronology chrono, int displayOffset, DateTimeZone displayZone, Locale locale) throws IOException {
-    getPrinter(instant, locale).printTo(out, instant, chrono, displayOffset, displayZone, locale);
+    getPrinter(instant, displayOffset, displayZone, locale).printTo(out, instant, chrono, displayOffset, displayZone, locale);
   }
 
   public void printTo(StringBuffer buf, ReadablePartial partial, Locale locale) {
@@ -43,8 +43,8 @@ public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
     return getPrinter(partial != null ? partial.toDateTime(null) : null, locale);
   }
 
-  protected DateTimePrinter getPrinter(long instant, Locale locale) {
-    return getPrinter(instant != 0 ? new DateTime(instant) : null, locale);
+  protected DateTimePrinter getPrinter(long instant, int displayOffset, DateTimeZone displayZone, Locale locale) {
+    return getPrinter(instant != 0 ? new DateTime(instant - displayOffset, displayZone) : null, locale);
   }
 
   protected abstract DateTimePrinter getPrinter(DateTime dateTime, Locale locale);

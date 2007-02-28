@@ -2,8 +2,10 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.accessories">
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
-  <maxImportIndex value="1" />
+  <language namespace="jetbrains.mps.baseLanguage" />
+  <maxImportIndex value="2" />
   <import index="1" modelUID="org.joda.time@java_stub" />
+  <import index="2" modelUID="java.util@java_stub" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenSettings" id="1169483995724">
     <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485527532">
       <property name="name" value="text" />
@@ -95,133 +97,305 @@
       </node>
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169483998897">
-      <property name="meaning" value="era" />
       <property name="examples" value="AD" />
+      <property name="meaning" value="era" />
       <property name="name" value="G" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484043695">
-      <property name="meaning" value="century of era (&gt;=0)" />
       <property name="examples" value="20" />
+      <property name="meaning" value="century of era (&gt;=0)" />
       <property name="name" value="C" />
       <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484079510">
-      <property name="meaning" value="year of era (&gt;=0)" />
       <property name="examples" value="1996" />
+      <property name="meaning" value="year of era (&gt;=0)" />
       <property name="name" value="Y" />
       <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484174294">
-      <property name="meaning" value="weekyear" />
       <property name="examples" value="1996" />
+      <property name="meaning" value="weekyear" />
       <property name="name" value="x" />
       <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484195467">
-      <property name="meaning" value="week of weekyear" />
       <property name="examples" value="27" />
+      <property name="meaning" value="week of weekyear" />
       <property name="name" value="w" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484218671">
-      <property name="meaning" value="day of week" />
       <property name="examples" value="2" />
+      <property name="meaning" value="day of week" />
       <property name="name" value="e" />
       <link role="presentationType" targetNodeId="1169490745785" resolveInfo="one-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484234126">
-      <property name="meaning" value="day of week" />
       <property name="examples" value="Tuesday; Tue" />
+      <property name="meaning" value="day of week" />
       <property name="name" value="E" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484269659">
-      <property name="meaning" value="year" />
       <property name="examples" value="1996" />
+      <property name="meaning" value="year" />
       <property name="name" value="y" />
       <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484284395">
-      <property name="meaning" value="day of year" />
       <property name="examples" value="189" />
+      <property name="meaning" value="day of year" />
       <property name="name" value="D" />
       <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484303193">
-      <property name="meaning" value="month of year" />
       <property name="examples" value="July; Jul; 07" />
+      <property name="meaning" value="month of year" />
       <property name="name" value="M" />
       <link role="presentationType" targetNodeId="1169485814057" resolveInfo="month" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484351382">
-      <property name="meaning" value="day of month" />
       <property name="examples" value="10" />
+      <property name="meaning" value="day of month" />
       <property name="name" value="d" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484382196">
-      <property name="meaning" value="halfday of day" />
       <property name="examples" value="PM" />
+      <property name="meaning" value="halfday of day" />
       <property name="name" value="a" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484404541">
-      <property name="meaning" value="hour of halfday (0~11)" />
       <property name="examples" value="0" />
+      <property name="meaning" value="hour of halfday (0~11)" />
       <property name="name" value="K" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484454153">
-      <property name="meaning" value="clockhour of halfday (1~12)" />
       <property name="examples" value="12" />
+      <property name="meaning" value="clockhour of halfday (1~12)" />
       <property name="name" value="h" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484470279">
-      <property name="meaning" value="hour of day (0~23)" />
       <property name="examples" value="0" />
+      <property name="meaning" value="hour of day (0~23)" />
       <property name="name" value="H" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484523297">
-      <property name="meaning" value="clockhour of day (1~24)" />
       <property name="examples" value="24" />
+      <property name="meaning" value="clockhour of day (1~24)" />
       <property name="name" value="k" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484544423">
-      <property name="meaning" value="minute of hour" />
       <property name="examples" value="30" />
+      <property name="meaning" value="minute of hour" />
       <property name="name" value="m" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484556768">
-      <property name="meaning" value="second of minute" />
       <property name="examples" value="55" />
+      <property name="meaning" value="second of minute" />
       <property name="name" value="s" />
       <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484570220">
-      <property name="meaning" value="fraction of second" />
       <property name="examples" value="978" />
+      <property name="meaning" value="fraction of second" />
       <property name="name" value="S" />
       <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484584515">
-      <property name="meaning" value="time zone" />
       <property name="examples" value="Pacific Standard Time; PST" />
+      <property name="meaning" value="time zone" />
       <property name="name" value="z" />
       <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
     </node>
     <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484603731">
-      <property name="meaning" value="time zone offset/id" />
       <property name="examples" value="-0800; -08:00; America/Los_Angeles" />
+      <property name="meaning" value="time zone offset/id" />
       <property name="name" value="Z" />
       <link role="presentationType" targetNodeId="1169485922290" resolveInfo="zone" />
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertySettings" id="1172074610338">
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681308861">
+      <property name="country" value="en" />
+      <property name="name" value="ENGLISH" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681673803">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]ENGLISH : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681346440">
+      <property name="name" value="FRENCH" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681679979">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]FRENCH : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681353262">
+      <property name="name" value="GERMAN" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681686404">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]GERMAN : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681356611">
+      <property name="name" value="ITALIAN" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681691836">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]ITALIAN : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681500391">
+      <property name="name" value="RUSSIAN" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.NewExpression" id="1172681751386">
+        <link role="baseMethodDeclaration" extResolveInfo="2.constructor [Classifier]Locale[ConstructorDeclaration] ((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+        <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172681769380">
+          <property name="value" value="ru" />
+        </node>
+        <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172681773251" />
+        <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172681775640" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681359631">
+      <property name="name" value="JAPANESE" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681696477">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]JAPANESE : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681362980">
+      <property name="name" value="KOREAN" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681702933">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]KOREAN : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681366548">
+      <property name="name" value="CHINESE" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681709172">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]CHINESE : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681369537">
+      <property name="name" value="SIMPLIFIED_CHINESE" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681784298">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]SIMPLIFIED_CHINESE : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681372682">
+      <property name="name" value="TRADITIONAL_CHINESE" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681792332">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]TRADITIONAL_CHINESE : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681375640">
+      <property name="name" value="FRANCE" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681798697">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]FRANCE : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681381086">
+      <property name="name" value="GERMANY" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681805078">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]GERMANY : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681384294">
+      <property name="name" value="ITALY" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681817496">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]ITALY : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681388190">
+      <property name="name" value="JAPAN" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681824001">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]JAPAN : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681391383">
+      <property name="name" value="KOREA" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681829883">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]KOREA : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681395248">
+      <property name="name" value="CHINA" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681835733">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]CHINA : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681398738">
+      <property name="name" value="PRC" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681846014">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]PRC : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681402650">
+      <property name="name" value="TAIWAN" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681850944">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]TAIWAN : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681406875">
+      <property name="name" value="UK" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681857528">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]UK : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681410396">
+      <property name="name" value="US" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681863737">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]US : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681496091">
+      <property name="name" value="RU" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.NewExpression" id="1172681884658">
+        <link role="baseMethodDeclaration" extResolveInfo="2.constructor [Classifier]Locale[ConstructorDeclaration] ((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+        <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172681892068">
+          <property name="value" value="ru" />
+        </node>
+        <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172681896703">
+          <property name="value" value="RU" />
+        </node>
+        <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1172681900121" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681413400">
+      <property name="name" value="CANADA" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681868059">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]CANADA : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
+    <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.Locale" id="1172681416718">
+      <property name="name" value="CANADA_FRENCH" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172681873597">
+        <link role="classifier" extResolveInfo="2.[Classifier]Locale" />
+        <link role="variableDeclaration" extResolveInfo="2.static field ([Classifier]Locale).([StaticFieldDeclaration]CANADA_FRENCH : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Locale]))" />
+      </node>
+    </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeProperty" id="1172074929011">
       <property name="name" value="millis" />
       <property name="pluralForm" value="milliseconds" />

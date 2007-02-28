@@ -42,6 +42,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169487448949">
     <property name="name" value="DateFormat" />
     <link role="extends" targetNodeId="1.1078489098625" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172682197983">
+      <property name="value" value="format" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169487470543">
       <property name="sourceCardinality" value="0..n" />
       <property name="role" value="token" />
@@ -500,6 +504,24 @@
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1172494034834">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172679701720">
+    <property name="name" value="FixedLocaleFormatToken" />
+    <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172679863969">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="locale" />
+      <link role="target" targetNodeId="2.1172680728258" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172683726790">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateFormat" />
+      <link role="target" targetNodeId="1169487448949" resolveInfo="DateFormat" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172683758207">
+      <property name="value" value="with locale" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
 </model>

@@ -93,6 +93,25 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1172074318583" resolveInfo="DateTimeProperty" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172681020957">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="locale" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1172680728258" resolveInfo="Locale" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172680728258">
+    <property name="name" value="Locale" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172681540798">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="javaLocale" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172681116758">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
   </node>
 </model>
 
