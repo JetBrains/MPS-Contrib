@@ -74,6 +74,22 @@
         </node>
       </node>
     </node>
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1172768991363">
+      <link role="applicableConcept" targetNodeId="1.1167838236835" />
+      <link role="applicableProperty" targetNodeId="2.1169194664001" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1172768996317">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172768996318">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1172768998658">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172769002067">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1172769001394" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1172769004006">
+                <link role="property" targetNodeId="1.1167838788027" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1167611762778">
       <link role="applicableConcept" targetNodeId="1.1167597273853" />
       <link role="applicableProperty" targetNodeId="2.1156235010670" />

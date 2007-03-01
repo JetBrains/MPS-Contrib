@@ -357,6 +357,9 @@
       <property name="name" value="elementName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172768901937">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167838362804">
     <property name="name" value="ElementWithType" />
