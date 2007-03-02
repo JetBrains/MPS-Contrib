@@ -8,6 +8,7 @@ import jetbrains.mps.generator.template.ITemplateGenerator;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.IOperationContext;
 import webr.xml.util.XmlQueryUtil;
+import webr.framework.function.HtmlStringUtil;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
@@ -30,7 +31,7 @@ public class QueriesGenerated {
     return !(XmlQueryUtil.isHorizontal(node, scope));
   }
   public static String propertyMacro_GetPropertyValue_1169058220432(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SPropertyOperations.getString(node, "text");
+    return HtmlStringUtil.html(SPropertyOperations.getString(node, "text"));
   }
   public static String propertyMacro_GetPropertyValue_1171380063320(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return "<" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName");
