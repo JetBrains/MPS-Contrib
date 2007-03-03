@@ -424,6 +424,10 @@
       <property name="name" value="entitySetName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1172955182464">
+      <property name="name" value="url" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172950565923">
       <link role="intfc" targetNodeId="1.1169194658468" />
     </node>

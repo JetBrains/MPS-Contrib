@@ -348,8 +348,8 @@
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167799627233">
-          <property name="allowEmptyText" value="true" />
           <property name="textFgColor" value="blue" />
+          <property name="allowEmptyText" value="true" />
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1167615988144" />
         </node>
@@ -789,6 +789,14 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172950429516">
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1172950400255" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172955293279">
+          <property name="text" value=":" />
+          <property name="drawBorder" value="false" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172955194091">
+          <property name="drawBorder" value="false" />
+          <link role="relationDeclaration" targetNodeId="1.1172955182464" />
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172952324264">
