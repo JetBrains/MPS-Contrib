@@ -42,9 +42,6 @@ public class QueriesGenerated {
   public static String propertyMacro_GetPropertyValue_1169056138286(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return " " + SPropertyOperations.getString(SLinkOperations.getTarget(node, "attributeDeclaration", false), "attributeName") + "=\"";
   }
-  public static String propertyMacro_GetPropertyValue_1172931319130(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return "&" + SPropertyOperations.getString(node, "name") + ";";
-  }
   public static String propertyMacro_GetPropertyValue_1172961933870(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return "&" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "entityDeclaration", false), "entityName") + ";";
   }
@@ -82,12 +79,6 @@ public class QueriesGenerated {
     return SPropertyOperations.getBoolean(node, "isEmpty");
   }
   public static boolean ifMacro_Condition_1171382041917(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
-  }
-  public static boolean ifMacro_Condition_1172931319122(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
-  }
-  public static boolean ifMacro_Condition_1172931319139(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return XmlQueryUtil.isSeparate(node, scope);
   }
   public static boolean ifMacro_Condition_1172961933862(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {

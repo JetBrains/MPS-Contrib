@@ -17,10 +17,10 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="allowEmptyText" value="true" />
       <property name="textFgColor" value="DARK_GREEN" />
-      <property name="fontStyle" value="BOLD" />
+      <property name="allowEmptyText" value="true" />
       <property name="attractsFocus" value="1" />
+      <property name="fontStyle" value="BOLD" />
       <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
     </node>
@@ -883,32 +883,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1172930171701">
-    <link role="conceptDeclaration" targetNodeId="1.1172930122463" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172930182156">
-      <property name="drawBorder" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172930184048">
-        <property name="textFgColorQueryId" value="elementColor" />
-        <property name="textFgColor" value="query" />
-        <property name="text" value="&amp;" />
-        <property name="drawBorder" value="false" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172930191209">
-        <property name="textFgColorQueryId" value="elementColor" />
-        <property name="layoutConstraint" value="punctuation" />
-        <property name="textFgColor" value="query" />
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="2.1169194664001" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172930188097">
-        <property name="textFgColorQueryId" value="elementColor" />
-        <property name="layoutConstraint" value="punctuation" />
-        <property name="textFgColor" value="query" />
-        <property name="text" value=";" />
-        <property name="drawBorder" value="false" />
       </node>
     </node>
   </node>
