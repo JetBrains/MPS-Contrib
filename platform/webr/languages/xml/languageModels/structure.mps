@@ -144,5 +144,20 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172930122463">
+    <property name="name" value="Entity" />
+    <link role="extends" targetNodeId="1163340203555" resolveInfo="BaseText" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172930153340">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172930216569">
+      <property name="value" value="&amp;entity;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172930231337">
+      <property name="value" value="XML Entity" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+  </node>
 </model>
 
