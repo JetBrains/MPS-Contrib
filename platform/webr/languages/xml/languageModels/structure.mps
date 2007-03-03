@@ -173,5 +173,18 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172960673168">
+    <property name="name" value="EntityReference" />
+    <link role="extends" targetNodeId="1163340203555" resolveInfo="BaseText" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172960837561">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="entityDeclaration" />
+      <link role="target" targetNodeId="5.1172950047361" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172960808169">
+      <property name="value" value="&amp;entity;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
 </model>
 
