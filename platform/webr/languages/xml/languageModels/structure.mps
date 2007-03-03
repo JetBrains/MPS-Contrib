@@ -159,5 +159,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172952771790">
+    <property name="name" value="Comment" />
+    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+  </node>
 </model>
 
