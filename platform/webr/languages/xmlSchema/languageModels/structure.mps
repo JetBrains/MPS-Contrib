@@ -413,6 +413,13 @@
     <property name="rootable" value="true" />
     <property name="name" value="EntitySet" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1172950400255">
+      <property name="name" value="entitySetName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172950565923">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172950047361">
     <property name="name" value="EntityDeclaration" />
