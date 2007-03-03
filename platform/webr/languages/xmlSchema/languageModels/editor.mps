@@ -343,8 +343,8 @@
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167799627233">
-          <property name="allowEmptyText" value="true" />
           <property name="textFgColor" value="blue" />
+          <property name="allowEmptyText" value="true" />
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1167615988144" />
         </node>
@@ -741,8 +741,32 @@
           <property name="text" value=":" />
           <property name="drawBorder" value="false" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_JComponent" id="1172955400131">
-          <property name="componentProviderID" value="EntitySet_hyperlink" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Alternation" id="1172963331693">
+          <property name="drawBorder" value="false" />
+          <property name="vertical" value="true" />
+          <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172963383860">
+            <property name="drawBorder" value="false" />
+            <link role="relationDeclaration" targetNodeId="1.1172955182464" />
+          </node>
+          <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1172963331695">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172963331696">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172963342489">
+                <node role="expression" type="jetbrains.mps.baseLanguage.EqualsExpression" id="1172963373091">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1172963374437" />
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172963343131">
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1172963342490" />
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1172963364949">
+                      <link role="property" targetNodeId="1.1172955182464" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_JComponent" id="1172963395100">
+            <property name="componentProviderID" value="EntitySet_hyperlink" />
+            <property name="drawBorder" value="false" />
+          </node>
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172952324264">
