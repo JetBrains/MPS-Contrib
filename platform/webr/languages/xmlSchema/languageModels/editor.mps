@@ -794,9 +794,8 @@
           <property name="text" value=":" />
           <property name="drawBorder" value="false" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172955194091">
-          <property name="drawBorder" value="false" />
-          <link role="relationDeclaration" targetNodeId="1.1172955182464" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_JComponent" id="1172955400131">
+          <property name="componentProviderID" value="hyperlink" />
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172952324264">
