@@ -435,6 +435,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172950047361">
     <property name="name" value="EntityDeclaration" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1172959826115">
+      <property name="name" value="entityName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172952031204">
     <property name="name" value="EntityBlock" />
