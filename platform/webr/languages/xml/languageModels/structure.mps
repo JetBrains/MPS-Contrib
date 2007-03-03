@@ -163,7 +163,7 @@
     <property name="name" value="Comment" />
     <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172953539617">
-      <property name="sourceCardinality" value="0..n" />
+      <property name="sourceCardinality" value="1..n" />
       <property name="role" value="text" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1163340203555" resolveInfo="BaseText" />

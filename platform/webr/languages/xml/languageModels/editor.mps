@@ -14,7 +14,6 @@
   <import index="31" modelUID="webr.xmlSchema.structure" />
   <import index="33" modelUID="jetbrains.mps.nodeEditor@java_stub" />
   <import index="34" modelUID="webr.xml.util@java_stub" />
-  <import index="35" modelUID="jetbrains.mps.webr.dxml.structure" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
