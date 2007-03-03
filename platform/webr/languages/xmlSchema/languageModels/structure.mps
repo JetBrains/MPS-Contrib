@@ -409,5 +409,10 @@
       <property name="name" value="required" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172948996536">
+    <property name="rootable" value="true" />
+    <property name="name" value="EntitySet" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+  </node>
 </model>
 
