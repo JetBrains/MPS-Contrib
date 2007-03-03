@@ -791,6 +791,27 @@
           <link role="relationDeclaration" targetNodeId="1.1172950400255" />
         </node>
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172952324264">
+        <property name="drawBorder" value="false" />
+        <property name="selectable" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1172952127148">
+        <property name="drawBorder" value="false" />
+        <property name="vertical" value="true" />
+        <link role="relationDeclaration" targetNodeId="1.1172952087787" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1172952069720">
+    <link role="conceptDeclaration" targetNodeId="1.1172952031204" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172952074925">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172952231084">
+        <property name="text" value="entity block" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172952428583">
+        <property name="selectable" value="false" />
+      </node>
     </node>
   </node>
 </model>

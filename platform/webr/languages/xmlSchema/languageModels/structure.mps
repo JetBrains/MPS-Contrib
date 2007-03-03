@@ -413,6 +413,12 @@
     <property name="rootable" value="true" />
     <property name="name" value="EntitySet" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172952087787">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="entityBlock" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1172952031204" resolveInfo="EntityBlock" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1172950400255">
       <property name="name" value="entitySetName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -423,6 +429,10 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172950047361">
     <property name="name" value="EntityDeclaration" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172952031204">
+    <property name="name" value="EntityBlock" />
     <link role="extends" targetNodeId="1.1133920641626" />
   </node>
 </model>
