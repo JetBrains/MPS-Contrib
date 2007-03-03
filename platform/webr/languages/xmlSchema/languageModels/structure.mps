@@ -414,5 +414,9 @@
     <property name="name" value="EntitySet" />
     <link role="extends" targetNodeId="1.1133920641626" />
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172950047361">
+    <property name="name" value="EntityDeclaration" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+  </node>
 </model>
 
