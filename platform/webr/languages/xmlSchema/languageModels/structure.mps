@@ -444,6 +444,28 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="4.1172952771790" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172959399215">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="entityLine" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1172959389104" resolveInfo="EntityLine" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172959389104">
+    <property name="name" value="EntityLine" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172959536138">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="entityDeclaration" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1172950047361" resolveInfo="EntityDeclaration" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172959564234">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="comment" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="4.1172952771790" />
+    </node>
   </node>
 </model>
 
