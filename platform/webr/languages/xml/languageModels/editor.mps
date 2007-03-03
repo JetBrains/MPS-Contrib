@@ -17,10 +17,10 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="textFgColor" value="DARK_GREEN" />
       <property name="allowEmptyText" value="true" />
-      <property name="attractsFocus" value="1" />
+      <property name="textFgColor" value="DARK_GREEN" />
       <property name="fontStyle" value="BOLD" />
+      <property name="attractsFocus" value="1" />
       <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
     </node>
@@ -897,15 +897,15 @@
         <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172930191209">
-        <property name="layoutConstraint" value="punctuation" />
         <property name="textFgColorQueryId" value="elementColor" />
+        <property name="layoutConstraint" value="punctuation" />
         <property name="textFgColor" value="query" />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="2.1169194664001" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172930188097">
-        <property name="layoutConstraint" value="punctuation" />
         <property name="textFgColorQueryId" value="elementColor" />
+        <property name="layoutConstraint" value="punctuation" />
         <property name="textFgColor" value="query" />
         <property name="text" value=";" />
         <property name="drawBorder" value="false" />
@@ -920,7 +920,9 @@
       <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172953695886">
         <property name="drawBorder" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172953709701">
+          <property name="textFgColor" value="gray" />
           <property name="text" value="&lt;!--" />
+          <property name="fontStyle" value="ITALIC" />
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1172953737971">
@@ -931,7 +933,9 @@
           </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172953720750">
+          <property name="textFgColor" value="gray" />
           <property name="text" value="--&gt;" />
+          <property name="fontStyle" value="ITALIC" />
           <property name="drawBorder" value="false" />
         </node>
       </node>
@@ -959,7 +963,9 @@
         <property name="drawBorder" value="false" />
         <property name="vertical" value="true" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172953776504">
+          <property name="textFgColor" value="gray" />
           <property name="text" value="&lt;!--" />
+          <property name="fontStyle" value="ITALIC" />
           <property name="drawBorder" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172953795617">
@@ -977,7 +983,9 @@
           </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172953782334">
+          <property name="textFgColor" value="gray" />
           <property name="text" value="--&gt;" />
+          <property name="fontStyle" value="ITALIC" />
           <property name="drawBorder" value="false" />
         </node>
       </node>

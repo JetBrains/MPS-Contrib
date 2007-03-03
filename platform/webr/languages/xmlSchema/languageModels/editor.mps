@@ -703,6 +703,10 @@
     <link role="conceptDeclaration" targetNodeId="1.1172950047361" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172950066020">
       <property name="drawBorder" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172960162510">
+        <property name="text" value="&lt;!" />
+        <property name="drawBorder" value="false" />
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172950068209">
         <property name="text" value="ENTITY" />
         <property name="drawBorder" value="false" />
@@ -710,6 +714,10 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172959837836">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172959826115" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172960169825">
+        <property name="text" value="&gt;" />
+        <property name="drawBorder" value="false" />
       </node>
     </node>
   </node>
