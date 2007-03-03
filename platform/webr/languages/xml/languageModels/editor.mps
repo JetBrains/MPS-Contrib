@@ -1006,6 +1006,8 @@
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172960872447">
           <link role="conceptDeclaration" targetNodeId="31.1172950047361" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172960875027">
+            <property name="textFgColorQueryId" value="elementColor" />
+            <property name="textFgColor" value="query" />
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="31.1172959826115" />
           </node>
