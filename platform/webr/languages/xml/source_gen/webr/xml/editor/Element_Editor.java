@@ -20,7 +20,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 
-public class KnownElement_Editor extends DefaultNodeEditor {
+public class Element_Editor extends DefaultNodeEditor {
 
   public static boolean _QueryFunction_NodeCondition_1167707777768(SNode node, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isEmpty");
@@ -34,7 +34,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
   }
   public EditorCell createCellAlternation1(EditorContext context, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = KnownElement_Editor._QueryFunction_NodeCondition_1167707781225(node, context.getOperationContext().getScope());
+    alternationCondition = Element_Editor._QueryFunction_NodeCondition_1167707781225(node, context.getOperationContext().getScope());
     EditorCell editorCell = null;
     if(alternationCondition) {
       editorCell = this.createRowCell3(context, node);
@@ -50,7 +50,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
   }
   public EditorCell createCellAlternation(EditorContext context, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = KnownElement_Editor._QueryFunction_NodeCondition_1167707777768(node, context.getOperationContext().getScope());
+    alternationCondition = Element_Editor._QueryFunction_NodeCondition_1167707777768(node, context.getOperationContext().getScope());
     EditorCell editorCell = null;
     if(alternationCondition) {
       editorCell = this.createRowCell4(context, node);
@@ -300,7 +300,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
   }
   public EditorCell createElementDeclarationReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new KnownElement_Editor_elementDeclaration_InlineComponent());
+    provider.setAuxiliaryCellProvider(new Element_Editor_elementDeclaration_InlineComponent());
     EditorCell editorCell = provider.createEditorCell(context);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -399,7 +399,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
   }
   public EditorCell createElementDeclarationReferenceCell1internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new KnownElement_Editor_elementDeclaration_InlineComponent1());
+    provider.setAuxiliaryCellProvider(new Element_Editor_elementDeclaration_InlineComponent1());
     EditorCell editorCell = provider.createEditorCell(context);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -432,7 +432,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
   }
   public EditorCell createElementDeclarationReferenceCell2internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new KnownElement_Editor_elementDeclaration_InlineComponent2());
+    provider.setAuxiliaryCellProvider(new Element_Editor_elementDeclaration_InlineComponent2());
     EditorCell editorCell = provider.createEditorCell(context);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -532,7 +532,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
   }
   public EditorCell createElementDeclarationReferenceCell3internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new KnownElement_Editor_elementDeclaration_InlineComponent3());
+    provider.setAuxiliaryCellProvider(new Element_Editor_elementDeclaration_InlineComponent3());
     EditorCell editorCell = provider.createEditorCell(context);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
@@ -565,7 +565,7 @@ public class KnownElement_Editor extends DefaultNodeEditor {
   }
   public EditorCell createElementDeclarationReferenceCell4internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new KnownElement_Editor_elementDeclaration_InlineComponent4());
+    provider.setAuxiliaryCellProvider(new Element_Editor_elementDeclaration_InlineComponent4());
     EditorCell editorCell = provider.createEditorCell(context);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);

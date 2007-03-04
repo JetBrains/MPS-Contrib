@@ -16,7 +16,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 
-public class KnownAttribute_Editor extends DefaultNodeEditor {
+public class Attribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createRowCell(context, node);
@@ -77,7 +77,7 @@ public class KnownAttribute_Editor extends DefaultNodeEditor {
   }
   public EditorCell createAttributeDeclarationReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new KnownAttribute_Editor_attributeDeclaration_InlineComponent());
+    provider.setAuxiliaryCellProvider(new Attribute_Editor_attributeDeclaration_InlineComponent());
     EditorCell editorCell = provider.createEditorCell(context);
     editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
