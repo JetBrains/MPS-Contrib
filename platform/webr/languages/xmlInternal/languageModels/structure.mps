@@ -58,20 +58,6 @@
       <link role="target" targetNodeId="6.1167513239198" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1166707460184">
-    <property name="name" value="TextExpression" />
-    <link role="extends" targetNodeId="5.1068431790191" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1166707506435">
-      <property name="sourceCardinality" value="0..1" />
-      <property name="role" value="baseText" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="2.1163340203555" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1166710476670">
-      <property name="value" value="textExpression" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1168473018407">
     <property name="name" value="ExpressionText" />
     <link role="extends" targetNodeId="2.1163340203555" />
