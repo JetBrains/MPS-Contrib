@@ -3,13 +3,14 @@
   <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="webr.xmlInternal.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="3" modelUID="webr.xmlInternal.editor" />
   <import index="4" modelUID="webr.xml.structure" />
   <import index="5" modelUID="webr.xmlSchema.structure" />
   <import index="6" modelUID="jetbrains.mps.webr.dxmlInternal.structure" />
+  <import index="7" modelUID="jetbrains.mps.webr.dxml.structure" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1165761822666">
     <link role="conceptDeclaration" targetNodeId="1.1165761580958" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165761827856">
@@ -128,28 +129,6 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1166472279603">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1166472279596" />
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1168473018848">
-    <link role="conceptDeclaration" targetNodeId="1.1168473018407" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1168473018849">
-      <property name="drawBorder" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018850">
-        <property name="text" value="#" />
-        <property name="drawBorder" value="false" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018851">
-        <property name="text" value="{" />
-        <property name="drawBorder" value="false" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1168473018852">
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1168473018408" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1168473018853">
-        <property name="text" value="}" />
-        <property name="drawBorder" value="false" />
       </node>
     </node>
   </node>
