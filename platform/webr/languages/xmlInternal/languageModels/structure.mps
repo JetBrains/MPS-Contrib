@@ -31,7 +31,7 @@
       <property name="sourceCardinality" value="1" />
       <property name="role" value="contentList" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="2.1161371727643" />
+      <link role="target" targetNodeId="2.1163629230879" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1165765736185">
       <property name="value" value="contentStatement" />
