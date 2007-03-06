@@ -58,5 +58,15 @@
       <link role="target" targetNodeId="6.1167513239198" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173198002225">
+    <property name="name" value="ProtectedContent" />
+    <link role="extends" targetNodeId="2.1161371727643" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173198130793">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="content" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="2.1161371727643" />
+    </node>
+  </node>
 </model>
 
