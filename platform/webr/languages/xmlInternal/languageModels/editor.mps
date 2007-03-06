@@ -136,12 +136,12 @@
     <link role="conceptDeclaration" targetNodeId="1.1173198002225" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1173198083712">
       <property name="drawBorder" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1173198095199">
-        <property name="text" value="protected content" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1173208231561">
+        <property name="text" value="[" />
         <property name="drawBorder" value="false" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1173198205530">
-        <property name="text" value="(" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1173198095199">
+        <property name="text" value="protected content" />
         <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1173198236721">
@@ -149,7 +149,7 @@
         <link role="relationDeclaration" targetNodeId="1.1173198130793" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1173198221188">
-        <property name="text" value=")" />
+        <property name="text" value="]" />
         <property name="drawBorder" value="false" />
       </node>
     </node>

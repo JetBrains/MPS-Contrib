@@ -67,6 +67,10 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="2.1161371727643" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173208195775">
+      <property name="value" value="[protected content]" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
   </node>
 </model>
 
