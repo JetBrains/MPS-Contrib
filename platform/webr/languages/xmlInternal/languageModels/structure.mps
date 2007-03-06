@@ -29,9 +29,9 @@
     <link role="extends" targetNodeId="5.1068580123157" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1165765736184">
       <property name="sourceCardinality" value="1" />
-      <property name="role" value="contentList" />
+      <property name="role" value="content" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="2.1163629230879" />
+      <link role="target" targetNodeId="2.1161371727643" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1165765736185">
       <property name="value" value="contentStatement" />
