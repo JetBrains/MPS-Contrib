@@ -241,6 +241,21 @@
       <property name="name" value="isInstanceOfPeriod" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1172502168471" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172502164825">
+        <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1173387155087">
+          <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173387161137">
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1173387159824">
+              <link role="variableDeclaration" targetNodeId="1172502184831" resolveInfo="node" />
+            </node>
+            <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_IsInstanceOfOperation" id="1173387163107">
+              <link role="concept" targetNodeId="2.1070534058343" />
+            </node>
+          </node>
+          <node role="ifTrue" type="jetbrains.mps.baseLanguage.StatementList" id="1173387155089">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1173387175999">
+              <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1173387181891" />
+            </node>
+          </node>
+        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1172502241940">
           <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1172502253418">
             <link role="baseMethodDeclaration" targetNodeId="1172496263620" resolveInfo="isInstanceOfPeriod" />
