@@ -3,6 +3,9 @@
   <structure>
     <model modelUID="webr.xmlInternal.structure" />
   </structure>
+  <helginsTypeSystem>
+    <model modelUID="webr.xmlInternal.helgins" />
+  </helginsTypeSystem>
   <constraints>
     <model modelUID="webr.xmlInternal.constraints" />
   </constraints>
@@ -28,6 +31,7 @@
       <module>
         <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
       </module>
+      <external-templates />
     </generator>
   </generators>
   <classPath>
