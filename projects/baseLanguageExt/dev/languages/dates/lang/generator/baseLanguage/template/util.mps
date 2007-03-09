@@ -289,7 +289,7 @@
                       <link role="variableDeclaration" targetNodeId="1169640684252" resolveInfo="dateFormat" />
                     </node>
                     <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1169641166195">
-                      <link role="property" targetNodeId="8.1078489098626" />
+                      <link role="property" targetNodeId="8.1169194664001" />
                     </node>
                   </node>
                   <node role="leftExpression" type="jetbrains.mps.baseLanguage.StringLiteral" id="1169641147361">

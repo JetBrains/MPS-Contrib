@@ -84,7 +84,7 @@
                           </node>
                         </node>
                         <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1169486798079">
-                          <link role="property" targetNodeId="4.1078489098626" />
+                          <link role="property" targetNodeId="4.1169194664001" />
                         </node>
                       </node>
                     </node>
@@ -159,7 +159,7 @@
     </node>
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1171902741278">
       <link role="applicableConcept" targetNodeId="1.1171902375079" />
-      <link role="applicableProperty" targetNodeId="4.1078489098626" />
+      <link role="applicableProperty" targetNodeId="4.1169194664001" />
       <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1171902760983">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1171902760984">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1171902778331">

@@ -145,7 +145,7 @@
     </node>
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1167755120556">
       <link role="applicableConcept" targetNodeId="1.1167513239198" />
-      <link role="applicableProperty" targetNodeId="2.1078489098626" />
+      <link role="applicableProperty" targetNodeId="2.1169194664001" />
       <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1167755126291">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167755126292">
           <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172950538842">

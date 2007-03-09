@@ -11,7 +11,7 @@
     <property name="name" value="xmlInternal_property" />
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1167755484758">
       <link role="applicableConcept" targetNodeId="1.1166472279594" />
-      <link role="applicableProperty" targetNodeId="2.1078489098626" />
+      <link role="applicableProperty" targetNodeId="2.1169194664001" />
       <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1167755491603">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167755491604">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167755493370">
