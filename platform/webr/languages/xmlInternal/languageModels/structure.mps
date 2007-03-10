@@ -41,7 +41,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1166472279594">
     <property name="rootable" value="true" />
     <property name="name" value="Document" />
-    <link role="extends" targetNodeId="1.1078489098625" />
+    <link role="extends" targetNodeId="1.1133920641626" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167755304238">
       <property name="name" value="documentName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -56,6 +56,9 @@
       <property name="sourceCardinality" value="0..1" />
       <property name="role" value="schema" />
       <link role="target" targetNodeId="6.1167513239198" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173487594724">
+      <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173198002225">
