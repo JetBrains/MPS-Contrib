@@ -19,16 +19,13 @@
       </node>
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169556002657">
         <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1169556267870">
-          <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169556272782">
-            <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]INodeBuilder).([InstanceMethodDeclaration]getTargetNode() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
-            <node role="instance" type="jetbrains.mps.baseLanguage.LocalStaticMethodCall" id="1173733538340">
-              <link role="baseMethodDeclaration" targetNodeId="1169556611243" resolveInfo="findEnclosingTableNodeBuilder" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556693999">
-                <link role="variableDeclaration" targetNodeId="1169556059137" resolveInfo="node" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556696610">
-                <link role="variableDeclaration" targetNodeId="1169556061998" resolveInfo="generator" />
-              </node>
+          <node role="expression" type="jetbrains.mps.baseLanguage.LocalStaticMethodCall" id="1173733538340">
+            <link role="baseMethodDeclaration" targetNodeId="1169556611243" resolveInfo="findEnclosingTableNodeBuilder" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556693999">
+              <link role="variableDeclaration" targetNodeId="1169556059137" resolveInfo="node" />
+            </node>
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556696610">
+              <link role="variableDeclaration" targetNodeId="1169556061998" resolveInfo="generator" />
             </node>
           </node>
         </node>
@@ -45,9 +42,9 @@
       </node>
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1169556611243">
-      <property name="name" value="findEnclosingTableNodeBuilder" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.ClassifierType" id="1169556615637">
-        <link role="classifier" extResolveInfo="3.[Classifier]INodeBuilder" />
+      <property name="name" value="findEnclosingTableClass2" />
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1173733916718">
+        <link role="concept" targetNodeId="1.1068390468198" />
       </node>
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169556611245">
         <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1169556647964">
@@ -60,7 +57,7 @@
               <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556672462">
                 <link role="variableDeclaration" targetNodeId="1169556653847" resolveInfo="node" />
               </node>
-              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_GetParentOperation" id="1169556647969">
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_GetAncestorOperation" id="1173733827284">
                 <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.OperationParm_Concept" id="1169556647970">
                   <link role="concept" targetNodeId="4.1169481390637" />
                 </node>
@@ -68,17 +65,31 @@
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1169556637072">
-          <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169556638602">
-            <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]ITemplateGenerator).([InstanceMethodDeclaration]findNodeBuilderForSource((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [INodeBuilder]))" />
-            <node role="instance" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556674667">
-              <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1173733840503">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1173733840504">
+            <property name="name" value="nodeBuilder" />
+            <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173733305122">
+              <link role="classifier" extResolveInfo="3.[Classifier]INodeBuilder" />
             </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1169556651205">
-              <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169556638602">
+              <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]ITemplateGenerator).([InstanceMethodDeclaration]findNodeBuilderForSource((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [INodeBuilder]))" />
+              <node role="instance" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556674667">
+                <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1169556651205">
+                <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1169556638605">
+                <property name="value" value="FormatTableClass" />
+              </node>
             </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1169556638605">
-              <property name="value" value="FormatTableClass" />
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173733900353">
+          <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1173733907013">
+            <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]INodeBuilder).([InstanceMethodDeclaration]getTargetNode() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
+            <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173733900354">
+              <link role="variableDeclaration" targetNodeId="1173733840504" resolveInfo="nodeBuilder" />
             </node>
           </node>
         </node>
@@ -100,33 +111,19 @@
         <link role="concept" targetNodeId="1.1070462154015" />
       </node>
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1169556566374">
-        <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1169556737057">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1169556737058">
-            <property name="name" value="nb" />
-            <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1169556737060">
-              <link role="classifier" extResolveInfo="3.[Classifier]INodeBuilder" />
-            </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.LocalStaticMethodCall" id="1173733543294">
-              <link role="baseMethodDeclaration" targetNodeId="1169556611243" resolveInfo="findEnclosingTableNodeBuilder" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556729632">
-                <link role="variableDeclaration" targetNodeId="1169556590581" resolveInfo="node" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556732447">
-                <link role="variableDeclaration" targetNodeId="1169556593192" resolveInfo="generator" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1169556826781">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1169556826782">
             <property name="name" value="clazz" />
             <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1169556834200">
               <link role="concept" targetNodeId="1.1068390468198" />
             </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169556813249">
-              <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]INodeBuilder).([InstanceMethodDeclaration]getTargetNode() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
-              <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1169556809198">
-                <link role="variableDeclaration" targetNodeId="1169556737058" resolveInfo="nb" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.LocalStaticMethodCall" id="1173733949453">
+              <link role="baseMethodDeclaration" targetNodeId="1169556611243" resolveInfo="findEnclosingTableClass2" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1173733949454">
+                <link role="variableDeclaration" targetNodeId="1169556590581" resolveInfo="node" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1173733949455">
+                <link role="variableDeclaration" targetNodeId="1169556593192" resolveInfo="generator" />
               </node>
             </node>
           </node>
