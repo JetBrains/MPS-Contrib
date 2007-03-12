@@ -65,31 +65,18 @@
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1173733840503">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1173733840504">
-            <property name="name" value="nodeBuilder" />
-            <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173733305122">
-              <link role="classifier" extResolveInfo="3.[Classifier]INodeBuilder" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173734847621">
+          <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173734850389">
+            <link role="baseMethodDeclaration" extResolveInfo="3.static method ([Classifier]GenUtil).([StaticMethodDeclaration]findNodeForSource((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [ITemplateGenerator]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
+            <link role="classConcept" extResolveInfo="3.[Classifier]GenUtil" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1173734852499">
+              <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
             </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1169556638602">
-              <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]ITemplateGenerator).([InstanceMethodDeclaration]findNodeBuilderForSource((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [INodeBuilder]))" />
-              <node role="instance" type="jetbrains.mps.baseLanguage.ParameterReference" id="1169556674667">
-                <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1169556651205">
-                <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1169556638605">
-                <property name="value" value="FormatTableClass" />
-              </node>
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173734867160">
+              <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
             </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173733900353">
-          <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1173733907013">
-            <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]INodeBuilder).([InstanceMethodDeclaration]getTargetNode() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
-            <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173733900354">
-              <link role="variableDeclaration" targetNodeId="1173733840504" resolveInfo="nodeBuilder" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1173734867161">
+              <property name="value" value="FormatTableClass" />
             </node>
           </node>
         </node>
