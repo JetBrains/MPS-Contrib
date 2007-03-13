@@ -11,7 +11,30 @@
   <import index="9" modelUID="jetbrains.mps.util@java_stub" />
   <import index="10" modelUID="java.lang@java_stub" />
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1169555993608">
-    <property name="name" value="QueriesUtil" />
+    <property name="name" value="DatesQueriesUtil" />
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1173785436953">
+      <property name="name" value="getFQName" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173785438738">
+        <link role="classifier" extResolveInfo="10.[Classifier]String" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173785436955">
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173785483869">
+          <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173785486403">
+            <link role="baseMethodDeclaration" extResolveInfo="9.static method ([Classifier]NameUtil).([StaticMethodDeclaration]nodeFQName((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+            <link role="classConcept" extResolveInfo="9.[Classifier]NameUtil" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1173785488685">
+              <link role="variableDeclaration" targetNodeId="1173785443989" resolveInfo="table" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1173785443989">
+        <property name="name" value="table" />
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1173785443990">
+          <link role="concept" targetNodeId="4.1169481390637" />
+        </node>
+      </node>
+    </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1169556002655">
       <property name="name" value="findEnclosingTableClass" />
       <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1169556005532">
@@ -61,6 +84,7 @@
                 <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.OperationParm_Concept" id="1169556647970">
                   <link role="concept" targetNodeId="4.1169481390637" />
                 </node>
+                <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.OperationParm_Inclusion" id="1173785647896" />
               </node>
             </node>
           </node>

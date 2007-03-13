@@ -24,7 +24,8 @@
   </models>
   <module>
     <moduleRoot path="${mps_home}\projects\baseLanguageExt\dev\languages\dates\internal\internal.mpl" />
-    <moduleRoot path="${mps_home}\languages\core\languageDescriptor.mpl" />
+    <moduleRoot path="${mps_home}\projects\springframework\languages\configuration\configuration.mpl" />
+    <moduleRoot path="${mps_home}\projects\springframework\languages\configurationInternal\configurationInternal.mpl" />
   </module>
   <accessoryModels>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
@@ -36,7 +37,9 @@
       </models>
       <module>
         <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
+        <moduleRoot path="${mps_home}\projects\springframework\languages\configuration\configuration.mpl" />
       </module>
+      <external-templates />
     </generator>
   </generators>
   <classPath>

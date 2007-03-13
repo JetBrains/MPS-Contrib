@@ -3,9 +3,11 @@
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
   <language namespace="jetbrains.mps.baseLanguage" />
-  <maxImportIndex value="2" />
+  <language namespace="jetbrains.springframework.configurationInternal" />
+  <maxImportIndex value="3" />
   <import index="1" modelUID="org.joda.time@java_stub" />
   <import index="2" modelUID="java.util@java_stub" />
+  <import index="3" modelUID="jetbrains.mps.baseLanguage.ext.dates.table@java_stub" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenSettings" id="1169483995724">
     <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485527532">
       <property name="name" value="text" />
@@ -455,6 +457,15 @@
       <property name="pluralForm" value="years" />
       <link role="jodaDateTimeFieldType" extResolveInfo="1.static method ([Classifier]DateTimeFieldType).([StaticMethodDeclaration]yearOfEra() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFieldType]))" />
       <link role="jodaPeriodType" extResolveInfo="1.static method ([Classifier]Period).([StaticMethodDeclaration]years((jetbrains.mps.baseLanguage.types.int/jetbrains.mps.baseLanguage.types.int)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Period]))" />
+    </node>
+  </node>
+  <node type="jetbrains.springframework.configurationInternal.ConfigurationInterface" id="1173784420120">
+    <property name="name" value="datetimeConfigurationInterface" />
+    <node role="beanDeclaration" type="jetbrains.springframework.configurationInternal.BeanDeclaration" id="1173784443355">
+      <property name="name" value="formatTableManager" />
+      <node role="classifierType" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173784741906">
+        <link role="classifier" extResolveInfo="3.[Classifier]FormatTableManager" />
+      </node>
     </node>
   </node>
 </model>

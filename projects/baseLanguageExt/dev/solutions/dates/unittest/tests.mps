@@ -3,6 +3,7 @@
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.unitTest" />
+  <language namespace="jetbrains.springframework.configuration" />
   <maxImportIndex value="8" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   <import index="2" modelUID="java.lang@java_stub" />
@@ -317,6 +318,9 @@
           </node>
         </node>
       </node>
+    </node>
+    <node role="superclass" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173787627574">
+      <link role="classifier" targetNodeId="1173787596138" resolveInfo="BaseTest" />
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1171974180613">
@@ -941,6 +945,24 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1173787596138">
+    <property name="name" value="BaseTest" />
+    <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1173787612320">
+      <property name="name" value="setUp" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1173787612321" />
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173787612322">
+        <node role="statement" type="jetbrains.springframework.configuration.InitConfigurationStatement" id="1173787612323" />
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1173788135313">
+      <property name="name" value="testFake" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1173788135314" />
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173788135315" />
+    </node>
+    <node role="superclass" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173787603061">
+      <link role="classifier" extResolveInfo="7.[Classifier]TestCase" />
     </node>
   </node>
 </model>
