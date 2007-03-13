@@ -13,7 +13,7 @@
       <link role="applicableConcept" targetNodeId="1.1165235274815" />
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167757687265">
-      <property name="actionsFactoryAspectId" value="KnownElement" />
+      <property name="actionsFactoryAspectId" value="Element" />
       <link role="applicableConcept" targetNodeId="1.1167523027466" />
     </node>
   </node>
