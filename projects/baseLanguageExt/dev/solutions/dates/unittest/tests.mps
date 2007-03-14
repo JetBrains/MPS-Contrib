@@ -965,5 +965,58 @@
       <link role="classifier" extResolveInfo="7.[Classifier]TestCase" />
     </node>
   </node>
+  <node type="jetbrains.mps.baseLanguage.unitTest.BTestCase" id="1173879639365">
+    <property name="testCaseName" value="IsNull" />
+    <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.TestMethodList" id="1173879639366">
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1173879660112">
+        <property name="methodName" value="isNull" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1173879660113">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1173879671315">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1173879671316">
+              <property name="name" value="dt" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1173879671317" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.NullLiteral" id="1173879674240" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertTrue" id="1173879684291">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.IsNullOperation" id="1173879695043">
+              <node role="datetime" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173879690261">
+                <link role="variableDeclaration" targetNodeId="1173879671316" resolveInfo="dt" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertFalse" id="1173879740543">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.IsNullOperation" id="1173879796036">
+              <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1173879811523" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1173879664864">
+        <property name="methodName" value="isNotNull" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1173879664865">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1173879765383">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1173879765384">
+              <property name="name" value="dt" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimeType" id="1173879765385" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.NullLiteral" id="1173879765386" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertFalse" id="1173879777205">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.IsNotNullOperation" id="1173879820602">
+              <node role="datetime" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173879815836">
+                <link role="variableDeclaration" targetNodeId="1173879765384" resolveInfo="dt" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertTrue" id="1173879830479">
+            <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.IsNotNullOperation" id="1173879835231">
+              <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1173879831715" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

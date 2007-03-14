@@ -518,5 +518,37 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173878485361">
+    <property name="name" value="IsNullOperation" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173878568306">
+      <property name="value" value=".isNull" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173878580559">
+      <property name="value" value="Check is datetime is null" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1173879204818">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.BooleanType" id="1173879207813" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173879281236">
+    <property name="name" value="IsNotNullOperation" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173879281237">
+      <property name="value" value=".isNotNull" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173879281238">
+      <property name="value" value="Check is datetime is not null" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1173879281239">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.BooleanType" id="1173879281240" />
+    </node>
+  </node>
 </model>
 
