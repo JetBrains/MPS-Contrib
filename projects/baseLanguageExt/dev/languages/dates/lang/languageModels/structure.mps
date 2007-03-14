@@ -23,6 +23,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169486306512">
     <property name="name" value="KnownFormatToken" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169486362588">
       <property name="sourceCardinality" value="1" />
@@ -55,6 +56,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169495318439">
     <property name="name" value="LiteralFormatToken" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1169495350409">
       <property name="name" value="value" />
@@ -71,6 +73,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169495337236">
     <property name="name" value="FormatToken" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1169543700004">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
@@ -101,6 +104,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169562965517">
     <property name="name" value="ConditionalFormatToken" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169563619049">
       <property name="sourceCardinality" value="0..n" />
@@ -119,6 +123,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169563273551">
     <property name="name" value="ReferenceFormatToken" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169563300146">
       <property name="sourceCardinality" value="1" />
@@ -136,6 +141,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169563444535">
     <property name="name" value="TokenConditionalPair" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169563469176">
       <property name="sourceCardinality" value="1" />
@@ -159,6 +165,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169631506005">
     <property name="name" value="TokenCondition" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="3.1137021947720" />
     <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1172162329997">
       <link role="conceptLinkDeclaration" targetNodeId="3.1137545148427" />
@@ -190,6 +197,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171963068132">
     <property name="name" value="UnaryDateTimeOperation" />
+    <property name="package" value="operation" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1171964003156">
       <property name="sourceCardinality" value="1" />
@@ -207,6 +215,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171964197527">
     <property name="name" value="ToDateTimeOperation" />
+    <property name="package" value="operation.convert" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1171964270700">
       <property name="sourceCardinality" value="1" />
@@ -225,6 +234,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171966255769">
     <property name="name" value="ToJodaDateTimeOperation" />
+    <property name="package" value="operation.convert" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1171966277582">
       <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
@@ -243,6 +253,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171966683378">
     <property name="name" value="ToJavaDateOperation" />
+    <property name="package" value="operation.convert" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1171966733449">
       <property name="value" value=".javaDate" />
@@ -261,6 +272,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171967275008">
     <property name="name" value="ToJavaCalendarOperation" />
+    <property name="package" value="operation.convert" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1171967301042">
       <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
@@ -279,6 +291,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074800504">
     <property name="name" value="DateTimeCompareOperation" />
+    <property name="package" value="operation" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172075931971">
       <property name="value" value="compare dates by &lt;{datetimeProperty}&gt;" />
@@ -312,6 +325,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.EnumerationDataTypeDeclaration" id="1172075151844">
     <property name="name" value="CompareType" />
+    <property name="package" value="operation" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075151845">
       <property name="externalValue" value="==" />
@@ -346,6 +360,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172324086632">
     <property name="name" value="RoundDateTimeOperation" />
+    <property name="package" value="operation.round" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172324242744">
       <property name="value" value="round to" />
@@ -367,6 +382,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172325083904">
     <property name="name" value="FloorDateTimeOperation" />
+    <property name="package" value="operation.round" />
     <link role="extends" targetNodeId="1172324086632" resolveInfo="RoundDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172325083905">
       <property name="value" value="round down to" />
@@ -388,6 +404,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172325617850">
     <property name="name" value="CeilingDateTimeOperation" />
+    <property name="package" value="operation.round" />
     <link role="extends" targetNodeId="1172324086632" resolveInfo="RoundDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172325617851">
       <property name="value" value="round up to" />
@@ -409,6 +426,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172327820761">
     <property name="name" value="DateTimePropetyReference" />
+    <property name="package" value="operation" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172327973863">
       <property name="value" value=".&lt;{dateTimeProperty}&gt;" />
@@ -432,6 +450,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172331114860">
     <property name="name" value="DateTimeWithPropertyOperation" />
+    <property name="package" value="operation" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172331207547">
       <property name="sourceCardinality" value="1" />
@@ -480,34 +499,9 @@
       <link role="target" targetNodeId="2.1172074318583" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172493993365">
-    <property name="name" value="BinaryPeriodOperation" />
-    <link role="extends" targetNodeId="3.1068431790191" />
-    <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptPropertyDeclaration" id="1172495440825">
-      <property name="name" value="operationSign" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172494039959">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="op1" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="3.1068431790191" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172494053350">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="op2" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="3.1068431790191" />
-    </node>
-    <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLinkDeclaration" id="1172494011646">
-      <property name="name" value="operationType" />
-      <link role="targetType" targetNodeId="3.1068431790189" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1172494034834">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172679701720">
     <property name="name" value="FixedLocaleFormatToken" />
+    <property name="package" value="token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172679863969">
       <property name="sourceCardinality" value="1" />
