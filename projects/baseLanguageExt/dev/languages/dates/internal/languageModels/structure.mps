@@ -2,12 +2,14 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.internal.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
-  <maxImportIndex value="3" />
+  <maxImportIndex value="4" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   <import index="3" modelUID="jetbrains.mps.baseLanguage.structure" />
+  <import index="4" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169491669264">
     <property name="name" value="TokenPresentationOption" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1169491669265">
       <property name="name" value="numberOfSymbols" />
@@ -20,6 +22,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169491678657">
     <property name="name" value="FormatTokenPresentation" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="1.1078489098625" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169491678658">
       <property name="sourceCardinality" value="0..n" />
@@ -30,6 +33,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169491688591">
     <property name="name" value="FormatTokenType" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="1.1078489098625" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1169491688592">
       <property name="name" value="meaning" />
@@ -60,6 +64,12 @@
       <property name="role" value="dateFormatTokenType" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1169491688591" resolveInfo="DateFormatTokenType" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173884012349">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="predefinedDateFormat" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1173883503931" resolveInfo="PredefinedDateFormat" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074318583">
@@ -110,6 +120,30 @@
       <link role="target" targetNodeId="3.1068431790191" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172681116758">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173883503931">
+    <property name="name" value="PredefinedDateFormat" />
+    <property name="package" value="format" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173883503932">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="formatter" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1081236700937" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173883503933">
+      <property name="value" value="predefined format" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173883503934">
+      <link role="intfc" targetNodeId="1173884671039" resolveInfo="IDateFormat" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1173884671039">
+    <property name="name" value="IDateFormat" />
+    <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173884678884">
       <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
   </node>

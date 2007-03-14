@@ -170,11 +170,22 @@
           <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
           <property name="selectable" value="false" />
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1173884040947">
+            <property name="drawBorder" value="false" />
+            <property name="vertical" value="true" />
+            <link role="relationDeclaration" targetNodeId="1.1173884012349" />
+            <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1173884048698">
+              <property name="textFgColor" value="lightGray" />
+              <property name="text" value="&lt;predefined date formats&gt;" />
+              <property name="drawBorder" value="false" />
+            </node>
+          </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1169491699243">
             <property name="drawBorder" value="false" />
             <property name="vertical" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1169491698843" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1169491699244">
+              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;presentations&gt;" />
               <property name="drawBorder" value="false" />
             </node>
@@ -185,6 +196,7 @@
             <property name="gridLayout" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1169491698844" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1169491699246">
+              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;token types&gt;" />
               <property name="drawBorder" value="false" />
             </node>
@@ -365,6 +377,21 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1172681593079">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172681540798" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1173883735933">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.1173883503931" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1173883740591">
+      <property name="drawBorder" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1173883753381">
+        <property name="text" value="predefined format" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1173883763352">
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1173883503932" />
       </node>
     </node>
   </node>

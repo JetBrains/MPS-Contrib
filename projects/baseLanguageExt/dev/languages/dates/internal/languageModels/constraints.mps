@@ -4,7 +4,7 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <maxImportIndex value="9" />
+  <maxImportIndex value="10" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" />
   <import index="3" modelUID="jetbrains.mps.smodel@java_stub" />
@@ -14,6 +14,7 @@
   <import index="7" modelUID="jetbrains.mps.baseLanguage@java_stub" />
   <import index="8" modelUID="jetbrains.mps.baseLanguage.search@java_stub" />
   <import index="9" modelUID="org.joda.time@java_stub" />
+  <import index="10" modelUID="jetbrains.mps.core.structure" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1172156512671">
     <property name="name" value="DLDTI_reference_constraints" />
     <node role="nodeReferentConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraint" id="1172156539284">
@@ -60,6 +61,35 @@
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1172492778078">
                 <link role="variableDeclaration" extResolveInfo="8.static field ([Classifier]IClassifiersSearchScope).([StaticFieldDeclaration]STATIC_METHOD : (jetbrains.mps.baseLanguage.types.int/jetbrains.mps.baseLanguage.types.int))" />
                 <link role="classifier" extResolveInfo="8.[Classifier]IClassifiersSearchScope" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1173884740212">
+    <property name="name" value="DLDTI_property_constraints" />
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1173884754558">
+      <link role="applicableConcept" targetNodeId="1.1173883503931" />
+      <link role="applicableProperty" targetNodeId="10.1169194664001" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1173884761982">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173884761983">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173884780122">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173884836739">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173884789830">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173884781593">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1173884780123" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1173884789172">
+                    <link role="link" targetNodeId="1.1173883503932" />
+                  </node>
+                </node>
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1173884836192">
+                  <link role="link" targetNodeId="2.1081236769987" />
+                </node>
+              </node>
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1173884837600">
+                <link role="property" targetNodeId="2.1083152972672" />
               </node>
             </node>
           </node>

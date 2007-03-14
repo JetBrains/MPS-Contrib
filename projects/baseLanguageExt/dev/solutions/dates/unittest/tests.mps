@@ -318,6 +318,20 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.TestMethod" id="1173885136667">
+        <property name="methodName" value="predefined" />
+        <node role="statementList" type="jetbrains.mps.baseLanguage.StatementList" id="1173885136668">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.AssertTrue" id="1173885157107">
+            <node role="condition" type="jetbrains.mps.baseLanguage.NotEqualsExpression" id="1173885896783">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1173885898270" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.FormatExpression" id="1173885166157">
+                <link role="dateFormat" targetNodeId="1.1173884355215" />
+                <node role="dateExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.NowExpression" id="1173885162297" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="superclass" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173787627574">
       <link role="classifier" targetNodeId="1173787596138" resolveInfo="BaseTest" />
