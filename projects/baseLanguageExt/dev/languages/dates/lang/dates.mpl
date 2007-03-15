@@ -26,6 +26,7 @@
     <moduleRoot path="${mps_home}\projects\baseLanguageExt\dev\languages\dates\internal\internal.mpl" />
     <moduleRoot path="${mps_home}\projects\springframework\languages\configuration\configuration.mpl" />
     <moduleRoot path="${mps_home}\projects\springframework\languages\configurationInternal\configurationInternal.mpl" />
+    <moduleRoot path="${mps_home}\workbench\ideLanguages\scriptLanguage\scriptLanguage.mpl" />
   </module>
   <accessoryModels>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />

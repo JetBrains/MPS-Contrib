@@ -71,6 +71,18 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1173883503931" resolveInfo="PredefinedDateFormat" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173954797770">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="dateTimePropertyCardinality" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1173953789261" resolveInfo="DateTimePropertyCardinality" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173954797771">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="dateTimePropertyFormatConfiguration" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1173953509960" resolveInfo="DateTimePropertyFormatConfiguration" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074318583">
     <property name="name" value="DateTimeProperty" />
@@ -88,7 +100,7 @@
       <link role="target" targetNodeId="3.1081236700938" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172492673219">
-      <property name="sourceCardinality" value="1" />
+      <property name="sourceCardinality" value="0..1" />
       <property name="role" value="jodaPeriodType" />
       <link role="target" targetNodeId="3.1081236700938" />
     </node>
@@ -144,6 +156,63 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1173884671039">
     <property name="name" value="IDateFormat" />
     <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173884678884">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173953509960">
+    <property name="name" value="DateTimePropertyFormatConfiguration" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173953566745">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimeProperty" />
+      <link role="target" targetNodeId="1172074318583" resolveInfo="DateTimeProperty" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173954157707">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="dateTimePropertyFormatType" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1173953623139" resolveInfo="DateTimePropertyFormatType" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173966695206">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173953623139">
+    <property name="name" value="DateTimePropertyFormatType" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173953763712">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimePropertyCardinality" />
+      <link role="target" targetNodeId="1173953789261" resolveInfo="DateTimePropertyCardinality" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1173953689128">
+      <property name="name" value="letter" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1173953691316">
+      <property name="name" value="meaning" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1173953742226">
+      <property name="name" value="examples" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173953974189">
+      <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173953789261">
+    <property name="name" value="DateTimePropertyCardinality" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1173953810654">
+      <property name="name" value="numberOfSymbols" />
+      <link role="dataType" targetNodeId="1.1082983657062" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1173953818374">
+      <property name="name" value="meaning" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173954052643">
       <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
   </node>

@@ -42,6 +42,10 @@
       <property name="actionsFactoryAspectId" value="FixedLocaleFormatToken" />
       <link role="applicableConcept" targetNodeId="1.1172679701720" />
     </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1173965711458">
+      <property name="actionsFactoryAspectId" value="DateTimePropertyFormatToken" />
+      <link role="applicableConcept" targetNodeId="1.1173959836330" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />

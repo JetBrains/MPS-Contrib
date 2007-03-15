@@ -4,7 +4,7 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.unitTest" />
   <language namespace="jetbrains.springframework.configuration" />
-  <maxImportIndex value="8" />
+  <maxImportIndex value="9" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   <import index="2" modelUID="java.lang@java_stub" />
   <import index="3" modelUID="java.io@java_stub" />
@@ -12,6 +12,7 @@
   <import index="5" modelUID="org.joda.time.base@java_stub" />
   <import index="7" modelUID="junit.framework@java_stub" />
   <import index="8" modelUID="java.util@java_stub" />
+  <import index="9" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormatsTable" id="1169488395206">
     <property name="name" value="MainFormatTable" />
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172684095976">
@@ -23,9 +24,9 @@
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172684313431">
       <property name="name" value="fullDayOfWeek" />
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1172684320306">
-        <link role="type" targetNodeId="1.1169484234126" />
-        <link role="option" targetNodeId="1.1169485558751" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967535545">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955366736" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173955428462" />
       </node>
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1169549842090">
@@ -42,52 +43,51 @@
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1169637469524">
       <property name="name" value="date" />
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1169637479226">
-        <link role="type" targetNodeId="1.1169484269659" />
-        <link role="option" targetNodeId="1.1169485768949" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967313353">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955075287" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173955167721" />
       </node>
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.LiteralFormatToken" id="1169637482962">
         <property name="value" value="-" />
       </node>
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1169637488057">
-        <link role="type" targetNodeId="1.1169484303193" />
-        <link role="option" targetNodeId="1.1169485862978" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967326261">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955635836" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173955657885" />
       </node>
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.LiteralFormatToken" id="1169637490137">
         <property name="value" value="-" />
       </node>
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1169637495950">
-        <link role="type" targetNodeId="1.1169484351382" />
-        <link role="option" targetNodeId="1.1169485636390" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967382027">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955777519" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173955798256" />
       </node>
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1169549957527">
       <property name="name" value="time" />
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1169549976213">
-        <property name="presentation" value="HH:" />
-        <link role="type" targetNodeId="1.1169484470279" />
-        <link role="option" targetNodeId="1.1169485636390" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967394059">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955922497" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173955922498" />
       </node>
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.LiteralFormatToken" id="1169549977795">
         <property name="value" value=":" />
       </node>
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1169549982190">
-        <link role="type" targetNodeId="1.1169484544423" />
-        <link role="option" targetNodeId="1.1169485636390" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967409952">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173956355145" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173956355146" />
       </node>
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.LiteralFormatToken" id="1169549983772">
         <property name="value" value=":" />
       </node>
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1169549995596">
-        <link role="type" targetNodeId="1.1169484556768" />
-        <link role="option" targetNodeId="1.1169485636390" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967517700">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173956423307" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173956423308" />
       </node>
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172332021204">
       <property name="name" value="week" />
-      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.KnownFormatToken" id="1172332141119">
-        <link role="type" targetNodeId="1.1169484234126" />
-        <link role="option" targetNodeId="1.1169485540970" />
+      <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967626122">
+        <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955366736" />
+        <link role="dateTimePropertyFormatType" targetNodeId="1.1173955388739" />
       </node>
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172687345331">

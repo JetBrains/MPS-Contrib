@@ -554,5 +554,24 @@
       <node role="target" type="jetbrains.mps.baseLanguage.BooleanType" id="1173879281240" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173959836330">
+    <property name="name" value="DateTimePropertyFormatToken" />
+    <property name="package" value="format" />
+    <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173960023920">
+      <property name="value" value="{&lt;{dateTimePropertyFormatConfiguration}&gt;}" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173966637440">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimePropertyFormatConfiguration" />
+      <link role="target" targetNodeId="2.1173953509960" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173959975857">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimePropertyFormatType" />
+      <link role="target" targetNodeId="2.1173953623139" />
+    </node>
+  </node>
 </model>
 
