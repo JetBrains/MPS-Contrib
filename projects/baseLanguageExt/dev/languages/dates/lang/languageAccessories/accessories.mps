@@ -14,8 +14,8 @@
       <link role="dateTimeProperty" targetNodeId="1173957203373" resolveInfo="era" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173957241814">
         <property name="letter" value="G" />
-        <property name="meaning" value="as abbr" />
         <property name="examples" value="BC, AD" />
+        <property name="meaning" value="as abbr" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954931195" resolveInfo="short text" />
       </node>
     </node>
@@ -23,14 +23,14 @@
       <link role="dateTimeProperty" targetNodeId="1173957123915" resolveInfo="century" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173957246347">
         <property name="letter" value="C" />
-        <property name="examples" value="5, 20" />
         <property name="meaning" value="as number" />
+        <property name="examples" value="5, 20" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173957606078">
         <property name="letter" value="C" />
-        <property name="examples" value="05, 20" />
         <property name="meaning" value="as 2-digit number" />
+        <property name="examples" value="05, 20" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
     </node>
@@ -38,8 +38,8 @@
       <link role="dateTimeProperty" targetNodeId="1172074760743" resolveInfo="year" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955167721">
         <property name="letter" value="y" />
-        <property name="examples" value="1996" />
         <property name="meaning" value="of era" />
+        <property name="examples" value="1996" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173955177629" resolveInfo="4 digits number" />
       </node>
     </node>
@@ -47,8 +47,8 @@
       <link role="dateTimeProperty" targetNodeId="1173957959032" resolveInfo="yearOfCentury" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173958176385">
         <property name="letter" value="y" />
-        <property name="examples" value="96" />
         <property name="meaning" value="of century" />
+        <property name="examples" value="96" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
     </node>
@@ -56,26 +56,26 @@
       <link role="dateTimeProperty" targetNodeId="1172074751786" resolveInfo="month" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955657885">
         <property name="letter" value="M" />
-        <property name="examples" value="07, 11" />
         <property name="meaning" value="as 2-digit number" />
+        <property name="examples" value="07, 11" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955635837">
         <property name="letter" value="M" />
-        <property name="examples" value="7, 11" />
         <property name="meaning" value="as number" />
+        <property name="examples" value="7, 11" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955661152">
         <property name="letter" value="M" />
-        <property name="examples" value="Jul, Nov" />
         <property name="meaning" value="as abbr" />
+        <property name="examples" value="Jul, Nov" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954931195" resolveInfo="short text" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955664763">
         <property name="letter" value="M" />
-        <property name="examples" value="July, November" />
         <property name="meaning" value="as text" />
+        <property name="examples" value="July, November" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954941353" resolveInfo="full text" />
       </node>
     </node>
@@ -83,14 +83,14 @@
       <link role="dateTimeProperty" targetNodeId="1172162485440" resolveInfo="week" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955220618">
         <property name="letter" value="x" />
-        <property name="meaning" value="as number" />
         <property name="examples" value="7, 27" />
+        <property name="meaning" value="as number" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955241870">
         <property name="letter" value="x" />
-        <property name="meaning" value="as 2-digit number" />
         <property name="examples" value="07, 27" />
+        <property name="meaning" value="as 2-digit number" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
     </node>
@@ -98,20 +98,20 @@
       <link role="dateTimeProperty" targetNodeId="1172332326016" resolveInfo="dayOfYear" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955483576">
         <property name="letter" value="D" />
-        <property name="examples" value="1, 17, 179" />
         <property name="meaning" value="as number" />
+        <property name="examples" value="1, 17, 179" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955525766">
         <property name="letter" value="D" />
-        <property name="examples" value="01, 17, 179" />
         <property name="meaning" value="as 2-digit number" />
+        <property name="examples" value="01, 17, 179" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955563331">
         <property name="letter" value="D" />
-        <property name="examples" value="001, 017, 179" />
         <property name="meaning" value="as 3-digit number" />
+        <property name="examples" value="001, 017, 179" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954972904" resolveInfo="3 digits number" />
       </node>
     </node>
@@ -119,14 +119,14 @@
       <link role="dateTimeProperty" targetNodeId="1172074737375" resolveInfo="day" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955798256">
         <property name="letter" value="d" />
-        <property name="examples" value="01, 31" />
         <property name="meaning" value="as 2-digit number" />
+        <property name="examples" value="01, 31" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955777520">
         <property name="letter" value="d" />
-        <property name="examples" value="1, 31" />
         <property name="meaning" value="as number" />
+        <property name="examples" value="1, 31" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
@@ -134,20 +134,20 @@
       <link role="dateTimeProperty" targetNodeId="1172332318159" resolveInfo="dayOfWeek" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955388739">
         <property name="letter" value="E" />
-        <property name="examples" value="Mon, Tue, etc." />
         <property name="meaning" value="as abbr" />
+        <property name="examples" value="Mon, Tue, etc." />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954931195" resolveInfo="short text" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955428462">
         <property name="letter" value="E" />
-        <property name="examples" value="Monday, Tuesday, etc." />
         <property name="meaning" value="as text" />
+        <property name="examples" value="Monday, Tuesday, etc." />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954941353" resolveInfo="full text" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955366737">
         <property name="letter" value="e" />
-        <property name="examples" value="1" />
         <property name="meaning" value="as number" />
+        <property name="examples" value="1" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
@@ -155,14 +155,14 @@
       <link role="dateTimeProperty" targetNodeId="1172074620250" resolveInfo="hour" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173955922498">
         <property name="letter" value="H" />
-        <property name="examples" value="00, 23" />
         <property name="meaning" value="00~23" />
+        <property name="examples" value="00, 23" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956119633">
         <property name="letter" value="H" />
-        <property name="examples" value="0, 23" />
         <property name="meaning" value="0~23" />
+        <property name="examples" value="0, 23" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
@@ -170,14 +170,14 @@
       <link role="dateTimeProperty" targetNodeId="1173955983718" resolveInfo="clockhour" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956157511">
         <property name="letter" value="k" />
-        <property name="examples" value="1, 24" />
         <property name="meaning" value="1~24" />
+        <property name="examples" value="1, 24" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956189139">
         <property name="letter" value="k" />
-        <property name="examples" value="01, 24" />
         <property name="meaning" value="01~24" />
+        <property name="examples" value="01, 24" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
     </node>
@@ -185,14 +185,14 @@
       <link role="dateTimeProperty" targetNodeId="1173955957891" resolveInfo="hourOfHalfday" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956224971">
         <property name="letter" value="K" />
-        <property name="examples" value="00, 11" />
         <property name="meaning" value="00~11" />
+        <property name="examples" value="00, 11" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956263301">
         <property name="letter" value="K" />
-        <property name="examples" value="0, 11" />
         <property name="meaning" value="0~11" />
+        <property name="examples" value="0, 11" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
@@ -200,14 +200,14 @@
       <link role="dateTimeProperty" targetNodeId="1173955990079" resolveInfo="clockhourOfHalfday" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956289953">
         <property name="letter" value="h" />
-        <property name="examples" value="1, 12" />
         <property name="meaning" value="1~12" />
+        <property name="examples" value="1, 12" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956289952">
         <property name="letter" value="h" />
-        <property name="examples" value="01, 12" />
         <property name="meaning" value="01~12" />
+        <property name="examples" value="01, 12" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
     </node>
@@ -215,14 +215,14 @@
       <link role="dateTimeProperty" targetNodeId="1172074618358" resolveInfo="minute" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956355146">
         <property name="letter" value="m" />
-        <property name="examples" value="00, 59" />
         <property name="meaning" value="00~59" />
+        <property name="examples" value="00, 59" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956406774">
         <property name="letter" value="m" />
-        <property name="examples" value="0, 59" />
         <property name="meaning" value="0~59" />
+        <property name="examples" value="0, 59" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
@@ -230,14 +230,14 @@
       <link role="dateTimeProperty" targetNodeId="1172074612199" resolveInfo="second" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956423308">
         <property name="letter" value="s" />
-        <property name="examples" value="00, 59" />
         <property name="meaning" value="00~59" />
+        <property name="examples" value="00, 59" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956447373">
         <property name="letter" value="s" />
-        <property name="examples" value="0, 59" />
         <property name="meaning" value="0~59" />
+        <property name="examples" value="0, 59" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
@@ -245,273 +245,58 @@
       <link role="dateTimeProperty" targetNodeId="1172074929011" resolveInfo="millis" />
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956494103">
         <property name="letter" value="S" />
-        <property name="examples" value="005, 035, 735" />
         <property name="meaning" value="000~999" />
+        <property name="examples" value="005, 035, 735" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954972904" resolveInfo="3 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956481648">
         <property name="letter" value="S" />
-        <property name="examples" value="05, 35, 735" />
         <property name="meaning" value="00~999" />
+        <property name="examples" value="05, 35, 735" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954964371" resolveInfo="2 digits number" />
       </node>
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyFormatType" id="1173956481649">
         <property name="letter" value="S" />
-        <property name="examples" value="5, 35, 735" />
         <property name="meaning" value="0~999" />
+        <property name="examples" value="5, 35, 735" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173954931195">
-      <property name="meaning" value="short text" />
       <property name="numberOfSymbols" value="3" />
+      <property name="meaning" value="short text" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173954941353">
-      <property name="meaning" value="full text" />
       <property name="numberOfSymbols" value="4" />
+      <property name="meaning" value="full text" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173954948729">
-      <property name="meaning" value="1 digit number" />
       <property name="numberOfSymbols" value="1" />
+      <property name="meaning" value="1 digit number" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173954964371">
-      <property name="meaning" value="2 digits number" />
       <property name="numberOfSymbols" value="2" />
+      <property name="meaning" value="2 digits number" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173954972904">
-      <property name="meaning" value="3 digits number" />
       <property name="numberOfSymbols" value="3" />
+      <property name="meaning" value="3 digits number" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173955177629">
-      <property name="meaning" value="4 digits number" />
       <property name="numberOfSymbols" value="4" />
+      <property name="meaning" value="4 digits number" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173954999766">
-      <property name="meaning" value="zone offset without a colon" />
       <property name="numberOfSymbols" value="1" />
+      <property name="meaning" value="zone offset without a colon" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173955029690">
-      <property name="meaning" value="zone offset with a colon" />
       <property name="numberOfSymbols" value="2" />
+      <property name="meaning" value="zone offset with a colon" />
     </node>
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimePropertyCardinality" id="1173955043707">
-      <property name="meaning" value="zone id" />
       <property name="numberOfSymbols" value="3" />
-    </node>
-    <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485527532">
-      <property name="name" value="text" />
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485540970">
-        <property name="comment" value="short or abbreviated form" />
-        <property name="numberOfSymbols" value="1" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485558751">
-        <property name="comment" value="full form" />
-        <property name="numberOfSymbols" value="4" />
-      </node>
-    </node>
-    <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169490745785">
-      <property name="name" value="one-digit-number" />
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169490754012">
-        <property name="comment" value="at least one digit" />
-        <property name="numberOfSymbols" value="1" />
-      </node>
-    </node>
-    <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485575548">
-      <property name="name" value="two-digit-number" />
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485601313">
-        <property name="comment" value="at least one digit" />
-        <property name="numberOfSymbols" value="1" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485636390">
-        <property name="comment" value="at least two digits" />
-        <property name="numberOfSymbols" value="2" />
-      </node>
-    </node>
-    <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169490668565">
-      <property name="name" value="three-digit-number" />
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169490682644">
-        <property name="comment" value="at least one digit" />
-        <property name="numberOfSymbols" value="1" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169490691379">
-        <property name="comment" value="at least two digits" />
-        <property name="numberOfSymbols" value="2" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169490704348">
-        <property name="comment" value="at least three digits" />
-        <property name="numberOfSymbols" value="3" />
-      </node>
-    </node>
-    <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485677593">
-      <property name="name" value="year" />
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485694499">
-        <property name="comment" value="two-digit year of century" />
-        <property name="numberOfSymbols" value="2" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485768949">
-        <property name="comment" value="four-digit year of era" />
-        <property name="numberOfSymbols" value="4" />
-      </node>
-    </node>
-    <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485814057">
-      <property name="name" value="month" />
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485831682">
-        <property name="comment" value="one digit number" />
-        <property name="numberOfSymbols" value="1" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485862978">
-        <property name="comment" value="two digits number" />
-        <property name="numberOfSymbols" value="2" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485883384">
-        <property name="comment" value="short month name" />
-        <property name="numberOfSymbols" value="3" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485904493">
-        <property name="comment" value="full month name" />
-        <property name="numberOfSymbols" value="4" />
-      </node>
-    </node>
-    <node role="dateFormatTokenPresentationType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenPresentation" id="1169485922290">
-      <property name="name" value="zone" />
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485931759">
-        <property name="comment" value="offset without a colon" />
-        <property name="numberOfSymbols" value="1" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485943026">
-        <property name="comment" value="offset with a colon" />
-        <property name="numberOfSymbols" value="2" />
-      </node>
-      <node role="dateFormatTokenPresentationOption" type="jetbrains.mps.baseLanguage.ext.dates.internal.TokenPresentationOption" id="1169485959479">
-        <property name="comment" value="zone id" />
-        <property name="numberOfSymbols" value="3" />
-      </node>
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169483998897">
-      <property name="examples" value="AD" />
-      <property name="meaning" value="era" />
-      <property name="name" value="G" />
-      <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484043695">
-      <property name="examples" value="20" />
-      <property name="meaning" value="century of era (&gt;=0)" />
-      <property name="name" value="C" />
-      <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484079510">
-      <property name="examples" value="1996" />
-      <property name="meaning" value="year of era (&gt;=0)" />
-      <property name="name" value="Y" />
-      <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484174294">
-      <property name="examples" value="1996" />
-      <property name="meaning" value="weekyear" />
-      <property name="name" value="x" />
-      <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484195467">
-      <property name="examples" value="27" />
-      <property name="meaning" value="week of weekyear" />
-      <property name="name" value="w" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484218671">
-      <property name="examples" value="2" />
-      <property name="meaning" value="day of week" />
-      <property name="name" value="e" />
-      <link role="presentationType" targetNodeId="1169490745785" resolveInfo="one-digit-number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484234126">
-      <property name="examples" value="Tuesday; Tue" />
-      <property name="meaning" value="day of week" />
-      <property name="name" value="E" />
-      <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484269659">
-      <property name="examples" value="1996" />
-      <property name="meaning" value="year" />
-      <property name="name" value="y" />
-      <link role="presentationType" targetNodeId="1169485677593" resolveInfo="year" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484284395">
-      <property name="examples" value="189" />
-      <property name="meaning" value="day of year" />
-      <property name="name" value="D" />
-      <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484303193">
-      <property name="examples" value="July; Jul; 07" />
-      <property name="meaning" value="month of year" />
-      <property name="name" value="M" />
-      <link role="presentationType" targetNodeId="1169485814057" resolveInfo="month" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484351382">
-      <property name="examples" value="10" />
-      <property name="meaning" value="day of month" />
-      <property name="name" value="d" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484382196">
-      <property name="examples" value="PM" />
-      <property name="meaning" value="halfday of day" />
-      <property name="name" value="a" />
-      <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484404541">
-      <property name="examples" value="0" />
-      <property name="meaning" value="hour of halfday (0~11)" />
-      <property name="name" value="K" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484454153">
-      <property name="examples" value="12" />
-      <property name="meaning" value="clockhour of halfday (1~12)" />
-      <property name="name" value="h" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484470279">
-      <property name="examples" value="0" />
-      <property name="meaning" value="hour of day (0~23)" />
-      <property name="name" value="H" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484523297">
-      <property name="examples" value="24" />
-      <property name="meaning" value="clockhour of day (1~24)" />
-      <property name="name" value="k" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484544423">
-      <property name="examples" value="30" />
-      <property name="meaning" value="minute of hour" />
-      <property name="name" value="m" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484556768">
-      <property name="examples" value="55" />
-      <property name="meaning" value="second of minute" />
-      <property name="name" value="s" />
-      <link role="presentationType" targetNodeId="1169485575548" resolveInfo="number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484570220">
-      <property name="examples" value="978" />
-      <property name="meaning" value="fraction of second" />
-      <property name="name" value="S" />
-      <link role="presentationType" targetNodeId="1169490668565" resolveInfo="three-digit-number" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484584515">
-      <property name="examples" value="Pacific Standard Time; PST" />
-      <property name="meaning" value="time zone" />
-      <property name="name" value="z" />
-      <link role="presentationType" targetNodeId="1169485527532" resolveInfo="text" />
-    </node>
-    <node role="dateFormatTokenType" type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenType" id="1169484603731">
-      <property name="examples" value="-0800; -08:00; America/Los_Angeles" />
-      <property name="meaning" value="time zone offset/id" />
-      <property name="name" value="Z" />
-      <link role="presentationType" targetNodeId="1169485922290" resolveInfo="zone" />
+      <property name="meaning" value="zone id" />
     </node>
     <node role="predefinedDateFormat" type="jetbrains.mps.baseLanguage.ext.dates.internal.PredefinedDateFormat" id="1173884238614">
       <node role="formatter" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173884238615">
