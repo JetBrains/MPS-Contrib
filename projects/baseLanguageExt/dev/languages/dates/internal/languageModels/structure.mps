@@ -101,8 +101,13 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1173884671039">
     <property name="name" value="IDateFormat" />
+    <property name="package" value="format" />
     <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173884678884">
       <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1173975300968">
+      <property name="name" value="isPublic" />
+      <link role="dataType" targetNodeId="1.1082983657063" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173953509960">

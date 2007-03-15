@@ -38,6 +38,10 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173882390903">
       <link role="intfc" targetNodeId="2.1173884671039" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1173975856624">
+      <property name="name" value="dateFormatVisibility" />
+      <link role="dataType" targetNodeId="1173975646059" resolveInfo="DateFormatVisibility" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169495318439">
     <property name="name" value="LiteralFormatToken" />
@@ -556,6 +560,22 @@
       <property name="sourceCardinality" value="1" />
       <property name="role" value="dateTimePropertyFormatType" />
       <link role="target" targetNodeId="2.1173953623139" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.EnumerationDataTypeDeclaration" id="1173975646059">
+    <property name="name" value="DateFormatVisibility" />
+    <property name="package" value="format" />
+    <link role="defaultMember" targetNodeId="1173975646060" resolveInfo="public" />
+    <link role="memberDataType" targetNodeId="1.1082983041843" />
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1173975646060">
+      <property name="externalValue" value="public" />
+      <property name="internalValue" value="public" />
+      <property name="name" value="PUBLIC" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1173975646061">
+      <property name="externalValue" value="private" />
+      <property name="internalValue" value="private" />
+      <property name="name" value="PRIVATE" />
     </node>
   </node>
 </model>

@@ -23,6 +23,7 @@
       </node>
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172684313431">
+      <property name="dateFormatVisibility" value="private" />
       <property name="name" value="fullDayOfWeek" />
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967535545">
         <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955366736" />
@@ -84,6 +85,7 @@
       </node>
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172332021204">
+      <property name="dateFormatVisibility" value="private" />
       <property name="name" value="week" />
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateTimePropertyFormatToken" id="1173967626122">
         <link role="dateTimePropertyFormatConfiguration" targetNodeId="1.1173955366736" />
@@ -91,6 +93,7 @@
       </node>
     </node>
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.DateFormat" id="1172687345331">
+      <property name="dateFormatVisibility" value="private" />
       <property name="name" value="empty" />
       <node role="token" type="jetbrains.mps.baseLanguage.ext.dates.lang.LiteralFormatToken" id="1172687350864">
         <property name="value" value="-" />
@@ -104,9 +107,8 @@
           <node role="condition" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition" id="1172687359616">
             <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172687359617">
               <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172687373872">
-                <node role="expression" type="jetbrains.mps.baseLanguage.EqualsExpression" id="1172687373873">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1172687379127" />
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition_datetimeToFormat" id="1172687598000" />
+                <node role="expression" type="jetbrains.mps.baseLanguage.ext.dates.lang.IsNullOperation" id="1173978972839">
+                  <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.TokenCondition_datetimeToFormat" id="1172687598000" />
                 </node>
               </node>
             </node>

@@ -4,7 +4,7 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <maxImportIndex value="10" />
+  <maxImportIndex value="11" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" />
   <import index="3" modelUID="jetbrains.mps.smodel@java_stub" />
@@ -15,6 +15,7 @@
   <import index="8" modelUID="jetbrains.mps.baseLanguage.search@java_stub" />
   <import index="9" modelUID="org.joda.time@java_stub" />
   <import index="10" modelUID="jetbrains.mps.core.structure" />
+  <import index="11" modelUID="java.lang@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1172156512671">
     <property name="name" value="DLDTI_reference_constraints" />
     <node role="nodeReferentConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraint" id="1172156539284">
@@ -90,6 +91,23 @@
               </node>
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1173884837600">
                 <link role="property" targetNodeId="2.1083152972672" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1173975606302">
+      <link role="applicableConcept" targetNodeId="1.1173883503931" />
+      <link role="applicableProperty" targetNodeId="1.1173975300968" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1173975665471">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173975665472">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173975747548">
+            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173975789056">
+              <link role="baseMethodDeclaration" extResolveInfo="11.static method ([Classifier]Boolean).([StaticMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+              <link role="classConcept" extResolveInfo="11.[Classifier]Boolean" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1173975795355">
+                <property name="value" value="true" />
               </node>
             </node>
           </node>
