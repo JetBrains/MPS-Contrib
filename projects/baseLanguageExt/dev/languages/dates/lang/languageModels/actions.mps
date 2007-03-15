@@ -20,33 +20,6 @@
   <import index="15" modelUID="jetbrains.mps.helgins.inference@java_stub" />
   <import index="16" modelUID="java.util@java_stub" />
   <import index="17" modelUID="java.lang@java_stub" />
-  <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActions" id="1169486244264">
-    <property name="name" value="BLDT_node_substitute" />
-    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1169545099984">
-      <property name="actionsFactoryAspectId" value="KnownFormatToken" />
-      <link role="applicableConcept" targetNodeId="1.1169486306512" />
-    </node>
-    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1169545818054">
-      <property name="actionsFactoryAspectId" value="LiteralFormatToken" />
-      <link role="applicableConcept" targetNodeId="1.1169495318439" />
-    </node>
-    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1169563836221">
-      <property name="actionsFactoryAspectId" value="ReferenceFormatToken" />
-      <link role="applicableConcept" targetNodeId="1.1169563273551" />
-    </node>
-    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1169565193762">
-      <property name="actionsFactoryAspectId" value="ConditionalFormatToken" />
-      <link role="applicableConcept" targetNodeId="1.1169562965517" />
-    </node>
-    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1172683973318">
-      <property name="actionsFactoryAspectId" value="FixedLocaleFormatToken" />
-      <link role="applicableConcept" targetNodeId="1.1172679701720" />
-    </node>
-    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1173965711458">
-      <property name="actionsFactoryAspectId" value="DateTimePropertyFormatToken" />
-      <link role="applicableConcept" targetNodeId="1.1173959836330" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1169657550853">

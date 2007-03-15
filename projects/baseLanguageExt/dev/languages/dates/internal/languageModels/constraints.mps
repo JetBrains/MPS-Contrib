@@ -149,6 +149,19 @@
         </node>
       </node>
     </node>
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1173968882765">
+      <link role="applicableConcept" targetNodeId="1.1173953509960" />
+      <link role="applicableProperty" targetNodeId="10.1156234966388" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1173968894829">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173968894830">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173968908039">
+            <node role="expression" type="jetbrains.mps.baseLanguage.StringLiteral" id="1173968908040">
+              <property name="value" value="datetime property" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

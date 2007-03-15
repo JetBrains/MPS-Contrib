@@ -21,25 +21,6 @@
       <link role="target" targetNodeId="1169487448949" resolveInfo="DateFormat" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169486306512">
-    <property name="name" value="KnownFormatToken" />
-    <property name="package" value="format" />
-    <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169486362588">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="type" />
-      <link role="target" targetNodeId="2.1169491688591" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169486445258">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="option" />
-      <link role="target" targetNodeId="2.1169491669264" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1169486418493">
-      <property name="name" value="presentation" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169487448949">
     <property name="name" value="DateFormat" />
     <property name="package" value="format" />
@@ -135,7 +116,7 @@
       <link role="target" targetNodeId="2.1173884671039" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1169563323944">
-      <property name="value" value="&lt;{dateFormat}&gt;" />
+      <property name="value" value="&lt;&lt;{dateFormat}&gt;&gt;" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1169563356852">
@@ -561,6 +542,10 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173960023920">
       <property name="value" value="{&lt;{dateTimePropertyFormatConfiguration}&gt;}" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173968765736">
+      <property name="value" value="datetime property" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173966637440">
       <property name="sourceCardinality" value="1" />
