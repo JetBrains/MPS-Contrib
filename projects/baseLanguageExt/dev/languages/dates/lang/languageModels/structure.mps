@@ -554,7 +554,7 @@
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173966637440">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="dateTimePropertyFormatConfiguration" />
-      <link role="target" targetNodeId="2.1173953509960" />
+      <link role="target" targetNodeId="2.1174042847309" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1173959975857">
       <property name="sourceCardinality" value="1" />
@@ -576,6 +576,34 @@
       <property name="externalValue" value="private" />
       <property name="internalValue" value="private" />
       <property name="name" value="PRIVATE" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174039789930">
+    <property name="name" value="InlineFormatExpression" />
+    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174046000278">
+      <property name="name" value="withLocale" />
+      <link role="dataType" targetNodeId="1.1082983657063" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1174039827774">
+      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.ClassifierType" id="1174039830557">
+        <link role="classifier" extResolveInfo="7.[Classifier]String" />
+      </node>
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174039835698">
+      <property name="value" value="&lt;datetime&gt;#{&lt;format&gt;}" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174039888135">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="formatToken" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1169495337236" resolveInfo="FormatToken" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174045884375">
+      <property name="role" value="locale" />
+      <link role="target" targetNodeId="2.1172680728258" />
     </node>
   </node>
 </model>

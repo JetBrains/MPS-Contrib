@@ -110,12 +110,12 @@
             <node role="expression" type="jetbrains.mps.baseLanguage.NewExpression" id="1173961270163">
               <link role="baseMethodDeclaration" extResolveInfo="7.constructor [Classifier]SimpleSearchScope[ConstructorDeclaration] ((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List]))" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173961285801">
-                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkListAccess" id="1173961294911">
-                  <link role="link" targetNodeId="5.1173954157707" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkListAccess" id="1174044227202">
+                  <link role="link" targetNodeId="5.1174043134773" />
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173967125484">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunctionParameter_referenceNode" id="1173967124702" />
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1173967137329">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunctionParameter_referenceNode" id="1174044232250" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1174044236501">
                     <link role="link" targetNodeId="1.1173966637440" />
                   </node>
                 </node>
@@ -155,7 +155,7 @@
             <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173978232472">
               <link role="baseMethodDeclaration" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
               <link role="classConcept" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunctionParameter_referenceNode" id="1173978248271" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1174042362787" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1173978251101" />
             </node>
           </node>
@@ -171,7 +171,7 @@
             <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173978261076">
               <link role="classConcept" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <link role="baseMethodDeclaration" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunctionParameter_referenceNode" id="1173978261077" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1174042365882" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1173978261078" />
             </node>
           </node>
@@ -187,7 +187,7 @@
             <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173978264797">
               <link role="classConcept" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <link role="baseMethodDeclaration" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunctionParameter_referenceNode" id="1173978264798" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1174042369102" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1173978264799" />
             </node>
           </node>
@@ -203,7 +203,7 @@
             <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173978269894">
               <link role="classConcept" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
               <link role="baseMethodDeclaration" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunctionParameter_referenceNode" id="1173978269895" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1174042373290" />
               <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1173978269896" />
             </node>
           </node>
@@ -301,12 +301,12 @@
                   <link role="variableDeclaration" targetNodeId="1173960767210" resolveInfo="result" />
                 </node>
                 <node role="rValue" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1173960811560">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173960795811">
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173960795138">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1174045088205">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1174044823895">
                       <link role="variableDeclaration" targetNodeId="1173960713914" resolveInfo="config" />
                     </node>
-                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkListAccessAsList" id="1173960809840">
-                      <link role="link" targetNodeId="5.1173954157707" />
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkListAccess" id="1174045095581">
+                      <link role="link" targetNodeId="5.1174043134773" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.GetFirstOperation" id="1173960813093" />

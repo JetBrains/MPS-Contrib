@@ -146,6 +146,19 @@
         </node>
       </node>
     </node>
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1174043363491">
+      <link role="applicableConcept" targetNodeId="1.1174043262324" />
+      <link role="applicableProperty" targetNodeId="10.1169194664001" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1174043373429">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1174043373430">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1174043387018">
+            <node role="expression" type="jetbrains.mps.baseLanguage.StringLiteral" id="1174043387019">
+              <property name="value" value="zone" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1173966702801">
       <link role="applicableConcept" targetNodeId="1.1173953509960" />
       <link role="applicableProperty" targetNodeId="10.1169194664001" />
@@ -168,8 +181,8 @@
       </node>
     </node>
     <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1173968882765">
-      <link role="applicableConcept" targetNodeId="1.1173953509960" />
       <link role="applicableProperty" targetNodeId="10.1156234966388" />
+      <link role="applicableConcept" targetNodeId="1.1174042847309" />
       <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1173968894829">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173968894830">
           <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173968908039">
