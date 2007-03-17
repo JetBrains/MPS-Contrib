@@ -4,11 +4,12 @@
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.springframework.configurationInternal" />
-  <maxImportIndex value="4" />
+  <maxImportIndex value="5" />
   <import index="1" modelUID="org.joda.time@java_stub" />
   <import index="2" modelUID="java.util@java_stub" />
   <import index="3" modelUID="jetbrains.mps.baseLanguage.ext.dates.table@java_stub" />
   <import index="4" modelUID="org.joda.time.format@java_stub" />
+  <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.dates@java_stub" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.internal.FormatTokenSettings" id="1169483995724">
     <node role="dateTimePropertyFormatConfiguration" type="jetbrains.mps.baseLanguage.ext.dates.internal.DateTimeIntPropertyFormatConfiguration" id="1173957241813">
       <link role="dateTimeProperty" targetNodeId="1173957203373" resolveInfo="era" />
@@ -400,6 +401,12 @@
       <node role="formatter" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173884491183">
         <link role="classConcept" extResolveInfo="4.[Classifier]DateTimeFormat" />
         <link role="baseMethodDeclaration" extResolveInfo="4.static method ([Classifier]DateTimeFormat).([StaticMethodDeclaration]longTime() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFormatter]))" />
+      </node>
+    </node>
+    <node role="predefinedDateFormat" type="jetbrains.mps.baseLanguage.ext.dates.internal.PredefinedDateFormat" id="1174102040370">
+      <node role="formatter" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1174102040371">
+        <link role="classConcept" extResolveInfo="5.[Classifier]PredefinedFormats" />
+        <link role="baseMethodDeclaration" extResolveInfo="5.static method ([Classifier]PredefinedFormats).([StaticMethodDeclaration]rssDate() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [DateTimeFormatter]))" />
       </node>
     </node>
   </node>
