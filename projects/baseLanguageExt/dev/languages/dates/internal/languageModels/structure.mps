@@ -61,6 +61,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1172074318583" resolveInfo="DateTimeProperty" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174320803190">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="durationType" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1174320693350" resolveInfo="DurationType" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172681020957">
       <property name="sourceCardinality" value="0..n" />
       <property name="role" value="locale" />
@@ -189,6 +195,23 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174043321129">
       <property name="value" value="format configuration for zone" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174320693350">
+    <property name="name" value="DurationType" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174320729117">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="jodaDurationFieldType" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1081236700937" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174320760634">
+      <property name="value" value="duration type" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1174320968951">
+      <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
   </node>
 </model>

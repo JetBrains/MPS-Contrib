@@ -193,6 +193,32 @@
         </node>
       </node>
     </node>
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1174320978155">
+      <link role="applicableConcept" targetNodeId="1.1174320693350" />
+      <link role="applicableProperty" targetNodeId="10.1169194664001" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1174320985939">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1174320985940">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1174321002039">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1174321028561">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1174321018043">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1174321003791">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1174321002040" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1174321017495">
+                    <link role="link" targetNodeId="1.1174320729117" />
+                  </node>
+                </node>
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1174321026169">
+                  <link role="link" targetNodeId="2.1081236769987" />
+                </node>
+              </node>
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1174321029546">
+                <link role="property" targetNodeId="2.1083152972672" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
