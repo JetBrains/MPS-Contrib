@@ -153,6 +153,35 @@
         </node>
       </node>
     </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1174386772991">
+      <property name="actionsFactoryAspectId" value="Expression_To_DateTimeMinusOperation" />
+      <property name="description" value="Datetime minus operation" />
+      <link role="applicableConcept" targetNodeId="2.1068431790191" />
+      <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstitutePreconditionFunction" id="1174386890866">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1174386890867">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1174386890868">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1174386890869">
+              <property name="name" value="nw" />
+              <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1174386890870">
+                <link role="classifier" targetNodeId="1171978333109" resolveInfo="NodeWrapper" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.NewExpression" id="1174386890871">
+                <link role="baseMethodDeclaration" targetNodeId="1171979915592" resolveInfo="NodeWrapper" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstitutePreconditionParm_sourceNode" id="1174386890872" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1174386890873">
+            <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1174386890874">
+              <link role="baseMethodDeclaration" targetNodeId="1171980490457" resolveInfo="isInstanceOfDateTime" />
+              <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1174386890875">
+                <link role="variableDeclaration" targetNodeId="1174386890869" resolveInfo="nw" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1172329470744">
       <property name="actionsFactoryAspectId" value="Expression_To_DateTimePropetyReference" />
       <property name="description" value="Get property of datetime" />

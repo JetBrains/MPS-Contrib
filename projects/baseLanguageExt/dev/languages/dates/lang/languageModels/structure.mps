@@ -13,6 +13,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169481390637">
     <property name="rootable" value="true" />
     <property name="name" value="DateFormatsTable" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="1.1078489098625" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169488417691">
       <property name="sourceCardinality" value="1..n" />
@@ -70,6 +71,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169557513226">
     <property name="name" value="FormatExpression" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169557612323">
       <property name="sourceCardinality" value="1" />
@@ -146,6 +148,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169630122569">
     <property name="name" value="NowExpression" />
+    <property name="package" value="operation.constant" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1169630187167">
       <property name="value" value="now" />
@@ -280,7 +283,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172074800504">
     <property name="name" value="DateTimeCompareOperation" />
-    <property name="package" value="operation" />
+    <property name="package" value="operation.compare" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172075931971">
       <property name="value" value="compare dates by &lt;{datetimeProperty}&gt;" />
@@ -314,7 +317,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.EnumerationDataTypeDeclaration" id="1172075151844">
     <property name="name" value="CompareType" />
-    <property name="package" value="operation" />
+    <property name="package" value="operation.compare" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1172075151845">
       <property name="externalValue" value="==" />
@@ -415,7 +418,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172327820761">
     <property name="name" value="DateTimePropetyReference" />
-    <property name="package" value="operation" />
+    <property name="package" value="operation.property" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172327973863">
       <property name="value" value=".&lt;{dateTimeProperty}&gt;" />
@@ -439,7 +442,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172331114860">
     <property name="name" value="DateTimeWithPropertyOperation" />
-    <property name="package" value="operation" />
+    <property name="package" value="operation.property" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172331207547">
       <property name="sourceCardinality" value="1" />
@@ -475,6 +478,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172489559047">
     <property name="name" value="PeriodConstant" />
+    <property name="package" value="operation.constant" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172491543832">
       <property name="sourceCardinality" value="1" />
@@ -509,6 +513,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173878485361">
     <property name="name" value="IsNullOperation" />
+    <property name="package" value="operation.compare" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173878568306">
       <property name="value" value=".isNull" />
@@ -525,6 +530,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173879281236">
     <property name="name" value="IsNotNullOperation" />
+    <property name="package" value="operation.compare" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173879281237">
       <property name="value" value=".isNotNull" />
@@ -580,6 +586,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174039789930">
     <property name="name" value="InlineFormatExpression" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174046000278">
       <property name="name" value="withLocale" />
@@ -608,6 +615,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174317913525">
     <property name="name" value="DateTimeOffsetFormatToken" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174321263884">
       <property name="sourceCardinality" value="1..n" />
@@ -627,6 +635,49 @@
       <property name="sourceCardinality" value="1" />
       <property name="role" value="durationType" />
       <link role="target" targetNodeId="2.1174320693350" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174386108135">
+    <property name="name" value="DateTimeMinusOperation" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="extends" targetNodeId="3.1068431790191" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174386153808">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="leftValue" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174386164996">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="rightValue" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174386223029">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="datetimeProperty" />
+      <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174386256530">
+      <property name="value" value="&lt;datetime&gt; - &lt;datetime&gt; in &lt;{datetimeProperty}&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174386265204">
+      <property name="value" value="Period from right value to left value" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174387394067">
+    <property name="name" value="AbsDateTimeMinusOperation" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="extends" targetNodeId="1174386108135" resolveInfo="DateTimeMinusOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174387424365">
+      <property name="value" value="|&lt;datetime&gt; - &lt;datetime&gt;| in &lt;{datetimeProperty}&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174387474883">
+      <property name="value" value="Positive period from one value to another" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
   </node>
 </model>
