@@ -164,6 +164,10 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1174862616672" resolveInfo="Literal" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174863063158">
+      <property name="value" value="PUBLIC" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174862616672">
     <property name="name" value="Literal" />
