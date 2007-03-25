@@ -161,5 +161,13 @@
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174862616672">
+    <property name="name" value="Literal" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174862633361">
+      <property name="name" value="value" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+  </node>
 </model>
 
