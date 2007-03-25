@@ -149,5 +149,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174861653404">
+    <property name="name" value="PublicExternalId" />
+    <link role="extends" targetNodeId="1174861226436" resolveInfo="ExternalId" />
+  </node>
 </model>
 
