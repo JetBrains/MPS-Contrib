@@ -278,22 +278,9 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1174858924125">
       <property name="drawBorder" value="false" />
       <property name="vertical" value="true" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174858960814">
-        <property name="text" value="prolog" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1174859745376">
         <property name="drawBorder" value="false" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1174859249871">
-        <property name="drawBorder" value="false" />
-        <property name="selectable" value="false" />
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174859251545">
-          <property name="text" value="  " />
-          <property name="drawBorder" value="false" />
-          <property name="selectable" value="false" />
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1174859276016">
-          <property name="drawBorder" value="false" />
-          <link role="relationDeclaration" targetNodeId="1.1174859166338" />
-        </node>
+        <link role="relationDeclaration" targetNodeId="1.1174859166338" />
       </node>
     </node>
   </node>
@@ -306,7 +293,11 @@
         <property name="drawBorder" value="false" />
         <property name="selectable" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174859468723">
-          <property name="text" value="&lt;!DOCTYPE" />
+          <property name="text" value="&lt;!" />
+          <property name="drawBorder" value="false" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174859693806">
+          <property name="text" value="DOCTYPE" />
           <property name="drawBorder" value="false" />
         </node>
       </node>
