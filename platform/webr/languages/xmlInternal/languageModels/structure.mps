@@ -131,9 +131,22 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174859135071">
     <property name="name" value="DocumentTypeDeclaration" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174861256953">
+      <property name="sourceCardinality" value="0..1" />
+      <property name="role" value="externalId" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1174861226436" resolveInfo="ExternalId" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174860910721">
       <property name="name" value="docTypeName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174861226436">
+    <property name="name" value="ExternalId" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1174861247171">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
 </model>
