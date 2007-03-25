@@ -10,11 +10,11 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1165761580958">
     <property name="name" value="StatementElement" />
     <link role="extends" targetNodeId="2.1161371727643" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1165761667346">
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174864971277">
       <property name="sourceCardinality" value="1" />
-      <property name="role" value="statement" />
+      <property name="role" value="statementList" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="5.1068580123157" />
+      <link role="target" targetNodeId="5.1068580123136" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1165761652407">
       <property name="value" value="statementElement" />
