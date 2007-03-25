@@ -152,6 +152,14 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174861653404">
     <property name="name" value="PublicExternalId" />
     <link role="extends" targetNodeId="1174861226436" resolveInfo="ExternalId" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174862134316">
+      <property name="name" value="pubidLiteral" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174862146396">
+      <property name="name" value="systemLiteral" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
   </node>
 </model>
 

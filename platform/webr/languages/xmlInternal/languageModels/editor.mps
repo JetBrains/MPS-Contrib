@@ -334,6 +334,34 @@
         <property name="text" value="PUBLIC" />
         <property name="drawBorder" value="false" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174862122345">
+        <property name="text" value="&quot;" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1174862163366">
+        <property name="layoutConstraint" value="punctuation" />
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1174862134316" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174862125597">
+        <property name="layoutConstraint" value="punctuation" />
+        <property name="text" value="&quot;" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174862266666">
+        <property name="text" value="&quot;" />
+        <property name="drawBorder" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1174862270840">
+        <property name="layoutConstraint" value="punctuation" />
+        <property name="drawBorder" value="false" />
+        <link role="relationDeclaration" targetNodeId="1.1174862146396" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174862289967">
+        <property name="layoutConstraint" value="punctuation" />
+        <property name="text" value="&quot;" />
+        <property name="drawBorder" value="false" />
+      </node>
     </node>
   </node>
 </model>
