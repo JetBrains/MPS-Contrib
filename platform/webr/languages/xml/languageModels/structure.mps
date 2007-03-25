@@ -137,20 +137,6 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172952771790">
-    <property name="name" value="Comment" />
-    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172953539617">
-      <property name="sourceCardinality" value="1..n" />
-      <property name="role" value="text" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1163340203555" resolveInfo="BaseText" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172953518022">
-      <property name="value" value="!-- comment" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1172960673168">
     <property name="name" value="EntityReference" />
     <link role="extends" targetNodeId="1163340203555" resolveInfo="BaseText" />
@@ -162,16 +148,6 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172960808169">
       <property name="value" value="&amp;entity;" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174832926259">
-    <property name="name" value="Document" />
-    <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174833002186">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="rootElement" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1167523027466" resolveInfo="Element" />
     </node>
   </node>
 </model>

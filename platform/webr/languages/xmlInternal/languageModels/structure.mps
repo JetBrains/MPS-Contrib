@@ -55,7 +55,7 @@
       <property name="sourceCardinality" value="1" />
       <property name="role" value="document" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="2.1174832926259" />
+      <link role="target" targetNodeId="1174840096626" resolveInfo="Document" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173487594724">
       <link role="intfc" targetNodeId="1.1169194658468" />
@@ -72,6 +72,30 @@
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173208195775">
       <property name="value" value="[protected content]" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174840096626">
+    <property name="name" value="Document" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174840096627">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="rootElement" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="2.1167523027466" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174840272325">
+    <property name="name" value="Comment" />
+    <link role="extends" targetNodeId="2.1161371727643" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174840272326">
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="text" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="2.1163340203555" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1174840272327">
+      <property name="value" value="!-- comment" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>

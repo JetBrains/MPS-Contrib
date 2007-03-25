@@ -15,6 +15,7 @@
   </models>
   <module>
     <moduleRoot path="${mps_home}\platform\webr\languages\xml\xml.mpl" />
+    <moduleRoot path="${mps_home}\platform\webr\languages\xmlInternal\xmlInternal.mpl" />
   </module>
   <accessoryModels />
   <generators />
