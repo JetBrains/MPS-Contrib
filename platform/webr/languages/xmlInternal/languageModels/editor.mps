@@ -301,9 +301,13 @@
           <property name="drawBorder" value="false" />
         </node>
       </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174859381023">
-        <property name="text" value="&gt;" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1174860158005">
         <property name="drawBorder" value="false" />
+        <property name="selectable" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1174860162886">
+          <property name="text" value="&gt;" />
+          <property name="drawBorder" value="false" />
+        </node>
       </node>
     </node>
   </node>
