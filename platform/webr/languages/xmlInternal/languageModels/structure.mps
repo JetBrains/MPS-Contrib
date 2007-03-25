@@ -152,13 +152,17 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174861653404">
     <property name="name" value="PublicExternalId" />
     <link role="extends" targetNodeId="1174861226436" resolveInfo="ExternalId" />
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174862134316">
-      <property name="name" value="pubidLiteral" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174862790436">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="pubidLiteral" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1174862616672" resolveInfo="Literal" />
     </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1174862146396">
-      <property name="name" value="systemLiteral" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174862801156">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="systemLiteral" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="1174862616672" resolveInfo="Literal" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1174862616672">
