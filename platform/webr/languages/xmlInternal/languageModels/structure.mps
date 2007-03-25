@@ -57,6 +57,12 @@
       <property name="role" value="schema" />
       <link role="target" targetNodeId="6.1167513239198" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1174833330733">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="document" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="2.1174832926259" />
+    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173487594724">
       <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
