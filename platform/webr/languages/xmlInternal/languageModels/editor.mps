@@ -300,6 +300,10 @@
           <property name="text" value="DOCTYPE" />
           <property name="drawBorder" value="false" />
         </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1174860947598">
+          <property name="drawBorder" value="false" />
+          <link role="relationDeclaration" targetNodeId="1.1174860910721" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1174860158005">
         <property name="drawBorder" value="false" />
