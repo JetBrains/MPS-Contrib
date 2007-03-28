@@ -186,5 +186,8 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1175114886371">
+    <property name="name" value="xml_property" />
+  </node>
 </model>
 
