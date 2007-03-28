@@ -7,10 +7,10 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.generator.template.ITemplateGenerator;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.IOperationContext;
-import webr.xml.util.XmlQueryUtil;
-import webr.framework.function.HtmlStringUtil;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import webr.framework.function.HtmlStringUtil;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import webr.xml.util.XmlQueryUtil;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 
@@ -25,10 +25,10 @@ public class QueriesGenerated {
     return true;
   }
   public static boolean baseMappingRule_Condition_1167338040829(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isHorizontal(node, scope);
+    return SPropertyOperations.getBoolean(node, "isHorizontal");
   }
   public static boolean baseMappingRule_Condition_1167338342843(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return !(XmlQueryUtil.isHorizontal(node, scope));
+    return !(SPropertyOperations.getBoolean(node, "isHorizontal"));
   }
   public static String propertyMacro_GetPropertyValue_1169058220432(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return HtmlStringUtil.html(SPropertyOperations.getString(node, "text"));
