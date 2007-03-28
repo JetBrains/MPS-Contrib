@@ -188,6 +188,32 @@
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1175114886371">
     <property name="name" value="xml_property" />
+    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1175114936762">
+      <link role="applicableConcept" targetNodeId="1.1163629230879" />
+      <link role="applicableProperty" targetNodeId="1.1166231449055" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1175114944201">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1175114944202">
+          <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1175114955064">
+            <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175114961713">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1175114958145" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1175114963214">
+                <link role="property" targetNodeId="1.1166231449055" />
+              </node>
+            </node>
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.StatementList" id="1175114955066">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1175114965325">
+                <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1175114967499">
+                  <property name="value" value="true" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175114969219">
+            <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1175114969220" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
