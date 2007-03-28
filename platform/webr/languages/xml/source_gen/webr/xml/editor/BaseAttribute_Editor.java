@@ -21,7 +21,7 @@ public class BaseAttribute_Editor extends DefaultNodeEditor {
     editorCell.setEditable(true);
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.putUserObject(EditorCell.CELL_ID, "1168397368593");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1168397368593");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }

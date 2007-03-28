@@ -250,15 +250,17 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1175116130820">
             <node role="condition" type="jetbrains.mps.baseLanguage.OrExpression" id="1175117199605">
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.AndExpression" id="1175117206367">
-                <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175117216319">
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1175117212754">
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175117209308">
-                      <link role="variableDeclaration" targetNodeId="1175116202841" resolveInfo="contents" />
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.NotExpression" id="1175118225701">
+                  <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175118225702">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1175118225703">
+                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175118225704">
+                        <link role="variableDeclaration" targetNodeId="1175116202841" resolveInfo="contents" />
+                      </node>
+                      <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.GetFirstOperation" id="1175118225705" />
                     </node>
-                    <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.GetFirstOperation" id="1175117214286" />
-                  </node>
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptPropertyAccess" id="1175117219195">
-                    <link role="conceptProperty" targetNodeId="1.1168792704590" />
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptPropertyAccess" id="1175118225706">
+                      <link role="conceptProperty" targetNodeId="1.1168792704590" />
+                    </node>
                   </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.EqualsExpression" id="1175117203769">

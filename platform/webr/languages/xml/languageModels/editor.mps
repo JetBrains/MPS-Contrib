@@ -18,10 +18,10 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="allowEmptyText" value="true" />
       <property name="textFgColor" value="DARK_GREEN" />
-      <property name="fontStyle" value="BOLD" />
+      <property name="allowEmptyText" value="true" />
       <property name="attractsFocus" value="1" />
+      <property name="fontStyle" value="BOLD" />
       <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
     </node>
@@ -48,12 +48,12 @@
       <property name="vertical" value="true" />
       <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166301006370">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166301006371">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166301034150">
-            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166497903936">
-              <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
-              <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166498131801" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1168817669281" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175117827937">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175117830892">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1175117827938" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1175117832409">
+                <link role="property" targetNodeId="1.1166231449055" />
+              </node>
             </node>
           </node>
         </node>
@@ -63,7 +63,7 @@
         <property name="vertical" value="true" />
         <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166303669051">
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166303669052">
-            <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166303688216">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175117855146">
               <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166303835480">
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166303827931">
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166303827336" />
@@ -123,7 +123,7 @@
         <property name="vertical" value="true" />
         <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1166316630613">
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166316630614">
-            <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1166316638890">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175117846785">
               <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166316648051">
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166316643784">
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1166316641611" />
@@ -393,20 +393,17 @@
       </node>
       <node role="isApplicableFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_IsApplicableFunction" id="1166315705103">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166315705104">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172970053743">
-            <node role="expression" type="jetbrains.mps.baseLanguage.NotExpression" id="1166315738196">
-              <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166577902296">
-                <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
-                <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-                <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166577922860">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166577904250" />
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167525073350">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175118028018">
+            <node role="expression" type="jetbrains.mps.baseLanguage.NotExpression" id="1175118034400">
+              <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175118034401">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175118034402">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1175118034403" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1175118034404">
                     <link role="link" targetNodeId="1.1172970431688" />
                   </node>
                 </node>
-                <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1168817727788">
-                  <link role="baseMethodDeclaration" extResolveInfo="33.method ([Classifier]EditorContext).([InstanceMethodDeclaration]getScope() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope]))" />
-                  <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_editorContext" id="1168817725207" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1175118034405">
+                  <link role="property" targetNodeId="1.1166231449055" />
                 </node>
               </node>
             </node>
@@ -445,19 +442,16 @@
       </node>
       <node role="isApplicableFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_IsApplicableFunction" id="1166316985074">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1166316985075">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1172970066354">
-            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1166577945379">
-              <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
-              <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1166577945380">
-                <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1166577945381" />
-                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167525080976">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175118001518">
+            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175118010694">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175118004364">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNode" id="1175118001519" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1175118008615">
                   <link role="link" targetNodeId="1.1172970431688" />
                 </node>
               </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1168817740567">
-                <link role="baseMethodDeclaration" extResolveInfo="33.method ([Classifier]EditorContext).([InstanceMethodDeclaration]getScope() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope]))" />
-                <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_editorContext" id="1168817738548" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1175118013804">
+                <link role="property" targetNodeId="1.1166231449055" />
               </node>
             </node>
           </node>
@@ -569,7 +563,7 @@
       <property name="vertical" value="true" />
       <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1167707777768">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167707777769">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167707797928">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175117932180">
             <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167707799774">
               <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1167707799242" />
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1167707800697">
@@ -584,17 +578,17 @@
         <property name="vertical" value="true" />
         <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_NodeCondition" id="1167707781225">
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167707781226">
-            <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167707781227">
-              <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1167707781228">
-                <link role="classConcept" extResolveInfo="34.[Classifier]XmlQueryUtil" />
-                <link role="baseMethodDeclaration" extResolveInfo="34.static method ([Classifier]XmlQueryUtil).([StaticMethodDeclaration]isHorizontal((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-                <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167707781229">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1167707781230" />
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167707781231">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175117942058">
+              <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175117954827">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175117945638">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1175117942059" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccessAsNode" id="1175117950654">
                     <link role="link" targetNodeId="1.1172970431688" />
                   </node>
                 </node>
-                <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1168817761629" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1175117956828">
+                  <link role="property" targetNodeId="1.1166231449055" />
+                </node>
               </node>
             </node>
           </node>

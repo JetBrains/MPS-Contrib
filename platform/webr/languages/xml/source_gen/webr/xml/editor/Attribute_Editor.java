@@ -35,7 +35,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstantCell1(context, node, "\""));
     editorCell.addEditorCell(this.createValueCell(context, node));
     editorCell.addEditorCell(this.createConstantCell2(context, node, "\""));
-    editorCell.putUserObject(EditorCell.CELL_ID, "1167700384113");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167700384113");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }
@@ -47,7 +47,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.putUserObject(EditorCell.CELL_ID, "1167700385990");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167700385990");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }
@@ -59,7 +59,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.putUserObject(EditorCell.CELL_ID, "1167701625714");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167701625714");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }
@@ -71,7 +71,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.putUserObject(EditorCell.CELL_ID, "1167701628076");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167701628076");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }
@@ -88,7 +88,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
       editorCellLabel.setEditable(true);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.putUserObject(EditorCell.CELL_ID, "1167701355879");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167701355879");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }
@@ -121,7 +121,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
       editorCellLabel.setEditable(true);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.putUserObject(EditorCell.CELL_ID, "1167703291707");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167703291707");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }

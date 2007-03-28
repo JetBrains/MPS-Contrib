@@ -30,7 +30,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstantCell(context, node, "*"));
     editorCell.addEditorCell(this.createTextList(context, node));
-    editorCell.putUserObject(EditorCell.CELL_ID, "1161961882631");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961882631");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }
@@ -42,7 +42,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     editorCell.setDrawBrackets(false);
     editorCell.setBracketsColor(Color.black);
-    editorCell.putUserObject(EditorCell.CELL_ID, "1161961886493");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961886493");
     editorCell.setLayoutConstraint("");
     return editorCell;
   }
