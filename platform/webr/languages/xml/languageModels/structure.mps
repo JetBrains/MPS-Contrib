@@ -16,6 +16,10 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1161371746114">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
+    <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.ReferenceConceptLinkDeclaration" id="1175095327345">
+      <property name="name" value="correspondingElement" />
+      <link role="targetType" targetNodeId="5.1167838236835" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161373262136">
     <property name="name" value="Text" />
