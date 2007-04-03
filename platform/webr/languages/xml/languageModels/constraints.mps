@@ -307,6 +307,16 @@
                   </node>
                 </node>
               </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175618894176">
+                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175618896787">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175618894177">
+                    <link role="variableDeclaration" targetNodeId="1175615149825" resolveInfo="first" />
+                  </node>
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptLinkAccess" id="1175618899319">
+                    <link role="conceptLinkDeclaration" targetNodeId="1.1175095327345" />
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.ForEachStatement" id="1175117463724">
