@@ -307,13 +307,17 @@
                   </node>
                 </node>
               </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1175618894176">
-                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175618896787">
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175618894177">
-                    <link role="variableDeclaration" targetNodeId="1175615149825" resolveInfo="first" />
-                  </node>
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptLinkAccess" id="1175618899319">
-                    <link role="conceptLinkDeclaration" targetNodeId="1.1175095327345" />
+              <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1175620119312">
+                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1175620119313">
+                  <property name="name" value="correspondingElements" />
+                  <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1175620119314" />
+                  <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175620137060">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175620133863">
+                      <link role="variableDeclaration" targetNodeId="1175615149825" resolveInfo="first" />
+                    </node>
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptLinkAccess" id="1175620138311">
+                      <link role="conceptLinkDeclaration" targetNodeId="1.1175095327345" />
+                    </node>
                   </node>
                 </node>
               </node>
