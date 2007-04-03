@@ -289,12 +289,14 @@
                 </node>
               </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1175615161641">
-                <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175615167098">
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175615163597">
-                    <link role="variableDeclaration" targetNodeId="1175615149825" resolveInfo="first" />
-                  </node>
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptPropertyAccess" id="1175615168365">
-                    <link role="conceptProperty" targetNodeId="1.1168792704590" />
+                <node role="condition" type="jetbrains.mps.baseLanguage.NotExpression" id="1175616101102">
+                  <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1175616101103">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175616101104">
+                      <link role="variableDeclaration" targetNodeId="1175615149825" resolveInfo="first" />
+                    </node>
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptPropertyAccess" id="1175616101105">
+                      <link role="conceptProperty" targetNodeId="1.1168792704590" />
+                    </node>
                   </node>
                 </node>
                 <node role="ifTrue" type="jetbrains.mps.baseLanguage.StatementList" id="1175615161643">
