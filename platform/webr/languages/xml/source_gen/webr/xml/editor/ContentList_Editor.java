@@ -211,8 +211,8 @@ public class ContentList_Editor extends DefaultNodeEditor {
     if(this.myContentListHandler_ver2_ == null) {
       this.myContentListHandler_ver2_ = new ContentList_Editor_ContentListHandler_ver2_(node, "content", context);
     }
-    EditorCell_Collection editorCell = this.myContentListHandler_ver2_.createCells(context, new CellLayout_Vertical(), false);
-    editorCell.setSelectable(false);
+    EditorCell_Collection editorCell = this.myContentListHandler_ver2_.createCells(context, new CellLayout_Vertical(), true);
+    editorCell.setSelectable(true);
     editorCell.setDrawBorder(false);
     editorCell.setGridLayout(false);
     editorCell.setDrawBrackets(false);
