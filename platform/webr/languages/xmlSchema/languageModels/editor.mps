@@ -125,7 +125,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167845879421">
             <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167845889676">
               <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167845882174">
-                <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1167845881704" />
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1167845881704" />
                 <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1167845884628">
                   <link role="link" targetNodeId="1.1167797203049" />
                 </node>
@@ -564,7 +564,7 @@
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167845612918">
           <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167845717178">
             <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167845719947">
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1167845719414" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1167845719414" />
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1167845725604">
                 <link role="property" targetNodeId="1.1167845523677" />
               </node>
@@ -754,7 +754,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.EqualsExpression" id="1172963373091">
                   <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1172963374437" />
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172963343131">
-                    <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1172963342490" />
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1172963342490" />
                     <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1172963364949">
                       <link role="property" targetNodeId="1.1172955182464" />
                     </node>

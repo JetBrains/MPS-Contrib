@@ -592,7 +592,7 @@
             <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1172491811567">
               <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172491828512">
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172491823901">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1172491817336" />
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1172491817336" />
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1172491825495">
                     <link role="link" targetNodeId="1.1172491543832" />
                   </node>
@@ -611,7 +611,7 @@
                       <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeTypeCastExpression" id="1172491856050">
                         <link role="concept" targetNodeId="36.1068580320020" />
                         <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1172491847673">
-                          <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1172491844766" />
+                          <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1172491844766" />
                           <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1172491850565">
                             <link role="link" targetNodeId="1.1172491543832" />
                           </node>
@@ -792,7 +792,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173966082747">
                   <link role="baseMethodDeclaration" targetNodeId="40.1173960236733" />
                   <link role="classConcept" targetNodeId="40.1173960152516" />
-                  <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1173966082748" />
+                  <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1173966082748" />
                 </node>
               </node>
             </node>
@@ -960,14 +960,14 @@
                 <node role="rightExpression" type="jetbrains.mps.baseLanguage.NotEqualsExpression" id="1174046293599">
                   <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1174046294680" />
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1174046290925">
-                    <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1174046289658" />
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1174046289658" />
                     <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1174046291645">
                       <link role="link" targetNodeId="1.1174045884375" />
                     </node>
                   </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1174045951256">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.NodeCondition_FunctionParm_node" id="1174045949567" />
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1174045949567" />
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1174046022638">
                     <link role="property" targetNodeId="1.1174046000278" />
                   </node>
