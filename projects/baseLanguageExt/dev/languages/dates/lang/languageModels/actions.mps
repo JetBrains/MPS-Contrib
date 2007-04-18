@@ -350,7 +350,7 @@
             <property name="name" value="actualType" />
             <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1175768275805" />
             <node role="initializer" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1175768290920">
-              <link role="baseMethodDeclaration" extResolveInfo="15.method ([Classifier]TypeChecker).([InstanceMethodDeclaration]getTypeOf((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
+              <link role="baseMethodDeclaration" extResolveInfo="15.method ([Classifier]TypeChecker).([InstanceMethodDeclaration]hackTypeOf((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
               <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175768282745">
                 <link role="variableDeclaration" targetNodeId="1175768275800" resolveInfo="tc" />
               </node>
@@ -498,7 +498,7 @@
             <property name="name" value="actualType" />
             <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1175768759499" />
             <node role="initializer" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1175768994422">
-              <link role="baseMethodDeclaration" extResolveInfo="15.method ([Classifier]TypeChecker).([InstanceMethodDeclaration]getTypeOf((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
+              <link role="baseMethodDeclaration" extResolveInfo="15.method ([Classifier]TypeChecker).([InstanceMethodDeclaration]hackTypeOf((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
               <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175768988805">
                 <link role="variableDeclaration" targetNodeId="1175768670426" resolveInfo="tc" />
               </node>
