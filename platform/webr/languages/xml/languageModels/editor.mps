@@ -19,10 +19,10 @@
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
       <property name="textFgColor" value="DARK_GREEN" />
-      <property name="drawBorder" value="false" />
       <property name="allowEmptyText" value="true" />
-      <property name="fontStyle" value="BOLD" />
       <property name="attractsFocus" value="1" />
+      <property name="fontStyle" value="BOLD" />
+      <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
     </node>
   </node>
@@ -31,9 +31,9 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1161961882631">
       <property name="drawBorder" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1161961886493">
+        <property name="drawBorder" value="false" />
         <property name="text" value="*" />
         <property name="selectable" value="false" />
-        <property name="drawBorder" value="false" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1161961889607">
         <property name="drawBorder" value="false" />
@@ -87,18 +87,18 @@
             <property name="selectable" value="false" />
             <property name="drawBorder" value="false" />
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304045427">
+              <property name="drawBorder" value="false" />
               <property name="text" value="  " />
               <property name="selectable" value="false" />
-              <property name="drawBorder" value="false" />
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304045428">
-              <property name="vertical" value="true" />
               <property name="name" value="ver1" />
+              <property name="vertical" value="true" />
               <property name="drawBorder" value="false" />
               <link role="relationDeclaration" targetNodeId="1.1163629255661" />
               <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304045429">
-                <property name="drawBorder" value="false" />
                 <property name="editable" value="true" />
+                <property name="drawBorder" value="false" />
               </node>
             </node>
           </node>
@@ -108,14 +108,14 @@
           </node>
         </node>
         <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304051499">
+          <property name="name" value="ver2" />
           <property name="vertical" value="true" />
           <property name="selectable" value="true" />
-          <property name="name" value="ver2" />
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166304051500">
-            <property name="drawBorder" value="false" />
             <property name="editable" value="true" />
+            <property name="drawBorder" value="false" />
           </node>
         </node>
       </node>
@@ -148,8 +148,8 @@
             <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1163629255661" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316633200">
-              <property name="drawBorder" value="false" />
               <property name="editable" value="true" />
+              <property name="drawBorder" value="false" />
             </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316633201">
@@ -162,9 +162,9 @@
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316671279">
-            <property name="drawBorder" value="false" />
-            <property name="attractsFocus" value="1" />
             <property name="editable" value="true" />
+            <property name="attractsFocus" value="1" />
+            <property name="drawBorder" value="false" />
           </node>
         </node>
       </node>
@@ -176,8 +176,8 @@
       <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1163723441114" />
       <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163723481699">
-        <property name="drawBorder" value="false" />
         <property name="editable" value="true" />
+        <property name="drawBorder" value="false" />
       </node>
     </node>
   </node>
@@ -610,12 +610,21 @@
               <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781236">
                 <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
                 <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781237">
-                  <property name="readOnly" value="true" />
                   <property name="textFgColor" value="query" />
-                  <property name="textFgColorQueryId" value="elementColor" />
-                  <property name="drawBorder" value="false" />
+                  <property name="readOnly" value="true" />
                   <property name="fontStyle" value="BOLD" />
+                  <property name="drawBorder" value="false" />
                   <link role="relationDeclaration" targetNodeId="31.1167838788027" />
+                  <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894050085">
+                    <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894050086">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894051350">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894053477">
+                          <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                          <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -632,9 +641,9 @@
             <property name="selectable" value="false" />
             <property name="drawBorder" value="false" />
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167707781241">
+              <property name="drawBorder" value="false" />
               <property name="text" value="  " />
               <property name="selectable" value="false" />
-              <property name="drawBorder" value="false" />
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167707781242">
               <property name="drawBorder" value="false" />
@@ -654,12 +663,21 @@
               <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781246">
                 <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
                 <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781247">
-                  <property name="readOnly" value="true" />
                   <property name="textFgColor" value="query" />
-                  <property name="textFgColorQueryId" value="elementColor" />
-                  <property name="drawBorder" value="false" />
+                  <property name="readOnly" value="true" />
                   <property name="fontStyle" value="BOLD" />
+                  <property name="drawBorder" value="false" />
                   <link role="relationDeclaration" targetNodeId="31.1167838788027" />
+                  <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894067185">
+                    <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894067186">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894067553">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894067554">
+                          <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                          <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -681,12 +699,21 @@
             <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781252">
               <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
               <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781253">
-                <property name="readOnly" value="true" />
                 <property name="textFgColor" value="query" />
-                <property name="textFgColorQueryId" value="elementColor" />
-                <property name="drawBorder" value="false" />
+                <property name="readOnly" value="true" />
                 <property name="fontStyle" value="BOLD" />
+                <property name="drawBorder" value="false" />
                 <link role="relationDeclaration" targetNodeId="31.1167838788027" />
+                <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894072164">
+                  <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894072165">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894072485">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894072486">
+                        <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                        <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -699,8 +726,8 @@
             <property name="drawBorder" value="false" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1167707781256">
-            <property name="drawBorder" value="false" />
             <property name="attractsFocus" value="1" />
+            <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1172970431688" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167707781257">
@@ -713,12 +740,21 @@
             <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781259">
               <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
               <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781260">
-                <property name="readOnly" value="true" />
                 <property name="textFgColor" value="query" />
-                <property name="textFgColorQueryId" value="elementColor" />
-                <property name="drawBorder" value="false" />
+                <property name="readOnly" value="true" />
                 <property name="fontStyle" value="BOLD" />
+                <property name="drawBorder" value="false" />
                 <link role="relationDeclaration" targetNodeId="31.1167838788027" />
+                <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894077956">
+                  <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894077957">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894078370">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894078371">
+                        <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                        <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -740,12 +776,21 @@
           <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707829437">
             <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
             <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707832954">
-              <property name="readOnly" value="true" />
               <property name="textFgColor" value="query" />
-              <property name="textFgColorQueryId" value="elementColor" />
-              <property name="drawBorder" value="false" />
+              <property name="readOnly" value="true" />
               <property name="fontStyle" value="BOLD" />
+              <property name="drawBorder" value="false" />
               <link role="relationDeclaration" targetNodeId="31.1167838788027" />
+              <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894084421">
+                <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894084422">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894084741">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894084742">
+                      <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                      <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                    </node>
+                  </node>
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -770,12 +815,21 @@
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167701355880">
           <link role="conceptDeclaration" targetNodeId="31.1167697887602" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167701361647">
-            <property name="readOnly" value="true" />
             <property name="textFgColor" value="query" />
-            <property name="textFgColorQueryId" value="elementColor" />
-            <property name="drawBorder" value="false" />
+            <property name="readOnly" value="true" />
             <property name="fontStyle" value="BOLD_ITALIC" />
+            <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="31.1167698115100" />
+            <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894092744">
+              <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894092745">
+                <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894093064">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894093065">
+                    <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                    <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -895,17 +949,26 @@
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172960872447">
           <link role="conceptDeclaration" targetNodeId="31.1172950047361" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172960875027">
-            <property name="readOnly" value="true" />
             <property name="textFgColor" value="query" />
-            <property name="textFgColorQueryId" value="elementColor" />
+            <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="31.1172959826115" />
+            <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894100193">
+              <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894100194">
+                <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894100451">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894100452">
+                    <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                    <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172960865411">
-        <property name="text" value=";" />
         <property name="layoutConstraint" value="punctuation" />
         <property name="drawBorder" value="false" />
+        <property name="text" value=";" />
       </node>
     </node>
   </node>
