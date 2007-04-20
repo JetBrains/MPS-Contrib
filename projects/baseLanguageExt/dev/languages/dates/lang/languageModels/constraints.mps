@@ -49,22 +49,6 @@
         </node>
       </node>
     </node>
-    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1171902741278">
-      <link role="applicableConcept" targetNodeId="1.1171902375079" />
-      <link role="applicableProperty" targetNodeId="4.1169194664001" />
-      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1171902760983">
-        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1171902760984">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1171902778331">
-            <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1171902783115">
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1171902782036" />
-              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1171902785069">
-                <link role="property" targetNodeId="4.1156235010670" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1169635436655">
     <property name="name" value="BLDT_referent_constraints" />
