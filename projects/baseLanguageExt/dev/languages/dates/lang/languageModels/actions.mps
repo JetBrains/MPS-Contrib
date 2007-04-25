@@ -6,7 +6,8 @@
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
   <language namespace="jetbrains.mps.bootstrap.helgins" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
-  <maxImportIndex value="17" />
+  <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
+  <maxImportIndex value="18" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" />
   <import index="3" modelUID="jetbrains.mps.core.structure" />
@@ -22,6 +23,7 @@
   <import index="15" modelUID="jetbrains.mps.helgins.inference@java_stub" />
   <import index="16" modelUID="java.util@java_stub" />
   <import index="17" modelUID="java.lang@java_stub" />
+  <import index="18" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure@java_stub" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1169657550853">
@@ -74,8 +76,7 @@
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1172076695467">
       <property name="description" value="Compare datetime operation" />
-      <property name="actionsFactoryAspectId" value="Expression_To_DateTimeCompareOperation" />
-      <property name="actionsFilterAspectId" value="filterBaseLanguage_CompareOperation" />
+      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="2.1068431790191" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstitutePreconditionFunction" id="1172076718514">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172076718515">
@@ -103,7 +104,95 @@
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514080105">
         <link role="conceptToRemove" targetNodeId="2.1081506773034" />
       </node>
-      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514084184" />
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177516497081">
+        <link role="conceptToRemove" targetNodeId="2.1153422305557" />
+      </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.AddMenuPart" id="1177515949906">
+        <link role="concept" targetNodeId="1.1172074800504" />
+        <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.ParameterizedRightTransformMenuPart" id="1177515976669">
+          <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1177516002658">
+            <link role="classifier" extResolveInfo="18.[Classifier]CompareType" />
+          </node>
+          <node role="query" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_ParameterizedRightTransform_Query" id="1177515976671">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177515976672">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1177516005189">
+                <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1177516010275">
+                  <link role="baseMethodDeclaration" extResolveInfo="18.static method ([Classifier]CompareType).([StaticMethodDeclaration]getConstants() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List, &lt;jetbrains.mps.baseLanguage.types.classifier [CompareType]&gt;]))" />
+                  <link role="classConcept" extResolveInfo="18.[Classifier]CompareType" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="handler" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_ParameterizedRightTransform_Handler" id="1177515976673">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177515976674">
+              <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1177516043734">
+                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1177516043735">
+                  <property name="name" value="result" />
+                  <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177516043736">
+                    <link role="concept" targetNodeId="1.1172074800504" />
+                  </node>
+                  <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1177516060137">
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_model" id="1177516058645" />
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Model_CreateNewNodeOperation" id="1177516061623">
+                      <link role="concept" targetNodeId="1.1172074800504" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1177516074692">
+                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1177516075918">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_sourceNode" id="1177516074693" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ReplaceWithAnotherOperation" id="1177516077044">
+                    <node role="parameter" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177516078983">
+                      <link role="variableDeclaration" targetNodeId="1177516043735" resolveInfo="date" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1177516082377">
+                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1177516087060">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1177516084196">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177516082378">
+                      <link role="variableDeclaration" targetNodeId="1177516043735" resolveInfo="date" />
+                    </node>
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1177516085713">
+                      <link role="link" targetNodeId="1.1172074898284" />
+                    </node>
+                  </node>
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Link_SetTargetOperation" id="1177516087858">
+                    <node role="parameter" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_sourceNode" id="1177516089798" />
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1177516069672">
+                <node role="expression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177516071361">
+                  <link role="variableDeclaration" targetNodeId="1177516043735" resolveInfo="date" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_RightTransform_String" id="1177516013994">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177516013995">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1177516017622">
+                <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1177516028636">
+                  <link role="baseMethodDeclaration" extResolveInfo="18.method ([Classifier]CompareType).([InstanceMethodDeclaration]getName() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+                  <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parameterObject" id="1177516023827" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="descriptionText" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_RightTransform_String" id="1177516030184">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177516030185">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1177516031701">
+                <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1177516038700">
+                  <link role="baseMethodDeclaration" extResolveInfo="18.method ([Classifier]CompareType).([InstanceMethodDeclaration]getValue() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+                  <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parameterObject" id="1177516033266" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1174386772991">
       <property name="description" value="Datetime minus operation" />
