@@ -88,6 +88,22 @@
           </node>
         </node>
       </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514019922">
+        <link role="conceptToRemove" targetNodeId="2.1068580123152" />
+      </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514059503">
+        <link role="conceptToRemove" targetNodeId="2.1073239437375" />
+      </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514064052">
+        <link role="conceptToRemove" targetNodeId="2.1081506762703" />
+      </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514068867">
+        <link role="conceptToRemove" targetNodeId="2.1153417849900" />
+      </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514080105">
+        <link role="conceptToRemove" targetNodeId="2.1081506773034" />
+      </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemovePart" id="1177514084184" />
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1174386772991">
       <property name="description" value="Datetime minus operation" />
