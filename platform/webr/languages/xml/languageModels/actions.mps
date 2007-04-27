@@ -450,15 +450,30 @@
       <property name="name" value="checkTypeExpressionList" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1177640114957" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177640094735">
-        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1177640480298">
-          <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1177640482410">
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1177640480299">
-              <link role="variableDeclaration" targetNodeId="1177640128332" resolveInfo="typeExpressionList" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1177640887182">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1177640887183">
+            <property name="name" value="typeExpressions" />
+            <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1177640887184">
+              <link role="elementConcept" targetNodeId="4.1167590960646" />
             </node>
-            <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkListAccessAsList" id="1177640486724">
-              <link role="link" targetNodeId="4.1167795626698" />
+            <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1177640482410">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1177640480299">
+                <link role="variableDeclaration" targetNodeId="1177640128332" resolveInfo="typeExpressionList" />
+              </node>
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkListAccessAsList" id="1177640486724">
+                <link role="link" targetNodeId="4.1167795626698" />
+              </node>
             </node>
           </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.ForEachStatement" id="1177640903655">
+          <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.ForEachVariable" id="1177640903656">
+            <property name="name" value="typeExpression" />
+          </node>
+          <node role="inputSequence" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177640912096">
+            <link role="variableDeclaration" targetNodeId="1177640887183" resolveInfo="typeExpressions" />
+          </node>
+          <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177640903658" />
         </node>
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1177640128332">
