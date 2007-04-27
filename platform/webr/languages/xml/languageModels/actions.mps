@@ -12,7 +12,7 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActions" id="1167519968820">
     <property name="name" value="xml_nodeSubstitute" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167699332639">
-      <property name="actionsFactoryAspectId" value="BaseAttribute" />
+      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1165235274815" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.AddMenuPart" id="1177613609141">
         <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.ParameterizedSubstituteMenuPart" id="1177613613454">
