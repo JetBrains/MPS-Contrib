@@ -35,7 +35,7 @@ public class QueriesGenerated {
         result.add(new DefaultChildNodeSubstituteAction(item, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
 
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute");
+            SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", null);
             SLinkOperations.setTarget(attribute, "attributeDeclaration", ((SNode)this.getParameterObject()), false);
             SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
             return attribute;
@@ -47,5 +47,8 @@ public class QueriesGenerated {
       }
     }
     return result;
+  }
+  public static boolean removeConceptByCondition_1177863610304(SNode concept, SNode parentNode, SNode currentChild, SNode childConcept, IOperationContext operationContext) {
+    return false;
   }
 }

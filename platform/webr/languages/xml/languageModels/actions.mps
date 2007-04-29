@@ -115,7 +115,19 @@
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167757687265">
       <property name="actionsFactoryAspectId" value="Content" />
+      <property name="useNewActions" value="false" />
       <link role="applicableConcept" targetNodeId="1.1161371727643" />
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemoveByConditionPart" id="1177863610304">
+        <node role="condition" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_RemoveBy_Condition" id="1177863610305">
+          <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177863610306">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1177863853062">
+              <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1177863853063">
+                <property name="value" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1177614157967">
