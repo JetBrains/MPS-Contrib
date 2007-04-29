@@ -39,6 +39,12 @@ public class ElementUtil {
     SNode element = SNodeOperations.getAncestor(node, "webr.xml.structure.Element", true, false);
     if((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
+      if(SNodeOperations.isInstanceOf(containingRoot, "webr.xmlInternal.structure.XmlFile")) {
+        schema = SLinkOperations.getTarget(containingRoot, "schema", false);
+      }
+    } else 
+    {
+      schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "webr.xmlSchema.structure.Schema", false, false);
     }
     return schema;
   }
