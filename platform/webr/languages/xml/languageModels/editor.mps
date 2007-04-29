@@ -174,17 +174,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1163723462381">
-    <link role="conceptDeclaration" targetNodeId="1.1163723419051" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1163723475026">
-      <property name="drawBorder" value="false" />
-      <link role="relationDeclaration" targetNodeId="1.1163723441114" />
-      <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1163723481699">
-        <property name="drawBorder" value="false" />
-        <property name="editable" value="true" />
-      </node>
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapDeclaration" id="1166220073978">
     <property name="everyModel" value="true" />
     <property name="name" value="Element_keymap" />
