@@ -50,10 +50,6 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean removeConceptByCondition_1177863610304(SNode concept, SNode parentNode, SNode currentChild, SNode childConcept, IOperationContext operationContext) {
-    boolean remove = false;
-    if(SConceptOperations.isExactly(childConcept, "webr.xml.structure.Content")) {
-      remove = SConceptOperations.isAssignableFrom(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), concept);
-    }
-    return remove;
+    return SConceptOperations.isExactly(childConcept, "webr.xml.structure.Content") && SConceptOperations.isAssignableFrom(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), concept);
   }
 }
