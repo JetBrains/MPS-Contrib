@@ -6,6 +6,8 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
+import java.util.List;
+import java.util.ArrayList;
 
 public class ElementUtil {
 
@@ -47,5 +49,8 @@ public class ElementUtil {
       schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "webr.xmlSchema.structure.Schema", false, false);
     }
     return schema;
+  }
+  public static List<SNode> getElementDeclarations(SNode schema, SNode elementDeclaration) {
+    return new ArrayList<SNode>();
   }
 }
