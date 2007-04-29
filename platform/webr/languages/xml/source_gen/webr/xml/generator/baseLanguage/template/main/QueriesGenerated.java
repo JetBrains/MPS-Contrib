@@ -96,14 +96,11 @@ public class QueriesGenerated {
   public static List sourceNodesQuery_1171370108399(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "content", true);
   }
-  public static List sourceNodesQuery_1171369947641(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SLinkOperations.getTargets(node, "attribute", true);
-  }
   public static List sourceNodesQuery_1171370131329(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "content", true);
   }
-  public static SNode sourceNodeQuery_1171370219758(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SLinkOperations.getTarget(node, "attributeList", true);
+  public static List sourceNodesQuery_1177880648899(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "attribute", true);
   }
   public static SNode sourceNodeQuery_1171378601405(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTarget(node, "contentList", true);
