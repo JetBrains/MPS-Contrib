@@ -34,4 +34,12 @@ public class ElementUtil {
     }
     return elementDeclaration;
   }
+  public static SNode findSchema(SNode node) {
+    SNode schema = null;
+    SNode element = SNodeOperations.getAncestor(node, "webr.xml.structure.Element", true, false);
+    if((element == null)) {
+      SNode containingRoot = SNodeOperations.getContainingRoot(node);
+    }
+    return schema;
+  }
 }
