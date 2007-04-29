@@ -16,6 +16,7 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 
 public class QueriesGenerated {
 
@@ -49,6 +50,10 @@ public class QueriesGenerated {
     return result;
   }
   public static boolean removeConceptByCondition_1177863610304(SNode concept, SNode parentNode, SNode currentChild, SNode childConcept, IOperationContext operationContext) {
-    return false;
+    boolean remove = false;
+    if(SConceptOperations.isExactly(childConcept, "webr.xml.structure.Content")) {
+      remove = SConceptOperations.isAssignableFrom(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), concept);
+    }
+    return remove;
   }
 }
