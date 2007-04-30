@@ -10,7 +10,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import webr.framework.function.HtmlStringUtil;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import webr.xml.util.XmlQueryUtil;
+import webr.xml.constraints.Content_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 
@@ -46,16 +46,16 @@ public class QueriesGenerated {
     return "&" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "entityDeclaration", false), "entityName") + ";";
   }
   public static boolean ifMacro_Condition_1169058127707(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1169058205461(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1169059302011(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1169059332446(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1171381345810(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element");
@@ -64,13 +64,13 @@ public class QueriesGenerated {
     return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element"));
   }
   public static boolean ifMacro_Condition_1171381951282(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1171382017569(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1171382033556(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1171380789958(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return !(SPropertyOperations.getBoolean(node, "isEmpty"));
@@ -79,13 +79,13 @@ public class QueriesGenerated {
     return SPropertyOperations.getBoolean(node, "isEmpty");
   }
   public static boolean ifMacro_Condition_1171382041917(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1172961933862(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1172961933882(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return XmlQueryUtil.isSeparate(node, scope);
+    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static List sourceNodesQuery_1169059353058(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "text", true);
