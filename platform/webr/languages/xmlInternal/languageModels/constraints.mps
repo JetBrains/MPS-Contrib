@@ -7,9 +7,6 @@
   <maxImportIndex value="2" />
   <import index="1" modelUID="webr.xmlInternal.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1167755477507">
-    <property name="name" value="xmlInternal_property" />
-  </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486669">
     <link role="concept" targetNodeId="1.1166472279594" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486670">

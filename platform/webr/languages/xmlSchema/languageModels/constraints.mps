@@ -8,9 +8,6 @@
   <import index="1" modelUID="webr.xmlSchema.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="3" modelUID="jetbrains.mps.smodel.search@java_stub" />
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1167534313552">
-    <property name="name" value="xmlSchema_property" />
-  </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1167753430535">
     <property name="name" value="xmlSchema_referent" />
     <node role="defaultSearchScope" type="jetbrains.mps.bootstrap.constraintsLanguage.NodeDefaultSearchScope" id="1167758561278">

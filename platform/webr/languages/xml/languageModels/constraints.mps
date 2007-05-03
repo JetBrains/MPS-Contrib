@@ -189,9 +189,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1175114886371">
-    <property name="name" value="xml_property" />
-  </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1177896211352">
     <link role="concept" targetNodeId="1.1161371727643" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1177896213996">

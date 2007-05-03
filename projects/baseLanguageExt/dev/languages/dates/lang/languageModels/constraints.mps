@@ -20,9 +20,6 @@
   <import index="11" modelUID="jetbrains.mps.project@java_stub" />
   <import index="12" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <import index="13" modelUID="jetbrains.mps.util@java_stub" />
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1169486525756">
-    <property name="name" value="BLDT_property_constraints" />
-  </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1169635436655">
     <property name="name" value="BLDT_referent_constraints" />
     <node role="nodeReferentConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraint" id="1173960983457">

@@ -69,9 +69,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1173884740212">
-    <property name="name" value="DLDTI_property_constraints" />
-  </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486552">
     <link role="concept" targetNodeId="1.1174042847309" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486553">
