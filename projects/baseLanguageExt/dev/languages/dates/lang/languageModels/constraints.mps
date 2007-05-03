@@ -22,33 +22,6 @@
   <import index="13" modelUID="jetbrains.mps.util@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraintSet" id="1169486525756">
     <property name="name" value="BLDT_property_constraints" />
-    <node role="nodePropertyConstraint" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1173975845841">
-      <link role="applicableConcept" targetNodeId="1.1169487448949" />
-      <link role="applicableProperty" targetNodeId="5.1173975300968" />
-      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1173975869220">
-        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173975869221">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173975874570">
-            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173975898820">
-              <link role="baseMethodDeclaration" extResolveInfo="2.static method ([Classifier]Boolean).([StaticMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
-              <link role="classConcept" extResolveInfo="2.[Classifier]Boolean" />
-              <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173975899824">
-                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173975899825">
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1173975899826" />
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1173975903144">
-                    <link role="property" targetNodeId="1.1173975856624" />
-                  </node>
-                </node>
-                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Property_HasValue_Enum" id="1173975899828">
-                  <node role="value" type="jetbrains.mps.bootstrap.smodelLanguage.EnumMemberReference" id="1173975899829">
-                    <link role="enumMember" targetNodeId="1.1173975646060" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.NodeReferentConstraintSet" id="1169635436655">
     <property name="name" value="BLDT_referent_constraints" />
@@ -447,6 +420,38 @@
         <property name="name" value="scope" />
         <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1173977369893">
           <link role="classifier" extResolveInfo="8.[Classifier]IScope" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486614">
+    <link role="concept" targetNodeId="1.1169487448949" />
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486615">
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178187486616" />
+    </node>
+    <node role="properties" type="jetbrains.mps.bootstrap.constraintsLanguage.NodePropertyConstraint" id="1173975845841">
+      <link role="applicableProperty" targetNodeId="5.1173975300968" />
+      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1173975869220">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173975869221">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173975874570">
+            <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173975898820">
+              <link role="baseMethodDeclaration" extResolveInfo="2.static method ([Classifier]Boolean).([StaticMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+              <link role="classConcept" extResolveInfo="2.[Classifier]Boolean" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173975899824">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1173975899825">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1173975899826" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1173975903144">
+                    <link role="property" targetNodeId="1.1173975856624" />
+                  </node>
+                </node>
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Property_HasValue_Enum" id="1173975899828">
+                  <node role="value" type="jetbrains.mps.bootstrap.smodelLanguage.EnumMemberReference" id="1173975899829">
+                    <link role="enumMember" targetNodeId="1.1173975646060" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
