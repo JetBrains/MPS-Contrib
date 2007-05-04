@@ -5,7 +5,7 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
-  <maxImportIndex value="36" />
+  <maxImportIndex value="37" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="14" modelUID="java.lang@java_stub" />
@@ -15,11 +15,12 @@
   <import index="33" modelUID="jetbrains.mps.nodeEditor@java_stub" />
   <import index="34" modelUID="webr.xml.util@java_stub" />
   <import index="36" modelUID="webr.xmlInternal.structure" />
+  <import index="37" modelUID="webr.xmlSchema.editor" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="allowEmptyText" value="true" />
       <property name="drawBorder" value="false" />
+      <property name="allowEmptyText" value="true" />
       <property name="attractsFocus" value="1" />
       <property name="fontStyle" value="BOLD" />
       <property name="textFgColor" value="DARK_GREEN" />
@@ -110,8 +111,8 @@
           </node>
         </node>
         <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304051499">
-          <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
+          <property name="drawBorder" value="false" />
           <property name="selectable" value="true" />
           <property name="name" value="ver2" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
@@ -167,8 +168,8 @@
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316671279">
             <property name="drawBorder" value="false" />
-            <property name="attractsFocus" value="1" />
             <property name="editable" value="true" />
+            <property name="attractsFocus" value="1" />
           </node>
         </node>
       </node>
@@ -612,10 +613,10 @@
                   <link role="relationDeclaration" targetNodeId="31.1167838788027" />
                   <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894050085">
                     <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894050086">
-                      <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894051350">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297240448">
                         <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894053477">
-                          <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
                           <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
+                          <link role="classifier" targetNodeId="37.1178296794013" />
                         </node>
                       </node>
                     </node>
@@ -664,10 +665,10 @@
                   <link role="relationDeclaration" targetNodeId="31.1167838788027" />
                   <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894067185">
                     <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894067186">
-                      <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894067553">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297281029">
                         <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894067554">
                           <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
-                          <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                          <link role="classifier" targetNodeId="37.1178296794013" />
                         </node>
                       </node>
                     </node>
@@ -700,10 +701,10 @@
                 <link role="relationDeclaration" targetNodeId="31.1167838788027" />
                 <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894072164">
                   <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894072165">
-                    <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894072485">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297289235">
                       <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894072486">
                         <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
-                        <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                        <link role="classifier" targetNodeId="37.1178296794013" />
                       </node>
                     </node>
                   </node>
@@ -740,10 +741,10 @@
                 <link role="relationDeclaration" targetNodeId="31.1167838788027" />
                 <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894077956">
                   <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894077957">
-                    <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894078370">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297296850">
                       <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894078371">
                         <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
-                        <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                        <link role="classifier" targetNodeId="37.1178296794013" />
                       </node>
                     </node>
                   </node>
@@ -776,10 +777,10 @@
               <link role="relationDeclaration" targetNodeId="31.1167838788027" />
               <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894084421">
                 <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894084422">
-                  <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894084741">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297304403">
                     <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894084742">
                       <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
-                      <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                      <link role="classifier" targetNodeId="37.1178296794013" />
                     </node>
                   </node>
                 </node>
@@ -814,10 +815,10 @@
             <link role="relationDeclaration" targetNodeId="31.1167698115100" />
             <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894092744">
               <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894092745">
-                <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894093064">
+                <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297314034">
                   <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894093065">
                     <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
-                    <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                    <link role="classifier" targetNodeId="37.1178296794013" />
                   </node>
                 </node>
               </node>
@@ -946,10 +947,10 @@
             <link role="relationDeclaration" targetNodeId="31.1172959826115" />
             <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894100193">
               <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894100194">
-                <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176894100451">
+                <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297321228">
                   <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894100452">
                     <link role="variableDeclaration" extResolveInfo="34.static field ([Classifier]XmlColorConstants).([StaticFieldDeclaration]XML_COLOR : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Color]))" />
-                    <link role="classifier" extResolveInfo="34.[Classifier]XmlColorConstants" />
+                    <link role="classifier" targetNodeId="37.1178296794013" />
                   </node>
                 </node>
               </node>

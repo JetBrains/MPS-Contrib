@@ -18,10 +18,10 @@ import jetbrains.mps.nodeEditor.CellLayout_Horizontal;
 
 public class ContentList_Editor extends DefaultNodeEditor {
 
-  public AbstractCellListHandler myContentListHandler_ver1_;
-  public AbstractCellListHandler myContentListHandler_ver2_;
-  public AbstractCellListHandler myContentListHandler_hor2_;
-  public AbstractCellListHandler myContentListHandler_hor1_;
+  /* package */AbstractCellListHandler myContentListHandler_ver1_;
+  /* package */AbstractCellListHandler myContentListHandler_ver2_;
+  /* package */AbstractCellListHandler myContentListHandler_hor2_;
+  /* package */AbstractCellListHandler myContentListHandler_hor1_;
 
   public static boolean _QueryFunction_NodeCondition_1166301006370(SNode node, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isHorizontal");

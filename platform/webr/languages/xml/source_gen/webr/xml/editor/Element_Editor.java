@@ -22,9 +22,9 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 
 public class Element_Editor extends DefaultNodeEditor {
 
-  public AbstractCellProvider myElement_attributeList;
-  public AbstractCellProvider myElement_attributeList1;
-  public AbstractCellProvider myElement_attributeList2;
+  /* package */AbstractCellProvider myElement_attributeList;
+  /* package */AbstractCellProvider myElement_attributeList1;
+  /* package */AbstractCellProvider myElement_attributeList2;
 
   public static boolean _QueryFunction_NodeCondition_1167707777768(SNode node, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isEmpty");

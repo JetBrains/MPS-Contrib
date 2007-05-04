@@ -14,7 +14,7 @@ import jetbrains.mps.nodeEditor.CellLayout_Horizontal;
 
 public class ComplexText_Editor extends DefaultNodeEditor {
 
-  public AbstractCellListHandler myTextListHandler_textList_;
+  /* package */AbstractCellListHandler myTextListHandler_textList_;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createRowCell(context, node);
