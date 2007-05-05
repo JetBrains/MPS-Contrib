@@ -256,6 +256,24 @@
                   </node>
                 </node>
               </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178374140721">
+                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1178374151104">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1178374142696">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1178374140722">
+                      <link role="variableDeclaration" targetNodeId="1178205546363" resolveInfo="result" />
+                    </node>
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1178374144650">
+                      <link role="property" targetNodeId="1.1172075381034" />
+                    </node>
+                  </node>
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Property_SetOperation" id="1178374152246">
+                    <node role="value" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1178374173704">
+                      <link role="baseMethodDeclaration" extResolveInfo="18.method ([Classifier]CompareType).([InstanceMethodDeclaration]getValueAsString() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+                      <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parameterObject" id="1178374155857" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1178205546380">
                 <node role="expression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1178205546381">
                   <link role="variableDeclaration" targetNodeId="1178205546363" resolveInfo="result" />

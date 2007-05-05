@@ -3,17 +3,18 @@
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
-  <maxImportIndex value="7" />
+  <maxImportIndex value="8" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   <import index="3" modelUID="jetbrains.mps.baseLanguage.structure" />
   <import index="5" modelUID="org.joda.time@java_stub" />
   <import index="6" modelUID="java.util@java_stub" />
   <import index="7" modelUID="java.lang@java_stub" />
+  <import index="8" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169481390637">
     <property name="name" value="DateFormatsTable" />
-    <property name="rootable" value="true" />
     <property name="package" value="format" />
+    <property name="rootable" value="true" />
     <link role="extends" targetNodeId="1.1078489098625" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169488417691">
       <property name="metaClass" value="aggregation" />
@@ -340,6 +341,14 @@
       <property name="sourceCardinality" value="0..1" />
       <property name="role" value="datetimeProperty" />
       <link role="target" targetNodeId="2.1172074318583" />
+    </node>
+    <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.ReferenceConceptLinkDeclaration" id="1178372678354">
+      <property name="name" value="defaultDatetimeProperty" />
+      <link role="targetType" targetNodeId="2.1172074318583" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.ReferenceConceptLink" id="1178372706486">
+      <link role="conceptLinkDeclaration" targetNodeId="1178372678354" resolveInfo="defaultDatetimeProperty" />
+      <link role="target" targetNodeId="8.1172074929011" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.EnumerationDataTypeDeclaration" id="1172075151844">
