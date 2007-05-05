@@ -12,8 +12,8 @@
   <import index="7" modelUID="java.lang@java_stub" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1169481390637">
     <property name="name" value="DateFormatsTable" />
-    <property name="package" value="format" />
     <property name="rootable" value="true" />
+    <property name="package" value="format" />
     <link role="extends" targetNodeId="1.1078489098625" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1169488417691">
       <property name="metaClass" value="aggregation" />
@@ -337,7 +337,7 @@
       <link role="target" targetNodeId="3.1068431790191" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1172074844144">
-      <property name="sourceCardinality" value="1" />
+      <property name="sourceCardinality" value="0..1" />
       <property name="role" value="datetimeProperty" />
       <link role="target" targetNodeId="2.1172074318583" />
     </node>
