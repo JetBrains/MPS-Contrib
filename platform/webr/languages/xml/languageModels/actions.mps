@@ -425,6 +425,7 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177614202130" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172395" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1177865741913">
       <property name="name" value="findSchema" />
@@ -550,6 +551,7 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177865752638" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172569" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1177868509565">
       <property name="name" value="getElementDeclarations" />
@@ -579,6 +581,7 @@
           <link role="concept" targetNodeId="4.1167838236835" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172699" />
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1177614889905">
@@ -729,6 +732,7 @@
           <link role="concept" targetNodeId="4.1167838236835" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172377" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1177640094733">
       <property name="name" value="checkTypeExpressionList" />
@@ -784,6 +788,7 @@
           <link role="elementConcept" targetNodeId="4.1167697887602" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172249" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1177693526826">
       <property name="name" value="checkTypeExpression" />
@@ -956,6 +961,7 @@
           <link role="elementConcept" targetNodeId="4.1167697887602" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172270" />
     </node>
   </node>
 </model>

@@ -34,6 +34,7 @@
           <link role="concept" targetNodeId="4.1169481390637" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172720" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1169556002655">
       <property name="name" value="findEnclosingTableClass" />
@@ -63,6 +64,7 @@
           <link role="classifier" extResolveInfo="3.[Classifier]ITemplateGenerator" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172054" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1169556611243">
       <property name="name" value="findEnclosingTableClass2" />
@@ -117,6 +119,7 @@
           <link role="classifier" extResolveInfo="3.[Classifier]ITemplateGenerator" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172523" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1169556566372">
       <property name="name" value="findFormattersFieldDeclaration" />
@@ -238,6 +241,7 @@
           <link role="classifier" extResolveInfo="3.[Classifier]ITemplateGenerator" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172071" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1169640626479">
       <property name="name" value="findGetFormatterMethodDeclaration" />
@@ -343,6 +347,7 @@
           <link role="classifier" extResolveInfo="3.[Classifier]ITemplateGenerator" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172024" />
     </node>
   </node>
 </model>

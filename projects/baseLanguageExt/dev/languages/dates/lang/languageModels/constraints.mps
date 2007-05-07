@@ -65,6 +65,7 @@
           <link role="concept" targetNodeId="1.1173959836330" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172296" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1173960292910">
       <property name="name" value="getDefaultFormatType" />
@@ -137,6 +138,7 @@
           <link role="concept" targetNodeId="1.1173959836330" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172747" />
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1173977205622">
@@ -275,6 +277,7 @@
           <link role="classifier" extResolveInfo="8.[Classifier]IScope" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172567" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486614">

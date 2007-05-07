@@ -647,6 +647,7 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1172502184832" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172668" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1175770638027">
       <property name="name" value="isInstanceOfPeriodCompare" />
@@ -680,6 +681,7 @@
           <link role="concept" targetNodeId="2.1081773326031" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172571" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1175769966456">
       <property name="name" value="isInstanceOfDatetime" />
@@ -701,6 +703,7 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1175769982711" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172494" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1175769904879">
       <property name="name" value="isInstanceOfInt" />
@@ -722,6 +725,7 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1175769943183" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172447" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1175768244033">
       <property name="name" value="isInstanceOfJavaDatePresentation" />
@@ -832,6 +836,7 @@
           </node>
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546171953" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1175770475707">
       <property name="name" value="bothOperandsAreNotNull" />
@@ -880,6 +885,7 @@
           <link role="concept" targetNodeId="2.1081773326031" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172817" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1175768616289">
       <property name="name" value="isInstanceOf" />
@@ -968,6 +974,7 @@
           <link role="concept" targetNodeId="2.1068431790189" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172871" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1178202857719">
       <property name="name" value="findDateTimeProperties" />
@@ -1042,6 +1049,7 @@
           <link role="classifier" extResolveInfo="14.[Classifier]IScope" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172424" />
     </node>
   </node>
 </model>
