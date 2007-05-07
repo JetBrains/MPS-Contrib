@@ -583,6 +583,7 @@
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172699" />
     </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178550127299" />
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1177614889905">
     <property name="name" value="AttributeUtil" />
@@ -963,6 +964,7 @@
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172270" />
     </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178550126484" />
   </node>
 </model>
 

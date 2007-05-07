@@ -140,6 +140,7 @@
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172747" />
     </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178550127139" />
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1173977205622">
     <property name="name" value="DateFormatReferenceUtil" />
@@ -279,6 +280,7 @@
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172567" />
     </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178550127447" />
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486614">
     <link role="concept" targetNodeId="1.1169487448949" />
