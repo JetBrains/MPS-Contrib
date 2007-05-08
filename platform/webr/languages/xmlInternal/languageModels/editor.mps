@@ -383,7 +383,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.EditorComponentDeclaration" id="1178638339305">
-    <property name="name" value="ElementReference_EditorComponent" />
+    <property name="name" value="IElementReference_EditorComponent" />
     <link role="conceptDeclaration" targetNodeId="1.1178592942030" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1178638396432">
       <property name="vertical" value="false" />
