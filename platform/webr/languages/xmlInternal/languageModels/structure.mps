@@ -178,7 +178,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1178592942030">
-    <property name="name" value="IElementReference" />
+    <property name="name" value="ElementReference" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1178593055097">
       <property name="role" value="element" />
       <property name="sourceCardinality" value="1" />
