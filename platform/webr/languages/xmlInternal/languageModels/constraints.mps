@@ -230,7 +230,7 @@
         </node>
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1178642168027">
-        <property name="name" value="elementWithId" />
+        <property name="name" value="controlWithId" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1178642168028" />
       </node>
     </node>
