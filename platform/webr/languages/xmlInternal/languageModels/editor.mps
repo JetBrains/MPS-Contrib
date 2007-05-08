@@ -347,9 +347,9 @@
           <property name="text" value="  " />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1174863455298">
+          <property name="vertical" value="true" />
           <property name="selectable" value="false" />
           <property name="drawBorder" value="false" />
-          <property name="vertical" value="true" />
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1174863463086">
             <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1174862790436" />
@@ -379,6 +379,25 @@
         <property name="drawBorder" value="false" />
         <property name="layoutConstraint" value="punctuation" />
         <property name="text" value="&quot;" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.EditorComponentDeclaration" id="1178638339305">
+    <property name="name" value="ElementReference_EditorComponent" />
+    <link role="conceptDeclaration" targetNodeId="1.1178592942030" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1178638396432">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1178638398450">
+        <property name="text" value="#" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1178638416030">
+        <link role="relationDeclaration" targetNodeId="1.1178593055097" />
+        <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1178638416031">
+          <link role="conceptDeclaration" targetNodeId="4.1167523027466" />
+          <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1178638906538">
+            <link role="relationDeclaration" targetNodeId="2.1156235010670" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
