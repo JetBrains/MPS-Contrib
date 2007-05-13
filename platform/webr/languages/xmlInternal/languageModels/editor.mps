@@ -347,9 +347,9 @@
           <property name="text" value="  " />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1174863455298">
+          <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
           <property name="selectable" value="false" />
-          <property name="drawBorder" value="false" />
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1174863463086">
             <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1174862790436" />
@@ -398,6 +398,27 @@
             <link role="relationDeclaration" targetNodeId="2.1156235010670" />
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1179095843908">
+    <link role="conceptDeclaration" targetNodeId="1.1179095771328" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1179095851019">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1179096219545">
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179096223098">
+          <property name="text" value="xml template" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179096228600">
+          <link role="relationDeclaration" targetNodeId="1.1179096205229" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179096072758">
+        <property name="selectable" value="false" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1179096081260">
+        <link role="relationDeclaration" targetNodeId="1.1179095805516" />
       </node>
     </node>
   </node>
