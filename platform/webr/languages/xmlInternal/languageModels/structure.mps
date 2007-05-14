@@ -185,21 +185,6 @@
       <link role="target" targetNodeId="2.1167523027466" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1179095771328">
-    <property name="rootable" value="true" />
-    <property name="name" value="XmlTemplate" />
-    <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1179096205229">
-      <property name="name" value="templateName" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1179095805516">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="document" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1174840096626" resolveInfo="Document" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1179105519357">
     <property name="name" value="SimpleElement" />
     <link role="extends" targetNodeId="2.1179102053371" />
