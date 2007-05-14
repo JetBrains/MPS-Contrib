@@ -34,7 +34,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.ContentList");
   }
   public static boolean _QueryFunction_NodeCondition_1166316630613(SNode node, IScope scope) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.BaseElement");
   }
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {

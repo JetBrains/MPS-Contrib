@@ -19,8 +19,8 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="allowEmptyText" value="true" />
       <property name="drawBorder" value="false" />
+      <property name="allowEmptyText" value="true" />
       <property name="attractsFocus" value="1" />
       <property name="fontStyle" value="BOLD" />
       <property name="textFgColor" value="DARK_GREEN" />
@@ -111,8 +111,8 @@
           </node>
         </node>
         <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304051499">
-          <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
+          <property name="drawBorder" value="false" />
           <property name="selectable" value="true" />
           <property name="name" value="ver2" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
@@ -134,8 +134,8 @@
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_GetParentOperation" id="1166316647097" />
                 </node>
                 <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_IsInstanceOfOperation" id="1166316650443">
-                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.RefConcept_Reference" id="1177626176088">
-                    <link role="conceptDeclaration" targetNodeId="1.1167523027466" />
+                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.RefConcept_Reference" id="1179115489884">
+                    <link role="conceptDeclaration" targetNodeId="1.1179102053371" />
                   </node>
                 </node>
               </node>
@@ -168,8 +168,8 @@
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316671279">
             <property name="drawBorder" value="false" />
-            <property name="attractsFocus" value="1" />
             <property name="editable" value="true" />
+            <property name="attractsFocus" value="1" />
           </node>
         </node>
       </node>
