@@ -88,7 +88,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167523027466">
     <property name="name" value="Element" />
-    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <link role="extends" targetNodeId="1179102053371" resolveInfo="BaseElement" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167523262932">
       <property name="role" value="elementDeclaration" />
       <property name="sourceCardinality" value="1" />
@@ -146,6 +146,13 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1172960808169">
       <property name="value" value="&amp;entity;" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1179102053371">
+    <property name="name" value="BaseElement" />
+    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1179102063903">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
 </model>
