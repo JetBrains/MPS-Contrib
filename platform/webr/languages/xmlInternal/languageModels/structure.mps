@@ -200,5 +200,13 @@
       <link role="target" targetNodeId="1174840096626" resolveInfo="Document" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1179105519357">
+    <property name="name" value="SimpleElement" />
+    <link role="extends" targetNodeId="2.1179102053371" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1179105536858">
+      <property name="name" value="elementName" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+  </node>
 </model>
 
