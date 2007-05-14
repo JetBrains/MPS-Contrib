@@ -3,13 +3,14 @@
   <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <maxImportIndex value="8" />
+  <maxImportIndex value="9" />
   <import index="1" modelUID="webr.xmlInternal.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="3" modelUID="webr.xmlInternal.editor" />
   <import index="4" modelUID="webr.xml.structure" />
   <import index="5" modelUID="webr.xmlSchema.structure" />
   <import index="8" modelUID="webr.gtext.structure" />
+  <import index="9" modelUID="webr.xmlSchema.editor" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1165761822666">
     <link role="conceptDeclaration" targetNodeId="1.1165761580958" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165761827856">
@@ -431,10 +432,22 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107484174">
           <property name="text" value="&lt;" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179107484175">
-          <link role="relationDeclaration" targetNodeId="1.1179105536858" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179107666532">
+          <link role="editorComponent" targetNodeId="1179107507380" resolveInfo="SimpleElement_elementName" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107484176">
+          <property name="text" value="&gt;" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1179107680612">
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107684380">
+          <property name="text" value="&lt;/" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179107694696">
+          <link role="editorComponent" targetNodeId="1179107507380" resolveInfo="SimpleElement_elementName" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107689757">
           <property name="text" value="&gt;" />
         </node>
       </node>
@@ -444,7 +457,18 @@
     <property name="name" value="SimpleElement_elementName" />
     <link role="conceptDeclaration" targetNodeId="1.1179105519357" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179107527335">
+      <property name="textFgColor" value="query" />
       <link role="relationDeclaration" targetNodeId="1.1179105536858" />
+      <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1179107773391">
+        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1179107773392">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1179107797956">
+            <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1179107797957">
+              <link role="classifier" targetNodeId="9.1178296794013" />
+              <link role="variableDeclaration" targetNodeId="9.1178296808264" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
