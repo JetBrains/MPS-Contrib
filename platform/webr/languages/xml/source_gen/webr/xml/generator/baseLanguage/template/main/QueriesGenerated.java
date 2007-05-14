@@ -54,17 +54,14 @@ public class QueriesGenerated {
   public static String propertyMacro_GetPropertyValue_1179112825140(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return Content_Behavior.isSeparate_string_1179110905432(node);
   }
+  public static String propertyMacro_GetPropertyValue_1179113154760(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return Content_Behavior.isSeparate_string_1179110905432(node);
+  }
   public static boolean ifMacro_Condition_1171381345810(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element");
   }
   public static boolean ifMacro_Condition_1171381407187(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element"));
-  }
-  public static boolean ifMacro_Condition_1171381951282(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.isSeparate_1177896213996(node);
-  }
-  public static boolean ifMacro_Condition_1171382017569(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.isSeparate_1177896213996(node);
   }
   public static boolean ifMacro_Condition_1171382033556(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return Content_Behavior.isSeparate_1177896213996(node);
@@ -84,14 +81,14 @@ public class QueriesGenerated {
   public static List sourceNodesQuery_1171370108399(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "content", true);
   }
-  public static List sourceNodesQuery_1171370131329(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SLinkOperations.getTargets(node, "content", true);
-  }
   public static List sourceNodesQuery_1177880648899(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "attribute", true);
   }
   public static List sourceNodesQuery_1179112839390(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "text", true);
+  }
+  public static List sourceNodesQuery_1179113171147(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "content", true);
   }
   public static SNode sourceNodeQuery_1171378601405(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTarget(node, "contentList", true);
