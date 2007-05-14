@@ -19,8 +19,8 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
-      <property name="allowEmptyText" value="true" />
       <property name="drawBorder" value="false" />
+      <property name="allowEmptyText" value="true" />
       <property name="attractsFocus" value="1" />
       <property name="fontStyle" value="BOLD" />
       <property name="textFgColor" value="DARK_GREEN" />
@@ -111,8 +111,8 @@
           </node>
         </node>
         <node role="ifFalseCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1166304051499">
-          <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
+          <property name="drawBorder" value="false" />
           <property name="selectable" value="true" />
           <property name="name" value="ver2" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
@@ -168,8 +168,8 @@
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1166316671279">
             <property name="drawBorder" value="false" />
-            <property name="attractsFocus" value="1" />
             <property name="editable" value="true" />
+            <property name="attractsFocus" value="1" />
           </node>
         </node>
       </node>
@@ -600,29 +600,8 @@
               <property name="drawBorder" value="false" />
               <property name="text" value="&lt;" />
             </node>
-            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167707781235">
-              <property name="drawBorder" value="false" />
-              <link role="relationDeclaration" targetNodeId="1.1167523262932" />
-              <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781236">
-                <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
-                <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781237">
-                  <property name="drawBorder" value="false" />
-                  <property name="fontStyle" value="BOLD" />
-                  <property name="readOnly" value="true" />
-                  <property name="textFgColor" value="query" />
-                  <link role="relationDeclaration" targetNodeId="31.1167838788027" />
-                  <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894050085">
-                    <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894050086">
-                      <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297240448">
-                        <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894053477">
-                          <link role="classifier" targetNodeId="37.1178296794013" />
-                          <link role="variableDeclaration" targetNodeId="37.1178296808264" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179101350941">
+              <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1177880060739">
               <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="Element_attributeList" />
@@ -652,29 +631,8 @@
               <property name="drawBorder" value="false" />
               <property name="text" value="&lt;/" />
             </node>
-            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167707781245">
-              <property name="drawBorder" value="false" />
-              <link role="relationDeclaration" targetNodeId="1.1167523262932" />
-              <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781246">
-                <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
-                <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781247">
-                  <property name="drawBorder" value="false" />
-                  <property name="fontStyle" value="BOLD" />
-                  <property name="readOnly" value="true" />
-                  <property name="textFgColor" value="query" />
-                  <link role="relationDeclaration" targetNodeId="31.1167838788027" />
-                  <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894067185">
-                    <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894067186">
-                      <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297281029">
-                        <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894067554">
-                          <link role="classifier" targetNodeId="37.1178296794013" />
-                          <link role="variableDeclaration" targetNodeId="37.1178296808264" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179101361623">
+              <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167707781248">
               <property name="drawBorder" value="false" />
@@ -688,29 +646,8 @@
             <property name="drawBorder" value="false" />
             <property name="text" value="&lt;" />
           </node>
-          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167707781251">
-            <property name="drawBorder" value="false" />
-            <link role="relationDeclaration" targetNodeId="1.1167523262932" />
-            <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781252">
-              <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
-              <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781253">
-                <property name="drawBorder" value="false" />
-                <property name="fontStyle" value="BOLD" />
-                <property name="readOnly" value="true" />
-                <property name="textFgColor" value="query" />
-                <link role="relationDeclaration" targetNodeId="31.1167838788027" />
-                <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894072164">
-                  <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894072165">
-                    <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297289235">
-                      <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894072486">
-                        <link role="classifier" targetNodeId="37.1178296794013" />
-                        <link role="variableDeclaration" targetNodeId="37.1178296808264" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179101325357">
+            <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1177880053862">
             <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="Element_attributeList" />
@@ -728,29 +665,8 @@
             <property name="drawBorder" value="false" />
             <property name="text" value="&lt;/" />
           </node>
-          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167707781258">
-            <property name="drawBorder" value="false" />
-            <link role="relationDeclaration" targetNodeId="1.1167523262932" />
-            <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707781259">
-              <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
-              <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707781260">
-                <property name="drawBorder" value="false" />
-                <property name="fontStyle" value="BOLD" />
-                <property name="readOnly" value="true" />
-                <property name="textFgColor" value="query" />
-                <link role="relationDeclaration" targetNodeId="31.1167838788027" />
-                <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894077956">
-                  <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894077957">
-                    <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297296850">
-                      <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894078371">
-                        <link role="classifier" targetNodeId="37.1178296794013" />
-                        <link role="variableDeclaration" targetNodeId="37.1178296808264" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179101337368">
+            <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167707781261">
             <property name="drawBorder" value="false" />
@@ -764,29 +680,8 @@
           <property name="drawBorder" value="false" />
           <property name="text" value="&lt;" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1167707829436">
-          <property name="drawBorder" value="false" />
-          <link role="relationDeclaration" targetNodeId="1.1167523262932" />
-          <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167707829437">
-            <link role="conceptDeclaration" targetNodeId="31.1167512696010" />
-            <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167707832954">
-              <property name="drawBorder" value="false" />
-              <property name="fontStyle" value="BOLD" />
-              <property name="readOnly" value="true" />
-              <property name="textFgColor" value="query" />
-              <link role="relationDeclaration" targetNodeId="31.1167838788027" />
-              <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1176894084421">
-                <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176894084422">
-                  <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178297304403">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1176894084742">
-                      <link role="classifier" targetNodeId="37.1178296794013" />
-                      <link role="variableDeclaration" targetNodeId="37.1178296808264" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179101313080">
+          <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1177880043960">
           <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="Element_attributeList" />
@@ -972,6 +867,31 @@
       <property name="vertical" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1177879757622" />
       <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1177879946031" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.EditorComponentDeclaration" id="1179101140188">
+    <property name="name" value="Element_elementDeclaration" />
+    <link role="conceptDeclaration" targetNodeId="1.1167523027466" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1179101177299">
+      <link role="relationDeclaration" targetNodeId="1.1167523262932" />
+      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1179101177300">
+        <link role="conceptDeclaration" targetNodeId="31.1167838236835" />
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179101183990">
+          <property name="fontStyle" value="BOLD" />
+          <property name="textFgColor" value="query" />
+          <link role="relationDeclaration" targetNodeId="31.1167838788027" />
+          <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1179101240819">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1179101240820">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1179101245635">
+                <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1179101245636">
+                  <link role="classifier" targetNodeId="37.1178296794013" />
+                  <link role="variableDeclaration" targetNodeId="37.1178296808264" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
