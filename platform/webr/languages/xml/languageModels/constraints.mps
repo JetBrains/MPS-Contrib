@@ -5,7 +5,7 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
-  <maxImportIndex value="11" />
+  <maxImportIndex value="12" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="2" modelUID="webr.xml.util@java_stub" />
   <import index="3" modelUID="jetbrains.mps.core.structure" />
@@ -14,6 +14,7 @@
   <import index="9" modelUID="webr.xmlSchema.structure" />
   <import index="10" modelUID="jetbrains.mps.smodel@java_stub" />
   <import index="11" modelUID="webr.xmlInternal.structure" />
+  <import index="12" modelUID="java.lang@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1177896211352">
     <link role="concept" targetNodeId="1.1161371727643" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1177896213996">
@@ -83,6 +84,24 @@
               <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177896328164">
                 <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1179110905432">
+      <property name="name" value="isSeparate_string" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.ClassifierType" id="1179110917137">
+        <link role="classifier" extResolveInfo="12.[Classifier]String" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1179110905434">
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1179110930094">
+          <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1179110933504">
+            <link role="baseMethodDeclaration" extResolveInfo="12.static method ([Classifier]String).([StaticMethodDeclaration]valueOf((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+            <link role="classConcept" extResolveInfo="12.[Classifier]String" />
+            <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodCall" id="1179110939450">
+              <link role="baseMethodDeclaration" targetNodeId="1177896213996" resolveInfo="isSeparate" />
+              <node role="thisNode" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1179110936492" />
             </node>
           </node>
         </node>
