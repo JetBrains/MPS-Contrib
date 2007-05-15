@@ -189,7 +189,7 @@
     <property name="name" value="SimpleElement" />
     <link role="extends" targetNodeId="2.1179102053371" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1179105536858">
-      <property name="name" value="elementName" />
+      <property name="name" value="elementName2" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1179106523284">
