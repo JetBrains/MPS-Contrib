@@ -194,10 +194,6 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2.1163340203555" />
     </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1179105536858">
-      <property name="name" value="elementName2" />
-      <link role="dataType" targetNodeId="1.1082983041843" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1179106523284">
       <property name="value" value="simple element" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
