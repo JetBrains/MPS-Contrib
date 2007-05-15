@@ -412,8 +412,8 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107484174">
           <property name="text" value="&lt;" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179107666532">
-          <link role="editorComponent" targetNodeId="1179107507380" resolveInfo="SimpleElement_elementName" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1179271948487">
+          <link role="relationDeclaration" targetNodeId="1.1179271242032" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107484176">
           <property name="text" value="&gt;" />
@@ -434,20 +434,13 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107684380">
           <property name="text" value="&lt;/" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1179107694696">
-          <link role="editorComponent" targetNodeId="1179107507380" resolveInfo="SimpleElement_elementName" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1179271957817">
+          <link role="relationDeclaration" targetNodeId="1.1179271242032" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1179107689757">
           <property name="text" value="&gt;" />
         </node>
       </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.EditorComponentDeclaration" id="1179107507380">
-    <property name="name" value="SimpleElement_elementName" />
-    <link role="conceptDeclaration" targetNodeId="1.1179105519357" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1179271834907">
-      <link role="relationDeclaration" targetNodeId="1.1179271242032" />
     </node>
   </node>
 </model>
