@@ -349,9 +349,9 @@
           <property name="text" value="  " />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1174863455298">
-          <property name="selectable" value="false" />
           <property name="drawBorder" value="false" />
           <property name="vertical" value="true" />
+          <property name="selectable" value="false" />
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1174863463086">
             <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1174862790436" />
@@ -446,19 +446,8 @@
   <node type="jetbrains.mps.bootstrap.editorLanguage.EditorComponentDeclaration" id="1179107507380">
     <property name="name" value="SimpleElement_elementName" />
     <link role="conceptDeclaration" targetNodeId="1.1179105519357" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179107527335">
-      <property name="textFgColor" value="query" />
-      <link role="relationDeclaration" targetNodeId="1.1179105536858" />
-      <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1179107773391">
-        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1179107773392">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1179107797956">
-            <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1179107797957">
-              <link role="classifier" targetNodeId="9.1178296794013" />
-              <link role="variableDeclaration" targetNodeId="9.1178296808264" />
-            </node>
-          </node>
-        </node>
-      </node>
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1179271834907">
+      <link role="relationDeclaration" targetNodeId="1.1179271242032" />
     </node>
   </node>
 </model>
