@@ -99,9 +99,11 @@
           <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1179110933504">
             <link role="baseMethodDeclaration" extResolveInfo="12.static method ([Classifier]String).([StaticMethodDeclaration]valueOf((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
             <link role="classConcept" extResolveInfo="12.[Classifier]String" />
-            <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodCall" id="1179110939450">
-              <link role="baseMethodDeclaration" targetNodeId="1177896213996" resolveInfo="isSeparate" />
-              <node role="thisNode" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1179110936492" />
+            <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1179419283451">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1179110936492" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1179419283454">
+                <link role="conceptMethodDeclaration" targetNodeId="1177896213996" resolveInfo="isSeparate" />
+              </node>
             </node>
           </node>
         </node>
