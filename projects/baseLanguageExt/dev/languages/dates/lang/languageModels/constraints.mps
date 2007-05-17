@@ -814,9 +814,11 @@
             <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1178368954236">
               <link role="concept" targetNodeId="6.1068580123158" />
             </node>
-            <node role="initializer" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodCall" id="1178368944154">
-              <link role="baseMethodDeclaration" targetNodeId="1178368102110" resolveInfo="getFieldReference" />
-              <node role="thisNode" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178368935011" />
+            <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1179419284867">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178368935011" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1179419284870">
+                <link role="conceptMethodDeclaration" targetNodeId="1178368102110" resolveInfo="getFieldReference" />
+              </node>
             </node>
           </node>
         </node>
@@ -878,9 +880,11 @@
             <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1178369145808">
               <link role="concept" targetNodeId="6.1068580123158" />
             </node>
-            <node role="initializer" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodCall" id="1178369145809">
-              <link role="baseMethodDeclaration" targetNodeId="1178368102110" resolveInfo="getFieldReference" />
-              <node role="thisNode" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178369145810" />
+            <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1179419284808">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178369145810" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1179419284811">
+                <link role="conceptMethodDeclaration" targetNodeId="1178368102110" resolveInfo="getFieldReference" />
+              </node>
             </node>
           </node>
         </node>
@@ -930,15 +934,19 @@
           <node role="expression" type="jetbrains.mps.baseLanguage.AndExpression" id="1178369938064">
             <node role="rightExpression" type="jetbrains.mps.baseLanguage.NotEqualsExpression" id="1178369938065">
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1178369938066" />
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodCall" id="1178369938067">
-                <link role="baseMethodDeclaration" targetNodeId="1178368392648" resolveInfo="getOtherThanFieldReference" />
-                <node role="thisNode" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178369955578" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1179419283470">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178369955578" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1179419283473">
+                  <link role="conceptMethodDeclaration" targetNodeId="1178368392648" resolveInfo="getOtherThanFieldReference" />
+                </node>
               </node>
             </node>
             <node role="leftExpression" type="jetbrains.mps.baseLanguage.NotEqualsExpression" id="1178369938069">
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodCall" id="1178369938070">
-                <link role="baseMethodDeclaration" targetNodeId="1178368695242" resolveInfo="getClosureInstanceFieldReference" />
-                <node role="thisNode" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178369945714" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1179419284077">
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178369945714" />
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1179419284080">
+                  <link role="conceptMethodDeclaration" targetNodeId="1178368695242" resolveInfo="getClosureInstanceFieldReference" />
+                </node>
               </node>
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.NullLiteral" id="1178369938072" />
             </node>
@@ -961,9 +969,11 @@
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.GetFirstOperation" id="1178372915811" />
             </node>
-            <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodCall" id="1178372885944">
-              <link role="baseMethodDeclaration" targetNodeId="1178372740927" resolveInfo="getDatetimeProperty" />
-              <node role="thisNode" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178372883759" />
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1179419284433">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1178372883759" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1179419284436">
+                <link role="conceptMethodDeclaration" targetNodeId="1178372740927" resolveInfo="getDatetimeProperty" />
+              </node>
             </node>
           </node>
         </node>
