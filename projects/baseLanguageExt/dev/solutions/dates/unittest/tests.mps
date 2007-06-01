@@ -1171,6 +1171,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173787612322">
         <node role="statement" type="jetbrains.springframework.configuration.InitConfigurationStatement" id="1173787612323" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1180740275695" />
     </node>
     <node role="method" type="jetbrains.mps.baseLanguage.InstanceMethodDeclaration" id="1173788135313">
       <property name="name" value="testFake" />
