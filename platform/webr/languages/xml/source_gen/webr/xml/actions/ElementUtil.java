@@ -44,7 +44,7 @@ public class ElementUtil {
       if(SNodeOperations.isInstanceOf(containingRoot, "webr.xmlInternal.structure.XmlFile")) {
         schema = SLinkOperations.getTarget(containingRoot, "schema", false);
       }
-    } else 
+    } else
     {
       schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "webr.xmlSchema.structure.Schema", false, false);
     }

@@ -8,10 +8,11 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOpera
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
-import jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration;
+import jetbrains.mps.bootstrap.structureLanguage.structure.AbstractConceptDeclaration;
 import jetbrains.mps.smodel.action.IChildNodeSetter;
 import jetbrains.mps.smodel.IOperationContext;
 import java.util.ArrayList;
+import jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.util.Calculable;
 import webr.xml.actions.ElementUtil;
@@ -19,6 +20,8 @@ import webr.xml.actions.AttributeUtil;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import java.util.Iterator;
+import jetbrains.mps.util.Condition;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 
 public class QueriesGenerated {
@@ -33,7 +36,7 @@ public class QueriesGenerated {
       SLinkOperations.addChild(newNode, "content", sampleNode);
     }
   }
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_BaseAttribute_1167699332639(final SNode parentNode, final SNode currentTargetNode, final ConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_BaseAttribute_1167699332639(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("null", operationContext.getScope());
@@ -62,7 +65,19 @@ public class QueriesGenerated {
     }
     return result;
   }
-  public static boolean removeConceptByCondition_1177863610304(SNode concept, SNode parentNode, SNode currentChild, SNode childConcept, IOperationContext operationContext) {
-    return SConceptOperations.isExactly(childConcept, "webr.xml.structure.Content") && SConceptOperations.isAssignableFrom(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), concept);
+  public static void removeActionsByCondition_1177863610304(Iterator<INodeSubstituteAction> actions, final SNode parentNode, final SNode currentChild, final SNode childConcept, final IOperationContext operationContext) {
+    while(actions.hasNext()) {
+      INodeSubstituteAction current = actions.next();
+      final SNode concept = (SNode)current.getParameterObject();
+      Condition cond = new Condition() {
+
+        public boolean met(Object object) {
+          return SConceptOperations.isExactly(childConcept, "webr.xml.structure.Content") && SConceptOperations.isAssignableFrom(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), concept);
+        }
+      };
+      if(cond.met(null)) {
+        actions.remove();
+      }
+    }
   }
 }
