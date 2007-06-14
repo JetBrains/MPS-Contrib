@@ -16,6 +16,7 @@
       <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1165235274815" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.AddMenuPart" id="1177613609141">
+        <link role="concept" targetNodeId="1.1167700349452" />
         <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.ParameterizedSubstituteMenuPart" id="1177613613454">
           <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177613682054">
             <link role="concept" targetNodeId="4.1167697887602" />
@@ -143,6 +144,7 @@
         </node>
       </node>
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.AddMenuPart" id="1177864774724">
+        <link role="concept" targetNodeId="1.1167523027466" />
         <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.ParameterizedSubstituteMenuPart" id="1177864777991">
           <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177865246397">
             <link role="concept" targetNodeId="4.1167838236835" />
