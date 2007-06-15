@@ -252,6 +252,33 @@
           </node>
         </node>
       </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.AddMenuPart" id="1181876751621">
+        <link role="concept" targetNodeId="1.1163340203555" />
+        <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptsSubstituteMenuPart" id="1181876785112">
+          <node role="query" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_ParameterizedSubstitute_Query" id="1181876785113">
+            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1181876785114">
+              <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1181876916264">
+                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1181876916265">
+                  <property name="name" value="concepts" />
+                  <node role="type" type="jetbrains.mps.baseLanguage.ext.collections.lang.ListType" id="1181876916266">
+                    <node role="elementType" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptType" id="1181876918632" />
+                  </node>
+                  <node role="initializer" type="jetbrains.mps.baseLanguage.GenericNewExpression" id="1181876927299">
+                    <node role="creator" type="jetbrains.mps.baseLanguage.ext.collections.lang.ListCreatorWithInit" id="1181876928665">
+                      <node role="elementType" type="jetbrains.mps.bootstrap.smodelLanguage.SConceptType" id="1181876930736" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1181876936279">
+                <node role="expression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1181876936280">
+                  <link role="variableDeclaration" targetNodeId="1181876916265" resolveInfo="concepts" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1177614157967">
