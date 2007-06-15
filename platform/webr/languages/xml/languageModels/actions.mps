@@ -5,11 +5,12 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="4" modelUID="webr.xmlSchema.structure" />
   <import index="5" modelUID="java.lang@java_stub" />
   <import index="6" modelUID="webr.xmlInternal.structure" />
+  <import index="7" modelUID="webr.xml.actions@java_stub" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActions" id="1167519968820">
     <property name="name" value="xml_nodeSubstitute" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167699332639">
