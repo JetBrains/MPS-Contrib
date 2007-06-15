@@ -20,7 +20,6 @@
   <import index="11" modelUID="jetbrains.mps.project@java_stub" />
   <import index="12" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <import index="13" modelUID="jetbrains.mps.util@java_stub" />
-  <import index="14" modelUID="jetbrains.teamsys.dnq.generator.baseLanguage.template.utils" />
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1173960152516">
     <property name="name" value="DateTimePropertFormatTokenUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1173960236733">
