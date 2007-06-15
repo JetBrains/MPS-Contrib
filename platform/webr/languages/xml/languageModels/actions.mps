@@ -119,6 +119,23 @@
       <property name="actionsFactoryAspectId" value="Content" />
       <property name="useNewActions" value="false" />
       <link role="applicableConcept" targetNodeId="1.1161371727643" />
+      <node role="variable" type="jetbrains.mps.bootstrap.actionsLanguage.SubstituteNodeBuilderVariableDeclaration" id="1181874645399">
+        <property name="name" value="parentElement" />
+        <node role="initializerBlock" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_SubstituteVariableInitializer" id="1181874645400">
+          <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1181874645401">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1181874687619">
+              <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1181874689119">
+                <link role="classConcept" targetNodeId="1177614157967" resolveInfo="ElementUtil" />
+                <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElement" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parentNode" id="1181874689120" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1181874663163">
+          <link role="concept" targetNodeId="4.1167838236835" />
+        </node>
+      </node>
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.RemoveByConditionPart" id="1177863610304">
         <node role="condition" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_RemoveBy_Condition" id="1177863610305">
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177863610306">
@@ -151,19 +168,6 @@
           </node>
           <node role="query" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_ParameterizedSubstitute_Query" id="1177864777993">
             <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1177864777994">
-              <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1177865006757">
-                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1177865006758">
-                  <property name="name" value="parentElement" />
-                  <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177865006759">
-                    <link role="concept" targetNodeId="4.1167838236835" />
-                  </node>
-                  <node role="initializer" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1177864890250">
-                    <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElement" />
-                    <link role="classConcept" targetNodeId="1177614157967" resolveInfo="ElementUtil" />
-                    <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parentNode" id="1177864900220" />
-                  </node>
-                </node>
-              </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1177867934948">
                 <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1177867934949">
                   <property name="name" value="schema" />
@@ -184,8 +188,8 @@
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177868580349">
                     <link role="variableDeclaration" targetNodeId="1177867934949" resolveInfo="schema" />
                   </node>
-                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177868583324">
-                    <link role="variableDeclaration" targetNodeId="1177865006758" resolveInfo="parentElement" />
+                  <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.SubstituteNodeBuilderVariableReference" id="1181874704885">
+                    <link role="variableDeclaration" targetNodeId="1181874645399" resolveInfo="parentElement" />
                   </node>
                 </node>
               </node>

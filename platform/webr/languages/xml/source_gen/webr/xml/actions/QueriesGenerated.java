@@ -66,6 +66,16 @@ public class QueriesGenerated {
     return result;
   }
   public static void removeActionsByCondition_1177863610304(Iterator<INodeSubstituteAction> actions, final SNode parentNode, final SNode currentChild, final SNode childConcept, final IOperationContext operationContext) {
+    final SNode parentElement;
+    {
+      Calculable calc = new Calculable() {
+
+        public Object calculate() {
+          return ElementUtil.getParentElement(parentNode);
+        }
+      };
+      parentElement = (SNode)calc.calculate();
+    }
     while(actions.hasNext()) {
       INodeSubstituteAction current = actions.next();
       final SNode concept = (SNode)current.getParameterObject();
