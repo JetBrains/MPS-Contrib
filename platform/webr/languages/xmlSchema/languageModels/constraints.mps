@@ -136,13 +136,13 @@
       </node>
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183591485162">
-      <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183589342800" resolveInfo="checkElements" />
+      <property name="name" value="checkTypeExpression" />
+      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183591485164">
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183591494787">
           <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1183591495465">
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183591494788">
-              <link role="variableDeclaration" targetNodeId="1183591490169" resolveInfo="elementDeclarations" />
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183592046824">
+              <link role="variableDeclaration" targetNodeId="1183592044270" resolveInfo="elementDeclarations" />
             </node>
             <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.AddElementOperation" id="1183591496829">
               <node role="argument" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1183591500007" />
@@ -150,13 +150,13 @@
           </node>
         </node>
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591490169">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183592044270">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591490170">
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183592044271">
           <link role="elementConcept" targetNodeId="1.1167838236835" />
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591490171" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183592044272" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486675">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178187486676" />
@@ -523,15 +523,15 @@
       <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183586049257" />
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183589777679">
-      <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183589342800" resolveInfo="checkElements" />
+      <property name="name" value="checkTypeExpression" />
+      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183589777681">
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183589807468">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183589810787">
             <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183589812337">
               <link role="conceptMethodDeclaration" targetNodeId="1183589342800" resolveInfo="checkElements" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183589813322">
-                <link role="variableDeclaration" targetNodeId="1183589784385" resolveInfo="elementDeclarations" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183591931882">
+                <link role="variableDeclaration" targetNodeId="1183591929020" resolveInfo="elementDeclarations" />
               </node>
             </node>
             <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183589807892">
@@ -543,13 +543,13 @@
           </node>
         </node>
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183589784385">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591929020">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183589784386">
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591929021">
           <link role="elementConcept" targetNodeId="1.1167838236835" />
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183589784387" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591929022" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183586042766">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183586042767" />
@@ -700,7 +700,7 @@
             <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183589747410">
               <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183589747900">
                 <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183589749390">
-                  <link role="conceptMethodDeclaration" targetNodeId="1183589342800" resolveInfo="checkElements" />
+                  <link role="conceptMethodDeclaration" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183589751750">
                     <link role="variableDeclaration" targetNodeId="1183589614704" resolveInfo="elementDeclarations" />
                   </node>
@@ -817,15 +817,15 @@
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183589565903">
     <link role="concept" targetNodeId="1.1167530070286" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183589567969">
-      <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183589342800" resolveInfo="checkElements" />
+      <property name="name" value="checkTypeExpression" />
+      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183589567971">
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183589630304">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183589632873">
             <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183589635095">
               <link role="conceptMethodDeclaration" targetNodeId="1183589342800" resolveInfo="checkElements" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183589636939">
-                <link role="variableDeclaration" targetNodeId="1183589572972" resolveInfo="elementDeclarations" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183591898815">
+                <link role="variableDeclaration" targetNodeId="1183591894918" resolveInfo="elementDeclarations" />
               </node>
             </node>
             <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183589630728">
@@ -837,13 +837,13 @@
           </node>
         </node>
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183589572972">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591894918">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183589572973">
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591894919">
           <link role="elementConcept" targetNodeId="1.1167838236835" />
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183589572974" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591894920" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183589565904">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183589565905" />
@@ -916,15 +916,15 @@
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183590857643">
     <link role="concept" targetNodeId="1.1167598424727" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183590860599">
-      <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183589342800" resolveInfo="checkElements" />
+      <property name="name" value="checkTypeExpression" />
+      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183590860601">
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183590870590">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183590874940">
             <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183590876490">
               <link role="conceptMethodDeclaration" targetNodeId="1183589342800" resolveInfo="checkElements" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183590877382">
-                <link role="variableDeclaration" targetNodeId="1183590864649" resolveInfo="elementDeclarations" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183591957542">
+                <link role="variableDeclaration" targetNodeId="1183591955070" resolveInfo="elementDeclarations" />
               </node>
             </node>
             <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183590872389">
@@ -936,13 +936,13 @@
           </node>
         </node>
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183590864649">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591955070">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183590864650">
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591955071">
           <link role="elementConcept" targetNodeId="1.1167838236835" />
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183590864651" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591955072" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183590857644">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183590857645" />
@@ -951,13 +951,13 @@
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183591223668">
     <link role="concept" targetNodeId="1.1167531070757" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183591225952">
-      <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183589342800" resolveInfo="checkElements" />
+      <property name="name" value="checkTypeExpression" />
+      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183591225954">
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183591247803">
           <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1183591248586">
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183591247804">
-              <link role="variableDeclaration" targetNodeId="1183591229236" resolveInfo="elementDeclarations" />
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183591978156">
+              <link role="variableDeclaration" targetNodeId="1183591975199" resolveInfo="elementDeclarations" />
             </node>
             <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.AddElementOperation" id="1183591249728">
               <node role="argument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183591258420">
@@ -970,13 +970,13 @@
           </node>
         </node>
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591229236">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591975199">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591229237">
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591975200">
           <link role="elementConcept" targetNodeId="1.1167838236835" />
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591229238" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591975201" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183591223669">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183591223670" />
@@ -985,15 +985,15 @@
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183591375133">
     <link role="concept" targetNodeId="1.1167611637510" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183591376761">
-      <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183589342800" resolveInfo="checkElements" />
+      <property name="name" value="checkTypeExpression" />
+      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183591376763">
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183591438175">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183591445763">
             <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183591448297">
-              <link role="conceptMethodDeclaration" targetNodeId="1183589342800" resolveInfo="checkElements" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183591449251">
-                <link role="variableDeclaration" targetNodeId="1183591380499" resolveInfo="elementDeclarations" />
+              <link role="conceptMethodDeclaration" targetNodeId="1183591825379" resolveInfo="checkTypeExpression" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183592000175">
+                <link role="variableDeclaration" targetNodeId="1183591997438" resolveInfo="elementDeclarations" />
               </node>
             </node>
             <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183591440884">
@@ -1010,16 +1010,35 @@
           </node>
         </node>
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591380499">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591997438">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591380500">
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591997439">
           <link role="elementConcept" targetNodeId="1.1167838236835" />
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591380501" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591997440" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183591375134">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183591375135" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183591821422">
+    <link role="concept" targetNodeId="1.1167590960646" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183591825379">
+      <property name="isVirtual" value="true" />
+      <property name="isAbstract" value="true" />
+      <property name="name" value="checkTypeExpression" />
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591836885">
+        <property name="name" value="elementDeclarations" />
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183591836886">
+          <link role="elementConcept" targetNodeId="1.1167838236835" />
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183591827100" />
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183591825381" />
+    </node>
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183591821423">
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183591821424" />
     </node>
   </node>
 </model>
