@@ -268,5 +268,24 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183585307833">
+    <link role="concept" targetNodeId="1.1183585239137" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183585335179">
+      <property name="isVirtual" value="true" />
+      <property name="isAbstract" value="true" />
+      <property name="name" value="checkAttributes" />
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183585345759">
+        <property name="name" value="attributeDeclarations" />
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183585347829">
+          <link role="elementConcept" targetNodeId="1.1167697887602" />
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183585337727" />
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183585335181" />
+    </node>
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183585307834">
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183585307835" />
+    </node>
+  </node>
 </model>
 
