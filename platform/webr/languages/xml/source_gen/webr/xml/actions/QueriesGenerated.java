@@ -86,6 +86,9 @@ public class QueriesGenerated {
     }
     while(actions.hasNext()) {
       INodeSubstituteAction current = actions.next();
+      if(!(current.getParameterObject() instanceof SNode)) {
+        continue;
+      }
       final SNode concept = (SNode)current.getParameterObject();
       Condition cond = new Condition() {
 
