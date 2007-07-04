@@ -309,6 +309,9 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167794310821">
     <property name="name" value="ComplexContent" />
     <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586037639">
+      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167794765257">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="contentItem" />
@@ -323,6 +326,9 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167794579628">
     <property name="name" value="ContentItem" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586172961">
+      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167794587363">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
