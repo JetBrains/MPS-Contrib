@@ -8,6 +8,8 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOpera
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 import java.util.List;
 import java.util.ArrayList;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 
 public class ElementUtil {
 
@@ -51,6 +53,14 @@ public class ElementUtil {
     return schema;
   }
   public static List<SNode> getElementDeclarations(SNode schema, SNode elementDeclaration) {
-    return new ArrayList<SNode>();
+    List<SNode> elementDeclarations = new ArrayList<SNode>();
+    if((elementDeclaration == null)) {
+      if((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
+        ListOperations.addElement(elementDeclarations, SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
+      }
+    } else
+    {
+    }
+    return elementDeclarations;
   }
 }
