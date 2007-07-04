@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.util.Calculable;
-import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
@@ -42,10 +42,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          List<SNode> attributeDeclarations = new ArrayList<SNode>();
-          SNode elementDeclaration = ElementUtil.getParentElement(parentNode);
-          BehaviorManager.getInstance().invoke(void.class, elementDeclaration, "virtual_checkAttributes_1183585335179", attributeDeclarations);
-          return attributeDeclarations;
+          return ElementDeclaration_Behavior.getAttributeDeclarations_1183587644932(ElementUtil.getParentElement(parentNode));
         }
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();
