@@ -389,6 +389,9 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1172768901937">
       <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183592387859">
+      <link role="intfc" targetNodeId="1183589255096" resolveInfo="IElementHolder" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167838362804">
     <property name="name" value="ElementWithType" />
