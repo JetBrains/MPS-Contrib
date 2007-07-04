@@ -89,6 +89,9 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586455493">
       <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183589495374">
+      <link role="intfc" targetNodeId="1183589255096" resolveInfo="IElementHolder" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167590968304">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
@@ -344,6 +347,9 @@
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586327164">
       <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183589599491">
+      <link role="intfc" targetNodeId="1183589255096" resolveInfo="IElementHolder" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1167845523677">
       <property name="name" value="isVertical" />
