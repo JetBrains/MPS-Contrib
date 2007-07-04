@@ -493,5 +493,8 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1183585239137">
     <property name="name" value="IAttributeHolder" />
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1183589255096">
+    <property name="name" value="IElementHolder" />
+  </node>
 </model>
 
