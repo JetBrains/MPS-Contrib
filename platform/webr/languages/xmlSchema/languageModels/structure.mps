@@ -245,6 +245,9 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167697887602">
     <property name="name" value="AttributeDeclaration" />
     <link role="extends" targetNodeId="1167711059994" resolveInfo="AttributeExpression" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183585480915">
+      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1168467754208">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="useAttribute" />

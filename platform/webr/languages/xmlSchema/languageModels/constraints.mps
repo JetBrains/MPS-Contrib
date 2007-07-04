@@ -31,6 +31,29 @@
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486654">
     <link role="concept" targetNodeId="1.1167697887602" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183585492113">
+      <property name="name" value="checkAttributes" />
+      <link role="overridenMethod" targetNodeId="1183585335179" resolveInfo="checkAttributes" />
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183585492115">
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183585531592">
+          <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1183585532393">
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183585531593">
+              <link role="variableDeclaration" targetNodeId="1183585499196" resolveInfo="attributeDeclarations" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.AddElementOperation" id="1183585533834">
+              <node role="argument" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1183585538572" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183585499196">
+        <property name="name" value="attributeDeclarations" />
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183585499197">
+          <link role="elementConcept" targetNodeId="1.1167697887602" />
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183585499198" />
+    </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486655">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178187486656" />
     </node>
