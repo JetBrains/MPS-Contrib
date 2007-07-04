@@ -640,5 +640,24 @@
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183587113752" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183589341047">
+    <link role="concept" targetNodeId="1.1183589255096" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183589342800">
+      <property name="isVirtual" value="true" />
+      <property name="isAbstract" value="true" />
+      <property name="name" value="checkElements" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183589344788" />
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183589342802" />
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183589374368">
+        <property name="name" value="elementDeclarations" />
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183589374369">
+          <link role="elementConcept" targetNodeId="1.1167838236835" />
+        </node>
+      </node>
+    </node>
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183589341048">
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183589341049" />
+    </node>
+  </node>
 </model>
 
