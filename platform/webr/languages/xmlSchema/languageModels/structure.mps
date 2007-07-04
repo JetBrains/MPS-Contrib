@@ -86,9 +86,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167590960646">
     <property name="name" value="TypeExpression" />
     <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586455493">
-      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167590968304">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
@@ -303,9 +300,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167790566663">
     <property name="name" value="ComplexTypeReference" />
     <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183590444734">
-      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
-    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183590717392">
       <link role="intfc" targetNodeId="1183589255096" resolveInfo="IElementHolder" />
     </node>
@@ -332,9 +326,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167794579628">
     <property name="name" value="ContentItem" />
     <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586172961">
-      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
-    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183589796888">
       <link role="intfc" targetNodeId="1183589255096" resolveInfo="IElementHolder" />
     </node>
@@ -351,9 +342,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167795596947">
     <property name="name" value="TypeExpressionList" />
     <link role="extends" targetNodeId="1.1133920641626" />
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586327164">
-      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
-    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183589599491">
       <link role="intfc" targetNodeId="1183589255096" resolveInfo="IElementHolder" />
     </node>
@@ -501,9 +489,6 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="5.1174840272325" />
     </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1183585239137">
-    <property name="name" value="IAttributeHolder" />
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1183589255096">
     <property name="name" value="IElementHolder" />
