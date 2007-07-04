@@ -10,6 +10,8 @@ import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
+import jetbrains.mps.baseLanguage.ext.collections.internal.ICursor;
+import jetbrains.mps.baseLanguage.ext.collections.internal.CursorFactory;
 
 public class ElementUtil {
 
@@ -62,5 +64,39 @@ public class ElementUtil {
     {
     }
     return elementDeclarations;
+  }
+  public static void checkElement(List<SNode> elementDeclarations, SNode elementDeclaration) {
+    if(SNodeOperations.isInstanceOf(elementDeclaration, "webr.xmlSchema.structure.ElementWithContent")) {
+      SNode elementWithContent = elementDeclaration;
+      ElementUtil.checkComplexType(elementDeclarations, SLinkOperations.getTarget(elementWithContent, "complexType", true));
+    } else
+    if(SNodeOperations.isInstanceOf(elementDeclaration, "webr.xmlSchema.structure.ElementWithType")) {
+      SNode elementWithType = elementDeclaration;
+      ElementUtil.checkComplexTypeReference(elementDeclarations, SLinkOperations.getTarget(elementWithType, "complexTypeReference", true));
+    }
+  }
+  public static void checkComplexType(List<SNode> elementDeclarations, SNode complexType) {
+    if((complexType != null)) {
+      ElementUtil.checkTypeExpressionList(elementDeclarations, SLinkOperations.getTarget(complexType, "typeExpressionList", true));
+    }
+  }
+  public static void checkComplexTypeReference(List<SNode> elementDeclarations, SNode complexTypeReference) {
+    ElementUtil.checkComplexType(elementDeclarations, SLinkOperations.getTarget(complexTypeReference, "complextType", false));
+  }
+  public static void checkTypeExpressionList(List<SNode> elementDeclarations, SNode typeExpressionList) {
+    List<SNode> typeExpressions = SLinkOperations.getTargets(typeExpressionList, "typeExpression", true);
+    {
+      ICursor<SNode> _zCursor = CursorFactory.createCursor(typeExpressions);
+      try {
+        while(_zCursor.moveToNext()) {
+          SNode typeExpression = _zCursor.getCurrent();
+          ElementUtil.checkTypeExpression(elementDeclarations, typeExpression);
+        }
+      } finally {
+        _zCursor.release();
+      }
+    }
+  }
+  public static void checkTypeExpression(List<SNode> elementDeclarations, SNode typeExpression) {
   }
 }
