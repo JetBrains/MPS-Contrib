@@ -86,6 +86,9 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167590960646">
     <property name="name" value="TypeExpression" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586455493">
+      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167590968304">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
@@ -281,9 +284,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167711059994">
     <property name="name" value="AttributeExpression" />
     <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183585761670">
-      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1167711069105">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
@@ -309,9 +309,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1167794310821">
     <property name="name" value="ComplexContent" />
     <link role="extends" targetNodeId="1167590960646" resolveInfo="TypeExpression" />
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1183586037639">
-      <link role="intfc" targetNodeId="1183585239137" resolveInfo="IAttributeHolder" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167794765257">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="contentItem" />
