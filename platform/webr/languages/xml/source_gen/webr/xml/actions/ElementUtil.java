@@ -61,7 +61,7 @@ public class ElementUtil {
       }
     } else
     {
-      BehaviorManager.getInstance().invoke(void.class, elementDeclaration, "virtual_checkElements_ed_1183596572563", elementDeclarations);
+      BehaviorManager.getInstance().invoke_old(void.class, elementDeclaration, "virtual_checkElements_ed_1183596572563", elementDeclarations);
     }
     return elementDeclarations;
   }
