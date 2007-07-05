@@ -249,7 +249,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183648217917">
       <property name="name" value="isMixed" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1183648235366" />
+      <link role="overridenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183648217919">
         <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1183648367323">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1183648367324">
@@ -284,6 +284,7 @@
           </node>
         </node>
       </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1183649532849" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486675">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178187486676" />

@@ -19,6 +19,7 @@ import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import webr.xmlSchema.constraints.TypeExpression_Behavior;
 import java.util.Iterator;
 import jetbrains.mps.util.Condition;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
@@ -80,7 +81,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return MixedUtil.isMixed(parentElement);
+          return (parentElement == null) || TypeExpression_Behavior.callVirtual_isMixed_1183649029971(parentElement);
         }
       };
       isMixed = (Boolean)calc.calculate();
@@ -128,7 +129,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return MixedUtil.isMixed(parentElement);
+          return (parentElement == null) || TypeExpression_Behavior.callVirtual_isMixed_1183649029971(parentElement);
         }
       };
       isMixed = (Boolean)calc.calculate();

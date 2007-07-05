@@ -133,12 +133,21 @@
         <property name="name" value="isMixed" />
         <node role="initializerBlock" type="jetbrains.mps.bootstrap.actionsLanguage.QueryFunction_SubstituteVariableInitializer" id="1183566520743">
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183566520744">
-            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183566605347">
-              <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1183566889650">
-                <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]MixedUtil).([StaticMethodDeclaration]isMixed((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
-                <link role="classConcept" extResolveInfo="7.[Classifier]MixedUtil" />
-                <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.SubstituteNodeBuilderVariableReference" id="1183566889651">
-                  <link role="variableDeclaration" targetNodeId="1181874645399" resolveInfo="parentElement" />
+            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183650026311">
+              <node role="expression" type="jetbrains.mps.baseLanguage.OrExpression" id="1183650030503">
+                <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183650036152">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183650037898">
+                    <link role="conceptMethodDeclaration" targetNodeId="10.1183649029971" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.SubstituteNodeBuilderVariableReference" id="1183650035108">
+                    <link role="variableDeclaration" targetNodeId="1181874645399" resolveInfo="parentElement" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183650027121">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_IsNullOperation" id="1183650028743" />
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.SubstituteNodeBuilderVariableReference" id="1183650026312">
+                    <link role="variableDeclaration" targetNodeId="1181874645399" resolveInfo="parentElement" />
+                  </node>
                 </node>
               </node>
             </node>
