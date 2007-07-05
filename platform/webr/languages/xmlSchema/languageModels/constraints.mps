@@ -160,8 +160,8 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183596572563">
       <property name="isVirtual" value="true" />
-      <property name="name" value="checkElements_ed" />
       <property name="isAbstract" value="true" />
+      <property name="name" value="checkElements_ed" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183596588282">
         <property name="name" value="elementDeclarations" />
         <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1183640666610">
@@ -1031,8 +1031,8 @@
     <link role="concept" targetNodeId="1.1167590960646" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183593354196">
       <property name="isVirtual" value="true" />
-      <property name="isAbstract" value="true" />
       <property name="name" value="checkAttributes" />
+      <property name="isAbstract" value="false" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.VoidType" id="1183593356027" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183593354198" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183593366076">
@@ -1044,8 +1044,8 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183591825379">
       <property name="isVirtual" value="true" />
-      <property name="isAbstract" value="false" />
       <property name="name" value="checkElements" />
+      <property name="isAbstract" value="false" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183591836885">
         <property name="name" value="elementDeclarations" />
         <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1183640704203">
@@ -1063,8 +1063,8 @@
     <link role="concept" targetNodeId="1.1167794579628" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183593488411">
       <property name="isVirtual" value="true" />
-      <property name="isAbstract" value="true" />
       <property name="name" value="checkAttributes" />
+      <property name="isAbstract" value="true" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183593497321">
         <property name="name" value="attributeDeclarations" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183593499604">
@@ -1076,8 +1076,8 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183594619757">
       <property name="isVirtual" value="true" />
-      <property name="name" value="checkElements" />
       <property name="isAbstract" value="true" />
+      <property name="name" value="checkElements" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183594630230">
         <property name="name" value="elementDeclarations" />
         <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1183640851519">
