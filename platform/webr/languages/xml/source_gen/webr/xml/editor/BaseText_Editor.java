@@ -4,25 +4,27 @@ package webr.xml.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.EditorCell;
-import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.EditorCell_Error;
-import java.awt.Color;
 
 public class BaseText_Editor extends DefaultNodeEditor {
+
+  private static void setupBasic_ErrorCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1166802888430");
+    editorCell.setDrawBorder(false);
+  }
+  private static void setupLabel_ErrorCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createErrorCell(context, node);
   }
   public EditorCell createErrorCell(EditorContext context, SNode node) {
-    EditorCell_Error editorCell = EditorCell_Error.create(context, node, "baseText");
-    editorCell.setSelectable(true);
-    editorCell.setDrawBorder(false);
-    editorCell.setEditable(true);
-    editorCell.setDrawBrackets(false);
-    editorCell.setBracketsColor(Color.black);
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1166802888430");
-    editorCell.setLayoutConstraint("");
+    EditorCell_Error editorCell = new EditorCell_Error(context, node, "baseText");
+    BaseText_Editor.setupBasic_ErrorCell(editorCell, node, context);
+    BaseText_Editor.setupLabel_ErrorCell(editorCell, node, context);
     return editorCell;
   }
 }

@@ -6,10 +6,8 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import webr.xml.editor.Element_elementDeclaration_elementDeclaration_InlineComponent;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.EditorCell_Label;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -18,6 +16,12 @@ public class Element_elementDeclaration extends AbstractCellProvider {
 
   public  Element_elementDeclaration(SNode node) {
     super(node);
+  }
+
+  private static void setupBasic_ElementDeclarationReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101177299");
+  }
+  private static void setupLabel_ElementDeclarationReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public EditorCell createEditorCell(EditorContext context) {
@@ -30,17 +34,11 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new Element_elementDeclaration_elementDeclaration_InlineComponent());
     EditorCell editorCell = provider.createEditorCell(context);
-    editorCell.setSelectable(true);
-    editorCell.setDrawBorder(false);
-    editorCell.setDrawBrackets(false);
-    editorCell.setBracketsColor(Color.black);
+    Element_elementDeclaration.setupBasic_ElementDeclarationReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
-      EditorCell_Label editorCellLabel = (EditorCell_Label)editorCell;
-      editorCellLabel.setEditable(true);
+      Element_elementDeclaration.setupLabel_ElementDeclarationReferenceCell((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101177299");
-    editorCell.setLayoutConstraint("");
     return editorCell;
   }
   public EditorCell createElementDeclarationReferenceCell(EditorContext context, SNode node) {
@@ -56,7 +54,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
-    } else 
+    } else
     return cellWithRole;
   }
 }
