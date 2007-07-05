@@ -7,10 +7,12 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOpera
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 import java.util.List;
-import java.util.ArrayList;
+import java.util.Set;
+import java.util.HashSet;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
+import java.util.ArrayList;
+import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 
 public class ElementUtil {
 
@@ -54,15 +56,17 @@ public class ElementUtil {
     return schema;
   }
   public static List<SNode> getElementDeclarations(SNode schema, SNode elementDeclaration) {
-    List<SNode> elementDeclarations = new ArrayList<SNode>();
+    Set elementDeclarationSet = new HashSet();
     if((elementDeclaration == null)) {
       if((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
-        ListOperations.addElement(elementDeclarations, SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
+        elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
       }
     } else
     {
-      ElementDeclaration_Behavior.callVirtual_checkElements_ed_1183596572563(elementDeclaration, elementDeclarations);
+      ElementDeclaration_Behavior.callVirtual_checkElements_ed_1183596572563(elementDeclaration, elementDeclarationSet);
     }
+    List<SNode> elementDeclarations = new ArrayList<SNode>();
+    ListOperations.addAllElements(elementDeclarations, elementDeclarationSet);
     return elementDeclarations;
   }
 }
