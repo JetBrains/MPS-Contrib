@@ -110,7 +110,6 @@
       </node>
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167757687265">
-      <property name="actionsFactoryAspectId" value="Content" />
       <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1161371727643" />
       <node role="variable" type="jetbrains.mps.bootstrap.actionsLanguage.SubstituteNodeBuilderVariableDeclaration" id="1181874645399">
