@@ -63,7 +63,7 @@ public class ElementUtil {
       }
     } else
     {
-      ElementDeclaration_Behavior.callVirtual_checkElements_ed_1183596572563(elementDeclaration, elementDeclarationSet);
+      ElementDeclaration_Behavior.checkElements_ed_1183596572563(elementDeclaration, elementDeclarationSet);
     }
     List<SNode> elementDeclarations = new ArrayList<SNode>();
     ListOperations.addAllElements(elementDeclarations, elementDeclarationSet);
