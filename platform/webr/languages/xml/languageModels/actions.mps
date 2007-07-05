@@ -244,6 +244,26 @@
                   </node>
                 </node>
               </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183646128704">
+                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183646128705">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Property_SetOperation" id="1183646128706">
+                    <node role="value" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183646128707">
+                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183646128708">
+                        <link role="conceptMethodDeclaration" targetNodeId="10.1183642787202" />
+                      </node>
+                      <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parameterObject" id="1183646128709" />
+                    </node>
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183646128710">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1183646128711">
+                      <link role="property" targetNodeId="1.1172970532917" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1183646128712">
+                      <link role="variableDeclaration" targetNodeId="1177865452799" resolveInfo="element" />
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1177865454745">
                 <node role="expression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177865454746">
                   <link role="variableDeclaration" targetNodeId="1177865452799" resolveInfo="element" />
