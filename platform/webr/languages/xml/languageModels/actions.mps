@@ -650,7 +650,21 @@
             </node>
           </node>
           <node role="ifFalseStatement" type="jetbrains.mps.baseLanguage.BlockStatement" id="1183582537603">
-            <node role="statements" type="jetbrains.mps.baseLanguage.StatementList" id="1183582537604" />
+            <node role="statements" type="jetbrains.mps.baseLanguage.StatementList" id="1183582537604">
+              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183600318870">
+                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183600319481">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183600324331">
+                    <link role="conceptMethodDeclaration" targetNodeId="10.1183596572563" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1183600331113">
+                      <link role="variableDeclaration" targetNodeId="1183582188853" resolveInfo="elementDeclarations" />
+                    </node>
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183600318871">
+                    <link role="variableDeclaration" targetNodeId="1177868534760" resolveInfo="elementDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183582222062">

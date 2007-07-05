@@ -10,6 +10,7 @@ import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
+import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class ElementUtil {
 
@@ -60,6 +61,7 @@ public class ElementUtil {
       }
     } else
     {
+      BehaviorManager.getInstance().invoke(void.class, elementDeclaration, "virtual_checkElements_ed_1183596572563", elementDeclarations);
     }
     return elementDeclarations;
   }
