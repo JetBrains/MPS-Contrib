@@ -63,6 +63,55 @@ public class QueriesGenerated {
     }
     return result;
   }
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1167757687265(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    final SNode parentElement;
+    final boolean isMixed;
+    {
+      Calculable calc = new Calculable() {
+
+        public Object calculate() {
+          return ElementUtil.getParentElement(parentNode);
+        }
+      };
+      parentElement = (SNode)calc.calculate();
+    }
+    {
+      Calculable calc = new Calculable() {
+
+        public Object calculate() {
+          return MixedUtil.isMixed(parentElement);
+        }
+      };
+      isMixed = (Boolean)calc.calculate();
+    }
+    {
+      ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("webr.xml.structure.Element", operationContext.getScope());
+      Calculable calc = new Calculable() {
+
+        public Object calculate() {
+          SNode schema = ElementUtil.findSchema(parentNode);
+          return ElementUtil.getElementDeclarations(schema, parentElement);
+        }
+      };
+      Iterable<SNode> queryResult = (Iterable)calc.calculate();
+      for(SNode item : queryResult) {
+        result.add(new DefaultChildNodeSubstituteAction(item, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
+
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", null);
+            SLinkOperations.setTarget(element, "elementDeclaration", ((SNode)this.getParameterObject()), false);
+            SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.isEmpty_1183642787202(((SNode)this.getParameterObject()))));
+            return element;
+          }
+          public String getMatchingText(String pattern) {
+            return "<" + SPropertyOperations.getString(((SNode)this.getParameterObject()), "elementName");
+          }
+        });
+      }
+    }
+    return result;
+  }
   public static void removeActionsByCondition_1177863610304(Iterator<INodeSubstituteAction> actions, final SNode parentNode, final SNode currentChild, final SNode childConcept, final IOperationContext operationContext) {
     final SNode parentElement;
     final boolean isMixed;
