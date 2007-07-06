@@ -9,7 +9,6 @@
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="3" modelUID="java.lang@java_stub" />
   <import index="4" modelUID="webr.xml.structure" />
-  <import index="6" modelUID="jetbrains.mps.generator.template@java_stub" />
   <import index="7" modelUID="webr.templateLanguage.structure" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486669">
     <link role="concept" targetNodeId="1.1166472279594" />
@@ -118,6 +117,12 @@
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178596250338">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178596250339" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183733236063">
+    <link role="concept" targetNodeId="1.1183733102434" />
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183733236064">
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183733236065" />
     </node>
   </node>
 </model>
