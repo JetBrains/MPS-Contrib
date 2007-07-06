@@ -177,14 +177,6 @@
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1178592942030">
-    <property name="name" value="IElementReference" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1178593055097">
-      <property name="role" value="element" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167523027466" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1179105519357">
     <property name="name" value="SimpleElement" />
     <link role="extends" targetNodeId="2.1179102053371" />
