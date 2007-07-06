@@ -5,7 +5,7 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
-  <maxImportIndex value="13" />
+  <maxImportIndex value="14" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="2" modelUID="webr.xml.util@java_stub" />
   <import index="3" modelUID="jetbrains.mps.core.structure" />
@@ -16,6 +16,7 @@
   <import index="11" modelUID="webr.xmlInternal.structure" />
   <import index="12" modelUID="java.lang@java_stub" />
   <import index="13" modelUID="webr.xmlSchema.constraints" />
+  <import index="14" modelUID="webr.xml.actions" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1177896211352">
     <link role="concept" targetNodeId="1.1161371727643" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1177896213996">
@@ -439,25 +440,32 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1168383688156">
-            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1168383688157">
+          <node role="statement" type="jetbrains.mps.baseLanguage.LocalVariableDeclarationStatement" id="1183728395312">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1183728395313">
               <property name="name" value="elementDeclarations" />
-              <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1171448986856" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1168383688160">
-                <link role="classConcept" extResolveInfo="2.[Classifier]_ElementUtil" />
-                <link role="baseMethodDeclaration" extResolveInfo="2.static method ([Classifier]_ElementUtil).([StaticMethodDeclaration]getElementDeclarations((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [List, &lt;jetbrains.mps.baseLanguage.types.classifier [SNode]&gt;]))" />
-                <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168383688161">
-                  <link role="variableDeclaration" targetNodeId="1168383163370" resolveInfo="knownElement" />
+              <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1183728395314">
+                <link role="elementConcept" targetNodeId="9.1167838236835" />
+              </node>
+              <node role="initializer" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1183728383076">
+                <link role="baseMethodDeclaration" targetNodeId="14.1183727811067" />
+                <link role="classConcept" targetNodeId="14.1177614157967" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183728386160">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1183728387852">
+                    <link role="link" targetNodeId="1.1167523262932" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1183728385547">
+                    <link role="variableDeclaration" targetNodeId="1168383163370" resolveInfo="element" />
+                  </node>
                 </node>
-                <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1168383688162" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1183728390356" />
               </node>
             </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1168383746640">
             <node role="condition" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1171448995950">
               <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.IsEmptyOperation" id="1171448998969" />
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168383748409">
-                <link role="variableDeclaration" targetNodeId="1168383688157" resolveInfo="elementDeclarations" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1183728403003">
+                <link role="variableDeclaration" targetNodeId="1183728395313" resolveInfo="elementDeclarations" />
               </node>
             </node>
             <node role="ifTrue" type="jetbrains.mps.baseLanguage.StatementList" id="1168383746642">
@@ -484,8 +492,8 @@
                     </node>
                     <node role="rValue" type="jetbrains.mps.baseLanguage.NewExpression" id="1168383759673">
                       <link role="baseMethodDeclaration" extResolveInfo="7.constructor [Classifier]SimpleSearchScope[ConstructorDeclaration] ((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
-                      <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1168383759674">
-                        <link role="variableDeclaration" targetNodeId="1168383688157" resolveInfo="elementDeclarations" />
+                      <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1183728405927">
+                        <link role="variableDeclaration" targetNodeId="1183728395313" resolveInfo="elementDeclarations" />
                       </node>
                     </node>
                   </node>
