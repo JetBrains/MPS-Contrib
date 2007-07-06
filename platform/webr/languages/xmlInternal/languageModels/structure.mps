@@ -202,5 +202,8 @@
       <link role="conceptPropertyDeclaration" targetNodeId="2.1168792704590" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptDeclaration" id="1183733102434">
+    <property name="name" value="IContentRoot" />
+  </node>
 </model>
 
