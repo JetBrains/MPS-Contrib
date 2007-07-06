@@ -91,8 +91,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          SNode schema = ElementUtil.findSchema(parentNode);
-          return ElementUtil.getElementDeclarations(schema, parentElement);
+          return ElementUtil.getElementDeclarations(parentElement, parentNode);
         }
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();

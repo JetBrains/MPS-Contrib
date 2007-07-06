@@ -55,7 +55,8 @@ public class ElementUtil {
     }
     return schema;
   }
-  public static List<SNode> getElementDeclarations(SNode schema, SNode elementDeclaration) {
+  public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node) {
+    SNode schema = ElementUtil.findSchema(node);
     Set elementDeclarationSet = new HashSet();
     if((elementDeclaration == null)) {
       if((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
