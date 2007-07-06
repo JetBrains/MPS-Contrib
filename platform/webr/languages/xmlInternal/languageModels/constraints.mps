@@ -3,9 +3,10 @@
   <language namespace="jetbrains.mps.bootstrap.constraintsLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <maxImportIndex value="8" />
+  <maxImportIndex value="9" />
   <import index="1" modelUID="webr.xmlInternal.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
+  <import index="9" modelUID="webr.xmlSchema.structure" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486669">
     <link role="concept" targetNodeId="1.1166472279594" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486670">
@@ -34,6 +35,15 @@
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1183733236063">
     <link role="concept" targetNodeId="1.1183733102434" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1183736275398">
+      <property name="isVirtual" value="true" />
+      <property name="isAbstract" value="true" />
+      <property name="name" value="getElementDeclaration" />
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1183736277292">
+        <link role="concept" targetNodeId="9.1167838236835" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183736275400" />
+    </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1183733236064">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1183733236065" />
     </node>
