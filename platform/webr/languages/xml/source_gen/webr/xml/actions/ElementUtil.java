@@ -19,8 +19,14 @@ import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 public class ElementUtil {
 
   public static SNode getParentElementDeclaration(SNode node, IScope scope) {
+    return ElementUtil.getParentElementDeclaration(node, scope, true);
+  }
+  public static SNode getParentElementDeclaration(SNode node, IScope scope, boolean includeThis) {
     SNode elementDeclaration = null;
     SNode currentNode = node;
+    if(!(includeThis)) {
+      currentNode = SNodeOperations.getParent(node, null, false, false);
+    }
     while(true) {
       if((currentNode == null)) {
         break;
