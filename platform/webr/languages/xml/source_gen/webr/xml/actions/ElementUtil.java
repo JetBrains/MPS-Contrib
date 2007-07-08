@@ -19,16 +19,17 @@ public class ElementUtil {
 
   public static SNode getParentElement(SNode node) {
     SNode elementDeclaration = null;
+    SNode currentNode = node;
     while(true) {
-      if((node == null)) {
+      if((currentNode == null)) {
         break;
       }
-      if(SNodeOperations.isInstanceOf(node, "webr.xml.structure.Element")) {
-        elementDeclaration = SLinkOperations.getTarget(node, "elementDeclaration", false);
+      if(SNodeOperations.isInstanceOf(currentNode, "webr.xml.structure.Element")) {
+        elementDeclaration = SLinkOperations.getTarget(currentNode, "elementDeclaration", false);
         break;
       }
-      if(SNodeOperations.isInstanceOf(node, "webr.xml.structure.Content")) {
-        SNode content = node;
+      if(SNodeOperations.isInstanceOf(currentNode, "webr.xml.structure.Content")) {
+        SNode content = currentNode;
         elementDeclaration = SequenceOperations.getFirst(SLinkOperations.getConceptLinkTargets(content, "elementForChildren"));
         if((elementDeclaration != null)) {
           break;
@@ -38,7 +39,7 @@ public class ElementUtil {
           break;
         }
       }
-      node = SNodeOperations.getParent(node, null, false, false);
+      currentNode = SNodeOperations.getParent(currentNode, null, false, false);
     }
     if((elementDeclaration == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
