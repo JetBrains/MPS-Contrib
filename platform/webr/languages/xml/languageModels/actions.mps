@@ -289,7 +289,7 @@
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1177614157967">
     <property name="name" value="ElementUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1177614168858">
-      <property name="name" value="getParentElement" />
+      <property name="name" value="getParentElementDeclaration" />
       <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177614172064">
         <link role="concept" targetNodeId="4.1167838236835" />
       </node>

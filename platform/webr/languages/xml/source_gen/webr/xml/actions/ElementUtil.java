@@ -17,7 +17,7 @@ import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 
 public class ElementUtil {
 
-  public static SNode getParentElement(SNode node) {
+  public static SNode getParentElementDeclaration(SNode node) {
     SNode elementDeclaration = null;
     SNode currentNode = node;
     while(true) {
