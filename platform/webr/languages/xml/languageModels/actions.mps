@@ -37,6 +37,10 @@
                     <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElement" />
                     <link role="classConcept" targetNodeId="1177614157967" resolveInfo="ElementUtil" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parentNode" id="1183587839046" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1183915081632">
+                      <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope]))" />
+                      <node role="instance" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_operationContext" id="1183915078844" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -122,6 +126,10 @@
                 <link role="classConcept" targetNodeId="1177614157967" resolveInfo="ElementUtil" />
                 <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElement" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parentNode" id="1181874689120" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1183915091935">
+                  <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope]))" />
+                  <node role="instance" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_operationContext" id="1183915089642" />
+                </node>
               </node>
             </node>
           </node>
@@ -497,6 +505,9 @@
                     <node role="rValue" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183758080552">
                       <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1183758083098">
                         <link role="conceptMethodDeclaration" targetNodeId="11.1183736275398" />
+                        <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1183915328539">
+                          <link role="variableDeclaration" targetNodeId="1183915036504" resolveInfo="scope" />
+                        </node>
                       </node>
                       <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1183758079628">
                         <link role="variableDeclaration" targetNodeId="1183758065192" resolveInfo="contentRoot" />
@@ -536,6 +547,12 @@
       <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1177614202129">
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1177614202130" />
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.ParameterDeclaration" id="1183915036504">
+        <property name="name" value="scope" />
+        <node role="type" type="jetbrains.mps.baseLanguage.ClassifierType" id="1183915067916">
+          <link role="classifier" extResolveInfo="8.[Classifier]IScope" />
+        </node>
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.PublicVisibility" id="1178546172395" />
     </node>

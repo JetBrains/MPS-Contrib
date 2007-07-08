@@ -43,7 +43,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return ElementDeclaration_Behavior.getAttributeDeclarations_1183587644932(ElementUtil.getParentElementDeclaration(parentNode));
+          return ElementDeclaration_Behavior.getAttributeDeclarations_1183587644932(ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope()));
         }
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();
@@ -72,7 +72,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return ElementUtil.getParentElementDeclaration(parentNode);
+          return ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope());
         }
       };
       parentElement = (SNode)calc.calculate();
@@ -119,7 +119,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return ElementUtil.getParentElementDeclaration(parentNode);
+          return ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope());
         }
       };
       parentElement = (SNode)calc.calculate();
