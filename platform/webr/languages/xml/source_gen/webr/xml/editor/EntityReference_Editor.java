@@ -13,6 +13,10 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import java.awt.Color;
+import webr.xmlSchema.editor.XmlColorConstants;
+import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
 public class EntityReference_Editor extends DefaultNodeEditor {
 
@@ -71,7 +75,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   }
   public EditorCell createEntityDeclarationReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new EntityReference_Editor_entityDeclaration_InlineComponent());
+    provider.setAuxiliaryCellProvider(new EntityReference_Editor.EntityReference_Editor_entityDeclaration_InlineComponent());
     EditorCell editorCell = provider.createEditorCell(context);
     EntityReference_Editor.setupBasic_EntityDeclarationReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -96,4 +100,55 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     } else
     return cellWithRole;
   }
+  public static class EntityReference_Editor_entityDeclaration_InlineComponent extends AbstractCellProvider {
+
+    public  EntityReference_Editor_entityDeclaration_InlineComponent() {
+      super();
+    }
+
+    private static void setupBasic_EntityNameCell(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1172960875027");
+    }
+    private static void setupLabel_EntityNameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+      editorCell.getTextLine().setTextColor(EntityReference_Editor.EntityReference_Editor_entityDeclaration_InlineComponent._QueryFunction_Color_1176894100193(node, context));
+    }
+    public static Color _QueryFunction_Color_1176894100193(SNode node, EditorContext editorContext) {
+      return XmlColorConstants.XML_COLOR;
+    }
+
+    public EditorCell createEditorCell(EditorContext context) {
+      return this.createEditorCell(context, this.getSNode());
+    }
+    public EditorCell createEditorCell(EditorContext context, SNode node) {
+      return this.createEntityNameCell(context, node);
+    }
+    public EditorCell createEntityNameCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+      CellProviderWithRole provider = aProvider;
+      provider.setAuxiliaryCellProvider(null);
+      EditorCell editorCell = provider.createEditorCell(context);
+      EntityReference_Editor.EntityReference_Editor_entityDeclaration_InlineComponent.setupBasic_EntityNameCell(editorCell, node, context);
+      if(editorCell instanceof EditorCell_Label) {
+        EntityReference_Editor.EntityReference_Editor_entityDeclaration_InlineComponent.setupLabel_EntityNameCell((EditorCell_Label)editorCell, node, context);
+      }
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+      return editorCell;
+    }
+    public EditorCell createEntityNameCell(EditorContext context, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, context);
+      provider.setRole("entityName");
+      provider.setNoTargetText("");
+      provider.setReadOnly(true);
+      provider.setAllowsEmptyTarget(false);
+      EditorCell cellWithRole = this.createEntityNameCellinternal(context, node, provider);
+      SNode attributeConcept = provider.getRoleAttribute();
+      Class attributeKind = provider.getRoleAttributeClass();
+      if(attributeConcept != null) {
+        IOperationContext opContext = context.getOperationContext();
+        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      } else
+      return cellWithRole;
+    }
+}
+
 }

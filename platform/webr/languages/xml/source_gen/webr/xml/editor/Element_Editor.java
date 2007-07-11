@@ -4,13 +4,13 @@ package webr.xml.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.nodeEditor.EditorCell;
-import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -29,12 +29,6 @@ public class Element_Editor extends DefaultNodeEditor {
   /* package */AbstractCellProvider myElement_elementDeclaration4;
   /* package */AbstractCellProvider myElement_attributeList2;
 
-  public static boolean _QueryFunction_NodeCondition_1167707777768(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(node, "isEmpty");
-  }
-  public static boolean _QueryFunction_NodeCondition_1167707781225(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "contentList", true), "isHorizontal");
-  }
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167707781234");
     editorCell.setDrawBorder(false);
@@ -173,6 +167,12 @@ public class Element_Editor extends DefaultNodeEditor {
   private static void setupLabel_ConstantCell9(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
   private static void setupLabel_ConstantCell10(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+  public static boolean _QueryFunction_NodeCondition_1167707777768(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(node, "isEmpty");
+  }
+  public static boolean _QueryFunction_NodeCondition_1167707781225(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "contentList", true), "isHorizontal");
   }
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {

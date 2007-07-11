@@ -14,6 +14,11 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.MPSFonts;
+import java.awt.Color;
+import webr.xmlSchema.editor.XmlColorConstants;
+import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
 public class Attribute_Editor extends DefaultNodeEditor {
 
@@ -91,7 +96,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
   }
   public EditorCell createAttributeDeclarationReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new Attribute_Editor_attributeDeclaration_InlineComponent());
+    provider.setAuxiliaryCellProvider(new Attribute_Editor.Attribute_Editor_attributeDeclaration_InlineComponent());
     EditorCell editorCell = provider.createEditorCell(context);
     Attribute_Editor.setupBasic_AttributeDeclarationReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -143,4 +148,57 @@ public class Attribute_Editor extends DefaultNodeEditor {
     } else
     return cellWithRole;
   }
+  public static class Attribute_Editor_attributeDeclaration_InlineComponent extends AbstractCellProvider {
+
+    public  Attribute_Editor_attributeDeclaration_InlineComponent() {
+      super();
+    }
+
+    private static void setupBasic_AttributeNameCell(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167701361647");
+      editorCell.setDrawBorder(false);
+      editorCell.setFontType(MPSFonts.BOLD_ITALIC);
+    }
+    private static void setupLabel_AttributeNameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+      editorCell.getTextLine().setTextColor(Attribute_Editor.Attribute_Editor_attributeDeclaration_InlineComponent._QueryFunction_Color_1176894092744(node, context));
+    }
+    public static Color _QueryFunction_Color_1176894092744(SNode node, EditorContext editorContext) {
+      return XmlColorConstants.XML_COLOR;
+    }
+
+    public EditorCell createEditorCell(EditorContext context) {
+      return this.createEditorCell(context, this.getSNode());
+    }
+    public EditorCell createEditorCell(EditorContext context, SNode node) {
+      return this.createAttributeNameCell(context, node);
+    }
+    public EditorCell createAttributeNameCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+      CellProviderWithRole provider = aProvider;
+      provider.setAuxiliaryCellProvider(null);
+      EditorCell editorCell = provider.createEditorCell(context);
+      Attribute_Editor.Attribute_Editor_attributeDeclaration_InlineComponent.setupBasic_AttributeNameCell(editorCell, node, context);
+      if(editorCell instanceof EditorCell_Label) {
+        Attribute_Editor.Attribute_Editor_attributeDeclaration_InlineComponent.setupLabel_AttributeNameCell((EditorCell_Label)editorCell, node, context);
+      }
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+      return editorCell;
+    }
+    public EditorCell createAttributeNameCell(EditorContext context, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, context);
+      provider.setRole("attributeName");
+      provider.setNoTargetText("");
+      provider.setReadOnly(true);
+      provider.setAllowsEmptyTarget(false);
+      EditorCell cellWithRole = this.createAttributeNameCellinternal(context, node, provider);
+      SNode attributeConcept = provider.getRoleAttribute();
+      Class attributeKind = provider.getRoleAttributeClass();
+      if(attributeConcept != null) {
+        IOperationContext opContext = context.getOperationContext();
+        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      } else
+      return cellWithRole;
+    }
+}
+
 }
