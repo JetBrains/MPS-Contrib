@@ -37,19 +37,19 @@ public class QueriesGenerated {
     return HtmlStringUtil.html(SPropertyOperations.getString(node, "text"));
   }
   public static Object propertyMacro_GetPropertyValue_1179110837332(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.isSeparate_string_1179110905432(node);
+    return Content_Behavior.call_isSeparate_string_1179110905432(node);
   }
   public static Object propertyMacro_GetPropertyValue_1179112575400(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return "&" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "entityDeclaration", false), "entityName") + ";";
   }
   public static Object propertyMacro_GetPropertyValue_1179112381192(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.isSeparate_string_1179110905432(node);
+    return Content_Behavior.call_isSeparate_string_1179110905432(node);
   }
   public static Object propertyMacro_GetPropertyValue_1179112825140(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.isSeparate_string_1179110905432(node);
+    return Content_Behavior.call_isSeparate_string_1179110905432(node);
   }
   public static Object propertyMacro_GetPropertyValue_1179113154760(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.isSeparate_string_1179110905432(node);
+    return Content_Behavior.call_isSeparate_string_1179110905432(node);
   }
   public static Object propertyMacro_GetPropertyValue_1179113432099(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return "<" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName");
@@ -58,7 +58,7 @@ public class QueriesGenerated {
     return "</" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName") + ">";
   }
   public static Object propertyMacro_GetPropertyValue_1179113415864(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.isSeparate_string_1179110905432(node);
+    return Content_Behavior.call_isSeparate_string_1179110905432(node);
   }
   public static boolean ifMacro_Condition_1171381345810(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element");

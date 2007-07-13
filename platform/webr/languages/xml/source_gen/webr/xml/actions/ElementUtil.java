@@ -52,7 +52,7 @@ public class ElementUtil {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
       if(SNodeOperations.isInstanceOf(containingRoot, "webr.xmlInternal.structure.IContentRoot")) {
         SNode contentRoot = containingRoot;
-        elementDeclaration = IContentRoot_Behavior.callVirtual_getElementDeclaration_1183736275398(contentRoot, scope);
+        elementDeclaration = IContentRoot_Behavior.call_getElementDeclaration_1183736275398(contentRoot, scope);
       }
     }
     return elementDeclaration;
@@ -80,7 +80,7 @@ public class ElementUtil {
       }
     } else
     {
-      ElementDeclaration_Behavior.checkElements_ed_1183596572563(elementDeclaration, elementDeclarationSet);
+      ElementDeclaration_Behavior.call_checkElements_ed_1183596572563(elementDeclaration, elementDeclarationSet);
     }
     List<SNode> elementDeclarations = new ArrayList<SNode>();
     ListOperations.addAllElements(elementDeclarations, elementDeclarationSet);

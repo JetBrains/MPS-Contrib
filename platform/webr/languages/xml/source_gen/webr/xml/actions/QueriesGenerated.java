@@ -43,7 +43,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return ElementDeclaration_Behavior.getAttributeDeclarations_1183587644932(ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope()));
+          return ElementDeclaration_Behavior.call_getAttributeDeclarations_1183587644932(ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope()));
         }
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();
@@ -81,7 +81,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return (parentElement == null) || TypeExpression_Behavior.callVirtual_isMixed_1183649029971(parentElement);
+          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1183649029971(parentElement);
         }
       };
       isMixed = (Boolean)calc.calculate();
@@ -101,7 +101,7 @@ public class QueriesGenerated {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", null);
             SLinkOperations.setTarget(element, "elementDeclaration", ((SNode)this.getParameterObject()), false);
-            SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.isEmpty_1183642787202(((SNode)this.getParameterObject()))));
+            SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202(((SNode)this.getParameterObject()))));
             return element;
           }
           public String getMatchingText(String pattern) {
@@ -128,7 +128,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return (parentElement == null) || TypeExpression_Behavior.callVirtual_isMixed_1183649029971(parentElement);
+          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1183649029971(parentElement);
         }
       };
       isMixed = (Boolean)calc.calculate();
