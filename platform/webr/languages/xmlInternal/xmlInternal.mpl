@@ -18,6 +18,7 @@
     <moduleRoot path="${mps_home}\platform\webr\languages\xml\xml.mpl" />
     <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
     <moduleRoot path="${mps_home}\platform\webr\languages\xmlSchema\xmlSchema.mpl" />
+    <moduleRoot path="${mps_home}\platform\webr\devkit\webr_languages.devkit" />
   </module>
   <accessoryModels />
   <generators>
@@ -29,6 +30,7 @@
         <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
       </module>
       <external-templates />
+      <mapping-priorities />
     </generator>
   </generators>
   <classPath>
