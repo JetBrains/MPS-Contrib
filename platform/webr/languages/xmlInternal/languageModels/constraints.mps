@@ -14,9 +14,9 @@
       <property name="name" value="usingOld" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1184641376852" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1184641371434">
-        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1184641407727">
-          <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1184641407728">
-            <property name="value" value="true" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1184686232837">
+          <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1184686232838">
+            <property name="value" value="false" />
           </node>
         </node>
       </node>
