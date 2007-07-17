@@ -10,17 +10,6 @@
   <import index="10" modelUID="jetbrains.mps.smodel@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486669">
     <link role="concept" targetNodeId="1.1166472279594" />
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1184641371432">
-      <property name="name" value="usingOld" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1184641376852" />
-      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1184641371434">
-        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1184686232837">
-          <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1184686232838">
-            <property name="value" value="false" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486670">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178187486671" />
     </node>
