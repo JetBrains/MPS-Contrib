@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlInternal.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.core.structure" />
   <import index="2" modelUID="webr.xml.structure" />
   <import index="3" modelUID="webr.xmlInternal.structure" />
   <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" />
   <import index="6" modelUID="webr.xmlSchema.structure" />
+  <import index="7" modelUID="webr.gtext.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1165761580958">
     <property name="name" value="StatementElement" />
     <link role="extends" targetNodeId="2.1161371727643" />
