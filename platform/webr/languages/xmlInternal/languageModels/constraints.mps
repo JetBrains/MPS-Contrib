@@ -10,6 +10,17 @@
   <import index="10" modelUID="jetbrains.mps.smodel@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486669">
     <link role="concept" targetNodeId="1.1166472279594" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1184641371432">
+      <property name="name" value="usingOld" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1184641376852" />
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1184641371434">
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1184641407727">
+          <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1184641407728">
+            <property name="value" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486670">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178187486671" />
     </node>
@@ -17,7 +28,7 @@
       <link role="applicableProperty" targetNodeId="2.1169194664001" />
       <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.ConstraintFunction_PropertyGetter" id="1167755491603">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167755491604">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1167755493370">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1184641323645">
             <node role="expression" type="jetbrains.mps.baseLanguage.PlusExpression" id="1167755501375">
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.StringLiteral" id="1167755504863">
                 <property name="value" value=".xml" />
