@@ -7,7 +7,7 @@
   <language namespace="jetbrains.mps.bootstrap.helgins" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
-  <maxImportIndex value="22" />
+  <maxImportIndex value="23" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" />
   <import index="3" modelUID="jetbrains.mps.core.structure" />
@@ -28,6 +28,7 @@
   <import index="20" modelUID="jetbrains.mps.ide.progress@java_stub" />
   <import index="21" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <import index="22" modelUID="jetbrains.mps.findUsages@java_stub" />
+  <import index="23" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.actions@java_stub" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.RTransformHintSubstituteActionsBuilder" id="1169657550853">
@@ -614,14 +615,25 @@
       <property name="name" value="isInstanceOfPeriod" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1172502168471" />
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172502164825">
-        <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1175769045385">
-          <node role="expression" type="jetbrains.mps.baseLanguage.LocalStaticMethodCall" id="1175769053941">
-            <link role="baseMethodDeclaration" targetNodeId="1175768616289" resolveInfo="isInstanceOf" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1175769057054">
-              <link role="variableDeclaration" targetNodeId="1172502184831" resolveInfo="node" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.CommentedStatementsBlock" id="1185544576176">
+          <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1185544534672">
+            <node role="expression" type="jetbrains.mps.baseLanguage.LocalStaticMethodCall" id="1185544534673">
+              <link role="baseMethodDeclaration" targetNodeId="1175768616289" resolveInfo="isInstanceOf" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1185544534674">
+                <link role="variableDeclaration" targetNodeId="1172502184831" resolveInfo="node" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalStaticFieldReference" id="1185544534675">
+                <link role="variableDeclaration" targetNodeId="1175767635707" resolveInfo="periodType" />
+              </node>
             </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalStaticFieldReference" id="1175769062795">
-              <link role="variableDeclaration" targetNodeId="1175767635707" resolveInfo="periodType" />
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1185544585147">
+          <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1185544670925">
+            <link role="baseMethodDeclaration" extResolveInfo="23.static method ([Classifier]PeriodTypeHackUtil).([StaticMethodDeclaration]isInstanceOfPeriod((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+            <link role="classConcept" extResolveInfo="23.[Classifier]PeriodTypeHackUtil" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.ParameterReference" id="1185544674879">
+              <link role="variableDeclaration" targetNodeId="1172502184831" resolveInfo="node" />
             </node>
           </node>
         </node>
