@@ -3,9 +3,6 @@
   <structure>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
   </structure>
-  <typeSystem>
-    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.types" />
-  </typeSystem>
   <helginsTypeSystem>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.helgins" />
   </helginsTypeSystem>
