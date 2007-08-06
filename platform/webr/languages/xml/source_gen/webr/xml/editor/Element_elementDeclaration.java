@@ -25,18 +25,22 @@ public class Element_elementDeclaration extends AbstractCellProvider {
   private static void setupBasic_ElementDeclarationReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101177299");
   }
+
   private static void setupLabel_ElementDeclarationReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
+
 
   public EditorCell createEditorCell(EditorContext context) {
     return this.createEditorCell(context, this.getSNode());
   }
+
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createElementDeclarationReferenceCell(context, node);
   }
+
   public EditorCell createElementDeclarationReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new Element_elementDeclaration.Element_elementDeclaration_elementDeclaration_InlineComponent());
+    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline2());
     EditorCell editorCell = provider.createEditorCell(context);
     Element_elementDeclaration.setupBasic_ElementDeclarationReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -45,6 +49,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
+
   public EditorCell createElementDeclarationReferenceCell(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("elementDeclaration");
@@ -61,9 +66,10 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     } else
     return cellWithRole;
   }
-  public static class Element_elementDeclaration_elementDeclaration_InlineComponent extends AbstractCellProvider {
 
-    public  Element_elementDeclaration_elementDeclaration_InlineComponent() {
+  public static class _Inline2 extends AbstractCellProvider {
+
+    public  _Inline2() {
       super();
     }
 
@@ -71,30 +77,36 @@ public class Element_elementDeclaration extends AbstractCellProvider {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101183990");
       editorCell.setFontType(MPSFonts.BOLD);
     }
+
     private static void setupLabel_ElementNameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
-      editorCell.getTextLine().setTextColor(Element_elementDeclaration.Element_elementDeclaration_elementDeclaration_InlineComponent._QueryFunction_Color_1179101240819(node, context));
+      editorCell.getTextLine().setTextColor(Element_elementDeclaration._Inline2._QueryFunction_Color_1179101240819(node, context));
     }
+
     public static Color _QueryFunction_Color_1179101240819(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
 
+
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
     }
+
     public EditorCell createEditorCell(EditorContext context, SNode node) {
       return this.createElementNameCell(context, node);
     }
+
     public EditorCell createElementNameCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      Element_elementDeclaration.Element_elementDeclaration_elementDeclaration_InlineComponent.setupBasic_ElementNameCell(editorCell, node, context);
+      Element_elementDeclaration._Inline2.setupBasic_ElementNameCell(editorCell, node, context);
       if(editorCell instanceof EditorCell_Label) {
-        Element_elementDeclaration.Element_elementDeclaration_elementDeclaration_InlineComponent.setupLabel_ElementNameCell((EditorCell_Label)editorCell, node, context);
+        Element_elementDeclaration._Inline2.setupLabel_ElementNameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
+
     public EditorCell createElementNameCell(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("elementName");
@@ -111,6 +123,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
       } else
       return cellWithRole;
     }
+
 }
 
 }

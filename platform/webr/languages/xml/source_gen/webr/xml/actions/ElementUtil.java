@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import java.util.ArrayList;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
@@ -21,6 +22,7 @@ public class ElementUtil {
   public static SNode getParentElementDeclaration(SNode node, IScope scope) {
     return ElementUtil.getParentElementDeclaration(node, scope, true);
   }
+
   public static SNode getParentElementDeclaration(SNode node, IScope scope, boolean includeThis) {
     SNode elementDeclaration = null;
     SNode currentNode = node;
@@ -57,6 +59,7 @@ public class ElementUtil {
     }
     return elementDeclaration;
   }
+
   public static SNode findSchema(SNode node) {
     SNode schema = null;
     SNode element = SNodeOperations.getAncestor(node, "webr.xml.structure.Element", true, false);
@@ -71,12 +74,17 @@ public class ElementUtil {
     }
     return schema;
   }
-  public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node) {
+
+  public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node, IScope scope) {
     SNode schema = ElementUtil.findSchema(node);
     Set elementDeclarationSet = new HashSet();
     if((elementDeclaration == null)) {
       if((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
         elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
+      } else
+      {
+        List<SNode> elementDeclarations = SConceptOperations.findConceptInstances(SConceptOperations.findConceptDeclaration("webr.xmlSchema.structure.ElementDeclaration"), scope);
+        elementDeclarationSet.addAll(elementDeclarations);
       }
     } else
     {
@@ -86,4 +94,5 @@ public class ElementUtil {
     ListOperations.addAllElements(elementDeclarations, elementDeclarationSet);
     return elementDeclarations;
   }
+
 }

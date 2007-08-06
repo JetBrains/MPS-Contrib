@@ -22,13 +22,16 @@ public class Text_Editor extends DefaultNodeEditor {
     editorCell.setFontType(MPSFonts.BOLD);
     editorCell.putUserObject(EditorCell.ATTRACTS_FOCUS_POLICY, EditorCell.ATTRACTS_FOCUS);
   }
+
   private static void setupLabel_TextCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
     editorCell.getTextLine().setTextColor(MPSColors.DARK_GREEN);
   }
 
+
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createTextCell(context, node);
   }
+
   public EditorCell createTextCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
@@ -40,6 +43,7 @@ public class Text_Editor extends DefaultNodeEditor {
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
+
   public EditorCell createTextCell(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("text");
@@ -56,4 +60,5 @@ public class Text_Editor extends DefaultNodeEditor {
     } else
     return cellWithRole;
   }
+
 }

@@ -31,11 +31,13 @@ public class QueriesGenerated {
       SLinkOperations.addChild(newNode, "text", sampleNode);
     }
   }
+
   public static void nodeFactory_NodeSetup_ContentList_1178622500723(SNode newNode, SNode sampleNode, SNode enclosingNode, SModel model) {
     if(SNodeOperations.isInstanceOf(sampleNode, "webr.xml.structure.Content")) {
       SLinkOperations.addChild(newNode, "content", sampleNode);
     }
   }
+
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_BaseAttribute_1167699332639(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
@@ -45,6 +47,7 @@ public class QueriesGenerated {
         public Object calculate() {
           return ElementDeclaration_Behavior.call_getAttributeDeclarations_1183587644932(ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope()));
         }
+
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();
       for(SNode item : queryResult) {
@@ -56,14 +59,17 @@ public class QueriesGenerated {
             SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
             return attribute;
           }
+
           public String getMatchingText(String pattern) {
             return SPropertyOperations.getString(((SNode)this.getParameterObject()), "attributeName");
           }
+
         });
       }
     }
     return result;
   }
+
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1167757687265(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     final SNode parentElement;
@@ -74,6 +80,7 @@ public class QueriesGenerated {
         public Object calculate() {
           return ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope());
         }
+
       };
       parentElement = (SNode)calc.calculate();
     }
@@ -83,6 +90,7 @@ public class QueriesGenerated {
         public Object calculate() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1183649029971(parentElement);
         }
+
       };
       isMixed = (Boolean)calc.calculate();
     }
@@ -91,8 +99,9 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return ElementUtil.getElementDeclarations(parentElement, parentNode);
+          return ElementUtil.getElementDeclarations(parentElement, parentNode, operationContext.getScope());
         }
+
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();
       for(SNode item : queryResult) {
@@ -104,14 +113,17 @@ public class QueriesGenerated {
             SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202(((SNode)this.getParameterObject()))));
             return element;
           }
+
           public String getMatchingText(String pattern) {
             return "<" + SPropertyOperations.getString(((SNode)this.getParameterObject()), "elementName");
           }
+
         });
       }
     }
     return result;
   }
+
   public static void removeActionsByCondition_1177863610304(Iterator<INodeSubstituteAction> actions, final SNode parentNode, final SNode currentChild, final SNode childConcept, final IOperationContext operationContext) {
     final SNode parentElement;
     final boolean isMixed;
@@ -121,6 +133,7 @@ public class QueriesGenerated {
         public Object calculate() {
           return ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope());
         }
+
       };
       parentElement = (SNode)calc.calculate();
     }
@@ -130,6 +143,7 @@ public class QueriesGenerated {
         public Object calculate() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1183649029971(parentElement);
         }
+
       };
       isMixed = (Boolean)calc.calculate();
     }
@@ -144,10 +158,12 @@ public class QueriesGenerated {
         public boolean met(Object object) {
           return SConceptOperations.isExactly(childConcept, "webr.xml.structure.Content") && SConceptOperations.isAssignableFrom(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), concept) && !(isMixed);
         }
+
       };
       if(cond.met(null)) {
         actions.remove();
       }
     }
   }
+
 }

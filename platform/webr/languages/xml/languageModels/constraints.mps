@@ -458,6 +458,7 @@
                   </node>
                 </node>
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptParameter_ReferentSearchScope_enclosingNode" id="1183728390356" />
+                <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1186416054295" />
               </node>
             </node>
           </node>

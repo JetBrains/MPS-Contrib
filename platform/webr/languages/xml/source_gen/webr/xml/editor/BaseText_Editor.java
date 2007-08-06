@@ -15,16 +15,20 @@ public class BaseText_Editor extends DefaultNodeEditor {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1166802888430");
     editorCell.setDrawBorder(false);
   }
+
   private static void setupLabel_ErrorCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
+
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createErrorCell(context, node);
   }
+
   public EditorCell createErrorCell(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "baseText");
     BaseText_Editor.setupBasic_ErrorCell(editorCell, node, context);
     BaseText_Editor.setupLabel_ErrorCell(editorCell, node, context);
     return editorCell;
   }
+
 }
