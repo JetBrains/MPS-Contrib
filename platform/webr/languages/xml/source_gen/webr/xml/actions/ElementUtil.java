@@ -7,7 +7,6 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
-import webr.xmlInternal.constraints.IContentRoot_Behavior;
 import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
@@ -49,13 +48,6 @@ public class ElementUtil {
         }
       }
       currentNode = SNodeOperations.getParent(currentNode, null, false, false);
-    }
-    if((elementDeclaration == null)) {
-      SNode containingRoot = SNodeOperations.getContainingRoot(node);
-      if(SNodeOperations.isInstanceOf(containingRoot, "webr.xmlInternal.structure.IContentRoot")) {
-        SNode contentRoot = containingRoot;
-        elementDeclaration = IContentRoot_Behavior.call_getElementDeclaration_1183736275398(contentRoot, scope);
-      }
     }
     return elementDeclaration;
   }
