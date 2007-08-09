@@ -14,10 +14,8 @@
   <import index="4" modelUID="org.joda.time@java_stub" />
   <import index="5" modelUID="jetbrains.mps.generator@java_stub" />
   <import index="6" modelUID="jetbrains.mps.baseLanguage@java_stub" />
-  <import index="7" modelUID="jetbrains.mps.typesystem@java_stub" />
   <import index="8" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.actions" />
   <import index="9" modelUID="org.joda.time.base@java_stub" />
-  <import index="10" modelUID="jetbrains.mps.baseLanguage.types@java_stub" />
   <import index="13" modelUID="jetbrains.mps.baseLanguage.structure@java_stub" />
   <import index="14" modelUID="jetbrains.mps.smodel@java_stub" />
   <import index="15" modelUID="jetbrains.mps.helgins.inference@java_stub" />
