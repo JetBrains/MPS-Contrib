@@ -92,19 +92,16 @@
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173736559743">
-          <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1173736577808">
-            <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]INodeBuilder).([InstanceMethodDeclaration]getTargetNode() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
-            <node role="instance" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1173736566606">
-              <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]ITemplateGenerator).([InstanceMethodDeclaration]findNodeBuilderForSource((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [INodeBuilder]))" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173736573522">
-                <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1173736573523">
-                <property name="value" value="FormatTableClass" />
-              </node>
-              <node role="instance" type="jetbrains.mps.baseLanguage.ParameterReference" id="1173736559744">
-                <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
-              </node>
+          <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1173736566606">
+            <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]ITemplateGenerator).([InstanceMethodDeclaration]findOutputNodeByInputNodeAndMappingName((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1173736573522">
+              <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
+            </node>
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1173736573523">
+              <property name="value" value="FormatTableClass" />
+            </node>
+            <node role="instance" type="jetbrains.mps.baseLanguage.ParameterReference" id="1173736559744">
+              <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
             </node>
           </node>
         </node>
