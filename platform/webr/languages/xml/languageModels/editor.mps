@@ -942,6 +942,7 @@
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179101183990">
           <property name="fontStyle" value="BOLD" />
           <property name="textFgColor" value="query" />
+          <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="31.1167838788027" />
           <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1179101240819">
             <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1179101240820">
