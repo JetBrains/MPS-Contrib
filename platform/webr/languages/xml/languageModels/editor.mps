@@ -928,7 +928,7 @@
     <link role="conceptDeclaration" targetNodeId="1.1167523027466" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1177879924827">
       <property name="vertical" value="false" />
-      <link role="relationDeclaration" targetNodeId="1.1177879757622" />
+      <link role="relationDeclaration" targetNodeId="1.1188768803246" />
       <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1177879946031" />
     </node>
   </node>

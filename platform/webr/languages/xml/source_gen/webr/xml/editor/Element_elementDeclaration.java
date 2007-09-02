@@ -4,26 +4,22 @@ package webr.xml.editor;
 
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
-import java.awt.Color;
-import jetbrains.mps.nodeEditor.EditorContext;
-import webr.xmlSchema.editor.XmlColorConstants;
 import jetbrains.mps.nodeEditor.EditorCell;
+import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.MPSFonts;
+import java.awt.Color;
+import webr.xmlSchema.editor.XmlColorConstants;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
 public class Element_elementDeclaration extends AbstractCellProvider {
 
   public  Element_elementDeclaration(SNode node) {
     super(node);
-  }
-
-  public static Color _QueryFunction_Color_1179101240819(SNode node, EditorContext editorContext) {
-    return XmlColorConstants.XML_COLOR;
   }
 
   private static void setupBasic_ElementDeclarationReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
@@ -83,7 +79,11 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     }
 
     private static void setupLabel_ElementNameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
-      editorCell.getTextLine().setTextColor(Element_elementDeclaration._QueryFunction_Color_1179101240819(node, context));
+      editorCell.getTextLine().setTextColor(Element_elementDeclaration._Inline2._QueryFunction_Color_1179101240819(node, context));
+    }
+
+    public static Color _QueryFunction_Color_1179101240819(SNode node, EditorContext editorContext) {
+      return XmlColorConstants.XML_COLOR;
     }
 
 
