@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.util.Calculable;
+import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
@@ -45,7 +46,12 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return ElementDeclaration_Behavior.call_getAttributeDeclarations_1183587644932(ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope()));
+          List<SNode> attributeDeclarations = new ArrayList<SNode>();
+          SNode parentElementDeclaration = ElementUtil.getParentElementDeclaration(parentNode, operationContext.getScope());
+          if((parentElementDeclaration != null)) {
+            ListOperations.addAllElements(attributeDeclarations, ElementDeclaration_Behavior.call_getAttributeDeclarations_1183587644932(parentElementDeclaration));
+          }
+          return attributeDeclarations;
         }
 
       };
