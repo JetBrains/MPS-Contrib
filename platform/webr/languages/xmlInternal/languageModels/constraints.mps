@@ -19,8 +19,16 @@
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1167755491604">
           <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1184641323645">
             <node role="expression" type="jetbrains.mps.baseLanguage.PlusExpression" id="1167755501375">
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.StringLiteral" id="1167755504863">
-                <property name="value" value=".xml" />
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.PlusExpression" id="1188753410404">
+                <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1188753417563">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1188753418332">
+                    <link role="property" targetNodeId="1.1188753321461" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1188753417078" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.StringLiteral" id="1167755504863">
+                  <property name="value" value="." />
+                </node>
               </node>
               <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1167755496826">
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.PropertyGetter_FunctionParm_node" id="1167755496357" />

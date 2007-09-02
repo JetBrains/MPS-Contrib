@@ -47,6 +47,10 @@
       <property name="name" value="fileName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1188753321461">
+      <property name="name" value="extension" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1167755779835">
       <property name="role" value="schema" />
       <property name="sourceCardinality" value="0..1" />

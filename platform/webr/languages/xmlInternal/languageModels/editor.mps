@@ -94,10 +94,8 @@
           <property name="layoutConstraint" value="punctuation" />
           <property name="text" value="." />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167755292112">
-          <property name="drawBorder" value="false" />
-          <property name="layoutConstraint" value="punctuation" />
-          <property name="text" value="xml" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1188753335822">
+          <link role="relationDeclaration" targetNodeId="1.1188753321461" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167755685266">
           <property name="drawBorder" value="false" />
