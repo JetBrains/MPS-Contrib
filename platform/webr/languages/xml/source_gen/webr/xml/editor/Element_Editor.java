@@ -21,13 +21,13 @@ import jetbrains.mps.nodeEditor.EditorManager;
 public class Element_Editor extends DefaultNodeEditor {
 
   /* package */AbstractCellProvider myElement_elementDeclaration;
-  /* package */AbstractCellProvider myElement_attributeList;
+  /* package */AbstractCellProvider myBaseElement_attributeList;
   /* package */AbstractCellProvider myElement_elementDeclaration1;
   /* package */AbstractCellProvider myElement_elementDeclaration2;
-  /* package */AbstractCellProvider myElement_attributeList1;
+  /* package */AbstractCellProvider myBaseElement_attributeList1;
   /* package */AbstractCellProvider myElement_elementDeclaration3;
   /* package */AbstractCellProvider myElement_elementDeclaration4;
-  /* package */AbstractCellProvider myElement_attributeList2;
+  /* package */AbstractCellProvider myBaseElement_attributeList2;
 
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1167707781234");
@@ -38,7 +38,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101350941");
   }
 
-  private static void setupBasic_Element_attributeListCell(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_BaseElement_attributeListCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1177880060739");
   }
 
@@ -104,7 +104,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101325357");
   }
 
-  private static void setupBasic_Element_attributeListCell1(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_BaseElement_attributeListCell1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1177880053862");
   }
 
@@ -152,7 +152,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101313080");
   }
 
-  private static void setupBasic_Element_attributeListCell2(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_BaseElement_attributeListCell2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1177880043960");
   }
 
@@ -259,7 +259,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstantCell(context, node, "<"));
     editorCell.addEditorCell(this.createElement_elementDeclarationCell(context, node));
-    editorCell.addEditorCell(this.createElement_attributeListCell(context, node));
+    editorCell.addEditorCell(this.createBaseElement_attributeListCell(context, node));
     editorCell.addEditorCell(this.createConstantCell1(context, node, ">"));
     return editorCell;
   }
@@ -307,7 +307,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstantCell5(context, node, "<"));
     editorCell.addEditorCell(this.createElement_elementDeclarationCell2(context, node));
-    editorCell.addEditorCell(this.createElement_attributeListCell1(context, node));
+    editorCell.addEditorCell(this.createBaseElement_attributeListCell1(context, node));
     editorCell.addEditorCell(this.createConstantCell6(context, node, ">"));
     editorCell.addEditorCell(this.createContentListCell1(context, node));
     editorCell.addEditorCell(this.createConstantCell7(context, node, "</"));
@@ -324,7 +324,7 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstantCell9(context, node, "<"));
     editorCell.addEditorCell(this.createElement_elementDeclarationCell4(context, node));
-    editorCell.addEditorCell(this.createElement_attributeListCell2(context, node));
+    editorCell.addEditorCell(this.createBaseElement_attributeListCell2(context, node));
     editorCell.addEditorCell(this.createConstantCell10(context, node, "/>"));
     return editorCell;
   }
@@ -340,14 +340,14 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createElement_attributeListCell(EditorContext context, SNode node) {
-    if(this.myElement_attributeList == null) {
-      this.myElement_attributeList = new Element_attributeList(node);
+  public EditorCell createBaseElement_attributeListCell(EditorContext context, SNode node) {
+    if(this.myBaseElement_attributeList == null) {
+      this.myBaseElement_attributeList = new BaseElement_attributeList(node);
     }
-    EditorCell componentCell = this.myElement_attributeList.createEditorCell(context);
+    EditorCell componentCell = this.myBaseElement_attributeList.createEditorCell(context);
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.addEditorCell(componentCell);
-    Element_Editor.setupBasic_Element_attributeListCell(editorCell, node, context);
+    Element_Editor.setupBasic_BaseElement_attributeListCell(editorCell, node, context);
     return editorCell;
   }
 
@@ -373,14 +373,14 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createElement_attributeListCell1(EditorContext context, SNode node) {
-    if(this.myElement_attributeList1 == null) {
-      this.myElement_attributeList1 = new Element_attributeList(node);
+  public EditorCell createBaseElement_attributeListCell1(EditorContext context, SNode node) {
+    if(this.myBaseElement_attributeList1 == null) {
+      this.myBaseElement_attributeList1 = new BaseElement_attributeList(node);
     }
-    EditorCell componentCell = this.myElement_attributeList1.createEditorCell(context);
+    EditorCell componentCell = this.myBaseElement_attributeList1.createEditorCell(context);
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.addEditorCell(componentCell);
-    Element_Editor.setupBasic_Element_attributeListCell1(editorCell, node, context);
+    Element_Editor.setupBasic_BaseElement_attributeListCell1(editorCell, node, context);
     return editorCell;
   }
 
@@ -406,14 +406,14 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createElement_attributeListCell2(EditorContext context, SNode node) {
-    if(this.myElement_attributeList2 == null) {
-      this.myElement_attributeList2 = new Element_attributeList(node);
+  public EditorCell createBaseElement_attributeListCell2(EditorContext context, SNode node) {
+    if(this.myBaseElement_attributeList2 == null) {
+      this.myBaseElement_attributeList2 = new BaseElement_attributeList(node);
     }
-    EditorCell componentCell = this.myElement_attributeList2.createEditorCell(context);
+    EditorCell componentCell = this.myBaseElement_attributeList2.createEditorCell(context);
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.addEditorCell(componentCell);
-    Element_Editor.setupBasic_Element_attributeListCell2(editorCell, node, context);
+    Element_Editor.setupBasic_BaseElement_attributeListCell2(editorCell, node, context);
     return editorCell;
   }
 

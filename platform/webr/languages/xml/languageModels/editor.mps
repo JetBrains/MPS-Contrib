@@ -924,8 +924,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.EditorComponentDeclaration" id="1177879858526">
-    <property name="name" value="Element_attributeList" />
-    <link role="conceptDeclaration" targetNodeId="1.1167523027466" />
+    <property name="name" value="BaseElement_attributeList" />
+    <link role="conceptDeclaration" targetNodeId="1.1179102053371" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNodeList" id="1177879924827">
       <property name="vertical" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1188768803246" />
