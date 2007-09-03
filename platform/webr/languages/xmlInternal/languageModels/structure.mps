@@ -217,5 +217,10 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1188784974534">
+    <property name="name" value="NamespaceDeclarationList" />
+    <property name="rootable" value="true" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+  </node>
 </model>
 
