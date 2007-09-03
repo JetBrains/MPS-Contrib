@@ -220,7 +220,27 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1188784974534">
     <property name="name" value="NamespaceDeclarationList" />
     <property name="rootable" value="true" />
+    <property name="package" value="namespace" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1188785450643">
+      <property name="metaClass" value="aggregation" />
+      <property name="sourceCardinality" value="1..n" />
+      <property name="role" value="namespaceDeclaration" />
+      <link role="target" targetNodeId="1188785181334" resolveInfo="NamespaceDeclaration" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1188785181334">
+    <property name="package" value="namespace" />
+    <property name="name" value="NamespaceDeclaration" />
+    <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1188785299695">
+      <property name="name" value="prefix" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1188785434390">
+      <property name="name" value="uri" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
   </node>
 </model>
 
