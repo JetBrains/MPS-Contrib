@@ -4,13 +4,13 @@ package webr.xml.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.nodeEditor.EditorCell;
+import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.CellLayout_Vertical;
@@ -28,6 +28,18 @@ public class ContentList_Editor extends DefaultNodeEditor {
   /* package */AbstractCellListHandler myContentListHandler_ver2_;
   /* package */AbstractCellListHandler myContentListHandler_hor2_;
   /* package */AbstractCellListHandler myContentListHandler_hor1_;
+
+  public static boolean _QueryFunction_NodeCondition_1166301006370(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(node, "isHorizontal");
+  }
+
+  public static boolean _QueryFunction_NodeCondition_1166303669051(SNode node, EditorContext editorContext, IScope scope) {
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.ContentList");
+  }
+
+  public static boolean _QueryFunction_NodeCondition_1166316630613(SNode node, EditorContext editorContext, IScope scope) {
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.BaseElement");
+  }
 
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1166304045425");
@@ -132,18 +144,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Hor1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  public static boolean _QueryFunction_NodeCondition_1166301006370(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(node, "isHorizontal");
-  }
-
-  public static boolean _QueryFunction_NodeCondition_1166303669051(SNode node, EditorContext editorContext, IScope scope) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.ContentList");
-  }
-
-  public static boolean _QueryFunction_NodeCondition_1166316630613(SNode node, EditorContext editorContext, IScope scope) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.BaseElement");
   }
 
 
