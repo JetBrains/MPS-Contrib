@@ -49,6 +49,11 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1167531070757" resolveInfo="ElementReference" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1189988930673">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="defaultNamespaceDeclaration" />
+      <link role="target" targetNodeId="1189887674514" resolveInfo="NamespaceDeclaration" />
+    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.InterfaceConceptReference" id="1173487629108">
       <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
