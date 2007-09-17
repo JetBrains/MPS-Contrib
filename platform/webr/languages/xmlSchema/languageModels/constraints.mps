@@ -4,11 +4,12 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <maxImportIndex value="4" />
+  <maxImportIndex value="5" />
   <import index="1" modelUID="webr.xmlSchema.structure" />
   <import index="2" modelUID="jetbrains.mps.core.structure" />
   <import index="3" modelUID="jetbrains.mps.smodel.search@java_stub" />
   <import index="4" modelUID="java.util@java_stub" />
+  <import index="5" modelUID="java.lang@java_stub" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptBehavior" id="1178187486639">
     <link role="concept" targetNodeId="1.1172950047361" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486640">
@@ -285,6 +286,22 @@
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.BooleanType" id="1183649532849" />
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1189990438446">
+      <property name="name" value="getQualifiedName" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.ClassifierType" id="1189990516949">
+        <link role="classifier" extResolveInfo="5.[Classifier]String" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1189990438448">
+        <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1189990529294">
+          <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1189990529952">
+            <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SPropertyAccess" id="1189990530924">
+              <link role="property" targetNodeId="1.1167838788027" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1189990529295" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptConstructorDeclaration" id="1178187486675">
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178187486676" />
