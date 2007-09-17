@@ -8,13 +8,10 @@
   <maxImportIndex value="11" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="4" modelUID="webr.xmlSchema.structure" />
-  <import index="5" modelUID="java.lang@java_stub" />
   <import index="6" modelUID="webr.xmlInternal.structure" />
-  <import index="7" modelUID="webr.xml.actions@java_stub" />
   <import index="8" modelUID="jetbrains.mps.smodel@java_stub" />
   <import index="9" modelUID="java.util@java_stub" />
   <import index="10" modelUID="webr.xmlSchema.constraints" />
-  <import index="11" modelUID="webr.xmlInternal.constraints" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActions" id="1167519968820">
     <property name="name" value="xml_nodeSubstitute" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.NodeSubstituteActionsBuilder" id="1167699332639">
@@ -821,7 +818,7 @@
                     <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.LocalVariableDeclaration" id="1186415874643">
                       <property name="name" value="elementDeclarations" />
                       <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1186415874644">
-                        <link role="elementConcept" />
+                        <link role="elementConcept" targetNodeId="4.1167838236835" />
                       </node>
                       <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1186415845512">
                         <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Concept_FindInstances" id="1186415862125">
