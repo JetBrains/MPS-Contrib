@@ -4,17 +4,9 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <maxImportIndex value="38" />
   <import index="1" modelUID="webr.xml.structure" />
-  <import index="2" modelUID="jetbrains.mps.core.structure" />
-  <import index="14" modelUID="java.lang@java_stub" />
-  <import index="29" modelUID="jetbrains.mps.smodel@java_stub" />
-  <import index="30" modelUID="webr.xml.editor" />
   <import index="31" modelUID="webr.xmlSchema.structure" />
-  <import index="33" modelUID="jetbrains.mps.nodeEditor@java_stub" />
-  <import index="34" modelUID="webr.xml.util@java_stub" />
-  <import index="36" modelUID="webr.xmlInternal.structure" />
   <import index="37" modelUID="webr.xmlSchema.editor" />
   <import index="38" modelUID="webr.xml.constraints" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
@@ -1017,20 +1009,9 @@
       <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1179101177300">
         <link role="conceptDeclaration" targetNodeId="31.1167838236835" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179101183990">
-          <property name="fontStyle" value="BOLD" />
-          <property name="textFgColor" value="query" />
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="31.1167838788027" />
-          <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1179101240819">
-            <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1179101240820">
-              <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1179101245635">
-                <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1179101245636">
-                  <link role="classifier" targetNodeId="37.1178296794013" />
-                  <link role="variableDeclaration" targetNodeId="37.1178296808264" />
-                </node>
-              </node>
-            </node>
-          </node>
+          <link role="styleClass" targetNodeId="37.1189991358183" />
         </node>
       </node>
     </node>
