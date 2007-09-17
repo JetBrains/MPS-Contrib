@@ -600,7 +600,7 @@
               <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1177880060739">
-              <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="Element_attributeList" />
+              <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="BaseElement_attributeList" />
             </node>
             <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167707781239">
               <property name="drawBorder" value="false" />
@@ -646,7 +646,7 @@
             <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1177880053862">
-            <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="Element_attributeList" />
+            <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="BaseElement_attributeList" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167707781255">
             <property name="drawBorder" value="false" />
@@ -680,7 +680,7 @@
           <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Component" id="1177880043960">
-          <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="Element_attributeList" />
+          <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="BaseElement_attributeList" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1167707847271">
           <property name="drawBorder" value="false" />

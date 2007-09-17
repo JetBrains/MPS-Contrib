@@ -47,11 +47,11 @@
                     <link role="concept" targetNodeId="4.1167838236835" />
                   </node>
                   <node role="initializer" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1183587839045">
-                    <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElement" />
+                    <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElementDeclaration" />
                     <link role="classConcept" targetNodeId="1177614157967" resolveInfo="ElementUtil" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parentNode" id="1183587839046" />
                     <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1183915081632">
-                      <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope]))" />
+                      <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope())" />
                       <node role="instance" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_operationContext" id="1183915078844" />
                     </node>
                   </node>
@@ -169,10 +169,10 @@
             <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1181874687619">
               <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1181874689119">
                 <link role="classConcept" targetNodeId="1177614157967" resolveInfo="ElementUtil" />
-                <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElement" />
+                <link role="baseMethodDeclaration" targetNodeId="1177614168858" resolveInfo="getParentElementDeclaration" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parentNode" id="1181874689120" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1183915091935">
-                  <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope]))" />
+                  <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope())" />
                   <node role="instance" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_operationContext" id="1183915089642" />
                 </node>
               </node>
@@ -257,7 +257,7 @@
                   </node>
                   <node role="actualArgument" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_parentNode" id="1183728167892" />
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1186416041420">
-                    <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope]))" />
+                    <link role="baseMethodDeclaration" extResolveInfo="8.method ([Classifier]IOperationContext).([InstanceMethodDeclaration]getScope())" />
                     <node role="instance" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_operationContext" id="1186416039195" />
                   </node>
                 </node>
@@ -776,7 +776,7 @@
               <node role="ifTrue" type="jetbrains.mps.baseLanguage.StatementList" id="1183728199183">
                 <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1183728199184">
                   <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1183728199185">
-                    <link role="baseMethodDeclaration" extResolveInfo="9.method ([Classifier]Set).([InstanceMethodDeclaration]add((jetbrains.mps.baseLanguage.types.any/jetbrains.mps.baseLanguage.types.any)) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                    <link role="baseMethodDeclaration" extResolveInfo="9.method ([Classifier]Set).([InstanceMethodDeclaration]add((jetbrains.mps.baseLanguage.types.any/jetbrains.mps.baseLanguage.types.any)))" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1183728199186">
                       <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.SLinkAccess" id="1183728199187">
                         <link role="link" targetNodeId="4.1167531079758" />
@@ -834,7 +834,7 @@
                   </node>
                   <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1186415881585">
                     <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1186415886292">
-                      <link role="baseMethodDeclaration" extResolveInfo="9.method ([Classifier]Set).([InstanceMethodDeclaration]addAll((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Collection, &lt;? extends jetbrains.mps.baseLanguage.types.any&gt;])) : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+                      <link role="baseMethodDeclaration" extResolveInfo="9.method ([Classifier]Set).([InstanceMethodDeclaration]addAll((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Collection, &lt;? extends jetbrains.mps.baseLanguage.types.any&gt;])))" />
                       <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1186415881586">
                         <link role="variableDeclaration" targetNodeId="1183728199177" resolveInfo="elementDeclarationSet" />
                       </node>

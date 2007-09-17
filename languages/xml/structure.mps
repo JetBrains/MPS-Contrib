@@ -26,25 +26,25 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1107866778860">
     <property name="name" value="Element" />
-    <link role="extends" targetNodeId="1107866767486" />
+    <link role="extends" targetNodeId="1107866767486" resolveInfo="ElementPart" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1107866791721">
       <property name="sourceCardinality" value="0..n" />
       <property name="targetCardinality" value="1" />
       <property name="role" value="attribute" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1107866742882" />
+      <link role="target" targetNodeId="1107866742882" resolveInfo="Attribute" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1107866800972">
       <property name="sourceCardinality" value="0..n" />
       <property name="targetCardinality" value="1" />
       <property name="role" value="content" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1107866767486" />
+      <link role="target" targetNodeId="1107866767486" resolveInfo="ElementPart" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1107866821377">
     <property name="name" value="Text" />
-    <link role="extends" targetNodeId="1107866767486" />
+    <link role="extends" targetNodeId="1107866767486" resolveInfo="ElementPart" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1107866834687">
       <property name="name" value="text" />
       <link role="dataType" targetNodeId="2.1082983041843" />
@@ -62,7 +62,7 @@
       <property name="targetCardinality" value="1" />
       <property name="role" value="rootElement" />
       <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="1107866778860" />
+      <link role="target" targetNodeId="1107866778860" resolveInfo="Element" />
     </node>
   </node>
 </model>

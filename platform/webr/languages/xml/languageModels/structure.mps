@@ -152,7 +152,7 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="attribute" />
       <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="3.1165235274815" />
+      <link role="target" targetNodeId="1165235274815" resolveInfo="BaseAttribute" />
     </node>
   </node>
 </model>

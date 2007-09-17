@@ -105,7 +105,7 @@
       <property name="metaClass" value="aggregation" />
       <property name="sourceCardinality" value="0..n" />
       <property name="role" value="conditionPair" />
-      <link role="target" targetNodeId="1169563444535" resolveInfo="ConditionalPair" />
+      <link role="target" targetNodeId="1169563444535" resolveInfo="TokenConditionalPair" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1169563773421">
       <property name="value" value="switch" />
@@ -234,7 +234,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171966255769">
     <property name="name" value="ToJodaDateTimeOperation" />
     <property name="package" value="operation.convert" />
-    <link role="extends" targetNodeId="1178205163518" resolveInfo="UnaryDotDateTimeOperation" />
+    <link role="extends" targetNodeId="1178205163518" resolveInfo="DotDateTimeOperation" />
     <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1171966277582">
       <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
       <node role="target" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171966324413">
@@ -260,7 +260,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171966683378">
     <property name="name" value="ToJavaDateOperation" />
     <property name="package" value="operation.convert" />
-    <link role="extends" targetNodeId="1178205163518" resolveInfo="UnaryDotDateTimeOperation" />
+    <link role="extends" targetNodeId="1178205163518" resolveInfo="DotDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1171966733449">
       <property name="value" value=".javaDate" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -286,7 +286,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1171967275008">
     <property name="name" value="ToJavaCalendarOperation" />
     <property name="package" value="operation.convert" />
-    <link role="extends" targetNodeId="1178205163518" resolveInfo="UnaryDotDateTimeOperation" />
+    <link role="extends" targetNodeId="1178205163518" resolveInfo="DotDateTimeOperation" />
     <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.AggregationConceptLink" id="1171967301042">
       <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
       <node role="target" type="jetbrains.mps.baseLanguage.ClassifierType" id="1171967304404">
@@ -565,7 +565,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173878485361">
     <property name="name" value="IsNullOperation" />
     <property name="package" value="operation.compare" />
-    <link role="extends" targetNodeId="1178205163518" resolveInfo="UnaryDotDateTimeOperation" />
+    <link role="extends" targetNodeId="1178205163518" resolveInfo="DotDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173878568306">
       <property name="value" value=".isNull" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -589,7 +589,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1173879281236">
     <property name="name" value="IsNotNullOperation" />
     <property name="package" value="operation.compare" />
-    <link role="extends" targetNodeId="1178205163518" resolveInfo="UnaryDotDateTimeOperation" />
+    <link role="extends" targetNodeId="1178205163518" resolveInfo="DotDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1173879281237">
       <property name="value" value=".isNotNull" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -636,7 +636,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.EnumerationDataTypeDeclaration" id="1173975646059">
     <property name="name" value="DateFormatVisibility" />
     <property name="package" value="format" />
-    <link role="defaultMember" targetNodeId="1173975646060" resolveInfo="public" />
+    <link role="defaultMember" targetNodeId="1173975646060" resolveInfo="PUBLIC" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.EnumerationMemberDeclaration" id="1173975646060">
       <property name="name" value="PUBLIC" />

@@ -123,7 +123,7 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172066155438">
         <property name="drawBorder" value="false" />
         <property name="selectable" value="false" />
-        <link role="actionMap" targetNodeId="1172066082833" resolveInfo="FormatExression_KeyMap" />
+        <link role="actionMap" targetNodeId="1172066082833" resolveInfo="FormatExression_ActionMap" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172066163903">
           <property name="drawBorder" value="false" />
           <property name="text" value="#" />
@@ -132,7 +132,7 @@
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1169557643590" />
           <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172066155440">
-            <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
+            <link role="conceptDeclaration" targetNodeId="28.1173884671039" />
             <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172066155441">
               <property name="textFgColor" value="DARK_MAGENTA" />
               <property name="readOnly" value="true" />
@@ -158,7 +158,7 @@
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1169563300146" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1169563396906">
-          <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
+          <link role="conceptDeclaration" targetNodeId="28.1173884671039" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1169563404674">
             <property name="textFgColor" value="DARK_MAGENTA" />
             <property name="readOnly" value="true" />
@@ -191,7 +191,7 @@
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1169563482193" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1169639470144">
-          <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
+          <link role="conceptDeclaration" targetNodeId="28.1173884671039" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1169639481256">
             <property name="textFgColor" value="DARK_MAGENTA" />
             <property name="readOnly" value="true" />
@@ -324,7 +324,7 @@
         <property name="layoutConstraint" value="punctuation" />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="2.1137473891462" />
-        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_KeyMap" />
+        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
       </node>
     </node>
   </node>
@@ -340,7 +340,7 @@
         <property name="layoutConstraint" value="punctuation" />
         <property name="text" value=".datetime" />
         <property name="drawBorder" value="false" />
-        <link role="actionMap" targetNodeId="1172065886141" resolveInfo="ToDateTimeOperation_KeyMap" />
+        <link role="actionMap" targetNodeId="1172065886141" resolveInfo="ToDateTimeOperation_ActionMap" />
       </node>
     </node>
   </node>
@@ -424,7 +424,7 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1172074946226">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172074898284" />
-        <link role="actionMap" targetNodeId="1178373724152" resolveInfo="DateTimeCompareOperation_deleteLeftOperand_actionMap" />
+        <link role="actionMap" targetNodeId="1178373724152" resolveInfo="DateTimeCompareOperation_leftOperand_actionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172075395293">
         <property name="drawBorder" value="false" />
@@ -433,7 +433,7 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1172075403775">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172074912819" />
-        <link role="actionMap" targetNodeId="1178373822388" resolveInfo="DateTimeCompareOperation_deleteRightOperand_actionMap" />
+        <link role="actionMap" targetNodeId="1178373822388" resolveInfo="DateTimeCompareOperation_rightOperand_actionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1178372495685">
         <property name="vertical" value="false" />
@@ -523,12 +523,12 @@
         <property name="editable" value="false" />
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="2.1137473891462" />
-        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_KeyMap" />
+        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1172324326201">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172324147302" />
-        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_KeyMap" />
+        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172324326202">
           <link role="conceptDeclaration" targetNodeId="28.1172074318583" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172324331032">
@@ -551,12 +551,12 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172328034447">
         <property name="drawBorder" value="false" />
         <property name="text" value="." />
-        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_KeyMap" />
+        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefCell" id="1172328037606">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172327896967" />
-        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_KeyMap" />
+        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172328037607">
           <link role="conceptDeclaration" targetNodeId="28.1172074318583" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172328041860">
@@ -568,7 +568,7 @@
         </node>
         <node role="menuDescriptor" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuDescriptor" id="1178207336179">
           <node role="cellMenuPart" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_CellMenuComponent" id="1178207341258">
-            <link role="cellMenuComponent" targetNodeId="1178204334891" resolveInfo="DateTimeDotMenu" />
+            <link role="cellMenuComponent" targetNodeId="1178204334891" resolveInfo="UnaryDateTimeOperation_menuComponent" />
           </node>
         </node>
       </node>
@@ -584,7 +584,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1172331403511">
         <property name="drawBorder" value="false" />
-        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_KeyMap" />
+        <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1172331403512">
           <property name="drawBorder" value="false" />
           <property name="text" value="with" />
@@ -768,7 +768,7 @@
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172683726790" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1172684363616">
-          <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
+          <link role="conceptDeclaration" targetNodeId="28.1173884671039" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1172684370133">
             <property name="textFgColor" value="DARK_MAGENTA" />
             <property name="readOnly" value="true" />
@@ -798,7 +798,7 @@
         <link role="actionMap" targetNodeId="1173966103686" resolveInfo="DateTimePropertyFormatToken_ActionMap" />
         <link role="relationDeclaration" targetNodeId="1.1173966637440" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1173960064071">
-          <link role="conceptDeclaration" targetNodeId="28.1173953509960" />
+          <link role="conceptDeclaration" targetNodeId="28.1174042847309" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1173960070558">
             <property name="drawBorder" value="false" />
             <property name="readOnly" value="true" />
@@ -852,7 +852,7 @@
           <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1173966637440" />
           <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1173966273923">
-            <link role="conceptDeclaration" targetNodeId="28.1173953509960" />
+            <link role="conceptDeclaration" targetNodeId="28.1174042847309" />
             <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1173966278877">
               <property name="drawBorder" value="false" />
               <property name="readOnly" value="true" />
@@ -1340,7 +1340,7 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1178209472355">
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1178209461289">
                   <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1178208084691">
-                    <link role="variableDeclaration" targetNodeId="1178208033638" resolveInfo="conepts" />
+                    <link role="variableDeclaration" targetNodeId="1178208033638" resolveInfo="concepts" />
                   </node>
                   <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.SelectOperation" id="1178209828928">
                     <node role="selector" type="jetbrains.mps.baseLanguage.ext.collections.lang.SelectorBlock" id="1178209828929">
@@ -1388,10 +1388,10 @@
                   <link role="concept" targetNodeId="1.1178205163518" />
                 </node>
                 <node role="initializer" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1178209192825">
-                  <link role="baseMethodDeclaration" extResolveInfo="44.method ([Classifier]INodeAdapter).([InstanceMethodDeclaration]getNode() : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SNode]))" />
+                  <link role="baseMethodDeclaration" extResolveInfo="44.method ([Classifier]INodeAdapter).([InstanceMethodDeclaration]getNode())" />
                   <node role="instance" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1178209137536">
                     <link role="classConcept" extResolveInfo="44.[Classifier]SModelUtil_new" />
-                    <link role="baseMethodDeclaration" extResolveInfo="44.static method ([Classifier]SModelUtil_new).([StaticMethodDeclaration]instantiateConceptDeclaration((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [ConceptDeclaration]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SModel]), (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [INodeAdapter]))" />
+                    <link role="baseMethodDeclaration" extResolveInfo="44.static method ([Classifier]SModelUtil_new).([StaticMethodDeclaration]instantiateConceptDeclaration((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [ConceptDeclaration]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SModel]), (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)))" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_AbstractGroup_parameterObject" id="1178209440231" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_model" id="1178209171896" />
                     <node role="actualArgument" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1178209174438">
@@ -1440,7 +1440,7 @@
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178208164758">
             <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178208473474">
               <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1178208480400">
-                <link role="baseMethodDeclaration" extResolveInfo="44.static method ([Classifier]SModelUtil_new).([StaticMethodDeclaration]getStringConceptProperty((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [AbstractConceptDeclaration]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+                <link role="baseMethodDeclaration" extResolveInfo="44.static method ([Classifier]SModelUtil_new).([StaticMethodDeclaration]getStringConceptProperty((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [AbstractConceptDeclaration]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])))" />
                 <link role="classConcept" extResolveInfo="44.[Classifier]SModelUtil_new" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_AbstractGroup_parameterObject" id="1178209416757" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1178208545575">
@@ -1455,7 +1455,7 @@
           <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1178208570478">
             <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1178208571458">
               <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1178208571459">
-                <link role="baseMethodDeclaration" extResolveInfo="44.static method ([Classifier]SModelUtil_new).([StaticMethodDeclaration]getStringConceptProperty((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [AbstractConceptDeclaration]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+                <link role="baseMethodDeclaration" extResolveInfo="44.static method ([Classifier]SModelUtil_new).([StaticMethodDeclaration]getStringConceptProperty((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [AbstractConceptDeclaration]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])))" />
                 <link role="classConcept" extResolveInfo="44.[Classifier]SModelUtil_new" />
                 <node role="actualArgument" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_AbstractGroup_parameterObject" id="1178209424875" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1178208571463">
@@ -1585,7 +1585,7 @@
         <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
         <node role="menuDescriptor" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuDescriptor" id="1178205938737">
           <node role="cellMenuPart" type="jetbrains.mps.bootstrap.editorLanguage.CellMenuPart_CellMenuComponent" id="1178205944520">
-            <link role="cellMenuComponent" targetNodeId="1178204334891" resolveInfo="DateTimeDotMenu" />
+            <link role="cellMenuComponent" targetNodeId="1178204334891" resolveInfo="UnaryDateTimeOperation_menuComponent" />
           </node>
         </node>
       </node>

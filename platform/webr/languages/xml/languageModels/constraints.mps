@@ -82,7 +82,7 @@
               </node>
             </node>
             <node role="leftExpression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1177896333642">
-              <link role="baseMethodDeclaration" extResolveInfo="10.method ([Classifier]SNode).([InstanceMethodDeclaration]isRoot() : (jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean))" />
+              <link role="baseMethodDeclaration" extResolveInfo="10.method ([Classifier]SNode).([InstanceMethodDeclaration]isRoot())" />
               <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1177896328164">
                 <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
               </node>
@@ -99,7 +99,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1179110905434">
         <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1179110930094">
           <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1179110933504">
-            <link role="baseMethodDeclaration" extResolveInfo="12.static method ([Classifier]String).([StaticMethodDeclaration]valueOf((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+            <link role="baseMethodDeclaration" extResolveInfo="12.static method ([Classifier]String).([StaticMethodDeclaration]valueOf((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)))" />
             <link role="classConcept" extResolveInfo="12.[Classifier]String" />
             <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1179419283451">
               <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.ThisNodeExpression" id="1179110936492" />
@@ -190,7 +190,7 @@
               <node role="type" type="jetbrains.mps.baseLanguage.IntegerType" id="1175116113676" />
               <node role="initializer" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1175116824730">
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175116202843">
-                  <link role="variableDeclaration" targetNodeId="1175116202841" resolveInfo="content" />
+                  <link role="variableDeclaration" targetNodeId="1175116202841" resolveInfo="contents" />
                 </node>
                 <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.GetSizeOperation" id="1175116826590" />
               </node>
@@ -199,7 +199,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.IfStatement" id="1175116130820">
             <node role="condition" type="jetbrains.mps.baseLanguage.EqualsExpression" id="1175116135152">
               <node role="leftExpression" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1175116133323">
-                <link role="variableDeclaration" targetNodeId="1175116113675" resolveInfo="contentCount" />
+                <link role="variableDeclaration" targetNodeId="1175116113675" resolveInfo="contentSize" />
               </node>
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1175116136623">
                 <property name="value" value="0" />
@@ -329,7 +329,7 @@
           </node>
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1187014621970">
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1190026820547">
         <link role="elementConcept" targetNodeId="1.1161371727643" />
       </node>
     </node>
@@ -382,7 +382,7 @@
                   </node>
                   <node role="rValue" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1175041319602">
                     <link role="classConcept" extResolveInfo="7.[Classifier]SModelSearchUtil_new" />
-                    <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]SModelSearchUtil_new).([StaticMethodDeclaration]createModelAndImportedModelsScope((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SModel]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [ISearchScope]))" />
+                    <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]SModelSearchUtil_new).([StaticMethodDeclaration]createModelAndImportedModelsScope((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SModel]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])))" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_model" id="1175041322557" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1175041324667" />
                   </node>
@@ -516,7 +516,7 @@
                   </node>
                   <node role="rValue" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1168383799853">
                     <link role="classConcept" extResolveInfo="7.[Classifier]SModelSearchUtil_new" />
-                    <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]SModelSearchUtil_new).([StaticMethodDeclaration]createModelAndImportedModelsScope((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SModel]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [ISearchScope]))" />
+                    <link role="baseMethodDeclaration" extResolveInfo="7.static method ([Classifier]SModelSearchUtil_new).([StaticMethodDeclaration]createModelAndImportedModelsScope((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [SModel]), (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [IScope])))" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_model" id="1168383801229" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.sharedConcepts.ConceptFunctionParameter_scope" id="1168383803059" />
                   </node>
@@ -570,7 +570,7 @@
           </node>
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1187710062644">
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeListType" id="1190026820548">
         <link role="elementConcept" targetNodeId="1.1161371727643" />
       </node>
     </node>

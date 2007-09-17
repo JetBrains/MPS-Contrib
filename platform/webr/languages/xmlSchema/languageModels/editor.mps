@@ -73,7 +73,7 @@
             <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176495162227">
               <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176495166306">
                 <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1176495170465">
-                  <link role="baseMethodDeclaration" extResolveInfo="38.static method ([Classifier]HyperlinkUtil).([StaticMethodDeclaration]getHyperlinkComponent((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [JComponent]))" />
+                  <link role="baseMethodDeclaration" extResolveInfo="38.static method ([Classifier]HyperlinkUtil).([StaticMethodDeclaration]getHyperlinkComponent((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])))" />
                   <link role="classConcept" extResolveInfo="38.[Classifier]HyperlinkUtil" />
                   <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1176495173545">
                     <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1176495172263" />
@@ -222,7 +222,7 @@
       <property name="drawBorder" value="false" />
       <link role="relationDeclaration" targetNodeId="1.1167531079758" />
       <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1167531095074">
-        <link role="conceptDeclaration" targetNodeId="1.1167512696010" />
+        <link role="conceptDeclaration" targetNodeId="1.1167838236835" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1167531098904">
           <property name="drawBorder" value="false" />
           <property name="fontStyle" value="BOLD" />
@@ -831,7 +831,7 @@
               <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1176495136464">
                 <node role="statement" type="jetbrains.mps.baseLanguage.ReturnStatement" id="1176495144246">
                   <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1176495148937">
-                    <link role="baseMethodDeclaration" extResolveInfo="38.static method ([Classifier]HyperlinkUtil).([StaticMethodDeclaration]getHyperlinkComponent((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [JComponent]))" />
+                    <link role="baseMethodDeclaration" extResolveInfo="38.static method ([Classifier]HyperlinkUtil).([StaticMethodDeclaration]getHyperlinkComponent((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String])))" />
                     <link role="classConcept" extResolveInfo="38.[Classifier]HyperlinkUtil" />
                     <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1176495153865">
                       <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1176495151485" />

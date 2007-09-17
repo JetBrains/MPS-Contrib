@@ -140,7 +140,7 @@
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1173975665472">
           <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1173975747548">
             <node role="expression" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1173975789056">
-              <link role="baseMethodDeclaration" extResolveInfo="11.static method ([Classifier]Boolean).([StaticMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [String]))" />
+              <link role="baseMethodDeclaration" extResolveInfo="11.static method ([Classifier]Boolean).([StaticMethodDeclaration]toString((jetbrains.mps.baseLanguage.types.boolean/jetbrains.mps.baseLanguage.types.boolean)))" />
               <link role="classConcept" extResolveInfo="11.[Classifier]Boolean" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1173975795355">
                 <property name="value" value="true" />
@@ -214,7 +214,7 @@
               </node>
               <node role="initializer" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1172492778076">
                 <link role="classConcept" extResolveInfo="4.[Classifier]JavaModelUtil_new" />
-                <link role="baseMethodDeclaration" extResolveInfo="4.static method ([Classifier]JavaModelUtil_new).([StaticMethodDeclaration]findClassifier((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Class])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Classifier]))" />
+                <link role="baseMethodDeclaration" extResolveInfo="4.static method ([Classifier]JavaModelUtil_new).([StaticMethodDeclaration]findClassifier((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Class])))" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.ClassifierClassExpression" id="1172492778077">
                   <link role="classifier" extResolveInfo="9.[Classifier]Period" />
                 </node>
@@ -234,7 +234,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1189555211227">
                   <link role="baseMethodDeclaration" extResolveInfo="3.method ([Classifier]BaseAdapter).([InstanceMethodDeclaration]getNode())" />
                   <node role="instance" type="jetbrains.mps.baseLanguage.LocalVariableReference" id="1189555211228">
-                    <link role="variableDeclaration" targetNodeId="12.1189555118496" />
+                    <link role="variableDeclaration" targetNodeId="1189555118496" resolveInfo="classifier_" />
                   </node>
                 </node>
               </node>
@@ -270,7 +270,7 @@
               </node>
               <node role="initializer" type="jetbrains.mps.baseLanguage.StaticMethodCall" id="1172157616866">
                 <link role="classConcept" extResolveInfo="4.[Classifier]JavaModelUtil_new" />
-                <link role="baseMethodDeclaration" extResolveInfo="4.static method ([Classifier]JavaModelUtil_new).([StaticMethodDeclaration]findClassifier((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Class])) : (jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Classifier]))" />
+                <link role="baseMethodDeclaration" extResolveInfo="4.static method ([Classifier]JavaModelUtil_new).([StaticMethodDeclaration]findClassifier((jetbrains.mps.baseLanguage.types.classifier/jetbrains.mps.baseLanguage.types.classifier [Class])))" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.ClassifierClassExpression" id="1172157616867">
                   <link role="classifier" extResolveInfo="9.[Classifier]DateTimeFieldType" />
                 </node>
