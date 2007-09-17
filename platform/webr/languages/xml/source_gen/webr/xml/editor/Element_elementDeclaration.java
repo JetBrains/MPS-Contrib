@@ -12,7 +12,11 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import webr.xmlSchema.editor.XmlSchema_StyleSheet;
-import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
+import jetbrains.mps.nodeEditor.ModelAccessor;
+import jetbrains.mps.nodeEditor.EditorCell_Property;
+import jetbrains.mps.nodeEditor.EditorCellAction;
+import jetbrains.mps.nodeEditor.CellAction_Empty;
+import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 
 public class Element_elementDeclaration extends AbstractCellProvider {
 
@@ -71,12 +75,12 @@ public class Element_elementDeclaration extends AbstractCellProvider {
       super();
     }
 
-    private static void setupBasic_ElementNameCell(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1179101183990");
+    private static void setupBasic_CellModel_ModelAccess(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1189991811005");
       XmlSchema_StyleSheet.XML_ELEMENT.apply(editorCell);
     }
 
-    private static void setupLabel_ElementNameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_CellModel_ModelAccess(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 
@@ -85,36 +89,34 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createElementNameCell(context, node);
+      return this.createCellModel_ModelAccess(context, node);
     }
 
-    public EditorCell createElementNameCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
-      EditorCell editorCell = provider.createEditorCell(context);
-      Element_elementDeclaration._Inline2.setupBasic_ElementNameCell(editorCell, node, context);
-      if(editorCell instanceof EditorCell_Label) {
-        Element_elementDeclaration._Inline2.setupLabel_ElementNameCell((EditorCell_Label)editorCell, node, context);
-      }
-      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    public EditorCell createCellModel_ModelAccess(EditorContext context, SNode node) {
+      ModelAccessor modelAccessor = this._modelAcessorFactory_1189991811005(context, node);
+      EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
+      Element_elementDeclaration._Inline2.setupBasic_CellModel_ModelAccess(editorCell, node, context);
+      Element_elementDeclaration._Inline2.setupLabel_CellModel_ModelAccess(editorCell, node, context);
+      editorCell.setDefaultText("");
+      editorCell.setAction(EditorCellAction.DELETE, new CellAction_Empty());
       return editorCell;
     }
 
-    public EditorCell createElementNameCell(EditorContext context, SNode node) {
-      CellProviderWithRole provider = new PropertyCellProvider(node, context);
-      provider.setRole("elementName");
-      provider.setNoTargetText("");
-      provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
-      EditorCell cellWithRole = this.createElementNameCellinternal(context, node, provider);
-      SNode attributeConcept = provider.getRoleAttribute();
-      Class attributeKind = provider.getRoleAttributeClass();
-      if(attributeConcept != null) {
-        IOperationContext opContext = context.getOperationContext();
-        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
-      } else
-      return cellWithRole;
+    public ModelAccessor _modelAcessorFactory_1189991811005(final EditorContext editorContext, final SNode node) {
+      return new ModelAccessor() {
+
+        public String getText() {
+          return ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(node);
+        }
+
+        public void setText(String text) {
+        }
+
+        public boolean isValidText(String text) {
+          return true;
+        }
+
+      };
     }
 
 }

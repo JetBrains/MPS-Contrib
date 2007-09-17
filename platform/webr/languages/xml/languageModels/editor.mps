@@ -4,11 +4,12 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <maxImportIndex value="38" />
+  <maxImportIndex value="39" />
   <import index="1" modelUID="webr.xml.structure" />
   <import index="31" modelUID="webr.xmlSchema.structure" />
   <import index="37" modelUID="webr.xmlSchema.editor" />
   <import index="38" modelUID="webr.xml.constraints" />
+  <import index="39" modelUID="webr.xmlSchema.constraints" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
@@ -1008,10 +1009,34 @@
       <link role="relationDeclaration" targetNodeId="1.1167523262932" />
       <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.InlineEditorComponent" id="1179101177300">
         <link role="conceptDeclaration" targetNodeId="31.1167838236835" />
-        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1179101183990">
-          <property name="readOnly" value="true" />
-          <link role="relationDeclaration" targetNodeId="31.1167838788027" />
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_ModelAccess" id="1189991811005">
           <link role="styleClass" targetNodeId="37.1189991358183" />
+          <node role="modelAcessor" type="jetbrains.mps.bootstrap.editorLanguage.ModelAccessor" id="1189991811006">
+            <node role="getter" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_ModelAccess_Getter" id="1189991811007">
+              <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1189991811008">
+                <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1189991823248">
+                  <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1189991823859">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_ConceptMethodCall" id="1189991826175">
+                      <link role="conceptMethodDeclaration" targetNodeId="39.1189990438446" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.ConceptFunctionParameter_node" id="1189991823249" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="setter" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_ModelAccess_Setter" id="1189991811009">
+              <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1189991811010" />
+            </node>
+            <node role="validator" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_ModelAccess_Validator" id="1189991811011">
+              <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1189991811012">
+                <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1189991906099">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.BooleanConstant" id="1189991906100">
+                    <property name="value" value="true" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
