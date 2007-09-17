@@ -5,11 +5,7 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <maxImportIndex value="43" />
   <import index="1" modelUID="webr.xmlSchema.structure" />
-  <import index="2" modelUID="jetbrains.mps.core.structure" />
-  <import index="7" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
   <import index="38" modelUID="jetbrains.mps.ide.browser@java_stub" />
-  <import index="39" modelUID="jetbrains.mps.nodeEditor@java_stub" />
-  <import index="42" modelUID="webr.xml.util@java_stub" />
   <import index="43" modelUID="java.awt@java_stub" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1167512717589">
     <link role="conceptDeclaration" targetNodeId="1.1167512696010" />
@@ -942,6 +938,28 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1189887935357">
         <property name="text" value="&quot;" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.StyleSheet" id="1189991321651">
+    <property name="name" value="XmlSchema" />
+    <node role="styleClass" type="jetbrains.mps.bootstrap.editorLanguage.StyleSheetClass" id="1189991358183">
+      <property name="name" value="xmlElement" />
+      <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.ForegroundColorStyleSheetItem" id="1189991399935">
+        <property name="color" value="query" />
+        <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.QueryFunction_Color" id="1189991412577">
+          <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1189991412578">
+            <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1189991446520">
+              <node role="expression" type="jetbrains.mps.baseLanguage.StaticFieldReference" id="1189991446521">
+                <link role="classifier" targetNodeId="1178296794013" resolveInfo="XmlColorConstants" />
+                <link role="variableDeclaration" targetNodeId="1178296808264" resolveInfo="XML_COLOR" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.FontStyleStyleSheetItem" id="1189991463351">
+        <property name="style" value="BOLD" />
       </node>
     </node>
   </node>
