@@ -11,6 +11,7 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyO
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import webr.framework.function.HtmlStringUtil;
 import webr.xml.constraints.Content_Behavior;
+import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 
@@ -63,11 +64,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1179113432099(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return "<" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName");
+    return "<" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(node, "elementDeclaration", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1179113432129(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return "</" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "elementDeclaration", false), "elementName") + ">";
+    return "</" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(node, "elementDeclaration", false)) + ">";
   }
 
   public static Object propertyMacro_GetPropertyValue_1179113415864(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
