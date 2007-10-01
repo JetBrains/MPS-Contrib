@@ -220,6 +220,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1191201692482">
     <property name="name" value="NamespaceAttribute" />
     <link role="extends" targetNodeId="2.1165235274815" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1191204299313">
+      <property name="name" value="prefix" />
+      <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1191202073955">
       <property name="name" value="uri" />
       <link role="dataType" targetNodeId="1.1082983041843" />
