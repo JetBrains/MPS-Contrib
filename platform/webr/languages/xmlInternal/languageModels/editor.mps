@@ -4,16 +4,16 @@
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <maxImportIndex value="12" />
-  <import index="1" modelUID="webr.xmlInternal.structure" />
-  <import index="2" modelUID="jetbrains.mps.core.structure" />
-  <import index="3" modelUID="webr.xmlInternal.editor" />
-  <import index="4" modelUID="webr.xml.structure" />
-  <import index="5" modelUID="webr.xmlSchema.structure" />
-  <import index="8" modelUID="webr.gtext.structure" />
-  <import index="9" modelUID="webr.xmlSchema.editor" />
-  <import index="10" modelUID="jetbrains.mps.webr.dxmlInternal.structure" />
-  <import index="11" modelUID="webr.templateLanguageInternal.structure" />
-  <import index="12" modelUID="webr.xml.editor" />
+  <import index="1" modelUID="webr.xmlInternal.structure" version="-1" />
+  <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
+  <import index="3" modelUID="webr.xmlInternal.editor" version="-1" />
+  <import index="4" modelUID="webr.xml.structure" version="-1" />
+  <import index="5" modelUID="webr.xmlSchema.structure" version="-1" />
+  <import index="8" modelUID="webr.gtext.structure" version="-1" />
+  <import index="9" modelUID="webr.xmlSchema.editor" version="-1" />
+  <import index="10" modelUID="jetbrains.mps.webr.dxmlInternal.structure" version="-1" />
+  <import index="11" modelUID="webr.templateLanguageInternal.structure" version="-1" />
+  <import index="12" modelUID="webr.xml.editor" version="-1" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1165761822666">
     <link role="conceptDeclaration" targetNodeId="1.1165761580958" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1165761827856">
@@ -441,6 +441,24 @@
         <link role="relationDeclaration" targetNodeId="1.1188772833817" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1188772857993">
+        <property name="text" value="&quot;" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1191201716639">
+    <link role="conceptDeclaration" targetNodeId="1.1191201692482" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1191201719891">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1191201726956">
+        <property name="text" value="xmlns" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1191201733020">
+        <property name="text" value="=" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1191201743178">
+        <property name="text" value="&quot;" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1191201745040">
         <property name="text" value="&quot;" />
       </node>
     </node>

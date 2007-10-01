@@ -2,12 +2,12 @@
 <model name="webr.xmlInternal.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <maxImportIndex value="7" />
-  <import index="1" modelUID="jetbrains.mps.core.structure" />
-  <import index="2" modelUID="webr.xml.structure" />
-  <import index="3" modelUID="webr.xmlInternal.structure" />
-  <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" />
-  <import index="6" modelUID="webr.xmlSchema.structure" />
-  <import index="7" modelUID="webr.gtext.structure" />
+  <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
+  <import index="2" modelUID="webr.xml.structure" version="-1" />
+  <import index="3" modelUID="webr.xmlInternal.structure" version="-1" />
+  <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
+  <import index="6" modelUID="webr.xmlSchema.structure" version="-1" />
+  <import index="7" modelUID="webr.gtext.structure" version="-1" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1165761580958">
     <property name="name" value="StatementElement" />
     <link role="extends" targetNodeId="2.1161371727643" />
@@ -216,6 +216,10 @@
       <property name="value" value="simple attribute" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1191201692482">
+    <property name="name" value="NamespaceAttribute" />
+    <link role="extends" targetNodeId="2.1165235274815" />
   </node>
 </model>
 
