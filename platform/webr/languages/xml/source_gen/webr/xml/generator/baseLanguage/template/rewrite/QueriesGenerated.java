@@ -9,6 +9,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.IOperationContext;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 
 public class QueriesGenerated {
@@ -16,6 +17,10 @@ public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_1191197782536(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1191199085948(SLinkOperations.getTarget(node, "elementDeclaration", false));
     return false;
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1191202214917(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SPropertyOperations.getString(ElementDeclaration_Behavior.call_getNamespaceDeclaration_1191199132093(SLinkOperations.getTarget(node, "elementDeclaration", false)), "uri");
   }
 
   public static SNode referenceMacro_GetReferent_1191199727159(SNode node, SNode templateNode, SNode outputNode, SModel sourceModel, ITemplateGenerator generator) {

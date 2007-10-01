@@ -310,7 +310,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1191199132093">
       <property name="name" value="getNamespaceDeclaration" />
-      <property name="isPrivate" value="true" />
+      <property name="isPrivate" value="false" />
       <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1191199135502">
         <link role="concept" targetNodeId="1.1189887674514" />
       </node>
