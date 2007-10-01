@@ -19,7 +19,7 @@ public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_1191197782536(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1191199085948(SLinkOperations.getTarget(node, "elementDeclaration", false));
     boolean condition = hasNamespace && SequenceOperations.isEmpty(SNodeOperations.getDescendants(node, "webr.xmlInternal.structure.NamespaceAttribute", false));
-    return false;
+    return condition;
   }
 
   public static Object propertyMacro_GetPropertyValue_1191202214917(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
@@ -36,6 +36,10 @@ public class QueriesGenerated {
 
   public static List sourceNodesQuery_1191201293826(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     return SLinkOperations.getTargets(node, "attribute", true);
+  }
+
+  public static SNode sourceNodeQuery_1191204860822(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTarget(node, "contentList", true);
   }
 
 }
