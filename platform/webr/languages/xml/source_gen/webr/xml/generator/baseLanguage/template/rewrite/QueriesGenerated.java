@@ -13,7 +13,8 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOpera
 public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_1191197782536(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return ElementDeclaration_Behavior.call_hasNamespace_1191199085948(SLinkOperations.getTarget(node, "elementDeclaration", false));
+    boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1191199085948(SLinkOperations.getTarget(node, "elementDeclaration", false));
+    return false;
   }
 
   public static SNode referenceMacro_GetReferent_1191199727159(SNode node, SNode templateNode, SNode outputNode, SModel sourceModel, ITemplateGenerator generator) {
