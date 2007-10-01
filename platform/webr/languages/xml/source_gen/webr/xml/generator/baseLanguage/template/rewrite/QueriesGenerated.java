@@ -9,6 +9,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.IOperationContext;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import java.util.List;
 
 public class QueriesGenerated {
 
@@ -19,6 +20,10 @@ public class QueriesGenerated {
 
   public static SNode referenceMacro_GetReferent_1191199727159(SNode node, SNode templateNode, SNode outputNode, SModel sourceModel, ITemplateGenerator generator) {
     return SLinkOperations.getTarget(node, "elementDeclaration", false);
+  }
+
+  public static List sourceNodesQuery_1191201293826(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTargets(node, "attribute", true);
   }
 
 }
