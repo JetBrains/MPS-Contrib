@@ -32,6 +32,16 @@
         <moduleRoot path="${mps_home}\platform\webr\devkit\baseGeneration.devkit" />
       </module>
       <external-templates />
+      <mapping-priorities>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <mapping-node modelUID="webr.xml.generator.baseLanguage.template.rewrite@templates" nodeID="*" />
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <mapping-node modelUID="webr.xml.generator.baseLanguage.template.main@templates" nodeID="*" />
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+      </mapping-priorities>
     </generator>
   </generators>
   <classPath>
