@@ -9,6 +9,8 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.IOperationContext;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 
@@ -16,6 +18,7 @@ public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_1191197782536(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1191199085948(SLinkOperations.getTarget(node, "elementDeclaration", false));
+    boolean condition = hasNamespace && SequenceOperations.isEmpty(SNodeOperations.getDescendants(node, "webr.xmlInternal.structure.NamespaceAttribute", false));
     return false;
   }
 
