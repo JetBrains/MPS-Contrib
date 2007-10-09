@@ -7,19 +7,19 @@
   <language namespace="jetbrains.mps.ide.scriptLanguage" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <maxImportIndex value="14" />
-  <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
-  <import index="2" modelUID="java.lang@java_stub" />
-  <import index="3" modelUID="java.util@java_stub" />
-  <import index="4" modelUID="jetbrains.mps.core.structure" />
-  <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
-  <import index="6" modelUID="jetbrains.mps.baseLanguage.structure" />
-  <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" />
-  <import index="8" modelUID="jetbrains.mps.smodel@java_stub" />
-  <import index="9" modelUID="jetbrains.mps.ide.progress@java_stub" />
-  <import index="10" modelUID="jetbrains.mps.findUsages@java_stub" />
-  <import index="11" modelUID="jetbrains.mps.project@java_stub" />
-  <import index="12" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
-  <import index="13" modelUID="jetbrains.mps.util@java_stub" />
+  <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
+  <import index="2" modelUID="java.lang@java_stub" version="-1" />
+  <import index="3" modelUID="java.util@java_stub" version="-1" />
+  <import index="4" modelUID="jetbrains.mps.core.structure" version="-1" />
+  <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
+  <import index="6" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
+  <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
+  <import index="8" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
+  <import index="9" modelUID="jetbrains.mps.ide.progress@java_stub" version="-1" />
+  <import index="10" modelUID="jetbrains.mps.findUsages@java_stub" version="-1" />
+  <import index="11" modelUID="jetbrains.mps.project@java_stub" version="-1" />
+  <import index="12" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
+  <import index="13" modelUID="jetbrains.mps.util@java_stub" version="-1" />
   <node type="jetbrains.mps.baseLanguage.ClassConcept" id="1173960152516">
     <property name="name" value="DateTimePropertFormatTokenUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.StaticMethodDeclaration" id="1173960236733">
@@ -484,7 +484,7 @@
     <link role="concept" targetNodeId="1.1172074800504" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.ConceptMethodDeclaration" id="1178368102110">
       <property name="name" value="getFieldReference" />
-      <property name="isPrivate" value="true" />
+      <property name="isPrivate" value="false" />
       <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeType" id="1178368118655">
         <link role="concept" targetNodeId="6.1068580123158" />
       </node>
