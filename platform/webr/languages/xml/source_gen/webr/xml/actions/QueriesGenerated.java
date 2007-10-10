@@ -20,10 +20,12 @@ import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptPropertyOperations;
 import webr.xmlSchema.constraints.TypeExpression_Behavior;
 import java.util.Iterator;
 import jetbrains.mps.util.Condition;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 
 public class QueriesGenerated {
 
@@ -78,6 +80,39 @@ public class QueriesGenerated {
 
         });
       }
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1192015666802(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("webr.xml.structure.Text", operationContext.getScope());
+      result.add(new DefaultSimpleSubstituteAction(concept, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
+
+        public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+          SNode text = SConceptOperations.createNewNode("webr.xml.structure.Text", null);
+          SPropertyOperations.set(text, "text", pattern.substring(1));
+          return text;
+        }
+
+        public boolean hasSubstitute() {
+          return true;
+        }
+
+        public boolean canSubstitute_internal(String pattern) {
+          return pattern.startsWith("/");
+        }
+
+        public String getDescriptionText(String pattern) {
+          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("webr.xml.structure.Text"), "short_description");
+        }
+
+        public String getMatchingText(String pattern) {
+          return pattern;
+        }
+
+      });
     }
     return result;
   }

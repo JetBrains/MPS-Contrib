@@ -2,11 +2,11 @@
 <model name="webr.xml.structure">
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <maxImportIndex value="5" />
-  <import index="1" modelUID="jetbrains.mps.core.structure" />
-  <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" />
-  <import index="3" modelUID="webr.xml.structure" />
-  <import index="4" modelUID="jetbrains.mps.baseLanguage.structure" />
-  <import index="5" modelUID="webr.xmlSchema.structure" />
+  <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
+  <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
+  <import index="3" modelUID="webr.xml.structure" version="-1" />
+  <import index="4" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
+  <import index="5" modelUID="webr.xmlSchema.structure" version="-1" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1161371727643">
     <property name="name" value="Content" />
     <link role="extends" targetNodeId="1.1133920641626" />
@@ -31,6 +31,13 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1162498464999">
       <property name="value" value="/text" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1192015953363">
+      <property name="value" value="plain text" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.BooleanConceptProperty" id="1192016283176">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" resolveInfo="dontSubstituteByDefault" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.PropertyDeclaration" id="1161373273669">
       <property name="name" value="text" />
