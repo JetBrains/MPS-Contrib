@@ -188,7 +188,7 @@
                 <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1192016065664">
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Property_SetOperation" id="1192016066603">
                     <node role="value" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1192016076088">
-                      <link role="baseMethodDeclaration" targetNodeId="12.~String.substring(int)" resolveInfo="substring" />
+                      <link role="baseMethodDeclaration" targetNodeId="12.~String.substring(int):java.lang.String" resolveInfo="substring" />
                       <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_pattern" id="1192016072716" />
                       <node role="actualArgument" type="jetbrains.mps.baseLanguage.IntegerConstant" id="1192016078859">
                         <property name="value" value="1" />
@@ -216,7 +216,7 @@
             <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1192015897872">
               <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1192015902270">
                 <node role="expression" type="jetbrains.mps.baseLanguage.InstanceMethodCall" id="1192015912946">
-                  <link role="baseMethodDeclaration" targetNodeId="12.~String.startsWith(java.lang.String)" resolveInfo="startsWith" />
+                  <link role="baseMethodDeclaration" targetNodeId="12.~String.startsWith(java.lang.String):boolean" resolveInfo="startsWith" />
                   <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.ConceptFunctionParameter_pattern" id="1192015905912" />
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.StringLiteral" id="1192015914446">
                     <property name="value" value="/" />
