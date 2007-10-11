@@ -162,5 +162,19 @@
       <link role="target" targetNodeId="1165235274815" resolveInfo="BaseAttribute" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.ConceptDeclaration" id="1192038615503">
+    <property name="name" value="CDATA" />
+    <link role="extends" targetNodeId="1161371727643" resolveInfo="Content" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.LinkDeclaration" id="1192038646485">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="contentList" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1163629230879" resolveInfo="ContentList" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.StringConceptProperty" id="1192038635910">
+      <property name="value" value="CDATA" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

@@ -5,11 +5,11 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
   <maxImportIndex value="39" />
-  <import index="1" modelUID="webr.xml.structure" />
-  <import index="31" modelUID="webr.xmlSchema.structure" />
-  <import index="37" modelUID="webr.xmlSchema.editor" />
-  <import index="38" modelUID="webr.xml.constraints" />
-  <import index="39" modelUID="webr.xmlSchema.constraints" />
+  <import index="1" modelUID="webr.xml.structure" version="-1" />
+  <import index="31" modelUID="webr.xmlSchema.structure" version="-1" />
+  <import index="37" modelUID="webr.xmlSchema.editor" version="-1" />
+  <import index="38" modelUID="webr.xml.constraints" version="-1" />
+  <import index="39" modelUID="webr.xmlSchema.constraints" version="-1" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Property" id="1161373290875">
@@ -1038,6 +1038,21 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.ConceptEditorDeclaration" id="1192038685354">
+    <link role="conceptDeclaration" targetNodeId="1.1192038615503" resolveInfo="CDATA" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Collection" id="1192038710220">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1192038744723">
+        <property name="text" value="&lt;![CDATA[" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_RefNode" id="1192038787051">
+        <link role="relationDeclaration" targetNodeId="1.1192038646485" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.CellModel_Constant" id="1192038881566">
+        <property name="text" value="]]&gt;" />
       </node>
     </node>
   </node>

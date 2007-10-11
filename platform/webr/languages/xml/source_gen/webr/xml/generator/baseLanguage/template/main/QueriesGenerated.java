@@ -119,4 +119,8 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(node, "contentList", true);
   }
 
+  public static SNode sourceNodeQuery_1192039047171(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
+    return SLinkOperations.getTarget(node, "contentList", true);
+  }
+
 }
