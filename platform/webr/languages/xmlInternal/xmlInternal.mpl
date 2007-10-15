@@ -14,10 +14,6 @@
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xmlInternal" />
   </models>
   <module>
-    <moduleRoot path="${mps_home}\platform\webr\languages\gtext\gtext.mpl" />
-    <moduleRoot path="${mps_home}\platform\webr\languages\xml\xml.mpl" />
-    <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
-    <moduleRoot path="${mps_home}\platform\webr\languages\xmlSchema\xmlSchema.mpl" />
     <moduleRoot path="${mps_home}\platform\webr\devkit\webr_languages.devkit" />
   </module>
   <accessoryModels />
@@ -36,5 +32,11 @@
   <classPath>
     <entry path="${language_descriptor}\classes" />
   </classPath>
+  <dependencies>
+    <dependency>webr.gtext</dependency>
+    <dependency>webr.xml</dependency>
+    <dependency>jetbrains.mps.baseLanguage</dependency>
+    <dependency>webr.xmlSchema</dependency>
+  </dependencies>
 </language>
 

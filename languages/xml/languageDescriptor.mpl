@@ -11,14 +11,16 @@
   </models>
   <module />
   <accessoryModels />
-  <targetOfGenerator />
   <generators>
     <generator name="XML" generatorUID="jetbrains.mps.xml#1129923280838" targetLanguage="jetbrains.mps.xml">
       <models>
         <modelRoot path="${language_descriptor}\generator" namespacePrefix="jetbrains.mps.xml.generator" />
       </models>
       <module />
+      <external-templates />
+      <mapping-priorities />
     </generator>
   </generators>
+  <classPath />
 </language>
 

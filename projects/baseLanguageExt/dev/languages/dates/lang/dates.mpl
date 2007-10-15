@@ -19,12 +19,7 @@
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
   </models>
-  <module>
-    <moduleRoot path="${mps_home}\projects\baseLanguageExt\dev\languages\dates\internal\internal.mpl" />
-    <moduleRoot path="${mps_home}\projects\springframework\languages\configuration\configuration.mpl" />
-    <moduleRoot path="${mps_home}\projects\springframework\languages\configurationInternal\configurationInternal.mpl" />
-    <moduleRoot path="${mps_home}\workbench\ideLanguages\scriptLanguage\scriptLanguage.mpl" />
-  </module>
+  <module />
   <accessoryModels>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   </accessoryModels>
@@ -38,6 +33,7 @@
         <moduleRoot path="${mps_home}\projects\springframework\languages\configuration\configuration.mpl" />
       </module>
       <external-templates />
+      <mapping-priorities />
     </generator>
   </generators>
   <classPath>
@@ -45,5 +41,11 @@
     <entry path="${mps_home}\projects\baseLanguageExt\dates-runtime\classes" />
     <entry path="${mps_home}\lib\joda-time\joda-time-1.4.jar" />
   </classPath>
+  <dependencies>
+    <dependency>jetbrains.mps.baseLanguage.ext.dates.internal</dependency>
+    <dependency>jetbrains.springframework.configuration</dependency>
+    <dependency>jetbrains.springframework.configurationInternal</dependency>
+    <dependency>jetbrains.mps.ide.scriptLanguage</dependency>
+  </dependencies>
 </language>
 
