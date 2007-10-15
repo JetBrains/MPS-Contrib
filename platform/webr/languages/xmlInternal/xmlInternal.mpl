@@ -13,9 +13,7 @@
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xmlInternal" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xmlInternal" />
   </models>
-  <module>
-    <moduleRoot path="${mps_home}\platform\webr\devkit\webr_languages.devkit" />
-  </module>
+  <module />
   <accessoryModels />
   <generators>
     <generator generatorUID="webr.xmlInternal#1165632612566" targetLanguage="jetbrains.mps.baseLanguage">
@@ -37,6 +35,7 @@
     <dependency>webr.xml</dependency>
     <dependency>jetbrains.mps.baseLanguage</dependency>
     <dependency>webr.xmlSchema</dependency>
+    <dependency>webr_languages</dependency>
   </dependencies>
 </language>
 

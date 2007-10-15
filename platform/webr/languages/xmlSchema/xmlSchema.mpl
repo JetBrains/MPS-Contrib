@@ -13,9 +13,7 @@
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xmlSchema" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xmlSchema" />
   </models>
-  <module>
-    <moduleRoot path="${mps_home}\platform\webr\languages\xmlInternal\xmlInternal.mpl" />
-  </module>
+  <module />
   <accessoryModels />
   <generators />
   <classPath>
@@ -23,6 +21,7 @@
   </classPath>
   <dependencies>
     <dependency>webr.xml</dependency>
+    <dependency>webr.xmlInternal</dependency>
   </dependencies>
 </language>
 
