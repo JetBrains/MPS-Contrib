@@ -20,10 +20,11 @@
       <models>
         <modelRoot path="${language_descriptor}\generators\baseLanguage\templates" namespacePrefix="webr.xmlInternal.generator.baseLanguage.template" />
       </models>
-      <module>
-        <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
-      </module>
+      <module />
       <external-templates />
+      <dependencies>
+        <dependency>jetbrains.mps.baseLanguage</dependency>
+      </dependencies>
       <mapping-priorities />
     </generator>
   </generators>

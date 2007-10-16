@@ -23,11 +23,12 @@
       <models>
         <modelRoot path="${language_descriptor}\generators\baseLanguage\templates" namespacePrefix="webr.xml.generator.baseLanguage.template" />
       </models>
-      <module>
-        <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
-        <moduleRoot path="${mps_home}\platform\webr\devkit\baseGeneration.devkit" />
-      </module>
+      <module />
       <external-templates />
+      <dependencies>
+        <dependency>jetbrains.mps.baseLanguage</dependency>
+        <dependency>baseGeneration</dependency>
+      </dependencies>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>

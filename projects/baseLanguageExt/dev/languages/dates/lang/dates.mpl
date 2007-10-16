@@ -28,11 +28,12 @@
       <models>
         <modelRoot path="${language_descriptor}\generator\baseLanguage\template" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template" />
       </models>
-      <module>
-        <moduleRoot path="${mps_home}\languages\baseLanguage\language\baseLanguage.mpl" />
-        <moduleRoot path="${mps_home}\projects\springframework\languages\configuration\configuration.mpl" />
-      </module>
+      <module />
       <external-templates />
+      <dependencies>
+        <dependency>jetbrains.mps.baseLanguage</dependency>
+        <dependency>jetbrains.springframework.configuration</dependency>
+      </dependencies>
       <mapping-priorities />
     </generator>
   </generators>
