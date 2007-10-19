@@ -747,12 +747,16 @@
     <property name="name" value="Content_keymap" />
     <link role="applicableConcept" targetNodeId="1.1161371727643" />
     <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapItem" id="1172192461215">
-      <property name="description" value="create content list" />
+      <property name="description" value="surround with content list" />
       <property name="showInPopup" value="true" />
       <property name="menuAlwaysShown" value="true" />
       <node role="keystroke" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapKeystroke" id="1172192461216">
         <property name="keycode" value="VK_ENTER" />
         <property name="modifiers" value="alt" />
+      </node>
+      <node role="keystroke" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMapKeystroke" id="1192791005756">
+        <property name="modifiers" value="ctrl+alt" />
+        <property name="keycode" value="VK_T" />
       </node>
       <node role="executeFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_ExecuteFunction" id="1172192461217">
         <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1172192461218">
@@ -823,41 +827,6 @@
                 </node>
               </node>
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.LinkList_AddNewChildOperation" id="1172192648039" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="isApplicableFunction" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_IsApplicableFunction" id="1189589739239">
-        <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1189589739240">
-          <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1189589744108">
-            <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1189589762213">
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.SequenceOperationExpression" id="1189589744695">
-                <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.CellKeyMap_FunctionParm_selectedNodes" id="1189589744109" />
-                <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.WhereOperation" id="1189589746327">
-                  <node role="whereClosure" type="jetbrains.mps.baseLanguage.ext.collections.lang.WhereBlock" id="1189589746328">
-                    <node role="defaultInputElement" type="jetbrains.mps.baseLanguage.ext.collections.lang.DefaultInputElement" id="1189589746329">
-                      <property name="name" value="it" />
-                    </node>
-                    <node role="body" type="jetbrains.mps.baseLanguage.StatementList" id="1189589746330">
-                      <node role="statement" type="jetbrains.mps.baseLanguage.ExpressionStatement" id="1189589750411">
-                        <node role="expression" type="jetbrains.mps.baseLanguage.NotExpression" id="1189589750412">
-                          <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.SNodeOperationExpression" id="1189589752607">
-                            <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.Node_IsInstanceOfOperation" id="1189589755197">
-                              <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.RefConcept_Reference" id="1189589758071">
-                                <link role="conceptDeclaration" targetNodeId="1.1161371727643" />
-                              </node>
-                            </node>
-                            <node role="leftExpression" type="jetbrains.mps.baseLanguage.ClosureParameterReference" id="1189589751954">
-                              <link role="closureParameter" targetNodeId="1189589746329" resolveInfo="it" />
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.IsEmptyOperation" id="1189589764672" />
             </node>
           </node>
         </node>
