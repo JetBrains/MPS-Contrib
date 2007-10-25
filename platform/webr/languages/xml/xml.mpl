@@ -44,10 +44,12 @@
   <classPath>
     <entry path="${language_descriptor}\classes" />
   </classPath>
+  <runtimeClassPath />
   <dependencies>
     <dependency>webr.gtext</dependency>
     <dependency>webr.xmlSchema</dependency>
     <dependency>webr.xmlInternal</dependency>
+    <dependency>jetbrains.mps.webr.runtime</dependency>
   </dependencies>
 </language>
 
