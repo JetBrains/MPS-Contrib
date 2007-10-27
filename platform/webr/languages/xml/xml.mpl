@@ -44,7 +44,9 @@
   <classPath>
     <entry path="${language_descriptor}\classes" />
   </classPath>
-  <runtimeClassPath />
+  <runtimeClassPath>
+    <entry path="${language_descriptor}\classes" />
+  </runtimeClassPath>
   <dependencies>
     <dependency>webr.gtext</dependency>
     <dependency>webr.xmlSchema</dependency>

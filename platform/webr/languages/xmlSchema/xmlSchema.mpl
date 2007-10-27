@@ -19,6 +19,9 @@
   <classPath>
     <entry path="${language_descriptor}\classes" />
   </classPath>
+  <runtimeClassPath>
+    <entry path="${language_descriptor}\classes" />
+  </runtimeClassPath>
   <dependencies>
     <dependency>webr.xml</dependency>
     <dependency>webr.xmlInternal</dependency>
