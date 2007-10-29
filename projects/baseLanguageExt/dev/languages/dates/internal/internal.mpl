@@ -17,5 +17,8 @@
   <accessoryModels />
   <generators />
   <classPath />
+  <runtimeClassPath>
+    <entry path="${mps_home}\projects\baseLanguageExt\dev\classes" />
+  </runtimeClassPath>
 </language>
 
