@@ -173,6 +173,65 @@
               <property name="drawBorder" value="false" />
             </node>
           </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006018426">
+            <property name="drawBorder" value="false" />
+            <property name="selectable" value="false" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1194006911566">
+            <property name="selectable" value="false" />
+            <property name="vertical" value="true" />
+            <property name="gridLayout" value="true" />
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1194006930774">
+              <property name="selectable" value="false" />
+              <property name="vertical" value="false" />
+              <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006933912">
+                <property name="text" value="" />
+              </node>
+              <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006937650">
+                <property name="text" value="month" />
+              </node>
+              <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006942988">
+                <property name="text" value="day of month" />
+              </node>
+              <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006951742">
+                <property name="text" value="day of week" />
+              </node>
+              <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006957330">
+                <property name="text" value="hour" />
+              </node>
+              <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006965508">
+                <property name="text" value="minute" />
+              </node>
+              <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006968900">
+                <property name="text" value="second" />
+              </node>
+            </node>
+            <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1194006918222">
+              <property name="drawBorder" value="false" />
+              <property name="vertical" value="true" />
+              <property name="gridLayout" value="true" />
+              <link role="relationDeclaration" targetNodeId="1.1194006882259" />
+              <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006918223">
+                <property name="textFgColor" value="lightGray" />
+                <property name="text" value="&lt;schedule periods&gt;" />
+                <property name="drawBorder" value="false" />
+              </node>
+            </node>
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006898914">
+            <property name="drawBorder" value="false" />
+            <property name="selectable" value="false" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1194006018430">
+            <property name="drawBorder" value="false" />
+            <property name="vertical" value="true" />
+            <link role="relationDeclaration" targetNodeId="1.1194006024782" />
+            <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006018431">
+              <property name="textFgColor" value="lightGray" />
+              <property name="text" value="&lt;no months&gt;" />
+              <property name="drawBorder" value="false" />
+            </node>
+          </node>
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172074440698">
@@ -473,6 +532,63 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1174320792189">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1174320729117" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1194005976900">
+    <link role="conceptDeclaration" targetNodeId="1.1194005944850" resolveInfo="Month" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1194005979851">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006138995">
+        <property name="text" value="month" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194005982718">
+        <link role="relationDeclaration" targetNodeId="1.1194005961112" resolveInfo="name" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194005989095">
+        <property name="text" value="(" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194013380266">
+        <link role="relationDeclaration" targetNodeId="1.1194013362176" resolveInfo="shortName" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194013388699">
+        <property name="text" value=":" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194005992420">
+        <link role="relationDeclaration" targetNodeId="1.1194005962762" resolveInfo="days" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194013391875">
+        <property name="text" value=")" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1194006563807">
+    <link role="conceptDeclaration" targetNodeId="1.1194006427224" resolveInfo="SchedulePeriod" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1194006565731">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006580942">
+        <link role="relationDeclaration" targetNodeId="1.1194006456806" resolveInfo="name" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006867259">
+        <property name="text" value=":" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006585464">
+        <link role="relationDeclaration" targetNodeId="1.1194006543511" resolveInfo="month" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006746546">
+        <link role="relationDeclaration" targetNodeId="1.1194006539888" resolveInfo="dayOfMonth" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006749661">
+        <link role="relationDeclaration" targetNodeId="1.1194006517951" resolveInfo="dayOfWeek" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006752142">
+        <link role="relationDeclaration" targetNodeId="1.1194006512400" resolveInfo="hour" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006753664">
+        <link role="relationDeclaration" targetNodeId="1.1194006507227" resolveInfo="minute" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006756506">
+        <link role="relationDeclaration" targetNodeId="1.1194006461854" resolveInfo="second" />
       </node>
     </node>
   </node>

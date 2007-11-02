@@ -7,7 +7,6 @@
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
-  <import index="4" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1169491698842">
     <property name="rootable" value="true" />
     <property name="name" value="FormatTokenSettings" />
@@ -73,6 +72,18 @@
       <property name="role" value="locale" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1172680728258" resolveInfo="Locale" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1194006024782">
+      <property name="metaClass" value="aggregation" />
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="month" />
+      <link role="target" targetNodeId="1194005944850" resolveInfo="Month" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1194006882259">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="schedulePeriod" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1194006427224" resolveInfo="SchedulePeriod" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1172680728258">
@@ -213,6 +224,54 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1174320968951">
       <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1194005944850">
+    <property name="name" value="Month" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194005961112">
+      <property name="name" value="name" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194013362176">
+      <property name="name" value="shortName" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194005962762">
+      <property name="name" value="days" />
+      <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1194006427224">
+    <property name="name" value="SchedulePeriod" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194006456806">
+      <property name="name" value="name" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194006461854">
+      <property name="name" value="second" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194006507227">
+      <property name="name" value="minute" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194006512400">
+      <property name="name" value="hour" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194006517951">
+      <property name="name" value="dayOfWeek" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194006539888">
+      <property name="name" value="dayOfMonth" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194006543511">
+      <property name="name" value="month" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
   </node>
 </model>

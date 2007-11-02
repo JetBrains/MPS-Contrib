@@ -1162,5 +1162,447 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178368014528" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1194008261947">
+    <property name="package" value="operation.constant.schedule" />
+    <link role="concept" targetNodeId="1.1194003500823" resolveInfo="ScheduleLiteral" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1194008264870">
+      <property name="name" value="hasDay" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1194008270137" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1194008264873">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1194008275547">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1194008282324">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1194008303014">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1194008305714">
+                <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008310667">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194008318490">
+                    <link role="property" targetNodeId="5.1194006517951" resolveInfo="dayOfWeek" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008308234">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194008310024">
+                      <link role="link" targetNodeId="1.1194007702067" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194008307877" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008303015">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008303016">
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194008303017" />
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194008303018">
+                      <link role="link" targetNodeId="1.1194007702067" />
+                    </node>
+                  </node>
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194008322837">
+                    <link role="property" targetNodeId="5.1194006539888" resolveInfo="dayOfMonth" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008279475">
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsNotNullOperation" id="1194008281125" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008275907">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194008278052">
+                  <link role="link" targetNodeId="1.1194007702067" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194008275548" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1194008546428">
+      <property name="name" value="hasTime" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1194008548010" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1194008546430">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1194008553004">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1194008557988">
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008555230">
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsNotNullOperation" id="1194008556401" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008553359">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194008554758">
+                  <link role="link" targetNodeId="1.1194007702067" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194008553005" />
+              </node>
+            </node>
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1194008586267">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1194008588348">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1194008596747">
+                  <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008602261">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194008604033">
+                      <link role="property" targetNodeId="5.1194006461854" resolveInfo="second" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008598942">
+                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194008601813">
+                        <link role="link" targetNodeId="1.1194007702067" />
+                      </node>
+                      <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194008598504" />
+                    </node>
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008591950">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194008593371">
+                      <link role="property" targetNodeId="5.1194006507227" resolveInfo="minute" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008590220">
+                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194008591383">
+                        <link role="link" targetNodeId="1.1194007702067" />
+                      </node>
+                      <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194008589861" />
+                    </node>
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008586268">
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194008586269">
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194008586270" />
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194008586271">
+                      <link role="link" targetNodeId="1.1194007702067" />
+                    </node>
+                  </node>
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194008586272">
+                    <link role="property" targetNodeId="5.1194006512400" resolveInfo="hour" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1194010091993">
+      <property name="name" value="toCronExpression" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194010096960">
+        <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1194010091995">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1194012129272">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1194012129273">
+            <property name="name" value="period" />
+            <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1194012129274">
+              <link role="concept" targetNodeId="5.1194006427224" resolveInfo="SchedulePeriod" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012122365">
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194012126182">
+                <link role="link" targetNodeId="1.1194007702067" />
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012122057" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1194012516631">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1194012516632">
+            <property name="name" value="second" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194012516633">
+              <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194012526920">
+              <node role="ifTrue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012692388">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1194012694652">
+                  <link role="conceptMethodDeclaration" targetNodeId="1194012550588" resolveInfo="cutZero" />
+                  <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012710089">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012712185">
+                      <link role="property" targetNodeId="1.1194007836084" resolveInfo="second" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012709637" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012692000" />
+              </node>
+              <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194012540878">
+                <property name="value" value="0" />
+              </node>
+              <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012524010">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012526351">
+                  <link role="property" targetNodeId="5.1194006461854" resolveInfo="second" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194012522051">
+                  <link role="variableDeclaration" targetNodeId="1194012129273" resolveInfo="period" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1194012721977">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1194012721978">
+            <property name="name" value="minute" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194012721979">
+              <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194012729035">
+              <node role="ifTrue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012730886">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1194012748915">
+                  <link role="conceptMethodDeclaration" targetNodeId="1194012550588" resolveInfo="cutLeadingZero" />
+                  <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012750972">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012752258">
+                      <link role="property" targetNodeId="1.1194007839276" resolveInfo="minute" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012750636" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012730479" />
+              </node>
+              <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194012755092">
+                <property name="value" value="*" />
+              </node>
+              <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012726668">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012727481">
+                  <link role="property" targetNodeId="5.1194006507227" resolveInfo="minute" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194012726114">
+                  <link role="variableDeclaration" targetNodeId="1194012129273" resolveInfo="period" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1194012766020">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1194012766021">
+            <property name="name" value="hour" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194012766022">
+              <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194012772453">
+              <node role="ifTrue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012774855">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1194012776549">
+                  <link role="conceptMethodDeclaration" targetNodeId="1194012550588" resolveInfo="cutLeadingZero" />
+                  <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012778468">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012780649">
+                      <link role="property" targetNodeId="1.1194007847131" resolveInfo="hour" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012778070" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012774497" />
+              </node>
+              <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194012783618">
+                <property name="value" value="*" />
+              </node>
+              <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012770142">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012771444">
+                  <link role="property" targetNodeId="5.1194006512400" resolveInfo="hour" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194012769729">
+                  <link role="variableDeclaration" targetNodeId="1194012129273" resolveInfo="period" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1194012794123">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1194012794124">
+            <property name="name" value="dayOfMonth" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194012794125">
+              <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194012847150">
+              <node role="ifTrue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012874397">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012877400">
+                  <link role="property" targetNodeId="1.1194007870973" resolveInfo="dayOfMonth" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194012873988" />
+              </node>
+              <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1194012885288">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194012949343">
+                  <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194012952997">
+                    <property name="value" value="?" />
+                  </node>
+                  <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194012957870">
+                    <property name="value" value="*" />
+                  </node>
+                  <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012940671">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012943375">
+                      <link role="property" targetNodeId="5.1194006517951" resolveInfo="dayOfWeek" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194012939964">
+                      <link role="variableDeclaration" targetNodeId="1194012129273" resolveInfo="period" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194012843086">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194012846036">
+                  <link role="property" targetNodeId="5.1194006539888" resolveInfo="dayOfMonth" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194012842434">
+                  <link role="variableDeclaration" targetNodeId="1194012129273" resolveInfo="period" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1194012962279">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1194012962280">
+            <property name="name" value="month" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194012962281">
+              <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194013503238">
+              <node role="ifTrue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194013509709">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194013511278">
+                  <link role="property" targetNodeId="5.1194013362176" resolveInfo="shortName" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194013506367">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1194013508970">
+                    <link role="link" targetNodeId="1.1194007893424" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194013505194" />
+                </node>
+              </node>
+              <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194013521113">
+                <property name="value" value="*" />
+              </node>
+              <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194013497564">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194013502281">
+                  <link role="property" targetNodeId="5.1194006543511" resolveInfo="month" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013496606">
+                  <link role="variableDeclaration" targetNodeId="1194012129273" resolveInfo="period" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1194013191415">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1194013191416">
+            <property name="name" value="dayOfWeek" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194013191417">
+              <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194013201620">
+              <node role="ifTrue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194013203384">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194013308158">
+                  <link role="property" targetNodeId="1.1194007857175" resolveInfo="dayOfWeek" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1194013203009" />
+              </node>
+              <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194013298629">
+                <property name="value" value="?" />
+              </node>
+              <node role="condition" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1194013198199">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1194013200572">
+                  <link role="property" targetNodeId="5.1194006517951" resolveInfo="dayOfWeek" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013197474">
+                  <link role="variableDeclaration" targetNodeId="1194012129273" resolveInfo="period" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1194013539464">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013541068">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013543914">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013549691">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013552372">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013557140">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013560160">
+                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013568894">
+                        <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013572196">
+                          <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013575907">
+                            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1194013582245">
+                              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013585850">
+                                <link role="variableDeclaration" targetNodeId="1194013191416" resolveInfo="dayOfWeek" />
+                              </node>
+                              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194013577785">
+                                <property name="value" value=" " />
+                              </node>
+                            </node>
+                            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013574586">
+                              <link role="variableDeclaration" targetNodeId="1194012962280" resolveInfo="month" />
+                            </node>
+                          </node>
+                          <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194013569946">
+                            <property name="value" value=" " />
+                          </node>
+                        </node>
+                        <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013566701">
+                          <link role="variableDeclaration" targetNodeId="1194012794124" resolveInfo="dayOfMonth" />
+                        </node>
+                      </node>
+                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194013558201">
+                        <property name="value" value=" " />
+                      </node>
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013555863">
+                      <link role="variableDeclaration" targetNodeId="1194012766021" resolveInfo="hour" />
+                    </node>
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194013550662">
+                    <property name="value" value=" " />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013548026">
+                  <link role="variableDeclaration" targetNodeId="1194012721978" resolveInfo="minute" />
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194013541954">
+                <property name="value" value=" " />
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1194013539465">
+              <link role="variableDeclaration" targetNodeId="1194012516632" resolveInfo="second" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1194012550588">
+      <property name="isPrivate" value="true" />
+      <property name="name" value="cutLeadingZero" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194012559080">
+        <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1194012550590">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1194012667441">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1194012670082">
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1194012680183">
+              <link role="baseMethodDeclaration" targetNodeId="2.~String.substring(int):java.lang.String" resolveInfo="substring" />
+              <node role="instance" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1194012673198">
+                <link role="variableDeclaration" targetNodeId="1194012565388" resolveInfo="s" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1194012681152">
+                <property name="value" value="1" />
+              </node>
+            </node>
+            <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1194012683960">
+              <link role="variableDeclaration" targetNodeId="1194012565388" resolveInfo="s" />
+            </node>
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1194012667442">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1194012668267">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1194012668268">
+                  <link role="baseMethodDeclaration" targetNodeId="2.~String.startsWith(java.lang.String):boolean" resolveInfo="startsWith" />
+                  <node role="instance" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1194012668269">
+                    <link role="variableDeclaration" targetNodeId="1194012565388" resolveInfo="s" />
+                  </node>
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1194012668270">
+                    <property name="value" value="0" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1194012668271">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1194012668272">
+                    <link role="baseMethodDeclaration" targetNodeId="2.~String.length():int" resolveInfo="length" />
+                    <node role="instance" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1194012668273">
+                      <link role="variableDeclaration" targetNodeId="1194012565388" resolveInfo="s" />
+                    </node>
+                  </node>
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1194012668274">
+                    <property name="value" value="2" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1194012565388">
+        <property name="name" value="s" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1194012565389">
+          <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+        </node>
+      </node>
+    </node>
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1194008261948">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1194008261949" />
+    </node>
+  </node>
 </model>
 

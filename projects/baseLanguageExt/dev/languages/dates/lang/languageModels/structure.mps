@@ -360,31 +360,37 @@
       <property name="name" value="equals" />
       <property name="externalValue" value="==" />
       <property name="internalValue" value="datetime equals" />
+      <property name="javaIdentifier" value="EQUALS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075185460">
       <property name="name" value="notEquals" />
       <property name="externalValue" value="!=" />
       <property name="internalValue" value="datetime not equals" />
+      <property name="javaIdentifier" value="NOT_EQUALS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075218062">
       <property name="name" value="greater" />
       <property name="externalValue" value="&gt;" />
       <property name="internalValue" value="datetime greater" />
+      <property name="javaIdentifier" value="GREATER" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075248796">
       <property name="name" value="greaterOrEquals" />
       <property name="externalValue" value="&gt;=" />
       <property name="internalValue" value="datetime greater or equals" />
+      <property name="javaIdentifier" value="GREATER_OR_EQUALS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075265977">
       <property name="name" value="less" />
       <property name="externalValue" value="&lt;" />
       <property name="internalValue" value="datetime less" />
+      <property name="javaIdentifier" value="LESS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075272162">
       <property name="name" value="lessOrEquals" />
       <property name="externalValue" value="&lt;=" />
       <property name="internalValue" value="datetime less or equals" />
+      <property name="javaIdentifier" value="LESS_OR_EQUALS" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1172324086632">
@@ -643,11 +649,13 @@
       <property name="name" value="PUBLIC" />
       <property name="externalValue" value="public" />
       <property name="internalValue" value="public" />
+      <property name="javaIdentifier" value="PUBLIC" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1173975646061">
       <property name="name" value="PRIVATE" />
       <property name="externalValue" value="private" />
       <property name="internalValue" value="private" />
+      <property name="javaIdentifier" value="PRIVATE" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1174039789930">
@@ -773,6 +781,93 @@
     <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptPropertyDeclaration" id="1178205225281">
       <property name="name" value="operationName" />
     </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1194003500823">
+    <property name="package" value="operation.constant.schedule" />
+    <property name="name" value="ScheduleLiteral" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1194007702067">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="schedulePeriod" />
+      <link role="target" targetNodeId="2.1194006427224" resolveInfo="SchedulePeriod" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1194007893424">
+      <property name="role" value="month" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1194005944850" resolveInfo="Month" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194007836084">
+      <property name="name" value="second" />
+      <link role="dataType" targetNodeId="1194004752522" resolveInfo="ZeroSixtyInteger" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194007839276">
+      <property name="name" value="minute" />
+      <link role="dataType" targetNodeId="1194004752522" resolveInfo="ZeroSixtyInteger" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194007847131">
+      <property name="name" value="hour" />
+      <link role="dataType" targetNodeId="1194004947075" resolveInfo="ZeroTwentyFourInteger" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194007857175">
+      <property name="name" value="dayOfWeek" />
+      <link role="dataType" targetNodeId="1194005227362" resolveInfo="DayOfWeek" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1194007870973">
+      <property name="name" value="dayOfMonth" />
+      <link role="dataType" targetNodeId="1194005562740" resolveInfo="OneThirtyOneInteger" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1194009666713">
+      <property name="value" value="&lt;{schedulePeriod}&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConstrainedDataTypeDeclaration" id="1194004752522">
+    <property name="package" value="operation.constant.schedule" />
+    <property name="name" value="ZeroSixtyInteger" />
+    <property name="constraint" value="[012345]\\d" />
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConstrainedDataTypeDeclaration" id="1194004947075">
+    <property name="package" value="operation.constant.schedule" />
+    <property name="name" value="ZeroTwentyFourInteger" />
+    <property name="constraint" value="([01]\\d)|(2[03])" />
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationDataTypeDeclaration" id="1194005227362">
+    <property name="package" value="operation.constant.schedule" />
+    <property name="name" value="DayOfWeek" />
+    <link role="memberDataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1194005227363">
+      <property name="internalValue" value="SUN" />
+      <property name="externalValue" value="Sunday" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1194005250369">
+      <property name="externalValue" value="Monday" />
+      <property name="internalValue" value="MON" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1194005256642">
+      <property name="externalValue" value="Tuesday" />
+      <property name="internalValue" value="TUE" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1194005260323">
+      <property name="externalValue" value="Thursday" />
+      <property name="internalValue" value="THU" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1194005264365">
+      <property name="externalValue" value="Wednesday" />
+      <property name="internalValue" value="WED" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1194005273661">
+      <property name="externalValue" value="Friday" />
+      <property name="internalValue" value="FRI" />
+    </node>
+    <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1194005281470">
+      <property name="externalValue" value="Saturday" />
+      <property name="internalValue" value="SAT" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConstrainedDataTypeDeclaration" id="1194005562740">
+    <property name="package" value="operation.constant.schedule" />
+    <property name="name" value="OneThirtyOneInteger" />
+    <property name="constraint" value="([123456789])|([12]\\d)|(3[01])" />
   </node>
 </model>
 
