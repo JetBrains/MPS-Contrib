@@ -24,7 +24,6 @@
   <classPath />
   <runtimeClassPath>
     <entry path="${mps_home}\classes" />
-    <entry path="${mps_home}\lib\mps.jar" />
   </runtimeClassPath>
 </language>
 
