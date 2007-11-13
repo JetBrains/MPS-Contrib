@@ -431,6 +431,13 @@
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172075381034" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194942972169">
+        <property name="text" value="date" />
+        <property name="fontSize" value="8" />
+        <property name="textFgColor" value="lightGray" />
+        <property name="selectable" value="false" />
+        <property name="layoutConstraint" value="punctuation" />
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1172075403775">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1172074912819" />
