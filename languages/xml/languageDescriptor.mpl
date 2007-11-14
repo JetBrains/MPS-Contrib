@@ -7,7 +7,7 @@
     <model modelUID="jetbrains.mps.xml.editor" />
   </editor>
   <models>
-    <modelRoot path="${language_descriptor}\." namespacePrefix="jetbrains.mps.xml" />
+    <modelRoot path="${language_descriptor}\" namespacePrefix="jetbrains.mps.xml" />
   </models>
   <module />
   <accessoryModels />
@@ -22,7 +22,10 @@
     </generator>
   </generators>
   <classPath />
-  <runtimeClassPath>
-  </runtimeClassPath>
+  <runtimeClassPath />
+  <osgiOptions>
+    <requiredBundles />
+    <exportedPackage />
+  </osgiOptions>
 </language>
 
