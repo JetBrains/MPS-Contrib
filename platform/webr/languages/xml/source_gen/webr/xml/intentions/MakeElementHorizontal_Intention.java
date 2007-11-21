@@ -5,10 +5,9 @@ package webr.xml.intentions;
 import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.nodeEditor.EditorContext;
 
 public class MakeElementHorizontal_Intention extends BaseIntention implements Intention {
 
@@ -20,11 +19,11 @@ public class MakeElementHorizontal_Intention extends BaseIntention implements In
     return false;
   }
 
-  public String getDescription(SNode node, IOperationContext operationContext) {
+  public String getDescription(SNode node, EditorContext editorContext) {
     return "Make element horizontal";
   }
 
-  public boolean isApplicable(SNode node, IOperationContext operationContext) {
+  public boolean isApplicable(SNode node, EditorContext editorContext) {
     return !(SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "contentList", true), "isHorizontal"));
   }
 

@@ -5,7 +5,7 @@ package webr.xml.intentions;
 import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
 import java.util.List;
@@ -13,7 +13,6 @@ import java.util.List;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.nodeEditor.EditorContext;
 
 public class MakeElementEmpty_Intention extends BaseIntention implements Intention {
 
@@ -25,11 +24,11 @@ public class MakeElementEmpty_Intention extends BaseIntention implements Intenti
     return false;
   }
 
-  public String getDescription(SNode node, IOperationContext operationContext) {
+  public String getDescription(SNode node, EditorContext editorContext) {
     return "Make element empty";
   }
 
-  public boolean isApplicable(SNode node, IOperationContext operationContext) {
+  public boolean isApplicable(SNode node, EditorContext editorContext) {
     SNode contentList = SLinkOperations.getTarget(node, "contentList", true);
     List<SNode> contents = SLinkOperations.getTargets(contentList, "content", true);
     int count = SequenceOperations.getSize(contents);
