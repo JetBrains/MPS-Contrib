@@ -18,6 +18,9 @@
   </models>
   <module />
   <accessoryModels />
+  <intentions>
+    <model modelUID="webr.xml.intentions" />
+  </intentions>
   <generators>
     <generator generatorUID="webr.xml#1163716442262" targetLanguage="jetbrains.mps.baseLanguage">
       <models>

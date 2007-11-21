@@ -15,6 +15,9 @@
   </models>
   <module />
   <accessoryModels />
+  <intentions>
+    <model modelUID="webr.xmlSchema.intentions" />
+  </intentions>
   <generators />
   <classPath>
     <entry path="${language_descriptor}\classes" />
