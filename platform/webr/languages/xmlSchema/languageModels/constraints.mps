@@ -1489,10 +1489,10 @@
       <property name="name" value="checkAttributes" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1183593356027" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183593354198" />
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1183593366076">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1195719090765">
         <property name="name" value="attributeDeclarations" />
-        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1183593373359">
-          <link role="elementConcept" targetNodeId="1.1167697887602" />
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1195719090766">
+          <link role="elementConcept" targetNodeId="1.1167697887602" resolveInfo="AttributeDeclaration" />
         </node>
       </node>
     </node>

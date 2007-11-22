@@ -7,9 +7,7 @@ import jetbrains.mps.intentions.Intention;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
-
 import java.util.List;
-
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.ICursor;
 import jetbrains.mps.baseLanguage.ext.collections.internal.CursorFactory;
@@ -36,7 +34,7 @@ public class SurroundWithContentList_Intention extends BaseIntention implements 
   public void execute(SNode node, EditorContext editorContext) {
     SNode contentList = SConceptOperations.createNewNode("webr.xml.structure.ContentList", null);
     List<SNode> selectedNodes = editorContext.getNodeEditorComponent().getNodeRangeSelection().getNodes();
-    if (selectedNodes.isEmpty()) {
+    if(selectedNodes.isEmpty()) {
       selectedNodes.add(editorContext.getSelectedNode());
     }
     SNode first = selectedNodes.get(0);
@@ -44,7 +42,7 @@ public class SurroundWithContentList_Intention extends BaseIntention implements 
     {
       ICursor<SNode> _zCursor1 = CursorFactory.createCursor(selectedNodes);
       try {
-        while (_zCursor1.moveToNext()) {
+        while(_zCursor1.moveToNext()) {
           SNode selectedNode = _zCursor1.getCurrent();
           SLinkOperations.addChild(contentList, "content", selectedNode);
         }

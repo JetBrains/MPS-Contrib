@@ -35,7 +35,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention implement
     {
       ICursor<SNode> _zCursor = CursorFactory.createCursor(Content_Behavior.call_getSubcontents_1187013392398(node));
       try {
-        while (_zCursor.moveToNext()) {
+        while(_zCursor.moveToNext()) {
           SNode subContent = _zCursor.getCurrent();
           SNodeOperations.insertNextSiblingChild(s, subContent);
           s = subContent;
