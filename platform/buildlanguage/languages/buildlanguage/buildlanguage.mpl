@@ -9,6 +9,9 @@
   <actions>
     <model modelUID="jetbrains.mps.buildlanguage.actions" />
   </actions>
+  <constraints>
+    <model modelUID="jetbrains.mps.buildlanguage.constraints" />
+  </constraints>
   <editor>
     <model modelUID="jetbrains.mps.buildlanguage.editor" />
   </editor>
@@ -24,5 +27,12 @@
     <entry path="${mps_home}\platform\buildlanguage\classes" />
   </runtimeClassPath>
   <sourcePath />
+  <osgiOptions>
+    <requiredBundles />
+    <exportedPackage />
+  </osgiOptions>
+  <dependencies>
+    <dependency>jetbrains.mps.helgins</dependency>
+  </dependencies>
 </language>
 
