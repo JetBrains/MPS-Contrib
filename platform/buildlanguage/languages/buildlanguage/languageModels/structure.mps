@@ -46,10 +46,13 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851087779">
     <property name="name" value="TaskCall" />
-    <link role="extends" targetNodeId="1196851596813" resolveInfo="SimpleStatement" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1196854735416">
       <property name="value" value="task" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1197050022990">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196854766856">
       <property name="role" value="taskDeclaration" />
@@ -60,7 +63,7 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="nestedList" />
       <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1196851596813" resolveInfo="SimpleStatement" />
+      <link role="target" targetNodeId="1196851087779" resolveInfo="TaskCall" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196864587965">
       <link role="intfc" targetNodeId="1196862084542" resolveInfo="IPropertyHolder" />
@@ -71,9 +74,9 @@
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196851542249">
       <property name="metaClass" value="aggregation" />
-      <property name="role" value="statementList" />
       <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1196851596813" resolveInfo="SimpleStatement" />
+      <property name="role" value="taskCallsList" />
+      <link role="target" targetNodeId="1196851087779" resolveInfo="TaskCall" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196853776690">
       <property name="metaClass" value="aggregation" />
@@ -94,7 +97,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851107341">
     <property name="name" value="PropertyDeclaration" />
-    <link role="extends" targetNodeId="1196851596813" resolveInfo="SimpleStatement" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196870993204">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="type" />
@@ -136,13 +139,6 @@
       <property name="role" value="nestedTaskList" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1196851087779" resolveInfo="TaskReference" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851596813">
-    <property name="name" value="SimpleStatement" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1196851635878">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851952934">
@@ -306,6 +302,12 @@
       <property name="role" value="granularity" />
       <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197052938249">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="resourceCollections" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1197052911231" resolveInfo="ResourceCollection" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1196867167845">
       <property name="value" value="copy" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
@@ -326,11 +328,6 @@
       <property name="value" value="boolean literal" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196866623531">
-    <property name="package" value="Expressions" />
-    <property name="name" value="IntExpression" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196866637548">
     <property name="package" value="Expressions" />
@@ -384,8 +381,8 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197029956340">
     <property name="package" value="Built-In Tasks" />
-    <property name="name" value="FilesetTask" />
-    <link role="extends" targetNodeId="1196851087779" resolveInfo="TaskCall" />
+    <property name="name" value="Fileset" />
+    <link role="extends" targetNodeId="1197052911231" resolveInfo="ResourceCollection" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197030009496">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="dir" />
@@ -399,6 +396,13 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1197030244172">
       <property name="value" value="fileset" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197052911231">
+    <property name="name" value="ResourceCollection" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1197053013537">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
     </node>
   </node>
 </model>

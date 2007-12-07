@@ -21,7 +21,19 @@
   </models>
   <module />
   <accessoryModels />
-  <generators />
+  <generators>
+    <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">
+      <models>
+        <modelRoot path="${language_descriptor}\generator\xml\template" namespacePrefix="jetbrains.mps.buildlanguage.generator.xml.template" />
+      </models>
+      <module />
+      <external-templates />
+      <dependencies>
+        <dependency>jetbrains.mps.xml</dependency>
+      </dependencies>
+      <mapping-priorities />
+    </generator>
+  </generators>
   <classPath />
   <runtimeClassPath>
     <entry path="${mps_home}\platform\buildlanguage\classes" />
