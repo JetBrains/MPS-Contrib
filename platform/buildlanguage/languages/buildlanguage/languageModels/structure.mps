@@ -53,7 +53,7 @@
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196854766856">
       <property name="role" value="taskDeclaration" />
-      <property name="sourceCardinality" value="1" />
+      <property name="sourceCardinality" value="0..1" />
       <link role="target" targetNodeId="1196851304975" resolveInfo="TaskDeclaration" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196858559206">
@@ -376,6 +376,30 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196879870124">
     <property name="name" value="TaskReference" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197029597568">
+      <property name="role" value="taskDeclaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1196851304975" resolveInfo="TaskDeclaration" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197029956340">
+    <property name="package" value="Built-In Tasks" />
+    <property name="name" value="FilesetTask" />
+    <link role="extends" targetNodeId="1196851087779" resolveInfo="TaskCall" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197030009496">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="dir" />
+      <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197030022251">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="file" />
+      <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1197030244172">
+      <property name="value" value="fileset" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
   </node>
 </model>
 
