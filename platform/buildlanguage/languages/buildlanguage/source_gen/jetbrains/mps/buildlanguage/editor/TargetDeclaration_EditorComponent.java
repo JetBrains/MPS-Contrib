@@ -96,7 +96,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
 
   public EditorCell createDependsListList(EditorContext context, SNode node) {
     if(this.myDependsListListHandler_dependsListList_ == null) {
-      this.myDependsListListHandler_dependsListList_ = new TargetDeclaration_EditorComponent._RefNodeListHandler8(node, "dependsList", context);
+      this.myDependsListListHandler_dependsListList_ = new TargetDeclaration_EditorComponent._RefNodeListHandler7(node, "dependsList", context);
     }
     EditorCell_Collection editorCell = this.myDependsListListHandler_dependsListList_.createCells(context, new CellLayout_Horizontal(), false);
     TargetDeclaration_EditorComponent.setupBasic_DependsListList(editorCell, node, context);
@@ -107,9 +107,9 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     return editorCell;
   }
 
-  public static class _RefNodeListHandler8 extends RefNodeListHandler {
+  public static class _RefNodeListHandler7 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler8(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

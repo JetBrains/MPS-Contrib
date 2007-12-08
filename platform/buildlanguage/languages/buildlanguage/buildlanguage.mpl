@@ -20,7 +20,9 @@
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.buildlanguage" />
   </models>
   <module />
-  <accessoryModels />
+  <accessoryModels>
+    <model modelUID="jetbrains.mps.buildlanguage.tasks" />
+  </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">
       <models>

@@ -15,6 +15,11 @@ import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.action.AbstractRTransformHintSubstituteAction;
+import jetbrains.mps.smodel.BaseAdapter;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
 public class QueriesGenerated {
 
@@ -56,6 +61,32 @@ public class QueriesGenerated {
 
         public String getMatchingText(String pattern) {
           return "false";
+        }
+
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> rightTransform_ActionsFactory_PropertyValueExpression_1197109326624(final SNode sourceNode, final SModel model, String transformationTag, final IOperationContext operationContext) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation", operationContext.getScope());
+      result.add(new AbstractRTransformHintSubstituteAction(BaseAdapter.fromAdapter(concept), sourceNode) {
+
+        public SNode doSubstitute(String pattern) {
+          SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
+          SNodeOperations.replaceWithAnother(sourceNode, newNode);
+          SLinkOperations.setTarget(newNode, "left", sourceNode, true);
+          return newNode;
+        }
+
+        public String getMatchingText(String pattern) {
+          return "+";
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "plus operation";
         }
 
       });
