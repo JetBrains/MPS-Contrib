@@ -6,8 +6,8 @@ import jetbrains.mps.nodeEditor.IStyle;
 import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.nodeEditor.EditorCell_Label;
 import java.awt.Color;
-import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class BuildLanguageStyle_StyleSheet {
@@ -19,7 +19,6 @@ public class BuildLanguageStyle_StyleSheet {
         Color color = BuildLanguageStyle_StyleSheet.calculateColor(cell);
         labelCell.getTextLine().setTextColorIfNotSet(color);
       }
-      cell.setFontType(MPSFonts.BOLD);
       if(cell instanceof EditorCell_Collection) {
         EditorCell_Collection collection = (EditorCell_Collection)cell;
         for(EditorCell child : collection) {
@@ -50,7 +49,59 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle INTEGER_LITERAL = new IStyle() {
 
     public void apply(EditorCell cell) {
+      if(cell instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)cell;
+        for(EditorCell child : collection) {
+          this.apply(child);
+        }
+      }
+    }
+
+  };
+  public static final IStyle KEYWORD = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      if(cell instanceof EditorCell_Label) {
+        EditorCell_Label labelCell = (EditorCell_Label)cell;
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor2(cell);
+        labelCell.getTextLine().setTextColorIfNotSet(color);
+      }
       cell.setFontType(MPSFonts.BOLD);
+      if(cell instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)cell;
+        for(EditorCell child : collection) {
+          this.apply(child);
+        }
+      }
+    }
+
+  };
+  public static final IStyle TASK_TARGET = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      if(cell instanceof EditorCell_Label) {
+        EditorCell_Label labelCell = (EditorCell_Label)cell;
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
+        labelCell.getTextLine().setTextColorIfNotSet(color);
+      }
+      cell.setFontType(MPSFonts.PLAIN);
+      if(cell instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)cell;
+        for(EditorCell child : collection) {
+          this.apply(child);
+        }
+      }
+    }
+
+  };
+  public static final IStyle PROPERTY = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      if(cell instanceof EditorCell_Label) {
+        EditorCell_Label labelCell = (EditorCell_Label)cell;
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
+        labelCell.getTextLine().setTextColorIfNotSet(color);
+      }
       if(cell instanceof EditorCell_Collection) {
         EditorCell_Collection collection = (EditorCell_Collection)cell;
         for(EditorCell child : collection) {
@@ -70,6 +121,24 @@ public class BuildLanguageStyle_StyleSheet {
   private static Color calculateColor1(EditorCell cell) {
     Color result;
     result = MPSColors.DARK_MAGENTA;
+    return result;
+  }
+
+  private static Color calculateColor2(EditorCell cell) {
+    Color result;
+    result = MPSColors.DARK_BLUE;
+    return result;
+  }
+
+  private static Color calculateColor3(EditorCell cell) {
+    Color result;
+    result = MPSColors.DARK_BLUE;
+    return result;
+  }
+
+  private static Color calculateColor4(EditorCell cell) {
+    Color result;
+    result = Color.blue;
     return result;
   }
 

@@ -18,6 +18,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_TargetDeclarationReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196853047793");
+    BuildLanguageStyle_StyleSheet.TASK_TARGET.apply(editorCell);
   }
 
   private static void setupLabel_TargetDeclarationReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {

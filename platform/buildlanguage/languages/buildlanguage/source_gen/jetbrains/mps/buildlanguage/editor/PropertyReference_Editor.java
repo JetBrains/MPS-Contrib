@@ -18,6 +18,7 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_PropertyDeclarationReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196860246497");
+    BuildLanguageStyle_StyleSheet.PROPERTY.apply(editorCell);
   }
 
   private static void setupLabel_PropertyDeclarationReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
