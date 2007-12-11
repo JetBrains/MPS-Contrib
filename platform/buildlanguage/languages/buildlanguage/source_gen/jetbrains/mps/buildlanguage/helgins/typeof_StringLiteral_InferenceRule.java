@@ -13,7 +13,7 @@ public class typeof_StringLiteral_InferenceRule implements InferenceRule_Runtime
   }
 
   public void applyRule(final SNode argument) {
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(argument, "jetbrains.mps.buildlanguage.helgins", "1197049545310", true), new QuotationClass_16().createNode(), argument, null, "jetbrains.mps.buildlanguage.helgins", "1197049555016");
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(argument, "jetbrains.mps.buildlanguage.helgins", "1197049545310", true), new QuotationClass_2().createNode(), argument, null, "jetbrains.mps.buildlanguage.helgins", "1197049555016");
   }
 
   public String getApplicableConceptFQName() {

@@ -79,11 +79,6 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle TASK_TARGET = new IStyle() {
 
     public void apply(EditorCell cell) {
-      if(cell instanceof EditorCell_Label) {
-        EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
-        labelCell.getTextLine().setTextColorIfNotSet(color);
-      }
       cell.setFontType(MPSFonts.PLAIN);
       if(cell instanceof EditorCell_Collection) {
         EditorCell_Collection collection = (EditorCell_Collection)cell;
@@ -97,11 +92,19 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle PROPERTY = new IStyle() {
 
     public void apply(EditorCell cell) {
-      if(cell instanceof EditorCell_Label) {
-        EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
-        labelCell.getTextLine().setTextColorIfNotSet(color);
+      if(cell instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)cell;
+        for(EditorCell child : collection) {
+          this.apply(child);
+        }
       }
+    }
+
+  };
+  public static final IStyle ATTRIBUTE_NAME = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      cell.setFontType(MPSFonts.PLAIN);
       if(cell instanceof EditorCell_Collection) {
         EditorCell_Collection collection = (EditorCell_Collection)cell;
         for(EditorCell child : collection) {
@@ -127,18 +130,6 @@ public class BuildLanguageStyle_StyleSheet {
   private static Color calculateColor2(EditorCell cell) {
     Color result;
     result = MPSColors.DARK_BLUE;
-    return result;
-  }
-
-  private static Color calculateColor3(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_BLUE;
-    return result;
-  }
-
-  private static Color calculateColor4(EditorCell cell) {
-    Color result;
-    result = Color.blue;
     return result;
   }
 
