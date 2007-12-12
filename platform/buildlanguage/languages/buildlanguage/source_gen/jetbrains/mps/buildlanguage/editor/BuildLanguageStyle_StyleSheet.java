@@ -114,6 +114,23 @@ public class BuildLanguageStyle_StyleSheet {
     }
 
   };
+  public static final IStyle DEPRACTAED_ATTRIBUTE_NAME = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      if(cell instanceof EditorCell_Label) {
+        EditorCell_Label labelCell = (EditorCell_Label)cell;
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
+        labelCell.getTextLine().setTextColorIfNotSet(color);
+      }
+      if(cell instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)cell;
+        for(EditorCell child : collection) {
+          this.apply(child);
+        }
+      }
+    }
+
+  };
 
   private static Color calculateColor(EditorCell cell) {
     Color result;
@@ -130,6 +147,12 @@ public class BuildLanguageStyle_StyleSheet {
   private static Color calculateColor2(EditorCell cell) {
     Color result;
     result = MPSColors.DARK_BLUE;
+    return result;
+  }
+
+  private static Color calculateColor3(EditorCell cell) {
+    Color result;
+    result = Color.red;
     return result;
   }
 

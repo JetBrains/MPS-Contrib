@@ -15,9 +15,9 @@ import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.action.AbstractRTransformHintSubstituteAction;
 import jetbrains.mps.smodel.BaseAdapter;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
@@ -61,6 +61,35 @@ public class QueriesGenerated {
 
         public String getMatchingText(String pattern) {
           return "false";
+        }
+
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1197476868571(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("null", operationContext.getScope());
+      result.add(new DefaultSimpleSubstituteAction(concept, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
+
+        public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+          SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.IntLiteral", null);
+          SPropertyOperations.set(newNode, "value", "" + (Integer.parseInt(pattern)));
+          return newNode;
+        }
+
+        public boolean hasSubstitute() {
+          return true;
+        }
+
+        public boolean canSubstitute_internal(String pattern) {
+          return _PrecompiledPatterns.REGEXP.matcher(pattern).matches();
+        }
+
+        public String getMatchingText(String pattern) {
+          return pattern;
         }
 
       });

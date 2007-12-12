@@ -143,6 +143,10 @@
       <property name="value" value="taskdecl" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1197466950076">
+      <property name="name" value="abstract" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851952934">
     <property name="name" value="PropertyValueExpression" />
@@ -232,6 +236,12 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="enum" />
       <link role="target" targetNodeId="1197398796434" resolveInfo="Enum" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197470378208">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="deprecated" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1196865966685" resolveInfo="BooleanLiteral" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196865966685">
