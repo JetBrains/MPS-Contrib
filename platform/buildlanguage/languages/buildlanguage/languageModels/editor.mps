@@ -390,6 +390,12 @@
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           <link role="styleClass" targetNodeId="1197150425926" resolveInfo="taskTarget" />
         </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1197465462257">
+          <property name="text" value="extends" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1197465467867">
+          <link role="relationDeclaration" targetNodeId="1.1197465428484" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1196871732166">
         <property name="selectable" value="false" />
@@ -613,6 +619,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1197398990671">
+    <property name="package" value="Types" />
     <link role="conceptDeclaration" targetNodeId="1.1197398796434" resolveInfo="Enum" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1197398999782">
       <property name="vertical" value="false" />
@@ -622,6 +629,7 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1197399052772">
         <property name="vertical" value="false" />
         <property name="selectable" value="false" />
+        <property name="separatorText" value="," />
         <link role="relationDeclaration" targetNodeId="1.1197398804591" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1197399041536">

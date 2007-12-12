@@ -131,6 +131,11 @@
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1196879870124" resolveInfo="TaskReference" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197465428484">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="parent" />
+      <link role="target" targetNodeId="1196879870124" resolveInfo="TaskReference" />
+    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196858438485">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
@@ -392,6 +397,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197398796434">
     <property name="name" value="Enum" />
+    <property name="package" value="Types" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197398804591">
       <property name="metaClass" value="aggregation" />
@@ -403,13 +409,42 @@
       <property name="name" value="type" />
       <link role="targetType" targetNodeId="1196870830058" resolveInfo="Type" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1197460336321">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197399151554">
     <property name="name" value="StringEnum" />
+    <property name="package" value="Types" />
     <link role="extends" targetNodeId="1197398796434" resolveInfo="Enum" />
     <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.structure.AggregationConceptLink" id="1197399247025">
       <link role="conceptLinkDeclaration" targetNodeId="1197399226462" resolveInfo="type" />
       <node role="target" type="jetbrains.mps.buildlanguage.structure.StringType" id="1197399249589" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1197460533691">
+      <property name="value" value="enum of string" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1197460545630">
+      <property name="value" value="{ string }" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197464877317">
+    <property name="package" value="Types" />
+    <property name="name" value="IntegerEnum" />
+    <link role="extends" targetNodeId="1197398796434" resolveInfo="Enum" />
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.structure.AggregationConceptLink" id="1197464914131">
+      <link role="conceptLinkDeclaration" targetNodeId="1197399226462" resolveInfo="type" />
+      <node role="target" type="jetbrains.mps.buildlanguage.structure.IntegerType" id="1197464916508" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1197464920040">
+      <property name="value" value="{ int }" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1197464927340">
+      <property name="value" value="enum of integer" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
   </node>
 </model>
