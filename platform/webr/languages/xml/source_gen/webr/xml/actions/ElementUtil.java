@@ -22,7 +22,7 @@ public class ElementUtil {
     return ElementUtil.getParentElementDeclaration(node, scope, true);
   }
 
-  public static SNode getParentElementDeclaration(SNode node, IScope scope, boolean includeThis) {
+  private static SNode getParentElementDeclaration(SNode node, IScope scope, boolean includeThis) {
     SNode elementDeclaration = null;
     SNode currentNode = node;
     if(!(includeThis)) {
@@ -52,7 +52,7 @@ public class ElementUtil {
     return elementDeclaration;
   }
 
-  public static SNode findSchema(SNode node) {
+  private static SNode findSchema(SNode node) {
     SNode schema = null;
     SNode element = SNodeOperations.getAncestor(node, "webr.xml.structure.Element", true, false);
     if((element == null)) {

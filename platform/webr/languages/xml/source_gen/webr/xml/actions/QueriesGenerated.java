@@ -64,6 +64,7 @@ public class QueriesGenerated {
 
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();
+      assert queryResult != null;
       for(SNode item : queryResult) {
         result.add(new DefaultChildNodeSubstituteAction(item, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
 
@@ -151,6 +152,7 @@ public class QueriesGenerated {
 
       };
       Iterable<SNode> queryResult = (Iterable)calc.calculate();
+      assert queryResult != null;
       for(SNode item : queryResult) {
         result.add(new DefaultChildNodeSubstituteAction(item, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
 
