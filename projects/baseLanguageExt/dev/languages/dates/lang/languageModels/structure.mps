@@ -355,6 +355,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationDataTypeDeclaration" id="1172075151844">
     <property name="name" value="CompareType" />
     <property name="package" value="operation.compare" />
+    <property name="memberIdentifierPolicy" value="custom" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075151845">
       <property name="name" value="equals" />
@@ -643,6 +644,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationDataTypeDeclaration" id="1173975646059">
     <property name="name" value="DateFormatVisibility" />
     <property name="package" value="format" />
+    <property name="memberIdentifierPolicy" value="custom" />
     <link role="defaultMember" targetNodeId="1173975646060" resolveInfo="PUBLIC" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1173975646060">
