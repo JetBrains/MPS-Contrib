@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import java.util.ArrayList;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
@@ -75,7 +75,7 @@ public class ElementUtil {
         elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
       } else
       {
-        List<SNode> elementDeclarations = SConceptOperations.findConceptInstances(SConceptOperations.findConceptDeclaration("webr.xmlSchema.structure.ElementDeclaration"), scope);
+        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "webr.xmlSchema.structure.ElementDeclaration");
         elementDeclarationSet.addAll(elementDeclarations);
       }
     } else
