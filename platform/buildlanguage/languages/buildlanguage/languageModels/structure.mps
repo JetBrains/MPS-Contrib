@@ -4,10 +4,6 @@
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.buildlanguage" />
-  <language namespace="jetbrains.mps.baseLanguage" />
-  <language namespace="jetbrains.mps.baseLanguage.strings" />
-  <language namespace="jetbrains.mps.baseLanguageInternal" />
-  <language namespace="jetbrains.mps.baseLanguage.blTypes" />
   <language namespace="jetbrains.mps.xml" />
   <language namespace="jetbrains.mps.core" />
   <maxImportIndex value="8" />
@@ -252,6 +248,11 @@
       <property name="role" value="deprecated" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1196865966685" resolveInfo="BooleanLiteral" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197742637650">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="comment" />
+      <link role="target" targetNodeId="7.1070475926800" resolveInfo="StringLiteral" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196865966685">

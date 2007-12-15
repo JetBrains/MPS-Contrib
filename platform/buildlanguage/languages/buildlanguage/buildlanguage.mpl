@@ -22,7 +22,6 @@
   <module />
   <accessoryModels>
     <model modelUID="jetbrains.mps.buildlanguage.tasks" />
-    <model modelUID="jetbrains.mps.buildlanguage.resources" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">
