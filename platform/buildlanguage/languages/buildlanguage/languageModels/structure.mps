@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.buildlanguage.structure">
   <persistence version="1" />
+  <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.buildlanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
@@ -60,6 +61,11 @@
       <property name="role" value="nestedList" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1196851087779" resolveInfo="TaskCall" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197724814674">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="internalText" />
+      <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196864587965">
       <link role="intfc" targetNodeId="1196862084542" resolveInfo="IPropertyHolder" />
@@ -145,6 +151,10 @@
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1197466950076">
       <property name="name" value="abstract" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1197724441596">
+      <property name="name" value="canHaveInternalText" />
       <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
   </node>
@@ -313,13 +323,6 @@
       <link role="target" targetNodeId="1196851304975" resolveInfo="TaskDeclaration" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197052911231">
-    <property name="name" value="ResourceCollection" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1197053013537">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197107841918">
     <property name="name" value="BinaryOperation" />
     <property name="package" value="Operations" />
@@ -388,22 +391,8 @@
       <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197382738881">
-    <property name="name" value="ClassPath" />
-    <link role="extends" targetNodeId="1197052911231" resolveInfo="ResourceCollection" />
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1197388566569">
     <property name="name" value="IElement" />
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197390162252">
-    <property name="package" value="Generic" />
-    <property name="name" value="GenericResourceDeclaration" />
-    <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="1196851304975" resolveInfo="GenericTaskDeclaration" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1197390176565">
-      <property name="value" value="resdecl" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197398796434">
     <property name="name" value="Enum" />

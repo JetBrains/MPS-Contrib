@@ -95,7 +95,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     provider.setRole("value");
     provider.setNoTargetText("");
     provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
+    provider.setAllowsEmptyTarget(true);
     EditorCell cellWithRole = this.createValueCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

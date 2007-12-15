@@ -12,12 +12,16 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
+import jetbrains.mps.nodeEditor.cellMenu.ISubstituteInfoPart;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.ConceptPropertyCellProvider;
+import jetbrains.mps.bootstrap.editorLanguage.generator.internal.AbstractCellMenuPart_ReplaceNode_CustomNodeConcept;
 
 public class BinaryOperation_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_LeftCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197108091296");
+    BinaryOperation_LeftArgument_Actions.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_CellModel_ConceptProperty(EditorCell editorCell, SNode node, EditorContext context) {
@@ -26,6 +30,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RightCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197108106565");
+    BinaryOperation_RightArgument_Actions.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
@@ -96,6 +101,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
       BinaryOperation_Editor.setupLabel_CellModel_ConceptProperty((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new ISubstituteInfoPart[]{new BinaryOperation_Editor.BinaryOperation_replaceWith_BinaryOperation_cellMenu()}));
     return editorCell;
   }
 
@@ -144,5 +150,16 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
     } else
     return cellWithRole;
   }
+
+  public static class BinaryOperation_replaceWith_BinaryOperation_cellMenu extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
+
+    public  BinaryOperation_replaceWith_BinaryOperation_cellMenu() {
+    }
+
+    public String getReplacementConceptName() {
+      return "jetbrains.mps.buildlanguage.structure.BinaryOperation";
+    }
+
+}
 
 }
