@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.buildlanguage" compileInMPS="false">
+<language namespace="jetbrains.mps.buildlanguage" pluginClass="jetbrains.mps.buildlanguage.BuildLanguagePlugin" compileInMPS="false">
   <structure>
     <model modelUID="jetbrains.mps.buildlanguage.structure" />
   </structure>
@@ -22,6 +22,9 @@
   <module />
   <accessoryModels>
     <model modelUID="jetbrains.mps.buildlanguage.tasks" />
+    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
+    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
+    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">
@@ -39,6 +42,7 @@
   <classPath />
   <runtimeClassPath>
     <entry path="${mps_home}\platform\buildlanguage\classes" />
+    <entry path="${mps_home}\lib\ant-1.7.0\lib\ant.jar" />
   </runtimeClassPath>
   <sourcePath />
   <osgiOptions>
