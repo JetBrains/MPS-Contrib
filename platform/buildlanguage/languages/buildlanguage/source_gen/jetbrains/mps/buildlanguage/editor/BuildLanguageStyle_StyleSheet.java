@@ -14,15 +14,21 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle STRING_LITERAL = new IStyle() {
 
     public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor(cell);
-        labelCell.getTextLine().setTextColorIfNotSet(color);
+        labelCell.getTextLine().setTextColor(color);
       }
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
@@ -31,16 +37,22 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle BOOLEAN_LITERAL = new IStyle() {
 
     public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor1(cell);
-        labelCell.getTextLine().setTextColorIfNotSet(color);
+        labelCell.getTextLine().setTextColor(color);
       }
       cell.setFontType(MPSFonts.BOLD);
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
@@ -49,10 +61,16 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle INTEGER_LITERAL = new IStyle() {
 
     public void apply(EditorCell cell) {
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
@@ -61,16 +79,22 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle KEYWORD = new IStyle() {
 
     public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor2(cell);
-        labelCell.getTextLine().setTextColorIfNotSet(color);
+        labelCell.getTextLine().setTextColor(color);
       }
       cell.setFontType(MPSFonts.BOLD);
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
@@ -79,11 +103,17 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle TASK_TARGET = new IStyle() {
 
     public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
       cell.setFontType(MPSFonts.PLAIN);
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
@@ -92,10 +122,16 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle PROPERTY = new IStyle() {
 
     public void apply(EditorCell cell) {
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
@@ -104,11 +140,17 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle ATTRIBUTE_NAME = new IStyle() {
 
     public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
       cell.setFontType(MPSFonts.PLAIN);
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
@@ -117,15 +159,21 @@ public class BuildLanguageStyle_StyleSheet {
   public static final IStyle DEPRACTAED_ATTRIBUTE_NAME = new IStyle() {
 
     public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
-        labelCell.getTextLine().setTextColorIfNotSet(color);
+        labelCell.getTextLine().setTextColor(color);
       }
-      if(cell instanceof EditorCell_Collection) {
-        EditorCell_Collection collection = (EditorCell_Collection)cell;
-        for(EditorCell child : collection) {
-          this.apply(child);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
         }
       }
     }
