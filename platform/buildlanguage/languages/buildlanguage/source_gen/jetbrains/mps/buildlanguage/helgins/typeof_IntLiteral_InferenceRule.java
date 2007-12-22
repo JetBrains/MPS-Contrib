@@ -12,8 +12,8 @@ public class typeof_IntLiteral_InferenceRule implements InferenceRule_Runtime {
   public  typeof_IntLiteral_InferenceRule() {
   }
 
-  public void applyRule(final SNode argument) {
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(argument, "jetbrains.mps.buildlanguage.helgins", "1196872829511", true), new QuotationClass_1().createNode(), argument, null, "jetbrains.mps.buildlanguage.helgins", "1196872839076");
+  public void applyRule(final SNode nodeToCheck) {
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1196872829511", true), new QuotationClass_1().createNode(), nodeToCheck, null, "jetbrains.mps.buildlanguage.helgins", "1196872839076");
   }
 
   public String getApplicableConceptFQName() {

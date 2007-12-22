@@ -16,13 +16,13 @@ public class typeof_Enum_InferenceRule implements InferenceRule_Runtime {
   public  typeof_Enum_InferenceRule() {
   }
 
-  public void applyRule(final SNode argument) {
+  public void applyRule(final SNode nodeToCheck) {
     {
-      ICursor<SNode> _zCursor = CursorFactory.createCursor(SLinkOperations.getTargets(argument, "constants", true));
+      ICursor<SNode> _zCursor = CursorFactory.createCursor(SLinkOperations.getTargets(nodeToCheck, "constants", true));
       try {
         while(_zCursor.moveToNext()) {
           SNode element = _zCursor.getCurrent();
-          TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(element, "jetbrains.mps.buildlanguage.helgins", "1197401239298", true), SequenceOperations.getFirst(SLinkOperations.getConceptLinkTargets(argument, "type")), element, null, "jetbrains.mps.buildlanguage.helgins", "1197401256457");
+          TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(element, "jetbrains.mps.buildlanguage.helgins", "1197401239298", true), SequenceOperations.getFirst(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")), element, null, "jetbrains.mps.buildlanguage.helgins", "1197401256457");
         }
       } finally {
         _zCursor.release();

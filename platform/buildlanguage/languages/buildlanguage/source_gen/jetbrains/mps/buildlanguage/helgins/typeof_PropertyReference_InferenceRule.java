@@ -13,8 +13,8 @@ public class typeof_PropertyReference_InferenceRule implements InferenceRule_Run
   public  typeof_PropertyReference_InferenceRule() {
   }
 
-  public void applyRule(final SNode argument) {
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(argument, "jetbrains.mps.buildlanguage.helgins", "1196871332366", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(argument, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.helgins", "1196871369284", true), argument, null, "jetbrains.mps.buildlanguage.helgins", "1196871348598");
+  public void applyRule(final SNode nodeToCheck) {
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1196871332366", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.helgins", "1196871369284", true), nodeToCheck, null, "jetbrains.mps.buildlanguage.helgins", "1196871348598");
   }
 
   public String getApplicableConceptFQName() {

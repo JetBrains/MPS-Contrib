@@ -25,6 +25,8 @@
     <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
     <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
     <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
+    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
+    <model modelUID="jetbrains.mps.buildlanguage.generated" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">

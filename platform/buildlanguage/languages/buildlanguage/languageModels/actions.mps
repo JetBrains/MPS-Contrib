@@ -9,7 +9,7 @@
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <language namespace="jetbrains.mps.regexp" />
   <maxImportIndex value="22" />
-  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="-1" />
+  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="1" />
   <import index="19" modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="-1" />
   <import index="20" modelUID="java.lang@java_stub" version="-1" />
   <import index="21" modelUID="jetbrains.mps.baseLanguage.actions" version="-1" />

@@ -5,12 +5,12 @@ package jetbrains.mps.buildlanguage.editor;
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.nodeEditor.EditorCell;
+import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.CellLayout_Vertical;
@@ -32,6 +32,10 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   /* package */AbstractCellProvider myTargetDeclaration_EditorComponent1;
   /* package */AbstractCellListHandler myPropertyListListHandler_propertyListList_;
   /* package */AbstractCellListHandler myTaskCallsListListHandler_taskCallsListList_;
+
+  public static boolean _QueryFunction_NodeCondition_1197035916697(SNode node, EditorContext editorContext, IScope scope) {
+    return SLinkOperations.getCount(node, "dependsList") != 0 || editorContext.isInspector();
+  }
 
   private static void setupBasic_CellModel_ConceptProperty(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196853844458");
@@ -124,10 +128,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_TaskCallsListList(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  public static boolean _QueryFunction_NodeCondition_1197035916697(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "dependsList") != 0 || editorContext.isInspector();
   }
 
 
@@ -255,7 +255,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createPropertyListList(EditorContext context, SNode node) {
     if(this.myPropertyListListHandler_propertyListList_ == null) {
-      this.myPropertyListListHandler_propertyListList_ = new TargetDeclaration_Editor._RefNodeListHandler2(node, "propertyList", context);
+      this.myPropertyListListHandler_propertyListList_ = new TargetDeclaration_Editor._RefNodeListHandler3(node, "propertyList", context);
     }
     EditorCell_Collection editorCell = this.myPropertyListListHandler_propertyListList_.createCells(context, new CellLayout_Vertical(), false);
     TargetDeclaration_Editor.setupBasic_PropertyListList(editorCell, node, context);
@@ -268,7 +268,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createTaskCallsListList(EditorContext context, SNode node) {
     if(this.myTaskCallsListListHandler_taskCallsListList_ == null) {
-      this.myTaskCallsListListHandler_taskCallsListList_ = new TargetDeclaration_Editor._RefNodeListHandler3(node, "taskCallsList", context);
+      this.myTaskCallsListListHandler_taskCallsListList_ = new TargetDeclaration_Editor._RefNodeListHandler4(node, "taskCallsList", context);
     }
     EditorCell_Collection editorCell = this.myTaskCallsListListHandler_taskCallsListList_.createCells(context, new CellLayout_Vertical(), false);
     TargetDeclaration_Editor.setupBasic_TaskCallsListList(editorCell, node, context);
@@ -337,9 +337,9 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _RefNodeListHandler2 extends RefNodeListHandler {
+  public static class _RefNodeListHandler3 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler2(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler3(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -380,9 +380,9 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class _RefNodeListHandler3 extends RefNodeListHandler {
+  public static class _RefNodeListHandler4 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler3(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler4(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

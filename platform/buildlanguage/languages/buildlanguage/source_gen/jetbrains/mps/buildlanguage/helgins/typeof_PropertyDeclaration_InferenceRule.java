@@ -13,9 +13,9 @@ public class typeof_PropertyDeclaration_InferenceRule implements InferenceRule_R
   public  typeof_PropertyDeclaration_InferenceRule() {
   }
 
-  public void applyRule(final SNode argument) {
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(argument, "propertyValue", true), "jetbrains.mps.buildlanguage.helgins", "1196871226606", true), SLinkOperations.getTarget(argument, "type", true), SLinkOperations.getTarget(argument, "propertyValue", true), null, "jetbrains.mps.buildlanguage.helgins", "1196871226604");
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(argument, "jetbrains.mps.buildlanguage.helgins", "1196871295252", true), SLinkOperations.getTarget(argument, "type", true), argument, null, "jetbrains.mps.buildlanguage.helgins", "1196871299285");
+  public void applyRule(final SNode nodeToCheck) {
+    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "propertyValue", true), "jetbrains.mps.buildlanguage.helgins", "1196871226606", true), SLinkOperations.getTarget(nodeToCheck, "type", true), SLinkOperations.getTarget(nodeToCheck, "propertyValue", true), null, "jetbrains.mps.buildlanguage.helgins", "1196871226604");
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1196871295252", true), SLinkOperations.getTarget(nodeToCheck, "type", true), nodeToCheck, null, "jetbrains.mps.buildlanguage.helgins", "1196871299285");
   }
 
   public String getApplicableConceptFQName() {
