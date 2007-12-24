@@ -21,6 +21,7 @@ import jetbrains.mps.nodeEditor.EditorCellAction;
 import jetbrains.mps.nodeEditor.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
+import jetbrains.mps.nodeEditor.FocusPolicy;
 
 public class ContentList_Editor extends DefaultNodeEditor {
 
@@ -524,7 +525,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     private static void setupBasic_ConstantCell8(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1166316671279");
       editorCell.setDrawBorder(false);
-      editorCell.putUserObject(EditorCell.ATTRACTS_FOCUS_POLICY, EditorCell.ATTRACTS_FOCUS);
+      editorCell.setFocusPolicy(FocusPolicy.ATTRACTS_FOCUS);
     }
 
     private static void setupLabel_ConstantCell8(EditorCell_Label editorCell, SNode node, EditorContext context) {

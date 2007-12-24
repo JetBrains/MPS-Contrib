@@ -95,10 +95,10 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     public EditorCell createCellModel_ModelAccess(EditorContext context, SNode node) {
       ModelAccessor modelAccessor = this._modelAcessorFactory_1189991811005(context, node);
       EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
+      editorCell.setAction(EditorCellAction.DELETE, new CellAction_Empty());
       Element_elementDeclaration._Inline2.setupBasic_CellModel_ModelAccess(editorCell, node, context);
       Element_elementDeclaration._Inline2.setupLabel_CellModel_ModelAccess(editorCell, node, context);
       editorCell.setDefaultText("");
-      editorCell.setAction(EditorCellAction.DELETE, new CellAction_Empty());
       return editorCell;
     }
 
