@@ -7,6 +7,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
+import webr.xml.constraints.XmlRoot_Behavior;
 import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
@@ -57,8 +58,8 @@ public class ElementUtil {
     SNode element = SNodeOperations.getAncestor(node, "webr.xml.structure.Element", true, false);
     if((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
-      if(SNodeOperations.isInstanceOf(containingRoot, "webr.xmlInternal.structure.XmlFile")) {
-        schema = SLinkOperations.getTarget(containingRoot, "schema", false);
+      if(SNodeOperations.isInstanceOf(containingRoot, "webr.xml.structure.XmlRoot")) {
+        schema = XmlRoot_Behavior.call_getSchema_1198862681584(containingRoot);
       }
     } else
     {

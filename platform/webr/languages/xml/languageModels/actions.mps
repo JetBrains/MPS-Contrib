@@ -2,12 +2,44 @@
 <model name="webr.xml.actions">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.actionsLanguage" />
-  <language namespace="jetbrains.mps.baseLanguage" />
-  <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
-  <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
-  <maxImportIndex value="13" />
+  <language namespace="jetbrains.mps.bootstrap.actionsLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.actionsLanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.actionsLanguage.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.actionsLanguage.scripts" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.actionsLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.actionsLanguage.helgins" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.actionsLanguage.actions" version="-1" />
+  </language>
+  <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.intentions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.scripts" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.helgins" version="-1" />
+  </language>
+  <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.intentions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.helgins" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.scripts" version="-1" />
+  </language>
+  <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.intentions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.helgins" version="-1" />
+  </language>
+  <language namespace="jetbrains.mps.bootstrap.sharedConcepts">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.sharedConcepts.structure" version="-1" />
+  </language>
+  <maxImportIndex value="14" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
   <import index="4" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="6" modelUID="webr.xmlInternal.structure" version="-1" />
@@ -16,6 +48,7 @@
   <import index="10" modelUID="webr.xmlSchema.constraints" version="-1" />
   <import index="12" modelUID="java.lang@java_stub" version="-1" />
   <import index="13" modelUID="jetbrains.mps.core.structure" version="-1" />
+  <import index="14" modelUID="webr.xml.constraints" version="-1" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1167519968820">
     <property name="name" value="xml_nodeSubstitute" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1167699332639">
@@ -748,26 +781,26 @@
                   <link role="variableDeclaration" targetNodeId="1177867418499" resolveInfo="containingRoot" />
                 </node>
                 <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1177867593818">
-                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1177867625711">
-                    <link role="conceptDeclaration" targetNodeId="6.1166472279594" />
+                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1198863371669">
+                    <link role="conceptDeclaration" targetNodeId="1.1198862578220" resolveInfo="XmlRoot" />
                   </node>
                 </node>
               </node>
               <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1177867586269">
-                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1177867642994">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="1177867643809">
-                    <node role="rValue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1177867658474">
-                      <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeTypeCastExpression" id="1177867652393">
-                        <link role="concept" targetNodeId="6.1166472279594" />
-                        <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177867651702">
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1198863374999">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="1198863375876">
+                    <node role="rValue" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1198863386116">
+                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1198863388400">
+                        <link role="conceptMethodDeclaration" targetNodeId="14.1198862681584" resolveInfo="getSchema" />
+                      </node>
+                      <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeTypeCastExpression" id="1198863381208">
+                        <link role="concept" targetNodeId="1.1198862578220" resolveInfo="XmlRoot" />
+                        <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1198863380566">
                           <link role="variableDeclaration" targetNodeId="1177867418499" resolveInfo="containingRoot" />
                         </node>
                       </node>
-                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1177867660475">
-                        <link role="link" targetNodeId="6.1167755779835" />
-                      </node>
                     </node>
-                    <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177867642995">
+                    <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1198863375000">
                       <link role="variableDeclaration" targetNodeId="1177866565236" resolveInfo="schema" />
                     </node>
                   </node>
