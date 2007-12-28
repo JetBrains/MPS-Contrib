@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlInternal.structure">
   <persistence version="1" />
-  <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
+  <refactoringHistory />
+  <language namespace="jetbrains.mps.bootstrap.structureLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.findUsages" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
+  </language>
   <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="2" modelUID="webr.xml.structure" version="-1" />
@@ -65,6 +73,9 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1173487594724">
       <link role="intfc" targetNodeId="1.1169194658468" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1198862833697">
+      <link role="intfc" targetNodeId="2.1198862578220" resolveInfo="XmlRoot" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1173198002225">
