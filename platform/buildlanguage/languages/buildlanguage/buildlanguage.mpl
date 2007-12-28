@@ -22,10 +22,6 @@
   <module />
   <accessoryModels>
     <model modelUID="jetbrains.mps.buildlanguage.tasks" />
-    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
-    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
-    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
-    <model modelUID="jetbrains.mps.buildlanguage.tasks2" />
     <model modelUID="jetbrains.mps.buildlanguage.generated" />
   </accessoryModels>
   <generators>
