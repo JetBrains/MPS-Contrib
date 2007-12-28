@@ -30,7 +30,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(ElementDeclaration_Behavior.call_getNamespaceDeclaration_1191199132093(SLinkOperations.getTarget(node, "elementDeclaration", false)), "prefix");
   }
 
-  public static SNode referenceMacro_GetReferent_1191199727159(SNode node, SNode templateNode, SNode outputNode, SModel sourceModel, ITemplateGenerator generator) {
+  public static Object referenceMacro_GetReferent_1191199727159(SNode node, SNode templateNode, SNode outputNode, SModel sourceModel, ITemplateGenerator generator) {
     return SLinkOperations.getTarget(node, "elementDeclaration", false);
   }
 
