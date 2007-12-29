@@ -27,6 +27,7 @@ import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 public class Project_Editor extends DefaultNodeEditor {
 
   /* package */AbstractCellListHandler myPropertyListListHandler_propertyListList_;
+  /* package */AbstractCellListHandler myPathsListHandler_pathsList_;
   /* package */AbstractCellListHandler myImportsListHandler_importsList_;
   /* package */AbstractCellListHandler myTargetlistListHandler_targetlistList_;
 
@@ -71,6 +72,11 @@ public class Project_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_PropertyListList(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196858966198");
+    editorCell.setSelectable(false);
+  }
+
+  private static void setupBasic_PathsList(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1198941249598");
     editorCell.setSelectable(false);
   }
 
@@ -125,6 +131,9 @@ public class Project_Editor extends DefaultNodeEditor {
   private static void setupLabel_PropertyListList(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
+  private static void setupLabel_PathsList(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
   private static void setupLabel_ImportsList(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
@@ -159,6 +168,7 @@ public class Project_Editor extends DefaultNodeEditor {
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createPropertyListList(context, node));
+    editorCell.addEditorCell(this.createPathsList(context, node));
     editorCell.addEditorCell(this.createImportsList(context, node));
     editorCell.addEditorCell(this.createTargetlistList(context, node));
     return editorCell;
@@ -239,9 +249,22 @@ public class Project_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  public EditorCell createPathsList(EditorContext context, SNode node) {
+    if(this.myPathsListHandler_pathsList_ == null) {
+      this.myPathsListHandler_pathsList_ = new Project_Editor._RefNodeListHandler1(node, "paths", context);
+    }
+    EditorCell_Collection editorCell = this.myPathsListHandler_pathsList_.createCells(context, new CellLayout_Vertical(), false);
+    Project_Editor.setupBasic_PathsList(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.putUserObject(EditorCell.ROLE, this.myPathsListHandler_pathsList_.getElementRole());
+    return editorCell;
+  }
+
   public EditorCell createImportsList(EditorContext context, SNode node) {
     if(this.myImportsListHandler_importsList_ == null) {
-      this.myImportsListHandler_importsList_ = new Project_Editor._RefNodeListHandler1(node, "imports", context);
+      this.myImportsListHandler_importsList_ = new Project_Editor._RefNodeListHandler2(node, "imports", context);
     }
     EditorCell_Collection editorCell = this.myImportsListHandler_importsList_.createCells(context, new CellLayout_Vertical(), false);
     Project_Editor.setupBasic_ImportsList(editorCell, node, context);
@@ -254,7 +277,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createTargetlistList(EditorContext context, SNode node) {
     if(this.myTargetlistListHandler_targetlistList_ == null) {
-      this.myTargetlistListHandler_targetlistList_ = new Project_Editor._RefNodeListHandler2(node, "targetlist", context);
+      this.myTargetlistListHandler_targetlistList_ = new Project_Editor._RefNodeListHandler3(node, "targetlist", context);
     }
     EditorCell_Collection editorCell = this.myTargetlistListHandler_targetlistList_.createCells(context, new CellLayout_Vertical(), false);
     Project_Editor.setupBasic_TargetlistList(editorCell, node, context);
@@ -441,6 +464,49 @@ public class Project_Editor extends DefaultNodeEditor {
   public static class _RefNodeListHandler2 extends RefNodeListHandler {
 
     public  _RefNodeListHandler2(SNode ownerNode, String childRole, EditorContext context) {
+      super(ownerNode, childRole, context, false);
+    }
+
+    public SNode createNodeToInsert(EditorContext context) {
+      SNode listOwner = super.getOwner();
+      return NodeFactoryManager.createNode(listOwner, context, super.getElementRole());
+    }
+
+    public EditorCell createNodeCell(EditorContext context, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(context, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, context);
+      return elementCell;
+    }
+
+    public EditorCell createEmptyCell(EditorContext context) {
+      EditorCell emptyCell = null;
+      emptyCell = super.createEmptyCell(context);
+      this.installElementCellActions(super.getOwner(), null, emptyCell, context);
+      return emptyCell;
+    }
+
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
+      if(elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
+        SNode substituteInfoNode = listOwner;
+        if(elementNode != null) {
+          substituteInfoNode = elementNode;
+          elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
+        }
+        if(elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
+        }
+      }
+    }
+
+    public EditorCell createSeparatorCell(EditorContext context) {
+      return super.createSeparatorCell(context);
+    }
+
+}
+  public static class _RefNodeListHandler3 extends RefNodeListHandler {
+
+    public  _RefNodeListHandler3(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

@@ -255,7 +255,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createPropertyListList(EditorContext context, SNode node) {
     if(this.myPropertyListListHandler_propertyListList_ == null) {
-      this.myPropertyListListHandler_propertyListList_ = new TargetDeclaration_Editor._RefNodeListHandler3(node, "propertyList", context);
+      this.myPropertyListListHandler_propertyListList_ = new TargetDeclaration_Editor._RefNodeListHandler4(node, "propertyList", context);
     }
     EditorCell_Collection editorCell = this.myPropertyListListHandler_propertyListList_.createCells(context, new CellLayout_Vertical(), false);
     TargetDeclaration_Editor.setupBasic_PropertyListList(editorCell, node, context);
@@ -268,7 +268,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createTaskCallsListList(EditorContext context, SNode node) {
     if(this.myTaskCallsListListHandler_taskCallsListList_ == null) {
-      this.myTaskCallsListListHandler_taskCallsListList_ = new TargetDeclaration_Editor._RefNodeListHandler4(node, "taskCallsList", context);
+      this.myTaskCallsListListHandler_taskCallsListList_ = new TargetDeclaration_Editor._RefNodeListHandler5(node, "taskCallsList", context);
     }
     EditorCell_Collection editorCell = this.myTaskCallsListListHandler_taskCallsListList_.createCells(context, new CellLayout_Vertical(), false);
     TargetDeclaration_Editor.setupBasic_TaskCallsListList(editorCell, node, context);
@@ -337,9 +337,9 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _RefNodeListHandler3 extends RefNodeListHandler {
+  public static class _RefNodeListHandler4 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler3(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler4(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -380,9 +380,9 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class _RefNodeListHandler4 extends RefNodeListHandler {
+  public static class _RefNodeListHandler5 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler4(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler5(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

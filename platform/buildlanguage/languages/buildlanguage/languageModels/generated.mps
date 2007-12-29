@@ -3,11 +3,11 @@
   <persistence version="1" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.buildlanguage">
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.actions" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="-1" />
   </language>
   <maxImportIndex value="0" />
   <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1198841753217">
@@ -10957,6 +10957,7 @@
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1198841757540">
     <property name="name" value="path" />
+    <link role="nameid" targetNodeId="1198841757548" resolveInfo="refid" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1198841757542">
       <link role="declaration" targetNodeId="1198841755691" resolveInfo="cloneable" />
     </node>

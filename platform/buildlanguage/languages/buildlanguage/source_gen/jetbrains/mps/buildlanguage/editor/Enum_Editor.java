@@ -84,7 +84,7 @@ public class Enum_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstantsList(EditorContext context, SNode node) {
     if(this.myConstantsListHandler_constantsList_ == null) {
-      this.myConstantsListHandler_constantsList_ = new Enum_Editor._RefNodeListHandler14(node, "constants", context);
+      this.myConstantsListHandler_constantsList_ = new Enum_Editor._RefNodeListHandler15(node, "constants", context);
     }
     EditorCell_Collection editorCell = this.myConstantsListHandler_constantsList_.createCells(context, new CellLayout_Horizontal(), false);
     Enum_Editor.setupBasic_ConstantsList(editorCell, node, context);
@@ -95,9 +95,9 @@ public class Enum_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _RefNodeListHandler14 extends RefNodeListHandler {
+  public static class _RefNodeListHandler15 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler14(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler15(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

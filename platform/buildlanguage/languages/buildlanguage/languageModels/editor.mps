@@ -3,29 +3,29 @@
   <persistence version="1" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.editorLanguage">
-    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.helgins" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.constraints" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.actions" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.helgins" version="-1" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.helgins" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.scripts" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.intentions" version="-1" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.intentions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.scripts" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.editor" version="-1" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.helgins" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.intentions" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.actions" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.helgins" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.scripts" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.actions" version="-1" />
   </language>
   <maxImportIndex value="4" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="1" />
@@ -76,6 +76,11 @@
             <property name="vertical" value="true" />
             <property name="selectable" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1196862133794" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1198941249598">
+            <property name="vertical" value="true" />
+            <property name="selectable" value="false" />
+            <link role="relationDeclaration" targetNodeId="1.1198941222782" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1198345423068">
             <property name="vertical" value="true" />
@@ -532,6 +537,44 @@
           </node>
         </node>
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1198939672610">
+        <property name="selectable" value="false" />
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1198939676349">
+          <property name="text" value="    " />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1198939692986">
+          <property name="text" value="name id:" />
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1198939705026">
+          <link role="relationDeclaration" targetNodeId="1.1198939617855" />
+          <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1198939705027">
+            <link role="conceptDeclaration" targetNodeId="1.1196863787970" resolveInfo="GenericAttributeDeclaration" />
+            <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1198939710172">
+              <property name="readOnly" value="true" />
+              <property name="allowEmptyText" value="true" />
+              <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+              <link role="styleClass" targetNodeId="1197150425926" resolveInfo="taskTarget" />
+            </node>
+          </node>
+        </node>
+        <node role="renderingCondition" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_NodeCondition" id="1198941046948">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1198941046949">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1198941049419">
+              <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1198941056332">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsNotNullOperation" id="1198941059241" />
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1198941050311">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1198941055127">
+                    <link role="link" targetNodeId="1.1198939617855" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1198941049420" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1197468241312">
         <property name="selectable" value="false" />
         <property name="vertical" value="false" />
@@ -598,6 +641,26 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1197468020135">
           <link role="relationDeclaration" targetNodeId="1.1197466950076" resolveInfo="abstract" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1198941078917">
+        <property name="selectable" value="false" />
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1198941078919">
+          <property name="text" value="name id:" />
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1198941078920">
+          <link role="relationDeclaration" targetNodeId="1.1198939617855" />
+          <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1198941078921">
+            <link role="conceptDeclaration" targetNodeId="1.1196863787970" resolveInfo="GenericAttributeDeclaration" />
+            <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1198941078922">
+              <property name="readOnly" value="true" />
+              <property name="allowEmptyText" value="true" />
+              <link role="styleClass" targetNodeId="1197150425926" resolveInfo="taskTarget" />
+              <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+            </node>
+          </node>
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1197468100220">
@@ -1171,6 +1234,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1198345286207">
+    <property name="package" value="Generic" />
     <link role="conceptDeclaration" targetNodeId="1.1198344963196" resolveInfo="ImportDeclatation" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1198345302334">
       <property name="vertical" value="false" />
@@ -1254,6 +1318,19 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1198347582853">
         <property name="separatorText" value="," />
         <link role="relationDeclaration" targetNodeId="1.1198346966624" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1198939376295">
+    <link role="conceptDeclaration" targetNodeId="1.1198939133999" resolveInfo="PathReference" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1198939398727">
+      <link role="relationDeclaration" targetNodeId="1.1198939321501" />
+      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1198939398728">
+        <link role="conceptDeclaration" targetNodeId="1.1197111643046" resolveInfo="GenericCall" />
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1198939419055">
+          <property name="readOnly" value="true" />
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+        </node>
       </node>
     </node>
   </node>
