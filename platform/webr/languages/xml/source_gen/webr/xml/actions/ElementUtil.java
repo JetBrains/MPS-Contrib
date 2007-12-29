@@ -53,7 +53,7 @@ public class ElementUtil {
     return elementDeclaration;
   }
 
-  private static SNode findSchema(SNode node) {
+  private static SNode findSchema(SNode node, IScope scope) {
     SNode schema = null;
     SNode element = SNodeOperations.getAncestor(node, "webr.xml.structure.Element", true, false);
     if((element == null)) {
@@ -69,7 +69,7 @@ public class ElementUtil {
   }
 
   public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node, IScope scope) {
-    SNode schema = ElementUtil.findSchema(node);
+    SNode schema = ElementUtil.findSchema(node, scope);
     Set elementDeclarationSet = new HashSet();
     if((elementDeclaration == null)) {
       if((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
