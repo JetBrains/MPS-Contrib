@@ -59,7 +59,7 @@ public class ElementUtil {
     if((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
       if(SNodeOperations.isInstanceOf(containingRoot, "webr.xml.structure.XmlRoot")) {
-        schema = XmlRoot_Behavior.call_getSchema_1198862681584(containingRoot);
+        schema = XmlRoot_Behavior.call_getSchema_1198862681584(containingRoot, scope);
       }
     } else
     {
