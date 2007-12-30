@@ -32,10 +32,10 @@
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
   </language>
   <language namespace="jetbrains.mps.buildlanguage">
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.editor" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.actions" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.actions" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="-1" />
   </language>
   <language namespace="jetbrains.mps.xml">
@@ -562,7 +562,7 @@
       <link role="target" targetNodeId="1198939133999" resolveInfo="PathReference" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1198345034590">
-      <property name="value" value="taskdef" />
+      <property name="value" value="typedef" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
