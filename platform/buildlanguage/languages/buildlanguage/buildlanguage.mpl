@@ -51,6 +51,7 @@
   </osgiOptions>
   <dependencies>
     <dependency>jetbrains.mps.helgins</dependency>
+    <dependency>jetbrains.mps.mpsProjectLanguage</dependency>
   </dependencies>
 </language>
 
