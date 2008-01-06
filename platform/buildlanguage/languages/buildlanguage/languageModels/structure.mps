@@ -24,30 +24,30 @@
     </refactoringContext>
   </refactoringHistory>
   <language namespace="jetbrains.mps.bootstrap.structureLanguage">
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.actions" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.findUsages" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.actions" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
   </language>
   <language namespace="jetbrains.mps.buildlanguage">
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.editor" version="-1" />
   </language>
   <language namespace="jetbrains.mps.xml">
-    <languageAspect modelUID="jetbrains.mps.xml.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.xml.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.xml.editor" version="-1" />
   </language>
   <language namespace="jetbrains.mps.core">
-    <languageAspect modelUID="jetbrains.mps.core.scripts" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.core.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.core.constraints" version="-1" />
     <languageAspect modelUID="jetbrains.mps.core.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.core.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.scripts" version="-1" />
   </language>
   <maxImportIndex value="9" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -124,8 +124,8 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196864587965">
       <link role="intfc" targetNodeId="1196862084542" resolveInfo="IPropertyHolder" />
     </node>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1198325321130">
-      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1199644655451">
+      <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851099544">
@@ -148,7 +148,7 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196857894889">
-      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+      <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196862198844">
       <link role="intfc" targetNodeId="1196862084542" resolveInfo="IPropertyHolder" />
@@ -174,7 +174,7 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196859244351">
-      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+      <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851304975">
@@ -216,10 +216,6 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1198330803839">
       <property name="value" value="generic declaration" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198939617855">
-      <property name="role" value="nameid" />
-      <link role="target" targetNodeId="1196863787970" resolveInfo="GenericAttributeDeclaration" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851952934">
@@ -386,15 +382,6 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196879870124">
-    <property name="name" value="TaskReference" />
-    <link role="extends" targetNodeId="1198325271317" resolveInfo="Reference" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197029597568">
-      <property name="role" value="declaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1196851304975" resolveInfo="TaskDeclaration" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197107841918">
     <property name="name" value="BinaryOperation" />
     <property name="package" value="Operations" />
@@ -458,6 +445,10 @@
       <property name="name" value="pseudonymProperty" />
       <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1199645087298">
+      <property name="name" value="id" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197112268679">
     <property name="name" value="GenericAttribute" />
@@ -474,9 +465,6 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
     </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1197388566569">
-    <property name="name" value="IElement" />
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197398796434">
     <property name="name" value="Enum" />
@@ -639,6 +627,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1199634973762">
     <property name="name" value="PseudonamedReference" />
+    <property name="package" value="Generic" />
     <link role="extends" targetNodeId="1198325271317" resolveInfo="Reference" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1199634997419">
       <property name="metaClass" value="aggregation" />
@@ -654,6 +643,12 @@
       <property name="role" value="ref" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1196861005114" resolveInfo="StringLiteral" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1199644616584">
+    <property name="name" value="IProjectComponent" />
+    <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1199644633384">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
 </model>
