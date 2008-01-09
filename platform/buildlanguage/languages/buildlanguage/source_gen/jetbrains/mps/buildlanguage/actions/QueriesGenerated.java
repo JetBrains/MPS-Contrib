@@ -4,14 +4,13 @@ package jetbrains.mps.buildlanguage.actions;
 
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
-import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.bootstrap.structureLanguage.structure.AbstractConceptDeclaration;
-import jetbrains.mps.smodel.action.IChildNodeSetter;
 import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.smodel.action.NodeSubstituteActionsFactory_ParameterObject;
 import java.util.ArrayList;
 import jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
@@ -23,11 +22,11 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOpera
 
 public class QueriesGenerated {
 
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1196869262792(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1196869262792(final IOperationContext operationContext, final NodeSubstituteActionsFactory_ParameterObject _parameterObject) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanLiteral", operationContext.getScope());
-      result.add(new DefaultSimpleSubstituteAction(concept, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
+      result.add(new DefaultSimpleSubstituteAction(concept, _parameterObject.getParentNode(), _parameterObject.getCurrentTargetNode(), _parameterObject.getChildSetter(), operationContext.getScope()) {
 
         public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
           SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
@@ -47,7 +46,7 @@ public class QueriesGenerated {
     }
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanLiteral", operationContext.getScope());
-      result.add(new DefaultSimpleSubstituteAction(concept, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
+      result.add(new DefaultSimpleSubstituteAction(concept, _parameterObject.getParentNode(), _parameterObject.getCurrentTargetNode(), _parameterObject.getChildSetter(), operationContext.getScope()) {
 
         public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
           SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
@@ -68,11 +67,11 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1197476868571(final SNode parentNode, final SNode currentTargetNode, final AbstractConceptDeclaration childConcept, final IChildNodeSetter childSetter, final IOperationContext operationContext) {
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1197476868571(final IOperationContext operationContext, final NodeSubstituteActionsFactory_ParameterObject _parameterObject) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("null", operationContext.getScope());
-      result.add(new DefaultSimpleSubstituteAction(concept, parentNode, currentTargetNode, childSetter, operationContext.getScope()) {
+      result.add(new DefaultSimpleSubstituteAction(concept, _parameterObject.getParentNode(), _parameterObject.getCurrentTargetNode(), _parameterObject.getChildSetter(), operationContext.getScope()) {
 
         public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
           SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.IntLiteral", null);
