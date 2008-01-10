@@ -10,12 +10,13 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOpera
 import webr.framework.function.HtmlStringUtil;
 import webr.xml.constraints.Content_Behavior;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
+import jetbrains.mps.generator.template.IfMacro_ParameterObject;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
+import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.generator.template.ITemplateGenerator;
 import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
-import java.util.List;
 
 public class QueriesGenerated {
 
@@ -77,20 +78,20 @@ public class QueriesGenerated {
     return Content_Behavior.call_isSeparate_string_1179110905432(_parameterObject.getNode());
   }
 
-  public static boolean ifMacro_Condition_1171381345810(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element");
+  public static boolean ifMacro_Condition_1171381345810(final IOperationContext operationContext, final IfMacro_ParameterObject _parameterObject) {
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_parameterObject.getNode(), null, false, false), "webr.xml.structure.Element");
   }
 
-  public static boolean ifMacro_Condition_1171381407187(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.Element"));
+  public static boolean ifMacro_Condition_1171381407187(final IOperationContext operationContext, final IfMacro_ParameterObject _parameterObject) {
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(_parameterObject.getNode(), null, false, false), "webr.xml.structure.Element"));
   }
 
-  public static boolean ifMacro_Condition_1179113432142(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return !(SPropertyOperations.getBoolean(node, "isEmpty"));
+  public static boolean ifMacro_Condition_1179113432142(final IOperationContext operationContext, final IfMacro_ParameterObject _parameterObject) {
+    return !(SPropertyOperations.getBoolean(_parameterObject.getNode(), "isEmpty"));
   }
 
-  public static boolean ifMacro_Condition_1179113432151(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SPropertyOperations.getBoolean(node, "isEmpty");
+  public static boolean ifMacro_Condition_1179113432151(final IOperationContext operationContext, final IfMacro_ParameterObject _parameterObject) {
+    return SPropertyOperations.getBoolean(_parameterObject.getNode(), "isEmpty");
   }
 
   public static List sourceNodesQuery_1171370078625(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
