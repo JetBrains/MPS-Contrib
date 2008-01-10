@@ -5,14 +5,15 @@ package webr.xml.generator.baseLanguage.template.main;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.BaseMappingRule_ParameterObject;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.smodel.SModel;
-import jetbrains.mps.generator.template.ITemplateGenerator;
-import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.generator.template.PropertyMacro_ParameterObject;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import webr.framework.function.HtmlStringUtil;
 import webr.xml.constraints.Content_Behavior;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
+import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.generator.template.ITemplateGenerator;
+import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
 
@@ -36,44 +37,44 @@ public class QueriesGenerated {
     return !(SPropertyOperations.getBoolean(_parameterObject.getNode(), "isHorizontal"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1169056138286(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return " " + SPropertyOperations.getString(SLinkOperations.getTarget(node, "attributeDeclaration", false), "attributeName") + "=\"";
+  public static Object propertyMacro_GetPropertyValue_1169056138286(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return " " + SPropertyOperations.getString(SLinkOperations.getTarget(_parameterObject.getNode(), "attributeDeclaration", false), "attributeName") + "=\"";
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179111291695(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return HtmlStringUtil.html(SPropertyOperations.getString(node, "text"));
+  public static Object propertyMacro_GetPropertyValue_1179111291695(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return HtmlStringUtil.html(SPropertyOperations.getString(_parameterObject.getNode(), "text"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179110837332(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.call_isSeparate_string_1179110905432(node);
+  public static Object propertyMacro_GetPropertyValue_1179110837332(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return Content_Behavior.call_isSeparate_string_1179110905432(_parameterObject.getNode());
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179112575400(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return "&" + SPropertyOperations.getString(SLinkOperations.getTarget(node, "entityDeclaration", false), "entityName") + ";";
+  public static Object propertyMacro_GetPropertyValue_1179112575400(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return "&" + SPropertyOperations.getString(SLinkOperations.getTarget(_parameterObject.getNode(), "entityDeclaration", false), "entityName") + ";";
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179112381192(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.call_isSeparate_string_1179110905432(node);
+  public static Object propertyMacro_GetPropertyValue_1179112381192(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return Content_Behavior.call_isSeparate_string_1179110905432(_parameterObject.getNode());
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179112825140(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.call_isSeparate_string_1179110905432(node);
+  public static Object propertyMacro_GetPropertyValue_1179112825140(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return Content_Behavior.call_isSeparate_string_1179110905432(_parameterObject.getNode());
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179113154760(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.call_isSeparate_string_1179110905432(node);
+  public static Object propertyMacro_GetPropertyValue_1179113154760(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return Content_Behavior.call_isSeparate_string_1179110905432(_parameterObject.getNode());
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179113432099(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return "<" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(node, "elementDeclaration", false));
+  public static Object propertyMacro_GetPropertyValue_1179113432099(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return "<" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(_parameterObject.getNode(), "elementDeclaration", false));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179113432129(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return "</" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(node, "elementDeclaration", false)) + ">";
+  public static Object propertyMacro_GetPropertyValue_1179113432129(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return "</" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(_parameterObject.getNode(), "elementDeclaration", false)) + ">";
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179113415864(SNode node, String templateValue, SNode templateNode, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return Content_Behavior.call_isSeparate_string_1179110905432(node);
+  public static Object propertyMacro_GetPropertyValue_1179113415864(final IOperationContext operationContext, final PropertyMacro_ParameterObject _parameterObject) {
+    return Content_Behavior.call_isSeparate_string_1179110905432(_parameterObject.getNode());
   }
 
   public static boolean ifMacro_Condition_1171381345810(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
