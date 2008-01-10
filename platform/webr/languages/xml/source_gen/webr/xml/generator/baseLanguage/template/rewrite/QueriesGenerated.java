@@ -10,10 +10,11 @@ import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperati
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.PropertyMacro_ParameterObject;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.generator.template.ReferenceMacro_ParameterObject;
+import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.generator.template.ITemplateGenerator;
-import java.util.List;
 import jetbrains.mps.smodel.IScope;
 
 public class QueriesGenerated {
@@ -32,8 +33,8 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(ElementDeclaration_Behavior.call_getNamespaceDeclaration_1191199132093(SLinkOperations.getTarget(_parameterObject.getNode(), "elementDeclaration", false)), "prefix");
   }
 
-  public static Object referenceMacro_GetReferent_1191199727159(SNode node, SNode templateNode, SNode outputNode, SModel sourceModel, ITemplateGenerator generator) {
-    return SLinkOperations.getTarget(node, "elementDeclaration", false);
+  public static Object referenceMacro_GetReferent_1191199727159(final IOperationContext operationContext, final ReferenceMacro_ParameterObject _parameterObject) {
+    return SLinkOperations.getTarget(_parameterObject.getNode(), "elementDeclaration", false);
   }
 
   public static List sourceNodesQuery_1191201293826(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
