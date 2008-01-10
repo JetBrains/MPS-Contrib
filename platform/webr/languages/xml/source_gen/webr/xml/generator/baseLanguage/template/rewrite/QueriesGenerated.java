@@ -14,9 +14,7 @@ import jetbrains.mps.generator.template.ReferenceMacro_ParameterObject;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacro_Node_ParameterObject;
 import java.util.List;
-import jetbrains.mps.smodel.SModel;
-import jetbrains.mps.generator.template.ITemplateGenerator;
-import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.generator.template.SourceSubstituteMacro_Nodes_ParameterObject;
 
 public class QueriesGenerated {
 
@@ -42,8 +40,8 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_parameterObject.getNode(), "contentList", true);
   }
 
-  public static List sourceNodesQuery_1191201293826(SNode node, SModel sourceModel, ITemplateGenerator generator, IScope scope, IOperationContext operationContext) {
-    return SLinkOperations.getTargets(node, "attribute", true);
+  public static List sourceNodesQuery_1191201293826(final IOperationContext operationContext, final SourceSubstituteMacro_Nodes_ParameterObject _parameterObject) {
+    return SLinkOperations.getTargets(_parameterObject.getNode(), "attribute", true);
   }
 
 }
