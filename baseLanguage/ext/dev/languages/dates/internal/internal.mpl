@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" generatorOutputPath="${mps_home}\projects\baseLanguageExt\dev\source_gen">
+<language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" generatorOutputPath="${mps_home}\baseLanguage\ext\dev\source_gen" compileInMPS="false">
   <structure>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" />
   </structure>
@@ -18,8 +18,9 @@
   <generators />
   <classPath />
   <runtimeClassPath>
-    <entry path="${mps_home}\projects\baseLanguageExt\dev\classes" />
+    <entry path="${mps_home}\baseLanguage\ext\dev\classes" />
   </runtimeClassPath>
+  <sourcePath />
   <osgiOptions>
     <requiredBundles />
     <exportedPackage />
