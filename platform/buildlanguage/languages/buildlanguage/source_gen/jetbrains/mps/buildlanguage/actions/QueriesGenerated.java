@@ -40,7 +40,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return "true";
+          throw new RuntimeException("NOT IMPLEMENTED");
         }
 
       });
@@ -60,7 +60,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return "false";
+          throw new RuntimeException("NOT IMPLEMENTED");
         }
 
       });
@@ -111,11 +111,11 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return "+";
+          throw new RuntimeException("NOT IMPLEMENTED");
         }
 
         public String getDescriptionText(String pattern) {
-          return "plus operation";
+          throw new RuntimeException("NOT IMPLEMENTED");
         }
 
       });

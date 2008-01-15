@@ -23,7 +23,7 @@ import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 
 public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
 
-  /* package */AbstractCellListHandler myDependsListListHandler_dependsListList_;
+  /* package */AbstractCellListHandler myDependsListHandler_dependsList_;
 
   public  TargetDeclaration_EditorComponent(SNode node) {
     super(node);
@@ -37,7 +37,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197034223983");
   }
 
-  private static void setupBasic_DependsListList(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_DependsList(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197034228923");
   }
 
@@ -51,11 +51,11 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
   private static void setupLabel_ConstantCell1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_DependsListList(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_DependsList(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static boolean _QueryFunction_NodeCondition_1197034522645(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "dependsList") != 0 || editorContext.isInspector();
+    return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
   }
 
 
@@ -75,7 +75,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstantCell(context, node, "depends"));
     editorCell.addEditorCell(this.createConstantCell1(context, node, "="));
-    editorCell.addEditorCell(this.createDependsListList(context, node));
+    editorCell.addEditorCell(this.createDependsList(context, node));
     return editorCell;
   }
 
@@ -95,22 +95,22 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     return editorCell;
   }
 
-  public EditorCell createDependsListList(EditorContext context, SNode node) {
-    if(this.myDependsListListHandler_dependsListList_ == null) {
-      this.myDependsListListHandler_dependsListList_ = new TargetDeclaration_EditorComponent._RefNodeListHandler10(node, "dependsList", context);
+  public EditorCell createDependsList(EditorContext context, SNode node) {
+    if(this.myDependsListHandler_dependsList_ == null) {
+      this.myDependsListHandler_dependsList_ = new TargetDeclaration_EditorComponent._RefNodeListHandler11(node, "depends", context);
     }
-    EditorCell_Collection editorCell = this.myDependsListListHandler_dependsListList_.createCells(context, new CellLayout_Horizontal(), false);
-    TargetDeclaration_EditorComponent.setupBasic_DependsListList(editorCell, node, context);
+    EditorCell_Collection editorCell = this.myDependsListHandler_dependsList_.createCells(context, new CellLayout_Horizontal(), false);
+    TargetDeclaration_EditorComponent.setupBasic_DependsList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myDependsListListHandler_dependsListList_.getElementRole());
+    editorCell.putUserObject(EditorCell.ROLE, this.myDependsListHandler_dependsList_.getElementRole());
     return editorCell;
   }
 
-  public static class _RefNodeListHandler10 extends RefNodeListHandler {
+  public static class _RefNodeListHandler11 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler10(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler11(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
