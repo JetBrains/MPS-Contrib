@@ -179,6 +179,29 @@ public class BuildLanguageStyle_StyleSheet {
     }
 
   };
+  public static final IStyle PROMPTING = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
+      if(cell instanceof EditorCell_Label) {
+        EditorCell_Label labelCell = (EditorCell_Label)cell;
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
+        labelCell.getTextLine().setTextColor(color);
+      }
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
+        }
+      }
+    }
+
+  };
 
   private static Color calculateColor(EditorCell cell) {
     Color result;
@@ -201,6 +224,12 @@ public class BuildLanguageStyle_StyleSheet {
   private static Color calculateColor3(EditorCell cell) {
     Color result;
     result = Color.red;
+    return result;
+  }
+
+  private static Color calculateColor4(EditorCell cell) {
+    Color result;
+    result = Color.lightGray;
     return result;
   }
 
