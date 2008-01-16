@@ -52,6 +52,7 @@
   <dependencies>
     <dependency>jetbrains.mps.helgins</dependency>
     <dependency>jetbrains.mps.mpsProjectLanguage</dependency>
+    <dependency>jetbrains.mps.propertylanguage</dependency>
   </dependencies>
 </language>
 
