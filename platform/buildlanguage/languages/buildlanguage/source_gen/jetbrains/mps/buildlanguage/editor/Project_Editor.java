@@ -40,7 +40,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_NameCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196852473889");
-    BuildLanguageStyle_StyleSheet.TASK_TARGET.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.TARGET.apply(editorCell);
   }
 
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {

@@ -5,12 +5,12 @@ package jetbrains.mps.buildlanguage.editor;
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.nodeEditor.EditorCell;
+import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.CellLayout_Vertical;
@@ -34,6 +34,10 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   /* package */AbstractCellListHandler myPropertyListListHandler_propertyListList_;
   /* package */AbstractCellListHandler myTaskCallListHandler_taskCallList_;
 
+  public static boolean _QueryFunction_NodeCondition_1197035916697(SNode node, EditorContext editorContext, IScope scope) {
+    return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
+  }
+
   private static void setupBasic_CellModel_ConceptProperty(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196853844458");
     BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
@@ -41,7 +45,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_NameCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196855783095");
-    BuildLanguageStyle_StyleSheet.TASK_TARGET.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.TARGET.apply(editorCell);
   }
 
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
@@ -128,10 +132,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupLabel_ConstantCell4(EditorCell_Label editorCell, SNode node, EditorContext context) {
     editorCell.setEditable(false);
-  }
-
-  public static boolean _QueryFunction_NodeCondition_1197035916697(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
   }
 
 

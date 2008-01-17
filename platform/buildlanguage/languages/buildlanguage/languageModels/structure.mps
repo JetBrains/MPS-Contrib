@@ -96,27 +96,27 @@
   <language namespace="jetbrains.mps.bootstrap.structureLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.findUsages" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="-1" />
   </language>
   <language namespace="jetbrains.mps.buildlanguage">
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.actions" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="6" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="5" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.editor" version="-1" />
   </language>
   <language namespace="jetbrains.mps.xml">
-    <languageAspect modelUID="jetbrains.mps.xml.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.xml.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.xml.structure" version="-1" />
   </language>
   <language namespace="jetbrains.mps.core">
-    <languageAspect modelUID="jetbrains.mps.core.scripts" version="-1" />
     <languageAspect modelUID="jetbrains.mps.core.constraints" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.core.structure" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.scripts" version="-1" />
     <languageAspect modelUID="jetbrains.mps.core.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.core.editor" version="-1" />
   </language>
   <maxImportIndex value="10" />
@@ -667,18 +667,14 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198939133999">
     <property name="name" value="PathReference" />
-    <link role="extends" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198939321501">
-      <property name="role" value="path" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1197111643046" resolveInfo="GenericCall" />
-    </node>
-    <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptPropertyDeclaration" id="1198942948295">
-      <property name="name" value="callName" />
-    </node>
+    <link role="extends" targetNodeId="1200511852076" resolveInfo="CallReference" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1198942960530">
       <property name="value" value="path" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1198942948295" resolveInfo="callName" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1200580505053" resolveInfo="callName" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1200584536829">
+      <property name="value" value="path reference" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1199031681512">
@@ -763,10 +759,16 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1200511852076">
     <property name="name" value="CallReference" />
     <link role="extends" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
+    <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptPropertyDeclaration" id="1200580505053">
+      <property name="name" value="callName" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1200511904172">
-      <property name="role" value="call" />
       <property name="sourceCardinality" value="1" />
+      <property name="role" value="call" />
       <link role="target" targetNodeId="1197111643046" resolveInfo="GenericCall" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1200580443243">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
     </node>
   </node>
 </model>

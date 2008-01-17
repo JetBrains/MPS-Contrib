@@ -16,7 +16,7 @@ public class checkFileExistance_NonTypesystemRule implements NonTypesystemRule_R
 
   public void applyRule(final SNode fileName) {
     if(!(FileName_Behavior.call_exists_1199031833208(fileName))) {
-      TypeChecker.getInstance().reportTypeError(fileName, "File " + PropertyValueExpression_Behavior.call_getValue_1200339699356(fileName) + " do not exist.", "jetbrains.mps.buildlanguage.helgins", "1199032162293");
+      TypeChecker.getInstance().reportTypeError(fileName, "File " + PropertyValueExpression_Behavior.call_getActualValue_1200339699356(fileName) + " do not exist.", "jetbrains.mps.buildlanguage.helgins", "1199032162293");
     }
   }
 

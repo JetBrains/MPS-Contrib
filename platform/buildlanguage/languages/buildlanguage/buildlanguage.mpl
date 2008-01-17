@@ -44,7 +44,9 @@
     <entry path="${mps_home}\platform\buildlanguage\classes" />
     <entry path="${mps_home}\lib\ant-1.7.0\lib\ant.jar" />
   </runtimeClassPath>
-  <sourcePath />
+  <sourcePath>
+    <source path="${mps_home}\platform\buildlanguage\source" />
+  </sourcePath>
   <osgiOptions>
     <requiredBundles />
     <exportedPackage />

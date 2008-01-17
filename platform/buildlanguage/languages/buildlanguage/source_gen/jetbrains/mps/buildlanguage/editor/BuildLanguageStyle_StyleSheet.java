@@ -100,7 +100,7 @@ public class BuildLanguageStyle_StyleSheet {
     }
 
   };
-  public static final IStyle TASK_TARGET = new IStyle() {
+  public static final IStyle TARGET = new IStyle() {
 
     public void apply(EditorCell cell) {
       this.apply(cell, true);
@@ -111,6 +111,30 @@ public class BuildLanguageStyle_StyleSheet {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
+        labelCell.getTextLine().setTextColor(color);
+      }
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
+        }
+      }
+    }
+
+  };
+  public static final IStyle TASK = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
+      cell.setFontType(MPSFonts.PLAIN);
+      if(cell instanceof EditorCell_Label) {
+        EditorCell_Label labelCell = (EditorCell_Label)cell;
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
         labelCell.getTextLine().setTextColor(color);
       }
       if(recurive) {
@@ -170,7 +194,7 @@ public class BuildLanguageStyle_StyleSheet {
     public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor5(cell);
         labelCell.getTextLine().setTextColor(color);
       }
       if(recurive) {
@@ -193,7 +217,7 @@ public class BuildLanguageStyle_StyleSheet {
     public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor5(cell);
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor6(cell);
         labelCell.getTextLine().setTextColor(color);
       }
       if(recurive) {
@@ -234,11 +258,17 @@ public class BuildLanguageStyle_StyleSheet {
 
   private static Color calculateColor4(EditorCell cell) {
     Color result;
-    result = Color.red;
+    result = MPSColors.DARK_BLUE;
     return result;
   }
 
   private static Color calculateColor5(EditorCell cell) {
+    Color result;
+    result = Color.red;
+    return result;
+  }
+
+  private static Color calculateColor6(EditorCell cell) {
     Color result;
     result = Color.lightGray;
     return result;
