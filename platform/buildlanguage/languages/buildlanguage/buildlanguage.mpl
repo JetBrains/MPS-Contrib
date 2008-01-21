@@ -39,6 +39,7 @@
   </generators>
   <classPath>
     <entry path="${mps_home}\platform\buildlanguage\classes" />
+    <entry path="${mps_home}\lib\ant-1.7.0\lib\ant.jar" />
   </classPath>
   <runtimeClassPath>
     <entry path="${mps_home}\platform\buildlanguage\classes" />
