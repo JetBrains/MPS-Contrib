@@ -56,6 +56,7 @@
   </osgiOptions>
   <dependencies>
     <dependency>jetbrains.mps.mpsProjectLanguage</dependency>
+    <dependency>MPS.Classpath</dependency>
   </dependencies>
 </language>
 
