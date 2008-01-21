@@ -92,36 +92,66 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="7">
+      <refactoring refactoringClass="jetbrains.mps.bootstrap.structureLanguage.scripts.RenameLink" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="deprecated" conceptFQName="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" featureKind="CHILD" />
+          <value featureName="deprecated.old" conceptFQName="jetbrains.mps.buildlanguage.structureGenericAttributeDeclaration" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="8">
+      <refactoring refactoringClass="jetbrains.mps.bootstrap.structureLanguage.scripts.RenameLink" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="deprecated.old" conceptFQName="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" featureKind="CHILD" />
+          <value featureName="deprecated_old" conceptFQName="jetbrains.mps.buildlanguage.structureGenericAttributeDeclaration" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="9">
+      <refactoring refactoringClass="jetbrains.mps.bootstrap.structureLanguage.scripts.RenameLink" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="required" conceptFQName="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" featureKind="CHILD" />
+          <value featureName="required_old" conceptFQName="jetbrains.mps.buildlanguage.structureGenericAttributeDeclaration" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="jetbrains.mps.bootstrap.structureLanguage">
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.editor" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.findUsages" version="-1" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.findUsages" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
   </language>
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.actions" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="6" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.helgins" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="5" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="9" />
   </language>
   <language namespace="jetbrains.mps.xml">
     <languageAspect modelUID="jetbrains.mps.xml.editor" version="-1" />
     <languageAspect modelUID="jetbrains.mps.xml.structure" version="-1" />
   </language>
   <language namespace="jetbrains.mps.core">
-    <languageAspect modelUID="jetbrains.mps.core.scripts" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.core.editor" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.core.constraints" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.core.structure" version="-1" />
     <languageAspect modelUID="jetbrains.mps.core.actions" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.constraints" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.editor" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.scripts" version="-1" />
+    <languageAspect modelUID="jetbrains.mps.core.structure" version="-1" />
   </language>
   <maxImportIndex value="10" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="6" />
+  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="9" />
   <import index="3" modelUID="java.lang@java_stub" version="-1" />
   <import index="6" modelUID="jetbrains.mps.helgins.structure" version="-1" />
   <import index="8" modelUID="jetbrains.mps.xml.structure" version="-1" />
@@ -372,12 +402,6 @@
       <property name="value" value="attribute" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196878409619">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="required" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1196865966685" resolveInfo="BooleanLiteral" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196878424479">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="default" />
@@ -394,16 +418,13 @@
       <property name="role" value="enum" />
       <link role="target" targetNodeId="1197398796434" resolveInfo="Enum" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197470378208">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="deprecated" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1196865966685" resolveInfo="BooleanLiteral" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1200913685938">
+      <property name="name" value="deprecated" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197742637650">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="comment" />
-      <link role="target" targetNodeId="9.1070475926800" resolveInfo="StringLiteral" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1200913690189">
+      <property name="name" value="required" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196865966685">
