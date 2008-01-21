@@ -483,8 +483,8 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1200918419583">
                 <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1200918420773">
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1200918420774">
-                    <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1200918420775">
-                      <link role="conceptDeclaration" targetNodeId="1.1200511852076" resolveInfo="CallReference" />
+                    <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1200919677310">
+                      <link role="conceptDeclaration" targetNodeId="1.1197111643046" resolveInfo="GenericCall" />
                     </node>
                   </node>
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_concept" id="1200918420776" />

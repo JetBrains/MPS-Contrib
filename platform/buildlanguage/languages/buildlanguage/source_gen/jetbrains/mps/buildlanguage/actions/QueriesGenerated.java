@@ -166,7 +166,7 @@ public class QueriesGenerated {
       Condition cond = new Condition() {
 
         public boolean met(Object object) {
-          return !(SNodeOperations.isInstanceOf(concept, "jetbrains.mps.buildlanguage.structure.CallReference"));
+          return !(SNodeOperations.isInstanceOf(concept, "jetbrains.mps.buildlanguage.structure.GenericCall"));
         }
 
       };
