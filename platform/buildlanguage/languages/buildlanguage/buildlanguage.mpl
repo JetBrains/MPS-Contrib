@@ -43,6 +43,8 @@
   <runtimeClassPath>
     <entry path="${mps_home}\platform\buildlanguage\classes" />
     <entry path="${mps_home}\lib\ant-1.7.0\lib\ant.jar" />
+    <entry path="${mps_home}\lib\asm\asm.jar" />
+    <entry path="${mps_home}\classes" />
   </runtimeClassPath>
   <sourcePath>
     <source path="${mps_home}\platform\buildlanguage\source" />
