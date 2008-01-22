@@ -18,12 +18,9 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.util.Calculable;
-import java.util.LinkedList;
-import jetbrains.mps.smodel.action.ChildSubstituteActionsHelper;
-import jetbrains.mps.smodel.BaseAdapter;
 import jetbrains.mps.smodel.action.RTActionsBuilderContext;
 import jetbrains.mps.smodel.action.AbstractRTransformHintSubstituteAction;
+import jetbrains.mps.smodel.BaseAdapter;
 
 public class QueriesGenerated {
 
@@ -106,35 +103,6 @@ public class QueriesGenerated {
         }
 
       });
-    }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1200922577751(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
-    {
-      ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("null", operationContext.getScope());
-      Calculable calc = new Calculable() {
-
-        public Object calculate() {
-          List<SNode> list = new LinkedList<SNode>();
-          list.add(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanLiteral"));
-          list.add(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntLiteral"));
-          list.add(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.FileName"));
-          list.add(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral"));
-          list.add(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation"));
-          list.add(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PropertyReference"));
-          list.add(SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReference"));
-          return list;
-        }
-
-      };
-      Iterable queryResult = (Iterable)calc.calculate();
-      assert queryResult != null;
-      for(Object item : queryResult) {
-        List<INodeSubstituteAction> defaultActions = ChildSubstituteActionsHelper.createDefaultActions((ConceptDeclaration)BaseAdapter.fromNode((SNode)item), _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope());
-        result.addAll(defaultActions);
-      }
     }
     return result;
   }
