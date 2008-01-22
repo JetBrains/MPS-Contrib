@@ -57,6 +57,7 @@
   <dependencies>
     <dependency>jetbrains.mps.mpsProjectLanguage</dependency>
     <dependency>MPS.Classpath</dependency>
+    <dependency>jetbrains.mps.baseLanguage.strings</dependency>
   </dependencies>
 </language>
 
