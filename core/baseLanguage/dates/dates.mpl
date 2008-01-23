@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" generatorOutputPath="${mps_home}\baseLanguage\ext\dev\source_gen" compileInMPS="false">
+<language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" generatorOutputPath="${mps_home}\source_gen" compileInMPS="false">
   <structure>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
   </structure>
@@ -38,12 +38,12 @@
     </generator>
   </generators>
   <classPath>
-    <entry path="${mps_home}\baseLanguage\ext\dev\classes" />
-    <entry path="${mps_home}\baseLanguage\ext\dates-runtime\classes" />
+    <entry path="${language_descriptor}\classes" />
+    <entry path="${language_descriptor}\runtime\classes" />
     <entry path="${mps_home}\lib\joda-time\joda-time-1.4.jar" />
   </classPath>
   <runtimeClassPath>
-    <entry path="${mps_home}\baseLanguage\ext\dev\classes" />
+    <entry path="${language_descriptor}\classes" />
   </runtimeClassPath>
   <sourcePath />
   <osgiOptions>

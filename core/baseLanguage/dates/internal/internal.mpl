@@ -18,7 +18,7 @@
   <generators />
   <classPath />
   <runtimeClassPath>
-    <entry path="${mps_home}\baseLanguage\ext\dev\classes" />
+    <entry path="${mps_home}\core\baseLanguage\dates\classes" />
   </runtimeClassPath>
   <sourcePath />
   <osgiOptions>
