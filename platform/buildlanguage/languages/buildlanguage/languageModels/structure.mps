@@ -172,17 +172,27 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="15">
+      <refactoring refactoringClass="jetbrains.mps.bootstrap.structureLanguage.scripts.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="GenericInterfaceDeclaration" conceptFQName="jetbrains.mps.buildlanguage.structure.GenericInterfaceDeclaration" featureKind="CONCEPT" />
+          <value featureName="GenericImportedInterfaceDeclaration" conceptFQName="jetbrains.mps.buildlanguage.structure.GenericImportedInterfaceDeclaration" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="14" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
   </language>
   <language namespace="jetbrains.mps.xml" />
   <language namespace="jetbrains.mps.core" />
   <maxImportIndex value="10" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="14" />
+  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
   <import index="3" modelUID="java.lang@java_stub" version="-1" />
   <import index="8" modelUID="jetbrains.mps.xml.structure" version="-1" />
   <import index="9" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
@@ -267,9 +277,13 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1199644655451">
       <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1201260537623">
+      <link role="intfc" targetNodeId="1201259656252" resolveInfo="ICommented" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851099544">
     <property name="name" value="TargetDeclaration" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196851542249">
       <property name="metaClass" value="aggregation" />
@@ -299,9 +313,13 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196862198844">
       <link role="intfc" targetNodeId="1196862084542" resolveInfo="IPropertyHolder" />
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1201260062047">
+      <link role="intfc" targetNodeId="1201259656252" resolveInfo="ICommented" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851107341">
     <property name="name" value="PropertyDeclaration" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1196870993204">
       <property name="metaClass" value="aggregation" />
@@ -321,6 +339,9 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1196859244351">
       <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1201259777518">
+      <link role="intfc" targetNodeId="1201259656252" resolveInfo="ICommented" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851304975">
@@ -674,6 +695,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198324973114">
     <property name="name" value="Declaration" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1198325409380">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
@@ -733,14 +755,16 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198347045706">
     <property name="package" value="Generic" />
-    <property name="name" value="GenericInterfaceDeclaration" />
+    <property name="name" value="GenericImportedInterfaceDeclaration" />
     <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198347070411">
-      <property name="metaClass" value="aggregation" />
-      <property name="sourceCardinality" value="0..n" />
-      <property name="role" value="parents" />
-      <link role="target" targetNodeId="1198325271317" resolveInfo="Reference" />
+    <link role="extends" targetNodeId="1201253892996" resolveInfo="GenericInterfaceDeclaration" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201258514717">
+      <property name="name" value="classname" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201258514718">
+      <property name="name" value="tag" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1198347526931">
       <property name="value" value="generic interface declaration" />
@@ -904,6 +928,41 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1201111033873">
     <property name="package" value="Extend" />
     <property name="name" value="ISource" />
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1201252583131">
+    <property name="package" value="Generic" />
+    <property name="name" value="GenericImportedDeclaration" />
+    <link role="extends" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201252639595">
+      <property name="name" value="classname" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201252646470">
+      <property name="name" value="tag" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1201253892996">
+    <property name="package" value="Generic" />
+    <property name="name" value="GenericInterfaceDeclaration" />
+    <property name="rootable" value="true" />
+    <link role="extends" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201253892997">
+      <property name="metaClass" value="aggregation" />
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="parents" />
+      <link role="target" targetNodeId="1198325271317" resolveInfo="Reference" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1201253892998">
+      <property name="value" value="generic interface declaration" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1201259656252">
+    <property name="name" value="ICommented" />
+    <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1201260271021">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    </node>
   </node>
 </model>
 

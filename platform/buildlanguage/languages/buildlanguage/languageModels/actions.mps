@@ -4,7 +4,7 @@
   <refactoringHistory />
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="14" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
@@ -12,7 +12,7 @@
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <language namespace="jetbrains.mps.regexp" />
   <maxImportIndex value="24" />
-  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="14" />
+  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
   <import index="19" modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="-1" />
   <import index="20" modelUID="java.lang@java_stub" version="-1" />
   <import index="21" modelUID="jetbrains.mps.baseLanguage.actions" version="-1" />
@@ -334,6 +334,60 @@
                 <node role="expression" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1197477050275" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.RTransformHintSubstituteActions" id="1201259600297">
+    <property name="name" value="Comment_RightTransform" />
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RTransformHintSubstituteActionsBuilder" id="1201259672003">
+      <property name="useNewActions" value="true" />
+      <link role="applicableConcept" targetNodeId="1.1201259656252" resolveInfo="ICommented" />
+      <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RTransformHintSubstitutePreconditionFunction" id="1201259678301">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201259678302">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201259692418">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1201259699034">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1201259701209" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201259693670">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1201259696064">
+                  <link role="property" targetNodeId="23.1156234966388" resolveInfo="shortDescription" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_sourceNode" id="1201259692419" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1201259709429">
+        <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SimpleRightTransformMenuPart" id="1201259711570">
+          <node role="handler" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_RightTransform_Handler" id="1201259711571">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201259711572">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201259735279">
+                <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201259762136">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Property_SetOperation" id="1201259763264">
+                    <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201259765328">
+                      <property name="value" value="" />
+                    </node>
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201259736421">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1201259738565">
+                      <link role="property" targetNodeId="23.1156234966388" resolveInfo="shortDescription" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_sourceNode" id="1201259735280" />
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201259749962">
+                <node role="expression" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_sourceNode" id="1201259749963" />
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RightTransform_SimpleString" id="1201259718886">
+            <property name="text" value="//" />
+          </node>
+          <node role="descriptionText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RightTransform_SimpleString" id="1201259724543">
+            <property name="text" value="comment" />
           </node>
         </node>
       </node>

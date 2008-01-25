@@ -5,13 +5,13 @@
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="14" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
   </language>
   <language namespace="jetbrains.mps.xml" />
   <language namespace="jetbrains.mps.core" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="14" />
+  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
   <import index="3" modelUID="java.lang@java_stub" version="-1" />
   <import index="4" modelUID="jetbrains.mps.helgins.structure" version="-1" />
   <import index="5" modelUID="jetbrains.mps.xml.structure" version="-1" />

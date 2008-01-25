@@ -7,6 +7,8 @@ import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.smodel.action.RTransformPreconditionContext;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
@@ -16,7 +18,6 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.action.RTActionsBuilderContext;
 import jetbrains.mps.smodel.action.AbstractRTransformHintSubstituteAction;
@@ -31,6 +32,10 @@ public class QueriesGenerated {
       }
     }
     return false;
+  }
+
+  public static boolean rightTransformHintSubstituteActionsBuilder_Precondition_ICommented_1201259678301(final IOperationContext operationContext, final RTransformPreconditionContext _context) {
+    return SPropertyOperations.getString(_context.getSourceNode(), "shortDescription") == null;
   }
 
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1196869262792(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -50,7 +55,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          throw new RuntimeException("NOT IMPLEMENTED");
+          return "true";
         }
 
       });
@@ -70,7 +75,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          throw new RuntimeException("NOT IMPLEMENTED");
+          return "false";
         }
 
       });
@@ -121,11 +126,35 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          throw new RuntimeException("NOT IMPLEMENTED");
+          return "+";
         }
 
         public String getDescriptionText(String pattern) {
-          throw new RuntimeException("NOT IMPLEMENTED");
+          return "plus operation";
+        }
+
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> rightTransform_ActionsFactory_ICommented_1201259672003(final IOperationContext operationContext, final RTActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("null", operationContext.getScope());
+      result.add(new AbstractRTransformHintSubstituteAction(BaseAdapter.fromAdapter(concept), _context.getSourceNode()) {
+
+        public SNode doSubstitute(String pattern) {
+          SPropertyOperations.set(_context.getSourceNode(), "shortDescription", "");
+          return _context.getSourceNode();
+        }
+
+        public String getMatchingText(String pattern) {
+          return "//";
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "comment";
         }
 
       });
