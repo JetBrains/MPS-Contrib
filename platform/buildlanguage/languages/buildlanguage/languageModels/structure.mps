@@ -384,6 +384,10 @@
       <property name="name" value="depracated" />
       <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201598159246">
+      <property name="name" value="classname" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1198330803839">
       <property name="value" value="generic declaration" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
@@ -624,6 +628,10 @@
       <property name="name" value="id" />
       <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1201603126419">
+      <property name="value" value="task" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1197112268679">
     <property name="name" value="GenericAttribute" />
@@ -728,12 +736,6 @@
     <property name="name" value="ImportDeclatation" />
     <property name="package" value="Generic" />
     <link role="extends" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198345269518">
-      <property name="metaClass" value="aggregation" />
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="classname" />
-      <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198846296587">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="classpathref" />
