@@ -4,9 +4,7 @@ package jetbrains.mps.buildlanguage.actions;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.action.RTransformPreconditionContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
@@ -16,26 +14,24 @@ import java.util.ArrayList;
 import jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration;
 import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.smodel.action.ChildSubstituteActionsHelper;
 import jetbrains.mps.smodel.action.RTActionsBuilderContext;
 import jetbrains.mps.smodel.action.AbstractRTransformHintSubstituteAction;
 import jetbrains.mps.smodel.BaseAdapter;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
 public class QueriesGenerated {
 
-  public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_1200918276817(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    if(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(((SNode)_context.getParentNode()), "type", true), "jetbrains.mps.buildlanguage.structure.BooleanType");
-    } else
-    if(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttribute")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeDeclaration", false), "attributeType", true), "jetbrains.mps.buildlanguage.structure.BooleanType");
-    } else
-    if(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeType", true), "jetbrains.mps.buildlanguage.structure.BooleanType");
-    }
-    return false;
+  public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_1201708668619(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
+    return Util.checkNodeType(_context.getParentNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType"));
+  }
+
+  public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_1201708881512(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
+    return Util.checkNodeType(_context.getParentNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType"));
   }
 
   public static boolean rightTransformHintSubstituteActionsBuilder_Precondition_ICommented_1201259678301(final IOperationContext operationContext, final RTransformPreconditionContext _context) {
@@ -112,6 +108,21 @@ public class QueriesGenerated {
         }
 
       });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1201708832142(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      ConceptDeclaration conceptToAdd = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.TagetReferencePropertyValueExpression", operationContext.getScope());
+      List<INodeSubstituteAction> defaultActions = ChildSubstituteActionsHelper.createDefaultActions(conceptToAdd, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope());
+      result.addAll(defaultActions);
+    }
+    {
+      ConceptDeclaration conceptToAdd = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReference", operationContext.getScope());
+      List<INodeSubstituteAction> defaultActions = ChildSubstituteActionsHelper.createDefaultActions(conceptToAdd, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope());
+      result.addAll(defaultActions);
     }
     return result;
   }
