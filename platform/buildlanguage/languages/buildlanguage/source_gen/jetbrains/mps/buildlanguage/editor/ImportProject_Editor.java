@@ -20,6 +20,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_CellModel_ConceptProperty(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1201702784253");
+    BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
   }
 
   private static void setupBasic_ProjectReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {

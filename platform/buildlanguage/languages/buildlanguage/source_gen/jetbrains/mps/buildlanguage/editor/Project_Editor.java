@@ -23,14 +23,14 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.bootstrap.editorLanguage.generator.internal.AbstractCellMenuPart_Generic_Item;
+import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.EditorCellAction;
 import jetbrains.mps.nodeEditor.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
-import jetbrains.mps.bootstrap.editorLanguage.generator.internal.AbstractCellMenuPart_Generic_Item;
-import jetbrains.mps.smodel.SModel;
 
 public class Project_Editor extends DefaultNodeEditor {
 
@@ -709,6 +709,20 @@ public class Project_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
+  public static class Project_generic_cellMenu extends AbstractCellMenuPart_Generic_Item {
+
+    public  Project_generic_cellMenu() {
+    }
+
+    public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext) {
+      SLinkOperations.setNewChild(node, "definitions", "jetbrains.mps.buildlanguage.structure.Definitions");
+    }
+
+    public String getMatchingText() {
+      return "import task declarations";
+    }
+
+}
   public static class _RefNodeListHandler extends RefNodeListHandler {
 
     public  _RefNodeListHandler(SNode ownerNode, String childRole, EditorContext context) {
@@ -1026,20 +1040,6 @@ public class Project_Editor extends DefaultNodeEditor {
       Project_Editor._RefNodeListHandler4.setupLabel_ConstantCell17(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
-    }
-
-}
-  public static class Project_generic_cellMenu extends AbstractCellMenuPart_Generic_Item {
-
-    public  Project_generic_cellMenu() {
-    }
-
-    public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext) {
-      SLinkOperations.setNewChild(node, "definitions", "jetbrains.mps.buildlanguage.structure.Definitions");
-    }
-
-    public String getMatchingText() {
-      return "import task declarations";
     }
 
 }
