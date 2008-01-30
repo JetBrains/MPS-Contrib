@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.editor">
   <persistence version="1" />
+  <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
@@ -11,7 +12,7 @@
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="28" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
-  <import index="36" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
+  <import index="36" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="40" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="-1" />
   <import index="41" modelUID="jetbrains.mps.nodeEditor@java_stub" version="-1" />
   <import index="42" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />

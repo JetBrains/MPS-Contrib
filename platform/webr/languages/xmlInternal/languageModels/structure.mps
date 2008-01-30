@@ -2,19 +2,12 @@
 <model name="webr.xmlInternal.structure">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.structureLanguage">
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.scripts" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.editor" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.findUsages" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.actions" version="-1" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
-  </language>
+  <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="2" modelUID="webr.xml.structure" version="-1" />
   <import index="3" modelUID="webr.xmlInternal.structure" version="-1" />
-  <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
+  <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="6" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="7" modelUID="webr.gtext.structure" version="-1" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1165761580958">

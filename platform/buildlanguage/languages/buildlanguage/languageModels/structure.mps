@@ -205,7 +205,7 @@
   <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="3" modelUID="java.lang@java_stub" version="-1" />
   <import index="8" modelUID="jetbrains.mps.xml.structure" version="-1" />
-  <import index="9" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
+  <import index="9" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="10" modelUID="jetbrains.mps.propertylanguage.structure" version="-1" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851066733">
     <property name="name" value="Project" />
