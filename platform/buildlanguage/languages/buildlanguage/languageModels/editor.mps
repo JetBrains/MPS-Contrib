@@ -532,9 +532,6 @@
     <link role="conceptDeclaration" targetNodeId="1.1196863787970" resolveInfo="Attribute" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1197400548065">
       <property name="vertical" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1197401070714">
-        <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
-      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1197400548067">
         <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
         <link role="styleClass" targetNodeId="1197386303323" resolveInfo="attributeName" />
@@ -629,6 +626,7 @@
         <property name="selectable" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1197466974936">
           <property name="text" value="abstract" />
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
           <node role="renderingCondition" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_NodeCondition" id="1197466988609">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197466988610">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1197466993223">
@@ -652,6 +650,7 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1197465462257">
           <property name="text" value="extends" />
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
           <node role="renderingCondition" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_NodeCondition" id="1197468086299">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197468086300">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1197468089318">
@@ -692,6 +691,7 @@
           <property name="vertical" value="false" />
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1198347237637">
             <property name="text" value="implements" />
+            <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1198347252001">
             <property name="separatorText" value="," />
@@ -730,6 +730,7 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Indent" id="1201598195113" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1201598201363">
           <property name="text" value="classname:" />
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1201598214001">
           <link role="relationDeclaration" targetNodeId="1.1201598159246" resolveInfo="classname" />
