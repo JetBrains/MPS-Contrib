@@ -2917,25 +2917,6 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1198326248612" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1198347543917">
-    <property name="package" value="Generic" />
-    <link role="concept" targetNodeId="2.1198347045706" resolveInfo="GenericInterfaceDeclaration" />
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1198347546530">
-      <property name="name" value="isAbstract" />
-      <link role="overridenMethod" targetNodeId="1198325014542" resolveInfo="isAbstract" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1198347546532">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1198347558815">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1198347561364">
-            <property name="value" value="true" />
-          </node>
-        </node>
-      </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1198347552876" />
-    </node>
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1198347543918">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1198347543919" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1198348338355">
     <link role="concept" targetNodeId="2.1198325271317" resolveInfo="Reference" />
     <node role="references" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodeReferentConstraint" id="1198348345028">

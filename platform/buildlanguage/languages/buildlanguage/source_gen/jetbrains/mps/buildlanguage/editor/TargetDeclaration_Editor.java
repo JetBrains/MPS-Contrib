@@ -5,13 +5,13 @@ package jetbrains.mps.buildlanguage.editor;
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
-import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.nodeEditor.EditorCell;
+import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.CellLayout_Vertical;
@@ -34,6 +34,14 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   /* package */AbstractCellProvider myTargetDeclaration_EditorComponent1;
   /* package */AbstractCellListHandler myPropertyListListHandler_propertyListList_;
   /* package */AbstractCellListHandler myTaskCallListHandler_taskCallList_;
+
+  public static boolean _QueryFunction_NodeCondition_1201260045444(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getString(node, "shortDescription") != null;
+  }
+
+  public static boolean _QueryFunction_NodeCondition_1197035916697(SNode node, EditorContext editorContext, IScope scope) {
+    return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
+  }
 
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1201260045442");
@@ -150,14 +158,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupLabel_ConstantCell5(EditorCell_Label editorCell, SNode node, EditorContext context) {
     editorCell.setEditable(false);
-  }
-
-  public static boolean _QueryFunction_NodeCondition_1201260045444(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getString(node, "shortDescription") != null;
-  }
-
-  public static boolean _QueryFunction_NodeCondition_1197035916697(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
   }
 
 

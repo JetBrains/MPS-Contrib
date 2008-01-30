@@ -766,24 +766,6 @@
       <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198347045706">
-    <property name="package" value="Generic" />
-    <property name="name" value="GenericImportedInterfaceDeclaration" />
-    <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="1201253892996" resolveInfo="GenericInterfaceDeclaration" />
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201258514717">
-      <property name="name" value="classname" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201258514718">
-      <property name="name" value="tag" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1198347526931">
-      <property name="value" value="generic interface declaration" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198939133999">
     <property name="name" value="PathReference" />
     <property name="package" value="Expressions" />
@@ -823,17 +805,6 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1199032455944">
       <property name="value" value="file" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1199634973762">
-    <property name="name" value="PseudonamedReference" />
-    <property name="package" value="Generic" />
-    <link role="extends" targetNodeId="1198325271317" resolveInfo="Reference" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1199634997419">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="pseudonym" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1196861005114" resolveInfo="StringLiteral" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1199644616584">
