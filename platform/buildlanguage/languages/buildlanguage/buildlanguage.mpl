@@ -21,7 +21,6 @@
   </models>
   <module />
   <accessoryModels>
-    <model modelUID="jetbrains.mps.buildlanguage.tasks" />
     <model modelUID="jetbrains.mps.buildlanguage.generated" />
   </accessoryModels>
   <intentions>

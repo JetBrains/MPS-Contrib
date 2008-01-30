@@ -767,6 +767,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185494" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185495" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745188" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692562847">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185497">
       <property name="name" value="destdir" />
@@ -797,30 +800,45 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185514" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185515" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745193" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692623135">
+        <property name="value" value="true" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185517">
       <property name="name" value="fork" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185518" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185519" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745194" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692608727">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185521">
       <property name="name" value="includeantruntime" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185522" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185523" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745195" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692589709">
+        <property name="value" value="true" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185525">
       <property name="name" value="includejavaruntime" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185526" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185527" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745196" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692598773">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185529">
       <property name="name" value="listfiles" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185530" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185531" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745197" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692643574">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185533">
       <property name="name" value="memoryinitialsize" />
@@ -839,12 +857,18 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185542" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185543" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745200" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692531923">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185545">
       <property name="name" value="optimize" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185546" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185547" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745201" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692548549">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185549">
       <property name="name" value="proceed" />
@@ -893,6 +917,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185578" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185579" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745209" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692575364">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="oldnested" type="jetbrains.mps.buildlanguage.structure.PseudonamedReference" id="1199644185581">
       <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
@@ -2135,6 +2162,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185922" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185923" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744939" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692221013">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185925">
       <property name="name" value="command" />
@@ -2177,6 +2207,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185950" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185951" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744946" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692236655">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185953">
       <property name="name" value="input" />
@@ -2231,6 +2264,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185986" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185987" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744955" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692274455">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185989">
       <property name="name" value="resultproperty" />
@@ -2243,12 +2279,18 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185994" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185995" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744957" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692278675">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185997">
       <property name="name" value="spawn" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185998" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185999" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744958" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692210700">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186016">
       <property name="name" value="timeout" />
@@ -2261,6 +2303,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186021" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186022" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744938" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692259985">
+        <property name="value" value="true" />
+      </node>
     </node>
     <node role="oldnested" type="jetbrains.mps.buildlanguage.structure.PseudonamedReference" id="1199644186024">
       <link role="declaration" targetNodeId="1199644185588" resolveInfo="argument" />
@@ -2621,6 +2666,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186269" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186270" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744767" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201691945544">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186272">
       <property name="name" value="encoding" />
@@ -2645,18 +2693,27 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186285" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186286" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744771" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201691882476">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186304">
       <property name="name" value="flatten" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186305" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186306" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744772" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201691895524">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186308">
       <property name="name" value="granularity" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186309" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186310" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686744773" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201691927183">
+        <property name="value" value="1" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186312">
       <property name="name" value="includeemptydirs" />
@@ -2682,6 +2739,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186325" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186326" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744777" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201691794493">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186328">
       <property name="name" value="todir" />
@@ -2700,6 +2760,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186337" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186338" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744796" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201691902213">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="oldnested" type="jetbrains.mps.buildlanguage.structure.PseudonamedReference" id="1199644186340">
       <link role="declaration" targetNodeId="1199644186071" resolveInfo="filenamemapper" />
@@ -3256,12 +3319,18 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186573" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186574" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744869" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692018894">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186576">
       <property name="name" value="deleteonexit" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186577" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186578" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744870" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692023927">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186580">
       <property name="name" value="dir" />
@@ -3286,6 +3355,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186593" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186594" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744874" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201691986625">
+        <property name="value" value="true" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186596">
       <property name="name" value="file" />
@@ -3304,6 +3376,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186605" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186606" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744877" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692006284">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186608">
       <property name="name" value="includes" />
@@ -3322,12 +3397,18 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186617" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186618" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744880" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692001189">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186620">
       <property name="name" value="verbose" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186621" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186622" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686744881" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201691977139">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="oldnested" type="jetbrains.mps.buildlanguage.structure.PseudonamedReference" id="1199644186624">
       <link role="declaration" targetNodeId="1199644185357" resolveInfo="fileselector" />
@@ -3624,6 +3705,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186770" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186771" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745129" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692369866">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186773">
       <property name="name" value="jarfile" />
@@ -3677,6 +3761,9 @@
         </node>
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686745134" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692345193">
+        <property name="value" value="create" />
+      </node>
     </node>
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201686745127">
       <link role="declaration" targetNodeId="1199644186689" resolveInfo="zip" />
@@ -3725,6 +3812,9 @@
         </node>
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686745913" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692987470">
+        <property name="value" value="add" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186711">
       <property name="name" value="encoding" />
@@ -3750,6 +3840,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186724" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186725" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745917" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201693028583">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186727">
       <property name="name" value="level" />
@@ -3762,6 +3855,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186732" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186733" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745919" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201693018988">
+        <property name="value" value="true" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186750">
       <property name="name" value="update" />
@@ -3785,6 +3881,9 @@
         </node>
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686745921" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692964875">
+        <property name="value" value="skip" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186758">
       <property name="name" value="zipfile" />
@@ -3831,6 +3930,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186809" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186810" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686744927" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692098946">
+        <property name="value" value="" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186812">
       <property name="name" value="file" />
@@ -3863,6 +3965,9 @@
         </node>
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686744929" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692140447">
+        <property name="value" value="warning" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186820">
       <property name="name" value="message" />
@@ -4619,6 +4724,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187212" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187213" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745137" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692446731">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187215">
       <property name="name" value="args" />
@@ -4649,6 +4757,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187232" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187233" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745142" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692471124">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187235">
       <property name="name" value="dir" />
@@ -4673,6 +4784,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187248" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187249" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745146" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692434886">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187251">
       <property name="name" value="fork" />
@@ -4703,6 +4817,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187268" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187269" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686745151" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692407633">
+        <property name="value" value="java" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187271">
       <property name="name" value="jvmargs" />
@@ -4733,6 +4850,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187288" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187289" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745155" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692464685">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187291">
       <property name="name" value="output" />
@@ -4757,6 +4877,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187304" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187305" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745159" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692422947">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187307">
       <property name="name" value="timeout" />
@@ -5462,6 +5585,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187626" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187627" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745996" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692718654">
+        <property name="value" value="false" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187629">
       <property name="name" value="defaultexcludes" />
@@ -5498,6 +5624,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187650" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187651" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686746002" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692724577">
+        <property name="value" value="true" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187653">
       <property name="name" value="includes" />
@@ -7722,6 +7851,9 @@
         </node>
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686745738" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692798814">
+        <property name="value" value="none" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188723">
       <property name="name" value="destfile" />
@@ -7735,6 +7867,26 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188728" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188729" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201686745740" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692775219">
+        <property name="value" value="warn" />
+      </node>
+      <node role="enum" type="jetbrains.mps.buildlanguage.structure.StringEnum" id="1201692883144">
+        <node role="constants" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692892364">
+          <property name="value" value="warn" />
+        </node>
+        <node role="constants" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692896695">
+          <property name="value" value="fail" />
+        </node>
+        <node role="constants" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692901665">
+          <property name="value" value="truncate" />
+        </node>
+        <node role="constants" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692907714">
+          <property name="value" value="gnu" />
+        </node>
+        <node role="constants" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692911904">
+          <property name="value" value="omit" />
+        </node>
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188731">
       <property name="name" value="tarfile" />
@@ -8243,6 +8395,9 @@
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188959" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188960" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201686745827" />
+      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692948233">
+        <property name="value" value="true" />
+      </node>
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188962">
       <property name="name" value="warfile" />

@@ -27,9 +27,13 @@ public class QueriesGenerated {
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_1200918276817(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     if(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")) {
-      if(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(((SNode)_context.getParentNode()), "type", true), "jetbrains.mps.buildlanguage.structure.BooleanType")) {
-        return true;
-      }
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(((SNode)_context.getParentNode()), "type", true), "jetbrains.mps.buildlanguage.structure.BooleanType");
+    } else
+    if(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttribute")) {
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeDeclaration", false), "attributeType", true), "jetbrains.mps.buildlanguage.structure.BooleanType");
+    } else
+    if(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration")) {
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeType", true), "jetbrains.mps.buildlanguage.structure.BooleanType");
     }
     return false;
   }
