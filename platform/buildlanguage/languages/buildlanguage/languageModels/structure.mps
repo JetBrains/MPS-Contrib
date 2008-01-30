@@ -229,6 +229,12 @@
       <property name="role" value="definitions" />
       <link role="target" targetNodeId="1201108179978" resolveInfo="Definitions" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201702862229">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="importProject" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1201702638416" resolveInfo="ImportProject" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198941222782">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="paths" />
@@ -948,6 +954,33 @@
       <property name="role" value="role" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1198325271317" resolveInfo="Reference" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1201701678947">
+    <property name="package" value="Expressions" />
+    <property name="name" value="TagetReferencePropertyValueExpression" />
+    <link role="extends" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201701736447">
+      <property name="role" value="declaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1196851099544" resolveInfo="TargetDeclaration" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1201702638416">
+    <property name="name" value="ImportProject" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201702650857">
+      <property name="role" value="project" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1196851066733" resolveInfo="Project" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1201702721424">
+      <property name="value" value="import" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1201702737070">
+      <property name="value" value="import project" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
   </node>
 </model>
