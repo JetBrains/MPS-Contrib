@@ -182,17 +182,27 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="16">
+      <refactoring refactoringClass="jetbrains.mps.bootstrap.structureLanguage.scripts.RenameLink" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="nested" conceptFQName="jetbrains.mps.buildlanguage.structure.GenericDeclaration" featureKind="CHILD" />
+          <value featureName="oldnested" conceptFQName="jetbrains.mps.buildlanguage.structureGenericDeclaration" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   </language>
   <language namespace="jetbrains.mps.xml" />
   <language namespace="jetbrains.mps.core" />
   <maxImportIndex value="10" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
+  <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="3" modelUID="java.lang@java_stub" version="-1" />
   <import index="8" modelUID="jetbrains.mps.xml.structure" version="-1" />
   <import index="9" modelUID="jetbrains.mps.baseLanguage.structure" version="-1" />
@@ -355,22 +365,28 @@
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1196863787970" resolveInfo="Attribute" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197395431647">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="nested" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1199634973762" resolveInfo="PseudonamedReference" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1197465428484">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="parent" />
       <link role="target" targetNodeId="1198325271317" resolveInfo="Reference" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201682103724">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="nested" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1201685158181" resolveInfo="NestedReference" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198346966624">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="interfaces" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1198325271317" resolveInfo="Reference" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201681781156">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="fakeDeclaration" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1197466950076">
       <property name="name" value="abstract" />
@@ -387,6 +403,10 @@
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201598159246">
       <property name="name" value="classname" />
       <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1201681755131">
+      <property name="name" value="fake" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1198330803839">
       <property name="value" value="generic declaration" />
@@ -612,17 +632,8 @@
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1197112268679" resolveInfo="Attribute" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1199640191109">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="role" />
-      <link role="target" targetNodeId="1199640208938" resolveInfo="StringLiteralReference" />
-    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1198939431251">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1199634417350">
-      <property name="name" value="pseudonymProperty" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1199645087298">
       <property name="name" value="id" />
@@ -722,7 +733,7 @@
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198327071710">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="declaration" />
-      <link role="target" targetNodeId="1198324973114" resolveInfo="Declaration" />
+      <link role="target" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198326210118">
@@ -822,15 +833,6 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="pseudonym" />
       <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1196861005114" resolveInfo="StringLiteral" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1199640208938">
-    <property name="name" value="StringLiteralReference" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1199640222845">
-      <property name="role" value="ref" />
-      <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1196861005114" resolveInfo="StringLiteral" />
     </node>
   </node>
@@ -964,6 +966,17 @@
     <property name="name" value="ICommented" />
     <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1201260271021">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1201685158181">
+    <property name="package" value="Generic" />
+    <property name="name" value="NestedReference" />
+    <link role="extends" targetNodeId="1198325271317" resolveInfo="Reference" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201685176276">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="role" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1198325271317" resolveInfo="Reference" />
     </node>
   </node>
 </model>

@@ -4,7 +4,7 @@
   <refactoringHistory />
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
-    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
+    <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
@@ -12,7 +12,7 @@
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <language namespace="jetbrains.mps.regexp" />
   <maxImportIndex value="24" />
-  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
+  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="19" modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="-1" />
   <import index="20" modelUID="java.lang@java_stub" version="-1" />
   <import index="21" modelUID="jetbrains.mps.baseLanguage.actions" version="-1" />

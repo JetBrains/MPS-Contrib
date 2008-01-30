@@ -7,7 +7,7 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage" />
   <maxImportIndex value="3" />
-  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="15" />
+  <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="3" modelUID="java.lang@java_stub" version="-1" />
   <node type="jetbrains.mps.bootstrap.intentionsLanguage.structure.IntentionDeclaration" id="1201260187613">
