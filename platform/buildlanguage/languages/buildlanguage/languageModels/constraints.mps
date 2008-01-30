@@ -50,6 +50,7 @@
   <language namespace="jetbrains.mps.core" />
   <language namespace="jetbrains.mps.bootstrap.helgins" />
   <language namespace="jetbrains.mps.baseLanguage.strings" />
+  <language namespace="jetbrains.mps.transformation.TLBase" />
   <maxImportIndex value="17" />
   <import index="1" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
   <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
@@ -4074,6 +4075,44 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1201707864289">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1201707866472">
             <link role="variableDeclaration" targetNodeId="1201707753277" resolveInfo="visible" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1201709888730">
+      <property name="name" value="getDocumentName" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1201709896401" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201709888732">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1201709903444">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201709911738">
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201709909028">
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1201709911025">
+                <link role="property" targetNodeId="4.1169194664001" resolveInfo="name" />
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1201709905439" />
+            </node>
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201709917581">
+              <property name="value" value="-build" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1201709955792">
+      <property name="name" value="getFileName" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1201709960242" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201709955794">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1201709965956">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201709975689">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201709976739">
+              <property name="value" value=".xml" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201709971963">
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201709974585">
+                <link role="conceptMethodDeclaration" targetNodeId="1201709888730" resolveInfo="getDocumentName" />
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1201709968530" />
+            </node>
           </node>
         </node>
       </node>
