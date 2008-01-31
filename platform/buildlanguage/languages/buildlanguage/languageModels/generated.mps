@@ -718,9 +718,6 @@
       <property name="name" value="failonerror" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185514" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185515" />
-      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692623135">
-        <property name="value" value="true" />
-      </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201795669004" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185517">
