@@ -43,10 +43,6 @@
     <exportedPackage />
   </osgiOptions>
   <dependencies>
-    <dependency reexport="true">webr.gtext</dependency>
-    <dependency reexport="true">webr.xml</dependency>
-    <dependency reexport="true">jetbrains.mps.baseLanguage</dependency>
-    <dependency reexport="true">webr.xmlSchema</dependency>
     <dependency reexport="true">webr_languages</dependency>
   </dependencies>
   <extendedLanguages>

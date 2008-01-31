@@ -17,10 +17,6 @@
     <requiredBundles />
     <exportedPackage />
   </osgiOptions>
-  <dependencies>
-    <dependency reexport="true">webr.xml</dependency>
-    <dependency reexport="true">webr.xmlInternal</dependency>
-  </dependencies>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>jetbrains.mps.bootstrap.structureLanguage</extendedLanguage>

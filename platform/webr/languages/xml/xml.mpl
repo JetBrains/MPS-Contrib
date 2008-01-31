@@ -53,7 +53,6 @@
   </osgiOptions>
   <dependencies>
     <dependency reexport="true">webr.gtext</dependency>
-    <dependency reexport="true">webr.xmlSchema</dependency>
     <dependency reexport="true">webr.xmlInternal</dependency>
     <dependency reexport="true">jetbrains.mps.webr.runtime</dependency>
   </dependencies>
