@@ -23,6 +23,9 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1200504738495">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1201778851487">
+      <link role="intfc" targetNodeId="2.1196862084542" resolveInfo="IPropertyHolder" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1200504738496">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="declaration" />

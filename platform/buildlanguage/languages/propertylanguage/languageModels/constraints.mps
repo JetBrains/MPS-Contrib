@@ -7,10 +7,12 @@
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
-  <maxImportIndex value="3" />
+  <maxImportIndex value="5" />
   <import index="1" modelUID="java.lang@java_stub" version="-1" />
   <import index="2" modelUID="jetbrains.mps.propertylanguage.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.core.structure" version="-1" />
+  <import index="4" modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
+  <import index="5" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1200508796547">
     <link role="concept" targetNodeId="2.1200504738494" resolveInfo="PropertyNode" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1200508798722">
@@ -35,6 +37,23 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1201778962999">
+      <property name="name" value="getProperties" />
+      <link role="overridenMethod" targetNodeId="4.1200425502495" resolveInfo="getProperties" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201778963001">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1201778977880">
+          <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201778981977">
+            <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1201778985761">
+              <link role="link" targetNodeId="2.1200504738496" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1201778979882" />
+          </node>
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1201778969877">
+        <link role="elementConcept" targetNodeId="5.1196851107341" resolveInfo="PropertyDeclaration" />
       </node>
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1200508796548">
