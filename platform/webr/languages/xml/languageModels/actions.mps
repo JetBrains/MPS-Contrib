@@ -110,6 +110,7 @@
                     <node role="leftExpression" type="jetbrains.mps.bootstrap.sharedConcepts.structure.ConceptFunctionParameter_model" id="1177613771079" />
                     <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Model_CreateNewNodeOperation" id="1177613775488">
                       <link role="concept" targetNodeId="1.1167700349452" />
+                      <node role="prototypeNode" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_currentTargetNode" id="1201794442589" />
                     </node>
                   </node>
                 </node>
@@ -185,6 +186,7 @@
                       <node role="createdType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1192016035267">
                         <link role="concept" targetNodeId="1.1161373262136" resolveInfo="Text" />
                       </node>
+                      <node role="prototypeNode" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_currentTargetNode" id="1201794455426" />
                     </node>
                   </node>
                 </node>
@@ -371,6 +373,7 @@
                     <node role="leftExpression" type="jetbrains.mps.bootstrap.sharedConcepts.structure.ConceptFunctionParameter_model" id="1177865442381" />
                     <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Model_CreateNewNodeOperation" id="1177865446231">
                       <link role="concept" targetNodeId="1.1167523027466" />
+                      <node role="prototypeNode" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_currentTargetNode" id="1201794468800" />
                     </node>
                   </node>
                 </node>
