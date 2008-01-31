@@ -60,7 +60,6 @@
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>jetbrains.mps.bootstrap.structureLanguage</extendedLanguage>
-    <extendedLanguage>webr.xml</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
     <extendedLanguage>webr.xmlSchema</extendedLanguage>
   </extendedLanguages>

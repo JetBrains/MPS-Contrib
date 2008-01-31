@@ -52,7 +52,6 @@
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>webr.xml</extendedLanguage>
-    <extendedLanguage>webr.xmlInternal</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
     <extendedLanguage>webr.xmlSchema</extendedLanguage>
     <extendedLanguage>webr.gtext</extendedLanguage>

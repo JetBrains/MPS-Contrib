@@ -17,7 +17,6 @@
   </osgiOptions>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
-    <extendedLanguage>jetbrains.mps.baseLanguage.ext.dates.internal</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
   </extendedLanguages>
 </language>

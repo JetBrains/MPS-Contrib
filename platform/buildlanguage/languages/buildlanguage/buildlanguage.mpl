@@ -43,7 +43,6 @@
   </dependencies>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
-    <extendedLanguage>jetbrains.mps.buildlanguage</extendedLanguage>
     <extendedLanguage>jetbrains.mps.xml</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
     <extendedLanguage>jetbrains.mps.propertylanguage</extendedLanguage>

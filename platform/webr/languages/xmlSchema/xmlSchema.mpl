@@ -24,7 +24,6 @@
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>jetbrains.mps.bootstrap.structureLanguage</extendedLanguage>
-    <extendedLanguage>webr.xmlSchema</extendedLanguage>
     <extendedLanguage>webr.xml</extendedLanguage>
     <extendedLanguage>webr.xmlInternal</extendedLanguage>
   </extendedLanguages>
