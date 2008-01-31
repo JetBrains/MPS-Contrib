@@ -7098,9 +7098,6 @@
           <property name="value" value="create" />
         </node>
       </node>
-      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692964875">
-        <property name="value" value="skip" />
-      </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201707420203" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186758">

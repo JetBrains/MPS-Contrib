@@ -1352,46 +1352,34 @@
                   </node>
                 </node>
               </node>
-              <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1201705024147">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1201705008784">
-                  <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705015910">
-                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1201705018857">
-                      <link role="property" targetNodeId="2.1201681755131" resolveInfo="fake" />
+              <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1201705025625">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1201705025626">
+                  <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025627">
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201705025628">
+                      <link role="conceptMethodDeclaration" targetNodeId="1198325014542" resolveInfo="isAbstract" />
                     </node>
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1201705012137">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1201705025629">
                       <link role="variable" targetNodeId="1201257165593" resolveInfo="declaration" />
                     </node>
                   </node>
                 </node>
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1201705025625">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1201705025626">
-                    <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025627">
-                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201705025628">
-                        <link role="conceptMethodDeclaration" targetNodeId="1198325014542" resolveInfo="isAbstract" />
+                <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025630">
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201705025631">
+                    <link role="conceptMethodDeclaration" targetNodeId="1198328720200" resolveInfo="isHeirOf" />
+                    <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025632">
+                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201705025633">
+                        <link role="conceptMethodDeclaration" targetNodeId="1197722627213" resolveInfo="getNestedTasks" />
                       </node>
-                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1201705025629">
-                        <link role="variable" targetNodeId="1201257165593" resolveInfo="declaration" />
+                      <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025634">
+                        <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1201705025635">
+                          <link role="link" targetNodeId="2.1197111678063" />
+                        </node>
+                        <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1201705025636" />
                       </node>
                     </node>
                   </node>
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025630">
-                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201705025631">
-                      <link role="conceptMethodDeclaration" targetNodeId="1198328720200" resolveInfo="isHeirOf" />
-                      <node role="actualArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025632">
-                        <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201705025633">
-                          <link role="conceptMethodDeclaration" targetNodeId="1197722627213" resolveInfo="getNestedTasks" />
-                        </node>
-                        <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201705025634">
-                          <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1201705025635">
-                            <link role="link" targetNodeId="2.1197111678063" />
-                          </node>
-                          <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1201705025636" />
-                        </node>
-                      </node>
-                    </node>
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1201705025637">
-                      <link role="variable" targetNodeId="1201257165593" resolveInfo="declaration" />
-                    </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1201705025637">
+                    <link role="variable" targetNodeId="1201257165593" resolveInfo="declaration" />
                   </node>
                 </node>
               </node>
