@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="webr.xmlSchema">
-  <structure>
-    <model modelUID="webr.xmlSchema.structure" />
-  </structure>
-  <constraints>
-    <model modelUID="webr.xmlSchema.constraints" />
-  </constraints>
-  <editor>
-    <model modelUID="webr.xmlSchema.editor" />
-  </editor>
+<language namespace="webr.xmlSchema" compileInMPS="false">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xmlSchema" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xmlSchema" />
   </models>
-  <module />
   <accessoryModels />
-  <intentions>
-    <model modelUID="webr.xmlSchema.intentions" />
-  </intentions>
   <generators />
   <classPath>
     <entry path="${language_descriptor}\classes" />
@@ -25,13 +12,21 @@
   <runtimeClassPath>
     <entry path="${language_descriptor}\classes" />
   </runtimeClassPath>
+  <sourcePath />
   <osgiOptions>
     <requiredBundles />
     <exportedPackage />
   </osgiOptions>
   <dependencies>
-    <dependency>webr.xml</dependency>
-    <dependency>webr.xmlInternal</dependency>
+    <dependency reexport="true">webr.xml</dependency>
+    <dependency reexport="true">webr.xmlInternal</dependency>
   </dependencies>
+  <extendedLanguages>
+    <extendedLanguage>jetbrains.mps.core</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.bootstrap.structureLanguage</extendedLanguage>
+    <extendedLanguage>webr.xmlSchema</extendedLanguage>
+    <extendedLanguage>webr.xml</extendedLanguage>
+    <extendedLanguage>webr.xmlInternal</extendedLanguage>
+  </extendedLanguages>
 </language>
 

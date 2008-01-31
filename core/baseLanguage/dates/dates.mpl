@@ -1,25 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" generatorOutputPath="${language_descriptor}\source_gen" compileInMPS="false">
-  <structure>
-    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" />
-  </structure>
-  <helginsTypeSystem>
-    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.helgins" />
-  </helginsTypeSystem>
-  <actions>
-    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.actions" />
-  </actions>
-  <constraints>
-    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" />
-  </constraints>
-  <editor>
-    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.editor" />
-  </editor>
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
   </models>
-  <module />
   <accessoryModels>
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   </accessoryModels>
@@ -28,11 +12,10 @@
       <models>
         <modelRoot path="${language_descriptor}\generator\baseLanguage\template" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template" />
       </models>
-      <module />
       <external-templates />
       <dependencies>
-        <dependency>jetbrains.mps.baseLanguage</dependency>
-        <dependency>jetbrains.springframework.configuration</dependency>
+        <dependency reexport="true">jetbrains.mps.baseLanguage</dependency>
+        <dependency reexport="true">jetbrains.springframework.configuration</dependency>
       </dependencies>
       <mapping-priorities />
     </generator>
@@ -51,10 +34,15 @@
     <exportedPackage />
   </osgiOptions>
   <dependencies>
-    <dependency>jetbrains.mps.baseLanguage.ext.dates.internal</dependency>
-    <dependency>jetbrains.springframework.configuration</dependency>
-    <dependency>jetbrains.springframework.configurationInternal</dependency>
-    <dependency>jetbrains.mps.ide.scriptLanguage</dependency>
+    <dependency reexport="true">jetbrains.mps.baseLanguage.ext.dates.internal</dependency>
+    <dependency reexport="true">jetbrains.springframework.configuration</dependency>
+    <dependency reexport="true">jetbrains.springframework.configurationInternal</dependency>
+    <dependency reexport="true">jetbrains.mps.ide.scriptLanguage</dependency>
   </dependencies>
+  <extendedLanguages>
+    <extendedLanguage>jetbrains.mps.core</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.baseLanguage.ext.dates.internal</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
+  </extendedLanguages>
 </language>
 

@@ -1,40 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.buildlanguage" pluginClass="jetbrains.mps.buildlanguage.BuildLanguagePlugin" compileInMPS="false">
-  <structure>
-    <model modelUID="jetbrains.mps.buildlanguage.structure" />
-  </structure>
-  <helginsTypeSystem>
-    <model modelUID="jetbrains.mps.buildlanguage.helgins" />
-  </helginsTypeSystem>
-  <actions>
-    <model modelUID="jetbrains.mps.buildlanguage.actions" />
-  </actions>
-  <constraints>
-    <model modelUID="jetbrains.mps.buildlanguage.constraints" />
-  </constraints>
-  <editor>
-    <model modelUID="jetbrains.mps.buildlanguage.editor" />
-  </editor>
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.buildlanguage" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.buildlanguage" />
   </models>
-  <module />
   <accessoryModels>
     <model modelUID="jetbrains.mps.buildlanguage.generated" />
   </accessoryModels>
-  <intentions>
-    <model modelUID="jetbrains.mps.buildlanguage.intentions" />
-  </intentions>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">
       <models>
         <modelRoot path="${language_descriptor}\generator\xml\template" namespacePrefix="jetbrains.mps.buildlanguage.generator.xml.template" />
       </models>
-      <module />
       <external-templates />
       <dependencies>
-        <dependency>jetbrains.mps.xml</dependency>
+        <dependency reexport="true">jetbrains.mps.xml</dependency>
       </dependencies>
       <mapping-priorities />
     </generator>
@@ -57,9 +37,16 @@
     <exportedPackage />
   </osgiOptions>
   <dependencies>
-    <dependency>jetbrains.mps.mpsProjectLanguage</dependency>
-    <dependency>MPS.Classpath</dependency>
-    <dependency>jetbrains.mps.baseLanguage.strings</dependency>
+    <dependency reexport="true">jetbrains.mps.mpsProjectLanguage</dependency>
+    <dependency reexport="true">MPS.Classpath</dependency>
+    <dependency reexport="true">jetbrains.mps.baseLanguage.strings</dependency>
   </dependencies>
+  <extendedLanguages>
+    <extendedLanguage>jetbrains.mps.core</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.buildlanguage</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.xml</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.propertylanguage</extendedLanguage>
+  </extendedLanguages>
 </language>
 

@@ -1,38 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="webr.xml" compileInMPS="false">
-  <structure>
-    <model modelUID="webr.xml.structure" />
-  </structure>
-  <actions>
-    <model modelUID="webr.xml.actions" />
-  </actions>
-  <constraints>
-    <model modelUID="webr.xml.constraints" />
-  </constraints>
-  <editor>
-    <model modelUID="webr.xml.editor" />
-  </editor>
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xml" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xml" />
   </models>
-  <module />
   <accessoryModels />
-  <intentions>
-    <model modelUID="webr.xml.intentions" />
-  </intentions>
   <generators>
     <generator generatorUID="webr.xml#1163716442262" targetLanguage="jetbrains.mps.baseLanguage">
       <models>
         <modelRoot path="${language_descriptor}\generators\baseLanguage\templates" namespacePrefix="webr.xml.generator.baseLanguage.template" />
       </models>
-      <module />
       <external-templates>
         <generator generatorUID="webr.gtext#1164413905312" />
       </external-templates>
       <dependencies>
-        <dependency>jetbrains.mps.baseLanguage</dependency>
-        <dependency>baseGeneration</dependency>
+        <dependency reexport="true">jetbrains.mps.baseLanguage</dependency>
+        <dependency reexport="true">baseGeneration</dependency>
       </dependencies>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
@@ -69,10 +52,17 @@
     <exportedPackage />
   </osgiOptions>
   <dependencies>
-    <dependency>webr.gtext</dependency>
-    <dependency>webr.xmlSchema</dependency>
-    <dependency>webr.xmlInternal</dependency>
-    <dependency>jetbrains.mps.webr.runtime</dependency>
+    <dependency reexport="true">webr.gtext</dependency>
+    <dependency reexport="true">webr.xmlSchema</dependency>
+    <dependency reexport="true">webr.xmlInternal</dependency>
+    <dependency reexport="true">jetbrains.mps.webr.runtime</dependency>
   </dependencies>
+  <extendedLanguages>
+    <extendedLanguage>jetbrains.mps.core</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.bootstrap.structureLanguage</extendedLanguage>
+    <extendedLanguage>webr.xml</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
+    <extendedLanguage>webr.xmlSchema</extendedLanguage>
+  </extendedLanguages>
 </language>
 
