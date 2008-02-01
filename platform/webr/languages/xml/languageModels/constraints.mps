@@ -602,5 +602,11 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1198862666317" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1201829597060">
+    <link role="concept" targetNodeId="1.1163340203555" resolveInfo="BaseText" />
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1201829597061">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201829597062" />
+    </node>
+  </node>
 </model>
 
