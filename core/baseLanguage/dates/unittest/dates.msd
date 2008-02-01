@@ -15,15 +15,6 @@
     <usedLanguages>jetbrains.mps.baseLanguage.ext.dates.lang</usedLanguages>
     <usedLanguages>jetbrains.mps.baseLanguage.unitTest</usedLanguages>
     <usedLanguages>jetbrains.springframework.configuration</usedLanguages>
-    <usedLanguages>jetbrains.mps.baseLanguage.ext.dates.lang</usedLanguages>
-    <usedLanguages>jetbrains.mps.baseLanguage.unitTest</usedLanguages>
-    <usedLanguages>jetbrains.springframework.configuration</usedLanguages>
-    <usedLanguages>jetbrains.mps.baseLanguage.ext.dates.lang</usedLanguages>
-    <usedLanguages>jetbrains.mps.baseLanguage.unitTest</usedLanguages>
-    <usedLanguages>jetbrains.springframework.configuration</usedLanguages>
-    <usedLanguages>jetbrains.mps.baseLanguage.ext.dates.lang</usedLanguages>
-    <usedLanguages>jetbrains.mps.baseLanguage.unitTest</usedLanguages>
-    <usedLanguages>jetbrains.springframework.configuration</usedLanguages>
   </usedLanguages>
 </solution>
 
