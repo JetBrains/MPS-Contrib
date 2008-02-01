@@ -12,8 +12,10 @@ import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
 import java.util.ArrayList;
 import jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration;
 import jetbrains.mps.smodel.SModelUtil_new;
-import jetbrains.mps.util.Calculable;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.util.Calculable;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
@@ -21,7 +23,6 @@ import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptPropertyOperations;
 import webr.xmlSchema.constraints.TypeExpression_Behavior;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
@@ -52,35 +53,38 @@ public class QueriesGenerated {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("webr.xml.structure.Attribute", operationContext.getScope());
-      Calculable calc = new Calculable() {
+      SNode childConcept = (SNode)_context.getChildConcept();
+      if(SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)concept.getNode()))) {
+        Calculable calc = new Calculable() {
 
-        public Object calculate() {
-          List<SNode> attributeDeclarations = new ArrayList<SNode>();
-          SNode parentElementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
-          if((parentElementDeclaration != null)) {
-            ListOperations.addAllElements(attributeDeclarations, ElementDeclaration_Behavior.call_getAttributeDeclarations_1183587644932(parentElementDeclaration));
+          public Object calculate() {
+            List<SNode> attributeDeclarations = new ArrayList<SNode>();
+            SNode parentElementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
+            if((parentElementDeclaration != null)) {
+              ListOperations.addAllElements(attributeDeclarations, ElementDeclaration_Behavior.call_getAttributeDeclarations_1183587644932(parentElementDeclaration));
+            }
+            return attributeDeclarations;
           }
-          return attributeDeclarations;
+
+        };
+        Iterable<SNode> queryResult = (Iterable)calc.calculate();
+        assert queryResult != null;
+        for(SNode item : queryResult) {
+          result.add(new DefaultChildNodeSubstituteAction(item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+
+            public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+              SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", _context.getCurrentTargetNode());
+              SLinkOperations.setTarget(attribute, "attributeDeclaration", ((SNode)this.getParameterObject()), false);
+              SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
+              return attribute;
+            }
+
+            public String getMatchingText(String pattern) {
+              return SPropertyOperations.getString(((SNode)this.getParameterObject()), "attributeName");
+            }
+
+          });
         }
-
-      };
-      Iterable<SNode> queryResult = (Iterable)calc.calculate();
-      assert queryResult != null;
-      for(SNode item : queryResult) {
-        result.add(new DefaultChildNodeSubstituteAction(item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
-          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", _context.getCurrentTargetNode());
-            SLinkOperations.setTarget(attribute, "attributeDeclaration", ((SNode)this.getParameterObject()), false);
-            SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
-            return attribute;
-          }
-
-          public String getMatchingText(String pattern) {
-            return SPropertyOperations.getString(((SNode)this.getParameterObject()), "attributeName");
-          }
-
-        });
       }
     }
     return result;
@@ -145,30 +149,33 @@ public class QueriesGenerated {
     }
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("webr.xml.structure.Element", operationContext.getScope());
-      Calculable calc = new Calculable() {
+      SNode childConcept = (SNode)_context.getChildConcept();
+      if(SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)concept.getNode()))) {
+        Calculable calc = new Calculable() {
 
-        public Object calculate() {
-          return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode(), operationContext.getScope());
+          public Object calculate() {
+            return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode(), operationContext.getScope());
+          }
+
+        };
+        Iterable<SNode> queryResult = (Iterable)calc.calculate();
+        assert queryResult != null;
+        for(SNode item : queryResult) {
+          result.add(new DefaultChildNodeSubstituteAction(item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+
+            public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+              SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", _context.getCurrentTargetNode());
+              SLinkOperations.setTarget(element, "elementDeclaration", ((SNode)this.getParameterObject()), false);
+              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202(((SNode)this.getParameterObject()))));
+              return element;
+            }
+
+            public String getMatchingText(String pattern) {
+              return "<" + SPropertyOperations.getString(((SNode)this.getParameterObject()), "elementName");
+            }
+
+          });
         }
-
-      };
-      Iterable<SNode> queryResult = (Iterable)calc.calculate();
-      assert queryResult != null;
-      for(SNode item : queryResult) {
-        result.add(new DefaultChildNodeSubstituteAction(item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
-          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", _context.getCurrentTargetNode());
-            SLinkOperations.setTarget(element, "elementDeclaration", ((SNode)this.getParameterObject()), false);
-            SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202(((SNode)this.getParameterObject()))));
-            return element;
-          }
-
-          public String getMatchingText(String pattern) {
-            return "<" + SPropertyOperations.getString(((SNode)this.getParameterObject()), "elementName");
-          }
-
-        });
       }
     }
     return result;
