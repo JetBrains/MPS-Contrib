@@ -90,7 +90,7 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1192015666802(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1201903366642(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("webr.xml.structure.Text", operationContext.getScope());
@@ -98,7 +98,9 @@ public class QueriesGenerated {
 
         public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
           SNode text = SConceptOperations.createNewNode("webr.xml.structure.Text", _context.getCurrentTargetNode());
-          SPropertyOperations.set(text, "text", pattern.substring(1));
+          if(!(pattern.isEmpty())) {
+            SPropertyOperations.set(text, "text", pattern.substring(1));
+          }
           return text;
         }
 
@@ -107,7 +109,7 @@ public class QueriesGenerated {
         }
 
         public boolean canSubstitute_internal(String pattern) {
-          return pattern.startsWith("/");
+          return pattern.startsWith("/") || pattern.isEmpty();
         }
 
         public String getDescriptionText(String pattern) {
@@ -115,7 +117,10 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return pattern;
+          return (pattern.isEmpty() ?
+            "/text" :
+            pattern
+          );
         }
 
       });
