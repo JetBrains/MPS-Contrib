@@ -215,10 +215,13 @@
                     </node>
                   </node>
                 </node>
-                <node role="condition" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1201903377432">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1201903377433">
-                    <link role="baseMethodDeclaration" targetNodeId="12.~String.isEmpty():boolean" resolveInfo="isEmpty" />
-                    <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1201903377434" />
+                <node role="condition" type="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" id="1201905972907">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1201905974614">
+                    <property name="value" value="0" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1201905970656">
+                    <link role="baseMethodDeclaration" targetNodeId="12.~String.length():int" resolveInfo="length" />
+                    <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1201905967060" />
                   </node>
                 </node>
               </node>
@@ -233,9 +236,14 @@
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201903377438">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201903377439">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1201903377440">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1201903377441">
-                    <link role="baseMethodDeclaration" targetNodeId="12.~String.isEmpty():boolean" resolveInfo="isEmpty" />
-                    <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1201903377442" />
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1201905937387">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1201905946648">
+                      <property name="value" value="0" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1201903377441">
+                      <link role="baseMethodDeclaration" targetNodeId="12.~String.length():int" resolveInfo="length" />
+                      <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1201903377442" />
+                    </node>
                   </node>
                   <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1201903377443">
                     <link role="baseMethodDeclaration" targetNodeId="12.~String.startsWith(java.lang.String):boolean" resolveInfo="startsWith" />
@@ -252,9 +260,14 @@
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201903377447">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201903377448">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1201903377449">
-                  <node role="condition" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1201903377450">
-                    <link role="baseMethodDeclaration" targetNodeId="12.~String.isEmpty():boolean" resolveInfo="isEmpty" />
-                    <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1201903377451" />
+                  <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1201905954306">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1201905956527">
+                      <property name="value" value="0" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1201903377450">
+                      <link role="baseMethodDeclaration" targetNodeId="12.~String.length():int" resolveInfo="length" />
+                      <node role="instance" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1201903377451" />
+                    </node>
                   </node>
                   <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201903377452">
                     <property name="value" value="/text" />

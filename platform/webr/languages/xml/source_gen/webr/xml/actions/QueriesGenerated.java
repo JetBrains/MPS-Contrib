@@ -98,7 +98,7 @@ public class QueriesGenerated {
 
         public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
           SNode text = SConceptOperations.createNewNode("webr.xml.structure.Text", _context.getCurrentTargetNode());
-          if(!(pattern.isEmpty())) {
+          if(pattern.length() > 0) {
             SPropertyOperations.set(text, "text", pattern.substring(1));
           }
           return text;
@@ -109,7 +109,7 @@ public class QueriesGenerated {
         }
 
         public boolean canSubstitute_internal(String pattern) {
-          return pattern.startsWith("/") || pattern.isEmpty();
+          return pattern.startsWith("/") || pattern.length() == 0;
         }
 
         public String getDescriptionText(String pattern) {
@@ -117,7 +117,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return (pattern.isEmpty() ?
+          return (pattern.length() == 0 ?
             "/text" :
             pattern
           );
