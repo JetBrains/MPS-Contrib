@@ -2,7 +2,9 @@
 <model name="webr.xml.intentions">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.baseLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.bootstrap.intentionsLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang" />
