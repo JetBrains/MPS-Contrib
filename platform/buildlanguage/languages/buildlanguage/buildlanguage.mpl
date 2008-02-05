@@ -41,6 +41,9 @@
     <dependency reexport="true">MPS.Classpath</dependency>
     <dependency reexport="true">jetbrains.mps.baseLanguage.strings</dependency>
   </dependencies>
+  <usedLanguages>
+    <usedLanguages>jetbrains.mps.baseLanguageInternal</usedLanguages>
+  </usedLanguages>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>jetbrains.mps.xml</extendedLanguage>
