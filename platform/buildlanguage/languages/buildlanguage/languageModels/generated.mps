@@ -6,6 +6,7 @@
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
     <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <maxImportIndex value="0" />
   <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185005">
     <property name="name" value="task" />
