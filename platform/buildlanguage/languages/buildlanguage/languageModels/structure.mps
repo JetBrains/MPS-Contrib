@@ -223,12 +223,6 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1196852921336" resolveInfo="TargetReference" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1198345375236">
-      <property name="metaClass" value="aggregation" />
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="definitions" />
-      <link role="target" targetNodeId="1201108179978" resolveInfo="Definitions" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201702862229">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="importProject" />
@@ -852,51 +846,6 @@
       <property name="sourceCardinality" value="1" />
       <property name="role" value="call" />
       <link role="target" targetNodeId="1197111643046" resolveInfo="GenericCall" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1201108179978">
-    <property name="name" value="Definitions" />
-    <property name="package" value="Extend" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201109514000">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="source" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1201111033873" resolveInfo="ISource" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201111547889">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="declarations" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201108702211">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="taskDefinition" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1201108630853" resolveInfo="TaskDefinition" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1201108630853">
-    <property name="name" value="AbstractTaskDefinition" />
-    <property name="package" value="Extend" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201108641530">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="declaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1201108667958">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1201108669787">
-      <property name="value" value="taskdef" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1201108679467">
-      <property name="value" value="definition of a task" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1201111033873">
