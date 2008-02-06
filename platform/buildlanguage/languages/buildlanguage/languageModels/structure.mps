@@ -742,13 +742,6 @@
       <link role="target" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198326210118">
-    <property name="name" value="ManualCall" />
-    <link role="extends" targetNodeId="1196851087779" resolveInfo="Call" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1198326225593">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1198344963196">
     <property name="name" value="ImportDeclatation" />
     <property name="package" value="Generic" />
