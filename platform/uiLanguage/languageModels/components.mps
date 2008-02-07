@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model name="jetbrains.mps.uiLanguage.components">
+  <persistence version="1" />
+  <refactoringHistory />
+  <language namespace="jetbrains.mps.uiLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  </language>
+  <maxImportIndex value="3" />
+  <import index="1" modelUID="java.lang@java_stub" version="-1" />
+  <import index="2" modelUID="javax.swing@java_stub" version="-1" />
+  <import index="3" modelUID="java.awt@java_stub" version="-1" />
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393472906">
+    <property name="name" value="BaseComponent" />
+    <property name="stub" value="true" />
+    <property name="abstract" value="true" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393511419">
+    <property name="name" value="Frame" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <link role="mapTo" targetNodeId="2.~JFrame" resolveInfo="JFrame" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202393521454">
+    <link role="component" targetNodeId="1202393511419" resolveInfo="Frame" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202393523190">
+      <property name="name" value="title" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202393525083">
+        <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
+      </node>
+    </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202396132470">
+      <property name="name" value="visible" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1202396133066" />
+    </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202396307047">
+      <property name="name" value="size" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202396308237">
+        <link role="classifier" targetNodeId="3.~Dimension" resolveInfo="Dimension" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393560969">
+    <property name="name" value="Button" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <link role="mapTo" targetNodeId="2.~JButton" resolveInfo="JButton" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202393573380">
+    <link role="component" targetNodeId="1202393560969" resolveInfo="Button" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202393575288">
+      <property name="name" value="text" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202393577588">
+        <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202393598579">
+    <link role="component" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202393600503">
+      <property name="name" value="layout" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202393611649">
+        <link role="classifier" targetNodeId="3.~LayoutManager" resolveInfo="LayoutManager" />
+      </node>
+    </node>
+  </node>
+</model>
+

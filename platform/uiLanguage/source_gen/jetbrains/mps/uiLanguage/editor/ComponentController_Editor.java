@@ -113,7 +113,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell2(context, node));
+    editorCell.addEditorCell(this.createIndentCell3(context, node));
     editorCell.addEditorCell(this.createAttributeList(context, node));
     return editorCell;
   }
@@ -165,7 +165,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createAttributeList(EditorContext context, SNode node) {
     if(this.myAttributeListHandler_attributeList_ == null) {
-      this.myAttributeListHandler_attributeList_ = new ComponentController_Editor._RefNodeListHandler2(node, "attribute", context);
+      this.myAttributeListHandler_attributeList_ = new ComponentController_Editor._RefNodeListHandler1(node, "attribute", context);
     }
     EditorCell_Collection editorCell = this.myAttributeListHandler_attributeList_.createCells(context, new CellLayout_Vertical(), false);
     ComponentController_Editor.setupBasic_AttributeList(editorCell, node, context);
@@ -176,14 +176,14 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell2(EditorContext context, SNode node) {
+  public EditorCell createIndentCell3(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
   public EditorCell createComponentReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new ComponentController_Editor._Inline1());
+    provider.setAuxiliaryCellProvider(new ComponentController_Editor._Inline3());
     EditorCell editorCell = provider.createEditorCell(context);
     ComponentController_Editor.setupBasic_ComponentReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -210,9 +210,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _Inline1 extends AbstractCellProvider {
+  public static class _Inline3 extends AbstractCellProvider {
 
-    public  _Inline1() {
+    public  _Inline3() {
       super();
     }
 
@@ -236,9 +236,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      ComponentController_Editor._Inline1.setupBasic_NameCell(editorCell, node, context);
+      ComponentController_Editor._Inline3.setupBasic_NameCell(editorCell, node, context);
       if(editorCell instanceof EditorCell_Label) {
-        ComponentController_Editor._Inline1.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+        ComponentController_Editor._Inline3.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
@@ -262,9 +262,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class _RefNodeListHandler2 extends RefNodeListHandler {
+  public static class _RefNodeListHandler1 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler2(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

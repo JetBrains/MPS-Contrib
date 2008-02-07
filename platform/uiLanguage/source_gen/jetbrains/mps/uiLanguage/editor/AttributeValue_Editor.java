@@ -56,7 +56,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createAttributeReferenceCell(context, node));
-    editorCell.addEditorCell(this.createConstantCell(context, node, "="));
+    editorCell.addEditorCell(this.createConstantCell(context, node, ":"));
     editorCell.addEditorCell(this.createValueCell(context, node));
     return editorCell;
   }
@@ -71,7 +71,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
 
   public EditorCell createAttributeReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline2());
+    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline4());
     EditorCell editorCell = provider.createEditorCell(context);
     AttributeValue_Editor.setupBasic_AttributeReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -127,14 +127,15 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _Inline2 extends AbstractCellProvider {
+  public static class _Inline4 extends AbstractCellProvider {
 
-    public  _Inline2() {
+    public  _Inline4() {
       super();
     }
 
     private static void setupBasic_NameCell(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202389400200");
+      Stylesheet_StyleSheet.ATTRIBUTE.apply(editorCell);
     }
 
     private static void setupLabel_NameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -153,9 +154,9 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      AttributeValue_Editor._Inline2.setupBasic_NameCell(editorCell, node, context);
+      AttributeValue_Editor._Inline4.setupBasic_NameCell(editorCell, node, context);
       if(editorCell instanceof EditorCell_Label) {
-        AttributeValue_Editor._Inline2.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+        AttributeValue_Editor._Inline4.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
