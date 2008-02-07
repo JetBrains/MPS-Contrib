@@ -59,6 +59,30 @@ public class Stylesheet_StyleSheet {
     }
 
   };
+  public static final IStyle COMPONENT_INSTANCE = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
+      if(cell instanceof EditorCell_Label) {
+        EditorCell_Label labelCell = (EditorCell_Label)cell;
+        Color color = Stylesheet_StyleSheet.calculateColor2(cell);
+        labelCell.getTextLine().setTextColor(color);
+      }
+      cell.setFontType(MPSFonts.ITALIC);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            this.apply(child, true);
+          }
+        }
+      }
+    }
+
+  };
 
   private static Color calculateColor(EditorCell cell) {
     Color result;
@@ -67,6 +91,12 @@ public class Stylesheet_StyleSheet {
   }
 
   private static Color calculateColor1(EditorCell cell) {
+    Color result;
+    result = Color.blue;
+    return result;
+  }
+
+  private static Color calculateColor2(EditorCell cell) {
     Color result;
     result = Color.blue;
     return result;
