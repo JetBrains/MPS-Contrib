@@ -14,6 +14,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 
 public class QueriesGenerated {
 
@@ -110,6 +111,10 @@ public class QueriesGenerated {
 
   public static List sourceNodesQuery_1202466096481(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return ComponentDeclaration_Behavior.call_getDeclaredAttributes_1202465971016(_context.getNode());
+  }
+
+  public static List sourceNodesQuery_1202478250130(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SequenceOperations.toList(SequenceOperations.where(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AttributeValue", true), new zPredicate(null, null)));
   }
 
   public static List sourceNodesQuery_1202395385084(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
