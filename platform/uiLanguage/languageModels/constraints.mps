@@ -596,30 +596,48 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1202478978605">
-            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202478978606" />
-            <node role="condition" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1202479054689">
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1202479055786" />
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.helgins.structure.CoerceStrongExpression" id="1202478982578">
-                <node role="pattern" type="jetbrains.mps.bootstrap.helgins.structure.PatternCondition" id="1202478994633">
-                  <property name="name" value="_" />
-                  <node role="pattern" type="jetbrains.mps.patterns.structure.PatternExpression" id="1202478994634">
-                    <node role="patternNode" type="jetbrains.mps.uiLanguage.structure.ComponentType" id="1202478998651">
-                      <node role="_attr_$link_attribute$component" type="jetbrains.mps.patterns.structure.LinkPatternVariableDeclaration" id="1202479000402">
-                        <property name="varName" value="component" />
+          <node role="statement" type="jetbrains.mps.bootstrap.helgins.structure.CoerceStatement" id="1202480203697">
+            <node role="pattern" type="jetbrains.mps.bootstrap.helgins.structure.PatternCondition" id="1202480222476">
+              <property name="name" value="componentType" />
+              <node role="pattern" type="jetbrains.mps.patterns.structure.PatternExpression" id="1202480222477">
+                <node role="patternNode" type="jetbrains.mps.uiLanguage.structure.ComponentType" id="1202480240181">
+                  <node role="_attr_$link_attribute$component" type="jetbrains.mps.patterns.structure.LinkPatternVariableDeclaration" id="1202480241948">
+                    <property name="varName" value="component" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="nodeToCoerce" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202480217925">
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.helgins.structure.Node_TypeOperation" id="1202480218991" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202480212858">
+                <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1202480214596">
+                  <link role="link" targetNodeId="6.1197027771414" />
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1202480207607">
+                  <link role="variableDeclaration" targetNodeId="1202478719671" resolveInfo="operationExpr" />
+                </node>
+              </node>
+            </node>
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202480203700">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202483045908">
+                <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1202483047144">
+                  <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddAllElementsOperation" id="1202483048225">
+                    <node role="argument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202483048493">
+                      <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1202483048494">
+                        <link role="conceptMethodDeclaration" targetNodeId="1202392603201" resolveInfo="getAttributes" />
+                      </node>
+                      <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202483048495">
+                        <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1202483048496">
+                          <link role="link" targetNodeId="1.1202465029373" />
+                        </node>
+                        <node role="leftExpression" type="jetbrains.mps.bootstrap.helgins.structure.ApplicableNodeReference" id="1202483048497">
+                          <link role="applicableNode" targetNodeId="1202480222476" resolveInfo="componentType" />
+                        </node>
                       </node>
                     </node>
                   </node>
-                </node>
-                <node role="nodeToCoerce" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202478987706">
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.helgins.structure.Node_TypeOperation" id="1202478987707" />
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202478987708">
-                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1202478987709">
-                      <link role="link" targetNodeId="6.1197027771414" />
-                    </node>
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1202478987710">
-                      <link role="variableDeclaration" targetNodeId="1202478719671" resolveInfo="operationExpr" />
-                    </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1202483045909">
+                    <link role="variableDeclaration" targetNodeId="1202478812556" resolveInfo="attributes" />
                   </node>
                 </node>
               </node>

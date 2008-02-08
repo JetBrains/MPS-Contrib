@@ -37,6 +37,10 @@ public class QueriesGenerated {
     return "my" + NameUtil.capitalize(SPropertyOperations.getString(_context.getNode(), "name"));
   }
 
+  public static Object propertyMacro_GetPropertyValue_1202479785403(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "name");
+  }
+
   public static Object propertyMacro_GetPropertyValue_1202395130383(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return ComponentDeclaration_Behavior.call_getComponentClassName_1202394358859(SLinkOperations.getTarget(_context.getNode(), "component", false));
   }
