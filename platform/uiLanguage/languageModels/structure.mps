@@ -167,5 +167,17 @@
       <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202478475127">
+    <property name="name" value="AttributeReferenceOperation" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202478491160">
+      <property name="role" value="attribute" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1202388805843" resolveInfo="AttributeDeclaration" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202478485550">
+      <link role="intfc" targetNodeId="2.1197027803184" resolveInfo="IOperation" />
+    </node>
+  </node>
 </model>
 

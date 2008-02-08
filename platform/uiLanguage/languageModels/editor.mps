@@ -375,5 +375,19 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202478504458">
+    <link role="conceptDeclaration" targetNodeId="1.1202478475127" resolveInfo="AttributeReferenceOperation" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1202478508742">
+      <link role="relationDeclaration" targetNodeId="1.1202478491160" />
+      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1202478508743">
+        <link role="conceptDeclaration" targetNodeId="1.1202388805843" resolveInfo="AttributeDeclaration" />
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1202478509604">
+          <property name="readOnly" value="true" />
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+          <link role="styleClass" targetNodeId="1202391755149" resolveInfo="attribute" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
