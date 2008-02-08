@@ -64,5 +64,19 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202464198724">
+    <property name="name" value="TextField" />
+    <property name="stub" value="true" />
+    <link role="mapTo" targetNodeId="2.~JTextField" resolveInfo="JTextField" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202464205555">
+    <link role="component" targetNodeId="1202464198724" resolveInfo="TextField" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202464208353">
+      <property name="name" value="text" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202464231888">
+        <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
+      </node>
+    </node>
+  </node>
 </model>
 
