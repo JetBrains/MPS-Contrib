@@ -23,6 +23,7 @@
     </generator>
   </generators>
   <classPath>
+    <entry path="${language_descriptor}\classes" />
     <entry path="${language_descriptor}\runtime\classes" />
     <entry path="${language_descriptor}\runtime\lib\binding-2.0.2.jar" />
   </classPath>

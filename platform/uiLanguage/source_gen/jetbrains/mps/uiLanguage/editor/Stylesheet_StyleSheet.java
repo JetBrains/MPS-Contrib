@@ -28,6 +28,22 @@ public class Stylesheet_StyleSheet {
         if(cell instanceof EditorCell_Collection) {
           EditorCell_Collection collection = (EditorCell_Collection)cell;
           for(EditorCell child : collection) {
+            if(child.getSNode().isAttribute()) {
+              this.skipAttributePart(child);
+            } else
+            {
+              this.apply(child, true);
+            }
+          }
+        }
+      }
+    }
+
+    private void skipAttributePart(EditorCell current) {
+      if(current instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)current;
+        for(EditorCell child : collection) {
+          if(child.getSNode() == current.getSNode().getParent()) {
             this.apply(child, true);
           }
         }
@@ -52,6 +68,22 @@ public class Stylesheet_StyleSheet {
         if(cell instanceof EditorCell_Collection) {
           EditorCell_Collection collection = (EditorCell_Collection)cell;
           for(EditorCell child : collection) {
+            if(child.getSNode().isAttribute()) {
+              this.skipAttributePart(child);
+            } else
+            {
+              this.apply(child, true);
+            }
+          }
+        }
+      }
+    }
+
+    private void skipAttributePart(EditorCell current) {
+      if(current instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)current;
+        for(EditorCell child : collection) {
+          if(child.getSNode() == current.getSNode().getParent()) {
             this.apply(child, true);
           }
         }
@@ -76,6 +108,22 @@ public class Stylesheet_StyleSheet {
         if(cell instanceof EditorCell_Collection) {
           EditorCell_Collection collection = (EditorCell_Collection)cell;
           for(EditorCell child : collection) {
+            if(child.getSNode().isAttribute()) {
+              this.skipAttributePart(child);
+            } else
+            {
+              this.apply(child, true);
+            }
+          }
+        }
+      }
+    }
+
+    private void skipAttributePart(EditorCell current) {
+      if(current instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)current;
+        for(EditorCell child : collection) {
+          if(child.getSNode() == current.getSNode().getParent()) {
             this.apply(child, true);
           }
         }
