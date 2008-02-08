@@ -78,5 +78,19 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202465811094">
+    <property name="name" value="Label" />
+    <property name="stub" value="true" />
+    <link role="mapTo" targetNodeId="2.~JLabel" resolveInfo="JLabel" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202465821678">
+    <link role="component" targetNodeId="1202465811094" resolveInfo="Label" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202465836231">
+      <property name="name" value="text" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202465838816">
+        <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
+      </node>
+    </node>
+  </node>
 </model>
 

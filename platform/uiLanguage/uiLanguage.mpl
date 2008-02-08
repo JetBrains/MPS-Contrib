@@ -31,6 +31,9 @@
     <requiredBundles />
     <exportedPackage />
   </osgiOptions>
+  <dependencies>
+    <dependency reexport="false">jetbrains.mps.quotation</dependency>
+  </dependencies>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
   </extendedLanguages>

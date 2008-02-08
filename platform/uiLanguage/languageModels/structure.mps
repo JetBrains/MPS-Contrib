@@ -154,5 +154,18 @@
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473994950" resolveInfo="dontSubstituteByDefault" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202465023198">
+    <property name="name" value="ComponentType" />
+    <link role="extends" targetNodeId="2.1068431790189" resolveInfo="Type" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202465038393">
+      <property name="value" value="component&lt;&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202465029373">
+      <property name="role" value="component" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration" />
+    </node>
+  </node>
 </model>
 
