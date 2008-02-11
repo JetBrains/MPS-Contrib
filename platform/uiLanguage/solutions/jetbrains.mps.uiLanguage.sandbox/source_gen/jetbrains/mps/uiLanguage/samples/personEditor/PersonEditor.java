@@ -36,11 +36,10 @@ public class PersonEditor extends JFrame {
   public  PersonEditor() {
     this.myThis = this;
     PersonEditor component = this;
-    component.setTitle("Person Editor");
     component.setSize(new Dimension(400, 300));
+    component.setVisible(true);
     component.setLayout(new FlowLayout());
     component.add(this.createComponent());
-    component.setVisible(true);
   }
 
   public void addNotify() {
@@ -94,7 +93,7 @@ public class PersonEditor extends JFrame {
   private JLabel createComponent1() {
     JLabel component = new JLabel();
     this.myComponent1 = component;
-    component.setText("First Name:");
+    component.setText("Name:");
     return component;
   }
 
@@ -128,7 +127,7 @@ public class PersonEditor extends JFrame {
   private JButton createComponent6() {
     JButton component = new JButton();
     this.myComponent6 = component;
-    component.setText("Ok");
+    component.setText("OK");
     return component;
   }
 

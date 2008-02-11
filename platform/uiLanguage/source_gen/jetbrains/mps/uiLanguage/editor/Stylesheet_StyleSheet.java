@@ -91,7 +91,7 @@ public class Stylesheet_StyleSheet {
     }
 
   };
-  public static final IStyle COMPONENT_INSTANCE = new IStyle() {
+  public static final IStyle COMPONENT_INSTANCE_NAME = new IStyle() {
 
     public void apply(EditorCell cell) {
       this.apply(cell, true);

@@ -25,7 +25,7 @@
       <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202388027333">
-      <property name="role" value="component" />
+      <property name="role" value="componentDeclaration" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration" />
     </node>
@@ -43,6 +43,9 @@
     <property name="name" value="ComponentDeclaration" />
     <property name="rootable" value="true" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptPropertyDeclaration" id="1202742398596">
+      <property name="name" value="actionComponent" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1202393242164">
       <property name="name" value="stub" />
       <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
@@ -82,6 +85,12 @@
       <property name="role" value="attribute" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1202388805843" resolveInfo="AttributeDeclaration" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202742069115">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="componentMethod" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1202741165758" resolveInfo="ComponentMethodDeclaration" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202388401455">
       <property name="role" value="component" />
@@ -194,6 +203,22 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202740010287">
       <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202741165758">
+    <property name="name" value="ComponentMethodDeclaration" />
+    <link role="extends" targetNodeId="2.1068580123132" resolveInfo="BaseMethodDeclaration" />
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202742489421">
+    <property name="name" value="ComponentReferencePart" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202742504267">
+      <property name="role" value="component" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1202387945296" resolveInfo="ComponentInstance" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202742500500">
+      <link role="intfc" targetNodeId="2.1197027803184" resolveInfo="IOperation" />
     </node>
   </node>
 </model>
