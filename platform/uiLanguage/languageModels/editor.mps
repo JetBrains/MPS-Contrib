@@ -372,6 +372,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202464494023">
+    <property name="package" value="Expressions" />
     <link role="conceptDeclaration" targetNodeId="1.1202464424004" resolveInfo="BindExpression" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202464496041">
       <property name="vertical" value="false" />
@@ -387,6 +388,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202464751544">
+    <property name="package" value="Expressions" />
     <link role="conceptDeclaration" targetNodeId="1.1202464730174" resolveInfo="ThisComponentExpression" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202464753265">
       <property name="text" value="this" />
@@ -420,6 +422,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202478504458">
+    <property name="package" value="Operations" />
     <link role="conceptDeclaration" targetNodeId="1.1202478475127" resolveInfo="AttributeReferenceOperation" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1202478508742">
       <link role="relationDeclaration" targetNodeId="1.1202478491160" />
@@ -491,6 +494,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202742512518">
+    <property name="package" value="Expressions" />
     <link role="conceptDeclaration" targetNodeId="1.1202742489421" resolveInfo="ComponentReferencePart" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1202742515942">
       <link role="relationDeclaration" targetNodeId="1.1202742504267" />

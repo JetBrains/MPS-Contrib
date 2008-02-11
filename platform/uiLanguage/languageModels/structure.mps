@@ -133,6 +133,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202464424004">
     <property name="name" value="BindExpression" />
+    <property name="package" value="Expressions" />
     <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202464535546">
       <property name="value" value="{" />
@@ -154,6 +155,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202464730174">
     <property name="name" value="ThisComponentExpression" />
+    <property name="package" value="Expressions" />
     <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202464744602">
       <property name="value" value="this" />
@@ -178,6 +180,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202478475127">
     <property name="name" value="AttributeReferenceOperation" />
+    <property name="package" value="Operations" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1202746169525">
       <link role="conceptPropertyDeclaration" targetNodeId="2.1197029536315" resolveInfo="lvalue" />
@@ -214,6 +217,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202742489421">
     <property name="name" value="ComponentReference" />
+    <property name="package" value="Expressions" />
     <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202742504267">
       <property name="role" value="component" />
