@@ -140,6 +140,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(ComponentInstance_Behavior.call_getLayoutConstraint_1202740134073(_context.getNode()), "constraint", true);
   }
 
+  public static SNode sourceNodeQuery_1202744829093(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "handler", true);
+  }
+
   public static List sourceNodesQuery_1202400443878(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SNodeOperations.getDescendants(SLinkOperations.getTarget(_context.getNode(), "root", true), "jetbrains.mps.uiLanguage.structure.ComponentInstance", false);
   }

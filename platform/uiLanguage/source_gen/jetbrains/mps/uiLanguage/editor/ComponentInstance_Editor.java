@@ -225,7 +225,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     }
     EditorCell_Collection editorCell = this.myContentListHandler_contentList_.createCells(context, new CellLayout_Vertical(), false);
     ComponentInstance_Editor.setupBasic_ContentList(editorCell, node, context);
-    editorCell.setGridLayout(false);
+    editorCell.setGridLayout(true);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.putUserObject(EditorCell.ROLE, this.myContentListHandler_contentList_.getElementRole());

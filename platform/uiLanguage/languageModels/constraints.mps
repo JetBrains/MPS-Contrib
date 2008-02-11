@@ -332,6 +332,20 @@
         </node>
       </node>
     </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1202744001089">
+      <property name="name" value="isActionComponent" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1202744008736" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202744001091">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1202744012340">
+          <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202744357347">
+            <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1202744358531">
+              <link role="property" targetNodeId="1.1202744343014" resolveInfo="actionComponent" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1202744355790" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1202390003784">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202390003785" />
     </node>

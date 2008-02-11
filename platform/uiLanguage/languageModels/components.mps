@@ -44,6 +44,7 @@
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393560969">
     <property name="name" value="Button" />
     <property name="stub" value="true" />
+    <property name="actionComponent" value="true" />
     <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
     <link role="mapTo" targetNodeId="2.~JButton" resolveInfo="JButton" />
   </node>
