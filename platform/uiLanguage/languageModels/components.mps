@@ -6,10 +6,11 @@
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
-  <maxImportIndex value="3" />
+  <maxImportIndex value="4" />
   <import index="1" modelUID="java.lang@java_stub" version="-1" />
   <import index="2" modelUID="javax.swing@java_stub" version="-1" />
   <import index="3" modelUID="java.awt@java_stub" version="-1" />
+  <import index="4" modelUID="jetbrains.mps.uiLanguage.runtime@java_stub" version="-1" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393472906">
     <property name="name" value="BaseComponent" />
     <property name="stub" value="true" />
@@ -91,6 +92,18 @@
         <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
       </node>
     </node>
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202738287160">
+    <property name="name" value="VBox" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <link role="mapTo" targetNodeId="4.~VBoxPanel" resolveInfo="VBoxPanel" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202738350852">
+    <property name="name" value="HBox" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <link role="mapTo" targetNodeId="4.~HBoxPanel" resolveInfo="HBoxPanel" />
   </node>
 </model>
 
