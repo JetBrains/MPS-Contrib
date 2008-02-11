@@ -179,8 +179,8 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1202397013422">
             <property name="noTargetText" value="&lt;no name&gt;" />
-            <link role="relationDeclaration" targetNodeId="1.1202396844073" resolveInfo="componentName" />
             <link role="styleClass" targetNodeId="1202396890110" resolveInfo="componentInstance" />
+            <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202397013423">
             <property name="text" value=")" />
@@ -191,8 +191,8 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1202397028104">
                   <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1202397029123" />
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202397023944">
-                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1202397025838">
-                      <link role="property" targetNodeId="1.1202396844073" resolveInfo="componentName" />
+                    <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1202745350648">
+                      <link role="property" targetNodeId="2.1169194664001" resolveInfo="name" />
                     </node>
                     <node role="leftExpression" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1202397020443" />
                   </node>
@@ -222,8 +222,8 @@
           <property name="text" value="component name" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1202397000152">
-          <link role="relationDeclaration" targetNodeId="1.1202396844073" resolveInfo="componentName" />
           <link role="styleClass" targetNodeId="1202396890110" resolveInfo="componentInstance" />
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
         </node>
       </node>
     </node>
@@ -498,8 +498,8 @@
         <link role="conceptDeclaration" targetNodeId="1.1202387945296" resolveInfo="ComponentInstance" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1202742516789">
           <property name="readOnly" value="true" />
-          <link role="relationDeclaration" targetNodeId="1.1202396844073" resolveInfo="componentName" />
           <link role="styleClass" targetNodeId="1202396890110" resolveInfo="ComponentInstanceName" />
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
         </node>
       </node>
     </node>

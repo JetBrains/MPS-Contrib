@@ -6,11 +6,11 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.uiLanguage.constraints.ComponentDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.NameUtil;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.uiLanguage.constraints.BindExpression_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.generator.template.IfMacroContext;
@@ -22,6 +22,18 @@ import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperati
 
 public class QueriesGenerated {
 
+  public static boolean baseMappingRule_Condition_1202746396333(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    if(!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.OperationExpression"))) {
+      return false;
+    }
+    SNode opExpr = SLinkOperations.getTarget(_context.getNode(), "lValue", true);
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(opExpr, "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation");
+  }
+
+  public static boolean baseMappingRule_Condition_1202748467066(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation");
+  }
+
   public static boolean baseMappingRule_Condition_1202732186792(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return !(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression"));
   }
@@ -32,8 +44,8 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1202400527073(final IOperationContext operationContext, final PropertyMacroContext _context) {
     String baseName;
-    if(SPropertyOperations.getString(_context.getNode(), "componentName") != null) {
-      baseName = "my" + NameUtil.capitalize(SPropertyOperations.getString(_context.getNode(), "componentName"));
+    if(SPropertyOperations.getString(_context.getNode(), "name") != null) {
+      baseName = "my" + NameUtil.capitalize(SPropertyOperations.getString(_context.getNode(), "name"));
     } else
     {
       baseName = "myComponent";
@@ -94,6 +106,16 @@ public class QueriesGenerated {
     return NameUtil.getSetterName(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "name"));
   }
 
+  public static Object propertyMacro_GetPropertyValue_1202746727709(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    SNode operationExpression = SLinkOperations.getTarget(_context.getNode(), "lValue", true);
+    SNode referenceOperation = SLinkOperations.getTarget(operationExpression, "operation", true);
+    return NameUtil.getSetterName(SPropertyOperations.getString(SLinkOperations.getTarget(referenceOperation, "attribute", false), "name"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1202748125960(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return NameUtil.getGetterName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "operation", true), "attribute", false), "name"));
+  }
+
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode instance = SNodeOperations.getParent(_context.getNode(), null, false, false);
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(instance, "componentField");
@@ -105,6 +127,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_1202395785142(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(_context.getNode(), "componentFactory");
+  }
+
+  public static Object referenceMacro_GetReferent_1202747104243(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentField");
   }
 
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -142,6 +168,18 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1202744829093(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "handler", true);
+  }
+
+  public static SNode sourceNodeQuery_1202746788601(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "operand", true);
+  }
+
+  public static SNode sourceNodeQuery_1202746716683(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "rValue", true);
+  }
+
+  public static SNode sourceNodeQuery_1202748123035(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "operand", true);
   }
 
   public static List sourceNodesQuery_1202400443878(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

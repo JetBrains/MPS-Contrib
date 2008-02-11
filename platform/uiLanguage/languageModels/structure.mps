@@ -20,10 +20,6 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202387945296">
     <property name="name" value="ComponentInstance" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1202396844073">
-      <property name="name" value="componentName" />
-      <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202388027333">
       <property name="role" value="componentDeclaration" />
       <property name="sourceCardinality" value="1" />
@@ -37,6 +33,9 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202388023722">
       <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202745338032">
+      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202387718766">
@@ -180,6 +179,9 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202478475127">
     <property name="name" value="AttributeReferenceOperation" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1202746169525">
+      <link role="conceptPropertyDeclaration" targetNodeId="2.1197029536315" resolveInfo="lvalue" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202478491160">
       <property name="role" value="attribute" />
       <property name="sourceCardinality" value="1" />
@@ -211,15 +213,16 @@
     <link role="extends" targetNodeId="2.1068580123132" resolveInfo="BaseMethodDeclaration" />
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202742489421">
-    <property name="name" value="ComponentReferencePart" />
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <property name="name" value="ComponentReference" />
+    <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202742504267">
       <property name="role" value="component" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1202387945296" resolveInfo="ComponentInstance" />
     </node>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202742500500">
-      <link role="intfc" targetNodeId="2.1197027803184" resolveInfo="IOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202745299311">
+      <property name="value" value="&lt;{component}&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202744043552">

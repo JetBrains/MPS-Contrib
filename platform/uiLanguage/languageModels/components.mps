@@ -40,6 +40,10 @@
         <link role="classifier" targetNodeId="3.~Dimension" resolveInfo="Dimension" />
       </node>
     </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202746217446">
+      <property name="name" value="defaultCloseOperation" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1202746219048" />
+    </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393560969">
     <property name="name" value="Button" />
