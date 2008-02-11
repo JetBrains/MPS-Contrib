@@ -131,6 +131,42 @@ public class Stylesheet_StyleSheet {
     }
 
   };
+  public static final IStyle LAYOUT_CONSTRAINT = new IStyle() {
+
+    public void apply(EditorCell cell) {
+      this.apply(cell, true);
+    }
+
+    public void apply(EditorCell cell, boolean recurive) {
+      Stylesheet_StyleSheet.ATTRIBUTE.apply(cell, false);
+      cell.setFontType(MPSFonts.BOLD);
+      if(recurive) {
+        if(cell instanceof EditorCell_Collection) {
+          EditorCell_Collection collection = (EditorCell_Collection)cell;
+          for(EditorCell child : collection) {
+            if(child.getSNode().isAttribute()) {
+              this.skipAttributePart(child);
+            } else
+            {
+              this.apply(child, true);
+            }
+          }
+        }
+      }
+    }
+
+    private void skipAttributePart(EditorCell current) {
+      if(current instanceof EditorCell_Collection) {
+        EditorCell_Collection collection = (EditorCell_Collection)current;
+        for(EditorCell child : collection) {
+          if(child.getSNode() == current.getSNode().getParent()) {
+            this.apply(child, true);
+          }
+        }
+      }
+    }
+
+  };
 
   private static Color calculateColor(EditorCell cell) {
     Color result;

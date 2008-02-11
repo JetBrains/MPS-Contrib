@@ -326,6 +326,15 @@
         <property name="style" value="ITALIC" />
       </node>
     </node>
+    <node role="styleClass" type="jetbrains.mps.bootstrap.editorLanguage.structure.StyleSheetClass" id="1202739919760">
+      <property name="name" value="layoutConstraint" />
+      <node role="extendedClass" type="jetbrains.mps.bootstrap.editorLanguage.structure.StyleSheetClassReference" id="1202739927840">
+        <link role="styleSheetClass" targetNodeId="1202391755149" resolveInfo="attribute" />
+      </node>
+      <node role="item" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1202739930404">
+        <property name="style" value="BOLD" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202464494023">
     <link role="conceptDeclaration" targetNodeId="1.1202464424004" resolveInfo="BindExpression" />
@@ -386,6 +395,22 @@
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           <link role="styleClass" targetNodeId="1202391755149" resolveInfo="attribute" />
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202739892766">
+    <link role="conceptDeclaration" targetNodeId="1.1202739819652" resolveInfo="LayoutConstraint" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202739897565">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202739898567">
+        <property name="text" value="layout constraint" />
+        <link role="styleClass" targetNodeId="1202739919760" resolveInfo="layoutConstraint" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202739904209">
+        <property name="text" value=":" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1202739906524">
+        <link role="relationDeclaration" targetNodeId="1.1202739826872" />
       </node>
     </node>
   </node>
