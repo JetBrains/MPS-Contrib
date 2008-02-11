@@ -116,6 +116,10 @@ public class QueriesGenerated {
     return NameUtil.getGetterName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "operation", true), "attribute", false), "name"));
   }
 
+  public static Object propertyMacro_GetPropertyValue_1202748915209(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode instance = SNodeOperations.getParent(_context.getNode(), null, false, false);
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(instance, "componentField");
@@ -158,6 +162,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "type", true);
   }
 
+  public static SNode sourceNodeQuery_1202749002563(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return _context.getNode();
+  }
+
   public static SNode sourceNodeQuery_1202395527079(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "value", true);
   }
@@ -180,6 +188,18 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1202748123035(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "operand", true);
+  }
+
+  public static SNode sourceNodeQuery_1202748931023(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return _context.getNode();
+  }
+
+  public static SNode sourceNodeQuery_1202748904871(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "returnType", true);
+  }
+
+  public static SNode sourceNodeQuery_1202748942379(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "body", true);
   }
 
   public static List sourceNodesQuery_1202400443878(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
@@ -210,8 +230,16 @@ public class QueriesGenerated {
     return ComponentDeclaration_Behavior.call_getDeclaredAttributes_1202465971016(_context.getNode());
   }
 
+  public static List sourceNodesQuery_1202749000153(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return ComponentDeclaration_Behavior.call_getDeclaredMethods_1202749020955(_context.getNode());
+  }
+
   public static List sourceNodesQuery_1202395840258(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "root", true), "content", true);
+  }
+
+  public static List sourceNodesQuery_1202748924219(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "parameter", true);
   }
 
 }
