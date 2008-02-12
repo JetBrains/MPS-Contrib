@@ -110,5 +110,18 @@
     <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
     <link role="mapTo" targetNodeId="4.~HBoxPanel" resolveInfo="HBoxPanel" />
   </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202815836444">
+    <property name="name" value="CheckBox" />
+    <property name="stub" value="true" />
+    <link role="mapTo" targetNodeId="2.~JCheckBox" resolveInfo="JCheckBox" />
+    <link role="extendedComponent" targetNodeId="1202393560969" resolveInfo="Button" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202815871669">
+    <link role="component" targetNodeId="1202815836444" resolveInfo="CheckBox" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202815889044">
+      <property name="name" value="selected" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1202815890015" />
+    </node>
+  </node>
 </model>
 
