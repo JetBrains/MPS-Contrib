@@ -101,14 +101,14 @@
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202738287160">
     <property name="name" value="VBox" />
     <property name="stub" value="true" />
-    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
-    <link role="mapTo" targetNodeId="4.~VBoxPanel" resolveInfo="VBoxPanel" />
+    <link role="extendedComponent" targetNodeId="1202816402995" resolveInfo="Panel" />
+    <link role="mapTo" targetNodeId="2.~JPanel" resolveInfo="JPanel" />
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202738350852">
     <property name="name" value="HBox" />
     <property name="stub" value="true" />
-    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
     <link role="mapTo" targetNodeId="4.~HBoxPanel" resolveInfo="HBoxPanel" />
+    <link role="extendedComponent" targetNodeId="1202816402995" resolveInfo="Panel" />
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202815836444">
     <property name="name" value="CheckBox" />
@@ -122,6 +122,17 @@
       <property name="name" value="selected" />
       <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1202815890015" />
     </node>
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202816402995">
+    <property name="name" value="Panel" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202816455619">
+    <property name="name" value="FlowPanel" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202816402995" resolveInfo="Panel" />
+    <link role="mapTo" targetNodeId="4.~FlowPanel" resolveInfo="FlowPanel" />
   </node>
 </model>
 
