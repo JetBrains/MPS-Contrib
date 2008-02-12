@@ -70,7 +70,7 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="root" />
       <property name="sourceCardinality" value="0..1" />
-      <link role="target" targetNodeId="1202387945296" resolveInfo="ComponentInstance" />
+      <link role="target" targetNodeId="1202817076568" resolveInfo="IComponentInstance" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202388384249">
