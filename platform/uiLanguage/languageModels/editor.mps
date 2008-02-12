@@ -539,9 +539,9 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1202811151861">
         <property name="noTargetText" value="&lt;no method&gt;" />
         <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="3.1070568331956" />
+        <link role="relationDeclaration" targetNodeId="1.1202811348675" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1202811151862">
-          <link role="conceptDeclaration" targetNodeId="3.1068390468204" resolveInfo="MethodDeclaration" />
+          <link role="conceptDeclaration" targetNodeId="1.1202741165758" resolveInfo="ComponentMethodDeclaration" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1202811151863">
             <property name="drawBorder" value="false" />
             <property name="readOnly" value="true" />
