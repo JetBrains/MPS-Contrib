@@ -4,9 +4,13 @@ package jetbrains.mps.uiLanguage.helgins;
 
 import jetbrains.mps.bootstrap.helgins.runtime.SubtypingRule_Runtime;
 import jetbrains.mps.bootstrap.helgins.runtime.ISubtypingRule_Runtime;
+import java.util.List;
 import jetbrains.mps.smodel.SNode;
+import java.util.ArrayList;
 import jetbrains.mps.uiLanguage.constraints.ComponentDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
@@ -14,14 +18,16 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
   public  subtyping_ComponentType_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode componentType) {
+  public List<SNode> getSubOrSuperTypes(SNode componentType) {
+    List<SNode> result = new ArrayList<SNode>();
     SNode extendedComponent = ComponentDeclaration_Behavior.call_getExtendedComponent_1202392526494(SLinkOperations.getTarget(componentType, "component", false));
     if(extendedComponent != null) {
-      return new QuotationClass_1().createNode(extendedComponent);
-    } else
-    {
-      return new QuotationClass_2().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, "component", false), "mapTo", false));
+      ListOperations.addElement(result, new QuotationClass_1().createNode(extendedComponent));
     }
+    if(SPropertyOperations.getBoolean(SLinkOperations.getTarget(componentType, "component", false), "stub")) {
+      ListOperations.addElement(result, new QuotationClass_2().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, "component", false), "mapTo", false)));
+    }
+    return result;
   }
 
   public String getApplicableConceptFQName() {
