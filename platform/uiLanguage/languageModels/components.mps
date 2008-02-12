@@ -139,5 +139,20 @@
     <link role="extendedComponent" targetNodeId="1202816402995" resolveInfo="Panel" />
     <link role="mapTo" targetNodeId="4.~FlowPanel" resolveInfo="FlowPanel" />
   </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202828480666">
+    <property name="name" value="_Dialog" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <link role="mapTo" targetNodeId="2.~JDialog" resolveInfo="JDialog" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202828573950">
+    <link role="component" targetNodeId="1202828480666" resolveInfo="_Dialog" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202828575561">
+      <property name="name" value="title" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202828576688">
+        <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
+      </node>
+    </node>
+  </node>
 </model>
 

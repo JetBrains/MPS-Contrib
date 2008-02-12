@@ -146,6 +146,14 @@ public class QueriesGenerated {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentField");
   }
 
+  public static boolean ifMacro_Condition_1202828721940(final IOperationContext operationContext, final IfMacroContext _context) {
+    return "_Dialog".equals(SPropertyOperations.getString(_context.getNode(), "name"));
+  }
+
+  public static boolean ifMacro_Condition_1202828766724(final IOperationContext operationContext, final IfMacroContext _context) {
+    return "_Dialog".equals(SPropertyOperations.getString(_context.getNode(), "name"));
+  }
+
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
     return ComponentInstance_Behavior.call_getLayoutConstraint_1202740134073(_context.getNode()) != null;
   }
