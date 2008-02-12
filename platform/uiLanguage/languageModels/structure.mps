@@ -298,11 +298,43 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1202817076568">
     <property name="name" value="IComponentInstance" />
+    <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202824122015">
+      <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202817142302">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="content" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202823654753">
+    <property name="name" value="Grid" />
+    <property name="package" value="Grid" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202823909833">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="row" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1202823683703" resolveInfo="GridRow" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202823662504">
+      <link role="intfc" targetNodeId="1202817076568" resolveInfo="IComponentInstance" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202823969750">
+      <property name="value" value="Grid" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202823683703">
+    <property name="package" value="Grid" />
+    <property name="name" value="GridRow" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202823766928">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="component" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1202817076568" resolveInfo="IComponentInstance" />
     </node>
   </node>
 </model>

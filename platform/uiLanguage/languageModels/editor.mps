@@ -648,5 +648,46 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202823668974">
+    <property name="package" value="Grid" />
+    <link role="conceptDeclaration" targetNodeId="1.1202823654753" resolveInfo="Grid" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202823671414">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202823672963">
+        <property name="text" value="Grid" />
+        <link role="styleClass" targetNodeId="1202391769685" resolveInfo="Component" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202823929975">
+        <property name="selectable" value="false" />
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Indent" id="1202823933012" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1202823935342">
+          <property name="vertical" value="true" />
+          <link role="relationDeclaration" targetNodeId="1.1202823909833" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202823782367">
+    <property name="package" value="Grid" />
+    <link role="conceptDeclaration" targetNodeId="1.1202823683703" resolveInfo="GridRow" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202823794525">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202823795637">
+        <property name="text" value="Row" />
+        <link role="styleClass" targetNodeId="1202391769685" resolveInfo="Component" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202823799045">
+        <property name="selectable" value="false" />
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Indent" id="1202823800203" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1202823808769">
+          <property name="vertical" value="false" />
+          <property name="drawBrackets" value="true" />
+          <link role="relationDeclaration" targetNodeId="1.1202823766928" />
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
