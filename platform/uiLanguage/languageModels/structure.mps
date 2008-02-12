@@ -251,7 +251,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202809739936">
     <property name="package" value="Operations" />
-    <property name="name" value="ConceptMethodCallOperation" />
+    <property name="name" value="ComponentMethodCallOperation" />
     <link role="extends" targetNodeId="2.1068499141036" resolveInfo="BaseMethodCall" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202811348675">
       <property name="role" value="componentMethod" />
