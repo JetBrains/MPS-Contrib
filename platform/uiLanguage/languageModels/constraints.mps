@@ -603,8 +603,8 @@
                   </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202740144846">
-                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1202740146974">
-                    <link role="link" targetNodeId="1.1202387998596" />
+                  <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1202817471317">
+                    <link role="link" targetNodeId="1.1202817142302" />
                   </node>
                   <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1202740143657" />
                 </node>

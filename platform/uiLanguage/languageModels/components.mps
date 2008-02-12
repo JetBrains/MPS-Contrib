@@ -83,6 +83,10 @@
         <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
       </node>
     </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202818338918">
+      <property name="name" value="columns" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1202818339909" />
+    </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202465811094">
     <property name="name" value="Label" />
@@ -127,6 +131,7 @@
     <property name="name" value="Panel" />
     <property name="stub" value="true" />
     <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <link role="mapTo" targetNodeId="2.~JPanel" resolveInfo="JPanel" />
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202816455619">
     <property name="name" value="FlowPanel" />

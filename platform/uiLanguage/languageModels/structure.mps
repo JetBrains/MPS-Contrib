@@ -25,14 +25,11 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202387998596">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="content" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
-    </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202388023722">
       <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202817162287">
+      <link role="intfc" targetNodeId="1202817076568" resolveInfo="IComponentPartContainer" />
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202745338032">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
@@ -261,6 +258,51 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202809757748">
       <link role="intfc" targetNodeId="2.1197027803184" resolveInfo="IOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202816914429">
+    <property name="name" value="Form" />
+    <property name="package" value="Form" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202817889125">
+      <property name="value" value="Form" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202817842238">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="part" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1202816951086" resolveInfo="FormPart" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202816923351">
+      <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202821791774">
+      <link role="intfc" targetNodeId="1202817076568" resolveInfo="IComponentInstance" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202816951086">
+    <property name="package" value="Form" />
+    <property name="name" value="FormPart" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202820348083">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="content" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1202817040942">
+      <property name="name" value="label" />
+      <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1202817076568">
+    <property name="name" value="IComponentInstance" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202817142302">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="content" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
     </node>
   </node>
 </model>
