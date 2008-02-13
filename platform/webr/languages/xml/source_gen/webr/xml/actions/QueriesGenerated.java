@@ -15,6 +15,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.smodel.BaseAdapter;
 import jetbrains.mps.util.Calculable;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
@@ -54,7 +55,7 @@ public class QueriesGenerated {
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("webr.xml.structure.Attribute", operationContext.getScope());
       SNode childConcept = (SNode)_context.getChildConcept();
-      if(SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)concept.getNode()))) {
+      if(SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(concept)))) {
         Calculable calc = new Calculable() {
 
           public Object calculate() {
@@ -155,7 +156,7 @@ public class QueriesGenerated {
     {
       ConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("webr.xml.structure.Element", operationContext.getScope());
       SNode childConcept = (SNode)_context.getChildConcept();
-      if(SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)concept.getNode()))) {
+      if(SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(concept)))) {
         Calculable calc = new Calculable() {
 
           public Object calculate() {
@@ -216,6 +217,7 @@ public class QueriesGenerated {
         continue;
       }
       final SNode concept = (SNode)current.getParameterObject();
+      SNode applicableConcept = SConceptOperations.findConceptDeclaration("webr.xml.structure.Content");
       Condition cond = new Condition() {
 
         public boolean met(Object object) {
@@ -223,7 +225,7 @@ public class QueriesGenerated {
         }
 
       };
-      if(cond.met(null)) {
+      if(SConceptOperations.isAssignableFrom(applicableConcept, concept) && cond.met(null)) {
         actions.remove();
       }
     }
