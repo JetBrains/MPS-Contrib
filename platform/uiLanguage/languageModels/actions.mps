@@ -18,7 +18,7 @@
     <property name="name" value="BindExpression" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1202464556649">
       <property name="useNewActions" value="true" />
-      <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+      <link role="applicableConcept" targetNodeId="1.1202464424004" resolveInfo="BindExpression" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstitutePreconditionFunction" id="1202464564339">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202464564340">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202464566576">
@@ -42,7 +42,7 @@
     <property name="name" value="ThisComponentExpression" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1202464787213">
       <property name="useNewActions" value="true" />
-      <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+      <link role="applicableConcept" targetNodeId="1.1202464730174" resolveInfo="ThisComponentExpression" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstitutePreconditionFunction" id="1202464790371">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202464790372">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202464792202">
@@ -75,7 +75,7 @@
     <property name="name" value="ActionHandler" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1202744180123">
       <property name="useNewActions" value="true" />
-      <link role="applicableConcept" targetNodeId="1.1202387978141" resolveInfo="IComponentPart" />
+      <link role="applicableConcept" targetNodeId="1.1202744043552" resolveInfo="ActionHandler" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptSubstitutePart" id="1202744268138">
         <link role="concept" targetNodeId="1.1202744043552" resolveInfo="ActionHandler" />
       </node>
@@ -135,7 +135,7 @@
     <property name="name" value="Dialog" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1202831916908">
       <property name="useNewActions" value="true" />
-      <link role="applicableConcept" targetNodeId="1.1202817076568" resolveInfo="IComponentInstance" />
+      <link role="applicableConcept" targetNodeId="1.1202830095650" resolveInfo="Dialog" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstitutePreconditionFunction" id="1202831939316">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202831939317">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202831948538">
