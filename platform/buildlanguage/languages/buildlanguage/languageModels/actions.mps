@@ -535,6 +535,9 @@
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptSubstitutePart" id="1201708912246">
         <link role="concept" targetNodeId="1.1200511852076" resolveInfo="CallReference" />
       </node>
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptSubstitutePart" id="1202916324746">
+        <link role="concept" targetNodeId="1.1196861005114" resolveInfo="StringLiteral" />
+      </node>
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RemoveDefaultsPart" id="1201708920999" />
     </node>
   </node>

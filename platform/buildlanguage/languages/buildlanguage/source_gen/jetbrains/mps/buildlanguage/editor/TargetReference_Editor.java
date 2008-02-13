@@ -66,6 +66,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_NameCell(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196853085105");
+      BuildLanguageStyle_StyleSheet.TARGET.apply(editorCell);
     }
 
     private static void setupLabel_NameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
