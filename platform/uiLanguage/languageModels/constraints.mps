@@ -47,7 +47,7 @@
                   <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1202388454452">
                     <link role="link" targetNodeId="1.1202388401455" />
                   </node>
-                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.PropertyGetter_FunctionParm_node" id="1202388431154" />
+                  <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintsFunctionParameter_node" id="1203005648463" />
                 </node>
               </node>
             </node>
@@ -585,6 +585,18 @@
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1202392514248">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202392514249" />
+    </node>
+    <node role="canBeAParent" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunction_CanBeAParent" id="1203005432478">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203005432479">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1203005445936">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1203005447819">
+            <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.ConceptRefExpression" id="1203005449431">
+              <link role="conceptDeclaration" targetNodeId="1.1202464424004" resolveInfo="BindExpression" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunctionParameter_childConcept" id="1203005445937" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202393659008">
