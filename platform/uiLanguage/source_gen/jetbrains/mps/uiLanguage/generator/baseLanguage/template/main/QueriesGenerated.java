@@ -23,7 +23,7 @@ import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperati
 public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_1202746396333(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    if(!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.OperationExpression"))) {
+    if(!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
       return false;
     }
     SNode opExpr = SLinkOperations.getTarget(_context.getNode(), "lValue", true);
