@@ -5,7 +5,9 @@
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
-  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage" />
+  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
+  </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="0" />
@@ -634,7 +636,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1202832773958">
       <property name="name" value="getExtendedComponent" />
-      <link role="overridenMethod" targetNodeId="1202832713046" resolveInfo="getExtendedComponent" />
+      <link role="overriddenMethod" targetNodeId="1202832713046" resolveInfo="getExtendedComponent" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202832773960">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1202832780203">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202832782334">
@@ -1648,7 +1650,7 @@
     <link role="concept" targetNodeId="1.1202830095650" resolveInfo="Dialog" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1202833089090">
       <property name="name" value="getExtendedComponent" />
-      <link role="overridenMethod" targetNodeId="1202832713046" resolveInfo="getExtendedComponent" />
+      <link role="overriddenMethod" targetNodeId="1202832713046" resolveInfo="getExtendedComponent" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202833089092">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1202833092250">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1202833098881">
