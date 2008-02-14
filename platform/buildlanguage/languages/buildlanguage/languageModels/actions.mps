@@ -14,7 +14,7 @@
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <language namespace="jetbrains.mps.regexp" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
-  <maxImportIndex value="24" />
+  <maxImportIndex value="26" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="19" modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="-1" />
   <import index="20" modelUID="java.lang@java_stub" version="-1" />
@@ -22,6 +22,8 @@
   <import index="22" modelUID="jetbrains.mps.regexp.jetbrains.mps.regexp.accessory" version="-1" />
   <import index="23" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="24" modelUID="java.util@java_stub" version="-1" />
+  <import index="25" modelUID="jetbrains.mps.regexp.structure" version="-1" />
+  <import index="26" modelUID="jetbrains.mps.regexp.examples" version="-1" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1196869239711">
     <property name="name" value="BooleanConstant" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1196869262792">
@@ -228,6 +230,7 @@
       <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1197476918844">
+        <link role="concept" targetNodeId="1.1196866637548" resolveInfo="IntLiteral" />
         <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SimpleItemSubstitutePart" id="1197476927929">
           <node role="handler" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_Substitute_Handler" id="1197476927930">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197476927931">
@@ -278,17 +281,8 @@
                 <node role="expression" type="jetbrains.mps.regexp.structure.MatchRegexpExpression" id="1197477027419">
                   <node role="inputExpression" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_pattern" id="1197477027420" />
                   <node role="regexp" type="jetbrains.mps.regexp.structure.InlineRegexpExpression" id="1197477027421">
-                    <node role="regexp" type="jetbrains.mps.regexp.structure.SeqRegexp" id="1197477027422">
-                      <node role="left" type="jetbrains.mps.regexp.structure.QuestionRegexp" id="1197477027423">
-                        <node role="regexp" type="jetbrains.mps.regexp.structure.StringLiteralRegexp" id="1197477027424">
-                          <property name="text" value="-" />
-                        </node>
-                      </node>
-                      <node role="right" type="jetbrains.mps.regexp.structure.PlusRegexp" id="1197477027425">
-                        <node role="regexp" type="jetbrains.mps.regexp.structure.PredefinedSymbolClassRegexp" id="1197477039130">
-                          <link role="symbolClass" targetNodeId="22.1174554674770" resolveInfo="\d" />
-                        </node>
-                      </node>
+                    <node role="regexp" type="jetbrains.mps.regexp.structure.PredefinedSymbolClassRegexp" id="1197477039130">
+                      <link role="symbolClass" targetNodeId="22.1174554674770" resolveInfo="\d" />
                     </node>
                   </node>
                 </node>
@@ -327,6 +321,7 @@
         </node>
       </node>
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1201259709429">
+        <link role="concept" targetNodeId="1.1201259656252" resolveInfo="ICommented" />
         <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SimpleRightTransformMenuPart" id="1201259711570">
           <node role="handler" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_RightTransform_Handler" id="1201259711571">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201259711572">
