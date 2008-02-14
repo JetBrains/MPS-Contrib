@@ -2,7 +2,9 @@
 <model name="webr.xmlSchema.constraints">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage" />
+  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
@@ -41,7 +43,7 @@
     <link role="concept" targetNodeId="1.1167697887602" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183585492113">
       <property name="name" value="checkAttributes" />
-      <link role="overridenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
+      <link role="overriddenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183585492115">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183585531592">
           <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1183585532393">
@@ -115,7 +117,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183643934321">
       <property name="name" value="checkAttributes" />
-      <link role="overridenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
+      <link role="overriddenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183643934323">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183643944182">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183643950125">
@@ -183,7 +185,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183591485162">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183591485164">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183640789126">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1183640791445">
@@ -277,7 +279,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183648217917">
       <property name="name" value="isMixed" />
-      <link role="overridenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
+      <link role="overriddenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183648217919">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1183648367323">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1183648367324">
@@ -553,7 +555,7 @@
     <link role="concept" targetNodeId="1.1167615791597" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183586905683">
       <property name="name" value="checkAttributes" />
-      <link role="overridenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
+      <link role="overriddenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183586905685">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183586936307">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183586939209">
@@ -582,7 +584,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183590120190">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183590120192">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183590177107">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183590181557">
@@ -641,7 +643,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183648307917">
       <property name="name" value="isMixed" />
-      <link role="overridenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
+      <link role="overriddenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183648307919">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1183648346161">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1183648346162">
@@ -783,7 +785,7 @@
     <link role="concept" targetNodeId="1.1167711418665" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183585664468">
       <property name="name" value="checkAttributes" />
-      <link role="overridenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
+      <link role="overriddenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183585664470">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1183585719548">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1183585719549">
@@ -844,7 +846,7 @@
     <link role="concept" targetNodeId="1.1167794310821" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183586044893">
       <property name="name" value="checkAttributes" />
-      <link role="overridenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
+      <link role="overriddenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183586044895">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183586199277">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183586218877">
@@ -873,7 +875,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183589777679">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183589777681">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183589807468">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183589810787">
@@ -902,7 +904,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183645496104">
       <property name="name" value="hasElementReferences" />
-      <link role="overridenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
+      <link role="overriddenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183645496106">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183645504359">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1183645504360">
@@ -914,7 +916,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183649148552">
       <property name="name" value="isMixed" />
-      <link role="overridenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
+      <link role="overriddenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183649148554">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183649196713">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183649239307">
@@ -940,7 +942,7 @@
     <link role="concept" targetNodeId="1.1167618352310" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183586300861">
       <property name="name" value="checkAttributes" />
-      <link role="overridenMethod" targetNodeId="1183593488411" resolveInfo="checkAttributes" />
+      <link role="overriddenMethod" targetNodeId="1183593488411" resolveInfo="checkAttributes" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183586300863">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183586340182">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183586343204">
@@ -969,7 +971,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183589838823">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183594619757" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183594619757" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183589838825">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183589942940">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183644303429">
@@ -1003,7 +1005,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183649316764">
       <property name="name" value="isMixed" />
-      <link role="overridenMethod" targetNodeId="1183649217004" resolveInfo="isMixed" />
+      <link role="overriddenMethod" targetNodeId="1183649217004" resolveInfo="isMixed" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183649316766">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183649351238">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183649356269">
@@ -1272,7 +1274,7 @@
     <link role="concept" targetNodeId="1.1167512696010" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183643798358">
       <property name="name" value="getComplexType" />
-      <link role="overridenMethod" targetNodeId="1183643655550" resolveInfo="getComplexType" />
+      <link role="overriddenMethod" targetNodeId="1183643655550" resolveInfo="getComplexType" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183643798360">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183643808753">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183643809195">
@@ -1295,7 +1297,7 @@
     <link role="concept" targetNodeId="1.1167838362804" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183643817308">
       <property name="name" value="getComplexType" />
-      <link role="overridenMethod" targetNodeId="1183643655550" resolveInfo="getComplexType" />
+      <link role="overriddenMethod" targetNodeId="1183643655550" resolveInfo="getComplexType" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183643817310">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183643824844">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183643827448">
@@ -1323,7 +1325,7 @@
     <link role="concept" targetNodeId="1.1167530070286" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183589567969">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183589567971">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183589630304">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183589632873">
@@ -1352,7 +1354,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183645462566">
       <property name="name" value="hasElementReferences" />
-      <link role="overridenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
+      <link role="overriddenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183645462568">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183645480931">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1183645480932">
@@ -1370,7 +1372,7 @@
     <link role="concept" targetNodeId="1.1167598424727" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183590860599">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183590860601">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183590870590">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183590874940">
@@ -1399,7 +1401,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183645511940">
       <property name="name" value="hasElementReferences" />
-      <link role="overridenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
+      <link role="overriddenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183645511942">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183645519632">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1183645519633">
@@ -1417,7 +1419,7 @@
     <link role="concept" targetNodeId="1.1167531070757" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183591225952">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183591225954">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183640755171">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1183640757497">
@@ -1450,7 +1452,7 @@
     <link role="concept" targetNodeId="1.1167611637510" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183591376761">
       <property name="name" value="checkElements" />
-      <link role="overridenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
+      <link role="overriddenMethod" targetNodeId="1183591825379" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183591376763">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183591438175">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1183591445763">
@@ -1585,7 +1587,7 @@
     <link role="concept" targetNodeId="1.1167798151953" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183645533653">
       <property name="name" value="hasElementReferences" />
-      <link role="overridenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
+      <link role="overriddenMethod" targetNodeId="1183645363502" resolveInfo="hasElementReferences" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183645533655">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183645541158">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1183645541159">
@@ -1597,7 +1599,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1183649118795">
       <property name="name" value="isMixed" />
-      <link role="overridenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
+      <link role="overriddenMethod" targetNodeId="1183649029971" resolveInfo="isMixed" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183649118797">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183649128221">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1183649128222">

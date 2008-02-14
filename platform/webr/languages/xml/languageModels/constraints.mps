@@ -2,7 +2,9 @@
 <model name="webr.xml.constraints">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage" />
+  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
@@ -325,7 +327,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1187014616529">
       <property name="name" value="getSubcontents" />
-      <link role="overridenMethod" targetNodeId="1187013392398" resolveInfo="getSubcontents" />
+      <link role="overriddenMethod" targetNodeId="1187013392398" resolveInfo="getSubcontents" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1187014616531">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1187014624605">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1187014625003">
@@ -561,7 +563,7 @@
     <link role="concept" targetNodeId="1.1179102053371" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1187710057081">
       <property name="name" value="getSubcontents" />
-      <link role="overridenMethod" targetNodeId="1187013392398" resolveInfo="getSubcontents" />
+      <link role="overriddenMethod" targetNodeId="1187013392398" resolveInfo="getSubcontents" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1187710057083">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1187710066436">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1187710070935">

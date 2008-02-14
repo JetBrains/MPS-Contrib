@@ -2,7 +2,9 @@
 <model name="jetbrains.mps.propertylanguage.constraints">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage" />
+  <language namespace="jetbrains.mps.bootstrap.constraintsLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
@@ -41,7 +43,7 @@
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1201778962999">
       <property name="name" value="getProperties" />
-      <link role="overridenMethod" targetNodeId="4.1200425502495" resolveInfo="getProperties" />
+      <link role="overriddenMethod" targetNodeId="4.1200425502495" resolveInfo="getProperties" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201778963001">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1201778977880">
           <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1201778981977">
