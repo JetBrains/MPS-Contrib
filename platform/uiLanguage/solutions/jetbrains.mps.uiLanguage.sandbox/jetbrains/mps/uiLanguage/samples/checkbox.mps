@@ -21,7 +21,7 @@
           <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202816059210">
             <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
             <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202816067633">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202816076108">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202816076108">
                 <node role="operand" type="jetbrains.mps.uiLanguage.structure.ComponentReference" id="1202816068776">
                   <link role="component" targetNodeId="1202816052454" resolveInfo="checkbox" />
                 </node>

@@ -36,7 +36,7 @@
               <node role="rValue" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202748773006">
                 <property name="value" value="Preved" />
               </node>
-              <node role="lValue" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202748239603">
+              <node role="lValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202748239603">
                 <node role="operand" type="jetbrains.mps.uiLanguage.structure.ComponentReference" id="1202748233569">
                   <link role="component" targetNodeId="1202743924676" resolveInfo="label" />
                 </node>

@@ -17,7 +17,7 @@
       <node role="button" type="jetbrains.mps.uiLanguage.structure.DialogButton" id="1202832078717">
         <property name="text" value="OK" />
         <property name="isDefault" value="true" />
-        <node role="handler" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202832276941">
+        <node role="handler" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832276941">
           <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202832275611" />
           <node role="operation" type="jetbrains.mps.uiLanguage.structure.ComponentMethodCallOperation" id="1202832278286">
             <link role="baseMethodDeclaration" targetNodeId="1202832185848" resolveInfo="onOk" />
@@ -26,7 +26,7 @@
       </node>
       <node role="button" type="jetbrains.mps.uiLanguage.structure.DialogButton" id="1202832088658">
         <property name="text" value="Cancel" />
-        <node role="handler" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202832282851">
+        <node role="handler" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832282851">
           <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202832281022" />
           <node role="operation" type="jetbrains.mps.uiLanguage.structure.ComponentMethodCallOperation" id="1202832284447">
             <link role="baseMethodDeclaration" targetNodeId="1202832199403" resolveInfo="onCancel" />
@@ -41,7 +41,7 @@
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202832260626">
               <link role="attribute" targetNodeId="2v.1202464208353" resolveInfo="text" />
               <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202832261284">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202832263694">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832263694">
                   <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202832262458" />
                   <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202832265430">
                     <link role="attribute" targetNodeId="1202832245759" resolveInfo="name" />
@@ -64,7 +64,7 @@
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202832266853">
               <link role="attribute" targetNodeId="2v.1202464208353" resolveInfo="text" />
               <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202832267964">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202832269593">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832269593">
                   <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202832268717" />
                   <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202832270829">
                     <link role="attribute" targetNodeId="1202832252747" resolveInfo="lastName" />

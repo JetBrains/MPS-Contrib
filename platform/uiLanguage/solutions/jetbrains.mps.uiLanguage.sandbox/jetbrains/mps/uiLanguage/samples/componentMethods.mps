@@ -61,7 +61,7 @@
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1202810682850" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202810681271">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202810691901">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202813653735">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202813653735">
             <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202811329328" />
             <node role="operation" type="jetbrains.mps.uiLanguage.structure.ComponentMethodCallOperation" id="1202813654550">
               <link role="baseMethodDeclaration" targetNodeId="1202810685023" resolveInfo="anotherSimpleMethod" />
@@ -75,7 +75,7 @@
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202814456506">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.OperationExpression" id="1202814460695">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202814460695">
             <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202814456507" />
             <node role="operation" type="jetbrains.mps.uiLanguage.structure.ComponentMethodCallOperation" id="1202814462525">
               <link role="baseMethodDeclaration" targetNodeId="1202810685023" resolveInfo="anotherSimpleMethod" />
