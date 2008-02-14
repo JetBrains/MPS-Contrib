@@ -21,13 +21,14 @@
   <language namespace="jetbrains.mps.baseLanguage.strings" />
   <language namespace="jetbrains.mps.transformation.TLBase" />
   <language namespace="jetbrains.mps.bootstrap.actionsLanguage" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
   <import index="4" modelUID="java.lang@java_stub" version="-1" />
   <import index="5" modelUID="jetbrains.mps.util@java_stub" version="-1" />
   <import index="6" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <import index="7" modelUID="java.io@java_stub" version="-1" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202388423802">
     <link role="concept" targetNodeId="1.1202388384249" resolveInfo="ComponentController" />
     <node role="properties" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodePropertyConstraint" id="1202388426946">
@@ -588,6 +589,21 @@
     </node>
     <node role="canBeAParent" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunction_CanBeAParent" id="1203005432478">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203005432479">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1203009826888">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1203009832404">
+            <link role="baseMethodDeclaration" targetNodeId="7.~PrintStream.println(java.lang.Object):void" resolveInfo="println" />
+            <node role="instance" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1203009826889">
+              <link role="classifier" targetNodeId="4.~System" resolveInfo="System" />
+              <link role="variableDeclaration" targetNodeId="4.~System.out" resolveInfo="out" />
+            </node>
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1203009836438">
+              <node role="rightExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunctionParameter_link" id="1203009839269" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1203009834499">
+                <property name="value" value="Link = " />
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1203005445936">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1203005447819">
             <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.ConceptRefExpression" id="1203005449431">
