@@ -155,7 +155,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1203082515478">
-    <property name="name" value="_List" />
+    <property name="name" value="List" />
     <property name="stub" value="true" />
     <link role="mapTo" targetNodeId="2.~JList" resolveInfo="JList" />
     <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
