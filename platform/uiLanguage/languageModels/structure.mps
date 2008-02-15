@@ -405,5 +405,17 @@
       <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1203089479329">
+    <property name="name" value="Scroller" />
+    <property name="package" value="Scroller" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1203089495486">
+      <property name="value" value="Scroller" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1203089516683">
+      <link role="intfc" targetNodeId="1202817076568" resolveInfo="IComponentInstance" />
+    </node>
+  </node>
 </model>
 

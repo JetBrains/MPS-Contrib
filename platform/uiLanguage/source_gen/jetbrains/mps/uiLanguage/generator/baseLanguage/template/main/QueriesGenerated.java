@@ -13,8 +13,9 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyO
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.uiLanguage.constraints.BindExpression_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
+import jetbrains.mps.uiLanguage.constraints.Scroller_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
-import jetbrains.mps.uiLanguage.constraints.ComponentInstance_Behavior;
+import jetbrains.mps.uiLanguage.constraints.IComponentInstance_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -160,6 +161,10 @@ public class QueriesGenerated {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentField");
   }
 
+  public static Object referenceMacro_GetReferent_1203090308966(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(Scroller_Behavior.call_getWrappedComponent_1203090088392(_context.getNode()), "componentFactory");
+  }
+
   public static boolean ifMacro_Condition_1202828721940(final IOperationContext operationContext, final IfMacroContext _context) {
     return "_Dialog".equals(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "root", true), "componentDeclaration", false), "name"));
   }
@@ -173,7 +178,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
-    return ComponentInstance_Behavior.call_getLayoutConstraint_1202740134073(_context.getNode()) != null;
+    return IComponentInstance_Behavior.call_getLayoutConstraint_1203090353020(_context.getNode()) != null;
+  }
+
+  public static boolean ifMacro_Condition_1203090388611(final IOperationContext operationContext, final IfMacroContext _context) {
+    return IComponentInstance_Behavior.call_getLayoutConstraint_1203090353020(_context.getNode()) != null;
   }
 
   public static SNode sourceNodeQuery_1202466119287(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -215,7 +224,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1202740361998(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(ComponentInstance_Behavior.call_getLayoutConstraint_1202740134073(_context.getNode()), "constraint", true);
+    return SLinkOperations.getTarget(IComponentInstance_Behavior.call_getLayoutConstraint_1203090353020(_context.getNode()), "constraint", true);
   }
 
   public static SNode sourceNodeQuery_1202744829093(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -256,6 +265,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1203087281362(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "value", true);
+  }
+
+  public static SNode sourceNodeQuery_1203090390583(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(IComponentInstance_Behavior.call_getLayoutConstraint_1203090353020(_context.getNode()), "constraint", true);
   }
 
   public static List sourceNodesQuery_1202400443878(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
