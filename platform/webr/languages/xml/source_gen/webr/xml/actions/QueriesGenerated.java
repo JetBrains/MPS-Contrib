@@ -75,13 +75,13 @@ public class QueriesGenerated {
 
             public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
               SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", _context.getCurrentTargetNode());
-              SLinkOperations.setTarget(attribute, "attributeDeclaration", ((SNode)this.getParameterObject()), false);
+              SLinkOperations.setTarget(attribute, "attributeDeclaration", ((SNode)this.getOutputConcept()), false);
               SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
               return attribute;
             }
 
             public String getMatchingText(String pattern) {
-              return SPropertyOperations.getString(((SNode)this.getParameterObject()), "attributeName");
+              return SPropertyOperations.getString(((SNode)this.getOutputConcept()), "attributeName");
             }
 
           });
@@ -174,13 +174,13 @@ public class QueriesGenerated {
 
             public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
               SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", _context.getCurrentTargetNode());
-              SLinkOperations.setTarget(element, "elementDeclaration", ((SNode)this.getParameterObject()), false);
-              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202(((SNode)this.getParameterObject()))));
+              SLinkOperations.setTarget(element, "elementDeclaration", ((SNode)this.getOutputConcept()), false);
+              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202(((SNode)this.getOutputConcept()))));
               return element;
             }
 
             public String getMatchingText(String pattern) {
-              return "<" + SPropertyOperations.getString(((SNode)this.getParameterObject()), "elementName");
+              return "<" + SPropertyOperations.getString(((SNode)this.getOutputConcept()), "elementName");
             }
 
           });
@@ -216,10 +216,10 @@ public class QueriesGenerated {
     Iterator<INodeSubstituteAction> actions = _context.getActions();
     while(actions.hasNext()) {
       INodeSubstituteAction current = actions.next();
-      if(!(current.getParameterObject() instanceof SNode)) {
+      if(!(current.getOutputConcept() instanceof SNode)) {
         continue;
       }
-      final SNode concept = (SNode)current.getParameterObject();
+      final SNode concept = (SNode)current.getOutputConcept();
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("webr.xml.structure.Content");
       Condition cond = new Condition() {
 
