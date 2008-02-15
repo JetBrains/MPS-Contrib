@@ -74,6 +74,11 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "attribute", false), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_1203087655378(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    SNode expression = SLinkOperations.getTarget(_context.getNode(), "value", true);
+    return BindExpression_Behavior.call_getPathExpression_1202732446780(expression);
+  }
+
   public static Object propertyMacro_GetPropertyValue_1202395130383(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return ComponentDeclaration_Behavior.call_getComponentClassName_1202394358859(SLinkOperations.getTarget(_context.getNode(), "componentDeclaration", false));
   }
@@ -138,6 +143,11 @@ public class QueriesGenerated {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(instance, "componentField");
   }
 
+  public static Object referenceMacro_GetReferent_1203087977763(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    SNode instance = SNodeOperations.getParent(_context.getNode(), null, false, false);
+    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(instance, "componentField");
+  }
+
   public static Object referenceMacro_GetReferent_1202400661315(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(_context.getNode(), "componentField");
   }
@@ -171,6 +181,11 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1202732499988(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    SNode expression = SLinkOperations.getTarget(_context.getNode(), "value", true);
+    return BindExpression_Behavior.call_getSourceObject_1202732428354(expression);
+  }
+
+  public static SNode sourceNodeQuery_1203087655359(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     SNode expression = SLinkOperations.getTarget(_context.getNode(), "value", true);
     return BindExpression_Behavior.call_getSourceObject_1202732428354(expression);
   }
@@ -253,6 +268,10 @@ public class QueriesGenerated {
 
   public static List sourceNodesQuery_1202478250130(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SequenceOperations.toList(SequenceOperations.where(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AttributeValue", true), new zPredicate(null, null)));
+  }
+
+  public static List sourceNodesQuery_1203087598722(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SequenceOperations.toList(SequenceOperations.where(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ListElements", true), new zPredicate1(null, null)));
   }
 
   public static List sourceNodesQuery_1202395385084(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
