@@ -330,7 +330,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202830095650">
-    <property name="name" value="Dialog" />
+    <property name="name" value="StandardDialog" />
     <property name="package" value="Dialog" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202831896216">
@@ -355,7 +355,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202831784434">
     <property name="package" value="Dialog" />
-    <property name="name" value="DialogButton" />
+    <property name="name" value="StandardDialogButton" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202831843264">
       <property name="metaClass" value="aggregation" />

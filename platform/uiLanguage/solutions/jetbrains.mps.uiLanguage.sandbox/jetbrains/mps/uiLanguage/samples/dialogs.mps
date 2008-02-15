@@ -13,8 +13,8 @@
   <visible index="2" modelUID="jetbrains.mps.uiLanguage.components" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202829285111">
     <property name="name" value="DialogDemo" />
-    <node role="root" type="jetbrains.mps.uiLanguage.structure.Dialog" id="1202832065433">
-      <node role="button" type="jetbrains.mps.uiLanguage.structure.DialogButton" id="1202832078717">
+    <node role="root" type="jetbrains.mps.uiLanguage.structure.StandardDialog" id="1202832065433">
+      <node role="button" type="jetbrains.mps.uiLanguage.structure.StandardDialogButton" id="1202832078717">
         <property name="text" value="OK" />
         <property name="isDefault" value="true" />
         <node role="handler" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832276941">
@@ -24,7 +24,7 @@
           </node>
         </node>
       </node>
-      <node role="button" type="jetbrains.mps.uiLanguage.structure.DialogButton" id="1202832088658">
+      <node role="button" type="jetbrains.mps.uiLanguage.structure.StandardDialogButton" id="1202832088658">
         <property name="text" value="Cancel" />
         <node role="handler" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832282851">
           <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202832281022" />
