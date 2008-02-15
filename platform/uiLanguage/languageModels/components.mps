@@ -140,7 +140,7 @@
     <link role="mapTo" targetNodeId="4.~FlowPanel" resolveInfo="FlowPanel" />
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202828480666">
-    <property name="name" value="_Dialog" />
+    <property name="name" value="Dialog" />
     <property name="stub" value="true" />
     <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
     <link role="mapTo" targetNodeId="2.~JDialog" resolveInfo="JDialog" />
