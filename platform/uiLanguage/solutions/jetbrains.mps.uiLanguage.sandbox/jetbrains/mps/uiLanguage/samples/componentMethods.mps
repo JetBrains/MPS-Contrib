@@ -90,6 +90,19 @@
         </node>
       </node>
     </node>
+    <node role="constructor" type="jetbrains.mps.uiLanguage.structure.ComponentConstructor" id="1203080739770">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203080739771">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1203080744101">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1203080744102">
+            <property name="name" value="i" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1203080744103" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1203080747089">
+              <property name="value" value="0" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

@@ -62,6 +62,43 @@
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202390003783">
     <link role="concept" targetNodeId="1.1202387718766" resolveInfo="ComponentDeclaration" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1203080456035">
+      <property name="name" value="getConstructor" />
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1203080462475">
+        <link role="concept" targetNodeId="1.1203080174635" resolveInfo="ComponentConstructor" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203080456037">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1203080468931">
+          <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1203080471842">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1203080473578" />
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1203080471355">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1203080471356" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1203080471357">
+                <link role="conceptMethodDeclaration" targetNodeId="1202390006489" resolveInfo="getController" />
+              </node>
+            </node>
+          </node>
+          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203080468933">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1203080474470">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1203080475550" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1203080476755">
+          <node role="expression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1203080480541">
+            <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1203080481809">
+              <link role="link" targetNodeId="1.1203080266186" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeOperationExpression" id="1203080479194">
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1203080479195" />
+              <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1203080479196">
+                <link role="conceptMethodDeclaration" targetNodeId="1202390006489" resolveInfo="getController" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1202390006489">
       <property name="name" value="getController" />
       <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1202390010133">

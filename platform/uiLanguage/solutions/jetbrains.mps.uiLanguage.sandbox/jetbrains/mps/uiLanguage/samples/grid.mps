@@ -92,5 +92,8 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1203080345075">
+    <link role="component" targetNodeId="1202823852897" resolveInfo="GridDemo" />
+  </node>
 </model>
 

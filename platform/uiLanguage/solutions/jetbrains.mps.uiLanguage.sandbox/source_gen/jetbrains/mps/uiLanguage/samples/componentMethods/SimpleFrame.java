@@ -19,6 +19,9 @@ public class SimpleFrame extends JFrame {
     component.setSize(new Dimension(400, 300));
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setVisible(true);
+    {
+      int i = 0;
+    }
   }
 
   public void addNotify() {
