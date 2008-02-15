@@ -15,6 +15,8 @@ import java.awt.BorderLayout;
 import org.jdesktop.beansbinding.Property;
 import org.jdesktop.beansbinding.BeanProperty;
 import org.jdesktop.beansbinding.Bindings;
+import org.jdesktop.swingbinding.SwingBindings;
+
 import java.awt.GridBagLayout;
 import jetbrains.mps.uiLanguage.runtime.ValueWrapper;
 import java.awt.GridBagConstraints;

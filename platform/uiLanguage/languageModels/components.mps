@@ -154,5 +154,14 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1203082515478">
+    <property name="name" value="_List" />
+    <property name="stub" value="true" />
+    <link role="mapTo" targetNodeId="2.~JList" resolveInfo="JList" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1203082521713">
+    <link role="component" targetNodeId="1203082515478" resolveInfo="List" />
+  </node>
 </model>
 
