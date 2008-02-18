@@ -650,7 +650,7 @@
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1199640812648">
                 <link role="property" targetNodeId="2.1196861024475" resolveInfo="value" />
               </node>
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.PropertyGetter_FunctionParm_node" id="1199640807066" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintsFunctionParameter_node" id="1203335672606" />
             </node>
           </node>
         </node>
@@ -1711,7 +1711,7 @@
               <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1200916402044">
                 <link role="property" targetNodeId="2.1199645087298" resolveInfo="id" />
               </node>
-              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.PropertyGetter_FunctionParm_node" id="1200916399805" />
+              <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintsFunctionParameter_node" id="1203335681667" />
             </node>
           </node>
         </node>
