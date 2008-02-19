@@ -70,18 +70,18 @@ public class QueriesGenerated {
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
         assert queryResult != null;
-        for(SNode item : queryResult) {
-          result.add(new DefaultChildNodeSubstituteAction(item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+        for(final SNode item : queryResult) {
+          result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
             public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
               SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", _context.getCurrentTargetNode());
-              SLinkOperations.setTarget(attribute, "attributeDeclaration", ((SNode)this.getOutputConcept()), false);
+              SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
               SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
               return attribute;
             }
 
             public String getMatchingText(String pattern) {
-              return SPropertyOperations.getString(((SNode)this.getOutputConcept()), "attributeName");
+              return SPropertyOperations.getString((item), "attributeName");
             }
 
           });
@@ -169,18 +169,18 @@ public class QueriesGenerated {
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
         assert queryResult != null;
-        for(SNode item : queryResult) {
-          result.add(new DefaultChildNodeSubstituteAction(item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+        for(final SNode item : queryResult) {
+          result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
             public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
               SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", _context.getCurrentTargetNode());
-              SLinkOperations.setTarget(element, "elementDeclaration", ((SNode)this.getOutputConcept()), false);
-              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202(((SNode)this.getOutputConcept()))));
+              SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
+              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202((item))));
               return element;
             }
 
             public String getMatchingText(String pattern) {
-              return "<" + SPropertyOperations.getString(((SNode)this.getOutputConcept()), "elementName");
+              return "<" + SPropertyOperations.getString((item), "elementName");
             }
 
           });
@@ -216,10 +216,7 @@ public class QueriesGenerated {
     Iterator<INodeSubstituteAction> actions = _context.getActions();
     while(actions.hasNext()) {
       INodeSubstituteAction current = actions.next();
-      if(!(current.getOutputConcept() instanceof SNode)) {
-        continue;
-      }
-      final SNode concept = (SNode)current.getOutputConcept();
+      final SNode concept = current.getOutputConcept();
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("webr.xml.structure.Content");
       Condition cond = new Condition() {
 
