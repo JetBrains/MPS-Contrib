@@ -1441,7 +1441,7 @@
       <property name="name" value="target" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185859" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185860" />
-      <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201801570772" />
+      <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.CallReferenceType" id="1203433036015" />
     </node>
     <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720773">
       <property name="name" value="param" />
