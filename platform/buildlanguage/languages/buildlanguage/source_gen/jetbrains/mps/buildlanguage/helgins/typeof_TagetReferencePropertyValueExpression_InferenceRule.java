@@ -13,7 +13,7 @@ public class typeof_TagetReferencePropertyValueExpression_InferenceRule implemen
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1201702262778", true), new QuotationClass_5().createNode(), nodeToCheck, null, "jetbrains.mps.buildlanguage.helgins", "1201702278753");
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1203432895581", true), new QuotationClass_5().createNode(), nodeToCheck, null, "jetbrains.mps.buildlanguage.helgins", "1203432895579");
   }
 
   public String getApplicableConceptFQName() {
