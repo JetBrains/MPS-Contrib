@@ -23,8 +23,16 @@ public class Enum_Editor extends DefaultNodeEditor {
 
   /* package */AbstractCellListHandler myConstantsListHandler_constantsList_;
 
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197398999782");
+  }
+
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197399033003");
+  }
+
+  private static void setupBasic_ConstantCell2(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197399041536");
   }
 
   private static void setupBasic_ConstantsList(EditorCell editorCell, SNode node, EditorContext context) {
@@ -32,21 +40,13 @@ public class Enum_Editor extends DefaultNodeEditor {
     editorCell.setSelectable(false);
   }
 
-  private static void setupBasic_ConstantCell2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197399041536");
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197398999782");
-  }
-
   private static void setupLabel_ConstantCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_ConstantsList(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConstantCell2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_ConstantCell2(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConstantsList(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 
@@ -84,7 +84,7 @@ public class Enum_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstantsList(EditorContext context, SNode node) {
     if(this.myConstantsListHandler_constantsList_ == null) {
-      this.myConstantsListHandler_constantsList_ = new Enum_Editor._RefNodeListHandler15(node, "constants", context);
+      this.myConstantsListHandler_constantsList_ = new Enum_Editor._RefNodeListHandler8(node, "constants", context);
     }
     EditorCell_Collection editorCell = this.myConstantsListHandler_constantsList_.createCells(context, new CellLayout_Horizontal(), false);
     Enum_Editor.setupBasic_ConstantsList(editorCell, node, context);
@@ -95,9 +95,9 @@ public class Enum_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _RefNodeListHandler15 extends RefNodeListHandler {
+  public static class _RefNodeListHandler8 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler15(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler8(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -158,8 +158,8 @@ public class Enum_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstantCell1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      Enum_Editor._RefNodeListHandler15.setupBasic_ConstantCell1(editorCell, node, context);
-      Enum_Editor._RefNodeListHandler15.setupLabel_ConstantCell1(editorCell, node, context);
+      Enum_Editor._RefNodeListHandler8.setupBasic_ConstantCell1(editorCell, node, context);
+      Enum_Editor._RefNodeListHandler8.setupLabel_ConstantCell1(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }

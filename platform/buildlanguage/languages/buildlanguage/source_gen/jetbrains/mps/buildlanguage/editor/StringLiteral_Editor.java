@@ -16,6 +16,11 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class StringLiteral_Editor extends DefaultNodeEditor {
 
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196861101530");
+    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+  }
+
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196861106563");
     BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
@@ -31,11 +36,6 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196861117192");
     BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1196861101530");
     BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
   }
 

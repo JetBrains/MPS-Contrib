@@ -19,6 +19,10 @@ import jetbrains.mps.bootstrap.editorLanguage.generator.internal.AbstractCellMen
 
 public class BinaryOperation_Editor extends DefaultNodeEditor {
 
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197108089872");
+  }
+
   private static void setupBasic_LeftCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197108091296");
     BinaryOperation_LeftArgument_Actions.setCellActions(editorCell, node, context);
@@ -31,10 +35,6 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
   private static void setupBasic_RightCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197108106565");
     BinaryOperation_RightArgument_Actions.setCellActions(editorCell, node, context);
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1197108089872");
   }
 
   private static void setupLabel_LeftCell(EditorCell_Label editorCell, SNode node, EditorContext context) {

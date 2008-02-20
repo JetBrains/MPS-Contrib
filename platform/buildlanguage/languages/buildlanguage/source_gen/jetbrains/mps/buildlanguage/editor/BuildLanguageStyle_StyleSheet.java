@@ -174,7 +174,7 @@ public class BuildLanguageStyle_StyleSheet {
       cell.setFontType(MPSFonts.BOLD);
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor5(cell);
         labelCell.getTextLine().setTextColor(color);
       }
       if(recurive) {
@@ -214,7 +214,7 @@ public class BuildLanguageStyle_StyleSheet {
       cell.setFontType(MPSFonts.PLAIN);
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor6(cell);
         labelCell.getTextLine().setTextColor(color);
       }
       if(recurive) {
@@ -322,7 +322,7 @@ public class BuildLanguageStyle_StyleSheet {
     public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor5(cell);
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
         labelCell.getTextLine().setTextColor(color);
       }
       if(recurive) {
@@ -361,7 +361,7 @@ public class BuildLanguageStyle_StyleSheet {
     public void apply(EditorCell cell, boolean recurive) {
       if(cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
-        Color color = BuildLanguageStyle_StyleSheet.calculateColor6(cell);
+        Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
         labelCell.getTextLine().setTextColor(color);
       }
       if(recurive) {
@@ -451,25 +451,25 @@ public class BuildLanguageStyle_StyleSheet {
 
   private static Color calculateColor3(EditorCell cell) {
     Color result;
-    result = Color.darkGray;
+    result = Color.red;
     return result;
   }
 
   private static Color calculateColor4(EditorCell cell) {
     Color result;
-    result = MPSColors.DARK_BLUE;
+    result = Color.lightGray;
     return result;
   }
 
   private static Color calculateColor5(EditorCell cell) {
     Color result;
-    result = Color.red;
+    result = Color.darkGray;
     return result;
   }
 
   private static Color calculateColor6(EditorCell cell) {
     Color result;
-    result = Color.lightGray;
+    result = MPSColors.DARK_BLUE;
     return result;
   }
 

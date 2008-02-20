@@ -18,6 +18,10 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider
 
 public class ImportProject_Editor extends DefaultNodeEditor {
 
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1201702717578");
+  }
+
   private static void setupBasic_CellModel_ConceptProperty(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1201702784253");
     BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
@@ -25,10 +29,6 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ProjectReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1201702787271");
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1201702717578");
   }
 
   private static void setupLabel_CellModel_ConceptProperty(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -84,7 +84,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
   public EditorCell createProjectReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new ImportProject_Editor._Inline12());
+    provider.setAuxiliaryCellProvider(new ImportProject_Editor._Inline11());
     EditorCell editorCell = provider.createEditorCell(context);
     ImportProject_Editor.setupBasic_ProjectReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -111,9 +111,9 @@ public class ImportProject_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _Inline12 extends AbstractCellProvider {
+  public static class _Inline11 extends AbstractCellProvider {
 
-    public  _Inline12() {
+    public  _Inline11() {
       super();
     }
 
@@ -137,9 +137,9 @@ public class ImportProject_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      ImportProject_Editor._Inline12.setupBasic_NameCell(editorCell, node, context);
+      ImportProject_Editor._Inline11.setupBasic_NameCell(editorCell, node, context);
       if(editorCell instanceof EditorCell_Label) {
-        ImportProject_Editor._Inline12.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+        ImportProject_Editor._Inline11.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
