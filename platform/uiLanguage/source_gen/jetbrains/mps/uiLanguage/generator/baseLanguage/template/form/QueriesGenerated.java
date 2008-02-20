@@ -5,10 +5,10 @@ package jetbrains.mps.uiLanguage.generator.baseLanguage.template.form;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -20,13 +20,13 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "label");
   }
 
+  public static Object propertyMacro_GetPropertyValue_1202822099795(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SequenceOperations.getSize(SLinkOperations.getTargets(_context.getNode(), "part", true));
+  }
+
   public static Object propertyMacro_GetPropertyValue_1202822134016(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode parent = SNodeOperations.getParent(_context.getNode(), null, false, false);
     return SequenceOperations.indexOf(SLinkOperations.getTargets(parent, "part", true), _context.getNode());
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1202822099795(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SequenceOperations.getSize(SLinkOperations.getTargets(_context.getNode(), "part", true));
   }
 
   public static Object propertyMacro_GetPropertyValue_1202822227345(final IOperationContext operationContext, final PropertyMacroContext _context) {

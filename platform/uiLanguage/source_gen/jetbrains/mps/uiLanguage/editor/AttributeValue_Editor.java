@@ -19,6 +19,10 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider
 
 public class AttributeValue_Editor extends DefaultNodeEditor {
 
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202389374881");
+  }
+
   private static void setupBasic_AttributeReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202389398260");
   }
@@ -29,10 +33,6 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ValueCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202389403736");
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202389374881");
   }
 
   private static void setupLabel_AttributeReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -71,7 +71,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
 
   public EditorCell createAttributeReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline4());
+    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline2());
     EditorCell editorCell = provider.createEditorCell(context);
     AttributeValue_Editor.setupBasic_AttributeReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -127,9 +127,9 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _Inline4 extends AbstractCellProvider {
+  public static class _Inline2 extends AbstractCellProvider {
 
-    public  _Inline4() {
+    public  _Inline2() {
       super();
     }
 
@@ -154,9 +154,9 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      AttributeValue_Editor._Inline4.setupBasic_NameCell(editorCell, node, context);
+      AttributeValue_Editor._Inline2.setupBasic_NameCell(editorCell, node, context);
       if(editorCell instanceof EditorCell_Label) {
-        AttributeValue_Editor._Inline4.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+        AttributeValue_Editor._Inline2.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

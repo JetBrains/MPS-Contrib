@@ -23,9 +23,18 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
   /* package */AbstractCellListHandler myComponentListHandler_componentList_;
 
+  private static void setupBasic_ColumnCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823794525");
+  }
+
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823795637");
     Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+  }
+
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823799045");
+    editorCell.setSelectable(false);
   }
 
   private static void setupBasic_CellModel_Indent(EditorCell editorCell, SNode node, EditorContext context) {
@@ -35,15 +44,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
   private static void setupBasic_ComponentList(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823808769");
     editorCell.setDrawBrackets(true);
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823799045");
-    editorCell.setSelectable(false);
-  }
-
-  private static void setupBasic_ColumnCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823794525");
   }
 
   private static void setupLabel_ConstantCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -57,17 +57,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
     return this.createColumnCell(context, node);
   }
 
-  public EditorCell createRowCell(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    GridRow_Editor.setupBasic_RowCell(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell9(context, node));
-    editorCell.addEditorCell(this.createComponentList(context, node));
-    return editorCell;
-  }
-
   public EditorCell createColumnCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     GridRow_Editor.setupBasic_ColumnCell(editorCell, node, context);
@@ -76,6 +65,17 @@ public class GridRow_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstantCell(context, node, "Row"));
     editorCell.addEditorCell(this.createRowCell(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createRowCell(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    GridRow_Editor.setupBasic_RowCell(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createIndentCell8(context, node));
+    editorCell.addEditorCell(this.createComponentList(context, node));
     return editorCell;
   }
 
@@ -89,7 +89,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
   public EditorCell createComponentList(EditorContext context, SNode node) {
     if(this.myComponentListHandler_componentList_ == null) {
-      this.myComponentListHandler_componentList_ = new GridRow_Editor._RefNodeListHandler7(node, "component", context);
+      this.myComponentListHandler_componentList_ = new GridRow_Editor._RefNodeListHandler6(node, "component", context);
     }
     EditorCell_Collection editorCell = this.myComponentListHandler_componentList_.createCells(context, new CellLayout_Horizontal(), false);
     GridRow_Editor.setupBasic_ComponentList(editorCell, node, context);
@@ -100,14 +100,14 @@ public class GridRow_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell9(EditorContext context, SNode node) {
+  public EditorCell createIndentCell8(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class _RefNodeListHandler7 extends RefNodeListHandler {
+  public static class _RefNodeListHandler6 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler6(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

@@ -22,7 +22,7 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
     List<SNode> result = new ArrayList<SNode>();
     SNode extendedComponent = ComponentDeclaration_Behavior.call_getExtendedComponent_1202392526494(SLinkOperations.getTarget(componentType, "component", false));
     if(extendedComponent != null) {
-      ListOperations.addElement(result, new QuotationClass_1().createNode(extendedComponent));
+      ListOperations.addElement(result, new QuotationClass_3().createNode(extendedComponent));
     }
     if(SPropertyOperations.getBoolean(SLinkOperations.getTarget(componentType, "component", false), "stub")) {
       ListOperations.addElement(result, new QuotationClass_2().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, "component", false), "mapTo", false)));
