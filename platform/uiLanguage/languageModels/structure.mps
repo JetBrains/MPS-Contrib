@@ -417,5 +417,14 @@
       <link role="intfc" targetNodeId="1202817076568" resolveInfo="IComponentInstance" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1203520768804">
+    <property name="name" value="ComponentCreator" />
+    <link role="extends" targetNodeId="2.1145552809883" resolveInfo="AbstractCreator" />
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1203520776742">
+      <property name="role" value="componentDeclaration" />
+      <property name="sourceCardinality" value="0..1" />
+      <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration" />
+    </node>
+  </node>
 </model>
 
