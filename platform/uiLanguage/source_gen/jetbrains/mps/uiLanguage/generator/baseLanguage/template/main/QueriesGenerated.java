@@ -147,6 +147,10 @@ public class QueriesGenerated {
     return ComponentDeclaration_Behavior.call_getComponentClassName_1202394358859(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "componentDeclaration", false));
   }
 
+  public static Object propertyMacro_GetPropertyValue_1203598354568(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ComponentDeclaration_Behavior.call_getComponentClassName_1202394358859(SLinkOperations.getTarget(_context.getNode(), "component", false));
+  }
+
   public static Object referenceMacro_GetReferent_1202395785142(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(_context.getNode(), "componentFactory");
   }
