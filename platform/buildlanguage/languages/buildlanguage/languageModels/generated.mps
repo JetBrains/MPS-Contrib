@@ -3308,9 +3308,6 @@
           <property name="value" value="debug" />
         </node>
       </node>
-      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692140447">
-        <property name="value" value="warning" />
-      </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201801570914" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186820">
