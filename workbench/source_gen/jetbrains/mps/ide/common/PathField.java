@@ -53,7 +53,9 @@ public class PathField extends JPanel {
 
   private void unbind() {
     for(AutoBinding binding : this.myBindings) {
-      binding.unbind();
+      if(binding.isBound()) {
+        binding.unbind();
+      }
     }
   }
 
