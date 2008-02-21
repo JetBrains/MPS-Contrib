@@ -34,4 +34,8 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "row", true);
   }
 
+  public static List sourceNodesQuery_1203604100897(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "content", true);
+  }
+
 }
