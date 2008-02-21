@@ -8,21 +8,28 @@ import javax.swing.JButton;
 import java.util.List;
 import org.jdesktop.beansbinding.AutoBinding;
 import java.util.ArrayList;
+import jetbrains.mps.ide.ui.filechoosers.treefilechooser.TreeFileChooser;
 import java.awt.BorderLayout;
 import org.jdesktop.beansbinding.Property;
 import org.jdesktop.beansbinding.BeanProperty;
 import org.jdesktop.beansbinding.Bindings;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import jetbrains.mps.vfs.FileSystemFile;
+import jetbrains.mps.vfs.IFile;
 
 public class PathField extends JPanel {
 
   public PathField myThis;
-  private JTextField myComponent;
-  private JButton myComponent1;
+  private JTextField myPathField;
+  private JButton myComponent;
   private String myPath;
+  private int myMode;
   public List<AutoBinding> myBindings = new ArrayList<AutoBinding>();
 
   public  PathField() {
     this.myThis = this;
+    myThis.setMode(TreeFileChooser.MODE_DIRECTORIES);
     PathField component = this;
     component.setLayout(new BorderLayout());
     component.add(this.createComponent(), BorderLayout.CENTER);
@@ -43,7 +50,7 @@ public class PathField extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("path");
-      Object targetObject = this.myComponent;
+      Object targetObject = this.myPathField;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -61,15 +68,22 @@ public class PathField extends JPanel {
 
   private JTextField createComponent() {
     JTextField component = new JTextField();
-    this.myComponent = component;
+    this.myPathField = component;
     component.setColumns(40);
     return component;
   }
 
   private JButton createComponent1() {
     JButton component = new JButton();
-    this.myComponent1 = component;
+    this.myComponent = component;
     component.setText("...");
+    component.addActionListener(new ActionListener() {
+
+      public void actionPerformed(ActionEvent event) {
+        myThis.choosePathClicked();
+      }
+
+    });
     return component;
   }
 
@@ -77,10 +91,33 @@ public class PathField extends JPanel {
     return this.myPath;
   }
 
+  public int getMode() {
+    return this.myMode;
+  }
+
   public void setPath(String newValue) {
     String oldValue = this.myPath;
     this.myPath = newValue;
     this.firePropertyChange("path", oldValue, newValue);
+  }
+
+  public void setMode(int newValue) {
+    int oldValue = this.myMode;
+    this.myMode = newValue;
+    this.firePropertyChange("mode", oldValue, newValue);
+  }
+
+  public void choosePathClicked() {
+    String oldPath = myThis.myPathField.getText();
+    TreeFileChooser chooser = new TreeFileChooser();
+    chooser.setMode(myThis.getMode());
+    if(oldPath != null) {
+      chooser.setInitialFile(new FileSystemFile(oldPath));
+    }
+    IFile result = chooser.showDialog();
+    if(result != null) {
+      myThis.setPath(result.getPath());
+    }
   }
 
 }
