@@ -75,6 +75,7 @@
   </dependencies>
   <usedLanguages>
     <usedLanguages>jetbrains.mps.baseLanguage.strings</usedLanguages>
+    <usedLanguages>jetbrains.mps.baseLanguageInternal</usedLanguages>
   </usedLanguages>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>

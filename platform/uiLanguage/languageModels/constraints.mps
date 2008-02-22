@@ -635,6 +635,18 @@
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1202392514248">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202392514249" />
     </node>
+    <node role="canBeAParent" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunction_CanBeAParent" id="1203159308117">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203159308118">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1203159311275">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1203159312939">
+            <node role="rightExpression" type="jetbrains.mps.bootstrap.smodelLanguage.structure.ConceptRefExpression" id="1203159315082">
+              <link role="conceptDeclaration" targetNodeId="1.1202464424004" resolveInfo="BindExpression" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunctionParameter_childConcept" id="1203159311276" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202393659008">
     <link role="concept" targetNodeId="1.1202387945296" resolveInfo="ComponentInstance" />
