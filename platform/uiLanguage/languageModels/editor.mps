@@ -24,7 +24,7 @@
         <property name="selectable" value="false" />
         <property name="vertical" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202387806948">
-          <property name="text" value="Component" />
+          <property name="text" value="component" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1202387810513">
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
@@ -237,7 +237,7 @@
         <property name="selectable" value="false" />
         <property name="vertical" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202388504470">
-          <property name="text" value="Controller" />
+          <property name="text" value="controller" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202388507691">
           <property name="text" value="for" />

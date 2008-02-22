@@ -167,7 +167,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstantCell(context, node, "Controller"));
+    editorCell.addEditorCell(this.createConstantCell(context, node, "controller"));
     editorCell.addEditorCell(this.createConstantCell1(context, node, "for"));
     editorCell.addEditorCell(this.createComponentReferenceCell(context, node));
     return editorCell;
