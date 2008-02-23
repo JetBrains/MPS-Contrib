@@ -5,7 +5,9 @@
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
-  <language namespace="jetbrains.mps.bootstrap.smodelLanguage" />
+  <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
+  </language>
   <language namespace="jetbrains.mps.bootstrap.intentionsLanguage" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="0" />
@@ -91,7 +93,7 @@
                   <link role="variableDeclaration" targetNodeId="1195647309255" resolveInfo="s" />
                 </node>
                 <node role="nodeOperation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_InsertNextSiblingOperation" id="1195647309267">
-                  <node role="parameter" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1195647309268">
+                  <node role="insertedNode" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1195647309268">
                     <link role="variable" targetNodeId="1195647309259" resolveInfo="subContent" />
                   </node>
                 </node>
