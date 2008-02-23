@@ -37,7 +37,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention implement
       try {
         while(_zCursor.moveToNext()) {
           SNode subContent = _zCursor.getCurrent();
-          SNodeOperations.insertNextSiblingChild(s);
+          SNodeOperations.insertNextSiblingChild(s, subContent);
           s = subContent;
         }
       } finally {
