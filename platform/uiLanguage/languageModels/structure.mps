@@ -80,6 +80,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202388384249">
     <property name="name" value="ComponentController" />
     <property name="rootable" value="true" />
+    <property name="iconPath" value="${language_descriptor}\icons\controller.png" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202389186753">
       <property name="metaClass" value="aggregation" />
