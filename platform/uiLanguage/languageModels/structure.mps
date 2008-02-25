@@ -41,6 +41,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202387718766">
     <property name="name" value="ComponentDeclaration" />
     <property name="rootable" value="true" />
+    <property name="iconPath" value="${language_descriptor}\icons\component.png" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1202393242164">
       <property name="name" value="stub" />
