@@ -255,7 +255,7 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202809739936">
     <property name="package" value="Operations" />
     <property name="name" value="ComponentMethodCallOperation" />
-    <link role="extends" targetNodeId="2.1068499141036" resolveInfo="BaseMethodCall" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202811348675">
       <property name="role" value="componentMethod" />
       <property name="sourceCardinality" value="1" />
@@ -264,6 +264,9 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202809757748">
       <link role="intfc" targetNodeId="2.1197027803184" resolveInfo="IOperation" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1204116962256">
+      <link role="intfc" targetNodeId="2.1204053956946" resolveInfo="IMethodCall" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202816914429">
