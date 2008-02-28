@@ -59,7 +59,7 @@
   <classPath>
     <entry path="${language_descriptor}\classes" />
     <entry path="${language_descriptor}\runtime\classes" />
-    <entry path="${language_descriptor}\runtime\lib\beansbinding-1.2.1.jar" />
+    <entry path="${mps_home}\lib\beansbinding\beansbinding-1.2.1.jar" />
   </classPath>
   <runtimeClassPath>
     <entry path="${language_descriptor}\classes" />
