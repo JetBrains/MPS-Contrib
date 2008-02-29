@@ -132,7 +132,14 @@ public class QueriesGenerated {
           result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
             public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-              SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", _context.getCurrentTargetNode());
+              SNode prototype;
+              if(SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "webr.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(_context.getCurrentTargetNode(), "text"))) {
+                prototype = null;
+              } else
+              {
+                prototype = _context.getCurrentTargetNode();
+              }
+              SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", prototype);
               SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
               SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202((item))));
               return element;
