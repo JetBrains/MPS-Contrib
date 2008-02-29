@@ -163,5 +163,25 @@
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1203082521713">
     <link role="component" targetNodeId="1203082515478" resolveInfo="List" />
   </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1204287075288">
+    <property name="name" value="RadioButton" />
+    <property name="stub" value="true" />
+    <property name="actionComponent" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393560969" resolveInfo="Button" />
+    <link role="mapTo" targetNodeId="4.~JbRadioButton" resolveInfo="JbRadioButton" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1204287125444">
+    <link role="component" targetNodeId="1204287075288" resolveInfo="RadioButton" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1204287204803">
+      <property name="name" value="selected" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1204287205852" />
+    </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1204287669159">
+      <property name="name" value="group" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1204287681555">
+        <link role="classifier" targetNodeId="2.~ButtonGroup" resolveInfo="ButtonGroup" />
+      </node>
+    </node>
+  </node>
 </model>
 
