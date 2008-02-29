@@ -228,7 +228,7 @@ public class QueriesGenerated {
       Condition cond = new Condition() {
 
         public boolean met(Object object) {
-          return SConceptOperations.isExactly(_context.getChildConcept(), "webr.xml.structure.Content") && SConceptOperations.isAssignableFrom(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), concept) && !(isMixed);
+          return SConceptOperations.isExactly(_context.getChildConcept(), "webr.xml.structure.Content") && SConceptOperations.isSuperConceptOf(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), NameUtil.nodeFQName(concept)) && !(isMixed);
         }
 
       };
