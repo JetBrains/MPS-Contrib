@@ -39,10 +39,6 @@ public class ElementUtil {
       }
       if(SNodeOperations.isInstanceOf(currentNode, "webr.xml.structure.Content")) {
         SNode content = currentNode;
-        elementDeclaration = SequenceOperations.getFirst(SLinkOperations.getConceptLinkTargets(content, "elementForChildren"));
-        if((elementDeclaration != null)) {
-          break;
-        }
         elementDeclaration = SequenceOperations.getFirst(SLinkOperations.getConceptLinkTargets(content, "correspondingElement"));
         if((elementDeclaration != null)) {
           break;

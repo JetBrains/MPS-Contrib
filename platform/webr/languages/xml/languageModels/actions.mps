@@ -732,35 +732,6 @@
                     </node>
                   </node>
                 </node>
-                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183932198573">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="1183932198574">
-                    <node role="rValue" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1183932198575">
-                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227889969">
-                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1183932198577">
-                          <link role="variableDeclaration" targetNodeId="1183932198569" resolveInfo="content" />
-                        </node>
-                        <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SConceptLinkAccess" id="1183932198578">
-                          <link role="conceptLinkDeclaration" targetNodeId="1.1175781935927" />
-                        </node>
-                      </node>
-                      <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.GetFirstOperation" id="1183932198579" />
-                    </node>
-                    <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1183932198580">
-                      <link role="variableDeclaration" targetNodeId="1183932198532" resolveInfo="elementDeclaration" />
-                    </node>
-                  </node>
-                </node>
-                <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1183932198581">
-                  <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227905307">
-                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1183932198583">
-                      <link role="variableDeclaration" targetNodeId="1183932198532" resolveInfo="elementDeclaration" />
-                    </node>
-                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsNotNullOperation" id="1183932198584" />
-                  </node>
-                  <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183932198585">
-                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.BreakStatement" id="1183932198586" />
-                  </node>
-                </node>
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183932198587">
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="1183932198588">
                     <node role="rValue" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1183932198589">

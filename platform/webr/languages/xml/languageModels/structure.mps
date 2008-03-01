@@ -24,10 +24,6 @@
       <property name="name" value="correspondingElement" />
       <link role="targetType" targetNodeId="5.1167838236835" />
     </node>
-    <node role="conceptLinkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.ReferenceConceptLinkDeclaration" id="1175781935927">
-      <property name="name" value="elementForChildren" />
-      <link role="targetType" targetNodeId="5.1167838236835" />
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1161373262136">
     <property name="name" value="Text" />
