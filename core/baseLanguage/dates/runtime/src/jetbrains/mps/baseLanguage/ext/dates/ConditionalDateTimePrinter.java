@@ -1,6 +1,7 @@
 package jetbrains.mps.baseLanguage.ext.dates;
 
 import org.joda.time.format.DateTimePrinter;
+import org.joda.time.format.DateTimeFormat;
 import org.joda.time.Chronology;
 import org.joda.time.DateTimeZone;
 import org.joda.time.ReadablePartial;
@@ -15,6 +16,8 @@ import java.io.IOException;
  * @author Maxim.Mazin at date: 23.01.2007 time: 16:40:15
  */
 public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
+  private List<DateTimePrinter> myPrinters;
+
   public int estimatePrintedLength() {
     int max = 0;
     for (DateTimePrinter printer : getAllPrinters()) {
@@ -40,14 +43,35 @@ public abstract class ConditionalDateTimePrinter implements DateTimePrinter {
   }
 
   protected DateTimePrinter getPrinter(ReadablePartial partial, Locale locale) {
-    return getPrinter(partial != null ? partial.toDateTime(null) : null, locale);
+    return getPrinter(partial != null ? partial.toDateTime(null) : null);
   }
 
   protected DateTimePrinter getPrinter(long instant, int displayOffset, DateTimeZone displayZone, Locale locale) {
-    return getPrinter(instant != 0 ? new DateTime(instant - displayOffset, displayZone) : null, locale);
+    return getPrinter(instant != 0 ? new DateTime(instant - displayOffset, displayZone) : null);
   }
 
-  protected abstract DateTimePrinter getPrinter(DateTime dateTime, Locale locale);
+  private DateTimePrinter getPrinter(DateTime dateTime) {
+    int index = this.getPrinterIndex(DateTimeOperations.convert(dateTime));
+    if (index >= 0) {
+      List<DateTimePrinter> printers = this.getAllPrinters();
+      return printers.get(index);
+    } else {
+      return DateTimeFormat.shortDateTime().getPrinter();
+    }
+  }
 
-  protected abstract List<DateTimePrinter> getAllPrinters();
+  private List<DateTimePrinter> getAllPrinters() {
+    if (this.myPrinters == null) {
+      synchronized (this) {
+        if (this.myPrinters == null) {
+          myPrinters = createPrinters();
+        }
+      }
+    }
+    return myPrinters;
+  }
+
+  protected abstract int getPrinterIndex(Long datetimeToFormat);
+
+  protected abstract List<DateTimePrinter> createPrinters();
 }

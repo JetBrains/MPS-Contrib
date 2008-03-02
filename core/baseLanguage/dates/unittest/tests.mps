@@ -880,7 +880,7 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1172332219819">
               <property name="name" value="n" />
               <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeType" id="1172332219820" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.NowExpression" id="1172332223055" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.NowExpression" id="1204416241856" />
             </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1172332112238">
@@ -894,11 +894,17 @@
                 </node>
                 <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeWithPropertyOperation" id="1172332125088">
                   <link role="dateTimeProperty" targetNodeId="1.1172074751786" />
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1172332639353">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1204416249819">
                     <property name="value" value="1" />
                   </node>
-                  <node role="datetime" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1172332225602">
-                    <link role="variableDeclaration" targetNodeId="1172332219819" resolveInfo="n" />
+                  <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeWithPropertyOperation" id="1204416643876">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074760743" resolveInfo="year" />
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1204416651643">
+                      <property name="value" value="2007" />
+                    </node>
+                    <node role="datetime" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1172332225602">
+                      <link role="variableDeclaration" targetNodeId="1172332219819" resolveInfo="n" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -918,8 +924,14 @@
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1172332274640">
                     <property name="value" value="1" />
                   </node>
-                  <node role="datetime" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1172332246081">
-                    <link role="variableDeclaration" targetNodeId="1172332219819" resolveInfo="n" />
+                  <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeWithPropertyOperation" id="1204416658147">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074760743" resolveInfo="year" />
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1204416664419">
+                      <property name="value" value="2007" />
+                    </node>
+                    <node role="datetime" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1172332246081">
+                      <link role="variableDeclaration" targetNodeId="1172332219819" resolveInfo="n" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -1204,7 +1216,9 @@
       <property name="name" value="setUp" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1173787612321" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1173787612322">
-        <node role="statement" type="jetbrains.springframework.configuration.structure.InitConfigurationStatement" id="1173787612323" />
+        <node role="statement" type="jetbrains.springframework.configuration.structure.InitConfigurationStatement" id="1173787612323">
+          <node role="configurationSource" type="jetbrains.springframework.configuration.structure.GeneratedSoultionReference" id="1204416043519" />
+        </node>
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1180740275695" />
     </node>
@@ -1212,6 +1226,7 @@
       <property name="name" value="testFake" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1173788135314" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1173788135315" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1204416018976" />
     </node>
     <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173787603061">
       <link role="classifier" targetNodeId="7.~TestCase" resolveInfo="TestCase" />
