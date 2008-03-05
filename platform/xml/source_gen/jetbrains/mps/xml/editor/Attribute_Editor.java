@@ -19,6 +19,11 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Attribute_Editor extends DefaultNodeEditor {
 
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1107867208213");
+    editorCell.setDrawBorder(false);
+  }
+
   private static void setupBasic_NameCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1107867281034");
     editorCell.setDrawBorder(false);
@@ -46,11 +51,6 @@ public class Attribute_Editor extends DefaultNodeEditor {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1107867281038");
     editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1107867208213");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupLabel_NameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
