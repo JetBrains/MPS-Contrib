@@ -17,9 +17,7 @@
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <maxImportIndex value="14" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
-  <import index="2" modelUID="webr.xml.util@java_stub" version="-1" />
   <import index="3" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="5" modelUID="java.util@java_stub" version="-1" />
   <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
   <import index="9" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="10" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
