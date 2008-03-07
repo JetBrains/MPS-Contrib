@@ -106,7 +106,7 @@
     <property name="name" value="VBox" />
     <property name="stub" value="true" />
     <link role="extendedComponent" targetNodeId="1202816402995" resolveInfo="Panel" />
-    <link role="mapTo" targetNodeId="2.~JPanel" resolveInfo="JPanel" />
+    <link role="mapTo" targetNodeId="4.~VBoxPanel" resolveInfo="VBoxPanel" />
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202738350852">
     <property name="name" value="HBox" />
