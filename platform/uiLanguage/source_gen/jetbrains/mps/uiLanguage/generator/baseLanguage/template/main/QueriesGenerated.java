@@ -201,6 +201,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "onChange", true) != null;
   }
 
+  public static boolean ifMacro_Condition_1204896367155(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "initializer", true) != null;
+  }
+
   public static SNode sourceNodeQuery_1202395527079(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "value", true);
   }
@@ -289,6 +293,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1203675466452(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "onChange", true);
+  }
+
+  public static SNode sourceNodeQuery_1204896369237(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "initializer", true);
   }
 
   public static List sourceNodesQuery_1202395104349(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

@@ -134,6 +134,11 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2.1068431790189" resolveInfo="Type" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1204896099428">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="initializer" />
+      <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1203674689633">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="onChange" />
