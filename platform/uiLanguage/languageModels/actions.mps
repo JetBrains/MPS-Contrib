@@ -17,5 +17,21 @@
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="3" modelUID="jetbrains.mps.uiLanguage.constraints" version="-1" />
+  <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1204884187522">
+    <property name="name" value="ABC" />
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1204884205197">
+      <property name="useNewActions" value="true" />
+      <link role="applicableConcept" targetNodeId="2.1145552809883" resolveInfo="AbstractCreator" />
+      <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstitutePreconditionFunction" id="1204884217230">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1204884217231">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1204884218107">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1204887178938">
+              <property name="value" value="false" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
