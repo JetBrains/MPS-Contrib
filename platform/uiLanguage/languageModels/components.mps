@@ -6,11 +6,12 @@
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
-  <maxImportIndex value="4" />
+  <maxImportIndex value="5" />
   <import index="1" modelUID="java.lang@java_stub" version="-1" />
   <import index="2" modelUID="javax.swing@java_stub" version="-1" />
   <import index="3" modelUID="java.awt@java_stub" version="-1" />
   <import index="4" modelUID="jetbrains.mps.uiLanguage.runtime@java_stub" version="-1" />
+  <import index="5" modelUID="javax.swing.border@java_stub" version="-1" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393472906">
     <property name="name" value="BaseComponent" />
     <property name="stub" value="true" />
@@ -67,6 +68,12 @@
       <property name="name" value="layout" />
       <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202393611649">
         <link role="classifier" targetNodeId="3.~LayoutManager" resolveInfo="LayoutManager" />
+      </node>
+    </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1204902000237">
+      <property name="name" value="border" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1204902015019">
+        <link role="classifier" targetNodeId="5.~Border" resolveInfo="Border" />
       </node>
     </node>
   </node>
