@@ -162,6 +162,12 @@
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1203082521713">
     <link role="component" targetNodeId="1203082515478" resolveInfo="List" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1204900502868">
+      <property name="name" value="selectedElement" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1204900504271">
+        <link role="classifier" targetNodeId="1.~Object" resolveInfo="Object" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1204287075288">
     <property name="name" value="RadioButton" />
