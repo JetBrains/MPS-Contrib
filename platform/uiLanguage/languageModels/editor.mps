@@ -650,7 +650,8 @@
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202811151869">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202811151870">
               <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1202811151871">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227902145">
+                <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.IsEmptyOperation" id="1202811151877" />
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227902145">
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227887128">
                     <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1202811151876" />
                     <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1202811151875">
@@ -661,7 +662,6 @@
                     <link role="link" targetNodeId="3.1068580123134" />
                   </node>
                 </node>
-                <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.IsEmptyOperation" id="1202811151877" />
               </node>
             </node>
           </node>
