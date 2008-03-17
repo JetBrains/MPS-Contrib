@@ -26,7 +26,7 @@
                   <link role="component" targetNodeId="1202816052454" resolveInfo="checkbox" />
                 </node>
                 <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202816080345">
-                  <link role="attribute" targetNodeId="2v.1202815889044" resolveInfo="selected" />
+                  <link role="member" targetNodeId="2v.1202815889044" resolveInfo="selected" />
                 </node>
               </node>
             </node>

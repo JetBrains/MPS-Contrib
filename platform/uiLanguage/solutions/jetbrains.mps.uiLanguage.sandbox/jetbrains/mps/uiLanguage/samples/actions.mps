@@ -41,7 +41,7 @@
                   <link role="component" targetNodeId="1202743924676" resolveInfo="label" />
                 </node>
                 <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202748240433">
-                  <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
+                  <link role="member" targetNodeId="2v.1202465836231" resolveInfo="text" />
                 </node>
               </node>
             </node>

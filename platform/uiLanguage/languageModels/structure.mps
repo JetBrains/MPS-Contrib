@@ -93,7 +93,7 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="componentMethod" />
       <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1202741165758" resolveInfo="ComponentMethodDeclaration" />
+      <link role="target" targetNodeId="3v.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1203080266186">
       <property name="metaClass" value="aggregation" />
@@ -148,8 +148,8 @@
       <property name="role" value="onChange" />
       <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     </node>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202388821016">
-      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1205765561390">
+      <link role="intfc" targetNodeId="3v.1205752032448" resolveInfo="IMember" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202464424004">
@@ -195,9 +195,10 @@
       <property name="role" value="attribute" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1202388805843" resolveInfo="AttributeDeclaration" />
+      <link role="specializedLink" targetNodeId="3v.1205756909548" />
     </node>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202478485550">
-      <link role="intfc" targetNodeId="2.1197027803184" resolveInfo="IOperation" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1205765585346">
+      <link role="intfc" targetNodeId="3v.1205756064662" resolveInfo="IMemberOperation" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202739819652">
@@ -219,7 +220,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202741165758">
     <property name="name" value="ComponentMethodDeclaration" />
-    <link role="extends" targetNodeId="2.1068580123132" resolveInfo="BaseMethodDeclaration" />
+    <link role="extends" targetNodeId="3v.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration" />
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202742489421">
     <property name="name" value="ComponentReference" />

@@ -41,7 +41,7 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_1202813448920(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.uiLanguage.structure.ComponentMethodCallOperation");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation");
   }
 
   public static boolean baseMappingRule_Condition_1203086836455(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -127,11 +127,11 @@ public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_1202746727709(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode operationExpression = SLinkOperations.getTarget(_context.getNode(), "lValue", true);
     SNode referenceOperation = SLinkOperations.getTarget(operationExpression, "operation", true);
-    return NameUtil.getSetterName(SPropertyOperations.getString(SLinkOperations.getTarget(referenceOperation, "attribute", false), "name"));
+    return NameUtil.getSetterName(SPropertyOperations.getString(SLinkOperations.getTarget(referenceOperation, "member", false), "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_1202748125960(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return NameUtil.getGetterName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "operation", true), "attribute", false), "name"));
+    return NameUtil.getGetterName(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "operation", true), "member", false), "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_1202748915209(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -140,7 +140,7 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1202813431540(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode call = SLinkOperations.getTarget(_context.getNode(), "operation", true);
-    return SPropertyOperations.getString(SLinkOperations.getTarget(call, "baseMethodDeclaration", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(call, "member", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1203087655378(final IOperationContext operationContext, final PropertyMacroContext _context) {

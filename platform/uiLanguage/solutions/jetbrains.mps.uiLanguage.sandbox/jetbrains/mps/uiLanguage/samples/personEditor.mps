@@ -37,7 +37,7 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202743513456">
                 <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224096" />
                 <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202743514630">
-                  <link role="attribute" targetNodeId="1202743493336" resolveInfo="firstName" />
+                  <link role="member" targetNodeId="1202743493336" resolveInfo="firstName" />
                 </node>
               </node>
             </node>
@@ -60,7 +60,7 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202743520356">
                 <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224271" />
                 <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202743521389">
-                  <link role="attribute" targetNodeId="1202743500214" resolveInfo="lastName" />
+                  <link role="member" targetNodeId="1202743500214" resolveInfo="lastName" />
                 </node>
               </node>
             </node>

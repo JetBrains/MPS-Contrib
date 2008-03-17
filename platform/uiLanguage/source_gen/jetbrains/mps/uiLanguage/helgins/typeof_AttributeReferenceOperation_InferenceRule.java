@@ -14,7 +14,7 @@ public class typeof_AttributeReferenceOperation_InferenceRule implements Inferen
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1202487350206", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), nodeToCheck, null, "jetbrains.mps.uiLanguage.helgins", "1202487353287");
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1202487350206", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "member", false), "type", true), nodeToCheck, null, "jetbrains.mps.uiLanguage.helgins", "1202487353287");
   }
 
   public String getApplicableConceptFQName() {

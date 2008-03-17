@@ -45,14 +45,6 @@
             <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@templates" nodeID="1202393865414" />
           </lesser-priority-mapping>
         </mapping-priority-rule>
-        <mapping-priority-rule kind="strictly_together">
-          <greater-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.list@templates" nodeID="1203085424910" />
-          </greater-priority-mapping>
-          <lesser-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@templates" nodeID="1202393865414" />
-          </lesser-priority-mapping>
-        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>
