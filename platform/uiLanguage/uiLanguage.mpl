@@ -79,6 +79,7 @@
   </usedLanguages>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
+    <extendedLanguage>jetbrains.mps.baseLanguage.classifiers</extendedLanguage>
   </extendedLanguages>
 </language>
 
