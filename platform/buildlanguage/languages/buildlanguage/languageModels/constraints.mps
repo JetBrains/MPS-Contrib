@@ -48,7 +48,7 @@
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="0" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
@@ -75,7 +75,7 @@
   <import index="14" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints@java_stub" version="-1" />
   <import index="15" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure@java_stub" version="-1" />
   <import index="16" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="-1" />
-  <import index="17" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="0" />
+  <import index="17" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1196857973083">
     <link role="concept" targetNodeId="2.1196852921336" resolveInfo="Target" />
     <node role="references" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodeReferentConstraint" id="1196857975336">

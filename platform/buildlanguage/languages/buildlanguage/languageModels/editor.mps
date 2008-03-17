@@ -10,7 +10,7 @@
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="0" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
@@ -19,7 +19,7 @@
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.nodeEditor@java_stub" version="-1" />
   <import index="4" modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
-  <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="0" />
+  <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1196852366761">
     <link role="conceptDeclaration" targetNodeId="1.1196851066733" resolveInfo="Project" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1196852380471">

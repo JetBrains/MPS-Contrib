@@ -9,7 +9,7 @@
   </language>
   <language namespace="jetbrains.mps.xml" />
   <language namespace="jetbrains.mps.core" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
