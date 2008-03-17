@@ -38,6 +38,7 @@
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
+  <visible index="3" modelUID="jetbrains.mps.baseLanguage.classifiers.structure" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202387718766">
     <property name="name" value="ComponentDeclaration" />
     <property name="rootable" value="true" />
@@ -67,8 +68,8 @@
       <property name="role" value="mapTo" />
       <link role="target" targetNodeId="2.1068390468198" resolveInfo="ClassConcept" />
     </node>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202387794456">
-      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1205753569697">
+      <link role="intfc" targetNodeId="3v.1205751982837" resolveInfo="IClassifier" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202391997731">
       <property name="metaClass" value="aggregation" />
@@ -105,6 +106,9 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1202388391938">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1205753873264">
+      <link role="intfc" targetNodeId="3v.1205752174734" resolveInfo="IClassifierPart" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202389314593">
@@ -167,18 +171,9 @@
       <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202464730174">
-    <property name="name" value="ThisComponentExpression" />
-    <property name="package" value="Expressions" />
-    <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202464744602">
-      <property name="value" value="this" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202465023198">
     <property name="name" value="ComponentType" />
-    <link role="extends" targetNodeId="2.1068431790189" resolveInfo="Type" />
+    <link role="extends" targetNodeId="3v.1205752813637" resolveInfo="BaseClassifierType" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1202465038393">
       <property name="value" value="component&lt;&gt;" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />

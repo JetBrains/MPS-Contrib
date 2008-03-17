@@ -49,7 +49,9 @@ public class FormDemo extends JFrame {
 
   private void unbind() {
     for(AutoBinding binding : this.myBindings) {
-      binding.unbind();
+      if(binding.isBound()) {
+        binding.unbind();
+      }
     }
   }
 

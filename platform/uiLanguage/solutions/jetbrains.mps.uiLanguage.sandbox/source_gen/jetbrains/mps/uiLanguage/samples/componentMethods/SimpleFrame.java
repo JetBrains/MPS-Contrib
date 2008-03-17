@@ -15,13 +15,13 @@ public class SimpleFrame extends JFrame {
 
   public  SimpleFrame() {
     this.myThis = this;
+    {
+      int i = 0;
+    }
     SimpleFrame component = this;
     component.setSize(new Dimension(400, 300));
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setVisible(true);
-    {
-      int i = 0;
-    }
   }
 
   public void addNotify() {
@@ -39,7 +39,9 @@ public class SimpleFrame extends JFrame {
 
   private void unbind() {
     for(AutoBinding binding : this.myBindings) {
-      binding.unbind();
+      if(binding.isBound()) {
+        binding.unbind();
+      }
     }
   }
 

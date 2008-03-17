@@ -14,7 +14,7 @@ public class typeof_ComponentReferencePart_InferenceRule implements InferenceRul
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1202742681504", true), new QuotationClass_1().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "component", false), "componentDeclaration", false)), nodeToCheck, null, "jetbrains.mps.uiLanguage.helgins", "1202742685648");
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1202742681504", true), new QuotationClass_().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "component", false), "componentDeclaration", false)), nodeToCheck, null, "jetbrains.mps.uiLanguage.helgins", "1202742685648");
   }
 
   public String getApplicableConceptFQName() {

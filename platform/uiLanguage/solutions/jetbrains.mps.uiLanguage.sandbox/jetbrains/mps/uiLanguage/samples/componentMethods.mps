@@ -6,6 +6,7 @@
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.uiLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
   <maxImportIndex value="3" />
   <import index="1" modelUID="javax.swing@java_stub" version="-1" />
   <import index="2" modelUID="java.awt@java_stub" version="-1" />
@@ -62,7 +63,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202810681271">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202810691901">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202813653735">
-            <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202811329328" />
+            <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224317" />
             <node role="operation" type="jetbrains.mps.uiLanguage.structure.ComponentMethodCallOperation" id="1202813654550">
               <link role="baseMethodDeclaration" targetNodeId="1202810685023" resolveInfo="anotherSimpleMethod" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202813703589">
@@ -76,7 +77,7 @@
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202814456506">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202814460695">
-            <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202814456507" />
+            <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224148" />
             <node role="operation" type="jetbrains.mps.uiLanguage.structure.ComponentMethodCallOperation" id="1202814462525">
               <link role="baseMethodDeclaration" targetNodeId="1202810685023" resolveInfo="anotherSimpleMethod" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202814467089">

@@ -6,6 +6,7 @@
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.uiLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="java.awt@java_stub" version="-1" />
   <import index="2" modelUID="jetbrains.mps.uiLanguage.components" version="-1" />
@@ -34,7 +35,7 @@
             <link role="attribute" targetNodeId="2.1202464208353" resolveInfo="text" />
             <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202743510547">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202743513456">
-                <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202743512096" />
+                <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224096" />
                 <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202743514630">
                   <link role="attribute" targetNodeId="1202743493336" resolveInfo="firstName" />
                 </node>
@@ -57,7 +58,7 @@
             <link role="attribute" targetNodeId="2.1202464208353" resolveInfo="text" />
             <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202743518025">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202743520356">
-                <node role="operand" type="jetbrains.mps.uiLanguage.structure.ThisComponentExpression" id="1202743518996" />
+                <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224271" />
                 <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202743521389">
                   <link role="attribute" targetNodeId="1202743500214" resolveInfo="lastName" />
                 </node>

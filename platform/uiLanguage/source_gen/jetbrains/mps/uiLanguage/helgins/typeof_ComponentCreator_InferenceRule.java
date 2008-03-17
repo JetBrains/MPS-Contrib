@@ -14,7 +14,7 @@ public class typeof_ComponentCreator_InferenceRule implements InferenceRule_Runt
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1203520943092", true), new QuotationClass_4().createNode(SLinkOperations.getTarget(nodeToCheck, "componentDeclaration", false)), nodeToCheck, null, "jetbrains.mps.uiLanguage.helgins", "1203520945751");
+    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1203520943092", true), new QuotationClass_3().createNode(SLinkOperations.getTarget(nodeToCheck, "componentDeclaration", false)), nodeToCheck, null, "jetbrains.mps.uiLanguage.helgins", "1203520945751");
   }
 
   public String getApplicableConceptFQName() {

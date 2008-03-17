@@ -463,14 +463,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202464751544">
-    <property name="package" value="Expressions" />
-    <link role="conceptDeclaration" targetNodeId="1.1202464730174" resolveInfo="ThisComponentExpression" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202464753265">
-      <property name="text" value="this" />
-      <link role="styleClass" targetNodeId="4.1186415544875" resolveInfo="KeyWord" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202465042442">
     <link role="conceptDeclaration" targetNodeId="1.1202465023198" resolveInfo="ComponentType" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202465045788">
