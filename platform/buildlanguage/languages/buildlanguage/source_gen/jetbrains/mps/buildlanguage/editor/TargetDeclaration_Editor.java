@@ -248,9 +248,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     if(this.myTargetDeclaration_EditorComponent == null) {
       this.myTargetDeclaration_EditorComponent = new TargetDeclaration_EditorComponent(node);
     }
-    EditorCell componentCell = this.myTargetDeclaration_EditorComponent.createEditorCell(context);
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    editorCell.addEditorCell(componentCell);
+    EditorCell editorCell = this.myTargetDeclaration_EditorComponent.createEditorCell(context);
     TargetDeclaration_Editor.setupBasic_TargetDeclaration_EditorComponentCell1(editorCell, node, context);
     return editorCell;
   }
@@ -259,9 +257,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     if(this.myTargetDeclaration_EditorComponent1 == null) {
       this.myTargetDeclaration_EditorComponent1 = new TargetDeclaration_EditorComponent(node);
     }
-    EditorCell componentCell = this.myTargetDeclaration_EditorComponent1.createEditorCell(context);
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    editorCell.addEditorCell(componentCell);
+    EditorCell editorCell = this.myTargetDeclaration_EditorComponent1.createEditorCell(context);
     TargetDeclaration_Editor.setupBasic_TargetDeclaration_EditorComponentCell(editorCell, node, context);
     return editorCell;
   }
@@ -313,7 +309,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createPropertyListList(EditorContext context, SNode node) {
     if(this.myPropertyListListHandler_propertyListList_ == null) {
-      this.myPropertyListListHandler_propertyListList_ = new TargetDeclaration_Editor._RefNodeListHandler5(node, "propertyList", context);
+      this.myPropertyListListHandler_propertyListList_ = new TargetDeclaration_Editor._RefNodeListHandler4(node, "propertyList", context);
     }
     EditorCell_Collection editorCell = this.myPropertyListListHandler_propertyListList_.createCells(context, new CellLayout_Vertical(), false);
     TargetDeclaration_Editor.setupBasic_PropertyListList(editorCell, node, context);
@@ -485,9 +481,9 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class _RefNodeListHandler5 extends RefNodeListHandler {
+  public static class _RefNodeListHandler4 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler5(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler4(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -542,8 +538,8 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstantCell3(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      TargetDeclaration_Editor._RefNodeListHandler5.setupBasic_ConstantCell3(editorCell, node, context);
-      TargetDeclaration_Editor._RefNodeListHandler5.setupLabel_ConstantCell3(editorCell, node, context);
+      TargetDeclaration_Editor._RefNodeListHandler4.setupBasic_ConstantCell3(editorCell, node, context);
+      TargetDeclaration_Editor._RefNodeListHandler4.setupLabel_ConstantCell3(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }

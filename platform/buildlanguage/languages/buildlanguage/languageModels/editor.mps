@@ -229,9 +229,11 @@
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197035916698">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1197035918730">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1197035945543">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1197035956300">
-                    <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
-                    <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197035950437" />
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205835688846">
+                    <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197035950437" />
+                    <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1205835688847">
+                      <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
+                    </node>
                   </node>
                   <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1197035935945">
                     <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227833861">
@@ -865,9 +867,11 @@
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197034522646">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1197034530647">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1197034548739">
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1197034562885">
-                <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
-                <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197034559820" />
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205835710352">
+                <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197034559820" />
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1205835710353">
+                  <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
+                </node>
               </node>
               <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1197034543250">
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227933449">
@@ -1207,9 +1211,11 @@
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197400712502">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1197400712503">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1197400712504">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1197400712505">
-                  <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
-                  <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197400712506" />
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205835715681">
+                  <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197400712506" />
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1205835715682">
+                    <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
+                  </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227894088">
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227933281">
@@ -1231,9 +1237,11 @@
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197400712514">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1197400712515">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1197400712516">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1197400712517">
-                  <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
-                  <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197400712518" />
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205835692142">
+                  <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1197400712518" />
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1205835692143">
+                    <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
+                  </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227923636">
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227906847">
@@ -1287,9 +1295,11 @@
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1200915080868">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1200915214836">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1200915218948">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1200915231105">
-                  <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
-                  <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1200915228118" />
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205835710381">
+                  <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1200915228118" />
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1205835710382">
+                    <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
+                  </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1200915214837">
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1200915220342">
@@ -1334,9 +1344,11 @@
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1200915109384">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1200915109385">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1200915147457">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1200915162668">
-                  <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
-                  <node role="instance" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1200915156430" />
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205835716308">
+                  <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_editorContext" id="1200915156430" />
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1205835716309">
+                    <link role="baseMethodDeclaration" targetNodeId="3.~EditorContext.isInspector():boolean" resolveInfo="isInspector" />
+                  </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227927312">
                   <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1200915109388" />

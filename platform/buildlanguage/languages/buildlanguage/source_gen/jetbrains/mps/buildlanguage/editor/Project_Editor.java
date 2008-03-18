@@ -459,7 +459,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createPathsList(EditorContext context, SNode node) {
     if(this.myPathsListHandler_pathsList_ == null) {
-      this.myPathsListHandler_pathsList_ = new Project_Editor._RefNodeListHandler13(node, "paths", context);
+      this.myPathsListHandler_pathsList_ = new Project_Editor._RefNodeListHandler12(node, "paths", context);
     }
     EditorCell_Collection editorCell = this.myPathsListHandler_pathsList_.createCells(context, new CellLayout_Vertical(), false);
     Project_Editor.setupBasic_PathsList(editorCell, node, context);
@@ -472,7 +472,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createImportPropertiesList(EditorContext context, SNode node) {
     if(this.myImportPropertiesListHandler_importPropertiesList_ == null) {
-      this.myImportPropertiesListHandler_importPropertiesList_ = new Project_Editor._RefNodeListHandler15(node, "importProperties", context);
+      this.myImportPropertiesListHandler_importPropertiesList_ = new Project_Editor._RefNodeListHandler14(node, "importProperties", context);
     }
     EditorCell_Collection editorCell = this.myImportPropertiesListHandler_importPropertiesList_.createCells(context, new CellLayout_Vertical(), false);
     Project_Editor.setupBasic_ImportPropertiesList(editorCell, node, context);
@@ -485,7 +485,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createImportProjectList(EditorContext context, SNode node) {
     if(this.myImportProjectListHandler_importProjectList_ == null) {
-      this.myImportProjectListHandler_importProjectList_ = new Project_Editor._RefNodeListHandler18(node, "importProject", context);
+      this.myImportProjectListHandler_importProjectList_ = new Project_Editor._RefNodeListHandler17(node, "importProject", context);
     }
     EditorCell_Collection editorCell = this.myImportProjectListHandler_importProjectList_.createCells(context, new CellLayout_Vertical(), false);
     Project_Editor.setupBasic_ImportProjectList(editorCell, node, context);
@@ -745,9 +745,9 @@ public class Project_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class _RefNodeListHandler13 extends RefNodeListHandler {
+  public static class _RefNodeListHandler12 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler13(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler12(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -802,16 +802,16 @@ public class Project_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstantCell11(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      Project_Editor._RefNodeListHandler13.setupBasic_ConstantCell11(editorCell, node, context);
-      Project_Editor._RefNodeListHandler13.setupLabel_ConstantCell11(editorCell, node, context);
+      Project_Editor._RefNodeListHandler12.setupBasic_ConstantCell11(editorCell, node, context);
+      Project_Editor._RefNodeListHandler12.setupLabel_ConstantCell11(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
 
 }
-  public static class _RefNodeListHandler15 extends RefNodeListHandler {
+  public static class _RefNodeListHandler14 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler15(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler14(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -866,16 +866,16 @@ public class Project_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstantCell9(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      Project_Editor._RefNodeListHandler15.setupBasic_ConstantCell9(editorCell, node, context);
-      Project_Editor._RefNodeListHandler15.setupLabel_ConstantCell9(editorCell, node, context);
+      Project_Editor._RefNodeListHandler14.setupBasic_ConstantCell9(editorCell, node, context);
+      Project_Editor._RefNodeListHandler14.setupLabel_ConstantCell9(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
 
 }
-  public static class _RefNodeListHandler18 extends RefNodeListHandler {
+  public static class _RefNodeListHandler17 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler18(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler17(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -930,8 +930,8 @@ public class Project_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstantCell13(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      Project_Editor._RefNodeListHandler18.setupBasic_ConstantCell13(editorCell, node, context);
-      Project_Editor._RefNodeListHandler18.setupLabel_ConstantCell13(editorCell, node, context);
+      Project_Editor._RefNodeListHandler17.setupBasic_ConstantCell13(editorCell, node, context);
+      Project_Editor._RefNodeListHandler17.setupLabel_ConstantCell13(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
