@@ -96,7 +96,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
 
   public EditorCell createComponentDeclarationReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new ComponentCreator_Editor._Inline9());
+    provider.setAuxiliaryCellProvider(new ComponentCreator_Editor._Inline8());
     EditorCell editorCell = provider.createEditorCell(context);
     ComponentCreator_Editor.setupBasic_ComponentDeclarationReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
@@ -123,9 +123,9 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _Inline9 extends AbstractCellProvider {
+  public static class _Inline8 extends AbstractCellProvider {
 
-    public  _Inline9() {
+    public  _Inline8() {
       super();
     }
 
@@ -149,9 +149,9 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      ComponentCreator_Editor._Inline9.setupBasic_NameCell(editorCell, node, context);
+      ComponentCreator_Editor._Inline8.setupBasic_NameCell(editorCell, node, context);
       if(editorCell instanceof EditorCell_Label) {
-        ComponentCreator_Editor._Inline9.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+        ComponentCreator_Editor._Inline8.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

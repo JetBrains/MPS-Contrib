@@ -138,7 +138,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell10(context, node));
+    editorCell.addEditorCell(this.createIndentCell9(context, node));
     editorCell.addEditorCell(this.createColumnCell1(context, node));
     return editorCell;
   }
@@ -160,7 +160,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell11(context, node));
+    editorCell.addEditorCell(this.createIndentCell10(context, node));
     editorCell.addEditorCell(this.createColumnCell2(context, node));
     return editorCell;
   }
@@ -182,7 +182,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell12(context, node));
+    editorCell.addEditorCell(this.createIndentCell11(context, node));
     editorCell.addEditorCell(this.createRootComponentCell(context, node));
     return editorCell;
   }
@@ -193,7 +193,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell13(context, node));
+    editorCell.addEditorCell(this.createIndentCell12(context, node));
     editorCell.addEditorCell(this.createButtonList(context, node));
     return editorCell;
   }
@@ -224,7 +224,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
 
   public EditorCell createButtonList(EditorContext context, SNode node) {
     if(this.myButtonListHandler_buttonList_ == null) {
-      this.myButtonListHandler_buttonList_ = new StandardDialog_Editor._RefNodeListHandler8(node, "button", context);
+      this.myButtonListHandler_buttonList_ = new StandardDialog_Editor._RefNodeListHandler6(node, "button", context);
     }
     EditorCell_Collection editorCell = this.myButtonListHandler_buttonList_.createCells(context, new CellLayout_Horizontal(), false);
     StandardDialog_Editor.setupBasic_ButtonList(editorCell, node, context);
@@ -233,6 +233,11 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.putUserObject(EditorCell.ROLE, this.myButtonListHandler_buttonList_.getElementRole());
     return editorCell;
+  }
+
+  public EditorCell createIndentCell9(EditorContext context, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(context, node);
+    return result;
   }
 
   public EditorCell createIndentCell10(EditorContext context, SNode node) {
@@ -246,11 +251,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createIndentCell12(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
-    return result;
-  }
-
-  public EditorCell createIndentCell13(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
@@ -284,9 +284,9 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _RefNodeListHandler8 extends RefNodeListHandler {
+  public static class _RefNodeListHandler6 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler8(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler6(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

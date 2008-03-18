@@ -520,52 +520,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202741595612">
-    <link role="conceptDeclaration" targetNodeId="1.1202741165758" resolveInfo="ComponentMethodDeclaration" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202741693898">
-      <property name="vertical" value="true" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202741696025">
-        <property name="selectable" value="false" />
-        <property name="vertical" value="false" />
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1202741708498">
-          <link role="relationDeclaration" targetNodeId="3.1068580123133" />
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Component" id="1202741729203">
-          <link role="editorComponent" targetNodeId="4.1185274995812" resolveInfo="BaseMethodDeclaration_NameCellComponent" />
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202741904305">
-          <property name="text" value="(" />
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202810729593">
-          <property name="selectable" value="false" />
-          <property name="vertical" value="false" />
-          <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1202810729594">
-            <property name="vertical" value="false" />
-            <property name="separatorText" value="," />
-            <link role="relationDeclaration" targetNodeId="3.1068580123134" />
-            <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202810729595" />
-          </node>
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202741908888">
-          <property name="text" value=")" />
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202741910390">
-          <property name="text" value="{" />
-        </node>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202741913392">
-        <property name="selectable" value="false" />
-        <property name="vertical" value="false" />
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Indent" id="1202741915253" />
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1202741917396">
-          <link role="relationDeclaration" targetNodeId="3.1068580123135" />
-        </node>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202741919914">
-        <property name="text" value="}" />
-      </node>
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202742512518">
     <property name="package" value="Expressions" />
     <link role="conceptDeclaration" targetNodeId="1.1202742489421" resolveInfo="ComponentReferencePart" />
@@ -594,70 +548,6 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1202744106411">
         <link role="relationDeclaration" targetNodeId="1.1202744064414" />
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1202809833689">
-    <property name="package" value="Operations" />
-    <link role="conceptDeclaration" targetNodeId="1.1202809739936" resolveInfo="ConceptMethodCallOperation" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202811151860">
-      <property name="name" value="expressionBox" />
-      <property name="vertical" value="false" />
-      <property name="drawBorder" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1202811151861">
-        <property name="noTargetText" value="&lt;no method&gt;" />
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1202811348675" />
-        <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1202811151862">
-          <link role="conceptDeclaration" targetNodeId="1.1202741165758" resolveInfo="ComponentMethodDeclaration" />
-          <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1202811151863">
-            <property name="drawBorder" value="false" />
-            <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="3.1083152972672" resolveInfo="name" />
-          </node>
-        </node>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202811151864">
-        <property name="drawBorder" value="false" />
-        <property name="text" value="(" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1202811151865">
-        <property name="separatorText" value="," />
-        <property name="vertical" value="false" />
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="3.1068499141038" />
-        <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202811151866">
-          <property name="editable" value="true" />
-          <property name="selectable" value="true" />
-          <property name="drawBorder" value="false" />
-        </node>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202811151867">
-        <property name="editable" value="false" />
-        <property name="text" value=")" />
-        <property name="drawBorder" value="false" />
-        <property name="selectable" value="true" />
-        <property name="attractsFocus" value="1" />
-        <node role="focusPolicyApplicable" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_NodeCondition" id="1202811151868">
-          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202811151869">
-            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202811151870">
-              <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1202811151871">
-                <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.IsEmptyOperation" id="1202811151877" />
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227902145">
-                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227887128">
-                    <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1202811151876" />
-                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1202811151875">
-                      <link role="link" targetNodeId="3.1070568331956" />
-                    </node>
-                  </node>
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1202811151873">
-                    <link role="link" targetNodeId="3.1068580123134" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>

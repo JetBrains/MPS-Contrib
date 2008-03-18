@@ -74,7 +74,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell8(context, node));
+    editorCell.addEditorCell(this.createIndentCell7(context, node));
     editorCell.addEditorCell(this.createComponentList(context, node));
     return editorCell;
   }
@@ -89,7 +89,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
   public EditorCell createComponentList(EditorContext context, SNode node) {
     if(this.myComponentListHandler_componentList_ == null) {
-      this.myComponentListHandler_componentList_ = new GridRow_Editor._RefNodeListHandler6(node, "component", context);
+      this.myComponentListHandler_componentList_ = new GridRow_Editor._RefNodeListHandler4(node, "component", context);
     }
     EditorCell_Collection editorCell = this.myComponentListHandler_componentList_.createCells(context, new CellLayout_Horizontal(), false);
     GridRow_Editor.setupBasic_ComponentList(editorCell, node, context);
@@ -100,14 +100,14 @@ public class GridRow_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell8(EditorContext context, SNode node) {
+  public EditorCell createIndentCell7(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class _RefNodeListHandler6 extends RefNodeListHandler {
+  public static class _RefNodeListHandler4 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler6(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler4(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

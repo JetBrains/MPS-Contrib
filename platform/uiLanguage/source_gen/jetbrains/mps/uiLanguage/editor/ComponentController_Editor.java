@@ -190,7 +190,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell5(context, node));
+    editorCell.addEditorCell(this.createIndentCell4(context, node));
     editorCell.addEditorCell(this.createComponentMethodList(context, node));
     return editorCell;
   }
@@ -282,7 +282,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public EditorCell createIndentCell5(EditorContext context, SNode node) {
+  public EditorCell createIndentCell4(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }

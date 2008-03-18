@@ -73,7 +73,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell15(context, node));
+    editorCell.addEditorCell(this.createIndentCell14(context, node));
     editorCell.addEditorCell(this.createContentList(context, node));
     return editorCell;
   }
@@ -88,7 +88,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
 
   public EditorCell createContentList(EditorContext context, SNode node) {
     if(this.myContentListHandler_contentList_ == null) {
-      this.myContentListHandler_contentList_ = new Scroller_Editor._RefNodeListHandler9(node, "content", context);
+      this.myContentListHandler_contentList_ = new Scroller_Editor._RefNodeListHandler7(node, "content", context);
     }
     EditorCell_Collection editorCell = this.myContentListHandler_contentList_.createCells(context, new CellLayout_Vertical(), false);
     Scroller_Editor.setupBasic_ContentList(editorCell, node, context);
@@ -99,14 +99,14 @@ public class Scroller_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell15(EditorContext context, SNode node) {
+  public EditorCell createIndentCell14(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class _RefNodeListHandler9 extends RefNodeListHandler {
+  public static class _RefNodeListHandler7 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler9(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

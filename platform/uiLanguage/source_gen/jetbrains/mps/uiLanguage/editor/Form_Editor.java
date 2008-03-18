@@ -73,7 +73,7 @@ public class Form_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell6(context, node));
+    editorCell.addEditorCell(this.createIndentCell5(context, node));
     editorCell.addEditorCell(this.createPartList(context, node));
     return editorCell;
   }
@@ -88,7 +88,7 @@ public class Form_Editor extends DefaultNodeEditor {
 
   public EditorCell createPartList(EditorContext context, SNode node) {
     if(this.myPartListHandler_partList_ == null) {
-      this.myPartListHandler_partList_ = new Form_Editor._RefNodeListHandler5(node, "part", context);
+      this.myPartListHandler_partList_ = new Form_Editor._RefNodeListHandler3(node, "part", context);
     }
     EditorCell_Collection editorCell = this.myPartListHandler_partList_.createCells(context, new CellLayout_Vertical(), false);
     Form_Editor.setupBasic_PartList(editorCell, node, context);
@@ -99,14 +99,14 @@ public class Form_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell6(EditorContext context, SNode node) {
+  public EditorCell createIndentCell5(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class _RefNodeListHandler5 extends RefNodeListHandler {
+  public static class _RefNodeListHandler3 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler5(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler3(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

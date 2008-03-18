@@ -90,7 +90,7 @@ public class Grid_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell9(context, node));
+    editorCell.addEditorCell(this.createIndentCell8(context, node));
     editorCell.addEditorCell(this.createRowList(context, node));
     return editorCell;
   }
@@ -115,7 +115,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowList(EditorContext context, SNode node) {
     if(this.myRowListHandler_rowList_ == null) {
-      this.myRowListHandler_rowList_ = new Grid_Editor._RefNodeListHandler7(node, "row", context);
+      this.myRowListHandler_rowList_ = new Grid_Editor._RefNodeListHandler5(node, "row", context);
     }
     EditorCell_Collection editorCell = this.myRowListHandler_rowList_.createCells(context, new CellLayout_Vertical(), false);
     Grid_Editor.setupBasic_RowList(editorCell, node, context);
@@ -128,7 +128,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createContentList(EditorContext context, SNode node) {
     if(this.myContentListHandler_contentList_ == null) {
-      this.myContentListHandler_contentList_ = new Grid_Editor._RefNodeListHandler10(node, "content", context);
+      this.myContentListHandler_contentList_ = new Grid_Editor._RefNodeListHandler8(node, "content", context);
     }
     EditorCell_Collection editorCell = this.myContentListHandler_contentList_.createCells(context, new CellLayout_Horizontal(), false);
     Grid_Editor.setupBasic_ContentList(editorCell, node, context);
@@ -139,14 +139,14 @@ public class Grid_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell9(EditorContext context, SNode node) {
+  public EditorCell createIndentCell8(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class _RefNodeListHandler7 extends RefNodeListHandler {
+  public static class _RefNodeListHandler5 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler5(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -187,9 +187,9 @@ public class Grid_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class _RefNodeListHandler10 extends RefNodeListHandler {
+  public static class _RefNodeListHandler8 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler10(SNode ownerNode, String childRole, EditorContext context) {
+    public  _RefNodeListHandler8(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

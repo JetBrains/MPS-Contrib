@@ -114,7 +114,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell7(context, node));
+    editorCell.addEditorCell(this.createIndentCell6(context, node));
     editorCell.addEditorCell(this.createContentCell(context, node));
     return editorCell;
   }
@@ -135,7 +135,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell7(EditorContext context, SNode node) {
+  public EditorCell createIndentCell6(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
