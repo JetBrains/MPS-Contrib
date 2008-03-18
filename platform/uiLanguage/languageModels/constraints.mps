@@ -21,7 +21,9 @@
   <language namespace="jetbrains.mps.uiLanguage" />
   <language namespace="jetbrains.mps.patterns" />
   <language namespace="jetbrains.mps.baseLanguage.strings" />
-  <language namespace="jetbrains.mps.transformation.TLBase" />
+  <language namespace="jetbrains.mps.transformation.TLBase">
+    <languageAspect modelUID="jetbrains.mps.transformation.TLBase.structure" version="1" />
+  </language>
   <language namespace="jetbrains.mps.bootstrap.actionsLanguage" />
   <language namespace="jetbrains.mps.baseLanguageInternal" />
   <maxImportIndex value="18" />
