@@ -45,13 +45,13 @@ public class SimpleFrame extends JFrame {
     }
   }
 
-  public void anotherSimpleMethod(int a, int b) {
+  /* package */void anotherSimpleMethod(int a, int b) {
     if(a == b) {
       int c;
     }
   }
 
-  public void simpleMethod() {
+  /* package */void simpleMethod() {
     myThis.anotherSimpleMethod(2, 3);
     myThis.anotherSimpleMethod(3, 2);
   }

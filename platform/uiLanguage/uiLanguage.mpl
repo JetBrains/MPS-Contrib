@@ -12,7 +12,9 @@
       <models>
         <modelRoot path="${language_descriptor}\generator\baseLanguage\template" namespacePrefix="jetbrains.mps.uiLanguage.generator.baseLanguage.template" />
       </models>
-      <external-templates />
+      <external-templates>
+        <generator generatorUID="jetbrains.mps.baseLanguage.classifiers#1205839057922" />
+      </external-templates>
       <dependencies>
         <dependency reexport="false">jetbrains.mps.baseLanguage</dependency>
         <dependency reexport="false">jetbrains.mps.baseLanguageInternal</dependency>

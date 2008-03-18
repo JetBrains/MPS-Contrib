@@ -107,7 +107,7 @@ public class PathField extends JPanel {
     this.firePropertyChange("mode", oldValue, newValue);
   }
 
-  public void choosePathClicked() {
+  /* package */void choosePathClicked() {
     String oldPath = myThis.myPathField.getText();
     TreeFileChooser chooser = new TreeFileChooser();
     chooser.setMode(myThis.getMode());

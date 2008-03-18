@@ -266,12 +266,12 @@ public class DialogDemo extends JDialog {
     this.firePropertyChange("lastName", oldValue, newValue);
   }
 
-  public void onOk() {
+  /* package */void onOk() {
     System.out.println("OK");
     myThis.dispose();
   }
 
-  public void onCancel() {
+  /* package */void onCancel() {
     System.out.println("Cancel");
     myThis.dispose();
   }
