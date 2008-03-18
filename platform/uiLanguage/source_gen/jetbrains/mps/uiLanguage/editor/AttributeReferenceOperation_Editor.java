@@ -16,37 +16,37 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider
 
 public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_AttributeReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_AttributeDeclarationReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202478508742");
   }
 
-  private static void setupLabel_AttributeReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_AttributeDeclarationReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createAttributeReferenceCell(context, node);
+    return this.createAttributeDeclarationReferenceCell(context, node);
   }
 
-  public EditorCell createAttributeReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createAttributeDeclarationReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new AttributeReferenceOperation_Editor._Inline6());
     EditorCell editorCell = provider.createEditorCell(context);
-    AttributeReferenceOperation_Editor.setupBasic_AttributeReferenceCell(editorCell, node, context);
+    AttributeReferenceOperation_Editor.setupBasic_AttributeDeclarationReferenceCell(editorCell, node, context);
     if(editorCell instanceof EditorCell_Label) {
-      AttributeReferenceOperation_Editor.setupLabel_AttributeReferenceCell((EditorCell_Label)editorCell, node, context);
+      AttributeReferenceOperation_Editor.setupLabel_AttributeDeclarationReferenceCell((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createAttributeReferenceCell(EditorContext context, SNode node) {
+  public EditorCell createAttributeDeclarationReferenceCell(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
-    provider.setRole("attribute");
+    provider.setRole("attributeDeclaration");
     provider.setNoTargetText("");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createAttributeReferenceCellinternal(context, node, provider);
+    EditorCell cellWithRole = this.createAttributeDeclarationReferenceCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if(attributeConcept != null) {

@@ -192,7 +192,7 @@
       <link role="conceptPropertyDeclaration" targetNodeId="2.1197029536315" resolveInfo="lvalue" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202478491160">
-      <property name="role" value="attribute" />
+      <property name="role" value="attributeDeclaration" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1202388805843" resolveInfo="AttributeDeclaration" />
       <link role="specializedLink" targetNodeId="3v.1205756909548" />
