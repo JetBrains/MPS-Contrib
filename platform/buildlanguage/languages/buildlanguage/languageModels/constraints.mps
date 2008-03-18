@@ -58,7 +58,9 @@
   <language namespace="jetbrains.mps.core" />
   <language namespace="jetbrains.mps.bootstrap.helgins" />
   <language namespace="jetbrains.mps.baseLanguage.strings" />
-  <language namespace="jetbrains.mps.transformation.TLBase" />
+  <language namespace="jetbrains.mps.transformation.TLBase">
+    <languageAspect modelUID="jetbrains.mps.transformation.TLBase.structure" version="1" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguageInternal" />
   <maxImportIndex value="17" />
   <import index="1" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
