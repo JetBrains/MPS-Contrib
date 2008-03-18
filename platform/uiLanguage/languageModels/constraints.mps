@@ -1756,25 +1756,32 @@
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1205753602979">
     <link role="concept" targetNodeId="1.1202465023198" resolveInfo="ComponentType" />
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1205753604799">
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1205837477493">
       <property name="name" value="getMembers" />
-      <link role="overriddenMethod" targetNodeId="18.1205752850005" resolveInfo="getMembers" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1205753604801">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1205753626101">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205767363403">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205767360431">
-              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1205767353848" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1205767362714">
+      <link role="overriddenMethod" targetNodeId="18.1205837324654" resolveInfo="getMembers" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1205837477495">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1205837519199">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205837522487">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205837520343">
+              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1205837519967" />
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1205837521907">
                 <link role="link" targetNodeId="1.1202465029373" />
               </node>
             </node>
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1205767365498">
-              <link role="conceptMethodDeclaration" targetNodeId="18.1205752112173" resolveInfo="getMembers" />
+            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1205837525786">
+              <link role="conceptMethodDeclaration" targetNodeId="18.1205836846834" resolveInfo="getMembers" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1205837527068">
+                <link role="variableDeclaration" targetNodeId="1205837517306" resolveInfo="contextNode" />
+              </node>
             </node>
           </node>
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1205753615966">
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1205837517306">
+        <property name="name" value="contextNode" />
+        <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1205837517307" />
+      </node>
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1205837517308">
         <link role="elementConcept" targetNodeId="2v.1205752032448" resolveInfo="IMember" />
       </node>
     </node>
