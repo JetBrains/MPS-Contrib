@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.uiLanguage" pluginClass="jetbrains.mps.uiLangauge.plugin.UILanguagePlugin" compileInMPS="false">
+<language namespace="jetbrains.mps.uiLanguage" pluginClass="jetbrains.mps.uiLanguage.plugin.UILanguagePlugin" compileInMPS="false">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.uiLanguage" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.uiLanguage" />
