@@ -151,6 +151,10 @@
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1205765561390">
       <link role="intfc" targetNodeId="3v.1205752032448" resolveInfo="IMember" />
     </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.structure.ReferenceConceptLink" id="1205922204325">
+      <link role="conceptLinkDeclaration" targetNodeId="3v.1205921683134" resolveInfo="operationConcept" />
+      <link role="target" targetNodeId="1202478475127" resolveInfo="AttributeReferenceOperation" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202464424004">
     <property name="name" value="BindExpression" />
