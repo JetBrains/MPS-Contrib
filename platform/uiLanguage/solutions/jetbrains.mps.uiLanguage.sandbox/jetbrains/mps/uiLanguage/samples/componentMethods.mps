@@ -71,6 +71,12 @@
                 <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1205772033320" />
               </node>
             </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1206010590974">
+              <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1206010590975">
+                <property name="name" value="b" />
+                <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1206010590976" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

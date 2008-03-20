@@ -60,10 +60,6 @@
       <property name="role" value="extendedComponent" />
       <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202393255270">
-      <property name="role" value="mappedTo" />
-      <link role="target" targetNodeId="2.1068390468198" resolveInfo="ClassConcept" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1202393168541">
       <property name="role" value="mapTo" />
       <link role="target" targetNodeId="2.1068390468198" resolveInfo="ClassConcept" />
