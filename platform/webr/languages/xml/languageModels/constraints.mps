@@ -90,10 +90,14 @@
                 </node>
               </node>
             </node>
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1177896333642">
-              <link role="baseMethodDeclaration" targetNodeId="10.~SNode.isRoot():boolean" resolveInfo="isRoot" />
-              <node role="instance" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177896328164">
-                <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1206431426384">
+              <node role="operand" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SemanticDowncastExpression" id="1206431469182">
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177896328164">
+                  <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1206431426385">
+                <link role="baseMethodDeclaration" targetNodeId="10.~SNode.isRoot():boolean" resolveInfo="isRoot" />
               </node>
             </node>
           </node>
