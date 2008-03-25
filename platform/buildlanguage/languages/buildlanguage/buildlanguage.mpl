@@ -6,6 +6,7 @@
   </models>
   <accessoryModels>
     <model modelUID="jetbrains.mps.buildlanguage.generated" />
+    <model modelUID="jetbrains.mps.buildlanguage.optional" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">
