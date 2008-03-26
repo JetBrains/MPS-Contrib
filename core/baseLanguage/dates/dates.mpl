@@ -15,7 +15,6 @@
       <external-templates />
       <dependencies>
         <dependency reexport="true">jetbrains.mps.baseLanguage</dependency>
-        <dependency reexport="true">jetbrains.springframework.configuration</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguages>jetbrains.springframework.configuration</usedLanguages>
