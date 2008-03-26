@@ -37,8 +37,6 @@
     <exportedPackage />
   </osgiOptions>
   <dependencies>
-    <dependency reexport="true">jetbrains.springframework.configuration</dependency>
-    <dependency reexport="true">jetbrains.springframework.configurationInternal</dependency>
     <dependency reexport="true">jetbrains.mps.ide.scriptLanguage</dependency>
     <dependency reexport="false">jetbrains.mps.baseLanguageInternal</dependency>
   </dependencies>
