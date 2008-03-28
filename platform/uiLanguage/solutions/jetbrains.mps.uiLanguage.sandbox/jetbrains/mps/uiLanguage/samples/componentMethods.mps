@@ -54,32 +54,7 @@
         <property name="name" value="b" />
         <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1205772019451" />
       </node>
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202810685025">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1205772029622">
-          <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1205772030173">
-            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1205772030910">
-              <link role="variableDeclaration" targetNodeId="1205772018605" resolveInfo="b" />
-            </node>
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1205772030047">
-              <link role="variableDeclaration" targetNodeId="1205772016398" resolveInfo="a" />
-            </node>
-          </node>
-          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1205772029624">
-            <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1205772033318">
-              <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1205772033319">
-                <property name="name" value="c" />
-                <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1205772033320" />
-              </node>
-            </node>
-            <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1206010590974">
-              <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1206010590975">
-                <property name="name" value="b" />
-                <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1206010590976" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202810685025" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1202810686041" />
     </node>
     <node role="componentMethod" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1205770171940">
