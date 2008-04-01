@@ -7,8 +7,8 @@ import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import webr.framework.function.HtmlStringUtil;
 import webr.xml.constraints.Content_Behavior;
+import webr.framework.function.HtmlStringUtil;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
@@ -41,20 +41,20 @@ public class QueriesGenerated {
     return " " + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "attributeDeclaration", false), "attributeName") + "=\"";
   }
 
+  public static Object propertyMacro_GetPropertyValue_1179110837332(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Content_Behavior.call_isSeparate_string_1179110905432(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_1179111291695(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return HtmlStringUtil.html(SPropertyOperations.getString(_context.getNode(), "text"));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1179110837332(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_1179112381192(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return Content_Behavior.call_isSeparate_string_1179110905432(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1179112575400(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return "&" + SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "entityDeclaration", false), "entityName") + ";";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1179112381192(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return Content_Behavior.call_isSeparate_string_1179110905432(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1179112825140(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -65,16 +65,16 @@ public class QueriesGenerated {
     return Content_Behavior.call_isSeparate_string_1179110905432(_context.getNode());
   }
 
+  public static Object propertyMacro_GetPropertyValue_1179113415864(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Content_Behavior.call_isSeparate_string_1179110905432(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_1179113432099(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return "<" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1179113432129(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return "</" + ElementDeclaration_Behavior.call_getQualifiedName_1189990438446(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false)) + ">";
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1179113415864(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return Content_Behavior.call_isSeparate_string_1179110905432(_context.getNode());
   }
 
   public static boolean ifMacro_Condition_1171381345810(final IOperationContext operationContext, final IfMacroContext _context) {

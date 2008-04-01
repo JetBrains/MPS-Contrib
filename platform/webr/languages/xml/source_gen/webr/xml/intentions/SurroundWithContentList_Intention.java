@@ -34,7 +34,7 @@ public class SurroundWithContentList_Intention extends BaseIntention implements 
   public void execute(SNode node, EditorContext editorContext) {
     SNode contentList = SConceptOperations.createNewNode("webr.xml.structure.ContentList", null);
     List<SNode> selectedNodes = editorContext.getNodeEditorComponent().getNodeRangeSelection().getNodes();
-    if(selectedNodes.isEmpty()) {
+    if (selectedNodes.isEmpty()) {
       selectedNodes.add(editorContext.getSelectedNode());
     }
     SNode first = selectedNodes.get(0);

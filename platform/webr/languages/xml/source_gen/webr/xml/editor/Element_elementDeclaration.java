@@ -45,7 +45,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline2());
     EditorCell editorCell = provider.createEditorCell(context);
     Element_elementDeclaration.setupBasic_ElementDeclarationReferenceCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
+    if (editorCell instanceof EditorCell_Label) {
       Element_elementDeclaration.setupLabel_ElementDeclarationReferenceCell((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -61,7 +61,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     EditorCell cellWithRole = this.createElementDeclarationReferenceCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);

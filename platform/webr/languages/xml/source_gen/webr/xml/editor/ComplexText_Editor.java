@@ -22,6 +22,11 @@ public class ComplexText_Editor extends DefaultNodeEditor {
 
   /* package */AbstractCellListHandler myTextListHandler_textList_;
 
+  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961882631");
+    editorCell.setDrawBorder(false);
+  }
+
   private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961886493");
     editorCell.setSelectable(false);
@@ -30,11 +35,6 @@ public class ComplexText_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_TextList(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961889607");
-    editorCell.setDrawBorder(false);
-  }
-
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961882631");
     editorCell.setDrawBorder(false);
   }
 
@@ -69,7 +69,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createTextList(EditorContext context, SNode node) {
-    if(this.myTextListHandler_textList_ == null) {
+    if (this.myTextListHandler_textList_ == null) {
       this.myTextListHandler_textList_ = new ComplexText_Editor._RefNodeListHandler(node, "text", context);
     }
     EditorCell_Collection editorCell = this.myTextListHandler_textList_.createCells(context, new CellLayout_Horizontal(), false);
@@ -106,14 +106,14 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
-      if(elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
-        if(elementNode != null) {
+        if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
         }
-        if(elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
         }
       }
