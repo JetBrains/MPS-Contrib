@@ -60,7 +60,7 @@ public class PathField extends JPanel {
 
   private void unbind() {
     for(AutoBinding binding : this.myBindings) {
-      if(binding.isBound()) {
+      if (binding.isBound()) {
         binding.unbind();
       }
     }
@@ -111,11 +111,11 @@ public class PathField extends JPanel {
     String oldPath = myThis.myPathField.getText();
     TreeFileChooser chooser = new TreeFileChooser();
     chooser.setMode(myThis.getMode());
-    if(oldPath != null) {
+    if (oldPath != null) {
       chooser.setInitialFile(new FileSystemFile(oldPath));
     }
     IFile result = chooser.showDialog();
-    if(result != null) {
+    if (result != null) {
       myThis.setPath(result.getPath());
     }
   }
