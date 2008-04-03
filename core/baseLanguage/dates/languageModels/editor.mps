@@ -1942,5 +1942,27 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1207222934836">
+    <property name="package" value="operation.arithmetic" />
+    <link role="conceptDeclaration" targetNodeId="1.1207222873197" resolveInfo="DateTimeMinusPeriodOperation" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1207222936978">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1207222936979">
+        <link role="relationDeclaration" targetNodeId="1.1207222904240" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1207222936980">
+        <property name="text" value="-" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1207222936981">
+        <property name="text" value="period" />
+        <property name="selectable" value="false" />
+        <property name="fontSize" value="8" />
+        <property name="textFgColor" value="lightGray" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1207222936982">
+        <link role="relationDeclaration" targetNodeId="1.1207222904241" />
+      </node>
+    </node>
+  </node>
 </model>
 
