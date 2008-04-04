@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.buildlanguage" pluginClass="jetbrains.mps.buildlanguage.BuildLanguagePlugin" compileInMPS="false">
+<language namespace="jetbrains.mps.buildlanguage" compileInMPS="false">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.buildlanguage" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.buildlanguage" />
@@ -42,6 +42,7 @@
     <dependency reexport="true">jetbrains.mps.baseLanguage.strings</dependency>
     <dependency reexport="false">jetbrains.mps.regexp</dependency>
     <dependency reexport="false">jetbrains.mps.regexp.examples</dependency>
+    <dependency reexport="false">jetbrains.mps.transformation.TLBase</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguages>jetbrains.mps.baseLanguageInternal</usedLanguages>
