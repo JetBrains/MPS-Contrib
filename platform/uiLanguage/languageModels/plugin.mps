@@ -23,7 +23,7 @@
   <import index="6" modelUID="jetbrains.mps.ide.ui.smodel@java_stub" version="-1"/>
   <visible index="2" modelUID="jetbrains.mps.uiLanguage.constraints"/>
   <node type="jetbrains.mps.bootstrap.pluginLanguage.structure.TabbedEditorDeclaration" id="1207330934917">
-    <property name="name" value="UIEditor"/>
+    <property name="name" value="ComponentEditor"/>
     <link role="mainConcept" targetNodeId="1.1202387718766" resolveInfo="ComponentDeclaration"/>
     <node role="getMainConceptBlock" type="jetbrains.mps.bootstrap.pluginLanguage.structure.GetBaseNodeBlock"
           id="1207330934918">
@@ -160,9 +160,16 @@
               </node>
               <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Model_AddRootOperation"
                     id="1207331545783">
-                <node role="nodeArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference"
-                      id="1207331548535">
-                  <link role="variableDeclaration" targetNodeId="1207331393670" resolveInfo="controller"/>
+                <node role="nodeArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1207484611310">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference"
+                        id="1207331548535">
+                    <link role="variableDeclaration" targetNodeId="1207331393670" resolveInfo="controller"/>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation"
+                        id="1207484870491">
+                    <link role="baseMethodDeclaration"
+                          targetNodeId="5.~BaseAdapter.getNode():jetbrains.mps.smodel.SNode" resolveInfo="getNode"/>
+                  </node>
                 </node>
               </node>
             </node>
