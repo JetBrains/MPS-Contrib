@@ -201,6 +201,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_1207763305538(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return BeanDeclaration_Behavior.call_getGeneratedName_1207755414961(_context.getNode());
+  }
+
   public static Object referenceMacro_GetReferent_1202395785142(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(_context.getNode(), "componentFactory");
   }
@@ -424,6 +428,10 @@ public class QueriesGenerated {
 
   public static List sourceNodesQuery_1207759431551(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "method", true);
+  }
+
+  public static List sourceNodesQuery_1207762114635(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "creator", true), "parameter", true);
   }
 
 }
