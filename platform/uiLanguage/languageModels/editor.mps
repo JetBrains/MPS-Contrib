@@ -1177,21 +1177,5 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1207749812210">
-    <property name="package" value="Beans.Attributes"/>
-    <link role="conceptDeclaration" targetNodeId="1.1207749215035" resolveInfo="BeanAttributeReferenceOperation"/>
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1207749817808">
-      <link role="relationDeclaration" targetNodeId="1.1207749215037"/>
-      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent"
-            id="1207749817809">
-        <link role="conceptDeclaration" targetNodeId="1.1207749568170" resolveInfo="BeanAttributeDeclaration"/>
-        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property"
-              id="1207749821875">
-          <property name="readOnly" value="true"/>
-          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name"/>
-        </node>
-      </node>
-    </node>
-  </node>
 </model>
 

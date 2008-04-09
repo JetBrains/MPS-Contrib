@@ -506,7 +506,7 @@
       <property name="metaClass" value="aggregation"/>
       <property name="role" value="attribute"/>
       <property name="sourceCardinality" value="0..n"/>
-      <link role="target" targetNodeId="1207749568170" resolveInfo="BeanAttributeDeclaration"/>
+      <link role="target" targetNodeId="1202388805843" resolveInfo="AttributeDeclaration"/>
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1207748143012">
@@ -553,36 +553,6 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty"
           id="1207749188588">
       <link role="conceptPropertyDeclaration" targetNodeId="2.1197029536315" resolveInfo="lvalue"/>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1207749215035">
-    <property name="package" value="Beans.Attributes"/>
-    <property name="name" value="BeanAttributeReferenceOperation"/>
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
-          id="1207749215036">
-      <link role="intfc" targetNodeId="3v.1205756064662" resolveInfo="IMemberOperation"/>
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1207749215037">
-      <property name="role" value="attribute"/>
-      <property name="sourceCardinality" value="1"/>
-      <link role="specializedLink" targetNodeId="3v.1205756909548"/>
-      <link role="target" targetNodeId="1207749568170" resolveInfo="BeanAttributeDeclaration"/>
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty"
-          id="1207749215038">
-      <link role="conceptPropertyDeclaration" targetNodeId="2.1197029536315" resolveInfo="lvalue"/>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1207749568170">
-    <property name="package" value="Beans.Attributes"/>
-    <property name="name" value="BeanAttributeDeclaration"/>
-    <link role="extends" targetNodeId="1202388805843" resolveInfo="AttributeDeclaration"/>
-    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.structure.ReferenceConceptLink"
-          id="1207749627244">
-      <link role="conceptLinkDeclaration" targetNodeId="3v.1205921683134" resolveInfo="operationConcept"/>
-      <link role="target" targetNodeId="1207749215035" resolveInfo="BeanAttributeReferenceOperation"/>
     </node>
   </node>
 </model>

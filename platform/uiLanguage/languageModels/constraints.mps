@@ -2339,7 +2339,7 @@
                 <link role="variableDeclaration" targetNodeId="1207748559678" resolveInfo="type"/>
               </node>
               <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess"
-                    id="1207748928762">
+                    id="1207752360881">
                 <link role="link" targetNodeId="1.1207748756077"/>
               </node>
             </node>
