@@ -10,11 +10,11 @@ import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_AttributeValue_InferenceRule implements InferenceRule_Runtime {
 
-  public  typeof_AttributeValue_InferenceRule() {
+  public typeof_AttributeValue_InferenceRule() {
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "jetbrains.mps.uiLanguage.helgins", "1202396534901", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), SLinkOperations.getTarget(nodeToCheck, "value", true), null, "jetbrains.mps.uiLanguage.helgins", "1202396548783");
+    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "jetbrains.mps.uiLanguage.helgins", "1202396534901", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), SLinkOperations.getTarget(nodeToCheck, "value", true), null, "jetbrains.mps.uiLanguage.helgins", "1202396548783", false);
   }
 
   public String getApplicableConceptFQName() {

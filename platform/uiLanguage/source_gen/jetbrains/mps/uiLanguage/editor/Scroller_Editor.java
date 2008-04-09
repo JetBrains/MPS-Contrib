@@ -21,7 +21,7 @@ import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 
 public class Scroller_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myContentListHandler_contentList_;
+  /* package */ AbstractCellListHandler myContentListHandler_contentList_;
 
   private static void setupBasic_ColumnCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1203089506193");
@@ -87,7 +87,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createContentList(EditorContext context, SNode node) {
-    if(this.myContentListHandler_contentList_ == null) {
+    if (this.myContentListHandler_contentList_ == null) {
       this.myContentListHandler_contentList_ = new Scroller_Editor._RefNodeListHandler7(node, "content", context);
     }
     EditorCell_Collection editorCell = this.myContentListHandler_contentList_.createCells(context, new CellLayout_Vertical(), false);
@@ -106,7 +106,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
 
   public static class _RefNodeListHandler7 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -129,14 +129,14 @@ public class Scroller_Editor extends DefaultNodeEditor {
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
-      if(elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
-        if(elementNode != null) {
+        if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
         }
-        if(elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
         }
       }
@@ -146,6 +146,6 @@ public class Scroller_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-}
+  }
 
 }

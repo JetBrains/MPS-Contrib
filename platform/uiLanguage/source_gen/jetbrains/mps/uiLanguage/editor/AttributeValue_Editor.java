@@ -74,8 +74,8 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline2());
     EditorCell editorCell = provider.createEditorCell(context);
     AttributeValue_Editor.setupBasic_AttributeReferenceCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      AttributeValue_Editor.setupLabel_AttributeReferenceCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      AttributeValue_Editor.setupLabel_AttributeReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -90,12 +90,12 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createAttributeReferenceCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public EditorCell createValueCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
@@ -103,8 +103,8 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     AttributeValue_Editor.setupBasic_ValueCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      AttributeValue_Editor.setupLabel_ValueCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      AttributeValue_Editor.setupLabel_ValueCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -119,17 +119,17 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createValueCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public static class _Inline2 extends AbstractCellProvider {
 
-    public  _Inline2() {
+    public _Inline2() {
       super();
     }
 
@@ -155,8 +155,8 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       AttributeValue_Editor._Inline2.setupBasic_NameCell(editorCell, node, context);
-      if(editorCell instanceof EditorCell_Label) {
-        AttributeValue_Editor._Inline2.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+      if (editorCell instanceof EditorCell_Label) {
+        AttributeValue_Editor._Inline2.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
@@ -171,14 +171,14 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
       EditorCell cellWithRole = this.createNameCellinternal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
-      if(attributeConcept != null) {
+      if (attributeConcept != null) {
         IOperationContext opContext = context.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
-      return cellWithRole;
+        return cellWithRole;
     }
 
-}
+  }
 
 }

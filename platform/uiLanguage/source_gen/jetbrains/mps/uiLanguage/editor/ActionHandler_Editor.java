@@ -80,8 +80,8 @@ public class ActionHandler_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     ActionHandler_Editor.setupBasic_HandlerCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      ActionHandler_Editor.setupLabel_HandlerCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      ActionHandler_Editor.setupLabel_HandlerCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -96,12 +96,12 @@ public class ActionHandler_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createHandlerCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
 }

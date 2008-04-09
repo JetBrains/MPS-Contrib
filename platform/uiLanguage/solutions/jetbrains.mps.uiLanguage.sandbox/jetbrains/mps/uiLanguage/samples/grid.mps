@@ -1,99 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.uiLanguage.samples.grid">
-  <persistence version="1" />
-  <refactoringHistory />
+  <persistence version="1"/>
+  <refactoringHistory/>
   <language namespace="jetbrains.mps.baseLanguage">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0"/>
   </language>
-  <language namespace="jetbrains.mps.uiLanguage" />
-  <maxImportIndex value="2" />
-  <import index="1" modelUID="javax.swing@java_stub" version="-1" />
-  <import index="2" modelUID="java.awt@java_stub" version="-1" />
-  <visible index="2" modelUID="jetbrains.mps.uiLanguage.components" />
+  <language namespace="jetbrains.mps.uiLanguage"/>
+  <maxImportIndex value="2"/>
+  <import index="1" modelUID="javax.swing@java_stub" version="-1"/>
+  <import index="2" modelUID="java.awt@java_stub" version="-1"/>
+  <visible index="2" modelUID="jetbrains.mps.uiLanguage.components"/>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202823852897">
-    <property name="name" value="GridDemo" />
+    <property name="name" value="GridDemo"/>
     <node role="root" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202823856038">
-      <link role="componentDeclaration" targetNodeId="2v.1202393511419" resolveInfo="Frame" />
+      <link role="componentDeclaration" targetNodeId="2v.1202393511419" resolveInfo="Frame"/>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.Grid" id="1202824139244">
         <node role="row" type="jetbrains.mps.uiLanguage.structure.GridRow" id="1202824139885">
           <node role="component" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202824149718">
-            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label" />
+            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label"/>
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202824152266">
-              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
+              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text"/>
               <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202824152924">
-                <property name="value" value="1,1" />
+                <property name="value" value="1,1"/>
               </node>
             </node>
           </node>
           <node role="component" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202824157521">
-            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label" />
+            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label"/>
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202824159272">
-              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
+              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text"/>
               <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202824160852">
-                <property name="value" value="1,2" />
+                <property name="value" value="1,l2"/>
               </node>
             </node>
           </node>
         </node>
         <node role="row" type="jetbrains.mps.uiLanguage.structure.GridRow" id="1202824163587">
           <node role="component" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202824165667">
-            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label" />
+            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label"/>
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202824166824">
-              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
+              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text"/>
               <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202824167670">
-                <property name="value" value="2,1" />
+                <property name="value" value="2,1"/>
               </node>
             </node>
           </node>
           <node role="component" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202824170453">
-            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label" />
+            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label"/>
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202824171673">
-              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
+              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text"/>
               <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202824172925">
-                <property name="value" value="2,2" />
+                <property name="value" value="2,2"/>
               </node>
             </node>
           </node>
           <node role="component" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202825838927">
-            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label" />
+            <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label"/>
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202825839959">
-              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
+              <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text"/>
               <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202825841462">
-                <property name="value" value="2,3" />
+                <property name="value" value="2,3"/>
               </node>
             </node>
           </node>
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202823888060">
-        <link role="attribute" targetNodeId="2v.1202396307047" resolveInfo="size" />
+        <link role="attribute" targetNodeId="2v.1202396307047" resolveInfo="size"/>
         <node role="value" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1202823890405">
-          <link role="baseMethodDeclaration" targetNodeId="2.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+          <link role="baseMethodDeclaration" targetNodeId="2.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension"/>
           <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202823896891">
-            <property name="value" value="400" />
+            <property name="value" value="400"/>
           </node>
           <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202823898987">
-            <property name="value" value="300" />
+            <property name="value" value="300"/>
           </node>
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202823858119">
-        <link role="attribute" targetNodeId="2v.1202746217446" resolveInfo="defaultCloseOperation" />
+        <link role="attribute" targetNodeId="2v.1202746217446" resolveInfo="defaultCloseOperation"/>
         <node role="value" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1202823882801">
-          <link role="classifier" targetNodeId="1.~JFrame" resolveInfo="JFrame" />
-          <link role="variableDeclaration" targetNodeId="1.~JFrame.EXIT_ON_CLOSE" resolveInfo="EXIT_ON_CLOSE" />
+          <link role="classifier" targetNodeId="1.~JFrame" resolveInfo="JFrame"/>
+          <link role="variableDeclaration" targetNodeId="1.~JFrame.EXIT_ON_CLOSE" resolveInfo="EXIT_ON_CLOSE"/>
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202823885821">
-        <link role="attribute" targetNodeId="2v.1202396132470" resolveInfo="visible" />
+        <link role="attribute" targetNodeId="2v.1202396132470" resolveInfo="visible"/>
         <node role="value" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1202823886542">
-          <property name="value" value="true" />
+          <property name="value" value="true"/>
         </node>
       </node>
     </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1203080345075">
-    <link role="component" targetNodeId="1202823852897" resolveInfo="GridDemo" />
+    <link role="component" targetNodeId="1202823852897" resolveInfo="GridDemo"/>
   </node>
 </model>
 

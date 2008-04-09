@@ -33,8 +33,8 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new ComponentReference_Editor._Inline7());
     EditorCell editorCell = provider.createEditorCell(context);
     ComponentReference_Editor.setupBasic_ComponentReferenceCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      ComponentReference_Editor.setupLabel_ComponentReferenceCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      ComponentReference_Editor.setupLabel_ComponentReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -49,17 +49,17 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createComponentReferenceCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public static class _Inline7 extends AbstractCellProvider {
 
-    public  _Inline7() {
+    public _Inline7() {
       super();
     }
 
@@ -85,8 +85,8 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       ComponentReference_Editor._Inline7.setupBasic_NameCell(editorCell, node, context);
-      if(editorCell instanceof EditorCell_Label) {
-        ComponentReference_Editor._Inline7.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+      if (editorCell instanceof EditorCell_Label) {
+        ComponentReference_Editor._Inline7.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
@@ -101,14 +101,14 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
       EditorCell cellWithRole = this.createNameCellinternal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
-      if(attributeConcept != null) {
+      if (attributeConcept != null) {
         IOperationContext opContext = context.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
-      return cellWithRole;
+        return cellWithRole;
     }
 
-}
+  }
 
 }

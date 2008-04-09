@@ -21,7 +21,7 @@ import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 
 public class GridRow_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myComponentListHandler_componentList_;
+  /* package */ AbstractCellListHandler myComponentListHandler_componentList_;
 
   private static void setupBasic_ColumnCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823794525");
@@ -88,7 +88,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createComponentList(EditorContext context, SNode node) {
-    if(this.myComponentListHandler_componentList_ == null) {
+    if (this.myComponentListHandler_componentList_ == null) {
       this.myComponentListHandler_componentList_ = new GridRow_Editor._RefNodeListHandler4(node, "component", context);
     }
     EditorCell_Collection editorCell = this.myComponentListHandler_componentList_.createCells(context, new CellLayout_Horizontal(), false);
@@ -107,7 +107,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
   public static class _RefNodeListHandler4 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler4(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler4(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -130,14 +130,14 @@ public class GridRow_Editor extends DefaultNodeEditor {
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
-      if(elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
-        if(elementNode != null) {
+        if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
         }
-        if(elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
         }
       }
@@ -147,6 +147,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-}
+  }
 
 }

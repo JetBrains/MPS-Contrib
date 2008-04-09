@@ -3,7 +3,7 @@ package jetbrains.mps.uiLanguage.runtime;
 import java.beans.PropertyChangeSupport;
 import java.beans.PropertyChangeListener;
 
-public class ModelObject {
+public class BeanObject {
   private PropertyChangeSupport myPropertyChangeSupport = new PropertyChangeSupport(this);
 
   public void addPropertyChangeListener(PropertyChangeListener listener) {

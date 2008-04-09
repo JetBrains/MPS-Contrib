@@ -158,8 +158,8 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     StandardDialogButton_Editor.setupBasic_TextCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      StandardDialogButton_Editor.setupLabel_TextCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      StandardDialogButton_Editor.setupLabel_TextCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -174,12 +174,12 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createTextCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public EditorCell createIsDefaultCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
@@ -187,8 +187,8 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     StandardDialogButton_Editor.setupBasic_IsDefaultCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      StandardDialogButton_Editor.setupLabel_IsDefaultCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      StandardDialogButton_Editor.setupLabel_IsDefaultCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -203,12 +203,12 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createIsDefaultCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public EditorCell createHandlerCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
@@ -216,8 +216,8 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     StandardDialogButton_Editor.setupBasic_HandlerCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      StandardDialogButton_Editor.setupLabel_HandlerCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      StandardDialogButton_Editor.setupLabel_HandlerCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -232,12 +232,12 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createHandlerCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
 }

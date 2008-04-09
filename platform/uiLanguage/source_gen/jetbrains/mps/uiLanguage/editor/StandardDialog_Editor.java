@@ -25,7 +25,7 @@ import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 
 public class StandardDialog_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myButtonListHandler_buttonList_;
+  /* package */ AbstractCellListHandler myButtonListHandler_buttonList_;
 
   private static void setupBasic_ColumnCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202830198645");
@@ -223,7 +223,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createButtonList(EditorContext context, SNode node) {
-    if(this.myButtonListHandler_buttonList_ == null) {
+    if (this.myButtonListHandler_buttonList_ == null) {
       this.myButtonListHandler_buttonList_ = new StandardDialog_Editor._RefNodeListHandler6(node, "button", context);
     }
     EditorCell_Collection editorCell = this.myButtonListHandler_buttonList_.createCells(context, new CellLayout_Horizontal(), false);
@@ -260,8 +260,8 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     StandardDialog_Editor.setupBasic_RootComponentCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      StandardDialog_Editor.setupLabel_RootComponentCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      StandardDialog_Editor.setupLabel_RootComponentCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -276,17 +276,17 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createRootComponentCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public static class _RefNodeListHandler6 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler6(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler6(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -309,14 +309,14 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
-      if(elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
-        if(elementNode != null) {
+        if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
         }
-        if(elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
         }
       }
@@ -326,6 +326,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-}
+  }
 
 }

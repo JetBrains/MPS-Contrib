@@ -22,8 +22,8 @@ import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 
 public class Grid_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myRowListHandler_rowList_;
-  /* package */AbstractCellListHandler myContentListHandler_contentList_;
+  /* package */ AbstractCellListHandler myRowListHandler_rowList_;
+  /* package */ AbstractCellListHandler myContentListHandler_contentList_;
 
   private static void setupBasic_ColumnCell(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1202823671414");
@@ -114,7 +114,7 @@ public class Grid_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createRowList(EditorContext context, SNode node) {
-    if(this.myRowListHandler_rowList_ == null) {
+    if (this.myRowListHandler_rowList_ == null) {
       this.myRowListHandler_rowList_ = new Grid_Editor._RefNodeListHandler5(node, "row", context);
     }
     EditorCell_Collection editorCell = this.myRowListHandler_rowList_.createCells(context, new CellLayout_Vertical(), false);
@@ -127,7 +127,7 @@ public class Grid_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createContentList(EditorContext context, SNode node) {
-    if(this.myContentListHandler_contentList_ == null) {
+    if (this.myContentListHandler_contentList_ == null) {
       this.myContentListHandler_contentList_ = new Grid_Editor._RefNodeListHandler8(node, "content", context);
     }
     EditorCell_Collection editorCell = this.myContentListHandler_contentList_.createCells(context, new CellLayout_Horizontal(), false);
@@ -146,7 +146,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public static class _RefNodeListHandler5 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler5(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler5(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -169,14 +169,14 @@ public class Grid_Editor extends DefaultNodeEditor {
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
-      if(elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
-        if(elementNode != null) {
+        if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
         }
-        if(elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
         }
       }
@@ -186,10 +186,11 @@ public class Grid_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-}
+  }
+
   public static class _RefNodeListHandler8 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler8(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler8(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -212,14 +213,14 @@ public class Grid_Editor extends DefaultNodeEditor {
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
-      if(elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
-        if(elementNode != null) {
+        if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
         }
-        if(elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
         }
       }
@@ -229,6 +230,6 @@ public class Grid_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-}
+  }
 
 }

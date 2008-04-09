@@ -33,8 +33,8 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new AttributeReferenceOperation_Editor._Inline6());
     EditorCell editorCell = provider.createEditorCell(context);
     AttributeReferenceOperation_Editor.setupBasic_AttributeDeclarationReferenceCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      AttributeReferenceOperation_Editor.setupLabel_AttributeDeclarationReferenceCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      AttributeReferenceOperation_Editor.setupLabel_AttributeDeclarationReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -49,17 +49,17 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createAttributeDeclarationReferenceCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public static class _Inline6 extends AbstractCellProvider {
 
-    public  _Inline6() {
+    public _Inline6() {
       super();
     }
 
@@ -85,8 +85,8 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       AttributeReferenceOperation_Editor._Inline6.setupBasic_NameCell(editorCell, node, context);
-      if(editorCell instanceof EditorCell_Label) {
-        AttributeReferenceOperation_Editor._Inline6.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+      if (editorCell instanceof EditorCell_Label) {
+        AttributeReferenceOperation_Editor._Inline6.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
@@ -101,14 +101,14 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
       EditorCell cellWithRole = this.createNameCellinternal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
-      if(attributeConcept != null) {
+      if (attributeConcept != null) {
         IOperationContext opContext = context.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
-      return cellWithRole;
+        return cellWithRole;
     }
 
-}
+  }
 
 }

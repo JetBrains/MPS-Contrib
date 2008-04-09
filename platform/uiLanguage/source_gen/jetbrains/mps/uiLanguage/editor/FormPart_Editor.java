@@ -145,8 +145,8 @@ public class FormPart_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     FormPart_Editor.setupBasic_LabelCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      FormPart_Editor.setupLabel_LabelCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      FormPart_Editor.setupLabel_LabelCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -161,12 +161,12 @@ public class FormPart_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createLabelCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
   public EditorCell createContentCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
@@ -174,8 +174,8 @@ public class FormPart_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     FormPart_Editor.setupBasic_ContentCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
-      FormPart_Editor.setupLabel_ContentCell((EditorCell_Label)editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      FormPart_Editor.setupLabel_ContentCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -190,12 +190,12 @@ public class FormPart_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createContentCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
-    return cellWithRole;
+      return cellWithRole;
   }
 
 }

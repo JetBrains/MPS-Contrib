@@ -4,9 +4,13 @@ package jetbrains.mps.uiLanguage.helgins;
 
 import jetbrains.mps.bootstrap.helgins.runtime.SubtypingRule_Runtime;
 import jetbrains.mps.bootstrap.helgins.runtime.ISubtypingRule_Runtime;
+
 import java.util.List;
+
 import jetbrains.mps.smodel.SNode;
+
 import java.util.ArrayList;
+
 import jetbrains.mps.uiLanguage.constraints.ComponentDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
@@ -15,16 +19,16 @@ import jetbrains.mps.smodel.SModelUtil_new;
 
 public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
 
-  public  subtyping_ComponentType_SubtypingRule() {
+  public subtyping_ComponentType_SubtypingRule() {
   }
 
   public List<SNode> getSubOrSuperTypes(SNode componentType) {
     List<SNode> result = new ArrayList<SNode>();
     SNode extendedComponent = ComponentDeclaration_Behavior.call_getExtendedComponent_1202392526494(SLinkOperations.getTarget(componentType, "component", false));
-    if(extendedComponent != null) {
+    if (extendedComponent != null) {
       ListOperations.addElement(result, new QuotationClass_2().createNode(extendedComponent));
     }
-    if(SPropertyOperations.getBoolean(SLinkOperations.getTarget(componentType, "component", false), "stub")) {
+    if (SPropertyOperations.getBoolean(SLinkOperations.getTarget(componentType, "component", false), "stub")) {
       ListOperations.addElement(result, new QuotationClass_1().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(componentType, "component", false), "mapTo", false)));
     }
     return result;

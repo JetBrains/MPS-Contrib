@@ -18,7 +18,9 @@ import jetbrains.mps.uiLanguage.constraints.Scroller_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.uiLanguage.constraints.IComponentInstance_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+
 import java.util.List;
+
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 
@@ -29,7 +31,7 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_1202746396333(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    if(!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
+    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
       return false;
     }
     SNode opExpr = SLinkOperations.getTarget(_context.getNode(), "lValue", true);
@@ -90,10 +92,9 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1202400527073(final IOperationContext operationContext, final PropertyMacroContext _context) {
     String baseName;
-    if(SPropertyOperations.getString(_context.getNode(), "name") != null) {
+    if (SPropertyOperations.getString(_context.getNode(), "name") != null) {
       baseName = "my" + NameUtil.capitalize(SPropertyOperations.getString(_context.getNode(), "name"));
-    } else
-    {
+    } else {
       baseName = "myComponent";
     }
     return _context.getGenerator().getGeneratorSessionContext().createUniqueName(baseName);
