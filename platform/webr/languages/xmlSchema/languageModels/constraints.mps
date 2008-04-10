@@ -14,6 +14,7 @@
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
+  <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -331,7 +332,9 @@
               <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1191199158923" />
               <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetAncestorOperation" id="1191199158924">
                 <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Concept" id="1191199158925">
-                  <link role="concept" targetNodeId="1.1167513239198" />
+                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1207746931658">
+                    <link role="conceptDeclaration" targetNodeId="1.1167513239198" resolveInfo="Schema" />
+                  </node>
                 </node>
               </node>
             </node>

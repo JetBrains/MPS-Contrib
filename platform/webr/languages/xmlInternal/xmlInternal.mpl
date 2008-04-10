@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="webr.xmlInternal" compileInMPS="false">
+<language namespace="webr.xmlInternal" compileInMPS="true">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xmlInternal" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xmlInternal" />
@@ -14,8 +14,11 @@
         <generator generatorUID="webr.gtext#1164413905312" />
       </external-templates>
       <dependencies>
-        <dependency reexport="true">jetbrains.mps.baseLanguage</dependency>
+        <dependency reexport="false">jetbrains.mps.baseLanguage</dependency>
       </dependencies>
+      <usedLanguages>
+        <usedLanguages>webr.gtext</usedLanguages>
+      </usedLanguages>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
@@ -31,26 +34,18 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <classPath>
-    <entry path="${language_descriptor}\classes" />
-  </classPath>
-  <runtimeClassPath>
-    <entry path="${language_descriptor}\classes" />
-  </runtimeClassPath>
+  <classPath />
+  <runtimeClassPath />
   <sourcePath />
   <osgiOptions>
     <requiredBundles />
     <exportedPackage />
   </osgiOptions>
-  <dependencies>
-    <dependency reexport="true">webr_languages</dependency>
-  </dependencies>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>webr.xml</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
     <extendedLanguage>webr.xmlSchema</extendedLanguage>
-    <extendedLanguage>webr.gtext</extendedLanguage>
   </extendedLanguages>
 </language>
 

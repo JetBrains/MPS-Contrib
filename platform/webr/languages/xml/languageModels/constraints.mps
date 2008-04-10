@@ -15,13 +15,14 @@
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
+  <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
   <maxImportIndex value="14" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
   <import index="9" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="10" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
-  <import index="11" modelUID="webr.xmlInternal.structure" version="-1" />
+  <import index="11" modelUID="webr.xmlInternal.structure" version="0" />
   <import index="12" modelUID="java.lang@java_stub" version="-1" />
   <import index="13" modelUID="webr.xmlSchema.constraints" version="-1" />
   <import index="14" modelUID="webr.xml.actions" version="-1" />

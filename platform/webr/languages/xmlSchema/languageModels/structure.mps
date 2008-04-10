@@ -6,12 +6,10 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
+  <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="2" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
-  <import index="3" modelUID="webr.xmlSchema.structure" version="-1" />
-  <import index="4" modelUID="webr.xml.structure" version="-1" />
-  <import index="5" modelUID="webr.xmlInternal.structure" version="-1" />
+  <import index="5" modelUID="webr.xmlInternal.structure" version="0" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1167512696010">
     <property name="name" value="ElementWithContent" />
     <link role="extends" targetNodeId="1167838236835" resolveInfo="ElementDeclaration" />

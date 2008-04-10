@@ -1,17 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlInternal.structure">
   <persistence version="1" />
-  <refactoringHistory />
+  <refactoringHistory>
+    <refactoringContext modelVersion="0">
+      <refactoring refactoringClass="jetbrains.mps.bootstrap.structureLanguage.scripts.MoveConcepts" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xmlInternal.editor" nodeId="1173198070742" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471381" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.editor" nodeId="1173198083712" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471382" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.editor" nodeId="1173198095199" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471384" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.editor" nodeId="1173198221188" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471386" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.editor" nodeId="1173198236721" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471385" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.editor" nodeId="1173208231561" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471383" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.structure" nodeId="1173198002225" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.structure" nodeId="1207746471371" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.structure" nodeId="1173198130793" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.structure" nodeId="1207746471372" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xmlInternal.structure" nodeId="1173208195775" />
+          <value modelUID="jetbrains.mps.webr.dxmlInternal.structure" nodeId="1207746471373" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="ProtectedContent" conceptFQName="webr.xmlInternal.structure.ProtectedContent" featureKind="CONCEPT" />
+          <value featureName="ProtectedContent" conceptFQName="jetbrains.mps.webr.dxmlInternal.structure.ProtectedContent" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+  </refactoringHistory>
   <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
+  <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
   <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="2" modelUID="webr.xml.structure" version="-1" />
-  <import index="3" modelUID="webr.xmlInternal.structure" version="-1" />
   <import index="5" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="6" modelUID="webr.xmlSchema.structure" version="-1" />
-  <import index="7" modelUID="webr.gtext.structure" version="-1" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1165761580958">
     <property name="name" value="StatementElement" />
     <link role="extends" targetNodeId="2.1161371727643" />
@@ -71,20 +118,6 @@
     </node>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1198862833697">
       <link role="intfc" targetNodeId="2.1198862578220" resolveInfo="XmlRoot" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1173198002225">
-    <property name="name" value="ProtectedContent" />
-    <link role="extends" targetNodeId="2.1161371727643" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1173198130793">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="content" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1161371727643" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1173208195775">
-      <property name="value" value="[protected content]" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1174840096626">

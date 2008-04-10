@@ -11,16 +11,11 @@
   </language>
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
+  <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
   <maxImportIndex value="12" />
-  <import index="1" modelUID="webr.xmlInternal.structure" version="-1" />
-  <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="3" modelUID="webr.xmlInternal.editor" version="-1" />
+  <import index="1" modelUID="webr.xmlInternal.structure" version="0" />
   <import index="4" modelUID="webr.xml.structure" version="-1" />
   <import index="5" modelUID="webr.xmlSchema.structure" version="-1" />
-  <import index="8" modelUID="webr.gtext.structure" version="-1" />
-  <import index="9" modelUID="webr.xmlSchema.editor" version="-1" />
-  <import index="10" modelUID="jetbrains.mps.webr.dxmlInternal.structure" version="-1" />
-  <import index="11" modelUID="webr.templateLanguageInternal.structure" version="-1" />
   <import index="12" modelUID="webr.xml.editor" version="-1" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1165761822666">
     <link role="conceptDeclaration" targetNodeId="1.1165761580958" />
@@ -138,28 +133,6 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1174833352907">
         <property name="drawBorder" value="false" />
         <link role="relationDeclaration" targetNodeId="1.1174833330733" />
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1173198070742">
-    <link role="conceptDeclaration" targetNodeId="1.1173198002225" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1173198083712">
-      <property name="drawBorder" value="false" />
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173208231561">
-        <property name="drawBorder" value="false" />
-        <property name="text" value="[" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173198095199">
-        <property name="drawBorder" value="false" />
-        <property name="text" value="protected content" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1173198236721">
-        <property name="drawBorder" value="false" />
-        <link role="relationDeclaration" targetNodeId="1.1173198130793" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173198221188">
-        <property name="drawBorder" value="false" />
-        <property name="text" value="]" />
       </node>
     </node>
   </node>
@@ -405,8 +378,10 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1179271948487">
           <link role="relationDeclaration" targetNodeId="1.1179271242032" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Component" id="1188769085743">
-          <link role="editorComponent" targetNodeId="12.1177879858526" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1207749133352">
+          <property name="vertical" value="false" />
+          <link role="relationDeclaration" targetNodeId="4.1188768803246" />
+          <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1207749133353" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1179107484176">
           <property name="text" value="&gt;" />

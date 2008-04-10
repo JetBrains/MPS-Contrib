@@ -17,7 +17,6 @@
   <maxImportIndex value="14" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
   <import index="4" modelUID="webr.xmlSchema.structure" version="-1" />
-  <import index="6" modelUID="webr.xmlInternal.structure" version="-1" />
   <import index="8" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
   <import index="9" modelUID="java.util@java_stub" version="-1" />
   <import index="10" modelUID="webr.xmlSchema.constraints" version="-1" />

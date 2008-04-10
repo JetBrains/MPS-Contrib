@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="webr.xmlSchema" compileInMPS="false">
+<language namespace="webr.xmlSchema" compileInMPS="true">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xmlSchema" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xmlSchema" />
   </models>
   <accessoryModels />
   <generators />
-  <classPath>
-    <entry path="${language_descriptor}\classes" />
-  </classPath>
-  <runtimeClassPath>
-    <entry path="${language_descriptor}\classes" />
-  </runtimeClassPath>
+  <classPath />
+  <runtimeClassPath />
   <sourcePath />
   <osgiOptions>
     <requiredBundles />

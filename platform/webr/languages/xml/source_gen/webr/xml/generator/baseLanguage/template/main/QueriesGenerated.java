@@ -8,7 +8,7 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyO
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import webr.xml.constraints.Content_Behavior;
-import webr.framework.function.HtmlStringUtil;
+import jetbrains.mps.gtext.runtime.BaseHtmlStringUtil;
 import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
@@ -46,7 +46,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1179111291695(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return HtmlStringUtil.html(SPropertyOperations.getString(_context.getNode(), "text"));
+    return BaseHtmlStringUtil.html(SPropertyOperations.getString(_context.getNode(), "text"));
   }
 
   public static Object propertyMacro_GetPropertyValue_1179112381192(final IOperationContext operationContext, final PropertyMacroContext _context) {

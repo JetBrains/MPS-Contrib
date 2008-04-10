@@ -9,15 +9,12 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
-  <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
-  </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
   <maxImportIndex value="39" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
   <import index="31" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="37" modelUID="webr.xmlSchema.editor" version="-1" />
-  <import index="38" modelUID="webr.xml.constraints" version="-1" />
   <import index="39" modelUID="webr.xmlSchema.constraints" version="-1" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1161373286904">
     <link role="conceptDeclaration" targetNodeId="1.1161373262136" />
