@@ -10,18 +10,17 @@
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
-  <maxImportIndex value="13" />
+  <maxImportIndex value="14" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="3" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
   <import index="4" modelUID="jetbrains.mps.generator@java_stub" version="-1" />
   <import index="5" modelUID="jetbrains.mps.baseLanguage.structure@java_stub" version="-1" />
   <import index="8" modelUID="jetbrains.mps.baseLanguage.search@java_stub" version="-1" />
-  <import index="9" modelUID="org.joda.time@java_stub" version="-1" />
   <import index="10" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="11" modelUID="java.lang@java_stub" version="-1" />
-  <import index="12" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.constraints" version="-1" />
   <import index="13" modelUID="jetbrains.mps.baseLanguage.constraints" version="-1" />
+  <import index="14" modelUID="org.joda.time@java_stub" version="-1" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1178187486552">
     <link role="concept" targetNodeId="1.1174042847309" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1178187486553">
@@ -223,7 +222,7 @@
                 <link role="classConcept" targetNodeId="4.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
                 <link role="baseMethodDeclaration" targetNodeId="4.~JavaModelUtil_new.findClassifier(java.lang.Class):jetbrains.mps.baseLanguage.structure.Classifier" resolveInfo="findClassifier" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" id="1172492778077">
-                  <link role="classifier" targetNodeId="9.~Period" resolveInfo="Period" />
+                  <link role="classifier" targetNodeId="14.~Period" resolveInfo="Period" />
                 </node>
               </node>
             </node>
@@ -279,7 +278,7 @@
                 <link role="classConcept" targetNodeId="4.~JavaModelUtil_new" resolveInfo="JavaModelUtil_new" />
                 <link role="baseMethodDeclaration" targetNodeId="4.~JavaModelUtil_new.findClassifier(java.lang.Class):jetbrains.mps.baseLanguage.structure.Classifier" resolveInfo="findClassifier" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" id="1172157616867">
-                  <link role="classifier" targetNodeId="9.~DateTimeFieldType" resolveInfo="DateTimeFieldType" />
+                  <link role="classifier" targetNodeId="14.~DateTimeFieldType" resolveInfo="DateTimeFieldType" />
                 </node>
               </node>
             </node>

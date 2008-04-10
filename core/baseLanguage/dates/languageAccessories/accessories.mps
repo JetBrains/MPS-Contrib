@@ -2,7 +2,6 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.accessories">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" generatorOutputPath="${mps_home}\core\baseLanguage\dates\source_gen" compileInMPS="false">
+<language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" compileInMPS="true">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.internal" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.internal" />
@@ -7,14 +7,15 @@
   <accessoryModels />
   <generators />
   <classPath />
-  <runtimeClassPath>
-    <entry path="${mps_home}\core\baseLanguage\dates\classes" />
-  </runtimeClassPath>
+  <runtimeClassPath />
   <sourcePath />
   <osgiOptions>
     <requiredBundles />
     <exportedPackage />
   </osgiOptions>
+  <dependencies>
+    <dependency reexport="false">jetbrains.mps.baseLanguage.dates.runtime</dependency>
+  </dependencies>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>

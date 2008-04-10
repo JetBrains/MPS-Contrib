@@ -3,16 +3,12 @@
   <persistence version="1" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
-  <language namespace="jetbrains.mps.baseLanguage" />
-  <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
-  </language>
+  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <maxImportIndex value="4" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="3" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.editor" version="-1" />
   <import index="4" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1169491699235">
     <link role="conceptDeclaration" targetNodeId="1.1169491698842" />

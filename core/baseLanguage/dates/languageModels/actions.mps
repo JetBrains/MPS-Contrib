@@ -7,33 +7,22 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
-  <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
-  </language>
   <language namespace="jetbrains.mps.bootstrap.helgins" />
   <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <language namespace="jetbrains.mps.quotation" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
   <maxImportIndex value="23" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <import index="3" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="4" modelUID="org.joda.time@java_stub" version="-1" />
-  <import index="5" modelUID="jetbrains.mps.generator@java_stub" version="-1" />
-  <import index="6" modelUID="jetbrains.mps.baseLanguage@java_stub" version="-1" />
-  <import index="8" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.actions" version="-1" />
   <import index="9" modelUID="org.joda.time.base@java_stub" version="-1" />
-  <import index="13" modelUID="jetbrains.mps.baseLanguage.structure@java_stub" version="-1" />
   <import index="14" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
   <import index="15" modelUID="jetbrains.mps.helgins.inference@java_stub" version="-1" />
   <import index="16" modelUID="java.util@java_stub" version="-1" />
-  <import index="17" modelUID="java.lang@java_stub" version="-1" />
   <import index="18" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure@java_stub" version="-1" />
   <import index="19" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
   <import index="20" modelUID="jetbrains.mps.ide.progress@java_stub" version="-1" />
-  <import index="21" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
-  <import index="22" modelUID="jetbrains.mps.findUsages@java_stub" version="-1" />
   <import index="23" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.actions@java_stub" version="-1" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.RTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />

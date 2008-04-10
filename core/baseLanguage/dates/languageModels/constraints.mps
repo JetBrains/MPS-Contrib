@@ -12,22 +12,16 @@
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
-  <language namespace="jetbrains.mps.ide.scriptLanguage" />
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <maxImportIndex value="15" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="2" modelUID="java.lang@java_stub" version="-1" />
-  <import index="3" modelUID="java.util@java_stub" version="-1" />
   <import index="4" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
   <import index="6" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
   <import index="8" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
-  <import index="9" modelUID="jetbrains.mps.ide.progress@java_stub" version="-1" />
-  <import index="10" modelUID="jetbrains.mps.findUsages@java_stub" version="-1" />
-  <import index="11" modelUID="jetbrains.mps.project@java_stub" version="-1" />
   <import index="12" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
-  <import index="13" modelUID="jetbrains.mps.util@java_stub" version="-1" />
   <import index="15" modelUID="jetbrains.mps.baseLanguageInternal.structure" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1173960152516">
     <property name="name" value="DateTimePropertFormatTokenUtil" />

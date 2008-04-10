@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" generatorOutputPath="${language_descriptor}\source_gen" compileInMPS="false">
+<language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" compileInMPS="true">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
@@ -23,27 +23,25 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <classPath>
-    <entry path="${language_descriptor}\classes" />
-    <entry path="${language_descriptor}\runtime\classes" />
-    <entry path="${mps_home}\lib\joda-time\joda-time-1.4.jar" />
-  </classPath>
-  <runtimeClassPath>
-    <entry path="${language_descriptor}\classes" />
-  </runtimeClassPath>
-  <sourcePath />
+  <classPath />
+  <runtimeClassPath />
+  <sourcePath>
+    <source path="${language_descriptor}\source" />
+  </sourcePath>
   <osgiOptions>
     <requiredBundles />
     <exportedPackage />
   </osgiOptions>
   <dependencies>
-    <dependency reexport="true">jetbrains.mps.ide.scriptLanguage</dependency>
     <dependency reexport="false">jetbrains.mps.baseLanguageInternal</dependency>
+    <dependency reexport="true">jetbrains.mps.baseLanguage.dates.runtime</dependency>
   </dependencies>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage.ext.dates.internal</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage</extendedLanguage>
+    <extendedLanguage>jetbrains.springframework.configuration</extendedLanguage>
+    <extendedLanguage>jetbrains.springframework.configurationInternal</extendedLanguage>
   </extendedLanguages>
 </language>
 
