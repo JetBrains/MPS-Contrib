@@ -23,7 +23,9 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <classPath />
+  <classPath>
+    <entry path="${language_descriptor}\classes_gen" />
+  </classPath>
   <runtimeClassPath />
   <sourcePath>
     <source path="${language_descriptor}\source" />
