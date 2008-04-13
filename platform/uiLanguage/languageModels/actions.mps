@@ -26,31 +26,7 @@
           type="jetbrains.mps.bootstrap.actionsLanguage.structure.RTransformHintSubstituteActionsBuilder"
           id="1208095077171">
       <property name="useNewActions" value="true"/>
-      <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
-      <node role="precondition"
-            type="jetbrains.mps.bootstrap.actionsLanguage.structure.RTransformHintSubstitutePreconditionFunction"
-            id="1208095090953">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1208095090954">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1208096925662">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208097956110">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208097775803">
-                <node role="operand"
-                      type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_sourceNode"
-                      id="1208096925663"/>
-                <node role="operation" type="jetbrains.mps.bootstrap.helgins.structure.Node_TypeOperation"
-                      id="1208097778808"/>
-              </node>
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation"
-                    id="1208097958846">
-                <node role="conceptArgument"
-                      type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1208097960754">
-                  <link role="conceptDeclaration" targetNodeId="5.1208094480417" resolveInfo="EventType"/>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
+      <link role="applicableConcept" targetNodeId="5.1208089639160" resolveInfo="GetEventOperation"/>
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1208095347288">
         <link role="concept" targetNodeId="5.1208090496480" resolveInfo="AddListenerOperation"/>
         <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SimpleRightTransformMenuPart"

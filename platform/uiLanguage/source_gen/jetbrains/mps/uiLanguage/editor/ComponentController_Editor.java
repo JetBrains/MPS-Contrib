@@ -344,7 +344,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createEventList(EditorContext context, SNode node) {
     if (this.myEventListHandler_eventList_ == null) {
-      this.myEventListHandler_eventList_ = new ComponentController_Editor._RefNodeListHandler14(node, "event", context);
+      this.myEventListHandler_eventList_ = new ComponentController_Editor._RefNodeListHandler13(node, "event", context);
     }
     EditorCell_Collection editorCell = this.myEventListHandler_eventList_.createCells(context, new CellLayout_Vertical(), false);
     ComponentController_Editor.setupBasic_EventList(editorCell, node, context);
@@ -569,9 +569,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   }
 
-  public static class _RefNodeListHandler14 extends RefNodeListHandler {
+  public static class _RefNodeListHandler13 extends RefNodeListHandler {
 
-    public _RefNodeListHandler14(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler13(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
