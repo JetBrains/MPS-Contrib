@@ -330,6 +330,7 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
             id="1202389201958">
         <property name="text" value="attributes:"/>
+        <property name="selectable" value="false"/>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
             id="1202389213289">
@@ -347,6 +348,27 @@
             id="1203080290035">
         <property name="selectable" value="false"/>
       </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1208088241429">
+        <property name="text" value="events:"/>
+        <property name="selectable" value="false"/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
+            id="1208088816031">
+        <property name="selectable" value="false"/>
+        <property name="vertical" value="false"/>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Indent"
+              id="1208088816032"/>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList"
+              id="1208088821707">
+          <property name="vertical" value="true"/>
+          <link role="relationDeclaration" targetNodeId="1.1208088225568"/>
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1208088297636">
+        <property name="selectable" value="false"/>
+      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode"
             id="1203080282564">
         <property name="noTargetText" value="&lt;no constructor&gt;"/>
@@ -359,6 +381,7 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
             id="1202742080620">
         <property name="text" value="methods:"/>
+        <property name="selectable" value="false"/>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
             id="1202742085153">
@@ -1208,6 +1231,39 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
             id="1207754435872">
         <property name="text" value=")"/>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1208087765425">
+    <property name="package" value="Events"/>
+    <link role="conceptDeclaration" targetNodeId="1.1208087694312" resolveInfo="EventDeclaration"/>
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
+          id="1208087772052">
+      <property name="vertical" value="false"/>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1208087777492">
+        <property name="text" value="event"/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property"
+            id="1208087784728">
+        <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name"/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1208087790058">
+        <property name="text" value="("/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList"
+            id="1208087794623">
+        <property name="separatorText" value=","/>
+        <link role="relationDeclaration" targetNodeId="1.1208087741017"/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1208087800906">
+        <property name="text" value=")"/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1208088104788">
+        <property name="text" value=";"/>
       </node>
     </node>
   </node>
