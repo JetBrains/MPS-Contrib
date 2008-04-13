@@ -128,7 +128,9 @@
             <property name="text" value="Add listener operation"/>
           </node>
           <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RightTransform_SimpleString"
-                id="1208096108783"/>
+                id="1208096108783">
+            <property name="text" value="+="/>
+          </node>
         </node>
       </node>
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1208095644122">
@@ -208,7 +210,9 @@
             <property name="text" value="Remove listener operation"/>
           </node>
           <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RightTransform_SimpleString"
-                id="1208096094921"/>
+                id="1208096094921">
+            <property name="text" value="-="/>
+          </node>
         </node>
       </node>
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1208095677523">
@@ -288,7 +292,9 @@
             <property name="text" value="Raise event"/>
           </node>
           <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.RightTransform_SimpleString"
-                id="1208096097563"/>
+                id="1208096097563">
+            <property name="text" value=".raise"/>
+          </node>
         </node>
       </node>
     </node>

@@ -42,7 +42,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return "";
+          return "+=";
         }
 
         public String getDescriptionText(String pattern) {
@@ -63,7 +63,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return "";
+          return "-=";
         }
 
         public String getDescriptionText(String pattern) {
@@ -84,7 +84,7 @@ public class QueriesGenerated {
         }
 
         public String getMatchingText(String pattern) {
-          return "";
+          return ".raise";
         }
 
         public String getDescriptionText(String pattern) {
