@@ -40,12 +40,13 @@
     <dependency reexport="true">jetbrains.mps.mpsProjectLanguage</dependency>
     <dependency reexport="true">MPS.Classpath</dependency>
     <dependency reexport="true">jetbrains.mps.baseLanguage.strings</dependency>
-    <dependency reexport="false">jetbrains.mps.regexp</dependency>
     <dependency reexport="false">jetbrains.mps.regexp.examples</dependency>
     <dependency reexport="false">jetbrains.mps.transformation.TLBase</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguages>jetbrains.mps.baseLanguageInternal</usedLanguages>
+    <usedLanguages>jetbrains.mps.regexp</usedLanguages>
+    <usedLanguages>jetbrains.mps.baseLanguage.strings</usedLanguages>
   </usedLanguages>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>

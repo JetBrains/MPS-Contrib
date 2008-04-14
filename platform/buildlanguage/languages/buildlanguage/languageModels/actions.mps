@@ -25,7 +25,6 @@
   <import index="22" modelUID="jetbrains.mps.regexp.jetbrains.mps.regexp.accessory" version="-1" />
   <import index="23" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="24" modelUID="java.util@java_stub" version="-1" />
-  <import index="25" modelUID="jetbrains.mps.regexp.structure" version="-1" />
   <import index="26" modelUID="jetbrains.mps.regexp.examples" version="-1" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1196869239711">
     <property name="name" value="BooleanConstant" />
