@@ -13,6 +13,9 @@
       <external-templates>
         <generator generatorUID="webr.gtext#1164413905312" />
       </external-templates>
+      <dependencies>
+        <dependency reexport="false">webr.gtext</dependency>
+      </dependencies>
       <usedLanguages>
         <usedLanguages>webr.gtext</usedLanguages>
       </usedLanguages>
