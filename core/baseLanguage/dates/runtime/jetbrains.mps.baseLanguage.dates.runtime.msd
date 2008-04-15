@@ -4,6 +4,7 @@
     <modelRoot path="${solution_descriptor}\" namespacePrefix="" />
   </models>
   <classPath>
+    <entry path="${solution_descriptor}\classes_gen" />
     <entry path="${mps_home}\lib\joda-time\joda-time-1.4.jar" />
   </classPath>
   <runtimeClassPath />
