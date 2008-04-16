@@ -21,7 +21,7 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOpera
 
 public class QueriesGenerated {
 
-  public static List<INodeSubstituteAction> rightTransform_ActionsFactory_GetEventOperation_1208095077171(final IOperationContext operationContext, final RTActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> rightTransform_ActionsFactory_EventAccessOperation_1208095077171(final IOperationContext operationContext, final RTActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
       AbstractConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.uiLanguage.structure.AddListenerOperation", operationContext.getScope());

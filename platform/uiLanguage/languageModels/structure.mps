@@ -602,7 +602,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208089639160">
     <property name="package" value="Events"/>
-    <property name="name" value="GetEventOperation"/>
+    <property name="name" value="EventAccessOperation"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
           id="1208089675092">
