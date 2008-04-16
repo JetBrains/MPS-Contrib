@@ -76,7 +76,7 @@ public class PersonEditor extends JFrame {
 
   private void unbind() {
     for(AutoBinding binding : this.myBindings) {
-      if(binding.isBound()) {
+      if (binding.isBound()) {
         binding.unbind();
       }
     }

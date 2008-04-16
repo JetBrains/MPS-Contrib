@@ -47,7 +47,7 @@ public class GridDemo extends JFrame {
 
   private void unbind() {
     for(AutoBinding binding : this.myBindings) {
-      if(binding.isBound()) {
+      if (binding.isBound()) {
         binding.unbind();
       }
     }
@@ -76,7 +76,7 @@ public class GridDemo extends JFrame {
   private JLabel createComponent2() {
     JLabel component = new JLabel();
     this.myComponent2 = component;
-    component.setText("1,2");
+    component.setText("1,l2");
     return component;
   }
 
