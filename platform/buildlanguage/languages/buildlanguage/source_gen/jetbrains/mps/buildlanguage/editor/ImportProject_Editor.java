@@ -58,7 +58,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     ImportProject_Editor.setupBasic_CellModel_ConceptProperty(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
+    if (editorCell instanceof EditorCell_Label) {
       ImportProject_Editor.setupLabel_CellModel_ConceptProperty((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -74,7 +74,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createCellModel_ConceptPropertyinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
@@ -87,7 +87,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new ImportProject_Editor._Inline11());
     EditorCell editorCell = provider.createEditorCell(context);
     ImportProject_Editor.setupBasic_ProjectReferenceCell(editorCell, node, context);
-    if(editorCell instanceof EditorCell_Label) {
+    if (editorCell instanceof EditorCell_Label) {
       ImportProject_Editor.setupLabel_ProjectReferenceCell((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -103,7 +103,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
     EditorCell cellWithRole = this.createProjectReferenceCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
-    if(attributeConcept != null) {
+    if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
@@ -138,7 +138,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       ImportProject_Editor._Inline11.setupBasic_NameCell(editorCell, node, context);
-      if(editorCell instanceof EditorCell_Label) {
+      if (editorCell instanceof EditorCell_Label) {
         ImportProject_Editor._Inline11.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -154,7 +154,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
       EditorCell cellWithRole = this.createNameCellinternal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
-      if(attributeConcept != null) {
+      if (attributeConcept != null) {
         IOperationContext opContext = context.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);

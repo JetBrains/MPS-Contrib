@@ -39,7 +39,7 @@ public class QueriesGenerated {
   }
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_1203443117617(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    if(!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttribute"))) {
+    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttribute"))) {
       return false;
     }
     SNode decl = SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeDeclaration", false);
@@ -55,7 +55,7 @@ public class QueriesGenerated {
     {
       AbstractConceptDeclaration outputConcept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanLiteral", operationContext.getScope());
       SNode childConcept = (SNode)_context.getChildConcept();
-      if(outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
         result.add(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
@@ -78,7 +78,7 @@ public class QueriesGenerated {
     {
       AbstractConceptDeclaration outputConcept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanLiteral", operationContext.getScope());
       SNode childConcept = (SNode)_context.getChildConcept();
-      if(outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
         result.add(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
@@ -106,7 +106,7 @@ public class QueriesGenerated {
     {
       AbstractConceptDeclaration outputConcept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.IntLiteral", operationContext.getScope());
       SNode childConcept = (SNode)_context.getChildConcept();
-      if(outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
         result.add(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
@@ -158,7 +158,7 @@ public class QueriesGenerated {
     {
       AbstractConceptDeclaration outputConcept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.StringLiteral", operationContext.getScope());
       SNode childConcept = (SNode)_context.getChildConcept();
-      if(SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
+      if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName((SNode)BaseAdapter.fromAdapter(outputConcept)))) {
         Calculable calc = new Calculable() {
 
           public Object calculate() {

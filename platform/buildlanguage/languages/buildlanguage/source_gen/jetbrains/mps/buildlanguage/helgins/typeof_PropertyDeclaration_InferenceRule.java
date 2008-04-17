@@ -14,7 +14,7 @@ public class typeof_PropertyDeclaration_InferenceRule implements InferenceRule_R
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "propertyValue", true), "jetbrains.mps.buildlanguage.helgins", "1196871226606", true), SLinkOperations.getTarget(nodeToCheck, "type", true), SLinkOperations.getTarget(nodeToCheck, "propertyValue", true), null, "jetbrains.mps.buildlanguage.helgins", "1196871226604");
+    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "propertyValue", true), "jetbrains.mps.buildlanguage.helgins", "1196871226606", true), SLinkOperations.getTarget(nodeToCheck, "type", true), SLinkOperations.getTarget(nodeToCheck, "propertyValue", true), null, "jetbrains.mps.buildlanguage.helgins", "1196871226604", false);
     TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1196871295252", true), SLinkOperations.getTarget(nodeToCheck, "type", true), nodeToCheck, null, "jetbrains.mps.buildlanguage.helgins", "1196871299285");
   }
 
