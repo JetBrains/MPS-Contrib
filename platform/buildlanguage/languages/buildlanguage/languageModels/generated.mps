@@ -8,6 +8,7 @@
   </language>
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <maxImportIndex value="0" />
   <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185005">
     <property name="name" value="task" />
@@ -4254,9 +4255,6 @@
         <node role="constants" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1200908742533">
           <property name="value" value="fail" />
         </node>
-      </node>
-      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692987470">
-        <property name="value" value="add" />
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450039031" />
     </node>
