@@ -1268,81 +1268,12 @@
       </node>
     </node>
   </node>
-  <visible index="2" modelUID="jetbrains.mps.baseLanguage.classifiers.structure"/>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1208091094753">
-    <property name="package" value="Events.Operations"/>
-    <link role="conceptDeclaration" targetNodeId="1.1208090516982" resolveInfo="RemoveListenerOperation"/>
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
-          id="1208091098099">
-      <property name="vertical" value="false"/>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode"
-            id="1208095006652">
-        <link role="relationDeclaration" targetNodeId="1.1208094920591"/>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
-            id="1208091105413">
-        <property name="text" value="-="/>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell"
-            id="1208099892028">
-        <link role="relationDeclaration" targetNodeId="1.1208091152603"/>
-        <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent"
-              id="1208099892029">
-          <link role="conceptDeclaration" targetNodeId="2v.1205769003971"
-                resolveInfo="DefaultClassifierMethodDeclaration"/>
-          <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property"
-                id="1208099893828">
-            <property name="readOnly" value="true"/>
-            <link role="relationDeclaration" targetNodeId="3.1083152972672" resolveInfo="name"/>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1208091188466">
-    <property name="package" value="Events.Operations"/>
-    <link role="conceptDeclaration" targetNodeId="1.1208090496480" resolveInfo="AddListenerOperation"/>
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
-          id="1208091190874">
-      <property name="vertical" value="false"/>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode"
-            id="1208094945655">
-        <link role="relationDeclaration" targetNodeId="1.1208094920591"/>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
-            id="1208094952032">
-        <property name="text" value="+="/>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell"
-            id="1208100657120">
-        <link role="relationDeclaration" targetNodeId="1.1208091178966"/>
-        <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent"
-              id="1208100657121">
-          <link role="conceptDeclaration" targetNodeId="2v.1205769003971"
-                resolveInfo="DefaultClassifierMethodDeclaration"/>
-          <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property"
-                id="1208100658795">
-            <property name="readOnly" value="true"/>
-            <link role="relationDeclaration" targetNodeId="3.1083152972672" resolveInfo="name"/>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1208091199550">
     <property name="package" value="Events.Operations"/>
     <link role="conceptDeclaration" targetNodeId="1.1208089922381" resolveInfo="RaiseOperation"/>
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
           id="1208094984129">
       <property name="vertical" value="false"/>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode"
-            id="1208094986474">
-        <link role="relationDeclaration" targetNodeId="1.1208094920591"/>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
-            id="1208094989569">
-        <property name="text" value="."/>
-      </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
             id="1208094995510">
         <property name="text" value="raise"/>
@@ -1407,6 +1338,24 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode"
             id="1208110448262">
         <link role="relationDeclaration" targetNodeId="1.1208110336446"/>
+      </node>
+    </node>
+  </node>
+  <visible index="2" modelUID="jetbrains.mps.baseLanguage.classifiers.structure"/>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1208685736612">
+    <property name="package" value="Events.Operations"/>
+    <link role="conceptDeclaration" targetNodeId="1.1208685679469" resolveInfo="EventHandlerReference"/>
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1208685926630">
+      <link role="relationDeclaration" targetNodeId="1.1208685921332"/>
+      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent"
+            id="1208685926631">
+        <link role="conceptDeclaration" targetNodeId="2v.1205769003971"
+              resolveInfo="DefaultClassifierMethodDeclaration"/>
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property"
+              id="1208685929992">
+          <property name="readOnly" value="true"/>
+          <link role="relationDeclaration" targetNodeId="3.1083152972672" resolveInfo="name"/>
+        </node>
       </node>
     </node>
   </node>

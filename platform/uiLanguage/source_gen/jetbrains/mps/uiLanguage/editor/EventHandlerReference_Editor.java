@@ -14,39 +14,39 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
-public class EventAccessOperation_Editor extends DefaultNodeEditor {
+public class EventHandlerReference_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_EventReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1208101299382");
+  private static void setupBasic_HandlerReferenceCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1208685926630");
   }
 
-  private static void setupLabel_EventReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_HandlerReferenceCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createEventReferenceCell(context, node);
+    return this.createHandlerReferenceCell(context, node);
   }
 
-  public EditorCell createEventReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createHandlerReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new EventAccessOperation_Editor._Inline11());
+    provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline13());
     EditorCell editorCell = provider.createEditorCell(context);
-    EventAccessOperation_Editor.setupBasic_EventReferenceCell(editorCell, node, context);
+    EventHandlerReference_Editor.setupBasic_HandlerReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      EventAccessOperation_Editor.setupLabel_EventReferenceCell((EditorCell_Label) editorCell, node, context);
+      EventHandlerReference_Editor.setupLabel_HandlerReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createEventReferenceCell(EditorContext context, SNode node) {
+  public EditorCell createHandlerReferenceCell(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
-    provider.setRole("event");
+    provider.setRole("handler");
     provider.setNoTargetText("");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createEventReferenceCellinternal(context, node, provider);
+    EditorCell cellWithRole = this.createHandlerReferenceCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -57,14 +57,14 @@ public class EventAccessOperation_Editor extends DefaultNodeEditor {
       return cellWithRole;
   }
 
-  public static class _Inline11 extends AbstractCellProvider {
+  public static class _Inline13 extends AbstractCellProvider {
 
-    public _Inline11() {
+    public _Inline13() {
       super();
     }
 
     private static void setupBasic_NameCell(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1208101299384");
+      editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1208685929992");
     }
 
     private static void setupLabel_NameCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -83,9 +83,9 @@ public class EventAccessOperation_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      EventAccessOperation_Editor._Inline11.setupBasic_NameCell(editorCell, node, context);
+      EventHandlerReference_Editor._Inline13.setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        EventAccessOperation_Editor._Inline11.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        EventHandlerReference_Editor._Inline13.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

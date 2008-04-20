@@ -623,10 +623,10 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208089922381">
     <property name="package" value="Events.Operations"/>
     <property name="name" value="RaiseOperation"/>
-    <link role="extends" targetNodeId="1208094269878" resolveInfo="BaseEventOperation"/>
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1208093555631">
-      <property name="value" value=".raise"/>
+      <property name="value" value="raise"/>
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
@@ -636,17 +636,15 @@
       <property name="sourceCardinality" value="1"/>
       <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
+          id="1208685544214">
+      <link role="intfc" targetNodeId="2.1197027803184" resolveInfo="IOperation"/>
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208090496480">
     <property name="package" value="Events.Operations"/>
     <property name="name" value="AddListenerOperation"/>
-    <link role="extends" targetNodeId="1208094269878" resolveInfo="BaseEventOperation"/>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1208091178966">
-      <property name="role" value="handler"/>
-      <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="3.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration"/>
-    </node>
+    <link role="extends" targetNodeId="2.1081773326031" resolveInfo="BinaryOperation"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1208093568835">
       <property name="value" value="+="/>
@@ -656,33 +654,11 @@
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208090516982">
     <property name="package" value="Events.Operations"/>
     <property name="name" value="RemoveListenerOperation"/>
-    <link role="extends" targetNodeId="1208094269878" resolveInfo="BaseEventOperation"/>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1208091152603">
-      <property name="role" value="handler"/>
-      <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="3.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration"/>
-    </node>
+    <link role="extends" targetNodeId="2.1081773326031" resolveInfo="BinaryOperation"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1208093573211">
       <property name="value" value="-="/>
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208094269878">
-    <property name="package" value="Events.Operations"/>
-    <property name="name" value="BaseEventOperation"/>
-    <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1208094920591">
-      <property name="metaClass" value="aggregation"/>
-      <property name="role" value="eventOperation"/>
-      <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="1208089639160" resolveInfo="GetEventOperation"/>
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty"
-          id="1208096436463">
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract"/>
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208110293926">
@@ -710,6 +686,17 @@
           id="1208110398494">
       <property name="value" value="inline event handler"/>
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208685679469">
+    <property name="package" value="Events.Operations"/>
+    <property name="name" value="EventHandlerReference"/>
+    <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1208685921332">
+      <property name="role" value="handler"/>
+      <property name="sourceCardinality" value="1"/>
+      <link role="target" targetNodeId="3.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration"/>
     </node>
   </node>
 </model>
