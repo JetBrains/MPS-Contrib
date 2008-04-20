@@ -2743,6 +2743,84 @@
         </node>
       </node>
     </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration"
+          id="1208692462798">
+      <property name="name" value="getGeneratedName"/>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1208692462799">
+        <link role="classifier" targetNodeId="4.~String" resolveInfo="String"/>
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1208692462800">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1208692462801">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1208692462802">
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1208692462803">
+              <link role="baseMethodDeclaration"
+                    targetNodeId="5.~NameUtil.toValidIdentifier(java.lang.String):java.lang.String"
+                    resolveInfo="toValidIdentifier"/>
+              <link role="classConcept" targetNodeId="5.~NameUtil" resolveInfo="NameUtil"/>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208692462804">
+                <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression"
+                      id="1208692462805"/>
+                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess"
+                      id="1208692462806">
+                  <link role="property" targetNodeId="2.1169194664001" resolveInfo="name"/>
+                </node>
+              </node>
+            </node>
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1208692462807">
+              <property name="value" value="_Event"/>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration"
+          id="1208692462808">
+      <property name="name" value="getGeneratedClassFQName"/>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1208692462809">
+        <link role="classifier" targetNodeId="4.~String" resolveInfo="String"/>
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1208692462810">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1208692462811">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1208692462812">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1208692462813">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208692462814">
+                <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression"
+                      id="1208692462815"/>
+                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall"
+                      id="1208692462816">
+                  <link role="conceptMethodDeclaration" targetNodeId="1208692462798" resolveInfo="getGeneratedName"/>
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1208692462817">
+                <property name="value" value="."/>
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208692462818">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression"
+                    id="1208692462819">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="1208692462820">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208692462821">
+                    <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression"
+                          id="1208692462822"/>
+                    <node role="operation"
+                          type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetModelOperation"
+                          id="1208692462823"/>
+                  </node>
+                  <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1208692462824">
+                    <link role="classifier" targetNodeId="20.~SModel" resolveInfo="SModel"/>
+                  </node>
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation"
+                    id="1208692462825">
+                <link role="baseMethodDeclaration" targetNodeId="20.~SModel.getLongName():java.lang.String"
+                      resolveInfo="getLongName"/>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration"
           id="1208099923594">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1208099923595"/>
