@@ -1,10 +1,10 @@
 package jetbrains.mps.uiLanguage.runtime.events;
 
-import java.util.List;
-import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Event {
-  private List<IListener> myListeners = new ArrayList<IListener>();
+  private Map<Object, IListener> myListeners = new HashMap<Object, IListener>();
   private String myName;
 
   public Event(String name) {
@@ -15,16 +15,16 @@ public class Event {
     return myName;
   }
 
-  public boolean addListener(IListener o) {
-    return myListeners.add(o);
+  public void addListener(IListener l, ListenerId id) {
+    myListeners.put(id, l);
   }
 
-  public boolean removeListener(IListener o) {
-    return myListeners.remove(o);
+  public void removeListener(ListenerId id) {
+    myListeners.remove(id);
   }
 
   public void raise(Object o) {
-    for (IListener listener : myListeners) {
+    for (IListener listener : myListeners.values()) {
       listener.invoke(o);
     }
   }
