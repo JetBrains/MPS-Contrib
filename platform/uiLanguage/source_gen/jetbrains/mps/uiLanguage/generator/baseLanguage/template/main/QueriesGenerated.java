@@ -6,9 +6,8 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 import jetbrains.mps.baseLanguage.classifiers.constraints.ThisClassifierExpresson_Behavior;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.uiLanguage.constraints.ComponentDeclaration_Behavior;
 import jetbrains.mps.util.NameUtil;
@@ -24,6 +23,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
+import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
 
 public class QueriesGenerated {
@@ -38,20 +38,6 @@ public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_1203521594846(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "creator", true), "jetbrains.mps.uiLanguage.structure.ComponentCreator");
-  }
-
-  public static boolean baseMappingRule_Condition_1205754252254(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    if (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AddListenerOperation", false, false) != null) {
-      return false;
-    }
-    if (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", false, false) != null) {
-      return false;
-    }
-    Iterable<SNode> nodes = SequenceOperations.where(SNodeOperations.getAncestors(_context.getNode(), null, false), new zPredicate(null, null));
-    if (!(SequenceOperations.isEmpty(SequenceOperations.where(nodes, new zPredicate1(null, null))))) {
-      return false;
-    }
-    return SNodeOperations.isInstanceOf(ThisClassifierExpresson_Behavior.call_getClassifier_1205753961441(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
   }
 
   public static boolean baseMappingRule_Condition_1207755858791(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -84,20 +70,6 @@ public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_1208711096382(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "expression", true), "jetbrains.mps.baseLanguage.structure.DotExpression")) {
       return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "operation", true), "jetbrains.mps.uiLanguage.structure.RaiseOperation");
-    }
-    return false;
-  }
-
-  public static boolean baseMappingRule_Condition_1208711907955(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    if (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AddListenerOperation", false, false) != null) {
-      return true;
-    }
-    if (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation", false, false) != null) {
-      return true;
-    }
-    Iterable<SNode> nodes = SequenceOperations.where(SNodeOperations.getAncestors(_context.getNode(), null, false), new zPredicate2(null, null));
-    if (!(SequenceOperations.isEmpty(SequenceOperations.where(nodes, new zPredicate3(null, null))))) {
-      return true;
     }
     return false;
   }
@@ -486,7 +458,7 @@ public class QueriesGenerated {
   }
 
   public static List sourceNodesQuery_1202478250130(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SequenceOperations.toList(SequenceOperations.where(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AttributeValue", true), new zPredicate4(null, null)));
+    return SequenceOperations.toList(SequenceOperations.where(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.AttributeValue", true), new zPredicate(null, null)));
   }
 
   public static List sourceNodesQuery_1202749000153(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
@@ -494,7 +466,7 @@ public class QueriesGenerated {
   }
 
   public static List sourceNodesQuery_1203087598722(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SequenceOperations.toList(SequenceOperations.where(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ListElements", true), new zPredicate5(null, null)));
+    return SequenceOperations.toList(SequenceOperations.where(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ListElements", true), new zPredicate1(null, null)));
   }
 
   public static List sourceNodesQuery_1207756399572(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
