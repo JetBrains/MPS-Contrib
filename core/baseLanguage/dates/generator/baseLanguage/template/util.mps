@@ -11,6 +11,7 @@
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="12" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="3" modelUID="jetbrains.mps.generator.template@java_stub" version="-1" />
@@ -91,7 +92,9 @@
               </node>
               <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetAncestorOperation" id="1173733827284">
                 <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Concept" id="1169556647970">
-                  <link role="concept" targetNodeId="4.1169481390637" />
+                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1208987597081">
+                    <link role="conceptDeclaration" targetNodeId="4.1169481390637" resolveInfo="DateFormatsTable" />
+                  </node>
                 </node>
                 <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Inclusion" id="1173785647896" />
               </node>
@@ -99,16 +102,18 @@
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173736559743">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1173736566606">
-            <link role="baseMethodDeclaration" targetNodeId="3.~ITemplateGenerator.findOutputNodeByInputNodeAndMappingName(jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNode" resolveInfo="findOutputNodeByInputNodeAndMappingName" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1173736573522">
-              <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
-            </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1173736573523">
-              <property name="value" value="FormatTableClass" />
-            </node>
-            <node role="instance" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1173736559744">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208987574727">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1173736559744">
               <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208987574728">
+              <link role="baseMethodDeclaration" targetNodeId="3.~ITemplateGenerator.findOutputNodeByInputNodeAndMappingName(jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNode" resolveInfo="findOutputNodeByInputNodeAndMappingName" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1173736573522">
+                <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
+              </node>
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1173736573523">
+                <property name="value" value="FormatTableClass" />
+              </node>
             </node>
           </node>
         </node>
@@ -162,7 +167,7 @@
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1169556861813">
               <link role="variableDeclaration" targetNodeId="1169556826782" resolveInfo="clazz" />
             </node>
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1169556870692">
+            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1208987591018">
               <link role="link" targetNodeId="1.1128555889557" />
             </node>
           </node>
@@ -214,16 +219,18 @@
           </node>
           <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1169556941502">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1169556949852">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1169556952871">
-                <link role="baseMethodDeclaration" targetNodeId="3.~ITemplateGenerator.showErrorMessage(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,java.lang.String):void" resolveInfo="showErrorMessage" />
-                <node role="instance" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1169556949853">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208987576429">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1169556949853">
                   <link role="variableDeclaration" targetNodeId="1169556593192" resolveInfo="generator" />
                 </node>
-                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1169556957732">
-                  <link role="variableDeclaration" targetNodeId="1169556590581" resolveInfo="node" />
-                </node>
-                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1169556960749">
-                  <property name="value" value="Can't find formatters field declaration" />
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208987576430">
+                  <link role="baseMethodDeclaration" targetNodeId="3.~ITemplateGenerator.showErrorMessage(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode,java.lang.String):void" resolveInfo="showErrorMessage" />
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1169556957732">
+                    <link role="variableDeclaration" targetNodeId="1169556590581" resolveInfo="node" />
+                  </node>
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1169556960749">
+                    <property name="value" value="Can't find formatters field declaration" />
+                  </node>
                 </node>
               </node>
             </node>
