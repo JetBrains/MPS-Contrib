@@ -14,6 +14,8 @@
   </language>
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="14" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
   <import index="4" modelUID="webr.xmlSchema.structure" version="-1" />

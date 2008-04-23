@@ -12,6 +12,8 @@
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="43" />
   <import index="1" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="38" modelUID="jetbrains.mps.ide.browser@java_stub" version="-1" />

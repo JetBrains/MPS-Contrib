@@ -17,6 +17,8 @@
   <language namespace="jetbrains.mps.regexp" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="26" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="19" modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
