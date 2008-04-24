@@ -234,6 +234,10 @@
       <property name="value" value="Convert to datetime" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038953048">
+      <property name="value" value="Use ConvertToDateTimeOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178207640788">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>
@@ -260,6 +264,10 @@
       <property name="value" value="jodaDateTime" />
       <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209039009333">
+      <property name="value" value="Use ConvertToJodaDateTimeOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178205821415">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>
@@ -279,6 +287,10 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1178205768925">
       <property name="value" value="javaDate" />
       <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038991982">
+      <property name="value" value="Use ConvertToJavaDateOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178205775723">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
@@ -311,6 +323,10 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1178205727577">
       <property name="value" value="javaCalendar" />
       <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038973194">
+      <property name="value" value="Use ConvertToJavaCalendarOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178205735126">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
@@ -477,7 +493,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1172327820761">
     <property name="name" value="DateTimePropetyReference" />
-    <property name="package" value="operation.property" />
+    <property name="package" value="old" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1172327973863">
       <property name="value" value=".&lt;{dateTimeProperty}&gt;" />
@@ -486,6 +502,10 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1172328004450">
       <property name="value" value="Get integer value of datetime property" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209040777584">
+      <property name="value" value="Use DateTimePropertyReferenceOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178204913593">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
@@ -592,6 +612,10 @@
       <property name="value" value="isNull" />
       <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038944125">
+      <property name="value" value="Use NullOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178205375869">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>
@@ -615,6 +639,10 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1178205342676">
       <property name="value" value="isNotNull" />
       <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038919517">
+      <property name="value" value="Use NotNullOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178205357193">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
@@ -785,6 +813,10 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1178207271428">
       <property name="value" value="&lt;datetime operation&gt;" />
       <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038895745">
+      <property name="value" value="Use DateTimeOperation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
     </node>
     <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptPropertyDeclaration" id="1178205225281">
       <property name="name" value="operationName" />
@@ -1050,6 +1082,30 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209036336322">
       <property name="value" value="Convert to org.joda.time.DateTime" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1209039739631">
+    <property name="name" value="DateTimePropetyReferenceOperation" />
+    <property name="package" value="operation.property" />
+    <link role="extends" targetNodeId="1209035760903" resolveInfo="DateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209039739632">
+      <property name="value" value="&lt;{dateTimeProperty}&gt;" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209039739633">
+      <property name="value" value="Get integer value of datetime property" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
+    </node>
+    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.structure.AggregationConceptLink" id="1209039739635">
+      <link role="conceptLinkDeclaration" targetNodeId="1209035895681" resolveInfo="operationType" />
+      <node role="target" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1209039739636">
+        <link role="classifier" targetNodeId="7.~Integer" resolveInfo="Integer" />
+      </node>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1209039739637">
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="dateTimeProperty" />
+      <link role="target" targetNodeId="2.1172074318583" resolveInfo="DateTimeProperty" />
     </node>
   </node>
 </model>
