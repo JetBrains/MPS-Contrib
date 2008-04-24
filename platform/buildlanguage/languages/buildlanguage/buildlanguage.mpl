@@ -9,7 +9,7 @@
     <model modelUID="jetbrains.mps.buildlanguage.optional" />
   </accessoryModels>
   <generators>
-    <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807" targetLanguage="jetbrains.mps.xml">
+    <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807">
       <models>
         <modelRoot path="${language_descriptor}\generator\xml\template" namespacePrefix="jetbrains.mps.buildlanguage.generator.xml.template" />
       </models>
@@ -23,12 +23,9 @@
   <classPath>
     <entry path="${mps_home}\platform\buildlanguage\classes" />
     <entry path="${mps_home}\lib\ant-1.7.0\lib\ant.jar" />
-  </classPath>
-  <runtimeClassPath>
-    <entry path="${mps_home}\platform\buildlanguage\classes" />
-    <entry path="${mps_home}\lib\ant-1.7.0\lib\ant.jar" />
     <entry path="${mps_home}\lib\asm\asm.jar" />
-  </runtimeClassPath>
+  </classPath>
+  <languageRuntimeClassPath />
   <sourcePath>
     <source path="${mps_home}\platform\buildlanguage\source" />
   </sourcePath>

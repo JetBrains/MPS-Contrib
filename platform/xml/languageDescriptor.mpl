@@ -5,7 +5,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator name="XML" generatorUID="jetbrains.mps.xml#1129923280838" targetLanguage="jetbrains.mps.xml">
+    <generator generatorUID="jetbrains.mps.xml#1129923280838">
       <models>
         <modelRoot path="${language_descriptor}\generator" namespacePrefix="jetbrains.mps.xml.generator" />
       </models>
@@ -16,9 +16,7 @@
   <classPath>
     <entry path="${language_descriptor}\classes" />
   </classPath>
-  <runtimeClassPath>
-    <entry path="${language_descriptor}\classes" />
-  </runtimeClassPath>
+  <languageRuntimeClassPath />
   <sourcePath />
   <osgiOptions>
     <requiredBundles />
