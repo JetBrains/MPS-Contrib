@@ -17,6 +17,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="47" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -339,6 +340,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1171964300764">
+    <property name="package" value="old" />
     <link role="conceptDeclaration" targetNodeId="1.1171964197527" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1171964303907">
       <property name="drawBorder" value="false" />
@@ -1589,7 +1591,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1178205874025">
-    <property name="package" value="operation" />
+    <property name="package" value="old" />
     <link role="conceptDeclaration" targetNodeId="1.1178205163518" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1178205877355">
       <property name="vertical" value="false" />
@@ -1966,6 +1968,23 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1207222936982">
         <link role="relationDeclaration" targetNodeId="1.1207222904241" />
       </node>
+    </node>
+  </node>
+  <visible index="2" modelUID="jetbrains.mps.baseLanguage.editor" />
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1209035305144">
+    <property name="package" value="operation.convert" />
+    <link role="conceptDeclaration" targetNodeId="1.1209035204722" resolveInfo="ConvertToDateTimeOperation" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1209035311050">
+      <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
+      <link role="styleClass" targetNodeId="2v.1186415544875" resolveInfo="KeyWord" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1209035822356">
+    <property name="package" value="operation" />
+    <link role="conceptDeclaration" targetNodeId="1.1209035760903" resolveInfo="DateTimeOperation" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1209035827562">
+      <link role="styleClass" targetNodeId="2v.1186415544875" resolveInfo="KeyWord" />
+      <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>

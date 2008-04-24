@@ -8,7 +8,7 @@
     <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   </accessoryModels>
   <generators>
-    <generator generatorUID="jetbrains.mps.baseLanguage.ext.dates.lang#1169550118977" targetLanguage="jetbrains.mps.baseLanguage">
+    <generator generatorUID="jetbrains.mps.baseLanguage.ext.dates.lang#1169550118977">
       <models>
         <modelRoot path="${language_descriptor}\generator\baseLanguage\template" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template" />
       </models>
@@ -23,10 +23,8 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <classPath>
-    <entry path="${language_descriptor}\classes_gen" />
-  </classPath>
-  <runtimeClassPath />
+  <classPath />
+  <languageRuntimeClassPath />
   <sourcePath>
     <source path="${language_descriptor}\source" />
   </sourcePath>
@@ -38,6 +36,9 @@
     <dependency reexport="false">jetbrains.mps.baseLanguageInternal</dependency>
     <dependency reexport="true">jetbrains.mps.baseLanguage.dates.runtime</dependency>
   </dependencies>
+  <runtime>
+    <dependency reexport="true">jetbrains.mps.baseLanguage.dates.runtime</dependency>
+  </runtime>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
     <extendedLanguage>jetbrains.mps.baseLanguage.ext.dates.internal</extendedLanguage>

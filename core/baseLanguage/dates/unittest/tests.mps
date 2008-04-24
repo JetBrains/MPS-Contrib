@@ -692,10 +692,11 @@
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1172158941080">
       <property name="name" value="yesterday" />
       <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeType" id="1172158944129" />
-      <node role="initializer" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.ToDateTimeOperation" id="1172158993523">
-        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986614227">
-          <node role="operand" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.ToJodaDateTimeOperation" id="1172158968304">
-            <node role="datetime" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.NowExpression" id="1172158963021" />
+      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209037947904">
+        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986614227">
+          <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209037912031">
+            <node role="operand" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.NowExpression" id="1172158963021" />
+            <node role="operation" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.ConvertToJodaDateTimeOperation" id="1209037916092" />
           </node>
           <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986614228">
             <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.minusDays(int):org.joda.time.DateTime" resolveInfo="minusDays" />
@@ -704,7 +705,9 @@
             </node>
           </node>
         </node>
+        <node role="operation" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.ConvertToDateTimeOperation" id="1209037954054" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209037926507" />
     </node>
     <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethodList" id="1172075810593">
       <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1172075816800">
@@ -1228,6 +1231,7 @@
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1173787596138">
     <property name="name" value="BaseTest" />
+    <property name="abstractClass" value="true" />
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="1173787612320">
       <property name="name" value="setUp" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1173787612321" />
@@ -1238,15 +1242,10 @@
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1180740275695" />
     </node>
-    <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="1173788135313">
-      <property name="name" value="testFake" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1173788135314" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1173788135315" />
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1204416018976" />
-    </node>
     <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173787603061">
       <link role="classifier" targetNodeId="7.~TestCase" resolveInfo="TestCase" />
     </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1209031757292" />
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1173879639365">
     <property name="testCaseName" value="IsNull" />
