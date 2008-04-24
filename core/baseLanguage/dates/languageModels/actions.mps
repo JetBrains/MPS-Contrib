@@ -525,6 +525,7 @@
       <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968405">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeType" id="1196777968406" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041871791" />
     </node>
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1175767635707">
       <property name="name" value="periodType" />
@@ -534,6 +535,7 @@
       <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968407">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.PeriodType" id="1196777968408" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041873211" />
     </node>
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1175767653552">
       <property name="name" value="intType" />
@@ -543,6 +545,7 @@
       <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968409">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1196777968410" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041874428" />
     </node>
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1175768032843">
       <property name="name" value="javaDateType" />
@@ -554,6 +557,7 @@
           <link role="classifier" targetNodeId="16.~Date" resolveInfo="Date" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041875560" />
     </node>
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1175768070723">
       <property name="name" value="javaCalendarType" />
@@ -565,6 +569,7 @@
           <link role="classifier" targetNodeId="16.~Calendar" resolveInfo="Calendar" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041876756" />
     </node>
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1175768096823">
       <property name="name" value="jodaAbstractInstant" />
@@ -576,30 +581,20 @@
           <link role="classifier" targetNodeId="9.~AbstractInstant" resolveInfo="AbstractInstant" />
         </node>
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041877967" />
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="1172502164823">
       <property name="name" value="isInstanceOfPeriod" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1172502168471" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1172502164825">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" id="1185544576176">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1185544534672">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalStaticMethodCall" id="1185544534673">
-              <link role="baseMethodDeclaration" targetNodeId="1175768616289" resolveInfo="isInstanceOf" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1185544534674">
-                <link role="variableDeclaration" targetNodeId="1172502184831" resolveInfo="node" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference" id="1185544534675">
-                <link role="variableDeclaration" targetNodeId="1175767635707" resolveInfo="periodType" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1185544585147">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1185544670925">
-            <link role="baseMethodDeclaration" targetNodeId="23.~PeriodTypeHackUtil.isInstanceOfPeriod(jetbrains.mps.smodel.SNode):boolean" resolveInfo="isInstanceOfPeriod" />
-            <link role="classConcept" targetNodeId="23.~PeriodTypeHackUtil" resolveInfo="PeriodTypeHackUtil" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1185544674879">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209041928683">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalStaticMethodCall" id="1209041923059">
+            <link role="baseMethodDeclaration" targetNodeId="1175768616289" resolveInfo="isInstanceOf" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1209041923060">
               <link role="variableDeclaration" targetNodeId="1172502184831" resolveInfo="node" />
+            </node>
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference" id="1209041923061">
+              <link role="variableDeclaration" targetNodeId="1175767635707" resolveInfo="periodType" />
             </node>
           </node>
         </node>
@@ -648,7 +643,7 @@
       <property name="name" value="isInstanceOfDatetime" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1175769968881" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1175769966458">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1175769987400">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209041933714">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalStaticMethodCall" id="1175769994902">
             <link role="baseMethodDeclaration" targetNodeId="1175768616289" resolveInfo="isInstanceOf" />
             <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1175769999372">
@@ -670,7 +665,7 @@
       <property name="name" value="isInstanceOfInt" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1175769907492" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1175769904881">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1175769948153">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209041935950">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalStaticMethodCall" id="1175769955748">
             <link role="baseMethodDeclaration" targetNodeId="1175768616289" resolveInfo="isInstanceOf" />
             <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1175769958156">
@@ -862,7 +857,7 @@
       <property name="name" value="isInstanceOf" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1175768618167" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1175768616291">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1180023105796">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209041951560">
           <node role="expression" type="jetbrains.mps.bootstrap.helgins.structure.IsStrongSubtypeExpression" id="1180023149876">
             <node role="subtypeExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227922575">
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1180023155697">
