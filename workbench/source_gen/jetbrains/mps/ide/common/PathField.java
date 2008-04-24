@@ -8,6 +8,7 @@ import javax.swing.JButton;
 import java.util.List;
 import org.jdesktop.beansbinding.AutoBinding;
 import java.util.ArrayList;
+import jetbrains.mps.uiLanguage.runtime.events.Events;
 import jetbrains.mps.ide.ui.filechoosers.treefilechooser.TreeFileChooser;
 import java.awt.BorderLayout;
 import org.jdesktop.beansbinding.Property;
@@ -26,14 +27,23 @@ public class PathField extends JPanel {
   private String myPath;
   private int myMode;
   public List<AutoBinding> myBindings = new ArrayList<AutoBinding>();
+  private Events myEvents = new Events() {
+    {
+    }
 
-  public  PathField() {
+  };
+
+  public PathField() {
     this.myThis = this;
     myThis.setMode(TreeFileChooser.MODE_DIRECTORIES);
     PathField component = this;
     component.setLayout(new BorderLayout());
     component.add(this.createComponent(), BorderLayout.CENTER);
     component.add(this.createComponent1(), BorderLayout.EAST);
+  }
+
+  public Events getEvents() {
+    return this.myEvents;
   }
 
   public void addNotify() {
