@@ -5,5 +5,8 @@
   </models>
   <classPath />
   <sourcePath />
+  <usedLanguages>
+    <usedLanguages>jetbrains.mps.uiLanguage</usedLanguages>
+  </usedLanguages>
 </solution>
 
