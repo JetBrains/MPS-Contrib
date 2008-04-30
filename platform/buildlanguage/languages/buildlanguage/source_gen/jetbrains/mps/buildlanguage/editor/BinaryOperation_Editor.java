@@ -153,7 +153,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
 
   public static class BinaryOperation_replaceWith_BinaryOperation_cellMenu extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {
 
-    public  BinaryOperation_replaceWith_BinaryOperation_cellMenu() {
+    public BinaryOperation_replaceWith_BinaryOperation_cellMenu() {
     }
 
     public String getReplacementConceptName() {

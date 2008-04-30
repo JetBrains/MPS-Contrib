@@ -206,6 +206,7 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <maxImportIndex value="10" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
@@ -362,7 +363,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1196851304975">
-    <property name="name" value="GenericDeclaration" />
+    <property name="name" value="GenericTaskDeclaration" />
     <property name="rootable" value="true" />
     <property name="package" value="Generic" />
     <link role="extends" targetNodeId="1198324973114" resolveInfo="Declaration" />

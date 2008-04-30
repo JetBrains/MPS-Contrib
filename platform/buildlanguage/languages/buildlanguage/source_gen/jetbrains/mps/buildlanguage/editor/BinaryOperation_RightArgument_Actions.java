@@ -19,7 +19,7 @@ public class BinaryOperation_RightArgument_Actions {
 
     /* package */SNode myNode;
 
-    public  BinaryOperation_RightArgument_Actions_DELETE(SNode node) {
+    public BinaryOperation_RightArgument_Actions_DELETE(SNode node) {
       this.myNode = node;
     }
 

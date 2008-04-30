@@ -113,7 +113,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
   public static class _Inline11 extends AbstractCellProvider {
 
-    public  _Inline11() {
+    public _Inline11() {
       super();
     }
 

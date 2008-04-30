@@ -318,7 +318,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
 
   public static class PropertyDeclaration_generic_cellMenu extends AbstractCellMenuPart_Generic_Item {
 
-    public  PropertyDeclaration_generic_cellMenu() {
+    public PropertyDeclaration_generic_cellMenu() {
     }
 
     public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext) {

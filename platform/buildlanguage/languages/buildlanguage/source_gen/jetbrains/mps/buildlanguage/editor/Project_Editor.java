@@ -619,7 +619,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public static class _RefNodeListHandler1 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler1(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -683,7 +683,7 @@ public class Project_Editor extends DefaultNodeEditor {
 }
   public static class _RefNodeListHandler2 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler2(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler2(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -747,7 +747,7 @@ public class Project_Editor extends DefaultNodeEditor {
 }
   public static class _RefNodeListHandler12 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler12(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler12(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -811,7 +811,7 @@ public class Project_Editor extends DefaultNodeEditor {
 }
   public static class _RefNodeListHandler14 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler14(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler14(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -875,7 +875,7 @@ public class Project_Editor extends DefaultNodeEditor {
 }
   public static class _RefNodeListHandler17 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler17(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler17(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

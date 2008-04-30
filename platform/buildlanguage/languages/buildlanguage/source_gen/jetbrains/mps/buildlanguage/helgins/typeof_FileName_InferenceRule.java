@@ -9,7 +9,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_FileName_InferenceRule implements InferenceRule_Runtime {
 
-  public  typeof_FileName_InferenceRule() {
+  public typeof_FileName_InferenceRule() {
   }
 
   public void applyRule(final SNode nodeToCheck) {

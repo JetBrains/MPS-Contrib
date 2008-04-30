@@ -9,7 +9,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_IntLiteral_InferenceRule implements InferenceRule_Runtime {
 
-  public  typeof_IntLiteral_InferenceRule() {
+  public typeof_IntLiteral_InferenceRule() {
   }
 
   public void applyRule(final SNode nodeToCheck) {

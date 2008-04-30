@@ -9,18 +9,19 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <maxImportIndex value="0" />
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185005">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185005">
     <property name="name" value="task" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.Task" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185006">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185006">
     <property name="name" value="datatype" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.DataType" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185007">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185007">
     <property name="name" value="taskadapter" />
     <property name="classname" value="org.apache.tools.ant.TaskAdapter" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185034">
@@ -36,7 +37,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185038">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185038">
     <property name="name" value="unknownelement" />
     <property name="classname" value="org.apache.tools.ant.UnknownElement" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185040">
@@ -60,7 +61,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037236">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037241">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037241">
       <property name="name" value="child" />
       <property name="classname" value="org.apache.tools.ant.UnknownElement" />
       <property name="fake" value="true" />
@@ -75,7 +76,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185052">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185052">
     <property name="name" value="dispatchtask" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.dispatch.DispatchTask" />
@@ -92,7 +93,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185060">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185060">
     <property name="name" value="abstractcvstask" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.AbstractCvsTask" />
@@ -213,7 +214,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037248">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037275">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037275">
       <property name="name" value="commandargument" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -227,7 +228,7 @@
         <link role="declaration" targetNodeId="1208450037275" resolveInfo="commandargument" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037284">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037284">
       <property name="name" value="configuredcommandline" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline" />
       <property name="fake" value="true" />
@@ -242,7 +243,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185138">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185138">
     <property name="name" value="abstractjarsignertask" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.AbstractJarSignerTask" />
@@ -309,7 +310,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037305">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037305">
       <property name="name" value="sysproperty" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
@@ -324,7 +325,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185188">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185188">
     <property name="name" value="path" />
     <property name="classname" value="org.apache.tools.ant.types.Path" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185194">
@@ -372,7 +373,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039636">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039641">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039641">
       <property name="name" value="existing" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -380,7 +381,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039644">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039644">
       <property name="name" value="extdirs" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -407,7 +408,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185206">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185206">
     <property name="name" value="pathelement" />
     <property name="classname" value="org.apache.tools.ant.types.Path$PathElement" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185210">
@@ -423,7 +424,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644185217" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185222">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185222">
     <property name="name" value="ant" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Ant" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185240">
@@ -477,7 +478,7 @@
         <link role="declaration" targetNodeId="1208450037321" resolveInfo="reference" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037328">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037328">
       <property name="name" value="configuredtarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$TargetElement" />
       <property name="fake" value="true" />
@@ -498,7 +499,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185264">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185264">
     <property name="name" value="property" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Property" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185266">
@@ -568,7 +569,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185308" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450038663" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721726">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721726">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -586,7 +587,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185314">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185314">
     <property name="name" value="antstructure" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.AntStructure" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185316">
@@ -605,7 +606,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185323">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185323">
     <property name="name" value="antlib" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Antlib" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696443709">
@@ -621,7 +622,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185327">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185327">
     <property name="name" value="antlibdefinition" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.AntlibDefinition" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185329">
@@ -640,7 +641,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185352">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185352">
     <property name="name" value="apt" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Apt" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185654">
@@ -679,7 +680,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185676" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1208450037374" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720716">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720716">
       <property name="name" value="factorypath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -703,7 +704,7 @@
       <link role="declaration" targetNodeId="1199644185353" resolveInfo="javac" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185353">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185353">
     <property name="name" value="javac" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javac" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185461">
@@ -910,7 +911,7 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450038138" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721325">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721325">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -918,7 +919,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721327">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721327">
       <property name="name" value="src" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -926,7 +927,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721329">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721329">
       <property name="name" value="sourcepath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -934,7 +935,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721331">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721331">
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -942,7 +943,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721349">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721349">
       <property name="name" value="extdirs" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -968,7 +969,7 @@
         <link role="declaration" targetNodeId="1201800721349" resolveInfo="extdirs" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721372">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721372">
       <property name="name" value="compilerarg" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javac$ImplementationSpecificArgument" />
       <property name="fake" value="true" />
@@ -986,7 +987,7 @@
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185354">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185354">
     <property name="name" value="matchingtask" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MatchingTask" />
@@ -1053,7 +1054,7 @@
         <link role="declaration" targetNodeId="1199644185414" resolveInfo="patternset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721637">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721637">
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1061,7 +1062,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721639">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721639">
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1069,7 +1070,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721641">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721641">
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1077,7 +1078,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721643">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721643">
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1103,7 +1104,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038482">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038492">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038492">
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
@@ -1117,7 +1118,7 @@
         <link role="declaration" targetNodeId="1208450038492" resolveInfo="date" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038497">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038497">
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
@@ -1131,7 +1132,7 @@
         <link role="declaration" targetNodeId="1208450038497" resolveInfo="selector" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038502">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038502">
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
@@ -1145,7 +1146,7 @@
         <link role="declaration" targetNodeId="1208450038502" resolveInfo="and" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038506">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038506">
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
@@ -1159,7 +1160,7 @@
         <link role="declaration" targetNodeId="1208450038506" resolveInfo="or" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038511">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038511">
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
@@ -1173,7 +1174,7 @@
         <link role="declaration" targetNodeId="1208450038511" resolveInfo="not" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038515">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038515">
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
@@ -1187,7 +1188,7 @@
         <link role="declaration" targetNodeId="1208450038515" resolveInfo="none" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038520">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038520">
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
@@ -1201,7 +1202,7 @@
         <link role="declaration" targetNodeId="1208450038520" resolveInfo="majority" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038524">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038524">
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
@@ -1215,7 +1216,7 @@
         <link role="declaration" targetNodeId="1208450038524" resolveInfo="size" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038529">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038529">
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
@@ -1229,7 +1230,7 @@
         <link role="declaration" targetNodeId="1208450038529" resolveInfo="different" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038534">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038534">
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
@@ -1243,7 +1244,7 @@
         <link role="declaration" targetNodeId="1208450038534" resolveInfo="filename" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038538">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038538">
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
@@ -1257,7 +1258,7 @@
         <link role="declaration" targetNodeId="1208450038538" resolveInfo="type" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038543">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038543">
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
@@ -1271,7 +1272,7 @@
         <link role="declaration" targetNodeId="1208450038543" resolveInfo="custom" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038547">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038547">
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
@@ -1285,7 +1286,7 @@
         <link role="declaration" targetNodeId="1208450038547" resolveInfo="contains" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038552">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038552">
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
@@ -1299,7 +1300,7 @@
         <link role="declaration" targetNodeId="1208450038552" resolveInfo="present" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038557">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038557">
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
@@ -1313,7 +1314,7 @@
         <link role="declaration" targetNodeId="1208450038557" resolveInfo="depth" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038561">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038561">
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
@@ -1327,7 +1328,7 @@
         <link role="declaration" targetNodeId="1208450038561" resolveInfo="depend" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038566">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038566">
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
@@ -1341,7 +1342,7 @@
         <link role="declaration" targetNodeId="1208450038566" resolveInfo="containsregexp" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038570">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038570">
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
@@ -1356,7 +1357,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185395">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185395">
     <property name="name" value="nameentry" />
     <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185397">
@@ -1378,7 +1379,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644185408" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185414">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185414">
     <property name="name" value="patternset" />
     <property name="classname" value="org.apache.tools.ant.types.PatternSet" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185417">
@@ -1414,7 +1415,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445244">
       <link role="declaration" targetNodeId="1201696445108" resolveInfo="cloneable" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722328">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722328">
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1422,7 +1423,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722330">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722330">
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1430,7 +1431,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722332">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722332">
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1438,7 +1439,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722334">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722334">
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -1464,7 +1465,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039653">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039660">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039660">
       <property name="name" value="configuredpatternset" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet" />
       <property name="fake" value="true" />
@@ -1479,7 +1480,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185587">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185587">
     <property name="name" value="implementationspecificargument" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Rmic$ImplementationSpecificArgument" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185642">
@@ -1498,7 +1499,7 @@
       <link role="declaration" targetNodeId="1199644185587" resolveInfo="implementationspecificargument" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185588">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185588">
     <property name="name" value="argument" />
     <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644185604">
@@ -1535,7 +1536,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644185640" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185589">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185589">
     <property name="name" value="projectcomponent" />
     <property name="abstract" value="true" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185592">
@@ -1557,7 +1558,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644185603" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185680">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185680">
     <property name="name" value="option" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Apt$Option" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185682">
@@ -1573,7 +1574,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644185689" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185692">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185692">
     <property name="name" value="available" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Available" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185711">
@@ -1654,7 +1655,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696443730">
       <link role="declaration" targetNodeId="1201696443729" resolveInfo="condition" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720734">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720734">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -1662,7 +1663,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720752">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720752">
       <property name="name" value="filepath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -1683,14 +1684,14 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185758">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185758">
     <property name="name" value="bunzip2" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.BUnzip2" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037395">
       <link role="declaration" targetNodeId="1199644185759" resolveInfo="unpack" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185759">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185759">
     <property name="name" value="unpack" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Unpack" />
@@ -1724,14 +1725,14 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185776">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185776">
     <property name="name" value="bzip2" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.BZip2" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037396">
       <link role="declaration" targetNodeId="1199644185777" resolveInfo="pack" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185777">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185777">
     <property name="name" value="pack" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Pack" />
@@ -1769,7 +1770,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185798">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185798">
     <property name="name" value="basename" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Basename" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185800">
@@ -1794,7 +1795,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185812">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185812">
     <property name="name" value="buildnumber" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.BuildNumber" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185814">
@@ -1807,7 +1808,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185834">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185834">
     <property name="name" value="cvspass" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.CVSPass" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185836">
@@ -1832,7 +1833,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185848">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185848">
     <property name="name" value="antcall" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.CallTarget" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185850">
@@ -1853,7 +1854,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185860" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450037412" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720773">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720773">
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Property" />
       <property name="fake" value="true" />
@@ -1876,7 +1877,7 @@
         <link role="declaration" targetNodeId="1208450037321" resolveInfo="reference" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037415">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037415">
       <property name="name" value="configuredtarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$TargetElement" />
       <property name="fake" value="true" />
@@ -1897,7 +1898,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185864">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185864">
     <property name="name" value="checksum" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Checksum" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185867">
@@ -2002,7 +2003,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185917">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185917">
     <property name="name" value="chmod" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Chmod" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186127">
@@ -2077,7 +2078,7 @@
         <link role="declaration" targetNodeId="1199644185414" resolveInfo="patternset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720822">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720822">
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -2085,7 +2086,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720824">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720824">
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -2106,7 +2107,7 @@
       <link role="declaration" targetNodeId="1199644185918" resolveInfo="execon" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185918">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185918">
     <property name="name" value="execon" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.ExecuteOn" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186027">
@@ -2204,7 +2205,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721097">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721097">
       <property name="name" value="srcfile" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Marker" />
       <property name="fake" value="true" />
@@ -2212,7 +2213,7 @@
         <link role="declaration" targetNodeId="1199644186084" resolveInfo="marker" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721099">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721099">
       <property name="name" value="targetfile" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Marker" />
       <property name="fake" value="true" />
@@ -2251,7 +2252,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644185919">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185919">
     <property name="name" value="exec" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.ExecTask" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185921">
@@ -2404,7 +2405,7 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450037805" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721059">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721059">
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
@@ -2421,7 +2422,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037804">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037831">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037831">
       <property name="name" value="configuredredirector" />
       <property name="classname" value="org.apache.tools.ant.types.RedirectorElement" />
       <property name="fake" value="true" />
@@ -2435,7 +2436,7 @@
         <link role="declaration" targetNodeId="1208450037831" resolveInfo="configuredredirector" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037838">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037838">
       <property name="name" value="env" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
@@ -2450,11 +2451,11 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186084">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186084">
     <property name="name" value="marker" />
     <property name="classname" value="org.apache.tools.ant.types.Commandline$Marker" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186089">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186089">
     <property name="name" value="mapper" />
     <property name="classname" value="org.apache.tools.ant.types.Mapper" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186092">
@@ -2531,7 +2532,7 @@
         <link role="declaration" targetNodeId="1201696443872" resolveInfo="filenamemapper" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722309">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722309">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -2548,7 +2549,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039623">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039632">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039632">
       <property name="name" value="configuredmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
@@ -2563,7 +2564,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186192">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186192">
     <property name="name" value="classloader" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Classloader" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186194">
@@ -2608,7 +2609,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186220" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450037532" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720837">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720837">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -2626,7 +2627,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186224">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186224">
     <property name="name" value="concat" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Concat" />
@@ -2722,7 +2723,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037533">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037545">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037545">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -2754,7 +2755,7 @@
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037576">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037576">
       <property name="name" value="header" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Concat$TextElement" />
       <property name="canHaveInternalText" value="true" />
@@ -2763,7 +2764,7 @@
         <link role="declaration" targetNodeId="1208450037575" resolveInfo="textelement" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037579">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037579">
       <property name="name" value="footer" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Concat$TextElement" />
       <property name="canHaveInternalText" value="true" />
@@ -2782,7 +2783,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186266">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186266">
     <property name="name" value="copy" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Copy" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186268">
@@ -2928,7 +2929,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186346">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186346">
     <property name="name" value="filterchain" />
     <property name="classname" value="org.apache.tools.ant.types.FilterChain" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186349">
@@ -2985,7 +2986,7 @@
         <link role="declaration" targetNodeId="1208450039454" resolveInfo="deletecharacters" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039458">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039458">
       <property name="name" value="filterreader" />
       <property name="classname" value="org.apache.tools.ant.types.AntFilterReader" />
       <property name="fake" value="true" />
@@ -3084,7 +3085,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186358">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186358">
     <property name="name" value="filterset" />
     <property name="classname" value="org.apache.tools.ant.types.FilterSet" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186361">
@@ -3146,7 +3147,7 @@
         <link role="declaration" targetNodeId="1208450039612" resolveInfo="filter" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039618">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039618">
       <property name="name" value="configuredfilterset" />
       <property name="classname" value="org.apache.tools.ant.types.FilterSet" />
       <property name="fake" value="true" />
@@ -3161,7 +3162,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186381">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186381">
     <property name="name" value="filtersfile" />
     <property name="classname" value="org.apache.tools.ant.types.FilterSet$FiltersFile" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186383">
@@ -3171,7 +3172,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1199644186386" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186406">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186406">
     <property name="name" value="copypath" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.CopyPath" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186408">
@@ -3220,7 +3221,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186432">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186432">
     <property name="name" value="copydir" />
     <property name="depracated" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Copydir" />
@@ -3258,7 +3259,7 @@
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186454">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186454">
     <property name="name" value="copyfile" />
     <property name="depracated" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Copyfile" />
@@ -3290,14 +3291,14 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186472">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186472">
     <property name="name" value="cvs" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Cvs" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037622">
       <link role="declaration" targetNodeId="1199644185060" resolveInfo="abstractcvstask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186474">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186474">
     <property name="name" value="defbase" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DefBase" />
@@ -3326,7 +3327,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186506" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450037628" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720922">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720922">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -3344,7 +3345,7 @@
       <link role="declaration" targetNodeId="1199644185327" resolveInfo="antlibdefinition" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186510">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186510">
     <property name="name" value="defaultexcludes" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DefaultExcludes" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186512">
@@ -3375,7 +3376,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186528">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186528">
     <property name="name" value="definer" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Definer" />
@@ -3459,7 +3460,7 @@
       <link role="declaration" targetNodeId="1199644186474" resolveInfo="defbase" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186566">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186566">
     <property name="name" value="delete" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Delete" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186568">
@@ -3582,7 +3583,7 @@
         <link role="declaration" targetNodeId="1199644185414" resolveInfo="patternset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720978">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720978">
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -3590,7 +3591,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720980">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720980">
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -3598,7 +3599,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720982">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720982">
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -3606,7 +3607,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720984">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720984">
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -3632,7 +3633,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037646">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037664">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037664">
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
@@ -3646,7 +3647,7 @@
         <link role="declaration" targetNodeId="1208450037664" resolveInfo="date" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037668">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037668">
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
@@ -3666,7 +3667,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037675">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037675">
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
@@ -3680,7 +3681,7 @@
         <link role="declaration" targetNodeId="1208450037675" resolveInfo="and" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037696">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037696">
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
@@ -3694,7 +3695,7 @@
         <link role="declaration" targetNodeId="1208450037696" resolveInfo="or" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037700">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037700">
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
@@ -3708,7 +3709,7 @@
         <link role="declaration" targetNodeId="1208450037700" resolveInfo="not" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037705">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037705">
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
@@ -3722,7 +3723,7 @@
         <link role="declaration" targetNodeId="1208450037705" resolveInfo="none" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037709">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037709">
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
@@ -3736,7 +3737,7 @@
         <link role="declaration" targetNodeId="1208450037709" resolveInfo="majority" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037714">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037714">
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
@@ -3750,7 +3751,7 @@
         <link role="declaration" targetNodeId="1208450037714" resolveInfo="size" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037718">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037718">
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
@@ -3764,7 +3765,7 @@
         <link role="declaration" targetNodeId="1208450037718" resolveInfo="filename" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037723">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037723">
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
@@ -3778,7 +3779,7 @@
         <link role="declaration" targetNodeId="1208450037723" resolveInfo="custom" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037727">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037727">
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
@@ -3792,7 +3793,7 @@
         <link role="declaration" targetNodeId="1208450037727" resolveInfo="contains" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037732">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037732">
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
@@ -3806,7 +3807,7 @@
         <link role="declaration" targetNodeId="1208450037732" resolveInfo="present" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037736">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037736">
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
@@ -3820,7 +3821,7 @@
         <link role="declaration" targetNodeId="1208450037736" resolveInfo="depth" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037741">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037741">
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
@@ -3834,7 +3835,7 @@
         <link role="declaration" targetNodeId="1208450037741" resolveInfo="depend" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037746">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037746">
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
@@ -3848,7 +3849,7 @@
         <link role="declaration" targetNodeId="1208450037746" resolveInfo="containsregexp" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037750">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037750">
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
@@ -3863,7 +3864,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186635">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186635">
     <property name="name" value="deltree" />
     <property name="depracated" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Deltree" />
@@ -3877,10 +3878,10 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186641">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186641">
     <property name="name" value="dependset" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet" />
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720994">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720994">
       <property name="name" value="sources" />
       <property name="classname" value="org.apache.tools.ant.types.resources.Union" />
       <property name="fake" value="true" />
@@ -3894,7 +3895,7 @@
         <link role="declaration" targetNodeId="1201800720994" resolveInfo="sources" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800720998">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720998">
       <property name="name" value="targets" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -3911,7 +3912,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037756">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037758">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037758">
       <property name="name" value="srcfileset" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
@@ -3919,7 +3920,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037760">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037760">
       <property name="name" value="targetfileset" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
@@ -3936,7 +3937,7 @@
         <link role="declaration" targetNodeId="1208450037760" resolveInfo="targetfileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037766">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037766">
       <property name="name" value="srcfilelist" />
       <property name="classname" value="org.apache.tools.ant.types.FileList" />
       <property name="fake" value="true" />
@@ -3944,7 +3945,7 @@
         <link role="declaration" targetNodeId="1199644189423" resolveInfo="filelist" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037768">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037768">
       <property name="name" value="targetfilelist" />
       <property name="classname" value="org.apache.tools.ant.types.FileList" />
       <property name="fake" value="true" />
@@ -3962,14 +3963,14 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186659">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186659">
     <property name="name" value="union" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Union" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039837">
       <link role="declaration" targetNodeId="1199644186660" resolveInfo="baseresourcecollectioncontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186660">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186660">
     <property name="name" value="baseresourcecollectioncontainer" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.resources.BaseResourceCollectionContainer" />
@@ -4009,14 +4010,14 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186675">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186675">
     <property name="name" value="diagnostics" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DiagnosticsTask" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037773">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186677">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186677">
     <property name="name" value="dirname" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Dirname" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186679">
@@ -4035,7 +4036,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186687">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186687">
     <property name="name" value="ear" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Ear" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186794">
@@ -4054,7 +4055,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037778">
       <link role="declaration" targetNodeId="1199644186688" resolveInfo="jar" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037782">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037782">
       <property name="name" value="archives" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
@@ -4069,7 +4070,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186688">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186688">
     <property name="name" value="jar" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Jar" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186765">
@@ -4157,7 +4158,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037999">
       <link role="declaration" targetNodeId="1199644186689" resolveInfo="zip" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038012">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038012">
       <property name="name" value="configuredmanifest" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest" />
       <property name="fake" value="true" />
@@ -4171,7 +4172,7 @@
         <link role="declaration" targetNodeId="1208450038012" resolveInfo="configuredmanifest" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038017">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038017">
       <property name="name" value="metainf" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
@@ -4185,7 +4186,7 @@
         <link role="declaration" targetNodeId="1208450038017" resolveInfo="metainf" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038021">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038021">
       <property name="name" value="configuredindexjars" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -4199,7 +4200,7 @@
         <link role="declaration" targetNodeId="1208450038021" resolveInfo="configuredindexjars" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038030">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038030">
       <property name="name" value="configuredservice" />
       <property name="classname" value="org.apache.tools.ant.types.spi.Service" />
       <property name="fake" value="true" />
@@ -4214,7 +4215,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186689">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186689">
     <property name="name" value="zip" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Zip" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186691">
@@ -4340,7 +4341,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039026">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039044">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039044">
       <property name="name" value="zipgroupfileset" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
@@ -4364,7 +4365,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186802">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186802">
     <property name="name" value="echo" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Echo" />
@@ -4424,7 +4425,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037786">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037793">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037793">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -4439,7 +4440,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186824">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186824">
     <property name="name" value="exec" />
     <property name="depracated" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Exec" />
@@ -4479,7 +4480,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186864">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186864">
     <property name="name" value="fail" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Exit" />
@@ -4507,7 +4508,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186880" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450037885" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721109">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721109">
       <property name="name" value="condition" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.condition.ConditionBase" />
       <property name="abstract" value="true" />
@@ -4525,7 +4526,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037881">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037887">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037887">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -4540,7 +4541,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186882">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186882">
     <property name="name" value="conditionbase" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.condition.ConditionBase" />
@@ -4554,7 +4555,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644186889" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186894">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186894">
     <property name="name" value="unzip" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Expand" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186896">
@@ -4615,7 +4616,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186918">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186918">
     <property name="name" value="filter" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Filter" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186935">
@@ -4640,7 +4641,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644186947">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186947">
     <property name="name" value="fixcrlf" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.FixCRLF" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186950">
@@ -4785,21 +4786,21 @@
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187002">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187002">
     <property name="name" value="gunzip" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.GUnzip" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037925">
       <link role="declaration" targetNodeId="1199644185759" resolveInfo="unpack" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187004">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187004">
     <property name="name" value="gzip" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.GZip" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037926">
       <link role="declaration" targetNodeId="1199644185777" resolveInfo="pack" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187006">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187006">
     <property name="name" value="genkey" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.GenerateKey" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187008">
@@ -4868,7 +4869,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187050" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450037939" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721172">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721172">
       <property name="name" value="dname" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.GenerateKey$DistinguishedName" />
       <property name="fake" value="true" />
@@ -4886,11 +4887,11 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187052">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187052">
     <property name="name" value="distinguishedname" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.GenerateKey$DistinguishedName" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187058">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187058">
     <property name="name" value="get" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Get" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187076">
@@ -4939,7 +4940,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187104">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187104">
     <property name="name" value="import" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.ImportTask" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187106">
@@ -4958,7 +4959,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187114">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187114">
     <property name="name" value="handler" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Input$Handler" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187116">
@@ -4994,7 +4995,7 @@
       <link role="declaration" targetNodeId="1199644186474" resolveInfo="defbase" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187128">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187128">
     <property name="name" value="input" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Input" />
@@ -5031,7 +5032,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037976">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037982">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037982">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -5046,7 +5047,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187148">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187148">
     <property name="name" value="jdbctask" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.JDBCTask" />
@@ -5110,7 +5111,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187204" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450037997" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721209">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721209">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -5128,7 +5129,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187209">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187209">
     <property name="name" value="java" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Java" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187211">
@@ -5299,7 +5300,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187309" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450038079" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721262">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721262">
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
@@ -5307,7 +5308,7 @@
         <link role="declaration" targetNodeId="1199644185588" resolveInfo="argument" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721264">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721264">
       <property name="name" value="jvmarg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
@@ -5324,7 +5325,7 @@
         <link role="declaration" targetNodeId="1201800721264" resolveInfo="jvmarg" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721269">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721269">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -5332,7 +5333,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721271">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721271">
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -5358,7 +5359,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038034">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038080">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038080">
       <property name="name" value="sysproperty" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
@@ -5366,7 +5367,7 @@
         <link role="declaration" targetNodeId="1208450037303" resolveInfo="variable" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038083">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038083">
       <property name="name" value="env" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
@@ -5383,7 +5384,7 @@
         <link role="declaration" targetNodeId="1208450038083" resolveInfo="env" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038088">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038088">
       <property name="name" value="configuredredirector" />
       <property name="classname" value="org.apache.tools.ant.types.RedirectorElement" />
       <property name="fake" value="true" />
@@ -5397,7 +5398,7 @@
         <link role="declaration" targetNodeId="1208450038088" resolveInfo="configuredredirector" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038096">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038096">
       <property name="name" value="syspropertyset" />
       <property name="classname" value="org.apache.tools.ant.types.PropertySet" />
       <property name="fake" value="true" />
@@ -5418,11 +5419,11 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187317">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187317">
     <property name="name" value="permissions" />
     <property name="classname" value="org.apache.tools.ant.types.Permissions" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187337">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187337">
     <property name="name" value="javadoc2" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187339">
@@ -5794,7 +5795,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187589" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450038254" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721467">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721467">
       <property name="name" value="group" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument" />
       <property name="fake" value="true" />
@@ -5808,7 +5809,7 @@
         <link role="declaration" targetNodeId="1201800721467" resolveInfo="group" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721471">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721471">
       <property name="name" value="tag" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$TagArgument" />
       <property name="fake" value="true" />
@@ -5822,7 +5823,7 @@
         <link role="declaration" targetNodeId="1201800721471" resolveInfo="tag" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721475">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721475">
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
@@ -5836,7 +5837,7 @@
         <link role="declaration" targetNodeId="1201800721475" resolveInfo="arg" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721479">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721479">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -5844,7 +5845,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721481">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721481">
       <property name="name" value="sourcepath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -5852,7 +5853,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721483">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721483">
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -5872,7 +5873,7 @@
         <link role="declaration" targetNodeId="1201800721483" resolveInfo="bootclasspath" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721505">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721505">
       <property name="name" value="doclet" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$DocletInfo" />
       <property name="fake" value="true" />
@@ -5886,7 +5887,7 @@
         <link role="declaration" targetNodeId="1201800721505" resolveInfo="doclet" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721509">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721509">
       <property name="name" value="link" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument" />
       <property name="fake" value="true" />
@@ -5900,7 +5901,7 @@
         <link role="declaration" targetNodeId="1201800721509" resolveInfo="link" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721529">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721529">
       <property name="name" value="sourcefiles" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$ResourceCollectionContainer" />
       <property name="fake" value="true" />
@@ -5917,7 +5918,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038164">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038262">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038262">
       <property name="name" value="source" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$SourceFile" />
       <property name="fake" value="true" />
@@ -5931,7 +5932,7 @@
         <link role="declaration" targetNodeId="1208450038262" resolveInfo="source" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038269">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038269">
       <property name="name" value="package" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$PackageName" />
       <property name="fake" value="true" />
@@ -5939,7 +5940,7 @@
         <link role="declaration" targetNodeId="1208450038268" resolveInfo="packagename" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038272">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038272">
       <property name="name" value="excludepackage" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$PackageName" />
       <property name="fake" value="true" />
@@ -5962,7 +5963,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038283">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038283">
       <property name="name" value="header" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
@@ -5971,7 +5972,7 @@
         <link role="declaration" targetNodeId="1208450038282" resolveInfo="html" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038286">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038286">
       <property name="name" value="footer" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
@@ -5980,7 +5981,7 @@
         <link role="declaration" targetNodeId="1208450038282" resolveInfo="html" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038288">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038288">
       <property name="name" value="doctitle" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
@@ -5989,7 +5990,7 @@
         <link role="declaration" targetNodeId="1208450038282" resolveInfo="html" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038291">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038291">
       <property name="name" value="bottom" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
@@ -6013,7 +6014,7 @@
         <link role="declaration" targetNodeId="1208450038291" resolveInfo="bottom" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038320">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038320">
       <property name="name" value="taglet" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$ExtensionInfo" />
       <property name="fake" value="true" />
@@ -6027,7 +6028,7 @@
         <link role="declaration" targetNodeId="1208450038320" resolveInfo="taglet" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038327">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038327">
       <property name="name" value="packageset" />
       <property name="classname" value="org.apache.tools.ant.types.DirSet" />
       <property name="fake" value="true" />
@@ -6042,7 +6043,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187591">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187591">
     <property name="name" value="groupargument" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187593">
@@ -6058,7 +6059,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644187600" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187603">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187603">
     <property name="name" value="tagargument" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$TagArgument" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187681">
@@ -6083,7 +6084,7 @@
       <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187604">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187604">
     <property name="name" value="fileset" />
     <property name="classname" value="org.apache.tools.ant.types.FileSet" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445192">
@@ -6093,7 +6094,7 @@
       <link role="declaration" targetNodeId="1199644187605" resolveInfo="abstractfileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187605">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187605">
     <property name="name" value="abstractfileset" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.AbstractFileSet" />
@@ -6187,7 +6188,7 @@
         <link role="declaration" targetNodeId="1199644185414" resolveInfo="patternset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722232">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722232">
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -6195,7 +6196,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722234">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722234">
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -6203,7 +6204,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722236">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722236">
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -6211,7 +6212,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722238">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722238">
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -6237,7 +6238,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039174">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039205">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039205">
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
@@ -6251,7 +6252,7 @@
         <link role="declaration" targetNodeId="1208450039205" resolveInfo="date" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039209">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039209">
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
@@ -6265,7 +6266,7 @@
         <link role="declaration" targetNodeId="1208450039209" resolveInfo="selector" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039214">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039214">
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
@@ -6279,7 +6280,7 @@
         <link role="declaration" targetNodeId="1208450039214" resolveInfo="and" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039219">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039219">
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
@@ -6293,7 +6294,7 @@
         <link role="declaration" targetNodeId="1208450039219" resolveInfo="or" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039223">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039223">
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
@@ -6307,7 +6308,7 @@
         <link role="declaration" targetNodeId="1208450039223" resolveInfo="not" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039228">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039228">
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
@@ -6321,7 +6322,7 @@
         <link role="declaration" targetNodeId="1208450039228" resolveInfo="none" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039232">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039232">
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
@@ -6335,7 +6336,7 @@
         <link role="declaration" targetNodeId="1208450039232" resolveInfo="majority" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039237">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039237">
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
@@ -6349,7 +6350,7 @@
         <link role="declaration" targetNodeId="1208450039237" resolveInfo="size" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039241">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039241">
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
@@ -6363,7 +6364,7 @@
         <link role="declaration" targetNodeId="1208450039241" resolveInfo="different" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039246">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039246">
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
@@ -6377,7 +6378,7 @@
         <link role="declaration" targetNodeId="1208450039246" resolveInfo="filename" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039251">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039251">
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
@@ -6391,7 +6392,7 @@
         <link role="declaration" targetNodeId="1208450039251" resolveInfo="type" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039255">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039255">
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
@@ -6405,7 +6406,7 @@
         <link role="declaration" targetNodeId="1208450039255" resolveInfo="custom" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039260">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039260">
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
@@ -6419,7 +6420,7 @@
         <link role="declaration" targetNodeId="1208450039260" resolveInfo="contains" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039264">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039264">
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
@@ -6433,7 +6434,7 @@
         <link role="declaration" targetNodeId="1208450039264" resolveInfo="present" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039269">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039269">
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
@@ -6447,7 +6448,7 @@
         <link role="declaration" targetNodeId="1208450039269" resolveInfo="depth" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039273">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039273">
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
@@ -6461,7 +6462,7 @@
         <link role="declaration" targetNodeId="1208450039273" resolveInfo="depend" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039278">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039278">
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
@@ -6475,7 +6476,7 @@
         <link role="declaration" targetNodeId="1208450039278" resolveInfo="containsregexp" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039283">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039283">
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
@@ -6490,14 +6491,14 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187701">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187701">
     <property name="name" value="docletinfo" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$DocletInfo" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644187718">
       <link role="declaration" targetNodeId="1199644187702" resolveInfo="extensioninfo" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187702">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187702">
     <property name="name" value="extensioninfo" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644187703">
       <link role="declaration" targetNodeId="1199644185589" resolveInfo="projectcomponent" />
@@ -6521,7 +6522,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644187715" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187719">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187719">
     <property name="name" value="docletparam" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187721">
       <property name="name" value="name" />
@@ -6536,7 +6537,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644187728" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187733">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187733">
     <property name="name" value="linkargument" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187735">
@@ -6564,11 +6565,11 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644187750" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187753">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187753">
     <property name="name" value="resourcecollectioncontainer" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$ResourceCollectionContainer" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187759">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187759">
     <property name="name" value="keysubst" />
     <property name="depracated" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.KeySubst" />
@@ -6600,7 +6601,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187792">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187792">
     <property name="name" value="length" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Length" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187795">
@@ -6704,7 +6705,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187827">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187827">
     <property name="name" value="loadfile" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.LoadFile" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187849">
@@ -6717,7 +6718,7 @@
       <link role="declaration" targetNodeId="1199644187828" resolveInfo="loadresource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187828">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187828">
     <property name="name" value="loadresource" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.LoadResource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187830">
@@ -6760,7 +6761,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187853">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187853">
     <property name="name" value="loadproperties" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.LoadProperties" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187871">
@@ -6799,7 +6800,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721560">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721560">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -6823,7 +6824,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187896">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187896">
     <property name="name" value="macrodef" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187898">
@@ -6838,7 +6839,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187904" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450038370" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721589">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721589">
       <property name="name" value="sequential" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$NestedSequential" />
       <property name="fake" value="true" />
@@ -6855,7 +6856,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038368">
       <link role="declaration" targetNodeId="1199644185327" resolveInfo="antlibdefinition" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038375">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038375">
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$Attribute" />
       <property name="fake" value="true" />
@@ -6869,7 +6870,7 @@
         <link role="declaration" targetNodeId="1208450038375" resolveInfo="configuredattribute" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038400">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038400">
       <property name="name" value="configuredtext" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$Text" />
       <property name="fake" value="true" />
@@ -6883,7 +6884,7 @@
         <link role="declaration" targetNodeId="1208450038400" resolveInfo="configuredtext" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038410">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038410">
       <property name="name" value="configuredelement" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$TemplateElement" />
       <property name="fake" value="true" />
@@ -6898,11 +6899,11 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187906">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187906">
     <property name="name" value="nestedsequential" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$NestedSequential" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187911">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187911">
     <property name="name" value="macroinstance" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MacroInstance" />
@@ -6921,7 +6922,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038415">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038417">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038417">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -6942,7 +6943,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187920">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187920">
     <property name="name" value="makeurl" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MakeUrl" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187922">
@@ -6985,7 +6986,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187953">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187953">
     <property name="name" value="manifestclasspath" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.ManifestClassPath" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187955">
@@ -7009,7 +7010,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038434">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038439">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038439">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -7024,7 +7025,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187967">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187967">
     <property name="name" value="manifest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.ManifestTask" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187969">
@@ -7056,7 +7057,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038443">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038452">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038452">
       <property name="name" value="configuredsection" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Section" />
       <property name="fake" value="true" />
@@ -7070,7 +7071,7 @@
         <link role="declaration" targetNodeId="1208450038452" resolveInfo="configuredsection" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038477">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038477">
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Attribute" />
       <property name="fake" value="true" />
@@ -7085,7 +7086,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187982">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187982">
     <property name="name" value="mkdir" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Mkdir" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187984">
@@ -7098,14 +7099,14 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187988">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187988">
     <property name="name" value="move" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Move" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038577">
       <link role="declaration" targetNodeId="1199644186266" resolveInfo="copy" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644187990">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187990">
     <property name="name" value="nice" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Nice" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187992">
@@ -7124,7 +7125,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188001">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188001">
     <property name="name" value="parallel" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Parallel" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188004">
@@ -7169,7 +7170,7 @@
         <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038617">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038617">
       <property name="name" value="daemons" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Parallel$TaskList" />
       <property name="fake" value="true" />
@@ -7184,7 +7185,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188040">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188040">
     <property name="name" value="patch" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Patch" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188042">
@@ -7245,7 +7246,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188078">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188078">
     <property name="name" value="pathconvert" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.PathConvert" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188080">
@@ -7314,7 +7315,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721706">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721706">
       <property name="name" value="map" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.PathConvert$MapEntry" />
       <property name="fake" value="true" />
@@ -7344,7 +7345,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188108">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188108">
     <property name="name" value="mapentry" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.PathConvert$MapEntry" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188110">
@@ -7360,7 +7361,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644188117" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188122">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188122">
     <property name="name" value="presetdef" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.PreSetDef" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188125">
@@ -7382,7 +7383,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188130">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188130">
     <property name="name" value="record" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Recorder" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188154">
@@ -7450,7 +7451,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188174">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188174">
     <property name="name" value="rename" />
     <property name="depracated" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Rename" />
@@ -7476,7 +7477,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188188">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188188">
     <property name="name" value="replace" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Replace" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188190">
@@ -7527,7 +7528,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188220" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450038705" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721764">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721764">
       <property name="name" value="replacetoken" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Replace$NestedString" />
       <property name="canHaveInternalText" value="true" />
@@ -7536,7 +7537,7 @@
         <link role="declaration" targetNodeId="1199644188222" resolveInfo="nestedstring" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721766">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721766">
       <property name="name" value="replacevalue" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Replace$NestedString" />
       <property name="canHaveInternalText" value="true" />
@@ -7564,12 +7565,12 @@
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188222">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188222">
     <property name="name" value="nestedstring" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Replace$NestedString" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188227">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188227">
     <property name="name" value="replacefilter" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Replace$Replacefilter" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188229">
@@ -7591,7 +7592,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644188240" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188243">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188243">
     <property name="name" value="resourcecount" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.ResourceCount" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188246">
@@ -7663,7 +7664,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188279">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188279">
     <property name="name" value="rmic" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Rmic" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188281">
@@ -7768,7 +7769,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188347" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450038737" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721814">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721814">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -7776,7 +7777,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721816">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721816">
       <property name="name" value="extdirs" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -7793,7 +7794,7 @@
         <link role="declaration" targetNodeId="1201800721816" resolveInfo="extdirs" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721821">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721821">
       <property name="name" value="compilerarg" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Rmic$ImplementationSpecificArgument" />
       <property name="fake" value="true" />
@@ -7811,7 +7812,7 @@
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188355">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188355">
     <property name="name" value="sql" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.SQLExec" />
@@ -7927,7 +7928,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038741">
       <link role="declaration" targetNodeId="1199644187148" resolveInfo="jdbctask" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038758">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038758">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -7948,7 +7949,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188427">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188427">
     <property name="name" value="transaction" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.SQLExec$Transaction" />
@@ -7965,7 +7966,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644188436" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188441">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188441">
     <property name="name" value="sendemail" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.SendEmail" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188535">
@@ -7979,7 +7980,7 @@
       <link role="declaration" targetNodeId="1199644188442" resolveInfo="mail" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188442">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188442">
     <property name="name" value="mail" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailTask" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188444">
@@ -8110,7 +8111,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188518" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450039119" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722173">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722173">
       <property name="name" value="attachments" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -8145,7 +8146,7 @@
         <link role="declaration" targetNodeId="1208450039125" resolveInfo="message" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039133">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039133">
       <property name="name" value="from" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
@@ -8153,7 +8154,7 @@
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039135">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039135">
       <property name="name" value="replyto" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
@@ -8161,7 +8162,7 @@
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039137">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039137">
       <property name="name" value="to" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
@@ -8169,7 +8170,7 @@
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039140">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039140">
       <property name="name" value="cc" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
@@ -8177,7 +8178,7 @@
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039142">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039142">
       <property name="name" value="bcc" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
@@ -8204,7 +8205,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188522">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188522">
     <property name="name" value="header" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.email.Header" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188524">
@@ -8220,7 +8221,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644188531" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188555">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188555">
     <property name="name" value="sequential" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Sequential" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696444771">
@@ -8236,7 +8237,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188558">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188558">
     <property name="name" value="signjar" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.SignJar" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188560">
@@ -8303,7 +8304,7 @@
       <link role="declaration" targetNodeId="1199644185138" resolveInfo="abstractjarsignertask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188598">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188598">
     <property name="name" value="sleep" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Sleep" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188600">
@@ -8340,7 +8341,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188620">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188620">
     <property name="name" value="subant" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.SubAnt" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188637">
@@ -8409,7 +8410,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721892">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721892">
       <property name="name" value="buildpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -8423,7 +8424,7 @@
         <link role="declaration" targetNodeId="1201800721892" resolveInfo="buildpath" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721912">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721912">
       <property name="name" value="buildpathelement" />
       <property name="classname" value="org.apache.tools.ant.types.Path$PathElement" />
       <property name="fake" value="true" />
@@ -8470,7 +8471,7 @@
         <link role="declaration" targetNodeId="1199644189405" resolveInfo="dirset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038831">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038831">
       <property name="name" value="configuredtarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$TargetElement" />
       <property name="fake" value="true" />
@@ -8491,14 +8492,14 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188683">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188683">
     <property name="name" value="mycopy" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Sync$MyCopy" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038840">
       <link role="declaration" targetNodeId="1199644186266" resolveInfo="copy" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188685">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188685">
     <property name="name" value="sync" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Sync" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188687">
@@ -8552,7 +8553,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038852">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038852">
       <property name="name" value="preserveintarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Sync$SyncTarget" />
       <property name="fake" value="true" />
@@ -8567,7 +8568,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188713">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188713">
     <property name="name" value="tar" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Tar" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188715">
@@ -8652,7 +8653,7 @@
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188737">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188737">
     <property name="name" value="tarfileset" />
     <property name="classname" value="org.apache.tools.ant.types.TarFileSet" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188779">
@@ -8695,7 +8696,7 @@
       <link role="declaration" targetNodeId="1199644188738" resolveInfo="archivefileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188738">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188738">
     <property name="name" value="archivefileset" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.ArchiveFileSet" />
@@ -8741,21 +8742,21 @@
       <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188806">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188806">
     <property name="name" value="taskdef" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Taskdef" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038863">
       <link role="declaration" targetNodeId="1199644188807" resolveInfo="typedef" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188807">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188807">
     <property name="name" value="typedef" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Typedef" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038912">
       <link role="declaration" targetNodeId="1199644186528" resolveInfo="definer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188810">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188810">
     <property name="name" value="tempfile" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.TempFile" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188812">
@@ -8792,7 +8793,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188832">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188832">
     <property name="name" value="touch" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Touch" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188834">
@@ -8858,7 +8859,7 @@
         <link role="declaration" targetNodeId="1199644189423" resolveInfo="filelist" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038902">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038902">
       <property name="name" value="configuredmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
@@ -8873,14 +8874,14 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188862">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188862">
     <property name="name" value="apply" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Transform" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038906">
       <link role="declaration" targetNodeId="1199644185918" resolveInfo="execon" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188864">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188864">
     <property name="name" value="tstamp" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Tstamp" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188866">
@@ -8889,7 +8890,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188868" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450038908" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800721988">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800721988">
       <property name="name" value="format" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Tstamp$CustomFormat" />
       <property name="fake" value="true" />
@@ -8907,7 +8908,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188870">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188870">
     <property name="name" value="customformat" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Tstamp$CustomFormat" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188872">
@@ -8947,7 +8948,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644188910" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188915">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188915">
     <property name="name" value="untar" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Untar" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188917">
@@ -8977,7 +8978,7 @@
       <link role="declaration" targetNodeId="1199644186894" resolveInfo="unzip" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188925">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188925">
     <property name="name" value="uptodate" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.UpToDate" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188928">
@@ -9019,7 +9020,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722011">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722011">
       <property name="name" value="srcresources" />
       <property name="classname" value="org.apache.tools.ant.types.resources.Union" />
       <property name="fake" value="true" />
@@ -9036,7 +9037,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038921">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038928">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038928">
       <property name="name" value="srcfiles" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
@@ -9051,7 +9052,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188950">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188950">
     <property name="name" value="verifyjar" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.VerifyJar" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188952">
@@ -9064,7 +9065,7 @@
       <link role="declaration" targetNodeId="1199644185138" resolveInfo="abstractjarsignertask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188956">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188956">
     <property name="name" value="war" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.War" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188958">
@@ -9092,7 +9093,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038934">
       <link role="declaration" targetNodeId="1199644186688" resolveInfo="jar" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038939">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038939">
       <property name="name" value="lib" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
@@ -9100,7 +9101,7 @@
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038941">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038941">
       <property name="name" value="classes" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
@@ -9108,7 +9109,7 @@
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038944">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038944">
       <property name="name" value="webinf" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
@@ -9129,7 +9130,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188970">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188970">
     <property name="name" value="whichresource" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.WhichResource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188972">
@@ -9150,7 +9151,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188982" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450038953" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722041">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722041">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -9168,7 +9169,7 @@
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644188986">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188986">
     <property name="name" value="style" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.XSLTProcess" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189006">
@@ -9288,7 +9289,7 @@
         <link role="declaration" targetNodeId="1199644189074" resolveInfo="factory" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722084">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722084">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -9323,7 +9324,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038998">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038998">
       <property name="name" value="configuredstyle" />
       <property name="classname" value="org.apache.tools.ant.types.resources.Resources" />
       <property name="fake" value="true" />
@@ -9337,7 +9338,7 @@
         <link role="declaration" targetNodeId="1208450038998" resolveInfo="configuredstyle" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039003">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039003">
       <property name="name" value="configuredxmlcatalog" />
       <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
       <property name="fake" value="true" />
@@ -9352,7 +9353,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189074">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189074">
     <property name="name" value="factory" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.XSLTProcess$Factory" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189076">
@@ -9362,7 +9363,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644189079" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189084">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189084">
     <property name="name" value="param" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.XSLTProcess$Param" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189086">
@@ -9396,7 +9397,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644189105" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189108">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189108">
     <property name="name" value="outputproperty" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.XSLTProcess$OutputProperty" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189110">
@@ -9412,7 +9413,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644189117" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189120">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189120">
     <property name="name" value="xmlproperty" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.XmlProperty" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189122">
@@ -9478,7 +9479,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039010">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039022">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039022">
       <property name="name" value="configuredxmlcatalog" />
       <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
       <property name="fake" value="true" />
@@ -9493,7 +9494,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189161">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189161">
     <property name="name" value="cvschangelog" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.cvslib.ChangeLogTask" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189179">
@@ -9541,7 +9542,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039065">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039065">
       <property name="name" value="user" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.cvslib.CvsUser" />
       <property name="fake" value="true" />
@@ -9556,7 +9557,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189203">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189203">
     <property name="name" value="cvstagdiff" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.cvslib.CvsTagDiff" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189205">
@@ -9599,7 +9600,7 @@
       <link role="declaration" targetNodeId="1199644185060" resolveInfo="abstractcvstask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189229">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189229">
     <property name="name" value="cvsversion" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.cvslib.CvsVersion" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189231">
@@ -9618,7 +9619,7 @@
       <link role="declaration" targetNodeId="1199644185060" resolveInfo="abstractcvstask" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189255">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189255">
     <property name="name" value="fileunion" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Checksum$FileUnion" />
     <node role="nested" type="jetbrains.mps.buildlanguage.structure.NestedReference" id="1201800722180">
@@ -9631,7 +9632,7 @@
       <link role="declaration" targetNodeId="1199644189256" resolveInfo="restrict" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189256">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189256">
     <property name="name" value="restrict" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Restrict" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189264">
@@ -9659,7 +9660,7 @@
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189257">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189257">
     <property name="name" value="resourceselectorcontainer" />
     <property name="classname" value="org.apache.tools.ant.types.resources.selectors.ResourceSelectorContainer" />
     <node role="nested" type="jetbrains.mps.buildlanguage.structure.NestedReference" id="1201800722572">
@@ -9672,21 +9673,21 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189275">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189275">
     <property name="name" value="newest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$Newest" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039154">
       <link role="declaration" targetNodeId="1199644189276" resolveInfo="xest" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189276">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189276">
     <property name="name" value="xest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$Xest" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039157">
       <link role="declaration" targetNodeId="1199644189277" resolveInfo="sort" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189277">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189277">
     <property name="name" value="sort" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Sort" />
     <node role="nested" type="jetbrains.mps.buildlanguage.structure.NestedReference" id="1201800722503">
@@ -9699,7 +9700,7 @@
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189278">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189278">
     <property name="name" value="baseresourcecollectionwrapper" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.resources.BaseResourceCollectionWrapper" />
@@ -9725,7 +9726,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189289">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189289">
     <property name="name" value="resourcecomparator" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.ResourceComparator" />
@@ -9736,21 +9737,21 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189313">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189313">
     <property name="name" value="nonexistent" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$NonExistent" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039155">
       <link role="declaration" targetNodeId="1199644189256" resolveInfo="restrict" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189315">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189315">
     <property name="name" value="oldest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$Oldest" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039156">
       <link role="declaration" targetNodeId="1199644189276" resolveInfo="xest" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189319">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189319">
     <property name="name" value="synctarget" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Sync$SyncTarget" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189321">
@@ -9763,7 +9764,7 @@
       <link role="declaration" targetNodeId="1199644187605" resolveInfo="abstractfileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189326">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189326">
     <property name="name" value="isfileselected" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.condition.IsFileSelected" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189334">
@@ -9785,7 +9786,7 @@
       <link role="declaration" targetNodeId="1199644189327" resolveInfo="abstractselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189327">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189327">
     <property name="name" value="abstractselectorcontainer" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.AbstractSelectorContainer" />
@@ -9801,7 +9802,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039882">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039883">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039883">
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
@@ -9815,7 +9816,7 @@
         <link role="declaration" targetNodeId="1208450039883" resolveInfo="date" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039888">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039888">
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
@@ -9829,7 +9830,7 @@
         <link role="declaration" targetNodeId="1208450039888" resolveInfo="selector" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039892">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039892">
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
@@ -9843,7 +9844,7 @@
         <link role="declaration" targetNodeId="1208450039892" resolveInfo="and" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039896">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039896">
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
@@ -9857,7 +9858,7 @@
         <link role="declaration" targetNodeId="1208450039896" resolveInfo="or" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039901">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039901">
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
@@ -9871,7 +9872,7 @@
         <link role="declaration" targetNodeId="1208450039901" resolveInfo="not" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039905">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039905">
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
@@ -9885,7 +9886,7 @@
         <link role="declaration" targetNodeId="1208450039905" resolveInfo="none" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039910">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039910">
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
@@ -9899,7 +9900,7 @@
         <link role="declaration" targetNodeId="1208450039910" resolveInfo="majority" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039914">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039914">
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
@@ -9913,7 +9914,7 @@
         <link role="declaration" targetNodeId="1208450039914" resolveInfo="size" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039919">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039919">
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
@@ -9927,7 +9928,7 @@
         <link role="declaration" targetNodeId="1208450039919" resolveInfo="different" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039923">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039923">
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
@@ -9941,7 +9942,7 @@
         <link role="declaration" targetNodeId="1208450039923" resolveInfo="filename" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039927">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039927">
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
@@ -9955,7 +9956,7 @@
         <link role="declaration" targetNodeId="1208450039927" resolveInfo="type" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039932">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039932">
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
@@ -9969,7 +9970,7 @@
         <link role="declaration" targetNodeId="1208450039932" resolveInfo="custom" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039936">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039936">
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
@@ -9983,7 +9984,7 @@
         <link role="declaration" targetNodeId="1208450039936" resolveInfo="contains" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039941">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039941">
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
@@ -9997,7 +9998,7 @@
         <link role="declaration" targetNodeId="1208450039941" resolveInfo="present" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039945">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039945">
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
@@ -10011,7 +10012,7 @@
         <link role="declaration" targetNodeId="1208450039945" resolveInfo="depth" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039950">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039950">
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
@@ -10025,7 +10026,7 @@
         <link role="declaration" targetNodeId="1208450039950" resolveInfo="depend" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039954">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039954">
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
@@ -10039,7 +10040,7 @@
         <link role="declaration" targetNodeId="1208450039954" resolveInfo="containsregexp" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039959">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039959">
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
@@ -10054,7 +10055,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189342">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189342">
     <property name="name" value="issigned" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.condition.IsSigned" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189345">
@@ -10076,7 +10077,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189370">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189370">
     <property name="name" value="antfilterreader" />
     <property name="classname" value="org.apache.tools.ant.types.AntFilterReader" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189373">
@@ -10106,7 +10107,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445144">
       <link role="declaration" targetNodeId="1201696445108" resolveInfo="cloneable" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722250">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722250">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -10123,7 +10124,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039287">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039296">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039296">
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.types.Parameter" />
       <property name="fake" value="true" />
@@ -10138,7 +10139,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189392">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189392">
     <property name="name" value="assertions" />
     <property name="classname" value="org.apache.tools.ant.types.Assertions" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189395">
@@ -10159,7 +10160,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039343">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039353">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039353">
       <property name="name" value="enable" />
       <property name="classname" value="org.apache.tools.ant.types.Assertions$EnabledAssertion" />
       <property name="fake" value="true" />
@@ -10173,7 +10174,7 @@
         <link role="declaration" targetNodeId="1208450039353" resolveInfo="enable" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039361">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039361">
       <property name="name" value="disable" />
       <property name="classname" value="org.apache.tools.ant.types.Assertions$DisabledAssertion" />
       <property name="fake" value="true" />
@@ -10188,14 +10189,14 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189403">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189403">
     <property name="name" value="description" />
     <property name="canHaveInternalText" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.Description" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039365">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039367">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039367">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -10210,7 +10211,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189405">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189405">
     <property name="name" value="dirset" />
     <property name="classname" value="org.apache.tools.ant.types.DirSet" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445185">
@@ -10220,7 +10221,7 @@
       <link role="declaration" targetNodeId="1199644187605" resolveInfo="abstractfileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189423">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189423">
     <property name="name" value="filelist" />
     <property name="classname" value="org.apache.tools.ant.types.FileList" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189426">
@@ -10247,7 +10248,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039372">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039380">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039380">
       <property name="name" value="configuredfile" />
       <property name="classname" value="org.apache.tools.ant.types.FileList$FileName" />
       <property name="fake" value="true" />
@@ -10262,7 +10263,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189444">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189444">
     <property name="name" value="propertyset" />
     <property name="classname" value="org.apache.tools.ant.types.PropertySet" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189447">
@@ -10314,7 +10315,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189479">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189479">
     <property name="name" value="redirectorelement" />
     <property name="classname" value="org.apache.tools.ant.types.RedirectorElement" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189481">
@@ -10407,7 +10408,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189539" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.CallReferenceType" id="1208450039693" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722381">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722381">
       <property name="name" value="inputfilterchain" />
       <property name="classname" value="org.apache.tools.ant.types.FilterChain" />
       <property name="fake" value="true" />
@@ -10415,7 +10416,7 @@
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722383">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722383">
       <property name="name" value="outputfilterchain" />
       <property name="classname" value="org.apache.tools.ant.types.FilterChain" />
       <property name="fake" value="true" />
@@ -10423,7 +10424,7 @@
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722385">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722385">
       <property name="name" value="errorfilterchain" />
       <property name="classname" value="org.apache.tools.ant.types.FilterChain" />
       <property name="fake" value="true" />
@@ -10446,7 +10447,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039676">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039695">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039695">
       <property name="name" value="configuredinputmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
@@ -10454,7 +10455,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039697">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039697">
       <property name="name" value="configuredoutputmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
@@ -10462,7 +10463,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039699">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039699">
       <property name="name" value="configurederrormapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
@@ -10483,7 +10484,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189545">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189545">
     <property name="name" value="regularexpression" />
     <property name="classname" value="org.apache.tools.ant.types.RegularExpression" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189547">
@@ -10496,7 +10497,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189551">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189551">
     <property name="name" value="resource" />
     <property name="classname" value="org.apache.tools.ant.types.Resource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189557">
@@ -10548,7 +10549,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189581">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189581">
     <property name="name" value="substitution" />
     <property name="classname" value="org.apache.tools.ant.types.Substitution" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189583">
@@ -10561,7 +10562,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189603">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189603">
     <property name="name" value="xmlcatalog" />
     <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189610">
@@ -10597,7 +10598,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445343">
       <link role="declaration" targetNodeId="1201696445342" resolveInfo="uriresolver" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722413">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722413">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -10605,7 +10606,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722415">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722415">
       <property name="name" value="catalogpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -10625,7 +10626,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039741">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039747">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039747">
       <property name="name" value="configuredxmlcatalog" />
       <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
       <property name="fake" value="true" />
@@ -10639,7 +10640,7 @@
         <link role="declaration" targetNodeId="1208450039747" resolveInfo="configuredxmlcatalog" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039755">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039755">
       <property name="name" value="dtd" />
       <property name="classname" value="org.apache.tools.ant.types.ResourceLocation" />
       <property name="fake" value="true" />
@@ -10647,7 +10648,7 @@
         <link role="declaration" targetNodeId="1208450039753" resolveInfo="resourcelocation" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039757">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039757">
       <property name="name" value="entity" />
       <property name="classname" value="org.apache.tools.ant.types.ResourceLocation" />
       <property name="fake" value="true" />
@@ -10665,7 +10666,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189629">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189629">
     <property name="name" value="zipfileset" />
     <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189631">
@@ -10678,7 +10679,7 @@
       <link role="declaration" targetNodeId="1199644188738" resolveInfo="archivefileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189635">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189635">
     <property name="name" value="filtermapper" />
     <property name="classname" value="org.apache.tools.ant.types.mappers.FilterMapper" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189638">
@@ -10700,7 +10701,7 @@
       <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189646">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189646">
     <property name="name" value="archiveresource" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.resources.ArchiveResource" />
@@ -10726,21 +10727,21 @@
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189658">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189658">
     <property name="name" value="bcfileset" />
     <property name="classname" value="org.apache.tools.ant.types.resources.BCFileSet" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039771">
       <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189660">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189660">
     <property name="name" value="bzip2resource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.BZip2Resource" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039772">
       <link role="declaration" targetNodeId="1199644189661" resolveInfo="compressedresource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189661">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189661">
     <property name="name" value="compressedresource" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.resources.CompressedResource" />
@@ -10790,14 +10791,14 @@
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189709">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189709">
     <property name="name" value="difference" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Difference" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039792">
       <link role="declaration" targetNodeId="1199644186660" resolveInfo="baseresourcecollectioncontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189711">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189711">
     <property name="name" value="fileresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.FileResource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189715">
@@ -10825,7 +10826,7 @@
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189727">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189727">
     <property name="name" value="files" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Files" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189731">
@@ -10888,7 +10889,7 @@
         <link role="declaration" targetNodeId="1199644185414" resolveInfo="patternset" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722465">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722465">
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -10896,7 +10897,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722467">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722467">
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -10904,7 +10905,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722469">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722469">
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -10912,7 +10913,7 @@
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722471">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722471">
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
@@ -10939,7 +10940,7 @@
       <link role="declaration" targetNodeId="1199644189327" resolveInfo="abstractselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189770">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189770">
     <property name="name" value="first" />
     <property name="classname" value="org.apache.tools.ant.types.resources.First" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189788">
@@ -10952,21 +10953,21 @@
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189792">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189792">
     <property name="name" value="gzipresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.GZipResource" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039809">
       <link role="declaration" targetNodeId="1199644189661" resolveInfo="compressedresource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189794">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189794">
     <property name="name" value="intersect" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Intersect" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039811">
       <link role="declaration" targetNodeId="1199644186660" resolveInfo="baseresourcecollectioncontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189796">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189796">
     <property name="name" value="javaresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.JavaResource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189798">
@@ -10993,7 +10994,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189812" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.CallReferenceType" id="1208450039816" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722487">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722487">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -11011,14 +11012,14 @@
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189816">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189816">
     <property name="name" value="propertyresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.PropertyResource" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039817">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189818">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189818">
     <property name="name" value="resources" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Resources" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445447">
@@ -11034,14 +11035,14 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189838">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189838">
     <property name="name" value="1" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Restrict$1" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039819">
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189842">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189842">
     <property name="name" value="stringresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.StringResource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189844">
@@ -11072,14 +11073,14 @@
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189860">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189860">
     <property name="name" value="tarresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.TarResource" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039829">
       <link role="declaration" targetNodeId="1199644189646" resolveInfo="archiveresource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189862">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189862">
     <property name="name" value="tokens" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Tokens" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189864">
@@ -11098,7 +11099,7 @@
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189871">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189871">
     <property name="name" value="urlresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.URLResource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189873">
@@ -11123,7 +11124,7 @@
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189886">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189886">
     <property name="name" value="zipresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.ZipResource" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189904">
@@ -11154,7 +11155,7 @@
       <link role="declaration" targetNodeId="1199644189646" resolveInfo="archiveresource" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189918">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189918">
     <property name="name" value="content" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Content" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189920">
@@ -11167,14 +11168,14 @@
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189924">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189924">
     <property name="name" value="date" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Date" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039845">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189926">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189926">
     <property name="name" value="delegatedresourcecomparator" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.DelegatedResourceComparator" />
     <node role="nested" type="jetbrains.mps.buildlanguage.structure.NestedReference" id="1201800722546">
@@ -11187,28 +11188,28 @@
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189930">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189930">
     <property name="name" value="exists" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Exists" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039847">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189932">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189932">
     <property name="name" value="filesystem" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.FileSystem" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039848">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189934">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189934">
     <property name="name" value="name" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Name" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039849">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189937">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189937">
     <property name="name" value="reverse" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Reverse" />
     <node role="nested" type="jetbrains.mps.buildlanguage.structure.NestedReference" id="1201800722553">
@@ -11221,21 +11222,21 @@
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189941">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189941">
     <property name="name" value="size" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Size" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039853">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189943">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189943">
     <property name="name" value="type" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Type" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039854">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189961">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189961">
     <property name="name" value="and" />
     <property name="classname" value="org.apache.tools.ant.types.resources.selectors.And" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445518">
@@ -11245,7 +11246,7 @@
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189964">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189964">
     <property name="name" value="compare" />
     <property name="classname" value="org.apache.tools.ant.types.resources.selectors.Compare" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189967">
@@ -11348,7 +11349,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189979">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189979">
     <property name="name" value="majority" />
     <property name="classname" value="org.apache.tools.ant.types.resources.selectors.Majority" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644189982">
@@ -11364,7 +11365,7 @@
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189986">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189986">
     <property name="name" value="none" />
     <property name="classname" value="org.apache.tools.ant.types.resources.selectors.None" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445535">
@@ -11374,7 +11375,7 @@
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189989">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189989">
     <property name="name" value="or" />
     <property name="classname" value="org.apache.tools.ant.types.resources.selectors.Or" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445537">
@@ -11384,14 +11385,14 @@
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189994">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189994">
     <property name="name" value="andselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039963">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189995">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189995">
     <property name="name" value="baseselectorcontainer" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.BaseSelectorContainer" />
@@ -11407,7 +11408,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039968">
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039970">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039970">
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
@@ -11421,7 +11422,7 @@
         <link role="declaration" targetNodeId="1208450039970" resolveInfo="date" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039974">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039974">
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
@@ -11435,7 +11436,7 @@
         <link role="declaration" targetNodeId="1208450039974" resolveInfo="selector" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039979">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039979">
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
@@ -11449,7 +11450,7 @@
         <link role="declaration" targetNodeId="1208450039979" resolveInfo="and" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039983">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039983">
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
@@ -11463,7 +11464,7 @@
         <link role="declaration" targetNodeId="1208450039983" resolveInfo="or" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039988">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039988">
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
@@ -11477,7 +11478,7 @@
         <link role="declaration" targetNodeId="1208450039988" resolveInfo="not" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039992">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039992">
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
@@ -11491,7 +11492,7 @@
         <link role="declaration" targetNodeId="1208450039992" resolveInfo="none" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039997">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039997">
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
@@ -11505,7 +11506,7 @@
         <link role="declaration" targetNodeId="1208450039997" resolveInfo="majority" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040001">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040001">
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
@@ -11519,7 +11520,7 @@
         <link role="declaration" targetNodeId="1208450040001" resolveInfo="size" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040006">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040006">
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
@@ -11533,7 +11534,7 @@
         <link role="declaration" targetNodeId="1208450040006" resolveInfo="different" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040010">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040010">
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
@@ -11547,7 +11548,7 @@
         <link role="declaration" targetNodeId="1208450040010" resolveInfo="filename" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040014">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040014">
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
@@ -11561,7 +11562,7 @@
         <link role="declaration" targetNodeId="1208450040014" resolveInfo="type" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040019">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040019">
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
@@ -11575,7 +11576,7 @@
         <link role="declaration" targetNodeId="1208450040019" resolveInfo="custom" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040039">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040039">
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
@@ -11589,7 +11590,7 @@
         <link role="declaration" targetNodeId="1208450040039" resolveInfo="contains" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040044">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040044">
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
@@ -11603,7 +11604,7 @@
         <link role="declaration" targetNodeId="1208450040044" resolveInfo="present" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040049">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040049">
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
@@ -11617,7 +11618,7 @@
         <link role="declaration" targetNodeId="1208450040049" resolveInfo="depth" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040053">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040053">
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
@@ -11631,7 +11632,7 @@
         <link role="declaration" targetNodeId="1208450040053" resolveInfo="depend" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040057">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040057">
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
@@ -11645,7 +11646,7 @@
         <link role="declaration" targetNodeId="1208450040057" resolveInfo="containsregexp" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040062">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040062">
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
@@ -11660,7 +11661,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644189996">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189996">
     <property name="name" value="baseselector" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.BaseSelector" />
@@ -11677,7 +11678,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190008">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190008">
     <property name="name" value="baseextendselector" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.BaseExtendSelector" />
@@ -11694,7 +11695,7 @@
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190040">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190040">
     <property name="name" value="containsregexpselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190043">
@@ -11716,7 +11717,7 @@
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190051">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190051">
     <property name="name" value="containsselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190054">
@@ -11750,7 +11751,7 @@
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190070">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190070">
     <property name="name" value="dateselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190072">
@@ -11810,14 +11811,14 @@
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190100">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190100">
     <property name="name" value="dependselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040084">
       <link role="declaration" targetNodeId="1199644190101" resolveInfo="mappingselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190101">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190101">
     <property name="name" value="mappingselector" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.MappingSelector" />
@@ -11843,7 +11844,7 @@
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190130">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190130">
     <property name="name" value="depthselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190132">
@@ -11868,7 +11869,7 @@
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190144">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190144">
     <property name="name" value="differentselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190146">
@@ -11887,7 +11888,7 @@
       <link role="declaration" targetNodeId="1199644190101" resolveInfo="mappingselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190154">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190154">
     <property name="name" value="extendselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190156">
@@ -11908,7 +11909,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644190166" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.CallReferenceType" id="1208450040096" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201800722613">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800722613">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -11925,7 +11926,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040093">
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040097">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040097">
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.types.Parameter" />
       <property name="fake" value="true" />
@@ -11940,7 +11941,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190170">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190170">
     <property name="name" value="filenameselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190172">
@@ -11971,7 +11972,7 @@
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190188">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190188">
     <property name="name" value="majorityselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190190">
@@ -11984,28 +11985,28 @@
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190195">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190195">
     <property name="name" value="noneselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040112">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190197">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190197">
     <property name="name" value="notselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040113">
       <link role="declaration" targetNodeId="1199644190195" resolveInfo="noneselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190199">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190199">
     <property name="name" value="orselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040114">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190217">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190217">
     <property name="name" value="presentselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190219">
@@ -12038,7 +12039,7 @@
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190229">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190229">
     <property name="name" value="selectselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190231">
@@ -12057,7 +12058,7 @@
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190239">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190239">
     <property name="name" value="signedselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.SignedSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190242">
@@ -12073,7 +12074,7 @@
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190246">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190246">
     <property name="name" value="sizeselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190248">
@@ -12246,7 +12247,7 @@
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190279">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190279">
     <property name="name" value="typeselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190281">
@@ -12273,7 +12274,7 @@
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1199644190289">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190289">
     <property name="name" value="modifiedselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644190293">
@@ -12345,7 +12346,7 @@
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040135">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040147">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040147">
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.types.Parameter" />
       <property name="fake" value="true" />
@@ -12359,7 +12360,7 @@
         <link role="declaration" targetNodeId="1208450040147" resolveInfo="param" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040151">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040151">
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
@@ -12374,7 +12375,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201680421821">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201680421821">
     <property name="name" value="tarfileset" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Tar$TarFileSet" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1201680422778">
@@ -12385,7 +12386,7 @@
       <link role="declaration" targetNodeId="1199644188737" resolveInfo="tarfileset" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201680422291">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201680422291">
     <property name="name" value="implementationspecificargument" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javac$ImplementationSpecificArgument" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201680423080">
@@ -12396,7 +12397,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1201680423082" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1201680423079">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201680423079">
     <property name="name" value="implementationspecificargument" />
     <property name="classname" value="org.apache.tools.ant.util.facade.ImplementationSpecificArgument" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201680423083">
@@ -12543,7 +12544,7 @@
     <property name="name" value="eventlistener" />
     <property name="classname" value="java.util.EventListener" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037273">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037273">
     <property name="name" value="string" />
     <property name="classname" value="java.lang.String" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040157">
@@ -12556,7 +12557,7 @@
       <link role="declaration" targetNodeId="1208450040159" resolveInfo="charsequence" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037282">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037282">
     <property name="name" value="commandline" />
     <property name="classname" value="org.apache.tools.ant.types.Commandline" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040161">
@@ -12566,7 +12567,7 @@
       <property name="name" value="executable" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040164" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040168">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040168">
       <property name="name" value="arguments" />
       <property name="classname" value="[Ljava.lang.String;" />
       <property name="abstract" value="true" />
@@ -12619,7 +12620,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037303">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037303">
     <property name="name" value="variable" />
     <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040186">
@@ -12639,7 +12640,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040193" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037321">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037321">
     <property name="name" value="reference" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$Reference" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040195">
@@ -12650,7 +12651,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040198" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037326">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037326">
     <property name="name" value="targetelement" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$TargetElement" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040199">
@@ -12658,7 +12659,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040200" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450037575">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037575">
     <property name="name" value="textelement" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Concat$TextElement" />
     <property name="canHaveInternalText" value="true" />
@@ -12685,7 +12686,7 @@
       <property name="name" value="trimleading" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450040213" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040230">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040230">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -12700,10 +12701,10 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038011">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038011">
     <property name="name" value="manifest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest" />
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040235">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040235">
       <property name="name" value="configuredsection" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Section" />
       <property name="fake" value="true" />
@@ -12717,7 +12718,7 @@
         <link role="declaration" targetNodeId="1208450040235" resolveInfo="configuredsection" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040239">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040239">
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Attribute" />
       <property name="fake" value="true" />
@@ -12732,7 +12733,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038028">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038028">
     <property name="name" value="service" />
     <property name="classname" value="org.apache.tools.ant.types.spi.Service" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040243">
@@ -12746,7 +12747,7 @@
       <property name="name" value="type" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040248" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040253">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040253">
       <property name="name" value="configuredprovider" />
       <property name="classname" value="org.apache.tools.ant.types.spi.Provider" />
       <property name="fake" value="true" />
@@ -12761,7 +12762,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038260">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038260">
     <property name="name" value="sourcefile" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$SourceFile" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040257">
@@ -12769,7 +12770,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1208450040258" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038268">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038268">
     <property name="name" value="packagename" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$PackageName" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040259">
@@ -12777,11 +12778,11 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040260" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038282">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038282">
     <property name="name" value="html" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
     <property name="canHaveInternalText" value="true" />
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040262">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040262">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -12796,7 +12797,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038318">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038318">
     <property name="name" value="extensioninfo" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$ExtensionInfo" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040266">
@@ -12821,7 +12822,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038374">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038374">
     <property name="name" value="attribute" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$Attribute" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040276">
@@ -12837,7 +12838,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040281" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038398">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038398">
     <property name="name" value="text" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$Text" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040282">
@@ -12857,7 +12858,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450040290" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038409">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038409">
     <property name="name" value="templateelement" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$TemplateElement" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040291">
@@ -12877,14 +12878,14 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450040298" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038451">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038451">
     <property name="name" value="section" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Section" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040300">
       <property name="name" value="name" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040301" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040302">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040302">
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Attribute" />
       <property name="fake" value="true" />
@@ -12899,7 +12900,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038476">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038476">
     <property name="name" value="attribute" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Attribute" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040306">
@@ -12910,7 +12911,7 @@
       <property name="name" value="value" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040309" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040311">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040311">
       <property name="name" value="value" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -12918,7 +12919,7 @@
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040313">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040313">
       <property name="name" value="continuation" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -12936,7 +12937,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450038615">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038615">
     <property name="name" value="tasklist" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Parallel$TaskList" />
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040318">
@@ -12949,7 +12950,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039064">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039064">
     <property name="name" value="cvsuser" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.cvslib.CvsUser" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040321">
@@ -12961,7 +12962,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040325" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039125">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039125">
     <property name="name" value="message" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.email.Message" />
     <property name="canHaveInternalText" value="true" />
@@ -12980,7 +12981,7 @@
       <property name="name" value="src" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1208450040332" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040334">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040334">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
@@ -12995,7 +12996,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039131">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039131">
     <property name="name" value="emailaddress" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040338">
@@ -13007,7 +13008,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040341" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039295">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039295">
     <property name="name" value="parameter" />
     <property name="classname" value="org.apache.tools.ant.types.Parameter" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040342">
@@ -13023,21 +13024,21 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040348" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039351">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039351">
     <property name="name" value="enabledassertion" />
     <property name="classname" value="org.apache.tools.ant.types.Assertions$EnabledAssertion" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040350">
       <link role="declaration" targetNodeId="1208450040349" resolveInfo="baseassertion" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039359">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039359">
     <property name="name" value="disabledassertion" />
     <property name="classname" value="org.apache.tools.ant.types.Assertions$DisabledAssertion" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040351">
       <link role="declaration" targetNodeId="1208450040349" resolveInfo="baseassertion" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039379">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039379">
     <property name="name" value="filename" />
     <property name="classname" value="org.apache.tools.ant.types.FileList$FileName" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040352">
@@ -13045,7 +13046,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040353" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039409">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039409">
     <property name="name" value="replacestring" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ReplaceString" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040355">
@@ -13060,7 +13061,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040360" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039415">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039415">
     <property name="name" value="replaceregex" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ReplaceRegex" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040361">
@@ -13079,7 +13080,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040367" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039421">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039421">
     <property name="name" value="containsregex" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ContainsRegex" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040368">
@@ -13098,21 +13099,21 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040375" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039427">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039427">
     <property name="name" value="trim" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$Trim" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040376">
       <link role="declaration" targetNodeId="1208450040354" resolveInfo="chainablereaderfilter" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039432">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039432">
     <property name="name" value="ignoreblank" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$IgnoreBlank" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040377">
       <link role="declaration" targetNodeId="1208450040354" resolveInfo="chainablereaderfilter" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039454">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039454">
     <property name="name" value="deletecharacters" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$DeleteCharacters" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040378">
@@ -13129,7 +13130,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040384" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039470">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039470">
     <property name="name" value="classconstants" />
     <property name="classname" value="org.apache.tools.ant.filters.ClassConstants" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040386">
@@ -13139,7 +13140,7 @@
       <link role="declaration" targetNodeId="1201696444134" resolveInfo="chainablereader" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039476">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039476">
     <property name="name" value="expandproperties" />
     <property name="classname" value="org.apache.tools.ant.filters.ExpandProperties" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040388">
@@ -13149,7 +13150,7 @@
       <link role="declaration" targetNodeId="1201696444134" resolveInfo="chainablereader" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039483">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039483">
     <property name="name" value="headfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.HeadFilter" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040408">
@@ -13167,7 +13168,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040413" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039505">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039505">
     <property name="name" value="linecontains" />
     <property name="classname" value="org.apache.tools.ant.filters.LineContains" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040415">
@@ -13180,7 +13181,7 @@
       <property name="name" value="negate" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450040418" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040422">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040422">
       <property name="name" value="configuredcontains" />
       <property name="classname" value="org.apache.tools.ant.filters.LineContains$Contains" />
       <property name="fake" value="true" />
@@ -13195,7 +13196,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039511">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039511">
     <property name="name" value="linecontainsregexp" />
     <property name="classname" value="org.apache.tools.ant.filters.LineContainsRegExp" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040427">
@@ -13208,7 +13209,7 @@
       <property name="name" value="negate" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450040430" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040431">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040431">
       <property name="name" value="configuredregexp" />
       <property name="classname" value="org.apache.tools.ant.types.RegularExpression" />
       <property name="fake" value="true" />
@@ -13223,7 +13224,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039517">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039517">
     <property name="name" value="prefixlines" />
     <property name="classname" value="org.apache.tools.ant.filters.PrefixLines" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040435">
@@ -13237,7 +13238,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040439" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039523">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039523">
     <property name="name" value="replacetokens" />
     <property name="classname" value="org.apache.tools.ant.filters.ReplaceTokens" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040440">
@@ -13254,7 +13255,7 @@
       <property name="name" value="endtoken" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040445" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040450">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040450">
       <property name="name" value="configuredtoken" />
       <property name="classname" value="org.apache.tools.ant.filters.ReplaceTokens$Token" />
       <property name="fake" value="true" />
@@ -13269,7 +13270,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039529">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039529">
     <property name="name" value="stripjavacomments" />
     <property name="classname" value="org.apache.tools.ant.filters.StripJavaComments" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040454">
@@ -13279,7 +13280,7 @@
       <link role="declaration" targetNodeId="1201696444134" resolveInfo="chainablereader" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039534">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039534">
     <property name="name" value="striplinebreaks" />
     <property name="classname" value="org.apache.tools.ant.filters.StripLineBreaks" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040456">
@@ -13293,7 +13294,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040459" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039556">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039556">
     <property name="name" value="striplinecomments" />
     <property name="classname" value="org.apache.tools.ant.filters.StripLineComments" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040460">
@@ -13302,7 +13303,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040461">
       <link role="declaration" targetNodeId="1201696444134" resolveInfo="chainablereader" />
     </node>
-    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040466">
+    <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040466">
       <property name="name" value="configuredcomment" />
       <property name="classname" value="org.apache.tools.ant.filters.StripLineComments$Comment" />
       <property name="fake" value="true" />
@@ -13317,7 +13318,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039562">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039562">
     <property name="name" value="tabstospaces" />
     <property name="classname" value="org.apache.tools.ant.filters.TabsToSpaces" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040470">
@@ -13331,7 +13332,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.IntegerType" id="1208450040473" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039568">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039568">
     <property name="name" value="tailfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.TailFilter" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040474">
@@ -13349,7 +13350,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040480" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039574">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039574">
     <property name="name" value="escapeunicode" />
     <property name="classname" value="org.apache.tools.ant.filters.EscapeUnicode" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040481">
@@ -13359,7 +13360,7 @@
       <link role="declaration" targetNodeId="1201696444134" resolveInfo="chainablereader" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039580">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039580">
     <property name="name" value="tokenfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040483">
@@ -13445,7 +13446,7 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039612">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039612">
     <property name="name" value="filter" />
     <property name="classname" value="org.apache.tools.ant.types.FilterSet$Filter" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040552">
@@ -13457,7 +13458,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040555" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039673">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039673">
     <property name="name" value="propertyref" />
     <property name="classname" value="org.apache.tools.ant.types.PropertySet$PropertyRef" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040556">
@@ -13488,7 +13489,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040568" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450039753">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039753">
     <property name="name" value="resourcelocation" />
     <property name="classname" value="org.apache.tools.ant.types.ResourceLocation" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040569">
@@ -13519,7 +13520,7 @@
     <property name="name" value="charsequence" />
     <property name="classname" value="java.lang.CharSequence" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040167">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040167">
     <property name="name" value="string;" />
     <property name="classname" value="[Ljava.lang.String;" />
     <property name="abstract" value="true" />
@@ -13537,7 +13538,7 @@
       <link role="declaration" targetNodeId="1208450040580" resolveInfo="iterator" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040194">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040194">
     <property name="name" value="reference" />
     <property name="classname" value="org.apache.tools.ant.types.Reference" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040582">
@@ -13549,7 +13550,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040602" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040201">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040201">
     <property name="name" value="projectcomponent" />
     <property name="classname" value="org.apache.tools.ant.ProjectComponent" />
     <property name="abstract" value="true" />
@@ -13569,7 +13570,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040609" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040251">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040251">
     <property name="name" value="provider" />
     <property name="classname" value="org.apache.tools.ant.types.spi.Provider" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040610">
@@ -13580,7 +13581,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040613" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040349">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040349">
     <property name="name" value="baseassertion" />
     <property name="classname" value="org.apache.tools.ant.types.Assertions$BaseAssertion" />
     <property name="abstract" value="true" />
@@ -13589,7 +13590,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040615" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040354">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040354">
     <property name="name" value="chainablereaderfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ChainableReaderFilter" />
     <property name="abstract" value="true" />
@@ -13611,7 +13612,7 @@
     <property name="name" value="filter" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$Filter" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040385">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040385">
     <property name="name" value="basefilterreader" />
     <property name="classname" value="org.apache.tools.ant.filters.BaseFilterReader" />
     <property name="abstract" value="true" />
@@ -13623,7 +13624,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040625" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040407">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040407">
     <property name="name" value="baseparamfilterreader" />
     <property name="classname" value="org.apache.tools.ant.filters.BaseParamFilterReader" />
     <property name="abstract" value="true" />
@@ -13638,7 +13639,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040631" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040421">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040421">
     <property name="name" value="contains" />
     <property name="classname" value="org.apache.tools.ant.filters.LineContains$Contains" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040633">
@@ -13646,7 +13647,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040634" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040448">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040448">
     <property name="name" value="token" />
     <property name="classname" value="org.apache.tools.ant.filters.ReplaceTokens$Token" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040635">
@@ -13658,7 +13659,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040638" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040465">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040465">
     <property name="name" value="comment" />
     <property name="classname" value="org.apache.tools.ant.filters.StripLineComments$Comment" />
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040639">
@@ -13666,7 +13667,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1208450040640" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040514">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040514">
     <property name="name" value="linetokenizer" />
     <property name="classname" value="org.apache.tools.ant.util.LineTokenizer" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040641">
@@ -13680,21 +13681,21 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450040645" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040522">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040522">
     <property name="name" value="stringtokenizer" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$StringTokenizer" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040647">
       <link role="declaration" targetNodeId="1208450040646" resolveInfo="stringtokenizer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040530">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040530">
     <property name="name" value="filetokenizer" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$FileTokenizer" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040650">
       <link role="declaration" targetNodeId="1208450040648" resolveInfo="filetokenizer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040537">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040537">
     <property name="name" value="containsstring" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ContainsString" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040651">
@@ -13716,7 +13717,7 @@
     <property name="name" value="iterator" />
     <property name="classname" value="java.util.Iterator" />
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040621">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040621">
     <property name="name" value="filterreader" />
     <property name="classname" value="java.io.FilterReader" />
     <property name="abstract" value="true" />
@@ -13724,7 +13725,7 @@
       <link role="declaration" targetNodeId="1208450040655" resolveInfo="reader" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040646">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040646">
     <property name="name" value="stringtokenizer" />
     <property name="classname" value="org.apache.tools.ant.util.StringTokenizer" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040657">
@@ -13750,7 +13751,7 @@
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1208450040667" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040648">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040648">
     <property name="name" value="filetokenizer" />
     <property name="classname" value="org.apache.tools.ant.util.FileTokenizer" />
     <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040669">
@@ -13760,7 +13761,7 @@
       <link role="declaration" targetNodeId="1201696445478" resolveInfo="tokenizer" />
     </node>
   </node>
-  <node type="jetbrains.mps.buildlanguage.structure.GenericDeclaration" id="1208450040655">
+  <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040655">
     <property name="name" value="reader" />
     <property name="classname" value="java.io.Reader" />
     <property name="abstract" value="true" />

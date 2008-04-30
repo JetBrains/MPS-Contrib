@@ -9,7 +9,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 
 public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
 
-  public  FileIsSubtipeOfString_SubtypingRule() {
+  public FileIsSubtipeOfString_SubtypingRule() {
   }
 
   public SNode getSubOrSuperType(SNode fileType) {

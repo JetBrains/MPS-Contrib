@@ -8,7 +8,7 @@ import jetbrains.mps.smodel.SModelUtil_new;
 
 public class checkFileExistance_NonTypesystemRule implements NonTypesystemRule_Runtime {
 
-  public  checkFileExistance_NonTypesystemRule() {
+  public checkFileExistance_NonTypesystemRule() {
   }
 
   public void applyRule(final SNode fileName) {

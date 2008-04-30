@@ -97,7 +97,7 @@ public class Enum_Editor extends DefaultNodeEditor {
 
   public static class _RefNodeListHandler7 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
+    public _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

@@ -59,7 +59,7 @@ public class CallReference_Editor extends DefaultNodeEditor {
 
   public static class _Inline6 extends AbstractCellProvider {
 
-    public  _Inline6() {
+    public _Inline6() {
       super();
     }
 

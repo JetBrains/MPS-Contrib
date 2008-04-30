@@ -19,7 +19,7 @@ public class BinaryOperation_LeftArgument_Actions {
 
     /* package */SNode myNode;
 
-    public  BinaryOperation_LeftArgument_Actions_DELETE(SNode node) {
+    public BinaryOperation_LeftArgument_Actions_DELETE(SNode node) {
       this.myNode = node;
     }
 
