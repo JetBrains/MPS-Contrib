@@ -40,6 +40,7 @@
     <dependency reexport="false">jetbrains.mps.regexp.examples</dependency>
     <dependency reexport="false">jetbrains.mps.transformation.TLBase</dependency>
     <dependency reexport="false">jetbrains.mps.buildlanguage</dependency>
+    <dependency reexport="false">jetbrains.mps.buildlanguage</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguages>jetbrains.mps.baseLanguageInternal</usedLanguages>
