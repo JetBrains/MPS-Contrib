@@ -619,10 +619,6 @@
       <link role="target" targetNodeId="1208087694312" resolveInfo="EventDeclaration"/>
       <link role="specializedLink" targetNodeId="3.1205756909548"/>
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty"
-          id="1208108833977">
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473994950" resolveInfo="dontSubstituteByDefault"/>
-    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1208089922381">
     <property name="package" value="Events.Operations"/>
