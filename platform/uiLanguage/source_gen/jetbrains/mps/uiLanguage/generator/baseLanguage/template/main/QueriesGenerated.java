@@ -67,23 +67,12 @@ public class QueriesGenerated {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "creator", true), "jetbrains.mps.uiLanguage.structure.BeanCreator");
   }
 
-  public static boolean baseMappingRule_Condition_1208711096382(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "expression", true), "jetbrains.mps.baseLanguage.structure.DotExpression")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "operation", true), "jetbrains.mps.uiLanguage.structure.RaiseOperation");
-    }
-    return false;
-  }
-
-  public static boolean baseMappingRule_Condition_1208713997159(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "expression", true), "jetbrains.mps.uiLanguage.structure.AddListenerOperation");
-  }
-
-  public static boolean baseMappingRule_Condition_1208714181750(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "expression", true), "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation");
-  }
-
   public static boolean baseMappingRule_Condition_1209660507860(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "initializer", true) != null && !(SequenceOperations.isEmpty(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "initializer", true), "statement", true)));
+  }
+
+  public static boolean baseMappingRule_Condition_1209822624568(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation");
   }
 
   public static Object propertyMacro_GetPropertyValue_1202393917712(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -221,14 +210,6 @@ public class QueriesGenerated {
     return BeanDeclaration_Behavior.call_getGeneratedName_1207755414961(_context.getNode());
   }
 
-  public static Object propertyMacro_GetPropertyValue_1208710480119(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "rightExpression", true), "handler", false), "name");
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1208710513979(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "rightExpression", true), "handler", false), "name");
-  }
-
   public static Object propertyMacro_GetPropertyValue_1209569938634(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "operation", true), "member", false), "name");
   }
@@ -237,8 +218,16 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_1209659480317(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_1209824360756(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "handler", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1209824394980(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1209824411054(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "handler", false), "name");
   }
 
   public static Object referenceMacro_GetReferent_1202395785142(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -267,16 +256,16 @@ public class QueriesGenerated {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(Scroller_Behavior.call_getWrappedComponent_1203090088392(_context.getNode()), "componentFactory");
   }
 
-  public static Object referenceMacro_GetReferent_1208710104722(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "leftExpression", true), "operation", true), "member", false), "parameter", true), "type", true), "classifier", false);
+  public static Object referenceMacro_GetReferent_1209824360689(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true), "operation", true), "member", false), "parameter", true), "type", true), "classifier", false);
   }
 
-  public static Object referenceMacro_GetReferent_1208710104753(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "leftExpression", true), "operation", true), "member", false), "parameter", true), "type", true), "classifier", false);
+  public static Object referenceMacro_GetReferent_1209824360719(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true), "operation", true), "member", false), "parameter", true), "type", true), "classifier", false);
   }
 
-  public static Object referenceMacro_GetReferent_1208710104773(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "rightExpression", true), "handler", false);
+  public static Object referenceMacro_GetReferent_1209824360739(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "handler", false);
   }
 
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -409,36 +398,32 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "initializer", true);
   }
 
-  public static SNode sourceNodeQuery_1208708928695(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "operation", true), "argument", true);
-  }
-
   public static SNode sourceNodeQuery_1209569641251(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "operand", true);
-  }
-
-  public static SNode sourceNodeQuery_1209570057505(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "leftExpression", true);
-  }
-
-  public static SNode sourceNodeQuery_1209570163125(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "operand", true);
-  }
-
-  public static SNode sourceNodeQuery_1209570214137(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "expression", true), "leftExpression", true);
   }
 
   public static SNode sourceNodeQuery_1209574292578(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(ComponentDeclaration_Behavior.call_getConstructor_1203080456035(_context.getNode()), "body", true);
   }
 
-  public static SNode sourceNodeQuery_1209659507697(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_1209661137861(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "initializer", true);
+  }
+
+  public static SNode sourceNodeQuery_1209824360769(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_1209824394995(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "argument", true);
   }
 
-  public static SNode sourceNodeQuery_1209661137861(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "initializer", true);
+  public static SNode sourceNodeQuery_1209824402945(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "argument", true);
+  }
+
+  public static SNode sourceNodeQuery_1209824411067(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
   }
 
   public static List sourceNodesQuery_1202395104349(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
