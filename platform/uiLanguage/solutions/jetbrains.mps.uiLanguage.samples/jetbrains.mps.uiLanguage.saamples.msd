@@ -5,8 +5,15 @@
   </models>
   <classPath />
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">jetbrains.mps.uiLanguage.samples</dependency>
+  </dependencies>
   <usedLanguages>
     <usedLanguages>jetbrains.mps.uiLanguage</usedLanguages>
   </usedLanguages>
+  <osgiOptions>
+    <requiredBundles />
+    <exportedPackage />
+  </osgiOptions>
 </solution>
 
