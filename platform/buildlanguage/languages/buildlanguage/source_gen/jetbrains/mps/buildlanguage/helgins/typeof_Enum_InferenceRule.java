@@ -4,11 +4,9 @@ package jetbrains.mps.buildlanguage.helgins;
 
 import jetbrains.mps.bootstrap.helgins.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.baseLanguage.ext.collections.internal.ICursor;
-import jetbrains.mps.baseLanguage.ext.collections.internal.CursorFactory;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.helgins.inference.TypeChecker;
-import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_Enum_InferenceRule implements InferenceRule_Runtime {
@@ -17,16 +15,8 @@ public class typeof_Enum_InferenceRule implements InferenceRule_Runtime {
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    {
-      ICursor<SNode> _zCursor = CursorFactory.createCursor(SLinkOperations.getTargets(nodeToCheck, "constants", true));
-      try {
-        while(_zCursor.moveToNext()) {
-          SNode element = _zCursor.getCurrent();
-          TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(element, "jetbrains.mps.buildlanguage.helgins", "1197401239298", true), SequenceOperations.getFirst(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")), element, null, "jetbrains.mps.buildlanguage.helgins", "1197401256457", false);
-        }
-      } finally {
-        _zCursor.release();
-      }
+    for(SNode element : SLinkOperations.getTargets(nodeToCheck, "constants", true)) {
+      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(element, "jetbrains.mps.buildlanguage.helgins", "1197401239298", true), ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), element, null, "jetbrains.mps.buildlanguage.helgins", "1197401256457", false);
     }
   }
 
