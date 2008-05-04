@@ -18,6 +18,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="3" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />

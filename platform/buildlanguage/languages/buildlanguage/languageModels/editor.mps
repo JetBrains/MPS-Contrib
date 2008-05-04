@@ -18,6 +18,8 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -1630,6 +1632,53 @@
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1209908949891">
+    <property name="package" value="Extend" />
+    <link role="conceptDeclaration" targetNodeId="1.1209908782663" resolveInfo="TaskLibrary" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1209908960165">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1209908965027">
+        <property name="selectable" value="false" />
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1209908987342">
+          <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1209909007017">
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1209909018036" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1209909021663">
+        <property name="selectable" value="false" />
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Indent" id="1209909022946" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1209909028120">
+          <property name="vertical" value="true" />
+          <property name="selectable" value="false" />
+          <link role="relationDeclaration" targetNodeId="1.1209908937858" />
+          <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1209909038231">
+            <property name="text" value="&lt;tasks&gt;" />
+            <link role="styleClass" targetNodeId="1200419086632" resolveInfo="prompting" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1209909421646">
+    <property name="package" value="Extend" />
+    <link role="conceptDeclaration" targetNodeId="1.1209908908450" resolveInfo="UserDefinedTaskReference" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1209909430389">
+      <link role="relationDeclaration" targetNodeId="1.1209908921748" />
+      <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1209909430390">
+        <link role="conceptDeclaration" targetNodeId="1.1209908836571" resolveInfo="IUserDefinedTask" />
+        <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1209909435549">
+          <property name="readOnly" value="true" />
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
         </node>
       </node>
     </node>

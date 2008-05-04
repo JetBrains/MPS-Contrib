@@ -20,6 +20,8 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="26" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="19" modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
@@ -77,14 +79,20 @@
               </node>
             </node>
           </node>
-          <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.Substitute_SimpleString" id="1196869288940">
-            <property name="text" value="true" />
-          </node>
           <node role="descriptionText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_SubstituteString" id="1196869657887">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1196869657888">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1196869664780">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1196869666641">
                   <property name="value" value="true literal" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_SubstituteString" id="1209908430606">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209908430607">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209908434905">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1209908434906">
+                  <property name="value" value="true" />
                 </node>
               </node>
             </node>
@@ -131,14 +139,20 @@
               </node>
             </node>
           </node>
-          <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.Substitute_SimpleString" id="1196869401593">
-            <property name="text" value="false" />
-          </node>
           <node role="descriptionText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_SubstituteString" id="1196869682893">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1196869682894">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1196869686082">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1196869686083">
                   <property name="value" value="false literal" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_SubstituteString" id="1209908440875">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209908440876">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209908441924">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1209908441925">
+                  <property name="value" value="false" />
                 </node>
               </node>
             </node>

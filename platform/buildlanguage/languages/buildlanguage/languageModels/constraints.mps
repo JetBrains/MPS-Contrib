@@ -65,6 +65,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="17" />
   <import index="1" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
   <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
@@ -4735,6 +4736,23 @@
     <link role="concept" targetNodeId="2.1201702638416" resolveInfo="ImportProject" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1201703058071">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201703058072" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1209909602031">
+    <property name="package" value="Extend" />
+    <link role="concept" targetNodeId="2.1209908836571" resolveInfo="IUserDefinedTask" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1209909605034">
+      <property name="name" value="getDeclaration" />
+      <property name="isPrivate" value="false" />
+      <property name="isVirtual" value="true" />
+      <property name="isAbstract" value="true" />
+      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1209909614879">
+        <link role="concept" targetNodeId="2.1196851304975" resolveInfo="GenericTaskDeclaration" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209909605036" />
+    </node>
+    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1209909602032">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209909602033" />
     </node>
   </node>
 </model>
