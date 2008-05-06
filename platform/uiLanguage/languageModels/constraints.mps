@@ -27,6 +27,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <maxImportIndex value="21"/>
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="-1"/>
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1"/>
@@ -1234,7 +1235,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202478529902">
-    <property name="package" value="Operations"/>
+    <property name="package" value="Component"/>
     <link role="concept" targetNodeId="1.1202478475127" resolveInfo="AttributeReferenceOperation"/>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration"
           id="1202478529903">
@@ -1527,7 +1528,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202745639746">
-    <property name="package" value="Expressions"/>
+    <property name="package" value="Component"/>
     <link role="concept" targetNodeId="1.1202742489421" resolveInfo="ComponentReference"/>
     <node role="references" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodeReferentConstraint"
           id="1202745641312">
@@ -1769,7 +1770,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202825050868">
-    <property name="package" value="Grid"/>
+    <property name="package" value="HighLevel.Grid"/>
     <link role="concept" targetNodeId="1.1202823654753" resolveInfo="Grid"/>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration"
           id="1202825052558">
@@ -1876,7 +1877,7 @@
   </node>
   <visible index="3" modelUID="jetbrains.mps.uiLanguage.components"/>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202825306895">
-    <property name="package" value="Grid"/>
+    <property name="package" value="HighLevel.Grid"/>
     <link role="concept" targetNodeId="1.1202823683703" resolveInfo="GridRow"/>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration"
           id="1202825308960">
@@ -2036,7 +2037,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1202832519627">
-    <property name="package" value="Dialog"/>
+    <property name="package" value="HighLevel.Dialog"/>
     <link role="concept" targetNodeId="1.1202830095650" resolveInfo="Dialog"/>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration"
           id="1202833089090">
@@ -2244,7 +2245,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1203084280580">
-    <property name="package" value="List"/>
+    <property name="package" value="HighLevel.List"/>
     <link role="concept" targetNodeId="1.1203084152264" resolveInfo="ListElements"/>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration"
           id="1203084280581">
@@ -2309,7 +2310,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1203090086264">
-    <property name="package" value="Scroller"/>
+    <property name="package" value="HighLevel.Scroller"/>
     <link role="concept" targetNodeId="1.1203089479329" resolveInfo="Scroller"/>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration"
           id="1203090088392">

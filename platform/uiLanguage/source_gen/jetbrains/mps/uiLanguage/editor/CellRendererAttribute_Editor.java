@@ -29,8 +29,17 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1210088758773");
   }
 
+  private static void setupBasic_RowCell1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1210097507922");
+    editorCell.setSelectable(false);
+  }
+
   private static void setupBasic_RendererCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1210088758774");
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1210097513486");
+  }
+
+  private static void setupBasic_BindingCell(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1210098846494");
   }
 
   private static void setupLabel_ConstantCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -40,6 +49,9 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_RendererCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_BindingCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 
@@ -55,7 +67,18 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstantCell(context, node, "renderer"));
     editorCell.addEditorCell(this.createConstantCell1(context, node, ":"));
+    editorCell.addEditorCell(this.createRowCell1(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createRowCell1(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    CellRendererAttribute_Editor.setupBasic_RowCell1(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createRendererCell(context, node));
+    editorCell.addEditorCell(this.createBindingCell(context, node));
     return editorCell;
   }
 
@@ -94,6 +117,35 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRendererCellinternal(context, node, provider);
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = context.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+    } else
+      return cellWithRole;
+  }
+
+  public EditorCell createBindingCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+    CellProviderWithRole provider = aProvider;
+    provider.setAuxiliaryCellProvider(null);
+    EditorCell editorCell = provider.createEditorCell(context);
+    CellRendererAttribute_Editor.setupBasic_BindingCell(editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      CellRendererAttribute_Editor.setupLabel_BindingCell((EditorCell_Label) editorCell, node, context);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    return editorCell;
+  }
+
+  public EditorCell createBindingCell(EditorContext context, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, context);
+    provider.setRole("binding");
+    provider.setNoTargetText("");
+    provider.setReadOnly(false);
+    provider.setAllowsEmptyTarget(false);
+    EditorCell cellWithRole = this.createBindingCellinternal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {

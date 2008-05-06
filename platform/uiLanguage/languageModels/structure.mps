@@ -229,7 +229,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202478475127">
     <property name="name" value="AttributeReferenceOperation"/>
-    <property name="package" value="Operations"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty"
           id="1202746169525">
@@ -270,7 +270,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202742489421">
     <property name="name" value="ComponentReference"/>
-    <property name="package" value="Expressions"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202742504267">
@@ -307,7 +307,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202816914429">
     <property name="name" value="Form"/>
-    <property name="package" value="Form"/>
+    <property name="package" value="HighLevel.Form"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1202817889125">
@@ -331,7 +331,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202816951086">
-    <property name="package" value="Form"/>
+    <property name="package" value="HighLevel.Form"/>
     <property name="name" value="FormPart"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
@@ -364,7 +364,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202823654753">
     <property name="name" value="Grid"/>
-    <property name="package" value="Grid"/>
+    <property name="package" value="HighLevel.Grid"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202823909833">
@@ -384,7 +384,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202823683703">
-    <property name="package" value="Grid"/>
+    <property name="package" value="HighLevel.Grid"/>
     <property name="name" value="GridRow"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
@@ -397,7 +397,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202830095650">
     <property name="name" value="StandardDialog"/>
-    <property name="package" value="Dialog"/>
+    <property name="package" value="HighLevel.Dialog"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1202831896216">
@@ -424,7 +424,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202831784434">
-    <property name="package" value="Dialog"/>
+    <property name="package" value="HighLevel.Dialog"/>
     <property name="name" value="StandardDialogButton"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
@@ -458,7 +458,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1203084152264">
-    <property name="package" value="List"/>
+    <property name="package" value="HighLevel.List"/>
     <property name="name" value="ListElements"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
@@ -480,7 +480,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1203089479329">
     <property name="name" value="Scroller"/>
-    <property name="package" value="Scroller"/>
+    <property name="package" value="HighLevel.Scroller"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1203089495486">
@@ -749,7 +749,14 @@
       <property name="metaClass" value="aggregation"/>
       <property name="role" value="renderer"/>
       <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="1202387945296" resolveInfo="ComponentInstance"/>
+      <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration"/>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210098832122">
+      <property name="metaClass" value="aggregation"/>
+      <property name="role" value="binding"/>
+      <property name="sourceCardinality" value="1"/>
+      <link role="target" targetNodeId="1202464424004" resolveInfo="BindExpression"/>
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1210088737941">
