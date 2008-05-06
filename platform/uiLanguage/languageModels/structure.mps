@@ -191,7 +191,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202464424004">
     <property name="name" value="BindExpression"/>
-    <property name="package" value="Expressions"/>
+    <property name="package" value="Bindings"/>
     <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1202464535546">
