@@ -11,15 +11,15 @@
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0"/>
   </language>
+  <language namespace="jetbrains.mps.bootstrap.sharedConcepts"/>
+  <language namespace="jetbrains.mps.uiLanguage"/>
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1"/>
   </language>
-  <language namespace="jetbrains.mps.bootstrap.sharedConcepts"/>
-  <language namespace="jetbrains.mps.quotation"/>
-  <language namespace="jetbrains.mps.uiLanguage"/>
   <language namespace="jetbrains.mps.baseLanguage.strings"/>
-  <language namespace="jetbrains.mps.bootstrap.helgins"/>
+  <language namespace="jetbrains.mps.quotation"/>
   <languageAspect modelUID="jetbrains.mps.transformation.TLBase.structure" version="1"/>
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>

@@ -6,14 +6,12 @@
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0"/>
   </language>
-  <language namespace="jetbrains.mps.baseLanguage.classifiers"/>
   <maxImportIndex value="6"/>
   <import index="1" modelUID="java.lang@java_stub" version="-1"/>
   <import index="2" modelUID="javax.swing@java_stub" version="-1"/>
   <import index="3" modelUID="java.awt@java_stub" version="-1"/>
   <import index="4" modelUID="jetbrains.mps.uiLanguage.runtime@java_stub" version="-1"/>
   <import index="5" modelUID="javax.swing.border@java_stub" version="-1"/>
-  <import index="6" modelUID="java.awt.event@java_stub" version="-1"/>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393472906">
     <property name="name" value="BaseComponent"/>
     <property name="stub" value="true"/>

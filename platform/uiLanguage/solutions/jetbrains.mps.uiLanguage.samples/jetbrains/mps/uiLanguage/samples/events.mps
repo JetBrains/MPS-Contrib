@@ -9,7 +9,6 @@
   <language namespace="jetbrains.mps.baseLanguage.classifiers"/>
   <maxImportIndex value="5"/>
   <import index="1" modelUID="java.awt@java_stub" version="-1"/>
-  <import index="2" modelUID="jetbrains.mps.uiLanguage.samples.events" version="-1"/>
   <import index="3" modelUID="java.awt.event@java_stub" version="-1"/>
   <import index="4" modelUID="java.lang@java_stub" version="-1"/>
   <import index="5" modelUID="javax.swing@java_stub" version="-1"/>
