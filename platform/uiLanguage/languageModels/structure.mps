@@ -13,10 +13,12 @@
   <import index="3" modelUID="jetbrains.mps.baseLanguage.classifiers.structure" version="-1"/>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1202387978141">
     <property name="name" value="IComponentPart"/>
+    <property name="package" value="Component"/>
   </node>
   <visible index="2" modelUID="jetbrains.mps.core.structure"/>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202387945296">
     <property name="name" value="ComponentInstance"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202388027333">
@@ -41,6 +43,7 @@
     <property name="name" value="ComponentDeclaration"/>
     <property name="rootable" value="true"/>
     <property name="iconPath" value="${language_descriptor}\icons\component.png"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration"
           id="1202393242164">
@@ -56,6 +59,11 @@
           id="1202744343014">
       <property name="name" value="actionComponent"/>
       <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean"/>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210088513292">
+      <property name="role" value="cellRendererSetter"/>
+      <link role="target" targetNodeId="2.1068580123165" resolveInfo="InstanceMethodDeclaration"/>
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202393246965">
@@ -83,6 +91,7 @@
     <property name="name" value="ComponentController"/>
     <property name="rootable" value="true"/>
     <property name="iconPath" value="${language_descriptor}\icons\controller.png"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202389186753">
@@ -127,6 +136,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202389314593">
     <property name="name" value="AttributeValue"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202389410534">
@@ -148,6 +158,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202388805843">
     <property name="name" value="AttributeDeclaration"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202389048182">
@@ -202,6 +213,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202465023198">
     <property name="name" value="ComponentType"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="3.1205752813637" resolveInfo="BaseClassifierType"/>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
           id="1202465038393">
@@ -237,6 +249,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202739819652">
     <property name="name" value="LayoutConstraint"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202739826872">
@@ -273,6 +286,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202744043552">
     <property name="name" value="ActionHandler"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202744064414">
@@ -335,6 +349,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1202817076568">
     <property name="name" value="IComponentInstance"/>
+    <property name="package" value="Component"/>
     <node role="extends" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
           id="1202824122015">
       <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart"/>
@@ -432,6 +447,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1203080174635">
     <property name="name" value="ComponentConstructor"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1203080185261">
@@ -478,6 +494,7 @@
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1203520768804">
     <property name="name" value="ComponentCreator"/>
+    <property name="package" value="Component"/>
     <link role="extends" targetNodeId="2.1145552809883" resolveInfo="AbstractCreator"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1203520776742">
@@ -717,6 +734,27 @@
           id="1209657727207">
       <property name="value" value="raise this event"/>
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="short_description"/>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210088564439">
+    <property name="package" value="Component"/>
+    <property name="name" value="CellRendererAttribute"/>
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
+          id="1210088707361">
+      <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart"/>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210088719081">
+      <property name="metaClass" value="aggregation"/>
+      <property name="role" value="renderer"/>
+      <property name="sourceCardinality" value="1"/>
+      <link role="target" targetNodeId="1202387945296" resolveInfo="ComponentInstance"/>
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
+          id="1210088737941">
+      <property name="value" value="renderer:"/>
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
     </node>
   </node>
 </model>

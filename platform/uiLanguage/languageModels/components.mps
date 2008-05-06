@@ -6,6 +6,7 @@
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0"/>
   </language>
+  <language namespace="jetbrains.mps.baseLanguage.classifiers"/>
   <maxImportIndex value="6"/>
   <import index="1" modelUID="java.lang@java_stub" version="-1"/>
   <import index="2" modelUID="javax.swing@java_stub" version="-1"/>
@@ -166,6 +167,8 @@
     <property name="stub" value="true"/>
     <link role="mapTo" targetNodeId="2.~JList" resolveInfo="JList"/>
     <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent"/>
+    <link role="cellRendererSetter" targetNodeId="2.~JList.setCellRenderer(javax.swing.ListCellRenderer):void"
+          resolveInfo="setCellRenderer"/>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1203082521713">
     <link role="component" targetNodeId="1203082515478" resolveInfo="List"/>
