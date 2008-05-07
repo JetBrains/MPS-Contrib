@@ -61,11 +61,6 @@
       <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean"/>
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1210088513292">
-      <property name="role" value="cellRendererSetter"/>
-      <link role="target" targetNodeId="2.1068580123165" resolveInfo="InstanceMethodDeclaration"/>
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1202393246965">
       <property name="role" value="extendedComponent"/>
       <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration"/>
@@ -85,6 +80,12 @@
       <property name="role" value="root"/>
       <property name="sourceCardinality" value="0..1"/>
       <link role="target" targetNodeId="1202817076568" resolveInfo="IComponentInstance"/>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210174600177">
+      <property name="metaClass" value="aggregation"/>
+      <property name="role" value="rendererInfo"/>
+      <link role="target" targetNodeId="1210173918195" resolveInfo="StubCellRendererInfo"/>
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1202388384249">
@@ -745,13 +746,6 @@
       <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart"/>
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1210088719081">
-      <property name="metaClass" value="aggregation"/>
-      <property name="role" value="renderer"/>
-      <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration"/>
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1210098832122">
       <property name="metaClass" value="aggregation"/>
       <property name="role" value="binding"/>
@@ -762,6 +756,29 @@
           id="1210088737941">
       <property name="value" value="renderer:"/>
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210099812004">
+      <property name="role" value="renderer"/>
+      <property name="sourceCardinality" value="1"/>
+      <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration"/>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210173918195">
+    <property name="package" value="Component"/>
+    <property name="name" value="StubCellRendererInfo"/>
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210173949336">
+      <property name="role" value="cellRendererSetter"/>
+      <property name="sourceCardinality" value="1"/>
+      <link role="target" targetNodeId="2.1068580123165" resolveInfo="InstanceMethodDeclaration"/>
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210173956462">
+      <property name="role" value="interface"/>
+      <property name="sourceCardinality" value="1"/>
+      <link role="target" targetNodeId="2.1107796713796" resolveInfo="Interface"/>
     </node>
   </node>
 </model>

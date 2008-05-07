@@ -32,9 +32,9 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline12());
     EditorCell editorCell = provider.createEditorCell(context);
-    EventHandlerReference_Editor.setupBasic_HandlerReferenceCell(editorCell, node, context);
+    setupBasic_HandlerReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      EventHandlerReference_Editor.setupLabel_HandlerReferenceCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_HandlerReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -83,9 +83,9 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      EventHandlerReference_Editor._Inline12.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        EventHandlerReference_Editor._Inline12.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

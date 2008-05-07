@@ -180,7 +180,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createColumnCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    ComponentController_Editor.setupBasic_ColumnCell(editorCell, node, context);
+    setupBasic_ColumnCell(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -201,7 +201,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    ComponentController_Editor.setupBasic_RowCell(editorCell, node, context);
+    setupBasic_RowCell(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -213,7 +213,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    ComponentController_Editor.setupBasic_RowCell1(editorCell, node, context);
+    setupBasic_RowCell1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -224,7 +224,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    ComponentController_Editor.setupBasic_RowCell3(editorCell, node, context);
+    setupBasic_RowCell3(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -235,7 +235,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    ComponentController_Editor.setupBasic_RowCell2(editorCell, node, context);
+    setupBasic_RowCell2(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -246,72 +246,72 @@ public class ComponentController_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell(editorCell, node, context);
+    setupBasic_ConstantCell(editorCell, node, context);
+    setupLabel_ConstantCell(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell1(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell1(editorCell, node, context);
+    setupBasic_ConstantCell1(editorCell, node, context);
+    setupLabel_ConstantCell1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell2(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell2(editorCell, node, context);
+    setupBasic_ConstantCell2(editorCell, node, context);
+    setupLabel_ConstantCell2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell3(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell3(editorCell, node, context);
+    setupBasic_ConstantCell3(editorCell, node, context);
+    setupLabel_ConstantCell3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell7(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell7(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell7(editorCell, node, context);
+    setupBasic_ConstantCell7(editorCell, node, context);
+    setupLabel_ConstantCell7(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell8(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell8(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell8(editorCell, node, context);
+    setupBasic_ConstantCell8(editorCell, node, context);
+    setupLabel_ConstantCell8(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell4(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell4(editorCell, node, context);
+    setupBasic_ConstantCell4(editorCell, node, context);
+    setupLabel_ConstantCell4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell5(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell5(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell5(editorCell, node, context);
+    setupBasic_ConstantCell5(editorCell, node, context);
+    setupLabel_ConstantCell5(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell6(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComponentController_Editor.setupBasic_ConstantCell6(editorCell, node, context);
-    ComponentController_Editor.setupLabel_ConstantCell6(editorCell, node, context);
+    setupBasic_ConstantCell6(editorCell, node, context);
+    setupLabel_ConstantCell6(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -321,7 +321,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
       this.myAttributeListHandler_attributeList_ = new ComponentController_Editor._RefNodeListHandler1(node, "attribute", context);
     }
     EditorCell_Collection editorCell = this.myAttributeListHandler_attributeList_.createCells(context, new CellLayout_Vertical(), false);
-    ComponentController_Editor.setupBasic_AttributeList(editorCell, node, context);
+    setupBasic_AttributeList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -334,7 +334,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
       this.myComponentMethodListHandler_componentMethodList_ = new ComponentController_Editor._RefNodeListHandler2(node, "componentMethod", context);
     }
     EditorCell_Collection editorCell = this.myComponentMethodListHandler_componentMethodList_.createCells(context, new CellLayout_Vertical(), false);
-    ComponentController_Editor.setupBasic_ComponentMethodList(editorCell, node, context);
+    setupBasic_ComponentMethodList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -347,7 +347,7 @@ public class ComponentController_Editor extends DefaultNodeEditor {
       this.myEventListHandler_eventList_ = new ComponentController_Editor._RefNodeListHandler13(node, "event", context);
     }
     EditorCell_Collection editorCell = this.myEventListHandler_eventList_.createCells(context, new CellLayout_Vertical(), false);
-    ComponentController_Editor.setupBasic_EventList(editorCell, node, context);
+    setupBasic_EventList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -374,9 +374,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new ComponentController_Editor._Inline1());
     EditorCell editorCell = provider.createEditorCell(context);
-    ComponentController_Editor.setupBasic_ComponentReferenceCell(editorCell, node, context);
+    setupBasic_ComponentReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      ComponentController_Editor.setupLabel_ComponentReferenceCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_ComponentReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -403,9 +403,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    ComponentController_Editor.setupBasic_ConstructorCell(editorCell, node, context);
+    setupBasic_ConstructorCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      ComponentController_Editor.setupLabel_ConstructorCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_ConstructorCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -454,9 +454,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      ComponentController_Editor._Inline1.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        ComponentController_Editor._Inline1.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

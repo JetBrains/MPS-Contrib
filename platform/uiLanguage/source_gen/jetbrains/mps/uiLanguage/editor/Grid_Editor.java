@@ -75,7 +75,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createColumnCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    Grid_Editor.setupBasic_ColumnCell(editorCell, node, context);
+    setupBasic_ColumnCell(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -86,7 +86,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    Grid_Editor.setupBasic_RowCell(editorCell, node, context);
+    setupBasic_RowCell(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -97,7 +97,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createColumnCell1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    Grid_Editor.setupBasic_ColumnCell1(editorCell, node, context);
+    setupBasic_ColumnCell1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -107,8 +107,8 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    Grid_Editor.setupBasic_ConstantCell(editorCell, node, context);
-    Grid_Editor.setupLabel_ConstantCell(editorCell, node, context);
+    setupBasic_ConstantCell(editorCell, node, context);
+    setupLabel_ConstantCell(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -118,7 +118,7 @@ public class Grid_Editor extends DefaultNodeEditor {
       this.myRowListHandler_rowList_ = new Grid_Editor._RefNodeListHandler5(node, "row", context);
     }
     EditorCell_Collection editorCell = this.myRowListHandler_rowList_.createCells(context, new CellLayout_Vertical(), false);
-    Grid_Editor.setupBasic_RowList(editorCell, node, context);
+    setupBasic_RowList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -131,7 +131,7 @@ public class Grid_Editor extends DefaultNodeEditor {
       this.myContentListHandler_contentList_ = new Grid_Editor._RefNodeListHandler8(node, "content", context);
     }
     EditorCell_Collection editorCell = this.myContentListHandler_contentList_.createCells(context, new CellLayout_Horizontal(), false);
-    Grid_Editor.setupBasic_ContentList(editorCell, node, context);
+    setupBasic_ContentList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);

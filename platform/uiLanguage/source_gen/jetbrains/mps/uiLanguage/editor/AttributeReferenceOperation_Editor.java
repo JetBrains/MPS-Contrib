@@ -32,9 +32,9 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new AttributeReferenceOperation_Editor._Inline6());
     EditorCell editorCell = provider.createEditorCell(context);
-    AttributeReferenceOperation_Editor.setupBasic_AttributeDeclarationReferenceCell(editorCell, node, context);
+    setupBasic_AttributeDeclarationReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      AttributeReferenceOperation_Editor.setupLabel_AttributeDeclarationReferenceCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_AttributeDeclarationReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -84,9 +84,9 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      AttributeReferenceOperation_Editor._Inline6.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        AttributeReferenceOperation_Editor._Inline6.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

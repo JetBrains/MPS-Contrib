@@ -169,6 +169,11 @@
     <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent"/>
     <link role="cellRendererSetter" targetNodeId="2.~JList.setCellRenderer(javax.swing.ListCellRenderer):void"
           resolveInfo="setCellRenderer"/>
+    <node role="rendererInfo" type="jetbrains.mps.uiLanguage.structure.StubCellRendererInfo" id="1210175735011">
+      <link role="cellRendererSetter" targetNodeId="2.~JList.setCellRenderer(javax.swing.ListCellRenderer):void"
+            resolveInfo="setCellRenderer"/>
+      <link role="interface" targetNodeId="2.~ListCellRenderer" resolveInfo="ListCellRenderer"/>
+    </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1203082521713">
     <link role="component" targetNodeId="1203082515478" resolveInfo="List"/>

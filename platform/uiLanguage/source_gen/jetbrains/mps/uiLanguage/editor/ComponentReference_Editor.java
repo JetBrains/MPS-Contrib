@@ -32,9 +32,9 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new ComponentReference_Editor._Inline7());
     EditorCell editorCell = provider.createEditorCell(context);
-    ComponentReference_Editor.setupBasic_ComponentReferenceCell(editorCell, node, context);
+    setupBasic_ComponentReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      ComponentReference_Editor.setupLabel_ComponentReferenceCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_ComponentReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -84,9 +84,9 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      ComponentReference_Editor._Inline7.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        ComponentReference_Editor._Inline7.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

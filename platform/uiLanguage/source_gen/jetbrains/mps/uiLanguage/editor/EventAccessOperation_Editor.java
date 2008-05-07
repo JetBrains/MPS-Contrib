@@ -32,9 +32,9 @@ public class EventAccessOperation_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new EventAccessOperation_Editor._Inline11());
     EditorCell editorCell = provider.createEditorCell(context);
-    EventAccessOperation_Editor.setupBasic_EventReferenceCell(editorCell, node, context);
+    setupBasic_EventReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      EventAccessOperation_Editor.setupLabel_EventReferenceCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_EventReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -83,9 +83,9 @@ public class EventAccessOperation_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      EventAccessOperation_Editor._Inline11.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        EventAccessOperation_Editor._Inline11.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

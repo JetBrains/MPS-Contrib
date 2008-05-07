@@ -63,7 +63,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    InlineEventHandler_Editor.setupBasic_RowCell(editorCell, node, context);
+    setupBasic_RowCell(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -75,7 +75,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    InlineEventHandler_Editor.setupBasic_RowCell1(editorCell, node, context);
+    setupBasic_RowCell1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -86,16 +86,16 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstantCell1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    InlineEventHandler_Editor.setupBasic_ConstantCell1(editorCell, node, context);
-    InlineEventHandler_Editor.setupLabel_ConstantCell1(editorCell, node, context);
+    setupBasic_ConstantCell1(editorCell, node, context);
+    setupLabel_ConstantCell1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    InlineEventHandler_Editor.setupBasic_ConstantCell(editorCell, node, context);
-    InlineEventHandler_Editor.setupLabel_ConstantCell(editorCell, node, context);
+    setupBasic_ConstantCell(editorCell, node, context);
+    setupLabel_ConstantCell(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -104,9 +104,9 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    InlineEventHandler_Editor.setupBasic_HandlerCell(editorCell, node, context);
+    setupBasic_HandlerCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      InlineEventHandler_Editor.setupLabel_HandlerCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_HandlerCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -131,11 +131,11 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
   public EditorCell createEventReferenceCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new InlineEventHandler_Editor._Inline14());
+    provider.setAuxiliaryCellProvider(new InlineEventHandler_Editor._Inline13());
     EditorCell editorCell = provider.createEditorCell(context);
-    InlineEventHandler_Editor.setupBasic_EventReferenceCell(editorCell, node, context);
+    setupBasic_EventReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      InlineEventHandler_Editor.setupLabel_EventReferenceCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_EventReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -158,9 +158,9 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
       return cellWithRole;
   }
 
-  public static class _Inline14 extends AbstractCellProvider {
+  public static class _Inline13 extends AbstractCellProvider {
 
-    public _Inline14() {
+    public _Inline13() {
       super();
     }
 
@@ -184,9 +184,9 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      InlineEventHandler_Editor._Inline14.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        InlineEventHandler_Editor._Inline14.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

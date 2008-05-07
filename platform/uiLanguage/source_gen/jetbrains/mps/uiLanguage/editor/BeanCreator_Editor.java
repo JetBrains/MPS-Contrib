@@ -68,7 +68,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    BeanCreator_Editor.setupBasic_RowCell(editorCell, node, context);
+    setupBasic_RowCell(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -81,16 +81,16 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    BeanCreator_Editor.setupBasic_ConstantCell(editorCell, node, context);
-    BeanCreator_Editor.setupLabel_ConstantCell(editorCell, node, context);
+    setupBasic_ConstantCell(editorCell, node, context);
+    setupLabel_ConstantCell(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    BeanCreator_Editor.setupBasic_ConstantCell1(editorCell, node, context);
-    BeanCreator_Editor.setupLabel_ConstantCell1(editorCell, node, context);
+    setupBasic_ConstantCell1(editorCell, node, context);
+    setupLabel_ConstantCell1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -100,7 +100,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
       this.myParameterListHandler_parameterList_ = new BeanCreator_Editor._RefNodeListHandler12(node, "parameter", context);
     }
     EditorCell_Collection editorCell = this.myParameterListHandler_parameterList_.createCells(context, new CellLayout_Horizontal(), false);
-    BeanCreator_Editor.setupBasic_ParameterList(editorCell, node, context);
+    setupBasic_ParameterList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -112,9 +112,9 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new BeanCreator_Editor._Inline10());
     EditorCell editorCell = provider.createEditorCell(context);
-    BeanCreator_Editor.setupBasic_ConstructorReferenceCell(editorCell, node, context);
+    setupBasic_ConstructorReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      BeanCreator_Editor.setupLabel_ConstructorReferenceCell((EditorCell_Label) editorCell, node, context);
+      setupLabel_ConstructorReferenceCell((EditorCell_Label) editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -163,9 +163,9 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      BeanCreator_Editor._Inline10.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        BeanCreator_Editor._Inline10.setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label) editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
