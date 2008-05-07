@@ -737,33 +737,6 @@
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="short_description"/>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210088564439">
-    <property name="package" value="Component"/>
-    <property name="name" value="CellRendererAttribute"/>
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
-          id="1210088707361">
-      <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart"/>
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1210098832122">
-      <property name="metaClass" value="aggregation"/>
-      <property name="role" value="binding"/>
-      <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="1202464424004" resolveInfo="BindExpression"/>
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
-          id="1210088737941">
-      <property name="value" value="renderer:"/>
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1210099812004">
-      <property name="role" value="renderer"/>
-      <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="1202387718766" resolveInfo="ComponentDeclaration"/>
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210173918195">
     <property name="package" value="Component"/>
     <property name="name" value="StubCellRendererInfo"/>
@@ -774,11 +747,26 @@
       <property name="sourceCardinality" value="1"/>
       <link role="target" targetNodeId="2.1068580123165" resolveInfo="InstanceMethodDeclaration"/>
     </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210179557036">
+    <property name="package" value="Component"/>
+    <property name="name" value="CellRendererAttribute"/>
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
-          id="1210173956462">
-      <property name="role" value="interface"/>
+          id="1210179686630">
+      <property name="metaClass" value="aggregation"/>
+      <property name="role" value="renderer"/>
       <property name="sourceCardinality" value="1"/>
-      <link role="target" targetNodeId="2.1107796713796" resolveInfo="Interface"/>
+      <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
+          id="1210179557037">
+      <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart"/>
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
+          id="1210179557039">
+      <property name="value" value="renderer:"/>
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
     </node>
   </node>
 </model>
