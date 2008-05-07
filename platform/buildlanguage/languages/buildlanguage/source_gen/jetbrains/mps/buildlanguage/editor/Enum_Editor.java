@@ -56,7 +56,7 @@ public class Enum_Editor extends DefaultNodeEditor {
 
   public EditorCell createRowCell(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    Enum_Editor.setupBasic_RowCell(editorCell, node, context);
+    setupBasic_RowCell(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -68,16 +68,16 @@ public class Enum_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    Enum_Editor.setupBasic_ConstantCell(editorCell, node, context);
-    Enum_Editor.setupLabel_ConstantCell(editorCell, node, context);
+    setupBasic_ConstantCell(editorCell, node, context);
+    setupLabel_ConstantCell(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstantCell2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    Enum_Editor.setupBasic_ConstantCell2(editorCell, node, context);
-    Enum_Editor.setupLabel_ConstantCell2(editorCell, node, context);
+    setupBasic_ConstantCell2(editorCell, node, context);
+    setupLabel_ConstantCell2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -87,7 +87,7 @@ public class Enum_Editor extends DefaultNodeEditor {
       this.myConstantsListHandler_constantsList_ = new Enum_Editor._RefNodeListHandler7(node, "constants", context);
     }
     EditorCell_Collection editorCell = this.myConstantsListHandler_constantsList_.createCells(context, new CellLayout_Horizontal(), false);
-    Enum_Editor.setupBasic_ConstantsList(editorCell, node, context);
+    setupBasic_ConstantsList(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -158,8 +158,8 @@ public class Enum_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstantCell1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      Enum_Editor._RefNodeListHandler7.setupBasic_ConstantCell1(editorCell, node, context);
-      Enum_Editor._RefNodeListHandler7.setupLabel_ConstantCell1(editorCell, node, context);
+      setupBasic_ConstantCell1(editorCell, node, context);
+      setupLabel_ConstantCell1(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }

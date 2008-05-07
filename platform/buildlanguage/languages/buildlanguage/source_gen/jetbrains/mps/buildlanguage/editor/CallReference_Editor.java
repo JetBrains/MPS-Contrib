@@ -32,9 +32,9 @@ public class CallReference_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new CallReference_Editor._Inline6());
     EditorCell editorCell = provider.createEditorCell(context);
-    CallReference_Editor.setupBasic_CallReferenceCell(editorCell, node, context);
+    setupBasic_CallReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      CallReference_Editor.setupLabel_CallReferenceCell((EditorCell_Label)editorCell, node, context);
+      setupLabel_CallReferenceCell((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -83,9 +83,9 @@ public class CallReference_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      CallReference_Editor._Inline6.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        CallReference_Editor._Inline6.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

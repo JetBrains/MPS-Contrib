@@ -33,9 +33,9 @@ public class TargetReference_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new TargetReference_Editor._Inline());
     EditorCell editorCell = provider.createEditorCell(context);
-    TargetReference_Editor.setupBasic_TargetDeclarationReferenceCell(editorCell, node, context);
+    setupBasic_TargetDeclarationReferenceCell(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      TargetReference_Editor.setupLabel_TargetDeclarationReferenceCell((EditorCell_Label)editorCell, node, context);
+      setupLabel_TargetDeclarationReferenceCell((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
@@ -85,9 +85,9 @@ public class TargetReference_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      TargetReference_Editor._Inline.setupBasic_NameCell(editorCell, node, context);
+      setupBasic_NameCell(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        TargetReference_Editor._Inline.setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
+        setupLabel_NameCell((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;

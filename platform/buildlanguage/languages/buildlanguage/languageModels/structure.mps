@@ -209,6 +209,7 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <maxImportIndex value="10" />
   <import index="1" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
@@ -232,6 +233,12 @@
       <property name="role" value="default" />
       <property name="sourceCardinality" value="0..1" />
       <link role="target" targetNodeId="1196852921336" resolveInfo="TargetReference" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1209912581053">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="library" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1209912269056" resolveInfo="TaskLibraryReference" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1201702862229">
       <property name="metaClass" value="aggregation" />
@@ -969,6 +976,23 @@
       <property name="role" value="task" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1209908836571" resolveInfo="IUserDefinedTask" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1209912269056">
+    <property name="package" value="Extend" />
+    <property name="name" value="TaskLibraryReference" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1209912288339">
+      <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1209912292512">
+      <property name="role" value="library" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1209908782663" resolveInfo="TaskLibrary" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209912308015">
+      <property name="value" value="import task library" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>
