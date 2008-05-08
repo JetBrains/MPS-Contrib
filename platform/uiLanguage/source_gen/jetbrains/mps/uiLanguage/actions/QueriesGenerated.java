@@ -5,18 +5,12 @@ package jetbrains.mps.uiLanguage.actions;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
-
 import java.util.List;
-
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
-
 import java.util.ArrayList;
-
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
-
 import java.util.Iterator;
-
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.Condition;
@@ -35,7 +29,7 @@ public class QueriesGenerated {
 
   public static void removeActionsByCondition_1208689330046(final IOperationContext operationContext, final RemoveSubstituteActionByConditionContext _context) {
     Iterator<INodeSubstituteAction> actions = _context.getActions();
-    while (actions.hasNext()) {
+    while(actions.hasNext()) {
       INodeSubstituteAction current = actions.next();
       final SNode concept = current.getOutputConcept();
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.Expression");
