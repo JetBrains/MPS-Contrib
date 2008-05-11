@@ -285,6 +285,10 @@ public class QueriesGenerated {
     return ComponentDeclaration_Behavior.call_getConstructor_1203080456035(_context.getNode()) != null;
   }
 
+  public static boolean ifMacro_Condition_1210504398705(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "extendedComponent", false) == null || SPropertyOperations.getBoolean(SLinkOperations.getTarget(_context.getNode(), "extendedComponent", false), "stub");
+  }
+
   public static SNode sourceNodeQuery_1202466119287(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "type", true);
   }
