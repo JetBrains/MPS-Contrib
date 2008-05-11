@@ -211,6 +211,22 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "member", false), "name");
   }
 
+  public static Object propertyMacro_GetPropertyValue_1210520878012(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1210520641289(InlineRenderer_Behavior.call_getRendererInfoNode_1210519650539(_context.getNode())), "method", true)).first(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1210524589184(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.InlineRenderer", false, false), "renderer", true), "componentField"), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1210524609514(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.InlineRenderer", false, false), "renderer", true), "componentField"), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1210524698174(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(ListSequence.fromList(SLinkOperations.getTargets(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1210520641289(InlineRenderer_Behavior.call_getRendererInfoNode_1210519650539(_context.getNode())), "method", true)).first(), "parameter", true)).toGenericArray(SNode.class)[1], "name");
+  }
+
   public static Object referenceMacro_GetReferent_1202395785142(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(_context.getNode(), "componentFactory");
   }
@@ -251,6 +267,14 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_1210180314557(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance", false, false), "componentDeclaration", false), "rendererInfo", true), "cellRendererSetter", false);
+  }
+
+  public static Object referenceMacro_GetReferent_1210519857324(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance", false, false), "componentDeclaration", false), "rendererInfo", true), "cellRendererSetter", false);
+  }
+
+  public static Object referenceMacro_GetReferent_1210520521848(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return StubCellRendererInfo_Behavior.call_getInterface_1210520641289(InlineRenderer_Behavior.call_getRendererInfoNode_1210519650539(_context.getNode()));
   }
 
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -485,6 +509,10 @@ public class QueriesGenerated {
 
   public static List sourceNodesQuery_1210101409845(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return ComponentDeclaration_Behavior.call_getDeclaredMethods_1202749020955(_context.getNode());
+  }
+
+  public static List sourceNodesQuery_1210520952409(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(ListSequence.fromList(SLinkOperations.getTargets(StubCellRendererInfo_Behavior.call_getInterface_1210520641289(InlineRenderer_Behavior.call_getRendererInfoNode_1210519650539(_context.getNode())), "method", true)).first(), "parameter", true);
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1208699801315(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {

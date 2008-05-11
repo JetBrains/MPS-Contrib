@@ -10,81 +10,81 @@ import jetbrains.mps.smodel.action.NodeFactoryManager;
 
 public class Scroller_Editor extends DefaultNodeEditor {
 
-  /* package */ AbstractCellListHandler myContentListHandler_contentList_;
+  /* package */ AbstractCellListHandler myListHandler_9915_0;
 
-  private static void setupBasic_ColumnCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1203089506193");
+  private static void setupBasic_CollectionCell9915_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell9915_0");
   }
 
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1203089508601");
+  private static void setupBasic_CollectionCell9915_01(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell9915_01");
     editorCell.setSelectable(false);
   }
 
-  private static void setupBasic_CellModel_Indent(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1203089509478");
+  private static void setupBasic_IndentCell9915_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_IndentCell9915_0");
   }
 
-  private static void setupBasic_ContentList(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1203089519887");
+  private static void setupBasic_contentRefNodeListCell9915_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_contentRefNodeListCell9915_0");
   }
 
-  private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1203089529702");
+  private static void setupBasic_ConstantCell9915_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell9915_0");
     Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
   }
 
-  private static void setupLabel_ContentList(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_contentRefNodeListCell9915_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_ConstantCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConstantCell9915_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createColumnCell(context, node);
+    return this.create_CollectionCell9915_0(context, node);
   }
 
-  public EditorCell createColumnCell(EditorContext context, SNode node) {
+  public EditorCell create_CollectionCell9915_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_ColumnCell(editorCell, node, context);
+    setupBasic_CollectionCell9915_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstantCell(context, node, "Scroller"));
-    editorCell.addEditorCell(this.createRowCell(context, node));
+    editorCell.addEditorCell(this.create_ConstantCell9915_0(context, node, "Scroller"));
+    editorCell.addEditorCell(this.create_CollectionCell9915_01(context, node));
     return editorCell;
   }
 
-  public EditorCell createRowCell(EditorContext context, SNode node) {
+  public EditorCell create_CollectionCell9915_01(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_RowCell(editorCell, node, context);
+    setupBasic_CollectionCell9915_01(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createIndentCell14(context, node));
-    editorCell.addEditorCell(this.createContentList(context, node));
+    editorCell.addEditorCell(this.create_contentRefNodeListCell9915_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
+  public EditorCell create_ConstantCell9915_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_ConstantCell(editorCell, node, context);
-    setupLabel_ConstantCell(editorCell, node, context);
+    setupBasic_ConstantCell9915_0(editorCell, node, context);
+    setupLabel_ConstantCell9915_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createContentList(EditorContext context, SNode node) {
-    if (this.myContentListHandler_contentList_ == null) {
-      this.myContentListHandler_contentList_ = new Scroller_Editor._RefNodeListHandler7(node, "content", context);
+  public EditorCell create_contentRefNodeListCell9915_0(EditorContext context, SNode node) {
+    if (this.myListHandler_9915_0 == null) {
+      this.myListHandler_9915_0 = new Scroller_Editor.contentListHandler_9915_0(node, "content", context);
     }
-    EditorCell_Collection editorCell = this.myContentListHandler_contentList_.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_ContentList(editorCell, node, context);
+    EditorCell_Collection editorCell = this.myListHandler_9915_0.createCells(context, new CellLayout_Vertical(), false);
+    setupBasic_contentRefNodeListCell9915_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myContentListHandler_contentList_.getElementRole());
+    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_9915_0.getElementRole());
     return editorCell;
   }
 
@@ -93,9 +93,9 @@ public class Scroller_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public static class _RefNodeListHandler7 extends RefNodeListHandler {
+  public static class contentListHandler_9915_0 extends RefNodeListHandler {
 
-    public _RefNodeListHandler7(SNode ownerNode, String childRole, EditorContext context) {
+    public contentListHandler_9915_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

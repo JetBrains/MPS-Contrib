@@ -25,6 +25,9 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
   <maxImportIndex value="4"/>
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="-1"/>
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1"/>
@@ -1431,7 +1434,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1210174536256">
-    <property name="package" value="Component"/>
+    <property name="package" value="Renderers"/>
     <link role="conceptDeclaration" targetNodeId="1.1210173918195" resolveInfo="StubCellRendererInfo"/>
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
           id="1210174540071">
@@ -1452,7 +1455,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1210179658230">
-    <property name="package" value="Component"/>
+    <property name="package" value="Renderers"/>
     <link role="conceptDeclaration" targetNodeId="1.1210179557036" resolveInfo="CellRendererAttribute"/>
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
           id="1210179665373">
@@ -1460,15 +1463,45 @@
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
             id="1210179667734">
         <property name="text" value="renderer"/>
+        <link role="styleClass" targetNodeId="1203084233357" resolveInfo="Model"/>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
             id="1210182992525">
         <property name="text" value=":"/>
+        <link role="styleClass" targetNodeId="1203084233357" resolveInfo="Model"/>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode"
             id="1210181413175">
         <link role="relationDeclaration" targetNodeId="1.1210179686630"/>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1210519211884">
+    <property name="package" value="Renderers"/>
+    <link role="conceptDeclaration" targetNodeId="1.1210519144319" resolveInfo="InlineRenderer"/>
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
+          id="1210519217090">
+      <property name="vertical" value="false"/>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1210519219404">
+        <property name="text" value="renderer(inline)"/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+            id="1210519230219">
+        <property name="text" value=":"/>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode"
+            id="1210519283381">
+        <link role="relationDeclaration" targetNodeId="1.1210519262426"/>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1210521634515">
+    <property name="package" value="Renderers"/>
+    <link role="conceptDeclaration" targetNodeId="1.1210521546663" resolveInfo="RenderingObject"/>
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant"
+          id="1210521641189">
+      <property name="text" value="object"/>
     </node>
   </node>
 </model>

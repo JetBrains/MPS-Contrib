@@ -738,7 +738,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210173918195">
-    <property name="package" value="Component"/>
+    <property name="package" value="Renderers"/>
     <property name="name" value="StubCellRendererInfo"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
@@ -749,7 +749,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210179557036">
-    <property name="package" value="Component"/>
+    <property name="package" value="Renderers"/>
     <property name="name" value="CellRendererAttribute"/>
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
@@ -767,6 +767,42 @@
           id="1210179557039">
       <property name="value" value="renderer:"/>
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210519144319">
+    <property name="package" value="Renderers"/>
+    <property name="name" value="InlineRenderer"/>
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept"/>
+    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
+          id="1210519262426">
+      <property name="metaClass" value="aggregation"/>
+      <property name="role" value="renderer"/>
+      <property name="sourceCardinality" value="1"/>
+      <link role="target" targetNodeId="1202387945296" resolveInfo="ComponentInstance"/>
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
+          id="1210519201368">
+      <property name="value" value="renderer(inline):"/>
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference"
+          id="1210519257707">
+      <link role="intfc" targetNodeId="1202387978141" resolveInfo="IComponentPart"/>
+    </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1210521546663">
+    <property name="package" value="Renderers"/>
+    <property name="name" value="RenderingObject"/>
+    <link role="extends" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
+          id="1210521655127">
+      <property name="value" value="object"/>
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias"/>
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
+          id="1210521660223">
+      <property name="value" value="value to render"/>
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="short_description"/>
     </node>
   </node>
 </model>
