@@ -52,12 +52,12 @@
       <link role="overriddenMethod" targetNodeId="1183593354196" resolveInfo="checkAttributes" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1183585492115">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1183585531592">
-          <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1183585532393">
-            <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddElementOperation" id="1183585533834">
-              <node role="argument" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1183585538572" />
-            </node>
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1210608688389">
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1191198549032">
               <link role="variableDeclaration" targetNodeId="1190026820596" resolveInfo="attributeDeclarations" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddElementOperation" id="1183585533834">
+              <node role="argument" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1183585538572" />
             </node>
           </node>
         </node>
