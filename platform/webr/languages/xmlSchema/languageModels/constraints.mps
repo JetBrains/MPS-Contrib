@@ -17,6 +17,7 @@
   <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -73,7 +74,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178187486656" />
     </node>
     <node role="properties" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodePropertyConstraint" id="1167860545649">
-      <link role="applicableProperty" targetNodeId="2.1156235010670" />
+      <link role="applicableProperty" targetNodeId="2.1169194664001" resolveInfo="name" />
       <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunction_PropertyGetter" id="1167860551447">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1167860551448">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1172950526049">
