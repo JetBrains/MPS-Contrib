@@ -94,5 +94,14 @@
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202748791358">
     <link role="component" targetNodeId="1202743870023" resolveInfo="ActionsSample" />
   </node>
+  <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1210677613294">
+    <property name="name" value="AAAAAAAAAAAAAAAAAAAA" />
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="1210677712911">
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1210677712912" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1210677712913" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1210677712914" />
+    </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1210677613295" />
+  </node>
 </model>
 
