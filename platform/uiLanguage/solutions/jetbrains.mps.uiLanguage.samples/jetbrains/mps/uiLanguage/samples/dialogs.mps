@@ -73,12 +73,6 @@
                 </node>
               </node>
             </node>
-            <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202835120583">
-              <link role="attribute" targetNodeId="2v.1202818338918" resolveInfo="columns" />
-              <node role="value" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202835121257">
-                <property name="value" value="20" />
-              </node>
-            </node>
           </node>
         </node>
       </node>
