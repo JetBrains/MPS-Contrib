@@ -68,6 +68,9 @@
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1167513857540">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1210954820124">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1167530070286">
     <property name="name" value="Sequence" />
@@ -373,9 +376,6 @@
     <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1167838788027">
       <property name="name" value="elementName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
-    </node>
-    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1172768901937">
-      <link role="intfc" targetNodeId="1.1169194658468" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1167838362804">
