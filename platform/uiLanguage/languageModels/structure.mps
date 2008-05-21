@@ -578,8 +578,8 @@
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration"
           id="1207754394798">
       <property name="metaClass" value="aggregation"/>
-      <property name="role" value="parameter"/>
       <property name="sourceCardinality" value="0..n"/>
+      <property name="role" value="parameter"/>
       <link role="target" targetNodeId="2.1068431790191" resolveInfo="Expression"/>
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty"
