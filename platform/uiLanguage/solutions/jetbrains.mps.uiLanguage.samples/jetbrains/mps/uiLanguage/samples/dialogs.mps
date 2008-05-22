@@ -95,20 +95,6 @@
     <node role="componentMethod" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1205770172088">
       <property name="name" value="onOk" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202832185850">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202832447901">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205754531119">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1202832447902">
-              <link role="classifier" targetNodeId="1.~System" resolveInfo="System" />
-              <link role="variableDeclaration" targetNodeId="1.~System.out" resolveInfo="out" />
-            </node>
-            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1205754531120">
-              <link role="baseMethodDeclaration" targetNodeId="2.~PrintStream.println(java.lang.String):void" resolveInfo="println" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202832453277">
-                <property name="value" value="OK" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202833166011">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205754533354">
             <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224214" />
@@ -123,24 +109,6 @@
     <node role="componentMethod" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1205770172049">
       <property name="name" value="onCancel" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202832199405">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1211462682636">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1211462682637">
-            <property name="name" value="abc" />
-            <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1211462682638" />
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1211462684077">
-              <property name="value" value="aaaaa" />
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1211462540322">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1211462540323">
-            <property name="name" value="i" />
-            <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1211462540324" />
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1211462542701">
-              <property name="value" value="abcdef" />
-            </node>
-          </node>
-        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202832459637">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205754534855">
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1202832459639">
