@@ -123,6 +123,24 @@
     <node role="componentMethod" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1205770172049">
       <property name="name" value="onCancel" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202832199405">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1211462682636">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1211462682637">
+            <property name="name" value="abc" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1211462682638" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1211462684077">
+              <property name="value" value="aaaaa" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1211462540322">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1211462540323">
+            <property name="name" value="i" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1211462540324" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1211462542701">
+              <property name="value" value="abcdef" />
+            </node>
+          </node>
+        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202832459637">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1205754534855">
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1202832459639">
@@ -148,6 +166,26 @@
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1202832200687" />
     </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1211462687500">
+    <property name="name" value="ABC" />
+    <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="1211462689830">
+      <property name="name" value="int" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1211462689831" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1211462689832" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1211462689833">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1211462940121">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1211462940122">
+            <property name="name" value="a" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1211462940123" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1211462941250">
+              <property name="value" value="abc" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1211462687501" />
   </node>
 </model>
 
