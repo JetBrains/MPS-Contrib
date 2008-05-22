@@ -94,9 +94,5 @@
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202748791358">
     <link role="component" targetNodeId="1202743870023" resolveInfo="ActionsSample" />
   </node>
-  <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1211460189364">
-    <property name="name" value="ABC" />
-    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1211460189365" />
-  </node>
 </model>
 
