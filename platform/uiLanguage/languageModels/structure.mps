@@ -8,9 +8,10 @@
   <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0"/>
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1"/>
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0"/>
-  <maxImportIndex value="3"/>
+  <maxImportIndex value="4"/>
   <import index="2" modelUID="jetbrains.mps.baseLanguage.structure" version="0"/>
   <import index="3" modelUID="jetbrains.mps.baseLanguage.classifiers.structure" version="-1"/>
+  <import index="4" modelUID="jetbrains.mps.quotation.editor" version="-1"/>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptDeclaration" id="1202387978141">
     <property name="name" value="IComponentPart"/>
     <property name="package" value="Component"/>
