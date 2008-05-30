@@ -168,8 +168,8 @@
               <link role="classifier" targetNodeId="7.~ISearchScope" resolveInfo="ISearchScope" />
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1173977363233">
-              <link role="baseMethodDeclaration" targetNodeId="7.~SModelSearchUtil_new.createModelAndImportedModelsScope(jetbrains.mps.smodel.SModel,jetbrains.mps.smodel.IScope):jetbrains.mps.smodel.search.ISearchScope" resolveInfo="createModelAndImportedModelsScope" />
-              <link role="classConcept" targetNodeId="7.~SModelSearchUtil_new" resolveInfo="SModelSearchUtil_new" />
+              <link role="baseMethodDeclaration" targetNodeId="7.~SModelSearchUtil.createModelAndImportedModelsScope(jetbrains.mps.smodel.SModel,jetbrains.mps.smodel.IScope):jetbrains.mps.smodel.search.ISearchScope" resolveInfo="createModelAndImportedModelsScope" />
+              <link role="classConcept" targetNodeId="7.~SModelSearchUtil" resolveInfo="SModelSearchUtil" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227820411">
                 <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1173977379176">
                   <link role="variableDeclaration" targetNodeId="1173977280010" resolveInfo="node" />
