@@ -11,7 +11,7 @@
   <import index="2" modelUID="javax.swing@java_stub" version="-1" />
   <visible index="2" modelUID="jetbrains.mps.uiLanguage.components" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202743870023">
-    <property name="name" value="ActionsSample" />
+    <property name="name" value="ActiosnsssssssssSample" />
     <node role="root" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743876165">
       <link role="componentDeclaration" targetNodeId="2v.1202393511419" resolveInfo="Frame" />
       <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743920581">
