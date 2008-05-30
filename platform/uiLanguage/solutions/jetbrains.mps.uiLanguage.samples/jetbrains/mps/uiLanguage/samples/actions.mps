@@ -6,12 +6,13 @@
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.uiLanguage" />
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
   <maxImportIndex value="4" />
   <import index="1" modelUID="java.awt@java_stub" version="-1" />
   <import index="2" modelUID="javax.swing@java_stub" version="-1" />
   <visible index="2" modelUID="jetbrains.mps.uiLanguage.components" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202743870023">
-    <property name="name" value="ActiosnsssssssssSample" />
+    <property name="name" value="ActionsSample" />
     <node role="root" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743876165">
       <link role="componentDeclaration" targetNodeId="2v.1202393511419" resolveInfo="Frame" />
       <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743920581">
@@ -93,6 +94,21 @@
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202748791358">
     <link role="component" targetNodeId="1202743870023" resolveInfo="ActionsSample" />
+    <node role="componentMethod" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1212159164807">
+      <property name="name" value="abc" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1212159166670" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1212159164809">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1212159169077">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1212159169078">
+            <property name="name" value="i" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1212159169079" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1212159170972">
+              <property name="value" value="23" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
