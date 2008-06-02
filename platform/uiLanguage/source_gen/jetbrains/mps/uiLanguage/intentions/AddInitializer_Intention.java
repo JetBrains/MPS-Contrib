@@ -30,7 +30,7 @@ public class AddInitializer_Intention extends BaseIntention implements Intention
   public void execute(SNode node, EditorContext editorContext) {
     SNode expression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.Expression", null);
     SLinkOperations.setTarget(node, "initializer", expression, true);
-    editorContext.selectLater(expression);
+    editorContext.select(expression);
   }
 
 }

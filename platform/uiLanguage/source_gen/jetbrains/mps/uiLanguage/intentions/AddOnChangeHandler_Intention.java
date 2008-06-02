@@ -30,7 +30,7 @@ public class AddOnChangeHandler_Intention extends BaseIntention implements Inten
   public void execute(SNode node, EditorContext editorContext) {
     SNode expression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.Expression", null);
     SLinkOperations.setTarget(node, "onChange", expression, true);
-    editorContext.selectLater(expression);
+    editorContext.select(expression);
   }
 
 }
