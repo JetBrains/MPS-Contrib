@@ -10,6 +10,9 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="4" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -288,7 +291,7 @@
                 <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1172155953384">
                   <property name="drawBorder" value="false" />
                   <property name="readOnly" value="true" />
-                  <link role="relationDeclaration" targetNodeId="4.1083152972672" />
+                  <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
                 </node>
               </node>
             </node>
@@ -308,7 +311,7 @@
                 <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1172492735432">
                   <property name="drawBorder" value="false" />
                   <property name="readOnly" value="true" />
-                  <link role="relationDeclaration" targetNodeId="4.1083152972672" />
+                  <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
                 </node>
               </node>
             </node>
@@ -548,7 +551,7 @@
         <property name="text" value="month" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194005982718">
-        <link role="relationDeclaration" targetNodeId="1.1194005961112" resolveInfo="name" />
+        <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194005989095">
         <property name="text" value="(" />
@@ -572,7 +575,7 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1194006565731">
       <property name="vertical" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194006580942">
-        <link role="relationDeclaration" targetNodeId="1.1194006456806" resolveInfo="name" />
+        <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006867259">
         <property name="text" value=":" />

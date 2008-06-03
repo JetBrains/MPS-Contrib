@@ -18,6 +18,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="47" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -1364,7 +1365,7 @@
           <link role="conceptDeclaration" targetNodeId="28.1194006427224" resolveInfo="SchedulePeriod" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194007796729">
             <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="28.1194006456806" resolveInfo="name" />
+            <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           </node>
         </node>
       </node>
@@ -1384,7 +1385,7 @@
               <link role="conceptDeclaration" targetNodeId="28.1194005944850" resolveInfo="Month" />
               <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1194008355232">
                 <property name="readOnly" value="true" />
-                <link role="relationDeclaration" targetNodeId="28.1194005961112" resolveInfo="name" />
+                <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
               </node>
             </node>
           </node>
