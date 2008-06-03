@@ -994,7 +994,7 @@
           <link role="conceptDeclaration" targetNodeId="3.1068580123140" resolveInfo="ConstructorDeclaration" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1207754423947">
             <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="3.1083152972672" resolveInfo="name" />
+            <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           </node>
         </node>
       </node>
@@ -1116,7 +1116,7 @@
         <link role="conceptDeclaration" targetNodeId="2v.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration" />
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1208685929992">
           <property name="readOnly" value="true" />
-          <link role="relationDeclaration" targetNodeId="3.1083152972672" resolveInfo="name" />
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
         </node>
       </node>
     </node>
@@ -1148,7 +1148,7 @@
           <link role="conceptDeclaration" targetNodeId="3.1068580123165" resolveInfo="InstanceMethodDeclaration" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1210174546169">
             <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="3.1083152972672" resolveInfo="name" />
+            <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           </node>
         </node>
       </node>
