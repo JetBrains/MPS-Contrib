@@ -36,6 +36,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="21" />
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -2793,32 +2794,6 @@
             </node>
             <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1210519650551">
               <link role="link" targetNodeId="1.1210174600177" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1210520079180">
-    <property name="package" value="Renderers" />
-    <link role="concept" targetNodeId="1.1210519943226" resolveInfo="RendererMainComponent" />
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1210520079181">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1210520079182" />
-    </node>
-    <node role="canBeAChild" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunction_CanBeAChild" id="1210520081417">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1210520090498">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1210520092202">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1210520168045">
-            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1210520169455" />
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1210520138736">
-              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunctionParameter_parentNode" id="1210520092203" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetAncestorOperation" id="1210520142582">
-                <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Concept" id="1210520142583">
-                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1210520149149">
-                    <link role="conceptDeclaration" targetNodeId="1.1210519144319" resolveInfo="InlineRenderer" />
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
