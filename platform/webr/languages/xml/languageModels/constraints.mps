@@ -20,6 +20,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="14" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.core.structure" version="-1" />
@@ -32,7 +33,6 @@
   <import index="14" modelUID="webr.xml.actions" version="-1" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1177896211352">
     <link role="concept" targetNodeId="1.1161371727643" />
-    <link role="defaultConcreteConcept" targetNodeId="1.1161373262136" resolveInfo="Text" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1177896213996">
       <property name="name" value="isSeparate" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1177896223011" />
@@ -237,7 +237,6 @@
   </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1201829597060">
     <link role="concept" targetNodeId="1.1163340203555" resolveInfo="BaseText" />
-    <link role="defaultConcreteConcept" targetNodeId="1.1161373262136" resolveInfo="Text" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1201829597061">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201829597062" />
     </node>
@@ -632,6 +631,14 @@
         </node>
       </node>
     </node>
+  </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstraints" id="1213107437962">
+    <link role="concept" targetNodeId="1.1163340203555" resolveInfo="BaseText" />
+    <link role="defaultConcreteConcept" targetNodeId="1.1161373262136" resolveInfo="Text" />
+  </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstraints" id="1213107438020">
+    <link role="concept" targetNodeId="1.1161371727643" resolveInfo="Content" />
+    <link role="defaultConcreteConcept" targetNodeId="1.1161373262136" resolveInfo="Text" />
   </node>
 </model>
 
