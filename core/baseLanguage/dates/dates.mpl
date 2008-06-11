@@ -28,10 +28,6 @@
   <sourcePath>
     <source path="${language_descriptor}\source" />
   </sourcePath>
-  <osgiOptions>
-    <requiredBundles />
-    <exportedPackage />
-  </osgiOptions>
   <dependencies>
     <dependency reexport="false">jetbrains.mps.baseLanguageInternal</dependency>
     <dependency reexport="true">jetbrains.mps.baseLanguage.dates.runtime</dependency>
