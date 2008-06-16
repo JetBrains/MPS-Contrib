@@ -11,8 +11,8 @@
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
+  <language namespace="jetbrains.mps.baseLanguage.classifiers" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="-1" />
@@ -189,6 +189,34 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <visible index="3" modelUID="jetbrains.mps.plugins@java_stub" />
+  <node type="jetbrains.mps.bootstrap.pluginLanguage.structure.ActionDeclaration" id="1213619378239">
+    <property name="name" value="ABC" />
+    <link role="extendedAction" targetNodeId="3v.~CurrentProjectMPSAction" resolveInfo="CurrentProjectMPSAction" />
+    <node role="methodDeclaration" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1213619381196">
+      <property name="name" value="test" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213619386270" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213619381198">
+        <node role="statement" type="jetbrains.mps.bootstrap.smodelLanguage.structure.ExecuteLightweightCommandStatement" id="1213619389442">
+          <node role="commandClosureLiteral" type="jetbrains.mps.bootstrap.smodelLanguage.structure.CommandClosureLiteral" id="1213619389443">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213619389444">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213619390570">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213619390886">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1213619390571" />
+                  <node role="operation" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation" id="1213619393011">
+                    <link role="member" targetNodeId="1213619381196" resolveInfo="test" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction" type="jetbrains.mps.bootstrap.pluginLanguage.structure.ExecuteBlock" id="1213619378240">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213619378241" />
     </node>
   </node>
 </model>
