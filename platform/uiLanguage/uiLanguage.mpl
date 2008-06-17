@@ -68,14 +68,11 @@
     <entry path="${mps_home}\lib\beansbinding\beansbinding-1.2.1.jar" />
   </languageRuntimeClassPath>
   <sourcePath />
-  <osgiOptions>
-    <requiredBundles />
-    <exportedPackage />
-  </osgiOptions>
   <dependencies>
     <dependency reexport="false">jetbrains.mps.quotation</dependency>
     <dependency reexport="false">JDK</dependency>
     <dependency reexport="false">jetbrains.mps.ide.uiLanguage</dependency>
+    <dependency reexport="false">MPS.Classpath</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguages>jetbrains.mps.baseLanguage.strings</usedLanguages>

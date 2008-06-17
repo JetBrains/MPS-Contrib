@@ -14,12 +14,13 @@
   <language namespace="jetbrains.mps.baseLanguage.classifiers" />
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.uiLanguage.structure@java_stub" version="-1" />
   <import index="3" modelUID="java.lang@java_stub" version="-1" />
   <import index="5" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
   <import index="6" modelUID="jetbrains.mps.ide.ui.smodel@java_stub" version="-1" />
+  <import index="7" modelUID="jetbrains.mps.workbench.action@java_stub" version="-1" />
   <visible index="2" modelUID="jetbrains.mps.uiLanguage.constraints" />
   <node type="jetbrains.mps.bootstrap.pluginLanguage.structure.TabbedEditorDeclaration" id="1207330934917">
     <property name="name" value="ComponentEditor" />
@@ -191,10 +192,9 @@
       </node>
     </node>
   </node>
-  <visible index="3" modelUID="jetbrains.mps.plugins@java_stub" />
   <node type="jetbrains.mps.bootstrap.pluginLanguage.structure.ActionDeclaration" id="1213619378239">
     <property name="name" value="ABC" />
-    <link role="extendedAction" targetNodeId="3v.~CurrentProjectMPSAction" resolveInfo="CurrentProjectMPSAction" />
+    <link role="extendedAction" targetNodeId="7.~CurrentProjectAction" resolveInfo="CurrentProjectAction" />
     <node role="methodDeclaration" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1213619381196">
       <property name="name" value="test" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213619386270" />
