@@ -31,6 +31,7 @@
   <dependencies>
     <dependency reexport="false">jetbrains.mps.baseLanguageInternal</dependency>
     <dependency reexport="true">jetbrains.mps.baseLanguage.dates.runtime</dependency>
+    <dependency reexport="false">MPS.Classpath</dependency>
   </dependencies>
   <runtime>
     <dependency reexport="true">jetbrains.mps.baseLanguage.dates.runtime</dependency>
