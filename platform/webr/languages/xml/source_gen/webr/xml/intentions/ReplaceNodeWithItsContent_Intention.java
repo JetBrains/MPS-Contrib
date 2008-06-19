@@ -4,15 +4,17 @@ package webr.xml.intentions;
 
 import jetbrains.mps.intentions.BaseIntention;
 import jetbrains.mps.intentions.Intention;
+import java.util.Map;
+import java.util.HashMap;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
-import webr.xml.constraints.Content_Behavior;
-import jetbrains.mps.baseLanguage.ext.collections.internal.ICursor;
-import jetbrains.mps.baseLanguage.ext.collections.internal.CursorFactory;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import webr.xml.behavior.Content_Behavior;
 
 public class ReplaceNodeWithItsContent_Intention extends BaseIntention implements Intention {
+
+  private Map<String, Object[]> myMap = new HashMap<String, Object[]>();
 
   public String getConcept() {
     return "webr.xml.structure.Content";
@@ -27,24 +29,33 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention implement
   }
 
   public boolean isApplicable(SNode node, EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.ContentList") && !(SequenceOperations.isEmpty(Content_Behavior.call_getSubcontents_1187013392398(node)));
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node, null, false, false), "webr.xml.structure.ContentList") && ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node)).isNotEmpty();
   }
 
   public void execute(SNode node, EditorContext editorContext) {
     SNode s = node;
-    {
-      ICursor<SNode> _zCursor = CursorFactory.createCursor(Content_Behavior.call_getSubcontents_1187013392398(node));
-      try {
-        while(_zCursor.moveToNext()) {
-          SNode subContent = _zCursor.getCurrent();
-          SNodeOperations.insertNextSiblingChild(s, subContent);
-          s = subContent;
-        }
-      } finally {
-        _zCursor.release();
-      }
+    for(SNode subContent : Content_Behavior.call_getSubcontents_1213877224308(node)) {
+      SNodeOperations.insertNextSiblingChild(s, subContent);
+      s = subContent;
     }
     SNodeOperations.deleteNode(node);
+  }
+
+  public Object[] getField(String key) {
+    Object[] value = this.myMap.get(key);
+    if (value == null) {
+      value = new Object[1];
+      this.myMap.put(key, value);
+    }
+    return value;
+  }
+
+  public void putArgument(String key, Object argument) {
+    this.getField(key)[0] = argument;
+  }
+
+  public String getSourceModelUID() {
+    return "webr.xml.intentions";
   }
 
 }

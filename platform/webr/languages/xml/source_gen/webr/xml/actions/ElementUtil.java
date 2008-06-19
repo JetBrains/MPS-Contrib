@@ -6,21 +6,21 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.baseLanguage.ext.collections.internal.query.SequenceOperations;
-import webr.xml.constraints.XmlRoot_Behavior;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import webr.xml.behavior.XmlRoot_Behavior;
 import java.util.List;
 import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
-import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
-import java.util.ArrayList;
 import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
+import webr.xmlSchema.behavior.ElementDeclaration_Behavior;
+import java.util.ArrayList;
 
 public class ElementUtil {
 
   public static SNode getParentElementDeclaration(SNode node, IScope scope) {
-    return ElementUtil.getParentElementDeclaration(node, scope, true);
+    return getParentElementDeclaration(node, scope, true);
   }
 
   private static SNode getParentElementDeclaration(SNode node, IScope scope, boolean includeThis) {
@@ -39,7 +39,7 @@ public class ElementUtil {
       }
       if (SNodeOperations.isInstanceOf(currentNode, "webr.xml.structure.Content")) {
         SNode content = currentNode;
-        elementDeclaration = SequenceOperations.getFirst(SLinkOperations.getConceptLinkTargets(content, "correspondingElement"));
+        elementDeclaration = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(content, "correspondingElement")).first();
         if ((elementDeclaration != null)) {
           break;
         }
@@ -55,7 +55,7 @@ public class ElementUtil {
     if ((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
       if (SNodeOperations.isInstanceOf(containingRoot, "webr.xml.structure.XmlRoot")) {
-        schema = XmlRoot_Behavior.call_getSchema_1198862681584(containingRoot, scope);
+        schema = XmlRoot_Behavior.call_getSchema_1213877420378(containingRoot, scope);
       }
     } else
     {
@@ -65,7 +65,7 @@ public class ElementUtil {
   }
 
   public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node, IScope scope) {
-    SNode schema = ElementUtil.findSchema(node, scope);
+    SNode schema = findSchema(node, scope);
     Set elementDeclarationSet = new HashSet();
     if ((elementDeclaration == null)) {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
@@ -77,7 +77,7 @@ public class ElementUtil {
       }
     } else
     {
-      ElementDeclaration_Behavior.call_checkElements_ed_1183596572563(elementDeclaration, elementDeclarationSet);
+      ElementDeclaration_Behavior.call_checkElements_ed_1213877429846(elementDeclaration, elementDeclarationSet);
     }
     List<SNode> elementDeclarations = new ArrayList<SNode>();
     ListOperations.addAllElements(elementDeclarations, elementDeclarationSet);

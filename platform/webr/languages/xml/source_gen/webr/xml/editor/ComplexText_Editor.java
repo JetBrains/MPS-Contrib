@@ -20,70 +20,70 @@ import jetbrains.mps.nodeEditor.DefaultChildSubstituteInfo;
 
 public class ComplexText_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myTextListHandler_textList_;
+  /* package */AbstractCellListHandler myListHandler_13342_0;
 
-  private static void setupBasic_RowCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961882631");
+  private static void setupBasic_CollectionCell13342_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell13342_0");
     editorCell.setDrawBorder(false);
   }
 
-  private static void setupBasic_ConstantCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961886493");
+  private static void setupBasic_ConstantCell13342_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell13342_0");
     editorCell.setSelectable(false);
     editorCell.setDrawBorder(false);
   }
 
-  private static void setupBasic_TextList(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1161961889607");
+  private static void setupBasic_textRefNodeListCell13342_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_textRefNodeListCell13342_0");
     editorCell.setDrawBorder(false);
   }
 
-  private static void setupLabel_ConstantCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConstantCell13342_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_TextList(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_textRefNodeListCell13342_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createRowCell(context, node);
+    return this.create_CollectionCell13342_0(context, node);
   }
 
-  public EditorCell createRowCell(EditorContext context, SNode node) {
+  public EditorCell create_CollectionCell13342_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    ComplexText_Editor.setupBasic_RowCell(editorCell, node, context);
+    setupBasic_CollectionCell13342_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstantCell(context, node, "*"));
-    editorCell.addEditorCell(this.createTextList(context, node));
+    editorCell.addEditorCell(this.create_ConstantCell13342_0(context, node, "*"));
+    editorCell.addEditorCell(this.create_textRefNodeListCell13342_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstantCell(EditorContext context, SNode node, String text) {
+  public EditorCell create_ConstantCell13342_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    ComplexText_Editor.setupBasic_ConstantCell(editorCell, node, context);
-    ComplexText_Editor.setupLabel_ConstantCell(editorCell, node, context);
+    setupBasic_ConstantCell13342_0(editorCell, node, context);
+    setupLabel_ConstantCell13342_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createTextList(EditorContext context, SNode node) {
-    if (this.myTextListHandler_textList_ == null) {
-      this.myTextListHandler_textList_ = new ComplexText_Editor._RefNodeListHandler(node, "text", context);
+  public EditorCell create_textRefNodeListCell13342_0(EditorContext context, SNode node) {
+    if (this.myListHandler_13342_0 == null) {
+      this.myListHandler_13342_0 = new ComplexText_Editor.textListHandler_13342_0(node, "text", context);
     }
-    EditorCell_Collection editorCell = this.myTextListHandler_textList_.createCells(context, new CellLayout_Horizontal(), false);
-    ComplexText_Editor.setupBasic_TextList(editorCell, node, context);
+    EditorCell_Collection editorCell = this.myListHandler_13342_0.createCells(context, new CellLayout_Horizontal(), false);
+    setupBasic_textRefNodeListCell13342_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myTextListHandler_textList_.getElementRole());
+    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_13342_0.getElementRole());
     return editorCell;
   }
 
-  public static class _RefNodeListHandler extends RefNodeListHandler {
+  public static class textListHandler_13342_0 extends RefNodeListHandler {
 
-    public  _RefNodeListHandler(SNode ownerNode, String childRole, EditorContext context) {
+    public textListHandler_13342_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

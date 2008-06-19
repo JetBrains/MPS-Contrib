@@ -17,13 +17,13 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptOp
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.smodel.BaseAdapter;
 import jetbrains.mps.util.Calculable;
-import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
-import webr.xmlSchema.constraints.ElementDeclaration_Behavior;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import webr.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
-import webr.xmlSchema.constraints.TypeExpression_Behavior;
+import webr.xmlSchema.behavior.TypeExpression_Behavior;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
@@ -62,7 +62,7 @@ public class QueriesGenerated {
             List<SNode> attributeDeclarations = new ArrayList<SNode>();
             SNode parentElementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
             if ((parentElementDeclaration != null)) {
-              ListOperations.addAllElements(attributeDeclarations, ElementDeclaration_Behavior.call_getAttributeDeclarations_1183587644932(parentElementDeclaration));
+              ListSequence.fromList(attributeDeclarations).addSequence(ListSequence.fromList(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(parentElementDeclaration)));
             }
             return attributeDeclarations;
           }
@@ -109,7 +109,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1183649029971(parentElement);
+          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
 
       };
@@ -141,7 +141,7 @@ public class QueriesGenerated {
               }
               SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", prototype);
               SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
-              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1183642787202((item))));
+              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1213877429867((item))));
               return element;
             }
 
@@ -214,7 +214,7 @@ public class QueriesGenerated {
       Calculable calc = new Calculable() {
 
         public Object calculate() {
-          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1183649029971(parentElement);
+          return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
 
       };
