@@ -7,12 +7,8 @@
   <accessoryModels />
   <generators />
   <classPath />
-  <runtimeClassPath />
+  <languageRuntimeClassPath />
   <sourcePath />
-  <osgiOptions>
-    <requiredBundles />
-    <exportedPackage />
-  </osgiOptions>
   <dependencies>
     <dependency reexport="false">jetbrains.mps.baseLanguage.dates.runtime</dependency>
   </dependencies>

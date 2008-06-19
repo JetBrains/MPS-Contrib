@@ -1,27 +1,441 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xml.constraints">
   <persistence version="1" />
-  <refactoringHistory />
+  <refactoringHistory>
+    <refactoringContext modelVersion="0">
+      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896211352" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224265" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896211353" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224315" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896211354" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224316" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896213996" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224266" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896213998" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224268" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896223011" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224267" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896240236" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224273" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896243661" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224274" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896249240" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224269" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896249241" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224270" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896249242" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224271" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896263166" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224275" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896263168" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224280" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896264590" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224277" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896269367" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224278" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896272853" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224279" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896285073" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224281" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896285075" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224287" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896302412" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224282" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896302414" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224284" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896302415" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224285" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896302416" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224286" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896308187" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224288" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896309611" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224289" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896317786" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224290" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896328164" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224298" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896335831" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224291" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896342914" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224293" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896346490" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224294" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1177896371212" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224295" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1179110905432" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224300" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1179110905434" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224302" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1179110917137" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224301" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1179110930094" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224303" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1179110933504" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224304" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1179110936492" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224306" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1179419283454" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224307" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187013392398" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224308" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187013392400" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224310" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187013398531" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224309" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187013419653" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224311" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187013423335" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224312" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187013427798" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224313" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187013427799" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224314" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227838144" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224272" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227850814" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224283" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227912593" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224305" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227917326" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224276" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227930300" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224292" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1206431426384" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224296" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1206431426385" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224299" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1206431469182" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877224297" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap />
+    </refactoringContext>
+    <refactoringContext modelVersion="1">
+      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178192307816" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877302207" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178192307817" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877302208" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178192307818" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877302209" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap />
+    </refactoringContext>
+    <refactoringContext modelVersion="2">
+      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178187486767" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331918" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178187486768" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331919" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178187486769" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331920" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187014616529" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331921" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187014616531" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331922" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187014624605" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331923" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187014624606" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331925" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187014628628" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331926" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1190026820547" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331927" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227934292" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877331924" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap />
+    </refactoringContext>
+    <refactoringContext modelVersion="3">
+      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178192308005" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877344721" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178192308006" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877344722" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1178192308007" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877344723" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap />
+    </refactoringContext>
+    <refactoringContext modelVersion="4">
+      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1201829597060" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877385684" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1201829597061" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877385685" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1201829597062" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877385686" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap />
+    </refactoringContext>
+    <refactoringContext modelVersion="5">
+      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198862666315" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420377" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198862666316" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420383" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198862666317" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420384" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198862681584" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420378" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198862681586" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420382" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198862692400" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420381" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198948064180" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420379" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1198948076116" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877420380" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap />
+    </refactoringContext>
+    <refactoringContext modelVersion="6">
+      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
+      <moveMap>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710054945" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493868" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710054946" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493878" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710054947" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493879" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710057081" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493869" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710057083" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493870" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710066436" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493871" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710066437" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493874" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710070311" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493875" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1187710072954" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493876" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1190026820548" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493877" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227850678" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493872" />
+        </entry>
+        <entry>
+          <key modelUID="webr.xml.constraints" nodeId="1204227925107" />
+          <value modelUID="webr.xml.behavior" nodeId="1213877493873" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap />
+    </refactoringContext>
+  </refactoringHistory>
   <language namespace="jetbrains.mps.bootstrap.constraintsLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.constraints" version="9" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="6" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
-  <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
+  <language namespace="jetbrains.mps.bootstrap.sharedConcepts">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.sharedConcepts.constraints" version="0" />
+  </language>
   <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <maxImportIndex value="14" />
+  <languageAspect modelUID="webr.xmlSchema.constraints" version="21" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
+  <languageAspect modelUID="webr.xml.constraints" version="6" />
+  <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
+  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
+  <maxImportIndex value="15" />
   <import index="1" modelUID="webr.xml.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
@@ -29,218 +443,9 @@
   <import index="10" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
   <import index="11" modelUID="webr.xmlInternal.structure" version="0" />
   <import index="12" modelUID="java.lang@java_stub" version="-1" />
-  <import index="13" modelUID="webr.xmlSchema.constraints" version="-1" />
+  <import index="13" modelUID="webr.xmlSchema.constraints" version="21" />
   <import index="14" modelUID="webr.xml.actions" version="-1" />
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1177896211352">
-    <link role="concept" targetNodeId="1.1161371727643" />
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1177896213996">
-      <property name="name" value="isSeparate" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1177896223011" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1177896213998">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1177896249240">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1177896249241">
-            <property name="name" value="parent" />
-            <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1177896249242" />
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227838144">
-              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1177896240236" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetParentOperation" id="1177896243661" />
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1177896263166">
-          <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227917326">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177896264590">
-              <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
-            </node>
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1177896269367">
-              <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1177896272853">
-                <link role="conceptDeclaration" targetNodeId="1.1163629230879" />
-              </node>
-            </node>
-          </node>
-          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1177896263168">
-            <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1177896285073">
-              <node role="condition" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1177896302412">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227850814">
-                  <node role="operand" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeTypeCastExpression" id="1177896302414">
-                    <link role="concept" targetNodeId="1.1163629230879" />
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177896302415">
-                      <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
-                    </node>
-                  </node>
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1177896302416">
-                    <link role="property" targetNodeId="1.1166231449055" />
-                  </node>
-                </node>
-              </node>
-              <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1177896285075">
-                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1177896308187">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1177896309611">
-                    <property name="value" value="true" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1177896317786">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1177896335831">
-            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227930300">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177896342914">
-                <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
-              </node>
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1177896346490">
-                <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1177896371212">
-                  <link role="conceptDeclaration" targetNodeId="11.1165765736183" />
-                </node>
-              </node>
-            </node>
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1206431426384">
-              <node role="operand" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SemanticDowncastExpression" id="1206431469182">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1177896328164">
-                  <link role="variableDeclaration" targetNodeId="1177896249241" resolveInfo="parent" />
-                </node>
-              </node>
-              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1206431426385">
-                <link role="baseMethodDeclaration" targetNodeId="10.~SNode.isRoot():boolean" resolveInfo="isRoot" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1179110905432">
-      <property name="name" value="isSeparate_string" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1179110917137">
-        <link role="classifier" targetNodeId="12.~String" resolveInfo="String" />
-      </node>
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1179110905434">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1179110930094">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1179110933504">
-            <link role="baseMethodDeclaration" targetNodeId="12.~String.valueOf(boolean):java.lang.String" resolveInfo="valueOf" />
-            <link role="classConcept" targetNodeId="12.~String" resolveInfo="String" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227912593">
-              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1179110936492" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1179419283454">
-                <link role="conceptMethodDeclaration" targetNodeId="1177896213996" resolveInfo="isSeparate" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1187013392398">
-      <property name="name" value="getSubcontents" />
-      <property name="isVirtual" value="true" />
-      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1187013398531">
-        <link role="elementConcept" targetNodeId="1.1161371727643" />
-      </node>
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1187013392400">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1187013419653">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1187013423335">
-            <node role="creator" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListCreator" id="1187013427798">
-              <node role="createdType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1187013427799">
-                <link role="elementConcept" targetNodeId="1.1161371727643" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1177896211353">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1177896211354" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1178187486767">
-    <link role="concept" targetNodeId="1.1163629230879" />
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1178187486768">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178187486769" />
-    </node>
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1187014616529">
-      <property name="name" value="getSubcontents" />
-      <link role="overriddenMethod" targetNodeId="1187013392398" resolveInfo="getSubcontents" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1187014616531">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1187014624605">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227934292">
-            <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1187014624606" />
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1187014628628">
-              <link role="link" targetNodeId="1.1163629255661" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1190026820547">
-        <link role="elementConcept" targetNodeId="1.1161371727643" />
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1178192307816">
-    <link role="concept" targetNodeId="1.1167700349452" />
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1178192307817">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178192307818" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1178192308005">
-    <link role="concept" targetNodeId="1.1167523027466" />
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1178192308006">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178192308007" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1187710054945">
-    <link role="concept" targetNodeId="1.1179102053371" />
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1187710057081">
-      <property name="name" value="getSubcontents" />
-      <link role="overriddenMethod" targetNodeId="1187013392398" resolveInfo="getSubcontents" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1187710057083">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1187710066436">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227850678">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227925107">
-              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1187710066437" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1187710070311">
-                <link role="link" targetNodeId="1.1179114219774" />
-              </node>
-            </node>
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1187710072954">
-              <link role="link" targetNodeId="1.1163629255661" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1190026820548">
-        <link role="elementConcept" targetNodeId="1.1161371727643" />
-      </node>
-    </node>
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1187710054946">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1187710054947" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1198862666315">
-    <link role="concept" targetNodeId="1.1198862578220" resolveInfo="XmlRoot" />
-    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1198862681584">
-      <property name="name" value="getSchema" />
-      <property name="isVirtual" value="true" />
-      <property name="isAbstract" value="true" />
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1198948064180">
-        <property name="name" value="scope" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1198948076116">
-          <link role="classifier" targetNodeId="10.~IScope" resolveInfo="IScope" />
-        </node>
-      </node>
-      <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1198862692400">
-        <link role="concept" targetNodeId="9.1167513239198" resolveInfo="Schema" />
-      </node>
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1198862681586" />
-    </node>
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1198862666316">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1198862666317" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1201829597060">
-    <link role="concept" targetNodeId="1.1163340203555" resolveInfo="BaseText" />
-    <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1201829597061">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201829597062" />
-    </node>
-  </node>
+  <import index="15" modelUID="webr.xmlSchema.behavior" version="-1" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstraints" id="1213104840321">
     <link role="concept" targetNodeId="1.1167523027466" resolveInfo="Element" />
     <node role="property" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodePropertyConstraint" id="1213104840322">
@@ -614,7 +819,7 @@
                           </node>
                         </node>
                         <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1213104860654">
-                          <link role="conceptMethodDeclaration" targetNodeId="13.1183587644932" resolveInfo="getAttributeDeclarations" />
+                          <link role="conceptMethodDeclaration" targetNodeId="15.1213877429821" resolveInfo="getAttributeDeclarations" />
                         </node>
                       </node>
                     </node>

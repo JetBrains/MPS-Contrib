@@ -29,10 +29,6 @@
   <sourcePath>
     <source path="${mps_home}\platform\buildlanguage\source" />
   </sourcePath>
-  <osgiOptions>
-    <requiredBundles />
-    <exportedPackage />
-  </osgiOptions>
   <dependencies>
     <dependency reexport="true">jetbrains.mps.mpsProjectLanguage</dependency>
     <dependency reexport="true">MPS.Classpath</dependency>

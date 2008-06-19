@@ -2,12 +2,21 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.unittest.tests">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" />
+  <language namespace="jetbrains.mps.baseLanguage.ext.dates.lang">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
-  <language namespace="jetbrains.mps.baseLanguage.unitTest" />
-  <language namespace="jetbrains.springframework.configuration" />
+  <language namespace="jetbrains.mps.baseLanguage.unitTest">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.unitTest.constraints" version="1" />
+  </language>
+  <language namespace="jetbrains.springframework.configuration">
+    <languageAspect modelUID="jetbrains.springframework.configuration.constraints" version="6" />
+  </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.constraints" version="9" />
+  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
   <maxImportIndex value="9" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" version="-1" />
   <import index="2" modelUID="java.lang@java_stub" version="-1" />
@@ -16,7 +25,7 @@
   <import index="5" modelUID="org.joda.time.base@java_stub" version="-1" />
   <import index="7" modelUID="junit.framework@java_stub" version="-1" />
   <import index="8" modelUID="java.util@java_stub" version="-1" />
-  <import index="9" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="-1" />
+  <import index="9" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateFormatsTable" id="1169488395206">
     <property name="name" value="MainFormatTable" />
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateFormat" id="1172684095976">

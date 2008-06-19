@@ -2,30 +2,37 @@
 <model name="jetbrains.mps.buildlanguage.editor">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
+  <language namespace="jetbrains.mps.bootstrap.editorLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.constraints" version="21" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="6" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
-  <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
+  <language namespace="jetbrains.mps.bootstrap.sharedConcepts">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.sharedConcepts.constraints" version="0" />
+  </language>
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="32" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
+  <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
+  <languageAspect modelUID="jetbrains.mps.propertylanguage.constraints" version="0" />
+  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="3" modelUID="jetbrains.mps.nodeEditor@java_stub" version="-1" />
-  <import index="4" modelUID="jetbrains.mps.buildlanguage.constraints" version="6" />
+  <import index="4" modelUID="jetbrains.mps.buildlanguage.constraints" version="32" />
   <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1196852366761">
     <link role="conceptDeclaration" targetNodeId="1.1196851066733" resolveInfo="Project" />
@@ -933,6 +940,7 @@
       <link role="editorComponent" targetNodeId="1197112638773" resolveInfo="Attribute_EditorComponent" />
     </node>
   </node>
+  <visible index="2" modelUID="jetbrains.mps.buildlanguage.behavior" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.EditorComponentDeclaration" id="1197112638773">
     <property name="name" value="Attribute_EditorComponent" />
     <property name="package" value="Generic" />
@@ -962,7 +970,7 @@
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1200914303782">
-                    <link role="conceptMethodDeclaration" targetNodeId="4.1200914142101" resolveInfo="isDeprecated" />
+                    <link role="conceptMethodDeclaration" targetNodeId="2v.1213877529743" resolveInfo="isDeprecated" />
                   </node>
                 </node>
               </node>
@@ -991,7 +999,7 @@
                   </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1200914314954">
-                  <link role="conceptMethodDeclaration" targetNodeId="4.1200914142101" resolveInfo="isDeprecated" />
+                  <link role="conceptMethodDeclaration" targetNodeId="2v.1213877529743" resolveInfo="isDeprecated" />
                 </node>
               </node>
             </node>
@@ -1059,7 +1067,7 @@
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227881432">
                     <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1201703899828" />
                     <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201703899827">
-                      <link role="conceptMethodDeclaration" targetNodeId="4.1201703774651" resolveInfo="isDeprecated" />
+                      <link role="conceptMethodDeclaration" targetNodeId="2v.1213877362820" resolveInfo="isDeprecated" />
                     </node>
                   </node>
                 </node>
@@ -1083,7 +1091,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227838146">
                   <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1201703751038" />
                   <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1201703838081">
-                    <link role="conceptMethodDeclaration" targetNodeId="4.1201703774651" resolveInfo="isDeprecated" />
+                    <link role="conceptMethodDeclaration" targetNodeId="2v.1213877362820" resolveInfo="isDeprecated" />
                   </node>
                 </node>
               </node>
@@ -1162,7 +1170,7 @@
                   </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1197723278254">
-                  <link role="conceptMethodDeclaration" targetNodeId="4.1197723215856" resolveInfo="hasNested" />
+                  <link role="conceptMethodDeclaration" targetNodeId="2v.1213877207492" resolveInfo="hasNested" />
                 </node>
               </node>
             </node>
@@ -1323,7 +1331,7 @@
                       <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227846846">
                         <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1200915220351" />
                         <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1200915220350">
-                          <link role="conceptMethodDeclaration" targetNodeId="4.1197112876766" resolveInfo="isRequired" />
+                          <link role="conceptMethodDeclaration" targetNodeId="2v.1213877529736" resolveInfo="isRequired" />
                         </node>
                       </node>
                     </node>
@@ -1360,7 +1368,7 @@
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227927312">
                   <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1200915109388" />
                   <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1200915109387">
-                    <link role="conceptMethodDeclaration" targetNodeId="4.1200914142101" resolveInfo="isDeprecated" />
+                    <link role="conceptMethodDeclaration" targetNodeId="2v.1213877529743" resolveInfo="isDeprecated" />
                   </node>
                 </node>
               </node>

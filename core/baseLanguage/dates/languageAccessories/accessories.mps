@@ -2,11 +2,17 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.accessories">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
+  <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.constraints" version="9" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.springframework.configurationInternal" />
+  <languageAspect modelUID="jetbrains.springframework.configuration.constraints" version="6" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
+  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="org.joda.time@java_stub" version="-1" />
   <import index="2" modelUID="java.util@java_stub" version="-1" />

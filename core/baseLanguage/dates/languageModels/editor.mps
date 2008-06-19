@@ -2,29 +2,38 @@
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.editor">
   <persistence version="1" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
+  <language namespace="jetbrains.mps.bootstrap.editorLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.constraints" version="21" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
-  <language namespace="jetbrains.mps.bootstrap.sharedConcepts" />
+  <language namespace="jetbrains.mps.bootstrap.sharedConcepts">
+    <languageAspect modelUID="jetbrains.mps.bootstrap.sharedConcepts.constraints" version="0" />
+  </language>
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="6" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   </language>
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
+  <languageAspect modelUID="jetbrains.springframework.configuration.constraints" version="6" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.constraints" version="9" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
+  <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
+  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
   <maxImportIndex value="47" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
   <import index="28" modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.structure" version="-1" />
   <import index="36" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <import index="40" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="-1" />
+  <import index="40" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
   <import index="42" modelUID="jetbrains.mps.bootstrap.structureLanguage.structure" version="-1" />
   <import index="43" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.actions" version="-1" />
   <import index="44" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
@@ -405,6 +414,7 @@
       </node>
     </node>
   </node>
+  <visible index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.behavior" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1172074935895">
     <link role="conceptDeclaration" targetNodeId="1.1172074800504" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1172074938400">
@@ -480,7 +490,7 @@
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227896688">
                     <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1178372993827" />
                     <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1179419284376">
-                      <link role="conceptMethodDeclaration" targetNodeId="40.1178372740927" />
+                      <link role="conceptMethodDeclaration" targetNodeId="2v.1213877526399" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1178373024504">
@@ -1460,7 +1470,7 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227881698">
                 <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1194008330533" />
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1194008332620">
-                  <link role="conceptMethodDeclaration" targetNodeId="40.1194008264870" resolveInfo="hasDay" />
+                  <link role="conceptMethodDeclaration" targetNodeId="2v.1213877270117" resolveInfo="hasDay" />
                 </node>
               </node>
             </node>
@@ -1563,7 +1573,7 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227833573">
                 <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1194008613495" />
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1194008615760">
-                  <link role="conceptMethodDeclaration" targetNodeId="40.1194008546428" resolveInfo="hasTime" />
+                  <link role="conceptMethodDeclaration" targetNodeId="2v.1213877270139" resolveInfo="hasTime" />
                 </node>
               </node>
             </node>
@@ -1616,20 +1626,20 @@
       </node>
     </node>
   </node>
-  <visible index="2" modelUID="jetbrains.mps.baseLanguage.editor" />
+  <visible index="3" modelUID="jetbrains.mps.baseLanguage.editor" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1209035305144">
     <property name="package" value="operation.convert" />
     <link role="conceptDeclaration" targetNodeId="1.1209035204722" resolveInfo="ConvertToDateTimeOperation" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1209035311050">
       <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
-      <link role="styleClass" targetNodeId="2v.1186415544875" resolveInfo="KeyWord" />
+      <link role="styleClass" targetNodeId="3v.1186415544875" resolveInfo="KeyWord" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1209035822356">
     <property name="package" value="operation" />
     <link role="conceptDeclaration" targetNodeId="1.1209035760903" resolveInfo="DateTimeOperation" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1209035827562">
-      <link role="styleClass" targetNodeId="2v.1186415544875" resolveInfo="KeyWord" />
+      <link role="styleClass" targetNodeId="3v.1186415544875" resolveInfo="KeyWord" />
       <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
     </node>
   </node>
@@ -1643,7 +1653,7 @@
         <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1209039825976">
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
-          <link role="styleClass" targetNodeId="2v.1198595398954" resolveInfo="Field" />
+          <link role="styleClass" targetNodeId="3v.1198595398954" resolveInfo="Field" />
         </node>
       </node>
     </node>
