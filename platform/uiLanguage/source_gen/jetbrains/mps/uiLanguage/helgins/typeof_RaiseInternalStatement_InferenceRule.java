@@ -15,7 +15,7 @@ public class typeof_RaiseInternalStatement_InferenceRule implements InferenceRul
   }
 
   public void applyRule(final SNode statement) {
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(statement, "argument", true), "jetbrains.mps.uiLanguage.helgins", "1209655701497", true), SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(statement, "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "parameter", true), "type", true), SLinkOperations.getTarget(statement, "argument", true), null, "jetbrains.mps.uiLanguage.helgins", "1209655719223", true);
+    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(statement, "argument", true), "jetbrains.mps.uiLanguage.helgins", "1209655701497", true), SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(statement, "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "parameter", true), "type", true), SLinkOperations.getTarget(statement, "argument", true), null, "jetbrains.mps.uiLanguage.helgins", "1209655719223", true, 0);
   }
 
   public String getApplicableConceptFQName() {

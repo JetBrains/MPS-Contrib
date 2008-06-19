@@ -5,6 +5,7 @@ package jetbrains.mps.uiLanguage.helgins;
 import jetbrains.mps.bootstrap.helgins.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.helgins.inference.TypeChecker;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
@@ -19,9 +20,12 @@ public class typeof_AddListenerOperation_InferenceRule implements InferenceRule_
     SNode eventNode = SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(operation, "leftExpression", true), "operation", true), "member", false);
     SNode methodNode = SLinkOperations.getTarget(SLinkOperations.getTarget(operation, "rightExpression", true), "handler", false);
     if (SLinkOperations.getCount(methodNode, "parameter") != 1) {
-      TypeChecker.getInstance().reportTypeError(methodNode, "handler must have 1 parameter", "jetbrains.mps.uiLanguage.helgins", "1208111560705");
+      {
+        BaseIntentionProvider intentionProvider = null;
+        TypeChecker.getInstance().reportTypeError(methodNode, "handler must have 1 parameter", "jetbrains.mps.uiLanguage.helgins", "1208111560705", intentionProvider);
+      }
     }
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(SLinkOperations.getTarget(SLinkOperations.getTarget(eventNode, "parameter", true), "type", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(ListSequence.fromList(SLinkOperations.getTargets(methodNode, "parameter", true)).first(), "jetbrains.mps.uiLanguage.helgins", "1208111560721", true), SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false), "parameter types do not match", "jetbrains.mps.uiLanguage.helgins", "1208111560719", true);
+    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(SLinkOperations.getTarget(SLinkOperations.getTarget(eventNode, "parameter", true), "type", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(ListSequence.fromList(SLinkOperations.getTargets(methodNode, "parameter", true)).first(), "jetbrains.mps.uiLanguage.helgins", "1208111560721", true), SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false), "parameter types do not match", "jetbrains.mps.uiLanguage.helgins", "1208111560719", true, 0);
     TypeChecker.getInstance().getRuntimeSupport().createEquation(SLinkOperations.getTarget(methodNode, "returnType", true), new QuotationClass_5().createNode(), SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false), "handler return type must be void", "jetbrains.mps.uiLanguage.helgins", "1208112038267");
   }
 

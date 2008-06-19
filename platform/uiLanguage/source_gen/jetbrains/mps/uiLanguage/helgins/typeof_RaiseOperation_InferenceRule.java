@@ -15,7 +15,7 @@ public class typeof_RaiseOperation_InferenceRule implements InferenceRule_Runtim
   }
 
   public void applyRule(final SNode operation) {
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(operation, "argument", true), "jetbrains.mps.uiLanguage.helgins", "1208111607404", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getParent(operation, null, false, false), "operand", true), "operation", true), "member", false), "parameter", true), "jetbrains.mps.uiLanguage.helgins", "1208111636744", true), SLinkOperations.getTarget(operation, "argument", true), null, "jetbrains.mps.uiLanguage.helgins", "1208111631129", false);
+    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(operation, "argument", true), "jetbrains.mps.uiLanguage.helgins", "1208111607404", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getParent(operation, null, false, false), "operand", true), "operation", true), "member", false), "parameter", true), "jetbrains.mps.uiLanguage.helgins", "1208111636744", true), SLinkOperations.getTarget(operation, "argument", true), null, "jetbrains.mps.uiLanguage.helgins", "1208111631129", false, 0);
   }
 
   public String getApplicableConceptFQName() {

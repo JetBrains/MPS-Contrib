@@ -14,7 +14,7 @@ public class typeof_AttributeValue_InferenceRule implements InferenceRule_Runtim
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "jetbrains.mps.uiLanguage.helgins", "1202396534901", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), SLinkOperations.getTarget(nodeToCheck, "value", true), null, "jetbrains.mps.uiLanguage.helgins", "1202396548783", false);
+    TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "jetbrains.mps.uiLanguage.helgins", "1202396534901", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), SLinkOperations.getTarget(nodeToCheck, "value", true), null, "jetbrains.mps.uiLanguage.helgins", "1202396548783", false, 0);
   }
 
   public String getApplicableConceptFQName() {

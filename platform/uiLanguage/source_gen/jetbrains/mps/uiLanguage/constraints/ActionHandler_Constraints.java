@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.constraints.CanBeAChildContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
 public class ActionHandler_Constraints {
@@ -15,7 +16,7 @@ public class ActionHandler_Constraints {
       return false;
     }
     SNode instance = _context.getParentNode();
-    return ComponentDeclaration_Behavior.call_isActionComponent_1202744001089(SLinkOperations.getTarget(instance, "componentDeclaration", false));
+    return ComponentDeclaration_Behavior.call_isActionComponent_1213877495555(SLinkOperations.getTarget(instance, "componentDeclaration", false));
   }
 
 }
