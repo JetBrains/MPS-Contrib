@@ -21,7 +21,7 @@ public class Stylesheet_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = Stylesheet_StyleSheet.calculateColor(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       cell.setFontType(MPSFonts.PLAIN);
       if (recurive) {
@@ -61,7 +61,7 @@ public class Stylesheet_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = Stylesheet_StyleSheet.calculateColor1(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       cell.setFontType(MPSFonts.BOLD);
       if (recurive) {
@@ -101,7 +101,7 @@ public class Stylesheet_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = Stylesheet_StyleSheet.calculateColor2(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       cell.setFontType(MPSFonts.ITALIC);
       if (recurive) {
@@ -177,7 +177,7 @@ public class Stylesheet_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = Stylesheet_StyleSheet.calculateColor3(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       cell.setFontType(MPSFonts.PLAIN);
       if (recurive) {
@@ -217,7 +217,7 @@ public class Stylesheet_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = Stylesheet_StyleSheet.calculateColor4(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       cell.setFontType(MPSFonts.PLAIN);
       if (recurive) {
