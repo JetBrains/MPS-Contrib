@@ -21,7 +21,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       if (recurive) {
         if (cell instanceof EditorCell_Collection) {
@@ -60,7 +60,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor1(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       cell.setFontType(MPSFonts.BOLD);
       if (recurive) {
@@ -134,7 +134,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor2(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       cell.setFontType(MPSFonts.BOLD);
       if (recurive) {
@@ -175,7 +175,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor5(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       if (recurive) {
         if (cell instanceof EditorCell_Collection) {
@@ -215,7 +215,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor6(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       if (recurive) {
         if (cell instanceof EditorCell_Collection) {
@@ -323,7 +323,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor3(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       if (recurive) {
         if (cell instanceof EditorCell_Collection) {
@@ -362,7 +362,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor4(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       if (recurive) {
         if (cell instanceof EditorCell_Collection) {
@@ -401,7 +401,7 @@ public class BuildLanguageStyle_StyleSheet {
       if (cell instanceof EditorCell_Label) {
         EditorCell_Label labelCell = (EditorCell_Label)cell;
         Color color = BuildLanguageStyle_StyleSheet.calculateColor7(cell);
-        labelCell.getTextLine().setTextColor(color);
+        labelCell.setTextColor(color);
       }
       if (recurive) {
         if (cell instanceof EditorCell_Collection) {

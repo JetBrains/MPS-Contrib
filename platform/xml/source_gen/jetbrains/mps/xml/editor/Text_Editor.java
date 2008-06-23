@@ -16,40 +16,40 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Text_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_TextCell(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_1107868239951");
+  private static void setupBasic_textPropertyCell3522_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_textPropertyCell3522_0");
     editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.ITALIC);
   }
 
-  private static void setupLabel_TextCell(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    editorCell.getTextLine().setTextColor(Color.blue);
+  private static void setupLabel_textPropertyCell3522_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    editorCell.setTextColor(Color.blue);
   }
 
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createTextCell(context, node);
+    return this.create_textPropertyCell3522_0(context, node);
   }
 
-  public EditorCell createTextCellinternal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell create_textPropertyCell3522_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    Text_Editor.setupBasic_TextCell(editorCell, node, context);
+    setupBasic_textPropertyCell3522_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      Text_Editor.setupLabel_TextCell((EditorCell_Label)editorCell, node, context);
+      setupLabel_textPropertyCell3522_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createTextCell(EditorContext context, SNode node) {
+  public EditorCell create_textPropertyCell3522_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("text");
     provider.setNoTargetText("<no text>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createTextCellinternal(context, node, provider);
+    EditorCell cellWithRole = this.create_textPropertyCell3522_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {

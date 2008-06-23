@@ -124,7 +124,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     }
 
     private static void setupLabel_entityNamePropertyCell19326_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-      editorCell.getTextLine().setTextColor(_QueryFunction_Color_1176894100193(node, context));
+      editorCell.setTextColor(_QueryFunction_Color_1176894100193(node, context));
     }
 
     public static Color _QueryFunction_Color_1176894100193(SNode node, EditorContext editorContext) {
