@@ -108,7 +108,6 @@ public class Project_Editor extends DefaultNodeEditor {
       };
       inlineStyle.apply(editorCell);
     }
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_propertyRefNodeListCell13635_0(EditorCell editorCell, SNode node, EditorContext context) {

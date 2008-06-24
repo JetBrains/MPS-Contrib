@@ -21,35 +21,29 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_CollectionCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell15937_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_namePropertyCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_namePropertyCell15937_0");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_ConstantCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell15937_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_01");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_valuePropertyCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_valuePropertyCell15937_0");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_ConstantCell15937_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_02");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 

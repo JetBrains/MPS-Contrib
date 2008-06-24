@@ -22,23 +22,19 @@ public class EntityReference_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_CollectionCell19326_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell19326_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell19326_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell19326_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell19326_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell19326_01");
-    editorCell.setDrawBorder(false);
     editorCell.setLayoutConstraint("punctuation");
   }
 
   private static void setupBasic_entityDeclarationRefCell19326_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_entityDeclarationRefCell19326_0");
-    editorCell.setDrawBorder(false);
     editorCell.setLayoutConstraint("punctuation");
   }
 

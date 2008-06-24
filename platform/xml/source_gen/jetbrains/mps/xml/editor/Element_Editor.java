@@ -32,72 +32,59 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_CollectionCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell8692_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_CollectionCell8692_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell8692_01");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_CollectionCell8692_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell8692_02");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_CollectionCell8692_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell8692_03");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_0");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_namePropertyCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_namePropertyCell8692_0");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_ConstantCell8692_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_01");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_contentRefNodeListCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_contentRefNodeListCell8692_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell8692_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_02");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_namePropertyCell8692_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_namePropertyCell8692_01");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_ConstantCell8692_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_03");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
   private static void setupBasic_attributeRefNodeListCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_attributeRefNodeListCell8692_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell8692_05(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_05");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.BOLD);
   }
 
@@ -315,7 +302,6 @@ public class Element_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_ConstantCell8692_06(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_06");
-      editorCell.setDrawBorder(false);
     }
 
     private static void setupLabel_ConstantCell8692_06(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -380,7 +366,6 @@ public class Element_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_ConstantCell8692_04(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_04");
-      editorCell.setDrawBorder(false);
     }
 
     private static void setupLabel_ConstantCell8692_04(EditorCell_Label editorCell, SNode node, EditorContext context) {

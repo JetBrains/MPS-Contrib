@@ -175,7 +175,6 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1196858964306">
             <property name="vertical" value="true" />
-            <property name="drawBorder" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1196851079482" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1200419287236">
               <property name="text" value="&lt;targets&gt;" />
@@ -1200,7 +1199,6 @@
           <property name="vertical" value="true" />
           <property name="gridLayout" value="true" />
           <property name="usesBraces" value="false" />
-          <property name="drawBorder" value="false" />
           <link role="relationDeclaration" targetNodeId="1.1197112462493" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1200419380665">
             <property name="text" value="&lt;attributes&gt;" />

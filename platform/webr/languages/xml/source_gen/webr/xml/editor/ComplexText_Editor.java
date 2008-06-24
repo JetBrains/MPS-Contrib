@@ -26,7 +26,6 @@ public class ComplexText_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_CollectionCell13342_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell13342_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell13342_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -40,12 +39,10 @@ public class ComplexText_Editor extends DefaultNodeEditor {
       };
       inlineStyle.apply(editorCell);
     }
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_textRefNodeListCell13342_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_textRefNodeListCell13342_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupLabel_ConstantCell13342_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

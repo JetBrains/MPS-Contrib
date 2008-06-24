@@ -18,7 +18,6 @@ public class Text_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_textPropertyCell3522_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_textPropertyCell3522_0");
-    editorCell.setDrawBorder(false);
     editorCell.setFontType(MPSFonts.ITALIC);
   }
 

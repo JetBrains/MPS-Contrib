@@ -24,31 +24,25 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_CollectionCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell15937_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_attributeDeclarationRefCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_attributeDeclarationRefCell15937_0");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell15937_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_01");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_ConstantCell15937_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_02");
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupBasic_valueRefNodeCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setDrawBorder(false);
   }
 
   private static void setupLabel_ConstantCell15937_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -175,7 +169,6 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_attributeNamePropertyCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_attributeNamePropertyCell15937_0");
-      editorCell.setDrawBorder(false);
       editorCell.setFontType(MPSFonts.BOLD_ITALIC);
     }
 
