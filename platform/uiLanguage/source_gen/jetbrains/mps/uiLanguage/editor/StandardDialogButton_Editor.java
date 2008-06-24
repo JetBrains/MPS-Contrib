@@ -21,7 +21,15 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_CollectionCell6097_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6097_0");
-    editorCell.setDrawBrackets(true);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.DRAW_BRACKETS, true);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_CollectionCell6097_01(EditorCell editorCell, SNode node, EditorContext context) {

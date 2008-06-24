@@ -663,7 +663,6 @@
     <link role="conceptDeclaration" targetNodeId="1.1202816951086" resolveInfo="FormPart" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202817727307">
       <property name="vertical" value="true" />
-      <property name="drawBrackets" value="true" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202817731232">
         <property name="vertical" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202817742817">
@@ -694,6 +693,9 @@
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310994859">
           <property name="flag" value="false" />
         </node>
+      </node>
+      <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.DrawBracketsStyleSheetItem" id="1214313021444">
+        <property name="flag" value="true" />
       </node>
     </node>
   </node>
@@ -761,8 +763,10 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Indent" id="1202823800203" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1202823808769">
           <property name="vertical" value="false" />
-          <property name="drawBrackets" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1202823766928" />
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.DrawBracketsStyleSheetItem" id="1214313021468">
+            <property name="flag" value="true" />
+          </node>
         </node>
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310997172">
           <property name="flag" value="false" />
@@ -841,7 +845,6 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202831823566">
       <property name="vertical" value="true" />
       <property name="gridLayout" value="true" />
-      <property name="drawBrackets" value="true" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1202831830773">
         <property name="vertical" value="false" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202831830774">
@@ -877,6 +880,9 @@
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310993850">
           <property name="flag" value="false" />
         </node>
+      </node>
+      <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.DrawBracketsStyleSheetItem" id="1214313021472">
+        <property name="flag" value="true" />
       </node>
     </node>
   </node>
