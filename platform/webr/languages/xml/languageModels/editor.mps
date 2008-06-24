@@ -368,7 +368,6 @@
         <property name="text" value="&amp;" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1172960872446">
-        <property name="layoutConstraint" value="punctuation" />
         <link role="relationDeclaration" targetNodeId="1.1172960837561" />
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1172960872447">
           <link role="conceptDeclaration" targetNodeId="31.1172950047361" />
@@ -388,10 +387,15 @@
             </node>
           </node>
         </node>
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.LayoutConstraintStyleSheetItem" id="1214318684987">
+          <property name="layoutConstraint" value="punctuation" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172960865411">
-        <property name="layoutConstraint" value="punctuation" />
         <property name="text" value=";" />
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.LayoutConstraintStyleSheetItem" id="1214318685034">
+          <property name="layoutConstraint" value="punctuation" />
+        </node>
       </node>
     </node>
   </node>
