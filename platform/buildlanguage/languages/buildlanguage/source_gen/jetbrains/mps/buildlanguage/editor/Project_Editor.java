@@ -102,13 +102,13 @@ public class Project_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style() {
         {
           this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.DRAW_BRACKETS, false);
         }
 
       };
       inlineStyle.apply(editorCell);
     }
     editorCell.setDrawBorder(false);
-    editorCell.setDrawBrackets(false);
   }
 
   private static void setupBasic_propertyRefNodeListCell13635_0(EditorCell editorCell, SNode node, EditorContext context) {

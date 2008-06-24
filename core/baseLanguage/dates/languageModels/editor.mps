@@ -298,8 +298,10 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1169632541035">
         <property name="drawBorder" value="false" />
-        <property name="drawBrackets" value="true" />
         <link role="relationDeclaration" targetNodeId="36.1137022507850" />
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.DrawBracketsStyleSheetItem" id="1214313021474">
+          <property name="flag" value="true" />
+        </node>
       </node>
     </node>
     <node role="inspectedCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1169632462117">

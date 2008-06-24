@@ -176,13 +176,15 @@
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1196858964306">
             <property name="vertical" value="true" />
             <property name="drawBorder" value="false" />
-            <property name="drawBrackets" value="false" />
             <link role="relationDeclaration" targetNodeId="1.1196851079482" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1200419287236">
               <property name="text" value="&lt;targets&gt;" />
               <link role="styleClass" targetNodeId="1200419086632" resolveInfo="prompting" />
             </node>
             <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310993633">
+              <property name="flag" value="false" />
+            </node>
+            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.DrawBracketsStyleSheetItem" id="1214313021460">
               <property name="flag" value="false" />
             </node>
           </node>
