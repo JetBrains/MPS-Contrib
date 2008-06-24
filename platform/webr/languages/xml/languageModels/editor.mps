@@ -34,9 +34,11 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1161373290875">
       <property name="allowEmptyText" value="true" />
       <property name="attractsFocus" value="1" />
-      <property name="fontStyle" value="BOLD" />
       <property name="textFgColor" value="DARK_GREEN" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
+      <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934345">
+        <property name="style" value="BOLD" />
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1161911500984">
@@ -320,7 +322,6 @@
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1167701355880">
           <link role="conceptDeclaration" targetNodeId="31.1167697887602" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1167701361647">
-            <property name="fontStyle" value="BOLD_ITALIC" />
             <property name="readOnly" value="true" />
             <property name="textFgColor" value="query" />
             <link role="relationDeclaration" targetNodeId="31.1167698115100" />
@@ -333,6 +334,9 @@
                   </node>
                 </node>
               </node>
+            </node>
+            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934424">
+              <property name="style" value="BOLD_ITALIC" />
             </node>
           </node>
         </node>

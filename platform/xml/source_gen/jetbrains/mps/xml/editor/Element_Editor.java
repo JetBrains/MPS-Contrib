@@ -7,6 +7,8 @@ import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.MPSColors;
@@ -48,12 +50,28 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ConstantCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_0");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_namePropertyCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_namePropertyCell8692_0");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_ConstantCell8692_01(EditorCell editorCell, SNode node, EditorContext context) {
@@ -66,17 +84,41 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ConstantCell8692_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_02");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_namePropertyCell8692_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_namePropertyCell8692_01");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_ConstantCell8692_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_03");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_attributeRefNodeListCell8692_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -85,7 +127,15 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ConstantCell8692_05(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell8692_05");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_ConstantCell8692_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

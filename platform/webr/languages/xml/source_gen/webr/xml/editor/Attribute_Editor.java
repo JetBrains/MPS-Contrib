@@ -15,6 +15,8 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import java.awt.Color;
 import webr.xmlSchema.editor.XmlColorConstants;
@@ -169,7 +171,15 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_attributeNamePropertyCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_attributeNamePropertyCell15937_0");
-      editorCell.setFontType(MPSFonts.BOLD_ITALIC);
+      {
+        Style inlineStyle = new Style() {
+          {
+            this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
+          }
+
+        };
+        inlineStyle.apply(editorCell);
+      }
     }
 
     private static void setupLabel_attributeNamePropertyCell15937_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

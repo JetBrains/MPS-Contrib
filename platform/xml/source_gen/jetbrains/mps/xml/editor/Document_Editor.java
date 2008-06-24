@@ -40,12 +40,28 @@ public class Document_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ConstantCell9558_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell9558_0");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_namePropertyCell9558_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_namePropertyCell9558_0");
-    editorCell.setFontType(MPSFonts.BOLD);
+    {
+      Style inlineStyle = new Style() {
+        {
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_ConstantCell9558_01(EditorCell editorCell, SNode node, EditorContext context) {

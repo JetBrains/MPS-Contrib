@@ -157,8 +157,10 @@
       <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1174840274048">
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174840274049">
           <property name="text" value="&lt;!--" />
-          <property name="fontStyle" value="ITALIC" />
           <property name="textFgColor" value="gray" />
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934387">
+            <property name="style" value="ITALIC" />
+          </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1174840274050">
           <link role="relationDeclaration" targetNodeId="1.1174840272326" />
@@ -166,8 +168,10 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174840274052">
           <property name="text" value="--&gt;" />
-          <property name="fontStyle" value="ITALIC" />
           <property name="textFgColor" value="gray" />
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934148">
+            <property name="style" value="ITALIC" />
+          </node>
         </node>
       </node>
       <node role="alternationCondition" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_NodeCondition" id="1174840274053">
@@ -194,8 +198,10 @@
         <property name="vertical" value="true" />
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174840274064">
           <property name="text" value="&lt;!--" />
-          <property name="fontStyle" value="ITALIC" />
           <property name="textFgColor" value="gray" />
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934336">
+            <property name="style" value="ITALIC" />
+          </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1174840274065">
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174840274066">
@@ -214,8 +220,10 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174840274068">
           <property name="text" value="--&gt;" />
-          <property name="fontStyle" value="ITALIC" />
           <property name="textFgColor" value="gray" />
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934409">
+            <property name="style" value="ITALIC" />
+          </node>
         </node>
       </node>
     </node>
