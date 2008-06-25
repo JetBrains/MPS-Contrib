@@ -40,7 +40,7 @@ public class Enum_Editor extends DefaultNodeEditor {
   private static void setupBasic_constantsRefNodeListCell8762_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_constantsRefNodeListCell8762_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }

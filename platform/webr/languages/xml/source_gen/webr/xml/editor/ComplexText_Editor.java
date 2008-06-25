@@ -31,7 +31,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell13342_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell13342_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }

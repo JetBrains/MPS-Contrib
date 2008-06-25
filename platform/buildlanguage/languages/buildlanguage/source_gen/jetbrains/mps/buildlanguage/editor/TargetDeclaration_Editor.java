@@ -44,7 +44,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell2525_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell2525_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -57,6 +57,15 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConceptPropertyCell2525_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConceptPropertyCell2525_0");
     BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.EDITABLE, false);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_namePropertyCell2525_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -67,7 +76,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell2525_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell2525_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -80,7 +89,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_taskCallRefNodeListCell2525_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_taskCallRefNodeListCell2525_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -97,7 +106,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell2525_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell2525_03");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -122,7 +131,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell2525_04(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell2525_04");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -135,7 +144,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_propertyListRefNodeListCell2525_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_propertyListRefNodeListCell2525_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -156,9 +165,10 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell2525_04(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell2525_04");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.EDITABLE, false);
         }
 
       };
@@ -169,7 +179,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell2525_05(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell2525_05");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -190,7 +200,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_ConceptPropertyCell2525_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    editorCell.setEditable(false);
   }
 
   private static void setupLabel_namePropertyCell2525_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -209,7 +218,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_ConstantCell2525_04(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    editorCell.setEditable(false);
   }
 
   private static void setupLabel_ConstantCell2525_05(EditorCell_Label editorCell, SNode node, EditorContext context) {

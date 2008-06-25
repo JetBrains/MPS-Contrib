@@ -107,7 +107,9 @@
               <property name="name" value="ver1" />
               <link role="relationDeclaration" targetNodeId="1.1163629255661" />
               <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1166304045429">
-                <property name="editable" value="true" />
+                <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398031987">
+                  <property name="flag" value="true" />
+                </node>
               </node>
             </node>
             <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310995203">
@@ -123,7 +125,9 @@
           <property name="name" value="ver2" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1166304051500">
-            <property name="editable" value="true" />
+            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032175">
+              <property name="flag" value="true" />
+            </node>
           </node>
           <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310996360">
             <property name="flag" value="true" />
@@ -157,7 +161,9 @@
             <property name="name" value="hor2" />
             <link role="relationDeclaration" targetNodeId="1.1163629255661" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1166316633200">
-              <property name="editable" value="true" />
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398031966">
+                <property name="flag" value="true" />
+              </node>
             </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1166316633201">
@@ -168,8 +174,10 @@
           <property name="name" value="hor1" />
           <link role="relationDeclaration" targetNodeId="1.1163629255661" />
           <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1166316671279">
-            <property name="editable" value="true" />
             <property name="attractsFocus" value="1" />
+            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032097">
+              <property name="flag" value="true" />
+            </node>
           </node>
         </node>
       </node>

@@ -33,7 +33,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell19326_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell19326_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
         }
@@ -46,7 +46,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   private static void setupBasic_entityDeclarationRefCell19326_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_entityDeclarationRefCell19326_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
         }

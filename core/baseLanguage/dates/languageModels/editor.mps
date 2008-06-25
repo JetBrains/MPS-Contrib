@@ -320,11 +320,13 @@
         <link role="relationDeclaration" targetNodeId="1.1171964003156" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1171966473900">
-        <property name="editable" value="false" />
         <link role="relationDeclaration" targetNodeId="2.1137473891462" />
         <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.LayoutConstraintStyleSheetItem" id="1214318685007">
           <property name="layoutConstraint" value="punctuation" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032071">
+          <property name="flag" value="false" />
         </node>
       </node>
     </node>
@@ -461,7 +463,6 @@
         <property name="text" value="Compare datetime expressions by" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ModelAccess" id="1178372987005">
-        <property name="editable" value="false" />
         <node role="modelAcessor" type="jetbrains.mps.bootstrap.editorLanguage.structure.ModelAccessor" id="1178372987006">
           <node role="getter" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_ModelAccess_Getter" id="1178372987007">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178372987008">
@@ -493,6 +494,9 @@
             </node>
           </node>
         </node>
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032039">
+          <property name="flag" value="false" />
+        </node>
       </node>
     </node>
   </node>
@@ -503,9 +507,11 @@
         <link role="relationDeclaration" targetNodeId="1.1171964003156" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1172326498985">
-        <property name="editable" value="false" />
         <link role="relationDeclaration" targetNodeId="2.1137473891462" />
         <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032200">
+          <property name="flag" value="false" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefCell" id="1172324326201">
         <link role="relationDeclaration" targetNodeId="1.1172324147302" />
@@ -1164,7 +1170,6 @@
         <link role="actionMap" targetNodeId="1172065403260" resolveInfo="UnaryDateTimeOperation_ActionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1178205892752">
-        <property name="editable" value="false" />
         <property name="textFgColor" value="DARK_BLUE" />
         <link role="relationDeclaration" targetNodeId="1.1178205225281" />
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934140">
@@ -1172,6 +1177,9 @@
         </node>
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.LayoutConstraintStyleSheetItem" id="1214318684981">
           <property name="layoutConstraint" value="punctuation" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032180">
+          <property name="flag" value="false" />
         </node>
       </node>
     </node>

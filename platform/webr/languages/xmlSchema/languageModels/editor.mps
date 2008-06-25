@@ -594,14 +594,18 @@
         <property name="separatorText" value="," />
         <link role="relationDeclaration" targetNodeId="1.1167795626698" />
         <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1167845614864">
-          <property name="editable" value="true" />
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032136">
+            <property name="flag" value="true" />
+          </node>
         </node>
       </node>
       <node role="ifTrueCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1167845738464">
         <property name="vertical" value="true" />
         <link role="relationDeclaration" targetNodeId="1.1167795626698" />
         <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1167845741762">
-          <property name="editable" value="true" />
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.EditableStyleSheetItem" id="1214398032055">
+            <property name="flag" value="true" />
+          </node>
         </node>
       </node>
     </node>
