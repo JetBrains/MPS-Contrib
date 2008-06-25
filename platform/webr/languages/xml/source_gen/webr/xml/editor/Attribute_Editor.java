@@ -7,6 +7,7 @@ import jetbrains.mps.nodeEditor.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.nodeEditor.EditorCell_Label;
+import java.awt.Color;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -18,7 +19,7 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
-import java.awt.Color;
+import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import webr.xmlSchema.editor.XmlColorConstants;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
@@ -60,6 +61,18 @@ public class Attribute_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_valueRefNodeCell15937_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static Color calculateColor1(EditorCell cell) {
+    Color result;
+    result = Attribute_Editor._Inline._QueryFunction_Color_1214399678672((cell == null ?
+      null :
+      cell.getSNode()
+    ), (cell == null ?
+      null :
+      cell.getEditorContext()
+    ));
+    return result;
   }
 
 
@@ -175,6 +188,13 @@ public class Attribute_Editor extends DefaultNodeEditor {
         Style inlineStyle = new Style(editorCell) {
           {
             this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
+            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
+
+              public Color calculate(EditorCell cell) {
+                return Attribute_Editor.calculateColor1(cell);
+              }
+
+            });
           }
 
         };
@@ -183,10 +203,9 @@ public class Attribute_Editor extends DefaultNodeEditor {
     }
 
     private static void setupLabel_attributeNamePropertyCell15937_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-      editorCell.setTextColor(_QueryFunction_Color_1176894092744(node, context));
     }
 
-    public static Color _QueryFunction_Color_1176894092744(SNode node, EditorContext editorContext) {
+    public static Color _QueryFunction_Color_1214399678672(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
 

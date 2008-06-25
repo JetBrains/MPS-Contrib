@@ -9,8 +9,9 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.EditorCell_Label;
+import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
+import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -24,6 +25,13 @@ public class Text_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
+          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
+
+            public Color calculate(EditorCell cell) {
+              return Text_Editor.calculateColor8(cell);
+            }
+
+          });
         }
 
       };
@@ -32,7 +40,12 @@ public class Text_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_textPropertyCell3522_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    editorCell.setTextColor(Color.blue);
+  }
+
+  private static Color calculateColor8(EditorCell cell) {
+    Color result;
+    result = Color.blue;
+    return result;
   }
 
 

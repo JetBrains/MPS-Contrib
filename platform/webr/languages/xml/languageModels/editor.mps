@@ -34,10 +34,12 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1161373290875">
       <property name="allowEmptyText" value="true" />
       <property name="attractsFocus" value="1" />
-      <property name="textFgColor" value="DARK_GREEN" />
       <link role="relationDeclaration" targetNodeId="1.1161373273669" />
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934345">
         <property name="style" value="BOLD" />
+      </node>
+      <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678236">
+        <property name="color" value="DARK_GREEN" />
       </node>
     </node>
   </node>
@@ -331,20 +333,22 @@
           <link role="conceptDeclaration" targetNodeId="31.1167697887602" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1167701361647">
             <property name="readOnly" value="true" />
-            <property name="textFgColor" value="query" />
             <link role="relationDeclaration" targetNodeId="31.1167698115100" />
-            <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1176894092744">
-              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1176894092745">
-                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1178297314034">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1176894093065">
-                    <link role="classifier" targetNodeId="37.1178296794013" />
-                    <link role="variableDeclaration" targetNodeId="37.1178296808264" />
+            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934424">
+              <property name="style" value="BOLD_ITALIC" />
+            </node>
+            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678671">
+              <property name="color" value="query" />
+              <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1214399678672">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1214399678673">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1214399678674">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1214399678675">
+                      <link role="classifier" targetNodeId="37.1178296794013" resolveInfo="XmlColorConstants" />
+                      <link role="variableDeclaration" targetNodeId="37.1178296808264" resolveInfo="XML_COLOR" />
+                    </node>
                   </node>
                 </node>
               </node>
-            </node>
-            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FontStyleStyleSheetItem" id="1214314934424">
-              <property name="style" value="BOLD_ITALIC" />
             </node>
           </node>
         </node>
@@ -380,15 +384,17 @@
         <node role="editorComponent" type="jetbrains.mps.bootstrap.editorLanguage.structure.InlineEditorComponent" id="1172960872447">
           <link role="conceptDeclaration" targetNodeId="31.1172950047361" />
           <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1172960875027">
-            <property name="textFgColor" value="query" />
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="31.1172959826115" />
-            <node role="cellForegroundFunction" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1176894100193">
-              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1176894100194">
-                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1178297321228">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1176894100452">
-                    <link role="classifier" targetNodeId="37.1178296794013" />
-                    <link role="variableDeclaration" targetNodeId="37.1178296808264" />
+            <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678738">
+              <property name="color" value="query" />
+              <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1214399678739">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1214399678740">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1214399678741">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1214399678742">
+                      <link role="classifier" targetNodeId="37.1178296794013" resolveInfo="XmlColorConstants" />
+                      <link role="variableDeclaration" targetNodeId="37.1178296808264" resolveInfo="XML_COLOR" />
+                    </node>
                   </node>
                 </node>
               </node>

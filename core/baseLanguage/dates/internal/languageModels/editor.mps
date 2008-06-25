@@ -50,8 +50,10 @@
             <property name="vertical" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1173884012349" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173884048698">
-              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;predefined date formats&gt;" />
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678140">
+                <property name="color" value="lightGray" />
+              </node>
             </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173954843195">
@@ -75,8 +77,10 @@
                 <property name="vertical" value="true" />
                 <link role="relationDeclaration" targetNodeId="1.1173954797770" />
                 <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173954827923">
-                  <property name="textFgColor" value="lightGray" />
                   <property name="text" value="&lt;no datetime property cardinalities&gt;" />
+                  <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678279">
+                    <property name="color" value="lightGray" />
+                  </node>
                 </node>
               </node>
               <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310997029">
@@ -99,8 +103,10 @@
             <property name="vertical" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1173954797771" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173954827927">
-              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;no datetime property format configuration&gt;" />
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399679014">
+                <property name="color" value="lightGray" />
+              </node>
             </node>
           </node>
           <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310997880">
@@ -144,8 +150,10 @@
             <property name="vertical" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1172681020957" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172681080415">
-              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;no locales&gt;" />
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399677901">
+                <property name="color" value="lightGray" />
+              </node>
             </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172681048011">
@@ -157,8 +165,10 @@
             <property name="vertical" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1172074400422" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172681040813">
-              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;no datetime properties&gt;" />
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678290">
+                <property name="color" value="lightGray" />
+              </node>
             </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174320827934">
@@ -170,8 +180,10 @@
             <property name="vertical" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1174320803190" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174320827936">
-              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;no duration types&gt;" />
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678661">
+                <property name="color" value="lightGray" />
+              </node>
             </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006018426">
@@ -214,8 +226,10 @@
               <property name="gridLayout" value="true" />
               <link role="relationDeclaration" targetNodeId="1.1194006882259" />
               <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006918223">
-                <property name="textFgColor" value="lightGray" />
                 <property name="text" value="&lt;schedule periods&gt;" />
+                <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678286">
+                  <property name="color" value="lightGray" />
+                </node>
               </node>
             </node>
             <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310998185">
@@ -231,8 +245,10 @@
             <property name="vertical" value="true" />
             <link role="relationDeclaration" targetNodeId="1.1194006024782" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006018431">
-              <property name="textFgColor" value="lightGray" />
               <property name="text" value="&lt;no months&gt;" />
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678753">
+                <property name="color" value="lightGray" />
+              </node>
             </node>
           </node>
           <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1214310997401">

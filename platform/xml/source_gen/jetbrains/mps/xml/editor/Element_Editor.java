@@ -10,6 +10,8 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
+import jetbrains.mps.nodeEditor.style.AttributeCalculator;
+import java.awt.Color;
 import jetbrains.mps.nodeEditor.EditorCell_Label;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.EditorCell_Collection;
@@ -67,6 +69,13 @@ public class Element_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
+
+            public Color calculate(EditorCell cell) {
+              return Element_Editor.calculateColor7(cell);
+            }
+
+          });
         }
 
       };
@@ -101,6 +110,13 @@ public class Element_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
+
+            public Color calculate(EditorCell cell) {
+              return Element_Editor.calculateColor(cell);
+            }
+
+          });
         }
 
       };
@@ -142,7 +158,6 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_namePropertyCell8692_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    editorCell.setTextColor(MPSColors.DARK_BLUE);
   }
 
   private static void setupLabel_ConstantCell8692_01(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -155,7 +170,6 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_namePropertyCell8692_01(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    editorCell.setTextColor(MPSColors.DARK_BLUE);
   }
 
   private static void setupLabel_ConstantCell8692_03(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -165,6 +179,18 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_ConstantCell8692_05(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static Color calculateColor(EditorCell cell) {
+    Color result;
+    result = MPSColors.DARK_BLUE;
+    return result;
+  }
+
+  private static Color calculateColor7(EditorCell cell) {
+    Color result;
+    result = MPSColors.DARK_BLUE;
+    return result;
   }
 
 
