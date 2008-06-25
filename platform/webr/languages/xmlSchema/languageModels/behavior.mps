@@ -27,6 +27,7 @@
   <languageAspect modelUID="webr.xmlSchema.constraints" version="21" />
   <languageAspect modelUID="webr.xml.constraints" version="6" />
   <languageAspect modelUID="webr.xmlInternal.constraints" version="0" />
+  <languageAspect modelUID="jetbrains.mps.internal.collections.constraints" version="2" />
   <maxImportIndex value="4" />
   <import index="1" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="2" modelUID="webr.xmlSchema.behavior" version="-1" />

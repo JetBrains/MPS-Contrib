@@ -2544,6 +2544,7 @@
   <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
   <languageAspect modelUID="webr.xmlInternal.constraints" version="0" />
+  <languageAspect modelUID="jetbrains.mps.internal.collections.constraints" version="2" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="webr.xmlSchema.structure" version="-1" />
   <import index="2" modelUID="jetbrains.mps.core.structure" version="-1" />
