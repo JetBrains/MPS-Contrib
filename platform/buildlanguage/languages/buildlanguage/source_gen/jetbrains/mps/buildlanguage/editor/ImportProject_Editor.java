@@ -68,7 +68,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
   public EditorCell create_ConceptPropertyCell19005_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_ConceptPropertyCell19005_0_internal(context, node, provider);
@@ -97,7 +97,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
   public EditorCell create_projectRefCell19005_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("project");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no project>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_projectRefCell19005_0_internal(context, node, provider);
@@ -148,7 +148,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell19005_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell19005_0_internal(context, node, provider);

@@ -13,7 +13,10 @@ public class typeof_FileName_InferenceRule implements InferenceRule_Runtime {
   }
 
   public void applyRule(final SNode nodeToCheck) {
-    TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1199032106410", true), new QuotationClass_3().createNode(), nodeToCheck, null, "jetbrains.mps.buildlanguage.helgins", "1199032106408");
+    {
+      SNode _nodeToCheck_1029348928467 = nodeToCheck;
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1199032106410", true), new QuotationClass_3().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1199032106408");
+    }
   }
 
   public String getApplicableConceptFQName() {

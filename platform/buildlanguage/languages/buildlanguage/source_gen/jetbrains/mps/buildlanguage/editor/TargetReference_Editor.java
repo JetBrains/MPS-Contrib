@@ -44,7 +44,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
   public EditorCell create_targetDeclarationRefCell12148_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("targetDeclaration");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no targetDeclaration>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_targetDeclarationRefCell12148_0_internal(context, node, provider);
@@ -95,7 +95,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell12148_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell12148_0_internal(context, node, provider);

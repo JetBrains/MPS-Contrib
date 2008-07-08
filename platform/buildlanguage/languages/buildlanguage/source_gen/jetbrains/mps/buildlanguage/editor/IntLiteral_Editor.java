@@ -42,7 +42,7 @@ public class IntLiteral_Editor extends DefaultNodeEditor {
   public EditorCell create_valuePropertyCell14871_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("value");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no value>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_valuePropertyCell14871_0_internal(context, node, provider);

@@ -93,7 +93,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
   public EditorCell create_valuePropertyCell14_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("value");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no value>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(true);
     EditorCell cellWithRole = this.create_valuePropertyCell14_0_internal(context, node, provider);

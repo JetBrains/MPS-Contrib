@@ -419,7 +419,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_ConceptPropertyCell2525_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_ConceptPropertyCell2525_0_internal(context, node, provider);
@@ -448,7 +448,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_namePropertyCell2525_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no name>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_namePropertyCell2525_0_internal(context, node, provider);
@@ -477,7 +477,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_shortDescriptionPropertyCell2525_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("shortDescription");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no shortDescription>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(true);
     EditorCell cellWithRole = this.create_shortDescriptionPropertyCell2525_0_internal(context, node, provider);

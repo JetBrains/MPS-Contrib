@@ -651,7 +651,7 @@ public class Project_Editor extends DefaultNodeEditor {
   public EditorCell create_ConceptPropertyCell13635_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_ConceptPropertyCell13635_0_internal(context, node, provider);
@@ -680,7 +680,7 @@ public class Project_Editor extends DefaultNodeEditor {
   public EditorCell create_namePropertyCell13635_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no name>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_namePropertyCell13635_0_internal(context, node, provider);
@@ -709,7 +709,7 @@ public class Project_Editor extends DefaultNodeEditor {
   public EditorCell create_defaultRefNodeCell13635_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("default");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no default>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_defaultRefNodeCell13635_0_internal(context, node, provider);
@@ -738,7 +738,7 @@ public class Project_Editor extends DefaultNodeEditor {
   public EditorCell create_basedirRefNodeCell13635_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("basedir");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no basedir>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_basedirRefNodeCell13635_0_internal(context, node, provider);

@@ -76,7 +76,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
   public EditorCell create_leftRefNodeCell7417_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("left");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no left>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_leftRefNodeCell7417_0_internal(context, node, provider);
@@ -106,7 +106,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
   public EditorCell create_ConceptPropertyCell7417_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("operation");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no operation>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_ConceptPropertyCell7417_0_internal(context, node, provider);
@@ -135,7 +135,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
   public EditorCell create_rightRefNodeCell7417_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("right");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no right>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_rightRefNodeCell7417_0_internal(context, node, provider);
