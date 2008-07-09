@@ -760,7 +760,7 @@
                 <link role="variableDeclaration" targetNodeId="1175768275800" resolveInfo="tc" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164929">
-                <link role="baseMethodDeclaration" targetNodeId="15.~TypeChecker.hackTypeOf(jetbrains.mps.smodel.SNode):jetbrains.mps.smodel.SNode" resolveInfo="hackTypeOf" />
+                <link role="baseMethodDeclaration" targetNodeId="15.~TypeChecker.getTypeOf(jetbrains.mps.smodel.SNode):jetbrains.mps.smodel.SNode" resolveInfo="getTypeOf" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1175768293968">
                   <link role="variableDeclaration" targetNodeId="1175768266457" resolveInfo="node" />
                 </node>
