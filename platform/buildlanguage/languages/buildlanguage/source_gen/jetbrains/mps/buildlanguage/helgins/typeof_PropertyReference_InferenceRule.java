@@ -16,7 +16,7 @@ public class typeof_PropertyReference_InferenceRule implements InferenceRule_Run
   public void applyRule(final SNode nodeToCheck) {
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1196871332366", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.helgins", "1196871369284", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins@22_0", "1215699616212");
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1196871332366", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "propertyDeclaration", false), "jetbrains.mps.buildlanguage.helgins", "1196871369284", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1196871348598");
     }
   }
 

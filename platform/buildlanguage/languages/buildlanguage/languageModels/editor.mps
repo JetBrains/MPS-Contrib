@@ -486,6 +486,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1196861109049">
         <property name="allowEmptyText" value="true" />
+        <property name="emptyNoTargetText" value="true" />
         <link role="relationDeclaration" targetNodeId="1.1196861024475" resolveInfo="value" />
         <link role="styleClass" targetNodeId="1196861143289" resolveInfo="stringLiteral" />
       </node>
@@ -1207,6 +1208,7 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1199645446735">
           <property name="allowEmptyText" value="true" />
+          <property name="emptyNoTargetText" value="true" />
           <link role="relationDeclaration" targetNodeId="1.1199645087298" resolveInfo="id" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1197113983785">

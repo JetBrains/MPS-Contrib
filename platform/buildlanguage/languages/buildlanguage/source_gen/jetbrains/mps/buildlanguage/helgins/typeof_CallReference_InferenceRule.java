@@ -15,7 +15,7 @@ public class typeof_CallReference_InferenceRule implements InferenceRule_Runtime
   public void applyRule(final SNode nodeToCheck) {
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1200512000904", true), new QuotationClass_4().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins@22_0", "1215699618927");
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1200512000904", true), new QuotationClass_4().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1200512038892");
     }
   }
 

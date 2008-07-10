@@ -16,11 +16,11 @@ public class typeof_PropertyDeclaration_InferenceRule implements InferenceRule_R
   public void applyRule(final SNode nodeToCheck) {
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(nodeToCheck, "propertyValue", true);
-      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1196871226606", true), SLinkOperations.getTarget(nodeToCheck, "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins@22_0", "1215699616061", false, 0);
+      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1196871226606", true), SLinkOperations.getTarget(nodeToCheck, "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1196871226604", false, 0);
     }
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1196871295252", true), SLinkOperations.getTarget(nodeToCheck, "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins@22_0", "1215699616162");
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1196871295252", true), SLinkOperations.getTarget(nodeToCheck, "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1196871299285");
     }
   }
 
