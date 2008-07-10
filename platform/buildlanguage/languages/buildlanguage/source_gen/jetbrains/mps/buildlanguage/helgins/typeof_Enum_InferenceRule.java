@@ -18,7 +18,7 @@ public class typeof_Enum_InferenceRule implements InferenceRule_Runtime {
     for(SNode element : SLinkOperations.getTargets(nodeToCheck, "constants", true)) {
       {
         SNode _nodeToCheck_1029348928467 = element;
-        TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1197401239298", true), ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1197401256457", false, 0);
+        TypeChecker.getInstance().getRuntimeSupport().createLessThanInequation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1197401239298", true), ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins@22_0", "1215699619534", false, 0);
       }
     }
   }

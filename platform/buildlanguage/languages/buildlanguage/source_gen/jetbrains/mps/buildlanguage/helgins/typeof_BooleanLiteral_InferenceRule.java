@@ -15,7 +15,7 @@ public class typeof_BooleanLiteral_InferenceRule implements InferenceRule_Runtim
   public void applyRule(final SNode nodeToCheck) {
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1197049600040", true), new QuotationClass_2().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1197049606449");
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1197049600040", true), new QuotationClass_2().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins@22_0", "1215699616260");
     }
   }
 
