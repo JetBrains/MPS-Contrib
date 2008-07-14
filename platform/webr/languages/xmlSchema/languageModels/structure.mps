@@ -426,15 +426,15 @@
     <link role="defaultMember" targetNodeId="1168468016577" resolveInfo="required" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1168467929747">
       <property name="internalValue" value="optional" />
-      <property name="name" value="optional" />
+      <property name="externalValue" value="optional" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1168468006639">
       <property name="internalValue" value="prohibited" />
-      <property name="name" value="prohibited" />
+      <property name="externalValue" value="prohibited" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1168468016577">
       <property name="internalValue" value="required" />
-      <property name="name" value="required" />
+      <property name="externalValue" value="required" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1172948996536">
