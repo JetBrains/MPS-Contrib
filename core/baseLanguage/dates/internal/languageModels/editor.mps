@@ -4,7 +4,7 @@
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.editorLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.constraints" version="21" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.structure" version="0" />
+    <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.structure" version="22" />
   </language>
   <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="1" />
@@ -53,7 +53,7 @@
             <link role="relationDeclaration" targetNodeId="1.1173884012349" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173884048698">
               <property name="text" value="&lt;predefined date formats&gt;" />
-              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678140">
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678140">
                 <property name="color" value="lightGray" />
               </node>
             </node>
@@ -80,7 +80,7 @@
                 <link role="relationDeclaration" targetNodeId="1.1173954797770" />
                 <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173954827923">
                   <property name="text" value="&lt;no datetime property cardinalities&gt;" />
-                  <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678279">
+                  <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678279">
                     <property name="color" value="lightGray" />
                   </node>
                 </node>
@@ -106,7 +106,7 @@
             <link role="relationDeclaration" targetNodeId="1.1173954797771" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1173954827927">
               <property name="text" value="&lt;no datetime property format configuration&gt;" />
-              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399679014">
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399679014">
                 <property name="color" value="lightGray" />
               </node>
             </node>
@@ -153,7 +153,7 @@
             <link role="relationDeclaration" targetNodeId="1.1172681020957" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172681080415">
               <property name="text" value="&lt;no locales&gt;" />
-              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399677901">
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399677901">
                 <property name="color" value="lightGray" />
               </node>
             </node>
@@ -168,7 +168,7 @@
             <link role="relationDeclaration" targetNodeId="1.1172074400422" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172681040813">
               <property name="text" value="&lt;no datetime properties&gt;" />
-              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678290">
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678290">
                 <property name="color" value="lightGray" />
               </node>
             </node>
@@ -183,7 +183,7 @@
             <link role="relationDeclaration" targetNodeId="1.1174320803190" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1174320827936">
               <property name="text" value="&lt;no duration types&gt;" />
-              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678661">
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678661">
                 <property name="color" value="lightGray" />
               </node>
             </node>
@@ -229,7 +229,7 @@
               <link role="relationDeclaration" targetNodeId="1.1194006882259" />
               <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006918223">
                 <property name="text" value="&lt;schedule periods&gt;" />
-                <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678286">
+                <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678286">
                   <property name="color" value="lightGray" />
                 </node>
               </node>
@@ -248,7 +248,7 @@
             <link role="relationDeclaration" targetNodeId="1.1194006024782" />
             <node role="emptyCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1194006018431">
               <property name="text" value="&lt;no months&gt;" />
-              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleSheetItem" id="1214399678753">
+              <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678753">
                 <property name="color" value="lightGray" />
               </node>
             </node>
