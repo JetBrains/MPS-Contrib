@@ -6,13 +6,12 @@ import jetbrains.mps.baseLanguage.plugin.BaseRunner;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunner;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.core.behavior.INamedConcept_Behavior;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import java.util.concurrent.CyclicBarrier;
 import java.io.IOException;
 import jetbrains.mps.logging.Logger;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 
 public class UnitTestRunner extends BaseRunner {
 
@@ -30,19 +29,11 @@ public class UnitTestRunner extends BaseRunner {
     if (this.unitTestPreferences.useDebug) {
       this.addDebug(params, this.unitTestPreferences.debugPort, false);
     }
+    ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getVirtualMachineParameters_1216140572223(ListSequence.fromList(tests).first())));
     this.addClassPath(params, ListSequence.fromList(tests).first());
     ListSequence.fromList(params).addElement(TestRunner.class.getName());
     for(SNode test : tests) {
-      if (SNodeOperations.isInstanceOf(test, "jetbrains.mps.baseLanguage.structure.ClassConcept")) {
-        SNode testCase = test;
-        ListSequence.fromList(params).addElement("-c");
-        ListSequence.fromList(params).addElement(INamedConcept_Behavior.call_getFqName_1213877404258(testCase));
-      } else if (SNodeOperations.isInstanceOf(test, "jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration")) {
-        SNode testMethod = test;
-        SNode testCase = SNodeOperations.getAncestor(test, "jetbrains.mps.baseLanguage.structure.ClassConcept", false, false);
-        ListSequence.fromList(params).addElement("-m");
-        ListSequence.fromList(params).addElement(INamedConcept_Behavior.call_getFqName_1213877404258(testCase) + "." + SPropertyOperations.getString(testMethod, "name"));
-      }
+      ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
     }
     ProcessBuilder p = new ProcessBuilder(params);
     this.component.appendInternal(this.getCommandString(p) + "\n\n");
@@ -58,6 +49,19 @@ public class UnitTestRunner extends BaseRunner {
     } catch (IOException e) {
       Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);
     }
+  }
+
+  public String getClasspath(SNode node) {
+    StringBuffer buff = new StringBuffer();
+    buff.append(super.getClasspath(node));
+    if (SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.unitTest.structure.ITestable")) {
+      SNode testable = (SNode)node;
+      List<String> pathes = ITestable_Behavior.call_getClassPathPart_1216045139515(testable);
+      for(String path : pathes) {
+        buff.append(path).append(BaseRunner.ps());
+      }
+    }
+    return buff.toString();
   }
 
 }
