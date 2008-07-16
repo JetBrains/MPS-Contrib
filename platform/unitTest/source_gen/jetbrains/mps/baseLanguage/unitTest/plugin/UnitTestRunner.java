@@ -30,6 +30,8 @@ public class UnitTestRunner extends BaseRunner {
       this.addDebug(params, this.unitTestPreferences.debugPort, false);
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getVirtualMachineParameters_1216140572223(ListSequence.fromList(tests).first())));
+    ListSequence.fromList(params).addElement("-Xdebug");
+    ListSequence.fromList(params).addElement("-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005");
     this.addClassPath(params, ListSequence.fromList(tests).first());
     ListSequence.fromList(params).addElement(TestRunner.class.getName());
     for(SNode test : tests) {
