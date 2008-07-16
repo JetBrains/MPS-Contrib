@@ -211,7 +211,7 @@ public class EventDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_initializerRefNodeCell12179_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("initializer");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no initializer>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_initializerRefNodeCell12179_0_internal(context, node, provider);

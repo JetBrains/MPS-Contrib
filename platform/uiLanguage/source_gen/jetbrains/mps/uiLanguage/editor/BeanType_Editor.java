@@ -27,7 +27,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell10311_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell10311_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -40,7 +40,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell10311_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell10311_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -57,7 +57,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell10311_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell10311_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -136,7 +136,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
   public EditorCell create_beanRefCell10311_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("bean");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no bean>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_beanRefCell10311_0_internal(context, node, provider);
@@ -187,7 +187,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell10311_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell10311_0_internal(context, node, provider);

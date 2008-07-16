@@ -38,7 +38,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell16249_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell16249_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -51,7 +51,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell16249_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell16249_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -72,7 +72,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell16249_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell16249_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -85,7 +85,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell16249_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell16249_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -98,7 +98,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell16249_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell16249_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -119,7 +119,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell16249_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell16249_03");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -132,7 +132,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell16249_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell16249_03");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -153,7 +153,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell16249_05(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell16249_05");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -166,7 +166,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell16249_04(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell16249_04");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -187,7 +187,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_ConstantCell16249_06(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell16249_06");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -423,7 +423,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_namePropertyCell16249_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no name>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_namePropertyCell16249_0_internal(context, node, provider);

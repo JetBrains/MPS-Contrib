@@ -83,7 +83,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
   public EditorCell create_attributeRefCell10631_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("attribute");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no attribute>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_attributeRefCell10631_0_internal(context, node, provider);
@@ -112,7 +112,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
   public EditorCell create_valueRefNodeCell10631_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("value");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no value>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_valueRefNodeCell10631_0_internal(context, node, provider);
@@ -164,7 +164,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell10631_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell10631_0_internal(context, node, provider);

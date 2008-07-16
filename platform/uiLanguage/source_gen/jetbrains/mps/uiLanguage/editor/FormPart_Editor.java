@@ -23,7 +23,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell12554_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell12554_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.DRAW_BRACKETS, true);
         }
@@ -36,7 +36,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell12554_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell12554_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -57,7 +57,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell12554_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell12554_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -74,7 +74,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell12554_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell12554_03");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -188,7 +188,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
   public EditorCell create_labelPropertyCell12554_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("label");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no label>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_labelPropertyCell12554_0_internal(context, node, provider);
@@ -217,7 +217,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
   public EditorCell create_contentRefNodeCell12554_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("content");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no content>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_contentRefNodeCell12554_0_internal(context, node, provider);

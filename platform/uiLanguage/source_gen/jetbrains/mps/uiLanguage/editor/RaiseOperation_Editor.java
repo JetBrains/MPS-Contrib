@@ -104,7 +104,7 @@ public class RaiseOperation_Editor extends DefaultNodeEditor {
   public EditorCell create_argumentRefNodeCell6203_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("argument");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no argument>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_argumentRefNodeCell6203_0_internal(context, node, provider);

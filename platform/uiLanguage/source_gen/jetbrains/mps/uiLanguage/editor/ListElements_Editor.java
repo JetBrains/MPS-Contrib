@@ -89,7 +89,7 @@ public class ListElements_Editor extends DefaultNodeEditor {
   public EditorCell create_valueRefNodeCell13642_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("value");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no value>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_valueRefNodeCell13642_0_internal(context, node, provider);

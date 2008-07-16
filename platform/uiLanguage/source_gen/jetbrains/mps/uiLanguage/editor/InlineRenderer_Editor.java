@@ -88,7 +88,7 @@ public class InlineRenderer_Editor extends DefaultNodeEditor {
   public EditorCell create_rendererRefNodeCell2353_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("renderer");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no renderer>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_rendererRefNodeCell2353_0_internal(context, node, provider);

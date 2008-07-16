@@ -89,7 +89,7 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
   public EditorCell create_constraintRefNodeCell19298_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("constraint");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no constraint>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_constraintRefNodeCell19298_0_internal(context, node, provider);

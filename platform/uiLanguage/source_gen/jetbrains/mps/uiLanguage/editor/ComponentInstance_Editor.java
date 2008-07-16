@@ -40,7 +40,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell11477_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell11477_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -57,7 +57,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell11477_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell11477_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -82,7 +82,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell11477_04(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell11477_04");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -104,7 +104,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell11477_05(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell11477_05");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -286,7 +286,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   public EditorCell create_componentDeclarationRefCell11477_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("componentDeclaration");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no componentDeclaration>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_componentDeclarationRefCell11477_0_internal(context, node, provider);
@@ -315,7 +315,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   public EditorCell create_namePropertyCell11477_01(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no name>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_namePropertyCell11477_01_internal(context, node, provider);
@@ -396,7 +396,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell11477_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell11477_0_internal(context, node, provider);

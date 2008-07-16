@@ -37,7 +37,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell4664_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell4664_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -54,7 +54,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
   private static void setupBasic_componentRefNodeListCell4664_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_componentRefNodeListCell4664_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.DRAW_BRACKETS, true);
         }

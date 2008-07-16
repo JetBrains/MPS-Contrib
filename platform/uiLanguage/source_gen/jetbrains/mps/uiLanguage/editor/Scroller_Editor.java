@@ -32,7 +32,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell9915_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell9915_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }

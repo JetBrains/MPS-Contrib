@@ -89,7 +89,7 @@ public class ActionHandler_Editor extends DefaultNodeEditor {
   public EditorCell create_handlerRefNodeCell9078_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("handler");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no handler>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_handlerRefNodeCell9078_0_internal(context, node, provider);

@@ -29,7 +29,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell5011_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell5011_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -49,7 +49,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell5011_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell5011_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -78,7 +78,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell5011_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell5011_03");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -230,7 +230,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_namePropertyCell5011_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no name>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_namePropertyCell5011_0_internal(context, node, provider);
@@ -259,7 +259,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_typeRefNodeCell5011_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("type");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no type>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_typeRefNodeCell5011_0_internal(context, node, provider);
@@ -288,7 +288,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_onChangeRefNodeCell5011_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("onChange");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no onChange>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_onChangeRefNodeCell5011_0_internal(context, node, provider);
@@ -317,7 +317,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell create_initializerRefNodeCell5011_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("initializer");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no initializer>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_initializerRefNodeCell5011_0_internal(context, node, provider);

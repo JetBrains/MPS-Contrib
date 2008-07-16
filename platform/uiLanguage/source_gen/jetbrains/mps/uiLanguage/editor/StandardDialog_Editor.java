@@ -41,7 +41,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6947_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6947_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -54,7 +54,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6947_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6947_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -76,7 +76,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6947_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6947_03");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -89,7 +89,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6947_04(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6947_04");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -111,7 +111,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6947_05(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6947_05");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -131,7 +131,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6947_06(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6947_06");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -319,7 +319,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell create_rootComponentRefNodeCell6947_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rootComponent");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no rootComponent>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_rootComponentRefNodeCell6947_0_internal(context, node, provider);

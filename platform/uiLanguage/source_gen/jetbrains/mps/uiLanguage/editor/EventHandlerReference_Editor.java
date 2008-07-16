@@ -43,7 +43,7 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
   public EditorCell create_handlerRefCell16605_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("handler");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no handler>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_handlerRefCell16605_0_internal(context, node, provider);
@@ -94,7 +94,7 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell16605_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell16605_0_internal(context, node, provider);

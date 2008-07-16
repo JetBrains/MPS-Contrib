@@ -35,7 +35,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell2164_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell2164_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -124,7 +124,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
   public EditorCell create_handlerRefNodeCell2164_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("handler");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no handler>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_handlerRefNodeCell2164_0_internal(context, node, provider);
@@ -153,7 +153,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
   public EditorCell create_eventRefCell2164_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("event");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no event>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_eventRefCell2164_0_internal(context, node, provider);
@@ -204,7 +204,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell2164_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell2164_0_internal(context, node, provider);

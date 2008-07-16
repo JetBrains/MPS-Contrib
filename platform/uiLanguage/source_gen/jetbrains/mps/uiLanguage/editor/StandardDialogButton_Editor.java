@@ -22,7 +22,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6097_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6097_0");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.DRAW_BRACKETS, true);
         }
@@ -35,7 +35,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6097_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6097_01");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -56,7 +56,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6097_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6097_02");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -77,7 +77,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   private static void setupBasic_CollectionCell6097_03(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_CollectionCell6097_03");
     {
-      Style inlineStyle = new Style() {
+      Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
@@ -201,7 +201,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   public EditorCell create_textPropertyCell6097_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("text");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no text>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_textPropertyCell6097_0_internal(context, node, provider);
@@ -230,7 +230,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   public EditorCell create_isDefaultPropertyCell6097_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("isDefault");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no isDefault>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_isDefaultPropertyCell6097_0_internal(context, node, provider);
@@ -259,7 +259,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
   public EditorCell create_handlerRefNodeCell6097_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("handler");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no handler>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_handlerRefNodeCell6097_0_internal(context, node, provider);

@@ -123,7 +123,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
   public EditorCell create_constructorRefCell12345_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("constructor");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no constructor>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_constructorRefCell12345_0_internal(context, node, provider);
@@ -174,7 +174,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
     public EditorCell create_namePropertyCell12345_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_namePropertyCell12345_0_internal(context, node, provider);
@@ -232,7 +232,6 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
       {
         EditorCell_Constant editorCell = new EditorCell_Constant(context, this.getOwner(), ",");
         editorCell.setSelectable(false);
-        editorCell.setLayoutConstraint("");
         return editorCell;
       }
     }
