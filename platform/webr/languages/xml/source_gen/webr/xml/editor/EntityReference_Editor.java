@@ -126,7 +126,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   public EditorCell create_entityDeclarationRefCell19326_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("entityDeclaration");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no entityDeclaration>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_entityDeclarationRefCell19326_0_internal(context, node, provider);
@@ -196,7 +196,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     public EditorCell create_entityNamePropertyCell19326_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("entityName");
-      provider.setNoTargetText("");
+      provider.setNoTargetText("<no entityName>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.create_entityNamePropertyCell19326_0_internal(context, node, provider);

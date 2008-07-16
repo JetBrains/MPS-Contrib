@@ -518,7 +518,7 @@ public class Element_Editor extends DefaultNodeEditor {
   public EditorCell create_contentListRefNodeCell8692_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("contentList");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no contentList>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_contentListRefNodeCell8692_0_internal(context, node, provider);
@@ -547,7 +547,7 @@ public class Element_Editor extends DefaultNodeEditor {
   public EditorCell create_contentListRefNodeCell8692_01(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("contentList");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no contentList>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_contentListRefNodeCell8692_01_internal(context, node, provider);

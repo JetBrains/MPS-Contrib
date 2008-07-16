@@ -178,7 +178,6 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
       {
         EditorCell_Constant editorCell = new EditorCell_Constant(context, this.getOwner(), ",");
         editorCell.setSelectable(false);
-        editorCell.setLayoutConstraint("");
         return editorCell;
       }
     }

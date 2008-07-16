@@ -55,7 +55,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
   public EditorCell create_elementDeclarationRefCell5079_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("elementDeclaration");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no elementDeclaration>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.create_elementDeclarationRefCell5079_0_internal(context, node, provider);

@@ -73,7 +73,7 @@ public class Text_Editor extends DefaultNodeEditor {
   public EditorCell create_textPropertyCell3522_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("text");
-    provider.setNoTargetText("");
+    provider.setNoTargetText("<no text>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(true);
     EditorCell cellWithRole = this.create_textPropertyCell3522_0_internal(context, node, provider);
