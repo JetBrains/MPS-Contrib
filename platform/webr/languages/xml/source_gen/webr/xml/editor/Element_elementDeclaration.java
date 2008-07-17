@@ -15,7 +15,7 @@ import webr.xmlSchema.editor.XmlSchema_StyleSheet;
 import jetbrains.mps.nodeEditor.ModelAccessor;
 import jetbrains.mps.nodeEditor.EditorCell_Property;
 import jetbrains.mps.nodeEditor.EditorCellAction;
-import jetbrains.mps.nodeEditor.CellAction_Empty;
+import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
 import webr.xmlSchema.behavior.ElementDeclaration_Behavior;
 
 public class Element_elementDeclaration extends AbstractCellProvider {
