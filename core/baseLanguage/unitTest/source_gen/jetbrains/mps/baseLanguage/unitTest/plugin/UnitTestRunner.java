@@ -7,7 +7,6 @@ import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
-import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunner;
 import java.util.concurrent.CyclicBarrier;
 import java.io.IOException;
 import jetbrains.mps.logging.Logger;
@@ -33,7 +32,7 @@ public class UnitTestRunner extends BaseRunner {
     ListSequence.fromList(params).addElement("-Xdebug");
     ListSequence.fromList(params).addElement("-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005");
     this.addClassPath(params, ListSequence.fromList(tests).first());
-    ListSequence.fromList(params).addElement(TestRunner.class.getName());
+    ListSequence.fromList(params).addElement(ITestable_Behavior.call_getTestRunner_1216389141390(ListSequence.fromList(tests).first()).getName());
     for(SNode test : tests) {
       ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
     }
