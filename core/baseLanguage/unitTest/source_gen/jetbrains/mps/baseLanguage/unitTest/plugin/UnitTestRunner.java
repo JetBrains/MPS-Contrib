@@ -29,8 +29,7 @@ public class UnitTestRunner extends BaseRunner {
       this.addDebug(params, this.unitTestPreferences.debugPort, false);
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getVirtualMachineParameters_1216140572223(ListSequence.fromList(tests).first())));
-    ListSequence.fromList(params).addElement("-Xdebug");
-    ListSequence.fromList(params).addElement("-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005");
+    this.addDebugParameters(params);
     this.addClassPath(params, ListSequence.fromList(tests).first());
     ListSequence.fromList(params).addElement(ITestable_Behavior.call_getTestRunner_1216389141390(ListSequence.fromList(tests).first()).getName());
     for(SNode test : tests) {
@@ -50,6 +49,11 @@ public class UnitTestRunner extends BaseRunner {
     } catch (IOException e) {
       Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);
     }
+  }
+
+  private void addDebugParameters(List<String> params) {
+    ListSequence.fromList(params).addElement("-Xdebug");
+    ListSequence.fromList(params).addElement("-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005");
   }
 
   public String getClasspath(SNode node) {
