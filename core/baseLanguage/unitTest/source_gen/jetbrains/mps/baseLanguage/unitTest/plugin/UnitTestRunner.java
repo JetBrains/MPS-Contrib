@@ -6,11 +6,11 @@ import jetbrains.mps.baseLanguage.plugin.BaseRunner;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import java.util.concurrent.CyclicBarrier;
 import java.io.IOException;
 import jetbrains.mps.logging.Logger;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 
 public class UnitTestRunner extends BaseRunner {
 
@@ -28,10 +28,11 @@ public class UnitTestRunner extends BaseRunner {
     if (this.unitTestPreferences.useDebug) {
       this.addDebug(params, this.unitTestPreferences.debugPort, false);
     }
-    ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getVirtualMachineParameters_1216140572223(ListSequence.fromList(tests).first())));
+    TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
+    ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
     this.addDebugParameters(params);
-    this.addClassPath(params, ListSequence.fromList(tests).first());
-    ListSequence.fromList(params).addElement(ITestable_Behavior.call_getTestRunner_1216389141390(ListSequence.fromList(tests).first()).getName());
+    this.addClassPath(params, this.getClasspathString(ListSequence.fromList(tests).first(), parameters.getCalssPath()));
+    ListSequence.fromList(params).addElement(parameters.getTestRunner());
     for(SNode test : tests) {
       ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
     }
@@ -56,15 +57,11 @@ public class UnitTestRunner extends BaseRunner {
     ListSequence.fromList(params).addElement("-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=5005");
   }
 
-  public String getClasspath(SNode node) {
+  public String getClasspathString(SNode node, List<String> addictionClassPath) {
     StringBuffer buff = new StringBuffer();
     buff.append(super.getClasspath(node));
-    if (SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.unitTest.structure.ITestable")) {
-      SNode testable = (SNode)node;
-      List<String> pathes = ITestable_Behavior.call_getClassPathPart_1216045139515(testable);
-      for(String path : pathes) {
-        buff.append(path).append(BaseRunner.ps());
-      }
+    for(String path : addictionClassPath) {
+      buff.append(path).append(BaseRunner.ps());
     }
     return buff.toString();
   }
