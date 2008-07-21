@@ -5,9 +5,13 @@ package jetbrains.mps.baseLanguage.unitTest.plugin;
 import jetbrains.mps.baseLanguage.plugin.BaseRunner;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.LinkedHashMap;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
+import java.util.ArrayList;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import java.util.Map;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.concurrent.CyclicBarrier;
 import java.io.IOException;
 import jetbrains.mps.logging.Logger;
@@ -23,12 +27,29 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   public void run(List<SNode> tests) {
+    LinkedHashMap<TestRunParameters, ArrayList<SNode>> map = new LinkedHashMap<TestRunParameters, ArrayList<SNode>>();
+    for(SNode test : tests) {
+      TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
+      if (MapSequence.fromMap(map).containsKey(parameters)) {
+        map.get(parameters).add(test);
+      } else
+      {
+        ArrayList<SNode> t = new ArrayList<SNode>();
+        t.add(test);
+        map.put(parameters, t);
+      }
+    }
+    for(Map.Entry<TestRunParameters, ArrayList<SNode>> entry : map.entrySet()) {
+      this.runTestWithParameters(entry.getKey(), entry.getValue());
+    }
+  }
+
+  private void runTestWithParameters(TestRunParameters parameters, List<SNode> tests) {
     List<String> params = ListSequence.<String>fromArray();
     this.addJavaCommand(params);
     if (this.unitTestPreferences.useDebug) {
       this.addDebug(params, this.unitTestPreferences.debugPort, false);
     }
-    TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
     this.addDebugParameters(params);
     this.addClassPath(params, this.getClasspathString(ListSequence.fromList(tests).first(), parameters.getCalssPath()));
