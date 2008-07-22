@@ -13,7 +13,6 @@ import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.concurrent.CyclicBarrier;
-import java.io.IOException;
 import jetbrains.mps.logging.Logger;
 
 public class UnitTestRunner extends BaseRunner {
@@ -51,7 +50,9 @@ public class UnitTestRunner extends BaseRunner {
       this.addDebug(params, this.unitTestPreferences.debugPort, false);
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
-    this.addDebugParameters(params);
+    /*
+      this.addDebugParameters(params);
+    */
     this.addClassPath(params, this.getClasspathString(ListSequence.fromList(tests).first(), parameters.getCalssPath()));
     ListSequence.fromList(params).addElement(parameters.getTestRunner());
     for(SNode test : tests) {
@@ -68,7 +69,7 @@ public class UnitTestRunner extends BaseRunner {
       errReader.setBarrier(barrier);
       outReader.start();
       errReader.start();
-    } catch (IOException e) {
+    } catch (Exception e) {
       Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);
     }
   }

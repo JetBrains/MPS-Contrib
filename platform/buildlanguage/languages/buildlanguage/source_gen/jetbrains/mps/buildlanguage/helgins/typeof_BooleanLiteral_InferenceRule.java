@@ -4,6 +4,7 @@ package jetbrains.mps.buildlanguage.helgins;
 
 import jetbrains.mps.bootstrap.helgins.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.helgins.inference.TypeChecker;
 import jetbrains.mps.smodel.SModelUtil_new;
 
@@ -15,7 +16,8 @@ public class typeof_BooleanLiteral_InferenceRule implements InferenceRule_Runtim
   public void applyRule(final SNode nodeToCheck) {
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(_nodeToCheck_1029348928467, "jetbrains.mps.buildlanguage.helgins", "1197049600040", true), new QuotationClass_2().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1197049606449");
+      BaseIntentionProvider intentionProvider = null;
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.buildlanguage.helgins", "1197049600040", true), new QuotationClass_2().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.buildlanguage.helgins", "1197049606449", intentionProvider);
     }
   }
 
