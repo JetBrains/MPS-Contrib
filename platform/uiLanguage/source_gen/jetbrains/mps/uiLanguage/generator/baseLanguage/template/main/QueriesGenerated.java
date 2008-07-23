@@ -236,29 +236,29 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1202395785142(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(_context.getNode(), "componentFactory");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "componentFactory");
   }
 
   public static Object referenceMacro_GetReferent_1202400661315(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(_context.getNode(), "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode instance = SNodeOperations.getParent(_context.getNode(), null, false, false);
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(instance, "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1202747104243(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1203087977763(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode instance = SNodeOperations.getParent(_context.getNode(), null, false, false);
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(instance, "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1203090308966(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(Scroller_Behavior.call_getWrappedComponent_1213877438937(_context.getNode()), "componentFactory");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(Scroller_Behavior.call_getWrappedComponent_1213877438937(_context.getNode()), "componentFactory");
   }
 
   public static Object referenceMacro_GetReferent_1209824360689(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -286,11 +286,11 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1210529781033(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(_context.getNode(), "renderer", true), "componentFactory");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "renderer", true), "componentFactory");
   }
 
   public static Object referenceMacro_GetReferent_1214994948553(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentClass");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentClass");
   }
 
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -536,11 +536,11 @@ public class QueriesGenerated {
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1208699801315(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsConstructor");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsConstructor");
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1209660923538(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getGenerator().findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsInitializer");
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsInitializer");
   }
 
 }
