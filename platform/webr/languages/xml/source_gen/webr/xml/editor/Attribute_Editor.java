@@ -6,8 +6,9 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -16,11 +17,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import webr.xmlSchema.editor.XmlColorConstants;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
 public class Attribute_Editor extends DefaultNodeEditor {
@@ -31,6 +27,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ConstantCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_0");
+    XmlStyle_StyleSheet.XML_OPERATOR.apply(editorCell);
   }
 
   private static void setupBasic_attributeDeclarationRefCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -39,13 +36,24 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ConstantCell15937_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_01");
+    XmlStyle_StyleSheet.XML_OPEN_QUOTE.apply(editorCell);
   }
 
   private static void setupBasic_ConstantCell15937_02(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell15937_02");
+    XmlStyle_StyleSheet.XML_CLOSE_QUOTE.apply(editorCell);
   }
 
   private static void setupBasic_valueRefNodeCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_ConstantCell15937_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -61,18 +69,6 @@ public class Attribute_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_valueRefNodeCell15937_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Color calculateColor1(EditorCell cell) {
-    Color result;
-    result = Attribute_Editor._Inline._QueryFunction_Color_1214399678672((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
   }
 
 
@@ -184,29 +180,10 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_attributeNamePropertyCell15937_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_attributeNamePropertyCell15937_0");
-      {
-        Style inlineStyle = new Style(editorCell) {
-          {
-            this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return Attribute_Editor.calculateColor1(cell);
-              }
-
-            });
-          }
-
-        };
-        inlineStyle.apply(editorCell);
-      }
+      XmlStyle_StyleSheet.XML_ATTRIBUTE.apply(editorCell);
     }
 
     private static void setupLabel_attributeNamePropertyCell15937_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
-    public static Color _QueryFunction_Color_1214399678672(SNode node, EditorContext editorContext) {
-      return XmlColorConstants.XML_COLOR;
     }
 
 

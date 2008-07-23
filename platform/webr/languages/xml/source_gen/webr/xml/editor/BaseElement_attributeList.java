@@ -14,6 +14,7 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.EditorCellAction;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
+import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
@@ -63,6 +64,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
 
     private static void setupBasic_ConstantCell5711_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell5711_0");
+      XmlStyle_StyleSheet.XML_EMPTY_CELL.apply(editorCell);
     }
 
     private static void setupLabel_ConstantCell5711_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -88,7 +90,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.create_ConstantCell5711_0(context, node, "");
+      return this.create_ConstantCell5711_0(context, node, "attr");
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
@@ -98,6 +100,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
         if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(EditorCellAction.DELETE, new CellAction_DeleteNode(elementNode));
+          elementCell.addKeyMap(new RefNodeListHandlerElementKeyMap(this, " "));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
@@ -106,7 +109,11 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     }
 
     public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+      {
+        EditorCell_Constant editorCell = new EditorCell_Constant(context, this.getOwner(), " ");
+        editorCell.setSelectable(false);
+        return editorCell;
+      }
     }
 
     public EditorCell create_ConstantCell5711_0(EditorContext context, SNode node, String text) {

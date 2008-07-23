@@ -13,9 +13,9 @@ import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.baseLanguage.ext.collections.internal.query.ListOperations;
 import webr.xmlSchema.behavior.ElementDeclaration_Behavior;
 import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class ElementUtil {
 
@@ -29,7 +29,7 @@ public class ElementUtil {
     if (!(includeThis)) {
       currentNode = SNodeOperations.getParent(node, null, false, false);
     }
-    while(true) {
+    while (true) {
       if ((currentNode == null)) {
         break;
       }
@@ -66,7 +66,7 @@ public class ElementUtil {
 
   public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node, IScope scope) {
     SNode schema = findSchema(node, scope);
-    Set elementDeclarationSet = new HashSet();
+    Set<SNode> elementDeclarationSet = new HashSet<SNode>();
     if ((elementDeclaration == null)) {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
         elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
@@ -80,7 +80,7 @@ public class ElementUtil {
       ElementDeclaration_Behavior.call_checkElements_ed_1213877429846(elementDeclaration, elementDeclarationSet);
     }
     List<SNode> elementDeclarations = new ArrayList<SNode>();
-    ListOperations.addAllElements(elementDeclarations, elementDeclarationSet);
+    ListSequence.fromList(elementDeclarations).addSequence(Sequence.fromIterable(elementDeclarationSet));
     return elementDeclarations;
   }
 

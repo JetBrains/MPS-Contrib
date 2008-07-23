@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import webr.xmlSchema.editor.XmlSchema_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.EditorCellAction;
@@ -77,7 +76,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
 
     private static void setupBasic_ModelAccessCell5079_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ModelAccessCell5079_0");
-      XmlSchema_StyleSheet.XML_ELEMENT.apply(editorCell);
+      XmlStyle_StyleSheet.XML_ELEMENT.apply(editorCell);
     }
 
     private static void setupLabel_ModelAccessCell5079_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

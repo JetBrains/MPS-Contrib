@@ -9,7 +9,6 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -17,8 +16,6 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import webr.xmlSchema.editor.XmlColorConstants;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
 public class EntityReference_Editor extends DefaultNodeEditor {
@@ -29,19 +26,12 @@ public class EntityReference_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ConstantCell19326_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell19326_0");
+    XmlStyle_StyleSheet.XML_OPEN_PAREN.apply(editorCell);
   }
 
   private static void setupBasic_ConstantCell19326_01(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_ConstantCell19326_01");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XmlStyle_StyleSheet.XML_CLOSE_PAREN.apply(editorCell);
   }
 
   private static void setupBasic_entityDeclarationRefCell19326_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -64,18 +54,6 @@ public class EntityReference_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_entityDeclarationRefCell19326_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Color calculateColor2(EditorCell cell) {
-    Color result;
-    result = EntityReference_Editor._Inline1._QueryFunction_Color_1214399678739((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
   }
 
 
@@ -148,28 +126,10 @@ public class EntityReference_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_entityNamePropertyCell19326_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, node.getId() + "_entityNamePropertyCell19326_0");
-      {
-        Style inlineStyle = new Style(editorCell) {
-          {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return EntityReference_Editor.calculateColor2(cell);
-              }
-
-            });
-          }
-
-        };
-        inlineStyle.apply(editorCell);
-      }
+      XmlStyle_StyleSheet.XML_ENTITY.apply(editorCell);
     }
 
     private static void setupLabel_entityNamePropertyCell19326_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
-    public static Color _QueryFunction_Color_1214399678739(SNode node, EditorContext editorContext) {
-      return XmlColorConstants.XML_COLOR;
     }
 
 

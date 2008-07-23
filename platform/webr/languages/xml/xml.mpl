@@ -47,6 +47,8 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="true">webr.gtext</dependency>
+    <dependency reexport="false">JDK</dependency>
+    <dependency reexport="false">jetbrains.mps.baseLanguage</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguages>webr.gtext</usedLanguages>

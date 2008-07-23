@@ -716,7 +716,9 @@
                 <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintsFunctionParameter_node" id="1213104847441" />
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetAncestorOperation" id="1213104847442">
                   <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Concept" id="1213104847443">
-                    <link role="concept" targetNodeId="1.1163629230879" resolveInfo="ContentList" />
+                    <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1216813352515">
+                      <link role="conceptDeclaration" targetNodeId="1.1163629230879" resolveInfo="ContentList" />
+                    </node>
                   </node>
                 </node>
               </node>
