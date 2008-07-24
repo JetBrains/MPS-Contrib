@@ -10,6 +10,7 @@
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="0" />
   </language>
+  <language namespace="jetbrains.mps.transformation.generationContext" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.springframework.configuration.constraints" version="6" />
@@ -17,12 +18,13 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
   <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <maxImportIndex value="12" />
+  <maxImportIndex value="13" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <import index="3" modelUID="jetbrains.mps.generator.template@java_stub" version="-1" />
   <import index="4" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="9" modelUID="jetbrains.mps.util@java_stub" version="-1" />
   <import index="10" modelUID="java.lang@java_stub" version="-1" />
+  <import index="13" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template.main@templates" version="-1" />
   <visible index="2" modelUID="jetbrains.mps.core.structure" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1169555993608">
     <property name="name" value="DatesQueriesUtil" />
@@ -62,8 +64,8 @@
             <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1169556693999">
               <link role="variableDeclaration" targetNodeId="1169556059137" resolveInfo="node" />
             </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1169556696610">
-              <link role="variableDeclaration" targetNodeId="1169556061998" resolveInfo="generator" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1216936139454">
+              <link role="variableDeclaration" targetNodeId="1216936126937" resolveInfo="genctx" />
             </node>
           </node>
         </node>
@@ -72,11 +74,9 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1169556059138" />
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1169556061998">
-        <property name="name" value="generator" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1169556092043">
-          <link role="classifier" targetNodeId="3.~ITemplateGenerator" resolveInfo="ITemplateGenerator" />
-        </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1216936126937">
+        <property name="name" value="genctx" />
+        <node role="type" type="jetbrains.mps.transformation.generationContext.structure.GenerationContextType" id="1216936126938" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546172054" />
     </node>
@@ -107,18 +107,15 @@
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173736559743">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208987574727">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1173736559744">
-              <link role="variableDeclaration" targetNodeId="1169556655708" resolveInfo="generator" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1216936028892">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1216936033135">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1216936031554">
+              <link role="variableDeclaration" targetNodeId="1216936012088" resolveInfo="genctx" />
             </node>
-            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208987574728">
-              <link role="baseMethodDeclaration" targetNodeId="3.~ITemplateGenerator.findOutputNodeByInputNodeAndMappingName(jetbrains.mps.smodel.SNode,java.lang.String):jetbrains.mps.smodel.SNode" resolveInfo="findOutputNodeByInputNodeAndMappingName" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1173736573522">
+            <node role="operation" type="jetbrains.mps.transformation.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" id="1216936036000">
+              <link role="label" targetNodeId="13.1215475877847" resolveInfo="FormatTableClass" />
+              <node role="inputNode" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1216936057569">
                 <link role="variableDeclaration" targetNodeId="1169556647965" resolveInfo="table" />
-              </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1173736573523">
-                <property name="value" value="FormatTableClass" />
               </node>
             </node>
           </node>
@@ -128,11 +125,9 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1169556653848" />
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1169556655708">
-        <property name="name" value="generator" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1169556659054">
-          <link role="classifier" targetNodeId="3.~ITemplateGenerator" resolveInfo="ITemplateGenerator" />
-        </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1216936012088">
+        <property name="name" value="genctx" />
+        <node role="type" type="jetbrains.mps.transformation.generationContext.structure.GenerationContextType" id="1216936012089" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546172523" />
     </node>
@@ -153,8 +148,8 @@
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1173733949454">
                 <link role="variableDeclaration" targetNodeId="1169556590581" resolveInfo="node" />
               </node>
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1173733949455">
-                <link role="variableDeclaration" targetNodeId="1169556593192" resolveInfo="generator" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1216936165694">
+                <link role="variableDeclaration" targetNodeId="1216936158252" resolveInfo="genctx" />
               </node>
             </node>
           </node>
@@ -226,8 +221,20 @@
           <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1169556941502">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1169556949852">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208987576429">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1169556949853">
-                  <link role="variableDeclaration" targetNodeId="1169556593192" resolveInfo="generator" />
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1216936226952">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1216936215541">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="1216936215542">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1216936215543">
+                        <link role="variableDeclaration" targetNodeId="1216936158252" resolveInfo="genctx" />
+                      </node>
+                      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1216936221654">
+                        <link role="classifier" targetNodeId="3.~TemplateQueryContext" resolveInfo="TemplateQueryContext" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1216936228845">
+                    <link role="baseMethodDeclaration" targetNodeId="3.~TemplateQueryContext.getGenerator():jetbrains.mps.generator.template.ITemplateGenerator" resolveInfo="getGenerator" />
+                  </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208987576430">
                   <link role="baseMethodDeclaration" targetNodeId="3.~ITemplateGenerator.showErrorMessage(jetbrains.mps.smodel.SNode,java.lang.String):void" resolveInfo="showErrorMessage" />
@@ -252,11 +259,9 @@
         <property name="name" value="node" />
         <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1169556590582" />
       </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1169556593192">
-        <property name="name" value="generator" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1169556596663">
-          <link role="classifier" targetNodeId="3.~ITemplateGenerator" resolveInfo="ITemplateGenerator" />
-        </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1216936158252">
+        <property name="name" value="genctx" />
+        <node role="type" type="jetbrains.mps.transformation.generationContext.structure.GenerationContextType" id="1216936158253" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546172071" />
     </node>
