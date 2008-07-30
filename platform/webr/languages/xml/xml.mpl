@@ -20,7 +20,7 @@
         <usedLanguages>webr.gtext</usedLanguages>
       </usedLanguages>
       <mapping-priorities>
-        <mapping-priority-rule type="strictly_before">
+        <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
             <mapping-node modelUID="webr.xml.generator.baseLanguage.template.rewrite@templates" nodeID="*" />
           </greater-priority-mapping>
@@ -28,7 +28,7 @@
             <mapping-node modelUID="webr.xml.generator.baseLanguage.template.main@templates" nodeID="*" />
           </lesser-priority-mapping>
         </mapping-priority-rule>
-        <mapping-priority-rule type="strictly_before">
+        <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
             <mapping-node modelUID="webr.xml.generator.baseLanguage.template.main@templates" nodeID="*" />
           </greater-priority-mapping>
