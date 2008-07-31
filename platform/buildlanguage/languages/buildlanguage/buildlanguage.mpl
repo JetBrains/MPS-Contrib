@@ -32,7 +32,6 @@
     <source path="${mps_home}\platform\buildlanguage\source" />
   </sourcePath>
   <dependencies>
-    <dependency reexport="true">jetbrains.mps.mpsProjectLanguage</dependency>
     <dependency reexport="true">MPS.Classpath</dependency>
     <dependency reexport="true">jetbrains.mps.baseLanguage.strings</dependency>
     <dependency reexport="false">jetbrains.mps.regexp.examples</dependency>
