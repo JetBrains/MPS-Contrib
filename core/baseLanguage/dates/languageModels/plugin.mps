@@ -35,7 +35,6 @@
   <node type="jetbrains.mps.bootstrap.pluginLanguage.structure.ActionDeclaration" id="1213192856943">
     <property name="name" value="ConvertDateTimeOperations"/>
     <property name="caption" value="convert date time operations"/>
-    <link role="extendedAction" targetNodeId="2.~BaseAction" resolveInfo="BaseAction"/>
     <node role="executeFunction" type="jetbrains.mps.bootstrap.pluginLanguage.structure.ExecuteBlock"
           id="1213192856944">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213192856945">
