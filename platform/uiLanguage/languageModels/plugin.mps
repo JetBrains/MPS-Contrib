@@ -76,11 +76,6 @@
         </node>
       </node>
     </node>
-    <node role="tabs" type="jetbrains.mps.bootstrap.pluginLanguage.structure.MultitabbedEditorTab" id="1217519395592">
-      <node role="getNodesBlock" type="jetbrains.mps.bootstrap.pluginLanguage.structure.GetNodesBlock" id="1217519395593">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1217519395594" />
-      </node>
-    </node>
     <node role="tabs" type="jetbrains.mps.bootstrap.pluginLanguage.structure.SingletabbedEditorTab" id="1207331165230">
       <property name="name" value="Controller" />
       <property name="emptyCaption" value="No Controller" />
