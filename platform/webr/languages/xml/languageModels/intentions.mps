@@ -574,7 +574,7 @@
               <node role="instance" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1195668458239">
                 <link role="baseMethodDeclaration" targetNodeId="8.~AbstractEditorComponent.getNodeRangeSelection():jetbrains.mps.nodeEditor.NodeRangeSelection" resolveInfo="getNodeRangeSelection" />
                 <node role="instance" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1195668433127">
-                  <link role="baseMethodDeclaration" targetNodeId="8.~EditorContext.getNodeEditorComponent():jetbrains.mps.nodeEditor.AbstractEditorComponent" resolveInfo="getNodeEditorComponent" />
+                  <link role="baseMethodDeclaration" targetNodeId="8.~EditorContext.getNodeEditorComponent():jetbrains.mps.nodeEditor.EditorComponent" resolveInfo="getNodeEditorComponent" />
                   <node role="instance" type="jetbrains.mps.bootstrap.sharedConcepts.structure.ConceptFunctionParameter_editorContext" id="1195668428749" />
                 </node>
               </node>
