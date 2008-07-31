@@ -12,6 +12,7 @@ import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.smodel.ModelAccess;
 import java.util.concurrent.CyclicBarrier;
 import jetbrains.mps.logging.Logger;
 
@@ -26,7 +27,7 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   public void run(List<SNode> tests) {
-    LinkedHashMap<TestRunParameters, ArrayList<SNode>> map = new LinkedHashMap<TestRunParameters, ArrayList<SNode>>();
+    final LinkedHashMap<TestRunParameters, ArrayList<SNode>> map = new LinkedHashMap<TestRunParameters, ArrayList<SNode>>();
     for(SNode test : tests) {
       TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
       if (MapSequence.fromMap(map).containsKey(parameters)) {
@@ -38,26 +39,45 @@ public class UnitTestRunner extends BaseRunner {
         map.put(parameters, t);
       }
     }
-    for(Map.Entry<TestRunParameters, ArrayList<SNode>> entry : map.entrySet()) {
-      this.runTestWithParameters(entry.getKey(), entry.getValue());
-    }
+    final UnitTestRunner runner = this;
+    Thread thread = new Thread(new Runnable() {
+
+      public void run() {
+        for(Map.Entry<TestRunParameters, ArrayList<SNode>> entry : map.entrySet()) {
+          runner.runTestWithParameters(entry.getKey(), entry.getValue());
+        }
+      }
+
+    });
+    thread.setDaemon(true);
+    thread.start();
   }
 
-  private void runTestWithParameters(TestRunParameters parameters, List<SNode> tests) {
-    List<String> params = ListSequence.<String>fromArray();
+  private void runTestWithParameters(final TestRunParameters parameters, final List<SNode> tests) {
+    final List<String> params = ListSequence.<String>fromArray();
     this.addJavaCommand(params);
     if (this.unitTestPreferences.useDebug) {
       this.addDebug(params, this.unitTestPreferences.debugPort, false);
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
-    /*
-      this.addDebugParameters(params);
-    */
-    this.addClassPath(params, this.getClasspathString(ListSequence.fromList(tests).first(), parameters.getCalssPath()));
+    this.addDebugParameters(params);
+    ModelAccess.instance().runReadAction(new Runnable() {
+
+      public void run() {
+        UnitTestRunner.this.addClassPath(params, UnitTestRunner.this.getClasspathString(ListSequence.fromList(tests).first(), parameters.getCalssPath()));
+      }
+
+    });
     ListSequence.fromList(params).addElement(parameters.getTestRunner());
-    for(SNode test : tests) {
-      ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
-    }
+    ModelAccess.instance().runReadAction(new Runnable() {
+
+      public void run() {
+        for(SNode test : tests) {
+          ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
+        }
+      }
+
+    });
     ProcessBuilder p = new ProcessBuilder(params);
     this.component.appendInternal(this.getCommandString(p) + "\n\n");
     try {
@@ -69,6 +89,7 @@ public class UnitTestRunner extends BaseRunner {
       errReader.setBarrier(barrier);
       outReader.start();
       errReader.start();
+      pro.waitFor();
     } catch (Exception e) {
       Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);
     }
