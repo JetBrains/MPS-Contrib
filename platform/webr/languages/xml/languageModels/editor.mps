@@ -227,7 +227,7 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227944675">
                 <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227893608">
                   <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1175117942059" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccessAsNode" id="1175117950654">
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1217631029811">
                     <link role="link" targetNodeId="1.1179114219774" />
                   </node>
                 </node>

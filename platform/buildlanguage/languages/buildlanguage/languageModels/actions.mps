@@ -687,7 +687,7 @@
                       <link role="link" targetNodeId="1.1197399327856" />
                     </node>
                   </node>
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1203443616801">
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631028873">
                     <link role="link" targetNodeId="1.1197398804591" />
                   </node>
                 </node>

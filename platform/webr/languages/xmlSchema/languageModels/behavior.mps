@@ -46,7 +46,7 @@
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877199079">
               <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877199080" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1213877199081">
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029213">
                 <link role="link" targetNodeId="1.1167795626698" />
               </node>
             </node>
@@ -95,7 +95,7 @@
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877199099">
               <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877199100" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1213877199101">
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029682">
                 <link role="link" targetNodeId="1.1167795626698" />
               </node>
             </node>
@@ -154,7 +154,7 @@
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877199124">
               <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877199125" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1213877199126">
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029601">
                 <link role="link" targetNodeId="1.1167795626698" />
               </node>
             </node>
@@ -221,7 +221,7 @@
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877199153">
               <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877199154" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1213877199155">
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029309">
                 <link role="link" targetNodeId="1.1167795626698" />
               </node>
             </node>
@@ -442,7 +442,7 @@
                   <link role="link" targetNodeId="1.1167711433182" />
                 </node>
               </node>
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1213877281035">
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029455">
                 <link role="link" targetNodeId="1.1167711088999" />
               </node>
             </node>

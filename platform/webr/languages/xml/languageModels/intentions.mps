@@ -217,7 +217,7 @@
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195647309646">
                 <link role="variableDeclaration" targetNodeId="1195647309637" resolveInfo="contentList" />
               </node>
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1195647309647">
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631028663">
                 <link role="link" targetNodeId="1.1163629255661" />
               </node>
             </node>

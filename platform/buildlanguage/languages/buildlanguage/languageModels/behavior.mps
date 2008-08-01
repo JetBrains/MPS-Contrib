@@ -859,7 +859,7 @@
                       <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877231998">
                         <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877231999">
                           <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877232000" />
-                          <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccessAsList" id="1213877232001">
+                          <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029406">
                             <link role="link" targetNodeId="1.1196853776690" />
                           </node>
                         </node>

@@ -13,7 +13,6 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyO
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
-import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
@@ -40,7 +39,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "contentList", true);
   }
 
-  public static List sourceNodesQuery_1191201293826(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_1191201293826(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "attribute", true);
   }
 
