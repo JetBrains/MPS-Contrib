@@ -755,16 +755,18 @@
       <link role="overriddenMethod" targetNodeId="1213877382378" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877419658">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213877419659">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1213877419660">
-            <link role="baseMethodDeclaration" targetNodeId="3.~Set.add(java.lang.Object):boolean" resolveInfo="add" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877419661">
-              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877419662" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1213877419663">
-                <link role="link" targetNodeId="1.1167531079758" />
-              </node>
-            </node>
-            <node role="instance" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1213877419664">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217628851898">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1213877419664">
               <link role="variableDeclaration" targetNodeId="1213877419665" resolveInfo="elementDeclarations" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628851899">
+              <link role="baseMethodDeclaration" targetNodeId="3.~Set.add(java.lang.Object):boolean" resolveInfo="add" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877419661">
+                <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877419662" />
+                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1213877419663">
+                  <link role="link" targetNodeId="1.1167531079758" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
@@ -865,12 +867,14 @@
       <link role="overriddenMethod" targetNodeId="1213877382378" resolveInfo="checkElements" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877429838">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213877429839">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1213877429840">
-            <link role="baseMethodDeclaration" targetNodeId="3.~Set.add(java.lang.Object):boolean" resolveInfo="add" />
-            <node role="instance" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1213877429841">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217628871506">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1213877429841">
               <link role="variableDeclaration" targetNodeId="1213877429843" resolveInfo="elementDeclarations" />
             </node>
-            <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877429842" />
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628871507">
+              <link role="baseMethodDeclaration" targetNodeId="3.~Set.add(java.lang.Object):boolean" resolveInfo="add" />
+              <node role="actualArgument" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877429842" />
+            </node>
           </node>
         </node>
       </node>
