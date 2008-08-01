@@ -412,7 +412,7 @@
                   </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1201708533149">
-                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Expression" id="1201708638854">
+                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.PoundExpression" id="1217631635076">
                     <node role="expression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1201708640794">
                       <link role="variableDeclaration" targetNodeId="1201708620113" resolveInfo="type" />
                     </node>
@@ -456,7 +456,7 @@
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1201708533165">
-                    <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Expression" id="1201708647687">
+                    <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.PoundExpression" id="1217631634960">
                       <node role="expression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1201708647688">
                         <link role="variableDeclaration" targetNodeId="1201708620113" resolveInfo="type" />
                       </node>
@@ -495,7 +495,7 @@
                       </node>
                     </node>
                     <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1201708533183">
-                      <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Expression" id="1201708651362">
+                      <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.PoundExpression" id="1217631634993">
                         <node role="expression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1201708651363">
                           <link role="variableDeclaration" targetNodeId="1201708620113" resolveInfo="type" />
                         </node>

@@ -491,7 +491,9 @@
                 <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="1213104840341" />
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetAncestorOperation" id="1213104840342">
                   <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Concept" id="1213104840343">
-                    <link role="concept" targetNodeId="1.1167523027466" resolveInfo="Element" />
+                    <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1217631635359">
+                      <link role="conceptDeclaration" targetNodeId="1.1167523027466" resolveInfo="Element" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -775,7 +777,9 @@
                 <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="1213104860630" />
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetAncestorOperation" id="1213104860631">
                   <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Concept" id="1213104860632">
-                    <link role="concept" targetNodeId="1.1167523027466" resolveInfo="Element" />
+                    <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1217631635122">
+                      <link role="conceptDeclaration" targetNodeId="1.1167523027466" resolveInfo="Element" />
+                    </node>
                   </node>
                 </node>
               </node>
