@@ -7956,7 +7956,9 @@
               <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="1213104860253" />
               <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetAncestorsOperation" id="1213104860254">
                 <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Concept" id="1213104860255">
-                  <link role="concept" targetNodeId="2.1196862084542" resolveInfo="IPropertyHolder" />
+                  <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1217587706530">
+                    <link role="conceptDeclaration" targetNodeId="2.1196862084542" resolveInfo="IPropertyHolder" />
+                  </node>
                 </node>
                 <node role="parameter" type="jetbrains.mps.bootstrap.smodelLanguage.structure.OperationParm_Inclusion" id="1213104860256" />
               </node>
@@ -7982,10 +7984,12 @@
             </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213104860265">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1213104860266">
-              <link role="baseMethodDeclaration" targetNodeId="1.~SimpleSearchScope.&lt;init&gt;(java.util.List)" resolveInfo="SimpleSearchScope" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104860267">
-                <link role="variableDeclaration" targetNodeId="1213104860245" resolveInfo="result" />
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217587709643">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217587709645">
+                <link role="baseMethodDeclaration" targetNodeId="1.~SimpleSearchScope.&lt;init&gt;(java.util.List)" resolveInfo="SimpleSearchScope" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104860267">
+                  <link role="variableDeclaration" targetNodeId="1213104860245" resolveInfo="result" />
+                </node>
               </node>
             </node>
           </node>
