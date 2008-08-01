@@ -63,14 +63,14 @@
                 </node>
               </node>
             </node>
-            <node role="rightExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1195647309216">
-              <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.IsNotEmptyOperation" id="1195647309220" />
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217625350641">
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227880937">
                 <node role="operand" type="jetbrains.mps.bootstrap.intentionsLanguage.structure.ConceptFunctionParameter_node" id="1195647309218" />
                 <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1195647309219">
                   <link role="conceptMethodDeclaration" targetNodeId="2v.1213877224308" resolveInfo="getSubcontents" />
                 </node>
               </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.IsNotEmptyOperation" id="1195647309220" />
             </node>
           </node>
         </node>
@@ -227,11 +227,11 @@
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1195647309649">
             <property name="name" value="count" />
             <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1195647309650" />
-            <node role="initializer" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1195647309651">
-              <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.GetSizeOperation" id="1195647309653" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217625319397">
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195647309652">
                 <link role="variableDeclaration" targetNodeId="1195647309643" resolveInfo="contents" />
               </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.GetSizeOperation" id="1195647309653" />
             </node>
           </node>
         </node>
@@ -266,11 +266,11 @@
                   </node>
                   <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1195647309669">
                     <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227889691">
-                      <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1195647309671">
-                        <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.GetFirstOperation" id="1195647309673" />
+                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217625317538">
                         <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195647309672">
                           <link role="variableDeclaration" targetNodeId="1195647309643" resolveInfo="contents" />
                         </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.GetFirstOperation" id="1195647309673" />
                       </node>
                       <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1195647309674">
                         <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1195647309675">
@@ -282,11 +282,11 @@
                       <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227933731">
                         <node role="operand" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeTypeCastExpression" id="1195647309678">
                           <link role="concept" targetNodeId="1.1161373262136" resolveInfo="Text" />
-                          <node role="leftExpression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1195647309679">
-                            <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.GetFirstOperation" id="1195647309681" />
+                          <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217625317823">
                             <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195647309680">
                               <link role="variableDeclaration" targetNodeId="1195647309643" resolveInfo="contents" />
                             </node>
+                            <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.GetFirstOperation" id="1195647309681" />
                           </node>
                         </node>
                         <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1195647309682">
@@ -569,14 +569,20 @@
                 <link role="classifier" targetNodeId="7.~SNode" resolveInfo="SNode" />
               </node>
             </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1195668462196">
-              <link role="baseMethodDeclaration" targetNodeId="8.~NodeRangeSelection.getNodes():java.util.List" resolveInfo="getNodes" />
-              <node role="instance" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1195668458239">
-                <link role="baseMethodDeclaration" targetNodeId="8.~AbstractEditorComponent.getNodeRangeSelection():jetbrains.mps.nodeEditor.NodeRangeSelection" resolveInfo="getNodeRangeSelection" />
-                <node role="instance" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCall" id="1195668433127">
-                  <link role="baseMethodDeclaration" targetNodeId="8.~EditorContext.getNodeEditorComponent():jetbrains.mps.nodeEditor.EditorComponent" resolveInfo="getNodeEditorComponent" />
-                  <node role="instance" type="jetbrains.mps.bootstrap.sharedConcepts.structure.ConceptFunctionParameter_editorContext" id="1195668428749" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217626573449">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217626567757">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217626565817">
+                  <node role="operand" type="jetbrains.mps.bootstrap.sharedConcepts.structure.ConceptFunctionParameter_editorContext" id="1195668428749" />
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217626565818">
+                    <link role="baseMethodDeclaration" targetNodeId="8.~EditorContext.getNodeEditorComponent():jetbrains.mps.nodeEditor.EditorComponent" resolveInfo="getNodeEditorComponent" />
+                  </node>
                 </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217626567758">
+                  <link role="baseMethodDeclaration" targetNodeId="8.~EditorComponent.getNodeRangeSelection():jetbrains.mps.nodeEditor.NodeRangeSelection" resolveInfo="getNodeRangeSelection" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217626573450">
+                <link role="baseMethodDeclaration" targetNodeId="8.~NodeRangeSelection.getNodes():java.util.List" resolveInfo="getNodes" />
               </node>
             </node>
           </node>

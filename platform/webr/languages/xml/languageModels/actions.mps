@@ -89,7 +89,10 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1188771354440">
                 <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1188771354441">
                   <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1188771382031">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.SequenceOperationExpression" id="1188771385299">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217625325809">
+                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1188771382032">
+                        <link role="variableDeclaration" targetNodeId="1188771333577" resolveInfo="attributeDeclarations" />
+                      </node>
                       <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddAllElementsOperation" id="1188771388440">
                         <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227880435">
                           <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1188771395741">
@@ -99,9 +102,6 @@
                             <link role="conceptMethodDeclaration" targetNodeId="15.1213877429821" />
                           </node>
                         </node>
-                      </node>
-                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1188771382032">
-                        <link role="variableDeclaration" targetNodeId="1188771333577" resolveInfo="attributeDeclarations" />
                       </node>
                     </node>
                   </node>
