@@ -12,12 +12,7 @@ public class BooleanLiteral_Behavior {
   }
 
   public static String virtual_toString_1213877472569(SNode thisNode) {
-    if (SPropertyOperations.getBoolean(thisNode, "value")) {
-      return "true";
-    } else
-    {
-      return "false";
-    }
+    return SPropertyOperations.getBoolean(thisNode, "value") + "";
   }
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {

@@ -1595,27 +1595,16 @@
       <property name="name" value="toString" />
       <link role="overriddenMethod" targetNodeId="1213877472569" resolveInfo="toString" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877335037">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1213877335038">
-          <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877335039">
-            <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1213877335040" />
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1213877335041">
-              <link role="property" targetNodeId="1.1196866040780" resolveInfo="value" />
-            </node>
-          </node>
-          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877335042">
-            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213877335043">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1213877335044">
-                <property name="value" value="true" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1217860472714">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1217860509900">
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217860486645">
+              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1217860474473" />
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1217860488287">
+                <link role="property" targetNodeId="1.1196866040780" resolveInfo="value" />
               </node>
             </node>
-          </node>
-          <node role="ifFalseStatement" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="1213877335045">
-            <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877335046">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213877335047">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1213877335048">
-                  <property name="value" value="false" />
-                </node>
-              </node>
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1217860511350">
+              <property name="value" value="" />
             </node>
           </node>
         </node>
