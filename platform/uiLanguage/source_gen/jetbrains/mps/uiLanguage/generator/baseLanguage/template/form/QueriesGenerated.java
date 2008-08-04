@@ -54,7 +54,7 @@ public class QueriesGenerated {
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1202822661803(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getGenerator().findCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "content", true));
+    return _context.getCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "content", true));
   }
 
 }

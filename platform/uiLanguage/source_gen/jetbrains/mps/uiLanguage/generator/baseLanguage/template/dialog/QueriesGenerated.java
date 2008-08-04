@@ -8,7 +8,6 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyO
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
-import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
 
@@ -26,12 +25,12 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "rootComponent", true);
   }
 
-  public static List sourceNodesQuery_1202833810237(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_1202833810237(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "button", true);
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1202834159580(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getGenerator().findCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "rootComponent", true));
+    return _context.getCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "rootComponent", true));
   }
 
 }
