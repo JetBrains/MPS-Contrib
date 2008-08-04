@@ -380,8 +380,10 @@
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ThrowStatement" id="1213877288037">
-          <node role="throwable" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1213877288038">
-            <link role="baseMethodDeclaration" targetNodeId="3.~RuntimeException.&lt;init&gt;()" resolveInfo="RuntimeException" />
+          <node role="throwable" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888406519">
+            <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888406521">
+              <link role="baseMethodDeclaration" targetNodeId="3.~RuntimeException.&lt;init&gt;()" resolveInfo="RuntimeException" />
+            </node>
           </node>
         </node>
       </node>
@@ -419,8 +421,10 @@
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ThrowStatement" id="1213877288055">
-          <node role="throwable" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1213877288056">
-            <link role="baseMethodDeclaration" targetNodeId="3.~RuntimeException.&lt;init&gt;()" resolveInfo="RuntimeException" />
+          <node role="throwable" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888418722">
+            <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888418740">
+              <link role="baseMethodDeclaration" targetNodeId="3.~RuntimeException.&lt;init&gt;()" resolveInfo="RuntimeException" />
+            </node>
           </node>
         </node>
       </node>
