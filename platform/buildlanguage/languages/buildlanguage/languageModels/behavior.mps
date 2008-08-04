@@ -840,8 +840,10 @@
             <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877231988">
               <link role="classifier" targetNodeId="3.~StringBuffer" resolveInfo="StringBuffer" />
             </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1213877231989">
-              <link role="baseMethodDeclaration" targetNodeId="3.~StringBuffer.&lt;init&gt;()" resolveInfo="StringBuffer" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888400886">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888400888">
+                <link role="baseMethodDeclaration" targetNodeId="3.~StringBuffer.&lt;init&gt;()" resolveInfo="StringBuffer" />
+              </node>
             </node>
           </node>
         </node>
@@ -3245,8 +3247,10 @@
             <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877413903">
               <link role="classifier" targetNodeId="3.~StringBuffer" resolveInfo="StringBuffer" />
             </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1213877413904">
-              <link role="baseMethodDeclaration" targetNodeId="3.~StringBuffer.&lt;init&gt;()" resolveInfo="StringBuffer" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888398591">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888398593">
+                <link role="baseMethodDeclaration" targetNodeId="3.~StringBuffer.&lt;init&gt;()" resolveInfo="StringBuffer" />
+              </node>
             </node>
           </node>
         </node>

@@ -271,8 +271,10 @@
               <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1209041659231">
                 <link role="classifier" targetNodeId="4.~DateTime" resolveInfo="DateTime" />
               </node>
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1209041659232">
-                <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.&lt;init&gt;()" resolveInfo="DateTime" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888412620">
+                <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888412622">
+                  <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.&lt;init&gt;()" resolveInfo="DateTime" />
+                </node>
               </node>
             </node>
           </node>
@@ -333,8 +335,10 @@
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1171979471028">
             <node role="expected" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986614329">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1171979476481">
-                <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.&lt;init&gt;()" resolveInfo="DateTime" />
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888363621">
+                <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888363623">
+                  <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.&lt;init&gt;()" resolveInfo="DateTime" />
+                </node>
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986614330">
                 <link role="baseMethodDeclaration" targetNodeId="5.~AbstractDateTime.toString(java.lang.String):java.lang.String" resolveInfo="toString" />
@@ -611,8 +615,10 @@
               <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1171974263051">
                 <link role="classifier" targetNodeId="8.~Date" resolveInfo="Date" />
               </node>
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1171974263052">
-                <link role="baseMethodDeclaration" targetNodeId="8.~Date.&lt;init&gt;()" resolveInfo="Date" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888336973">
+                <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888336975">
+                  <link role="baseMethodDeclaration" targetNodeId="8.~Date.&lt;init&gt;()" resolveInfo="Date" />
+                </node>
               </node>
             </node>
           </node>
@@ -692,8 +698,10 @@
               <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1172066567859">
                 <link role="classifier" targetNodeId="4.~DateTime" resolveInfo="DateTime" />
               </node>
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1172066743704">
-                <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.&lt;init&gt;()" resolveInfo="DateTime" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888373373">
+                <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888373375">
+                  <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.&lt;init&gt;()" resolveInfo="DateTime" />
+                </node>
               </node>
             </node>
           </node>

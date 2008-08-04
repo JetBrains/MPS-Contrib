@@ -844,16 +844,18 @@
       <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1178296860495">
         <link role="classifier" targetNodeId="43.~Color" resolveInfo="Color" />
       </node>
-      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1178296869102">
-        <link role="baseMethodDeclaration" targetNodeId="43.~Color.&lt;init&gt;(int,int,int)" resolveInfo="Color" />
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1178296887030">
-          <property name="value" value="134" />
-        </node>
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1178296891329">
-          <property name="value" value="114" />
-        </node>
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1178296894550">
-          <property name="value" value="93" />
+      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888358991">
+        <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888358993">
+          <link role="baseMethodDeclaration" targetNodeId="43.~Color.&lt;init&gt;(int,int,int)" resolveInfo="Color" />
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1178296887030">
+            <property name="value" value="134" />
+          </node>
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1178296891329">
+            <property name="value" value="114" />
+          </node>
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1178296894550">
+            <property name="value" value="93" />
+          </node>
         </node>
       </node>
     </node>

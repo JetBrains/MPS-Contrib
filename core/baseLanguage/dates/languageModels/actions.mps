@@ -911,8 +911,10 @@
             <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1178202906607">
               <link role="classifier" targetNodeId="20.~IAdaptiveProgressMonitor" resolveInfo="IAdaptiveProgressMonitor" />
             </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1178202915684">
-              <link role="baseMethodDeclaration" targetNodeId="20.~NullAdaptiveProgressMonitor.&lt;init&gt;()" resolveInfo="NullAdaptiveProgressMonitor" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888372539">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888372541">
+                <link role="baseMethodDeclaration" targetNodeId="20.~NullAdaptiveProgressMonitor.&lt;init&gt;()" resolveInfo="NullAdaptiveProgressMonitor" />
+              </node>
             </node>
           </node>
         </node>

@@ -619,13 +619,15 @@
     </node>
     <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.Locale" id="1172681500391">
       <property name="name" value="RUSSIAN" />
-      <node role="javaLocale" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1172681751386">
-        <link role="baseMethodDeclaration" targetNodeId="2.~Locale.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolveInfo="Locale" />
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681769380">
-          <property name="value" value="ru" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888416907">
+        <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888416909">
+          <link role="baseMethodDeclaration" targetNodeId="2.~Locale.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolveInfo="Locale" />
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681769380">
+            <property name="value" value="ru" />
+          </node>
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681773251" />
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681775640" />
         </node>
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681773251" />
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681775640" />
       </node>
     </node>
     <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.Locale" id="1172681359631">
@@ -735,15 +737,17 @@
     </node>
     <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.Locale" id="1172681496091">
       <property name="name" value="RU" />
-      <node role="javaLocale" type="jetbrains.mps.baseLanguage.structure.NewExpression" id="1172681884658">
-        <link role="baseMethodDeclaration" targetNodeId="2.~Locale.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolveInfo="Locale" />
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681892068">
-          <property name="value" value="ru" />
+      <node role="javaLocale" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888377293">
+        <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888377311">
+          <link role="baseMethodDeclaration" targetNodeId="2.~Locale.&lt;init&gt;(java.lang.String,java.lang.String,java.lang.String)" resolveInfo="Locale" />
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681892068">
+            <property name="value" value="ru" />
+          </node>
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681896703">
+            <property name="value" value="RU" />
+          </node>
+          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681900121" />
         </node>
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681896703">
-          <property name="value" value="RU" />
-        </node>
-        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172681900121" />
       </node>
     </node>
     <node role="locale" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.Locale" id="1172681413400">
