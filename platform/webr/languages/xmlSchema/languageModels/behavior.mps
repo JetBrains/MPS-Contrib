@@ -484,8 +484,26 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877281049" />
     </node>
   </node>
+  <visible index="2" modelUID="jetbrains.mps.core.behavior" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1213877283472">
     <link role="concept" targetNodeId="1.1172950047361" resolveInfo="EntityDeclaration" />
+    <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1217959511826">
+      <property name="name" value="getPresentation" />
+      <link role="overriddenMethod" targetNodeId="2v.1213877396640" resolveInfo="getPresentation" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1217959511828">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1217959519814">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217959522132">
+            <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ThisNodeExpression" id="1217959519815" />
+            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1217959523596">
+              <link role="property" targetNodeId="1.1172959826115" resolveInfo="entityName" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1217959516870">
+        <link role="classifier" targetNodeId="4.~String" resolveInfo="String" />
+      </node>
+    </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1213877283473">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877283474" />
     </node>
