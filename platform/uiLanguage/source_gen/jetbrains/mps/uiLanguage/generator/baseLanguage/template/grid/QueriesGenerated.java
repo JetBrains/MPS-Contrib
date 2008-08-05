@@ -7,7 +7,6 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.uiLanguage.behavior.Grid_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
-import java.util.List;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.uiLanguage.behavior.GridRow_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
@@ -26,15 +25,15 @@ public class QueriesGenerated {
     return _context.getNode();
   }
 
-  public static List sourceNodesQuery_1202825291118(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_1202825291118(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return GridRow_Behavior.call_getRowComponents_1213877252264(_context.getNode());
   }
 
-  public static List sourceNodesQuery_1202825294699(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_1202825294699(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "row", true);
   }
 
-  public static List sourceNodesQuery_1203604100897(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_1203604100897(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "content", true);
   }
 
