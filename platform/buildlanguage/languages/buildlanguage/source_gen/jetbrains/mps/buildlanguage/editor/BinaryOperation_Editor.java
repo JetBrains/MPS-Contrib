@@ -4,11 +4,11 @@ package jetbrains.mps.buildlanguage.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -18,32 +18,6 @@ import jetbrains.mps.bootstrap.editorLanguage.cellProviders.ConceptPropertyCellP
 import jetbrains.mps.bootstrap.editorLanguage.generator.internal.AbstractCellMenuPart_ReplaceNode_CustomNodeConcept;
 
 public class BinaryOperation_Editor extends DefaultNodeEditor {
-
-  private static void setupBasic_Collection_11971080898721197108089872(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1197108089872");
-  }
-
-  private static void setupBasic_refNode_left1197108091296(EditorCell editorCell, SNode node, EditorContext context) {
-    BinaryOperation_LeftArgument_Actions.setCellActions(editorCell, node, context);
-  }
-
-  private static void setupBasic_conceptProperty_operation1197108103094(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_operation");
-  }
-
-  private static void setupBasic_refNode_right1197108106565(EditorCell editorCell, SNode node, EditorContext context) {
-    BinaryOperation_RightArgument_Actions.setCellActions(editorCell, node, context);
-  }
-
-  private static void setupLabel_refNode_left_1197108091296(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_conceptProperty_operation_1197108103094(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNode_right_1197108106565(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1197108089872(context, node);
@@ -147,6 +121,32 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
+  }
+
+
+  private static void setupBasic_Collection_11971080898721197108089872(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1197108089872");
+  }
+
+  private static void setupBasic_refNode_left1197108091296(EditorCell editorCell, SNode node, EditorContext context) {
+    BinaryOperation_LeftArgument_Actions.setCellActions(editorCell, node, context);
+  }
+
+  private static void setupBasic_conceptProperty_operation1197108103094(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_operation");
+  }
+
+  private static void setupBasic_refNode_right1197108106565(EditorCell editorCell, SNode node, EditorContext context) {
+    BinaryOperation_RightArgument_Actions.setCellActions(editorCell, node, context);
+  }
+
+  private static void setupLabel_refNode_left_1197108091296(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_conceptProperty_operation_1197108103094(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNode_right_1197108106565(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class BinaryOperation_Editor_replaceWith_BinaryOperation_cellMenu extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {

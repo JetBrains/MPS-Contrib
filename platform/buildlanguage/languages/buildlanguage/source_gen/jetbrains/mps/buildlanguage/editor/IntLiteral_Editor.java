@@ -4,24 +4,15 @@ package jetbrains.mps.buildlanguage.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class IntLiteral_Editor extends DefaultNodeEditor {
-
-  private static void setupBasic_property_value1196866674973(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
-    BuildLanguageStyle_StyleSheet.INTEGER_LITERAL.apply(editorCell);
-  }
-
-  private static void setupLabel_property_value_1196866674973(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createProperty1196866674973(context, node);
@@ -54,6 +45,15 @@ public class IntLiteral_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
+  }
+
+
+  private static void setupBasic_property_value1196866674973(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
+    BuildLanguageStyle_StyleSheet.INTEGER_LITERAL.apply(editorCell);
+  }
+
+  private static void setupLabel_property_value_1196866674973(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

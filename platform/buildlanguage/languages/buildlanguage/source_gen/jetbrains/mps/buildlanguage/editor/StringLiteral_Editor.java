@@ -4,47 +4,17 @@ package jetbrains.mps.buildlanguage.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class StringLiteral_Editor extends DefaultNodeEditor {
-
-  private static void setupBasic_Collection_11968611015301196861101530(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1196861101530");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_11968611065631196861106563(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1196861106563");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
-  }
-
-  private static void setupBasic_property_value1196861109049(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_11968611171921196861117192(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1196861117192");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
-  }
-
-  private static void setupLabel_Constant_1196861106563_1196861106563(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_property_value_1196861109049(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1196861117192_1196861117192(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1196861101530(context, node);
@@ -105,6 +75,36 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
+  }
+
+
+  private static void setupBasic_Collection_11968611015301196861101530(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1196861101530");
+    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+  }
+
+  private static void setupBasic_Constant_11968611065631196861106563(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1196861106563");
+    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+  }
+
+  private static void setupBasic_property_value1196861109049(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
+    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+  }
+
+  private static void setupBasic_Constant_11968611171921196861117192(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1196861117192");
+    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+  }
+
+  private static void setupLabel_Constant_1196861106563_1196861106563(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_property_value_1196861109049(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1196861117192_1196861117192(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }
