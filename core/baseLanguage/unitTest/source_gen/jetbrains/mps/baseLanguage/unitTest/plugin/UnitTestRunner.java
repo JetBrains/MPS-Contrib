@@ -56,8 +56,8 @@ public class UnitTestRunner extends BaseRunner {
   private void runTestWithParameters(final TestRunParameters parameters, final List<SNode> tests) {
     final List<String> params = ListSequence.<String>fromArray();
     this.addJavaCommand(params);
-    if (this.unitTestPreferences.getState().useDebug) {
-      this.addDebug(params, this.unitTestPreferences.getState().debugPort, false);
+    if (this.unitTestPreferences.getStateObject().useDebug) {
+      this.addDebug(params, this.unitTestPreferences.getStateObject().debugPort, false);
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
     this.addDebugParameters(params);
