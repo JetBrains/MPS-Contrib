@@ -19,12 +19,12 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_1167336746563(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    _context.getGenerator().showErrorMessage(_context.getNode(), "trying to generate abstract BaseText");
+    _context.showErrorMessage(_context.getNode(), "trying to generate abstract BaseText");
     return true;
   }
 
   public static boolean baseMappingRule_Condition_1167337362467(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    _context.getGenerator().showErrorMessage(_context.getNode(), "trying to generate abstract Content");
+    _context.showErrorMessage(_context.getNode(), "trying to generate abstract Content");
     return true;
   }
 
