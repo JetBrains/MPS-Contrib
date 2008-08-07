@@ -88,7 +88,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1202395335440(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return _context.getGenerator().getGeneratorSessionContext().createUniqueName("createComponent");
+    return _context.createUniqueName("createComponent", null);
   }
 
   public static Object propertyMacro_GetPropertyValue_1202395953748(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -107,7 +107,7 @@ public class QueriesGenerated {
     {
       baseName = "myComponent";
     }
-    return _context.getGenerator().getGeneratorSessionContext().createUniqueName(baseName);
+    return _context.createUniqueName(baseName, null);
   }
 
   public static Object propertyMacro_GetPropertyValue_1202466134243(final IOperationContext operationContext, final PropertyMacroContext _context) {
