@@ -1604,6 +1604,9 @@
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1209035311050">
       <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
       <link role="styleClass" targetNodeId="3v.1186415544875" resolveInfo="KeyWord" />
+      <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.PaddingRightStyleClassItem" id="1218186932893">
+        <property name="value" value="0.0" />
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1209035822356">
