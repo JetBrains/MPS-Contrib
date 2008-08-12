@@ -64,7 +64,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefCell1201702787271_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new ImportProject_Editor._Inline11());
+    provider.setAuxiliaryCellProvider(new ImportProject_Editor._Inline7288_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_project1201702787271(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -111,9 +111,9 @@ public class ImportProject_Editor extends DefaultNodeEditor {
   private static void setupLabel_refCell_project_1201702787271(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  public static class _Inline11 extends AbstractCellProvider {
+  public static class _Inline7288_0 extends AbstractCellProvider {
 
-    public _Inline11() {
+    public _Inline7288_0() {
       super();
     }
 

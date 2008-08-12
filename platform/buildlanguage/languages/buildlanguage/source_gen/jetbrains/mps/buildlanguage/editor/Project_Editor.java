@@ -70,7 +70,7 @@ public class Project_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell9(context, node));
+    editorCell.addEditorCell(this.createIndentCell5773_0(context, node));
     editorCell.addEditorCell(this.createCollection1196858960929(context, node));
     return editorCell;
   }
@@ -228,7 +228,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNodeList1196858964306(EditorContext context, SNode node) {
     if (this.myListHandler_1196858964306 == null) {
-      this.myListHandler_1196858964306 = new Project_Editor.targetListHandler_(node, "target", context);
+      this.myListHandler_1196858964306 = new Project_Editor.targetListHandler_5773_0(node, "target", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_1196858964306.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_refNodeList_target1196858964306(editorCell, node, context);
@@ -241,7 +241,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNodeList1196858966198(EditorContext context, SNode node) {
     if (this.myListHandler_1196858966198 == null) {
-      this.myListHandler_1196858966198 = new Project_Editor.propertyListHandler_(node, "property", context);
+      this.myListHandler_1196858966198 = new Project_Editor.propertyListHandler_5773_0(node, "property", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_1196858966198.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_refNodeList_property1196858966198(editorCell, node, context);
@@ -254,7 +254,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNodeList1198941249598(EditorContext context, SNode node) {
     if (this.myListHandler_1198941249598 == null) {
-      this.myListHandler_1198941249598 = new Project_Editor.pathsListHandler_(node, "paths", context);
+      this.myListHandler_1198941249598 = new Project_Editor.pathsListHandler_5773_0(node, "paths", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_1198941249598.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_refNodeList_paths1198941249598(editorCell, node, context);
@@ -267,7 +267,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNodeList1200427256986(EditorContext context, SNode node) {
     if (this.myListHandler_1200427256986 == null) {
-      this.myListHandler_1200427256986 = new Project_Editor.importPropertiesListHandler_(node, "importProperties", context);
+      this.myListHandler_1200427256986 = new Project_Editor.importPropertiesListHandler_5773_0(node, "importProperties", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_1200427256986.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_refNodeList_importProperties1200427256986(editorCell, node, context);
@@ -280,7 +280,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNodeList1201702909272(EditorContext context, SNode node) {
     if (this.myListHandler_1201702909272 == null) {
-      this.myListHandler_1201702909272 = new Project_Editor.importProjectListHandler_(node, "importProject", context);
+      this.myListHandler_1201702909272 = new Project_Editor.importProjectListHandler_5773_0(node, "importProject", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_1201702909272.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_refNodeList_importProject1201702909272(editorCell, node, context);
@@ -291,7 +291,7 @@ public class Project_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell9(EditorContext context, SNode node) {
+  public EditorCell createIndentCell5773_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
@@ -752,9 +752,9 @@ public class Project_Editor extends DefaultNodeEditor {
   private static void setupLabel_Constant_1209912607968_1209912607968(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  public static class targetListHandler_ extends RefNodeListHandler {
+  public static class targetListHandler_5773_0 extends RefNodeListHandler {
 
-    public targetListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public targetListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -816,9 +816,9 @@ public class Project_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class propertyListHandler_ extends RefNodeListHandler {
+  public static class propertyListHandler_5773_0 extends RefNodeListHandler {
 
-    public propertyListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public propertyListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -880,9 +880,9 @@ public class Project_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class pathsListHandler_ extends RefNodeListHandler {
+  public static class pathsListHandler_5773_0 extends RefNodeListHandler {
 
-    public pathsListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public pathsListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -944,9 +944,9 @@ public class Project_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class importPropertiesListHandler_ extends RefNodeListHandler {
+  public static class importPropertiesListHandler_5773_0 extends RefNodeListHandler {
 
-    public importPropertiesListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public importPropertiesListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -1008,9 +1008,9 @@ public class Project_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class importProjectListHandler_ extends RefNodeListHandler {
+  public static class importProjectListHandler_5773_0 extends RefNodeListHandler {
 
-    public importProjectListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public importProjectListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

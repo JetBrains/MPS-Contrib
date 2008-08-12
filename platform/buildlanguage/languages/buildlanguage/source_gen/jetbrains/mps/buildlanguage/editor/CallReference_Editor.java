@@ -22,7 +22,7 @@ public class CallReference_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefCell1200511941176_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new CallReference_Editor._Inline6());
+    provider.setAuxiliaryCellProvider(new CallReference_Editor._Inline1153_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_call1200511941176(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -57,9 +57,9 @@ public class CallReference_Editor extends DefaultNodeEditor {
   private static void setupLabel_refCell_call_1200511941176(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  public static class _Inline6 extends AbstractCellProvider {
+  public static class _Inline1153_0 extends AbstractCellProvider {
 
-    public _Inline6() {
+    public _Inline1153_0() {
       super();
     }
 

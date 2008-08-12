@@ -37,7 +37,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    if (renderingCondition15(node, context, context.getOperationContext().getScope())) {
+    if (renderingCondition5641_0(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection1201252757121(context, node));
     }
     editorCell.addEditorCell(this.createCollection1201252713894(context, node));
@@ -50,7 +50,7 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, new BasicCellContext(node), new SubstituteInfoPart[]{new PropertyDeclaration_Editor.PropertyDeclaration_generic_cellMenu()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, new BasicCellContext(node), new SubstituteInfoPart[]{new PropertyDeclaration_Editor.PropertyDeclaration_generic_cellMenu0()}));
     editorCell.addEditorCell(this.createConceptProperty1201252713895(context, node));
     editorCell.addEditorCell(this.createProperty1201252713896(context, node));
     editorCell.addEditorCell(this.createConstant1201252713897(context, node, ":"));
@@ -320,13 +320,13 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
   private static void setupLabel_property_shortDescription_1201252778983(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  public static boolean renderingCondition15(SNode node, EditorContext editorContext, IScope scope) {
+  public static boolean renderingCondition5641_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getString(node, "shortDescription") != null;
   }
 
-  public static class PropertyDeclaration_generic_cellMenu extends AbstractCellMenuPart_Generic_Item {
+  public static class PropertyDeclaration_generic_cellMenu0 extends AbstractCellMenuPart_Generic_Item {
 
-    public PropertyDeclaration_generic_cellMenu() {
+    public PropertyDeclaration_generic_cellMenu0() {
     }
 
     public void handleAction(SNode node, SModel model, IScope scope, IOperationContext operationContext) {

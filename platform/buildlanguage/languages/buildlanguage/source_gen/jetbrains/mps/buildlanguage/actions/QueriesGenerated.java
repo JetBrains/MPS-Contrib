@@ -120,7 +120,7 @@ public class QueriesGenerated {
           }
 
           public boolean canSubstitute_internal(String pattern, boolean strictly) {
-            return _PrecompiledPatterns.REGEXP.matcher(pattern).matches();
+            return _PrecompiledPatterns.REGEXP0.matcher(pattern).matches();
           }
 
           public String getMatchingText(String pattern) {
@@ -168,17 +168,18 @@ public class QueriesGenerated {
 
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
-        assert queryResult != null;
-        for(final SNode item : queryResult) {
-          result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+        if (queryResult != null) {
+          for(final SNode item : queryResult) {
+            result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
-            public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-              SNode node = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringLiteral", null);
-              SPropertyOperations.set(node, "value", SPropertyOperations.getString((item), "value"));
-              return node;
-            }
+              public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+                SNode node = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringLiteral", null);
+                SPropertyOperations.set(node, "value", SPropertyOperations.getString((item), "value"));
+                return node;
+              }
 
-          });
+            });
+          }
         }
       }
     }

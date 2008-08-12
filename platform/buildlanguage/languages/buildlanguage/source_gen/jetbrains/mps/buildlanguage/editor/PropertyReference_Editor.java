@@ -22,7 +22,7 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefCell1196860246497_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new PropertyReference_Editor._Inline1());
+    provider.setAuxiliaryCellProvider(new PropertyReference_Editor._Inline1318_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_propertyDeclaration1196860246497(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -58,9 +58,9 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
   private static void setupLabel_refCell_propertyDeclaration_1196860246497(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  public static class _Inline1 extends AbstractCellProvider {
+  public static class _Inline1318_0 extends AbstractCellProvider {
 
-    public _Inline1() {
+    public _Inline1318_0() {
       super();
     }
 

@@ -1857,5 +1857,13 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1218551662190">
+    <property name="package" value="Expressions" />
+    <link role="conceptDeclaration" targetNodeId="1.1218548668666" resolveInfo="MultiLineString" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNodeList" id="1218551685247">
+      <property name="vertical" value="true" />
+      <link role="relationDeclaration" targetNodeId="1.1218548706208" />
+    </node>
+  </node>
 </model>
 
