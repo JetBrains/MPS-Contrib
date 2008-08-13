@@ -188,7 +188,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActions" id="1197109279495">
-    <property name="name" value="BinaryOperation_RightTransform" />
+    <property name="name" value="BinaryOperation_SideTransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1197109326624">
       <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
@@ -248,6 +248,71 @@
             <property name="text" value="+" />
           </node>
           <node role="descriptionText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransform_SimpleString" id="1197109410630">
+            <property name="text" value="plus operation" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1218634224062">
+      <property name="useNewActions" value="true" />
+      <property name="side" value="left" />
+      <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
+      <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1218634224063">
+        <link role="concept" targetNodeId="1.1197108973325" resolveInfo="PlusOperation" />
+        <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SimpleSideTransformMenuPart" id="1218634224064">
+          <node role="handler" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_SideTransform_Handler" id="1218634224065">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1218634224066">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1218634224067">
+                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1218634224068">
+                  <property name="name" value="newNode" />
+                  <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1218634224069">
+                    <link role="concept" targetNodeId="1.1197108973325" resolveInfo="PlusOperation" />
+                  </node>
+                  <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1218634224070">
+                    <node role="creator" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeCreator" id="1218634224071">
+                      <node role="createdType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1218634224072">
+                        <link role="concept" targetNodeId="1.1197108973325" resolveInfo="PlusOperation" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1218634224073">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1218634224074">
+                  <node role="operand" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_sourceNode" id="1218634224075" />
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ReplaceWithAnotherOperation" id="1218634224076">
+                    <node role="parameter" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1218634224077">
+                      <link role="variableDeclaration" targetNodeId="1218634224068" resolveInfo="newNode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1218634224078">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1218634224079">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1218634224080">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1218634224081">
+                      <link role="variableDeclaration" targetNodeId="1218634224068" resolveInfo="newNode" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1218634224082">
+                      <link role="link" targetNodeId="1.1197107881958" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Link_SetTargetOperation" id="1218634224083">
+                    <node role="parameter" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_sourceNode" id="1218634224084" />
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1218634224085">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1218634224086">
+                  <link role="variableDeclaration" targetNodeId="1218634224068" resolveInfo="newNode" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransform_SimpleString" id="1218634224087">
+            <property name="text" value="+" />
+          </node>
+          <node role="descriptionText" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransform_SimpleString" id="1218634268629">
             <property name="text" value="plus operation" />
           </node>
         </node>

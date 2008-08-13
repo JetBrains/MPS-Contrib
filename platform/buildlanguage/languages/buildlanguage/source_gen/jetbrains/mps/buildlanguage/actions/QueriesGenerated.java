@@ -236,4 +236,30 @@ public class QueriesGenerated {
     return result;
   }
 
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_PropertyValueExpression_1218634224062(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      AbstractConceptDeclaration concept = SModelUtil_new.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation", operationContext.getScope());
+      result.add(new AbstractSideTransformHintSubstituteAction(BaseAdapter.fromAdapter(concept), _context.getSourceNode()) {
+
+        public SNode doSubstitute(String pattern) {
+          SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
+          SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
+          SLinkOperations.setTarget(newNode, "right", _context.getSourceNode(), true);
+          return newNode;
+        }
+
+        public String getMatchingText(String pattern) {
+          return "+";
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "plus operation";
+        }
+
+      });
+    }
+    return result;
+  }
+
 }
