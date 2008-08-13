@@ -30,7 +30,6 @@
   <import index="3" modelUID="java.lang@java_stub" version="-1"/>
   <import index="5" modelUID="jetbrains.mps.smodel@java_stub" version="-1"/>
   <import index="6" modelUID="jetbrains.mps.ide.ui.smodel@java_stub" version="-1"/>
-  <import index="7" modelUID="jetbrains.mps.workbench.action@java_stub" version="-1"/>
   <import index="8" modelUID="jetbrains.mps.uiLanguage.structure@java_stub" version="-1"/>
   <visible index="2" modelUID="jetbrains.mps.uiLanguage.behavior"/>
   <node type="jetbrains.mps.bootstrap.pluginLanguage.structure.TabbedEditorDeclaration" id="1207330934917">

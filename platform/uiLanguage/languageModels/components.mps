@@ -10,9 +10,7 @@
     <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83"/>
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0"/>
   </language>
-  <language namespace="jetbrains.mps.baseLanguage.classifiers">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7"/>
-  </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7"/>
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2"/>
   <maxImportIndex value="6"/>
   <import index="1" modelUID="java.lang@java_stub" version="-1"/>
