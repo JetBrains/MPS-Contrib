@@ -5,7 +5,6 @@ package jetbrains.mps.uiLanguage.samples.componentMethods;
 import jetbrains.mps.uiLanguage.runtime.events.Events;
 import org.jdesktop.beansbinding.AutoBinding;
 
-import javax.swing.JCheckBox;
 import javax.swing.JFrame;
 import java.awt.Dimension;
 import java.util.ArrayList;
@@ -14,7 +13,6 @@ import java.util.List;
 public class SimpleFrame extends JFrame {
 
   public SimpleFrame myThis;
-  private JCheckBox myComponent0;
   public List<AutoBinding> myBindings = new ArrayList<AutoBinding>();
   private Events myEvents = new Events(null) {
     {
@@ -32,11 +30,6 @@ public class SimpleFrame extends JFrame {
     component.setSize(new Dimension(400, 300));
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setVisible(true);
-    component.add(this.createComponent0());
-    component.setVisible( < !Expression
-    TextGen not
-    found
-    ! >);
     this.myEvents.initialize();
     {
       int i = 0;
@@ -66,12 +59,6 @@ public class SimpleFrame extends JFrame {
         binding.unbind();
       }
     }
-  }
-
-  private JCheckBox createComponent0() {
-    JCheckBox component = new JCheckBox();
-    this.myComponent0 = component;
-    return component;
   }
 
   /* package */void anotherSimpleMethod(int a, int b) {
