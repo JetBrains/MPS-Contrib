@@ -18,6 +18,9 @@
     <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
     <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   </language>
+  <language namespace="jetbrains.mps.baseLanguage.strings">
+    <languageAspect modelUID="jetbrains.mps.baseLanguage.strings.constraints" version="1" />
+  </language>
   <languageAspect modelUID="jetbrains.mps.bootstrap.sharedConcepts.constraints" version="0" />
   <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="32" />
   <languageAspect modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
@@ -37,9 +40,6 @@
     <link role="concept" targetNodeId="1.1200504738494" resolveInfo="PropertyNode" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1213877341757">
       <property name="name" value="getFileName" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877341758">
-        <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
-      </node>
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877341759">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213877341760">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1213877341761">
@@ -58,6 +58,7 @@
           </node>
         </node>
       </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1218726851618" />
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1213877341768">
       <property name="name" value="getProperties" />
