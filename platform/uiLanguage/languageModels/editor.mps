@@ -538,6 +538,10 @@
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property"
               id="1202388874487">
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name"/>
+          <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.PaddingLeftStyleClassItem"
+                id="1218735504060">
+            <property name="value" value="1.0"/>
+          </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection"
               id="1204896114259">

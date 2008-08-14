@@ -16,32 +16,6 @@ import jetbrains.mps.smodel.SNode;
 
 public class LayoutConstraint_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_Collection_12027398975651202739897565(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202739897565");
-  }
-
-  private static void setupBasic_Constant_12027398985671202739898567(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202739898567");
-    Stylesheet_StyleSheet.LAYOUT_CONSTRAINT.apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_12027399042091202739904209(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202739904209");
-  }
-
-  private static void setupBasic_refNode_constraint1202739906524(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1202739898567_1202739898567(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1202739904209_1202739904209(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNode_constraint_1202739906524(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1202739897565(context, node);
   }
@@ -101,6 +75,32 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
       return cellWithRole;
+  }
+
+
+  private static void setupBasic_Collection_12027398975651202739897565(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202739897565");
+  }
+
+  private static void setupBasic_Constant_12027398985671202739898567(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202739898567");
+    Stylesheet_StyleSheet.LAYOUT_CONSTRAINT.apply(editorCell);
+  }
+
+  private static void setupBasic_Constant_12027399042091202739904209(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202739904209");
+  }
+
+  private static void setupBasic_refNode_constraint1202739906524(EditorCell editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1202739898567_1202739898567(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1202739904209_1202739904209(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNode_constraint_1202739906524(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

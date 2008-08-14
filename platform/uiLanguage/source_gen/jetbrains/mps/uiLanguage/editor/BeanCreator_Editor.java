@@ -25,39 +25,6 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
 
   /* package */ AbstractCellListHandler myListHandler_1207754440327;
 
-  private static void setupBasic_Collection_12077544178641207754417864(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1207754417864");
-  }
-
-  private static void setupBasic_refCell_constructor1207754420256(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_constructor");
-  }
-
-  private static void setupBasic_Constant_12077544316051207754431605(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207754431605");
-  }
-
-  private static void setupBasic_Constant_12077544358721207754435872(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207754435872");
-  }
-
-  private static void setupBasic_refNodeList_parameter1207754440327(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_parameter");
-  }
-
-  private static void setupLabel_refCell_constructor_1207754420256(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1207754431605_1207754431605(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1207754435872_1207754435872(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNodeList_parameter_1207754440327(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1207754417864(context, node);
   }
@@ -93,7 +60,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNodeList1207754440327(EditorContext context, SNode node) {
     if (this.myListHandler_1207754440327 == null) {
-      this.myListHandler_1207754440327 = new BeanCreator_Editor.parameterListHandler_(node, "parameter", context);
+      this.myListHandler_1207754440327 = new BeanCreator_Editor.parameterListHandler_3920_0(node, "parameter", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_1207754440327.createCells(context, new CellLayout_Horizontal(), false);
     setupBasic_refNodeList_parameter1207754440327(editorCell, node, context);
@@ -106,7 +73,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefCell1207754420256_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new BeanCreator_Editor._Inline10());
+    provider.setAuxiliaryCellProvider(new BeanCreator_Editor._Inline3920_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_constructor1207754420256(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -133,19 +100,44 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
       return cellWithRole;
   }
 
-  public static class _Inline10 extends AbstractCellProvider {
 
-    public _Inline10() {
+  private static void setupBasic_Collection_12077544178641207754417864(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1207754417864");
+  }
+
+  private static void setupBasic_refCell_constructor1207754420256(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_constructor");
+  }
+
+  private static void setupBasic_Constant_12077544316051207754431605(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207754431605");
+  }
+
+  private static void setupBasic_Constant_12077544358721207754435872(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207754435872");
+  }
+
+  private static void setupBasic_refNodeList_parameter1207754440327(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_parameter");
+  }
+
+  private static void setupLabel_refCell_constructor_1207754420256(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1207754431605_1207754431605(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1207754435872_1207754435872(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNodeList_parameter_1207754440327(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class _Inline3920_0 extends AbstractCellProvider {
+
+    public _Inline3920_0() {
       super();
     }
-
-    private static void setupBasic_property_name1207754423947(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    }
-
-    private static void setupLabel_property_name_1207754423947(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
 
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
@@ -184,11 +176,19 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
         return cellWithRole;
     }
 
+
+    private static void setupBasic_property_name1207754423947(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    }
+
+    private static void setupLabel_property_name_1207754423947(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    }
+
   }
 
-  public static class parameterListHandler_ extends RefNodeListHandler {
+  public static class parameterListHandler_3920_0 extends RefNodeListHandler {
 
-    public parameterListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public parameterListHandler_3920_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

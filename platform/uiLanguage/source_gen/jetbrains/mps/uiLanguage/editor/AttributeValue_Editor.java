@@ -19,31 +19,6 @@ import jetbrains.mps.smodel.SNode;
 
 public class AttributeValue_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_Collection_12023893748811202389374881(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202389374881");
-  }
-
-  private static void setupBasic_refCell_attribute1202389398260(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attribute");
-  }
-
-  private static void setupBasic_Constant_12023894019681202389401968(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202389401968");
-  }
-
-  private static void setupBasic_refNode_value1202389403736(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refCell_attribute_1202389398260(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1202389401968_1202389401968(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNode_value_1202389403736(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1202389374881(context, node);
   }
@@ -70,7 +45,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefCell1202389398260_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline2());
+    provider.setAuxiliaryCellProvider(new AttributeValue_Editor._Inline2697_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_attribute1202389398260(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -126,20 +101,36 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
       return cellWithRole;
   }
 
-  public static class _Inline2 extends AbstractCellProvider {
 
-    public _Inline2() {
+  private static void setupBasic_Collection_12023893748811202389374881(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202389374881");
+  }
+
+  private static void setupBasic_refCell_attribute1202389398260(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attribute");
+  }
+
+  private static void setupBasic_Constant_12023894019681202389401968(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202389401968");
+  }
+
+  private static void setupBasic_refNode_value1202389403736(EditorCell editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refCell_attribute_1202389398260(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1202389401968_1202389401968(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNode_value_1202389403736(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class _Inline2697_0 extends AbstractCellProvider {
+
+    public _Inline2697_0() {
       super();
     }
-
-    private static void setupBasic_property_name1202389400200(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-      Stylesheet_StyleSheet.ATTRIBUTE.apply(editorCell);
-    }
-
-    private static void setupLabel_property_name_1202389400200(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
 
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
@@ -176,6 +167,15 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
         return cellWithRole;
+    }
+
+
+    private static void setupBasic_property_name1202389400200(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      Stylesheet_StyleSheet.ATTRIBUTE.apply(editorCell);
+    }
+
+    private static void setupLabel_property_name_1202389400200(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
   }

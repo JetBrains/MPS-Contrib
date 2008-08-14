@@ -23,6 +23,86 @@ public class Grid_Editor extends DefaultNodeEditor {
   /* package */ AbstractCellListHandler myListHandler_1202823935342;
   /* package */ AbstractCellListHandler myListHandler_1203604087533;
 
+  public EditorCell createEditorCell(EditorContext context, SNode node) {
+    return this.createCollection1202823671414(context, node);
+  }
+
+  public EditorCell createInspectedCell(EditorContext context, SNode node) {
+    return this.createCollection1203604084343(context, node);
+  }
+
+  public EditorCell createCollection1202823671414(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+    setupBasic_Collection_12028236714141202823671414(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createConstant1202823672963(context, node, "Grid"));
+    editorCell.addEditorCell(this.createCollection1202823929975(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createCollection1202823929975(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    setupBasic_Collection_12028239299751202823929975(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createIndentCell3546_0(context, node));
+    editorCell.addEditorCell(this.createRefNodeList1202823935342(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createCollection1203604084343(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+    setupBasic_Collection_12036040843431203604084343(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createRefNodeList1203604087533(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createConstant1202823672963(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_12028236729631202823672963(editorCell, node, context);
+    setupLabel_Constant_1202823672963_1202823672963(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createRefNodeList1202823935342(EditorContext context, SNode node) {
+    if (this.myListHandler_1202823935342 == null) {
+      this.myListHandler_1202823935342 = new Grid_Editor.rowListHandler_3546_0(node, "row", context);
+    }
+    EditorCell_Collection editorCell = this.myListHandler_1202823935342.createCells(context, new CellLayout_Vertical(), false);
+    setupBasic_refNodeList_row1202823935342(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1202823935342.getElementRole());
+    return editorCell;
+  }
+
+  public EditorCell createRefNodeList1203604087533(EditorContext context, SNode node) {
+    if (this.myListHandler_1203604087533 == null) {
+      this.myListHandler_1203604087533 = new Grid_Editor.contentListHandler_3546_0(node, "content", context);
+    }
+    EditorCell_Collection editorCell = this.myListHandler_1203604087533.createCells(context, new CellLayout_Horizontal(), false);
+    setupBasic_refNodeList_content1203604087533(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1203604087533.getElementRole());
+    return editorCell;
+  }
+
+  public EditorCell createIndentCell3546_0(EditorContext context, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(context, node);
+    return result;
+  }
+
+
   private static void setupBasic_Collection_12028236714141202823671414(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202823671414");
   }
@@ -70,89 +150,9 @@ public class Grid_Editor extends DefaultNodeEditor {
   private static void setupLabel_refNodeList_content_1203604087533(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
+  public static class rowListHandler_3546_0 extends RefNodeListHandler {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1202823671414(context, node);
-  }
-
-  public EditorCell createInspectedCell(EditorContext context, SNode node) {
-    return this.createCollection1203604084343(context, node);
-  }
-
-  public EditorCell createCollection1202823671414(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_12028236714141202823671414(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1202823672963(context, node, "Grid"));
-    editorCell.addEditorCell(this.createCollection1202823929975(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createCollection1202823929975(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_12028239299751202823929975(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell8(context, node));
-    editorCell.addEditorCell(this.createRefNodeList1202823935342(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createCollection1203604084343(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_12036040843431203604084343(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createRefNodeList1203604087533(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createConstant1202823672963(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_12028236729631202823672963(editorCell, node, context);
-    setupLabel_Constant_1202823672963_1202823672963(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createRefNodeList1202823935342(EditorContext context, SNode node) {
-    if (this.myListHandler_1202823935342 == null) {
-      this.myListHandler_1202823935342 = new Grid_Editor.rowListHandler_(node, "row", context);
-    }
-    EditorCell_Collection editorCell = this.myListHandler_1202823935342.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_refNodeList_row1202823935342(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1202823935342.getElementRole());
-    return editorCell;
-  }
-
-  public EditorCell createRefNodeList1203604087533(EditorContext context, SNode node) {
-    if (this.myListHandler_1203604087533 == null) {
-      this.myListHandler_1203604087533 = new Grid_Editor.contentListHandler_2(node, "content", context);
-    }
-    EditorCell_Collection editorCell = this.myListHandler_1203604087533.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_refNodeList_content1203604087533(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1203604087533.getElementRole());
-    return editorCell;
-  }
-
-  public EditorCell createIndentCell8(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
-    return result;
-  }
-
-  public static class rowListHandler_ extends RefNodeListHandler {
-
-    public rowListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public rowListHandler_3546_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -194,9 +194,9 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   }
 
-  public static class contentListHandler_2 extends RefNodeListHandler {
+  public static class contentListHandler_3546_0 extends RefNodeListHandler {
 
-    public contentListHandler_2(SNode ownerNode, String childRole, EditorContext context) {
+    public contentListHandler_3546_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

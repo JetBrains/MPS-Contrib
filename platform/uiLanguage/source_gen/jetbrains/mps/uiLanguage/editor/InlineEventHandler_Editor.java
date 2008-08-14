@@ -21,51 +21,6 @@ import jetbrains.mps.smodel.SNode;
 
 public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_Collection_12081104275011208110427501(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1208110427501");
-  }
-
-  private static void setupBasic_Constant_12081104430571208110443057(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208110443057");
-  }
-
-  private static void setupBasic_refNode_handler1208110448262(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_12100987886361210098788636(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1210098788636");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
-  private static void setupBasic_Constant_12100987889661210098788966(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210098788966");
-  }
-
-  private static void setupBasic_refCell_event1210098788967(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_event");
-  }
-
-  private static void setupLabel_Constant_1208110443057_1208110443057(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNode_handler_1208110448262(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1210098788966_1210098788966(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refCell_event_1210098788967(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1208110427501(context, node);
   }
@@ -140,7 +95,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefCell1210098788967_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new InlineEventHandler_Editor._Inline13());
+    provider.setAuxiliaryCellProvider(new InlineEventHandler_Editor._Inline5651_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_event1210098788967(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -167,19 +122,56 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
       return cellWithRole;
   }
 
-  public static class _Inline13 extends AbstractCellProvider {
 
-    public _Inline13() {
+  private static void setupBasic_Collection_12081104275011208110427501(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1208110427501");
+  }
+
+  private static void setupBasic_Constant_12081104430571208110443057(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208110443057");
+  }
+
+  private static void setupBasic_refNode_handler1208110448262(EditorCell editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupBasic_Collection_12100987886361210098788636(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1210098788636");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.SELECTABLE, false);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
+  }
+
+  private static void setupBasic_Constant_12100987889661210098788966(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210098788966");
+  }
+
+  private static void setupBasic_refCell_event1210098788967(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_event");
+  }
+
+  private static void setupLabel_Constant_1208110443057_1208110443057(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNode_handler_1208110448262(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1210098788966_1210098788966(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refCell_event_1210098788967(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class _Inline5651_0 extends AbstractCellProvider {
+
+    public _Inline5651_0() {
       super();
     }
-
-    private static void setupBasic_property_name1210098788969(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    }
-
-    private static void setupLabel_property_name_1210098788969(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
 
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
@@ -216,6 +208,14 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
         return cellWithRole;
+    }
+
+
+    private static void setupBasic_property_name1210098788969(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    }
+
+    private static void setupLabel_property_name_1210098788969(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
   }

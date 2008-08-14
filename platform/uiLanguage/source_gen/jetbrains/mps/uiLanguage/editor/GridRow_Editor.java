@@ -21,6 +21,59 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
   /* package */ AbstractCellListHandler myListHandler_1202823808769;
 
+  public EditorCell createEditorCell(EditorContext context, SNode node) {
+    return this.createCollection1202823794525(context, node);
+  }
+
+  public EditorCell createCollection1202823794525(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+    setupBasic_Collection_12028237945251202823794525(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createConstant1202823795637(context, node, "Row"));
+    editorCell.addEditorCell(this.createCollection1202823799045(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createCollection1202823799045(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    setupBasic_Collection_12028237990451202823799045(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createIndentCell7736_0(context, node));
+    editorCell.addEditorCell(this.createRefNodeList1202823808769(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createConstant1202823795637(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_12028237956371202823795637(editorCell, node, context);
+    setupLabel_Constant_1202823795637_1202823795637(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createRefNodeList1202823808769(EditorContext context, SNode node) {
+    if (this.myListHandler_1202823808769 == null) {
+      this.myListHandler_1202823808769 = new GridRow_Editor.componentListHandler_7736_0(node, "component", context);
+    }
+    EditorCell_Collection editorCell = this.myListHandler_1202823808769.createCells(context, new CellLayout_Horizontal(), false);
+    setupBasic_refNodeList_component1202823808769(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1202823808769.getElementRole());
+    return editorCell;
+  }
+
+  public EditorCell createIndentCell7736_0(EditorContext context, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(context, node);
+    return result;
+  }
+
+
   private static void setupBasic_Collection_12028237945251202823794525(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202823794525");
   }
@@ -66,62 +119,9 @@ public class GridRow_Editor extends DefaultNodeEditor {
   private static void setupLabel_refNodeList_component_1202823808769(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
+  public static class componentListHandler_7736_0 extends RefNodeListHandler {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1202823794525(context, node);
-  }
-
-  public EditorCell createCollection1202823794525(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_12028237945251202823794525(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1202823795637(context, node, "Row"));
-    editorCell.addEditorCell(this.createCollection1202823799045(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createCollection1202823799045(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_12028237990451202823799045(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell7(context, node));
-    editorCell.addEditorCell(this.createRefNodeList1202823808769(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createConstant1202823795637(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_12028237956371202823795637(editorCell, node, context);
-    setupLabel_Constant_1202823795637_1202823795637(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createRefNodeList1202823808769(EditorContext context, SNode node) {
-    if (this.myListHandler_1202823808769 == null) {
-      this.myListHandler_1202823808769 = new GridRow_Editor.componentListHandler_(node, "component", context);
-    }
-    EditorCell_Collection editorCell = this.myListHandler_1202823808769.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_refNodeList_component1202823808769(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1202823808769.getElementRole());
-    return editorCell;
-  }
-
-  public EditorCell createIndentCell7(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
-    return result;
-  }
-
-  public static class componentListHandler_ extends RefNodeListHandler {
-
-    public componentListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+    public componentListHandler_7736_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

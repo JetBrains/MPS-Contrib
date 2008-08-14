@@ -19,21 +19,13 @@ import jetbrains.mps.smodel.SNode;
 
 public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_refCell_attributeDeclaration1202478508742(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attributeDeclaration");
-  }
-
-  private static void setupLabel_refCell_attributeDeclaration_1202478508742(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createRefCell1202478508742(context, node);
   }
 
   public EditorCell createRefCell1202478508742_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new AttributeReferenceOperation_Editor._Inline6());
+    provider.setAuxiliaryCellProvider(new AttributeReferenceOperation_Editor._Inline8060_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_attributeDeclaration1202478508742(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -60,29 +52,19 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
       return cellWithRole;
   }
 
-  public static class _Inline6 extends AbstractCellProvider {
 
-    public _Inline6() {
+  private static void setupBasic_refCell_attributeDeclaration1202478508742(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attributeDeclaration");
+  }
+
+  private static void setupLabel_refCell_attributeDeclaration_1202478508742(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class _Inline8060_0 extends AbstractCellProvider {
+
+    public _Inline8060_0() {
       super();
     }
-
-    private static void setupBasic_property_name1202478509604(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-      BaseLanguageStyle_StyleSheet.FIELD.apply(editorCell);
-      {
-        Style inlineStyle = new Style(editorCell) {
-          {
-            this.set(StyleAttributes.PADDING_RIGHT, 0.0);
-          }
-
-        };
-        inlineStyle.apply(editorCell);
-      }
-    }
-
-    private static void setupLabel_property_name_1202478509604(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
 
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
@@ -119,6 +101,24 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
         return cellWithRole;
+    }
+
+
+    private static void setupBasic_property_name1202478509604(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      BaseLanguageStyle_StyleSheet.FIELD.apply(editorCell);
+      {
+        Style inlineStyle = new Style(editorCell) {
+          {
+            this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+          }
+
+        };
+        inlineStyle.apply(editorCell);
+      }
+    }
+
+    private static void setupLabel_property_name_1202478509604(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
   }

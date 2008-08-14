@@ -11,14 +11,6 @@ import jetbrains.mps.smodel.SNode;
 
 public class RenderingObject_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_Constant_12105216411891210521641189(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210521641189");
-  }
-
-  private static void setupLabel_Constant_1210521641189_1210521641189(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createConstant1210521641189(context, node, "object");
   }
@@ -29,6 +21,14 @@ public class RenderingObject_Editor extends DefaultNodeEditor {
     setupLabel_Constant_1210521641189_1210521641189(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
+  }
+
+
+  private static void setupBasic_Constant_12105216411891210521641189(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210521641189");
+  }
+
+  private static void setupLabel_Constant_1210521641189_1210521641189(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

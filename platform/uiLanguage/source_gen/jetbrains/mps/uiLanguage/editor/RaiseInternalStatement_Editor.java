@@ -16,31 +16,6 @@ import jetbrains.mps.smodel.SNode;
 
 public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_Collection_12096556109621209655610962(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1209655610962");
-  }
-
-  private static void setupBasic_Constant_12096556136361209655613636(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1209655613636");
-  }
-
-  private static void setupBasic_refNode_argument1209655618794(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Constant_12096577126581209657712658(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1209657712658");
-  }
-
-  private static void setupLabel_Constant_1209655613636_1209655613636(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNode_argument_1209655618794(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1209657712658_1209657712658(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1209655610962(context, node);
   }
@@ -100,6 +75,31 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
       return cellWithRole;
+  }
+
+
+  private static void setupBasic_Collection_12096556109621209655610962(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1209655610962");
+  }
+
+  private static void setupBasic_Constant_12096556136361209655613636(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1209655613636");
+  }
+
+  private static void setupBasic_refNode_argument1209655618794(EditorCell editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupBasic_Constant_12096577126581209657712658(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1209657712658");
+  }
+
+  private static void setupLabel_Constant_1209655613636_1209655613636(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNode_argument_1209655618794(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1209657712658_1209657712658(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

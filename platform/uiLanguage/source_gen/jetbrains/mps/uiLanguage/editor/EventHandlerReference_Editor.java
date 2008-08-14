@@ -16,21 +16,13 @@ import jetbrains.mps.smodel.SNode;
 
 public class EventHandlerReference_Editor extends DefaultNodeEditor {
 
-  private static void setupBasic_refCell_handler1208685926630(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_handler");
-  }
-
-  private static void setupLabel_refCell_handler_1208685926630(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createRefCell1208685926630(context, node);
   }
 
   public EditorCell createRefCell1208685926630_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline12());
+    provider.setAuxiliaryCellProvider(new EventHandlerReference_Editor._Inline2337_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_handler1208685926630(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -57,19 +49,19 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
       return cellWithRole;
   }
 
-  public static class _Inline12 extends AbstractCellProvider {
 
-    public _Inline12() {
+  private static void setupBasic_refCell_handler1208685926630(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_handler");
+  }
+
+  private static void setupLabel_refCell_handler_1208685926630(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class _Inline2337_0 extends AbstractCellProvider {
+
+    public _Inline2337_0() {
       super();
     }
-
-    private static void setupBasic_property_name1208685929992(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    }
-
-    private static void setupLabel_property_name_1208685929992(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
 
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
@@ -106,6 +98,14 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
         return cellWithRole;
+    }
+
+
+    private static void setupBasic_property_name1208685929992(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    }
+
+    private static void setupLabel_property_name_1208685929992(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
   }
