@@ -43,14 +43,12 @@
     <link role="extends" targetNodeId="1107866767486" resolveInfo="ElementPart" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1107866791721">
       <property name="sourceCardinality" value="0..n" />
-      <property name="targetCardinality" value="1" />
       <property name="role" value="attribute" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1107866742882" resolveInfo="Attribute" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1107866800972">
       <property name="sourceCardinality" value="0..n" />
-      <property name="targetCardinality" value="1" />
       <property name="role" value="content" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1107866767486" resolveInfo="ElementPart" />
@@ -73,7 +71,6 @@
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1119976595358">
       <property name="sourceCardinality" value="1" />
-      <property name="targetCardinality" value="1" />
       <property name="role" value="rootElement" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1107866778860" resolveInfo="Element" />
