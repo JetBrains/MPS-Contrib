@@ -72,6 +72,10 @@ public class QueriesGenerated {
             return "true";
           }
 
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+
         });
       }
     }
@@ -93,6 +97,10 @@ public class QueriesGenerated {
 
           public String getMatchingText(String pattern) {
             return "false";
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
           }
 
         });
@@ -125,6 +133,10 @@ public class QueriesGenerated {
 
           public String getMatchingText(String pattern) {
             return pattern;
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
           }
 
         });
@@ -203,6 +215,10 @@ public class QueriesGenerated {
           return "+";
         }
 
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+
         public String getDescriptionText(String pattern) {
           return "plus operation";
         }
@@ -225,6 +241,10 @@ public class QueriesGenerated {
 
         public String getMatchingText(String pattern) {
           return "//";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
         }
 
         public String getDescriptionText(String pattern) {
@@ -251,6 +271,10 @@ public class QueriesGenerated {
 
         public String getMatchingText(String pattern) {
           return "+";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
         }
 
         public String getDescriptionText(String pattern) {
