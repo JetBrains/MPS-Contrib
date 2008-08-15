@@ -53,10 +53,6 @@
       <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1218729520113">
         <link role="componentDeclaration" targetNodeId="3.1202815836444" resolveInfo="CheckBox"/>
       </node>
-      <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1218729525787">
-        <link role="attribute" targetNodeId="3.1202396132470" resolveInfo="visible"/>
-        <node role="value" type="jetbrains.mps.baseLanguage.structure.Expression" id="1218729525788"/>
-      </node>
     </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202810679159">
