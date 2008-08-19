@@ -50,7 +50,6 @@
     <property name="name" value="BLDT_rtransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1169657550853">
       <property name="description" value="Operations on datetime expression" />
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="2.1068431790191" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstitutePreconditionFunction" id="1169657599823">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1171980595073">
@@ -417,7 +416,6 @@
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1172507550761">
       <property name="description" value="Period" />
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="2.1068431790191" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstitutePreconditionFunction" id="1172507582020">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1172507582021">

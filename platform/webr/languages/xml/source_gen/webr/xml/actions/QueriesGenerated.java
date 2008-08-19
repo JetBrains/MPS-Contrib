@@ -69,22 +69,27 @@ public class QueriesGenerated {
 
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
-        assert queryResult != null;
-        for(final SNode item : queryResult) {
-          result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+        if (queryResult != null) {
+          for(final SNode item : queryResult) {
+            result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
-            public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-              SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", _context.getCurrentTargetNode());
-              SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
-              SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
-              return attribute;
-            }
+              public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+                SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", _context.getCurrentTargetNode());
+                SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
+                SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
+                return attribute;
+              }
 
-            public String getMatchingText(String pattern) {
-              return SPropertyOperations.getString((item), "attributeName");
-            }
+              public String getMatchingText(String pattern) {
+                return SPropertyOperations.getString((item), "attributeName");
+              }
 
-          });
+              public String getVisibleMatchingText(String pattern) {
+                return this.getMatchingText(pattern);
+              }
+
+            });
+          }
         }
       }
     }
@@ -127,29 +132,34 @@ public class QueriesGenerated {
 
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
-        assert queryResult != null;
-        for(final SNode item : queryResult) {
-          result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+        if (queryResult != null) {
+          for(final SNode item : queryResult) {
+            result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
-            public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-              SNode prototype;
-              if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "webr.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(_context.getCurrentTargetNode(), "text"))) {
-                prototype = null;
-              } else
-              {
-                prototype = _context.getCurrentTargetNode();
+              public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+                SNode prototype;
+                if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "webr.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(_context.getCurrentTargetNode(), "text"))) {
+                  prototype = null;
+                } else
+                {
+                  prototype = _context.getCurrentTargetNode();
+                }
+                SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", prototype);
+                SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
+                SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1213877429867((item))));
+                return element;
               }
-              SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", prototype);
-              SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
-              SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1213877429867((item))));
-              return element;
-            }
 
-            public String getMatchingText(String pattern) {
-              return "<" + SPropertyOperations.getString((item), "elementName");
-            }
+              public String getMatchingText(String pattern) {
+                return "<" + SPropertyOperations.getString((item), "elementName");
+              }
 
-          });
+              public String getVisibleMatchingText(String pattern) {
+                return this.getMatchingText(pattern);
+              }
+
+            });
+          }
         }
       }
     }
@@ -189,6 +199,10 @@ public class QueriesGenerated {
               "/text" :
               pattern
             );
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
           }
 
         });

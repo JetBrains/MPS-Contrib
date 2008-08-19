@@ -42,7 +42,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1167519968820">
     <property name="name" value="xml_nodeSubstitute" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1167699332639">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1165235274815" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1177613609141">
         <link role="concept" targetNodeId="1.1167700349452" />
@@ -190,7 +189,6 @@
       </node>
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1201903366642">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1161371727643" resolveInfo="Content" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1201903377410">
         <link role="concept" targetNodeId="1.1161373262136" resolveInfo="Text" />
@@ -327,7 +325,6 @@
       </node>
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1167757687265">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1161371727643" />
       <node role="variable" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SubstituteNodeBuilderVariableDeclaration" id="1181874645399">
         <property name="name" value="parentElement" />

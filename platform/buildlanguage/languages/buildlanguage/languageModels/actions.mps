@@ -45,7 +45,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1196869239711">
     <property name="name" value="BooleanConstant" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1196869262792">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1196869278607">
         <link role="concept" targetNodeId="1.1196865966685" resolveInfo="BooleanLiteral" />
@@ -190,7 +189,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActions" id="1197109279495">
     <property name="name" value="BinaryOperation_SideTransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1197109326624">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1197109352861">
         <link role="concept" targetNodeId="1.1197108973325" resolveInfo="PlusOperation" />
@@ -254,7 +252,6 @@
       </node>
     </node>
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1218634224062">
-      <property name="useNewActions" value="true" />
       <property name="side" value="left" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1218634224063">
@@ -322,7 +319,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1197476859335">
     <property name="name" value="IntegerConstant" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1197476868571">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.AddMenuPart" id="1197476918844">
         <link role="concept" targetNodeId="1.1196866637548" resolveInfo="IntLiteral" />
@@ -398,7 +394,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActions" id="1201259600297">
     <property name="name" value="Comment_RightTransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1201259672003">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1201259656252" resolveInfo="ICommented" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstitutePreconditionFunction" id="1201259678301">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201259678302">
@@ -604,7 +599,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1201708820341">
     <property name="name" value="Reference" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1201708832142">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstitutePreconditionFunction" id="1201708881512">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201708881513">
@@ -635,7 +629,6 @@
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActions" id="1203443072123">
     <property name="name" value="StringEnumAction" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstituteActionsBuilder" id="1203443083333">
-      <property name="useNewActions" value="true" />
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="precondition" type="jetbrains.mps.bootstrap.actionsLanguage.structure.NodeSubstitutePreconditionFunction" id="1203443117617">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203443117618">
