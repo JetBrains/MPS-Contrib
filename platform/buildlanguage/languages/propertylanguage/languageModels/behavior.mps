@@ -40,6 +40,7 @@
     <link role="concept" targetNodeId="1.1200504738494" resolveInfo="PropertyNode" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1213877341757">
       <property name="name" value="getFileName" />
+      <property name="isPrivate" value="false" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877341759">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213877341760">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1213877341761">
@@ -59,9 +60,11 @@
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1218726851618" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1219155723885" />
     </node>
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1213877341768">
       <property name="name" value="getProperties" />
+      <property name="isPrivate" value="false" />
       <link role="overriddenMethod" targetNodeId="3v.1213877375726" resolveInfo="getProperties" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877341769">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213877341770">
@@ -76,6 +79,7 @@
       <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeListType" id="1213877341774">
         <link role="elementConcept" targetNodeId="4v.1196851107341" resolveInfo="PropertyDeclaration" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1219155724331" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1213877341775">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877341776" />

@@ -37,6 +37,7 @@
     <link role="concept" targetNodeId="1.1166472279594" resolveInfo="XmlFile" />
     <node role="method" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptMethodDeclaration" id="1213877487339">
       <property name="name" value="getSchema" />
+      <property name="isPrivate" value="false" />
       <link role="overriddenMethod" targetNodeId="2v.1213877420378" resolveInfo="getSchema" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877487340">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213877487341">
@@ -57,6 +58,7 @@
       <node role="returnType" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1213877487347">
         <link role="concept" targetNodeId="3v.1167513239198" resolveInfo="Schema" />
       </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1219155725032" />
     </node>
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1213877487348">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877487349" />
