@@ -8141,5 +8141,33 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstraints" id="1219148065336">
+    <property name="package" value="Expressions" />
+    <link role="concept" targetNodeId="2.1219147669362" resolveInfo="InputProperty" />
+    <node role="canBeChild" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunction_CanBeAChild" id="1219148068256">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1219148068257">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1219148077447">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1219148103690">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1219148106681">
+              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunctionParameter_parentNode" id="1219148105486" />
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1219148109907">
+                <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1219148116144">
+                  <link role="conceptDeclaration" targetNodeId="2.1196851099544" resolveInfo="TargetDeclaration" />
+                </node>
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1219148089981">
+              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunctionParameter_parentNode" id="1219148079278" />
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsInstanceOfOperation" id="1219148093150">
+                <node role="conceptArgument" type="jetbrains.mps.bootstrap.smodelLanguage.structure.RefConcept_Reference" id="1219148518360">
+                  <link role="conceptDeclaration" targetNodeId="2.1196851066733" resolveInfo="Project" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

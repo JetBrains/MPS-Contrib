@@ -1865,5 +1865,83 @@
       <link role="relationDeclaration" targetNodeId="1.1218548706208" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1219147880893">
+    <property name="package" value="Expressions" />
+    <link role="conceptDeclaration" targetNodeId="1.1219147669362" resolveInfo="InputProperty" />
+    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1219147949888">
+      <property name="vertical" value="true" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1219147949889">
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1219147949890">
+          <property name="text" value="//" />
+          <link role="styleClass" targetNodeId="1201252845021" resolveInfo="comment" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1219147949891">
+          <property name="allowEmptyText" value="true" />
+          <link role="relationDeclaration" targetNodeId="2.1156234966388" resolveInfo="shortDescription" />
+          <link role="styleClass" targetNodeId="1201252845021" resolveInfo="comment" />
+        </node>
+        <node role="renderingCondition" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_NodeCondition" id="1219147949892">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1219147949893">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1219147949894">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1219147949895">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1219147949896" />
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1219147949897">
+                  <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1219147949898" />
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1219147949899">
+                    <link role="property" targetNodeId="2.1156234966388" resolveInfo="shortDescription" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.SelectableStyleSheetItem" id="1219147949900">
+          <property name="flag" value="false" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1219147949901">
+        <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1219147949902">
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
+          <link role="relationDeclaration" targetNodeId="2.1156235010670" resolveInfo="alias" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1219147949903">
+          <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+          <link role="styleClass" targetNodeId="1197150564477" resolveInfo="property" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1219147949904">
+          <property name="text" value=":" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1219147949905">
+          <link role="relationDeclaration" targetNodeId="1.1196870993204" />
+        </node>
+        <node role="menuDescriptor" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellMenuDescriptor" id="1219147949908">
+          <node role="cellMenuPart" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellMenuPart_Generic_Item" id="1219147949909">
+            <property name="matchingText" value="//" />
+            <node role="handlerFunction" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellMenuPart_Generic_Item_Handler" id="1219147949910">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1219147949911">
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1219147949912">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1219147949913">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1219147949914">
+                      <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellMenuPart_Abstract_editedNode" id="1219147949915" />
+                      <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1219147949916">
+                        <link role="property" targetNodeId="2.1156234966388" resolveInfo="shortDescription" />
+                      </node>
+                    </node>
+                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Property_SetOperation" id="1219147949917">
+                      <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1219147949918">
+                        <property name="value" value="" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

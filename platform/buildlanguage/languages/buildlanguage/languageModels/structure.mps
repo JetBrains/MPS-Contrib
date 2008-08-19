@@ -1017,5 +1017,14 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
   </node>
+  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1219147669362">
+    <property name="package" value="Expressions" />
+    <property name="name" value="ExternalPropertyDeclaration" />
+    <link role="extends" targetNodeId="1196851107341" resolveInfo="PropertyDeclaration" />
+    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1219148139542">
+      <property name="value" value="external property" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 
