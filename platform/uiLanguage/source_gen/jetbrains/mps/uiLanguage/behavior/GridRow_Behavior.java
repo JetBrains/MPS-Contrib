@@ -15,11 +15,11 @@ public class GridRow_Behavior {
   }
 
   public static List<SNode> call_getRowComponents_1213877252264(SNode thisNode) {
-    int columnCount = Grid_Behavior.call_getColumnsCount_1213877333391(SNodeOperations.getParent(thisNode, null, false, false));
+    int columnCount = Grid_Behavior.call_getColumnsCount_1213877333391(SNodeOperations.getParent(thisNode));
     List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)));
     for(int i = 0 ; i < columnCount - ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)).count() ; i = i + 1) {
-      ListSequence.fromList(result).addElement(new QuotationClass_().createNode());
+      ListSequence.fromList(result).addElement(new QuotationClass_0().createNode());
     }
     return result;
   }

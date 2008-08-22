@@ -243,7 +243,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    SNode instance = SNodeOperations.getParent(_context.getNode(), null, false, false);
+    SNode instance = SNodeOperations.getParent(_context.getNode());
     return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
   }
 
@@ -252,7 +252,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1203087977763(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    SNode instance = SNodeOperations.getParent(_context.getNode(), null, false, false);
+    SNode instance = SNodeOperations.getParent(_context.getNode());
     return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
   }
 
