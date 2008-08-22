@@ -148,19 +148,19 @@ public class BuildLanguageStyle_StyleSheet {
 
   private static Color calculateColor3467_3(EditorCell cell) {
     Color result;
-    result = Color.red;
+    result = MPSColors.red;
     return result;
   }
 
   private static Color calculateColor3467_4(EditorCell cell) {
     Color result;
-    result = Color.lightGray;
+    result = MPSColors.lightGray;
     return result;
   }
 
   private static Color calculateColor3467_5(EditorCell cell) {
     Color result;
-    result = Color.darkGray;
+    result = MPSColors.darkGray;
     return result;
   }
 
@@ -172,7 +172,7 @@ public class BuildLanguageStyle_StyleSheet {
 
   private static Color calculateColor3467_7(EditorCell cell) {
     Color result;
-    result = Color.gray;
+    result = MPSColors.gray;
     return result;
   }
 
