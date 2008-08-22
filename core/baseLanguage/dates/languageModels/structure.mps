@@ -228,32 +228,6 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1171964197527">
-    <property name="name" value="ToDateTimeOperation" />
-    <property name="package" value="old" />
-    <link role="extends" targetNodeId="3.1068431790191" />
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1171964270700">
-      <property name="metaClass" value="aggregation" />
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="expression" />
-      <link role="target" targetNodeId="3.1068431790191" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1171964286873">
-      <property name="value" value=".datetime" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1172060312001">
-      <property name="value" value="Convert to datetime" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038953048">
-      <property name="value" value="Use ConvertToDateTimeOperation" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178207640788">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1172074800504">
     <property name="name" value="DateTimeCompareOperation" />
     <property name="package" value="operation.compare" />
@@ -628,25 +602,6 @@
     </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178202649447">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1178205163518">
-    <property name="name" value="DotDateTimeOperation" />
-    <property name="package" value="old" />
-    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178205222561">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1178207271428">
-      <property name="value" value="&lt;datetime operation&gt;" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038895745">
-      <property name="value" value="Use DateTimeOperation" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
-    </node>
-    <node role="conceptPropertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptPropertyDeclaration" id="1178205225281">
-      <property name="name" value="operationName" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1194003500823">

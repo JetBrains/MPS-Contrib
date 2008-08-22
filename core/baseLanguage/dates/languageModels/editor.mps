@@ -349,21 +349,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1171964300764">
-    <property name="package" value="old" />
-    <link role="conceptDeclaration" targetNodeId="1.1171964197527" />
-    <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1171964303907">
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1171964305284">
-        <link role="relationDeclaration" targetNodeId="1.1171964270700" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1172066873242">
-        <property name="text" value=".datetime" />
-        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.LayoutConstraintStyleClassItem" id="1214318685028">
-          <property name="layoutConstraint" value="punctuation" />
-        </node>
-      </node>
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.CellActionMapDeclaration" id="1172065403260">
     <property name="name" value="UnaryDateTimeOperation_ActionMap" />
     <link role="applicableConcept" targetNodeId="1.1171963068132" />
