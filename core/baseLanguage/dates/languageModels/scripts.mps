@@ -40,43 +40,6 @@
     <property name="title" value="Convert old date operations" />
     <property name="migrationFromBuild" value="531" />
     <property name="name" value="ConvertOldDateOperations" />
-    <node role="part" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_Instance" id="1209038436356">
-      <property name="description" value="Convert IsNotNullOperation" />
-      <link role="affectedInstanceConcept" targetNodeId="1.1173879281236" resolveInfo="IsNotNullOperation" />
-      <node role="affectedInstanceUpdater" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_Instance_Updater" id="1209038436357">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209038436358">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1209038518471">
-            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1209038518472">
-              <property name="name" value="fake" />
-              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeType" id="1209038518473" />
-            </node>
-          </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209038488648">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209038545250">
-              <node role="operand" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_node" id="1209038488649" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ReplaceWithAnotherOperation" id="1209038547418">
-                <node role="parameter" type="jetbrains.mps.quotation.structure.Quotation" id="1209038549031">
-                  <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209038551006">
-                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1209038553174">
-                      <link role="variableDeclaration" targetNodeId="1209038518472" resolveInfo="fake" />
-                      <node role="_attr_$attribute" type="jetbrains.mps.quotation.structure.Antiquotation" id="1209038567062">
-                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209038570175">
-                          <node role="operand" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_node" id="1209038569490" />
-                          <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1209038574355">
-                            <link role="link" targetNodeId="1.1171964003156" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node role="operation" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.NotNullOperation" id="1209038557792" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="part" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_Instance" id="1209038593493">
       <property name="description" value="Convert IsNullOperation" />
       <link role="affectedInstanceConcept" targetNodeId="1.1173878485361" resolveInfo="IsNullOperation" />
