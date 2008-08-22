@@ -35,7 +35,6 @@
   <maxImportIndex value="2" />
   <import index="1" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="2" modelUID="java.util@java_stub" version="-1" />
-  <visible index="2" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
   <node type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScript" id="1209038404343">
     <property name="category" value="DotExpression" />
     <property name="title" value="Convert old date operations" />
@@ -257,53 +256,6 @@
                       </node>
                     </node>
                     <node role="operation" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.ConvertToJodaDateTimeOperation" id="1209038783013" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="part" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_Instance" id="1209040009411">
-      <property name="description" value="Convert DateTimePropetyReference" />
-      <link role="affectedInstanceConcept" targetNodeId="1.1172327820761" resolveInfo="DateTimePropetyReference" />
-      <node role="affectedInstanceUpdater" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_Instance_Updater" id="1209040009412">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209040009413">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1209040009414">
-            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1209040009415">
-              <property name="name" value="fake" />
-              <node role="type" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeType" id="1209040009416" />
-            </node>
-          </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209040009417">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209040009418">
-              <node role="operand" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_node" id="1209040009419" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ReplaceWithAnotherOperation" id="1209040009420">
-                <node role="parameter" type="jetbrains.mps.quotation.structure.Quotation" id="1209040009421">
-                  <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209040009422">
-                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1209040009423">
-                      <link role="variableDeclaration" targetNodeId="1209040009415" resolveInfo="fake" />
-                      <node role="_attr_$attribute" type="jetbrains.mps.quotation.structure.Antiquotation" id="1209040009424">
-                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209040009425">
-                          <node role="operand" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_node" id="1209040009426" />
-                          <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1209040009427">
-                            <link role="link" targetNodeId="1.1171964003156" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node role="operation" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimePropetyReferenceOperation" id="1209040239987">
-                      <link role="dateTimeProperty" targetNodeId="2v.1172074929011" resolveInfo="millis" />
-                      <node role="referenceAntiquotation$link_attribute$dateTimeProperty" type="jetbrains.mps.quotation.structure.ReferenceAntiquotation" id="1209040491102">
-                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209040496606">
-                          <node role="operand" type="jetbrains.mps.ide.scriptLanguage.structure.MigrationScriptPart_node" id="1209040495315" />
-                          <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1209040502492">
-                            <link role="link" targetNodeId="1.1172327896967" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
                   </node>
                 </node>
               </node>

@@ -497,37 +497,6 @@
       <link role="target" targetNodeId="2.1172074318583" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1172327820761">
-    <property name="name" value="DateTimePropetyReference" />
-    <property name="package" value="old" />
-    <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1172327973863">
-      <property name="value" value=".&lt;{dateTimeProperty}&gt;" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1172328004450">
-      <property name="value" value="Get integer value of datetime property" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209040777584">
-      <property name="value" value="Use DateTimePropertyReferenceOperation" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178204913593">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
-    </node>
-    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.structure.AggregationConceptLink" id="1172327946026">
-      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
-      <node role="target" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1172327966923">
-        <link role="classifier" targetNodeId="7.~Integer" resolveInfo="Integer" />
-      </node>
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1172327896967">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="dateTimeProperty" />
-      <link role="target" targetNodeId="2.1172074318583" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1172331114860">
     <property name="name" value="DateTimeWithPropertyOperation" />
     <property name="package" value="operation.property" />
