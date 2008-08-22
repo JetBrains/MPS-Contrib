@@ -571,34 +571,6 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
-  <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1173878485361">
-    <property name="name" value="IsNullOperation" />
-    <property name="package" value="old" />
-    <link role="extends" targetNodeId="1178205163518" resolveInfo="DotDateTimeOperation" />
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1173878568306">
-      <property name="value" value=".isNull" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1173878580559">
-      <property name="value" value="Check is datetime is null" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1178205369070">
-      <property name="value" value="isNull" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1178205225281" resolveInfo="operationName" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1209038944125">
-      <property name="value" value="Use NullOperation" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1208203973962" resolveInfo="deprecated_next_after_531" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.BooleanConceptProperty" id="1178205375869">
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
-    </node>
-    <node role="conceptLink" type="jetbrains.mps.bootstrap.structureLanguage.structure.AggregationConceptLink" id="1173879204818">
-      <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
-      <node role="target" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1173879207813" />
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1173959836330">
     <property name="name" value="DateTimePropertyFormatToken" />
     <property name="package" value="format" />
