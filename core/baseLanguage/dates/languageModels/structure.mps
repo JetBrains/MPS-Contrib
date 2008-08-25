@@ -34,12 +34,15 @@
     <property name="name" value="DateFormatsTable" />
     <property name="package" value="format" />
     <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="1.1078489098625" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.LinkDeclaration" id="1169488417691">
       <property name="metaClass" value="aggregation" />
       <property name="sourceCardinality" value="1..n" />
       <property name="role" value="dateFormat" />
       <link role="target" targetNodeId="1169487448949" resolveInfo="DateFormat" />
+    </node>
+    <node role="implements" type="jetbrains.mps.bootstrap.structureLanguage.structure.InterfaceConceptReference" id="1219697389577">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1169487448949">
