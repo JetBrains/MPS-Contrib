@@ -276,32 +276,32 @@
     <property name="memberIdentifierPolicy" value="custom" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075151845">
-      <property name="externalValue" value="equals" />
+      <property name="externalValue" value="==" />
       <property name="internalValue" value="datetime equals" />
       <property name="javaIdentifier" value="EQUALS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075185460">
-      <property name="externalValue" value="notEquals" />
+      <property name="externalValue" value="!=" />
       <property name="internalValue" value="datetime not equals" />
       <property name="javaIdentifier" value="NOT_EQUALS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075218062">
-      <property name="externalValue" value="greater" />
+      <property name="externalValue" value="&gt;" />
       <property name="internalValue" value="datetime greater" />
       <property name="javaIdentifier" value="GREATER" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075248796">
-      <property name="externalValue" value="greaterOrEquals" />
+      <property name="externalValue" value="&gt;=" />
       <property name="internalValue" value="datetime greater or equals" />
       <property name="javaIdentifier" value="GREATER_OR_EQUALS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075265977">
-      <property name="externalValue" value="less" />
+      <property name="externalValue" value="&lt;" />
       <property name="internalValue" value="datetime less" />
       <property name="javaIdentifier" value="LESS" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1172075272162">
-      <property name="externalValue" value="lessOrEquals" />
+      <property name="externalValue" value="&lt;=" />
       <property name="internalValue" value="datetime less or equals" />
       <property name="javaIdentifier" value="LESS_OR_EQUALS" />
     </node>
@@ -485,12 +485,12 @@
     <link role="defaultMember" targetNodeId="1173975646060" resolveInfo="PUBLIC" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1173975646060">
-      <property name="externalValue" value="PUBLIC" />
+      <property name="externalValue" value="public" />
       <property name="internalValue" value="public" />
       <property name="javaIdentifier" value="PUBLIC" />
     </node>
     <node role="member" type="jetbrains.mps.bootstrap.structureLanguage.structure.EnumerationMemberDeclaration" id="1173975646061">
-      <property name="externalValue" value="PRIVATE" />
+      <property name="externalValue" value="private" />
       <property name="internalValue" value="private" />
       <property name="javaIdentifier" value="PRIVATE" />
     </node>
