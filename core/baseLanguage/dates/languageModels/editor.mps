@@ -1641,7 +1641,7 @@
         <property name="size" value="8" />
       </node>
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.PaddingRightStyleClassItem" id="1219659653386">
-        <property name="value" value="1.0" />
+        <property name="value" value="0.0" />
       </node>
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1219659599052">
         <property name="color" value="lightGray" />
