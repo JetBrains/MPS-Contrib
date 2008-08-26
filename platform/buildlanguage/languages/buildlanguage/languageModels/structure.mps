@@ -1018,9 +1018,13 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1219147669362">
-    <property name="package" value="Expressions" />
+    <property name="package" value="Declarations" />
     <property name="name" value="ExternalPropertyDeclaration" />
     <link role="extends" targetNodeId="1196851107341" resolveInfo="PropertyDeclaration" />
+    <node role="propertyDeclaration" type="jetbrains.mps.bootstrap.structureLanguage.structure.PropertyDeclaration" id="1219774190534">
+      <property name="name" value="checkOnStart" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.bootstrap.structureLanguage.structure.StringConceptProperty" id="1219148139542">
       <property name="value" value="external property" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />

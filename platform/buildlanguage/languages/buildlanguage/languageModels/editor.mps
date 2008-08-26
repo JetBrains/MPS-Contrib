@@ -1866,7 +1866,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1219147880893">
-    <property name="package" value="Expressions" />
+    <property name="package" value="Declarations" />
     <link role="conceptDeclaration" targetNodeId="1.1219147669362" resolveInfo="InputProperty" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1219147949888">
       <property name="vertical" value="true" />
@@ -1902,6 +1902,22 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1219147949901">
         <property name="vertical" value="false" />
+        <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1219774443483">
+          <property name="text" value="checked" />
+          <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
+          <node role="renderingCondition" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_NodeCondition" id="1219774456082">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1219774456083">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1219774459041">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1219774459156">
+                  <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1219774459042" />
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1219774464535">
+                    <link role="property" targetNodeId="1.1219774190534" resolveInfo="checkOnStart" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_ConceptProperty" id="1219147949902">
           <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
           <link role="relationDeclaration" targetNodeId="2.1156235010670" resolveInfo="alias" />
@@ -1940,6 +1956,20 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node role="inspectedCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Collection" id="1219774535316">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1219774537889">
+        <property name="text" value="check on start" />
+        <link role="styleClass" targetNodeId="1197386303323" resolveInfo="attributeName" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1219774988253">
+        <property name="text" value="=" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Property" id="1219774550067">
+        <link role="relationDeclaration" targetNodeId="1.1219774190534" resolveInfo="checkOnStart" />
+        <link role="styleClass" targetNodeId="1196866068487" resolveInfo="booleanLiteral" />
       </node>
     </node>
   </node>

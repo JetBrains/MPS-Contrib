@@ -31,6 +31,10 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return this.createCollection1219147949888(context, node);
   }
 
+  public EditorCell createInspectedCell(EditorContext context, SNode node) {
+    return this.createCollection1219774535316(context, node);
+  }
+
   public EditorCell createCollection1219147949888(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_12191479498881219147949888(editorCell, node, context);
@@ -62,10 +66,25 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, new BasicCellContext(node), new SubstituteInfoPart[]{new ExternalPropertyDeclaration_Editor.ExternalPropertyDeclaration_generic_cellMenu0()}));
+    if (renderingCondition2766_1(node, context, context.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createConstant1219774443483(context, node, "checked"));
+    }
     editorCell.addEditorCell(this.createConceptProperty1219147949902(context, node));
     editorCell.addEditorCell(this.createProperty1219147949903(context, node));
     editorCell.addEditorCell(this.createConstant1219147949904(context, node, ":"));
     editorCell.addEditorCell(this.createRefNode1219147949905(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createCollection1219774535316(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    setupBasic_Collection_12197745353161219774535316(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createConstant1219774537889(context, node, "check on start"));
+    editorCell.addEditorCell(this.createConstant1219774988253(context, node, "="));
+    editorCell.addEditorCell(this.createProperty1219774550067(context, node));
     return editorCell;
   }
 
@@ -81,6 +100,30 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_12191479499041219147949904(editorCell, node, context);
     setupLabel_Constant_1219147949904_1219147949904(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant1219774443483(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_12197744434831219774443483(editorCell, node, context);
+    setupLabel_Constant_1219774443483_1219774443483(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant1219774537889(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_12197745378891219774537889(editorCell, node, context);
+    setupLabel_Constant_1219774537889_1219774537889(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant1219774988253(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_12197749882531219774988253(editorCell, node, context);
+    setupLabel_Constant_1219774988253_1219774988253(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -201,6 +244,35 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
+  public EditorCell createProperty1219774550067_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+    CellProviderWithRole provider = aProvider;
+    provider.setAuxiliaryCellProvider(null);
+    EditorCell editorCell = provider.createEditorCell(context);
+    setupBasic_property_checkOnStart1219774550067(editorCell, node, context);
+    if (editorCell instanceof EditorCell_Label) {
+      setupLabel_property_checkOnStart_1219774550067((EditorCell_Label)editorCell, node, context);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    return editorCell;
+  }
+
+  public EditorCell createProperty1219774550067(EditorContext context, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+    provider.setRole("checkOnStart");
+    provider.setNoTargetText("<no checkOnStart>");
+    provider.setReadOnly(false);
+    provider.setAllowsEmptyTarget(false);
+    EditorCell cellWithRole = this.createProperty1219774550067_internal(context, node, provider);
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = context.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+    } else
+    return cellWithRole;
+  }
+
 
   private static void setupBasic_Collection_12191479498881219147949888(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1219147949888");
@@ -250,6 +322,29 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_refNode_type1219147949905(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
+  private static void setupBasic_Constant_12197744434831219774443483(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1219774443483");
+    BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
+  }
+
+  private static void setupBasic_Collection_12197745353161219774535316(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1219774535316");
+  }
+
+  private static void setupBasic_Constant_12197745378891219774537889(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1219774537889");
+    BuildLanguageStyle_StyleSheet.ATTRIBUTE_NAME.apply(editorCell);
+  }
+
+  private static void setupBasic_property_checkOnStart1219774550067(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "property_checkOnStart");
+    BuildLanguageStyle_StyleSheet.BOOLEAN_LITERAL.apply(editorCell);
+  }
+
+  private static void setupBasic_Constant_12197749882531219774988253(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1219774988253");
+  }
+
   private static void setupLabel_Constant_1219147949890_1219147949890(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
@@ -268,8 +363,24 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private static void setupLabel_refNode_type_1219147949905(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
+  private static void setupLabel_Constant_1219774443483_1219774443483(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1219774537889_1219774537889(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_property_checkOnStart_1219774550067(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1219774988253_1219774988253(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
   public static boolean renderingCondition2766_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getString(node, "shortDescription") != null;
+  }
+
+  public static boolean renderingCondition2766_1(SNode node, EditorContext editorContext, IScope scope) {
+    return SPropertyOperations.getBoolean(node, "checkOnStart");
   }
 
   public static class ExternalPropertyDeclaration_generic_cellMenu0 extends AbstractCellMenuPart_Generic_Item {
