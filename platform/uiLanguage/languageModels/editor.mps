@@ -573,12 +573,16 @@
       <property name="vertical" value="false" />
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202464496903">
         <property name="text" value="{" />
+        <link role="styleClass" targetNodeId="4.1215091279307" resolveInfo="LeftBrace" />
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.LastPositionAllowedStyleClassItem" id="1219823466186" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_RefNode" id="1202464498937">
         <link role="relationDeclaration" targetNodeId="1.1202464474939" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Constant" id="1202464500830">
         <property name="text" value="}" />
+        <link role="styleClass" targetNodeId="4.1215091331565" resolveInfo="RightBrace" />
+        <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.FirstPositionAllowedStyleClassItem" id="1219823470468" />
       </node>
     </node>
   </node>
