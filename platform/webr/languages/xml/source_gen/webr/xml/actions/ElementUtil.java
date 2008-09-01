@@ -27,7 +27,7 @@ public class ElementUtil {
     SNode elementDeclaration = null;
     SNode currentNode = node;
     if (!(includeThis)) {
-      currentNode = SNodeOperations.getParent(node, null, false, false);
+      currentNode = SNodeOperations.getParent(node);
     }
     while (true) {
       if ((currentNode == null)) {
@@ -44,7 +44,7 @@ public class ElementUtil {
           break;
         }
       }
-      currentNode = SNodeOperations.getParent(currentNode, null, false, false);
+      currentNode = SNodeOperations.getParent(currentNode);
     }
     return elementDeclaration;
   }
