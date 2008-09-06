@@ -51,7 +51,7 @@ public class AddInitializer_Intention extends BaseIntention implements Intention
     this.getField(key)[0] = argument;
   }
 
-  public String getSourceModelUID() {
+  public String getLocationString() {
     return "jetbrains.mps.uiLanguage.intentions";
   }
 
