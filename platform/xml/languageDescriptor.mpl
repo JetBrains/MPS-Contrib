@@ -5,7 +5,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="jetbrains.mps.xml#1129923280838">
+    <generator name="void" generatorUID="jetbrains.mps.xml#1129923280838">
       <models>
         <modelRoot path="${language_descriptor}\generator" namespacePrefix="jetbrains.mps.xml.generator" />
       </models>
@@ -18,10 +18,6 @@
   </classPath>
   <languageRuntimeClassPath />
   <sourcePath />
-  <osgiOptions>
-    <requiredBundles />
-    <exportedPackage />
-  </osgiOptions>
   <dependencies>
     <dependency reexport="false">jetbrains.mps.xml#1129923280838</dependency>
   </dependencies>
