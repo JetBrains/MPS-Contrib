@@ -21,6 +21,9 @@
   <dependencies>
     <dependency reexport="false">jetbrains.mps.xml#1129923280838</dependency>
   </dependencies>
+  <usedDevKits>
+    <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>
+  </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>jetbrains.mps.core</extendedLanguage>
   </extendedLanguages>

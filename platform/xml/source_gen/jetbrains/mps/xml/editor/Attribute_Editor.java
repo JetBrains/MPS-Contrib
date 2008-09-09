@@ -18,6 +18,7 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
+import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class Attribute_Editor extends DefaultNodeEditor {
@@ -79,7 +80,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
   public EditorCell createProperty1107867281034(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
-    provider.setNoTargetText("?name?");
+    provider.setNoTargetText("<no name>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty1107867281034_internal(context, node, provider);
@@ -144,6 +145,9 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
       };
       inlineStyle.apply(editorCell);
+    }
+    if (true) {
+      editorCell.setFocusPolicy(FocusPolicy.ATTRACTS_FOCUS);
     }
   }
 
