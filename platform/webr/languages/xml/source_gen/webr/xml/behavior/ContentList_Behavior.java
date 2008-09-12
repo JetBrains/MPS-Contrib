@@ -5,6 +5,10 @@ package webr.xml.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 
 public class ContentList_Behavior {
 
@@ -13,6 +17,31 @@ public class ContentList_Behavior {
 
   public static List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
     return SLinkOperations.getTargets(thisNode, "content", true);
+  }
+
+  public static boolean call_isHorizontal_1221256530294(SNode thisNode) {
+    if ((thisNode == null)) {
+      return true;
+    }
+    if (SPropertyOperations.getBoolean(thisNode, "isHorizontal")) {
+      return true;
+    }
+    List<SNode> contents = SLinkOperations.getTargets(thisNode, "content", true);
+    int contentSize = ListSequence.fromList(contents).count();
+    if (contentSize == 0) {
+      return true;
+    }
+    if (contentSize == 1) {
+      SNode first = ListSequence.fromList(contents).first();
+      if (!(SConceptPropertyOperations.getBoolean(first, "isComplex")) && (ListSequence.fromList(SLinkOperations.getConceptLinkTargets(first, "correspondingElement")).first() == null)) {
+        return true;
+      }
+    }
+    SNode parentContentList = SNodeOperations.getAncestor(thisNode, "webr.xml.structure.ContentList", false, false);
+    if (parentContentList != null) {
+      return SPropertyOperations.getBoolean(parentContentList, "isHorizontal");
+    }
+    return false;
   }
 
 }

@@ -16,7 +16,7 @@ public class Content_Behavior {
   }
 
   public static boolean call_isSeparate_1213877224266(SNode thisNode) {
-    SNode parent = SNodeOperations.getParent(thisNode, null, false, false);
+    SNode parent = SNodeOperations.getParent(thisNode);
     if (SNodeOperations.isInstanceOf(parent, "webr.xml.structure.ContentList")) {
       if (!(SPropertyOperations.getBoolean(parent, "isHorizontal"))) {
         return true;
