@@ -4,7 +4,6 @@ package webr.xml.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
@@ -18,7 +17,7 @@ public class Content_Behavior {
   public static boolean call_isSeparate_1213877224266(SNode thisNode) {
     SNode parent = SNodeOperations.getParent(thisNode);
     if (SNodeOperations.isInstanceOf(parent, "webr.xml.structure.ContentList")) {
-      if (!(SPropertyOperations.getBoolean(parent, "isHorizontal"))) {
+      if (!(ContentList_Behavior.call_isHorizontal_1221256530294(parent))) {
         return true;
       }
     }
