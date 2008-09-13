@@ -6,8 +6,8 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -23,14 +23,6 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     super(node);
   }
 
-  private static void setupBasic_refCell_elementDeclaration1179101177299(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_elementDeclaration");
-  }
-
-  private static void setupLabel_refCell_elementDeclaration_1179101177299(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-
   public EditorCell createEditorCell(EditorContext context) {
     return this.createEditorCell(context, this.getSNode());
   }
@@ -41,7 +33,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
 
   public EditorCell createRefCell1179101177299_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline2());
+    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline4639_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_elementDeclaration1179101177299(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -68,20 +60,19 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     return cellWithRole;
   }
 
-  public static class _Inline2 extends AbstractCellProvider {
 
-    public _Inline2() {
+  private static void setupBasic_refCell_elementDeclaration1179101177299(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_elementDeclaration");
+  }
+
+  private static void setupLabel_refCell_elementDeclaration_1179101177299(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class _Inline4639_0 extends AbstractCellProvider {
+
+    public _Inline4639_0() {
       super();
     }
-
-    private static void setupBasic_ModelAccess_11899918110051189991811005(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "ModelAccess_1189991811005");
-      XmlStyle_StyleSheet.XML_ELEMENT.apply(editorCell);
-    }
-
-    private static void setupLabel_ModelAccess_1189991811005_1189991811005(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
 
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
@@ -116,6 +107,15 @@ public class Element_elementDeclaration extends AbstractCellProvider {
         }
 
       };
+    }
+
+
+    private static void setupBasic_ModelAccess_11899918110051189991811005(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, "ModelAccess_1189991811005");
+      XmlStyle_StyleSheet.XML_ELEMENT.apply(editorCell);
+    }
+
+    private static void setupLabel_ModelAccess_1189991811005_1189991811005(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

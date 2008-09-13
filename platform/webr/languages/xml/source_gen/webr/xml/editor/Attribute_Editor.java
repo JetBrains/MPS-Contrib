@@ -4,73 +4,22 @@ package webr.xml.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.PropertyCellProvider;
 
 public class Attribute_Editor extends DefaultNodeEditor {
-
-  private static void setupBasic_Collection_11677003841131167700384113(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167700384113");
-  }
-
-  private static void setupBasic_Constant_11677003859901167700385990(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167700385990");
-    XmlStyle_StyleSheet.XML_OPERATOR.apply(editorCell);
-  }
-
-  private static void setupBasic_refCell_attributeDeclaration1167701355879(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attributeDeclaration");
-  }
-
-  private static void setupBasic_Constant_11677016257141167701625714(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701625714");
-    XmlStyle_StyleSheet.XML_OPEN_QUOTE.apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_11677016280761167701628076(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701628076");
-    XmlStyle_StyleSheet.XML_CLOSE_QUOTE.apply(editorCell);
-  }
-
-  private static void setupBasic_refNode_value1167703291707(EditorCell editorCell, SNode node, EditorContext context) {
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
-  private static void setupLabel_Constant_1167700385990_1167700385990(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refCell_attributeDeclaration_1167701355879(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1167701625714_1167701625714(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1167701628076_1167701628076(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNode_value_1167703291707(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1167700384113(context, node);
@@ -116,7 +65,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefCell1167701355879_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(new Attribute_Editor._Inline());
+    provider.setAuxiliaryCellProvider(new Attribute_Editor._Inline1680_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_refCell_attributeDeclaration1167701355879(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
@@ -172,20 +121,62 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public static class _Inline extends AbstractCellProvider {
 
-    public _Inline() {
+  private static void setupBasic_Collection_11677003841131167700384113(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167700384113");
+  }
+
+  private static void setupBasic_Constant_11677003859901167700385990(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167700385990");
+    XmlStyle_StyleSheet.XML_OPERATOR.apply(editorCell);
+  }
+
+  private static void setupBasic_refCell_attributeDeclaration1167701355879(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attributeDeclaration");
+  }
+
+  private static void setupBasic_Constant_11677016257141167701625714(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701625714");
+    XmlStyle_StyleSheet.XML_OPEN_QUOTE.apply(editorCell);
+  }
+
+  private static void setupBasic_Constant_11677016280761167701628076(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701628076");
+    XmlStyle_StyleSheet.XML_CLOSE_QUOTE.apply(editorCell);
+  }
+
+  private static void setupBasic_refNode_value1167703291707(EditorCell editorCell, SNode node, EditorContext context) {
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
+  }
+
+  private static void setupLabel_Constant_1167700385990_1167700385990(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refCell_attributeDeclaration_1167701355879(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1167701625714_1167701625714(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1167701628076_1167701628076(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNode_value_1167703291707(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class _Inline1680_0 extends AbstractCellProvider {
+
+    public _Inline1680_0() {
       super();
     }
-
-    private static void setupBasic_property_attributeName1167701361647(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_attributeName");
-      XmlStyle_StyleSheet.XML_ATTRIBUTE.apply(editorCell);
-    }
-
-    private static void setupLabel_property_attributeName_1167701361647(EditorCell_Label editorCell, SNode node, EditorContext context) {
-    }
-
 
     public EditorCell createEditorCell(EditorContext context) {
       return this.createEditorCell(context, this.getSNode());
@@ -222,6 +213,15 @@ public class Attribute_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
       return cellWithRole;
+    }
+
+
+    private static void setupBasic_property_attributeName1167701361647(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.putUserObject(EditorCell.CELL_ID, "property_attributeName");
+      XmlStyle_StyleSheet.XML_ATTRIBUTE.apply(editorCell);
+    }
+
+    private static void setupLabel_property_attributeName_1167701361647(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

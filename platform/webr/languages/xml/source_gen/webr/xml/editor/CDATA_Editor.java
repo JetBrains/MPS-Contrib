@@ -4,42 +4,17 @@ package webr.xml.editor;
 
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class CDATA_Editor extends DefaultNodeEditor {
-
-  private static void setupBasic_Collection_11920387102201192038710220(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1192038710220");
-  }
-
-  private static void setupBasic_Constant_11920387447231192038744723(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1192038744723");
-  }
-
-  private static void setupBasic_refNode_contentList1192038787051(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Constant_11920388815661192038881566(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1192038881566");
-  }
-
-  private static void setupLabel_Constant_1192038744723_1192038744723(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNode_contentList_1192038787051(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1192038881566_1192038881566(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1192038710220(context, node);
@@ -100,6 +75,31 @@ public class CDATA_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
+  }
+
+
+  private static void setupBasic_Collection_11920387102201192038710220(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1192038710220");
+  }
+
+  private static void setupBasic_Constant_11920387447231192038744723(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1192038744723");
+  }
+
+  private static void setupBasic_refNode_contentList1192038787051(EditorCell editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupBasic_Constant_11920388815661192038881566(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1192038881566");
+  }
+
+  private static void setupLabel_Constant_1192038744723_1192038744723(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNode_contentList_1192038787051(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1192038881566_1192038881566(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

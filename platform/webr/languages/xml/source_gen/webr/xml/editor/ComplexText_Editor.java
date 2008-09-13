@@ -5,12 +5,12 @@ package webr.xml.editor;
 import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -21,26 +21,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 public class ComplexText_Editor extends DefaultNodeEditor {
 
   /* package */AbstractCellListHandler myListHandler_1161961889607;
-
-  private static void setupBasic_Collection_11619618826311161961882631(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1161961882631");
-  }
-
-  private static void setupBasic_Constant_11619618864931161961886493(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1161961886493");
-    XmlStyle_StyleSheet.XML_COMPLEX_TEXT.apply(editorCell);
-  }
-
-  private static void setupBasic_refNodeList_text1161961889607(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_text");
-  }
-
-  private static void setupLabel_Constant_1161961886493_1161961886493(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_refNodeList_text_1161961889607(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection1161961882631(context, node);
@@ -67,7 +47,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNodeList1161961889607(EditorContext context, SNode node) {
     if (this.myListHandler_1161961889607 == null) {
-      this.myListHandler_1161961889607 = new ComplexText_Editor.textListHandler_(node, "text", context);
+      this.myListHandler_1161961889607 = new ComplexText_Editor.textListHandler_2529_0(node, "text", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_1161961889607.createCells(context, new CellLayout_Horizontal(), false);
     setupBasic_refNodeList_text1161961889607(editorCell, node, context);
@@ -78,9 +58,29 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class textListHandler_ extends RefNodeListHandler {
 
-    public textListHandler_(SNode ownerNode, String childRole, EditorContext context) {
+  private static void setupBasic_Collection_11619618826311161961882631(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1161961882631");
+  }
+
+  private static void setupBasic_Constant_11619618864931161961886493(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1161961886493");
+    XmlStyle_StyleSheet.XML_COMPLEX_TEXT.apply(editorCell);
+  }
+
+  private static void setupBasic_refNodeList_text1161961889607(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_text");
+  }
+
+  private static void setupLabel_Constant_1161961886493_1161961886493(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_refNodeList_text_1161961889607(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static class textListHandler_2529_0 extends RefNodeListHandler {
+
+    public textListHandler_2529_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
