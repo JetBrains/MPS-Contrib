@@ -20,6 +20,7 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import webr.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 
 public class Element_Editor extends DefaultNodeEditor {
@@ -647,7 +648,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   public static boolean renderingCondition3264_1(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "contentList", true), "isHorizontal");
+    return ContentList_Behavior.call_isHorizontal_1221256530294(SLinkOperations.getTarget(node, "contentList", true));
   }
 
 }

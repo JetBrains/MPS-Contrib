@@ -18,7 +18,7 @@ import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import webr.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeListHandler;
@@ -345,7 +345,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   public static boolean renderingCondition8357_0(SNode node, EditorContext editorContext, IScope scope) {
-    return SPropertyOperations.getBoolean(node, "isHorizontal");
+    return ContentList_Behavior.call_isHorizontal_1221256530294(node);
   }
 
   public static boolean renderingCondition8357_1(SNode node, EditorContext editorContext, IScope scope) {

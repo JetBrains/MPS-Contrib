@@ -55,6 +55,7 @@
       </node>
     </node>
   </node>
+  <visible index="2" modelUID="webr.xml.behavior" />
   <node type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptEditorDeclaration" id="1163629288709">
     <link role="conceptDeclaration" targetNodeId="1.1163629230879" />
     <node role="cellModel" type="jetbrains.mps.bootstrap.editorLanguage.structure.CellModel_Alternation" id="1166301006369">
@@ -64,8 +65,8 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1175117827937">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227838307">
               <node role="operand" type="jetbrains.mps.bootstrap.editorLanguage.structure.ConceptFunctionParameter_node" id="1175117827938" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1175117832409">
-                <link role="property" targetNodeId="1.1166231449055" />
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221331940171">
+                <link role="conceptMethodDeclaration" targetNodeId="2v.1221256530294" resolveInfo="isHorizontal" />
               </node>
             </node>
           </node>
@@ -231,8 +232,8 @@
                     <link role="link" targetNodeId="1.1179114219774" />
                   </node>
                 </node>
-                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1175117956828">
-                  <link role="property" targetNodeId="1.1166231449055" />
+                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221331968563">
+                  <link role="conceptMethodDeclaration" targetNodeId="2v.1221256530294" resolveInfo="isHorizontal" />
                 </node>
               </node>
             </node>
