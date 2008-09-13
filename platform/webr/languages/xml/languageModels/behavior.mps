@@ -70,8 +70,8 @@
                       <link role="variableDeclaration" targetNodeId="1213877224270" resolveInfo="parent" />
                     </node>
                   </node>
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1213877224286">
-                    <link role="property" targetNodeId="1.1166231449055" resolveInfo="isHorizontal" />
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221347334443">
+                    <link role="conceptMethodDeclaration" targetNodeId="1221256530294" resolveInfo="isHorizontal" />
                   </node>
                 </node>
               </node>
@@ -350,8 +350,8 @@
                 <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1221256566687">
                   <link role="variableDeclaration" targetNodeId="1221256566676" resolveInfo="parentContentList" />
                 </node>
-                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1221256566688">
-                  <link role="property" targetNodeId="1.1166231449055" resolveInfo="isHorizontal" />
+                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221347318939">
+                  <link role="conceptMethodDeclaration" targetNodeId="1221256530294" resolveInfo="isHorizontal" />
                 </node>
               </node>
             </node>

@@ -4,8 +4,9 @@ package webr.xml.generator.baseLanguage.template.main;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
-import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
+import webr.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.generator.template.PropertyMacroContext;
+import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOperations;
 import webr.xml.behavior.Content_Behavior;
 import jetbrains.mps.gtext.runtime.BaseHtmlStringUtil;
@@ -29,11 +30,11 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_1167338040829(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SPropertyOperations.getBoolean(_context.getNode(), "isHorizontal");
+    return ContentList_Behavior.call_isHorizontal_1221256530294(_context.getNode());
   }
 
   public static boolean baseMappingRule_Condition_1167338342843(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return !(SPropertyOperations.getBoolean(_context.getNode(), "isHorizontal"));
+    return !(ContentList_Behavior.call_isHorizontal_1221256530294(_context.getNode()));
   }
 
   public static Object propertyMacro_GetPropertyValue_1169056138286(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -77,11 +78,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1171381345810(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode(), null, false, false), "webr.xml.structure.Element");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "webr.xml.structure.Element");
   }
 
   public static boolean ifMacro_Condition_1171381407187(final IOperationContext operationContext, final IfMacroContext _context) {
-    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode(), null, false, false), "webr.xml.structure.Element"));
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "webr.xml.structure.Element"));
   }
 
   public static boolean ifMacro_Condition_1179113432142(final IOperationContext operationContext, final IfMacroContext _context) {
