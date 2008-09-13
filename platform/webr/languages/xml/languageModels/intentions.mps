@@ -150,8 +150,8 @@
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1195647309547">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227898080">
               <node role="operand" type="jetbrains.mps.bootstrap.intentionsLanguage.structure.ConceptFunctionParameter_node" id="1195647309549" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1195647309550">
-                <link role="property" targetNodeId="1.1166231449055" resolveInfo="isHorizontal" />
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221347954074">
+                <link role="conceptMethodDeclaration" targetNodeId="2v.1221256530294" resolveInfo="isHorizontal" />
               </node>
             </node>
           </node>
@@ -349,8 +349,8 @@
                   <link role="link" targetNodeId="1.1179114219774" />
                 </node>
               </node>
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1195647322056">
-                <link role="property" targetNodeId="1.1166231449055" resolveInfo="isHorizontal" />
+              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221347972841">
+                <link role="conceptMethodDeclaration" targetNodeId="2v.1221256530294" resolveInfo="isHorizontal" />
               </node>
             </node>
           </node>
@@ -405,8 +405,8 @@
                 <link role="link" targetNodeId="1.1179114219774" />
               </node>
             </node>
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1195647322117">
-              <link role="property" targetNodeId="1.1166231449055" resolveInfo="isHorizontal" />
+            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221347979561">
+              <link role="conceptMethodDeclaration" targetNodeId="2v.1221256530294" resolveInfo="isHorizontal" />
             </node>
           </node>
         </node>
@@ -453,8 +453,8 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647386252">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227890229">
             <node role="operand" type="jetbrains.mps.bootstrap.intentionsLanguage.structure.ConceptFunctionParameter_node" id="1195647386254" />
-            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1195647386255">
-              <link role="property" targetNodeId="1.1166231449055" resolveInfo="isHorizontal" />
+            <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221347961309">
+              <link role="conceptMethodDeclaration" targetNodeId="2v.1221256530294" resolveInfo="isHorizontal" />
             </node>
           </node>
         </node>
