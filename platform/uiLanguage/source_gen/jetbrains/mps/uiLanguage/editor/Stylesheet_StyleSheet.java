@@ -24,6 +24,22 @@ public class Stylesheet_StyleSheet {
     }
 
   };
+
+  public static final Style attribute(EditorCell cell) {
+    return new Style(cell) {
+    {
+      this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
+
+        public Color calculate(EditorCell cell) {
+          return Stylesheet_StyleSheet.calculateColor8722_0(cell);
+        }
+
+      });
+      this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    }
+    };
+  }
+
   public static final Style COMPONENT = new Style() {
     {
       this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
