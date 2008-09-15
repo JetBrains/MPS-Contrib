@@ -48,7 +48,6 @@
             <property name="style" value="BOLD" />
           </node>
           <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399677785">
-            <property name="color" value="query" />
             <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1214399677786">
               <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1214399677787">
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1214399677788">
@@ -252,7 +251,6 @@
             <property name="style" value="BOLD" />
           </node>
           <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399679018">
-            <property name="color" value="query" />
             <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1214399679019">
               <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1214399679020">
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1214399679021">
@@ -513,7 +511,6 @@
           <property name="style" value="BOLD_ITALIC" />
         </node>
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678732">
-          <property name="color" value="query" />
           <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1214399678733">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1214399678734">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1214399678735">
@@ -680,7 +677,6 @@
           <property name="style" value="BOLD" />
         </node>
         <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1214399678718">
-          <property name="color" value="query" />
           <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1214399678719">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1214399678720">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1214399678721">
@@ -890,7 +886,6 @@
     <node role="styleClass" type="jetbrains.mps.bootstrap.editorLanguage.structure.StyleSheetClass" id="1189991358183">
       <property name="name" value="xmlElement" />
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1189991399935">
-        <property name="color" value="query" />
         <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1189991412577">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1189991412578">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1189991446520">

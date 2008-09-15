@@ -486,7 +486,6 @@
     <node role="styleClass" type="jetbrains.mps.bootstrap.editorLanguage.structure.StyleSheetClass" id="1216813778766">
       <property name="name" value="XmlElement" />
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1216813809295">
-        <property name="color" value="query" />
         <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1216813809296">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1216813809297">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1216813825675">
@@ -524,7 +523,6 @@
         <property name="value" value="0.0" />
       </node>
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1216811853589">
-        <property name="color" value="query" />
         <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1216811988465">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1216811988466">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1216812052482">
@@ -550,7 +548,6 @@
     <node role="styleClass" type="jetbrains.mps.bootstrap.editorLanguage.structure.StyleSheetClass" id="1216813880456">
       <property name="name" value="XmlEntity" />
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1216813895289">
-        <property name="color" value="query" />
         <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1216813895290">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1216813895291">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1216813895292">
@@ -595,7 +592,6 @@
       </node>
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.LastPositionAllowedStyleClassItem" id="1216817296461" />
       <node role="styleItem" type="jetbrains.mps.bootstrap.editorLanguage.structure.ForegroundColorStyleClassItem" id="1216817284630">
-        <property name="color" value="query" />
         <node role="query" type="jetbrains.mps.bootstrap.editorLanguage.structure.QueryFunction_Color" id="1216817284631">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1216817284632">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1216817284633">
