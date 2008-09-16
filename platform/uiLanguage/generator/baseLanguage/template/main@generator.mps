@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main">
-  <persistence version="1" />
+  <persistence version="2" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
@@ -43,7 +43,7 @@
   <import index="14" modelUID="java.awt.event@java_stub" version="-1" />
   <import index="16" modelUID="jetbrains.mps.uiLanguage.runtime@java_stub" version="-1" />
   <import index="17" modelUID="org.jdesktop.swingbinding@java_stub" version="-1" />
-  <import index="18" modelUID="jetbrains.mps.baseLanguage.classifiers.generator.baseLanguage.template.main@templates" version="-1" />
+  <import index="18" modelUID="jetbrains.mps.baseLanguage.classifiers.generator.baseLanguage.template.main@generator" version="-1" />
   <import index="19" modelUID="jetbrains.mps.uiLanguage.runtime.events@java_stub" version="-1" />
   <import index="20" modelUID="jetbrains.mps.baseLanguage.classifiers.behavior" version="-1" />
   <import index="21" modelUID="jetbrains.mps.uiLanguage.behavior" version="-1" />
