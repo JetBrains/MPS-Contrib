@@ -1,62 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlInternal.constraints">
-  <persistence version="1" />
-  <refactoringHistory>
-    <refactoringContext modelVersion="0">
-      <refactoring refactoringClass="jetbrains.mps.core.scripts.MoveNodes" />
-      <moveMap>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1178187486669" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487338" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1178187486670" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487348" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1178187486671" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487349" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198862843011" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487339" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198862843013" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487340" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198862864765" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487341" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198862864766" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487343" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198862867786" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487344" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198948105540" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487345" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198948105541" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487346" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1198948105542" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487347" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.constraints" nodeId="1204227889490" />
-          <value modelUID="webr.xmlInternal.behavior" nodeId="1213877487342" />
-        </entry>
-      </moveMap>
-      <conceptFeatureMap />
-    </refactoringContext>
-  </refactoringHistory>
+  <persistence version="2" />
+  <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.constraintsLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.constraints" version="9" />
     <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />

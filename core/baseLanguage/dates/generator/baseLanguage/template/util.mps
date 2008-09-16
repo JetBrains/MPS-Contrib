@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template.util">
-  <persistence version="1" />
+  <persistence version="2" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.baseLanguage">
     <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
@@ -24,7 +24,7 @@
   <import index="4" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
   <import index="9" modelUID="jetbrains.mps.util@java_stub" version="-1" />
   <import index="10" modelUID="java.lang@java_stub" version="-1" />
-  <import index="13" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template.main@templates" version="-1" />
+  <import index="13" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template.main@generator" version="-1" />
   <visible index="2" modelUID="jetbrains.mps.core.structure" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1169555993608">
     <property name="name" value="DatesQueriesUtil" />

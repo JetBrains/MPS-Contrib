@@ -1,55 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="webr.xmlInternal.structure">
-  <persistence version="1" />
-  <refactoringHistory>
-    <refactoringContext modelVersion="0">
-      <refactoring refactoringClass="jetbrains.mps.bootstrap.structureLanguage.scripts.MoveConcepts" />
-      <moveMap>
-        <entry>
-          <key modelUID="webr.xmlInternal.editor" nodeId="1173198070742" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471381" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.editor" nodeId="1173198083712" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471382" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.editor" nodeId="1173198095199" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471384" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.editor" nodeId="1173198221188" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471386" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.editor" nodeId="1173198236721" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471385" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.editor" nodeId="1173208231561" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.editor" nodeId="1207746471383" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.structure" nodeId="1173198002225" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.structure" nodeId="1207746471371" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.structure" nodeId="1173198130793" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.structure" nodeId="1207746471372" />
-        </entry>
-        <entry>
-          <key modelUID="webr.xmlInternal.structure" nodeId="1173208195775" />
-          <value modelUID="jetbrains.mps.webr.dxmlInternal.structure" nodeId="1207746471373" />
-        </entry>
-      </moveMap>
-      <conceptFeatureMap>
-        <entry>
-          <key featureName="ProtectedContent" conceptFQName="webr.xmlInternal.structure.ProtectedContent" featureKind="CONCEPT" />
-          <value featureName="ProtectedContent" conceptFQName="jetbrains.mps.webr.dxmlInternal.structure.ProtectedContent" featureKind="CONCEPT" />
-        </entry>
-      </conceptFeatureMap>
-    </refactoringContext>
-  </refactoringHistory>
+  <persistence version="2" />
+  <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.structureLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
   </language>

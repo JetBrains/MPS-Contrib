@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model name="jetbrains.mps.webr.xml.sandbox">
-  <persistence version="1" />
+  <persistence version="2" />
   <refactoringHistory />
   <language namespace="webr.xml">
     <languageAspect modelUID="webr.xml.constraints" version="6" />
