@@ -165,25 +165,6 @@
       </node>
     </node>
   </node>
-  <visible index="2" modelUID="webr.xml.behavior" />
-  <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstraints" id="1213104847373">
-    <link role="concept" targetNodeId="1.1163629230879" resolveInfo="ContentList" />
-    <node role="property" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodePropertyConstraint" id="1213104847374">
-      <link role="applicableProperty" targetNodeId="1.1166231449055" resolveInfo="isHorizontal" />
-      <node role="propertyGetter" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintFunction_PropertyGetter" id="1213104847375">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213104847376">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1221256871762">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1221256872482">
-              <node role="operand" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConstraintsFunctionParameter_node" id="1221256871763" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1221256875048">
-                <link role="conceptMethodDeclaration" targetNodeId="2v.1221256530294" resolveInfo="isHorizontal" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstraints" id="1213104860619">
     <link role="concept" targetNodeId="1.1167700349452" resolveInfo="Attribute" />
     <node role="referent" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodeReferentConstraint" id="1213104860620">
