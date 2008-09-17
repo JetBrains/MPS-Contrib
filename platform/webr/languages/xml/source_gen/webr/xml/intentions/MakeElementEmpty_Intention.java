@@ -21,18 +21,18 @@ public class MakeElementEmpty_Intention extends BaseIntention {
     return false;
   }
 
-  public String getDescription(SNode node, EditorContext editorContext) {
+  public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Make element empty";
   }
 
-  public boolean isApplicable(SNode node, EditorContext editorContext) {
+  public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     SNode contentList = SLinkOperations.getTarget(node, "contentList", true);
     List<SNode> contents = SLinkOperations.getTargets(contentList, "content", true);
     int count = ListSequence.fromList(contents).count();
     return !(SPropertyOperations.getBoolean(node, "isEmpty")) && (count == 0 || count == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(contents).first(), "webr.xml.structure.Text") && SPropertyOperations.hasValue(ListSequence.fromList(contents).first(), "text", null));
   }
 
-  public void execute(SNode node, EditorContext editorContext) {
+  public void execute(final SNode node, final EditorContext editorContext) {
     SPropertyOperations.set(node, "isEmpty", "" + (true));
   }
 

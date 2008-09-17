@@ -19,15 +19,15 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
     return false;
   }
 
-  public String getDescription(SNode node, EditorContext editorContext) {
+  public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Replace node with its content";
   }
 
-  public boolean isApplicable(SNode node, EditorContext editorContext) {
+  public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "webr.xml.structure.ContentList") && ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node)).isNotEmpty();
   }
 
-  public void execute(SNode node, EditorContext editorContext) {
+  public void execute(final SNode node, final EditorContext editorContext) {
     SNode s = node;
     for(SNode subContent : Content_Behavior.call_getSubcontents_1213877224308(node)) {
       SNodeOperations.insertNextSiblingChild(s, subContent);

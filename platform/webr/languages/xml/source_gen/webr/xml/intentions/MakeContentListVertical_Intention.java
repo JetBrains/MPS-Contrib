@@ -18,15 +18,15 @@ public class MakeContentListVertical_Intention extends BaseIntention {
     return false;
   }
 
-  public String getDescription(SNode node, EditorContext editorContext) {
+  public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Make contentList vertical";
   }
 
-  public boolean isApplicable(SNode node, EditorContext editorContext) {
+  public boolean isApplicable(final SNode node, final EditorContext editorContext) {
     return ContentList_Behavior.call_isHorizontal_1221256530294(node);
   }
 
-  public void execute(SNode node, EditorContext editorContext) {
+  public void execute(final SNode node, final EditorContext editorContext) {
     SPropertyOperations.set(node, "isHorizontal", "" + (false));
   }
 
