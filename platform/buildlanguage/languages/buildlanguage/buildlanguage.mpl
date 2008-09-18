@@ -17,6 +17,9 @@
       <dependencies>
         <dependency reexport="true">jetbrains.mps.xml</dependency>
       </dependencies>
+      <usedLanguages>
+        <usedLanguages>jetbrains.mps.internal.collections</usedLanguages>
+      </usedLanguages>
       <mapping-priorities />
     </generator>
   </generators>
