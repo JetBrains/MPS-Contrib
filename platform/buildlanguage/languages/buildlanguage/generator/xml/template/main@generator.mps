@@ -37,6 +37,7 @@
   <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="32" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
   <languageAspect modelUID="jetbrains.mps.propertylanguage.constraints" version="0" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.blTypes.constraints" version="0" />
   <maxImportIndex value="19" />
   <import index="1" modelUID="jetbrains.mps.buildlanguage.structure" version="16" />
   <import index="3" modelUID="jetbrains.mps.xml.structure" version="-1" />
@@ -565,23 +566,6 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1201712964632">
-        <property name="name" value="import" />
-        <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1201712978090">
-          <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1201712978091">
-            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201712978092">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201713005428">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227852111">
-                  <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1201713005429" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029180">
-                    <link role="link" targetNodeId="1.1201702862229" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node role="content" type="jetbrains.mps.xml.structure.Element" id="1219774056169">
         <property name="name" value="external property" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.LoopMacro" id="1219774083521">
@@ -643,6 +627,23 @@
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1219774104895">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1219774665666">
                 <node role="expression" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1219774665667" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1221832362893">
+        <property name="name" value="import" />
+        <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1221832362894">
+          <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1221832362895">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1221832362896">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1221832362897">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1221832362898">
+                  <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1221832362899" />
+                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1221832362900">
+                    <link role="link" targetNodeId="1.1201702862229" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>

@@ -32,7 +32,13 @@ public class BuildLanguageStyle_StyleSheet {
         }
 
       });
-      this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+      this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
+
+        public Integer calculate(EditorCell cell) {
+          return BuildLanguageStyle_StyleSheet.calculateFontStyle3467_0(cell);
+        }
+
+      });
     }
 
   };
@@ -50,13 +56,25 @@ public class BuildLanguageStyle_StyleSheet {
         }
 
       });
-      this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+      this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
+
+        public Integer calculate(EditorCell cell) {
+          return BuildLanguageStyle_StyleSheet.calculateFontStyle3467_1(cell);
+        }
+
+      });
     }
 
   };
   public static final Style TARGET = new Style() {
     {
-      this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+      this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
+
+        public Integer calculate(EditorCell cell) {
+          return BuildLanguageStyle_StyleSheet.calculateFontStyle3467_2(cell);
+        }
+
+      });
       this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
         public Color calculate(EditorCell cell) {
@@ -69,7 +87,13 @@ public class BuildLanguageStyle_StyleSheet {
   };
   public static final Style TASK = new Style() {
     {
-      this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
+
+        public Integer calculate(EditorCell cell) {
+          return BuildLanguageStyle_StyleSheet.calculateFontStyle3467_4(cell);
+        }
+
+      });
       this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
         public Color calculate(EditorCell cell) {
@@ -87,7 +111,13 @@ public class BuildLanguageStyle_StyleSheet {
   };
   public static final Style ATTRIBUTE_NAME = new Style() {
     {
-      this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
+
+        public Integer calculate(EditorCell cell) {
+          return BuildLanguageStyle_StyleSheet.calculateFontStyle3467_3(cell);
+        }
+
+      });
     }
 
   };
@@ -127,6 +157,36 @@ public class BuildLanguageStyle_StyleSheet {
     }
 
   };
+
+  private static Integer calculateFontStyle3467_0(EditorCell cell) {
+    int result;
+    result = MPSFonts.BOLD;
+    return result;
+  }
+
+  private static Integer calculateFontStyle3467_1(EditorCell cell) {
+    int result;
+    result = MPSFonts.BOLD;
+    return result;
+  }
+
+  private static Integer calculateFontStyle3467_2(EditorCell cell) {
+    int result;
+    result = MPSFonts.BOLD;
+    return result;
+  }
+
+  private static Integer calculateFontStyle3467_3(EditorCell cell) {
+    int result;
+    result = MPSFonts.PLAIN;
+    return result;
+  }
+
+  private static Integer calculateFontStyle3467_4(EditorCell cell) {
+    int result;
+    result = MPSFonts.PLAIN;
+    return result;
+  }
 
   private static Color calculateColor3467_0(EditorCell cell) {
     Color result;
