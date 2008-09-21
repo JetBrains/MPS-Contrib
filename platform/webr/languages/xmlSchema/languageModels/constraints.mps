@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model name="webr.xmlSchema.constraints">
-  <persistence version="2" />
+<model modelUID="webr.xmlSchema.constraints">
+  <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.constraintsLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.constraints" version="9" />

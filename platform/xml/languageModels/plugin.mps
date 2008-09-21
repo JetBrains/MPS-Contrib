@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model name="jetbrains.mps.xml.plugin">
-  <persistence version="2" />
+<model modelUID="jetbrains.mps.xml.plugin">
+  <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.pluginLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.pluginLanguage.constraints" version="19" />

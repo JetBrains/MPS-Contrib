@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model name="jetbrains.mps.buildlanguage.generated">
-  <persistence version="2" />
+<model modelUID="jetbrains.mps.buildlanguage.generated">
+  <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.buildlanguage">
     <languageAspect modelUID="jetbrains.mps.buildlanguage.constraints" version="32" />

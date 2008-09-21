@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model name="webr.xml.editor">
-  <persistence version="2" />
+<model modelUID="webr.xml.editor">
+  <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.editorLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.editorLanguage.constraints" version="21" />

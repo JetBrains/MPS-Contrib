@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model name="jetbrains.mps.buildlanguage.intentions">
-  <persistence version="2" />
+<model modelUID="jetbrains.mps.buildlanguage.intentions">
+  <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.bootstrap.intentionsLanguage">
     <languageAspect modelUID="jetbrains.mps.bootstrap.intentionsLanguage.constraints" version="1" />
