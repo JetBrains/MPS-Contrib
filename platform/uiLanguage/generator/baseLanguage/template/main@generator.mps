@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator">
+<model modelUID="r:1222075024727(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.baseLanguage">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+    <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
+    <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="1" />
+    <languageAspect modelUID="r:1222075024123(jetbrains.mps.bootstrap.smodelLanguage.constraints)" version="21" />
+    <languageAspect modelUID="r:1222075024129(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.transformation.TLBase">
-    <languageAspect modelUID="jetbrains.mps.transformation.TLBase.constraints" version="16" />
-    <languageAspect modelUID="jetbrains.mps.transformation.TLBase.structure" version="1" />
+    <languageAspect modelUID="r:1222075024098(jetbrains.mps.transformation.TLBase.constraints)" version="16" />
+    <languageAspect modelUID="r:1222075024104(jetbrains.mps.transformation.TLBase.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.baseLanguageInternal" />
   <language namespace="jetbrains.mps.transformation.generationContext" />
   <language namespace="jetbrains.mps.baseLanguage.ext.collections.lang">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="6" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
+    <languageAspect modelUID="r:1222075024168(jetbrains.mps.baseLanguage.ext.collections.lang.constraints)" version="6" />
+    <languageAspect modelUID="r:1222075024174(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
   </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.transformation.TLBase.constraints" version="16" />
+  <languageAspect modelUID="jetbrains.mps.transformation.TLBase.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="6" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
   <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
@@ -30,7 +38,12 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
   <languageAspect modelUID="jetbrains.mps.internal.collections.constraints" version="2" />
   <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
-  <maxImportIndex value="21" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024184(jetbrains.mps.closures.structure)" version="0" />
+  <languageAspect modelUID="r:1222075024180(jetbrains.mps.closures.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024012(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
+  <languageAspect modelUID="r:1222075024058(jetbrains.mps.bootstrap.sharedConcepts.constraints)" version="0" />
+  <maxImportIndex value="22" />
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
   <import index="2" modelUID="java.lang@java_stub" version="-1" />
   <import index="5" modelUID="javax.swing@java_stub" version="-1" />
@@ -47,12 +60,12 @@
   <import index="19" modelUID="jetbrains.mps.uiLanguage.runtime.events@java_stub" version="-1" />
   <import index="20" modelUID="jetbrains.mps.baseLanguage.classifiers.behavior" version="-1" />
   <import index="21" modelUID="jetbrains.mps.uiLanguage.behavior" version="-1" />
-  <visible index="2" modelUID="jetbrains.mps.baseLanguage.classifiers.structure" />
+  <import index="22" modelUID="jetbrains.mps.baseLanguage.classifiers.structure" version="-1" />
   <node type="jetbrains.mps.transformation.TLBase.structure.MappingConfiguration" id="1202393865414">
     <property name="package" value="Component" />
     <property name="name" value="component" />
     <node role="reductionMappingRule" type="jetbrains.mps.transformation.TLBase.structure.Reduction_MappingRule" id="1202465908419">
-      <link role="applicableConcept" targetNodeId="2v.1205752633985" resolveInfo="ThisClassifierExpresson" />
+      <link role="applicableConcept" targetNodeId="22.1205752633985" resolveInfo="ThisClassifierExpresson" />
       <node role="ruleConsequence" type="jetbrains.mps.transformation.TLBase.structure.InlineTemplate_RuleConsequence" id="1202465925390">
         <node role="templateNode" type="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference" id="1202477905703">
           <property name="name" value="myThis" />
@@ -2391,7 +2404,7 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1202813279705">
     <property name="name" value="reduce_ClassifierMethodCall" />
     <property name="package" value="Shared" />
-    <link role="applicableConcept" targetNodeId="2v.1205769149993" resolveInfo="DefaultClassifierMethodCallOperation" />
+    <link role="applicableConcept" targetNodeId="22.1205769149993" resolveInfo="DefaultClassifierMethodCallOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1210095077958">
       <node role="expression" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialInstanceMethodCall" id="1210095077959">
         <property name="methodName" value="abcMethod" />
@@ -2403,7 +2416,7 @@
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1210095077972">
                     <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1210096672421" />
                     <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1210095077974">
-                      <link role="link" targetNodeId="2v.1205770614681" />
+                      <link role="link" targetNodeId="22.1205770614681" />
                     </node>
                   </node>
                 </node>
@@ -2421,7 +2434,7 @@
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1210095077989">
                     <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1210096649724" />
                     <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1210095077991">
-                      <link role="link" targetNodeId="2v.1205769403793" />
+                      <link role="link" targetNodeId="22.1205769403793" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1210095077992">
@@ -3024,7 +3037,7 @@
       <link role="template" targetNodeId="1207753003074" resolveInfo="BeanClass" />
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.transformation.TLBase.structure.Reduction_MappingRule" id="1207755858787">
-      <link role="applicableConcept" targetNodeId="2v.1205752633985" resolveInfo="ThisClassifierExpresson" />
+      <link role="applicableConcept" targetNodeId="22.1205752633985" resolveInfo="ThisClassifierExpresson" />
       <node role="ruleConsequence" type="jetbrains.mps.transformation.TLBase.structure.InlineTemplate_RuleConsequence" id="1207755858788">
         <node role="templateNode" type="jetbrains.mps.baseLanguage.structure.ThisExpression" id="1207755882035" />
       </node>
@@ -3193,13 +3206,13 @@
       </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.transformation.TLBase.structure.Reduction_MappingRule" id="1207756353123">
-      <link role="applicableConcept" targetNodeId="2v.1205769149993" resolveInfo="DefaultClassifierMethodCallOperation" />
+      <link role="applicableConcept" targetNodeId="22.1205769149993" resolveInfo="DefaultClassifierMethodCallOperation" />
       <node role="ruleConsequence" type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclarationReference" id="1207756353124">
         <link role="template" targetNodeId="1202813279705" resolveInfo="reduce_ComponentMethodCall" />
       </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.transformation.TLBase.structure.Reduction_MappingRule" id="1207756506962">
-      <link role="applicableConcept" targetNodeId="2v.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration" />
+      <link role="applicableConcept" targetNodeId="22.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration" />
       <node role="ruleConsequence" type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclarationReference" id="1207756506963">
         <link role="template" targetNodeId="18.1205839086351" resolveInfo="reduce_DefaultClassifierMethodDeclaration" />
       </node>

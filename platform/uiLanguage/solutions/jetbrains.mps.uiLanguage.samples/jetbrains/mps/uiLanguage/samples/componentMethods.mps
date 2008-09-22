@@ -1,19 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="jetbrains.mps.uiLanguage.samples.componentMethods">
+<model modelUID="r:1222075024731(jetbrains.mps.uiLanguage.samples.componentMethods)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.baseLanguage">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+    <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
+    <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   </language>
   <language namespace="jetbrains.mps.uiLanguage">
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+    <languageAspect modelUID="r:1222075024718(jetbrains.mps.uiLanguage.constraints)" version="26" />
+    <languageAspect modelUID="r:1222075024723(jetbrains.mps.uiLanguage.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage.classifiers">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
+    <languageAspect modelUID="r:1222075024238(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <maxImportIndex value="3" />
   <import index="1" modelUID="javax.swing@java_stub" version="-1" />
   <import index="2" modelUID="java.awt@java_stub" version="-1" />

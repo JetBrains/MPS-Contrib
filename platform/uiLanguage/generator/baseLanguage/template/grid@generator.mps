@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid@generator">
+<model modelUID="r:1222075024726(jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid@generator)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.baseLanguage">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+    <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
+    <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   </language>
   <language namespace="jetbrains.mps.uiLanguage">
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+    <languageAspect modelUID="r:1222075024718(jetbrains.mps.uiLanguage.constraints)" version="26" />
+    <languageAspect modelUID="r:1222075024723(jetbrains.mps.uiLanguage.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.bootstrap.smodelLanguage">
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
-    <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="1" />
+    <languageAspect modelUID="r:1222075024123(jetbrains.mps.bootstrap.smodelLanguage.constraints)" version="21" />
+    <languageAspect modelUID="r:1222075024129(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.transformation.TLBase">
-    <languageAspect modelUID="jetbrains.mps.transformation.TLBase.constraints" version="16" />
-    <languageAspect modelUID="jetbrains.mps.transformation.TLBase.structure" version="1" />
+    <languageAspect modelUID="r:1222075024098(jetbrains.mps.transformation.TLBase.constraints)" version="16" />
+    <languageAspect modelUID="r:1222075024104(jetbrains.mps.transformation.TLBase.structure)" version="1" />
   </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
+  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.transformation.TLBase.constraints" version="16" />
+  <languageAspect modelUID="jetbrains.mps.transformation.TLBase.structure" version="1" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
   <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
@@ -25,19 +33,25 @@
   <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
   <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <maxImportIndex value="6" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024238(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
+  <languageAspect modelUID="r:1222075024184(jetbrains.mps.closures.structure)" version="0" />
+  <languageAspect modelUID="r:1222075024180(jetbrains.mps.closures.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024012(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
+  <languageAspect modelUID="r:1222075024058(jetbrains.mps.bootstrap.sharedConcepts.constraints)" version="0" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
   <import index="2" modelUID="java.awt@java_stub" version="-1" />
   <import index="6" modelUID="jetbrains.mps.uiLanguage.behavior" version="-1" />
-  <visible index="2" modelUID="jetbrains.mps.uiLanguage.components" />
+  <import index="7" modelUID="jetbrains.mps.uiLanguage.components" version="-1" />
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1202824926823">
     <property name="name" value="reduce_Grid" />
     <link role="applicableConcept" targetNodeId="1.1202823654753" resolveInfo="Grid" />
     <node role="contentNode" type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202824999439">
       <node role="root" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202825001456">
-        <link role="componentDeclaration" targetNodeId="2v.1202816402995" resolveInfo="Panel" />
+        <link role="componentDeclaration" targetNodeId="7.1202816402995" resolveInfo="Panel" />
         <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202825005785">
-          <link role="attribute" targetNodeId="2v.1202393600503" resolveInfo="layout" />
+          <link role="attribute" targetNodeId="7.1202393600503" resolveInfo="layout" />
           <node role="value" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888395661">
             <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888395663">
               <link role="baseMethodDeclaration" targetNodeId="2.~GridLayout.&lt;init&gt;(int,int)" resolveInfo="GridLayout" />
@@ -79,7 +93,7 @@
           </node>
         </node>
         <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202825286707">
-          <link role="componentDeclaration" targetNodeId="2v.1202816402995" resolveInfo="Panel" />
+          <link role="componentDeclaration" targetNodeId="7.1202816402995" resolveInfo="Panel" />
           <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.LoopMacro" id="1202825294698">
             <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1202825294699">
               <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202825294700">
@@ -119,7 +133,7 @@
           </node>
         </node>
         <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1203604098175">
-          <link role="componentDeclaration" targetNodeId="2v.1202393560969" resolveInfo="Button" />
+          <link role="componentDeclaration" targetNodeId="7.1202393560969" resolveInfo="Button" />
           <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1203604100896">
             <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1203604100897">
               <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203604100898">

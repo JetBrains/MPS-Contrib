@@ -1,42 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="jetbrains.mps.uiLanguage.samples.actions">
+<model modelUID="r:1222075024729(jetbrains.mps.uiLanguage.samples.actions)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.baseLanguage">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+    <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
+    <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   </language>
   <language namespace="jetbrains.mps.uiLanguage">
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+    <languageAspect modelUID="r:1222075024718(jetbrains.mps.uiLanguage.constraints)" version="26" />
+    <languageAspect modelUID="r:1222075024723(jetbrains.mps.uiLanguage.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage.classifiers">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
+    <languageAspect modelUID="r:1222075024238(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <maxImportIndex value="4" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <maxImportIndex value="5" />
   <import index="1" modelUID="java.awt@java_stub" version="-1" />
   <import index="2" modelUID="javax.swing@java_stub" version="-1" />
-  <visible index="2" modelUID="jetbrains.mps.uiLanguage.components" />
+  <import index="5" modelUID="jetbrains.mps.uiLanguage.components" version="-1" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202743870023">
     <property name="name" value="ActionsSample" />
     <node role="root" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743876165">
-      <link role="componentDeclaration" targetNodeId="2v.1202393511419" resolveInfo="Frame" />
+      <link role="componentDeclaration" targetNodeId="5.1202393511419" resolveInfo="Frame" />
       <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743920581">
-        <link role="componentDeclaration" targetNodeId="2v.1202738287160" resolveInfo="VBox" />
+        <link role="componentDeclaration" targetNodeId="5.1202738287160" resolveInfo="VBox" />
         <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743924676">
           <property name="componentName" value="label" />
           <property name="name" value="label" />
-          <link role="componentDeclaration" targetNodeId="2v.1202465811094" resolveInfo="Label" />
+          <link role="componentDeclaration" targetNodeId="5.1202465811094" resolveInfo="Label" />
           <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743925646">
-            <link role="attribute" targetNodeId="2v.1202465836231" resolveInfo="text" />
+            <link role="attribute" targetNodeId="5.1202465836231" resolveInfo="text" />
             <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202743926382">
               <property name="value" value="&lt;PRESS BUTTON&gt;" />
             </node>
           </node>
         </node>
         <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743940308">
-          <link role="componentDeclaration" targetNodeId="2v.1202393560969" resolveInfo="Button" />
+          <link role="componentDeclaration" targetNodeId="5.1202393560969" resolveInfo="Button" />
           <node role="content" type="jetbrains.mps.uiLanguage.structure.ActionHandler" id="1202744466545">
             <node role="handler" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="1202748772347">
               <node role="rValue" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202748773006">
@@ -47,13 +53,13 @@
                   <link role="component" targetNodeId="1202743924676" resolveInfo="label" />
                 </node>
                 <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202748240433">
-                  <link role="member" targetNodeId="2v.1202465836231" resolveInfo="text" />
+                  <link role="member" targetNodeId="5.1202465836231" resolveInfo="text" />
                 </node>
               </node>
             </node>
           </node>
           <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743941731">
-            <link role="attribute" targetNodeId="2v.1202393575288" resolveInfo="text" />
+            <link role="attribute" targetNodeId="5.1202393575288" resolveInfo="text" />
             <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202743942717">
               <property name="value" value="Change Text" />
             </node>
@@ -61,13 +67,13 @@
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202746259073">
-        <link role="attribute" targetNodeId="2v.1202393523190" resolveInfo="title" />
+        <link role="attribute" targetNodeId="5.1202393523190" resolveInfo="title" />
         <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202746260356">
           <property name="value" value="Actions Sample" />
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743879775">
-        <link role="attribute" targetNodeId="2v.1202393600503" resolveInfo="layout" />
+        <link role="attribute" targetNodeId="5.1202393600503" resolveInfo="layout" />
         <node role="value" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888366003">
           <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888366005">
             <link role="baseMethodDeclaration" targetNodeId="1.~FlowLayout.&lt;init&gt;()" resolveInfo="FlowLayout" />
@@ -75,7 +81,7 @@
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202747884083">
-        <link role="attribute" targetNodeId="2v.1202396307047" resolveInfo="size" />
+        <link role="attribute" targetNodeId="5.1202396307047" resolveInfo="size" />
         <node role="value" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888412164">
           <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888412166">
             <link role="baseMethodDeclaration" targetNodeId="1.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
@@ -89,14 +95,14 @@
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202746226331">
-        <link role="attribute" targetNodeId="2v.1202746217446" resolveInfo="defaultCloseOperation" />
+        <link role="attribute" targetNodeId="5.1202746217446" resolveInfo="defaultCloseOperation" />
         <node role="value" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1202746228708">
           <link role="classifier" targetNodeId="2.~JFrame" resolveInfo="JFrame" />
           <link role="variableDeclaration" targetNodeId="2.~JFrame.EXIT_ON_CLOSE" resolveInfo="EXIT_ON_CLOSE" />
         </node>
       </node>
       <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743952797">
-        <link role="attribute" targetNodeId="2v.1202396132470" resolveInfo="visible" />
+        <link role="attribute" targetNodeId="5.1202396132470" resolveInfo="visible" />
         <node role="value" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1202743953471">
           <property name="value" value="true" />
         </node>

@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="jetbrains.mps.uiLanguage.samples.dialogs">
+<model modelUID="r:1222075024732(jetbrains.mps.uiLanguage.samples.dialogs)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="jetbrains.mps.baseLanguage">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+    <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
+    <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   </language>
   <language namespace="jetbrains.mps.uiLanguage">
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
-    <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+    <languageAspect modelUID="r:1222075024718(jetbrains.mps.uiLanguage.constraints)" version="26" />
+    <languageAspect modelUID="r:1222075024723(jetbrains.mps.uiLanguage.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.baseLanguage.classifiers">
-    <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
+    <languageAspect modelUID="r:1222075024238(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   </language>
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
+  <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
+  <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
   <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <maxImportIndex value="3" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <maxImportIndex value="4" />
   <import index="1" modelUID="java.lang@java_stub" version="-1" />
   <import index="2" modelUID="java.io@java_stub" version="-1" />
   <import index="3" modelUID="java.awt@java_stub" version="-1" />
-  <visible index="2" modelUID="jetbrains.mps.uiLanguage.components" />
+  <import index="4" modelUID="jetbrains.mps.uiLanguage.components" version="-1" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202829285111">
     <property name="name" value="DialogDemo" />
     <node role="root" type="jetbrains.mps.uiLanguage.structure.StandardDialog" id="1202832065433">
@@ -45,9 +51,9 @@
         <node role="part" type="jetbrains.mps.uiLanguage.structure.FormPart" id="1202832071576">
           <property name="label" value="Name" />
           <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202832223740">
-            <link role="componentDeclaration" targetNodeId="2v.1202464198724" resolveInfo="TextField" />
+            <link role="componentDeclaration" targetNodeId="4.1202464198724" resolveInfo="TextField" />
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202832260626">
-              <link role="attribute" targetNodeId="2v.1202464208353" resolveInfo="text" />
+              <link role="attribute" targetNodeId="4.1202464208353" resolveInfo="text" />
               <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202832261284">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832263694">
                   <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224319" />
@@ -58,7 +64,7 @@
               </node>
             </node>
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202835115516">
-              <link role="attribute" targetNodeId="2v.1202818338918" resolveInfo="columns" />
+              <link role="attribute" targetNodeId="4.1202818338918" resolveInfo="columns" />
               <node role="value" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202835116956">
                 <property name="value" value="20" />
               </node>
@@ -68,9 +74,9 @@
         <node role="part" type="jetbrains.mps.uiLanguage.structure.FormPart" id="1202832226475">
           <property name="label" value="LastName" />
           <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202832241118">
-            <link role="componentDeclaration" targetNodeId="2v.1202464198724" resolveInfo="TextField" />
+            <link role="componentDeclaration" targetNodeId="4.1202464198724" resolveInfo="TextField" />
             <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202832266853">
-              <link role="attribute" targetNodeId="2v.1202464208353" resolveInfo="text" />
+              <link role="attribute" targetNodeId="4.1202464208353" resolveInfo="text" />
               <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202832267964">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202832269593">
                   <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224358" />
