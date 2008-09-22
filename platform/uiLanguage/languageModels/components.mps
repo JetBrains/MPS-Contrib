@@ -10,20 +10,14 @@
     <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
     <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   </language>
-  <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
-  <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
-  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:1222075024238(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <maxImportIndex value="6" />
-  <import index="1" modelUID="java.lang@java_stub" version="-1" />
-  <import index="2" modelUID="javax.swing@java_stub" version="-1" />
-  <import index="3" modelUID="java.awt@java_stub" version="-1" />
-  <import index="4" modelUID="jetbrains.mps.uiLanguage.runtime@java_stub" version="-1" />
-  <import index="5" modelUID="javax.swing.border@java_stub" version="-1" />
+  <import index="1" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="2" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
+  <import index="3" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
+  <import index="4" modelUID="f:java_stub#jetbrains.mps.uiLanguage.runtime(jetbrains.mps.uiLanguage.runtime@java_stub)" version="-1" />
+  <import index="5" modelUID="f:java_stub#javax.swing.border(javax.swing.border@java_stub)" version="-1" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202393472906">
     <property name="name" value="BaseComponent" />
     <property name="stub" value="true" />

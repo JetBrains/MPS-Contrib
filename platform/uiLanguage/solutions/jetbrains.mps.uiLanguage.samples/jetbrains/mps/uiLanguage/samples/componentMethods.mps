@@ -13,17 +13,11 @@
   <language namespace="jetbrains.mps.baseLanguage.classifiers">
     <languageAspect modelUID="r:1222075024238(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   </language>
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.uiLanguage.constraints" version="26" />
-  <languageAspect modelUID="jetbrains.mps.uiLanguage.structure" version="1" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.classifiers.constraints" version="7" />
-  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
   <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <maxImportIndex value="3" />
-  <import index="1" modelUID="javax.swing@java_stub" version="-1" />
-  <import index="2" modelUID="java.awt@java_stub" version="-1" />
-  <import index="3" modelUID="jetbrains.mps.uiLanguage.components" version="-1" />
+  <import index="1" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
+  <import index="2" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
+  <import index="3" modelUID="r:1222075024717(jetbrains.mps.uiLanguage.components)" version="-1" />
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202810604795">
     <property name="name" value="SimpleFrame" />
     <node role="root" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202810609327">
