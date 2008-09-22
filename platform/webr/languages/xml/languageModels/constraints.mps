@@ -21,38 +21,25 @@
   <language namespace="jetbrains.mps.bootstrap.sharedConcepts">
     <languageAspect modelUID="r:1222075024058(jetbrains.mps.bootstrap.sharedConcepts.constraints)" version="0" />
   </language>
-  <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.constraints" version="9" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="1" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.constraints" version="6" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.collections.lang.structure" version="1" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.sharedConcepts.constraints" version="0" />
-  <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="webr.xmlSchema.constraints" version="21" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
-  <languageAspect modelUID="webr.xml.constraints" version="6" />
-  <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
-  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <languageAspect modelUID="jetbrains.mps.internal.collections.constraints" version="2" />
-  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
-  <languageAspect modelUID="r:1222075024012(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
+  <languageAspect modelUID="r:1222075024785(webr.xmlInternal.structure)" version="0" />
   <languageAspect modelUID="r:1222075024184(jetbrains.mps.closures.structure)" version="0" />
+  <languageAspect modelUID="r:1222075024789(webr.xmlSchema.constraints)" version="21" />
+  <languageAspect modelUID="r:1222075024012(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
+  <languageAspect modelUID="r:1222075024773(webr.xml.constraints)" version="6" />
   <languageAspect modelUID="r:1222075024180(jetbrains.mps.closures.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024356(jetbrains.mps.internal.collections.constraints)" version="2" />
   <maxImportIndex value="15" />
-  <import index="1" modelUID="webr.xml.structure" version="-1" />
-  <import index="3" modelUID="jetbrains.mps.core.structure" version="-1" />
-  <import index="7" modelUID="jetbrains.mps.smodel.search@java_stub" version="-1" />
-  <import index="9" modelUID="webr.xmlSchema.structure" version="-1" />
-  <import index="10" modelUID="jetbrains.mps.smodel@java_stub" version="-1" />
-  <import index="11" modelUID="webr.xmlInternal.structure" version="0" />
-  <import index="12" modelUID="java.lang@java_stub" version="-1" />
-  <import index="13" modelUID="webr.xmlSchema.constraints" version="21" />
-  <import index="14" modelUID="webr.xml.actions" version="-1" />
-  <import index="15" modelUID="webr.xmlSchema.behavior" version="-1" />
+  <import index="1" modelUID="r:1222075024776(webr.xml.structure)" version="-1" />
+  <import index="3" modelUID="r:1222075024008(jetbrains.mps.core.structure)" version="-1" />
+  <import index="7" modelUID="f:java_stub#jetbrains.mps.smodel.search(jetbrains.mps.smodel.search@java_stub)" version="-1" />
+  <import index="9" modelUID="r:1222075024792(webr.xmlSchema.structure)" version="-1" />
+  <import index="10" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
+  <import index="11" modelUID="r:1222075024785(webr.xmlInternal.structure)" version="0" />
+  <import index="12" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="13" modelUID="r:1222075024789(webr.xmlSchema.constraints)" version="21" />
+  <import index="14" modelUID="r:1222075024771(webr.xml.actions)" version="-1" />
+  <import index="15" modelUID="r:1222075024788(webr.xmlSchema.behavior)" version="-1" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstraints" id="1213104840321">
     <link role="concept" targetNodeId="1.1167523027466" resolveInfo="Element" />
     <node role="property" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.NodePropertyConstraint" id="1213104840322">

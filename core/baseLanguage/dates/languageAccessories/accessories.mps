@@ -10,19 +10,15 @@
     <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   </language>
   <language namespace="jetbrains.springframework.configurationInternal" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.constraints" version="9" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <languageAspect modelUID="jetbrains.springframework.configuration.constraints" version="6" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
-  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
+  <languageAspect modelUID="r:1222075024675(jetbrains.springframework.configuration.constraints)" version="6" />
+  <languageAspect modelUID="r:1222075024335(jetbrains.mps.baseLanguage.ext.dates.lang.constraints)" version="9" />
   <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <maxImportIndex value="5" />
-  <import index="1" modelUID="org.joda.time@java_stub" version="-1" />
-  <import index="2" modelUID="java.util@java_stub" version="-1" />
-  <import index="3" modelUID="jetbrains.mps.baseLanguage.ext.dates.table@java_stub" version="-1" />
-  <import index="4" modelUID="org.joda.time.format@java_stub" version="-1" />
-  <import index="5" modelUID="jetbrains.mps.baseLanguage.ext.dates@java_stub" version="-1" />
+  <import index="1" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
+  <import index="2" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
+  <import index="3" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.dates.table(jetbrains.mps.baseLanguage.ext.dates.table@java_stub)" version="-1" />
+  <import index="4" modelUID="f:java_stub#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
+  <import index="5" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.dates(jetbrains.mps.baseLanguage.ext.dates@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.FormatTokenSettings" id="1169483995724">
     <node role="dateTimePropertyFormatConfiguration" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimeIntPropertyFormatConfiguration" id="1173957241813">
       <link role="dateTimeProperty" targetNodeId="1173957203373" resolveInfo="era" />

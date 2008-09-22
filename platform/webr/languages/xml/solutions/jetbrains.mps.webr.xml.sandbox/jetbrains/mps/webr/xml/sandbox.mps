@@ -12,14 +12,6 @@
   <language namespace="webr.xmlSchema">
     <languageAspect modelUID="r:1222075024789(webr.xmlSchema.constraints)" version="21" />
   </language>
-  <languageAspect modelUID="webr.xml.constraints" version="6" />
-  <languageAspect modelUID="webr.xmlInternal.constraints" version="0" />
-  <languageAspect modelUID="webr.xmlInternal.structure" version="0" />
-  <languageAspect modelUID="webr.xmlSchema.constraints" version="21" />
-  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.structureLanguage.constraints" version="11" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
   <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:1222075024012(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
   <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />

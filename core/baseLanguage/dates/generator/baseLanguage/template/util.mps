@@ -11,28 +11,21 @@
     <languageAspect modelUID="r:1222075024129(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="1" />
   </language>
   <language namespace="jetbrains.mps.transformation.generationContext" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.constraints" version="83" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.constraints" version="21" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.smodelLanguage.structure" version="1" />
-  <languageAspect modelUID="jetbrains.mps.bootstrap.constraintsLanguage.structure" version="0" />
-  <languageAspect modelUID="jetbrains.mps.closures.structure" version="0" />
-  <languageAspect modelUID="jetbrains.springframework.configuration.constraints" version="6" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.internal.constraints" version="9" />
-  <languageAspect modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.constraints" version="9" />
-  <languageAspect modelUID="jetbrains.mps.closures.constraints" version="2" />
-  <languageAspect modelUID="jetbrains.mps.core.constraints" version="2" />
-  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024141(jetbrains.mps.bootstrap.constraintsLanguage.structure)" version="0" />
   <languageAspect modelUID="r:1222075024184(jetbrains.mps.closures.structure)" version="0" />
+  <languageAspect modelUID="r:1222075024675(jetbrains.springframework.configuration.constraints)" version="6" />
+  <languageAspect modelUID="r:1222075024347(jetbrains.mps.baseLanguage.ext.dates.internal.constraints)" version="9" />
+  <languageAspect modelUID="r:1222075024335(jetbrains.mps.baseLanguage.ext.dates.lang.constraints)" version="9" />
   <languageAspect modelUID="r:1222075024180(jetbrains.mps.closures.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <maxImportIndex value="14" />
-  <import index="1" modelUID="jetbrains.mps.baseLanguage.structure" version="0" />
-  <import index="3" modelUID="jetbrains.mps.generator.template@java_stub" version="-1" />
-  <import index="4" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.structure" version="-1" />
-  <import index="9" modelUID="jetbrains.mps.util@java_stub" version="-1" />
-  <import index="10" modelUID="java.lang@java_stub" version="-1" />
-  <import index="13" modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template.main@generator" version="-1" />
-  <import index="14" modelUID="jetbrains.mps.core.structure" version="-1" />
+  <import index="1" modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
+  <import index="3" modelUID="f:java_stub#jetbrains.mps.generator.template(jetbrains.mps.generator.template@java_stub)" version="-1" />
+  <import index="4" modelUID="r:1222075024341(jetbrains.mps.baseLanguage.ext.dates.lang.structure)" version="-1" />
+  <import index="9" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
+  <import index="10" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="13" modelUID="r:1222075024343(jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template.main@generator)" version="-1" />
+  <import index="14" modelUID="r:1222075024008(jetbrains.mps.core.structure)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1169555993608">
     <property name="name" value="DatesQueriesUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="1173785436953">
