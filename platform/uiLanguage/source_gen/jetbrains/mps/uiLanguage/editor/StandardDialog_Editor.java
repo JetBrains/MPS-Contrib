@@ -204,7 +204,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12028301996941202830199694(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202830199694");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028317500541202831750054(EditorCell editorCell, SNode node, EditorContext context) {
@@ -235,7 +235,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12028317500561202831750056(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202831750056");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Indent_12028317519491202831751949(EditorCell editorCell, SNode node, EditorContext context) {
@@ -274,7 +274,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12028317744471202831774447(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202831774447");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028321181311202832118131(EditorCell editorCell, SNode node, EditorContext context) {

@@ -106,7 +106,7 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_property_name1202478509604(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-      BaseLanguageStyle_StyleSheet.FIELD.apply(editorCell);
+      BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
       {
         Style inlineStyle = new Style(editorCell) {
           {

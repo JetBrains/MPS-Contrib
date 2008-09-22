@@ -512,7 +512,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_property_name1202387810513(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12023878144521202387814452(EditorCell editorCell, SNode node, EditorContext context) {

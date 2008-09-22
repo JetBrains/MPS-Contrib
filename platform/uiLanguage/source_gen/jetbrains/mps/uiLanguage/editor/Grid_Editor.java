@@ -113,7 +113,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12028236729631202823672963(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202823672963");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028239299751202823929975(EditorCell editorCell, SNode node, EditorContext context) {

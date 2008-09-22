@@ -84,7 +84,7 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12101796677341210179667734(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210179667734");
-    Stylesheet_StyleSheet.MODEL.apply(editorCell);
+    Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refNode_renderer1210181413175(EditorCell editorCell, SNode node, EditorContext context) {
@@ -92,7 +92,7 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12101829925251210182992525(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210182992525");
-    Stylesheet_StyleSheet.MODEL.apply(editorCell);
+    Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_Constant_1210179667734_1210179667734(EditorCell_Label editorCell, SNode node, EditorContext context) {

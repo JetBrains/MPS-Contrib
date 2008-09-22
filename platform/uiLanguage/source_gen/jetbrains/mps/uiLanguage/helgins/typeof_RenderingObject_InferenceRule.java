@@ -17,7 +17,7 @@ public class typeof_RenderingObject_InferenceRule implements InferenceRule_Runti
     {
       SNode _nodeToCheck_1029348928467 = object;
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(object, "jetbrains.mps.uiLanguage.helgins", "1210521559481", true), new QuotationClass_7().createNode(), _nodeToCheck_1029348928467, null, "jetbrains.mps.uiLanguage.helgins", "1210521566640", intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(object, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1210521559481", true), new QuotationClass_7().createNode(), _nodeToCheck_1029348928467, null, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1210521566640", intentionProvider);
     }
   }
 

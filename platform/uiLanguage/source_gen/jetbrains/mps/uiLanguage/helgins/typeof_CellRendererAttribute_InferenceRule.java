@@ -20,7 +20,7 @@ public class typeof_CellRendererAttribute_InferenceRule implements InferenceRule
     {
       SNode _nodeToCheck_1029348928467 = attribute;
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(attribute, "renderer", true), "jetbrains.mps.uiLanguage.helgins", "1210180446514", true), SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(CellRendererAttribute_Behavior.call_getRendererInfoNode_1213877401775(attribute), "cellRendererSetter", false), "parameter", true)).first(), "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.uiLanguage.helgins", "1210180459646", false, 0, intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(attribute, "renderer", true), "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1210180446514", true), SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(CellRendererAttribute_Behavior.call_getRendererInfoNode_1213877401775(attribute), "cellRendererSetter", false), "parameter", true)).first(), "type", true), _nodeToCheck_1029348928467, null, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1210180459646", false, 0, intentionProvider);
     }
   }
 

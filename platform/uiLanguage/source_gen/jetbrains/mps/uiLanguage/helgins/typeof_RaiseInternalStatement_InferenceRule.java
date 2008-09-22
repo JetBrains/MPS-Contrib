@@ -19,7 +19,7 @@ public class typeof_RaiseInternalStatement_InferenceRule implements InferenceRul
     {
       SNode _nodeToCheck_1029348928467 = statement;
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(statement, "argument", true), "jetbrains.mps.uiLanguage.helgins", "1209655701497", true), SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(statement, "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "parameter", true), "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.uiLanguage.helgins", "1209655719223", true, 0, intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(statement, "argument", true), "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1209655701497", true), SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(statement, "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "parameter", true), "type", true), _nodeToCheck_1029348928467, null, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1209655719223", true, 0, intentionProvider);
     }
   }
 

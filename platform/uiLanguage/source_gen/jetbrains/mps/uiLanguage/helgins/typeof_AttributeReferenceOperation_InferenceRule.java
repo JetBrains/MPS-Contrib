@@ -18,7 +18,7 @@ public class typeof_AttributeReferenceOperation_InferenceRule implements Inferen
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1202487350206", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "member", false), "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.uiLanguage.helgins", "1202487353287", intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1202487350206", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "member", false), "type", true), _nodeToCheck_1029348928467, null, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1202487353287", intentionProvider);
     }
   }
 

@@ -22,18 +22,18 @@ public class typeof_AddListenerOperation_InferenceRule implements InferenceRule_
     if (SLinkOperations.getCount(methodNode, "parameter") != 1) {
       {
         BaseIntentionProvider intentionProvider = null;
-        TypeChecker.getInstance().reportTypeError(methodNode, "handler must have 1 parameter", "jetbrains.mps.uiLanguage.helgins@14_0", "1219415717404", intentionProvider);
+        TypeChecker.getInstance().reportTypeError(methodNode, "handler must have 1 parameter", "r:1222090776782(jetbrains.mps.uiLanguage.helgins@14_0)", "1222091002696", intentionProvider);
       }
     }
     {
       SNode _nodeToCheck_1029348928467 = SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false);
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(SLinkOperations.getTarget(SLinkOperations.getTarget(eventNode, "parameter", true), "type", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(ListSequence.fromList(SLinkOperations.getTargets(methodNode, "parameter", true)).first(), "jetbrains.mps.uiLanguage.helgins", "1208111560721", true), _nodeToCheck_1029348928467, "parameter types do not match", "jetbrains.mps.uiLanguage.helgins", "1208111560719", true, 0, intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(SLinkOperations.getTarget(SLinkOperations.getTarget(eventNode, "parameter", true), "type", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(ListSequence.fromList(SLinkOperations.getTargets(methodNode, "parameter", true)).first(), "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1208111560721", true), _nodeToCheck_1029348928467, "parameter types do not match", "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1208111560719", true, 0, intentionProvider);
     }
     {
       SNode _nodeToCheck_1029348928467 = SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false);
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(SLinkOperations.getTarget(methodNode, "returnType", true), new QuotationClass_5().createNode(), _nodeToCheck_1029348928467, "handler return type must be void", "jetbrains.mps.uiLanguage.helgins", "1208112038267", intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(SLinkOperations.getTarget(methodNode, "returnType", true), new QuotationClass_5().createNode(), _nodeToCheck_1029348928467, "handler return type must be void", "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1208112038267", intentionProvider);
     }
   }
 

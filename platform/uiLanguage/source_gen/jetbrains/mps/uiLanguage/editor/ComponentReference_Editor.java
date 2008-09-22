@@ -103,7 +103,7 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_property_name1202742516789(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-      Stylesheet_StyleSheet.COMPONENT_INSTANCE_NAME.apply(editorCell);
+      Stylesheet_StyleSheet.getComponentInstanceName(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_property_name_1202742516789(EditorCell_Label editorCell, SNode node, EditorContext context) {

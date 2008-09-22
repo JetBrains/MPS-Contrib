@@ -105,7 +105,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12030895297021203089529702(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1203089529702");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_refNodeList_content_1203089519887(EditorCell_Label editorCell, SNode node, EditorContext context) {

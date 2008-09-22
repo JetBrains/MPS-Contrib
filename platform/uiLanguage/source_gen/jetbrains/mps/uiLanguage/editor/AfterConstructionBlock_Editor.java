@@ -136,7 +136,7 @@ public class AfterConstructionBlock_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12169031297571216903129757(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1216903129757");
-    BaseLanguageStyle_StyleSheet.KEY_WORD.apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12169031297581216903129758(EditorCell editorCell, SNode node, EditorContext context) {

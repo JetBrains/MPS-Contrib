@@ -304,7 +304,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_property_name1202397000152(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    Stylesheet_StyleSheet.COMPONENT_INSTANCE_NAME.apply(editorCell);
+    Stylesheet_StyleSheet.getComponentInstanceName(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12023970131381202397013138(EditorCell editorCell, SNode node, EditorContext context) {
@@ -326,7 +326,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_property_name1202397013422(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    Stylesheet_StyleSheet.COMPONENT_INSTANCE_NAME.apply(editorCell);
+    Stylesheet_StyleSheet.getComponentInstanceName(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12023970134231202397013423(EditorCell editorCell, SNode node, EditorContext context) {
@@ -404,7 +404,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_property_name1202388065143(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-      Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+      Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_property_name_1202388065143(EditorCell_Label editorCell, SNode node, EditorContext context) {

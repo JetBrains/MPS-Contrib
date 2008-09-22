@@ -84,7 +84,7 @@ public class Form_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12028178337951202817833795(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202817833795");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028178374061202817837406(EditorCell editorCell, SNode node, EditorContext context) {

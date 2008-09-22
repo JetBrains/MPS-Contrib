@@ -274,7 +274,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12036747076531203674707653(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1203674707653");
-    BaseLanguageStyle_StyleSheet.KEY_WORD.apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12036747116701203674711670(EditorCell editorCell, SNode node, EditorContext context) {

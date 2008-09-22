@@ -87,7 +87,7 @@ public class BindExpression_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12024644969031202464496903(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202464496903");
-    BaseLanguageStyle_StyleSheet.LEFT_BRACE.apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -104,7 +104,7 @@ public class BindExpression_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12024645008301202464500830(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202464500830");
-    BaseLanguageStyle_StyleSheet.RIGHT_BRACE.apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {

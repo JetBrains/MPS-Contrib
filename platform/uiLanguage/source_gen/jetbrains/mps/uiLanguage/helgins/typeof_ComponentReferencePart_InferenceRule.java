@@ -18,7 +18,7 @@ public class typeof_ComponentReferencePart_InferenceRule implements InferenceRul
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "jetbrains.mps.uiLanguage.helgins", "1202742681504", true), new QuotationClass_0().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "component", false), "componentDeclaration", false)), _nodeToCheck_1029348928467, null, "jetbrains.mps.uiLanguage.helgins", "1202742685648", intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createEquation(TypeChecker.getInstance().getRuntimeSupport().typeOf(nodeToCheck, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1202742681504", true), new QuotationClass_0().createNode(SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "component", false), "componentDeclaration", false)), _nodeToCheck_1029348928467, null, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1202742685648", intentionProvider);
     }
   }
 

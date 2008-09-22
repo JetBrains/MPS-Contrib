@@ -19,7 +19,7 @@ public class typeof_RaiseOperation_InferenceRule implements InferenceRule_Runtim
     {
       SNode _nodeToCheck_1029348928467 = operation;
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(operation, "argument", true), "jetbrains.mps.uiLanguage.helgins", "1208111607404", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getParent(operation), "operand", true), "operation", true), "member", false), "parameter", true), "jetbrains.mps.uiLanguage.helgins", "1208111636744", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.uiLanguage.helgins", "1208111631129", false, 0, intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(operation, "argument", true), "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1208111607404", true), TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getParent(operation), "operand", true), "operation", true), "member", false), "parameter", true), "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1208111636744", true), _nodeToCheck_1029348928467, null, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1208111631129", false, 0, intentionProvider);
     }
   }
 

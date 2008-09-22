@@ -84,7 +84,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12028237956371202823795637(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202823795637");
-    Stylesheet_StyleSheet.COMPONENT.apply(editorCell);
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028237990451202823799045(EditorCell editorCell, SNode node, EditorContext context) {

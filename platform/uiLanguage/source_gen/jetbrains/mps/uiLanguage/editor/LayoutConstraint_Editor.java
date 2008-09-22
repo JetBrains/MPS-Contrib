@@ -84,7 +84,7 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12027398985671202739898567(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202739898567");
-    Stylesheet_StyleSheet.LAYOUT_CONSTRAINT.apply(editorCell);
+    Stylesheet_StyleSheet.getLayoutConstraint(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12027399042091202739904209(EditorCell editorCell, SNode node, EditorContext context) {

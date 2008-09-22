@@ -84,7 +84,7 @@ public class ListElements_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12030841804911203084180491(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1203084180491");
-    Stylesheet_StyleSheet.MODEL.apply(editorCell);
+    Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12030841826341203084182634(EditorCell editorCell, SNode node, EditorContext context) {

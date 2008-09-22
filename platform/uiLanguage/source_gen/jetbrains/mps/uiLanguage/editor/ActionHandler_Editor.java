@@ -84,7 +84,7 @@ public class ActionHandler_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12027440754661202744075466(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202744075466");
-    Stylesheet_StyleSheet.ACTION_HANDLER.apply(editorCell);
+    Stylesheet_StyleSheet.getActionHandler(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12027440788121202744078812(EditorCell editorCell, SNode node, EditorContext context) {

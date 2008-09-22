@@ -18,7 +18,7 @@ public class typeof_AttributeValue_InferenceRule implements InferenceRule_Runtim
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
       BaseIntentionProvider intentionProvider = null;
-      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "jetbrains.mps.uiLanguage.helgins", "1202396534901", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), _nodeToCheck_1029348928467, null, "jetbrains.mps.uiLanguage.helgins", "1202396548783", false, 0, intentionProvider);
+      TypeChecker.getInstance().getRuntimeSupport().createLessThanInequationStrong(TypeChecker.getInstance().getRuntimeSupport().typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1202396534901", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), _nodeToCheck_1029348928467, null, "r:1222075024720(jetbrains.mps.uiLanguage.helgins)", "1202396548783", false, 0, intentionProvider);
     }
   }
 

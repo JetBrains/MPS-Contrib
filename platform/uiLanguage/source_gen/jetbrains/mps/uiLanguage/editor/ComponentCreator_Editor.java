@@ -96,7 +96,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12035208142161203520814216(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1203520814216");
-    BaseLanguageStyle_StyleSheet.KEY_WORD.apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12035208200621203520820062(EditorCell editorCell, SNode node, EditorContext context) {
