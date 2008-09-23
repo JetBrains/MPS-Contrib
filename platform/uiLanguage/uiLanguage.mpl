@@ -5,7 +5,7 @@
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.uiLanguage" />
   </models>
   <accessoryModels>
-    <model modelUID="jetbrains.mps.uiLanguage.components" />
+    <model modelUID="r:1222075024717(jetbrains.mps.uiLanguage.components)" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.uiLanguage#1202393863737">
@@ -25,34 +25,34 @@
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator" nodeID="*" />
+            <mapping-node modelUID="r:1222075024725(jetbrains.mps.uiLanguage.generator.baseLanguage.template.form@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator" nodeID="1202393865414" />
+            <mapping-node modelUID="r:1222075024727(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
           </lesser-priority-mapping>
         </mapping-priority-rule>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid@generator" nodeID="*" />
+            <mapping-node modelUID="r:1222075024726(jetbrains.mps.uiLanguage.generator.baseLanguage.template.grid@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator" nodeID="1202393865414" />
+            <mapping-node modelUID="r:1222075024727(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
           </lesser-priority-mapping>
         </mapping-priority-rule>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.dialog@generator" nodeID="*" />
+            <mapping-node modelUID="r:1222075024724(jetbrains.mps.uiLanguage.generator.baseLanguage.template.dialog@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator" nodeID="1202393865414" />
+            <mapping-node modelUID="r:1222075024727(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
           </lesser-priority-mapping>
         </mapping-priority-rule>
         <mapping-priority-rule kind="strictly_together">
           <greater-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator" nodeID="1202393865414" />
+            <mapping-node modelUID="r:1222075024727(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1202393865414" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <mapping-node modelUID="jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator" nodeID="1208105628414" />
+            <mapping-node modelUID="r:1222075024727(jetbrains.mps.uiLanguage.generator.baseLanguage.template.main@generator)" nodeID="1208105628414" />
           </lesser-priority-mapping>
         </mapping-priority-rule>
       </mapping-priorities>
