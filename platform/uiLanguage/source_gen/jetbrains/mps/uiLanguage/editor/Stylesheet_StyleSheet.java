@@ -11,12 +11,6 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class Stylesheet_StyleSheet {
-  public static final Style ATTRIBUTE = getAttribute(null);
-  public static final Style COMPONENT = getComponent(null);
-  public static final Style COMPONENT_INSTANCE_NAME = getComponentInstanceName(null);
-  public static final Style LAYOUT_CONSTRAINT = getLayoutConstraint(null);
-  public static final Style ACTION_HANDLER = getActionHandler(null);
-  public static final Style MODEL = getModel(null);
 
   public static Style getAttribute(final EditorCell cell) {
     return new Style(cell) {
