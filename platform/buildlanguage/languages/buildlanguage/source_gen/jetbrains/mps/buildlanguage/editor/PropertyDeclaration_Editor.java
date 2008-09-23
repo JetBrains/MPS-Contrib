@@ -251,12 +251,12 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_conceptProperty_alias1201252713895(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
-    BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_name1201252713896(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    BuildLanguageStyle_StyleSheet.PROPERTY.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getProperty(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12012527138971201252713897(EditorCell editorCell, SNode node, EditorContext context) {
@@ -288,12 +288,12 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12012527637641201252763764(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1201252763764");
-    BuildLanguageStyle_StyleSheet.COMMENT.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_shortDescription1201252778983(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_shortDescription");
-    BuildLanguageStyle_StyleSheet.COMMENT.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_conceptProperty_alias_1201252713895(EditorCell_Label editorCell, SNode node, EditorContext context) {

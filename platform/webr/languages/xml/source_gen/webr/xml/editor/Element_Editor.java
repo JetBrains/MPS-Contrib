@@ -414,12 +414,12 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677077812341167707781234(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781234");
-    XmlStyle_StyleSheet.XML_OPEN_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677077812391167707781239(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781239");
-    XmlStyle_StyleSheet.XML_CLOSE_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11677077812401167707781240(EditorCell editorCell, SNode node, EditorContext context) {
@@ -453,12 +453,12 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677077812441167707781244(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781244");
-    XmlStyle_StyleSheet.XML_OPEN_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677077812481167707781248(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781248");
-    XmlStyle_StyleSheet.XML_CLOSE_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11677077812491167707781249(EditorCell editorCell, SNode node, EditorContext context) {
@@ -467,12 +467,12 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677077812501167707781250(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781250");
-    XmlStyle_StyleSheet.XML_OPEN_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677077812551167707781255(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781255");
-    XmlStyle_StyleSheet.XML_CLOSE_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -492,7 +492,7 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677077812571167707781257(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781257");
-    XmlStyle_StyleSheet.XML_OPEN_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -506,7 +506,7 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677077812611167707781261(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781261");
-    XmlStyle_StyleSheet.XML_CLOSE_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11677078159481167707815948(EditorCell editorCell, SNode node, EditorContext context) {
@@ -515,12 +515,12 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677078221841167707822184(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707822184");
-    XmlStyle_StyleSheet.XML_OPEN_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677078472711167707847271(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707847271");
-    XmlStyle_StyleSheet.XML_CLOSE_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_component_BaseElement_attributeList1177880043960(EditorCell editorCell, SNode node, EditorContext context) {

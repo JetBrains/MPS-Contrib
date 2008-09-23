@@ -50,7 +50,7 @@ public class BooleanLiteral_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_property_value1196866059049(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
-    BuildLanguageStyle_StyleSheet.BOOLEAN_LITERAL.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_property_value_1196866059049(EditorCell_Label editorCell, SNode node, EditorContext context) {

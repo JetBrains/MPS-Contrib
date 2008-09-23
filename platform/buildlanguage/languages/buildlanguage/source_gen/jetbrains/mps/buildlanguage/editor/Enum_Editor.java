@@ -167,7 +167,7 @@ public class Enum_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12004193105931200419310593(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200419310593");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1200419310593_1200419310593(EditorCell_Label editorCell, SNode node, EditorContext context) {

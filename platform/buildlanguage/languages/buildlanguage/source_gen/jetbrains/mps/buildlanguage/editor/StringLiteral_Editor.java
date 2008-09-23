@@ -80,22 +80,22 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Collection_11968611015301196861101530(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1196861101530");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11968611065631196861106563(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1196861106563");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_value1196861109049(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11968611171921196861117192(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1196861117192");
-    BuildLanguageStyle_StyleSheet.STRING_LITERAL.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_Constant_1196861106563_1196861106563(EditorCell_Label editorCell, SNode node, EditorContext context) {

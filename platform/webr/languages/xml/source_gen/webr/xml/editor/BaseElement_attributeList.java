@@ -118,7 +118,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
 
     private static void setupBasic_Constant_11778799460311177879946031(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1177879946031");
-      XmlStyle_StyleSheet.XML_EMPTY_CELL.apply(editorCell);
+      XmlStyle_StyleSheet.getXmlEmptyCell(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1177879946031_1177879946031(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -98,7 +98,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_conceptProperty_alias1201702784253(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
-    BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_project1201702787271(EditorCell editorCell, SNode node, EditorContext context) {

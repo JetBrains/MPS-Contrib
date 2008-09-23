@@ -65,7 +65,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11619618864931161961886493(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1161961886493");
-    XmlStyle_StyleSheet.XML_COMPLEX_TEXT.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlComplexText(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refNodeList_text1161961889607(EditorCell editorCell, SNode node, EditorContext context) {

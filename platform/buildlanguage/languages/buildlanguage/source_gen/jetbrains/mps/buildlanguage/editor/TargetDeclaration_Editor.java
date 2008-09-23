@@ -313,7 +313,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_conceptProperty_alias1196853844458(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
-    BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -327,7 +327,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_property_name1196855783095(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    BuildLanguageStyle_StyleSheet.TARGET.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getTarget(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11968583028751196858302875(EditorCell editorCell, SNode node, EditorContext context) {
@@ -448,12 +448,12 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_12012600454421201260045442(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1201260045442");
-    BuildLanguageStyle_StyleSheet.COMMENT.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_shortDescription1201260045443(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_shortDescription");
-    BuildLanguageStyle_StyleSheet.COMMENT.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_conceptProperty_alias_1196853844458(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -548,7 +548,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12004192071031200419207103(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200419207103");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1200419207103_1200419207103(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -612,7 +612,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12004191752781200419175278(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200419175278");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1200419175278_1200419175278(EditorCell_Label editorCell, SNode node, EditorContext context) {

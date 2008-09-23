@@ -88,12 +88,12 @@ public class EntityReference_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11729608620191172960862019(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172960862019");
-    XmlStyle_StyleSheet.XML_OPEN_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11729608654111172960865411(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172960865411");
-    XmlStyle_StyleSheet.XML_CLOSE_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_entityDeclaration1172960872446(EditorCell editorCell, SNode node, EditorContext context) {
@@ -164,7 +164,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_property_entityName1172960875027(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "property_entityName");
-      XmlStyle_StyleSheet.XML_ENTITY.apply(editorCell);
+      XmlStyle_StyleSheet.getXmlEntity(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_property_entityName_1172960875027(EditorCell_Label editorCell, SNode node, EditorContext context) {

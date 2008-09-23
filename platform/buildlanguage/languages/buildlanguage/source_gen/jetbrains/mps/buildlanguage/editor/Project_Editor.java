@@ -432,12 +432,12 @@ public class Project_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_conceptProperty_alias1196852430855(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
-    BuildLanguageStyle_StyleSheet.KEYWORD.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_name1196852473889(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
-    BuildLanguageStyle_StyleSheet.TARGET.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getTarget(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11968525195151196852519515(EditorCell editorCell, SNode node, EditorContext context) {
@@ -809,7 +809,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12004192872361200419287236(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200419287236");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1200419287236_1200419287236(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -873,7 +873,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12004192582531200419258253(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200419258253");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1200419258253_1200419258253(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -937,7 +937,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12004192668931200419266893(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200419266893");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1200419266893_1200419266893(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -1001,7 +1001,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12004272646581200427264658(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200427264658");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1200427264658_1200427264658(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -1065,7 +1065,7 @@ public class Project_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Constant_12017029092731201702909273(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1201702909273");
-      BuildLanguageStyle_StyleSheet.PROMPTING.apply(editorCell);
+      BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_Constant_1201702909273_1201702909273(EditorCell_Label editorCell, SNode node, EditorContext context) {

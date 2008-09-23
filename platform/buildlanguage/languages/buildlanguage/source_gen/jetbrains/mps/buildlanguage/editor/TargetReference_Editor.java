@@ -52,7 +52,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_refCell_targetDeclaration1196853047793(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "refCell_targetDeclaration");
-    BuildLanguageStyle_StyleSheet.TARGET.apply(editorCell);
+    BuildLanguageStyle_StyleSheet.getTarget(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_refCell_targetDeclaration_1196853047793(EditorCell_Label editorCell, SNode node, EditorContext context) {

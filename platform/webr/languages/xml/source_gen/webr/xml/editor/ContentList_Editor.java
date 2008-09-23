@@ -221,7 +221,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11663040454251166304045425(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1166304045425");
-    XmlStyle_StyleSheet.XML_OPEN_BRACE.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -272,7 +272,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11663047729391166304772939(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1166304772939");
-    XmlStyle_StyleSheet.XML_CLOSE_BRACE.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -300,7 +300,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11663166331981166316633198(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1166316633198");
-    XmlStyle_StyleSheet.XML_C_L_OPEN_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCLOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refNodeList_content1166316633199(EditorCell editorCell, SNode node, EditorContext context) {
@@ -309,7 +309,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11663166332011166316633201(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1166316633201");
-    XmlStyle_StyleSheet.XML_C_L_CLOSE_PAREN.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCLCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refNodeList_content1166316671278(EditorCell editorCell, SNode node, EditorContext context) {

@@ -112,7 +112,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
 
     private static void setupBasic_ModelAccess_11899918110051189991811005(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "ModelAccess_1189991811005");
-      XmlStyle_StyleSheet.XML_ELEMENT.apply(editorCell);
+      XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_ModelAccess_1189991811005_1189991811005(EditorCell_Label editorCell, SNode node, EditorContext context) {

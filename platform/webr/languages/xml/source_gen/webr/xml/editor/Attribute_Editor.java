@@ -128,7 +128,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677003859901167700385990(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167700385990");
-    XmlStyle_StyleSheet.XML_OPERATOR.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_attributeDeclaration1167701355879(EditorCell editorCell, SNode node, EditorContext context) {
@@ -137,12 +137,12 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11677016257141167701625714(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701625714");
-    XmlStyle_StyleSheet.XML_OPEN_QUOTE.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677016280761167701628076(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701628076");
-    XmlStyle_StyleSheet.XML_CLOSE_QUOTE.apply(editorCell);
+    XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refNode_value1167703291707(EditorCell editorCell, SNode node, EditorContext context) {
@@ -218,7 +218,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_property_attributeName1167701361647(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.putUserObject(EditorCell.CELL_ID, "property_attributeName");
-      XmlStyle_StyleSheet.XML_ATTRIBUTE.apply(editorCell);
+      XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
     }
 
     private static void setupLabel_property_attributeName_1167701361647(EditorCell_Label editorCell, SNode node, EditorContext context) {
