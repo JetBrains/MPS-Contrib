@@ -2,17 +2,16 @@
 <model modelUID="r:1222075024342(jetbrains.mps.baseLanguage.ext.dates.lang.accessories)">
   <persistence version="3" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal">
-    <languageAspect modelUID="r:1222075024347(jetbrains.mps.baseLanguage.ext.dates.internal.constraints)" version="9" />
-  </language>
-  <language namespace="jetbrains.mps.baseLanguage">
-    <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
-    <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
-  </language>
+  <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
+  <language namespace="jetbrains.mps.baseLanguage" />
   <language namespace="jetbrains.springframework.configurationInternal" />
+  <languageAspect modelUID="r:1222075024347(jetbrains.mps.baseLanguage.ext.dates.internal.constraints)" version="9" />
+  <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
+  <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   <languageAspect modelUID="r:1222075024675(jetbrains.springframework.configuration.constraints)" version="6" />
   <languageAspect modelUID="r:1222075024335(jetbrains.mps.baseLanguage.ext.dates.lang.constraints)" version="9" />
   <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024091(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <import index="2" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />

@@ -2,10 +2,9 @@
 <model modelUID="r:1222075024348(jetbrains.mps.baseLanguage.ext.dates.internal.editor)">
   <persistence version="3" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.editorLanguage">
-    <languageAspect modelUID="r:1222075024024(jetbrains.mps.bootstrap.editorLanguage.constraints)" version="21" />
-    <languageAspect modelUID="r:1222075024030(jetbrains.mps.bootstrap.editorLanguage.structure)" version="26" />
-  </language>
+  <language namespace="jetbrains.mps.bootstrap.editorLanguage" />
+  <languageAspect modelUID="r:1222075024024(jetbrains.mps.bootstrap.editorLanguage.constraints)" version="21" />
+  <languageAspect modelUID="r:1222075024030(jetbrains.mps.bootstrap.editorLanguage.structure)" version="26" />
   <languageAspect modelUID="r:1222075024129(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="1" />
   <languageAspect modelUID="r:1222075024141(jetbrains.mps.bootstrap.constraintsLanguage.structure)" version="1" />
   <languageAspect modelUID="r:1222075024174(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
@@ -20,6 +19,7 @@
   <languageAspect modelUID="r:1222075024180(jetbrains.mps.closures.constraints)" version="2" />
   <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:1222075024356(jetbrains.mps.internal.collections.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024091(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <maxImportIndex value="4" />
   <import index="1" modelUID="r:1222075024349(jetbrains.mps.baseLanguage.ext.dates.internal.structure)" version="-1" />
   <import index="2" modelUID="r:1222075024008(jetbrains.mps.core.structure)" version="-1" />
