@@ -5,7 +5,7 @@
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
   </models>
   <accessoryModels>
-    <model modelUID="jetbrains.mps.baseLanguage.ext.dates.lang.accessories" />
+    <model modelUID="r:1222075024342(jetbrains.mps.baseLanguage.ext.dates.lang.accessories)" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.baseLanguage.ext.dates.lang#1169550118977">

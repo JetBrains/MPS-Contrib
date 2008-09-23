@@ -5,8 +5,8 @@
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.buildlanguage" />
   </models>
   <accessoryModels>
-    <model modelUID="jetbrains.mps.buildlanguage.generated" />
-    <model modelUID="jetbrains.mps.buildlanguage.optional" />
+    <model modelUID="r:1222075024579(jetbrains.mps.buildlanguage.generated)" />
+    <model modelUID="r:1222075024582(jetbrains.mps.buildlanguage.optional)" />
   </accessoryModels>
   <generators>
     <generator generatorUID="jetbrains.mps.buildlanguage#1197036391807">
