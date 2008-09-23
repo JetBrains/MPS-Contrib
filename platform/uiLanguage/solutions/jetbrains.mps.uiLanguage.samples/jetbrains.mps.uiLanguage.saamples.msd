@@ -11,9 +11,5 @@
   <usedLanguages>
     <usedLanguages>jetbrains.mps.uiLanguage</usedLanguages>
   </usedLanguages>
-  <osgiOptions>
-    <requiredBundles />
-    <exportedPackage />
-  </osgiOptions>
 </solution>
 
