@@ -2,17 +2,14 @@
 <model modelUID="r:1222075024584(jetbrains.mps.buildlanguage.structure)">
   <persistence version="3" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.structureLanguage">
-    <languageAspect modelUID="r:1222075024012(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
-  </language>
-  <language namespace="jetbrains.mps.buildlanguage">
-    <languageAspect modelUID="r:1222075024577(jetbrains.mps.buildlanguage.constraints)" version="32" />
-    <languageAspect modelUID="r:1222075024584(jetbrains.mps.buildlanguage.structure)" version="16" />
-  </language>
+  <language namespace="jetbrains.mps.bootstrap.structureLanguage" />
+  <language namespace="jetbrains.mps.buildlanguage" />
   <language namespace="jetbrains.mps.xml" />
-  <language namespace="jetbrains.mps.core">
-    <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
-  </language>
+  <language namespace="jetbrains.mps.core" />
+  <languageAspect modelUID="r:1222075024012(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
+  <languageAspect modelUID="r:1222075024577(jetbrains.mps.buildlanguage.constraints)" version="32" />
+  <languageAspect modelUID="r:1222075024584(jetbrains.mps.buildlanguage.structure)" version="16" />
+  <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:1222075024174(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
   <languageAspect modelUID="r:1222075024129(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="1" />
   <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
@@ -23,6 +20,7 @@
   <languageAspect modelUID="r:1222075024180(jetbrains.mps.closures.constraints)" version="2" />
   <languageAspect modelUID="r:1222075024606(jetbrains.mps.propertylanguage.constraints)" version="0" />
   <languageAspect modelUID="r:1222075024356(jetbrains.mps.internal.collections.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024091(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <maxImportIndex value="10" />
   <import index="1" modelUID="r:1222075024008(jetbrains.mps.core.structure)" version="-1" />
   <import index="2" modelUID="r:1222075024584(jetbrains.mps.buildlanguage.structure)" version="16" />

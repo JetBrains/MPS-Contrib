@@ -2,14 +2,14 @@
 <model modelUID="r:1222075024579(jetbrains.mps.buildlanguage.generated)">
   <persistence version="3" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.buildlanguage">
-    <languageAspect modelUID="r:1222075024577(jetbrains.mps.buildlanguage.constraints)" version="32" />
-    <languageAspect modelUID="r:1222075024584(jetbrains.mps.buildlanguage.structure)" version="16" />
-  </language>
+  <language namespace="jetbrains.mps.buildlanguage" />
+  <languageAspect modelUID="r:1222075024577(jetbrains.mps.buildlanguage.constraints)" version="32" />
+  <languageAspect modelUID="r:1222075024584(jetbrains.mps.buildlanguage.structure)" version="16" />
   <languageAspect modelUID="r:1222075024074(jetbrains.mps.baseLanguage.structure)" version="0" />
   <languageAspect modelUID="r:1222075024065(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:1222075024606(jetbrains.mps.propertylanguage.constraints)" version="0" />
   <languageAspect modelUID="r:1222075024003(jetbrains.mps.core.constraints)" version="2" />
+  <languageAspect modelUID="r:1222075024091(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <maxImportIndex value="0" />
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185005">
     <property name="name" value="task" />
