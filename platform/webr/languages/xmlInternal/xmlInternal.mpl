@@ -22,12 +22,12 @@
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
           <greater-priority-mapping>
-            <mapping-node modelUID="r:1222075024786(webr.xmlInternal.generator.baseLanguage.template.main@generator)" nodeID="*" />
+            <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590592(webr.xmlInternal.generator.baseLanguage.template.main@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
             <generator generatorUID="webr.gtext#1164413905312" />
             <external-mapping>
-              <mapping-node modelUID="r:1222075024758(webr.gtext.generator.baseLanguage.template.main@generator)" nodeID="*" />
+              <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590576(webr.gtext.generator.baseLanguage.template.main@generator)" nodeID="*" />
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>

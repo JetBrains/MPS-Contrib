@@ -7,7 +7,6 @@
     <entry path="${solution_descriptor}\classes_gen" />
     <entry path="${mps_home}\lib\joda-time\joda-time-1.4.jar" />
   </classPath>
-  <runtimeClassPath />
   <sourcePath>
     <source path="${solution_descriptor}\src" />
   </sourcePath>
