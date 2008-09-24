@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" compileInMPS="true">
+<language namespace="jetbrains.mps.baseLanguage.ext.dates.lang" uuid="cccc689c-f365-4862-a8b6-34ecddf8ee26" compileInMPS="true">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang" />
@@ -8,7 +8,7 @@
     <model modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.ext.dates.lang.accessories)" />
   </accessoryModels>
   <generators>
-    <generator generatorUID="jetbrains.mps.baseLanguage.ext.dates.lang#1169550118977">
+    <generator generatorUID="jetbrains.mps.baseLanguage.ext.dates.lang#1169550118977" uuid="bbe85692-c15c-4c97-a9b3-df38fd8cce69">
       <models>
         <modelRoot path="${language_descriptor}\generator\baseLanguage\template" namespacePrefix="jetbrains.mps.baseLanguage.ext.dates.lang.generator.baseLanguage.template" />
       </models>

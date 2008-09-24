@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="webr.xml" compileInMPS="true">
+<language namespace="webr.xml" uuid="2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9" compileInMPS="true">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="webr.xml" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="webr.xml" />
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="webr.xml#1163716442262">
+    <generator generatorUID="webr.xml#1163716442262" uuid="94951427-301e-4a1c-a1cd-d2c6bc9f3cfa">
       <models>
         <modelRoot path="${language_descriptor}\generators\baseLanguage\templates" namespacePrefix="webr.xml.generator.baseLanguage.template" />
       </models>
