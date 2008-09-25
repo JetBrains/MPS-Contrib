@@ -2,8 +2,8 @@
 <model modelUID="r:00000000-0000-4000-0000-011c895904dc(jetbrains.mps.propertylanguage.actions)">
   <persistence version="3" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.bootstrap.actionsLanguage" />
-  <language namespace="jetbrains.mps.baseLanguage" />
+  <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.bootstrap.actionsLanguage)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.bootstrap.actionsLanguage.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.bootstrap.actionsLanguage.structure)" version="22" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />

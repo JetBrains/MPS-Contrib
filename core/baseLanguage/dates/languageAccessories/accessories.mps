@@ -2,9 +2,12 @@
 <model modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.ext.dates.lang.accessories)">
   <persistence version="3" />
   <refactoringHistory />
-  <language namespace="jetbrains.mps.baseLanguage.ext.dates.internal" />
-  <language namespace="jetbrains.mps.baseLanguage" />
-  <language namespace="jetbrains.springframework.configurationInternal" />
+  <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.ext.dates.internal)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="dccc2f36-96dc-4be7-81db-dbac70f263d8(jetbrains.springframework.configurationInternal)" />
+  <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.ext.dates.internal)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="dccc2f36-96dc-4be7-81db-dbac70f263d8(jetbrains.springframework.configurationInternal)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.ext.dates.internal.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
@@ -96,7 +99,7 @@
         <property name="meaning" value="as number" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
-        <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertyFormatType" id="1173955241870">
+      <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertyFormatType" id="1173955241870">
         <property name="examples" value="07, 27" />
         <property name="letter" value="x" />
         <property name="meaning" value="as 2-digit number" />

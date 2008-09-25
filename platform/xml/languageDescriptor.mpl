@@ -19,13 +19,13 @@
   <languageRuntimeClassPath />
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">jetbrains.mps.xml#1129923280838</dependency>
+    <dependency reexport="false">648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml#1129923280838)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>
   </usedDevKits>
   <extendedLanguages>
-    <extendedLanguage>jetbrains.mps.core</extendedLanguage>
+    <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.core)</extendedLanguage>
   </extendedLanguages>
 </language>
 
