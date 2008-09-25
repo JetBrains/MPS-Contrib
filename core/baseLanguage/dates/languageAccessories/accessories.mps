@@ -96,7 +96,7 @@
         <property name="meaning" value="as number" />
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
-      <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertyFormatType" id="1173955241870">
+        <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertyFormatType" id="1173955241870">
         <property name="examples" value="07, 27" />
         <property name="letter" value="x" />
         <property name="meaning" value="as 2-digit number" />
