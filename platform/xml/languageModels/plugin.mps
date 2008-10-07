@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c895905a2(jetbrains.mps.xml.plugin)">
+<model modelUID="r:00000000-0000-4000-0000-011c895905a2(jetbrains.mps.xml.deprecated.plugin)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.bootstrap.pluginLanguage)" />
@@ -20,16 +20,17 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <maxImportIndex value="3" />
-  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.structure)" version="-1" />
-  <import index="3" modelUID="f:java_stub#jetbrains.mps.xml.generator(jetbrains.mps.xml.generator@java_stub)" version="-1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
+  <maxImportIndex value="5" />
+  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
+  <import index="4" modelUID="f:java_stub#jetbrains.mps.xml.deprecated.generator(jetbrains.mps.xml.deprecated.generator@java_stub)" version="-1" />
   <node type="jetbrains.mps.bootstrap.pluginLanguage.structure.FileGeneratorPluginDeclaration" id="1207329493460">
     <node role="getFileGeneratorBlock" type="jetbrains.mps.bootstrap.pluginLanguage.structure.GetFileGeneratorBlock" id="1207329493461">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1207329493462">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1207329496541">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888413816">
-            <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888413818">
-              <link role="baseMethodDeclaration" targetNodeId="3.~XmlFileGenerator.&lt;init&gt;()" resolveInfo="XmlFileGenerator" />
+            <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1223380410841">
+              <link role="baseMethodDeclaration" targetNodeId="4.~XmlFileGenerator.&lt;init&gt;()" resolveInfo="XmlFileGenerator" />
             </node>
           </node>
         </node>

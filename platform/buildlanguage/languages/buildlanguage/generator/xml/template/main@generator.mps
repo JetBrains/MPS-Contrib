@@ -3,7 +3,7 @@
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.transformation.TLBase)" />
-  <language namespace="823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml)" />
+  <language namespace="823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml.deprecated)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.bootstrap.smodelLanguage)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.core)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -31,9 +31,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904de(jetbrains.mps.propertylanguage.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="16" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
   <maxImportIndex value="19" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="16" />
-  <import index="3" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.structure)" version="-1" />
+  <import index="3" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
   <import index="4" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.core.structure)" version="-1" />
   <import index="6" modelUID="r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)" version="32" />
   <import index="7" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -103,10 +104,10 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1197037697427">
     <property name="name" value="reduction_TargetDeclaration" />
     <link role="applicableConcept" targetNodeId="1.1196851099544" resolveInfo="TargetDeclaration" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1197037721054">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197037721054">
       <property name="name" value="target" />
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1197037739869" />
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1197041977076">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197041977076">
         <property name="name" value="name" />
         <property name="value" value="name" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1197041984405">
@@ -124,7 +125,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1197045322163">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197045322163">
         <property name="name" value="depends" />
         <property name="value" value="dependsList" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcNodeMacro" id="1197045463933">
@@ -212,7 +213,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1197045130120">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197045130120">
         <property name="name" value="property" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1197045140154">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1197045140155">
@@ -229,7 +230,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1219152718397">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1219152718397">
         <property name="name" value="fail" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1219152731275">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1219152731276">
@@ -384,7 +385,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1197045189854">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197045189854">
         <property name="name" value="task" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1197045203872">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1197045203873">
@@ -406,9 +407,9 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1197041438064">
     <property name="name" value="reduction_PropertyDeclaration" />
     <link role="applicableConcept" targetNodeId="1.1196851107341" resolveInfo="PropertyDeclaration" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1197041513610">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197041513610">
       <property name="name" value="property" />
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1197041528268">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197041528268">
         <property name="name" value="name" />
         <property name="value" value="name" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1197041696783">
@@ -426,7 +427,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1197047719037">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197047719037">
         <property name="name" value="value" />
         <property name="value" value="value" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1197047737337">
@@ -452,11 +453,11 @@
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1197041646143" />
     </node>
   </node>
-  <node type="jetbrains.mps.xml.structure.Document" id="1197043042167">
+  <node type="jetbrains.mps.xml.deprecated.structure.Document" id="1197043042167">
     <property name="name" value="document" />
-    <node role="rootElement" type="jetbrains.mps.xml.structure.Element" id="1197043042168">
+    <node role="rootElement" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197043042168">
       <property name="name" value="project" />
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1197043087139">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197043087139">
         <property name="name" value="name" />
         <property name="value" value="name" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1197043097343">
@@ -474,7 +475,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1197043125415">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197043125415">
         <property name="name" value="default" />
         <property name="value" value="default" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1197043134401">
@@ -502,7 +503,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1200145383481">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1200145383481">
         <property name="name" value="basedir" />
         <property name="value" value="basedir" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1200145395654">
@@ -542,7 +543,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1220365505586">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1220365505586">
         <property name="name" value="property imports" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1220365505587">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1220365505588">
@@ -559,7 +560,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1219774056169">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1219774056169">
         <property name="name" value="external property" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.LoopMacro" id="1219774083521">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1219774083522">
@@ -625,7 +626,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1221832362893">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1221832362893">
         <property name="name" value="import" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1221832362894">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1221832362895">
@@ -642,7 +643,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1197043213786">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197043213786">
         <property name="name" value="property" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1197043380400">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1197043380401">
@@ -684,7 +685,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1199029845249">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1199029845249">
         <property name="name" value="task calls" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1199029853219">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1199029853220">
@@ -701,7 +702,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1197043258534">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197043258534">
         <property name="name" value="target" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1197043378054">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1197043378055">
@@ -740,7 +741,7 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1197113121744">
     <property name="name" value="reduce_LibTaskCall" />
     <link role="applicableConcept" targetNodeId="1.1197111643046" resolveInfo="LibTaskCall" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1197113174045">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197113174045">
       <property name="name" value="task" />
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1197113188218" />
       <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1197113195047">
@@ -762,7 +763,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1197113292532">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197113292532">
         <property name="name" value="attr" />
         <property name="value" value="attr" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1197113312019">
@@ -889,7 +890,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1199645628538">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1199645628538">
         <property name="name" value="id" />
         <property name="value" value="id" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1199645638494">
@@ -950,7 +951,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Element" id="1197395603769">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1197395603769">
         <property name="name" value="nested" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1197395852853">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1197395852854">
@@ -967,7 +968,7 @@
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.xml.structure.Text" id="1197725169146">
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Text" id="1197725169146">
         <property name="text" value="text" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcNodeMacro" id="1197725188421">
           <node role="sourceNodeQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodeQuery" id="1197725188422">
@@ -989,7 +990,7 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1197725356482">
     <property name="name" value="reduce_PropertyValueExpression" />
     <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Text" id="1197725382350">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Text" id="1197725382350">
       <property name="text" value="text" />
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1197725388892" />
       <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1197725505263">
@@ -1011,10 +1012,10 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1200508721807">
     <property name="name" value="reduce_ImportProperties" />
     <link role="applicableConcept" targetNodeId="1.1200418817047" resolveInfo="ImportProperties" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1200508741372">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1200508741372">
       <property name="name" value="property" />
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1201017122804" />
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1201017138691">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1201017138691">
         <property name="name" value="file" />
         <property name="value" value="filename" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1201017147786">
@@ -1058,9 +1059,9 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1201709713178">
     <property name="name" value="reduce_ImportProject" />
     <link role="applicableConcept" targetNodeId="1.1201702638416" resolveInfo="ImportProject" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1201709749297">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1201709749297">
       <property name="name" value="import" />
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1201709758190">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1201709758190">
         <property name="name" value="file" />
         <property name="value" value="file" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1201709830415">
@@ -1089,7 +1090,7 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1209913552873">
     <property name="name" value="reduce_TaskLibraryReference" />
     <link role="applicableConcept" targetNodeId="1.1209912269056" resolveInfo="TaskLibraryReference" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1209913576539">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1209913576539">
       <property name="name" value="taskdef" />
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1209913586368" />
       <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.LoopMacro" id="1209913593386">
@@ -1111,7 +1112,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1209913608671">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1209913608671">
         <property name="name" value="name" />
         <property name="value" value="name" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1209913682628">
@@ -1129,7 +1130,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1209913622391">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1209913622391">
         <property name="name" value="classname" />
         <property name="value" value="classname" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1209913728506">
@@ -1147,7 +1148,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1209913645611">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1209913645611">
         <property name="name" value="classpath" />
         <property name="value" value="classpath" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1209913741156">
@@ -1167,9 +1168,9 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1219150146421">
     <property name="name" value="reduce_ExternalPropertyDeclaration" />
     <link role="applicableConcept" targetNodeId="1.1219147669362" resolveInfo="ExternalPropertyDeclaration" />
-    <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1219150160147">
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1219150160147">
       <property name="name" value="fail" />
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1219150179076">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1219150179076">
         <property name="name" value="unless" />
         <property name="value" value="property.name" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1219150196231">
@@ -1187,7 +1188,7 @@
           </node>
         </node>
       </node>
-      <node role="attribute" type="jetbrains.mps.xml.structure.Attribute" id="1219153832799">
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1219153832799">
         <property name="name" value="message" />
         <property name="value" value="message" />
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1219153881550">
