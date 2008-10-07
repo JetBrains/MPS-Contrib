@@ -1,29 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c89590591(webr.xmlInternal.structure)">
+<model modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xml.internal.structure)">
   <persistence version="3" />
-  <refactoringHistory />
-  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.bootstrap.structureLanguage)" />
+  <refactoringHistory>
+    <refactoringContext modelVersion="1">
+      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="Comment" conceptFQName="webr.xmlInternal.structure.Comment" featureKind="CONCEPT" />
+          <value featureName="Comment" conceptFQName="jetbrains.mps.xml.internal.structure.Comment" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ContentStatement" conceptFQName="webr.xmlInternal.structure.ContentStatement" featureKind="CONCEPT" />
+          <value featureName="ContentStatement" conceptFQName="jetbrains.mps.xml.internal.structure.ContentStatement" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Document" conceptFQName="webr.xmlInternal.structure.Document" featureKind="CONCEPT" />
+          <value featureName="Document" conceptFQName="jetbrains.mps.xml.internal.structure.Document" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DocumentStatement" conceptFQName="webr.xmlInternal.structure.DocumentStatement" featureKind="CONCEPT" />
+          <value featureName="DocumentStatement" conceptFQName="jetbrains.mps.xml.internal.structure.DocumentStatement" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DocumentTypeDeclaration" conceptFQName="webr.xmlInternal.structure.DocumentTypeDeclaration" featureKind="CONCEPT" />
+          <value featureName="DocumentTypeDeclaration" conceptFQName="jetbrains.mps.xml.internal.structure.DocumentTypeDeclaration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ExternalId" conceptFQName="webr.xmlInternal.structure.ExternalId" featureKind="CONCEPT" />
+          <value featureName="ExternalId" conceptFQName="jetbrains.mps.xml.internal.structure.ExternalId" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Literal" conceptFQName="webr.xmlInternal.structure.Literal" featureKind="CONCEPT" />
+          <value featureName="Literal" conceptFQName="jetbrains.mps.xml.internal.structure.Literal" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="NamespaceAttribute" conceptFQName="webr.xmlInternal.structure.NamespaceAttribute" featureKind="CONCEPT" />
+          <value featureName="NamespaceAttribute" conceptFQName="jetbrains.mps.xml.internal.structure.NamespaceAttribute" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Prolog" conceptFQName="webr.xmlInternal.structure.Prolog" featureKind="CONCEPT" />
+          <value featureName="Prolog" conceptFQName="jetbrains.mps.xml.internal.structure.Prolog" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="PublicExternalId" conceptFQName="webr.xmlInternal.structure.PublicExternalId" featureKind="CONCEPT" />
+          <value featureName="PublicExternalId" conceptFQName="jetbrains.mps.xml.internal.structure.PublicExternalId" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="SimpleAttribute" conceptFQName="webr.xmlInternal.structure.SimpleAttribute" featureKind="CONCEPT" />
+          <value featureName="SimpleAttribute" conceptFQName="jetbrains.mps.xml.internal.structure.SimpleAttribute" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="SimpleElement" conceptFQName="webr.xmlInternal.structure.SimpleElement" featureKind="CONCEPT" />
+          <value featureName="SimpleElement" conceptFQName="jetbrains.mps.xml.internal.structure.SimpleElement" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="StatementElement" conceptFQName="webr.xmlInternal.structure.StatementElement" featureKind="CONCEPT" />
+          <value featureName="StatementElement" conceptFQName="jetbrains.mps.xml.internal.structure.StatementElement" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="XmlFile" conceptFQName="webr.xmlInternal.structure.XmlFile" featureKind="CONCEPT" />
+          <value featureName="XmlFile" conceptFQName="jetbrains.mps.xml.internal.structure.XmlFile" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+  </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.bootstrap.structureLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(webr.xmlInternal.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xml.internal.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.closures.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(webr.xmlSchema.constraints)" version="21" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xml.schema.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(webr.xml.constraints)" version="6" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.bootstrap.smodelLanguage.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.ext.collections.lang.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(webr.xmlInternal.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xml.internal.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xml.schema.structure)" version="0" />
   <maxImportIndex value="7" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.core.structure)" version="-1" />
-  <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590588(webr.xml.structure)" version="-1" />
+  <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
   <import index="5" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
-  <import index="6" modelUID="r:00000000-0000-4000-0000-011c89590598(webr.xmlSchema.structure)" version="-1" />
+  <import index="6" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xml.schema.structure)" version="0" />
   <node type="jetbrains.mps.bootstrap.structureLanguage.structure.ConceptDeclaration" id="1165761580958">
     <property name="name" value="StatementElement" />
     <link role="extends" targetNodeId="2.1161371727643" />

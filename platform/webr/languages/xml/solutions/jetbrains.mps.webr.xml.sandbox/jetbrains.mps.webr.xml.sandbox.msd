@@ -6,7 +6,7 @@
   <classPath />
   <sourcePath />
   <usedLanguages>
-    <usedLanguages>2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(webr.xml)</usedLanguages>
+    <usedLanguages>2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</usedLanguages>
   </usedLanguages>
 </solution>
 
