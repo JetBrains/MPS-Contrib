@@ -5,7 +5,7 @@
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.transformation.TLBase)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.bootstrap.smodelLanguage)" />
-  <language namespace="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e(webr.gtext)" />
+  <language namespace="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e(jetbrains.mps.gtext)" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.transformation.generationContext)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.transformation.TLBase.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.transformation.TLBase.structure)" version="1" />
@@ -13,7 +13,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.bootstrap.smodelLanguage.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590571(webr.gtext.constraints)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)" version="8" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.bootstrap.constraintsLanguage.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(webr.xmlInternal.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.closures.structure)" version="0" />
@@ -25,6 +25,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(webr.xmlInternal.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" version="0" />
   <maxImportIndex value="24" />
   <import index="7" modelUID="r:00000000-0000-4000-0000-011c89590588(webr.xml.structure)" version="-1" />
   <import index="8" modelUID="f:java_stub#jetbrains.mps.generator.template(jetbrains.mps.generator.template@java_stub)" version="-1" />
@@ -160,12 +161,12 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1164415382678">
     <property name="name" value="reduce_ContentList_isVertical" />
     <link role="applicableConcept" targetNodeId="7.1163629230879" />
-    <node role="contentNode" type="webr.gtext.structure.GItemList" id="1166313756665">
-      <node role="item" type="webr.gtext.structure.GItemList" id="1166314228333">
-        <node role="item" type="webr.gtext.structure.GNewLine" id="1166314228334" />
-        <node role="item" type="webr.gtext.structure.GIndentBlock" id="1166314228335">
-          <node role="itemList" type="webr.gtext.structure.GItemList" id="1166926997210">
-            <node role="item" type="webr.gtext.structure.GText" id="1166927028384">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GItemList" id="1166313756665">
+      <node role="item" type="jetbrains.mps.gtext.structure.GItemList" id="1166314228333">
+        <node role="item" type="jetbrains.mps.gtext.structure.GNewLine" id="1166314228334" />
+        <node role="item" type="jetbrains.mps.gtext.structure.GIndentBlock" id="1166314228335">
+          <node role="itemList" type="jetbrains.mps.gtext.structure.GItemList" id="1166926997210">
+            <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1166927028384">
               <property name="text" value="contents" />
               <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1166927039276">
                 <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1171370078625">
@@ -184,7 +185,7 @@
             </node>
           </node>
         </node>
-        <node role="item" type="webr.gtext.structure.GIndent" id="1166314228338" />
+        <node role="item" type="jetbrains.mps.gtext.structure.GIndent" id="1166314228338" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.IfMacro" id="1166314252654">
           <node role="conditionFunction" type="jetbrains.mps.transformation.TLBase.structure.IfMacro_Condition" id="1171381345810">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1171381345811">
@@ -205,8 +206,8 @@
           </node>
         </node>
       </node>
-      <node role="item" type="webr.gtext.structure.GItemList" id="1166314259968">
-        <node role="item" type="webr.gtext.structure.GText" id="1166314278667">
+      <node role="item" type="jetbrains.mps.gtext.structure.GItemList" id="1166314259968">
+        <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1166314278667">
           <property name="text" value="contents" />
           <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1166314278668">
             <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1171370108399">
@@ -251,8 +252,8 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1167702020416">
     <property name="name" value="reduce_Attribute" />
     <link role="applicableConcept" targetNodeId="7.1167700349452" />
-    <node role="contentNode" type="webr.gtext.structure.GItemList" id="1167702081512">
-      <node role="item" type="webr.gtext.structure.GText" id="1167702111718">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GItemList" id="1167702081512">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1167702111718">
         <property name="text" value="start" />
         <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1167702116031">
           <node role="propertyValueFunction" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro_GetPropertyValue" id="1169056138286">
@@ -284,7 +285,7 @@
           </node>
         </node>
       </node>
-      <node role="item" type="webr.gtext.structure.GText" id="1167703497726">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1167703497726">
         <property name="text" value="value" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcNodeMacro" id="1167703502650">
           <node role="sourceNodeQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodeQuery" id="1169056213100">
@@ -301,7 +302,7 @@
           </node>
         </node>
       </node>
-      <node role="item" type="webr.gtext.structure.GText" id="1167702215112">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1167702215112">
         <property name="text" value="&quot;" />
       </node>
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1167702082810" />
@@ -310,8 +311,8 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1179110819551">
     <property name="name" value="reduce_Text" />
     <link role="applicableConcept" targetNodeId="7.1161373262136" />
-    <node role="contentNode" type="webr.gtext.structure.GConditionalLine" id="1179110829360">
-      <node role="item" type="webr.gtext.structure.GText" id="1179111282248">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GConditionalLine" id="1179110829360">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179111282248">
         <property name="text" value="text" />
         <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1179111291694">
           <node role="propertyValueFunction" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro_GetPropertyValue" id="1179111291695">
@@ -352,8 +353,8 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1179112352401">
     <property name="name" value="reduce_EntityReference" />
     <link role="applicableConcept" targetNodeId="7.1172960673168" />
-    <node role="contentNode" type="webr.gtext.structure.GConditionalLine" id="1179112376783">
-      <node role="item" type="webr.gtext.structure.GText" id="1179112575398">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GConditionalLine" id="1179112376783">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179112575398">
         <property name="text" value="text" />
         <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1179112575399">
           <node role="propertyValueFunction" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro_GetPropertyValue" id="1179112575400">
@@ -405,8 +406,8 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1179112799204">
     <property name="name" value="reduce_ComplexText" />
     <link role="applicableConcept" targetNodeId="7.1161911457732" />
-    <node role="contentNode" type="webr.gtext.structure.GConditionalLine" id="1179112821700">
-      <node role="item" type="webr.gtext.structure.GText" id="1179112839388">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GConditionalLine" id="1179112821700">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179112839388">
         <property name="text" value="texts" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1179112839389">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1179112839390">
@@ -443,8 +444,8 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1179113125414">
     <property name="name" value="reduce_ContentList_isHorizontal" />
     <link role="applicableConcept" targetNodeId="7.1163629230879" />
-    <node role="contentNode" type="webr.gtext.structure.GConditionalLine" id="1179113150460">
-      <node role="item" type="webr.gtext.structure.GText" id="1179113171145">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GConditionalLine" id="1179113150460">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179113171145">
         <property name="text" value="contents" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1179113171146">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1179113171147">
@@ -481,8 +482,8 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1179113391611">
     <property name="name" value="reduce_Element" />
     <link role="applicableConcept" targetNodeId="7.1167523027466" />
-    <node role="contentNode" type="webr.gtext.structure.GConditionalLine" id="1179113411267">
-      <node role="item" type="webr.gtext.structure.GText" id="1179113432097">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GConditionalLine" id="1179113411267">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179113432097">
         <property name="text" value="start" />
         <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1179113432098">
           <node role="propertyValueFunction" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro_GetPropertyValue" id="1179113432099">
@@ -509,7 +510,7 @@
           </node>
         </node>
       </node>
-      <node role="item" type="webr.gtext.structure.GText" id="1179113432109">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179113432109">
         <property name="text" value="attributes" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcListMacro" id="1179113432110">
           <node role="sourceNodesQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodesQuery" id="1179113432111">
@@ -526,11 +527,11 @@
           </node>
         </node>
       </node>
-      <node role="item" type="webr.gtext.structure.GItemList" id="1179113432117">
-        <node role="item" type="webr.gtext.structure.GText" id="1179113432118">
+      <node role="item" type="jetbrains.mps.gtext.structure.GItemList" id="1179113432117">
+        <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179113432118">
           <property name="text" value="&gt;" />
         </node>
-        <node role="item" type="webr.gtext.structure.GText" id="1179113432119">
+        <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179113432119">
           <property name="text" value="contentList" />
           <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcNodeMacro" id="1179113432120">
             <node role="sourceNodeQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodeQuery" id="1179113432121">
@@ -547,7 +548,7 @@
             </node>
           </node>
         </node>
-        <node role="item" type="webr.gtext.structure.GText" id="1179113432127">
+        <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179113432127">
           <property name="text" value="end" />
           <node role="propertyMacro$property_attribute$text" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro" id="1179113432128">
             <node role="propertyValueFunction" type="jetbrains.mps.transformation.TLBase.structure.PropertyMacro_GetPropertyValue" id="1179113432129">
@@ -596,7 +597,7 @@
           </node>
         </node>
       </node>
-      <node role="item" type="webr.gtext.structure.GText" id="1179113432149">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1179113432149">
         <property name="text" value="/&gt;" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.IfMacro" id="1179113432150">
           <node role="conditionFunction" type="jetbrains.mps.transformation.TLBase.structure.IfMacro_Condition" id="1179113432151">
@@ -633,12 +634,12 @@
   <node type="jetbrains.mps.transformation.TLBase.structure.TemplateDeclaration" id="1192038923039">
     <property name="name" value="reduce_CDATA" />
     <link role="applicableConcept" targetNodeId="7.1192038615503" resolveInfo="CDATA" />
-    <node role="contentNode" type="webr.gtext.structure.GItemList" id="1192039008484">
-      <node role="item" type="webr.gtext.structure.GText" id="1192039012889">
+    <node role="contentNode" type="jetbrains.mps.gtext.structure.GItemList" id="1192039008484">
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1192039012889">
         <property name="text" value="&lt;![CDATA[" />
       </node>
-      <node role="item" type="webr.gtext.structure.GNewLine" id="1192039090868" />
-      <node role="item" type="webr.gtext.structure.GText" id="1192039031346">
+      <node role="item" type="jetbrains.mps.gtext.structure.GNewLine" id="1192039090868" />
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1192039031346">
         <property name="text" value="content" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.transformation.TLBase.structure.CopySrcNodeMacro" id="1192039047170">
           <node role="sourceNodeQuery" type="jetbrains.mps.transformation.TLBase.structure.SourceSubstituteMacro_SourceNodeQuery" id="1192039047171">
@@ -655,8 +656,8 @@
           </node>
         </node>
       </node>
-      <node role="item" type="webr.gtext.structure.GNewLine" id="1192039095174" />
-      <node role="item" type="webr.gtext.structure.GText" id="1192039069033">
+      <node role="item" type="jetbrains.mps.gtext.structure.GNewLine" id="1192039095174" />
+      <node role="item" type="jetbrains.mps.gtext.structure.GText" id="1192039069033">
         <property name="text" value="]]&gt;" />
       </node>
       <node role="templateFragment$attribute" type="jetbrains.mps.transformation.TLBase.structure.TemplateFragment" id="1192039383948" />
