@@ -37,7 +37,7 @@ public class ContentList_Behavior {
         return true;
       }
     }
-    SNode parentContentList = SNodeOperations.getAncestor(thisNode, "webr.xml.structure.ContentList", false, false);
+    SNode parentContentList = SNodeOperations.getAncestor(thisNode, "jetbrains.mps.xml.structure.ContentList", false, false);
     if (parentContentList != null) {
       return ContentList_Behavior.call_isHorizontal_1221256530294(parentContentList);
     }

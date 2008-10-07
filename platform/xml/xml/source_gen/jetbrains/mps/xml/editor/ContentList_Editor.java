@@ -349,11 +349,11 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   public static boolean renderingCondition8357_1(SNode node, EditorContext editorContext, IScope scope) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "webr.xml.structure.ContentList");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList");
   }
 
   public static boolean renderingCondition8357_2(SNode node, EditorContext editorContext, IScope scope) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "webr.xml.structure.BaseElement");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.BaseElement");
   }
 
   private static Color calculateColor8357_0(EditorCell cell) {

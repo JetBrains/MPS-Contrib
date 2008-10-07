@@ -13,7 +13,7 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SLinkOpera
 public class SurroundWithContentList_Intention extends BaseIntention {
 
   public String getConcept() {
-    return "webr.xml.structure.Content";
+    return "jetbrains.mps.xml.structure.Content";
   }
 
   public boolean isErrorIntention() {
@@ -29,7 +29,7 @@ public class SurroundWithContentList_Intention extends BaseIntention {
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode contentList = SConceptOperations.createNewNode("webr.xml.structure.ContentList", null);
+    SNode contentList = SConceptOperations.createNewNode("jetbrains.mps.xml.structure.ContentList", null);
     List<SNode> selectedNodes = editorContext.getNodeEditorComponent().getNodeRangeSelection().getNodes();
     if (selectedNodes.isEmpty()) {
       selectedNodes.add(editorContext.getSelectedNode());
@@ -39,11 +39,11 @@ public class SurroundWithContentList_Intention extends BaseIntention {
     for(SNode selectedNode : selectedNodes) {
       SLinkOperations.addChild(contentList, "content", selectedNode);
     }
-    SLinkOperations.addNewChild(contentList, "content", "webr.xml.structure.Content");
+    SLinkOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");
   }
 
   public String getLocationString() {
-    return "webr.xml.intentions";
+    return "jetbrains.mps.xml.intentions";
   }
 
 }

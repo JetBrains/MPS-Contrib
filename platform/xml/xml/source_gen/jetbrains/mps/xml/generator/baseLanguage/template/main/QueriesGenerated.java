@@ -78,11 +78,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1171381345810(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "webr.xml.structure.Element");
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.xml.structure.Element");
   }
 
   public static boolean ifMacro_Condition_1171381407187(final IOperationContext operationContext, final IfMacroContext _context) {
-    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "webr.xml.structure.Element"));
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.xml.structure.Element"));
   }
 
   public static boolean ifMacro_Condition_1179113432142(final IOperationContext operationContext, final IfMacroContext _context) {

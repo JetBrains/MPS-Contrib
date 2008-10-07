@@ -14,7 +14,7 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SNodeOpera
 public class MakeElementEmpty_Intention extends BaseIntention {
 
   public String getConcept() {
-    return "webr.xml.structure.Element";
+    return "jetbrains.mps.xml.structure.Element";
   }
 
   public boolean isErrorIntention() {
@@ -29,7 +29,7 @@ public class MakeElementEmpty_Intention extends BaseIntention {
     SNode contentList = SLinkOperations.getTarget(node, "contentList", true);
     List<SNode> contents = SLinkOperations.getTargets(contentList, "content", true);
     int count = ListSequence.fromList(contents).count();
-    return !(SPropertyOperations.getBoolean(node, "isEmpty")) && (count == 0 || count == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(contents).first(), "webr.xml.structure.Text") && SPropertyOperations.hasValue(ListSequence.fromList(contents).first(), "text", null));
+    return !(SPropertyOperations.getBoolean(node, "isEmpty")) && (count == 0 || count == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(contents).first(), "jetbrains.mps.xml.structure.Text") && SPropertyOperations.hasValue(ListSequence.fromList(contents).first(), "text", null));
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
@@ -37,7 +37,7 @@ public class MakeElementEmpty_Intention extends BaseIntention {
   }
 
   public String getLocationString() {
-    return "webr.xml.intentions";
+    return "jetbrains.mps.xml.intentions";
   }
 
 }

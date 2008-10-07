@@ -11,7 +11,7 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyO
 public class MakeContentListVertical_Intention extends BaseIntention {
 
   public String getConcept() {
-    return "webr.xml.structure.ContentList";
+    return "jetbrains.mps.xml.structure.ContentList";
   }
 
   public boolean isErrorIntention() {
@@ -31,7 +31,7 @@ public class MakeContentListVertical_Intention extends BaseIntention {
   }
 
   public String getLocationString() {
-    return "webr.xml.intentions";
+    return "jetbrains.mps.xml.intentions";
   }
 
 }

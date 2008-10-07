@@ -12,7 +12,7 @@ import jetbrains.mps.bootstrap.smodelLanguage.generator.smodelAdapter.SPropertyO
 public class MakeElementHorizontal_Intention extends BaseIntention {
 
   public String getConcept() {
-    return "webr.xml.structure.Element";
+    return "jetbrains.mps.xml.structure.Element";
   }
 
   public boolean isErrorIntention() {
@@ -32,7 +32,7 @@ public class MakeElementHorizontal_Intention extends BaseIntention {
   }
 
   public String getLocationString() {
-    return "webr.xml.intentions";
+    return "jetbrains.mps.xml.intentions";
   }
 
 }

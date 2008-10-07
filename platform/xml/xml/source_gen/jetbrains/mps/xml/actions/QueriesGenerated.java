@@ -30,19 +30,19 @@ import jetbrains.mps.util.Condition;
 public class QueriesGenerated {
 
   public static void nodeFactory_NodeSetup_ComplexText_1178622222481(final IOperationContext operationContext, final NodeSetupContext _context) {
-    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "webr.xml.structure.BaseText")) {
+    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText")) {
       SLinkOperations.addChild(_context.getNewNode(), "text", _context.getSampleNode());
     }
   }
 
   public static void nodeFactory_NodeSetup_ContentList_1178622500723(final IOperationContext operationContext, final NodeSetupContext _context) {
-    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "webr.xml.structure.Content")) {
+    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
       SLinkOperations.addChild(_context.getNewNode(), "content", _context.getSampleNode());
     }
   }
 
   public static void nodeFactory_NodeSetup_Element_1188911043247(final IOperationContext operationContext, final NodeSetupContext _context) {
-    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "webr.xml.structure.Content")) {
+    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
       SLinkOperations.addChild(SLinkOperations.getTarget(_context.getNewNode(), "contentList", true), "content", _context.getSampleNode());
     }
   }
@@ -50,16 +50,16 @@ public class QueriesGenerated {
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_BaseAttribute_1167699332639(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("webr.xml.structure.Attribute");
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Attribute");
       SNode childConcept = (SNode)_context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Calculable calc = new Calculable() {
 
           public Object calculate() {
             List<SNode> attributeDeclarations = new ArrayList<SNode>();
-            SNode parentElementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
-            if ((parentElementDeclaration != null)) {
-              ListSequence.fromList(attributeDeclarations).addSequence(ListSequence.fromList(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(parentElementDeclaration)));
+            SNode parentlementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
+            if ((parentlementDeclaration != null)) {
+              ListSequence.fromList(attributeDeclarations).addSequence(ListSequence.fromList(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(parentlementDeclaration)));
             }
             return attributeDeclarations;
           }
@@ -71,9 +71,9 @@ public class QueriesGenerated {
             result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-                SNode attribute = SModelOperations.createNewNode(model, "webr.xml.structure.Attribute", _context.getCurrentTargetNode());
+                SNode attribute = SModelOperations.createNewNode(model, "jetbrains.mps.xml.structure.Attribute", _context.getCurrentTargetNode());
                 SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
-                SLinkOperations.setNewChild(attribute, "value", "webr.xml.structure.Text");
+                SLinkOperations.setNewChild(attribute, "value", "jetbrains.mps.xml.structure.Text");
                 return attribute;
               }
 
@@ -118,7 +118,7 @@ public class QueriesGenerated {
       isMixed = (Boolean)calc.calculate();
     }
     {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("webr.xml.structure.Element");
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Element");
       SNode childConcept = (SNode)_context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Calculable calc = new Calculable() {
@@ -135,13 +135,13 @@ public class QueriesGenerated {
 
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode prototype;
-                if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "webr.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(_context.getCurrentTargetNode(), "text"))) {
+                if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(_context.getCurrentTargetNode(), "text"))) {
                   prototype = null;
                 } else
                 {
                   prototype = _context.getCurrentTargetNode();
                 }
-                SNode element = SModelOperations.createNewNode(model, "webr.xml.structure.Element", prototype);
+                SNode element = SModelOperations.createNewNode(model, "jetbrains.mps.xml.structure.Element", prototype);
                 SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
                 SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1213877429867((item))));
                 return element;
@@ -166,13 +166,13 @@ public class QueriesGenerated {
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1201903366642(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("webr.xml.structure.Text");
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text");
       SNode childConcept = (SNode)_context.getChildConcept();
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         result.add(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode text = SConceptOperations.createNewNode("webr.xml.structure.Text", _context.getCurrentTargetNode());
+            SNode text = SConceptOperations.createNewNode("jetbrains.mps.xml.structure.Text", _context.getCurrentTargetNode());
             if (pattern.length() > 0) {
               SPropertyOperations.set(text, "text", pattern.substring(1));
             }
@@ -188,7 +188,7 @@ public class QueriesGenerated {
           }
 
           public String getDescriptionText(String pattern) {
-            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("webr.xml.structure.Text"), "short_description");
+            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "short_description");
           }
 
           public String getMatchingText(String pattern) {
@@ -235,11 +235,11 @@ public class QueriesGenerated {
     while (actions.hasNext()) {
       INodeSubstituteAction current = actions.next();
       final SNode concept = current.getOutputConcept();
-      SNode applicableConcept = SConceptOperations.findConceptDeclaration("webr.xml.structure.Content");
+      SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Content");
       Condition cond = new Condition() {
 
         public boolean met(Object object) {
-          return SConceptOperations.isExactly(_context.getChildConcept(), "webr.xml.structure.Content") && SConceptOperations.isSuperConceptOf(SConceptOperations.findConceptDeclaration("webr.xml.structure.BaseText"), NameUtil.nodeFQName(concept)) && !(isMixed);
+          return SConceptOperations.isExactly(_context.getChildConcept(), "jetbrains.mps.xml.structure.Content") && SConceptOperations.isSuperConceptOf(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.BaseText"), NameUtil.nodeFQName(concept)) && !(isMixed);
         }
 
       };

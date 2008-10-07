@@ -16,12 +16,12 @@ public class Content_Behavior {
 
   public static boolean call_isSeparate_1213877224266(SNode thisNode) {
     SNode parent = SNodeOperations.getParent(thisNode);
-    if (SNodeOperations.isInstanceOf(parent, "webr.xml.structure.ContentList")) {
+    if (SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xml.structure.ContentList")) {
       if (!(ContentList_Behavior.call_isHorizontal_1221256530294(parent))) {
         return true;
       }
     }
-    return parent.isRoot() || SNodeOperations.isInstanceOf(parent, "webr.xmlInternal.structure.ContentStatement");
+    return parent.isRoot() || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xml.internal.structure.ContentStatement");
   }
 
   public static String call_isSeparate_string_1213877224300(SNode thisNode) {

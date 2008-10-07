@@ -33,11 +33,11 @@ public class ElementUtil {
       if ((currentNode == null)) {
         break;
       }
-      if (SNodeOperations.isInstanceOf(currentNode, "webr.xml.structure.Element")) {
+      if (SNodeOperations.isInstanceOf(currentNode, "jetbrains.mps.xml.structure.Element")) {
         elementDeclaration = SLinkOperations.getTarget(currentNode, "elementDeclaration", false);
         break;
       }
-      if (SNodeOperations.isInstanceOf(currentNode, "webr.xml.structure.Content")) {
+      if (SNodeOperations.isInstanceOf(currentNode, "jetbrains.mps.xml.structure.Content")) {
         SNode content = currentNode;
         elementDeclaration = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(content, "correspondingElement")).first();
         if ((elementDeclaration != null)) {
@@ -51,15 +51,15 @@ public class ElementUtil {
 
   private static SNode findSchema(SNode node, IScope scope) {
     SNode schema = null;
-    SNode element = SNodeOperations.getAncestor(node, "webr.xml.structure.Element", true, false);
+    SNode element = SNodeOperations.getAncestor(node, "jetbrains.mps.xml.structure.Element", true, false);
     if ((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
-      if (SNodeOperations.isInstanceOf(containingRoot, "webr.xml.structure.XmlRoot")) {
+      if (SNodeOperations.isInstanceOf(containingRoot, "jetbrains.mps.xml.structure.XmlRoot")) {
         schema = XmlRoot_Behavior.call_getSchema_1213877420378(containingRoot, scope);
       }
     } else
     {
-      schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "webr.xmlSchema.structure.Schema", false, false);
+      schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "jetbrains.mps.xml.schema.structure.Schema", false, false);
     }
     return schema;
   }
@@ -72,7 +72,7 @@ public class ElementUtil {
         elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
       } else
       {
-        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "webr.xmlSchema.structure.ElementDeclaration");
+        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "jetbrains.mps.xml.schema.structure.ElementDeclaration");
         elementDeclarationSet.addAll(elementDeclarations);
       }
     } else

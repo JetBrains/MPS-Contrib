@@ -12,7 +12,7 @@ import jetbrains.mps.xml.behavior.Content_Behavior;
 public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
 
   public String getConcept() {
-    return "webr.xml.structure.Content";
+    return "jetbrains.mps.xml.structure.Content";
   }
 
   public boolean isErrorIntention() {
@@ -24,7 +24,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
-    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "webr.xml.structure.ContentList") && ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node)).isNotEmpty();
+    return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList") && ListSequence.fromList(Content_Behavior.call_getSubcontents_1213877224308(node)).isNotEmpty();
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
@@ -37,7 +37,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
   }
 
   public String getLocationString() {
-    return "webr.xml.intentions";
+    return "jetbrains.mps.xml.intentions";
   }
 
 }

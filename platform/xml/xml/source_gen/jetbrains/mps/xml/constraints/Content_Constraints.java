@@ -6,7 +6,7 @@ package jetbrains.mps.xml.constraints;
 public class Content_Constraints {
 
   public static String getDefaultConcreteConceptFqName() {
-    return "webr.xml.structure.Text";
+    return "jetbrains.mps.xml.structure.Text";
   }
 
 }
