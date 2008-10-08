@@ -12,6 +12,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.bootstrap.editorLanguage.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -88,7 +89,13 @@ public class Enum_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
+
+            public Boolean calculate(EditorCell cell) {
+              return Enum_Editor.calculateBoolean9947_0(cell);
+            }
+
+          });
         }
 
       };
@@ -103,6 +110,12 @@ public class Enum_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_refNodeList_constants_1197399052772(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static Boolean calculateBoolean9947_0(EditorCell cell) {
+    boolean result;
+    result = false;
+    return result;
   }
 
   public static class constantsListHandler_9947_0 extends RefNodeListHandler {
