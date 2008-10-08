@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.ext.dates.internal.behavior)">
+<model modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.dates.internal.behavior)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.bootstrap.constraintsLanguage)" />
@@ -19,11 +19,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.closures.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.closures.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.ext.dates.internal.constraints)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.dates.internal.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.dates.internal.structure)" version="1" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.ext.dates.internal.structure)" version="-1" />
+  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.dates.internal.structure)" version="1" />
   <node type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptBehavior" id="1213877257790">
     <link role="concept" targetNodeId="1.1174043262324" resolveInfo="DateTimeZonePropertyFormatConfiguration" />
     <node role="constructor" type="jetbrains.mps.bootstrap.constraintsLanguage.structure.ConceptConstructorDeclaration" id="1213877257791">

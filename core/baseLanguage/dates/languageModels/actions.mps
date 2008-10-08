@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c895903cd(jetbrains.mps.baseLanguage.ext.dates.lang.actions)">
+<model modelUID="r:00000000-0000-4000-0000-011c895903cd(jetbrains.mps.baseLanguage.dates.actions)">
   <persistence version="3" />
   <refactoringHistory />
   <language namespace="aee9cad2-acd4-4608-aef2-0004f6a1cdbd(jetbrains.mps.bootstrap.actionsLanguage)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.bootstrap.smodelLanguage)" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.bootstrap.helgins)" />
-  <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.ext.dates.lang)" />
+  <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.bootstrap.sharedConcepts)" />
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.quotation)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.bootstrap.actionsLanguage.constraints)" version="16" />
@@ -16,7 +16,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.bootstrap.smodelLanguage.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.bootstrap.helgins.constraints)" version="17" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.ext.dates.lang.constraints)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.bootstrap.sharedConcepts.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.bootstrap.constraintsLanguage.structure)" version="1" />
@@ -25,23 +25,24 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590523(jetbrains.springframework.configuration.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.ext.collections.lang.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.ext.dates.internal.constraints)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.dates.internal.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
-  <maxImportIndex value="23" />
-  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.ext.dates.lang.structure)" version="-1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.dates.internal.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
+  <maxImportIndex value="26" />
+  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <import index="9" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
   <import index="14" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="15" modelUID="f:java_stub#jetbrains.mps.helgins.inference(jetbrains.mps.helgins.inference@java_stub)" version="-1" />
   <import index="16" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="18" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.dates.lang.structure(jetbrains.mps.baseLanguage.ext.dates.lang.structure@java_stub)" version="-1" />
-  <import index="19" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.ext.dates.internal.structure)" version="-1" />
+  <import index="19" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.dates.internal.structure)" version="1" />
   <import index="20" modelUID="f:java_stub#jetbrains.mps.ide.progress(jetbrains.mps.ide.progress@java_stub)" version="-1" />
-  <import index="23" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.dates.lang.actions(jetbrains.mps.baseLanguage.ext.dates.lang.actions@java_stub)" version="-1" />
+  <import index="24" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.structure(jetbrains.mps.baseLanguage.dates.structure@java_stub)" version="-1" />
   <node type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />
     <node role="actionsBuilder" type="jetbrains.mps.bootstrap.actionsLanguage.structure.SideTransformHintSubstituteActionsBuilder" id="1169657550853">
@@ -80,14 +81,14 @@
         <link role="concept" targetNodeId="1.1172074800504" />
         <node role="part" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ParameterizedSideTransformMenuPart" id="1178205546354">
           <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1178205546355">
-            <link role="classifier" targetNodeId="18.~CompareType" resolveInfo="CompareType" />
+            <link role="classifier" targetNodeId="24.~CompareType" resolveInfo="CompareType" />
           </node>
           <node role="query" type="jetbrains.mps.bootstrap.actionsLanguage.structure.QueryFunction_ParameterizedSideTransform_Query" id="1178205546356">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178205546357">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1178205546358">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1178205546359">
-                  <link role="classConcept" targetNodeId="18.~CompareType" resolveInfo="CompareType" />
-                  <link role="baseMethodDeclaration" targetNodeId="18.~CompareType.getConstants():java.util.List" resolveInfo="getConstants" />
+                  <link role="classConcept" targetNodeId="24.~CompareType" resolveInfo="CompareType" />
+                  <link role="baseMethodDeclaration" targetNodeId="24.~CompareType.getConstants():java.util.List" resolveInfo="getConstants" />
                 </node>
               </node>
             </node>
@@ -147,7 +148,7 @@
                     <node role="value" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986164539">
                       <node role="operand" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_parameterObject" id="1178374155857" />
                       <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164540">
-                        <link role="baseMethodDeclaration" targetNodeId="18.~CompareType.getValueAsString():java.lang.String" resolveInfo="getValueAsString" />
+                        <link role="baseMethodDeclaration" targetNodeId="24.~CompareType.getValueAsString():java.lang.String" resolveInfo="getValueAsString" />
                       </node>
                     </node>
                   </node>
@@ -166,7 +167,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986164977">
                   <node role="operand" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_parameterObject" id="1178205546386" />
                   <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164978">
-                    <link role="baseMethodDeclaration" targetNodeId="18.~CompareType.getName():java.lang.String" resolveInfo="getName" />
+                    <link role="baseMethodDeclaration" targetNodeId="24.~CompareType.getName():java.lang.String" resolveInfo="getName" />
                   </node>
                 </node>
               </node>
@@ -178,7 +179,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986164750">
                   <node role="operand" type="jetbrains.mps.bootstrap.actionsLanguage.structure.ConceptFunctionParameter_parameterObject" id="1178205546391" />
                   <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164751">
-                    <link role="baseMethodDeclaration" targetNodeId="18.~CompareType.getValue():java.lang.String" resolveInfo="getValue" />
+                    <link role="baseMethodDeclaration" targetNodeId="24.~CompareType.getValue():java.lang.String" resolveInfo="getValue" />
                   </node>
                 </node>
               </node>
@@ -533,7 +534,7 @@
         <link role="concept" targetNodeId="1.1171902375079" />
       </node>
       <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968405">
-        <node role="quotedNode" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.DateTimeType" id="1196777968406" />
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1196777968406" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041871791" />
     </node>
@@ -543,7 +544,7 @@
         <link role="concept" targetNodeId="1.1172487727591" />
       </node>
       <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968407">
-        <node role="quotedNode" type="jetbrains.mps.baseLanguage.ext.dates.lang.structure.PeriodType" id="1196777968408" />
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.PeriodType" id="1196777968408" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041873211" />
     </node>

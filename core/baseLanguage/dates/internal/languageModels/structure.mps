@@ -1,8 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.ext.dates.internal.structure)">
+<model modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.dates.internal.structure)">
   <persistence version="3" />
-  <refactoringHistory />
-  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.bootstrap.structureLanguage)" />
+  <refactoringHistory>
+    <refactoringContext modelVersion="1">
+      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="DateTimeIntPropertyFormatConfiguration" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimeIntPropertyFormatConfiguration" featureKind="CONCEPT" />
+          <value featureName="DateTimeIntPropertyFormatConfiguration" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimeIntPropertyFormatConfiguration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DateTimeProperty" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimeProperty" featureKind="CONCEPT" />
+          <value featureName="DateTimeProperty" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimeProperty" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DateTimePropertyCardinality" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertyCardinality" featureKind="CONCEPT" />
+          <value featureName="DateTimePropertyCardinality" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimePropertyCardinality" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DateTimePropertyConfiguration" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertyConfiguration" featureKind="CONCEPT" />
+          <value featureName="DateTimePropertyConfiguration" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimePropertyConfiguration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DateTimePropertyFormatType" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertyFormatType" featureKind="CONCEPT" />
+          <value featureName="DateTimePropertyFormatType" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimePropertyFormatType" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DateTimePropertySettings" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimePropertySettings" featureKind="CONCEPT" />
+          <value featureName="DateTimePropertySettings" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimePropertySettings" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DateTimeZonePropertyFormatConfiguration" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DateTimeZonePropertyFormatConfiguration" featureKind="CONCEPT" />
+          <value featureName="DateTimeZonePropertyFormatConfiguration" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DateTimeZonePropertyFormatConfiguration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DurationType" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.DurationType" featureKind="CONCEPT" />
+          <value featureName="DurationType" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.DurationType" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="FormatTokenSettings" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.FormatTokenSettings" featureKind="CONCEPT" />
+          <value featureName="FormatTokenSettings" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.FormatTokenSettings" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="IDateFormat" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.IDateFormat" featureKind="CONCEPT" />
+          <value featureName="IDateFormat" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.IDateFormat" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Locale" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.Locale" featureKind="CONCEPT" />
+          <value featureName="Locale" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.Locale" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Month" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.Month" featureKind="CONCEPT" />
+          <value featureName="Month" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.Month" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="PredefinedDateFormat" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.PredefinedDateFormat" featureKind="CONCEPT" />
+          <value featureName="PredefinedDateFormat" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.PredefinedDateFormat" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="SchedulePeriod" conceptFQName="jetbrains.mps.baseLanguage.ext.dates.internal.structure.SchedulePeriod" featureKind="CONCEPT" />
+          <value featureName="SchedulePeriod" conceptFQName="jetbrains.mps.baseLanguage.dates.internal.structure.SchedulePeriod" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+  </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.bootstrap.structureLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.bootstrap.structureLanguage.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
@@ -11,11 +73,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.bootstrap.smodelLanguage.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.ext.collections.lang.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.ext.dates.internal.constraints)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.dates.internal.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.dates.internal.structure)" version="1" />
   <maxImportIndex value="4" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.core.structure)" version="-1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
