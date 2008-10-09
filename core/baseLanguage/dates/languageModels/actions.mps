@@ -8,7 +8,7 @@
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.bootstrap.helgins)" />
   <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
-  <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.quotation)" />
+  <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -37,6 +37,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <maxImportIndex value="26" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
@@ -537,7 +538,7 @@
       <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1175767604413">
         <link role="concept" targetNodeId="1.1171902375079" />
       </node>
-      <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968405">
+      <node role="initializer" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777968405">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1196777968406" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041871791" />
@@ -547,7 +548,7 @@
       <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1175767638708">
         <link role="concept" targetNodeId="1.1172487727591" />
       </node>
-      <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968407">
+      <node role="initializer" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777968407">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.PeriodType" id="1196777968408" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041873211" />
@@ -557,7 +558,7 @@
       <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1175767655914">
         <link role="concept" targetNodeId="2.1070534370425" />
       </node>
-      <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968409">
+      <node role="initializer" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777968409">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="1196777968410" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041874428" />
@@ -567,7 +568,7 @@
       <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1175768035673">
         <link role="concept" targetNodeId="2.1107535904670" />
       </node>
-      <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968411">
+      <node role="initializer" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777968411">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1196777968412">
           <link role="classifier" targetNodeId="16.~Date" resolveInfo="Date" />
         </node>
@@ -579,7 +580,7 @@
       <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1175768073491">
         <link role="concept" targetNodeId="2.1107535904670" />
       </node>
-      <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968413">
+      <node role="initializer" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777968413">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1196777968414">
           <link role="classifier" targetNodeId="16.~Calendar" resolveInfo="Calendar" />
         </node>
@@ -591,7 +592,7 @@
       <node role="type" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeType" id="1175768099653">
         <link role="concept" targetNodeId="2.1107535904670" />
       </node>
-      <node role="initializer" type="jetbrains.mps.quotation.structure.Quotation" id="1196777968415">
+      <node role="initializer" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777968415">
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1196777968416">
           <link role="classifier" targetNodeId="9.~AbstractInstant" resolveInfo="AbstractInstant" />
         </node>
