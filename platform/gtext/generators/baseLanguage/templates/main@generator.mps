@@ -5,7 +5,7 @@
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.transformation.TLBase)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e(jetbrains.mps.gtext)" />
-  <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.bootstrap.smodelLanguage)" />
+  <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <language namespace="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguage.internal)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
@@ -14,8 +14,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590571(jetbrains.mps.gtext.constraints)" version="8" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.bootstrap.smodelLanguage.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.bootstrap.smodelLanguage.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
@@ -52,7 +52,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1186171713920">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227933705">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1186171713921" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1186171715472">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1186171715472">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -70,7 +70,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621581482">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227838203">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621581483" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621583269">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621583269">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -88,7 +88,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621587470">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227911533">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621587471" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621589529">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621589529">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -106,7 +106,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621594812">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227894829">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621594813" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621596773">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621596773">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -124,7 +124,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621600763">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227889029">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621600764" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621602634">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621602634">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -142,7 +142,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621607160">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227852039">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621607161" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621608832">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621608832">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -166,7 +166,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621613862">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227897638">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621613863" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621615600">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621615600">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -184,7 +184,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621619337">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227927687">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621619338" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621621189">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621621189">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -208,7 +208,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1184621625414">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227865988">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1184621625415" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1184621627285">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1184621627285">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" />
               </node>
             </node>
@@ -226,7 +226,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211918284433">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211918284810">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211918284434" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1211918286853">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1211918286853">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" resolveInfo="shouldBeReduced" />
               </node>
             </node>
@@ -244,7 +244,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211961000063">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211961000064">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211961000065" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1211961000067">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1211961000067">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" resolveInfo="shouldBeReduced" />
               </node>
             </node>
@@ -262,7 +262,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211961015812">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211961015813">
               <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211961015814" />
-              <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_ConceptMethodCall" id="1211961015815">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1211961015815">
                 <link role="conceptMethodDeclaration" targetNodeId="17.1213877310935" resolveInfo="shouldBeReduced" />
               </node>
             </node>
@@ -286,7 +286,7 @@
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173361182035">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227882930">
                 <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1168408178372" />
-                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631028841">
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1217631028841">
                   <link role="link" targetNodeId="8.1164413016466" />
                 </node>
               </node>
@@ -325,7 +325,7 @@
                   <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173388952070">
                     <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227846083">
                       <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1173388952072" />
-                      <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1173388952073">
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1173388952073">
                         <link role="property" targetNodeId="8.1164413036326" />
                       </node>
                     </node>
@@ -375,7 +375,7 @@
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173361286775">
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227930692">
                     <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1173361286777" />
-                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1173361286778">
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1173361286778">
                       <link role="link" targetNodeId="8.1166926910409" />
                     </node>
                   </node>
@@ -408,7 +408,7 @@
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173361177190">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227931106">
                 <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1168408223943" />
-                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029099">
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1217631029099">
                   <link role="link" targetNodeId="8.1164488382452" />
                 </node>
               </node>
@@ -434,7 +434,7 @@
                   <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173390086329">
                     <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227906232">
                       <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1173390086331" />
-                      <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1173390086332">
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1173390086332">
                         <link role="link" targetNodeId="8.1164497557065" />
                       </node>
                     </node>
@@ -461,11 +461,11 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227907714">
                 <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227894120">
                   <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1174866019771" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1217631029778">
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1217631029778">
                     <link role="link" targetNodeId="8.1174865533071" />
                   </node>
                 </node>
-                <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631028438">
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1217631028438">
                   <link role="link" targetNodeId="4.1068581517665" />
                 </node>
               </node>
@@ -489,7 +489,7 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173361161123">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227895166">
                   <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1168408264232" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631028405">
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1217631028405">
                     <link role="link" targetNodeId="8.1166928665191" />
                   </node>
                 </node>
@@ -512,7 +512,7 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1179110502281">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227901514">
                   <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1179110502282" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1179110511165">
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1179110511165">
                     <link role="property" targetNodeId="8.1179109261107" />
                   </node>
                 </node>
@@ -529,7 +529,7 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1179110542010">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227893789">
                   <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1179110542011" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1217631029002">
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1217631029002">
                     <link role="link" targetNodeId="8.1179109231418" />
                   </node>
                 </node>
@@ -545,7 +545,7 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1179110521570">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227936009">
                   <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1179110521571" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1179110524712">
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1179110524712">
                     <link role="property" targetNodeId="8.1179109261107" />
                   </node>
                 </node>
@@ -595,7 +595,7 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211917885310">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211917886149">
                   <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211917885311" />
-                  <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1211919350509">
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1211919350509">
                     <link role="link" targetNodeId="8.1211919312449" />
                   </node>
                 </node>
@@ -612,9 +612,9 @@
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211917988811">
                     <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211917985077">
                       <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211917982640" />
-                      <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetPrevSiblingOperation" id="1211917986493" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetPrevSiblingOperation" id="1211917986493" />
                     </node>
-                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_IsNotNullOperation" id="1211917990876" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="1211917990876" />
                   </node>
                 </node>
               </node>
@@ -625,14 +625,14 @@
               <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1211917963710">
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211917971781">
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211917971782">
-                    <node role="operand" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SNodeTypeCastExpression" id="1211917971783">
+                    <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1211917971783">
                       <link role="concept" targetNodeId="8.1188509198390" resolveInfo="GSeparatorItemList" />
                       <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211917971784">
                         <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211917971785" />
-                        <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.Node_GetParentOperation" id="1211917971786" />
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" id="1211917971786" />
                       </node>
                     </node>
-                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkAccess" id="1211917971787">
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1211917971787">
                       <link role="link" targetNodeId="8.1211914934108" />
                     </node>
                   </node>
@@ -673,7 +673,7 @@
                   <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211960522367">
                     <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211960522989">
                       <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211960522368" />
-                      <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1211960523972">
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1211960523972">
                         <link role="property" targetNodeId="18.1169194664001" resolveInfo="name" />
                       </node>
                     </node>
@@ -705,7 +705,7 @@
                       <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211960576076">
                         <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211960576402">
                           <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211960576077" />
-                          <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SPropertyAccess" id="1211964926414">
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1211964926414">
                             <link role="property" targetNodeId="18.1169194664001" resolveInfo="name" />
                           </node>
                         </node>
@@ -727,7 +727,7 @@
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1211960627291">
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1211960627655">
                     <node role="operand" type="jetbrains.mps.transformation.TLBase.structure.TemplateFunctionParameter_sourceNode" id="1211960627292" />
-                    <node role="operation" type="jetbrains.mps.bootstrap.smodelLanguage.structure.SLinkListAccess" id="1211960629105">
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1211960629105">
                       <link role="link" targetNodeId="8.1211920572264" />
                     </node>
                   </node>
