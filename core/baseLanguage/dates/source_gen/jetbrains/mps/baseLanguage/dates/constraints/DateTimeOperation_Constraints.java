@@ -8,7 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.bootstrap.helgins.runtime.HUtil;
+import jetbrains.mps.lang.typesystem.runtime.HUtil;
 
 public class DateTimeOperation_Constraints {
 
