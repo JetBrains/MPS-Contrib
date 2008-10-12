@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xml.schema.structure)">
+<model modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)">
   <persistence version="3" />
   <refactoringHistory>
     <refactoringContext modelVersion="0">
@@ -148,30 +148,176 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="1">
+      <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="AttributeDeclaration" conceptFQName="jetbrains.mps.xml.schema.structure.AttributeDeclaration" featureKind="CONCEPT" />
+          <value featureName="AttributeDeclaration" conceptFQName="jetbrains.mps.xmlSchema.structure.AttributeDeclaration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="AttributeExpression" conceptFQName="jetbrains.mps.xml.schema.structure.AttributeExpression" featureKind="CONCEPT" />
+          <value featureName="AttributeExpression" conceptFQName="jetbrains.mps.xmlSchema.structure.AttributeExpression" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="AttributeGroup" conceptFQName="jetbrains.mps.xml.schema.structure.AttributeGroup" featureKind="CONCEPT" />
+          <value featureName="AttributeGroup" conceptFQName="jetbrains.mps.xmlSchema.structure.AttributeGroup" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="AttributeGroupReference" conceptFQName="jetbrains.mps.xml.schema.structure.AttributeGroupReference" featureKind="CONCEPT" />
+          <value featureName="AttributeGroupReference" conceptFQName="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Choice" conceptFQName="jetbrains.mps.xml.schema.structure.Choice" featureKind="CONCEPT" />
+          <value featureName="Choice" conceptFQName="jetbrains.mps.xmlSchema.structure.Choice" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ComplexContent" conceptFQName="jetbrains.mps.xml.schema.structure.ComplexContent" featureKind="CONCEPT" />
+          <value featureName="ComplexContent" conceptFQName="jetbrains.mps.xmlSchema.structure.ComplexContent" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ComplexType" conceptFQName="jetbrains.mps.xml.schema.structure.ComplexType" featureKind="CONCEPT" />
+          <value featureName="ComplexType" conceptFQName="jetbrains.mps.xmlSchema.structure.ComplexType" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ComplexTypeReference" conceptFQName="jetbrains.mps.xml.schema.structure.ComplexTypeReference" featureKind="CONCEPT" />
+          <value featureName="ComplexTypeReference" conceptFQName="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ContentItem" conceptFQName="jetbrains.mps.xml.schema.structure.ContentItem" featureKind="CONCEPT" />
+          <value featureName="ContentItem" conceptFQName="jetbrains.mps.xmlSchema.structure.ContentItem" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Declaration" conceptFQName="jetbrains.mps.xml.schema.structure.Declaration" featureKind="CONCEPT" />
+          <value featureName="Declaration" conceptFQName="jetbrains.mps.xmlSchema.structure.Declaration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="DeclarationBlock" conceptFQName="jetbrains.mps.xml.schema.structure.DeclarationBlock" featureKind="CONCEPT" />
+          <value featureName="DeclarationBlock" conceptFQName="jetbrains.mps.xmlSchema.structure.DeclarationBlock" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ElementDeclaration" conceptFQName="jetbrains.mps.xml.schema.structure.ElementDeclaration" featureKind="CONCEPT" />
+          <value featureName="ElementDeclaration" conceptFQName="jetbrains.mps.xmlSchema.structure.ElementDeclaration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ElementReference" conceptFQName="jetbrains.mps.xml.schema.structure.ElementReference" featureKind="CONCEPT" />
+          <value featureName="ElementReference" conceptFQName="jetbrains.mps.xmlSchema.structure.ElementReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ElementWithContent" conceptFQName="jetbrains.mps.xml.schema.structure.ElementWithContent" featureKind="CONCEPT" />
+          <value featureName="ElementWithContent" conceptFQName="jetbrains.mps.xmlSchema.structure.ElementWithContent" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="ElementWithType" conceptFQName="jetbrains.mps.xml.schema.structure.ElementWithType" featureKind="CONCEPT" />
+          <value featureName="ElementWithType" conceptFQName="jetbrains.mps.xmlSchema.structure.ElementWithType" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="EntityBlock" conceptFQName="jetbrains.mps.xml.schema.structure.EntityBlock" featureKind="CONCEPT" />
+          <value featureName="EntityBlock" conceptFQName="jetbrains.mps.xmlSchema.structure.EntityBlock" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="EntityDeclaration" conceptFQName="jetbrains.mps.xml.schema.structure.EntityDeclaration" featureKind="CONCEPT" />
+          <value featureName="EntityDeclaration" conceptFQName="jetbrains.mps.xmlSchema.structure.EntityDeclaration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="EntityLine" conceptFQName="jetbrains.mps.xml.schema.structure.EntityLine" featureKind="CONCEPT" />
+          <value featureName="EntityLine" conceptFQName="jetbrains.mps.xmlSchema.structure.EntityLine" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="EntitySet" conceptFQName="jetbrains.mps.xml.schema.structure.EntitySet" featureKind="CONCEPT" />
+          <value featureName="EntitySet" conceptFQName="jetbrains.mps.xmlSchema.structure.EntitySet" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Extension" conceptFQName="jetbrains.mps.xml.schema.structure.Extension" featureKind="CONCEPT" />
+          <value featureName="Extension" conceptFQName="jetbrains.mps.xmlSchema.structure.Extension" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="GroupDeclaration" conceptFQName="jetbrains.mps.xml.schema.structure.GroupDeclaration" featureKind="CONCEPT" />
+          <value featureName="GroupDeclaration" conceptFQName="jetbrains.mps.xmlSchema.structure.GroupDeclaration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="GroupExpression" conceptFQName="jetbrains.mps.xml.schema.structure.GroupExpression" featureKind="CONCEPT" />
+          <value featureName="GroupExpression" conceptFQName="jetbrains.mps.xmlSchema.structure.GroupExpression" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="GroupReference" conceptFQName="jetbrains.mps.xml.schema.structure.GroupReference" featureKind="CONCEPT" />
+          <value featureName="GroupReference" conceptFQName="jetbrains.mps.xmlSchema.structure.GroupReference" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="MaxOccursExpression" conceptFQName="jetbrains.mps.xml.schema.structure.MaxOccursExpression" featureKind="CONCEPT" />
+          <value featureName="MaxOccursExpression" conceptFQName="jetbrains.mps.xmlSchema.structure.MaxOccursExpression" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="MixedAttribute" conceptFQName="jetbrains.mps.xml.schema.structure.MixedAttribute" featureKind="CONCEPT" />
+          <value featureName="MixedAttribute" conceptFQName="jetbrains.mps.xmlSchema.structure.MixedAttribute" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="NamespaceDeclaration" conceptFQName="jetbrains.mps.xml.schema.structure.NamespaceDeclaration" featureKind="CONCEPT" />
+          <value featureName="NamespaceDeclaration" conceptFQName="jetbrains.mps.xmlSchema.structure.NamespaceDeclaration" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="OccursAttribute" conceptFQName="jetbrains.mps.xml.schema.structure.OccursAttribute" featureKind="CONCEPT" />
+          <value featureName="OccursAttribute" conceptFQName="jetbrains.mps.xmlSchema.structure.OccursAttribute" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Schema" conceptFQName="jetbrains.mps.xml.schema.structure.Schema" featureKind="CONCEPT" />
+          <value featureName="Schema" conceptFQName="jetbrains.mps.xmlSchema.structure.Schema" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="Sequence" conceptFQName="jetbrains.mps.xml.schema.structure.Sequence" featureKind="CONCEPT" />
+          <value featureName="Sequence" conceptFQName="jetbrains.mps.xmlSchema.structure.Sequence" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="SimpleContent" conceptFQName="jetbrains.mps.xml.schema.structure.SimpleContent" featureKind="CONCEPT" />
+          <value featureName="SimpleContent" conceptFQName="jetbrains.mps.xmlSchema.structure.SimpleContent" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="TextLine" conceptFQName="jetbrains.mps.xml.schema.structure.TextLine" featureKind="CONCEPT" />
+          <value featureName="TextLine" conceptFQName="jetbrains.mps.xmlSchema.structure.TextLine" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="TypeExpression" conceptFQName="jetbrains.mps.xml.schema.structure.TypeExpression" featureKind="CONCEPT" />
+          <value featureName="TypeExpression" conceptFQName="jetbrains.mps.xmlSchema.structure.TypeExpression" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="TypeExpressionList" conceptFQName="jetbrains.mps.xml.schema.structure.TypeExpressionList" featureKind="CONCEPT" />
+          <value featureName="TypeExpressionList" conceptFQName="jetbrains.mps.xmlSchema.structure.TypeExpressionList" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="UnboundedExpression" conceptFQName="jetbrains.mps.xml.schema.structure.UnboundedExpression" featureKind="CONCEPT" />
+          <value featureName="UnboundedExpression" conceptFQName="jetbrains.mps.xmlSchema.structure.UnboundedExpression" featureKind="CONCEPT" />
+        </entry>
+        <entry>
+          <key featureName="UseAttribute" conceptFQName="jetbrains.mps.xml.schema.structure.UseAttribute" featureKind="CONCEPT" />
+          <value featureName="UseAttribute" conceptFQName="jetbrains.mps.xmlSchema.structure.UseAttribute" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xml.internal.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xml.schema.constraints)" version="21" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xml.internal.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xmlInternal.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xml.schema.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="5" modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xml.internal.structure)" version="1" />
+  <import index="5" modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" version="2" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1167512696010">
     <property name="name" value="ElementWithContent" />
     <link role="extends" targetNodeId="1167838236835" resolveInfo="ElementDeclaration" />

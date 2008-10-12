@@ -57,8 +57,6 @@
   <import index="10" modelUID="f:java_stub#jetbrains.mps.buildlanguage.tasksfromjar(jetbrains.mps.buildlanguage.tasksfromjar@java_stub)" version="-1" />
   <import index="11" modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.propertylanguage.structure)" version="-1" />
   <import index="12" modelUID="f:java_stub#jetbrains.mps.generator.template(jetbrains.mps.generator.template@java_stub)" version="-1" />
-  <import index="14" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.collections.lang.constraints(jetbrains.mps.baseLanguage.ext.collections.lang.constraints@java_stub)" version="-1" />
-  <import index="15" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.collections.lang.structure(jetbrains.mps.baseLanguage.ext.collections.lang.structure@java_stub)" version="-1" />
   <import index="16" modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <import index="17" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="2" />
   <import index="18" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />

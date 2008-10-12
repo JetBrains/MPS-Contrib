@@ -6,9 +6,9 @@
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
-  <language namespace="64f62b28-36e3-4052-9f72-f616211ae615(jetbrains.mps.xml.internal)" />
+  <language namespace="64f62b28-36e3-4052-9f72-f616211ae615(jetbrains.mps.xmlInternal)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
-  <language namespace="b51b9e02-45dc-4b48-b300-cf49360a8d1f(jetbrains.mps.xml.schema)" />
+  <language namespace="b51b9e02-45dc-4b48-b300-cf49360a8d1f(jetbrains.mps.xmlSchema)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -16,11 +16,11 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xml.internal.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xml.internal.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xmlInternal.constraints)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="2" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xml.schema.constraints)" version="21" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
@@ -30,17 +30,17 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xml.schema.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
   <maxImportIndex value="11" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
-  <import index="3" modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xml.schema.constraints)" version="21" />
-  <import index="4" modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xml.internal.structure)" version="1" />
-  <import index="5" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xml.schema.structure)" version="0" />
-  <import index="11" modelUID="r:00000000-0000-4000-0000-011c89590594(jetbrains.mps.xml.schema.behavior)" version="-1" />
+  <import index="3" modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)" version="21" />
+  <import index="4" modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" version="2" />
+  <import index="5" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
+  <import index="11" modelUID="r:00000000-0000-4000-0000-011c89590594(jetbrains.mps.xmlSchema.behavior)" version="-1" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration" id="1191189331473">
     <property name="name" value="mc_xml_rewrite" />
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="1191197695927">
@@ -105,7 +105,7 @@
     <link role="applicableConcept" targetNodeId="1.1167523027466" />
     <node role="contentNode" type="jetbrains.mps.xml.structure.Element" id="1191199431358">
       <link role="elementDeclaration" targetNodeId="1207746981563" resolveInfo="a" />
-      <node role="attribute" type="jetbrains.mps.xml.internal.structure.NamespaceAttribute" id="1191202194619">
+      <node role="attribute" type="jetbrains.mps.xmlInternal.structure.NamespaceAttribute" id="1191202194619">
         <property name="uri" value="uri" />
         <property name="prefix" value="prefix" />
         <node role="propertyMacro$property_attribute$uri" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1191202214916">
@@ -216,25 +216,25 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.xml.schema.structure.Schema" id="1207746963127">
+  <node type="jetbrains.mps.xmlSchema.structure.Schema" id="1207746963127">
     <property name="schemaName" value="dummy" />
-    <node role="declarationBlock" type="jetbrains.mps.xml.schema.structure.DeclarationBlock" id="1207746963128">
-      <node role="textLine" type="jetbrains.mps.xml.schema.structure.TextLine" id="1207746963129">
+    <node role="declarationBlock" type="jetbrains.mps.xmlSchema.structure.DeclarationBlock" id="1207746963128">
+      <node role="textLine" type="jetbrains.mps.xmlSchema.structure.TextLine" id="1207746963129">
         <property name="line" value="----" />
       </node>
-      <node role="declaration" type="jetbrains.mps.xml.schema.structure.ElementWithContent" id="1207746981563">
+      <node role="declaration" type="jetbrains.mps.xmlSchema.structure.ElementWithContent" id="1207746981563">
         <property name="elementName" value="a" />
-        <node role="complexType" type="jetbrains.mps.xml.schema.structure.ComplexType" id="1207746981564">
-          <node role="typeExpressionList" type="jetbrains.mps.xml.schema.structure.TypeExpressionList" id="1207746981565">
-            <node role="typeExpression" type="jetbrains.mps.xml.schema.structure.AttributeDeclaration" id="1207747073598">
+        <node role="complexType" type="jetbrains.mps.xmlSchema.structure.ComplexType" id="1207746981564">
+          <node role="typeExpressionList" type="jetbrains.mps.xmlSchema.structure.TypeExpressionList" id="1207746981565">
+            <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeDeclaration" id="1207747073598">
               <property name="attributeName" value="href" />
             </node>
           </node>
-          <node role="mixedAttribute" type="jetbrains.mps.xml.schema.structure.MixedAttribute" id="1207746981573" />
+          <node role="mixedAttribute" type="jetbrains.mps.xmlSchema.structure.MixedAttribute" id="1207746981573" />
         </node>
       </node>
     </node>
-    <node role="rootElementReference" type="jetbrains.mps.xml.schema.structure.ElementReference" id="1207746994379">
+    <node role="rootElementReference" type="jetbrains.mps.xmlSchema.structure.ElementReference" id="1207746994379">
       <link role="elementDeclaration" targetNodeId="1207746981563" resolveInfo="a" />
     </node>
   </node>
