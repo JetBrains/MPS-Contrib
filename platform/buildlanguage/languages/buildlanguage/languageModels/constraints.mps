@@ -5,7 +5,7 @@
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
-  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.ext.collections.lang)" />
+  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="0b608d44-1308-418d-8715-22d040c3b3cc(jetbrains.mps.buildlanguage)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
@@ -19,8 +19,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="3" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.ext.collections.lang.constraints)" version="6" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)" version="32" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
@@ -58,8 +58,8 @@
   <import index="12" modelUID="f:java_stub#jetbrains.mps.generator.template(jetbrains.mps.generator.template@java_stub)" version="-1" />
   <import index="14" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.collections.lang.constraints(jetbrains.mps.baseLanguage.ext.collections.lang.constraints@java_stub)" version="-1" />
   <import index="15" modelUID="f:java_stub#jetbrains.mps.baseLanguage.ext.collections.lang.structure(jetbrains.mps.baseLanguage.ext.collections.lang.structure@java_stub)" version="-1" />
-  <import index="16" modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.ext.collections.lang.constraints)" version="6" />
-  <import index="17" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.ext.collections.lang.structure)" version="1" />
+  <import index="16" modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
+  <import index="17" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="2" />
   <import index="18" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213104847182">
     <link role="concept" targetNodeId="2.1196852921336" resolveInfo="TargetReference" />
@@ -225,7 +225,7 @@
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104847707">
                 <link role="variableDeclaration" targetNodeId="1213104847699" resolveInfo="declarations" />
               </node>
-              <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddAllElementsOperation" id="1213104847708">
+              <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" id="1213104847708">
                 <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847709">
                   <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1213104847710">
                     <link role="concept" targetNodeId="2.1196851066733" resolveInfo="Project" />
@@ -258,8 +258,8 @@
                   </node>
                 </node>
               </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachStatement" id="1213104847723">
-                <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariable" id="1213104847724">
+              <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="1213104847723">
+                <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="1213104847724">
                   <property name="name" value="decl" />
                 </node>
                 <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104847725">
@@ -273,8 +273,8 @@
                           <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104847731">
                             <link role="variableDeclaration" targetNodeId="1213104847718" resolveInfo="available" />
                           </node>
-                          <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddElementOperation" id="1213104847732">
-                            <node role="argument" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104847733">
+                          <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="1213104847732">
+                            <node role="argument" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104847733">
                               <link role="variable" targetNodeId="1213104847724" resolveInfo="decl" />
                             </node>
                           </node>
@@ -284,7 +284,7 @@
                     <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1213104847734">
                       <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1213104847735">
                         <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847736">
-                          <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104847737">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104847737">
                             <link role="variable" targetNodeId="1213104847724" resolveInfo="decl" />
                           </node>
                           <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1213104847738">
@@ -294,7 +294,7 @@
                       </node>
                       <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1213104847739">
                         <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847740">
-                          <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104847741">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104847741">
                             <link role="variable" targetNodeId="1213104847724" resolveInfo="decl" />
                           </node>
                           <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213104847742">
@@ -387,8 +387,8 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachStatement" id="1213104847776">
-            <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariable" id="1213104847777">
+          <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="1213104847776">
+            <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="1213104847777">
               <property name="name" value="call" />
             </node>
             <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104847778">
@@ -402,8 +402,8 @@
                       <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104847784">
                         <link role="variableDeclaration" targetNodeId="1213104847771" resolveInfo="visible" />
                       </node>
-                      <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddElementOperation" id="1213104847785">
-                        <node role="argument" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104847786">
+                      <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="1213104847785">
+                        <node role="argument" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104847786">
                           <link role="variable" targetNodeId="1213104847777" resolveInfo="call" />
                         </node>
                       </node>
@@ -415,7 +415,7 @@
                     <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1213104847789">
                       <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1213104847790" />
                       <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847791">
-                        <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104847792">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104847792">
                           <link role="variable" targetNodeId="1213104847777" resolveInfo="call" />
                         </node>
                         <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1213104847793">
@@ -431,7 +431,7 @@
                         <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" id="1213104847798" />
                       </node>
                       <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847799">
-                        <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104847800">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104847800">
                           <link role="variable" targetNodeId="1213104847777" resolveInfo="call" />
                         </node>
                         <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" id="1213104847801" />
@@ -478,13 +478,13 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1213104856772">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1213104856773">
               <property name="name" value="newScope" />
-              <node role="type" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ListType" id="1213104856774">
+              <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="1213104856774">
                 <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1213104856775">
                   <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
                 </node>
               </node>
               <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1213104856776">
-                <node role="creator" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ListCreatorWithInit" id="1213104856777">
+                <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" id="1213104856777">
                   <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1213104856778">
                     <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
                   </node>
@@ -492,8 +492,8 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachStatement" id="1213104856779">
-            <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariable" id="1213104856780">
+          <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="1213104856779">
+            <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="1213104856780">
               <property name="name" value="node" />
             </node>
             <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104856781">
@@ -510,7 +510,7 @@
                     <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1213104856787">
                       <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
                     </node>
-                    <node role="expression" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104856788">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104856788">
                       <link role="variable" targetNodeId="1213104856780" resolveInfo="node" />
                     </node>
                   </node>
@@ -523,7 +523,7 @@
                       <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104856793">
                         <link role="variableDeclaration" targetNodeId="1213104856773" resolveInfo="newScope" />
                       </node>
-                      <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddElementOperation" id="1213104856794">
+                      <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="1213104856794">
                         <node role="argument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104856795">
                           <link role="variableDeclaration" targetNodeId="1213104856784" resolveInfo="gcall" />
                         </node>
@@ -630,8 +630,8 @@
                   </node>
                 </node>
               </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachStatement" id="1213104859022">
-                <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariable" id="1213104859023">
+              <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="1213104859022">
+                <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="1213104859023">
                   <property name="name" value="decl" />
                 </node>
                 <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104859024">
@@ -640,7 +640,7 @@
                 <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213104859025">
                   <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1213104859026">
                     <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104859027">
-                      <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104859028">
+                      <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104859028">
                         <link role="variable" targetNodeId="1213104859023" resolveInfo="decl" />
                       </node>
                       <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1213104859029">
@@ -655,8 +655,8 @@
                           <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104859034">
                             <link role="variableDeclaration" targetNodeId="1213104859017" resolveInfo="newDecls" />
                           </node>
-                          <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddElementOperation" id="1213104859035">
-                            <node role="argument" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104859036">
+                          <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="1213104859035">
+                            <node role="argument" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104859036">
                               <link role="variable" targetNodeId="1213104859023" resolveInfo="decl" />
                             </node>
                           </node>
@@ -711,8 +711,8 @@
                     </node>
                   </node>
                 </node>
-                <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachStatement" id="1213104859056">
-                  <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariable" id="1213104859057">
+                <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="1213104859056">
+                  <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="1213104859057">
                     <property name="name" value="decl" />
                   </node>
                   <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104859058">
@@ -726,8 +726,8 @@
                             <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104859064">
                               <link role="variableDeclaration" targetNodeId="1213104859051" resolveInfo="newDecls" />
                             </node>
-                            <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddElementOperation" id="1213104859065">
-                              <node role="argument" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104859066">
+                            <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="1213104859065">
+                              <node role="argument" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104859066">
                                 <link role="variable" targetNodeId="1213104859057" resolveInfo="decl" />
                               </node>
                             </node>
@@ -736,7 +736,7 @@
                       </node>
                       <node role="condition" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1213104859067">
                         <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104859068">
-                          <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104859069">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104859069">
                             <link role="variable" targetNodeId="1213104859057" resolveInfo="decl" />
                           </node>
                           <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1213104859070">
@@ -895,8 +895,8 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachStatement" id="1213104860250">
-            <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariable" id="1213104860251">
+          <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="1213104860250">
+            <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="1213104860251">
               <property name="name" value="holder" />
             </node>
             <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104860252">
@@ -916,9 +916,9 @@
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104860260">
                     <link role="variableDeclaration" targetNodeId="1213104860245" resolveInfo="result" />
                   </node>
-                  <node role="operation" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.AddAllElementsOperation" id="1213104860261">
+                  <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" id="1213104860261">
                     <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104860262">
-                      <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1213104860263">
+                      <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104860263">
                         <link role="variable" targetNodeId="1213104860251" resolveInfo="holder" />
                       </node>
                       <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213104860264">
@@ -978,8 +978,8 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachStatement" id="1218551839100">
-            <node role="variable" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariable" id="1218551839101">
+          <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="1218551839100">
+            <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="1218551839101">
               <property name="name" value="lit" />
             </node>
             <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1218551843169">
@@ -992,7 +992,7 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1218551862693">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" id="1218551865164">
                   <node role="rValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1218551882154">
-                    <node role="operand" type="jetbrains.mps.baseLanguage.ext.collections.lang.structure.ForEachVariableReference" id="1218551867305">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1218551867305">
                       <link role="variable" targetNodeId="1218551839101" resolveInfo="lit" />
                     </node>
                     <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1218551939296">
