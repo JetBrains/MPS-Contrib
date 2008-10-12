@@ -224,7 +224,7 @@
                 <link role="baseMethodDeclaration" targetNodeId="7.~ISearchScope.getNodes(jetbrains.mps.util.Condition):java.util.List" resolveInfo="getNodes" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888353455">
                   <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888353457">
-                    <link role="baseMethodDeclaration" targetNodeId="7.~IsInstanceCondition.&lt;init&gt;(jetbrains.mps.bootstrap.structureLanguage.structure.AbstractConceptDeclaration)" resolveInfo="IsInstanceCondition" />
+                    <link role="baseMethodDeclaration" targetNodeId="7.~IsInstanceCondition.&lt;init&gt;(jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration)" resolveInfo="IsInstanceCondition" />
                     <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204672721267">
                       <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1173978362225">
                         <link role="variableDeclaration" targetNodeId="1173978362223" resolveInfo="cd" />
