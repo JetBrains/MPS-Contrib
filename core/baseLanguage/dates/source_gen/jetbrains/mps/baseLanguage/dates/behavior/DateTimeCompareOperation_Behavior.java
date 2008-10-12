@@ -27,7 +27,7 @@ public class DateTimeCompareOperation_Behavior {
   public static boolean call_isFieldReference_1213877526041(SNode thisNode, SNode e) {
     boolean result = SNodeOperations.isInstanceOf(e, "jetbrains.mps.baseLanguage.structure.FieldReference");
     result = result || (SNodeOperations.isInstanceOf(e, "jetbrains.mps.baseLanguage.structure.DotExpression") && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(e, "operation", true), "jetbrains.mps.baseLanguage.structure.FieldReferenceOperation"));
-    result = result || (SNodeOperations.isInstanceOf(e, "jetbrains.mps.baseLanguage.internal.structure.InternalPartialFieldReference"));
+    result = result || (SNodeOperations.isInstanceOf(e, "jetbrains.mps.baseLanguageInternal.structure.InternalPartialFieldReference"));
     return result;
   }
 
@@ -39,7 +39,7 @@ public class DateTimeCompareOperation_Behavior {
     if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguage.structure.DotExpression") && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(fr, "operation", true), "jetbrains.mps.baseLanguage.structure.FieldReferenceOperation")) {
       instance = SLinkOperations.getTarget(fr, "operand", true);
     } else
-    if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguage.internal.structure.InternalPartialFieldReference")) {
+    if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguageInternal.structure.InternalPartialFieldReference")) {
       instance = SLinkOperations.getTarget(fr, "instance", true);
     }
     return instance;
@@ -76,7 +76,7 @@ public class DateTimeCompareOperation_Behavior {
     if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguage.structure.DotExpression") && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(fr, "operation", true), "jetbrains.mps.baseLanguage.structure.FieldReferenceOperation")) {
       result = SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(fr, "operation", true), "fieldDeclaration", false), "name");
     } else
-    if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguage.internal.structure.InternalPartialFieldReference")) {
+    if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguageInternal.structure.InternalPartialFieldReference")) {
       result = SPropertyOperations.getString(fr, "fieldName");
     }
     return result;
@@ -91,7 +91,7 @@ public class DateTimeCompareOperation_Behavior {
     if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguage.structure.DotExpression") && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(fr, "operation", true), "jetbrains.mps.baseLanguage.structure.FieldReferenceOperation")) {
       result = SPropertyOperations.getString(SNodeOperations.getParent(SLinkOperations.getTarget(SLinkOperations.getTarget(fr, "operation", true), "fieldDeclaration", false)), "name");
     } else
-    if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguage.internal.structure.InternalPartialFieldReference")) {
+    if (SNodeOperations.isInstanceOf(fr, "jetbrains.mps.baseLanguageInternal.structure.InternalPartialFieldReference")) {
       result = SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(fr, "instanceType", true), "classifier", false), "name");
     }
     return result;

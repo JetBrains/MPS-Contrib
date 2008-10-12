@@ -4,7 +4,7 @@ package jetbrains.mps.xml.generator.baseLanguage.template.rewrite;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
-import jetbrains.mps.xml.schema.behavior.ElementDeclaration_Behavior;
+import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -19,7 +19,7 @@ public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_1191197782536(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1213877429936(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false));
-    boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.xml.internal.structure.NamespaceAttribute", false)).isEmpty();
+    boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", false)).isEmpty();
     return condition;
   }
 

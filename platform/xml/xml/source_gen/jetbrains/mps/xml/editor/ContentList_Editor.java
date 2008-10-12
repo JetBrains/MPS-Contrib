@@ -245,7 +245,13 @@ public class ContentList_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
+
+            public Boolean calculate(EditorCell cell) {
+              return ContentList_Editor.calculateBoolean8357_0(cell);
+            }
+
+          });
         }
 
       };
@@ -262,7 +268,13 @@ public class ContentList_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, true);
+          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
+
+            public Boolean calculate(EditorCell cell) {
+              return ContentList_Editor.calculateBoolean8357_1(cell);
+            }
+
+          });
         }
 
       };
@@ -368,6 +380,42 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return result;
   }
 
+  public static Boolean calculateBoolean8357_0(EditorCell cell) {
+    boolean result;
+    result = false;
+    return result;
+  }
+
+  public static Boolean calculateBoolean8357_1(EditorCell cell) {
+    boolean result;
+    result = true;
+    return result;
+  }
+
+  public static Boolean calculateBoolean8357_2(EditorCell cell) {
+    boolean result;
+    result = true;
+    return result;
+  }
+
+  public static Boolean calculateBoolean8357_3(EditorCell cell) {
+    boolean result;
+    result = true;
+    return result;
+  }
+
+  public static Boolean calculateBoolean8357_4(EditorCell cell) {
+    boolean result;
+    result = true;
+    return result;
+  }
+
+  public static Boolean calculateBoolean8357_5(EditorCell cell) {
+    boolean result;
+    result = true;
+    return result;
+  }
+
   public static class contentListHandler_8357_0 extends RefNodeListHandler {
 
     public contentListHandler_8357_0(SNode ownerNode, String childRole, EditorContext context) {
@@ -428,7 +476,13 @@ public class ContentList_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.EDITABLE, true);
+            this.set(StyleAttributes.EDITABLE, new AttributeCalculator <Boolean>() {
+
+              public Boolean calculate(EditorCell cell) {
+                return ContentList_Editor.calculateBoolean8357_3(cell);
+              }
+
+            });
           }
 
         };
@@ -500,7 +554,13 @@ public class ContentList_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.EDITABLE, true);
+            this.set(StyleAttributes.EDITABLE, new AttributeCalculator <Boolean>() {
+
+              public Boolean calculate(EditorCell cell) {
+                return ContentList_Editor.calculateBoolean8357_5(cell);
+              }
+
+            });
           }
 
         };
@@ -572,7 +632,13 @@ public class ContentList_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.EDITABLE, true);
+            this.set(StyleAttributes.EDITABLE, new AttributeCalculator <Boolean>() {
+
+              public Boolean calculate(EditorCell cell) {
+                return ContentList_Editor.calculateBoolean8357_2(cell);
+              }
+
+            });
           }
 
         };
@@ -644,7 +710,13 @@ public class ContentList_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.EDITABLE, true);
+            this.set(StyleAttributes.EDITABLE, new AttributeCalculator <Boolean>() {
+
+              public Boolean calculate(EditorCell cell) {
+                return ContentList_Editor.calculateBoolean8357_4(cell);
+              }
+
+            });
           }
 
         };

@@ -21,7 +21,7 @@ public class Content_Behavior {
         return true;
       }
     }
-    return parent.isRoot() || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xml.internal.structure.ContentStatement");
+    return parent.isRoot() || SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xmlInternal.structure.ContentStatement");
   }
 
   public static String call_isSeparate_string_1213877224300(SNode thisNode) {

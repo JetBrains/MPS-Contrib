@@ -15,12 +15,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.util.Calculable;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.xml.schema.behavior.ElementDeclaration_Behavior;
+import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.xml.schema.behavior.TypeExpression_Behavior;
+import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
@@ -71,7 +71,7 @@ public class QueriesGenerated {
             result.add(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-                SNode attribute = SModelOperations.createNewNode(model, "jetbrains.mps.xml.structure.Attribute", _context.getCurrentTargetNode());
+                SNode attribute = SModelOperations.createNewNode(_context.getModel(), "jetbrains.mps.xml.structure.Attribute", _context.getCurrentTargetNode());
                 SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
                 SLinkOperations.setNewChild(attribute, "value", "jetbrains.mps.xml.structure.Text");
                 return attribute;
@@ -141,7 +141,7 @@ public class QueriesGenerated {
                 {
                   prototype = _context.getCurrentTargetNode();
                 }
-                SNode element = SModelOperations.createNewNode(model, "jetbrains.mps.xml.structure.Element", prototype);
+                SNode element = SModelOperations.createNewNode(_context.getModel(), "jetbrains.mps.xml.structure.Element", prototype);
                 SLinkOperations.setTarget(element, "elementDeclaration", (item), false);
                 SPropertyOperations.set(element, "isEmpty", "" + (ElementDeclaration_Behavior.call_isEmpty_1213877429867((item))));
                 return element;

@@ -13,7 +13,7 @@ import java.util.Set;
 import java.util.HashSet;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.xml.schema.behavior.ElementDeclaration_Behavior;
+import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 
@@ -59,7 +59,7 @@ public class ElementUtil {
       }
     } else
     {
-      schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "jetbrains.mps.xml.schema.structure.Schema", false, false);
+      schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "jetbrains.mps.xmlSchema.structure.Schema", false, false);
     }
     return schema;
   }
@@ -72,7 +72,7 @@ public class ElementUtil {
         elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
       } else
       {
-        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "jetbrains.mps.xml.schema.structure.ElementDeclaration");
+        List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
         elementDeclarationSet.addAll(elementDeclarations);
       }
     } else

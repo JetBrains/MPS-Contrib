@@ -15,7 +15,7 @@ import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
-import jetbrains.mps.xml.schema.behavior.ElementDeclaration_Behavior;
+import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 
 public class Element_elementDeclaration extends AbstractCellProvider {
 

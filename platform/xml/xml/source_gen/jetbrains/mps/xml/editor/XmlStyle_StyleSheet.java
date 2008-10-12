@@ -104,7 +104,13 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
-        this.set(StyleAttributes.LAST_POSITION_ALLOWED, false);
+        this.set(StyleAttributes.LAST_POSITION_ALLOWED, new AttributeCalculator <Boolean>() {
+
+          public Boolean calculate(EditorCell cell) {
+            return XmlStyle_StyleSheet.calculateBoolean3718_0(cell);
+          }
+
+        });
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
@@ -146,7 +152,13 @@ public class XmlStyle_StyleSheet {
         });
         this.set(StyleAttributes.PADDING_LEFT, 0.3);
         this.set(StyleAttributes.PADDING_RIGHT, 0.3);
-        this.set(StyleAttributes.SELECTABLE, false);
+        this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
+
+          public Boolean calculate(EditorCell cell) {
+            return XmlStyle_StyleSheet.calculateBoolean3718_1(cell);
+          }
+
+        });
       }
 
     };
@@ -347,6 +359,18 @@ public class XmlStyle_StyleSheet {
   private static Color calculateColor3718_6(EditorCell cell) {
     Color result;
     result = MPSColors.lightGray;
+    return result;
+  }
+
+  public static Boolean calculateBoolean3718_0(EditorCell cell) {
+    boolean result;
+    result = false;
+    return result;
+  }
+
+  public static Boolean calculateBoolean3718_1(EditorCell cell) {
+    boolean result;
+    result = false;
     return result;
   }
 
