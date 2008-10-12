@@ -40,7 +40,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="0" />
-  <maxImportIndex value="27" />
+  <maxImportIndex value="28" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <import index="9" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
@@ -49,7 +49,7 @@
   <import index="19" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="2" />
   <import index="20" modelUID="f:java_stub#jetbrains.mps.ide.progress(jetbrains.mps.ide.progress@java_stub)" version="-1" />
   <import index="24" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.structure(jetbrains.mps.baseLanguage.dates.structure@java_stub)" version="-1" />
-  <import index="27" modelUID="f:java_stub#jetbrains.mps.helgins.inference(jetbrains.mps.helgins.inference@java_stub)" version="-1" />
+  <import index="28" modelUID="f:java_stub#jetbrains.mps.helgins.inference(jetbrains.mps.helgins.inference@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />
     <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="1169657550853">
@@ -730,11 +730,11 @@
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1175768275800">
             <property name="name" value="tc" />
             <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1175768275801">
-              <link role="classifier" targetNodeId="27.~TypeChecker" resolveInfo="TypeChecker" />
+              <link role="classifier" targetNodeId="28.~TypeChecker" resolveInfo="TypeChecker" />
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1175768275802">
-              <link role="baseMethodDeclaration" targetNodeId="27.~TypeChecker.getInstance():jetbrains.mps.helgins.inference.TypeChecker" resolveInfo="getInstance" />
-              <link role="classConcept" targetNodeId="27.~TypeChecker" resolveInfo="TypeChecker" />
+              <link role="baseMethodDeclaration" targetNodeId="28.~TypeChecker.getInstance():jetbrains.mps.helgins.inference.TypeChecker" resolveInfo="getInstance" />
+              <link role="classConcept" targetNodeId="28.~TypeChecker" resolveInfo="TypeChecker" />
             </node>
           </node>
         </node>
@@ -742,14 +742,14 @@
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1175768471527">
             <property name="name" value="sm" />
             <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1175768471528">
-              <link role="classifier" targetNodeId="27.~SubtypingManager" resolveInfo="SubtypingManager" />
+              <link role="classifier" targetNodeId="28.~SubtypingManager" resolveInfo="SubtypingManager" />
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986164702">
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1175768478780">
                 <link role="variableDeclaration" targetNodeId="1175768275800" resolveInfo="tc" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164703">
-                <link role="baseMethodDeclaration" targetNodeId="27.~TypeChecker.getSubtypingManager():jetbrains.mps.helgins.inference.SubtypingManager" resolveInfo="getSubtypingManager" />
+                <link role="baseMethodDeclaration" targetNodeId="28.~TypeChecker.getSubtypingManager():jetbrains.mps.helgins.inference.SubtypingManager" resolveInfo="getSubtypingManager" />
               </node>
             </node>
           </node>
@@ -763,7 +763,7 @@
                 <link role="variableDeclaration" targetNodeId="1175768275800" resolveInfo="tc" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164929">
-                <link role="baseMethodDeclaration" targetNodeId="27.~TypeChecker.getTypeOf(jetbrains.mps.smodel.SNode):jetbrains.mps.smodel.SNode" resolveInfo="getTypeOf" />
+                <link role="baseMethodDeclaration" targetNodeId="28.~TypeChecker.getTypeOf(jetbrains.mps.smodel.SNode):jetbrains.mps.smodel.SNode" resolveInfo="getTypeOf" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1175768293968">
                   <link role="variableDeclaration" targetNodeId="1175768266457" resolveInfo="node" />
                 </node>
@@ -779,7 +779,7 @@
                   <link role="variableDeclaration" targetNodeId="1175768471527" resolveInfo="sm" />
                 </node>
                 <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164654">
-                  <link role="baseMethodDeclaration" targetNodeId="27.~SubtypingManager.isSubtype(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode):boolean" resolveInfo="isSubtype" />
+                  <link role="baseMethodDeclaration" targetNodeId="28.~SubtypingManager.isSubtype(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode):boolean" resolveInfo="isSubtype" />
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1175768567429">
                     <link role="variableDeclaration" targetNodeId="1175768275804" resolveInfo="actualType" />
                   </node>
@@ -793,7 +793,7 @@
                   <link role="variableDeclaration" targetNodeId="1175768471527" resolveInfo="sm" />
                 </node>
                 <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164298">
-                  <link role="baseMethodDeclaration" targetNodeId="27.~SubtypingManager.isSubtype(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode):boolean" resolveInfo="isSubtype" />
+                  <link role="baseMethodDeclaration" targetNodeId="28.~SubtypingManager.isSubtype(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode):boolean" resolveInfo="isSubtype" />
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1175768538716">
                     <link role="variableDeclaration" targetNodeId="1175768275804" resolveInfo="actualType" />
                   </node>
@@ -808,7 +808,7 @@
                 <link role="variableDeclaration" targetNodeId="1175768471527" resolveInfo="sm" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986164605">
-                <link role="baseMethodDeclaration" targetNodeId="27.~SubtypingManager.isSubtype(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode):boolean" resolveInfo="isSubtype" />
+                <link role="baseMethodDeclaration" targetNodeId="28.~SubtypingManager.isSubtype(jetbrains.mps.smodel.SNode,jetbrains.mps.smodel.SNode):boolean" resolveInfo="isSubtype" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1175768508755">
                   <link role="variableDeclaration" targetNodeId="1175768275804" resolveInfo="actualType" />
                 </node>
