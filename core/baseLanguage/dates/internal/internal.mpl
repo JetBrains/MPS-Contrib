@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.baseLanguage.dates.internal" uuid="1991585e-225e-4371-977a-68a7888adae2" compileInMPS="true">
+<language namespace="jetbrains.mps.baseLanguage.datesInternal" uuid="1991585e-225e-4371-977a-68a7888adae2" compileInMPS="true">
   <models>
-    <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.baseLanguage.dates.internal" />
-    <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.dates.internal" />
+    <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.baseLanguage.datesInternal" />
+    <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.baseLanguage.datesInternal" />
   </models>
   <accessoryModels />
   <generators />
