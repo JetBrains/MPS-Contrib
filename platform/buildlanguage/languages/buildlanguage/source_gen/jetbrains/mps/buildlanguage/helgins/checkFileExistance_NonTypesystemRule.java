@@ -5,7 +5,7 @@ package jetbrains.mps.buildlanguage.helgins;
 import jetbrains.mps.bootstrap.helgins.runtime.AbstractNonTypesystemRule_Runtime;
 import jetbrains.mps.bootstrap.helgins.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
-import jetbrains.mps.helgins.inference.TypeCheckingContext;
+import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class checkFileExistance_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
