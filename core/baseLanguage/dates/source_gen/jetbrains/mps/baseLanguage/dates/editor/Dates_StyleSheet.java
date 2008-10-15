@@ -25,7 +25,13 @@ public class Dates_StyleSheet {
   public static Style getDateSmall(final EditorCell cell) {
     return new Style(cell) {
       {
-        this.set(StyleAttributes.SELECTABLE, false);
+        this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
+
+          public Boolean calculate(EditorCell cell) {
+            return Dates_StyleSheet.calculateBoolean3877_0(cell);
+          }
+
+        });
         this.set(StyleAttributes.FONT_SIZE, new AttributeCalculator <Integer>() {
 
           public Integer calculate(EditorCell cell) {
@@ -100,6 +106,12 @@ public class Dates_StyleSheet {
   private static Integer calculateFontSize3877_0(EditorCell cell) {
     int result;
     result = 0;
+    return result;
+  }
+
+  public static Boolean calculateBoolean3877_0(EditorCell cell) {
+    boolean result;
+    result = false;
     return result;
   }
 

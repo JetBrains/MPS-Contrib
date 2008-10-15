@@ -58,7 +58,7 @@ public class DateTypeUtil {
 
   public static List<SNode> findDateTimeProperties(IScope scope, SModel model) {
     IAdaptiveProgressMonitor pm = new NullAdaptiveProgressMonitor();
-    return SModelOperations.getNodesIncludingImported(model, scope, "jetbrains.mps.baseLanguage.dates.internal.structure.DateTimeProperty");
+    return SModelOperations.getNodesIncludingImported(model, scope, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
   }
 
 }

@@ -55,7 +55,7 @@ public class QueriesGenerated {
         result.add(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
+            SNode result = SModelOperations.createNewNode(_context.getModel(), "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
             SPropertyOperations.set(result, "value", "" + (true));
             return result;
           }
@@ -82,7 +82,7 @@ public class QueriesGenerated {
         result.add(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
 
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
+            SNode result = SModelOperations.createNewNode(_context.getModel(), "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
             SPropertyOperations.set(result, "value", "" + (false));
             return result;
           }

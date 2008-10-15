@@ -18,6 +18,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -150,7 +151,13 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
+
+            public Boolean calculate(EditorCell cell) {
+              return DateFormatsTable_Editor.calculateBoolean2692_1(cell);
+            }
+
+          });
         }
 
       };
@@ -178,7 +185,13 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
+
+            public Boolean calculate(EditorCell cell) {
+              return DateFormatsTable_Editor.calculateBoolean2692_0(cell);
+            }
+
+          });
         }
 
       };
@@ -211,6 +224,18 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_property_name_1169550080987(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  public static Boolean calculateBoolean2692_0(EditorCell cell) {
+    boolean result;
+    result = false;
+    return result;
+  }
+
+  public static Boolean calculateBoolean2692_1(EditorCell cell) {
+    boolean result;
+    result = false;
+    return result;
   }
 
   public static class dateFormatListHandler_2692_0 extends RefNodeListHandler {

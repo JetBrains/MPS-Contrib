@@ -13,8 +13,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 public class GTextOptimizer {
 
   public static SNode optimize(SNode item, boolean mayReplace) {
-    if (SNodeOperations.isInstanceOf(item, "webr.gtext.structure.GItemList") || SNodeOperations.isInstanceOf(item, "webr.gtext.structure.GConditionalLine") || SNodeOperations.isInstanceOf(item, "webr.gtext.structure.GLine")) {
-      if (optimizeItems(item) == 1 && mayReplace && SNodeOperations.isInstanceOf(item, "webr.gtext.structure.GItemList")) {
+    if (SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GConditionalLine") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GLine")) {
+      if (optimizeItems(item) == 1 && mayReplace && SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList")) {
         SNode child = item.getChildren("item").get(0);
         SNodeOperations.replaceWithAnother(item, child);
         item = child;
@@ -33,35 +33,35 @@ public class GTextOptimizer {
     SNode n = item;
     for(SNode child : (List<SNode>)n.getChildren("item")) {
       SNode optChild = optimize(child);
-      if (SNodeOperations.isInstanceOf(optChild, "webr.gtext.structure.GItemList")) {
+      if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GItemList")) {
         inlineChildren(optChild, optChild);
         SNodeOperations.deleteNode(optChild);
       } else
-      if (SNodeOperations.isInstanceOf(optChild, "webr.gtext.structure.GConditionalLine")) {
+      if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GConditionalLine")) {
         SNode nextChild = optChild;
         if (SPropertyOperations.getBoolean(optChild, "isSeparate")) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "webr.gtext.structure.GIndent", null));
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
           nextChild = (SNode)SNodeOperations.getNextSibling(nextChild);
         }
         nextChild = inlineChildren(optChild, nextChild);
         if (SPropertyOperations.getBoolean(optChild, "isSeparate")) {
-          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "webr.gtext.structure.GNewLine", null));
+          SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
         }
         SNodeOperations.deleteNode(optChild);
       } else
-      if (SNodeOperations.isInstanceOf(optChild, "webr.gtext.structure.GLine")) {
+      if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GLine")) {
         SNode nextChild = optChild;
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "webr.gtext.structure.GIndent", null));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
         nextChild = (SNode)SNodeOperations.getNextSibling(nextChild);
         nextChild = inlineChildren(optChild, nextChild);
-        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "webr.gtext.structure.GNewLine", null));
+        SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
         SNodeOperations.deleteNode(optChild);
       }
     }
     // concat text
     SNode t = null;
     for(SNode child : (List<SNode>)n.getChildren("item")) {
-      if (SNodeOperations.isInstanceOf(child, "webr.gtext.structure.GText")) {
+      if (SNodeOperations.isInstanceOf(child, "jetbrains.mps.gtext.structure.GText")) {
         if (t == null) {
           t = child;
         } else

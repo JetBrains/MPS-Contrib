@@ -17,7 +17,7 @@ public class GTextUtil {
   }
 
   public static void visit(SNode n) {
-    if (SNodeOperations.isInstanceOf(n, "webr.gtext.structure.GItem")) {
+    if (SNodeOperations.isInstanceOf(n, "jetbrains.mps.gtext.structure.GItem")) {
       GTextOptimizer.optimize(n, false);
     }
     for(SNode c : SNodeOperations.getChildren(n)) {
