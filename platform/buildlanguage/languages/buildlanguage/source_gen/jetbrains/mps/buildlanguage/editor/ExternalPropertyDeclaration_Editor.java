@@ -20,7 +20,6 @@ import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_Generic_Item;
@@ -284,13 +283,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return ExternalPropertyDeclaration_Editor.calculateBoolean2766_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -388,12 +381,6 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
 
   public static boolean renderingCondition2766_1(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "checkOnStart");
-  }
-
-  public static Boolean calculateBoolean2766_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
   public static class ExternalPropertyDeclaration_generic_cellMenu0 extends AbstractCellMenuPart_Generic_Item {
