@@ -23,18 +23,18 @@ public class typeof_AddListenerOperation_InferenceRule extends AbstractInference
     if (SLinkOperations.getCount(methodNode, "parameter") != 1) {
       {
         BaseIntentionProvider intentionProvider = null;
-        typeCheckingContext.reportTypeError(methodNode, "handler must have 1 parameter", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.helgins)", "1208111560705", intentionProvider);
+        typeCheckingContext.reportTypeError(methodNode, "handler must have 1 parameter", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1208111560705", intentionProvider);
       }
     }
     {
       SNode _nodeToCheck_1029348928467 = SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false);
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createLessThanInequationStrong(SLinkOperations.getTarget(SLinkOperations.getTarget(eventNode, "parameter", true), "type", true), typeCheckingContext.typeOf(ListSequence.fromList(SLinkOperations.getTargets(methodNode, "parameter", true)).first(), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.helgins)", "1208111560721", true), _nodeToCheck_1029348928467, "parameter types do not match", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.helgins)", "1208111560719", true, 0, intentionProvider);
+      typeCheckingContext.createLessThanInequationStrong(SLinkOperations.getTarget(SLinkOperations.getTarget(eventNode, "parameter", true), "type", true), typeCheckingContext.typeOf(ListSequence.fromList(SLinkOperations.getTargets(methodNode, "parameter", true)).first(), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1208111560721", true), _nodeToCheck_1029348928467, "parameter types do not match", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1208111560719", true, 0, intentionProvider);
     }
     {
       SNode _nodeToCheck_1029348928467 = SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false);
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation(SLinkOperations.getTarget(methodNode, "returnType", true), new QuotationClass_5().createNode(), _nodeToCheck_1029348928467, "handler return type must be void", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.helgins)", "1208112038267", intentionProvider);
+      typeCheckingContext.createEquation(SLinkOperations.getTarget(methodNode, "returnType", true), new _Quotations.QuotationClass_6().createNode(typeCheckingContext), _nodeToCheck_1029348928467, "handler return type must be void", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1208112038267", intentionProvider);
     }
   }
 

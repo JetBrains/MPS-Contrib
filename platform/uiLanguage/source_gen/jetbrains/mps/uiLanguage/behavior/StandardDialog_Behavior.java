@@ -11,7 +11,7 @@ public class StandardDialog_Behavior {
   }
 
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
-    return SLinkOperations.getTarget(new QuotationClass_1().createNode(), "componentDeclaration", false);
+    return SLinkOperations.getTarget(new _Quotations.QuotationClass_1().createNode(), "componentDeclaration", false);
   }
 
 }

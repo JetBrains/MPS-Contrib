@@ -19,7 +19,7 @@ public class GridRow_Behavior {
     List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)));
     for(int i = 0 ; i < columnCount - ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)).count() ; i = i + 1) {
-      ListSequence.fromList(result).addElement(new QuotationClass_0().createNode());
+      ListSequence.fromList(result).addElement(new _Quotations.QuotationClass_0().createNode());
     }
     return result;
   }

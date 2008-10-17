@@ -13,7 +13,7 @@ public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends Subtypin
   }
 
   public SNode getSubOrSuperType(SNode beanType) {
-    return new QuotationClass_4().createNode();
+    return new _Quotations.QuotationClass_4().createNode();
   }
 
   public String getApplicableConceptFQName() {
