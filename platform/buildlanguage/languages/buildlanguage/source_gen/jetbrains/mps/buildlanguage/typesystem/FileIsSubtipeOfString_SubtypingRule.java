@@ -13,7 +13,7 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
   }
 
   public SNode getSubOrSuperType(SNode fileType) {
-    return new QuotationClass_5().createNode();
+    return new _Quotations.QuotationClass_6().createNode();
   }
 
   public String getApplicableConceptFQName() {

@@ -20,7 +20,7 @@ public class DateFormatReferenceUtil {
 
   public static ISearchScope buildIDateFormatSearchScope(final SNode node, IScope scope) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
-    SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.internal.structure.IDateFormat");
+    SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");
     List<SNode> formats = s.getNodes(new IsInstanceCondition(((AbstractConceptDeclaration)SNodeOperations.getAdapter(cd))));
     formats = ListSequence.fromList(formats).where(new IWhereFilter <SNode>() {
 

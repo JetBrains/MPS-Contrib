@@ -20,12 +20,12 @@ public class typeof_UnaryDateTimeOperation_InferenceRule extends AbstractInferen
     {
       SNode _nodeToCheck_1029348928467 = unaryDateTimeOperation;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createLessThanInequation(typeCheckingContext.typeOf(SLinkOperations.getTarget(unaryDateTimeOperation, "datetime", true), "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.helgins)", "1186142450296", true), new QuotationClass_1().createNode(), _nodeToCheck_1029348928467, "datetime was expected", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.helgins)", "1186142458707", false, 0, intentionProvider);
+      typeCheckingContext.createLessThanInequation(typeCheckingContext.typeOf(SLinkOperations.getTarget(unaryDateTimeOperation, "datetime", true), "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186142450296", true), new _Quotations.QuotationClass_1().createNode(typeCheckingContext), _nodeToCheck_1029348928467, "datetime was expected", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186142458707", false, 0, intentionProvider);
     }
     {
       SNode _nodeToCheck_1029348928467 = unaryDateTimeOperation;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation(typeCheckingContext.typeOf(unaryDateTimeOperation, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.helgins)", "1204416488231", true), ListSequence.fromList(SLinkOperations.getConceptLinkTargets(unaryDateTimeOperation, "operationType")).first(), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.helgins)", "1204416488229", intentionProvider);
+      typeCheckingContext.createEquation(typeCheckingContext.typeOf(unaryDateTimeOperation, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1204416488231", true), ListSequence.fromList(SLinkOperations.getConceptLinkTargets(unaryDateTimeOperation, "operationType")).first(), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1204416488229", intentionProvider);
     }
   }
 

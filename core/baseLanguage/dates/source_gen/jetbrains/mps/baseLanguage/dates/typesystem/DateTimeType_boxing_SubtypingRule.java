@@ -8,13 +8,13 @@ import jetbrains.mps.smodel.SNode;
 
 public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
 
-  /* package */Pattern_0 myMatchingPattern;
+  /* package */_Patterns.Pattern_0 myMatchingPattern;
 
   public DateTimeType_boxing_SubtypingRule() {
   }
 
   public SNode getSubOrSuperType(SNode longClassifier) {
-    return new QuotationClass_13().createNode();
+    return new _Quotations.QuotationClass_22().createNode();
   }
 
   public String getApplicableConceptFQName() {
@@ -22,7 +22,7 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   }
 
   public boolean isApplicable(SNode argument) {
-    this.myMatchingPattern = new Pattern_0();
+    this.myMatchingPattern = new _Patterns.Pattern_0();
     return this.myMatchingPattern.match(argument);
   }
 
