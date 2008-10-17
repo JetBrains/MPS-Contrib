@@ -471,7 +471,6 @@
                   </node>
                 </node>
               </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.Statement" id="1224251804471" />
             </node>
           </node>
         </node>
