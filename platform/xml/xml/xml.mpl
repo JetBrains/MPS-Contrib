@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.xml" uuid="2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9" compileInMPS="true">
+<language namespace="jetbrains.mps.xml" uuid="2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9" java-stubs-enabled="false" compileInMPS="true">
   <models>
     <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.xml" />
     <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.xml" />
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="webr.xml#1163716442262" uuid="94951427-301e-4a1c-a1cd-d2c6bc9f3cfa">
+    <generator generatorUID="jetbrains.mps.xml#1163716442262" uuid="94951427-301e-4a1c-a1cd-d2c6bc9f3cfa">
       <models>
         <modelRoot path="${language_descriptor}\generators\baseLanguage\templates" namespacePrefix="jetbrains.mps.xml.generator.baseLanguage.template" />
       </models>
       <external-templates>
-        <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(webr.gtext#1164413905312)" />
+        <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(jetbrains.mps.gtext#1164413905312)" />
       </external-templates>
       <dependencies>
         <dependency reexport="false">a83c3bd0-2f7e-4ba1-8373-12d49e99f57e(jetbrains.mps.gtext)</dependency>
@@ -33,7 +33,7 @@
             <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590589(jetbrains.mps.xml.generator.baseLanguage.template.main@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(webr.gtext#1164413905312)" />
+            <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(jetbrains.mps.gtext#1164413905312)" />
             <external-mapping>
               <mapping-node modelUID="r:00000000-0000-4000-0000-011c89590576(jetbrains.mps.gtext.generator.baseLanguage.template.main@generator)" nodeID="*" />
             </external-mapping>

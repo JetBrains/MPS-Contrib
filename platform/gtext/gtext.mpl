@@ -6,7 +6,7 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="webr.gtext#1164413905312" uuid="bfcadeff-430f-4472-9641-06156a02be37">
+    <generator generatorUID="jetbrains.mps.gtext#1164413905312" uuid="bfcadeff-430f-4472-9641-06156a02be37">
       <models>
         <modelRoot path="${language_descriptor}\generators\baseLanguage\templates" namespacePrefix="jetbrains.mps.gtext.generator.baseLanguage.template" />
       </models>
