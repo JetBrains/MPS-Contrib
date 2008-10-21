@@ -84,29 +84,6 @@ public class QueriesGenerated {
     return _context.createUniqueName("ConditionalDateTimePrinter", null);
   }
 
-  public static Object propertyMacro_GetPropertyValue_1172157912512(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    String result = null;
-    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime equals", "datetime equals")) {
-      result = "EQ";
-    }
-    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime not equals", "datetime equals")) {
-      result = "NE";
-    }
-    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime greater", "datetime equals")) {
-      result = "GT";
-    }
-    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime less", "datetime equals")) {
-      result = "LT";
-    }
-    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime greater or equals", "datetime equals")) {
-      result = "GE";
-    }
-    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime less or equals", "datetime equals")) {
-      result = "LE";
-    }
-    return result;
-  }
-
   public static Object propertyMacro_GetPropertyValue_1173784640381(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
@@ -135,6 +112,29 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1204413891722(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1224583026308(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    String result = null;
+    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime equals", "datetime equals")) {
+      result = "EQ";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime not equals", "datetime equals")) {
+      result = "NE";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime greater", "datetime equals")) {
+      result = "GT";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime less", "datetime equals")) {
+      result = "LT";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime greater or equals", "datetime equals")) {
+      result = "GE";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime less or equals", "datetime equals")) {
+      result = "LE";
+    }
+    return result;
   }
 
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
