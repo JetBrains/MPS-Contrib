@@ -14,7 +14,8 @@
         <modelRoot path="${language_descriptor}\generator\xml\template" namespacePrefix="jetbrains.mps.buildlanguage.generator.xml.template" />
       </models>
       <external-templates>
-        <generator generatorUID="94951427-301e-4a1c-a1cd-d2c6bc9f3cfa(jetbrains.mps.xml#1163716442262)" />
+        <generator generatorUID="5dbba245-9e3e-4c09-8359-021a77a5d610(jetbrains.mps.build.property#1224602648191)" />
+        <generator generatorUID="648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml#1129923280838)" />
       </external-templates>
       <dependencies>
         <dependency reexport="true">823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml.deprecated)</dependency>
@@ -28,7 +29,18 @@
             <mapping-node modelUID="r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="94951427-301e-4a1c-a1cd-d2c6bc9f3cfa(jetbrains.mps.xml#1163716442262)" />
+            <generator generatorUID="jetbrains.mps.xml#1129923280838" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <mapping-node modelUID="r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="jetbrains.mps.build.property#1224602648191" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>
@@ -62,6 +74,7 @@
   </usedLanguages>
   <extendedLanguages>
     <extendedLanguage>ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</extendedLanguage>
+    <extendedLanguage>823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml.deprecated)</extendedLanguage>
     <extendedLanguage>2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</extendedLanguage>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
     <extendedLanguage>dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc(jetbrains.mps.build.property)</extendedLanguage>
