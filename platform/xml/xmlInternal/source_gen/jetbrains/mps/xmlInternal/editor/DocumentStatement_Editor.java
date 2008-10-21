@@ -17,7 +17,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 
 public class DocumentStatement_Editor extends DefaultNodeEditor {
 
@@ -104,13 +103,7 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return DocumentStatement_Editor.calculateBoolean5624_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -129,12 +122,6 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_refNode_document_1174856279825(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  public static Boolean calculateBoolean5624_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
 }

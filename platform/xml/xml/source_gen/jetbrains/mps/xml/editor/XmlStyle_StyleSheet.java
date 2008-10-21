@@ -7,11 +7,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
+import jetbrains.mps.nodeEditor.MPSFonts;
+import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.MPSColors;
 
 public class XmlStyle_StyleSheet {
 
@@ -21,17 +21,17 @@ public class XmlStyle_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateColor3718_1(cell);
+            return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216813809296((cell == null ?
+              null :
+              cell.getSNode()
+            ), (cell == null ?
+              null :
+              cell.getEditorContext()
+            ));
           }
 
         });
-        this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateFontStyle3718_1(cell);
-          }
-
-        });
+        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
       }
 
@@ -41,18 +41,18 @@ public class XmlStyle_StyleSheet {
   public static Style getXmlAttribute(final EditorCell cell) {
     return new Style(cell) {
       {
-        this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateFontStyle3718_0(cell);
-          }
-
-        });
+        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateColor3718_0(cell);
+            return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216811988465((cell == null ?
+              null :
+              cell.getSNode()
+            ), (cell == null ?
+              null :
+              cell.getEditorContext()
+            ));
           }
 
         });
@@ -67,7 +67,13 @@ public class XmlStyle_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateColor3718_2(cell);
+            return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216813895290((cell == null ?
+              null :
+              cell.getSNode()
+            ), (cell == null ?
+              null :
+              cell.getEditorContext()
+            ));
           }
 
         });
@@ -80,20 +86,8 @@ public class XmlStyle_StyleSheet {
   public static Style getXmlText(final EditorCell cell) {
     return new Style(cell) {
       {
-        this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateFontStyle3718_2(cell);
-          }
-
-        });
-        this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-          public Color calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateColor3718_3(cell);
-          }
-
-        });
+        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
       }
 
@@ -104,17 +98,17 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
-        this.set(StyleAttributes.LAST_POSITION_ALLOWED, new AttributeCalculator <Boolean>() {
-
-          public Boolean calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateBoolean3718_0(cell);
-          }
-
-        });
+        this.set(StyleAttributes.LAST_POSITION_ALLOWED, false);
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateColor3718_4(cell);
+            return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216817284631((cell == null ?
+              null :
+              cell.getSNode()
+            ), (cell == null ?
+              null :
+              cell.getEditorContext()
+            ));
           }
 
         });
@@ -127,13 +121,7 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getEmptyCell(null));
-        this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateFontStyle3718_3(cell);
-          }
-
-        });
+        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
       }
 
@@ -143,22 +131,10 @@ public class XmlStyle_StyleSheet {
   public static Style getXmlOperator(final EditorCell cell) {
     return new Style(cell) {
       {
-        this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateFontStyle3718_4(cell);
-          }
-
-        });
+        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
         this.set(StyleAttributes.PADDING_LEFT, 0.3);
         this.set(StyleAttributes.PADDING_RIGHT, 0.3);
-        this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-          public Boolean calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateBoolean3718_1(cell);
-          }
-
-        });
+        this.set(StyleAttributes.SELECTABLE, false);
       }
 
     };
@@ -204,13 +180,7 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.putAll(XmlStyle_StyleSheet.getXmlOpenParen(null));
-        this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-          public Color calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateColor3718_5(cell);
-          }
-
-        });
+        this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
 
     };
@@ -220,13 +190,7 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.putAll(XmlStyle_StyleSheet.getXmlCloseParen(null));
-        this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-          public Color calculate(EditorCell cell) {
-            return XmlStyle_StyleSheet.calculateColor3718_6(cell);
-          }
-
-        });
+        this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
 
     };
@@ -264,114 +228,6 @@ public class XmlStyle_StyleSheet {
 
   public static Color _StyleParameter_QueryFunction_1216817284631(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
-  }
-
-  private static Integer calculateFontStyle3718_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.PLAIN;
-    return result;
-  }
-
-  private static Integer calculateFontStyle3718_1(EditorCell cell) {
-    int result;
-    result = MPSFonts.BOLD;
-    return result;
-  }
-
-  private static Integer calculateFontStyle3718_2(EditorCell cell) {
-    int result;
-    result = MPSFonts.BOLD;
-    return result;
-  }
-
-  private static Integer calculateFontStyle3718_3(EditorCell cell) {
-    int result;
-    result = MPSFonts.PLAIN;
-    return result;
-  }
-
-  private static Integer calculateFontStyle3718_4(EditorCell cell) {
-    int result;
-    result = MPSFonts.PLAIN;
-    return result;
-  }
-
-  private static Color calculateColor3718_0(EditorCell cell) {
-    Color result;
-    result = XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216811988465((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
-  }
-
-  private static Color calculateColor3718_1(EditorCell cell) {
-    Color result;
-    result = XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216813809296((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
-  }
-
-  private static Color calculateColor3718_2(EditorCell cell) {
-    Color result;
-    result = XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216813895290((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
-  }
-
-  private static Color calculateColor3718_3(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_GREEN;
-    return result;
-  }
-
-  private static Color calculateColor3718_4(EditorCell cell) {
-    Color result;
-    result = XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216817284631((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
-  }
-
-  private static Color calculateColor3718_5(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor3718_6(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3718_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3718_1(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
 }

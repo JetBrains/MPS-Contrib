@@ -103,7 +103,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1211917963709(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.getParent(_context.getNode(), null, false, false), "separator", true);
+    return SLinkOperations.getTarget(SNodeOperations.getParent(_context.getNode()), "separator", true);
   }
 
   public static Iterable sourceNodesQuery_1168408175149(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

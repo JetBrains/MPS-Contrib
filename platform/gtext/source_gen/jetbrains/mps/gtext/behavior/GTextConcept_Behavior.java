@@ -11,7 +11,7 @@ public class GTextConcept_Behavior {
   }
 
   public static boolean call_shouldBeReduced_1213877310935(SNode thisNode) {
-    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(thisNode), "webr.gtext.structure.GDocument"));
+    return !(SNodeOperations.isInstanceOf(SNodeOperations.getContainingRoot(thisNode), "jetbrains.mps.gtext.structure.GDocument"));
   }
 
 }

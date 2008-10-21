@@ -16,11 +16,11 @@ public class GItem_Behavior {
   }
 
   public static boolean call_isComplex_1213877298853(SNode thisNode) {
-    return (Boolean)BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853);
+    return (Boolean)BehaviorManager.getInstance().invoke(Boolean.class, thisNode, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853);
   }
 
   public static boolean callSuper_isComplex_1213877298853(SNode thisNode, String callerConceptFqName) {
-    return (Boolean)BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853);
+    return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, thisNode, callerConceptFqName, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853);
   }
 
 }
