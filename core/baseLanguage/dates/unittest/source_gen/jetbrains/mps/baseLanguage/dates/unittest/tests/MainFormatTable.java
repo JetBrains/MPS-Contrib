@@ -6,19 +6,20 @@ import jetbrains.mps.baseLanguage.dates.runtime.table.BaseFormatTable;
 import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.DateTimeFormatterBuilder;
 import jetbrains.mps.baseLanguage.dates.runtime.FixedLocaleDateTimeFormatter;
-import jetbrains.mps.baseLanguage.dates.runtime.table.FormatTableManager;
-import jetbrains.springframework.configuration.runtime.ServiceLocator;
 import java.util.Locale;
 import jetbrains.mps.baseLanguage.dates.runtime.OffsetDateTimePrinter;
 import org.joda.time.DurationFieldType;
 
 public class MainFormatTable extends BaseFormatTable {
 
+  public MainFormatTable() {
+  }
+
   public DateTimeFormatter createFormatter(String formatterName) {
     if ("usDayOfWeek".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
       {
-        FixedLocaleDateTimeFormatter formatter = new FixedLocaleDateTimeFormatter(((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("fullDayOfWeek"), Locale.US);
+        FixedLocaleDateTimeFormatter formatter = new FixedLocaleDateTimeFormatter(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("fullDayOfWeek"), Locale.US);
         builder.append(formatter, formatter);
       }
       return builder.toFormatter();
@@ -30,9 +31,9 @@ public class MainFormatTable extends BaseFormatTable {
     }
     if ("date/time".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-      builder.append(((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("date"));
+      builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"));
       builder.appendLiteral(" ");
-      builder.append(((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("time"));
+      builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"));
       return builder.toFormatter();
     }
     if ("date".equals(formatterName)) {

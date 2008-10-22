@@ -19,6 +19,7 @@
       </dependencies>
       <usedLanguages>
         <usedLanguages>e4957dbb-a743-4c21-b4db-31d0ecdff5f7(jetbrains.springframework.configuration)</usedLanguages>
+        <usedLanguages>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguages>
       </usedLanguages>
       <mapping-priorities />
     </generator>

@@ -29,7 +29,7 @@
             <mapping-node modelUID="r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="jetbrains.mps.xml#1129923280838" />
+            <generator generatorUID="648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml#1129923280838)" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>
@@ -40,7 +40,7 @@
             <mapping-node modelUID="r:00000000-0000-4000-0000-011c895904c9(jetbrains.mps.buildlanguage.generator.xml.template.main@generator)" nodeID="*" />
           </greater-priority-mapping>
           <lesser-priority-mapping>
-            <generator generatorUID="jetbrains.mps.build.property#1224602648191" />
+            <generator generatorUID="5dbba245-9e3e-4c09-8359-021a77a5d610(jetbrains.mps.build.property#1224602648191)" />
             <external-mapping>
               <all-local-mappings />
             </external-mapping>

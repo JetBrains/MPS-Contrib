@@ -6,6 +6,7 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
@@ -30,7 +31,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
-  <maxImportIndex value="7" />
+  <maxImportIndex value="8" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" version="-1" />
@@ -38,6 +39,7 @@
   <import index="5" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="2" />
   <import index="6" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <import index="7" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
+  <import index="8" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptBehavior" id="1213877259059">
     <link role="concept" targetNodeId="1.1173959836330" resolveInfo="DateTimePropertyFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.constraints.structure.ConceptConstructorDeclaration" id="1213877259060">
@@ -1677,6 +1679,34 @@
     </node>
     <node role="constructor" type="jetbrains.mps.lang.constraints.structure.ConceptConstructorDeclaration" id="1213877526483">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877526484" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptBehavior" id="1224665495957">
+    <property name="package" value="format" />
+    <link role="concept" targetNodeId="1.1169481390637" resolveInfo="DateFormatsTable" />
+    <node role="constructor" type="jetbrains.mps.lang.constraints.structure.ConceptConstructorDeclaration" id="1224665495958">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224665495959" />
+    </node>
+    <node role="method" type="jetbrains.mps.lang.constraints.structure.ConceptMethodDeclaration" id="1224665497476">
+      <property name="name" value="getGeneratedConstantName" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1224665497477" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1224665499995">
+        <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224665497479">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1224665504012">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1224665782074">
+            <link role="baseMethodDeclaration" targetNodeId="8.~NameUtil.toConstantName(java.lang.String):java.lang.String" resolveInfo="toConstantName" />
+            <link role="classConcept" targetNodeId="8.~NameUtil" resolveInfo="NameUtil" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224665786630">
+              <node role="operand" type="jetbrains.mps.lang.constraints.structure.ThisNodeExpression" id="1224665786348" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1224665787118">
+                <link role="property" targetNodeId="7.1169194664001" resolveInfo="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

@@ -6,8 +6,6 @@ import org.junit.Test;
 import org.joda.time.DateTime;
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
-import jetbrains.mps.baseLanguage.dates.runtime.table.FormatTableManager;
-import jetbrains.springframework.configuration.runtime.ServiceLocator;
 import org.joda.time.Period;
 import org.joda.time.DateTimeFieldType;
 import org.joda.time.format.DateTimeFormat;
@@ -18,37 +16,37 @@ public class Format_Test extends BaseTest {
   public void test_format1() throws Exception {
     DateTime dt = new DateTime();
     Long n = System.currentTimeMillis();
-    Assert.assertEquals(dt.toString("HH:mm:ss"), DateTimeOperations.print(n, ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("time")));
+    Assert.assertEquals(dt.toString("HH:mm:ss"), DateTimeOperations.print(n, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time")));
   }
 
   @Test()
   public void test_format2() throws Exception {
     Long today = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).toLocalDate().toDateTimeAtMidnight());
-    Assert.assertEquals(new DateTime().toString("yyyy-MM-dd"), DateTimeOperations.print(System.currentTimeMillis(), ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("date")));
+    Assert.assertEquals(new DateTime().toString("yyyy-MM-dd"), DateTimeOperations.print(System.currentTimeMillis(), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date")));
   }
 
   @Test()
   public void test_format3() throws Exception {
-    Assert.assertEquals(19, DateTimeOperations.print(System.currentTimeMillis(), ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("date/time")).length());
+    Assert.assertEquals(19, DateTimeOperations.print(System.currentTimeMillis(), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time")).length());
   }
 
   @Test()
   public void test_format4() throws Exception {
     Long yesterday = DateTimeOperations.minus(System.currentTimeMillis(), Period.days(1));
-    Assert.assertEquals(19, DateTimeOperations.print(yesterday, ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("optionalDate")).length());
-    Assert.assertEquals(8, DateTimeOperations.print(System.currentTimeMillis(), ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("optionalDate")).length());
+    Assert.assertEquals(19, DateTimeOperations.print(yesterday, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("optionalDate")).length());
+    Assert.assertEquals(8, DateTimeOperations.print(System.currentTimeMillis(), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("optionalDate")).length());
   }
 
   @Test()
   public void test_format5() throws Exception {
-    Assert.assertEquals("-", DateTimeOperations.print(null, ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("optionalDate")));
+    Assert.assertEquals("-", DateTimeOperations.print(null, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("optionalDate")));
   }
 
   @Test()
   public void test_format6() throws Exception {
     Long monday = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear());
     String expected = "Monday";
-    Assert.assertEquals(expected, DateTimeOperations.print(monday, ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("usDayOfWeek")));
+    Assert.assertEquals(expected, DateTimeOperations.print(monday, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("usDayOfWeek")));
   }
 
   @Test()
@@ -59,19 +57,19 @@ public class Format_Test extends BaseTest {
   @Test()
   public void test_minutesAgo() throws Exception {
     Long dt = DateTimeOperations.minus(System.currentTimeMillis(), Period.minutes(27));
-    Assert.assertEquals("27 minutes ago", DateTimeOperations.print(dt, ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("offset")));
+    Assert.assertEquals("27 minutes ago", DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset")));
   }
 
   @Test()
   public void test_minutesAfter() throws Exception {
     Long dt = DateTimeOperations.plus(System.currentTimeMillis(), Period.minutes(27));
-    Assert.assertEquals("in 27 minutes", DateTimeOperations.print(dt, ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("offset")));
+    Assert.assertEquals("in 27 minutes", DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset")));
   }
 
   @Test()
   public void test_hoursMinutesAgo() throws Exception {
     Long dt = DateTimeOperations.minus(DateTimeOperations.minus(System.currentTimeMillis(), Period.hours(2)), Period.minutes(27));
-    Assert.assertEquals("2 hours and 27 minutes ago", DateTimeOperations.print(dt, ((FormatTableManager)ServiceLocator.getBean("formatTableManager")).getFormatTable("jetbrains.mps.baseLanguage.dates.unittest.tests.MainFormatTable").getFormatter("offset")));
+    Assert.assertEquals("2 hours and 27 minutes ago", DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset")));
   }
 
 }
