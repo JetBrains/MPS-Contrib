@@ -14,8 +14,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
 
@@ -74,21 +72,9 @@ public class LiteralFormatToken_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-            public Integer calculate(EditorCell cell) {
-              return LiteralFormatToken_Editor.calculateFontStyle6535_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
           this.set(StyleAttributes.PADDING_RIGHT, 0.0);
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return LiteralFormatToken_Editor.calculateColor6535_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         }
 
       };
@@ -97,18 +83,6 @@ public class LiteralFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_property_value_1169495511307(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Integer calculateFontStyle6535_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.BOLD;
-    return result;
-  }
-
-  private static Color calculateColor6535_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_GREEN;
-    return result;
   }
 
 }

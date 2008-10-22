@@ -24,7 +24,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
@@ -284,13 +283,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return DateTimeCompareOperation_Editor.calculateBoolean9167_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -312,13 +305,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.EDITABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return DateTimeCompareOperation_Editor.calculateBoolean9167_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.EDITABLE, false);
         }
 
       };
@@ -357,18 +344,6 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
 
   public static boolean renderingCondition9167_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "datetimeProperty", false) != null);
-  }
-
-  public static Boolean calculateBoolean9167_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean9167_1(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
   public static class _Inline9167_0 extends AbstractCellProvider {

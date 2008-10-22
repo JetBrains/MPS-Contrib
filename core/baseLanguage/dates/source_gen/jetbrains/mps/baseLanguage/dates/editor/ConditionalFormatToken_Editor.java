@@ -13,7 +13,6 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -117,13 +116,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return ConditionalFormatToken_Editor.calculateBoolean1104_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -146,13 +139,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return ConditionalFormatToken_Editor.calculateBoolean1104_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -183,18 +170,6 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_1169563728374_1169563728374(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  public static Boolean calculateBoolean1104_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean1104_1(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
   public static class conditionPairListHandler_1104_0 extends RefNodeListHandler {

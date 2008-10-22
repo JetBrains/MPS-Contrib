@@ -6,10 +6,8 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
-import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
+import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class Dates_StyleSheet {
 
@@ -25,28 +23,10 @@ public class Dates_StyleSheet {
   public static Style getDateSmall(final EditorCell cell) {
     return new Style(cell) {
       {
-        this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-          public Boolean calculate(EditorCell cell) {
-            return Dates_StyleSheet.calculateBoolean3877_0(cell);
-          }
-
-        });
-        this.set(StyleAttributes.FONT_SIZE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return Dates_StyleSheet.calculateFontSize3877_0(cell);
-          }
-
-        });
+        this.set(StyleAttributes.SELECTABLE, false);
+        this.set(StyleAttributes.FONT_SIZE, 0);
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
-        this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-          public Color calculate(EditorCell cell) {
-            return Dates_StyleSheet.calculateColor3877_0(cell);
-          }
-
-        });
+        this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
 
     };
@@ -55,20 +35,8 @@ public class Dates_StyleSheet {
   public static Style getDateFormat(final EditorCell cell) {
     return new Style(cell) {
       {
-        this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return Dates_StyleSheet.calculateFontStyle3877_0(cell);
-          }
-
-        });
-        this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-          public Color calculate(EditorCell cell) {
-            return Dates_StyleSheet.calculateColor3877_1(cell);
-          }
-
-        });
+        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
       }
 
@@ -83,36 +51,6 @@ public class Dates_StyleSheet {
       }
 
     };
-  }
-
-  private static Integer calculateFontStyle3877_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.PLAIN;
-    return result;
-  }
-
-  private static Color calculateColor3877_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor3877_1(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
-  }
-
-  private static Integer calculateFontSize3877_0(EditorCell cell) {
-    int result;
-    result = 0;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3877_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
 }
