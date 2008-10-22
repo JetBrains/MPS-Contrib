@@ -861,14 +861,5 @@
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.era():org.joda.time.DateTimeFieldType" resolveInfo="era" />
     </node>
   </node>
-  <node type="jetbrains.springframework.configurationInternal.structure.ConfigurationInterface" id="1173784420120">
-    <property name="name" value="datetimeConfigurationInterface" />
-    <node role="beanDeclaration" type="jetbrains.springframework.configurationInternal.structure.BeanDeclaration" id="1173784443355">
-      <property name="name" value="formatTableManager" />
-      <node role="classifierType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1223457993142">
-        <link role="classifier" targetNodeId="6.~FormatTableManager" resolveInfo="FormatTableManager" />
-      </node>
-    </node>
-  </node>
 </model>
 
