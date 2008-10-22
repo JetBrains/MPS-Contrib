@@ -10,6 +10,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DatesQueriesUtil {
+  public static final String FORMAL_TABLES_CONTAINER = "_FormatTables";
 
   public static String getFQName(SNode table) {
     return NameUtil.nodeFQName(table);

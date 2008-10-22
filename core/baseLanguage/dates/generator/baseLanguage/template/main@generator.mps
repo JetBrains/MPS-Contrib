@@ -2536,8 +2536,14 @@
               </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1224666264498">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1224666302739">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1224666303023">
-                    <property name="value" value="._FormatTables" />
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1224671271063">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1224671273910">
+                      <link role="classifier" targetNodeId="9.1169555993608" resolveInfo="DatesQueriesUtil" />
+                      <link role="variableDeclaration" targetNodeId="9.1224671086657" resolveInfo="FORMAL_TABLES_CONTAINER" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1224666303023">
+                      <property name="value" value="." />
+                    </node>
                   </node>
                   <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224666276116">
                     <node role="operand" type="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" id="1224666275458">
@@ -3603,6 +3609,18 @@
                   <link role="conceptMethodDeclaration" targetNodeId="34.1224665497476" resolveInfo="getGeneratedConstantName" />
                 </node>
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1224671216079">
+      <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1224671216080">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224671216081">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1224671219659">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1224671245698">
+              <link role="classifier" targetNodeId="9.1169555993608" resolveInfo="DatesQueriesUtil" />
+              <link role="variableDeclaration" targetNodeId="9.1224671086657" resolveInfo="FORMAL_TABLES_CONTAINER" />
             </node>
           </node>
         </node>

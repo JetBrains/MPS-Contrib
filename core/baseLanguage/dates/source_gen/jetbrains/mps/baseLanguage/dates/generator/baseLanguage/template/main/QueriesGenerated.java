@@ -14,9 +14,9 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_Behavior;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
-import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
@@ -140,7 +140,11 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1224666133131(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false);
-    return SNodeOperations.getModel(table).getLongName() + "._FormatTables";
+    return SNodeOperations.getModel(table).getLongName() + "." + DatesQueriesUtil.FORMAL_TABLES_CONTAINER;
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1224671216080(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return DatesQueriesUtil.FORMAL_TABLES_CONTAINER;
   }
 
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {

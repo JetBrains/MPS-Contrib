@@ -269,6 +269,17 @@
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546172071" />
     </node>
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178550127351" />
+    <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1224671086657">
+      <property name="name" value="FORMAL_TABLES_CONTAINER" />
+      <property name="isFinal" value="true" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1224671121115" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1224671099233">
+        <link role="classifier" targetNodeId="10.~String" resolveInfo="String" />
+      </node>
+      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1224671105377">
+        <property name="value" value="_FormatTables" />
+      </node>
+    </node>
   </node>
 </model>
 
