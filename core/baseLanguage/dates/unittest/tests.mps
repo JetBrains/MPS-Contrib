@@ -1280,7 +1280,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1173787596138">
-    <property name="name" value="BaseTest" />
+    <property name="name" value="BaseTestCase" />
     <property name="abstractClass" value="true" />
     <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173787603061">
       <link role="classifier" targetNodeId="7.~TestCase" resolveInfo="TestCase" />

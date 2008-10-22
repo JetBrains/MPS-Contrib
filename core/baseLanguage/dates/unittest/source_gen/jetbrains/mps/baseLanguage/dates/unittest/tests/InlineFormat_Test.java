@@ -11,7 +11,7 @@ import org.joda.time.format.DateTimeFormatterBuilder;
 import java.util.Locale;
 import junit.framework.Assert;
 
-public class InlineFormat_Test extends BaseTest {
+public class InlineFormat_Test extends BaseTestCase {
 
   @Test()
   public void test_inlineFormat() throws Exception {

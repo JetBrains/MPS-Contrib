@@ -10,7 +10,7 @@ import org.joda.time.Period;
 import org.joda.time.DateTimeFieldType;
 import org.joda.time.format.DateTimeFormat;
 
-public class Format_Test extends BaseTest {
+public class Format_Test extends BaseTestCase {
 
   @Test()
   public void test_format1() throws Exception {
