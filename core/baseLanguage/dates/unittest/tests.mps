@@ -5,7 +5,6 @@
   <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)" />
-  <language namespace="e4957dbb-a743-4c21-b4db-31d0ecdff5f7(jetbrains.springframework.configuration)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
@@ -1283,16 +1282,6 @@
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1173787596138">
     <property name="name" value="BaseTest" />
     <property name="abstractClass" value="true" />
-    <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="1173787612320">
-      <property name="name" value="setUp" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1173787612321" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1173787612322">
-        <node role="statement" type="jetbrains.springframework.configuration.structure.InitConfigurationStatement" id="1173787612323">
-          <node role="configurationSource" type="jetbrains.springframework.configuration.structure.GeneratedSoultionReference" id="1204416043519" />
-        </node>
-      </node>
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1180740275695" />
-    </node>
     <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173787603061">
       <link role="classifier" targetNodeId="7.~TestCase" resolveInfo="TestCase" />
     </node>
