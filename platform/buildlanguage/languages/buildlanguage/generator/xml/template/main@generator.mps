@@ -67,6 +67,26 @@
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="1197042149924">
         <link role="template" targetNodeId="1197041438064" resolveInfo="reduction_PropertyDeclaration" />
       </node>
+      <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" id="1224769157301">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224769157302">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1224769188670">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224769209538">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224769188961">
+                <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1224769188671" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="1224769200831">
+                  <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="1224769200832">
+                    <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1224769205469">
+                      <link role="conceptDeclaration" targetNodeId="1.1196851066733" resolveInfo="Project" />
+                    </node>
+                  </node>
+                  <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Root" id="1224769207454" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="1224769214599" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="1197113092616">
       <property name="applyToConceptInheritors" value="true" />
@@ -80,6 +100,26 @@
       <link role="applicableConcept" targetNodeId="1.1196851952934" resolveInfo="PropertyValueExpression" />
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="1197725456087">
         <link role="template" targetNodeId="1197725356482" resolveInfo="reduce_PropertyValueExpression" />
+      </node>
+      <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" id="1224769231960">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224769231961">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1224769233009">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224769233010">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224769233011">
+                <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1224769236001" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="1224769233013">
+                  <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="1224769233014">
+                    <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1224769233015">
+                      <link role="conceptDeclaration" targetNodeId="1.1196851066733" resolveInfo="Project" />
+                    </node>
+                  </node>
+                  <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Root" id="1224769233016" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="1224769233017" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="1200508679397">
