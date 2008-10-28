@@ -5,6 +5,7 @@
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
+  <language namespace="3a0a09eb-2888-405e-80d4-8112e7b4d416(jetbrains.mps.baseLanguage.strings)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
@@ -34,9 +35,7 @@
     <property name="name" value="DatesQueriesUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="1173785436953">
       <property name="name" value="getFQName" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173785438738">
-        <link role="classifier" targetNodeId="10.~String" resolveInfo="String" />
-      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195481300" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1173785436955">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173785483869">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1173785486403">
@@ -274,9 +273,7 @@
       <property name="name" value="FORMAL_TABLES_CONTAINER" />
       <property name="isFinal" value="true" />
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1224671121115" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1224671099233">
-        <link role="classifier" targetNodeId="10.~String" resolveInfo="String" />
-      </node>
+      <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195479718" />
       <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1224671105377">
         <property name="value" value="_FormatTables" />
       </node>

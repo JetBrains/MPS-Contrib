@@ -672,9 +672,7 @@
     </node>
     <node role="conceptLink" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink" id="1174039827774">
       <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
-      <node role="target" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1174039830557">
-        <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
-      </node>
+      <node role="target" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195483290" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1174039835698">
       <property name="value" value="&lt;datetime&gt;#{&lt;format&gt;}" />

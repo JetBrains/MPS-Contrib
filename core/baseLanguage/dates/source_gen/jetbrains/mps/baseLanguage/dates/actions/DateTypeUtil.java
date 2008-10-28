@@ -15,12 +15,12 @@ import jetbrains.mps.ide.progress.NullAdaptiveProgressMonitor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public class DateTypeUtil {
-  public static SNode dateTimeType = new _Quotations.QuotationClass_0().createNode();
-  public static SNode periodType = new _Quotations.QuotationClass_1().createNode();
-  public static SNode intType = new _Quotations.QuotationClass_2().createNode();
-  public static SNode javaDateType = new _Quotations.QuotationClass_3().createNode();
-  public static SNode javaCalendarType = new _Quotations.QuotationClass_4().createNode();
-  public static SNode jodaAbstractInstant = new _Quotations.QuotationClass_5().createNode();
+  private static SNode dateTimeType = new _Quotations.QuotationClass_0().createNode();
+  private static SNode periodType = new _Quotations.QuotationClass_1().createNode();
+  private static SNode intType = new _Quotations.QuotationClass_2().createNode();
+  private static SNode javaDateType = new _Quotations.QuotationClass_3().createNode();
+  private static SNode javaCalendarType = new _Quotations.QuotationClass_4().createNode();
+  private static SNode jodaAbstractInstant = new _Quotations.QuotationClass_5().createNode();
 
   public static boolean isInstanceOfPeriod(SNode node) {
     return isInstanceOf(node, periodType);

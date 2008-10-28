@@ -9,6 +9,7 @@
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)" />
   <language namespace="df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)" />
+  <language namespace="3a0a09eb-2888-405e-80d4-8112e7b4d416(jetbrains.mps.baseLanguage.strings)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -569,9 +570,7 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1173786874942">
         <property name="name" value="formatterName" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173786874943">
-          <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
-        </node>
+        <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195485686" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546169698" />
     </node>
@@ -700,9 +699,7 @@
         </node>
         <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1173784661856">
           <property name="name" value="formatterName" />
-          <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173784661857">
-            <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
-          </node>
+          <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195480109" />
         </node>
         <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546169000" />
       </node>
@@ -1399,9 +1396,7 @@
                       <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1224583026310">
                         <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1224583026311">
                           <property name="name" value="result" />
-                          <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1224583026312">
-                            <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
-                          </node>
+                          <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195487002" />
                           <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1224583026313" />
                         </node>
                       </node>
@@ -2676,9 +2671,7 @@
                       <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1173967969299">
                         <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1173967969300">
                           <property name="name" value="letter" />
-                          <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1173967969301">
-                            <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
-                          </node>
+                          <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195480908" />
                           <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227896191">
                             <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227927574">
                               <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1173967974897" />
