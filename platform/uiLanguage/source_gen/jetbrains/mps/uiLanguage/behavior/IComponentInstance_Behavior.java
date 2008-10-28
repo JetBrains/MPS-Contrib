@@ -10,7 +10,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class IComponentInstance_Behavior {
-  public static Class[] PARAMETERS_1213877498080 = {SNode.class};
+  private static Class[] PARAMETERS_1213877498080 = {SNode.class};
 
   public static void init(SNode thisNode) {
   }
