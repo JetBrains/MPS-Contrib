@@ -7,7 +7,7 @@ import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class IPropertyHolder_Behavior {
-  public static Class[] PARAMETERS_1213877375726 = {SNode.class};
+  private static Class[] PARAMETERS_1213877375726 = {SNode.class};
 
   public static void init(SNode thisNode) {
   }

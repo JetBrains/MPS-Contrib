@@ -8,8 +8,8 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class PropertyValueExpression_Behavior {
-  public static Class[] PARAMETERS_1213877472569 = {SNode.class};
-  public static Class[] PARAMETERS_1213877472572 = {SNode.class};
+  private static Class[] PARAMETERS_1213877472569 = {SNode.class};
+  private static Class[] PARAMETERS_1213877472572 = {SNode.class};
 
   public static void init(SNode thisNode) {
   }
