@@ -58,10 +58,12 @@ public class DateTimeCompareOperation_Behavior {
 
   public static SNode call_getClosureInstanceFieldReference_1213877526180(SNode thisNode) {
     SNode result = null;
-    if (SNodeOperations.isInstanceOf(DateTimeCompareOperation_Behavior.call_getFieldReferenceInstance_1213877526083(thisNode, SLinkOperations.getTarget(thisNode, "op1", true)), "jetbrains.mps.baseLanguage.structure.ClosureParameterReference")) {
+    SNode fri1 = DateTimeCompareOperation_Behavior.call_getFieldReferenceInstance_1213877526083(thisNode, SLinkOperations.getTarget(thisNode, "op1", true));
+    SNode fri2 = DateTimeCompareOperation_Behavior.call_getFieldReferenceInstance_1213877526083(thisNode, SLinkOperations.getTarget(thisNode, "op2", true));
+    if (SNodeOperations.isInstanceOf(fri1, "jetbrains.mps.baseLanguage.structure.ClosureParameterReference") || (SNodeOperations.isInstanceOf(fri1, "jetbrains.mps.baseLanguage.structure.ParameterReference") && SNodeOperations.isInstanceOf(SNodeOperations.getParent(fri1), "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral"))) {
       result = SLinkOperations.getTarget(thisNode, "op1", true);
     } else
-    if (SNodeOperations.isInstanceOf(DateTimeCompareOperation_Behavior.call_getFieldReferenceInstance_1213877526083(thisNode, SLinkOperations.getTarget(thisNode, "op2", true)), "jetbrains.mps.baseLanguage.structure.ClosureParameterReference")) {
+    if (SNodeOperations.isInstanceOf(fri2, "jetbrains.mps.baseLanguage.structure.ClosureParameterReference") || (SNodeOperations.isInstanceOf(fri2, "jetbrains.mps.baseLanguage.structure.ParameterReference") && SNodeOperations.isInstanceOf(SNodeOperations.getParent(fri2), "jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral"))) {
       result = SLinkOperations.getTarget(thisNode, "op2", true);
     }
     return result;
