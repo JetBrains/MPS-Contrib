@@ -12,7 +12,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)" version="21" />
@@ -78,7 +78,7 @@
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1221347334443">
-                    <link role="conceptMethodDeclaration" targetNodeId="1221256530294" resolveInfo="isHorizontal" />
+                    <link role="baseMethodDeclaration" targetNodeId="1221256530294" resolveInfo="isHorizontal" />
                   </node>
                 </node>
               </node>
@@ -133,7 +133,7 @@
             <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877224305">
               <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1213877224306" />
               <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213877224307">
-                <link role="conceptMethodDeclaration" targetNodeId="1213877224266" resolveInfo="isSeparate" />
+                <link role="baseMethodDeclaration" targetNodeId="1213877224266" resolveInfo="isSeparate" />
               </node>
             </node>
           </node>
@@ -358,7 +358,7 @@
                   <link role="variableDeclaration" targetNodeId="1221256566676" resolveInfo="parentContentList" />
                 </node>
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1221347318939">
-                  <link role="conceptMethodDeclaration" targetNodeId="1221256530294" resolveInfo="isHorizontal" />
+                  <link role="baseMethodDeclaration" targetNodeId="1221256530294" resolveInfo="isHorizontal" />
                 </node>
               </node>
             </node>
