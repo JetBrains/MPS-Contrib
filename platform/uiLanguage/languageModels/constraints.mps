@@ -14,7 +14,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" version="26" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
@@ -381,7 +381,7 @@
                         </node>
                       </node>
                       <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213104846905">
-                        <link role="conceptMethodDeclaration" targetNodeId="23.1213877495417" resolveInfo="getAttributes" />
+                        <link role="baseMethodDeclaration" targetNodeId="23.1213877495417" resolveInfo="getAttributes" />
                       </node>
                     </node>
                   </node>
@@ -518,7 +518,7 @@
               </node>
             </node>
             <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213107435844">
-              <link role="conceptMethodDeclaration" targetNodeId="23.1213877495562" resolveInfo="hasCellRenderer" />
+              <link role="baseMethodDeclaration" targetNodeId="23.1213877495562" resolveInfo="hasCellRenderer" />
             </node>
           </node>
         </node>
@@ -749,7 +749,7 @@
               </node>
             </node>
             <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213107436155">
-              <link role="conceptMethodDeclaration" targetNodeId="23.1213877495562" resolveInfo="hasCellRenderer" />
+              <link role="baseMethodDeclaration" targetNodeId="23.1213877495562" resolveInfo="hasCellRenderer" />
             </node>
           </node>
         </node>
@@ -1009,7 +1009,7 @@
               </node>
             </node>
             <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213107438003">
-              <link role="conceptMethodDeclaration" targetNodeId="23.1213877495555" resolveInfo="isActionComponent" />
+              <link role="baseMethodDeclaration" targetNodeId="23.1213877495555" resolveInfo="isActionComponent" />
             </node>
           </node>
         </node>

@@ -9,7 +9,7 @@
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="8" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" version="26" />
@@ -109,7 +109,7 @@
               </node>
             </node>
             <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1202465697616">
-              <link role="conceptMethodDeclaration" targetNodeId="9.1213877495528" resolveInfo="getExtendedComponent" />
+              <link role="baseMethodDeclaration" targetNodeId="9.1213877495528" resolveInfo="getExtendedComponent" />
             </node>
           </node>
         </node>
@@ -845,7 +845,7 @@
                       <link role="applicableNode" targetNodeId="1210180436574" resolveInfo="attribute" />
                     </node>
                     <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1210180705229">
-                      <link role="conceptMethodDeclaration" targetNodeId="9.1213877401775" resolveInfo="getRendererInfoNode" />
+                      <link role="baseMethodDeclaration" targetNodeId="9.1213877401775" resolveInfo="getRendererInfoNode" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1210180705230">
