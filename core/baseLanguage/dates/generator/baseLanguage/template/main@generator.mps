@@ -38,6 +38,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <maxImportIndex value="43" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
@@ -570,7 +571,7 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1173786874942">
         <property name="name" value="formatterName" />
-        <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195485686" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225195485686" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546169698" />
     </node>
@@ -699,7 +700,7 @@
         </node>
         <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1173784661856">
           <property name="name" value="formatterName" />
-          <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195480109" />
+          <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225195480109" />
         </node>
         <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546169000" />
       </node>
@@ -1396,7 +1397,7 @@
                       <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1224583026310">
                         <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1224583026311">
                           <property name="name" value="result" />
-                          <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195487002" />
+                          <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225195487002" />
                           <node role="initializer" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1224583026313" />
                         </node>
                       </node>
@@ -2671,7 +2672,7 @@
                       <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1173967969299">
                         <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1173967969300">
                           <property name="name" value="letter" />
-                          <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225195480908" />
+                          <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225195480908" />
                           <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227896191">
                             <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227927574">
                               <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1173967974897" />

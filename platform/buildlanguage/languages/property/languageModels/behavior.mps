@@ -34,6 +34,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" version="1" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -63,7 +64,7 @@
           </node>
         </node>
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1218726851618" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.StringType" id="1218726851618" />
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1219155723885" />
     </node>
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877341768">

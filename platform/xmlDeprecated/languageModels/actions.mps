@@ -32,6 +32,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="3" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
@@ -146,7 +147,7 @@
                   </node>
                   <node role="rValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1220993027869">
                     <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="1220992388851" />
-                    <node role="operation" type="jetbrains.mps.baseLanguage.strings.structure.TrimOperation" id="1220993030388" />
+                    <node role="operation" type="jetbrains.mps.baseLanguage.structure.TrimOperation" id="1220993030388" />
                   </node>
                 </node>
               </node>
@@ -199,7 +200,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="1220992999524">
                   <node role="rValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1220993017617">
                     <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="1220993001481" />
-                    <node role="operation" type="jetbrains.mps.baseLanguage.strings.structure.TrimOperation" id="1220993020790" />
+                    <node role="operation" type="jetbrains.mps.baseLanguage.structure.TrimOperation" id="1220993020790" />
                   </node>
                   <node role="lValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1220992994989">
                     <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1220992989923">

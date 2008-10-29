@@ -43,6 +43,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <maxImportIndex value="18" />
   <import index="1" modelUID="f:java_stub#jetbrains.mps.smodel.search(jetbrains.mps.smodel.search@java_stub)" version="-1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="16" />
@@ -960,7 +961,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1218551856615">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1218551856616">
               <property name="name" value="result" />
-              <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1218551856617" />
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1218551856617" />
               <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1218551968849">
                 <property name="value" value="" />
               </node>

@@ -42,6 +42,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xmlInternal.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590595(jetbrains.mps.xmlSchema.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <maxImportIndex value="19" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="16" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
@@ -1064,7 +1065,7 @@
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1201020789891">
                 <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1201020789892">
                   <property name="name" value="targetDir" />
-                  <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225196191953" />
+                  <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225196191953" />
                   <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201020801161">
                     <property name="value" value="${ant.file}" />
                   </node>
