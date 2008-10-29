@@ -11,6 +11,9 @@
     <property name="name" value="ABC" />
     <node role="rootElement" type="jetbrains.mps.xml.deprecated.structure.Element" id="1224609583347">
       <property name="name" value="abc" />
+      <node role="content" type="jetbrains.mps.xml.deprecated.structure.Element" id="1225290529010">
+        <property name="name" value="aaaa" />
+      </node>
     </node>
   </node>
 </model>
