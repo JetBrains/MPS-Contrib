@@ -14,6 +14,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
   <maxImportIndex value="6" />
   <import index="1" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="2" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
@@ -35,7 +36,7 @@
     <link role="component" targetNodeId="1202393511419" resolveInfo="Frame" />
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202393523190">
       <property name="name" value="title" />
-      <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225193084847" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225193084847" />
     </node>
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202396132470">
       <property name="name" value="visible" />
@@ -63,7 +64,7 @@
     <link role="component" targetNodeId="1202393560969" resolveInfo="Button" />
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202393575288">
       <property name="name" value="text" />
-      <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225193084263" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225193084263" />
     </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202393598579">
@@ -90,7 +91,7 @@
     <link role="component" targetNodeId="1202464198724" resolveInfo="TextField" />
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202464208353">
       <property name="name" value="text" />
-      <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225193084452" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225193084452" />
     </node>
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202818338918">
       <property name="name" value="columns" />
@@ -112,7 +113,7 @@
     <link role="component" targetNodeId="1202465811094" resolveInfo="Label" />
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202465836231">
       <property name="name" value="text" />
-      <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225193084168" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225193084168" />
     </node>
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1210763059950">
       <property name="name" value="foreground" />
@@ -174,7 +175,7 @@
     <link role="component" targetNodeId="1202828480666" resolveInfo="_Dialog" />
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202828575561">
       <property name="name" value="title" />
-      <node role="type" type="jetbrains.mps.baseLanguage.strings.structure.StringType" id="1225193084942" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225193084942" />
     </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1203082515478">
