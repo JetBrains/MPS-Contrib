@@ -20,6 +20,10 @@ public class CreateNormalPropertyFromExternal_intention_Intention extends BaseIn
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Transform external property to ordinary property";
   }

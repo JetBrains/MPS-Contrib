@@ -18,6 +18,10 @@ public class AddComment_intention_Intention extends BaseIntention {
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Add comment for " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
       SConceptPropertyOperations.getString(node, "alias") :
