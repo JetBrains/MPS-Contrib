@@ -13,6 +13,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 
 public class FileName_Editor extends DefaultNodeEditor {
 
@@ -26,7 +28,8 @@ public class FileName_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1199033854065(context, node, "file ("));
+    editorCell.addEditorCell(this.createConstant1199033854065(context, node, "file"));
+    editorCell.addEditorCell(this.createConstant1225394262613(context, node, "("));
     editorCell.addEditorCell(this.createRefNode1199033860801(context, node));
     editorCell.addEditorCell(this.createConstant1199033872178(context, node, ")"));
     return editorCell;
@@ -44,6 +47,14 @@ public class FileName_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_11990338721781199033872178(editorCell, node, context);
     setupLabel_Constant_1199033872178_1199033872178(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant1225394262613(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_12253942626131225394262613(editorCell, node, context);
+    setupLabel_Constant_1225394262613_1225394262613(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -84,13 +95,56 @@ public class FileName_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11990338540651199033854065(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1199033854065");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_refNode_value1199033860801(EditorCell editorCell, SNode node, EditorContext context) {
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_LEFT, 0.0);
+          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Constant_11990338721781199033872178(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1199033872178");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_LEFT, 0.5);
+          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
+  }
+
+  private static void setupBasic_Constant_12253942626131225394262613(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1225394262613");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_LEFT, 0.5);
+          this.set(StyleAttributes.PADDING_RIGHT, 0.5);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_Constant_1199033854065_1199033854065(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -100,6 +154,9 @@ public class FileName_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_1199033872178_1199033872178(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_1225394262613_1225394262613(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

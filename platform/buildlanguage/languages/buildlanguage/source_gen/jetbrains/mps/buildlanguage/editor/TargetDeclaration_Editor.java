@@ -383,6 +383,15 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_11970357812621197035781262(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1197035781262");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_LEFT, 1.0);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Collection_11970500664171197050066417(EditorCell editorCell, SNode node, EditorContext context) {

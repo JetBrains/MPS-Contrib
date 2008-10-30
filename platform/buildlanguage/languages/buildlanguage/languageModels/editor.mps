@@ -232,6 +232,9 @@
         <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1196853085105">
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225395327572">
+            <property name="value" value="0.0" />
+          </node>
         </node>
       </node>
     </node>
@@ -294,6 +297,9 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1197035781262">
             <property name="text" value="]" />
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1225395464319">
+              <property name="value" value="1.0" />
+            </node>
           </node>
           <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="1197035916697">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197035916698">
@@ -476,6 +482,9 @@
         <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1196860257765">
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225395195422">
+            <property name="value" value="0.0" />
+          </node>
         </node>
       </node>
     </node>
@@ -489,16 +498,31 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1196861106563">
         <property name="text" value="&quot;" />
         <link role="styleClass" targetNodeId="1196861143289" resolveInfo="stringLiteral" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225393856005">
+          <property name="value" value="0.5" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1196861109049">
         <property name="allowEmptyText" value="true" />
         <property name="emptyNoTargetText" value="true" />
         <link role="relationDeclaration" targetNodeId="1.1196861024475" resolveInfo="value" />
         <link role="styleClass" targetNodeId="1196861143289" resolveInfo="stringLiteral" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1225393693998">
+          <property name="value" value="0.0" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225393698390">
+          <property name="value" value="0.0" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1196861117192">
         <property name="text" value="&quot;" />
         <link role="styleClass" targetNodeId="1196861143289" resolveInfo="stringLiteral" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1225393862637">
+          <property name="value" value="0.5" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225394478677">
+          <property name="value" value="0.0" />
+        </node>
       </node>
     </node>
   </node>
@@ -1661,13 +1685,37 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1199033850814">
       <property name="vertical" value="false" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1199033854065">
-        <property name="text" value="file (" />
+        <property name="text" value="file" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225394271781">
+          <property name="value" value="0.0" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1225394262613">
+        <property name="text" value="(" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1225394281468">
+          <property name="value" value="0.5" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225394292076">
+          <property name="value" value="0.5" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1199033860801">
         <link role="relationDeclaration" targetNodeId="1.1199031757132" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1225394301821">
+          <property name="value" value="0.0" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225394305562">
+          <property name="value" value="0.0" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1199033872178">
         <property name="text" value=")" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1225394316945">
+          <property name="value" value="0.5" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225395063164">
+          <property name="value" value="0.0" />
+        </node>
       </node>
     </node>
   </node>
@@ -1975,6 +2023,35 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1219774550067">
         <link role="relationDeclaration" targetNodeId="1.1219774190534" resolveInfo="checkOnStart" />
         <link role="styleClass" targetNodeId="1196866068487" resolveInfo="booleanLiteral" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1225394782513">
+    <property name="package" value="Operations" />
+    <link role="conceptDeclaration" targetNodeId="1.1197108973325" resolveInfo="PlusOperation" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1225394784240">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1225394784241">
+        <link role="relationDeclaration" targetNodeId="1.1197107855106" />
+        <link role="actionMap" targetNodeId="1197726180162" resolveInfo="BinaryOperation_LeftArgument_Actions" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="1225394784242">
+        <link role="relationDeclaration" targetNodeId="1.1197107970006" resolveInfo="operation" />
+        <node role="menuDescriptor" type="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" id="1225394784243">
+          <node role="cellMenuPart" type="jetbrains.mps.lang.editor.structure.CellMenuPart_ReplaceNode_CustomNodeConcept" id="1225394784244">
+            <link role="replacementConcept" targetNodeId="1.1197107841918" resolveInfo="BinaryOperation" />
+          </node>
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1225394791442">
+          <property name="value" value="0.8" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1225394815801">
+          <property name="value" value="0.8" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1225394784245">
+        <link role="relationDeclaration" targetNodeId="1.1197107881958" />
+        <link role="actionMap" targetNodeId="1197726026870" resolveInfo="BinaryOperation_RightArgument_Actions" />
       </node>
     </node>
   </node>
