@@ -18,6 +18,10 @@ public class ConvertDateTimeMinusToMinus_Intention extends BaseIntention {
     return true;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
     return "convert minus expression to datetime minus period expression";
   }

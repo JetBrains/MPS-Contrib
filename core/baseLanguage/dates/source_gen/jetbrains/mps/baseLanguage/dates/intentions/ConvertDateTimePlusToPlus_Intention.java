@@ -18,6 +18,10 @@ public class ConvertDateTimePlusToPlus_Intention extends BaseIntention {
     return true;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
     return "convert plus expression to datetime plus period expression";
   }
