@@ -10,7 +10,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590361(jetbrains.mps.lang.plugin.constraints)" version="19" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="15" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
@@ -186,8 +186,8 @@
       <property name="name" value="test" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213619386270" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213619381198">
-        <node role="statement" type="jetbrains.mps.lang.smodel.structure.ExecuteLightweightCommandStatement" id="1213619389442">
-          <node role="commandClosureLiteral" type="jetbrains.mps.lang.smodel.structure.CommandClosureLiteral" id="1213619389443">
+        <node role="statement" type="jetbrains.mps.lang.plugin.structure.ExecuteLightweightCommandStatement" id="1213619389442">
+          <node role="commandClosureLiteral" type="jetbrains.mps.lang.plugin.structure.CommandClosureLiteral" id="1213619389443">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213619389444">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213619390570">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213619390886">
