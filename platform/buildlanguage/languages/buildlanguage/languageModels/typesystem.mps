@@ -257,6 +257,9 @@
           </node>
         </node>
       </node>
+      <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="1225546854268">
+        <property name="value" value="todo: get rid of when concrete, there's only PlusOperation, type of which is string " />
+      </node>
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.WhenConcreteStatement" id="1197212292495">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1197212292496">
           <node role="statement" type="jetbrains.mps.lang.typesystem.structure.WhenConcreteStatement" id="1197212301874">
