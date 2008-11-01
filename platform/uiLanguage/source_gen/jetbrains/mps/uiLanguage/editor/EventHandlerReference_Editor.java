@@ -51,7 +51,7 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_handler1208685926630(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_handler");
+    editorCell.setCellId("refCell_handler");
   }
 
   private static void setupLabel_refCell_handler_1208685926630(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -102,7 +102,7 @@ public class EventHandlerReference_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1208685929992(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1208685929992(EditorCell_Label editorCell, SNode node, EditorContext context) {

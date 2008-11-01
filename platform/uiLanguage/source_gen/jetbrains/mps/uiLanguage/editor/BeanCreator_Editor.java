@@ -106,23 +106,23 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12077544178641207754417864(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1207754417864");
+    editorCell.setCellId("Collection_1207754417864");
   }
 
   private static void setupBasic_refCell_constructor1207754420256(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_constructor");
+    editorCell.setCellId("refCell_constructor");
   }
 
   private static void setupBasic_Constant_12077544316051207754431605(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207754431605");
+    editorCell.setCellId("Constant_1207754431605");
   }
 
   private static void setupBasic_Constant_12077544358721207754435872(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207754435872");
+    editorCell.setCellId("Constant_1207754435872");
   }
 
   private static void setupBasic_refNodeList_parameter1207754440327(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_parameter");
+    editorCell.setCellId("refNodeList_parameter");
   }
 
   private static void setupLabel_refCell_constructor_1207754420256(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -182,7 +182,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1207754423947(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1207754423947(EditorCell_Label editorCell, SNode node, EditorContext context) {

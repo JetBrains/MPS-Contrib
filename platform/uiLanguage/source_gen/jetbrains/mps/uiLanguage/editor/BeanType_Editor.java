@@ -92,11 +92,11 @@ public class BeanType_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12077487975541207748797554(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1207748797554");
+    editorCell.setCellId("Collection_1207748797554");
   }
 
   private static void setupBasic_Constant_12077487975551207748797555(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207748797555");
+    editorCell.setCellId("Constant_1207748797555");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -109,7 +109,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12077487975561207748797556(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207748797556");
+    editorCell.setCellId("Constant_1207748797556");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -122,11 +122,11 @@ public class BeanType_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refCell_bean1207748797557(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_bean");
+    editorCell.setCellId("refCell_bean");
   }
 
   private static void setupBasic_Constant_12077487975601207748797560(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1207748797560");
+    editorCell.setCellId("Constant_1207748797560");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -195,7 +195,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1207748797559(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1207748797559(EditorCell_Label editorCell, SNode node, EditorContext context) {

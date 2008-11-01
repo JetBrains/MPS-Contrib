@@ -79,16 +79,16 @@ public class ActionHandler_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12027440748231202744074823(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202744074823");
+    editorCell.setCellId("Collection_1202744074823");
   }
 
   private static void setupBasic_Constant_12027440754661202744075466(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202744075466");
+    editorCell.setCellId("Constant_1202744075466");
     Stylesheet_StyleSheet.getActionHandler(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12027440788121202744078812(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202744078812");
+    editorCell.setCellId("Constant_1202744078812");
   }
 
   private static void setupBasic_refNode_handler1202744106411(EditorCell editorCell, SNode node, EditorContext context) {

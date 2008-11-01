@@ -79,11 +79,11 @@ public class Scroller_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12030895061931203089506193(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1203089506193");
+    editorCell.setCellId("Collection_1203089506193");
   }
 
   private static void setupBasic_Collection_12030895086011203089508601(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1203089508601");
+    editorCell.setCellId("Collection_1203089508601");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -96,15 +96,15 @@ public class Scroller_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Indent_12030895094781203089509478(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1203089509478");
+    editorCell.setCellId("Indent_1203089509478");
   }
 
   private static void setupBasic_refNodeList_content1203089519887(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_content");
+    editorCell.setCellId("refNodeList_content");
   }
 
   private static void setupBasic_Constant_12030895297021203089529702(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1203089529702");
+    editorCell.setCellId("Constant_1203089529702");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 

@@ -124,18 +124,18 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12081104275011208110427501(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1208110427501");
+    editorCell.setCellId("Collection_1208110427501");
   }
 
   private static void setupBasic_Constant_12081104430571208110443057(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208110443057");
+    editorCell.setCellId("Constant_1208110443057");
   }
 
   private static void setupBasic_refNode_handler1208110448262(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Collection_12100987886361210098788636(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1210098788636");
+    editorCell.setCellId("Collection_1210098788636");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -148,11 +148,11 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12100987889661210098788966(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210098788966");
+    editorCell.setCellId("Constant_1210098788966");
   }
 
   private static void setupBasic_refCell_event1210098788967(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_event");
+    editorCell.setCellId("refCell_event");
   }
 
   private static void setupLabel_Constant_1208110443057_1208110443057(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -212,7 +212,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1210098788969(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1210098788969(EditorCell_Label editorCell, SNode node, EditorContext context) {

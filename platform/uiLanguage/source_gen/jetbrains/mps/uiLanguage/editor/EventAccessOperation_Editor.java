@@ -51,7 +51,7 @@ public class EventAccessOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_event1208101299382(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_event");
+    editorCell.setCellId("refCell_event");
   }
 
   private static void setupLabel_refCell_event_1208101299382(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -102,7 +102,7 @@ public class EventAccessOperation_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1208101299384(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1208101299384(EditorCell_Label editorCell, SNode node, EditorContext context) {

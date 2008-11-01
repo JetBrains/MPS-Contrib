@@ -54,7 +54,7 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_attributeDeclaration1202478508742(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attributeDeclaration");
+    editorCell.setCellId("refCell_attributeDeclaration");
   }
 
   private static void setupLabel_refCell_attributeDeclaration_1202478508742(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -105,7 +105,7 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1202478509604(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
       {
         Style inlineStyle = new Style(editorCell) {

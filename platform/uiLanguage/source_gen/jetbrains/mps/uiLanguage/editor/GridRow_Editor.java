@@ -79,16 +79,16 @@ public class GridRow_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12028237945251202823794525(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202823794525");
+    editorCell.setCellId("Collection_1202823794525");
   }
 
   private static void setupBasic_Constant_12028237956371202823795637(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202823795637");
+    editorCell.setCellId("Constant_1202823795637");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028237990451202823799045(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202823799045");
+    editorCell.setCellId("Collection_1202823799045");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -101,11 +101,11 @@ public class GridRow_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Indent_12028238002031202823800203(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1202823800203");
+    editorCell.setCellId("Indent_1202823800203");
   }
 
   private static void setupBasic_refNodeList_component1202823808769(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_component");
+    editorCell.setCellId("refNodeList_component");
     {
       Style inlineStyle = new Style(editorCell) {
         {

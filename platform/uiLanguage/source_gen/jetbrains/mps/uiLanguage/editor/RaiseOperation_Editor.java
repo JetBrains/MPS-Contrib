@@ -88,19 +88,19 @@ public class RaiseOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12080949841291208094984129(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1208094984129");
+    editorCell.setCellId("Collection_1208094984129");
   }
 
   private static void setupBasic_Constant_12080949955101208094995510(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208094995510");
+    editorCell.setCellId("Constant_1208094995510");
   }
 
   private static void setupBasic_Constant_12081099493151208109949315(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208109949315");
+    editorCell.setCellId("Constant_1208109949315");
   }
 
   private static void setupBasic_Constant_12081099553011208109955301(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208109955301");
+    editorCell.setCellId("Constant_1208109955301");
   }
 
   private static void setupBasic_refNode_argument1208109957772(EditorCell editorCell, SNode node, EditorContext context) {

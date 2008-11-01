@@ -79,16 +79,16 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12027398975651202739897565(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202739897565");
+    editorCell.setCellId("Collection_1202739897565");
   }
 
   private static void setupBasic_Constant_12027398985671202739898567(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202739898567");
+    editorCell.setCellId("Constant_1202739898567");
     Stylesheet_StyleSheet.getLayoutConstraint(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12027399042091202739904209(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202739904209");
+    editorCell.setCellId("Constant_1202739904209");
   }
 
   private static void setupBasic_refNode_constraint1202739906524(EditorCell editorCell, SNode node, EditorContext context) {

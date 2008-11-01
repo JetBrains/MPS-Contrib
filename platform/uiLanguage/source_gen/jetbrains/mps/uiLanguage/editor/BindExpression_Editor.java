@@ -82,11 +82,11 @@ public class BindExpression_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12024644960411202464496041(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202464496041");
+    editorCell.setCellId("Collection_1202464496041");
   }
 
   private static void setupBasic_Constant_12024644969031202464496903(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202464496903");
+    editorCell.setCellId("Constant_1202464496903");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -103,7 +103,7 @@ public class BindExpression_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12024645008301202464500830(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202464500830");
+    editorCell.setCellId("Constant_1202464500830");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {

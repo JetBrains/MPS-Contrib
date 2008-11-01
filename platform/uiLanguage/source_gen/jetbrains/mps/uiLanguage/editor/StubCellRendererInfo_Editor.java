@@ -62,11 +62,11 @@ public class StubCellRendererInfo_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12101745400711210174540071(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1210174540071");
+    editorCell.setCellId("Collection_1210174540071");
   }
 
   private static void setupBasic_refCell_cellRendererSetter1210174543838(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_cellRendererSetter");
+    editorCell.setCellId("refCell_cellRendererSetter");
   }
 
   private static void setupLabel_refCell_cellRendererSetter_1210174543838(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -117,7 +117,7 @@ public class StubCellRendererInfo_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1210174546169(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1210174546169(EditorCell_Label editorCell, SNode node, EditorContext context) {

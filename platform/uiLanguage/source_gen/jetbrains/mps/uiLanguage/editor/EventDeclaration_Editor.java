@@ -171,34 +171,34 @@ public class EventDeclaration_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12080877720521208087772052(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1208087772052");
+    editorCell.setCellId("Collection_1208087772052");
   }
 
   private static void setupBasic_Constant_12080877774921208087777492(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208087777492");
+    editorCell.setCellId("Constant_1208087777492");
   }
 
   private static void setupBasic_property_name1208087784728(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
   }
 
   private static void setupBasic_Constant_12080877900581208087790058(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208087790058");
+    editorCell.setCellId("Constant_1208087790058");
   }
 
   private static void setupBasic_Constant_12080878009061208087800906(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208087800906");
+    editorCell.setCellId("Constant_1208087800906");
   }
 
   private static void setupBasic_Constant_12080881047881208088104788(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1208088104788");
+    editorCell.setCellId("Constant_1208088104788");
   }
 
   private static void setupBasic_refNode_parameter1208111367012(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Collection_12096532262311209653226231(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1209653226231");
+    editorCell.setCellId("Collection_1209653226231");
   }
 
   private static void setupBasic_refNode_initializer1209653273343(EditorCell editorCell, SNode node, EditorContext context) {

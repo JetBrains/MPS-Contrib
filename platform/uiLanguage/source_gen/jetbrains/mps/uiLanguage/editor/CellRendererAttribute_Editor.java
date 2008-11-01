@@ -79,11 +79,11 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12101796653731210179665373(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1210179665373");
+    editorCell.setCellId("Collection_1210179665373");
   }
 
   private static void setupBasic_Constant_12101796677341210179667734(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210179667734");
+    editorCell.setCellId("Constant_1210179667734");
     Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
   }
 
@@ -91,7 +91,7 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12101829925251210182992525(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1210182992525");
+    editorCell.setCellId("Constant_1210182992525");
     Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
   }
 

@@ -51,7 +51,7 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_component1202742515942(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_component");
+    editorCell.setCellId("refCell_component");
   }
 
   private static void setupLabel_refCell_component_1202742515942(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -102,7 +102,7 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1202742516789(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Stylesheet_StyleSheet.getComponentInstanceName(editorCell).apply(editorCell);
     }
 

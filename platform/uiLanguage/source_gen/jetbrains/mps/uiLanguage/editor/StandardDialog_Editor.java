@@ -199,16 +199,16 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12028301986451202830198645(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202830198645");
+    editorCell.setCellId("Collection_1202830198645");
   }
 
   private static void setupBasic_Constant_12028301996941202830199694(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202830199694");
+    editorCell.setCellId("Constant_1202830199694");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028317500541202831750054(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202831750054");
+    editorCell.setCellId("Collection_1202831750054");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -221,7 +221,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_12028317500551202831750055(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202831750055");
+    editorCell.setCellId("Collection_1202831750055");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -234,16 +234,16 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12028317500561202831750056(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202831750056");
+    editorCell.setCellId("Constant_1202831750056");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Indent_12028317519491202831751949(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1202831751949");
+    editorCell.setCellId("Indent_1202831751949");
   }
 
   private static void setupBasic_Collection_12028317680201202831768020(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202831768020");
+    editorCell.setCellId("Collection_1202831768020");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -256,7 +256,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_12028317680211202831768021(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202831768021");
+    editorCell.setCellId("Collection_1202831768021");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -269,16 +269,16 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Indent_12028317711961202831771196(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1202831771196");
+    editorCell.setCellId("Indent_1202831771196");
   }
 
   private static void setupBasic_Constant_12028317744471202831774447(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202831774447");
+    editorCell.setCellId("Constant_1202831774447");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_12028321181311202832118131(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202832118131");
+    editorCell.setCellId("Collection_1202832118131");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -294,11 +294,11 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Indent_12028321192751202832119275(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1202832119275");
+    editorCell.setCellId("Indent_1202832119275");
   }
 
   private static void setupBasic_Collection_12028321219321202832121932(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202832121932");
+    editorCell.setCellId("Collection_1202832121932");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -311,11 +311,11 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_button1202832121933(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_button");
+    editorCell.setCellId("refNodeList_button");
   }
 
   private static void setupBasic_Indent_12028321235291202832123529(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1202832123529");
+    editorCell.setCellId("Indent_1202832123529");
   }
 
   private static void setupLabel_Constant_1202830199694_1202830199694(EditorCell_Label editorCell, SNode node, EditorContext context) {

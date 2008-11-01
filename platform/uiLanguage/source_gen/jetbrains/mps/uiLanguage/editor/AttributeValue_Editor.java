@@ -103,15 +103,15 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12023893748811202389374881(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1202389374881");
+    editorCell.setCellId("Collection_1202389374881");
   }
 
   private static void setupBasic_refCell_attribute1202389398260(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attribute");
+    editorCell.setCellId("refCell_attribute");
   }
 
   private static void setupBasic_Constant_12023894019681202389401968(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1202389401968");
+    editorCell.setCellId("Constant_1202389401968");
   }
 
   private static void setupBasic_refNode_value1202389403736(EditorCell editorCell, SNode node, EditorContext context) {
@@ -171,7 +171,7 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1202389400200(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Stylesheet_StyleSheet.getAttribute(editorCell).apply(editorCell);
     }
 
