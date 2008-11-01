@@ -13,8 +13,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
 
@@ -55,24 +53,12 @@ public class TextLine_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_property_line1167620808615(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_line");
+    editorCell.setCellId("property_line");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-            public Integer calculate(EditorCell cell) {
-              return TextLine_Editor.calculateFontStyle8955_0(cell);
-            }
-
-          });
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return TextLine_Editor.calculateColor8955_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         }
 
       };
@@ -81,18 +67,6 @@ public class TextLine_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_property_line_1167620808615(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Integer calculateFontStyle8955_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.BOLD;
-    return result;
-  }
-
-  private static Color calculateColor8955_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_GREEN;
-    return result;
   }
 
 }

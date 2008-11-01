@@ -70,11 +70,11 @@ public class DurationType_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11743207711051174320771105(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174320771105");
+    editorCell.setCellId("Collection_1174320771105");
   }
 
   private static void setupBasic_Constant_11743207740291174320774029(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174320774029");
+    editorCell.setCellId("Constant_1174320774029");
   }
 
   private static void setupBasic_refNode_jodaDurationFieldType1174320792189(EditorCell editorCell, SNode node, EditorContext context) {

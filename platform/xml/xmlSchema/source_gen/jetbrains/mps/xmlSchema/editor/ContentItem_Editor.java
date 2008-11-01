@@ -24,7 +24,7 @@ public class ContentItem_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11677945926941167794592694(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1167794592694");
+    editorCell.setCellId("Error_1167794592694");
   }
 
   private static void setupLabel_Error_1167794592694_1167794592694(EditorCell_Label editorCell, SNode node, EditorContext context) {

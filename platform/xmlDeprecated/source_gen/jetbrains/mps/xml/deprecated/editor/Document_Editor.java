@@ -124,11 +124,11 @@ public class Document_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11199767782541119976778254(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1119976778254");
+    editorCell.setCellId("Collection_1119976778254");
   }
 
   private static void setupBasic_Collection_11199767849441119976784944(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1119976784944");
+    editorCell.setCellId("Collection_1119976784944");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -141,7 +141,7 @@ public class Document_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11199767940701119976794070(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1119976794070");
+    editorCell.setCellId("Constant_1119976794070");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -155,7 +155,7 @@ public class Document_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_name1119976811900(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -169,7 +169,7 @@ public class Document_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11199768396361119976839636(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1119976839636");
+    editorCell.setCellId("Constant_1119976839636");
     {
       Style inlineStyle = new Style(editorCell) {
         {

@@ -28,7 +28,7 @@ public class GIndent_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Constant_11644132314541164413231454(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1164413231454");
+    editorCell.setCellId("Constant_1164413231454");
     {
       Style inlineStyle = new Style(editorCell) {
         {

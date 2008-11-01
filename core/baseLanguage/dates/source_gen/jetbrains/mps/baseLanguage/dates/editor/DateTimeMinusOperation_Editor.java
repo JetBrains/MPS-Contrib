@@ -172,11 +172,11 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11743863344581174386334458(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174386334458");
+    editorCell.setCellId("Collection_1174386334458");
   }
 
   private static void setupBasic_Constant_11743863385531174386338553(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174386338553");
+    editorCell.setCellId("Constant_1174386338553");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
@@ -184,7 +184,7 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11743863518701174386351870(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174386351870");
+    editorCell.setCellId("Constant_1174386351870");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -201,21 +201,21 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11743863629831174386362983(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174386362983");
+    editorCell.setCellId("Constant_1174386362983");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11743863660791174386366079(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174386366079");
+    editorCell.setCellId("Constant_1174386366079");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_datetimeProperty1174386370097(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_datetimeProperty");
+    editorCell.setCellId("refCell_datetimeProperty");
   }
 
   private static void setupBasic_Constant_12196600821041219660082104(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1219660082104");
+    editorCell.setCellId("Constant_1219660082104");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
   }
 
@@ -288,7 +288,7 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_pluralForm1174386390741(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_pluralForm");
+      editorCell.setCellId("property_pluralForm");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 

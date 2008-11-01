@@ -17,10 +17,8 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
-import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -110,21 +108,15 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11677108021031167710802103(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167710802103");
+    editorCell.setCellId("Collection_1167710802103");
   }
 
   private static void setupBasic_Constant_11677108039961167710803996(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167710803996");
+    editorCell.setCellId("Constant_1167710803996");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return AttributeGroup_Editor.calculateColor1527_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
 
       };
@@ -133,24 +125,12 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_attributeGroupName1167710972591(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_attributeGroupName");
+    editorCell.setCellId("property_attributeGroupName");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-            public Integer calculate(EditorCell cell) {
-              return AttributeGroup_Editor.calculateFontStyle1527_0(cell);
-            }
-
-          });
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return AttributeGroup_Editor.calculateColor1527_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
         }
 
       };
@@ -159,11 +139,11 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_attributeExpression1167711109079(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_attributeExpression");
+    editorCell.setCellId("refNodeList_attributeExpression");
   }
 
   private static void setupBasic_Constant_11677111588351167711158835(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167711158835");
+    editorCell.setCellId("Constant_1167711158835");
   }
 
   private static void setupLabel_Constant_1167710803996_1167710803996(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -176,24 +156,6 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_1167711158835_1167711158835(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Integer calculateFontStyle1527_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.ITALIC;
-    return result;
-  }
-
-  private static Color calculateColor1527_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.blue;
-    return result;
-  }
-
-  private static Color calculateColor1527_1(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
   }
 
   public static class attributeExpressionListHandler_1527_0 extends RefNodeListHandler {
@@ -257,7 +219,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11677111130181167711113018(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167711113018");
+      editorCell.setCellId("Constant_1167711113018");
     }
 
     private static void setupLabel_Constant_1167711113018_1167711113018(EditorCell_Label editorCell, SNode node, EditorContext context) {

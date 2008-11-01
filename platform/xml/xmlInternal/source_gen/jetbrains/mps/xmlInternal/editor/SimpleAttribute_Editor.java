@@ -122,26 +122,26 @@ public class SimpleAttribute_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11887725374961188772537496(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1188772537496");
+    editorCell.setCellId("Collection_1188772537496");
   }
 
   private static void setupBasic_Constant_11887725427791188772542779(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1188772542779");
+    editorCell.setCellId("Constant_1188772542779");
     XmlStyle_StyleSheet.getXmlOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_attributeName1188772821457(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_attributeName");
+    editorCell.setCellId("property_attributeName");
     XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11887728560381188772856038(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1188772856038");
+    editorCell.setCellId("Constant_1188772856038");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11887728579931188772857993(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1188772857993");
+    editorCell.setCellId("Constant_1188772857993");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
   }
 

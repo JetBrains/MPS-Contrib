@@ -60,7 +60,7 @@ public class Prolog_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11748589241251174858924125(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174858924125");
+    editorCell.setCellId("Collection_1174858924125");
   }
 
   private static void setupBasic_refNode_documentTypeDeclaration1174859745376(EditorCell editorCell, SNode node, EditorContext context) {

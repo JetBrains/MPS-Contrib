@@ -154,11 +154,11 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12119217448311211921744831(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1211921744831");
+    editorCell.setCellId("Collection_1211921744831");
   }
 
   private static void setupBasic_Collection_12119217448321211921744832(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1211921744832");
+    editorCell.setCellId("Collection_1211921744832");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -171,15 +171,15 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_conceptProperty_alias1211921744833(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
   }
 
   private static void setupBasic_Constant_12119217601041211921760104(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1211921760104");
+    editorCell.setCellId("Constant_1211921760104");
   }
 
   private static void setupBasic_Collection_12119217634141211921763414(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1211921763414");
+    editorCell.setCellId("Collection_1211921763414");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -192,7 +192,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Indent_12119217634151211921763415(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1211921763415");
+    editorCell.setCellId("Indent_1211921763415");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -205,11 +205,11 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_item1211921764517(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_item");
+    editorCell.setCellId("refNodeList_item");
   }
 
   private static void setupBasic_property_name1211964885891(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
   }
 
   private static void setupLabel_conceptProperty_alias_1211921744833(EditorCell_Label editorCell, SNode node, EditorContext context) {

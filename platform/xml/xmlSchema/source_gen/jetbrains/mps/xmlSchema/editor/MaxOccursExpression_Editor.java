@@ -24,7 +24,7 @@ public class MaxOccursExpression_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11676146455141167614645514(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1167614645514");
+    editorCell.setCellId("Error_1167614645514");
   }
 
   private static void setupLabel_Error_1167614645514_1167614645514(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -49,7 +49,7 @@ public class PropertyType_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_conceptProperty_alias1196870842780(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
   }
 
   private static void setupLabel_conceptProperty_alias_1196870842780(EditorCell_Label editorCell, SNode node, EditorContext context) {

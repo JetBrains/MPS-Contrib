@@ -17,7 +17,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -97,21 +96,15 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11729520749251172952074925(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172952074925");
+    editorCell.setCellId("Collection_1172952074925");
   }
 
   private static void setupBasic_Constant_11729524285831172952428583(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172952428583");
+    editorCell.setCellId("Constant_1172952428583");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return EntityBlock_Editor.calculateBoolean0386_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -123,7 +116,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_entityLine1172959415342(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_entityLine");
+    editorCell.setCellId("refNodeList_entityLine");
   }
 
   private static void setupLabel_Constant_1172952428583_1172952428583(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -133,12 +126,6 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_refNodeList_entityLine_1172959415342(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  public static Boolean calculateBoolean0386_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
   public static class entityLineListHandler_0386_0 extends RefNodeListHandler {
@@ -197,7 +184,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11729594222961172959422296(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172959422296");
+      editorCell.setCellId("Constant_1172959422296");
     }
 
     private static void setupLabel_Constant_1172959422296_1172959422296(EditorCell_Label editorCell, SNode node, EditorContext context) {

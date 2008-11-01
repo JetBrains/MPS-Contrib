@@ -79,18 +79,18 @@ public class CDATA_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11920387102201192038710220(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1192038710220");
+    editorCell.setCellId("Collection_1192038710220");
   }
 
   private static void setupBasic_Constant_11920387447231192038744723(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1192038744723");
+    editorCell.setCellId("Constant_1192038744723");
   }
 
   private static void setupBasic_refNode_contentList1192038787051(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Constant_11920388815661192038881566(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1192038881566");
+    editorCell.setCellId("Constant_1192038881566");
   }
 
   private static void setupLabel_Constant_1192038744723_1192038744723(EditorCell_Label editorCell, SNode node, EditorContext context) {

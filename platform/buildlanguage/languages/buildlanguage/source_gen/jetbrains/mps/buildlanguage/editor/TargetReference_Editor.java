@@ -53,7 +53,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_targetDeclaration1196853047793(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_targetDeclaration");
+    editorCell.setCellId("refCell_targetDeclaration");
     BuildLanguageStyle_StyleSheet.getTarget(editorCell).apply(editorCell);
   }
 
@@ -105,7 +105,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1196853085105(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       {
         Style inlineStyle = new Style(editorCell) {
           {

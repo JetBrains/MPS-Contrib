@@ -63,7 +63,7 @@ public class GLine_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11673161775301167316177530(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167316177530");
+    editorCell.setCellId("Collection_1167316177530");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -76,11 +76,11 @@ public class GLine_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11673161775311167316177531(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167316177531");
+    editorCell.setCellId("Constant_1167316177531");
   }
 
   private static void setupBasic_refNodeList_item1167316177532(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_item");
+    editorCell.setCellId("refNodeList_item");
   }
 
   private static void setupLabel_Constant_1167316177531_1167316177531(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -145,7 +145,7 @@ public class GLine_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11673161775331167316177533(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167316177533");
+      editorCell.setCellId("Constant_1167316177533");
       {
         Style inlineStyle = new Style(editorCell) {
           {

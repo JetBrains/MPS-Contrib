@@ -142,11 +142,11 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11694884390061169488439006(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169488439006");
+    editorCell.setCellId("Collection_1169488439006");
   }
 
   private static void setupBasic_Collection_11694884429001169488442900(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169488442900");
+    editorCell.setCellId("Collection_1169488442900");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -159,22 +159,22 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11694884460111169488446011(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169488446011");
+    editorCell.setCellId("Constant_1169488446011");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11694884547621169488454762(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169488454762");
+    editorCell.setCellId("Constant_1169488454762");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11694884587811169488458781(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169488458781");
+    editorCell.setCellId("Constant_1169488458781");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11694884622371169488462237(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169488462237");
+    editorCell.setCellId("Collection_1169488462237");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -187,15 +187,15 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_dateFormat1169488470193(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_dateFormat");
+    editorCell.setCellId("refNodeList_dateFormat");
   }
 
   private static void setupBasic_property_name1169550080987(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
   }
 
   private static void setupBasic_Indent_12196599396441219659939644(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1219659939644");
+    editorCell.setCellId("Indent_1219659939644");
   }
 
   private static void setupLabel_Constant_1169488446011_1169488446011(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -269,7 +269,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11694884781791169488478179(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169488478179");
+      editorCell.setCellId("Constant_1169488478179");
     }
 
     private static void setupLabel_Constant_1169488478179_1169488478179(EditorCell_Label editorCell, SNode node, EditorContext context) {

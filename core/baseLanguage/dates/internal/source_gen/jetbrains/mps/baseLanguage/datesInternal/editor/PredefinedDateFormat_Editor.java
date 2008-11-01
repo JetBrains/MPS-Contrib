@@ -70,11 +70,11 @@ public class PredefinedDateFormat_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11738837405911173883740591(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173883740591");
+    editorCell.setCellId("Collection_1173883740591");
   }
 
   private static void setupBasic_Constant_11738837533811173883753381(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173883753381");
+    editorCell.setCellId("Constant_1173883753381");
   }
 
   private static void setupBasic_refNode_formatter1173883763352(EditorCell editorCell, SNode node, EditorContext context) {

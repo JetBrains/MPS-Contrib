@@ -90,7 +90,7 @@ public class EntityLine_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11729595305891172959530589(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172959530589");
+    editorCell.setCellId("Collection_1172959530589");
   }
 
   private static void setupBasic_refNode_entityDeclaration1172959556779(EditorCell editorCell, SNode node, EditorContext context) {

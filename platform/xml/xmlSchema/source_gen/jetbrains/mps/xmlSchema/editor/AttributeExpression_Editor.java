@@ -24,7 +24,7 @@ public class AttributeExpression_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11677110771231167711077123(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1167711077123");
+    editorCell.setCellId("Error_1167711077123");
   }
 
   private static void setupLabel_Error_1167711077123_1167711077123(EditorCell_Label editorCell, SNode node, EditorContext context) {

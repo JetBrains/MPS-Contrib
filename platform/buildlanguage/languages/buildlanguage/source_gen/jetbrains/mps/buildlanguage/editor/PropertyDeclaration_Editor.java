@@ -242,39 +242,39 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12012527123771201252712377(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1201252712377");
+    editorCell.setCellId("Collection_1201252712377");
   }
 
   private static void setupBasic_Collection_12012527138941201252713894(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1201252713894");
+    editorCell.setCellId("Collection_1201252713894");
   }
 
   private static void setupBasic_conceptProperty_alias1201252713895(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_name1201252713896(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
     BuildLanguageStyle_StyleSheet.getProperty(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_12012527138971201252713897(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1201252713897");
+    editorCell.setCellId("Constant_1201252713897");
   }
 
   private static void setupBasic_refNode_type1201252713898(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Constant_12012527138991201252713899(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1201252713899");
+    editorCell.setCellId("Constant_1201252713899");
   }
 
   private static void setupBasic_refNode_propertyValue1201252713900(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Collection_12012527571211201252757121(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1201252757121");
+    editorCell.setCellId("Collection_1201252757121");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -287,12 +287,12 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12012527637641201252763764(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1201252763764");
+    editorCell.setCellId("Constant_1201252763764");
     BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_shortDescription1201252778983(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_shortDescription");
+    editorCell.setCellId("property_shortDescription");
     BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
   }
 

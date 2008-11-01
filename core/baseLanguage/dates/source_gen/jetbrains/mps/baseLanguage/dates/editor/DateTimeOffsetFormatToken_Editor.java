@@ -81,25 +81,25 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11743213007631174321300763(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174321300763");
+    editorCell.setCellId("Collection_1174321300763");
   }
 
   private static void setupBasic_Constant_11743213007641174321300764(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174321300764");
+    editorCell.setCellId("Constant_1174321300764");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refNodeList_durationTypeReference1174321305126(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_durationTypeReference");
+    editorCell.setCellId("refNodeList_durationTypeReference");
   }
 
   private static void setupBasic_Constant_11743213200041174321320004(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174321320004");
+    editorCell.setCellId("Constant_1174321320004");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11743213265061174321326506(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174321326506");
+    editorCell.setCellId("Constant_1174321326506");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -180,7 +180,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11743213160641174321316064(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174321316064");
+      editorCell.setCellId("Constant_1174321316064");
       {
         Style inlineStyle = new Style(editorCell) {
           {

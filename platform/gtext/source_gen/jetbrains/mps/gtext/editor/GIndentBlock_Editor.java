@@ -92,11 +92,11 @@ public class GIndentBlock_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11644178971221164417897122(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1164417897122");
+    editorCell.setCellId("Collection_1164417897122");
   }
 
   private static void setupBasic_Constant_11644178998771164417899877(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1164417899877");
+    editorCell.setCellId("Constant_1164417899877");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -109,7 +109,7 @@ public class GIndentBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11669269349121166926934912(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1166926934912");
+    editorCell.setCellId("Collection_1166926934912");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -122,7 +122,7 @@ public class GIndentBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11669269365551166926936555(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1166926936555");
+    editorCell.setCellId("Constant_1166926936555");
     {
       Style inlineStyle = new Style(editorCell) {
         {

@@ -137,41 +137,41 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11912017198911191201719891(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1191201719891");
+    editorCell.setCellId("Collection_1191201719891");
   }
 
   private static void setupBasic_Constant_11912017269561191201726956(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1191201726956");
+    editorCell.setCellId("Constant_1191201726956");
     XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11912017330201191201733020(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1191201733020");
+    editorCell.setCellId("Constant_1191201733020");
     XmlStyle_StyleSheet.getXmlOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11912017431781191201743178(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1191201743178");
+    editorCell.setCellId("Constant_1191201743178");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11912017450401191201745040(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1191201745040");
+    editorCell.setCellId("Constant_1191201745040");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_uri1191202102629(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_uri");
+    editorCell.setCellId("property_uri");
     XmlStyle_StyleSheet.getXmlText(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11912042692801191204269280(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1191204269280");
+    editorCell.setCellId("Constant_1191204269280");
     XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_prefix1191204309519(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_prefix");
+    editorCell.setCellId("property_prefix");
     XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
   }
 

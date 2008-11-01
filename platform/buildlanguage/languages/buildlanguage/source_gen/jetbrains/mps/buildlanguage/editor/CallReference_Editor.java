@@ -51,7 +51,7 @@ public class CallReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_call1200511941176(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_call");
+    editorCell.setCellId("refCell_call");
   }
 
   private static void setupLabel_refCell_call_1200511941176(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -102,7 +102,7 @@ public class CallReference_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1200511952539(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1200511952539(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -110,19 +110,19 @@ public class Locale_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11726808362901172680836290(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172680836290");
+    editorCell.setCellId("Collection_1172680836290");
   }
 
   private static void setupBasic_Constant_11726808388421172680838842(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172680838842");
+    editorCell.setCellId("Constant_1172680838842");
   }
 
   private static void setupBasic_property_name1172681162364(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
   }
 
   private static void setupBasic_Constant_11726815795461172681579546(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172681579546");
+    editorCell.setCellId("Constant_1172681579546");
   }
 
   private static void setupBasic_refNode_javaLocale1172681593079(EditorCell editorCell, SNode node, EditorContext context) {

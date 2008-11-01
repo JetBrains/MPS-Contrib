@@ -163,11 +163,11 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11743875349261174387534926(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174387534926");
+    editorCell.setCellId("Collection_1174387534926");
   }
 
   private static void setupBasic_Constant_11743875349271174387534927(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174387534927");
+    editorCell.setCellId("Constant_1174387534927");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
@@ -184,7 +184,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11743875349291174387534929(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174387534929");
+    editorCell.setCellId("Constant_1174387534929");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
   }
 
@@ -201,12 +201,12 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11743875349311174387534931(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174387534931");
+    editorCell.setCellId("Constant_1174387534931");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11743875349321174387534932(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174387534932");
+    editorCell.setCellId("Constant_1174387534932");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -221,7 +221,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refCell_datetimeProperty1174387534933(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_datetimeProperty");
+    editorCell.setCellId("refCell_datetimeProperty");
   }
 
   private static void setupLabel_Constant_1174387534927_1174387534927(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -290,7 +290,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_pluralForm1174387534935(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_pluralForm");
+      editorCell.setCellId("property_pluralForm");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 

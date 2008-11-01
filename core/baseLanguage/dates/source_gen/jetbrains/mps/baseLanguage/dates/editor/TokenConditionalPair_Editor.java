@@ -104,19 +104,19 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11695635471491169563547149(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169563547149");
+    editorCell.setCellId("Collection_1169563547149");
   }
 
   private static void setupBasic_refNode_condition1169563552715(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Constant_11695635570921169563557092(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169563557092");
+    editorCell.setCellId("Constant_1169563557092");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_format1169639470143(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_format");
+    editorCell.setCellId("refCell_format");
   }
 
   private static void setupLabel_refNode_condition_1169563552715(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -173,7 +173,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1169639481256(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
     }
 

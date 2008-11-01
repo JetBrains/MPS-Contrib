@@ -51,7 +51,7 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
 
 
   private static void setupBasic_refCell_dateTimeProperty1209039823939(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimeProperty");
+    editorCell.setCellId("refCell_dateTimeProperty");
   }
 
   private static void setupLabel_refCell_dateTimeProperty_1209039823939(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -102,7 +102,7 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
 
 
     private static void setupBasic_property_name1209039825976(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 

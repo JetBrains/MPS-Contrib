@@ -24,7 +24,7 @@ public class GroupExpression_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11675980979701167598097970(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1167598097970");
+    editorCell.setCellId("Error_1167598097970");
   }
 
   private static void setupLabel_Error_1167598097970_1167598097970(EditorCell_Label editorCell, SNode node, EditorContext context) {

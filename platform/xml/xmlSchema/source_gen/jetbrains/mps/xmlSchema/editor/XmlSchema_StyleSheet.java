@@ -7,9 +7,9 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class XmlSchema_StyleSheet {
 
@@ -19,17 +19,17 @@ public class XmlSchema_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
-            return XmlSchema_StyleSheet.calculateColor9352_0(cell);
+            return XmlSchema_StyleSheet._StyleParameter_QueryFunction_1189991412577((cell == null ?
+              null :
+              cell.getSNode()
+            ), (cell == null ?
+              null :
+              cell.getEditorContext()
+            ));
           }
 
         });
-        this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-          public Integer calculate(EditorCell cell) {
-            return XmlSchema_StyleSheet.calculateFontStyle9352_0(cell);
-          }
-
-        });
+        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       }
 
     };
@@ -37,24 +37,6 @@ public class XmlSchema_StyleSheet {
 
   public static Color _StyleParameter_QueryFunction_1189991412577(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
-  }
-
-  private static Integer calculateFontStyle9352_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.BOLD;
-    return result;
-  }
-
-  private static Color calculateColor9352_0(EditorCell cell) {
-    Color result;
-    result = XmlSchema_StyleSheet._StyleParameter_QueryFunction_1189991412577((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
   }
 
 }

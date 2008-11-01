@@ -127,31 +127,31 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11898878983161189887898316(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1189887898316");
+    editorCell.setCellId("Collection_1189887898316");
   }
 
   private static void setupBasic_Constant_11898879011141189887901114(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1189887901114");
+    editorCell.setCellId("Constant_1189887901114");
   }
 
   private static void setupBasic_property_prefix1189887918413(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_prefix");
+    editorCell.setCellId("property_prefix");
   }
 
   private static void setupBasic_Constant_11898879237121189887923712(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1189887923712");
+    editorCell.setCellId("Constant_1189887923712");
   }
 
   private static void setupBasic_Constant_11898879333551189887933355(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1189887933355");
+    editorCell.setCellId("Constant_1189887933355");
   }
 
   private static void setupBasic_Constant_11898879353571189887935357(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1189887935357");
+    editorCell.setCellId("Constant_1189887935357");
   }
 
   private static void setupBasic_property_uri1189887940281(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_uri");
+    editorCell.setCellId("property_uri");
   }
 
   private static void setupLabel_Constant_1189887901114_1189887901114(EditorCell_Label editorCell, SNode node, EditorContext context) {

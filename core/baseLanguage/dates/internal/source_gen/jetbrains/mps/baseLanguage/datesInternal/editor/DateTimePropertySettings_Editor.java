@@ -13,15 +13,13 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
-import java.awt.Color;
-import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
+import jetbrains.mps.nodeEditor.MPSColors;
 
 public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
@@ -301,11 +299,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11720744200971172074420097(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172074420097");
+    editorCell.setCellId("Collection_1172074420097");
   }
 
   private static void setupBasic_Collection_11720744225001172074422500(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172074422500");
+    editorCell.setCellId("Collection_1172074422500");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -318,19 +316,19 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11720744248401172074424840(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172074424840");
+    editorCell.setCellId("Constant_1172074424840");
   }
 
   private static void setupBasic_Constant_11720744353171172074435317(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172074435317");
+    editorCell.setCellId("Constant_1172074435317");
   }
 
   private static void setupBasic_Constant_11720744406981172074440698(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172074440698");
+    editorCell.setCellId("Constant_1172074440698");
   }
 
   private static void setupBasic_Collection_11720744445811172074444581(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172074444581");
+    editorCell.setCellId("Collection_1172074444581");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -343,7 +341,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11720744462041172074446204(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172074446204");
+    editorCell.setCellId("Constant_1172074446204");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -356,7 +354,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11726810408111172681040811(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172681040811");
+    editorCell.setCellId("Collection_1172681040811");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -369,11 +367,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_dateTimeProperty1172681040812(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_dateTimeProperty");
+    editorCell.setCellId("refNodeList_dateTimeProperty");
   }
 
   private static void setupBasic_Constant_11726810480111172681048011(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172681048011");
+    editorCell.setCellId("Constant_1172681048011");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -386,11 +384,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_locale1172681071011(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_locale");
+    editorCell.setCellId("refNodeList_locale");
   }
 
   private static void setupBasic_Constant_11743208279341174320827934(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174320827934");
+    editorCell.setCellId("Constant_1174320827934");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -403,11 +401,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_durationType1174320827935(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_durationType");
+    editorCell.setCellId("refNodeList_durationType");
   }
 
   private static void setupBasic_Constant_11940060184261194006018426(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006018426");
+    editorCell.setCellId("Constant_1194006018426");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -420,11 +418,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_month1194006018430(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_month");
+    editorCell.setCellId("refNodeList_month");
   }
 
   private static void setupBasic_Constant_11940068989141194006898914(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006898914");
+    editorCell.setCellId("Constant_1194006898914");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -437,7 +435,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11940069115661194006911566(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194006911566");
+    editorCell.setCellId("Collection_1194006911566");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -450,11 +448,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_schedulePeriod1194006918222(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_schedulePeriod");
+    editorCell.setCellId("refNodeList_schedulePeriod");
   }
 
   private static void setupBasic_Collection_11940069307741194006930774(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194006930774");
+    editorCell.setCellId("Collection_1194006930774");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -467,31 +465,31 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11940069339121194006933912(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006933912");
+    editorCell.setCellId("Constant_1194006933912");
   }
 
   private static void setupBasic_Constant_11940069376501194006937650(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006937650");
+    editorCell.setCellId("Constant_1194006937650");
   }
 
   private static void setupBasic_Constant_11940069429881194006942988(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006942988");
+    editorCell.setCellId("Constant_1194006942988");
   }
 
   private static void setupBasic_Constant_11940069517421194006951742(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006951742");
+    editorCell.setCellId("Constant_1194006951742");
   }
 
   private static void setupBasic_Constant_11940069573301194006957330(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006957330");
+    editorCell.setCellId("Constant_1194006957330");
   }
 
   private static void setupBasic_Constant_11940069655081194006965508(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006965508");
+    editorCell.setCellId("Constant_1194006965508");
   }
 
   private static void setupBasic_Constant_11940069689001194006968900(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006968900");
+    editorCell.setCellId("Constant_1194006968900");
   }
 
   private static void setupLabel_Constant_1172074424840_1172074424840(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -554,36 +552,6 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   private static void setupLabel_Constant_1194006968900_1194006968900(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static Color calculateColor3687_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor3687_1(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor3687_2(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor3687_3(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor3687_4(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
   public static class dateTimePropertyListHandler_3687_0 extends RefNodeListHandler {
 
     public dateTimePropertyListHandler_3687_0(SNode ownerNode, String childRole, EditorContext context) {
@@ -640,17 +608,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11726810408131172681040813(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172681040813");
+      editorCell.setCellId("Constant_1172681040813");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return DateTimePropertySettings_Editor.calculateColor3687_2(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };
@@ -718,17 +680,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11726810804151172681080415(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172681080415");
+      editorCell.setCellId("Constant_1172681080415");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return DateTimePropertySettings_Editor.calculateColor3687_0(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };
@@ -796,17 +752,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11743208279361174320827936(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174320827936");
+      editorCell.setCellId("Constant_1174320827936");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return DateTimePropertySettings_Editor.calculateColor3687_3(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };
@@ -874,17 +824,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11940060184311194006018431(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006018431");
+      editorCell.setCellId("Constant_1194006018431");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return DateTimePropertySettings_Editor.calculateColor3687_4(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };
@@ -952,17 +896,11 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11940069182231194006918223(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006918223");
+      editorCell.setCellId("Constant_1194006918223");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return DateTimePropertySettings_Editor.calculateColor3687_1(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };

@@ -53,7 +53,7 @@ public class GText_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_property_text1166929205411(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_text");
+    editorCell.setCellId("property_text");
     {
       Style inlineStyle = new Style(editorCell) {
         {

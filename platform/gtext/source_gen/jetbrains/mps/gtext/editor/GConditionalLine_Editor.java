@@ -103,23 +103,23 @@ public class GConditionalLine_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11791115581001179111558100(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1179111558100");
+    editorCell.setCellId("Collection_1179111558100");
   }
 
   private static void setupBasic_Constant_11791115581011179111558101(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1179111558101");
+    editorCell.setCellId("Constant_1179111558101");
   }
 
   private static void setupBasic_property_isSeparate1179111558102(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_isSeparate");
+    editorCell.setCellId("property_isSeparate");
   }
 
   private static void setupBasic_Constant_11791115581031179111558103(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1179111558103");
+    editorCell.setCellId("Constant_1179111558103");
   }
 
   private static void setupBasic_refNodeList_item1179111558104(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_item");
+    editorCell.setCellId("refNodeList_item");
   }
 
   private static void setupLabel_Constant_1179111558101_1179111558101(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -13,15 +13,13 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
-import java.awt.Color;
-import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
+import jetbrains.mps.nodeEditor.MPSColors;
 
 public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
@@ -217,11 +215,11 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11694916992361169491699236(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169491699236");
+    editorCell.setCellId("Collection_1169491699236");
   }
 
   private static void setupBasic_Collection_11694916992371169491699237(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169491699237");
+    editorCell.setCellId("Collection_1169491699237");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -234,15 +232,15 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11694916992381169491699238(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169491699238");
+    editorCell.setCellId("Constant_1169491699238");
   }
 
   private static void setupBasic_Constant_11694916992391169491699239(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169491699239");
+    editorCell.setCellId("Constant_1169491699239");
   }
 
   private static void setupBasic_Collection_11694916992401169491699240(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169491699240");
+    editorCell.setCellId("Collection_1169491699240");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -255,7 +253,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11694916992411169491699241(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169491699241");
+    editorCell.setCellId("Constant_1169491699241");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -268,7 +266,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11694916992421169491699242(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169491699242");
+    editorCell.setCellId("Collection_1169491699242");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -281,15 +279,15 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11694916992471169491699247(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169491699247");
+    editorCell.setCellId("Constant_1169491699247");
   }
 
   private static void setupBasic_refNodeList_predefinedDateFormat1173884040947(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_predefinedDateFormat");
+    editorCell.setCellId("refNodeList_predefinedDateFormat");
   }
 
   private static void setupBasic_Collection_11739548279181173954827918(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173954827918");
+    editorCell.setCellId("Collection_1173954827918");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -302,11 +300,11 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11739548279191173954827919(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173954827919");
+    editorCell.setCellId("Constant_1173954827919");
   }
 
   private static void setupBasic_Collection_11739548279201173954827920(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173954827920");
+    editorCell.setCellId("Collection_1173954827920");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -319,7 +317,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11739548279211173954827921(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173954827921");
+    editorCell.setCellId("Constant_1173954827921");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -332,15 +330,15 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_dateTimePropertyCardinality1173954827922(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_dateTimePropertyCardinality");
+    editorCell.setCellId("refNodeList_dateTimePropertyCardinality");
   }
 
   private static void setupBasic_Constant_11739548279241173954827924(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173954827924");
+    editorCell.setCellId("Constant_1173954827924");
   }
 
   private static void setupBasic_Constant_11739548279251173954827925(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173954827925");
+    editorCell.setCellId("Constant_1173954827925");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -353,11 +351,11 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_dateTimePropertyFormatConfiguration1173954827926(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_dateTimePropertyFormatConfiguration");
+    editorCell.setCellId("refNodeList_dateTimePropertyFormatConfiguration");
   }
 
   private static void setupBasic_Constant_11739548431951173954843195(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173954843195");
+    editorCell.setCellId("Constant_1173954843195");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -403,24 +401,6 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_1173954843195_1173954843195(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Color calculateColor0889_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor0889_1(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
-  }
-
-  private static Color calculateColor0889_2(EditorCell cell) {
-    Color result;
-    result = MPSColors.lightGray;
-    return result;
   }
 
   public static class predefinedDateFormatListHandler_0889_0 extends RefNodeListHandler {
@@ -479,17 +459,11 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11738840486981173884048698(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173884048698");
+      editorCell.setCellId("Constant_1173884048698");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return FormatTokenSettings_Editor.calculateColor0889_0(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };
@@ -557,17 +531,11 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11739548279231173954827923(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173954827923");
+      editorCell.setCellId("Constant_1173954827923");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return FormatTokenSettings_Editor.calculateColor0889_1(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };
@@ -635,17 +603,11 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11739548279271173954827927(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173954827927");
+      editorCell.setCellId("Constant_1173954827927");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-              public Color calculate(EditorCell cell) {
-                return FormatTokenSettings_Editor.calculateColor0889_2(cell);
-              }
-
-            });
+            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
 
         };

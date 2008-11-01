@@ -84,11 +84,11 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11695633916221169563391622(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169563391622");
+    editorCell.setCellId("Collection_1169563391622");
   }
 
   private static void setupBasic_refCell_dateFormat1169563396905(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateFormat");
+    editorCell.setCellId("refCell_dateFormat");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -101,12 +101,12 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11739692434201173969243420(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173969243420");
+    editorCell.setCellId("Constant_1173969243420");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11739692476721173969247672(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173969247672");
+    editorCell.setCellId("Constant_1173969247672");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
@@ -164,7 +164,7 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1169563404674(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
     }
 

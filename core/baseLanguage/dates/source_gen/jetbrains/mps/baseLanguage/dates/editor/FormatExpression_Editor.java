@@ -116,14 +116,14 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11695577322511169557732251(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169557732251");
+    editorCell.setCellId("Collection_1169557732251");
   }
 
   private static void setupBasic_refNode_dateExpression1169557735519(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Collection_11720661554381172066155438(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172066155438");
+    editorCell.setCellId("Collection_1172066155438");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -137,11 +137,11 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refCell_dateFormat1172066155439(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateFormat");
+    editorCell.setCellId("refCell_dateFormat");
   }
 
   private static void setupBasic_Constant_11720661639031172066163903(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172066163903");
+    editorCell.setCellId("Constant_1172066163903");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -209,7 +209,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1172066155441(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
     }
 

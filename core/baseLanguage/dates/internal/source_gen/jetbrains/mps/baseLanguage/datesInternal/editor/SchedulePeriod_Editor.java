@@ -250,39 +250,39 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11940065657311194006565731(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194006565731");
+    editorCell.setCellId("Collection_1194006565731");
   }
 
   private static void setupBasic_property_name1194006580942(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
   }
 
   private static void setupBasic_property_month1194006585464(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_month");
+    editorCell.setCellId("property_month");
   }
 
   private static void setupBasic_property_dayOfMonth1194006746546(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_dayOfMonth");
+    editorCell.setCellId("property_dayOfMonth");
   }
 
   private static void setupBasic_property_dayOfWeek1194006749661(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_dayOfWeek");
+    editorCell.setCellId("property_dayOfWeek");
   }
 
   private static void setupBasic_property_hour1194006752142(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_hour");
+    editorCell.setCellId("property_hour");
   }
 
   private static void setupBasic_property_minute1194006753664(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_minute");
+    editorCell.setCellId("property_minute");
   }
 
   private static void setupBasic_property_second1194006756506(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_second");
+    editorCell.setCellId("property_second");
   }
 
   private static void setupBasic_Constant_11940068672591194006867259(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194006867259");
+    editorCell.setCellId("Constant_1194006867259");
   }
 
   private static void setupLabel_property_name_1194006580942(EditorCell_Label editorCell, SNode node, EditorContext context) {

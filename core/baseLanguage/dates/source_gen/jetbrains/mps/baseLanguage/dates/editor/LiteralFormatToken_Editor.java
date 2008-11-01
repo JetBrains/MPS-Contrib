@@ -64,11 +64,11 @@ public class LiteralFormatToken_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11694955113061169495511306(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169495511306");
+    editorCell.setCellId("Collection_1169495511306");
   }
 
   private static void setupBasic_property_value1169495511307(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
+    editorCell.setCellId("property_value");
     {
       Style inlineStyle = new Style(editorCell) {
         {

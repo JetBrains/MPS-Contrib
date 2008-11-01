@@ -19,7 +19,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import javax.swing.JComponent;
 import jetbrains.mps.ide.browser.HyperlinkUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -295,21 +294,15 @@ public class Schema_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11675132700461167513270046(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167513270046");
+    editorCell.setCellId("Collection_1167513270046");
   }
 
   private static void setupBasic_Collection_11675132948931167513294893(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167513294893");
+    editorCell.setCellId("Collection_1167513294893");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Schema_Editor.calculateBoolean3461_5(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -318,21 +311,15 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11675133023501167513302350(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167513302350");
+    editorCell.setCellId("Constant_1167513302350");
   }
 
   private static void setupBasic_Constant_11675134870221167513487022(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167513487022");
+    editorCell.setCellId("Constant_1167513487022");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Schema_Editor.calculateBoolean3461_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -341,21 +328,15 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_declarationBlock1167514049081(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_declarationBlock");
+    editorCell.setCellId("refNodeList_declarationBlock");
   }
 
   private static void setupBasic_Collection_11675380243301167538024330(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167538024330");
+    editorCell.setCellId("Collection_1167538024330");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Schema_Editor.calculateBoolean3461_2(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -364,24 +345,18 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11675380256921167538025692(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167538025692");
+    editorCell.setCellId("Constant_1167538025692");
   }
 
   private static void setupBasic_refNode_rootElementReference1167538034787(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Constant_11675380412271167538041227(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167538041227");
+    editorCell.setCellId("Constant_1167538041227");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Schema_Editor.calculateBoolean3461_3(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -390,41 +365,35 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_schemaName1167754971313(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_schemaName");
+    editorCell.setCellId("property_schemaName");
   }
 
   private static void setupBasic_Constant_11680229182971168022918297(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1168022918297");
+    editorCell.setCellId("Constant_1168022918297");
   }
 
   private static void setupBasic_Constant_11680229212681168022921268(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1168022921268");
+    editorCell.setCellId("Constant_1168022921268");
   }
 
   private static void setupBasic_property_alwaysUseRoot1168022928801(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_alwaysUseRoot");
+    editorCell.setCellId("property_alwaysUseRoot");
   }
 
   private static void setupBasic_Constant_11680229386781168022938678(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1168022938678");
+    editorCell.setCellId("Constant_1168022938678");
   }
 
   private static void setupBasic_JComponent_11729582145491172958214549(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "JComponent_1172958214549");
+    editorCell.setCellId("JComponent_1172958214549");
   }
 
   private static void setupBasic_Collection_11899889922221189988992222(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1189988992222");
+    editorCell.setCellId("Collection_1189988992222");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Schema_Editor.calculateBoolean3461_4(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -433,17 +402,11 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11899889952711189988995271(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1189988995271");
+    editorCell.setCellId("Constant_1189988995271");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Schema_Editor.calculateBoolean3461_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -452,7 +415,7 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11899890015221189989001522(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1189989001522");
+    editorCell.setCellId("Constant_1189989001522");
   }
 
   private static void setupBasic_refNode_defaultNamespaceDeclaration1189989010368(EditorCell editorCell, SNode node, EditorContext context) {
@@ -502,42 +465,6 @@ public class Schema_Editor extends DefaultNodeEditor {
 
   public static JComponent _QueryFunction_JComponent_1176495162226(SNode node, EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "schemaUrl"));
-  }
-
-  public static Boolean calculateBoolean3461_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3461_1(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3461_2(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3461_3(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3461_4(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3461_5(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
   public static class declarationBlockListHandler_3461_0 extends RefNodeListHandler {

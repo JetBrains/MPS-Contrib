@@ -93,14 +93,14 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11719638745451171963874545(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1171963874545");
+    editorCell.setCellId("Collection_1171963874545");
   }
 
   private static void setupBasic_refNode_datetime1171964018735(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_conceptProperty_alias1171966473900(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
     {
       Style inlineStyle = new Style(editorCell) {
         {

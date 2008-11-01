@@ -108,11 +108,11 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11695637010461169563701046(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169563701046");
+    editorCell.setCellId("Collection_1169563701046");
   }
 
   private static void setupBasic_Collection_11695637010471169563701047(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169563701047");
+    editorCell.setCellId("Collection_1169563701047");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -125,17 +125,17 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11695637010481169563701048(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169563701048");
+    editorCell.setCellId("Constant_1169563701048");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11695637010491169563701049(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169563701049");
+    editorCell.setCellId("Constant_1169563701049");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11695637112121169563711212(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169563711212");
+    editorCell.setCellId("Collection_1169563711212");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -148,16 +148,16 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_conditionPair1169563716715(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_conditionPair");
+    editorCell.setCellId("refNodeList_conditionPair");
   }
 
   private static void setupBasic_Constant_11695637283741169563728374(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169563728374");
+    editorCell.setCellId("Constant_1169563728374");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Indent_12196597762601219659776260(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1219659776260");
+    editorCell.setCellId("Indent_1219659776260");
   }
 
   private static void setupLabel_Constant_1169563701048_1169563701048(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -228,7 +228,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11695637232161169563723216(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169563723216");
+      editorCell.setCellId("Constant_1169563723216");
     }
 
     private static void setupLabel_Constant_1169563723216_1169563723216(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -171,30 +171,30 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11723314035101172331403510(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172331403510");
+    editorCell.setCellId("Collection_1172331403510");
   }
 
   private static void setupBasic_Collection_11723314035111172331403511(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172331403511");
+    editorCell.setCellId("Collection_1172331403511");
     UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_11723314035121172331403512(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172331403512");
+    editorCell.setCellId("Constant_1172331403512");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11723314035131172331403513(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172331403513");
+    editorCell.setCellId("Constant_1172331403513");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_dateTimeProperty1172331403514(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimeProperty");
+    editorCell.setCellId("refCell_dateTimeProperty");
   }
 
   private static void setupBasic_Constant_11723314035171172331403517(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172331403517");
+    editorCell.setCellId("Constant_1172331403517");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
   }
 
@@ -202,7 +202,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11723314035191172331403519(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172331403519");
+    editorCell.setCellId("Constant_1172331403519");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
@@ -275,7 +275,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1172331403516(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 

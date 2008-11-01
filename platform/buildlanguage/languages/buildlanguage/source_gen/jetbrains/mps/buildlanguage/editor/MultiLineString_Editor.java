@@ -40,7 +40,7 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refNodeList_stringExpression1218551685247(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_stringExpression");
+    editorCell.setCellId("refNodeList_stringExpression");
   }
 
   private static void setupLabel_refNodeList_stringExpression_1218551685247(EditorCell_Label editorCell, SNode node, EditorContext context) {

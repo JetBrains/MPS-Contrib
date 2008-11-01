@@ -79,19 +79,19 @@ public class UseAttribute_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11684676572641168467657264(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1168467657264");
+    editorCell.setCellId("Collection_1168467657264");
   }
 
   private static void setupBasic_Constant_11684676584231168467658423(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1168467658423");
+    editorCell.setCellId("Constant_1168467658423");
   }
 
   private static void setupBasic_Constant_11684676610811168467661081(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1168467661081");
+    editorCell.setCellId("Constant_1168467661081");
   }
 
   private static void setupBasic_property_use1168468048659(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_use");
+    editorCell.setCellId("property_use");
   }
 
   private static void setupLabel_Constant_1168467658423_1168467658423(EditorCell_Label editorCell, SNode node, EditorContext context) {

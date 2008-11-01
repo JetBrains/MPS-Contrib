@@ -15,8 +15,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class ComplexContent_Editor extends DefaultNodeEditor {
@@ -75,21 +73,15 @@ public class ComplexContent_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11677944627311167794462731(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167794462731");
+    editorCell.setCellId("Collection_1167794462731");
   }
 
   private static void setupBasic_Constant_11677944653741167794465374(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167794465374");
+    editorCell.setCellId("Constant_1167794465374");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return ComplexContent_Editor.calculateColor2579_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
 
       };
@@ -104,12 +96,6 @@ public class ComplexContent_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_refNode_contentItem_1167794787588(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Color calculateColor2579_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
   }
 
 }

@@ -24,7 +24,7 @@ public class FormatToken_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11695492902181169549290218(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1169549290218");
+    editorCell.setCellId("Error_1169549290218");
   }
 
   private static void setupLabel_Error_1169549290218_1169549290218(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -16,10 +16,10 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSColors;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.MPSColors;
 
 public class ElementWithType_Editor extends DefaultNodeEditor {
 
@@ -155,21 +155,15 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11678383994951167838399495(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167838399495");
+    editorCell.setCellId("Collection_1167838399495");
   }
 
   private static void setupBasic_Constant_11678384012471167838401247(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167838401247");
+    editorCell.setCellId("Constant_1167838401247");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return ElementWithType_Editor.calculateColor3872_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
 
       };
@@ -178,21 +172,21 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_elementName1167838910667(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_elementName");
+    editorCell.setCellId("property_elementName");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-            public Integer calculate(EditorCell cell) {
-              return ElementWithType_Editor.calculateFontStyle3872_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
           this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
             public Color calculate(EditorCell cell) {
-              return ElementWithType_Editor.calculateColor3872_0(cell);
+              return ElementWithType_Editor._StyleParameter_QueryFunction_1214399678719((cell == null ?
+                null :
+                cell.getSNode()
+              ), (cell == null ?
+                null :
+                cell.getEditorContext()
+              ));
             }
 
           });
@@ -204,11 +198,11 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11678390048681167839004868(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167839004868");
+    editorCell.setCellId("Constant_1167839004868");
   }
 
   private static void setupBasic_Constant_11678390075581167839007558(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167839007558");
+    editorCell.setCellId("Constant_1167839007558");
   }
 
   private static void setupBasic_refNode_complexTypeReference1167839577719(EditorCell editorCell, SNode node, EditorContext context) {
@@ -237,30 +231,6 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
 
   public static Color _StyleParameter_QueryFunction_1214399678719(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
-  }
-
-  private static Integer calculateFontStyle3872_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.BOLD;
-    return result;
-  }
-
-  private static Color calculateColor3872_0(EditorCell cell) {
-    Color result;
-    result = ElementWithType_Editor._StyleParameter_QueryFunction_1214399678719((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
-  }
-
-  private static Color calculateColor3872_1(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
   }
 
 }

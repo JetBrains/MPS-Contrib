@@ -12,7 +12,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -106,25 +105,19 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11676206349061167620634906(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167620634906");
+    editorCell.setCellId("Collection_1167620634906");
   }
 
   private static void setupBasic_refNodeList_textLine1167620882683(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_textLine");
+    editorCell.setCellId("refNodeList_textLine");
   }
 
   private static void setupBasic_Constant_11676210850731167621085073(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167621085073");
+    editorCell.setCellId("Constant_1167621085073");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return DeclarationBlock_Editor.calculateBoolean8297_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -133,17 +126,11 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11676210894051167621089405(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167621089405");
+    editorCell.setCellId("Collection_1167621089405");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return DeclarationBlock_Editor.calculateBoolean8297_2(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -152,17 +139,11 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11676210918131167621091813(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167621091813");
+    editorCell.setCellId("Constant_1167621091813");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return DeclarationBlock_Editor.calculateBoolean8297_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -171,21 +152,15 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_declaration1167621127144(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_declaration");
+    editorCell.setCellId("refNodeList_declaration");
   }
 
   private static void setupBasic_Constant_11676214003281167621400328(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167621400328");
+    editorCell.setCellId("Constant_1167621400328");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return DeclarationBlock_Editor.calculateBoolean8297_3(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -206,30 +181,6 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_1167621400328_1167621400328(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  public static Boolean calculateBoolean8297_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean8297_1(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean8297_2(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean8297_3(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
   public static class textLineListHandler_8297_0 extends RefNodeListHandler {

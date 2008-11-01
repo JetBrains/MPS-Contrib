@@ -49,7 +49,7 @@ public class CallReferenceType_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_conceptProperty_alias1200511745934(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
   }
 
   private static void setupLabel_conceptProperty_alias_1200511745934(EditorCell_Label editorCell, SNode node, EditorContext context) {

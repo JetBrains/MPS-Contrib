@@ -125,7 +125,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11971080898721197108089872(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1197108089872");
+    editorCell.setCellId("Collection_1197108089872");
   }
 
   private static void setupBasic_refNode_left1197108091296(EditorCell editorCell, SNode node, EditorContext context) {
@@ -133,7 +133,7 @@ public class BinaryOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_conceptProperty_operation1197108103094(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_operation");
+    editorCell.setCellId("conceptProperty_operation");
   }
 
   private static void setupBasic_refNode_right1197108106565(EditorCell editorCell, SNode node, EditorContext context) {

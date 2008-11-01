@@ -50,7 +50,7 @@ public class BuilderContextRef_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_conceptProperty_alias1207736305866(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
     BaseLanguageStyle_StyleSheet.getCompactKeyWord(editorCell).apply(editorCell);
   }
 

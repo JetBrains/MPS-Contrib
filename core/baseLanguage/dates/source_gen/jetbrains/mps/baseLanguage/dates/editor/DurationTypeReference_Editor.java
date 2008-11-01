@@ -51,7 +51,7 @@ public class DurationTypeReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_durationType1174320940648(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_durationType");
+    editorCell.setCellId("refCell_durationType");
   }
 
   private static void setupLabel_refCell_durationType_1174320940648(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -102,7 +102,7 @@ public class DurationTypeReference_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1174321047688(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 

@@ -90,16 +90,16 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11748562798211174856279821(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174856279821");
+    editorCell.setCellId("Collection_1174856279821");
   }
 
   private static void setupBasic_Constant_11748562798221174856279822(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174856279822");
+    editorCell.setCellId("Constant_1174856279822");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11748562798231174856279823(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174856279823");
+    editorCell.setCellId("Collection_1174856279823");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -115,7 +115,7 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Indent_12168199570201216819957020(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1216819957020");
+    editorCell.setCellId("Indent_1216819957020");
   }
 
   private static void setupLabel_Constant_1174856279822_1174856279822(EditorCell_Label editorCell, SNode node, EditorContext context) {

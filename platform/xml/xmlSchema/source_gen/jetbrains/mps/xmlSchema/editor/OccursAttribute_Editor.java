@@ -119,26 +119,26 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11676136580561167613658056(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167613658056");
+    editorCell.setCellId("Collection_1167613658056");
   }
 
   private static void setupBasic_Constant_11676136623081167613662308(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167613662308");
+    editorCell.setCellId("Constant_1167613662308");
   }
 
   private static void setupBasic_property_minOccurs1167614037775(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_minOccurs");
+    editorCell.setCellId("property_minOccurs");
   }
 
   private static void setupBasic_refNode_maxOccurs1167614680720(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_Constant_11676149646641167614964664(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167614964664");
+    editorCell.setCellId("Constant_1167614964664");
   }
 
   private static void setupBasic_Constant_11676149685251167614968525(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167614968525");
+    editorCell.setCellId("Constant_1167614968525");
   }
 
   private static void setupLabel_Constant_1167613662308_1167613662308(EditorCell_Label editorCell, SNode node, EditorContext context) {

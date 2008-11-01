@@ -123,25 +123,25 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11677003841131167700384113(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167700384113");
+    editorCell.setCellId("Collection_1167700384113");
   }
 
   private static void setupBasic_Constant_11677003859901167700385990(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167700385990");
+    editorCell.setCellId("Constant_1167700385990");
     XmlStyle_StyleSheet.getXmlOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_attributeDeclaration1167701355879(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_attributeDeclaration");
+    editorCell.setCellId("refCell_attributeDeclaration");
   }
 
   private static void setupBasic_Constant_11677016257141167701625714(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701625714");
+    editorCell.setCellId("Constant_1167701625714");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677016280761167701628076(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167701628076");
+    editorCell.setCellId("Constant_1167701628076");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
   }
 
@@ -217,7 +217,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_attributeName1167701361647(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_attributeName");
+      editorCell.setCellId("property_attributeName");
       XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
     }
 

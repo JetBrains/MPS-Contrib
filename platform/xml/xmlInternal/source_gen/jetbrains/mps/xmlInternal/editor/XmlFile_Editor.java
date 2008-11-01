@@ -213,11 +213,11 @@ public class XmlFile_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11664722795981166472279598(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1166472279598");
+    editorCell.setCellId("Collection_1166472279598");
   }
 
   private static void setupBasic_Collection_11664722795991166472279599(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1166472279599");
+    editorCell.setCellId("Collection_1166472279599");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -230,7 +230,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11664722796021166472279602(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1166472279602");
+    editorCell.setCellId("Constant_1166472279602");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -243,12 +243,12 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11677552893911167755289391(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167755289391");
+    editorCell.setCellId("Constant_1167755289391");
     BaseLanguageStyle_StyleSheet.getDot(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_fileName1167755313240(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_fileName");
+    editorCell.setCellId("property_fileName");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -261,28 +261,28 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11677556852661167755685266(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167755685266");
+    editorCell.setCellId("Constant_1167755685266");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677556876901167755687690(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167755687690");
+    editorCell.setCellId("Constant_1167755687690");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677556907071167755690707(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167755690707");
+    editorCell.setCellId("Constant_1167755690707");
   }
 
   private static void setupBasic_refCell_schema1167755834627(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_schema");
+    editorCell.setCellId("refCell_schema");
   }
 
   private static void setupBasic_refNode_document1174833352907(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_property_extension1188753335822(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_extension");
+    editorCell.setCellId("property_extension");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -366,7 +366,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_schemaName1167755838599(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_schemaName");
+      editorCell.setCellId("property_schemaName");
       {
         Style inlineStyle = new Style(editorCell) {
           {

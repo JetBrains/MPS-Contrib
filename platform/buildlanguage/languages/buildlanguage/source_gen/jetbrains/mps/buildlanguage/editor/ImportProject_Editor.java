@@ -93,16 +93,16 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12017027175781201702717578(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1201702717578");
+    editorCell.setCellId("Collection_1201702717578");
   }
 
   private static void setupBasic_conceptProperty_alias1201702784253(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_project1201702787271(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_project");
+    editorCell.setCellId("refCell_project");
   }
 
   private static void setupLabel_conceptProperty_alias_1201702784253(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -156,7 +156,7 @@ public class ImportProject_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1201702791494(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1201702791494(EditorCell_Label editorCell, SNode node, EditorContext context) {

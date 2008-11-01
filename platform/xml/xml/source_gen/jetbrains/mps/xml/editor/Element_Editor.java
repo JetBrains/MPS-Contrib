@@ -388,19 +388,19 @@ public class Element_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Alternation_11677077777671167707777767(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Alternation_1167707777767");
+    editorCell.setCellId("Alternation_1167707777767");
   }
 
   private static void setupBasic_Alternation_11677077812241167707781224(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Alternation_1167707781224");
+    editorCell.setCellId("Alternation_1167707781224");
   }
 
   private static void setupBasic_Collection_11677077812321167707781232(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167707781232");
+    editorCell.setCellId("Collection_1167707781232");
   }
 
   private static void setupBasic_Collection_11677077812331167707781233(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167707781233");
+    editorCell.setCellId("Collection_1167707781233");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -413,17 +413,17 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11677077812341167707781234(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781234");
+    editorCell.setCellId("Constant_1167707781234");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677077812391167707781239(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781239");
+    editorCell.setCellId("Constant_1167707781239");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11677077812401167707781240(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167707781240");
+    editorCell.setCellId("Collection_1167707781240");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -439,7 +439,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11677077812431167707781243(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167707781243");
+    editorCell.setCellId("Collection_1167707781243");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -452,26 +452,26 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11677077812441167707781244(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781244");
+    editorCell.setCellId("Constant_1167707781244");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677077812481167707781248(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781248");
+    editorCell.setCellId("Constant_1167707781248");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11677077812491167707781249(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167707781249");
+    editorCell.setCellId("Collection_1167707781249");
   }
 
   private static void setupBasic_Constant_11677077812501167707781250(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781250");
+    editorCell.setCellId("Constant_1167707781250");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677077812551167707781255(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781255");
+    editorCell.setCellId("Constant_1167707781255");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -491,7 +491,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11677077812571167707781257(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781257");
+    editorCell.setCellId("Constant_1167707781257");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -505,62 +505,62 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11677077812611167707781261(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707781261");
+    editorCell.setCellId("Constant_1167707781261");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Collection_11677078159481167707815948(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167707815948");
+    editorCell.setCellId("Collection_1167707815948");
   }
 
   private static void setupBasic_Constant_11677078221841167707822184(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707822184");
+    editorCell.setCellId("Constant_1167707822184");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11677078472711167707847271(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167707847271");
+    editorCell.setCellId("Constant_1167707847271");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_component_BaseElement_attributeList1177880043960(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_BaseElement_attributeList");
+    editorCell.setCellId("component_BaseElement_attributeList");
   }
 
   private static void setupBasic_component_BaseElement_attributeList1177880053862(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_BaseElement_attributeList");
+    editorCell.setCellId("component_BaseElement_attributeList");
   }
 
   private static void setupBasic_component_BaseElement_attributeList1177880060739(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_BaseElement_attributeList");
+    editorCell.setCellId("component_BaseElement_attributeList");
   }
 
   private static void setupBasic_component_Element_elementDeclaration1179101313080(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_Element_elementDeclaration");
+    editorCell.setCellId("component_Element_elementDeclaration");
   }
 
   private static void setupBasic_component_Element_elementDeclaration1179101325357(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_Element_elementDeclaration");
+    editorCell.setCellId("component_Element_elementDeclaration");
   }
 
   private static void setupBasic_component_Element_elementDeclaration1179101337368(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_Element_elementDeclaration");
+    editorCell.setCellId("component_Element_elementDeclaration");
   }
 
   private static void setupBasic_component_Element_elementDeclaration1179101350941(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_Element_elementDeclaration");
+    editorCell.setCellId("component_Element_elementDeclaration");
   }
 
   private static void setupBasic_component_Element_elementDeclaration1179101361623(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "component_Element_elementDeclaration");
+    editorCell.setCellId("component_Element_elementDeclaration");
   }
 
   private static void setupBasic_Indent_12168137083751216813708375(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Indent_1216813708375");
+    editorCell.setCellId("Indent_1216813708375");
   }
 
   private static void setupBasic_Constant_12168161715141216816171514(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1216816171514");
+    editorCell.setCellId("Constant_1216816171514");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -573,7 +573,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12168162034131216816203413(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1216816203413");
+    editorCell.setCellId("Constant_1216816203413");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -586,7 +586,7 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_12168162111591216816211159(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1216816211159");
+    editorCell.setCellId("Constant_1216816211159");
     {
       Style inlineStyle = new Style(editorCell) {
         {

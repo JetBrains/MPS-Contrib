@@ -132,34 +132,34 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11726837737141172683773714(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172683773714");
+    editorCell.setCellId("Collection_1172683773714");
   }
 
   private static void setupBasic_Constant_11726837775521172683777552(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172683777552");
+    editorCell.setCellId("Constant_1172683777552");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_locale1172683796304(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_locale");
+    editorCell.setCellId("refCell_locale");
   }
 
   private static void setupBasic_Constant_11726838167561172683816756(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172683816756");
+    editorCell.setCellId("Constant_1172683816756");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11726838387001172683838700(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172683838700");
+    editorCell.setCellId("Constant_1172683838700");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_dateFormat1172684363615(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateFormat");
+    editorCell.setCellId("refCell_dateFormat");
   }
 
   private static void setupBasic_Constant_12196604318541219660431854(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1219660431854");
+    editorCell.setCellId("Constant_1219660431854");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
@@ -226,7 +226,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1172683801330(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
       {
         Style inlineStyle = new Style(editorCell) {
@@ -288,7 +288,7 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1172684370133(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
     }
 

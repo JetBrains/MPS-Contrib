@@ -370,15 +370,15 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11940077767231194007776723(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194007776723");
+    editorCell.setCellId("Collection_1194007776723");
   }
 
   private static void setupBasic_refCell_schedulePeriod1194007779167(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_schedulePeriod");
+    editorCell.setCellId("refCell_schedulePeriod");
   }
 
   private static void setupBasic_Collection_11940078046081194007804608(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194007804608");
+    editorCell.setCellId("Collection_1194007804608");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -391,7 +391,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11940078116151194007811615(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194007811615");
+    editorCell.setCellId("Constant_1194007811615");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -404,7 +404,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11940083470591194008347059(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194008347059");
+    editorCell.setCellId("Collection_1194008347059");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -417,11 +417,11 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refCell_month1194008352398(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_month");
+    editorCell.setCellId("refCell_month");
   }
 
   private static void setupBasic_Constant_11940083592511194008359251(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194008359251");
+    editorCell.setCellId("Constant_1194008359251");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -435,15 +435,15 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_dayOfWeek1194008406577(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_dayOfWeek");
+    editorCell.setCellId("property_dayOfWeek");
   }
 
   private static void setupBasic_property_dayOfMonth1194008426844(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_dayOfMonth");
+    editorCell.setCellId("property_dayOfMonth");
   }
 
   private static void setupBasic_Collection_11940085218581194008521858(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194008521858");
+    editorCell.setCellId("Collection_1194008521858");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -456,7 +456,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11940085218591194008521859(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194008521859");
+    editorCell.setCellId("Constant_1194008521859");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -469,7 +469,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11940086274801194008627480(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194008627480");
+    editorCell.setCellId("Collection_1194008627480");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -482,11 +482,11 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_second1194008657212(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_second");
+    editorCell.setCellId("property_second");
   }
 
   private static void setupBasic_Collection_11940086851291194008685129(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194008685129");
+    editorCell.setCellId("Collection_1194008685129");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -499,11 +499,11 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_minute1194008689245(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_minute");
+    editorCell.setCellId("property_minute");
   }
 
   private static void setupBasic_Constant_11940086910291194008691029(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194008691029");
+    editorCell.setCellId("Constant_1194008691029");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -516,7 +516,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11940087323721194008732372(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1194008732372");
+    editorCell.setCellId("Collection_1194008732372");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -529,11 +529,11 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_hour1194008735863(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_hour");
+    editorCell.setCellId("property_hour");
   }
 
   private static void setupBasic_Constant_11940087378641194008737864(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194008737864");
+    editorCell.setCellId("Constant_1194008737864");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -658,7 +658,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1194007796729(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1194007796729(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -710,7 +710,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1194008355232(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1194008355232(EditorCell_Label editorCell, SNode node, EditorContext context) {

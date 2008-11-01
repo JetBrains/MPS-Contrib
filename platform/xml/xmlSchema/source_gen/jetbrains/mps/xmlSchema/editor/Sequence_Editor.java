@@ -15,12 +15,10 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
+import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.nodeEditor.MPSColors;
 
 public class Sequence_Editor extends DefaultNodeEditor {
 
@@ -177,25 +175,19 @@ public class Sequence_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Alternation_11678458717991167845871799(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Alternation_1167845871799");
+    editorCell.setCellId("Alternation_1167845871799");
   }
 
   private static void setupBasic_Collection_11678458728181167845872818(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167845872818");
+    editorCell.setCellId("Collection_1167845872818");
   }
 
   private static void setupBasic_Constant_11678458728191167845872819(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167845872819");
+    editorCell.setCellId("Constant_1167845872819");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return Sequence_Editor.calculateColor2283_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
 
       };
@@ -204,17 +196,11 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11678458728201167845872820(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167845872820");
+    editorCell.setCellId("Collection_1167845872820");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Sequence_Editor.calculateBoolean2283_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -223,17 +209,11 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11678458728211167845872821(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167845872821");
+    editorCell.setCellId("Constant_1167845872821");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return Sequence_Editor.calculateBoolean2283_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -245,21 +225,15 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11678459095061167845909506(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167845909506");
+    editorCell.setCellId("Collection_1167845909506");
   }
 
   private static void setupBasic_Constant_11678459224971167845922497(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167845922497");
+    editorCell.setCellId("Constant_1167845922497");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return Sequence_Editor.calculateColor2283_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
 
       };
@@ -268,11 +242,11 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11678459267021167845926702(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167845926702");
+    editorCell.setCellId("Constant_1167845926702");
   }
 
   private static void setupBasic_Constant_11678459288441167845928844(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167845928844");
+    editorCell.setCellId("Constant_1167845928844");
   }
 
   private static void setupBasic_refNode_typeExpressionList1167845933925(EditorCell editorCell, SNode node, EditorContext context) {
@@ -301,30 +275,6 @@ public class Sequence_Editor extends DefaultNodeEditor {
 
   public static boolean renderingCondition2283_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "typeExpressionList", true), "isVertical");
-  }
-
-  private static Color calculateColor2283_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
-  }
-
-  private static Color calculateColor2283_1(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
-  }
-
-  public static Boolean calculateBoolean2283_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean2283_1(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
 }

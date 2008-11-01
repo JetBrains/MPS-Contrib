@@ -72,19 +72,19 @@ public class Enum_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11973989997821197398999782(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1197398999782");
+    editorCell.setCellId("Collection_1197398999782");
   }
 
   private static void setupBasic_Constant_11973990330031197399033003(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1197399033003");
+    editorCell.setCellId("Constant_1197399033003");
   }
 
   private static void setupBasic_Constant_11973990415361197399041536(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1197399041536");
+    editorCell.setCellId("Constant_1197399041536");
   }
 
   private static void setupBasic_refNodeList_constants1197399052772(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_constants");
+    editorCell.setCellId("refNodeList_constants");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -166,7 +166,7 @@ public class Enum_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_12004193105931200419310593(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200419310593");
+      editorCell.setCellId("Constant_1200419310593");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 

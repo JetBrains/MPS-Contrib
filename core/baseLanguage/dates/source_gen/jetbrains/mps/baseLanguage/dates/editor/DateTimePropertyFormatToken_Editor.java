@@ -278,34 +278,34 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11739600516101173960051610(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173960051610");
+    editorCell.setCellId("Collection_1173960051610");
   }
 
   private static void setupBasic_Constant_11739600533461173960053346(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173960053346");
+    editorCell.setCellId("Constant_1173960053346");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11739600577091173960057709(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173960057709");
+    editorCell.setCellId("Constant_1173960057709");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_dateTimePropertyFormatConfiguration1173960064070(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimePropertyFormatConfiguration");
+    editorCell.setCellId("refCell_dateTimePropertyFormatConfiguration");
     DateTimePropertyFormatToken_ActionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_refCell_dateTimePropertyFormatType1173960085091(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimePropertyFormatType");
+    editorCell.setCellId("refCell_dateTimePropertyFormatType");
   }
 
   private static void setupBasic_Collection_11739662539961173966253996(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173966253996");
+    editorCell.setCellId("Collection_1173966253996");
   }
 
   private static void setupBasic_Collection_11739662585751173966258575(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173966258575");
+    editorCell.setCellId("Collection_1173966258575");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -318,15 +318,15 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11739662603571173966260357(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173966260357");
+    editorCell.setCellId("Constant_1173966260357");
   }
 
   private static void setupBasic_refCell_dateTimePropertyFormatConfiguration1173966273922(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimePropertyFormatConfiguration");
+    editorCell.setCellId("refCell_dateTimePropertyFormatConfiguration");
   }
 
   private static void setupBasic_Collection_11739662882401173966288240(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173966288240");
+    editorCell.setCellId("Collection_1173966288240");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -339,15 +339,15 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11739662904131173966290413(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173966290413");
+    editorCell.setCellId("Constant_1173966290413");
   }
 
   private static void setupBasic_refCell_dateTimePropertyFormatType1173966304899(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimePropertyFormatType");
+    editorCell.setCellId("refCell_dateTimePropertyFormatType");
   }
 
   private static void setupBasic_Collection_11739674275951173967427595(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173967427595");
+    editorCell.setCellId("Collection_1173967427595");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -360,11 +360,11 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11739674308781173967430878(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173967430878");
+    editorCell.setCellId("Constant_1173967430878");
   }
 
   private static void setupBasic_refCell_dateTimePropertyFormatType1173967440301(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimePropertyFormatType");
+    editorCell.setCellId("refCell_dateTimePropertyFormatType");
   }
 
   private static void setupLabel_Constant_1173960053346_1173960053346(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -446,7 +446,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1173960070558(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 
@@ -499,7 +499,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1173960095968(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       {
         Style inlineStyle = new Style(editorCell) {
           {
@@ -561,7 +561,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1173966278877(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1173966278877(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -613,7 +613,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1173966309012(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
     }
 
     private static void setupLabel_property_name_1173966309012(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -665,7 +665,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_examples1173967450179(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_examples");
+      editorCell.setCellId("property_examples");
     }
 
     private static void setupLabel_property_examples_1173967450179(EditorCell_Label editorCell, SNode node, EditorContext context) {

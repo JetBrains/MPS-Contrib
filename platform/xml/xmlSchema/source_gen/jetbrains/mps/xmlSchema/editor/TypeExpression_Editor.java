@@ -24,7 +24,7 @@ public class TypeExpression_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11675909774321167590977432(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1167590977432");
+    editorCell.setCellId("Error_1167590977432");
   }
 
   private static void setupLabel_Error_1167590977432_1167590977432(EditorCell_Label editorCell, SNode node, EditorContext context) {

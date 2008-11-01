@@ -80,21 +80,21 @@ public class Literal_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11748626428951174862642895(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174862642895");
+    editorCell.setCellId("Collection_1174862642895");
   }
 
   private static void setupBasic_Constant_11748626448191174862644819(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174862644819");
+    editorCell.setCellId("Constant_1174862644819");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_property_value1174862648524(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_value");
+    editorCell.setCellId("property_value");
     XmlStyle_StyleSheet.getXmlText(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11748626527141174862652714(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174862652714");
+    editorCell.setCellId("Constant_1174862652714");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
   }
 

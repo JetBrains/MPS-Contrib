@@ -49,7 +49,7 @@ public class DateTimeOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_conceptProperty_alias1209035827562(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
   }
 

@@ -127,7 +127,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12253947842401225394784240(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1225394784240");
+    editorCell.setCellId("Collection_1225394784240");
   }
 
   private static void setupBasic_refNode_left1225394784241(EditorCell editorCell, SNode node, EditorContext context) {
@@ -135,7 +135,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_conceptProperty_operation1225394784242(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_operation");
+    editorCell.setCellId("conceptProperty_operation");
     {
       Style inlineStyle = new Style(editorCell) {
         {

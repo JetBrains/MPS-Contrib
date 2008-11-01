@@ -90,7 +90,7 @@ public class Document_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11748400973321174840097332(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174840097332");
+    editorCell.setCellId("Collection_1174840097332");
   }
 
   private static void setupBasic_refNode_rootElement1174840097333(EditorCell editorCell, SNode node, EditorContext context) {

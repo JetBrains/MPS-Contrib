@@ -126,19 +126,19 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11723242227691172324222769(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172324222769");
+    editorCell.setCellId("Collection_1172324222769");
   }
 
   private static void setupBasic_refNode_datetime1172324229115(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_refCell_precision1172324326201(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_precision");
+    editorCell.setCellId("refCell_precision");
     UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_conceptProperty_alias1172326498985(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -207,7 +207,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1172324331032(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 

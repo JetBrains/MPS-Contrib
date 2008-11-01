@@ -23,7 +23,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 
 public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
@@ -76,15 +75,15 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Alternation_11678456129161167845612916(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Alternation_1167845612916");
+    editorCell.setCellId("Alternation_1167845612916");
   }
 
   private static void setupBasic_refNodeList_typeExpression1167845614863(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_typeExpression");
+    editorCell.setCellId("refNodeList_typeExpression");
   }
 
   private static void setupBasic_refNodeList_typeExpression1167845738464(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_typeExpression");
+    editorCell.setCellId("refNodeList_typeExpression");
   }
 
   private static void setupLabel_refNodeList_typeExpression_1167845614863(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -95,18 +94,6 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
   public static boolean renderingCondition3028_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isVertical");
-  }
-
-  public static Boolean calculateBoolean3028_0(EditorCell cell) {
-    boolean result;
-    result = true;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3028_1(EditorCell cell) {
-    boolean result;
-    result = true;
-    return result;
   }
 
   public static class typeExpressionListHandler_3028_0 extends RefNodeListHandler {
@@ -170,17 +157,11 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11678456148641167845614864(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167845614864");
+      editorCell.setCellId("Constant_1167845614864");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.EDITABLE, new AttributeCalculator <Boolean>() {
-
-              public Boolean calculate(EditorCell cell) {
-                return TypeExpressionList_Editor.calculateBoolean3028_1(cell);
-              }
-
-            });
+            this.set(StyleAttributes.EDITABLE, true);
           }
 
         };
@@ -248,17 +229,11 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11678457417621167845741762(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167845741762");
+      editorCell.setCellId("Constant_1167845741762");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.EDITABLE, new AttributeCalculator <Boolean>() {
-
-              public Boolean calculate(EditorCell cell) {
-                return TypeExpressionList_Editor.calculateBoolean3028_0(cell);
-              }
-
-            });
+            this.set(StyleAttributes.EDITABLE, true);
           }
 
         };

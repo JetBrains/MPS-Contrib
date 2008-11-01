@@ -115,18 +115,18 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11885094630181188509463018(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1188509463018");
+    editorCell.setCellId("Collection_1188509463018");
   }
 
   private static void setupBasic_refNodeList_item1188510110700(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_item");
+    editorCell.setCellId("refNodeList_item");
   }
 
   private static void setupBasic_refNode_separator1211914969713(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupBasic_conceptProperty_alias1211918093416(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
   }
 
   private static void setupLabel_refNodeList_item_1188510110700(EditorCell_Label editorCell, SNode node, EditorContext context) {

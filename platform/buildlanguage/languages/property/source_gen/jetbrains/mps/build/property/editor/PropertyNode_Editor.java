@@ -138,11 +138,11 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12005052771221200505277122(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1200505277122");
+    editorCell.setCellId("Collection_1200505277122");
   }
 
   private static void setupBasic_Collection_12005052798581200505279858(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1200505279858");
+    editorCell.setCellId("Collection_1200505279858");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -155,15 +155,15 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_conceptProperty_alias1200505285985(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
   }
 
   private static void setupBasic_property_name1200505291268(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
   }
 
   private static void setupBasic_Constant_12005052966451200505296645(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200505296645");
+    editorCell.setCellId("Constant_1200505296645");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -177,7 +177,7 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_declaration1200505324007(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_declaration");
+    editorCell.setCellId("refNodeList_declaration");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -257,7 +257,7 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_12005053313671200505331367(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1200505331367");
+      editorCell.setCellId("Constant_1200505331367");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 

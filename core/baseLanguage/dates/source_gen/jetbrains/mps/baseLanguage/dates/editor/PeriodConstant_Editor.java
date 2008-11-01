@@ -142,20 +142,20 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11724896851171172489685117(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172489685117");
+    editorCell.setCellId("Collection_1172489685117");
   }
 
   private static void setupBasic_Alternation_11724906076001172490607600(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Alternation_1172490607600");
+    editorCell.setCellId("Alternation_1172490607600");
     PeriodConstant_ActionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_refCell_dateTimeProperty1172490607601(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimeProperty");
+    editorCell.setCellId("refCell_dateTimeProperty");
   }
 
   private static void setupBasic_refCell_dateTimeProperty1172490618888(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_dateTimeProperty");
+    editorCell.setCellId("refCell_dateTimeProperty");
   }
 
   private static void setupBasic_refNode_count1172491646553(EditorCell editorCell, SNode node, EditorContext context) {
@@ -223,7 +223,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_pluralForm1172490609652(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_pluralForm");
+      editorCell.setCellId("property_pluralForm");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
       {
         Style inlineStyle = new Style(editorCell) {
@@ -285,7 +285,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1172490623610(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
       {
         Style inlineStyle = new Style(editorCell) {

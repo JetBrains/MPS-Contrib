@@ -24,7 +24,7 @@ public class GItem_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11669075091911166907509191(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1166907509191");
+    editorCell.setCellId("Error_1166907509191");
   }
 
   private static void setupLabel_Error_1166907509191_1166907509191(EditorCell_Label editorCell, SNode node, EditorContext context) {

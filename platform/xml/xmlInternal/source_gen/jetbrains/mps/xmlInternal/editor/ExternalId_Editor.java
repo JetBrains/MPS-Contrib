@@ -24,7 +24,7 @@ public class ExternalId_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11748612898961174861289896(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1174861289896");
+    editorCell.setCellId("Error_1174861289896");
   }
 
   private static void setupLabel_Error_1174861289896_1174861289896(EditorCell_Label editorCell, SNode node, EditorContext context) {

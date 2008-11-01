@@ -245,7 +245,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11720749384001172074938400(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172074938400");
+    editorCell.setCellId("Collection_1172074938400");
   }
 
   private static void setupBasic_refNode_op11172074946226(EditorCell editorCell, SNode node, EditorContext context) {
@@ -253,7 +253,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_compareType1172075395293(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_compareType");
+    editorCell.setCellId("property_compareType");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -271,15 +271,15 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11783724668231178372466823(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1178372466823");
+    editorCell.setCellId("Collection_1178372466823");
   }
 
   private static void setupBasic_Constant_11783724736991178372473699(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1178372473699");
+    editorCell.setCellId("Constant_1178372473699");
   }
 
   private static void setupBasic_Collection_11783724956851178372495685(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1178372495685");
+    editorCell.setCellId("Collection_1178372495685");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -292,16 +292,16 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11783725008961178372500896(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1178372500896");
+    editorCell.setCellId("Constant_1178372500896");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_refCell_datetimeProperty1178372500897(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_datetimeProperty");
+    editorCell.setCellId("refCell_datetimeProperty");
   }
 
   private static void setupBasic_ModelAccess_11783729870051178372987005(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "ModelAccess_1178372987005");
+    editorCell.setCellId("ModelAccess_1178372987005");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -314,7 +314,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11949429721691194942972169(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1194942972169");
+    editorCell.setCellId("Constant_1194942972169");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
   }
 
@@ -391,7 +391,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_name1178372500899(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+      editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 

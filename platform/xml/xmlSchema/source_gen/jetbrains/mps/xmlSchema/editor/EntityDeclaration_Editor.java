@@ -88,23 +88,23 @@ public class EntityDeclaration_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11729500660201172950066020(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172950066020");
+    editorCell.setCellId("Collection_1172950066020");
   }
 
   private static void setupBasic_Constant_11729500682091172950068209(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172950068209");
+    editorCell.setCellId("Constant_1172950068209");
   }
 
   private static void setupBasic_property_entityName1172959837836(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_entityName");
+    editorCell.setCellId("property_entityName");
   }
 
   private static void setupBasic_Constant_11729601625101172960162510(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172960162510");
+    editorCell.setCellId("Constant_1172960162510");
   }
 
   private static void setupBasic_Constant_11729601698251172960169825(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172960169825");
+    editorCell.setCellId("Constant_1172960169825");
   }
 
   private static void setupLabel_Constant_1172950068209_1172950068209(EditorCell_Label editorCell, SNode node, EditorContext context) {

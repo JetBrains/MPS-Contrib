@@ -127,16 +127,16 @@ public class DateFormat_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11694875022171169487502217(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1169487502217");
+    editorCell.setCellId("Collection_1169487502217");
   }
 
   private static void setupBasic_property_name1169487515953(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
     Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_11694875204701169487520470(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169487520470");
+    editorCell.setCellId("Constant_1169487520470");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -149,11 +149,11 @@ public class DateFormat_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_token1169487525785(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_token");
+    editorCell.setCellId("refNodeList_token");
   }
 
   private static void setupBasic_property_dateFormatVisibility1173975925335(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_dateFormatVisibility");
+    editorCell.setCellId("property_dateFormatVisibility");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
@@ -225,7 +225,7 @@ public class DateFormat_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Constant_11694875313011169487531301(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169487531301");
+      editorCell.setCellId("Constant_1169487531301");
     }
 
     private static void setupLabel_Constant_1169487531301_1169487531301(EditorCell_Label editorCell, SNode node, EditorContext context) {

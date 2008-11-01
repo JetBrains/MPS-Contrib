@@ -15,8 +15,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class Choice_Editor extends DefaultNodeEditor {
@@ -123,21 +121,15 @@ public class Choice_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11675984491231167598449123(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167598449123");
+    editorCell.setCellId("Collection_1167598449123");
   }
 
   private static void setupBasic_Constant_11675984509061167598450906(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167598450906");
+    editorCell.setCellId("Constant_1167598450906");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return Choice_Editor.calculateColor8501_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
 
       };
@@ -146,11 +138,11 @@ public class Choice_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11676100641521167610064152(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167610064152");
+    editorCell.setCellId("Constant_1167610064152");
   }
 
   private static void setupBasic_Constant_11676100663411167610066341(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167610066341");
+    editorCell.setCellId("Constant_1167610066341");
   }
 
   private static void setupBasic_refNode_occursAttribute1167613695342(EditorCell editorCell, SNode node, EditorContext context) {
@@ -172,12 +164,6 @@ public class Choice_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_refNode_typeExpressionList_1167796535885(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Color calculateColor8501_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
   }
 
 }

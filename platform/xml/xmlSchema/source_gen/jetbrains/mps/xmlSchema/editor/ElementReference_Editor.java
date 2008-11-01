@@ -11,13 +11,13 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
+import java.awt.Color;
 
 public class ElementReference_Editor extends DefaultNodeEditor {
 
@@ -56,28 +56,10 @@ public class ElementReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_refCell_elementDeclaration1167531095073(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_elementDeclaration");
+    editorCell.setCellId("refCell_elementDeclaration");
   }
 
   private static void setupLabel_refCell_elementDeclaration_1167531095073(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Integer calculateFontStyle9443_0(EditorCell cell) {
-    int result;
-    result = MPSFonts.BOLD;
-    return result;
-  }
-
-  private static Color calculateColor9443_0(EditorCell cell) {
-    Color result;
-    result = ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_1214399679019((cell == null ?
-      null :
-      cell.getSNode()
-    ), (cell == null ?
-      null :
-      cell.getEditorContext()
-    ));
-    return result;
   }
 
   public static class _Inline9443_0 extends AbstractCellProvider {
@@ -125,21 +107,21 @@ public class ElementReference_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_property_elementName1167531098904(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "property_elementName");
+      editorCell.setCellId("property_elementName");
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.FONT_STYLE, new AttributeCalculator <Integer>() {
-
-              public Integer calculate(EditorCell cell) {
-                return ElementReference_Editor.calculateFontStyle9443_0(cell);
-              }
-
-            });
+            this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
             this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
               public Color calculate(EditorCell cell) {
-                return ElementReference_Editor.calculateColor9443_0(cell);
+                return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_1214399679019((cell == null ?
+                  null :
+                  cell.getSNode()
+                ), (cell == null ?
+                  null :
+                  cell.getEditorContext()
+                ));
               }
 
             });

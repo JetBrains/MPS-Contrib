@@ -50,7 +50,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
 
 
   private static void setupBasic_refNodeList_attribute1177879924827(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_attribute");
+    editorCell.setCellId("refNodeList_attribute");
   }
 
   private static void setupLabel_refNodeList_attribute_1177879924827(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -117,7 +117,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
 
 
     private static void setupBasic_Constant_11778799460311177879946031(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1177879946031");
+      editorCell.setCellId("Constant_1177879946031");
       XmlStyle_StyleSheet.getXmlEmptyCell(editorCell).apply(editorCell);
     }
 

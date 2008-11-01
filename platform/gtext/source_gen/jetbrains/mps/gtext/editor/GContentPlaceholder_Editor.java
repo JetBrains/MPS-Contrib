@@ -91,15 +91,15 @@ public class GContentPlaceholder_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_12119216901481211921690148(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1211921690148");
+    editorCell.setCellId("Collection_1211921690148");
   }
 
   private static void setupBasic_conceptProperty_alias1211921703243(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
   }
 
   private static void setupBasic_property_name1211921706376(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_name");
+    editorCell.setCellId("property_name");
   }
 
   private static void setupLabel_conceptProperty_alias_1211921703243(EditorCell_Label editorCell, SNode node, EditorContext context) {

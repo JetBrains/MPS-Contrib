@@ -154,11 +154,11 @@ public class GDocument_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11846395742271184639574227(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1184639574227");
+    editorCell.setCellId("Collection_1184639574227");
   }
 
   private static void setupBasic_Collection_11846396184941184639618494(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1184639618494");
+    editorCell.setCellId("Collection_1184639618494");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -171,23 +171,23 @@ public class GDocument_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_documentName1184639677373(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_documentName");
+    editorCell.setCellId("property_documentName");
   }
 
   private static void setupBasic_Constant_11846396801101184639680110(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1184639680110");
+    editorCell.setCellId("Constant_1184639680110");
   }
 
   private static void setupBasic_property_extension1184639682643(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_extension");
+    editorCell.setCellId("property_extension");
   }
 
   private static void setupBasic_Constant_11846396907231184639690723(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1184639690723");
+    editorCell.setCellId("Constant_1184639690723");
   }
 
   private static void setupBasic_Constant_11846397051011184639705101(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1184639705101");
+    editorCell.setCellId("Constant_1184639705101");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -200,7 +200,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_item1184639753073(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_item");
+    editorCell.setCellId("refNodeList_item");
   }
 
   private static void setupLabel_property_documentName_1184639677373(EditorCell_Label editorCell, SNode node, EditorContext context) {

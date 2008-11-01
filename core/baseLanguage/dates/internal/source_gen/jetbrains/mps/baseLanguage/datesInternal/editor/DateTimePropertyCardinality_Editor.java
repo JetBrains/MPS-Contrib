@@ -100,19 +100,19 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11739539012881173953901288(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1173953901288");
+    editorCell.setCellId("Collection_1173953901288");
   }
 
   private static void setupBasic_property_numberOfSymbols1173953916540(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_numberOfSymbols");
+    editorCell.setCellId("property_numberOfSymbols");
   }
 
   private static void setupBasic_Constant_11739539357781173953935778(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1173953935778");
+    editorCell.setCellId("Constant_1173953935778");
   }
 
   private static void setupBasic_property_meaning1173953939170(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_meaning");
+    editorCell.setCellId("property_meaning");
   }
 
   private static void setupLabel_property_numberOfSymbols_1173953916540(EditorCell_Label editorCell, SNode node, EditorContext context) {

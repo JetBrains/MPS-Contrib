@@ -132,15 +132,15 @@ public class GItemList_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Alternation_11848729937371184872993737(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Alternation_1184872993737");
+    editorCell.setCellId("Alternation_1184872993737");
   }
 
   private static void setupBasic_Collection_11848729987131184872998713(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1184872998713");
+    editorCell.setCellId("Collection_1184872998713");
   }
 
   private static void setupBasic_Constant_11848729987141184872998714(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1184872998714");
+    editorCell.setCellId("Constant_1184872998714");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -153,15 +153,15 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_item1184872998715(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_item");
+    editorCell.setCellId("refNodeList_item");
   }
 
   private static void setupBasic_Collection_11848730317021184873031702(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1184873031702");
+    editorCell.setCellId("Collection_1184873031702");
   }
 
   private static void setupBasic_Constant_11848730347651184873034765(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1184873034765");
+    editorCell.setCellId("Constant_1184873034765");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -174,7 +174,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Collection_11848730452521184873045252(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1184873045252");
+    editorCell.setCellId("Collection_1184873045252");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -187,7 +187,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11848730452531184873045253(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1184873045253");
+    editorCell.setCellId("Constant_1184873045253");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -200,7 +200,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNodeList_item1184873058677(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_item");
+    editorCell.setCellId("refNodeList_item");
   }
 
   private static void setupLabel_Constant_1184872998714_1184872998714(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -28,7 +28,7 @@ public class GNewLine_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Constant_11644131878101164413187810(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1164413187810");
+    editorCell.setCellId("Constant_1164413187810");
     {
       Style inlineStyle = new Style(editorCell) {
         {

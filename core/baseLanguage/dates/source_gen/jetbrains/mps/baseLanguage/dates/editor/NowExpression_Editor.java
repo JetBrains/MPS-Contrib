@@ -62,11 +62,11 @@ public class NowExpression_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Constant_11696301992941169630199294(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1169630199294");
+    editorCell.setCellId("Constant_1169630199294");
   }
 
   private static void setupBasic_conceptProperty_alias1219660723071(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "conceptProperty_alias");
+    editorCell.setCellId("conceptProperty_alias");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
   }
 

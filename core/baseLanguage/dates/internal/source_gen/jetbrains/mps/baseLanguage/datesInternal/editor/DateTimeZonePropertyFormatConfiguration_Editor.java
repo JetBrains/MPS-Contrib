@@ -109,11 +109,11 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
 
 
   private static void setupBasic_Collection_11740432871491174043287149(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174043287149");
+    editorCell.setCellId("Collection_1174043287149");
   }
 
   private static void setupBasic_Collection_11740432871501174043287150(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174043287150");
+    editorCell.setCellId("Collection_1174043287150");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -126,15 +126,15 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   }
 
   private static void setupBasic_Constant_11740432871511174043287151(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174043287151");
+    editorCell.setCellId("Constant_1174043287151");
   }
 
   private static void setupBasic_Constant_11740432871551174043287155(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174043287155");
+    editorCell.setCellId("Constant_1174043287155");
   }
 
   private static void setupBasic_Collection_11740432871561174043287156(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1174043287156");
+    editorCell.setCellId("Collection_1174043287156");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -147,7 +147,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   }
 
   private static void setupBasic_Constant_11740432871571174043287157(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174043287157");
+    editorCell.setCellId("Constant_1174043287157");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -160,11 +160,11 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   }
 
   private static void setupBasic_refNodeList_dateTimePropertyFormatType1174043287158(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_dateTimePropertyFormatType");
+    editorCell.setCellId("refNodeList_dateTimePropertyFormatType");
   }
 
   private static void setupBasic_Constant_11740432871591174043287159(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1174043287159");
+    editorCell.setCellId("Constant_1174043287159");
   }
 
   private static void setupLabel_Constant_1174043287151_1174043287151(EditorCell_Label editorCell, SNode node, EditorContext context) {

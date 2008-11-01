@@ -16,8 +16,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class GroupDeclaration_Editor extends DefaultNodeEditor {
@@ -115,21 +113,15 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11678491785961167849178596(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1167849178596");
+    editorCell.setCellId("Collection_1167849178596");
   }
 
   private static void setupBasic_Constant_11678491785971167849178597(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167849178597");
+    editorCell.setCellId("Constant_1167849178597");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return GroupDeclaration_Editor.calculateColor4337_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
 
       };
@@ -138,17 +130,11 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_property_groupName1167849178598(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_groupName");
+    editorCell.setCellId("property_groupName");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
-            public Color calculate(EditorCell cell) {
-              return GroupDeclaration_Editor.calculateColor4337_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
         }
 
       };
@@ -157,7 +143,7 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11678491785991167849178599(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1167849178599");
+    editorCell.setCellId("Constant_1167849178599");
   }
 
   private static void setupBasic_refNode_groupExpression1167849178600(EditorCell editorCell, SNode node, EditorContext context) {
@@ -173,18 +159,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_refNode_groupExpression_1167849178600(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static Color calculateColor4337_0(EditorCell cell) {
-    Color result;
-    result = MPSColors.blue;
-    return result;
-  }
-
-  private static Color calculateColor4337_1(EditorCell cell) {
-    Color result;
-    result = MPSColors.DARK_MAGENTA;
-    return result;
   }
 
 }

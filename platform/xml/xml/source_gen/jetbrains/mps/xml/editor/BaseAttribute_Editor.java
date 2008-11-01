@@ -24,7 +24,7 @@ public class BaseAttribute_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Error_11683973685931168397368593(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Error_1168397368593");
+    editorCell.setCellId("Error_1168397368593");
   }
 
   private static void setupLabel_Error_1168397368593_1168397368593(EditorCell_Label editorCell, SNode node, EditorContext context) {

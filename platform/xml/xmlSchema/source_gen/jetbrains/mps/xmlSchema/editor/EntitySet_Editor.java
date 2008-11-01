@@ -18,7 +18,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import javax.swing.JComponent;
@@ -174,21 +173,15 @@ public class EntitySet_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11729502998901172950299890(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172950299890");
+    editorCell.setCellId("Collection_1172950299890");
   }
 
   private static void setupBasic_Collection_11729504195081172950419508(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1172950419508");
+    editorCell.setCellId("Collection_1172950419508");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return EntitySet_Editor.calculateBoolean3021_1(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -197,29 +190,23 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11729504230451172950423045(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172950423045");
+    editorCell.setCellId("Constant_1172950423045");
   }
 
   private static void setupBasic_property_entitySetName1172950429516(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_entitySetName");
+    editorCell.setCellId("property_entitySetName");
   }
 
   private static void setupBasic_refNodeList_entityBlock1172952127148(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refNodeList_entityBlock");
+    editorCell.setCellId("refNodeList_entityBlock");
   }
 
   private static void setupBasic_Constant_11729523242641172952324264(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172952324264");
+    editorCell.setCellId("Constant_1172952324264");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, new AttributeCalculator <Boolean>() {
-
-            public Boolean calculate(EditorCell cell) {
-              return EntitySet_Editor.calculateBoolean3021_0(cell);
-            }
-
-          });
+          this.set(StyleAttributes.SELECTABLE, false);
         }
 
       };
@@ -228,19 +215,19 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Constant_11729552932791172955293279(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1172955293279");
+    editorCell.setCellId("Constant_1172955293279");
   }
 
   private static void setupBasic_Alternation_11729633316931172963331693(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Alternation_1172963331693");
+    editorCell.setCellId("Alternation_1172963331693");
   }
 
   private static void setupBasic_property_url1172963383860(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "property_url");
+    editorCell.setCellId("property_url");
   }
 
   private static void setupBasic_JComponent_11729633951001172963395100(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "JComponent_1172963395100");
+    editorCell.setCellId("JComponent_1172963395100");
   }
 
   private static void setupLabel_Constant_1172950423045_1172950423045(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -267,18 +254,6 @@ public class EntitySet_Editor extends DefaultNodeEditor {
 
   public static JComponent _QueryFunction_JComponent_1176495136463(SNode node, EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "url"));
-  }
-
-  public static Boolean calculateBoolean3021_0(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
-  }
-
-  public static Boolean calculateBoolean3021_1(EditorCell cell) {
-    boolean result;
-    result = false;
-    return result;
   }
 
   public static class entityBlockListHandler_3021_0 extends RefNodeListHandler {

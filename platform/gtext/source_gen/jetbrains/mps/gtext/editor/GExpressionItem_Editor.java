@@ -73,11 +73,11 @@ public class GExpressionItem_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_Collection_11644978303821164497830382(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Collection_1164497830382");
+    editorCell.setCellId("Collection_1164497830382");
   }
 
   private static void setupBasic_Constant_11644978323521164497832352(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "Constant_1164497832352");
+    editorCell.setCellId("Constant_1164497832352");
     {
       Style inlineStyle = new Style(editorCell) {
         {

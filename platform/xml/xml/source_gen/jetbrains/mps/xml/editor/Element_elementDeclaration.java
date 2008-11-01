@@ -62,7 +62,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
 
 
   private static void setupBasic_refCell_elementDeclaration1179101177299(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.putUserObject(EditorCell.CELL_ID, "refCell_elementDeclaration");
+    editorCell.setCellId("refCell_elementDeclaration");
   }
 
   private static void setupLabel_refCell_elementDeclaration_1179101177299(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -111,7 +111,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
 
 
     private static void setupBasic_ModelAccess_11899918110051189991811005(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.putUserObject(EditorCell.CELL_ID, "ModelAccess_1189991811005");
+      editorCell.setCellId("ModelAccess_1189991811005");
       XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     }
 
