@@ -44,7 +44,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1177879924827.getElementRole());
+    editorCell.setRole(this.myListHandler_1177879924827.getElementRole());
     return editorCell;
   }
 

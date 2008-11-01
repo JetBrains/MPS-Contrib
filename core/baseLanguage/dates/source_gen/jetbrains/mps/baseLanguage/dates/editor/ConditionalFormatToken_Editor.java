@@ -97,7 +97,7 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1169563716715.getElementRole());
+    editorCell.setRole(this.myListHandler_1169563716715.getElementRole());
     return editorCell;
   }
 

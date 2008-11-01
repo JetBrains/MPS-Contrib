@@ -110,7 +110,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1173954251564.getElementRole());
+    editorCell.setRole(this.myListHandler_1173954251564.getElementRole());
     return editorCell;
   }
 

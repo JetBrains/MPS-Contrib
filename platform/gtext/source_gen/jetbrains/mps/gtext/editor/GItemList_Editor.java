@@ -113,7 +113,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1184872998715.getElementRole());
+    editorCell.setRole(this.myListHandler_1184872998715.getElementRole());
     return editorCell;
   }
 
@@ -126,7 +126,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1184873058677.getElementRole());
+    editorCell.setRole(this.myListHandler_1184873058677.getElementRole());
     return editorCell;
   }
 

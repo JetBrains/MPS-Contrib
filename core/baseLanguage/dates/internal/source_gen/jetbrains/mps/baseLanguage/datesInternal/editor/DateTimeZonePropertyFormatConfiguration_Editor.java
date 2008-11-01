@@ -103,7 +103,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1174043287158.getElementRole());
+    editorCell.setRole(this.myListHandler_1174043287158.getElementRole());
     return editorCell;
   }
 

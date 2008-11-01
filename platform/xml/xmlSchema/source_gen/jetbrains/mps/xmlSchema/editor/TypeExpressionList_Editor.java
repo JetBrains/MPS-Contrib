@@ -56,7 +56,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1167845614863.getElementRole());
+    editorCell.setRole(this.myListHandler_1167845614863.getElementRole());
     return editorCell;
   }
 
@@ -69,7 +69,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1167845738464.getElementRole());
+    editorCell.setRole(this.myListHandler_1167845738464.getElementRole());
     return editorCell;
   }
 

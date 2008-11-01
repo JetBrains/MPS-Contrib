@@ -183,7 +183,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1173884040947.getElementRole());
+    editorCell.setRole(this.myListHandler_1173884040947.getElementRole());
     return editorCell;
   }
 
@@ -196,7 +196,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1173954827922.getElementRole());
+    editorCell.setRole(this.myListHandler_1173954827922.getElementRole());
     return editorCell;
   }
 
@@ -209,7 +209,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1173954827926.getElementRole());
+    editorCell.setRole(this.myListHandler_1173954827926.getElementRole());
     return editorCell;
   }
 

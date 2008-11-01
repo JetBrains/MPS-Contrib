@@ -51,7 +51,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1188510110700.getElementRole());
+    editorCell.setRole(this.myListHandler_1188510110700.getElementRole());
     return editorCell;
   }
 

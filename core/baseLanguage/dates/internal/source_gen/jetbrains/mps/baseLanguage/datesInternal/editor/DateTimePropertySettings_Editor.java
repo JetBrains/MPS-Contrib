@@ -241,7 +241,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1172681040812.getElementRole());
+    editorCell.setRole(this.myListHandler_1172681040812.getElementRole());
     return editorCell;
   }
 
@@ -254,7 +254,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1172681071011.getElementRole());
+    editorCell.setRole(this.myListHandler_1172681071011.getElementRole());
     return editorCell;
   }
 
@@ -267,7 +267,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1174320827935.getElementRole());
+    editorCell.setRole(this.myListHandler_1174320827935.getElementRole());
     return editorCell;
   }
 
@@ -280,7 +280,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1194006018430.getElementRole());
+    editorCell.setRole(this.myListHandler_1194006018430.getElementRole());
     return editorCell;
   }
 
@@ -293,7 +293,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(true);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1194006918222.getElementRole());
+    editorCell.setRole(this.myListHandler_1194006918222.getElementRole());
     return editorCell;
   }
 

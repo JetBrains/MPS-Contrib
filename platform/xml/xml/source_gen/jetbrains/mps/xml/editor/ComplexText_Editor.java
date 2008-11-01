@@ -54,7 +54,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1161961889607.getElementRole());
+    editorCell.setRole(this.myListHandler_1161961889607.getElementRole());
     return editorCell;
   }
 

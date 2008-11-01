@@ -123,7 +123,7 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1207749133352.getElementRole());
+    editorCell.setRole(this.myListHandler_1207749133352.getElementRole());
     return editorCell;
   }
 

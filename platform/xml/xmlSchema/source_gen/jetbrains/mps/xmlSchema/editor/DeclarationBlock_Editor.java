@@ -86,7 +86,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1167620882683.getElementRole());
+    editorCell.setRole(this.myListHandler_1167620882683.getElementRole());
     return editorCell;
   }
 
@@ -99,7 +99,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1167621127144.getElementRole());
+    editorCell.setRole(this.myListHandler_1167621127144.getElementRole());
     return editorCell;
   }
 

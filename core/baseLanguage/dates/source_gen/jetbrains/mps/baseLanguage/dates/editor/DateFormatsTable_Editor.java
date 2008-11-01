@@ -102,7 +102,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(true);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1169488470193.getElementRole());
+    editorCell.setRole(this.myListHandler_1169488470193.getElementRole());
     return editorCell;
   }
 

@@ -90,7 +90,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1184639753073.getElementRole());
+    editorCell.setRole(this.myListHandler_1184639753073.getElementRole());
     return editorCell;
   }
 

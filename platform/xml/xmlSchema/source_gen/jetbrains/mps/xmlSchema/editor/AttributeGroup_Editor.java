@@ -73,7 +73,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1167711109079.getElementRole());
+    editorCell.setRole(this.myListHandler_1167711109079.getElementRole());
     return editorCell;
   }
 

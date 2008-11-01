@@ -66,7 +66,7 @@ public class Enum_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1197399052772.getElementRole());
+    editorCell.setRole(this.myListHandler_1197399052772.getElementRole());
     return editorCell;
   }
 

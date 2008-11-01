@@ -34,7 +34,7 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1218551685247.getElementRole());
+    editorCell.setRole(this.myListHandler_1218551685247.getElementRole());
     return editorCell;
   }
 
