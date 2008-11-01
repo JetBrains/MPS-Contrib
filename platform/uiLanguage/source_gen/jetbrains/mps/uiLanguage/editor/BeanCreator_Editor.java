@@ -71,7 +71,7 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1207754440327.getElementRole());
+    editorCell.setRole(this.myListHandler_1207754440327.getElementRole());
     return editorCell;
   }
 

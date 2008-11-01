@@ -68,7 +68,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1203089519887.getElementRole());
+    editorCell.setRole(this.myListHandler_1203089519887.getElementRole());
     return editorCell;
   }
 

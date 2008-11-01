@@ -144,7 +144,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1202832121933.getElementRole());
+    editorCell.setRole(this.myListHandler_1202832121933.getElementRole());
     return editorCell;
   }
 

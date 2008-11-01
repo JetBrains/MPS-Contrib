@@ -163,7 +163,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1207748198893.getElementRole());
+    editorCell.setRole(this.myListHandler_1207748198893.getElementRole());
     return editorCell;
   }
 
@@ -176,7 +176,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1207748198900.getElementRole());
+    editorCell.setRole(this.myListHandler_1207748198900.getElementRole());
     return editorCell;
   }
 
@@ -189,7 +189,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1207749490706.getElementRole());
+    editorCell.setRole(this.myListHandler_1207749490706.getElementRole());
     return editorCell;
   }
 

@@ -142,7 +142,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(true);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.putUserObject(EditorCell.ROLE, this.myListHandler_1202388079214.getElementRole());
+    editorCell.setRole(this.myListHandler_1202388079214.getElementRole());
     return editorCell;
   }
 
