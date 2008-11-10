@@ -6,6 +6,7 @@ import jetbrains.mps.lang.typesystem.runtime.AbstractInferenceRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -17,7 +18,7 @@ public class typeof_Enum_InferenceRule extends AbstractInferenceRule_Runtime imp
   }
 
   public void applyRule(final SNode nodeToCheck, final TypeCheckingContext typeCheckingContext) {
-    for(SNode element : SLinkOperations.getTargets(nodeToCheck, "constants", true)) {
+    for(SNode element : Sequence.fromIterable(SLinkOperations.getTargets(nodeToCheck, "constants", true))) {
       {
         SNode _nodeToCheck_1029348928467 = nodeToCheck;
         BaseIntentionProvider intentionProvider = null;

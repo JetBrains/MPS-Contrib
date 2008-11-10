@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 
@@ -18,14 +19,14 @@ public class Project_Behavior {
   public static List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
     List<SNode> decls = new ArrayList<SNode>();
     ListSequence.fromList(decls).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "property", true)));
-    for(SNode pimport : SLinkOperations.getTargets(thisNode, "importProperties", true)) {
+    for(SNode pimport : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "importProperties", true))) {
       ListSequence.fromList(decls).addSequence(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(pimport, "propertyNode", false), "declaration", true)));
     }
     return decls;
   }
 
   public static boolean call_isProjectImported_1213877351753(SNode thisNode, SNode project) {
-    for(SNode importProject : SLinkOperations.getTargets(thisNode, "importProject", true)) {
+    for(SNode importProject : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "importProject", true))) {
       if (SLinkOperations.getTarget(importProject, "project", false) == project) {
         return true;
       }
@@ -35,8 +36,8 @@ public class Project_Behavior {
 
   public static List<SNode> call_getVisibleTargets_1213877351775(SNode thisNode) {
     List<SNode> visible = new ArrayList<SNode>();
-    for(SNode importProject : SLinkOperations.getTargets(thisNode, "importProject", true)) {
-      for(SNode target : SLinkOperations.getTargets(SLinkOperations.getTarget(importProject, "project", false), "target", true)) {
+    for(SNode importProject : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "importProject", true))) {
+      for(SNode target : Sequence.fromIterable(SLinkOperations.getTargets(SLinkOperations.getTarget(importProject, "project", false), "target", true))) {
         ListSequence.fromList(visible).addElement(target);
       }
     }
@@ -67,7 +68,7 @@ public class Project_Behavior {
 
   public static List<SNode> call_getLibraryTasks_1213877351864(SNode thisNode) {
     List<SNode> tasks = new ArrayList<SNode>();
-    for(SNode lib : SLinkOperations.getTargets(thisNode, "library", true)) {
+    for(SNode lib : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "library", true))) {
       ListSequence.fromList(tasks).addSequence(ListSequence.fromList(TaskLibrary_Behavior.call_getTasks_1213877431242(SLinkOperations.getTarget(lib, "library", false))));
     }
     return tasks;
