@@ -66,12 +66,4 @@ public class Project_Behavior {
     return res;
   }
 
-  public static List<SNode> call_getLibraryTasks_1213877351864(SNode thisNode) {
-    List<SNode> tasks = new ArrayList<SNode>();
-    for(SNode lib : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "library", true))) {
-      ListSequence.fromList(tasks).addSequence(ListSequence.fromList(TaskLibrary_Behavior.call_getTasks_1213877431242(SLinkOperations.getTarget(lib, "library", false))));
-    }
-    return tasks;
-  }
-
 }

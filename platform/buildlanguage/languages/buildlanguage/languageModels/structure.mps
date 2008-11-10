@@ -51,12 +51,6 @@
       <property name="sourceCardinality" value="0..1" />
       <link role="target" targetNodeId="1196852921336" resolveInfo="TargetReference" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1209912581053">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="library" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1209912269056" resolveInfo="TaskLibraryReference" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1201702862229">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="importProject" />
@@ -742,59 +736,6 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1201702737070">
       <property name="value" value="import project" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209908782663">
-    <property name="package" value="Extend" />
-    <property name="name" value="TaskLibrary" />
-    <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1209908937858">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="taskReference" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1209908908450" resolveInfo="UserDefinedTaskReference" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209908970966">
-      <property name="value" value="task library" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1209908999782">
-      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="1209908836571">
-    <property name="package" value="Extend" />
-    <property name="name" value="IUserDefinedTask" />
-    <node role="extends" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1209908864134">
-      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209908908450">
-    <property name="package" value="Extend" />
-    <property name="name" value="UserDefinedTaskReference" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1209908921748">
-      <property name="role" value="task" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1209908836571" resolveInfo="IUserDefinedTask" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209912269056">
-    <property name="package" value="Extend" />
-    <property name="name" value="TaskLibraryReference" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1209912288339">
-      <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1209912292512">
-      <property name="role" value="library" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1209908782663" resolveInfo="TaskLibrary" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209912308015">
-      <property name="value" value="import task library" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1198324973114">

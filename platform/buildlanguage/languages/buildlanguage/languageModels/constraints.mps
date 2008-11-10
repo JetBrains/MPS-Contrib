@@ -209,27 +209,6 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213104847705">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847706">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213104847707">
-                <link role="variableDeclaration" targetNodeId="1213104847699" resolveInfo="declarations" />
-              </node>
-              <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" id="1213104847708">
-                <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847709">
-                  <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1213104847710">
-                    <link role="concept" targetNodeId="2.1196851066733" resolveInfo="Project" />
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847711">
-                      <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="1213104847712" />
-                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetContainingRootOperation" id="1213104847713" />
-                    </node>
-                  </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213104847714">
-                    <link role="baseMethodDeclaration" targetNodeId="18.1213877351864" resolveInfo="getLibraryTasks" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1213104847715">
             <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213104847716">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1213104847717">
