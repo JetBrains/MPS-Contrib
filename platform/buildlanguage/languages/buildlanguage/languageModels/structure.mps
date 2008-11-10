@@ -195,7 +195,7 @@
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1197465428484">
       <property name="metaClass" value="aggregation" />
-      <property name="role" value="parent" />
+      <property name="role" value="parentRef" />
       <link role="target" targetNodeId="1198325271317" resolveInfo="Reference" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1201682103724">

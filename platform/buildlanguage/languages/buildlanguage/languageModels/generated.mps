@@ -46,7 +46,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696443631">
       <link role="declaration" targetNodeId="1201696443630" resolveInfo="typeadapter" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400215">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400215">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -75,7 +75,7 @@
       <property name="name" value="child" />
       <property name="classname" value="org.apache.tools.ant.UnknownElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037242">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037242">
         <link role="declaration" targetNodeId="1199644185038" resolveInfo="unknownelement" />
       </node>
     </node>
@@ -85,7 +85,7 @@
         <link role="declaration" targetNodeId="1208450037241" resolveInfo="child" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400220">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400220">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -102,7 +102,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696443639">
       <link role="declaration" targetNodeId="1201696443638" resolveInfo="dispatchable" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400227">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400227">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -228,7 +228,7 @@
       <property name="name" value="commandargument" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037276">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037276">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -242,7 +242,7 @@
       <property name="name" value="configuredcommandline" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037285">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037285">
         <link role="declaration" targetNodeId="1208450037282" resolveInfo="commandline" />
       </node>
     </node>
@@ -252,7 +252,7 @@
         <link role="declaration" targetNodeId="1208450037284" resolveInfo="configuredcommandline" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400231">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400231">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -324,7 +324,7 @@
       <property name="name" value="sysproperty" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037306">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037306">
         <link role="declaration" targetNodeId="1208450037303" resolveInfo="variable" />
       </node>
     </node>
@@ -334,7 +334,7 @@
         <link role="declaration" targetNodeId="1208450037305" resolveInfo="sysproperty" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400268">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400268">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -387,7 +387,7 @@
       <property name="name" value="existing" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039642">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039642">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -395,7 +395,7 @@
       <property name="name" value="extdirs" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039645">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039645">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -421,7 +421,7 @@
       <property name="name" value="location" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135401575" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401574">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401574">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -496,7 +496,7 @@
       <property name="name" value="configuredtarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$TargetElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037329">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037329">
         <link role="declaration" targetNodeId="1208450037326" resolveInfo="targetelement" />
       </node>
     </node>
@@ -512,7 +512,7 @@
         <link role="declaration" targetNodeId="1199644189444" resolveInfo="propertyset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400284">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400284">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -590,7 +590,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721727">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721727">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -604,7 +604,7 @@
       <property name="name" value="location" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135401096" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401092">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401092">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -623,7 +623,7 @@
         <link role="declaration" targetNodeId="1201696443702" resolveInfo="structureprinter" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400297">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400297">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -639,7 +639,7 @@
         <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400301">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400301">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -658,7 +658,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185335" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400305" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400303">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400303">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -705,7 +705,7 @@
       <property name="name" value="factorypath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720717">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720717">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -721,7 +721,7 @@
         <link role="declaration" targetNodeId="1199644185680" resolveInfo="option" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400308">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400308">
       <link role="declaration" targetNodeId="1199644185353" resolveInfo="javac" />
     </node>
   </node>
@@ -936,7 +936,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721326">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721326">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -944,7 +944,7 @@
       <property name="name" value="src" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721328">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721328">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -952,7 +952,7 @@
       <property name="name" value="sourcepath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721330">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721330">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -960,7 +960,7 @@
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721332">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721332">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -968,7 +968,7 @@
       <property name="name" value="extdirs" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721350">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721350">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -994,7 +994,7 @@
       <property name="name" value="compilerarg" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javac$ImplementationSpecificArgument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721373">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721373">
         <link role="declaration" targetNodeId="1201680422291" resolveInfo="implementationspecificargument" />
       </node>
     </node>
@@ -1004,7 +1004,7 @@
         <link role="declaration" targetNodeId="1201800721372" resolveInfo="compilerarg" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400822">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400822">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -1079,7 +1079,7 @@
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721638">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721638">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1087,7 +1087,7 @@
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721640">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721640">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1095,7 +1095,7 @@
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721642">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721642">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1103,7 +1103,7 @@
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721644">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721644">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1126,7 +1126,7 @@
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038493">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038493">
         <link role="declaration" targetNodeId="1199644190070" resolveInfo="dateselector" />
       </node>
     </node>
@@ -1140,7 +1140,7 @@
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038498">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038498">
         <link role="declaration" targetNodeId="1199644190229" resolveInfo="selectselector" />
       </node>
     </node>
@@ -1154,7 +1154,7 @@
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038503">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038503">
         <link role="declaration" targetNodeId="1199644189994" resolveInfo="andselector" />
       </node>
     </node>
@@ -1168,7 +1168,7 @@
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038507">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038507">
         <link role="declaration" targetNodeId="1199644190199" resolveInfo="orselector" />
       </node>
     </node>
@@ -1182,7 +1182,7 @@
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038512">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038512">
         <link role="declaration" targetNodeId="1199644190197" resolveInfo="notselector" />
       </node>
     </node>
@@ -1196,7 +1196,7 @@
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038516">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038516">
         <link role="declaration" targetNodeId="1199644190195" resolveInfo="noneselector" />
       </node>
     </node>
@@ -1210,7 +1210,7 @@
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038521">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038521">
         <link role="declaration" targetNodeId="1199644190188" resolveInfo="majorityselector" />
       </node>
     </node>
@@ -1224,7 +1224,7 @@
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038525">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038525">
         <link role="declaration" targetNodeId="1199644190246" resolveInfo="sizeselector" />
       </node>
     </node>
@@ -1238,7 +1238,7 @@
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038530">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038530">
         <link role="declaration" targetNodeId="1199644190144" resolveInfo="differentselector" />
       </node>
     </node>
@@ -1252,7 +1252,7 @@
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038535">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038535">
         <link role="declaration" targetNodeId="1199644190170" resolveInfo="filenameselector" />
       </node>
     </node>
@@ -1266,7 +1266,7 @@
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038539">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038539">
         <link role="declaration" targetNodeId="1199644190279" resolveInfo="typeselector" />
       </node>
     </node>
@@ -1280,7 +1280,7 @@
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038544">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038544">
         <link role="declaration" targetNodeId="1199644190154" resolveInfo="extendselector" />
       </node>
     </node>
@@ -1294,7 +1294,7 @@
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038548">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038548">
         <link role="declaration" targetNodeId="1199644190051" resolveInfo="containsselector" />
       </node>
     </node>
@@ -1308,7 +1308,7 @@
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038553">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038553">
         <link role="declaration" targetNodeId="1199644190217" resolveInfo="presentselector" />
       </node>
     </node>
@@ -1322,7 +1322,7 @@
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038558">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038558">
         <link role="declaration" targetNodeId="1199644190130" resolveInfo="depthselector" />
       </node>
     </node>
@@ -1336,7 +1336,7 @@
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038562">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038562">
         <link role="declaration" targetNodeId="1199644190100" resolveInfo="dependselector" />
       </node>
     </node>
@@ -1350,7 +1350,7 @@
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038567">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038567">
         <link role="declaration" targetNodeId="1199644190040" resolveInfo="containsregexpselector" />
       </node>
     </node>
@@ -1364,7 +1364,7 @@
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038571">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038571">
         <link role="declaration" targetNodeId="1199644190289" resolveInfo="modifiedselector" />
       </node>
     </node>
@@ -1374,7 +1374,7 @@
         <link role="declaration" targetNodeId="1208450038570" resolveInfo="modified" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401025">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401025">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -1440,7 +1440,7 @@
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722329">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722329">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1448,7 +1448,7 @@
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722331">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722331">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1456,7 +1456,7 @@
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722333">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722333">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1464,7 +1464,7 @@
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722335">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722335">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -1487,7 +1487,7 @@
       <property name="name" value="configuredpatternset" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039661">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039661">
         <link role="declaration" targetNodeId="1199644185414" resolveInfo="patternset" />
       </node>
     </node>
@@ -1497,7 +1497,7 @@
         <link role="declaration" targetNodeId="1208450039660" resolveInfo="configuredpatternset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401579">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401579">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -1516,14 +1516,14 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185649" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1199644185650" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644188352">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644188352">
       <link role="declaration" targetNodeId="1199644185587" resolveInfo="implementationspecificargument" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185588">
     <property name="name" value="argument" />
     <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644185604">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644185604">
       <link role="declaration" targetNodeId="1199644185589" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644185605">
@@ -1680,7 +1680,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720735">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720735">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -1688,7 +1688,7 @@
       <property name="name" value="filepath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720753">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720753">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -1701,14 +1701,14 @@
         <link role="declaration" targetNodeId="1201800720752" resolveInfo="filepath" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400322">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400322">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185758">
     <property name="name" value="bunzip2" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.BUnzip2" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400344">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400344">
       <link role="declaration" targetNodeId="1199644185759" resolveInfo="unpack" />
     </node>
   </node>
@@ -1742,14 +1742,14 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401293">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401293">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185776">
     <property name="name" value="bzip2" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.BZip2" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400346">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400346">
       <link role="declaration" targetNodeId="1199644185777" resolveInfo="pack" />
     </node>
   </node>
@@ -1787,7 +1787,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401048">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401048">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -1812,7 +1812,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185810" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400354" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400348">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400348">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -1825,7 +1825,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185816" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135400359" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400356">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400356">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -1850,7 +1850,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185846" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400364" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400362">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400362">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -1879,7 +1879,7 @@
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Property" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720774">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720774">
         <link role="declaration" targetNodeId="1199644185264" resolveInfo="property" />
       </node>
     </node>
@@ -1899,7 +1899,7 @@
       <property name="name" value="configuredtarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$TargetElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037416">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037416">
         <link role="declaration" targetNodeId="1208450037326" resolveInfo="targetelement" />
       </node>
     </node>
@@ -1915,7 +1915,7 @@
         <link role="declaration" targetNodeId="1199644189444" resolveInfo="propertyset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400371">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400371">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -2020,7 +2020,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400381">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400381">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -2103,7 +2103,7 @@
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720823">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720823">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -2111,7 +2111,7 @@
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720825">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720825">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -2124,7 +2124,7 @@
         <link role="declaration" targetNodeId="1201800720824" resolveInfo="exclude" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400413">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400413">
       <link role="declaration" targetNodeId="1199644185918" resolveInfo="execon" />
     </node>
   </node>
@@ -2230,7 +2230,7 @@
       <property name="name" value="srcfile" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Marker" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721098">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721098">
         <link role="declaration" targetNodeId="1199644186084" resolveInfo="marker" />
       </node>
     </node>
@@ -2238,7 +2238,7 @@
       <property name="name" value="targetfile" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Marker" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721100">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721100">
         <link role="declaration" targetNodeId="1199644186084" resolveInfo="marker" />
       </node>
     </node>
@@ -2269,7 +2269,7 @@
         <link role="declaration" targetNodeId="1199644189405" resolveInfo="dirset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400641">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400641">
       <link role="declaration" targetNodeId="1199644185919" resolveInfo="exec" />
     </node>
   </node>
@@ -2430,7 +2430,7 @@
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721060">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721060">
         <link role="declaration" targetNodeId="1199644185588" resolveInfo="argument" />
       </node>
     </node>
@@ -2444,7 +2444,7 @@
       <property name="name" value="configuredredirector" />
       <property name="classname" value="org.apache.tools.ant.types.RedirectorElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037832">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037832">
         <link role="declaration" targetNodeId="1199644189479" resolveInfo="redirectorelement" />
       </node>
     </node>
@@ -2458,7 +2458,7 @@
       <property name="name" value="env" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037839">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037839">
         <link role="declaration" targetNodeId="1208450037303" resolveInfo="variable" />
       </node>
     </node>
@@ -2468,7 +2468,7 @@
         <link role="declaration" targetNodeId="1208450037838" resolveInfo="env" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400609">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400609">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -2557,7 +2557,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722310">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722310">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -2571,7 +2571,7 @@
       <property name="name" value="configuredmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039633">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039633">
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
@@ -2581,7 +2581,7 @@
         <link role="declaration" targetNodeId="1208450039632" resolveInfo="configuredmapper" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401563">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401563">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -2634,7 +2634,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720838">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720838">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -2644,7 +2644,7 @@
         <link role="declaration" targetNodeId="1201800720837" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400442">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400442">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -2745,7 +2745,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037546">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037546">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -2778,7 +2778,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Concat$TextElement" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037577">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037577">
         <link role="declaration" targetNodeId="1208450037575" resolveInfo="textelement" />
       </node>
     </node>
@@ -2787,7 +2787,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Concat$TextElement" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037580">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037580">
         <link role="declaration" targetNodeId="1208450037575" resolveInfo="textelement" />
       </node>
     </node>
@@ -2800,7 +2800,7 @@
         <link role="declaration" targetNodeId="1208450037579" resolveInfo="footer" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400461">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400461">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -2946,7 +2946,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400479">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400479">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -3008,7 +3008,7 @@
       <property name="name" value="filterreader" />
       <property name="classname" value="org.apache.tools.ant.types.AntFilterReader" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039459">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039459">
         <link role="declaration" targetNodeId="1199644189370" resolveInfo="antfilterreader" />
       </node>
     </node>
@@ -3102,7 +3102,7 @@
         <link role="declaration" targetNodeId="1208450039580" resolveInfo="tokenfilter" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401543">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401543">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -3169,7 +3169,7 @@
       <property name="name" value="configuredfilterset" />
       <property name="classname" value="org.apache.tools.ant.types.FilterSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039619">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039619">
         <link role="declaration" targetNodeId="1199644186358" resolveInfo="filterset" />
       </node>
     </node>
@@ -3179,7 +3179,7 @@
         <link role="declaration" targetNodeId="1208450039618" resolveInfo="configuredfilterset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401553">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401553">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -3238,7 +3238,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400503">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400503">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -3276,7 +3276,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186452" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135400514" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400511">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400511">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -3308,14 +3308,14 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186470" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135400522" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400520">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400520">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186472">
     <property name="name" value="cvs" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Cvs" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400527">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400527">
       <link role="declaration" targetNodeId="1199644185060" resolveInfo="abstractcvstask" />
     </node>
   </node>
@@ -3352,7 +3352,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720923">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720923">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -3362,7 +3362,7 @@
         <link role="declaration" targetNodeId="1201800720922" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400528">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400528">
       <link role="declaration" targetNodeId="1199644185327" resolveInfo="antlibdefinition" />
     </node>
   </node>
@@ -3393,7 +3393,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186526" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400539" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400535">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400535">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -3477,7 +3477,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186564" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400549" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400542">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400542">
       <link role="declaration" targetNodeId="1199644186474" resolveInfo="defbase" />
     </node>
   </node>
@@ -3608,7 +3608,7 @@
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720979">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720979">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -3616,7 +3616,7 @@
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720981">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720981">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -3624,7 +3624,7 @@
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720983">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720983">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -3632,7 +3632,7 @@
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720985">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720985">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -3655,7 +3655,7 @@
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037665">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037665">
         <link role="declaration" targetNodeId="1199644190070" resolveInfo="dateselector" />
       </node>
     </node>
@@ -3669,7 +3669,7 @@
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037669">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037669">
         <link role="declaration" targetNodeId="1199644190229" resolveInfo="selectselector" />
       </node>
     </node>
@@ -3689,7 +3689,7 @@
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037676">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037676">
         <link role="declaration" targetNodeId="1199644189994" resolveInfo="andselector" />
       </node>
     </node>
@@ -3703,7 +3703,7 @@
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037697">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037697">
         <link role="declaration" targetNodeId="1199644190199" resolveInfo="orselector" />
       </node>
     </node>
@@ -3717,7 +3717,7 @@
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037701">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037701">
         <link role="declaration" targetNodeId="1199644190197" resolveInfo="notselector" />
       </node>
     </node>
@@ -3731,7 +3731,7 @@
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037706">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037706">
         <link role="declaration" targetNodeId="1199644190195" resolveInfo="noneselector" />
       </node>
     </node>
@@ -3745,7 +3745,7 @@
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037710">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037710">
         <link role="declaration" targetNodeId="1199644190188" resolveInfo="majorityselector" />
       </node>
     </node>
@@ -3759,7 +3759,7 @@
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037715">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037715">
         <link role="declaration" targetNodeId="1199644190246" resolveInfo="sizeselector" />
       </node>
     </node>
@@ -3773,7 +3773,7 @@
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037719">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037719">
         <link role="declaration" targetNodeId="1199644190170" resolveInfo="filenameselector" />
       </node>
     </node>
@@ -3787,7 +3787,7 @@
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037724">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037724">
         <link role="declaration" targetNodeId="1199644190154" resolveInfo="extendselector" />
       </node>
     </node>
@@ -3801,7 +3801,7 @@
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037728">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037728">
         <link role="declaration" targetNodeId="1199644190051" resolveInfo="containsselector" />
       </node>
     </node>
@@ -3815,7 +3815,7 @@
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037733">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037733">
         <link role="declaration" targetNodeId="1199644190217" resolveInfo="presentselector" />
       </node>
     </node>
@@ -3829,7 +3829,7 @@
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037737">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037737">
         <link role="declaration" targetNodeId="1199644190130" resolveInfo="depthselector" />
       </node>
     </node>
@@ -3843,7 +3843,7 @@
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037742">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037742">
         <link role="declaration" targetNodeId="1199644190100" resolveInfo="dependselector" />
       </node>
     </node>
@@ -3857,7 +3857,7 @@
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037747">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037747">
         <link role="declaration" targetNodeId="1199644190040" resolveInfo="containsregexpselector" />
       </node>
     </node>
@@ -3871,7 +3871,7 @@
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037751">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037751">
         <link role="declaration" targetNodeId="1199644190289" resolveInfo="modifiedselector" />
       </node>
     </node>
@@ -3881,7 +3881,7 @@
         <link role="declaration" targetNodeId="1208450037750" resolveInfo="modified" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400556">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400556">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -3895,7 +3895,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186639" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135400579" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400577">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400577">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -3906,7 +3906,7 @@
       <property name="name" value="sources" />
       <property name="classname" value="org.apache.tools.ant.types.resources.Union" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720995">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720995">
         <link role="declaration" targetNodeId="1199644186659" resolveInfo="union" />
       </node>
     </node>
@@ -3920,7 +3920,7 @@
       <property name="name" value="targets" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720999">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800720999">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -3934,7 +3934,7 @@
       <property name="name" value="srcfileset" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037759">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037759">
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
@@ -3942,7 +3942,7 @@
       <property name="name" value="targetfileset" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037761">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037761">
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
@@ -3959,7 +3959,7 @@
       <property name="name" value="srcfilelist" />
       <property name="classname" value="org.apache.tools.ant.types.FileList" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037767">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037767">
         <link role="declaration" targetNodeId="1199644189423" resolveInfo="filelist" />
       </node>
     </node>
@@ -3967,7 +3967,7 @@
       <property name="name" value="targetfilelist" />
       <property name="classname" value="org.apache.tools.ant.types.FileList" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037769">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037769">
         <link role="declaration" targetNodeId="1199644189423" resolveInfo="filelist" />
       </node>
     </node>
@@ -3980,14 +3980,14 @@
         <link role="declaration" targetNodeId="1208450037768" resolveInfo="targetfilelist" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400580">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400580">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186659">
     <property name="name" value="union" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Union" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401725">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401725">
       <link role="declaration" targetNodeId="1199644186660" resolveInfo="baseresourcecollectioncontainer" />
     </node>
   </node>
@@ -4027,14 +4027,14 @@
         <link role="declaration" targetNodeId="1208450039777" resolveInfo="all" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401656">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401656">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644186675">
     <property name="name" value="diagnostics" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DiagnosticsTask" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400582">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400582">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4053,7 +4053,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186685" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400585" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400583">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400583">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4077,7 +4077,7 @@
       <property name="name" value="archives" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037783">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037783">
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
@@ -4087,7 +4087,7 @@
         <link role="declaration" targetNodeId="1208450037782" resolveInfo="archives" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400588">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400588">
       <link role="declaration" targetNodeId="1199644186688" resolveInfo="jar" />
     </node>
   </node>
@@ -4180,7 +4180,7 @@
       <property name="name" value="configuredmanifest" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038013">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038013">
         <link role="declaration" targetNodeId="1208450038011" resolveInfo="manifest" />
       </node>
     </node>
@@ -4194,7 +4194,7 @@
       <property name="name" value="metainf" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038018">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038018">
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
@@ -4208,7 +4208,7 @@
       <property name="name" value="configuredindexjars" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038022">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038022">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -4222,7 +4222,7 @@
       <property name="name" value="configuredservice" />
       <property name="classname" value="org.apache.tools.ant.types.spi.Service" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038031">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038031">
         <link role="declaration" targetNodeId="1208450038028" resolveInfo="service" />
       </node>
     </node>
@@ -4232,7 +4232,7 @@
         <link role="declaration" targetNodeId="1208450038030" resolveInfo="configuredservice" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400765">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400765">
       <link role="declaration" targetNodeId="1199644186689" resolveInfo="zip" />
     </node>
   </node>
@@ -4363,7 +4363,7 @@
       <property name="name" value="zipgroupfileset" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039045">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039045">
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
@@ -4382,7 +4382,7 @@
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401373">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401373">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -4447,7 +4447,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037794">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037794">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -4457,7 +4457,7 @@
         <link role="declaration" targetNodeId="1208450037793" resolveInfo="text" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400592">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400592">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4497,7 +4497,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186844" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400603" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400601">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400601">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4534,7 +4534,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.condition.ConditionBase" />
       <property name="abstract" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721110">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721110">
         <link role="declaration" targetNodeId="1199644186882" resolveInfo="conditionbase" />
       </node>
     </node>
@@ -4548,7 +4548,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037888">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037888">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -4558,7 +4558,7 @@
         <link role="declaration" targetNodeId="1208450037887" resolveInfo="text" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400659">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400659">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4566,7 +4566,7 @@
     <property name="name" value="conditionbase" />
     <property name="abstract" value="true" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.condition.ConditionBase" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644186883">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644186883">
       <link role="declaration" targetNodeId="1199644185589" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186886">
@@ -4633,7 +4633,7 @@
         <link role="declaration" targetNodeId="1199644185414" resolveInfo="patternset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400666">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400666">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4658,7 +4658,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186945" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400675" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400674">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400674">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4803,21 +4803,21 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696444135">
       <link role="declaration" targetNodeId="1201696444134" resolveInfo="chainablereader" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400679">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400679">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187002">
     <property name="name" value="gunzip" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.GUnzip" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400700">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400700">
       <link role="declaration" targetNodeId="1199644185759" resolveInfo="unpack" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187004">
     <property name="name" value="gzip" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.GZip" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400701">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400701">
       <link role="declaration" targetNodeId="1199644185777" resolveInfo="pack" />
     </node>
   </node>
@@ -4894,7 +4894,7 @@
       <property name="name" value="dname" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.GenerateKey$DistinguishedName" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721173">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721173">
         <link role="declaration" targetNodeId="1199644187052" resolveInfo="distinguishedname" />
       </node>
     </node>
@@ -4904,7 +4904,7 @@
         <link role="declaration" targetNodeId="1201800721172" resolveInfo="dname" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400703">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400703">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4957,7 +4957,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187102" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1218135400726" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400720">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400720">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -4976,7 +4976,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187112" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1218135400735" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400732">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400732">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -5012,7 +5012,7 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135400738" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400736">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400736">
       <link role="declaration" targetNodeId="1199644186474" resolveInfo="defbase" />
     </node>
   </node>
@@ -5054,7 +5054,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037983">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450037983">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -5064,7 +5064,7 @@
         <link role="declaration" targetNodeId="1208450037982" resolveInfo="text" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400742">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400742">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -5136,7 +5136,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721210">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721210">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -5146,7 +5146,7 @@
         <link role="declaration" targetNodeId="1201800721209" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400749">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400749">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -5322,7 +5322,7 @@
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721263">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721263">
         <link role="declaration" targetNodeId="1199644185588" resolveInfo="argument" />
       </node>
     </node>
@@ -5330,7 +5330,7 @@
       <property name="name" value="jvmarg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721265">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721265">
         <link role="declaration" targetNodeId="1199644185588" resolveInfo="argument" />
       </node>
     </node>
@@ -5347,7 +5347,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721270">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721270">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -5355,7 +5355,7 @@
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721272">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721272">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -5378,7 +5378,7 @@
       <property name="name" value="sysproperty" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038081">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038081">
         <link role="declaration" targetNodeId="1208450037303" resolveInfo="variable" />
       </node>
     </node>
@@ -5386,7 +5386,7 @@
       <property name="name" value="env" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038084">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038084">
         <link role="declaration" targetNodeId="1208450037303" resolveInfo="variable" />
       </node>
     </node>
@@ -5403,7 +5403,7 @@
       <property name="name" value="configuredredirector" />
       <property name="classname" value="org.apache.tools.ant.types.RedirectorElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038089">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038089">
         <link role="declaration" targetNodeId="1199644189479" resolveInfo="redirectorelement" />
       </node>
     </node>
@@ -5417,7 +5417,7 @@
       <property name="name" value="syspropertyset" />
       <property name="classname" value="org.apache.tools.ant.types.PropertySet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038097">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038097">
         <link role="declaration" targetNodeId="1199644189444" resolveInfo="propertyset" />
       </node>
     </node>
@@ -5433,7 +5433,7 @@
         <link role="declaration" targetNodeId="1199644189392" resolveInfo="assertions" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400779">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400779">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -5817,7 +5817,7 @@
       <property name="name" value="group" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$GroupArgument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721468">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721468">
         <link role="declaration" targetNodeId="1199644187591" resolveInfo="groupargument" />
       </node>
     </node>
@@ -5831,7 +5831,7 @@
       <property name="name" value="tag" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$TagArgument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721472">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721472">
         <link role="declaration" targetNodeId="1199644187603" resolveInfo="tagargument" />
       </node>
     </node>
@@ -5845,7 +5845,7 @@
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721476">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721476">
         <link role="declaration" targetNodeId="1199644185588" resolveInfo="argument" />
       </node>
     </node>
@@ -5859,7 +5859,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721480">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721480">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -5867,7 +5867,7 @@
       <property name="name" value="sourcepath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721482">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721482">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -5875,7 +5875,7 @@
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721484">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721484">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -5895,7 +5895,7 @@
       <property name="name" value="doclet" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$DocletInfo" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721506">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721506">
         <link role="declaration" targetNodeId="1199644187701" resolveInfo="docletinfo" />
       </node>
     </node>
@@ -5909,7 +5909,7 @@
       <property name="name" value="link" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$LinkArgument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721510">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721510">
         <link role="declaration" targetNodeId="1199644187733" resolveInfo="linkargument" />
       </node>
     </node>
@@ -5923,7 +5923,7 @@
       <property name="name" value="sourcefiles" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$ResourceCollectionContainer" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721530">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721530">
         <link role="declaration" targetNodeId="1199644187753" resolveInfo="resourcecollectioncontainer" />
       </node>
     </node>
@@ -5937,7 +5937,7 @@
       <property name="name" value="source" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$SourceFile" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038263">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038263">
         <link role="declaration" targetNodeId="1208450038260" resolveInfo="sourcefile" />
       </node>
     </node>
@@ -5951,7 +5951,7 @@
       <property name="name" value="package" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$PackageName" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038270">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038270">
         <link role="declaration" targetNodeId="1208450038268" resolveInfo="packagename" />
       </node>
     </node>
@@ -5959,7 +5959,7 @@
       <property name="name" value="excludepackage" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$PackageName" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038273">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038273">
         <link role="declaration" targetNodeId="1208450038268" resolveInfo="packagename" />
       </node>
     </node>
@@ -5983,7 +5983,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038284">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038284">
         <link role="declaration" targetNodeId="1208450038282" resolveInfo="html" />
       </node>
     </node>
@@ -5992,7 +5992,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038287">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038287">
         <link role="declaration" targetNodeId="1208450038282" resolveInfo="html" />
       </node>
     </node>
@@ -6001,7 +6001,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038289">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038289">
         <link role="declaration" targetNodeId="1208450038282" resolveInfo="html" />
       </node>
     </node>
@@ -6010,7 +6010,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$Html" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038292">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038292">
         <link role="declaration" targetNodeId="1208450038282" resolveInfo="html" />
       </node>
     </node>
@@ -6033,7 +6033,7 @@
       <property name="name" value="taglet" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$ExtensionInfo" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038321">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038321">
         <link role="declaration" targetNodeId="1208450038318" resolveInfo="extensioninfo" />
       </node>
     </node>
@@ -6047,7 +6047,7 @@
       <property name="name" value="packageset" />
       <property name="classname" value="org.apache.tools.ant.types.DirSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038328">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038328">
         <link role="declaration" targetNodeId="1199644189405" resolveInfo="dirset" />
       </node>
     </node>
@@ -6057,7 +6057,7 @@
         <link role="declaration" targetNodeId="1208450038327" resolveInfo="packageset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400867">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400867">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -6098,7 +6098,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187691" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401468" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401464">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401464">
       <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
     </node>
   </node>
@@ -6108,7 +6108,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445192">
       <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401542">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401542">
       <link role="declaration" targetNodeId="1199644187605" resolveInfo="abstractfileset" />
     </node>
   </node>
@@ -6210,7 +6210,7 @@
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722233">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722233">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -6218,7 +6218,7 @@
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722235">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722235">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -6226,7 +6226,7 @@
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722237">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722237">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -6234,7 +6234,7 @@
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722239">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722239">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -6257,7 +6257,7 @@
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039206">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039206">
         <link role="declaration" targetNodeId="1199644190070" resolveInfo="dateselector" />
       </node>
     </node>
@@ -6271,7 +6271,7 @@
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039210">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039210">
         <link role="declaration" targetNodeId="1199644190229" resolveInfo="selectselector" />
       </node>
     </node>
@@ -6285,7 +6285,7 @@
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039215">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039215">
         <link role="declaration" targetNodeId="1199644189994" resolveInfo="andselector" />
       </node>
     </node>
@@ -6299,7 +6299,7 @@
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039220">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039220">
         <link role="declaration" targetNodeId="1199644190199" resolveInfo="orselector" />
       </node>
     </node>
@@ -6313,7 +6313,7 @@
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039224">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039224">
         <link role="declaration" targetNodeId="1199644190197" resolveInfo="notselector" />
       </node>
     </node>
@@ -6327,7 +6327,7 @@
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039229">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039229">
         <link role="declaration" targetNodeId="1199644190195" resolveInfo="noneselector" />
       </node>
     </node>
@@ -6341,7 +6341,7 @@
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039233">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039233">
         <link role="declaration" targetNodeId="1199644190188" resolveInfo="majorityselector" />
       </node>
     </node>
@@ -6355,7 +6355,7 @@
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039238">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039238">
         <link role="declaration" targetNodeId="1199644190246" resolveInfo="sizeselector" />
       </node>
     </node>
@@ -6369,7 +6369,7 @@
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039242">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039242">
         <link role="declaration" targetNodeId="1199644190144" resolveInfo="differentselector" />
       </node>
     </node>
@@ -6383,7 +6383,7 @@
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039247">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039247">
         <link role="declaration" targetNodeId="1199644190170" resolveInfo="filenameselector" />
       </node>
     </node>
@@ -6397,7 +6397,7 @@
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039252">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039252">
         <link role="declaration" targetNodeId="1199644190279" resolveInfo="typeselector" />
       </node>
     </node>
@@ -6411,7 +6411,7 @@
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039256">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039256">
         <link role="declaration" targetNodeId="1199644190154" resolveInfo="extendselector" />
       </node>
     </node>
@@ -6425,7 +6425,7 @@
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039261">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039261">
         <link role="declaration" targetNodeId="1199644190051" resolveInfo="containsselector" />
       </node>
     </node>
@@ -6439,7 +6439,7 @@
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039265">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039265">
         <link role="declaration" targetNodeId="1199644190217" resolveInfo="presentselector" />
       </node>
     </node>
@@ -6453,7 +6453,7 @@
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039270">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039270">
         <link role="declaration" targetNodeId="1199644190130" resolveInfo="depthselector" />
       </node>
     </node>
@@ -6467,7 +6467,7 @@
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039274">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039274">
         <link role="declaration" targetNodeId="1199644190100" resolveInfo="dependselector" />
       </node>
     </node>
@@ -6481,7 +6481,7 @@
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039279">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039279">
         <link role="declaration" targetNodeId="1199644190040" resolveInfo="containsregexpselector" />
       </node>
     </node>
@@ -6495,7 +6495,7 @@
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039284">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039284">
         <link role="declaration" targetNodeId="1199644190289" resolveInfo="modifiedselector" />
       </node>
     </node>
@@ -6505,20 +6505,20 @@
         <link role="declaration" targetNodeId="1208450039283" resolveInfo="modified" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401488">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401488">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187701">
     <property name="name" value="docletinfo" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$DocletInfo" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644187718">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644187718">
       <link role="declaration" targetNodeId="1199644187702" resolveInfo="extensioninfo" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187702">
     <property name="name" value="extensioninfo" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644187703">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1199644187703">
       <link role="declaration" targetNodeId="1199644185589" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644187704">
@@ -6615,7 +6615,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187790" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135400960" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400957">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400957">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -6719,7 +6719,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400964">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400964">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -6732,7 +6732,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187851" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135400978" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400977">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400977">
       <link role="declaration" targetNodeId="1199644187828" resolveInfo="loadresource" />
     </node>
   </node>
@@ -6775,7 +6775,7 @@
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400989">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400989">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -6822,7 +6822,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721561">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721561">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -6838,7 +6838,7 @@
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400980">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400980">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -6861,7 +6861,7 @@
       <property name="name" value="sequential" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$NestedSequential" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721590">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721590">
         <link role="declaration" targetNodeId="1199644187906" resolveInfo="nestedsequential" />
       </node>
     </node>
@@ -6875,7 +6875,7 @@
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$Attribute" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038377">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038377">
         <link role="declaration" targetNodeId="1208450038374" resolveInfo="attribute" />
       </node>
     </node>
@@ -6889,7 +6889,7 @@
       <property name="name" value="configuredtext" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$Text" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038401">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038401">
         <link role="declaration" targetNodeId="1208450038398" resolveInfo="text" />
       </node>
     </node>
@@ -6903,7 +6903,7 @@
       <property name="name" value="configuredelement" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.MacroDef$TemplateElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038411">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038411">
         <link role="declaration" targetNodeId="1208450038409" resolveInfo="templateelement" />
       </node>
     </node>
@@ -6913,7 +6913,7 @@
         <link role="declaration" targetNodeId="1208450038410" resolveInfo="configuredelement" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400996">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135400996">
       <link role="declaration" targetNodeId="1199644185327" resolveInfo="antlibdefinition" />
     </node>
   </node>
@@ -6941,7 +6941,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038419">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038419">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -6957,7 +6957,7 @@
         <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401001">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401001">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7000,7 +7000,7 @@
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401004">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401004">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7029,7 +7029,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038440">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038440">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -7039,7 +7039,7 @@
         <link role="declaration" targetNodeId="1208450038439" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401012">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401012">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7076,7 +7076,7 @@
       <property name="name" value="configuredsection" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Section" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038453">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038453">
         <link role="declaration" targetNodeId="1208450038451" resolveInfo="section" />
       </node>
     </node>
@@ -7090,7 +7090,7 @@
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Attribute" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038478">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038478">
         <link role="declaration" targetNodeId="1208450038476" resolveInfo="attribute" />
       </node>
     </node>
@@ -7100,7 +7100,7 @@
         <link role="declaration" targetNodeId="1208450038477" resolveInfo="configuredattribute" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401018">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401018">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7113,14 +7113,14 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187986" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135401040" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401039">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401039">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644187988">
     <property name="name" value="move" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Move" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401042">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401042">
       <link role="declaration" targetNodeId="1199644186266" resolveInfo="copy" />
     </node>
   </node>
@@ -7139,7 +7139,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644187998" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.IntegerType" id="1218135401046" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401043">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401043">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7189,7 +7189,7 @@
       <property name="name" value="daemons" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Parallel$TaskList" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038618">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038618">
         <link role="declaration" targetNodeId="1208450038615" resolveInfo="tasklist" />
       </node>
     </node>
@@ -7199,7 +7199,7 @@
         <link role="declaration" targetNodeId="1208450038617" resolveInfo="daemons" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401055">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401055">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7260,7 +7260,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188076" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.IntegerType" id="1218135401077" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401064">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401064">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7337,7 +7337,7 @@
       <property name="name" value="map" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.PathConvert$MapEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721707">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721707">
         <link role="declaration" targetNodeId="1199644188108" resolveInfo="mapentry" />
       </node>
     </node>
@@ -7359,7 +7359,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401078">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401078">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7397,7 +7397,7 @@
         <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401089">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401089">
       <link role="declaration" targetNodeId="1199644185327" resolveInfo="antlibdefinition" />
     </node>
   </node>
@@ -7465,7 +7465,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696444661">
       <link role="declaration" targetNodeId="1201696444660" resolveInfo="subbuildlistener" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401111">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401111">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7491,7 +7491,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188186" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135401125" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401120">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401120">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7551,7 +7551,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Replace$NestedString" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721765">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721765">
         <link role="declaration" targetNodeId="1199644188222" resolveInfo="nestedstring" />
       </node>
     </node>
@@ -7560,7 +7560,7 @@
       <property name="classname" value="org.apache.tools.ant.taskdefs.Replace$NestedString" />
       <property name="canHaveInternalText" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721767">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721767">
         <link role="declaration" targetNodeId="1199644188222" resolveInfo="nestedstring" />
       </node>
     </node>
@@ -7579,7 +7579,7 @@
         <link role="declaration" targetNodeId="1199644188227" resolveInfo="replacefilter" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401126">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401126">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -7678,7 +7678,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401141">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401141">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -7791,7 +7791,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721815">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721815">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -7799,7 +7799,7 @@
       <property name="name" value="extdirs" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721817">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721817">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -7816,7 +7816,7 @@
       <property name="name" value="compilerarg" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Rmic$ImplementationSpecificArgument" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721822">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721822">
         <link role="declaration" targetNodeId="1199644185587" resolveInfo="implementationspecificargument" />
       </node>
     </node>
@@ -7826,7 +7826,7 @@
         <link role="declaration" targetNodeId="1201800721821" resolveInfo="compilerarg" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401148">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401148">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -7947,7 +7947,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038759">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038759">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -7963,7 +7963,7 @@
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401175">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401175">
       <link role="declaration" targetNodeId="1199644187148" resolveInfo="jdbctask" />
     </node>
   </node>
@@ -7994,7 +7994,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188537" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401198" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401196">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401196">
       <link role="declaration" targetNodeId="1199644188442" resolveInfo="mail" />
     </node>
   </node>
@@ -8133,7 +8133,7 @@
       <property name="name" value="attachments" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722174">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722174">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -8165,7 +8165,7 @@
       <property name="name" value="from" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039134">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039134">
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
@@ -8173,7 +8173,7 @@
       <property name="name" value="replyto" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039136">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039136">
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
@@ -8181,7 +8181,7 @@
       <property name="name" value="to" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039138">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039138">
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
@@ -8189,7 +8189,7 @@
       <property name="name" value="cc" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039141">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039141">
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
@@ -8197,7 +8197,7 @@
       <property name="name" value="bcc" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.email.EmailAddress" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039143">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039143">
         <link role="declaration" targetNodeId="1208450039131" resolveInfo="emailaddress" />
       </node>
     </node>
@@ -8219,7 +8219,7 @@
         <link role="declaration" targetNodeId="1208450039142" resolveInfo="bcc" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401423">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401423">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -8251,7 +8251,7 @@
         <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401199">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401199">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -8318,7 +8318,7 @@
         <link role="declaration" targetNodeId="1201696443872" resolveInfo="filenamemapper" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401201">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401201">
       <link role="declaration" targetNodeId="1199644185138" resolveInfo="abstractjarsignertask" />
     </node>
   </node>
@@ -8355,7 +8355,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188618" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.IntegerType" id="1218135401221" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401216">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401216">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -8432,7 +8432,7 @@
       <property name="name" value="buildpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721893">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721893">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -8446,7 +8446,7 @@
       <property name="name" value="buildpathelement" />
       <property name="classname" value="org.apache.tools.ant.types.Path$PathElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721913">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721913">
         <link role="declaration" targetNodeId="1199644185206" resolveInfo="pathelement" />
       </node>
     </node>
@@ -8490,7 +8490,7 @@
       <property name="name" value="configuredtarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$TargetElement" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038832">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038832">
         <link role="declaration" targetNodeId="1208450037326" resolveInfo="targetelement" />
       </node>
     </node>
@@ -8506,14 +8506,14 @@
         <link role="declaration" targetNodeId="1199644189444" resolveInfo="propertyset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401225">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401225">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188683">
     <property name="name" value="mycopy" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Sync$MyCopy" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401242">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401242">
       <link role="declaration" targetNodeId="1199644186266" resolveInfo="copy" />
     </node>
   </node>
@@ -8572,7 +8572,7 @@
       <property name="name" value="preserveintarget" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Sync$SyncTarget" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038853">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038853">
         <link role="declaration" targetNodeId="1199644189319" resolveInfo="synctarget" />
       </node>
     </node>
@@ -8582,7 +8582,7 @@
         <link role="declaration" targetNodeId="1208450038852" resolveInfo="preserveintarget" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401244">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401244">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -8667,7 +8667,7 @@
         <link role="declaration" targetNodeId="1201680421821" resolveInfo="tarfileset" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401255">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401255">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -8710,7 +8710,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188802" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1201680170888" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401627">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401627">
       <link role="declaration" targetNodeId="1199644188738" resolveInfo="archivefileset" />
     </node>
   </node>
@@ -8766,21 +8766,21 @@
       <property name="deprecated" value="true" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401525" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401515">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401515">
       <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188806">
     <property name="name" value="taskdef" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Taskdef" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401265">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401265">
       <link role="declaration" targetNodeId="1199644188807" resolveInfo="typedef" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188807">
     <property name="name" value="typedef" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Typedef" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401291">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401291">
       <link role="declaration" targetNodeId="1199644186528" resolveInfo="definer" />
     </node>
   </node>
@@ -8817,7 +8817,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188830" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401271" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401266">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401266">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -8888,7 +8888,7 @@
       <property name="name" value="configuredmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038903">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038903">
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
@@ -8898,14 +8898,14 @@
         <link role="declaration" targetNodeId="1208450038902" resolveInfo="configuredmapper" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401275">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401275">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644188862">
     <property name="name" value="apply" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Transform" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401286">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401286">
       <link role="declaration" targetNodeId="1199644185918" resolveInfo="execon" />
     </node>
   </node>
@@ -8922,7 +8922,7 @@
       <property name="name" value="format" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Tstamp$CustomFormat" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721989">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800721989">
         <link role="declaration" targetNodeId="1199644188870" resolveInfo="customformat" />
       </node>
     </node>
@@ -8932,7 +8932,7 @@
         <link role="declaration" targetNodeId="1201800721988" resolveInfo="format" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401287">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401287">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -9002,7 +9002,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188923" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401301" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401299">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401299">
       <link role="declaration" targetNodeId="1199644186894" resolveInfo="unzip" />
     </node>
   </node>
@@ -9052,7 +9052,7 @@
       <property name="name" value="srcresources" />
       <property name="classname" value="org.apache.tools.ant.types.resources.Union" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722012">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722012">
         <link role="declaration" targetNodeId="1199644186659" resolveInfo="union" />
       </node>
     </node>
@@ -9066,7 +9066,7 @@
       <property name="name" value="srcfiles" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038929">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038929">
         <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
       </node>
     </node>
@@ -9076,7 +9076,7 @@
         <link role="declaration" targetNodeId="1208450038928" resolveInfo="srcfiles" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401304">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401304">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -9089,7 +9089,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644188954" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1218135401313" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401312">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401312">
       <link role="declaration" targetNodeId="1199644185138" resolveInfo="abstractjarsignertask" />
     </node>
   </node>
@@ -9122,7 +9122,7 @@
       <property name="name" value="lib" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038940">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038940">
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
@@ -9130,7 +9130,7 @@
       <property name="name" value="classes" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038942">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038942">
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
@@ -9138,7 +9138,7 @@
       <property name="name" value="webinf" />
       <property name="classname" value="org.apache.tools.ant.types.ZipFileSet" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038945">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038945">
         <link role="declaration" targetNodeId="1199644189629" resolveInfo="zipfileset" />
       </node>
     </node>
@@ -9154,7 +9154,7 @@
         <link role="declaration" targetNodeId="1208450038944" resolveInfo="webinf" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401315">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401315">
       <link role="declaration" targetNodeId="1199644186688" resolveInfo="jar" />
     </node>
   </node>
@@ -9183,7 +9183,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722042">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722042">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -9197,7 +9197,7 @@
       <property name="name" value="class" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401325" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401322">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401322">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -9325,7 +9325,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722085">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722085">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -9357,7 +9357,7 @@
       <property name="name" value="configuredstyle" />
       <property name="classname" value="org.apache.tools.ant.types.resources.Resources" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038999">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450038999">
         <link role="declaration" targetNodeId="1199644189818" resolveInfo="resources" />
       </node>
     </node>
@@ -9371,7 +9371,7 @@
       <property name="name" value="configuredxmlcatalog" />
       <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039004">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039004">
         <link role="declaration" targetNodeId="1199644189603" resolveInfo="xmlcatalog" />
       </node>
     </node>
@@ -9381,7 +9381,7 @@
         <link role="declaration" targetNodeId="1208450039003" resolveInfo="configuredxmlcatalog" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401330">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401330">
       <link role="declaration" targetNodeId="1199644185354" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -9512,7 +9512,7 @@
       <property name="name" value="configuredxmlcatalog" />
       <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039023">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039023">
         <link role="declaration" targetNodeId="1199644189603" resolveInfo="xmlcatalog" />
       </node>
     </node>
@@ -9522,7 +9522,7 @@
         <link role="declaration" targetNodeId="1208450039022" resolveInfo="configuredxmlcatalog" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401357">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401357">
       <link role="declaration" targetNodeId="1199644185005" resolveInfo="task" />
     </node>
   </node>
@@ -9575,7 +9575,7 @@
       <property name="name" value="user" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.cvslib.CvsUser" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039066">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039066">
         <link role="declaration" targetNodeId="1208450039064" resolveInfo="cvsuser" />
       </node>
     </node>
@@ -9585,7 +9585,7 @@
         <link role="declaration" targetNodeId="1208450039065" resolveInfo="user" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401396">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401396">
       <link role="declaration" targetNodeId="1199644185060" resolveInfo="abstractcvstask" />
     </node>
   </node>
@@ -9628,7 +9628,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189227" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401412" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401408">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401408">
       <link role="declaration" targetNodeId="1199644185060" resolveInfo="abstractcvstask" />
     </node>
   </node>
@@ -9647,7 +9647,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189237" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401422" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401419">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401419">
       <link role="declaration" targetNodeId="1199644185060" resolveInfo="abstractcvstask" />
     </node>
   </node>
@@ -9660,7 +9660,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401455">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401455">
       <link role="declaration" targetNodeId="1199644189256" resolveInfo="restrict" />
     </node>
   </node>
@@ -9688,7 +9688,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401705">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401705">
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
@@ -9701,21 +9701,21 @@
         <link role="declaration" targetNodeId="1201696445456" resolveInfo="resourceselector" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401758">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401758">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189275">
     <property name="name" value="newest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$Newest" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401457">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401457">
       <link role="declaration" targetNodeId="1199644189276" resolveInfo="xest" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189276">
     <property name="name" value="xest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$Xest" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401462">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401462">
       <link role="declaration" targetNodeId="1199644189277" resolveInfo="sort" />
     </node>
   </node>
@@ -9728,7 +9728,7 @@
         <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401708">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401708">
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
@@ -9754,7 +9754,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401659">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401659">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -9765,21 +9765,21 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445509">
       <link role="declaration" targetNodeId="1201696445508" resolveInfo="comparator" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401741">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401741">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189313">
     <property name="name" value="nonexistent" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$NonExistent" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401459">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401459">
       <link role="declaration" targetNodeId="1199644189256" resolveInfo="restrict" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189315">
     <property name="name" value="oldest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.DependSet$Oldest" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401460">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401460">
       <link role="declaration" targetNodeId="1199644189276" resolveInfo="xest" />
     </node>
   </node>
@@ -9792,7 +9792,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189323" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135401471" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401470">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401470">
       <link role="declaration" targetNodeId="1199644187605" resolveInfo="abstractfileset" />
     </node>
   </node>
@@ -9814,7 +9814,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445100">
       <link role="declaration" targetNodeId="1201696443729" resolveInfo="condition" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401478">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401478">
       <link role="declaration" targetNodeId="1199644189327" resolveInfo="abstractselectorcontainer" />
     </node>
   </node>
@@ -9835,7 +9835,7 @@
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039884">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039884">
         <link role="declaration" targetNodeId="1199644190070" resolveInfo="dateselector" />
       </node>
     </node>
@@ -9849,7 +9849,7 @@
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039889">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039889">
         <link role="declaration" targetNodeId="1199644190229" resolveInfo="selectselector" />
       </node>
     </node>
@@ -9863,7 +9863,7 @@
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039893">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039893">
         <link role="declaration" targetNodeId="1199644189994" resolveInfo="andselector" />
       </node>
     </node>
@@ -9877,7 +9877,7 @@
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039897">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039897">
         <link role="declaration" targetNodeId="1199644190199" resolveInfo="orselector" />
       </node>
     </node>
@@ -9891,7 +9891,7 @@
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039902">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039902">
         <link role="declaration" targetNodeId="1199644190197" resolveInfo="notselector" />
       </node>
     </node>
@@ -9905,7 +9905,7 @@
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039906">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039906">
         <link role="declaration" targetNodeId="1199644190195" resolveInfo="noneselector" />
       </node>
     </node>
@@ -9919,7 +9919,7 @@
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039911">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039911">
         <link role="declaration" targetNodeId="1199644190188" resolveInfo="majorityselector" />
       </node>
     </node>
@@ -9933,7 +9933,7 @@
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039915">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039915">
         <link role="declaration" targetNodeId="1199644190246" resolveInfo="sizeselector" />
       </node>
     </node>
@@ -9947,7 +9947,7 @@
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039920">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039920">
         <link role="declaration" targetNodeId="1199644190144" resolveInfo="differentselector" />
       </node>
     </node>
@@ -9961,7 +9961,7 @@
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039924">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039924">
         <link role="declaration" targetNodeId="1199644190170" resolveInfo="filenameselector" />
       </node>
     </node>
@@ -9975,7 +9975,7 @@
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039928">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039928">
         <link role="declaration" targetNodeId="1199644190279" resolveInfo="typeselector" />
       </node>
     </node>
@@ -9989,7 +9989,7 @@
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039933">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039933">
         <link role="declaration" targetNodeId="1199644190154" resolveInfo="extendselector" />
       </node>
     </node>
@@ -10003,7 +10003,7 @@
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039937">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039937">
         <link role="declaration" targetNodeId="1199644190051" resolveInfo="containsselector" />
       </node>
     </node>
@@ -10017,7 +10017,7 @@
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039942">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039942">
         <link role="declaration" targetNodeId="1199644190217" resolveInfo="presentselector" />
       </node>
     </node>
@@ -10031,7 +10031,7 @@
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039946">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039946">
         <link role="declaration" targetNodeId="1199644190130" resolveInfo="depthselector" />
       </node>
     </node>
@@ -10045,7 +10045,7 @@
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039951">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039951">
         <link role="declaration" targetNodeId="1199644190100" resolveInfo="dependselector" />
       </node>
     </node>
@@ -10059,7 +10059,7 @@
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039955">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039955">
         <link role="declaration" targetNodeId="1199644190040" resolveInfo="containsregexpselector" />
       </node>
     </node>
@@ -10073,7 +10073,7 @@
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039960">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039960">
         <link role="declaration" targetNodeId="1199644190289" resolveInfo="modifiedselector" />
       </node>
     </node>
@@ -10083,7 +10083,7 @@
         <link role="declaration" targetNodeId="1208450039959" resolveInfo="modified" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401760">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401760">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10105,7 +10105,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445104">
       <link role="declaration" targetNodeId="1201696443729" resolveInfo="condition" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401483">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401483">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10143,7 +10143,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722251">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722251">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -10157,7 +10157,7 @@
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.types.Parameter" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039297">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039297">
         <link role="declaration" targetNodeId="1208450039295" resolveInfo="parameter" />
       </node>
     </node>
@@ -10167,7 +10167,7 @@
         <link role="declaration" targetNodeId="1208450039296" resolveInfo="param" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401507">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401507">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10193,7 +10193,7 @@
       <property name="name" value="enable" />
       <property name="classname" value="org.apache.tools.ant.types.Assertions$EnabledAssertion" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039354">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039354">
         <link role="declaration" targetNodeId="1208450039351" resolveInfo="enabledassertion" />
       </node>
     </node>
@@ -10207,7 +10207,7 @@
       <property name="name" value="disable" />
       <property name="classname" value="org.apache.tools.ant.types.Assertions$DisabledAssertion" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039362">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039362">
         <link role="declaration" targetNodeId="1208450039359" resolveInfo="disabledassertion" />
       </node>
     </node>
@@ -10217,7 +10217,7 @@
         <link role="declaration" targetNodeId="1208450039361" resolveInfo="disable" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401527">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401527">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10229,7 +10229,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039368">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039368">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -10239,7 +10239,7 @@
         <link role="declaration" targetNodeId="1208450039367" resolveInfo="text" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401532">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401532">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10249,7 +10249,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445185">
       <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401534">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401534">
       <link role="declaration" targetNodeId="1199644187605" resolveInfo="abstractfileset" />
     </node>
   </node>
@@ -10281,7 +10281,7 @@
       <property name="name" value="configuredfile" />
       <property name="classname" value="org.apache.tools.ant.types.FileList$FileName" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039381">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039381">
         <link role="declaration" targetNodeId="1208450039379" resolveInfo="filename" />
       </node>
     </node>
@@ -10291,7 +10291,7 @@
         <link role="declaration" targetNodeId="1208450039380" resolveInfo="configuredfile" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401535">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401535">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10343,7 +10343,7 @@
         <link role="declaration" targetNodeId="1208450039673" resolveInfo="propertyref" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401587">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401587">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10444,7 +10444,7 @@
       <property name="name" value="inputfilterchain" />
       <property name="classname" value="org.apache.tools.ant.types.FilterChain" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722382">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722382">
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
@@ -10452,7 +10452,7 @@
       <property name="name" value="outputfilterchain" />
       <property name="classname" value="org.apache.tools.ant.types.FilterChain" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722384">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722384">
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
@@ -10460,7 +10460,7 @@
       <property name="name" value="errorfilterchain" />
       <property name="classname" value="org.apache.tools.ant.types.FilterChain" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722386">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722386">
         <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
       </node>
     </node>
@@ -10480,7 +10480,7 @@
       <property name="name" value="configuredinputmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039696">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039696">
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
@@ -10488,7 +10488,7 @@
       <property name="name" value="configuredoutputmapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039698">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039698">
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
@@ -10496,7 +10496,7 @@
       <property name="name" value="configurederrormapper" />
       <property name="classname" value="org.apache.tools.ant.types.Mapper" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039700">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039700">
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
@@ -10512,7 +10512,7 @@
         <link role="declaration" targetNodeId="1208450039699" resolveInfo="configurederrormapper" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401592">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401592">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10525,7 +10525,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189549" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401614" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401613">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401613">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10577,7 +10577,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445323">
       <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401615">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401615">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10590,7 +10590,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189585" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401626" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401624">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401624">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10634,7 +10634,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722414">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722414">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -10642,7 +10642,7 @@
       <property name="name" value="catalogpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722416">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722416">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -10659,7 +10659,7 @@
       <property name="name" value="configuredxmlcatalog" />
       <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039748">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039748">
         <link role="declaration" targetNodeId="1199644189603" resolveInfo="xmlcatalog" />
       </node>
     </node>
@@ -10673,7 +10673,7 @@
       <property name="name" value="dtd" />
       <property name="classname" value="org.apache.tools.ant.types.ResourceLocation" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039756">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039756">
         <link role="declaration" targetNodeId="1208450039753" resolveInfo="resourcelocation" />
       </node>
     </node>
@@ -10681,7 +10681,7 @@
       <property name="name" value="entity" />
       <property name="classname" value="org.apache.tools.ant.types.ResourceLocation" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039758">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039758">
         <link role="declaration" targetNodeId="1208450039753" resolveInfo="resourcelocation" />
       </node>
     </node>
@@ -10694,7 +10694,7 @@
         <link role="declaration" targetNodeId="1208450039757" resolveInfo="entity" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401635">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401635">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -10707,7 +10707,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189633" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401643" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401642">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401642">
       <link role="declaration" targetNodeId="1199644188738" resolveInfo="archivefileset" />
     </node>
   </node>
@@ -10729,7 +10729,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445358">
       <link role="declaration" targetNodeId="1201696443872" resolveInfo="filenamemapper" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401644">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401644">
       <link role="declaration" targetNodeId="1199644186346" resolveInfo="filterchain" />
     </node>
   </node>
@@ -10759,21 +10759,21 @@
       <property name="name" value="archive" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="1218135401651" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401648">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401648">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189658">
     <property name="name" value="bcfileset" />
     <property name="classname" value="org.apache.tools.ant.types.resources.BCFileSet" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401653">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401653">
       <link role="declaration" targetNodeId="1199644187604" resolveInfo="fileset" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189660">
     <property name="name" value="bzip2resource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.BZip2Resource" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401655">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401655">
       <link role="declaration" targetNodeId="1199644189661" resolveInfo="compressedresource" />
     </node>
   </node>
@@ -10823,14 +10823,14 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401661">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401661">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189709">
     <property name="name" value="difference" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Difference" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401670">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401670">
       <link role="declaration" targetNodeId="1199644186660" resolveInfo="baseresourcecollectioncontainer" />
     </node>
   </node>
@@ -10858,7 +10858,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445400">
       <link role="declaration" targetNodeId="1201696445399" resolveInfo="touchable" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401672">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401672">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
@@ -10929,7 +10929,7 @@
       <property name="name" value="include" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722466">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722466">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -10937,7 +10937,7 @@
       <property name="name" value="includesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722468">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722468">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -10945,7 +10945,7 @@
       <property name="name" value="exclude" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722470">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722470">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -10953,7 +10953,7 @@
       <property name="name" value="excludesfile" />
       <property name="classname" value="org.apache.tools.ant.types.PatternSet$NameEntry" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722472">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722472">
         <link role="declaration" targetNodeId="1199644185395" resolveInfo="nameentry" />
       </node>
     </node>
@@ -10972,7 +10972,7 @@
         <link role="declaration" targetNodeId="1201800722471" resolveInfo="excludesfile" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401677">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401677">
       <link role="declaration" targetNodeId="1199644189327" resolveInfo="abstractselectorcontainer" />
     </node>
   </node>
@@ -10985,21 +10985,21 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189790" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.IntegerType" id="1218135401690" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401689">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401689">
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189792">
     <property name="name" value="gzipresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.GZipResource" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401691">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401691">
       <link role="declaration" targetNodeId="1199644189661" resolveInfo="compressedresource" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189794">
     <property name="name" value="intersect" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Intersect" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401693">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401693">
       <link role="declaration" targetNodeId="1199644186660" resolveInfo="baseresourcecollectioncontainer" />
     </node>
   </node>
@@ -11034,7 +11034,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722488">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722488">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -11044,14 +11044,14 @@
         <link role="declaration" targetNodeId="1201800722487" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401694">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401694">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189816">
     <property name="name" value="propertyresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.PropertyResource" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401701">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401701">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
@@ -11067,14 +11067,14 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401702">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401702">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189838">
     <property name="name" value="1" />
     <property name="classname" value="org.apache.tools.ant.types.resources.Restrict$1" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401703">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401703">
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
@@ -11105,14 +11105,14 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189858" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401712" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401709">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401709">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189860">
     <property name="name" value="tarresource" />
     <property name="classname" value="org.apache.tools.ant.types.resources.TarResource" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401716">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401716">
       <link role="declaration" targetNodeId="1199644189646" resolveInfo="archiveresource" />
     </node>
   </node>
@@ -11131,7 +11131,7 @@
         <link role="declaration" targetNodeId="1201696445478" resolveInfo="tokenizer" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401717">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401717">
       <link role="declaration" targetNodeId="1199644189278" resolveInfo="baseresourcecollectionwrapper" />
     </node>
   </node>
@@ -11156,7 +11156,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189883" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401721" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401720">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401720">
       <link role="declaration" targetNodeId="1199644189551" resolveInfo="resource" />
     </node>
   </node>
@@ -11187,7 +11187,7 @@
         <link role="declaration" targetNodeId="1201696443783" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401726">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401726">
       <link role="declaration" targetNodeId="1199644189646" resolveInfo="archiveresource" />
     </node>
   </node>
@@ -11200,14 +11200,14 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644189922" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1218135401733" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401732">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401732">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189924">
     <property name="name" value="date" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Date" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401734">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401734">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
@@ -11220,28 +11220,28 @@
         <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401736">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401736">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189930">
     <property name="name" value="exists" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Exists" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401737">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401737">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189932">
     <property name="name" value="filesystem" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.FileSystem" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401739">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401739">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189934">
     <property name="name" value="name" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Name" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401740">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401740">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
@@ -11254,21 +11254,21 @@
         <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401743">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401743">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189941">
     <property name="name" value="size" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Size" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401744">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401744">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189943">
     <property name="name" value="type" />
     <property name="classname" value="org.apache.tools.ant.types.resources.comparators.Type" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401746">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401746">
       <link role="declaration" targetNodeId="1199644189289" resolveInfo="resourcecomparator" />
     </node>
   </node>
@@ -11278,7 +11278,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445518">
       <link role="declaration" targetNodeId="1201696445456" resolveInfo="resourceselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401747">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401747">
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
@@ -11381,7 +11381,7 @@
         <link role="declaration" targetNodeId="1201800722563" resolveInfo="control" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401748">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401748">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -11397,7 +11397,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445532">
       <link role="declaration" targetNodeId="1201696445456" resolveInfo="resourceselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401753">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401753">
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
@@ -11407,7 +11407,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445535">
       <link role="declaration" targetNodeId="1201696445456" resolveInfo="resourceselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401756">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401756">
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
@@ -11417,14 +11417,14 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445537">
       <link role="declaration" targetNodeId="1201696445456" resolveInfo="resourceselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401757">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401757">
       <link role="declaration" targetNodeId="1199644189257" resolveInfo="resourceselectorcontainer" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644189994">
     <property name="name" value="andselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401762">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401762">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
@@ -11445,7 +11445,7 @@
       <property name="name" value="date" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DateSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039971">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039971">
         <link role="declaration" targetNodeId="1199644190070" resolveInfo="dateselector" />
       </node>
     </node>
@@ -11459,7 +11459,7 @@
       <property name="name" value="selector" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SelectSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039975">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039975">
         <link role="declaration" targetNodeId="1199644190229" resolveInfo="selectselector" />
       </node>
     </node>
@@ -11473,7 +11473,7 @@
       <property name="name" value="and" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.AndSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039980">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039980">
         <link role="declaration" targetNodeId="1199644189994" resolveInfo="andselector" />
       </node>
     </node>
@@ -11487,7 +11487,7 @@
       <property name="name" value="or" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039984">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039984">
         <link role="declaration" targetNodeId="1199644190199" resolveInfo="orselector" />
       </node>
     </node>
@@ -11501,7 +11501,7 @@
       <property name="name" value="not" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039989">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039989">
         <link role="declaration" targetNodeId="1199644190197" resolveInfo="notselector" />
       </node>
     </node>
@@ -11515,7 +11515,7 @@
       <property name="name" value="none" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039993">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039993">
         <link role="declaration" targetNodeId="1199644190195" resolveInfo="noneselector" />
       </node>
     </node>
@@ -11529,7 +11529,7 @@
       <property name="name" value="majority" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.MajoritySelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039998">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450039998">
         <link role="declaration" targetNodeId="1199644190188" resolveInfo="majorityselector" />
       </node>
     </node>
@@ -11543,7 +11543,7 @@
       <property name="name" value="size" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.SizeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040002">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040002">
         <link role="declaration" targetNodeId="1199644190246" resolveInfo="sizeselector" />
       </node>
     </node>
@@ -11557,7 +11557,7 @@
       <property name="name" value="different" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DifferentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040007">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040007">
         <link role="declaration" targetNodeId="1199644190144" resolveInfo="differentselector" />
       </node>
     </node>
@@ -11571,7 +11571,7 @@
       <property name="name" value="filename" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.FilenameSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040011">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040011">
         <link role="declaration" targetNodeId="1199644190170" resolveInfo="filenameselector" />
       </node>
     </node>
@@ -11585,7 +11585,7 @@
       <property name="name" value="type" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.TypeSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040015">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040015">
         <link role="declaration" targetNodeId="1199644190279" resolveInfo="typeselector" />
       </node>
     </node>
@@ -11599,7 +11599,7 @@
       <property name="name" value="custom" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ExtendSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040020">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040020">
         <link role="declaration" targetNodeId="1199644190154" resolveInfo="extendselector" />
       </node>
     </node>
@@ -11613,7 +11613,7 @@
       <property name="name" value="contains" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040040">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040040">
         <link role="declaration" targetNodeId="1199644190051" resolveInfo="containsselector" />
       </node>
     </node>
@@ -11627,7 +11627,7 @@
       <property name="name" value="present" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.PresentSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040045">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040045">
         <link role="declaration" targetNodeId="1199644190217" resolveInfo="presentselector" />
       </node>
     </node>
@@ -11641,7 +11641,7 @@
       <property name="name" value="depth" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DepthSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040050">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040050">
         <link role="declaration" targetNodeId="1199644190130" resolveInfo="depthselector" />
       </node>
     </node>
@@ -11655,7 +11655,7 @@
       <property name="name" value="depend" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040054">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040054">
         <link role="declaration" targetNodeId="1199644190100" resolveInfo="dependselector" />
       </node>
     </node>
@@ -11669,7 +11669,7 @@
       <property name="name" value="containsregexp" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.ContainsRegexpSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040058">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040058">
         <link role="declaration" targetNodeId="1199644190040" resolveInfo="containsregexpselector" />
       </node>
     </node>
@@ -11683,7 +11683,7 @@
       <property name="name" value="modified" />
       <property name="classname" value="org.apache.tools.ant.types.selectors.modifiedselector.ModifiedSelector" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040063">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040063">
         <link role="declaration" targetNodeId="1199644190289" resolveInfo="modifiedselector" />
       </node>
     </node>
@@ -11693,7 +11693,7 @@
         <link role="declaration" targetNodeId="1208450040062" resolveInfo="modified" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401769">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401769">
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
@@ -11710,7 +11710,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445555">
       <link role="declaration" targetNodeId="1201696443958" resolveInfo="fileselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401766">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401766">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -11727,7 +11727,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445552">
       <link role="declaration" targetNodeId="1201696445551" resolveInfo="extendfileselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401763">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401763">
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
@@ -11749,7 +11749,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445580">
       <link role="declaration" targetNodeId="1201696445456" resolveInfo="resourceselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401771">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401771">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
@@ -11783,7 +11783,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445584">
       <link role="declaration" targetNodeId="1201696445456" resolveInfo="resourceselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401775">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401775">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
@@ -11843,14 +11843,14 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401791" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401782">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401782">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190100">
     <property name="name" value="dependselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.DependSelector" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401792">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401792">
       <link role="declaration" targetNodeId="1199644190101" resolveInfo="mappingselector" />
     </node>
   </node>
@@ -11876,7 +11876,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401818">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401818">
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
@@ -11901,7 +11901,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644190142" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401795" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401794">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401794">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
@@ -11920,7 +11920,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644190152" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1218135401800" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401799">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401799">
       <link role="declaration" targetNodeId="1199644190101" resolveInfo="mappingselector" />
     </node>
   </node>
@@ -11949,7 +11949,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722614">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201800722614">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -11963,7 +11963,7 @@
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.types.Parameter" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040098">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040098">
         <link role="declaration" targetNodeId="1208450039295" resolveInfo="parameter" />
       </node>
     </node>
@@ -11973,7 +11973,7 @@
         <link role="declaration" targetNodeId="1208450040097" resolveInfo="param" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401803">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401803">
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
@@ -12004,7 +12004,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644190186" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401811" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401809">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401809">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
@@ -12017,28 +12017,28 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644190192" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1218135401817" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401815">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401815">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190195">
     <property name="name" value="noneselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.NoneSelector" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401822">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401822">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190197">
     <property name="name" value="notselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.NotSelector" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401824">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401824">
       <link role="declaration" targetNodeId="1199644190195" resolveInfo="noneselector" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644190199">
     <property name="name" value="orselector" />
     <property name="classname" value="org.apache.tools.ant.types.selectors.OrSelector" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401825">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401825">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
@@ -12071,7 +12071,7 @@
         <link role="declaration" targetNodeId="1199644186089" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401827">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401827">
       <link role="declaration" targetNodeId="1199644189996" resolveInfo="baseselector" />
     </node>
   </node>
@@ -12090,7 +12090,7 @@
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644190237" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401833" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401831">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401831">
       <link role="declaration" targetNodeId="1199644189995" resolveInfo="baseselectorcontainer" />
     </node>
   </node>
@@ -12106,7 +12106,7 @@
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201696445641">
       <link role="declaration" targetNodeId="1201696443958" resolveInfo="fileselector" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401835">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401835">
       <link role="declaration" targetNodeId="1199644185006" resolveInfo="datatype" />
     </node>
   </node>
@@ -12279,7 +12279,7 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401842" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401838">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401838">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
@@ -12306,7 +12306,7 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401847" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401846">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401846">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
@@ -12383,7 +12383,7 @@
       <property name="name" value="param" />
       <property name="classname" value="org.apache.tools.ant.types.Parameter" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040148">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040148">
         <link role="declaration" targetNodeId="1208450039295" resolveInfo="parameter" />
       </node>
     </node>
@@ -12397,7 +12397,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040152">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040152">
         <link role="declaration" targetNodeId="1199644185188" resolveInfo="path" />
       </node>
     </node>
@@ -12443,7 +12443,7 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401868" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401850">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401850">
       <link role="declaration" targetNodeId="1199644190008" resolveInfo="baseextendselector" />
     </node>
   </node>
@@ -12458,14 +12458,14 @@
       <property name="name" value="mode" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1218135401475" />
     </node>
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401473">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1218135401473">
       <link role="declaration" targetNodeId="1199644188737" resolveInfo="tarfileset" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201680422291">
     <property name="name" value="implementationspecificargument" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javac$ImplementationSpecificArgument" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201680423080">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201680423080">
       <link role="declaration" targetNodeId="1201680423079" resolveInfo="implementationspecificargument" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1201680423081">
@@ -12476,7 +12476,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201680423079">
     <property name="name" value="implementationspecificargument" />
     <property name="classname" value="org.apache.tools.ant.util.facade.ImplementationSpecificArgument" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201680423083">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1201680423083">
       <link role="declaration" targetNodeId="1199644185588" resolveInfo="argument" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1201680423084">
@@ -12648,7 +12648,7 @@
       <property name="classname" value="[Ljava.lang.String;" />
       <property name="abstract" value="true" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040169">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040169">
         <link role="declaration" targetNodeId="1208450040167" resolveInfo="string;" />
       </node>
     </node>
@@ -12719,7 +12719,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037321">
     <property name="name" value="reference" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Ant$Reference" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040195">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040195">
       <link role="declaration" targetNodeId="1208450040194" resolveInfo="reference" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040197">
@@ -12739,7 +12739,7 @@
     <property name="name" value="textelement" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Concat$TextElement" />
     <property name="canHaveInternalText" value="true" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040202">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040202">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040203">
@@ -12766,7 +12766,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040231">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040231">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -12784,7 +12784,7 @@
       <property name="name" value="configuredsection" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Section" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040236">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040236">
         <link role="declaration" targetNodeId="1208450038451" resolveInfo="section" />
       </node>
     </node>
@@ -12798,7 +12798,7 @@
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Attribute" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040240">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040240">
         <link role="declaration" targetNodeId="1208450038476" resolveInfo="attribute" />
       </node>
     </node>
@@ -12812,7 +12812,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038028">
     <property name="name" value="service" />
     <property name="classname" value="org.apache.tools.ant.types.spi.Service" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040243">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040243">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040245">
@@ -12827,7 +12827,7 @@
       <property name="name" value="configuredprovider" />
       <property name="classname" value="org.apache.tools.ant.types.spi.Provider" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040254">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040254">
         <link role="declaration" targetNodeId="1208450040251" resolveInfo="provider" />
       </node>
     </node>
@@ -12862,7 +12862,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040263">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040263">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -12876,7 +12876,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450038318">
     <property name="name" value="extensioninfo" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.Javadoc$ExtensionInfo" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040266">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040266">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040267">
@@ -12965,7 +12965,7 @@
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.Manifest$Attribute" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040303">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040303">
         <link role="declaration" targetNodeId="1208450038476" resolveInfo="attribute" />
       </node>
     </node>
@@ -12991,7 +12991,7 @@
       <property name="name" value="value" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040312">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040312">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -12999,7 +12999,7 @@
       <property name="name" value="continuation" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040314">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040314">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -13042,7 +13042,7 @@
     <property name="name" value="message" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.email.Message" />
     <property name="canHaveInternalText" value="true" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040326">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040326">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040327">
@@ -13061,7 +13061,7 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040335">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040335">
         <link role="declaration" targetNodeId="1208450037273" resolveInfo="string" />
       </node>
     </node>
@@ -13103,14 +13103,14 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039351">
     <property name="name" value="enabledassertion" />
     <property name="classname" value="org.apache.tools.ant.types.Assertions$EnabledAssertion" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040350">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040350">
       <link role="declaration" targetNodeId="1208450040349" resolveInfo="baseassertion" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039359">
     <property name="name" value="disabledassertion" />
     <property name="classname" value="org.apache.tools.ant.types.Assertions$DisabledAssertion" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040351">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040351">
       <link role="declaration" targetNodeId="1208450040349" resolveInfo="baseassertion" />
     </node>
   </node>
@@ -13125,7 +13125,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039409">
     <property name="name" value="replacestring" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ReplaceString" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040355">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040355">
       <link role="declaration" targetNodeId="1208450040354" resolveInfo="chainablereaderfilter" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040357">
@@ -13140,7 +13140,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039415">
     <property name="name" value="replaceregex" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ReplaceRegex" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040361">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040361">
       <link role="declaration" targetNodeId="1208450040354" resolveInfo="chainablereaderfilter" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040362">
@@ -13159,7 +13159,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039421">
     <property name="name" value="containsregex" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ContainsRegex" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040368">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040368">
       <link role="declaration" targetNodeId="1208450040354" resolveInfo="chainablereaderfilter" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040370">
@@ -13178,21 +13178,21 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039427">
     <property name="name" value="trim" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$Trim" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040376">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040376">
       <link role="declaration" targetNodeId="1208450040354" resolveInfo="chainablereaderfilter" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039432">
     <property name="name" value="ignoreblank" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$IgnoreBlank" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040377">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040377">
       <link role="declaration" targetNodeId="1208450040354" resolveInfo="chainablereaderfilter" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039454">
     <property name="name" value="deletecharacters" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$DeleteCharacters" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040378">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040378">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040380">
@@ -13209,7 +13209,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039470">
     <property name="name" value="classconstants" />
     <property name="classname" value="org.apache.tools.ant.filters.ClassConstants" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040386">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040386">
       <link role="declaration" targetNodeId="1208450040385" resolveInfo="basefilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040387">
@@ -13219,7 +13219,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039476">
     <property name="name" value="expandproperties" />
     <property name="classname" value="org.apache.tools.ant.filters.ExpandProperties" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040388">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040388">
       <link role="declaration" targetNodeId="1208450040385" resolveInfo="basefilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040389">
@@ -13229,7 +13229,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039483">
     <property name="name" value="headfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.HeadFilter" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040408">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040408">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040409">
@@ -13247,7 +13247,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039505">
     <property name="name" value="linecontains" />
     <property name="classname" value="org.apache.tools.ant.filters.LineContains" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040415">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040415">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040416">
@@ -13261,7 +13261,7 @@
       <property name="name" value="configuredcontains" />
       <property name="classname" value="org.apache.tools.ant.filters.LineContains$Contains" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040423">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040423">
         <link role="declaration" targetNodeId="1208450040421" resolveInfo="contains" />
       </node>
     </node>
@@ -13275,7 +13275,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039511">
     <property name="name" value="linecontainsregexp" />
     <property name="classname" value="org.apache.tools.ant.filters.LineContainsRegExp" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040427">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040427">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040428">
@@ -13289,7 +13289,7 @@
       <property name="name" value="configuredregexp" />
       <property name="classname" value="org.apache.tools.ant.types.RegularExpression" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040432">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040432">
         <link role="declaration" targetNodeId="1199644189545" resolveInfo="regularexpression" />
       </node>
     </node>
@@ -13303,7 +13303,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039517">
     <property name="name" value="prefixlines" />
     <property name="classname" value="org.apache.tools.ant.filters.PrefixLines" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040435">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040435">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040436">
@@ -13317,7 +13317,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039523">
     <property name="name" value="replacetokens" />
     <property name="classname" value="org.apache.tools.ant.filters.ReplaceTokens" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040440">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040440">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040441">
@@ -13335,7 +13335,7 @@
       <property name="name" value="configuredtoken" />
       <property name="classname" value="org.apache.tools.ant.filters.ReplaceTokens$Token" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040451">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040451">
         <link role="declaration" targetNodeId="1208450040448" resolveInfo="token" />
       </node>
     </node>
@@ -13349,7 +13349,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039529">
     <property name="name" value="stripjavacomments" />
     <property name="classname" value="org.apache.tools.ant.filters.StripJavaComments" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040454">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040454">
       <link role="declaration" targetNodeId="1208450040385" resolveInfo="basefilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040455">
@@ -13359,7 +13359,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039534">
     <property name="name" value="striplinebreaks" />
     <property name="classname" value="org.apache.tools.ant.filters.StripLineBreaks" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040456">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040456">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040457">
@@ -13373,7 +13373,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039556">
     <property name="name" value="striplinecomments" />
     <property name="classname" value="org.apache.tools.ant.filters.StripLineComments" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040460">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040460">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040461">
@@ -13383,7 +13383,7 @@
       <property name="name" value="configuredcomment" />
       <property name="classname" value="org.apache.tools.ant.filters.StripLineComments$Comment" />
       <property name="fake" value="true" />
-      <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040467">
+      <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040467">
         <link role="declaration" targetNodeId="1208450040465" resolveInfo="comment" />
       </node>
     </node>
@@ -13397,7 +13397,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039562">
     <property name="name" value="tabstospaces" />
     <property name="classname" value="org.apache.tools.ant.filters.TabsToSpaces" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040470">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040470">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040471">
@@ -13411,7 +13411,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039568">
     <property name="name" value="tailfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.TailFilter" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040474">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040474">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040475">
@@ -13429,7 +13429,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039574">
     <property name="name" value="escapeunicode" />
     <property name="classname" value="org.apache.tools.ant.filters.EscapeUnicode" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040481">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040481">
       <link role="declaration" targetNodeId="1208450040407" resolveInfo="baseparamfilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040482">
@@ -13439,7 +13439,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450039580">
     <property name="name" value="tokenfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040483">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040483">
       <link role="declaration" targetNodeId="1208450040385" resolveInfo="basefilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040484">
@@ -13650,7 +13650,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040251">
     <property name="name" value="provider" />
     <property name="classname" value="org.apache.tools.ant.types.spi.Provider" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040610">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040610">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040612">
@@ -13671,7 +13671,7 @@
     <property name="name" value="chainablereaderfilter" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ChainableReaderFilter" />
     <property name="abstract" value="true" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040616">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040616">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040617">
@@ -13693,7 +13693,7 @@
     <property name="name" value="basefilterreader" />
     <property name="classname" value="org.apache.tools.ant.filters.BaseFilterReader" />
     <property name="abstract" value="true" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040623">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040623">
       <link role="declaration" targetNodeId="1208450040621" resolveInfo="filterreader" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1208450040624">
@@ -13705,7 +13705,7 @@
     <property name="name" value="baseparamfilterreader" />
     <property name="classname" value="org.apache.tools.ant.filters.BaseParamFilterReader" />
     <property name="abstract" value="true" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040626">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040626">
       <link role="declaration" targetNodeId="1208450040385" resolveInfo="basefilterreader" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040629">
@@ -13747,7 +13747,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040514">
     <property name="name" value="linetokenizer" />
     <property name="classname" value="org.apache.tools.ant.util.LineTokenizer" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040641">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040641">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040643">
@@ -13761,21 +13761,21 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040522">
     <property name="name" value="stringtokenizer" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$StringTokenizer" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040647">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040647">
       <link role="declaration" targetNodeId="1208450040646" resolveInfo="stringtokenizer" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040530">
     <property name="name" value="filetokenizer" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$FileTokenizer" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040650">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040650">
       <link role="declaration" targetNodeId="1208450040648" resolveInfo="filetokenizer" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040537">
     <property name="name" value="containsstring" />
     <property name="classname" value="org.apache.tools.ant.filters.TokenFilter$ContainsString" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040651">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040651">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040652">
@@ -13798,14 +13798,14 @@
     <property name="name" value="filterreader" />
     <property name="classname" value="java.io.FilterReader" />
     <property name="abstract" value="true" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040656">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040656">
       <link role="declaration" targetNodeId="1208450040655" resolveInfo="reader" />
     </node>
   </node>
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040646">
     <property name="name" value="stringtokenizer" />
     <property name="classname" value="org.apache.tools.ant.util.StringTokenizer" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040657">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040657">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040658">
@@ -13831,7 +13831,7 @@
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450040648">
     <property name="name" value="filetokenizer" />
     <property name="classname" value="org.apache.tools.ant.util.FileTokenizer" />
-    <node role="parent" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040669">
+    <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040669">
       <link role="declaration" targetNodeId="1208450040201" resolveInfo="projectcomponent" />
     </node>
     <node role="interfaces" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040670">
