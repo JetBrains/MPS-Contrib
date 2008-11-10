@@ -8,12 +8,12 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
-import jetbrains.mps.nodeEditor.CellActionType;
-import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
+import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
+import jetbrains.mps.nodeEditor.CellActionType;
+import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -61,7 +61,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant1178372473699(context, node, "Compare datetime expressions by"));
-    editorCell.addEditorCell(this.createModelAccess1178372987005(context, node));
+    editorCell.addEditorCell(this.createReadOnlyModelAccessor1226062536453(context, node));
     return editorCell;
   }
 
@@ -100,31 +100,25 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createModelAccess1178372987005(EditorContext context, SNode node) {
-    ModelAccessor modelAccessor = this._modelAcessorFactory_1178372987005(context, node);
-    EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
-    editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
-    setupBasic_ModelAccess_11783729870051178372987005(editorCell, node, context);
-    setupLabel_ModelAccess_1178372987005_1178372987005(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public ModelAccessor _modelAcessorFactory_1178372987005(final EditorContext editorContext, final SNode node) {
-    return new ModelAccessor() {
+  public EditorCell createReadOnlyModelAccessor1226062536453(final EditorContext context, final SNode node) {
+    EditorCell_Property editorCell = EditorCell_Property.create(context, new ModelAccessor() {
 
       public String getText() {
         return SPropertyOperations.getString(DateTimeCompareOperation_Behavior.call_getDatetimeProperty_1213877526399(node), "name");
       }
 
-      public void setText(String text) {
+      public void setText(String s) {
       }
 
-      public boolean isValidText(String text) {
-        return true;
+      public boolean isValidText(String s) {
+        return s.equals(this.getText());
       }
 
-    };
+    }, node);
+    editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
+    setupBasic_ReadOnlyModelAccessor_12260625364531226062536453(editorCell, node, context);
+    setupLabel_ReadOnlyModelAccessor_1226062536453_1226062536453(editorCell, node, context);
+    return editorCell;
   }
 
   public EditorCell createRefNode1172074946226_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
@@ -300,8 +294,13 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("refCell_datetimeProperty");
   }
 
-  private static void setupBasic_ModelAccess_11783729870051178372987005(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("ModelAccess_1178372987005");
+  private static void setupBasic_Constant_11949429721691194942972169(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_1194942972169");
+    Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
+  }
+
+  private static void setupBasic_ReadOnlyModelAccessor_12260625364531226062536453(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("ReadOnlyModelAccessor_1226062536453");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -311,11 +310,6 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       };
       inlineStyle.apply(editorCell);
     }
-  }
-
-  private static void setupBasic_Constant_11949429721691194942972169(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1194942972169");
-    Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_refNode_op1_1172074946226(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -336,10 +330,10 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   private static void setupLabel_refCell_datetimeProperty_1178372500897(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_ModelAccess_1178372987005_1178372987005(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_1194942972169_1194942972169(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_1194942972169_1194942972169(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ReadOnlyModelAccessor_1226062536453_1226062536453(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static boolean renderingCondition9167_0(SNode node, EditorContext editorContext, IScope scope) {

@@ -11,11 +11,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.cells.ModelAccessor;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
+import jetbrains.mps.nodeEditor.cells.ModelAccessor;
+import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
-import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 
 public class Element_elementDeclaration extends AbstractCellProvider {
 
@@ -79,43 +79,36 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createModelAccess1189991811005(context, node);
+      return this.createReadOnlyModelAccessor1226062530894(context, node);
     }
 
-    public EditorCell createModelAccess1189991811005(EditorContext context, SNode node) {
-      ModelAccessor modelAccessor = this._modelAcessorFactory_1189991811005(context, node);
-      EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
-      editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
-      setupBasic_ModelAccess_11899918110051189991811005(editorCell, node, context);
-      setupLabel_ModelAccess_1189991811005_1189991811005(editorCell, node, context);
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-
-    public ModelAccessor _modelAcessorFactory_1189991811005(final EditorContext editorContext, final SNode node) {
-      return new ModelAccessor() {
+    public EditorCell createReadOnlyModelAccessor1226062530894(final EditorContext context, final SNode node) {
+      EditorCell_Property editorCell = EditorCell_Property.create(context, new ModelAccessor() {
 
         public String getText() {
           return ElementDeclaration_Behavior.call_getQualifiedName_1213877429904(node);
         }
 
-        public void setText(String text) {
+        public void setText(String s) {
         }
 
-        public boolean isValidText(String text) {
-          return true;
+        public boolean isValidText(String s) {
+          return s.equals(this.getText());
         }
 
-      };
+      }, node);
+      editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
+      setupBasic_ReadOnlyModelAccessor_12260625308941226062530894(editorCell, node, context);
+      setupLabel_ReadOnlyModelAccessor_1226062530894_1226062530894(editorCell, node, context);
+      return editorCell;
     }
 
 
-    private static void setupBasic_ModelAccess_11899918110051189991811005(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("ModelAccess_1189991811005");
-      XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
+    private static void setupBasic_ReadOnlyModelAccessor_12260625308941226062530894(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.setCellId("ReadOnlyModelAccessor_1226062530894");
     }
 
-    private static void setupLabel_ModelAccess_1189991811005_1189991811005(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_ReadOnlyModelAccessor_1226062530894_1226062530894(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }
