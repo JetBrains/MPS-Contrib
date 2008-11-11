@@ -20,10 +20,9 @@ public class MultiLineString_Behavior {
     String result = "";
     for(SNode lit : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "stringExpression", true))) {
       result += PropertyValueExpression_Behavior.call_getActualValue_1213877472572(lit);
-      result += " ";
     }
     return (result.length() > 0 ?
-      result.substring(0, result.length() - 1) :
+      result :
       ""
     );
   }

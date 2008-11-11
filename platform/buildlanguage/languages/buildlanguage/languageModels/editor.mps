@@ -1950,6 +1950,23 @@
         <link role="relationDeclaration" targetNodeId="1.1219774190534" resolveInfo="checkOnStart" />
         <link role="styleClass" targetNodeId="1196866068487" resolveInfo="booleanLiteral" />
       </node>
+      <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="1226418832601">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1226418832602">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1226418849075">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1226418854973">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1226418849161">
+                <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="1226418849076" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" id="1226418853310" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1226418858284">
+                <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1226418864925">
+                  <link role="conceptDeclaration" targetNodeId="1.1196851066733" resolveInfo="Project" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1225394782513">

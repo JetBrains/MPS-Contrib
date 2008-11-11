@@ -972,16 +972,6 @@
                   </node>
                 </node>
               </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1218552460202">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusAssignmentExpression" id="1218552461878">
-                  <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1218552460203">
-                    <link role="variableDeclaration" targetNodeId="1218551856616" resolveInfo="result" />
-                  </node>
-                  <node role="rValue" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1218552468500">
-                    <property name="value" value=" " />
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1218551871593">
@@ -1002,29 +992,8 @@
                   </node>
                 </node>
               </node>
-              <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1218552538648">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1218552538649">
-                  <link role="variableDeclaration" targetNodeId="1218551856616" resolveInfo="result" />
-                </node>
-                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1218552538650">
-                  <link role="baseMethodDeclaration" targetNodeId="3.~String.substring(int,int):java.lang.String" resolveInfo="substring" />
-                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1218552538651">
-                    <property name="value" value="0" />
-                  </node>
-                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="1218552538652">
-                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1218552538653">
-                      <property name="value" value="1" />
-                    </node>
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1218552538654">
-                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1218552538655">
-                        <link role="variableDeclaration" targetNodeId="1218551856616" resolveInfo="result" />
-                      </node>
-                      <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1218552538656">
-                        <link role="baseMethodDeclaration" targetNodeId="3.~String.length():int" resolveInfo="length" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
+              <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1218552538649">
+                <link role="variableDeclaration" targetNodeId="1218551856616" resolveInfo="result" />
               </node>
             </node>
           </node>
