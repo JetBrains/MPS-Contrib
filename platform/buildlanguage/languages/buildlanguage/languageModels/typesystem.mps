@@ -997,5 +997,29 @@
       <link role="concept" targetNodeId="1.1197108973325" resolveInfo="PlusOperation" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1226433420299">
+    <property name="name" value="typeof_MultiLineString" />
+    <property name="package" value="Expressions" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1226433420300">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1226433441559">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1226433446476">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1226433482514">
+            <node role="quotedNode" type="jetbrains.mps.buildlanguage.structure.StringType" id="1226433482515" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1226433441563">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1226433430077">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1226433437881">
+              <link role="applicableNode" targetNodeId="1226433420301" resolveInfo="string" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1226433420301">
+      <property name="name" value="string" />
+      <link role="concept" targetNodeId="1.1218548668666" resolveInfo="MultiLineString" />
+    </node>
+  </node>
 </model>
 
