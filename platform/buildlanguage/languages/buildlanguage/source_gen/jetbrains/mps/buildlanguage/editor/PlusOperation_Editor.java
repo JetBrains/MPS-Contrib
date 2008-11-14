@@ -17,6 +17,7 @@ import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_ReplaceNode_CustomNodeConcept;
 
 public class PlusOperation_Editor extends DefaultNodeEditor {
@@ -139,8 +140,8 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.PADDING_LEFT, 0.8);
-          this.set(StyleAttributes.PADDING_RIGHT, 0.8);
+          this.set(StyleAttributes.PADDING_LEFT_WITH_MEASURE, new Padding(0.8, "spaces"));
+          this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.8, "spaces"));
         }
 
       };

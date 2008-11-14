@@ -15,6 +15,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
+import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class LiteralFormatToken_Editor extends DefaultNodeEditor {
@@ -73,7 +74,7 @@ public class LiteralFormatToken_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+          this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
           this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         }
 

@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -104,7 +105,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.PADDING_LEFT, 1.);
+          this.set(StyleAttributes.PADDING_LEFT_WITH_MEASURE, new Padding(1., "spaces"));
         }
 
       };
@@ -184,7 +185,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+            this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
           }
 
         };

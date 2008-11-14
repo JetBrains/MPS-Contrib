@@ -18,6 +18,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
@@ -252,7 +253,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+          this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
         }
 
       };
@@ -286,7 +287,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+          this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
         }
 
       };
@@ -370,7 +371,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.PADDING_RIGHT, 0.0);
+            this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
           }
 
         };
