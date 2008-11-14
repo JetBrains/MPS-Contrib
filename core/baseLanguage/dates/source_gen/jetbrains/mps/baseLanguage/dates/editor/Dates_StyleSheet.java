@@ -26,7 +26,7 @@ public class Dates_StyleSheet {
       {
         this.set(StyleAttributes.SELECTABLE, false);
         this.set(StyleAttributes.FONT_SIZE, 9);
-        this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
       }
 
@@ -38,7 +38,7 @@ public class Dates_StyleSheet {
       {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
-        this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
       }
 
     };
@@ -48,7 +48,7 @@ public class Dates_StyleSheet {
     return new Style(cell) {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getField(null));
-        this.set(StyleAttributes.PADDING_RIGHT_WITH_MEASURE, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
       }
 
     };
