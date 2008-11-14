@@ -24,9 +24,9 @@ public class Dates_StyleSheet {
     return new Style(cell) {
       {
         this.set(StyleAttributes.SELECTABLE, false);
-        this.set(StyleAttributes.FONT_SIZE, 0);
+        this.set(StyleAttributes.FONT_SIZE, 9);
         this.set(StyleAttributes.PADDING_RIGHT, 0.0);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
+        this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
       }
 
     };

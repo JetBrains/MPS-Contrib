@@ -12,7 +12,7 @@ public enum DateFormatVisibility {
   private String myName;
   private String myValue;
 
-DateFormatVisibility(String name, String value) {
+  DateFormatVisibility(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }

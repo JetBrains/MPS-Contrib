@@ -1638,12 +1638,13 @@
       </node>
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontSizeStyleClassItem" id="1219659599051">
         <property name="size" value="8" />
+        <property name="value" value="9" />
       </node>
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219659653386">
         <property name="value" value="0.0" />
       </node>
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="1219659599052">
-        <property name="color" value="lightGray" />
+        <property name="color" value="gray" />
       </node>
     </node>
     <node role="styleClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClass" id="1219659856537">

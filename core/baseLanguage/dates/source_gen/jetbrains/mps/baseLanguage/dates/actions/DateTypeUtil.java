@@ -53,7 +53,7 @@ public class DateTypeUtil {
   }
 
   public static boolean isInstanceOf(SNode node, SNode type) {
-    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), type, false, false);
+    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), type, false);
   }
 
   public static List<SNode> findDateTimeProperties(IScope scope, SModel model) {

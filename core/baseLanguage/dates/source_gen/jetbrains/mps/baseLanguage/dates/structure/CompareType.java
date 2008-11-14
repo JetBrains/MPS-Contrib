@@ -16,7 +16,7 @@ public enum CompareType {
   private String myName;
   private String myValue;
 
-CompareType(String name, String value) {
+  CompareType(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
