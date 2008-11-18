@@ -22,6 +22,7 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
+import jetbrains.mps.nodeEditor.style.EnumMeasure;
 
 public class PeriodConstant_Editor extends DefaultNodeEditor {
 
@@ -229,7 +230,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, "spaces"));
+            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, EnumMeasure.spaces));
           }
 
         };
@@ -291,7 +292,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, "spaces"));
+            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, EnumMeasure.spaces));
           }
 
         };

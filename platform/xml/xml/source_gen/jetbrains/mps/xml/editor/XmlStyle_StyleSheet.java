@@ -9,6 +9,7 @@ import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.Padding;
+import jetbrains.mps.nodeEditor.style.EnumMeasure;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.SNode;
@@ -33,7 +34,7 @@ public class XmlStyle_StyleSheet {
 
         });
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
       }
 
     };
@@ -43,7 +44,7 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
@@ -78,7 +79,7 @@ public class XmlStyle_StyleSheet {
           }
 
         });
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
       }
 
     };
@@ -89,7 +90,7 @@ public class XmlStyle_StyleSheet {
       {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
       }
 
     };
@@ -98,7 +99,7 @@ public class XmlStyle_StyleSheet {
   public static Style getXmlComplexText(final EditorCell cell) {
     return new Style(cell) {
       {
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
         this.set(StyleAttributes.LAST_POSITION_ALLOWED, false);
         this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
@@ -123,7 +124,7 @@ public class XmlStyle_StyleSheet {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getEmptyCell(null));
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
       }
 
     };
@@ -133,8 +134,8 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-        this.set(StyleAttributes.PADDING_LEFT, new Padding(0.3, "spaces"));
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.3, "spaces"));
+        this.set(StyleAttributes.PADDING_LEFT, new Padding(0.3, EnumMeasure.spaces));
+        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.3, EnumMeasure.spaces));
         this.set(StyleAttributes.SELECTABLE, false);
       }
 

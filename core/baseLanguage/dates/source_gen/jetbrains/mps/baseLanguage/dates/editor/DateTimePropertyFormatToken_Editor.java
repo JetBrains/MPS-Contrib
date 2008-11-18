@@ -21,6 +21,7 @@ import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUt
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Padding;
+import jetbrains.mps.nodeEditor.style.EnumMeasure;
 
 public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
@@ -504,8 +505,8 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       {
         Style inlineStyle = new Style(editorCell) {
           {
-            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, "spaces"));
-            this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, "spaces"));
+            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, EnumMeasure.spaces));
+            this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
           }
 
         };
