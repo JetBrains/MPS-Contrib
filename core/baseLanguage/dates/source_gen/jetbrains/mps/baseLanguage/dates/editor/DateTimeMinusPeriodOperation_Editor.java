@@ -127,11 +127,21 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
       };
       inlineStyle.apply(editorCell);
     }
+    DateTimeMinusPeriodOperation_leftOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_12072229369801207222936980(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_1207222936980");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, EnumMeasure.spaces));
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Constant_12072229369811207222936981(EditorCell editorCell, SNode node, EditorContext context) {
@@ -149,6 +159,7 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
       };
       inlineStyle.apply(editorCell);
     }
+    DateTimeMinusPeriodOperation_rightOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupLabel_refNode_leftValue_1207222936979(EditorCell_Label editorCell, SNode node, EditorContext context) {

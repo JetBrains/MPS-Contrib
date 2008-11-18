@@ -47,6 +47,7 @@
   <import index="50" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.structure(jetbrains.mps.baseLanguage.dates.structure@java_stub)" version="-1" />
   <import index="51" modelUID="f:java_stub#jetbrains.mps.lang.core.structure(jetbrains.mps.lang.core.structure@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169487499058">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169487502217">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1173975925335">
@@ -68,6 +69,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169488436456">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169481390637" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169488439006">
       <property name="vertical" value="true" />
@@ -106,6 +108,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169495358926">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169495318439" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169495511306">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1169495511307">
@@ -123,12 +126,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169549287824">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169495337236" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Error" id="1169549290218">
       <property name="text" value="format token" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169557727967">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169557513226" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169557732251">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1169557735519">
@@ -164,6 +169,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169563386806">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169563273551" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169563391622">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173969243420">
@@ -191,6 +197,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169563544178">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169563444535" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169563547149">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1169563552715">
@@ -214,6 +221,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169563638159">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169562965517" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169563701046">
       <property name="vertical" value="true" />
@@ -246,6 +254,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169630154117">
+    <property name="package" value="operation.constant" />
     <link role="conceptDeclaration" targetNodeId="1.1169630122569" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="1219660723071">
       <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
@@ -256,6 +265,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169631841789">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169631506005" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169632541034">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169632549428">
@@ -317,6 +327,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1171963239567">
+    <property name="package" value="operation" />
     <link role="conceptDeclaration" targetNodeId="1.1171963068132" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1171963874545">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1171964018735">
@@ -333,6 +344,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1172065403260">
     <property name="name" value="UnaryDateTimeOperation_ActionMap" />
+    <property name="package" value="operation" />
     <link role="applicableConcept" targetNodeId="1.1171963068132" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1172065438479">
       <property name="description" value="Delete operation" />
@@ -358,6 +370,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1172066082833">
     <property name="name" value="FormatExression_ActionMap" />
+    <property name="package" value="format" />
     <link role="applicableConcept" targetNodeId="1.1169557513226" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1172066120068">
       <property name="actionId" value="delete_action_id" />
@@ -381,6 +394,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1172074935895">
+    <property name="package" value="operation.compare" />
     <link role="conceptDeclaration" targetNodeId="1.1172074800504" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1172074938400">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1172074946226">
@@ -482,6 +496,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1172324203064">
+    <property name="package" value="operation.round" />
     <link role="conceptDeclaration" targetNodeId="1.1172324086632" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1172324222769">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1172324229115">
@@ -513,6 +528,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1172331302501">
+    <property name="package" value="operation.property" />
     <link role="conceptDeclaration" targetNodeId="1.1172331114860" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1172331403510">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1172331412460">
@@ -554,6 +570,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1172489682053">
+    <property name="package" value="operation.constant" />
     <link role="conceptDeclaration" targetNodeId="1.1172489559047" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1172489685117">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1172491646553">
@@ -651,6 +668,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1172509072796">
     <property name="name" value="PeriodConstant_ActionMap" />
+    <property name="package" value="operation.constant" />
     <link role="applicableConcept" targetNodeId="1.1172489559047" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1172509084907">
       <property name="description" value="Delete period" />
@@ -675,6 +693,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1172679877675">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1172679701720" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1172683773714">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1172683777552">
@@ -721,6 +740,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1173960048905">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1173959836330" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1173960051610">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173960053346">
@@ -834,6 +854,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1173966103686">
     <property name="name" value="DateTimePropertyFormatToken_ActionMap" />
+    <property name="package" value="format" />
     <link role="applicableConcept" targetNodeId="1.1173959836330" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1173966122046">
       <property name="description" value="Set format type" />
@@ -866,6 +887,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1174039915744">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1174039789930" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174039918980">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1174039928560">
@@ -978,6 +1000,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1174046040733">
     <property name="name" value="InlineFormatExpression_ActionMap_RightTransform" />
+    <property name="package" value="format" />
     <link role="applicableConcept" targetNodeId="1.1174039789930" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1174046074375">
       <property name="description" value="Add with locale" />
@@ -1027,6 +1050,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1174046138976">
     <property name="name" value="InlineFormatExpression_ActionMap_Delete" />
+    <property name="package" value="format" />
     <link role="applicableConcept" targetNodeId="1.1174039789930" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1174046138977">
       <property name="description" value="Add with locale" />
@@ -1088,6 +1112,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1174321289495">
+    <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1174317913525" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174321300763">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174321300764">
@@ -1095,6 +1120,7 @@
         <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1174321305126">
+        <property name="separatorText" value=" " />
         <link role="relationDeclaration" targetNodeId="1.1174321263884" />
         <node role="emptyCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174321316064">
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219660210947">
@@ -1116,6 +1142,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1174386331706">
+    <property name="package" value="operation.arithmetic" />
     <link role="conceptDeclaration" targetNodeId="1.1174386108135" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174386334458">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174386338553">
@@ -1124,6 +1151,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1174386346837">
         <link role="relationDeclaration" targetNodeId="1.1174386153808" />
+        <link role="actionMap" targetNodeId="1227029401641" resolveInfo="DateTimeMinusOperation_leftOperand_actionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174386351870">
         <property name="text" value="-" />
@@ -1138,6 +1166,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1174386356059">
         <link role="relationDeclaration" targetNodeId="1.1174386164996" />
+        <link role="actionMap" targetNodeId="1227029426951" resolveInfo="DateTimeMinusOperation_rightOperand_actionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174386362983">
         <property name="text" value=")" />
@@ -1170,6 +1199,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1174387534928">
         <link role="relationDeclaration" targetNodeId="1.1174386153808" />
+        <link role="actionMap" targetNodeId="1227029248328" resolveInfo="AbsDateTimeMinusOperation_leftOperand_actionMap" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219659458512">
           <property name="value" value="0.0" />
         </node>
@@ -1180,6 +1210,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1174387534930">
         <link role="relationDeclaration" targetNodeId="1.1174386164996" />
+        <link role="actionMap" targetNodeId="1227029287314" resolveInfo="AbsDateTimeMinusOperation_rightOperand_actionMap" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219659468726">
           <property name="value" value="0.0" />
         </node>
@@ -1213,6 +1244,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1178373724152">
     <property name="name" value="DateTimeCompareOperation_leftOperand_actionMap" />
+    <property name="package" value="operation.compare" />
     <link role="applicableConcept" targetNodeId="1.1172074800504" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1178373780943">
       <property name="description" value="Delete left operand" />
@@ -1238,6 +1270,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1178373822388">
     <property name="name" value="DateTimeCompareOperation_rightOperand_actionMap" />
+    <property name="package" value="operation.compare" />
     <link role="applicableConcept" targetNodeId="1.1172074800504" />
     <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1178373822389">
       <property name="description" value="Delete right operand" />
@@ -1510,6 +1543,7 @@
       <property name="vertical" value="false" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1207143697831">
         <link role="relationDeclaration" targetNodeId="1.1207143609180" />
+        <link role="actionMap" targetNodeId="1227029545984" resolveInfo="DateTimePlusPeriodOperation_leftOperand_actionMap" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1207143701817">
         <property name="text" value="+" />
@@ -1524,6 +1558,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1207143753212">
         <link role="relationDeclaration" targetNodeId="1.1207143609181" />
+        <link role="actionMap" targetNodeId="1227029576179" resolveInfo="DateTimePlusPeriodOperation_rightOperand_actionMap" />
       </node>
     </node>
   </node>
@@ -1534,6 +1569,7 @@
       <property name="vertical" value="false" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1207222936979">
         <link role="relationDeclaration" targetNodeId="1.1207222904240" />
+        <link role="actionMap" targetNodeId="1227029492599" resolveInfo="DateTimeMinusPeriodOperation_leftOperand_actionMap" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219659584301">
           <property name="value" value="0.0" />
         </node>
@@ -1541,6 +1577,9 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1207222936980">
         <property name="text" value="-" />
         <link role="styleClass" targetNodeId="48.1215010940130" resolveInfo="Operator" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1227027858779">
+          <property name="value" value="0.0" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1207222936981">
         <property name="text" value="period" />
@@ -1548,6 +1587,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1207222936982">
         <link role="relationDeclaration" targetNodeId="1.1207222904241" />
+        <link role="actionMap" targetNodeId="1227029521931" resolveInfo="DateTimeMinusPeriodOperation_rightOperand_actionMap" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219659618862">
           <property name="value" value="0.0" />
         </node>
@@ -1628,6 +1668,214 @@
       </node>
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219660187962">
         <property name="value" value="0.0" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029248328">
+    <property name="name" value="AbsDateTimeMinusOperation_leftOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1174387394067" resolveInfo="AbsDateTimeMinusOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029248329">
+      <property name="description" value="Delete left operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029248330">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029248331">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029248332">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029248333">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029248334" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029248335">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029248336">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029248337" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029467297">
+                    <link role="link" targetNodeId="1.1174386164996" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029287314">
+    <property name="name" value="AbsDateTimeMinusOperation_rightOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1174387394067" resolveInfo="AbsDateTimeMinusOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029287315">
+      <property name="description" value="Delete right operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029287316">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029287317">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029287318">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029287319">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029287320" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029287321">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029287322">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029287323" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029476060">
+                    <link role="link" targetNodeId="1.1174386153808" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029401641">
+    <property name="name" value="DateTimeMinusOperation_leftOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1174386108135" resolveInfo="DateTimeMinusOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029401642">
+      <property name="description" value="Delete left operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029401643">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029401644">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029401645">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029401646">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029401647" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029401648">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029401649">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029401650" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029481824">
+                    <link role="link" targetNodeId="1.1174386164996" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029426951">
+    <property name="name" value="DateTimeMinusOperation_rightOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1174386108135" resolveInfo="DateTimeMinusOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029426952">
+      <property name="description" value="Delete right operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029426953">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029426954">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029426955">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029426956">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029426957" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029426958">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029426959">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029426960" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029487346">
+                    <link role="link" targetNodeId="1.1174386153808" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029492599">
+    <property name="name" value="DateTimeMinusPeriodOperation_leftOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1207222873197" resolveInfo="DateTimeMinusPeriodOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029492600">
+      <property name="description" value="Delete left operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029492601">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029492602">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029492603">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029492604">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029492605" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029492606">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029492607">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029492608" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029517387">
+                    <link role="link" targetNodeId="1.1207222904241" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029521931">
+    <property name="name" value="DateTimeMinusPeriodOperation_rightOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1207222873197" resolveInfo="DateTimeMinusPeriodOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029521932">
+      <property name="description" value="Delete right operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029521933">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029521934">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029521935">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029521936">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029521937" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029521938">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029521939">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029521940" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029541529">
+                    <link role="link" targetNodeId="1.1207222904240" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029545984">
+    <property name="name" value="DateTimePlusPeriodOperation_leftOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1207143297026" resolveInfo="DateTimePlusPeriodOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029545985">
+      <property name="description" value="Delete left operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029545986">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029545987">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029545988">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029545989">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029545990" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029545991">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029545992">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029545993" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029569860">
+                    <link role="link" targetNodeId="1.1207143609181" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029576179">
+    <property name="name" value="DateTimePlusPeriodOperation_rightOperand_actionMap" />
+    <property name="package" value="operation.arithmetic" />
+    <link role="applicableConcept" targetNodeId="1.1207143297026" resolveInfo="DateTimePlusPeriodOperation" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1227029576180">
+      <property name="description" value="Delete right operand" />
+      <property name="actionId" value="delete_action_id" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1227029576181">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227029576182">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1227029576183">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029576184">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029576185" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1227029576186">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227029576187">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1227029576188" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227029590208">
+                    <link role="link" targetNodeId="1.1207143609180" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

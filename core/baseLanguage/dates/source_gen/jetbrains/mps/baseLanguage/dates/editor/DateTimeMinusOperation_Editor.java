@@ -183,6 +183,7 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNode_leftValue1174386346837(EditorCell editorCell, SNode node, EditorContext context) {
+    DateTimeMinusOperation_leftOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_11743863518701174386351870(EditorCell editorCell, SNode node, EditorContext context) {
@@ -200,6 +201,7 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNode_rightValue1174386356059(EditorCell editorCell, SNode node, EditorContext context) {
+    DateTimeMinusOperation_rightOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_11743863629831174386362983(EditorCell editorCell, SNode node, EditorContext context) {

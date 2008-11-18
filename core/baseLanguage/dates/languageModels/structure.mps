@@ -518,11 +518,6 @@
       <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
       <node role="target" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1172325083908" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1172325083909">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="precision" />
-      <link role="target" targetNodeId="2.1172074318583" />
-    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172325617850">
     <property name="name" value="CeilingDateTimeOperation" />
@@ -542,11 +537,6 @@
     <node role="conceptLink" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink" id="1172325617853">
       <link role="conceptLinkDeclaration" targetNodeId="1171963160406" resolveInfo="operationType" />
       <node role="target" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1172325617854" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1172325617855">
-      <property name="sourceCardinality" value="1" />
-      <property name="role" value="precision" />
-      <link role="target" targetNodeId="2.1172074318583" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172331114860">

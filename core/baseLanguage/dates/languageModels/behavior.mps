@@ -48,6 +48,7 @@
   <import index="8" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
   <import index="9" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="1" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877259059">
+    <property name="package" value="format" />
     <link role="concept" targetNodeId="1.1173959836330" resolveInfo="DateTimePropertyFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877259060">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877259061" />
@@ -516,12 +517,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877297616">
+    <property name="package" value="format" />
     <link role="concept" targetNodeId="1.1169563444535" resolveInfo="TokenConditionalPair" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877297617">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877297618" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877368222">
+    <property name="package" value="format" />
     <link role="concept" targetNodeId="1.1169563273551" resolveInfo="ReferenceFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877368223">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877368224" />
@@ -535,18 +538,21 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877413175">
+    <property name="package" value="format" />
     <link role="concept" targetNodeId="1.1169487448949" resolveInfo="DateFormat" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877413176">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877413177" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877434064">
+    <property name="package" value="format" />
     <link role="concept" targetNodeId="1.1172679701720" resolveInfo="FixedLocaleFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877434065">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877434066" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877472159">
+    <property name="package" value="format" />
     <link role="concept" targetNodeId="1.1169557513226" resolveInfo="FormatExpression" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877472160">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877472161" />

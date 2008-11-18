@@ -118,6 +118,7 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNode_leftValue1207143697831(EditorCell editorCell, SNode node, EditorContext context) {
+    DateTimePlusPeriodOperation_leftOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_12071437018171207143701817(EditorCell editorCell, SNode node, EditorContext context) {
@@ -140,6 +141,7 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNode_rightValue1207143753212(EditorCell editorCell, SNode node, EditorContext context) {
+    DateTimePlusPeriodOperation_rightOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupLabel_refNode_leftValue_1207143697831(EditorCell_Label editorCell, SNode node, EditorContext context) {

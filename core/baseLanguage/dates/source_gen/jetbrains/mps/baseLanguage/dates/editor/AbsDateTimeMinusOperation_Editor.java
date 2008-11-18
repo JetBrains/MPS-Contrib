@@ -183,6 +183,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
       };
       inlineStyle.apply(editorCell);
     }
+    AbsDateTimeMinusOperation_leftOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_11743875349291174387534929(EditorCell editorCell, SNode node, EditorContext context) {
@@ -200,6 +201,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
       };
       inlineStyle.apply(editorCell);
     }
+    AbsDateTimeMinusOperation_rightOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_11743875349311174387534931(EditorCell editorCell, SNode node, EditorContext context) {

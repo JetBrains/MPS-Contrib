@@ -20,6 +20,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_DeleteNode;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
@@ -161,6 +162,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
         if (elementNode != null) {
           substituteInfoNode = elementNode;
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
+          elementCell.addKeyMap(new RefNodeListHandlerElementKeyMap(this, " "));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
@@ -169,7 +171,11 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+      {
+        EditorCell_Constant editorCell = new EditorCell_Constant(context, this.getOwner(), " ");
+        editorCell.setSelectable(false);
+        return editorCell;
+      }
     }
 
     public EditorCell createConstant1174321316064(EditorContext context, SNode node, String text) {
