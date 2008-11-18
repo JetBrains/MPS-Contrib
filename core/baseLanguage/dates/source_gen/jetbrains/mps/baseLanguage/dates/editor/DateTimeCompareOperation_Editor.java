@@ -263,6 +263,15 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_refNode_op21172075403775(EditorCell editorCell, SNode node, EditorContext context) {
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
     DateTimeCompareOperation_rightOperand_actionMap.setCellActions(editorCell, node, context);
   }
 
