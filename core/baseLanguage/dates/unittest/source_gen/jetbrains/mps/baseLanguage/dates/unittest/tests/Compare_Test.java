@@ -11,7 +11,7 @@ import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 import org.joda.time.DateTimeFieldType;
 
 public class Compare_Test extends TestCase {
-  public static Long yesterday = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).minusDays(1));
+  private static Long yesterday = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).minusDays(1));
 
   @Test()
   public void test_equals() throws Exception {
