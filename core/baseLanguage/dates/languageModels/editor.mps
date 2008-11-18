@@ -401,6 +401,9 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1172075403775">
         <link role="relationDeclaration" targetNodeId="1.1172074912819" />
         <link role="actionMap" targetNodeId="1178373822388" resolveInfo="DateTimeCompareOperation_rightOperand_actionMap" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SideTransformAnchorTagStyleClassItem" id="1227016943630">
+          <property name="tag" value="default_RTransform" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1178372495685">
         <property name="vertical" value="false" />
@@ -1257,47 +1260,6 @@
         </node>
       </node>
     </node>
-    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="1178375248831">
-      <property name="description" value="Add precision datetimeProperty" />
-      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="1178375248832">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178375248833">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1178375272866">
-            <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227852541">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227906758">
-                <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1178375278026" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1178375281655">
-                  <link role="link" targetNodeId="1.1172074844144" />
-                </node>
-              </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" id="1178375288815" />
-            </node>
-            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178375272868">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1178375290520">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227833126">
-                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227938018">
-                    <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1178375290521" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1178375293757">
-                      <link role="link" targetNodeId="1.1172074844144" />
-                    </node>
-                  </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="1178375298213">
-                    <node role="linkTarget" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986167579">
-                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227929821">
-                        <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="1178375300762" />
-                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SConceptLinkAccess" id="1178375304781">
-                          <link role="conceptLinkDeclaration" targetNodeId="1.1178372678354" />
-                        </node>
-                      </node>
-                      <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" id="1178375308956" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1194007774469">
     <property name="package" value="operation.constant.schedule" />
@@ -1641,7 +1603,7 @@
         <property name="value" value="9" />
       </node>
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219659653386">
-        <property name="value" value="0.0" />
+        <property name="value" value="1.0" />
       </node>
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="1219659599052">
         <property name="color" value="gray" />

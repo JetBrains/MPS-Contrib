@@ -4,23 +4,24 @@ package jetbrains.mps.baseLanguage.dates.actions;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
+import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
 import java.util.ArrayList;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.Calculable;
 import jetbrains.mps.baseLanguage.dates.structure.CompareType;
 import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.baseLanguage.collections.internal.query.SequenceOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class QueriesGenerated {
 
@@ -30,6 +31,23 @@ public class QueriesGenerated {
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1172507582020(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return DateTypeUtil.isInstanceOfInt(_context.getSourceNode());
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1227018647672(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    SNode current = _context.getSourceNode();
+    SNode dto = null;
+    if (SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation")) {
+      dto = current;
+    } else
+    {
+      while (SNodeOperations.hasRole(current, "jetbrains.mps.baseLanguage.structure.BinaryOperation", "rightExpression")) {
+        current = SNodeOperations.getParent(current);
+      }
+      if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation")) {
+        dto = SNodeOperations.getParent(current);
+      }
+    }
+    return dto != null && SLinkOperations.getTarget(dto, "datetimeProperty", false) == null;
   }
 
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1169657550853(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
@@ -280,6 +298,35 @@ public class QueriesGenerated {
 
         });
       }
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1227018642479(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation");
+      result.add(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+
+        public SNode doSubstitute(String pattern) {
+          SNode dto = SNodeOperations.getAncestor(_context.getSourceNode(), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", true, false);
+          SLinkOperations.setTarget(dto, "datetimeProperty", ListSequence.fromList(SLinkOperations.getConceptLinkTargets(dto, "defaultDatetimeProperty")).first(), false);
+          return dto;
+        }
+
+        public String getMatchingText(String pattern) {
+          return "by";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "add compare precision";
+        }
+
+      });
     }
     return result;
   }

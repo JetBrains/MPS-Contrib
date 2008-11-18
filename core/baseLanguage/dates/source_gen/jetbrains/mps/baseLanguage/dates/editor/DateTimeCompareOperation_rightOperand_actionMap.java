@@ -9,13 +9,11 @@ import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.EditorCellAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class DateTimeCompareOperation_rightOperand_actionMap {
 
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.DELETE, new DateTimeCompareOperation_rightOperand_actionMap.DateTimeCompareOperation_rightOperand_actionMap_DELETE(node));
-    editorCell.setAction(CellActionType.RIGHT_TRANSFORM, new DateTimeCompareOperation_rightOperand_actionMap.DateTimeCompareOperation_rightOperand_actionMap_RIGHT_TRANSFORM(node));
   }
 
   public static class DateTimeCompareOperation_rightOperand_actionMap_DELETE extends EditorCellAction {
@@ -36,29 +34,6 @@ public class DateTimeCompareOperation_rightOperand_actionMap {
 
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "op1", true));
-    }
-
-}
-  public static class DateTimeCompareOperation_rightOperand_actionMap_RIGHT_TRANSFORM extends EditorCellAction {
-
-    /* package */SNode myNode;
-
-    public DateTimeCompareOperation_rightOperand_actionMap_RIGHT_TRANSFORM(SNode node) {
-      this.myNode = node;
-    }
-
-    public String getDescriptionText() {
-      return "Add precision datetimeProperty";
-    }
-
-    public void execute(EditorContext editorContext) {
-      this.execute_internal(editorContext, this.myNode);
-    }
-
-    public void execute_internal(EditorContext editorContext, SNode node) {
-      if ((SLinkOperations.getTarget(node, "datetimeProperty", false) == null)) {
-        SLinkOperations.setTarget(node, "datetimeProperty", ListSequence.fromList(SLinkOperations.getConceptLinkTargets(node, "defaultDatetimeProperty")).first(), false);
-      }
     }
 
 }
