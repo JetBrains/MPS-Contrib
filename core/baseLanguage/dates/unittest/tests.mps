@@ -280,13 +280,6 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1209041666603">
-            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1209041666604">
-              <property name="name" value="n" />
-              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1209041666605" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1209041669991" />
-            </node>
-          </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1171979207628">
             <node role="expected" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986614346">
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1209041659235">
@@ -301,8 +294,11 @@
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1171979222029">
               <link role="dateFormat" targetNodeId="1169549957527" resolveInfo="time" />
-              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1209041680454">
-                <link role="variableDeclaration" targetNodeId="1209041666604" resolveInfo="n" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227032385906">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227032385283">
+                  <link role="variableDeclaration" targetNodeId="1209041659230" resolveInfo="dt" />
+                </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation" id="1227032390659" />
               </node>
             </node>
           </node>
@@ -337,10 +333,11 @@
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1171979471028">
             <node role="expected" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1208986614329">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888363621">
-                <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888363623">
-                  <link role="baseMethodDeclaration" targetNodeId="4.~DateTime.&lt;init&gt;()" resolveInfo="DateTime" />
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227032402995">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227032402176">
+                  <link role="variableDeclaration" targetNodeId="1172071795504" resolveInfo="today" />
                 </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.ConvertToJodaDateTimeOperation" id="1227032414837" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208986614330">
                 <link role="baseMethodDeclaration" targetNodeId="5.~AbstractDateTime.toString(java.lang.String):java.lang.String" resolveInfo="toString" />
@@ -351,7 +348,9 @@
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1171979483210">
               <link role="dateFormat" targetNodeId="1169637469524" resolveInfo="date" />
-              <node role="dateExpression" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1172071752215" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227032420658">
+                <link role="variableDeclaration" targetNodeId="1172071795504" resolveInfo="today" />
+              </node>
             </node>
           </node>
         </node>
@@ -384,14 +383,14 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1171979603780">
               <property name="name" value="yesterday" />
               <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1172686083933" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="1172686140073">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1172686142560">
-                  <link role="dateTimeProperty" targetNodeId="1.1172074737375" />
-                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1172686144015">
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1227032490265">
+                <node role="leftValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1172686103624" />
+                <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227032491643">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227032491644">
                     <property name="value" value="1" />
                   </node>
                 </node>
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1172686103624" />
               </node>
             </node>
           </node>
@@ -459,9 +458,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1172682280107">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1172682280108">
               <property name="name" value="expected" />
-              <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1172682280109">
-                <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
-              </node>
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1227032507766" />
               <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1172682284471">
                 <property name="value" value="Monday" />
               </node>
@@ -503,25 +500,63 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1174322466518">
               <property name="name" value="dt" />
               <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1174322466519" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="1174322476475">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1174322490854">
-                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" />
-                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1174322487666">
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1227028354921">
+                <node role="leftValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1174322470506" />
+                <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227028355873">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227028355874">
                     <property name="value" value="27" />
                   </node>
                 </node>
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1174322470506" />
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1174322523279">
-            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1174322527923">
-              <property name="value" value="27 minutes ago" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1227028215501">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1227028215502">
+              <property name="name" value="actual" />
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1227028215503" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1227028226357">
+                <link role="dateFormat" targetNodeId="1174322041098" resolveInfo="offset" />
+                <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227028224953">
+                  <link role="variableDeclaration" targetNodeId="1174322466518" resolveInfo="dt" />
+                </node>
+              </node>
             </node>
-            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1174322614651">
-              <link role="dateFormat" targetNodeId="1174322041098" resolveInfo="offset" />
-              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1174322540518">
-                <link role="variableDeclaration" targetNodeId="1174322466518" resolveInfo="dt" />
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1227027728014">
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227027728015">
+              <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1174322523279">
+                <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1174322527923">
+                  <property name="value" value="27 minutes ago" />
+                </node>
+                <node role="actual" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227028234244">
+                  <link role="variableDeclaration" targetNodeId="1227028215502" resolveInfo="actual" />
+                </node>
+              </node>
+            </node>
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1227028174422">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1227028321572">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227028331869">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227028327974">
+                    <property name="value" value="27" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation" id="1227028293683">
+                  <link role="datetimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                  <node role="rightValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227028300586">
+                    <link role="variableDeclaration" targetNodeId="1174322466518" resolveInfo="dt" />
+                  </node>
+                  <node role="leftValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1227028287481" />
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation" id="1227027736072">
+                <property name="compareType" value="datetime equals" />
+                <link role="datetimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                <node role="op1" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227027733562">
+                  <link role="variableDeclaration" targetNodeId="1174322466518" resolveInfo="dt" />
+                </node>
+                <node role="op2" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1227028259424" />
               </node>
             </node>
           </node>
@@ -535,25 +570,63 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1174322572297">
               <property name="name" value="dt" />
               <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1174322572298" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1174322578056">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1174322572317" />
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1174322572315">
-                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" />
-                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1174322572316">
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" id="1227028931774">
+                <node role="leftValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1174322572317" />
+                <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227028933229">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227028933230">
                     <property name="value" value="27" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1174322572318">
-            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1174322572319">
-              <property name="value" value="in 27 minutes" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1227029957159">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1227029957160">
+              <property name="name" value="actual" />
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1227029957161" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1227029957162">
+                <link role="dateFormat" targetNodeId="1174322041098" resolveInfo="offset" />
+                <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227029957163">
+                  <link role="variableDeclaration" targetNodeId="1174322572297" resolveInfo="dt" />
+                </node>
+              </node>
             </node>
-            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1174322626184">
-              <link role="dateFormat" targetNodeId="1174322041098" resolveInfo="offset" />
-              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1174322572320">
-                <link role="variableDeclaration" targetNodeId="1174322572297" resolveInfo="dt" />
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1227027650657">
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227027650658">
+              <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1174322572318">
+                <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1174322572319">
+                  <property name="value" value="in 27 minutes" />
+                </node>
+                <node role="actual" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227029957165">
+                  <link role="variableDeclaration" targetNodeId="1227029957160" resolveInfo="actual" />
+                </node>
+              </node>
+            </node>
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1227029886224">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1227029932019">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227029938458">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227029935590">
+                    <property name="value" value="27" />
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation" id="1227029925163">
+                  <link role="datetimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                  <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1227029927411" />
+                  <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227029922692">
+                    <link role="variableDeclaration" targetNodeId="1174322572297" resolveInfo="dt" />
+                  </node>
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation" id="1227027663345">
+                <property name="compareType" value="datetime equals" />
+                <link role="datetimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                <node role="op2" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1227027666160" />
+                <node role="op1" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227027659855">
+                  <link role="variableDeclaration" targetNodeId="1174322572297" resolveInfo="dt" />
+                </node>
               </node>
             </node>
           </node>
@@ -567,33 +640,86 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1174322660793">
               <property name="name" value="dt" />
               <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1174322660794" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="1174322660795">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1174322660796">
-                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" />
-                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1174322660797">
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1227028081681">
+                <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227028098430">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227028093541">
                     <property name="value" value="27" />
                   </node>
                 </node>
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="1174322679819">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1174322720339">
-                    <link role="dateTimeProperty" targetNodeId="1.1172074620250" />
-                    <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1174322682916">
-                      <property name="value" value="2" />
+                <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1227028075139">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1227028075140">
+                    <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227028075141">
+                      <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                      <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227028075142">
+                        <property name="value" value="2" />
+                      </node>
                     </node>
+                    <node role="leftValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1227028075143" />
                   </node>
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1174322660798" />
                 </node>
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1174322660799">
-            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1174322660800">
-              <property name="value" value="2 hours and 27 minutes ago" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1227030000886">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1227030000887">
+              <property name="name" value="actual" />
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1227030000888" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1227030000889">
+                <link role="dateFormat" targetNodeId="1174322041098" resolveInfo="offset" />
+                <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227030000890">
+                  <link role="variableDeclaration" targetNodeId="1174322660793" resolveInfo="dt" />
+                </node>
+              </node>
             </node>
-            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1174322660801">
-              <link role="dateFormat" targetNodeId="1174322041098" resolveInfo="offset" />
-              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1174322660802">
-                <link role="variableDeclaration" targetNodeId="1174322660793" resolveInfo="dt" />
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1227030008206">
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1227030026691">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation" id="1227030115803">
+                <property name="compareType" value="datetime equals" />
+                <link role="datetimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                <node role="op2" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1227030117720" />
+                <node role="op1" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1227030112298">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" id="1227030112299">
+                    <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227030112300">
+                      <link role="dateTimeProperty" targetNodeId="1.1172074618358" resolveInfo="minute" />
+                      <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227030112301">
+                        <property name="value" value="27" />
+                      </node>
+                    </node>
+                    <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1227030112302">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" id="1227030112303">
+                        <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1227030112304">
+                          <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                          <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1227030112305">
+                            <property name="value" value="2" />
+                          </node>
+                        </node>
+                        <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227030112306">
+                          <link role="variableDeclaration" targetNodeId="1174322660793" resolveInfo="dt" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation" id="1227030014252">
+                <property name="compareType" value="datetime equals" />
+                <link role="datetimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
+                <node role="op2" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1227030016114" />
+                <node role="op1" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227030012980">
+                  <link role="variableDeclaration" targetNodeId="1174322660793" resolveInfo="dt" />
+                </node>
+              </node>
+            </node>
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227030008208">
+              <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1174322660799">
+                <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1174322660800">
+                  <property name="value" value="2 hours and 27 minutes ago" />
+                </node>
+                <node role="actual" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1227030000892">
+                  <link role="variableDeclaration" targetNodeId="1227030000887" resolveInfo="actual" />
+                </node>
               </node>
             </node>
           </node>

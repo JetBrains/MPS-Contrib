@@ -9,20 +9,21 @@ import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
 import org.joda.time.Period;
 import org.joda.time.DateTimeFieldType;
 import org.joda.time.format.DateTimeFormat;
+import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
+import org.joda.time.PeriodType;
 
 public class Format_Test extends BaseTestCase {
 
   @Test()
   public void test_format1() throws Exception {
     DateTime dt = new DateTime();
-    Long n = System.currentTimeMillis();
-    Assert.assertEquals(dt.toString("HH:mm:ss"), DateTimeOperations.print(n, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time")));
+    Assert.assertEquals(dt.toString("HH:mm:ss"), DateTimeOperations.print(DateTimeOperations.convert(dt), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time")));
   }
 
   @Test()
   public void test_format2() throws Exception {
     Long today = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).toLocalDate().toDateTimeAtMidnight());
-    Assert.assertEquals(new DateTime().toString("yyyy-MM-dd"), DateTimeOperations.print(System.currentTimeMillis(), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date")));
+    Assert.assertEquals(new DateTime(today).toString("yyyy-MM-dd"), DateTimeOperations.print(today, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date")));
   }
 
   @Test()
@@ -57,19 +58,28 @@ public class Format_Test extends BaseTestCase {
   @Test()
   public void test_minutesAgo() throws Exception {
     Long dt = DateTimeOperations.minus(System.currentTimeMillis(), Period.minutes(27));
-    Assert.assertEquals("27 minutes ago", DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset")));
+    String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"));
+    if (DateTimeOperations.compare(dt, CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.hourOfDay()) && DateTimeOperations.equals(DateTimeOperations.minus(System.currentTimeMillis(), dt, PeriodType.minutes()), Period.minutes(27))) {
+      Assert.assertEquals("27 minutes ago", actual);
+    }
   }
 
   @Test()
   public void test_minutesAfter() throws Exception {
     Long dt = DateTimeOperations.plus(System.currentTimeMillis(), Period.minutes(27));
-    Assert.assertEquals("in 27 minutes", DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset")));
+    String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"));
+    if (DateTimeOperations.compare(dt, CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.hourOfDay()) && DateTimeOperations.equals(DateTimeOperations.minus(dt, System.currentTimeMillis(), PeriodType.minutes()), Period.minutes(27))) {
+      Assert.assertEquals("in 27 minutes", actual);
+    }
   }
 
   @Test()
   public void test_hoursMinutesAgo() throws Exception {
-    Long dt = DateTimeOperations.minus(DateTimeOperations.minus(System.currentTimeMillis(), Period.hours(2)), Period.minutes(27));
-    Assert.assertEquals("2 hours and 27 minutes ago", DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset")));
+    Long dt = DateTimeOperations.minus((DateTimeOperations.minus(System.currentTimeMillis(), Period.hours(2))), Period.minutes(27));
+    String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"));
+    if (DateTimeOperations.compare(dt, CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.dayOfMonth()) && DateTimeOperations.compare((DateTimeOperations.plus((DateTimeOperations.plus(dt, Period.hours(2))), Period.minutes(27))), CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.minuteOfHour())) {
+      Assert.assertEquals("2 hours and 27 minutes ago", actual);
+    }
   }
 
 }
