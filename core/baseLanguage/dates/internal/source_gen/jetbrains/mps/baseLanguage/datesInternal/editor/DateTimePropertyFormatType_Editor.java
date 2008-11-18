@@ -282,9 +282,9 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_property_name1173954037844(editorCell, node, context);
+      setupBasic_property_meaning1173954037844(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        setupLabel_property_name_1173954037844((EditorCell_Label)editorCell, node, context);
+        setupLabel_property_meaning_1173954037844((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
@@ -292,8 +292,8 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
 
     public EditorCell createProperty1173954037844(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
-      provider.setRole("name");
-      provider.setNoTargetText("<no name>");
+      provider.setRole("meaning");
+      provider.setNoTargetText("<no meaning>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty1173954037844_internal(context, node, provider);
@@ -308,11 +308,11 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
     }
 
 
-    private static void setupBasic_property_name1173954037844(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+    private static void setupBasic_property_meaning1173954037844(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.setCellId("property_meaning");
     }
 
-    private static void setupLabel_property_name_1173954037844(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_property_meaning_1173954037844(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

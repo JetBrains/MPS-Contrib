@@ -412,7 +412,7 @@
           <link role="conceptDeclaration" targetNodeId="1.1173953789261" />
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1173954037844">
             <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="2.1169194664001" />
+            <link role="relationDeclaration" targetNodeId="1.1173953818374" resolveInfo="meaning" />
           </node>
         </node>
       </node>
