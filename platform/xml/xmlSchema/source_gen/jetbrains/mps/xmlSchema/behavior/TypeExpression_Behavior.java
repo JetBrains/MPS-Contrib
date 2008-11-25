@@ -8,10 +8,10 @@ import java.util.Set;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class TypeExpression_Behavior {
-  public static Class[] PARAMETERS_1213877382373 = {SNode.class ,List.class};
-  public static Class[] PARAMETERS_1213877382378 = {SNode.class ,Set.class};
-  public static Class[] PARAMETERS_1213877382383 = {SNode.class};
-  public static Class[] PARAMETERS_1213877382388 = {SNode.class};
+  private static Class[] PARAMETERS_1213877382373 = {SNode.class ,List.class};
+  private static Class[] PARAMETERS_1213877382378 = {SNode.class ,Set.class};
+  private static Class[] PARAMETERS_1213877382383 = {SNode.class};
+  private static Class[] PARAMETERS_1213877382388 = {SNode.class};
 
   public static void init(SNode thisNode) {
   }

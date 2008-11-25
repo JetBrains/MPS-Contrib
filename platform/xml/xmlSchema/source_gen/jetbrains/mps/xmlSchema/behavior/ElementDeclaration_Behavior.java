@@ -12,7 +12,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class ElementDeclaration_Behavior {
-  public static Class[] PARAMETERS_1213877429806 = {SNode.class};
+  private static Class[] PARAMETERS_1213877429806 = {SNode.class};
 
   public static void init(SNode thisNode) {
   }

@@ -5,6 +5,7 @@ package jetbrains.mps.xmlSchema.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class AttributeGroupReference_Behavior {
 
@@ -13,7 +14,7 @@ public class AttributeGroupReference_Behavior {
 
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     List<SNode> attributeExpressions = SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "attributeGroup", false), "attributeExpression", true);
-    for(SNode attributeExpression : attributeExpressions) {
+    for(SNode attributeExpression : Sequence.fromIterable(attributeExpressions)) {
       TypeExpression_Behavior.call_checkAttributes_1213877382373(attributeExpression, attributeDeclarations);
     }
   }
