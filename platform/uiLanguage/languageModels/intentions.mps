@@ -40,7 +40,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1203674861154">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1203674873659">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1203674873660">
-            <property name="value" value="add change handler" />
+            <property name="value" value="Add Change Handler" />
           </node>
         </node>
       </node>
@@ -113,7 +113,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1204896171513">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1204896171514">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1204896171515">
-            <property name="value" value="add initializer" />
+            <property name="value" value="Add Initializer" />
           </node>
         </node>
       </node>
