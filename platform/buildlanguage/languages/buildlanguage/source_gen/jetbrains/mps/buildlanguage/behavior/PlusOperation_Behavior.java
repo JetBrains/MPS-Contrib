@@ -5,8 +5,6 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.generator.template.ITemplateGenerator;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class PlusOperation_Behavior {
 
@@ -51,14 +49,6 @@ public class PlusOperation_Behavior {
       right = PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "right", true));
     }
     return left + right;
-  }
-
-  public static SNode call_getBasedirProperty_1213877353556(SNode thisNode, ITemplateGenerator generator) {
-    if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "left", true), "jetbrains.mps.buildlanguage.structure.PropertyReference"))) {
-      throw new IllegalArgumentException("Cannot get basedir property declaration from node " + thisNode + ": it's left part is not a property reference.");
-    }
-    SNode node = generator.findOutputNodeByInputNodeAndMappingName(SLinkOperations.getTarget(((SNode)SLinkOperations.getTarget(thisNode, "left", true)), "propertyDeclaration", false), "Basedir");
-    return node;
   }
 
 }

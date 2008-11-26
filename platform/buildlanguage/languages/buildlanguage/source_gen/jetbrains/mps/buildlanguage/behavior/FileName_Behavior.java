@@ -7,7 +7,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.generator.template.ITemplateGenerator;
 
 public class FileName_Behavior {
 
@@ -42,16 +41,6 @@ public class FileName_Behavior {
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "value", true));
-  }
-
-  public static SNode call_getCorrespondPropertyDeclaration_1213877511998(SNode thisNode, ITemplateGenerator generator) {
-    SNode result = generator.findOutputNodeByInputNodeAndMappingName(thisNode, "Propertie");
-    return result;
-  }
-
-  public static SNode call_getCorrespondBasedirDeclaration_1213877512014(SNode thisNode, ITemplateGenerator generator) {
-    SNode result = generator.findOutputNodeByInputNodeAndMappingName(thisNode, "Basedir");
-    return result;
   }
 
 }
