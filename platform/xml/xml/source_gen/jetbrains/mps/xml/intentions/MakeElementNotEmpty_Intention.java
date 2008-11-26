@@ -17,8 +17,12 @@ public class MakeElementNotEmpty_Intention extends BaseIntention {
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Make element not empty";
+    return "Make Element Not-Empty";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {

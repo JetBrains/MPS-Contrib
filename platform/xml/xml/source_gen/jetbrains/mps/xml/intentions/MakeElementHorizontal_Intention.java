@@ -19,8 +19,12 @@ public class MakeElementHorizontal_Intention extends BaseIntention {
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Make element horizontal";
+    return "Make Element Horizontal";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {

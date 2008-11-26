@@ -22,7 +22,7 @@ public class MakeTypeExpressionListVertical_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Make typeExpressionList vertical";
+    return "Make typeExpressionList Vertical";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {

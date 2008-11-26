@@ -23,9 +23,9 @@ public class RemoveEmptyComment_intention_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Remove empty comment from " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
+    return "Remove Empty Comment from " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
       SConceptPropertyOperations.getString(node, "alias") :
-      "node"
+      "Node"
     )) + " " + ((SPropertyOperations.getString(node, "name") != null) ?
       SPropertyOperations.getString(node, "name") :
       ""

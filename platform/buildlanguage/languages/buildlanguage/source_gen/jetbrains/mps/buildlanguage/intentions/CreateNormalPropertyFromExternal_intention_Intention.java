@@ -25,7 +25,7 @@ public class CreateNormalPropertyFromExternal_intention_Intention extends BaseIn
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Transform external property to ordinary property";
+    return "Transform External Property to Ordinary Property";
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {

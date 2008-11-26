@@ -18,8 +18,12 @@ public class MakeContentListHorizontal_Intention extends BaseIntention {
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Make contentList horizontal";
+    return "Make contentList Horizontal";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {

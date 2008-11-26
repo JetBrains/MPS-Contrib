@@ -8,6 +8,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class SurroundWithContentList_Intention extends BaseIntention {
@@ -20,8 +21,12 @@ public class SurroundWithContentList_Intention extends BaseIntention {
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Surround with content list";
+    return "Surround with Content List";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
@@ -36,7 +41,7 @@ public class SurroundWithContentList_Intention extends BaseIntention {
     }
     SNode first = selectedNodes.get(0);
     SNodeOperations.insertPrevSiblingChild(first, contentList);
-    for(SNode selectedNode : selectedNodes) {
+    for(SNode selectedNode : Sequence.fromIterable(selectedNodes)) {
       SLinkOperations.addChild(contentList, "content", selectedNode);
     }
     SLinkOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");

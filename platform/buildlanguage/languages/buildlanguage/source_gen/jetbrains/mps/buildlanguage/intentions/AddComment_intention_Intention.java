@@ -23,9 +23,9 @@ public class AddComment_intention_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Add comment for " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
+    return "Add Comment for " + (((SConceptPropertyOperations.getString(node, "alias") != null) ?
       SConceptPropertyOperations.getString(node, "alias") :
-      "node"
+      "Node"
     )) + " " + ((SPropertyOperations.getString(node, "name") != null) ?
       SPropertyOperations.getString(node, "name") :
       ""

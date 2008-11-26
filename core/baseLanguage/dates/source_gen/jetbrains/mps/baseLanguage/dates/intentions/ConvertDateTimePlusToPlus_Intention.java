@@ -23,7 +23,7 @@ public class ConvertDateTimePlusToPlus_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "convert plus expression to datetime plus period expression";
+    return "Convert Plus to Datetime Plus Period";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {

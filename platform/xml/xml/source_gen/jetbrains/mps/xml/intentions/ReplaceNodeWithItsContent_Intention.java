@@ -8,6 +8,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.xml.behavior.Content_Behavior;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
 
@@ -19,8 +20,12 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Replace node with its content";
+    return "Replace Node with Its Content";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
@@ -29,7 +34,7 @@ public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
 
   public void execute(final SNode node, final EditorContext editorContext) {
     SNode s = node;
-    for(SNode subContent : Content_Behavior.call_getSubcontents_1213877224308(node)) {
+    for(SNode subContent : Sequence.fromIterable(Content_Behavior.call_getSubcontents_1213877224308(node))) {
       SNodeOperations.insertNextSiblingChild(s, subContent);
       s = subContent;
     }
