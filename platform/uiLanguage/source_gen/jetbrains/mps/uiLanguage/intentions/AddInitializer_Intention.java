@@ -18,8 +18,12 @@ public class AddInitializer_Intention extends BaseIntention {
     return false;
   }
 
+  public boolean isAvailableInChildNodes() {
+    return false;
+  }
+
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "add initializer";
+    return "Add Initializer";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
