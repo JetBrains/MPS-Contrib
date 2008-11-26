@@ -49,7 +49,7 @@
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602536536">
             <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602536537">
               <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201602536551">
-                <property name="value" value="Add comment for " />
+                <property name="value" value="Add Comment for " />
               </node>
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201603035367">
                 <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603037260">
@@ -75,7 +75,7 @@
                       </node>
                     </node>
                     <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603032897">
-                      <property name="value" value="node" />
+                      <property name="value" value="Node" />
                     </node>
                   </node>
                 </node>
@@ -151,7 +151,7 @@
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201595870747">
             <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602456165">
               <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201595870748">
-                <property name="value" value="Remove empty comment from " />
+                <property name="value" value="Remove Empty Comment from " />
               </node>
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201603060701">
                 <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603061657">
@@ -177,7 +177,7 @@
                       </node>
                     </node>
                     <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603055637">
-                      <property name="value" value="node" />
+                      <property name="value" value="Node" />
                     </node>
                   </node>
                 </node>
@@ -265,7 +265,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1219148733939">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1219149199582">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1219149201251">
-            <property name="value" value="Transform property to external" />
+            <property name="value" value="Transform Property to External" />
           </node>
         </node>
       </node>
@@ -359,7 +359,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1219149486461">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1219149630134">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1219149636081">
-            <property name="value" value="Transform external property to ordinary property" />
+            <property name="value" value="Transform External Property to Ordinary Property" />
           </node>
         </node>
       </node>

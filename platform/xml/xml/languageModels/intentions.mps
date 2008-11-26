@@ -47,7 +47,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647309171">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647309172">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647309173">
-            <property name="value" value="Replace node with its content" />
+            <property name="value" value="Replace Node with Its Content" />
           </node>
         </node>
       </node>
@@ -143,7 +143,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647309526">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647309527">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647309528">
-            <property name="value" value="Make contentList horizontal" />
+            <property name="value" value="Make contentList Horizontal" />
           </node>
         </node>
       </node>
@@ -190,7 +190,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647309615">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647309616">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647309617">
-            <property name="value" value="Make element empty" />
+            <property name="value" value="Make Element Empty" />
           </node>
         </node>
       </node>
@@ -337,7 +337,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647322030">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647322031">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647322032">
-            <property name="value" value="Make element horizontal" />
+            <property name="value" value="Make Element Horizontal" />
           </node>
         </node>
       </node>
@@ -394,7 +394,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647322092">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647322093">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647322094">
-            <property name="value" value="Make element vertical" />
+            <property name="value" value="Make Element Vertical" />
           </node>
         </node>
       </node>
@@ -447,7 +447,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647386247">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647386248">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647386249">
-            <property name="value" value="Make contentList vertical" />
+            <property name="value" value="Make contentList Vertical" />
           </node>
         </node>
       </node>
@@ -490,7 +490,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647386486">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647386487">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647386488">
-            <property name="value" value="Make element not empty" />
+            <property name="value" value="Make Element Not-Empty" />
           </node>
         </node>
       </node>
@@ -533,7 +533,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195665988499">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195665988500">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195665988501">
-            <property name="value" value="Surround with content list" />
+            <property name="value" value="Surround with Content List" />
           </node>
         </node>
       </node>

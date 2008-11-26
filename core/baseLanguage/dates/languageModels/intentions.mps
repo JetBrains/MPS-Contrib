@@ -43,7 +43,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1207144041356">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1207144076220">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1207144077800">
-            <property name="value" value="convert plus expression to datetime plus period expression" />
+            <property name="value" value="Convert Plus to Datetime Plus Period" />
           </node>
         </node>
       </node>
@@ -120,7 +120,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1207223065535">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1207223104630">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1207223104631">
-            <property name="value" value="convert minus expression to datetime minus period expression" />
+            <property name="value" value="Convert Minus to Datetime Minus Period" />
           </node>
         </node>
       </node>

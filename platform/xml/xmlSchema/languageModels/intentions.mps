@@ -42,7 +42,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647346781">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1195647346782">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1195647346783">
-            <property name="value" value="Make typeExpressionList vertical" />
+            <property name="value" value="Make typeExpressionList Vertical" />
           </node>
         </node>
       </node>
