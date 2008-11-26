@@ -35,7 +35,7 @@ public class DatesQueriesUtil {
       }
     }
     if (result == null) {
-      ((TemplateQueryContext)genctx).getGenerator().showErrorMessage(node, "Can't find formatters field declaration");
+      genctx.showErrorMessage(node, "Can't find formatters field declaration");
     }
     return result;
   }
