@@ -931,7 +931,7 @@
                         <link role="link" targetNodeId="1.1196853776690" />
                       </node>
                     </node>
-                    <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.CountOperation" id="1213877232021" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.LinkList_GetCountOperation" id="1227869231051" />
                   </node>
                 </node>
               </node>
@@ -952,7 +952,7 @@
                   <link role="link" targetNodeId="1.1196853776690" />
                 </node>
               </node>
-              <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.CountOperation" id="1213877232030" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.LinkList_GetCountOperation" id="1227869235172" />
             </node>
             <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213877232031">
               <link role="variableDeclaration" targetNodeId="1213877232022" resolveInfo="i" />
