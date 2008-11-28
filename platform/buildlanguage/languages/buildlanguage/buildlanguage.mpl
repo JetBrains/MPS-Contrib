@@ -22,7 +22,6 @@
         <dependency reexport="false">dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc(jetbrains.mps.build.property)</dependency>
       </dependencies>
       <usedLanguages>
-        <usedLanguages>562bb5cb-73ce-4c74-a5e5-9f72731d9ac6(jetbrains.mps.internal.collections)</usedLanguages>
         <usedLanguages>823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml.deprecated)</usedLanguages>
       </usedLanguages>
       <mapping-priorities>
