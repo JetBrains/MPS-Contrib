@@ -182,7 +182,7 @@ public class QueriesGenerated {
       }
 
     });
-    return ListSequence.fromIterable(decls).distinctList();
+    return Sequence.fromIterable(decls).distinct();
   }
 
   public static Iterable sourceNodesQuery_1219774083522(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

@@ -422,7 +422,7 @@
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1219153470998">
                     <link role="variableDeclaration" targetNodeId="1219153267727" resolveInfo="decls" />
                   </node>
-                  <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.ToSetListOperation" id="1219153475135" />
+                  <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.DistinctOperation" id="1228406291019" />
                 </node>
               </node>
             </node>
