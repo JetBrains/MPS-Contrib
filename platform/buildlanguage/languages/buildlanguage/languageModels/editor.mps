@@ -53,6 +53,7 @@
           <link role="styleClass" targetNodeId="1197151281083" resolveInfo="keyword" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1196852473889">
+          <property name="attractsFocus" value="2" />
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           <link role="styleClass" targetNodeId="1197150425926" resolveInfo="taskTarget" />
         </node>
