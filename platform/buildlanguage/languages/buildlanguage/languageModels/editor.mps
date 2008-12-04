@@ -286,6 +286,7 @@
           </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1196855783095">
+          <property name="attractsFocus" value="1" />
           <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
           <link role="styleClass" targetNodeId="1197150425926" resolveInfo="taskTarget" />
         </node>
