@@ -16,6 +16,7 @@
 package jetbrains.mps.gtext.runtime;
 
 import java.util.*;
+import java.util.logging.Logger;
 
 /**
  * Created by IntelliJ IDEA.
@@ -41,7 +42,9 @@ public class TBaseBuilderContext {
   public void initBuffer(TBuffer buffer) {
     myContents = null;
     myContentsStack = null;
-    getContents().put(ROOT, new TContent(ROOT, buffer, 0));
+    TContent rootContent = new TContent(ROOT, buffer);
+    getContents().put(ROOT, rootContent);
+    rootContent.setPosition(0);
     getContentsStack().push(getContents().get(ROOT));
     myBuffer = buffer;
   }
@@ -75,11 +78,12 @@ public class TBaseBuilderContext {
         return o2.getPosition() - o1.getPosition();
       }
     });
-    for (TContent c: sortedContents) {
+    for (TContent c : sortedContents) {
       if (c.getPosition() == -1) {
-        throw new IllegalStateException("There is no placeholder for content [" + c.getName() + "]");
+        Logger.getLogger(TBaseBuilderContext.class.getName()).info("There is no placeholder for content [" + c.getName() + "]");
+      } else {
+        myBuffer.getStringBuilder().insert(c.getPosition(), c.getBuf().getText());
       }
-      myBuffer.getStringBuilder().insert(c.getPosition(), c.getBuf().getText());
     }
 
     return myBuffer.getText();
@@ -133,25 +137,23 @@ public class TBaseBuilderContext {
   }
 
   public void addContentPlaceholder(String name) {
-    TContent c = getContents().get(name);
-
-    if (c == null) {
-      getContents().put(name, new TContent(name, new TBuffer(), getCurrentPosition()));
-    } else {
-      c.setPosition(getCurrentPosition());
-    }
+    TContent c = getContentBlock(name);
+    c.setPosition(getCurrentPosition());
   }
 
   public void startContentBlock(String name) {
-    TContent c = getContents().get(name);
-
-    if (c == null) {
-      c = new TContent(name, new TBuffer(), getCurrentPosition());
-      getContents().put(name, c);
-    }
-
+    TContent c = getContentBlock(name);
     getContentsStack().push(c);
     myBuffer = c.getBuf();
+  }
+
+  private TContent getContentBlock(String name) {
+    TContent content = getContents().get(name);
+    if (content == null) {
+      content = new TContent(name, new TBuffer());
+      getContents().put(name, content);
+    }
+    return content;
   }
 
   public void endContentBlock() {
@@ -172,8 +174,8 @@ public class TBaseBuilderContext {
   }
 
   protected void notify(ListenerVisitor v) {
-    for (TBaseBuilderContextListener l: listeners) {
-      v.visit(l);             
+    for (TBaseBuilderContextListener l : listeners) {
+      v.visit(l);
     }
   }
 
