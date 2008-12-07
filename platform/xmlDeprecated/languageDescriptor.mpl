@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.xml.deprecated" uuid="823d79c6-2e26-4b0e-92a0-e1884a10bba9" generatorOutputPath="${language_descriptor}\source_gen" java-stubs-enabled="true" compileInMPS="false">
+<language namespace="jetbrains.mps.xml.deprecated" uuid="823d79c6-2e26-4b0e-92a0-e1884a10bba9" generatorOutputPath="${language_descriptor}/source_gen" java-stubs-enabled="true" compileInMPS="false">
   <models>
-    <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.xml.deprecated" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.xml.deprecated" />
   </models>
   <accessoryModels />
   <generators>
     <generator name="void" generatorUID="jetbrains.mps.xml#1129923280838" uuid="648edee0-a74d-4997-b400-98c57131fd93">
       <models>
-        <modelRoot path="${language_descriptor}\generator" namespacePrefix="jetbrains.mps.xml.deprecated.generator" />
+        <modelRoot path="${language_descriptor}/generator" namespacePrefix="jetbrains.mps.xml.deprecated.generator" />
       </models>
       <external-templates />
       <mapping-priorities />
     </generator>
   </generators>
   <classPath>
-    <entry path="${language_descriptor}\classes" />
+    <entry path="${language_descriptor}/classes" />
   </classPath>
   <languageRuntimeClassPath />
   <sourcePath />
   <dependencies>
     <dependency reexport="false">648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml#1129923280838)</dependency>
+    <dependency reexport="false">b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</dependency>
   </dependencies>
   <usedDevKits>
     <usedDevKit>jetbrains.mps.devkit.language-design</usedDevKit>
