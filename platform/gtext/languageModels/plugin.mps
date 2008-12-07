@@ -33,6 +33,7 @@
   <import index="6" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="9" modelUID="f:java_stub#jetbrains.mps.gtext.structure(jetbrains.mps.gtext.structure@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.plugin.structure.FileGeneratorDeclaration" id="1228676609617">
+    <property name="name" value="Gtext" />
     <link role="extendedClass" targetNodeId="3.~DefaultFileGenerator" resolveInfo="DefaultFileGenerator" />
     <node role="method" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1228676767495">
       <property name="name" value="isDefault" />
