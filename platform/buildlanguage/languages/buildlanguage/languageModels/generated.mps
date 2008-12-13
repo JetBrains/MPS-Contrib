@@ -3548,9 +3548,6 @@
       <property name="name" value="includeemptydirs" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186605" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644186606" />
-      <node role="default" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1201692006284">
-        <property name="value" value="false" />
-      </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="1218135400574" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644186608">
