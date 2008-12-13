@@ -123,6 +123,14 @@
     <property name="name" value="TargetDeclaration" />
     <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1229183830991">
+      <property name="name" value="if" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1229186373089">
+      <property name="name" value="unless" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1196851542249">
       <property name="metaClass" value="aggregation" />
       <property name="sourceCardinality" value="0..n" />

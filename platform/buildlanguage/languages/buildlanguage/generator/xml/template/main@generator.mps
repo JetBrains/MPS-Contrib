@@ -167,6 +167,76 @@
           </node>
         </node>
       </node>
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1229186292426">
+        <property name="name" value="if" />
+        <property name="value" value="if" />
+        <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1229186338303">
+          <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1229186338304">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1229186338305">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1229186342588">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1229186342762">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1229186342589" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1229186344876">
+                    <link role="property" targetNodeId="1.1229183830991" resolveInfo="if" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro" id="1229186350651">
+          <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition" id="1229186350652">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1229186350653">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1229186354678">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1229186357391">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1229186354757">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1229186354679" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1229186357104">
+                      <link role="property" targetNodeId="1.1229183830991" resolveInfo="if" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" id="1229186360421" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1229186660221">
+        <property name="name" value="unless" />
+        <property name="value" value="unless" />
+        <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1229186668949">
+          <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1229186668950">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1229186668951">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1229186673829">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1229186673939">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1229186673830" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1229186675475">
+                    <link role="property" targetNodeId="1.1229186373089" resolveInfo="unless" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro" id="1229186682041">
+          <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition" id="1229186682042">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1229186682043">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1229186694209">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1229186740022">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1229186694272">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1229186694210" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1229186739112">
+                      <link role="property" targetNodeId="1.1229186373089" resolveInfo="unless" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation" id="1229186741778" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1197045322163">
         <property name="name" value="depends" />
         <property name="value" value="dependsList" />

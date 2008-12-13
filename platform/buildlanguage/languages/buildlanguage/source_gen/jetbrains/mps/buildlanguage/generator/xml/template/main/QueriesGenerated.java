@@ -12,6 +12,7 @@ import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
 import jetbrains.mps.buildlanguage.behavior.Project_Behavior;
 import jetbrains.mps.build.property.behavior.PropertyNode_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
+import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
@@ -94,6 +95,14 @@ public class QueriesGenerated {
     return "Property " + SPropertyOperations.getString(_context.getNode(), "name") + " unspecified.";
   }
 
+  public static Object propertyMacro_GetPropertyValue_1229186338304(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "if");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1229186668950(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "unless");
+  }
+
   public static boolean ifMacro_Condition_1200145212723(final IOperationContext operationContext, final IfMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "id") != null;
   }
@@ -104,6 +113,14 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_1219774096052(final IOperationContext operationContext, final IfMacroContext _context) {
     return SPropertyOperations.getBoolean(_context.getNode(), "checkOnStart");
+  }
+
+  public static boolean ifMacro_Condition_1229186350652(final IOperationContext operationContext, final IfMacroContext _context) {
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "if"));
+  }
+
+  public static boolean ifMacro_Condition_1229186682042(final IOperationContext operationContext, final IfMacroContext _context) {
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "unless"));
   }
 
   public static SNode sourceNodeQuery_1197045463934(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
