@@ -5,7 +5,6 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 
 public class Enum_Behavior {
 
@@ -26,7 +25,7 @@ public class Enum_Behavior {
   }
 
   public static boolean call_inEnum_1213877413964(SNode thisNode, SNode nodeToCheck) {
-    for(SNode constant : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "constants", true))) {
+    for(SNode constant : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true))) {
       if (PropertyValueExpression_Behavior.call_toString_1213877472569(constant).equals(PropertyValueExpression_Behavior.call_toString_1213877472569(nodeToCheck))) {
         return true;
       }

@@ -4,7 +4,7 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class MultiLineString_Behavior {
@@ -18,7 +18,7 @@ public class MultiLineString_Behavior {
 
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     String result = "";
-    for(SNode lit : Sequence.fromIterable(SLinkOperations.getTargets(thisNode, "stringExpression", true))) {
+    for(SNode lit : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "stringExpression", true))) {
       result += PropertyValueExpression_Behavior.call_getActualValue_1213877472572(lit);
     }
     return (result.length() > 0 ?
