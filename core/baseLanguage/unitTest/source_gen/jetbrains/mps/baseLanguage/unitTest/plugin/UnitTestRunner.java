@@ -8,11 +8,11 @@ import jetbrains.mps.smodel.SNode;
 import java.util.LinkedHashMap;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.Map;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.ModelAccess;
 import java.util.concurrent.CyclicBarrier;
 import jetbrains.mps.logging.Logger;
@@ -29,7 +29,7 @@ public class UnitTestRunner extends BaseRunner {
 
   public void run(List<SNode> tests) {
     final LinkedHashMap<TestRunParameters, ArrayList<SNode>> map = new LinkedHashMap<TestRunParameters, ArrayList<SNode>>();
-    for(SNode test : Sequence.fromIterable(tests)) {
+    for(SNode test : ListSequence.fromList(tests)) {
       TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
       if (MapSequence.fromMap(map).containsKey(parameters)) {
         map.get(parameters).add(test);
@@ -44,7 +44,7 @@ public class UnitTestRunner extends BaseRunner {
     Thread thread = new Thread(new Runnable() {
 
       public void run() {
-        for(Map.Entry<TestRunParameters, ArrayList<SNode>> entry : Sequence.fromIterable(map.entrySet())) {
+        for(Map.Entry<TestRunParameters, ArrayList<SNode>> entry : SetSequence.fromSet(map.entrySet())) {
           runner.runTestWithParameters(entry.getKey(), entry.getValue());
         }
       }
@@ -72,7 +72,7 @@ public class UnitTestRunner extends BaseRunner {
     ModelAccess.instance().runReadAction(new Runnable() {
 
       public void run() {
-        for(SNode test : Sequence.fromIterable(tests)) {
+        for(SNode test : ListSequence.fromList(tests)) {
           ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
         }
       }
