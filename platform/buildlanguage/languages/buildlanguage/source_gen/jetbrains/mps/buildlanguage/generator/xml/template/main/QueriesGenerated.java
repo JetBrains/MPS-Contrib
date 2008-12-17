@@ -79,12 +79,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1201017147787(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    String targetDir = "${ant.file}";
-    return "./" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), "propertyNode", false));
+    return "${ant.file}/../" + PropertyNode_Behavior.call_getFileName_1213877341757(SLinkOperations.getTarget(_context.getNode(), "propertyNode", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1201709830416(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
+    return "${ant.file}/../" + Project_Behavior.call_getFileName_1213877351819(SLinkOperations.getTarget(_context.getNode(), "project", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1219150196232(final IOperationContext operationContext, final PropertyMacroContext _context) {

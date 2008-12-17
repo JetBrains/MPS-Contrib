@@ -1137,19 +1137,10 @@
         <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1201017147786">
           <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1201017147787">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201017147788">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1201020789891">
-                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1201020789892">
-                  <property name="name" value="targetDir" />
-                  <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1225196191953" />
-                  <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201020801161">
-                    <property name="value" value="${ant.file}" />
-                  </node>
-                </node>
-              </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201020500775">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201020502668">
                   <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201021216731">
-                    <property name="value" value="./" />
+                    <property name="value" value="${ant.file}/../" />
                   </node>
                   <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227912043">
                     <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227917529">
@@ -1182,15 +1173,20 @@
           <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1201709830416">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201709830417">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1201709834012">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227820829">
-                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227900447">
-                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1201709834013" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1201709853771">
-                      <link role="link" targetNodeId="1.1201702650857" />
-                    </node>
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1229525224083">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1229525225224">
+                    <property name="value" value="${ant.file}/../" />
                   </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1201710021189">
-                    <link role="baseMethodDeclaration" targetNodeId="18.1213877351819" resolveInfo="getFileName" />
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227820829">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227900447">
+                      <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1201709834013" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1201709853771">
+                        <link role="link" targetNodeId="1.1201702650857" />
+                      </node>
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1201710021189">
+                      <link role="baseMethodDeclaration" targetNodeId="18.1213877351819" resolveInfo="getFileName" />
+                    </node>
                   </node>
                 </node>
               </node>
