@@ -19,31 +19,45 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class MultiLineString_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1218551685247;
+  /* package */AbstractCellListHandler myListHandler_1229529282332;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createRefNodeList1218551685247(context, node);
+    return this.createCollection1229529282333(context, node);
   }
 
-  public EditorCell createRefNodeList1218551685247(EditorContext context, SNode node) {
-    if (this.myListHandler_1218551685247 == null) {
-      this.myListHandler_1218551685247 = new MultiLineString_Editor.stringExpressionListHandler_9490_0(node, "stringExpression", context);
-    }
-    EditorCell_Collection editorCell = this.myListHandler_1218551685247.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_refNodeList_stringExpression1218551685247(editorCell, node, context);
+  public EditorCell createCollection1229529282333(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    setupBasic_Collection_12295292823331229529282333(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.setRole(this.myListHandler_1218551685247.getElementRole());
+    editorCell.addEditorCell(this.createRefNodeList1229529282332(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createRefNodeList1229529282332(EditorContext context, SNode node) {
+    if (this.myListHandler_1229529282332 == null) {
+      this.myListHandler_1229529282332 = new MultiLineString_Editor.stringExpressionListHandler_9490_0(node, "stringExpression", context);
+    }
+    EditorCell_Collection editorCell = this.myListHandler_1229529282332.createCells(context, new CellLayout_Vertical(), false);
+    setupBasic_refNodeList_stringExpression1229529282332(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.setRole(this.myListHandler_1229529282332.getElementRole());
     return editorCell;
   }
 
 
-  private static void setupBasic_refNodeList_stringExpression1218551685247(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_refNodeList_stringExpression1229529282332(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_stringExpression");
   }
 
-  private static void setupLabel_refNodeList_stringExpression_1218551685247(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Collection_12295292823331229529282333(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_1229529282333");
+  }
+
+  private static void setupLabel_refNodeList_stringExpression_1229529282332(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class stringExpressionListHandler_9490_0 extends RefNodeListHandler {
