@@ -12,23 +12,23 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class RenderingObject_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConstant1210521641189(context, node, "object");
+    return this.createConstant_1679_0(context, node, "object");
   }
 
-  public EditorCell createConstant1210521641189(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_1679_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_12105216411891210521641189(editorCell, node, context);
-    setupLabel_Constant_1210521641189_1210521641189(editorCell, node, context);
+    setupBasic_Constant_1679_0(editorCell, node, context);
+    setupLabel_Constant_1679_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
 
-  private static void setupBasic_Constant_12105216411891210521641189(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1210521641189");
+  private static void setupBasic_Constant_1679_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_1679_0");
   }
 
-  private static void setupLabel_Constant_1210521641189_1210521641189(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_1679_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

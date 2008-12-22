@@ -23,52 +23,52 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GridRow_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1202823808769;
+  /* package */AbstractCellListHandler myListHandler_7736_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1202823794525(context, node);
+    return this.createCollection_7736_0(context, node);
   }
 
-  public EditorCell createCollection1202823794525(EditorContext context, SNode node) {
+  public EditorCell createCollection_7736_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_12028237945251202823794525(editorCell, node, context);
+    setupBasic_Collection_7736_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1202823795637(context, node, "Row"));
-    editorCell.addEditorCell(this.createCollection1202823799045(context, node));
+    editorCell.addEditorCell(this.createConstant_7736_0(context, node, "Row"));
+    editorCell.addEditorCell(this.createCollection_7736_1(context, node));
     return editorCell;
   }
 
-  public EditorCell createCollection1202823799045(EditorContext context, SNode node) {
+  public EditorCell createCollection_7736_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_12028237990451202823799045(editorCell, node, context);
+    setupBasic_Collection_7736_1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createIndentCell7736_0(context, node));
-    editorCell.addEditorCell(this.createRefNodeList1202823808769(context, node));
+    editorCell.addEditorCell(this.createRefNodeList_7736_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstant1202823795637(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_7736_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_12028237956371202823795637(editorCell, node, context);
-    setupLabel_Constant_1202823795637_1202823795637(editorCell, node, context);
+    setupBasic_Constant_7736_0(editorCell, node, context);
+    setupLabel_Constant_7736_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList1202823808769(EditorContext context, SNode node) {
-    if (this.myListHandler_1202823808769 == null) {
-      this.myListHandler_1202823808769 = new GridRow_Editor.componentListHandler_7736_0(node, "component", context);
+  public EditorCell createRefNodeList_7736_0(EditorContext context, SNode node) {
+    if (this.myListHandler_7736_0 == null) {
+      this.myListHandler_7736_0 = new GridRow_Editor.componentListHandler_7736_0(node, "component", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_1202823808769.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_refNodeList_component1202823808769(editorCell, node, context);
+    EditorCell_Collection editorCell = this.myListHandler_7736_0.createCells(context, new CellLayout_Horizontal(), false);
+    setupBasic_RefNodeList_7736_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.setRole(this.myListHandler_1202823808769.getElementRole());
+    editorCell.setRole(this.myListHandler_7736_0.getElementRole());
     return editorCell;
   }
 
@@ -78,17 +78,17 @@ public class GridRow_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_Collection_12028237945251202823794525(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1202823794525");
+  private static void setupBasic_Collection_7736_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_7736_0");
   }
 
-  private static void setupBasic_Constant_12028237956371202823795637(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1202823795637");
+  private static void setupBasic_Constant_7736_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_7736_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
   }
 
-  private static void setupBasic_Collection_12028237990451202823799045(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1202823799045");
+  private static void setupBasic_Collection_7736_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_7736_1");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -100,11 +100,11 @@ public class GridRow_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupBasic_Indent_12028238002031202823800203(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Indent_1202823800203");
+  private static void setupBasic_Indent_7736_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Indent_7736_0");
   }
 
-  private static void setupBasic_refNodeList_component1202823808769(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_RefNodeList_7736_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_component");
     {
       Style inlineStyle = new Style(editorCell) {
@@ -117,10 +117,10 @@ public class GridRow_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupLabel_Constant_1202823795637_1202823795637(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_7736_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refNodeList_component_1202823808769(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNodeList_7736_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class componentListHandler_7736_0 extends RefNodeListHandler {
