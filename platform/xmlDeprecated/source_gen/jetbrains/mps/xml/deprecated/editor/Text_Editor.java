@@ -19,28 +19,28 @@ import jetbrains.mps.nodeEditor.MPSColors;
 public class Text_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createProperty1107868239951(context, node);
+    return this.createProperty_0753_1(context, node);
   }
 
-  public EditorCell createProperty1107868239951_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_0753_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_text1107868239951(editorCell, node, context);
+    setupBasic_Property_0753_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_text_1107868239951((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_0753_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1107868239951(EditorContext context, SNode node) {
+  public EditorCell createProperty_0753_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("text");
     provider.setNoTargetText("<no text>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1107868239951_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_0753_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -52,7 +52,7 @@ public class Text_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_property_text1107868239951(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_0753_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_text");
     {
       Style inlineStyle = new Style(editorCell) {
@@ -66,7 +66,7 @@ public class Text_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupLabel_property_text_1107868239951(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_0753_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

@@ -17,28 +17,28 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createRefCell1209039823939(context, node);
+    return this.createRefCell_5020_1(context, node);
   }
 
-  public EditorCell createRefCell1209039823939_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createRefCell_5020_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new DateTimePropetyReferenceOperation_Editor._Inline5020_0());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_refCell_dateTimeProperty1209039823939(editorCell, node, context);
+    setupBasic_RefCell_5020_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_refCell_dateTimeProperty_1209039823939((EditorCell_Label)editorCell, node, context);
+      setupLabel_RefCell_5020_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefCell1209039823939(EditorContext context, SNode node) {
+  public EditorCell createRefCell_5020_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createRefCell1209039823939_internal(context, node, provider);
+    EditorCell cellWithRole = this.createRefCell_5020_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -50,11 +50,10 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
   }
 
 
-  private static void setupBasic_refCell_dateTimeProperty1209039823939(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refCell_dateTimeProperty");
+  private static void setupBasic_RefCell_5020_0(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refCell_dateTimeProperty_1209039823939(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefCell_5020_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline5020_0 extends AbstractCellProvider {
@@ -68,28 +67,28 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createProperty1209039825976(context, node);
+      return this.createProperty_5020_1(context, node);
     }
 
-    public EditorCell createProperty1209039825976_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+    public EditorCell createProperty_5020_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_property_name1209039825976(editorCell, node, context);
+      setupBasic_Property_5020_0(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        setupLabel_property_name_1209039825976((EditorCell_Label)editorCell, node, context);
+        setupLabel_Property_5020_0((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
 
-    public EditorCell createProperty1209039825976(EditorContext context, SNode node) {
+    public EditorCell createProperty_5020_1(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
-      EditorCell cellWithRole = this.createProperty1209039825976_internal(context, node, provider);
+      EditorCell cellWithRole = this.createProperty_5020_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
       if (attributeConcept != null) {
@@ -101,12 +100,12 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
     }
 
 
-    private static void setupBasic_property_name1209039825976(EditorCell editorCell, SNode node, EditorContext context) {
+    private static void setupBasic_Property_5020_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 
-    private static void setupLabel_property_name_1209039825976(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_Property_5020_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

@@ -12,22 +12,22 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class MaxOccursExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError1167614645514(context, node);
+    return this.createError_2073_0(context, node);
   }
 
-  public EditorCell createError1167614645514(EditorContext context, SNode node) {
+  public EditorCell createError_2073_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "maxOccursExpression");
-    setupBasic_Error_11676146455141167614645514(editorCell, node, context);
-    setupLabel_Error_1167614645514_1167614645514(editorCell, node, context);
+    setupBasic_Error_2073_0(editorCell, node, context);
+    setupLabel_Error_2073_0(editorCell, node, context);
     return editorCell;
   }
 
 
-  private static void setupBasic_Error_11676146455141167614645514(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Error_1167614645514");
+  private static void setupBasic_Error_2073_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Error_2073_0");
   }
 
-  private static void setupLabel_Error_1167614645514_1167614645514(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Error_2073_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

@@ -12,22 +12,22 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class ElementPart_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError1119977874007(context, node);
+    return this.createError_1555_0(context, node);
   }
 
-  public EditorCell createError1119977874007(EditorContext context, SNode node) {
+  public EditorCell createError_1555_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "<choose content>");
-    setupBasic_Error_11199778740071119977874007(editorCell, node, context);
-    setupLabel_Error_1119977874007_1119977874007(editorCell, node, context);
+    setupBasic_Error_1555_0(editorCell, node, context);
+    setupLabel_Error_1555_0(editorCell, node, context);
     return editorCell;
   }
 
 
-  private static void setupBasic_Error_11199778740071119977874007(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Error_1119977874007");
+  private static void setupBasic_Error_1555_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Error_1555_0");
   }
 
-  private static void setupLabel_Error_1119977874007_1119977874007(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Error_1555_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

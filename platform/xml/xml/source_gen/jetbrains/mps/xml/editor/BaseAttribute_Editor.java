@@ -12,22 +12,22 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class BaseAttribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError1168397368593(context, node);
+    return this.createError_0001_0(context, node);
   }
 
-  public EditorCell createError1168397368593(EditorContext context, SNode node) {
+  public EditorCell createError_0001_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "baseAttribute");
-    setupBasic_Error_11683973685931168397368593(editorCell, node, context);
-    setupLabel_Error_1168397368593_1168397368593(editorCell, node, context);
+    setupBasic_Error_0001_0(editorCell, node, context);
+    setupLabel_Error_0001_0(editorCell, node, context);
     return editorCell;
   }
 
 
-  private static void setupBasic_Error_11683973685931168397368593(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Error_1168397368593");
+  private static void setupBasic_Error_0001_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Error_0001_0");
   }
 
-  private static void setupLabel_Error_1168397368593_1168397368593(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Error_0001_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

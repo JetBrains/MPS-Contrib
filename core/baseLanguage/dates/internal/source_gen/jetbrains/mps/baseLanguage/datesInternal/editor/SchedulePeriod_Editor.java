@@ -17,53 +17,53 @@ import jetbrains.mps.nodeEditor.EditorManager;
 public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1194006565731(context, node);
+    return this.createCollection_8932_0(context, node);
   }
 
-  public EditorCell createCollection1194006565731(EditorContext context, SNode node) {
+  public EditorCell createCollection_8932_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_11940065657311194006565731(editorCell, node, context);
+    setupBasic_Collection_8932_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createProperty1194006580942(context, node));
-    editorCell.addEditorCell(this.createConstant1194006867259(context, node, ":"));
-    editorCell.addEditorCell(this.createProperty1194006585464(context, node));
-    editorCell.addEditorCell(this.createProperty1194006746546(context, node));
-    editorCell.addEditorCell(this.createProperty1194006749661(context, node));
-    editorCell.addEditorCell(this.createProperty1194006752142(context, node));
-    editorCell.addEditorCell(this.createProperty1194006753664(context, node));
-    editorCell.addEditorCell(this.createProperty1194006756506(context, node));
+    editorCell.addEditorCell(this.createProperty_8932_1(context, node));
+    editorCell.addEditorCell(this.createConstant_8932_0(context, node, ":"));
+    editorCell.addEditorCell(this.createProperty_8932_3(context, node));
+    editorCell.addEditorCell(this.createProperty_8932_5(context, node));
+    editorCell.addEditorCell(this.createProperty_8932_7(context, node));
+    editorCell.addEditorCell(this.createProperty_8932_9(context, node));
+    editorCell.addEditorCell(this.createProperty_8932_11(context, node));
+    editorCell.addEditorCell(this.createProperty_8932_13(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstant1194006867259(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_8932_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11940068672591194006867259(editorCell, node, context);
-    setupLabel_Constant_1194006867259_1194006867259(editorCell, node, context);
+    setupBasic_Constant_8932_0(editorCell, node, context);
+    setupLabel_Constant_8932_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty1194006580942_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_8932_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_name1194006580942(editorCell, node, context);
+    setupBasic_Property_8932_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_name_1194006580942((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_8932_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1194006580942(EditorContext context, SNode node) {
+  public EditorCell createProperty_8932_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1194006580942_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_8932_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -74,25 +74,25 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty1194006585464_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_8932_2_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_month1194006585464(editorCell, node, context);
+    setupBasic_Property_8932_1(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_month_1194006585464((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_8932_1((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1194006585464(EditorContext context, SNode node) {
+  public EditorCell createProperty_8932_3(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("month");
     provider.setNoTargetText("<no month>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1194006585464_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_8932_2_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -103,25 +103,25 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty1194006746546_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_8932_4_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_dayOfMonth1194006746546(editorCell, node, context);
+    setupBasic_Property_8932_2(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_dayOfMonth_1194006746546((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_8932_2((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1194006746546(EditorContext context, SNode node) {
+  public EditorCell createProperty_8932_5(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("dayOfMonth");
     provider.setNoTargetText("<no dayOfMonth>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1194006746546_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_8932_4_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -132,25 +132,25 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty1194006749661_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_8932_6_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_dayOfWeek1194006749661(editorCell, node, context);
+    setupBasic_Property_8932_3(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_dayOfWeek_1194006749661((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_8932_3((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1194006749661(EditorContext context, SNode node) {
+  public EditorCell createProperty_8932_7(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("dayOfWeek");
     provider.setNoTargetText("<no dayOfWeek>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1194006749661_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_8932_6_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -161,25 +161,25 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty1194006752142_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_8932_8_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_hour1194006752142(editorCell, node, context);
+    setupBasic_Property_8932_4(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_hour_1194006752142((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_8932_4((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1194006752142(EditorContext context, SNode node) {
+  public EditorCell createProperty_8932_9(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("hour");
     provider.setNoTargetText("<no hour>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1194006752142_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_8932_8_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -190,25 +190,25 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty1194006753664_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_8932_10_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_minute1194006753664(editorCell, node, context);
+    setupBasic_Property_8932_5(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_minute_1194006753664((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_8932_5((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1194006753664(EditorContext context, SNode node) {
+  public EditorCell createProperty_8932_11(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("minute");
     provider.setNoTargetText("<no minute>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1194006753664_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_8932_10_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -219,25 +219,25 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty1194006756506_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createProperty_8932_12_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_property_second1194006756506(editorCell, node, context);
+    setupBasic_Property_8932_6(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_property_second_1194006756506((EditorCell_Label)editorCell, node, context);
+      setupLabel_Property_8932_6((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createProperty1194006756506(EditorContext context, SNode node) {
+  public EditorCell createProperty_8932_13(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("second");
     provider.setNoTargetText("<no second>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createProperty1194006756506_internal(context, node, provider);
+    EditorCell cellWithRole = this.createProperty_8932_12_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -249,64 +249,64 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_Collection_11940065657311194006565731(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1194006565731");
+  private static void setupBasic_Collection_8932_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_8932_0");
   }
 
-  private static void setupBasic_property_name1194006580942(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_8932_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_name");
   }
 
-  private static void setupBasic_property_month1194006585464(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_8932_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_month");
   }
 
-  private static void setupBasic_property_dayOfMonth1194006746546(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_8932_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_dayOfMonth");
   }
 
-  private static void setupBasic_property_dayOfWeek1194006749661(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_8932_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_dayOfWeek");
   }
 
-  private static void setupBasic_property_hour1194006752142(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_8932_4(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_hour");
   }
 
-  private static void setupBasic_property_minute1194006753664(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_8932_5(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_minute");
   }
 
-  private static void setupBasic_property_second1194006756506(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_Property_8932_6(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_second");
   }
 
-  private static void setupBasic_Constant_11940068672591194006867259(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1194006867259");
+  private static void setupBasic_Constant_8932_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_8932_0");
   }
 
-  private static void setupLabel_property_name_1194006580942(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_8932_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_property_month_1194006585464(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_8932_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_property_dayOfMonth_1194006746546(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_8932_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_property_dayOfWeek_1194006749661(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_8932_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_property_hour_1194006752142(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_8932_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_property_minute_1194006753664(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_8932_5(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_property_second_1194006756506(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Property_8932_6(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_1194006867259_1194006867259(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_8932_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

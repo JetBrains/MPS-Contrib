@@ -12,22 +12,22 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class TypeExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError1167590977432(context, node);
+    return this.createError_1066_0(context, node);
   }
 
-  public EditorCell createError1167590977432(EditorContext context, SNode node) {
+  public EditorCell createError_1066_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "typeExpression");
-    setupBasic_Error_11675909774321167590977432(editorCell, node, context);
-    setupLabel_Error_1167590977432_1167590977432(editorCell, node, context);
+    setupBasic_Error_1066_0(editorCell, node, context);
+    setupLabel_Error_1066_0(editorCell, node, context);
     return editorCell;
   }
 
 
-  private static void setupBasic_Error_11675909774321167590977432(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Error_1167590977432");
+  private static void setupBasic_Error_1066_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Error_1066_0");
   }
 
-  private static void setupLabel_Error_1167590977432_1167590977432(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Error_1066_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

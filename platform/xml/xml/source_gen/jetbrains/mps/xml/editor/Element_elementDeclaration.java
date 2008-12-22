@@ -29,28 +29,28 @@ public class Element_elementDeclaration extends AbstractCellProvider {
   }
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createRefCell1179101177299(context, node);
+    return this.createRefCell_4639_1(context, node);
   }
 
-  public EditorCell createRefCell1179101177299_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createRefCell_4639_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline4639_0());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_refCell_elementDeclaration1179101177299(editorCell, node, context);
+    setupBasic_RefCell_4639_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_refCell_elementDeclaration_1179101177299((EditorCell_Label)editorCell, node, context);
+      setupLabel_RefCell_4639_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefCell1179101177299(EditorContext context, SNode node) {
+  public EditorCell createRefCell_4639_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createRefCell1179101177299_internal(context, node, provider);
+    EditorCell cellWithRole = this.createRefCell_4639_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -62,11 +62,10 @@ public class Element_elementDeclaration extends AbstractCellProvider {
   }
 
 
-  private static void setupBasic_refCell_elementDeclaration1179101177299(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refCell_elementDeclaration");
+  private static void setupBasic_RefCell_4639_0(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refCell_elementDeclaration_1179101177299(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefCell_4639_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline4639_0 extends AbstractCellProvider {
@@ -80,10 +79,10 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createReadOnlyModelAccessor1226062530894(context, node);
+      return this.createReadOnlyModelAccessor_4639_0(context, node);
     }
 
-    public EditorCell createReadOnlyModelAccessor1226062530894(final EditorContext context, final SNode node) {
+    public EditorCell createReadOnlyModelAccessor_4639_0(final EditorContext context, final SNode node) {
       EditorCell_Property editorCell = EditorCell_Property.create(context, new ModelAccessor() {
 
         public String getText() {
@@ -99,17 +98,17 @@ public class Element_elementDeclaration extends AbstractCellProvider {
 
       }, node);
       editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
-      setupBasic_ReadOnlyModelAccessor_12260625308941226062530894(editorCell, node, context);
-      setupLabel_ReadOnlyModelAccessor_1226062530894_1226062530894(editorCell, node, context);
+      setupBasic_ReadOnlyModelAccessor_4639_0(editorCell, node, context);
+      setupLabel_ReadOnlyModelAccessor_4639_0(editorCell, node, context);
       return editorCell;
     }
 
 
-    private static void setupBasic_ReadOnlyModelAccessor_12260625308941226062530894(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("ReadOnlyModelAccessor_1226062530894");
+    private static void setupBasic_ReadOnlyModelAccessor_4639_0(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.setCellId("ReadOnlyModelAccessor_4639_0");
     }
 
-    private static void setupLabel_ReadOnlyModelAccessor_1226062530894_1226062530894(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_ReadOnlyModelAccessor_4639_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

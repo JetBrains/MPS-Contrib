@@ -23,67 +23,67 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Enum_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1197399052772;
+  /* package */AbstractCellListHandler myListHandler_9947_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1197398999782(context, node);
+    return this.createCollection_9947_0(context, node);
   }
 
-  public EditorCell createCollection1197398999782(EditorContext context, SNode node) {
+  public EditorCell createCollection_9947_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_11973989997821197398999782(editorCell, node, context);
+    setupBasic_Collection_9947_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1197399033003(context, node, "{"));
-    editorCell.addEditorCell(this.createRefNodeList1197399052772(context, node));
-    editorCell.addEditorCell(this.createConstant1197399041536(context, node, "}"));
+    editorCell.addEditorCell(this.createConstant_9947_0(context, node, "{"));
+    editorCell.addEditorCell(this.createRefNodeList_9947_0(context, node));
+    editorCell.addEditorCell(this.createConstant_9947_1(context, node, "}"));
     return editorCell;
   }
 
-  public EditorCell createConstant1197399033003(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_9947_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11973990330031197399033003(editorCell, node, context);
-    setupLabel_Constant_1197399033003_1197399033003(editorCell, node, context);
+    setupBasic_Constant_9947_0(editorCell, node, context);
+    setupLabel_Constant_9947_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant1197399041536(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_9947_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11973990415361197399041536(editorCell, node, context);
-    setupLabel_Constant_1197399041536_1197399041536(editorCell, node, context);
+    setupBasic_Constant_9947_1(editorCell, node, context);
+    setupLabel_Constant_9947_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList1197399052772(EditorContext context, SNode node) {
-    if (this.myListHandler_1197399052772 == null) {
-      this.myListHandler_1197399052772 = new Enum_Editor.constantsListHandler_9947_0(node, "constants", context);
+  public EditorCell createRefNodeList_9947_0(EditorContext context, SNode node) {
+    if (this.myListHandler_9947_0 == null) {
+      this.myListHandler_9947_0 = new Enum_Editor.constantsListHandler_9947_0(node, "constants", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_1197399052772.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_refNodeList_constants1197399052772(editorCell, node, context);
+    EditorCell_Collection editorCell = this.myListHandler_9947_0.createCells(context, new CellLayout_Horizontal(), false);
+    setupBasic_RefNodeList_9947_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.setRole(this.myListHandler_1197399052772.getElementRole());
+    editorCell.setRole(this.myListHandler_9947_0.getElementRole());
     return editorCell;
   }
 
 
-  private static void setupBasic_Collection_11973989997821197398999782(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1197398999782");
+  private static void setupBasic_Collection_9947_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_9947_0");
   }
 
-  private static void setupBasic_Constant_11973990330031197399033003(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1197399033003");
+  private static void setupBasic_Constant_9947_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_9947_0");
   }
 
-  private static void setupBasic_Constant_11973990415361197399041536(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1197399041536");
+  private static void setupBasic_Constant_9947_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_9947_1");
   }
 
-  private static void setupBasic_refNodeList_constants1197399052772(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_RefNodeList_9947_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_constants");
     {
       Style inlineStyle = new Style(editorCell) {
@@ -96,13 +96,13 @@ public class Enum_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupLabel_Constant_1197399033003_1197399033003(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_9947_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_1197399041536_1197399041536(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_9947_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refNodeList_constants_1197399052772(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNodeList_9947_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class constantsListHandler_9947_0 extends RefNodeListHandler {
@@ -130,7 +130,7 @@ public class Enum_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant1200419310593(context, node, "<constant values>");
+      return this.createConstant_9947_2(context, node, "<constant values>");
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
@@ -156,21 +156,21 @@ public class Enum_Editor extends DefaultNodeEditor {
       }
     }
 
-    public EditorCell createConstant1200419310593(EditorContext context, SNode node, String text) {
+    public EditorCell createConstant_9947_2(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      setupBasic_Constant_12004193105931200419310593(editorCell, node, context);
-      setupLabel_Constant_1200419310593_1200419310593(editorCell, node, context);
+      setupBasic_Constant_9947_2(editorCell, node, context);
+      setupLabel_Constant_9947_2(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
 
 
-    private static void setupBasic_Constant_12004193105931200419310593(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("Constant_1200419310593");
+    private static void setupBasic_Constant_9947_2(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.setCellId("Constant_9947_2");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
     }
 
-    private static void setupLabel_Constant_1200419310593_1200419310593(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_Constant_9947_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

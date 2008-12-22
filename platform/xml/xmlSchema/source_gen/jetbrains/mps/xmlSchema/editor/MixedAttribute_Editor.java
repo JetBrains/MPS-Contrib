@@ -15,20 +15,20 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class MixedAttribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConstant1167593524357(context, node, "mixed");
+    return this.createConstant_6965_0(context, node, "mixed");
   }
 
-  public EditorCell createConstant1167593524357(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_6965_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11675935243571167593524357(editorCell, node, context);
-    setupLabel_Constant_1167593524357_1167593524357(editorCell, node, context);
+    setupBasic_Constant_6965_0(editorCell, node, context);
+    setupLabel_Constant_6965_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
 
-  private static void setupBasic_Constant_11675935243571167593524357(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1167593524357");
+  private static void setupBasic_Constant_6965_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_6965_0");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -40,7 +40,7 @@ public class MixedAttribute_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupLabel_Constant_1167593524357_1167593524357(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_6965_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

@@ -24,56 +24,56 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GSeparatorItemList_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1188510110700;
+  /* package */AbstractCellListHandler myListHandler_1453_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1188509463018(context, node);
+    return this.createCollection_1453_0(context, node);
   }
 
-  public EditorCell createCollection1188509463018(EditorContext context, SNode node) {
+  public EditorCell createCollection_1453_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_11885094630181188509463018(editorCell, node, context);
+    setupBasic_Collection_1453_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConceptProperty1211918093416(context, node));
-    editorCell.addEditorCell(this.createRefNode1211914969713(context, node));
-    editorCell.addEditorCell(this.createRefNodeList1188510110700(context, node));
+    editorCell.addEditorCell(this.createConceptProperty_1453_1(context, node));
+    editorCell.addEditorCell(this.createRefNode_1453_1(context, node));
+    editorCell.addEditorCell(this.createRefNodeList_1453_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefNodeList1188510110700(EditorContext context, SNode node) {
-    if (this.myListHandler_1188510110700 == null) {
-      this.myListHandler_1188510110700 = new GSeparatorItemList_Editor.itemListHandler_1453_0(node, "item", context);
+  public EditorCell createRefNodeList_1453_0(EditorContext context, SNode node) {
+    if (this.myListHandler_1453_0 == null) {
+      this.myListHandler_1453_0 = new GSeparatorItemList_Editor.itemListHandler_1453_0(node, "item", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_1188510110700.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_refNodeList_item1188510110700(editorCell, node, context);
+    EditorCell_Collection editorCell = this.myListHandler_1453_0.createCells(context, new CellLayout_Horizontal(), false);
+    setupBasic_RefNodeList_1453_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.setRole(this.myListHandler_1188510110700.getElementRole());
+    editorCell.setRole(this.myListHandler_1453_0.getElementRole());
     return editorCell;
   }
 
-  public EditorCell createRefNode1211914969713_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createRefNode_1453_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_refNode_separator1211914969713(editorCell, node, context);
+    setupBasic_RefNode_1453_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_refNode_separator_1211914969713((EditorCell_Label)editorCell, node, context);
+      setupLabel_RefNode_1453_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefNode1211914969713(EditorContext context, SNode node) {
+  public EditorCell createRefNode_1453_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("separator");
     provider.setNoTargetText("<no separator>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createRefNode1211914969713_internal(context, node, provider);
+    EditorCell cellWithRole = this.createRefNode_1453_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -84,25 +84,25 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createConceptProperty1211918093416_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createConceptProperty_1453_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_conceptProperty_alias1211918093416(editorCell, node, context);
+    setupBasic_ConceptProperty_1453_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_conceptProperty_alias_1211918093416((EditorCell_Label)editorCell, node, context);
+      setupLabel_ConceptProperty_1453_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createConceptProperty1211918093416(EditorContext context, SNode node) {
+  public EditorCell createConceptProperty_1453_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createConceptProperty1211918093416_internal(context, node, provider);
+    EditorCell cellWithRole = this.createConceptProperty_1453_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -114,28 +114,28 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_Collection_11885094630181188509463018(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1188509463018");
+  private static void setupBasic_Collection_1453_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_1453_0");
   }
 
-  private static void setupBasic_refNodeList_item1188510110700(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_RefNodeList_1453_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_item");
   }
 
-  private static void setupBasic_refNode_separator1211914969713(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_RefNode_1453_0(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupBasic_conceptProperty_alias1211918093416(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_ConceptProperty_1453_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("conceptProperty_alias");
   }
 
-  private static void setupLabel_refNodeList_item_1188510110700(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNodeList_1453_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refNode_separator_1211914969713(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNode_1453_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_conceptProperty_alias_1211918093416(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConceptProperty_1453_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class itemListHandler_1453_0 extends RefNodeListHandler {

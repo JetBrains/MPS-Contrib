@@ -15,28 +15,28 @@ import jetbrains.mps.nodeEditor.EditorManager;
 public class ConvertToDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConceptProperty1209035311050(context, node);
+    return this.createConceptProperty_9742_1(context, node);
   }
 
-  public EditorCell createConceptProperty1209035311050_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createConceptProperty_9742_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_conceptProperty_alias1209035311050(editorCell, node, context);
+    setupBasic_ConceptProperty_9742_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_conceptProperty_alias_1209035311050((EditorCell_Label)editorCell, node, context);
+      setupLabel_ConceptProperty_9742_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createConceptProperty1209035311050(EditorContext context, SNode node) {
+  public EditorCell createConceptProperty_9742_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createConceptProperty1209035311050_internal(context, node, provider);
+    EditorCell cellWithRole = this.createConceptProperty_9742_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -48,12 +48,12 @@ public class ConvertToDateTimeOperation_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_conceptProperty_alias1209035311050(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_ConceptProperty_9742_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("conceptProperty_alias");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
   }
 
-  private static void setupLabel_conceptProperty_alias_1209035311050(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConceptProperty_9742_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

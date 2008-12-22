@@ -15,28 +15,28 @@ import jetbrains.mps.nodeEditor.EditorManager;
 public class PropertyType_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConceptProperty1196870842780(context, node);
+    return this.createConceptProperty_1165_1(context, node);
   }
 
-  public EditorCell createConceptProperty1196870842780_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createConceptProperty_1165_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_conceptProperty_alias1196870842780(editorCell, node, context);
+    setupBasic_ConceptProperty_1165_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_conceptProperty_alias_1196870842780((EditorCell_Label)editorCell, node, context);
+      setupLabel_ConceptProperty_1165_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createConceptProperty1196870842780(EditorContext context, SNode node) {
+  public EditorCell createConceptProperty_1165_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createConceptProperty1196870842780_internal(context, node, provider);
+    EditorCell cellWithRole = this.createConceptProperty_1165_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -48,11 +48,11 @@ public class PropertyType_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_conceptProperty_alias1196870842780(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_ConceptProperty_1165_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("conceptProperty_alias");
   }
 
-  private static void setupLabel_conceptProperty_alias_1196870842780(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConceptProperty_1165_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

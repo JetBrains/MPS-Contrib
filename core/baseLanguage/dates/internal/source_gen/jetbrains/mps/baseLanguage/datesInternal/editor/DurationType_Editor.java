@@ -17,47 +17,47 @@ import jetbrains.mps.nodeEditor.EditorManager;
 public class DurationType_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1174320771105(context, node);
+    return this.createCollection_7934_0(context, node);
   }
 
-  public EditorCell createCollection1174320771105(EditorContext context, SNode node) {
+  public EditorCell createCollection_7934_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_11743207711051174320771105(editorCell, node, context);
+    setupBasic_Collection_7934_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1174320774029(context, node, "duration type"));
-    editorCell.addEditorCell(this.createRefNode1174320792189(context, node));
+    editorCell.addEditorCell(this.createConstant_7934_0(context, node, "duration type"));
+    editorCell.addEditorCell(this.createRefNode_7934_1(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstant1174320774029(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_7934_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11743207740291174320774029(editorCell, node, context);
-    setupLabel_Constant_1174320774029_1174320774029(editorCell, node, context);
+    setupBasic_Constant_7934_0(editorCell, node, context);
+    setupLabel_Constant_7934_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNode1174320792189_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createRefNode_7934_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_refNode_jodaDurationFieldType1174320792189(editorCell, node, context);
+    setupBasic_RefNode_7934_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_refNode_jodaDurationFieldType_1174320792189((EditorCell_Label)editorCell, node, context);
+      setupLabel_RefNode_7934_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefNode1174320792189(EditorContext context, SNode node) {
+  public EditorCell createRefNode_7934_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("jodaDurationFieldType");
     provider.setNoTargetText("<no jodaDurationFieldType>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createRefNode1174320792189_internal(context, node, provider);
+    EditorCell cellWithRole = this.createRefNode_7934_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -69,21 +69,21 @@ public class DurationType_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_Collection_11743207711051174320771105(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1174320771105");
+  private static void setupBasic_Collection_7934_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_7934_0");
   }
 
-  private static void setupBasic_Constant_11743207740291174320774029(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1174320774029");
+  private static void setupBasic_Constant_7934_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_7934_0");
   }
 
-  private static void setupBasic_refNode_jodaDurationFieldType1174320792189(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_RefNode_7934_0(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_1174320774029_1174320774029(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_7934_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refNode_jodaDurationFieldType_1174320792189(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNode_7934_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

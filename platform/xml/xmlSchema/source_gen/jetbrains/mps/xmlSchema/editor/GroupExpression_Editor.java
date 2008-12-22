@@ -12,22 +12,22 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class GroupExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError1167598097970(context, node);
+    return this.createError_4309_0(context, node);
   }
 
-  public EditorCell createError1167598097970(EditorContext context, SNode node) {
+  public EditorCell createError_4309_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "groupExpression");
-    setupBasic_Error_11675980979701167598097970(editorCell, node, context);
-    setupLabel_Error_1167598097970_1167598097970(editorCell, node, context);
+    setupBasic_Error_4309_0(editorCell, node, context);
+    setupLabel_Error_4309_0(editorCell, node, context);
     return editorCell;
   }
 
 
-  private static void setupBasic_Error_11675980979701167598097970(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Error_1167598097970");
+  private static void setupBasic_Error_4309_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Error_4309_0");
   }
 
-  private static void setupLabel_Error_1167598097970_1167598097970(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Error_4309_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

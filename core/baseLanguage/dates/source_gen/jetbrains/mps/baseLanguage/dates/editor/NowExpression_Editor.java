@@ -16,40 +16,40 @@ import jetbrains.mps.nodeEditor.EditorManager;
 public class NowExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConceptProperty1219660723071(context, node);
+    return this.createConceptProperty_4750_1(context, node);
   }
 
   public EditorCell createInspectedCell(EditorContext context, SNode node) {
-    return this.createConstant1169630199294(context, node, "Instance of DateTime corresponding to current moment");
+    return this.createConstant_4750_0(context, node, "Instance of DateTime corresponding to current moment");
   }
 
-  public EditorCell createConstant1169630199294(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_4750_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11696301992941169630199294(editorCell, node, context);
-    setupLabel_Constant_1169630199294_1169630199294(editorCell, node, context);
+    setupBasic_Constant_4750_0(editorCell, node, context);
+    setupLabel_Constant_4750_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConceptProperty1219660723071_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createConceptProperty_4750_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_conceptProperty_alias1219660723071(editorCell, node, context);
+    setupBasic_ConceptProperty_4750_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_conceptProperty_alias_1219660723071((EditorCell_Label)editorCell, node, context);
+      setupLabel_ConceptProperty_4750_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createConceptProperty1219660723071(EditorContext context, SNode node) {
+  public EditorCell createConceptProperty_4750_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createConceptProperty1219660723071_internal(context, node, provider);
+    EditorCell cellWithRole = this.createConceptProperty_4750_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -61,19 +61,19 @@ public class NowExpression_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_Constant_11696301992941169630199294(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1169630199294");
+  private static void setupBasic_Constant_4750_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_4750_0");
   }
 
-  private static void setupBasic_conceptProperty_alias1219660723071(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_ConceptProperty_4750_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("conceptProperty_alias");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
   }
 
-  private static void setupLabel_Constant_1169630199294_1169630199294(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_4750_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_conceptProperty_alias_1219660723071(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConceptProperty_4750_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

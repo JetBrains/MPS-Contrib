@@ -22,74 +22,74 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GItemStatement_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1164488498215;
+  /* package */AbstractCellListHandler myListHandler_8009_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1164488463440(context, node);
+    return this.createCollection_8009_0(context, node);
   }
 
-  public EditorCell createCollection1164488463440(EditorContext context, SNode node) {
+  public EditorCell createCollection_8009_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_11644884634401164488463440(editorCell, node, context);
+    setupBasic_Collection_8009_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1164488469489(context, node, "gItemStatement"));
-    editorCell.addEditorCell(this.createCollection1164488486664(context, node));
+    editorCell.addEditorCell(this.createConstant_8009_0(context, node, "gItemStatement"));
+    editorCell.addEditorCell(this.createCollection_8009_1(context, node));
     return editorCell;
   }
 
-  public EditorCell createCollection1164488486664(EditorContext context, SNode node) {
+  public EditorCell createCollection_8009_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_11644884866641164488486664(editorCell, node, context);
+    setupBasic_Collection_8009_1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant1164488491806(context, node, "  "));
-    editorCell.addEditorCell(this.createRefNodeList1164488498215(context, node));
+    editorCell.addEditorCell(this.createConstant_8009_1(context, node, "  "));
+    editorCell.addEditorCell(this.createRefNodeList_8009_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstant1164488469489(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_8009_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11644884694891164488469489(editorCell, node, context);
-    setupLabel_Constant_1164488469489_1164488469489(editorCell, node, context);
+    setupBasic_Constant_8009_0(editorCell, node, context);
+    setupLabel_Constant_8009_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant1164488491806(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_8009_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_11644884918061164488491806(editorCell, node, context);
-    setupLabel_Constant_1164488491806_1164488491806(editorCell, node, context);
+    setupBasic_Constant_8009_1(editorCell, node, context);
+    setupLabel_Constant_8009_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList1164488498215(EditorContext context, SNode node) {
-    if (this.myListHandler_1164488498215 == null) {
-      this.myListHandler_1164488498215 = new GItemStatement_Editor.itemListHandler_8009_0(node, "item", context);
+  public EditorCell createRefNodeList_8009_0(EditorContext context, SNode node) {
+    if (this.myListHandler_8009_0 == null) {
+      this.myListHandler_8009_0 = new GItemStatement_Editor.itemListHandler_8009_0(node, "item", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_1164488498215.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_refNodeList_item1164488498215(editorCell, node, context);
+    EditorCell_Collection editorCell = this.myListHandler_8009_0.createCells(context, new CellLayout_Vertical(), false);
+    setupBasic_RefNodeList_8009_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.setRole(this.myListHandler_1164488498215.getElementRole());
+    editorCell.setRole(this.myListHandler_8009_0.getElementRole());
     return editorCell;
   }
 
 
-  private static void setupBasic_Collection_11644884634401164488463440(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1164488463440");
+  private static void setupBasic_Collection_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_8009_0");
   }
 
-  private static void setupBasic_Constant_11644884694891164488469489(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1164488469489");
+  private static void setupBasic_Constant_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_8009_0");
   }
 
-  private static void setupBasic_Collection_11644884866641164488486664(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1164488486664");
+  private static void setupBasic_Collection_8009_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_8009_1");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -101,8 +101,8 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupBasic_Constant_11644884918061164488491806(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1164488491806");
+  private static void setupBasic_Constant_8009_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_8009_1");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -114,17 +114,17 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupBasic_refNodeList_item1164488498215(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_RefNodeList_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_item");
   }
 
-  private static void setupLabel_Constant_1164488469489_1164488469489(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_8009_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_1164488491806_1164488491806(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_8009_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refNodeList_item_1164488498215(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNodeList_8009_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class itemListHandler_8009_0 extends RefNodeListHandler {

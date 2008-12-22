@@ -12,22 +12,22 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 public class ContentItem_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError1167794592694(context, node);
+    return this.createError_4832_0(context, node);
   }
 
-  public EditorCell createError1167794592694(EditorContext context, SNode node) {
+  public EditorCell createError_4832_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "contentItem");
-    setupBasic_Error_11677945926941167794592694(editorCell, node, context);
-    setupLabel_Error_1167794592694_1167794592694(editorCell, node, context);
+    setupBasic_Error_4832_0(editorCell, node, context);
+    setupLabel_Error_4832_0(editorCell, node, context);
     return editorCell;
   }
 
 
-  private static void setupBasic_Error_11677945926941167794592694(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Error_1167794592694");
+  private static void setupBasic_Error_4832_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Error_4832_0");
   }
 
-  private static void setupLabel_Error_1167794592694_1167794592694(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Error_4832_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

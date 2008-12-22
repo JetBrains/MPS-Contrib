@@ -24,40 +24,40 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection1172324222769(context, node);
+    return this.createCollection_0370_0(context, node);
   }
 
-  public EditorCell createCollection1172324222769(EditorContext context, SNode node) {
+  public EditorCell createCollection_0370_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_11723242227691172324222769(editorCell, node, context);
+    setupBasic_Collection_0370_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createRefNode1172324229115(context, node));
-    editorCell.addEditorCell(this.createConceptProperty1172326498985(context, node));
-    editorCell.addEditorCell(this.createRefCell1172324326201(context, node));
+    editorCell.addEditorCell(this.createRefNode_0370_1(context, node));
+    editorCell.addEditorCell(this.createConceptProperty_0370_1(context, node));
+    editorCell.addEditorCell(this.createRefCell_0370_1(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefNode1172324229115_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createRefNode_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_refNode_datetime1172324229115(editorCell, node, context);
+    setupBasic_RefNode_0370_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_refNode_datetime_1172324229115((EditorCell_Label)editorCell, node, context);
+      setupLabel_RefNode_0370_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefNode1172324229115(EditorContext context, SNode node) {
+  public EditorCell createRefNode_0370_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createRefNode1172324229115_internal(context, node, provider);
+    EditorCell cellWithRole = this.createRefNode_0370_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -68,25 +68,25 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefCell1172324326201_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createRefCell_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(new RoundDateTimeOperation_Editor._Inline0370_0());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_refCell_precision1172324326201(editorCell, node, context);
+    setupBasic_RefCell_0370_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_refCell_precision_1172324326201((EditorCell_Label)editorCell, node, context);
+      setupLabel_RefCell_0370_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefCell1172324326201(EditorContext context, SNode node) {
+  public EditorCell createRefCell_0370_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("precision");
     provider.setNoTargetText("<no precision>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createRefCell1172324326201_internal(context, node, provider);
+    EditorCell cellWithRole = this.createRefCell_0370_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -97,25 +97,25 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createConceptProperty1172326498985_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+  public EditorCell createConceptProperty_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
     CellProviderWithRole provider = aProvider;
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_conceptProperty_alias1172326498985(editorCell, node, context);
+    setupBasic_ConceptProperty_0370_0(editorCell, node, context);
     if (editorCell instanceof EditorCell_Label) {
-      setupLabel_conceptProperty_alias_1172326498985((EditorCell_Label)editorCell, node, context);
+      setupLabel_ConceptProperty_0370_0((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createConceptProperty1172326498985(EditorContext context, SNode node) {
+  public EditorCell createConceptProperty_0370_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(false);
-    EditorCell cellWithRole = this.createConceptProperty1172326498985_internal(context, node, provider);
+    EditorCell cellWithRole = this.createConceptProperty_0370_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -127,19 +127,18 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
   }
 
 
-  private static void setupBasic_Collection_11723242227691172324222769(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1172324222769");
+  private static void setupBasic_Collection_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_0370_0");
   }
 
-  private static void setupBasic_refNode_datetime1172324229115(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_RefNode_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupBasic_refCell_precision1172324326201(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refCell_precision");
+  private static void setupBasic_RefCell_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
     UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
   }
 
-  private static void setupBasic_conceptProperty_alias1172326498985(EditorCell editorCell, SNode node, EditorContext context) {
+  private static void setupBasic_ConceptProperty_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("conceptProperty_alias");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     {
@@ -155,13 +154,13 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
     UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
   }
 
-  private static void setupLabel_refNode_datetime_1172324229115(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNode_0370_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_refCell_precision_1172324326201(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefCell_0370_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_conceptProperty_alias_1172326498985(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_ConceptProperty_0370_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline0370_0 extends AbstractCellProvider {
@@ -175,28 +174,28 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createProperty1172324331032(context, node);
+      return this.createProperty_0370_1(context, node);
     }
 
-    public EditorCell createProperty1172324331032_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
+    public EditorCell createProperty_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
       CellProviderWithRole provider = aProvider;
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_property_name1172324331032(editorCell, node, context);
+      setupBasic_Property_0370_0(editorCell, node, context);
       if (editorCell instanceof EditorCell_Label) {
-        setupLabel_property_name_1172324331032((EditorCell_Label)editorCell, node, context);
+        setupLabel_Property_0370_0((EditorCell_Label)editorCell, node, context);
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
 
-    public EditorCell createProperty1172324331032(EditorContext context, SNode node) {
+    public EditorCell createProperty_0370_1(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       provider.setAllowsEmptyTarget(false);
-      EditorCell cellWithRole = this.createProperty1172324331032_internal(context, node, provider);
+      EditorCell cellWithRole = this.createProperty_0370_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
       if (attributeConcept != null) {
@@ -208,12 +207,12 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
     }
 
 
-    private static void setupBasic_property_name1172324331032(EditorCell editorCell, SNode node, EditorContext context) {
+    private static void setupBasic_Property_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 
-    private static void setupLabel_property_name_1172324331032(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_Property_0370_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }
