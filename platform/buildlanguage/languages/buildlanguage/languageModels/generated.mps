@@ -1851,7 +1851,7 @@
       <property name="name" value="target" />
       <node role="required_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185859" />
       <node role="deprecated_old" type="jetbrains.mps.buildlanguage.structure.BooleanLiteral" id="1199644185860" />
-      <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1229269027613" />
+      <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.CallReferenceType" id="1230225506021" />
     </node>
     <node role="fakeDeclaration" type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1201800720773">
       <property name="name" value="param" />

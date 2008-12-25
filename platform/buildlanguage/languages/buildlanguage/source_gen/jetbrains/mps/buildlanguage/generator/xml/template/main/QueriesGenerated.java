@@ -231,13 +231,16 @@ public class QueriesGenerated {
     for(SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false))) {
       SetSequence.fromSet(existing).addElement(SPropertyOperations.getString(SLinkOperations.getTarget(importProject, "project", false), "name"));
     }
-    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false)).where(new IWhereFilter <SNode>() {
+    Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false)).where(new IWhereFilter <SNode>() {
 
       public boolean accept(SNode it) {
-        return !(SetSequence.fromSet(existing).contains(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it)));
+        boolean b = !(SetSequence.fromSet(existing).contains(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it)));
+        SetSequence.fromSet(existing).addElement(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it));
+        return b;
       }
 
-    }).distinct();
+    });
+    return projects;
   }
 
 }

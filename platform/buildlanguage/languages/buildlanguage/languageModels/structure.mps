@@ -731,6 +731,10 @@
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1230222456433">
       <link role="intfc" targetNodeId="1230220832119" resolveInfo="ITargetReference" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1230225881769">
+      <property name="name" value="fullName" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1201702638416">
     <property name="name" value="ImportProject" />
