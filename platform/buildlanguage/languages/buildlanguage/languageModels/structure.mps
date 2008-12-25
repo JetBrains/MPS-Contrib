@@ -807,5 +807,9 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="1230220832119">
+    <property name="package" value="Expressions" />
+    <property name="name" value="ITargetReference" />
+  </node>
 </model>
 
