@@ -27,6 +27,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.Comparator;
 
 public class QueriesGenerated {
 
@@ -240,7 +241,13 @@ public class QueriesGenerated {
       }
 
     });
-    return projects;
+    return Sequence.fromIterable(projects).sort(new Comparator <SNode>() {
+
+      public int compare(SNode a, SNode b) {
+        return ITargetReference_Behavior.call_getProjectFileName_1230222765831(a).compareToIgnoreCase(ITargetReference_Behavior.call_getProjectFileName_1230222765831(b));
+      }
+
+    }, true);
   }
 
 }

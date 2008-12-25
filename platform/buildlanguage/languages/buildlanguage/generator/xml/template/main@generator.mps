@@ -916,8 +916,50 @@
                 </node>
               </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1230223328765">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1230231512344">
-                  <link role="variableDeclaration" targetNodeId="1230231512321" resolveInfo="projects" />
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1230232412306">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1230232412307">
+                    <link role="variableDeclaration" targetNodeId="1230231512321" resolveInfo="projects" />
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.ComparatorSortOperation" id="1230232412308">
+                    <node role="closure" type="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" id="1230232412309">
+                      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1230232412310">
+                        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1230232412311">
+                          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1230232412312">
+                            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1230232412313">
+                              <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1230232412314">
+                                <link role="variableDeclaration" targetNodeId="1230232412320" resolveInfo="a" />
+                              </node>
+                              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1230232412315">
+                                <link role="baseMethodDeclaration" targetNodeId="18.1230222765831" resolveInfo="getProjectFileName" />
+                              </node>
+                            </node>
+                            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1230232412316">
+                              <link role="baseMethodDeclaration" targetNodeId="7.~String.compareToIgnoreCase(java.lang.String):int" resolveInfo="compareToIgnoreCase" />
+                              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1230232412317">
+                                <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1230232412318">
+                                  <link role="variableDeclaration" targetNodeId="1230232412322" resolveInfo="b" />
+                                </node>
+                                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1230232412319">
+                                  <link role="baseMethodDeclaration" targetNodeId="18.1230222765831" resolveInfo="getProjectFileName" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="parameter" type="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" id="1230232412320">
+                        <property name="name" value="a" />
+                        <node role="type" type="jetbrains.mps.baseLanguage.structure.WildCardType" id="1230232412321" />
+                      </node>
+                      <node role="parameter" type="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" id="1230232412322">
+                        <property name="name" value="b" />
+                        <node role="type" type="jetbrains.mps.baseLanguage.structure.WildCardType" id="1230232412323" />
+                      </node>
+                    </node>
+                    <node role="ascending" type="jetbrains.mps.baseLanguage.collections.structure.SortDirection" id="1230232521031">
+                      <property name="value" value="true" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
