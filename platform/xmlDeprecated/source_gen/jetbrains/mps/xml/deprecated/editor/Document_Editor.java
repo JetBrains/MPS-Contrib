@@ -182,7 +182,6 @@ public class Document_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_RefNode_8673_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNode_rootElement");
   }
 
   private static void setupLabel_Constant_8673_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

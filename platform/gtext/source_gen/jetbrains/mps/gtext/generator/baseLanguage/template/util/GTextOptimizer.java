@@ -4,10 +4,10 @@ package jetbrains.mps.gtext.generator.baseLanguage.template.util;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GTextOptimizer {
@@ -31,7 +31,7 @@ public class GTextOptimizer {
   public static int optimizeItems(SNode item) {
     // inline item lists
     SNode n = item;
-    for(SNode child : (List<SNode>)n.getChildren("item")) {
+    for(SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
       SNode optChild = optimize(child);
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GItemList")) {
         inlineChildren(optChild, optChild);
@@ -60,7 +60,7 @@ public class GTextOptimizer {
     }
     // concat text
     SNode t = null;
-    for(SNode child : (List<SNode>)n.getChildren("item")) {
+    for(SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
       if (SNodeOperations.isInstanceOf(child, "jetbrains.mps.gtext.structure.GText")) {
         if (t == null) {
           t = child;

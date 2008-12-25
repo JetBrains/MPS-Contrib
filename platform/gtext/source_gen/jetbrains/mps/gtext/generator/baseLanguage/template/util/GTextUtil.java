@@ -5,13 +5,14 @@ package jetbrains.mps.gtext.generator.baseLanguage.template.util;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class GTextUtil {
 
   public static void optimize(SModel model) {
     SModelOperations.getRoots(model, null);
-    for(SNode r : SModelOperations.getRoots(model, null)) {
+    for(SNode r : ListSequence.fromList(SModelOperations.getRoots(model, null))) {
       visit(r);
     }
   }
@@ -20,7 +21,7 @@ public class GTextUtil {
     if (SNodeOperations.isInstanceOf(n, "jetbrains.mps.gtext.structure.GItem")) {
       GTextOptimizer.optimize(n, false);
     }
-    for(SNode c : SNodeOperations.getChildren(n)) {
+    for(SNode c : ListSequence.fromList(SNodeOperations.getChildren(n))) {
       visit(c);
     }
   }
