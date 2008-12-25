@@ -728,6 +728,9 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1196851099544" resolveInfo="TargetDeclaration" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1230222456433">
+      <link role="intfc" targetNodeId="1230220832119" resolveInfo="ITargetReference" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1201702638416">
     <property name="name" value="ImportProject" />

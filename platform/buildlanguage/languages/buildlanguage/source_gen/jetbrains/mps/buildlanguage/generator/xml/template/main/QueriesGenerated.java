@@ -11,6 +11,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
 import jetbrains.mps.buildlanguage.behavior.Project_Behavior;
 import jetbrains.mps.build.property.behavior.PropertyNode_Behavior;
+import jetbrains.mps.buildlanguage.behavior.ITargetReference_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.smodel.SNode;
@@ -24,6 +25,8 @@ import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
+import java.util.Set;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class QueriesGenerated {
 
@@ -100,6 +103,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1229186668950(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "unless");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1230222683911(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return "${ant.file}/../" + ITargetReference_Behavior.call_getProjectFileName_1230222765831(_context.getNode());
   }
 
   public static boolean ifMacro_Condition_1200145212723(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -217,6 +224,20 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1221832362895(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "importProject", true);
+  }
+
+  public static Iterable sourceNodesQuery_1230222691427(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    final Set<String> existing = SetSequence.<String>fromArray();
+    for(SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false))) {
+      SetSequence.fromSet(existing).addElement(SPropertyOperations.getString(SLinkOperations.getTarget(importProject, "project", false), "name"));
+    }
+    return ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false)).where(new IWhereFilter <SNode>() {
+
+      public boolean accept(SNode it) {
+        return !(SetSequence.fromSet(existing).contains(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it)));
+      }
+
+    }).distinct();
   }
 
 }
