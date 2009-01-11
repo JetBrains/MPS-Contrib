@@ -51,12 +51,12 @@
     </generator>
   </generators>
   <classPath>
-    <entry path="${mps_home}/platform/buildlanguage/classes" />
-    <entry path="${mps_home}/lib/ant-1.7.0/lib/ant.jar" />
-    <entry path="${mps_home}/lib/asm/asm.jar" />
+    <entry path="${language_descriptor}/classes" include="false" />
+    <entry path="${mps_home}/lib/ant-1.7.0/lib/ant.jar" include="false" />
+    <entry path="${mps_home}/lib/asm/asm.jar" include="false" />
   </classPath>
   <languageRuntimeClassPath>
-    <entry path="${mps_home}/platform/buildlanguage/classes" />
+    <entry path="${language_descriptor}/classes" />
   </languageRuntimeClassPath>
   <sourcePath>
     <source path="${mps_home}/platform/buildlanguage/source" />

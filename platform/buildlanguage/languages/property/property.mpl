@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.build.property" uuid="dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc" generatorOutputPath="${language_descriptor}\source_gen" java-stubs-enabled="false" compileInMPS="false">
+<language namespace="jetbrains.mps.build.property" uuid="dd61a7d7-8e1b-45a1-9aa3-8585ec2b60fc" generatorOutputPath="${language_descriptor}/source_gen" java-stubs-enabled="false" compileInMPS="false">
   <models>
-    <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.build.property" />
-    <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.build.property" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.build.property" />
+    <modelRoot path="${language_descriptor}/languageAccessories" namespacePrefix="jetbrains.mps.build.property" />
   </models>
   <accessoryModels />
   <generators>
     <generator name="text" generatorUID="jetbrains.mps.build.property#1224602648191" uuid="5dbba245-9e3e-4c09-8359-021a77a5d610">
       <models>
-        <modelRoot path="${language_descriptor}\generator\template" namespacePrefix="jetbrains.mps.build.property.generator.template" />
+        <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="jetbrains.mps.build.property.generator.template" />
       </models>
       <external-templates>
         <generator generatorUID="bfcadeff-430f-4472-9641-06156a02be37(jetbrains.mps.gtext#1164413905312)" />
@@ -35,11 +35,11 @@
     </generator>
   </generators>
   <classPath>
-    <entry path="${mps_home}\platform\buildlanguage\classes" />
+    <entry path="${language_descriptor}/classes" include="false" />
   </classPath>
   <languageRuntimeClassPath />
   <sourcePath>
-    <source path="${mps_home}\platform\buildlanguage\source" />
+    <source path="${mps_home}/platform/buildlanguage/source" />
   </sourcePath>
   <dependencies>
     <dependency reexport="false">37a3367b-1fb2-44d8-aa6b-18075e74e003(MPS.Classpath)</dependency>
