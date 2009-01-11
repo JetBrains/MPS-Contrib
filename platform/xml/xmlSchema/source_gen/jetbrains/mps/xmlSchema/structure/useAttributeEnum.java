@@ -13,7 +13,7 @@ public enum useAttributeEnum {
   private String myName;
   private String myValue;
 
-useAttributeEnum(String name, String value) {
+  useAttributeEnum(String name, String value) {
     this.myName = name;
     this.myValue = value;
   }
