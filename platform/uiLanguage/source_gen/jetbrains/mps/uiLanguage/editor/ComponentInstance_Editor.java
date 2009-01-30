@@ -302,7 +302,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Property_1354_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_name");
+    editorCell.setCellId("property_name_1");
     Stylesheet_StyleSheet.getComponentInstanceName(editorCell).apply(editorCell);
   }
 
@@ -324,7 +324,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Property_1354_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_name");
+    editorCell.setCellId("property_name_2");
     Stylesheet_StyleSheet.getComponentInstanceName(editorCell).apply(editorCell);
   }
 

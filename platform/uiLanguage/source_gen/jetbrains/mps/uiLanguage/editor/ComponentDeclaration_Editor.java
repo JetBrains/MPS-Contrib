@@ -819,7 +819,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Property_2913_2(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+      editorCell.setCellId("property_name_1");
     }
 
     private static void setupLabel_Property_2913_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -871,7 +871,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Property_2913_3(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+      editorCell.setCellId("property_name_2");
     }
 
     private static void setupLabel_Property_2913_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
