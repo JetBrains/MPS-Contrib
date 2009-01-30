@@ -34,7 +34,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_1453_0(editorCell, node, context);
     editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
+    editorCell.setUsesBraces(true);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConceptProperty_1453_1(context, node));
     editorCell.addEditorCell(this.createRefNode_1453_1(context, node));

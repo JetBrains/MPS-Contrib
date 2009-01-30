@@ -66,6 +66,7 @@
       </node>
       <node role="ifFalseCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1184872998713">
         <property name="vertical" value="false" />
+        <property name="usesBraces" value="true" />
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1184872998714">
           <property name="text" value="*" />
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="1214399677963">
@@ -78,6 +79,7 @@
       </node>
       <node role="ifTrueCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1184873031702">
         <property name="vertical" value="true" />
+        <property name="usesBraces" value="true" />
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1184873034765">
           <property name="text" value="*" />
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="1214399678127">
@@ -303,6 +305,7 @@
     <link role="conceptDeclaration" targetNodeId="1.1188509198390" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1188509463018">
       <property name="vertical" value="false" />
+      <property name="usesBraces" value="true" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="1211918093416">
         <link role="relationDeclaration" targetNodeId="28.1137473891462" resolveInfo="alias" />
       </node>
