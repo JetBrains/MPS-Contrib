@@ -496,7 +496,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Property_9366_1(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+      editorCell.setCellId("property_name_1");
       {
         Style inlineStyle = new Style(editorCell) {
           {
@@ -558,7 +558,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Property_9366_2(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+      editorCell.setCellId("property_name_2");
     }
 
     private static void setupLabel_Property_9366_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -610,7 +610,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Property_9366_3(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+      editorCell.setCellId("property_name_3");
     }
 
     private static void setupLabel_Property_9366_3(EditorCell_Label editorCell, SNode node, EditorContext context) {

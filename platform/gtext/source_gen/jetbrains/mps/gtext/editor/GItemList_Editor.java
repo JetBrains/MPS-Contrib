@@ -199,7 +199,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_RefNodeList_9588_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_item");
+    editorCell.setCellId("refNodeList_item_1");
   }
 
   private static void setupLabel_Constant_9588_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

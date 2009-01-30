@@ -234,7 +234,7 @@ public class Comment_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_RefNodeList_3245_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_text");
+    editorCell.setCellId("refNodeList_text_1");
   }
 
   private static void setupBasic_Constant_3245_5(EditorCell editorCell, SNode node, EditorContext context) {

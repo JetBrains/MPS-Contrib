@@ -463,7 +463,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Property_6516_1(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+      editorCell.setCellId("property_name_1");
     }
 
     private static void setupLabel_Property_6516_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -515,7 +515,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
 
 
     private static void setupBasic_Property_6516_3(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
+      editorCell.setCellId("property_name_2");
     }
 
     private static void setupLabel_Property_6516_3(EditorCell_Label editorCell, SNode node, EditorContext context) {

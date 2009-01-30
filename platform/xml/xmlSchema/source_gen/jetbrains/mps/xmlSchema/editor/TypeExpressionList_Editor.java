@@ -21,8 +21,8 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandlerElementKeyMap;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.style.Style;
 
 public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
@@ -82,7 +82,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_RefNodeList_3028_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_typeExpression");
+    editorCell.setCellId("refNodeList_typeExpression_1");
   }
 
   private static void setupLabel_RefNodeList_3028_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -142,6 +142,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       {
         EditorCell_Constant editorCell = new EditorCell_Constant(context, this.getOwner(), ",");
         editorCell.setSelectable(false);
+        editorCell.getStyle().set(StyleAttributes.LAYOUT_CONSTRAINT, "");
         return editorCell;
       }
     }

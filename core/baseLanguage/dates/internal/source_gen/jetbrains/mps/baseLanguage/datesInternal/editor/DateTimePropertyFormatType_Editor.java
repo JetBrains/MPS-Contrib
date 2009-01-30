@@ -221,7 +221,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Property_7531_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_meaning");
+    editorCell.setCellId("property_meaning_1");
   }
 
   private static void setupBasic_Constant_7531_3(EditorCell editorCell, SNode node, EditorContext context) {

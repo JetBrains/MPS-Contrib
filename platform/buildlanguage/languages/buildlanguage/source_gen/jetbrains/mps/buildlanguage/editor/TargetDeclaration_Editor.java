@@ -773,7 +773,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Property_4669_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_if");
+    editorCell.setCellId("property_if_1");
   }
 
   private static void setupBasic_Collection_4669_10(EditorCell editorCell, SNode node, EditorContext context) {
@@ -795,7 +795,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Property_4669_5(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_unless");
+    editorCell.setCellId("property_unless_1");
   }
 
   private static void setupBasic_Constant_4669_11(EditorCell editorCell, SNode node, EditorContext context) {
