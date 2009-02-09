@@ -188,7 +188,7 @@ public class QueriesGenerated {
           }
 
           public String getDescriptionText(String pattern) {
-            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "short_description");
+            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
           }
 
           public String getMatchingText(String pattern) {
