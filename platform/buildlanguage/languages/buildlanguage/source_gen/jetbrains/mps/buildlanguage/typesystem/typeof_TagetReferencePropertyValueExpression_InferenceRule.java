@@ -23,7 +23,7 @@ public class typeof_TagetReferencePropertyValueExpression_InferenceRule extends 
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.buildlanguage.structure.TagetReferencePropertyValueExpression";
+    return "jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression";
   }
 
   public boolean isApplicable(SNode argument) {

@@ -144,7 +144,7 @@ public class QueriesGenerated {
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_1201708832142(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
     {
-      SNode conceptToAdd = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.TagetReferencePropertyValueExpression");
+      SNode conceptToAdd = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.TargetReferencePropertyValueExpression");
       List<INodeSubstituteAction> defaultActions = ChildSubstituteActionsHelper.createDefaultActions(conceptToAdd, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext);
       result.addAll(defaultActions);
     }
