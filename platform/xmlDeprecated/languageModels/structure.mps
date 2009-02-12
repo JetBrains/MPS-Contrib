@@ -30,6 +30,7 @@
     </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
+  <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="1" />
@@ -120,11 +121,51 @@
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1175152577210">
       <link role="intfc" targetNodeId="2.1169194658468" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1234365333275">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="doctype" />
+      <link role="target" targetNodeId="1234365312778" resolveInfo="DocumentTypeDeclaration" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1119976595358">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="rootElement" />
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1107866778860" resolveInfo="Element" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1234365312778">
+    <property name="name" value="DocumentTypeDeclaration" />
+    <link role="extends" targetNodeId="2.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1234365657839">
+      <link role="intfc" targetNodeId="2.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1234366449577">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="externalID" />
+      <link role="target" targetNodeId="1234366341260" resolveInfo="ExternalId" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1234366341260">
+    <property name="name" value="ExternalId" />
+    <link role="extends" targetNodeId="2.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1234366357344">
+      <link role="conceptPropertyDeclaration" targetNodeId="2.1137473854053" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1234366368307">
+    <property name="name" value="PublicId" />
+    <link role="extends" targetNodeId="1234366341260" resolveInfo="ExternalId" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1234366432701">
+      <property name="name" value="publicID" />
+      <link role="dataType" targetNodeId="2.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1234366432703">
+      <property name="name" value="systemID" />
+      <link role="dataType" targetNodeId="2.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1234366440409">
+      <property name="value" value="public id" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>
