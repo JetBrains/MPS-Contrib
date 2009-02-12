@@ -11,10 +11,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.MPSColors;
 
 public class Text_Editor extends DefaultNodeEditor {
 
@@ -54,16 +50,7 @@ public class Text_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Property_0753_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_text");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getText(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_Property_0753_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

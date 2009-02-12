@@ -13,10 +13,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.MPSColors;
 
 public class PublicId_Editor extends DefaultNodeEditor {
 
@@ -154,86 +150,32 @@ public class PublicId_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_7240_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7240_0");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Property_7240_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_publicID");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Property_7240_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_systemID");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_7240_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7240_1");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_7240_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7240_2");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_7240_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7240_3");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_7240_4(EditorCell editorCell, SNode node, EditorContext context) {
@@ -242,16 +184,7 @@ public class PublicId_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_7240_5(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7240_5");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_Constant_7240_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -16,8 +16,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.MPSColors;
 
 public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
 
@@ -155,30 +153,12 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_6391_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_6391_1");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Property_6391_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_name");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_RefNode_6391_0(EditorCell editorCell, SNode node, EditorContext context) {

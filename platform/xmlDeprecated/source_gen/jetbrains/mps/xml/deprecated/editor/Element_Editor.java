@@ -20,7 +20,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -266,16 +265,7 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Property_3264_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_name");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
     if (true) {
       editorCell.setFocusPolicy(FocusPolicy.ATTRACTS_FOCUS);
     }
@@ -300,16 +290,7 @@ public class Element_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Property_3264_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_name_1");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
+    XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_3264_2(EditorCell editorCell, SNode node, EditorContext context) {
