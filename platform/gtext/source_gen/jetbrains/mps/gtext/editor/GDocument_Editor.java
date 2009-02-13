@@ -176,6 +176,16 @@ public class GDocument_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9526_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9526_0");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
+          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Property_9526_1(EditorCell editorCell, SNode node, EditorContext context) {
