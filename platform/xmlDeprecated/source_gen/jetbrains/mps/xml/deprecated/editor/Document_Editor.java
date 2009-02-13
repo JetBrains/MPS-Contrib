@@ -239,6 +239,16 @@ public class Document_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_8673_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_8673_2");
     XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
+          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Property_8673_1(EditorCell editorCell, SNode node, EditorContext context) {
