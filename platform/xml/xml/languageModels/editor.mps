@@ -312,7 +312,9 @@
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1167707781255">
             <property name="text" value="&gt;" />
             <link role="styleClass" targetNodeId="1216813302258" resolveInfo="XmlCloseParen" />
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.LastPositionAllowedStyleClassItem" id="1216816411951" />
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="1234971592854">
+              <property name="flag" value="true" />
+            </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1167707781256">
             <property name="attractsFocus" value="1" />
@@ -321,7 +323,9 @@
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1167707781257">
             <property name="text" value="&lt;/" />
             <link role="styleClass" targetNodeId="1216813275980" resolveInfo="XmlOpenParen" />
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FirstPositionAllowedStyleClassItem" id="1216816418936" />
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="1234971705845">
+              <property name="flag" value="true" />
+            </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1179101337368">
             <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
