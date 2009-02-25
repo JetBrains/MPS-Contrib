@@ -86,7 +86,6 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_3264_0(context, node, "<"));
     editorCell.addEditorCell(this.createComponent_3264_6(context, node));
-    editorCell.addEditorCell(this.createConstant_3264_12(context, node, ""));
     editorCell.addEditorCell(this.createComponent_3264_2(context, node));
     editorCell.addEditorCell(this.createConstant_3264_1(context, node, ">"));
     return editorCell;
@@ -123,7 +122,6 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_3264_4(context, node, "<"));
     editorCell.addEditorCell(this.createComponent_3264_4(context, node));
-    editorCell.addEditorCell(this.createConstant_3264_11(context, node, ""));
     editorCell.addEditorCell(this.createComponent_3264_1(context, node));
     editorCell.addEditorCell(this.createConstant_3264_5(context, node, ">"));
     editorCell.addEditorCell(this.createRefNode_3264_3(context, node));
@@ -141,7 +139,6 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_3264_8(context, node, "<"));
     editorCell.addEditorCell(this.createComponent_3264_3(context, node));
-    editorCell.addEditorCell(this.createConstant_3264_10(context, node, ""));
     editorCell.addEditorCell(this.createComponent_3264_0(context, node));
     editorCell.addEditorCell(this.createConstant_3264_9(context, node, "/>"));
     return editorCell;
@@ -299,30 +296,6 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3264_10(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_3264_10(editorCell, node, context);
-    setupLabel_Constant_3264_10(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_3264_11(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_3264_11(editorCell, node, context);
-    setupLabel_Constant_3264_11(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_3264_12(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_3264_12(editorCell, node, context);
-    setupLabel_Constant_3264_12(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   public EditorCell createIndentCell3264_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
@@ -474,7 +447,7 @@ public class Element_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
+          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
         }
 
       };
@@ -549,45 +522,6 @@ public class Element_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Indent_3264_0");
   }
 
-  private static void setupBasic_Constant_3264_10(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_3264_10");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
-  private static void setupBasic_Constant_3264_11(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_3264_11");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
-  private static void setupBasic_Constant_3264_12(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_3264_12");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
   private static void setupLabel_Constant_3264_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
@@ -622,15 +556,6 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_3264_9(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_3264_10(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_3264_11(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_3264_12(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static boolean renderingCondition3264_0(SNode node, EditorContext editorContext, IScope scope) {

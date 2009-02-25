@@ -261,9 +261,6 @@
             <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1179101350941">
               <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
             </node>
-            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1216816211159">
-              <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1216816211160" />
-            </node>
             <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1177880060739">
               <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="BaseElement_attributeList" />
             </node>
@@ -309,16 +306,13 @@
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1179101325357">
             <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
           </node>
-          <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1216816203413">
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1216816203414" />
-          </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1177880053862">
             <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="BaseElement_attributeList" />
           </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1167707781255">
             <property name="text" value="&gt;" />
             <link role="styleClass" targetNodeId="1216813302258" resolveInfo="XmlCloseParen" />
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="1234971592854">
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="1235567522301">
               <property name="flag" value="true" />
             </node>
           </node>
@@ -349,9 +343,6 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1179101313080">
           <link role="editorComponent" targetNodeId="1179101140188" resolveInfo="Element_elementDeclaration" />
-        </node>
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1216816171514">
-          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1216816182082" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1177880043960">
           <link role="editorComponent" targetNodeId="1177879858526" resolveInfo="BaseElement_attributeList" />
@@ -670,11 +661,17 @@
       <node role="extendedClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClassReference" id="1216813300992">
         <link role="styleSheetClass" targetNodeId="42.1215087929380" resolveInfo="LeftParen" />
       </node>
+      <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="1235567552336">
+        <property name="flag" value="true" />
+      </node>
     </node>
     <node role="styleClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClass" id="1216813302258">
       <property name="name" value="XmlCloseParen" />
       <node role="extendedClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClassReference" id="1216813319033">
         <link role="styleSheetClass" targetNodeId="42.1215088010675" resolveInfo="RightParen" />
+      </node>
+      <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="1235567543390">
+        <property name="flag" value="true" />
       </node>
     </node>
     <node role="styleClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClass" id="1216823047834">

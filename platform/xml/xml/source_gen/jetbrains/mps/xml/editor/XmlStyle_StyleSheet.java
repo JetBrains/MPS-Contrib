@@ -164,6 +164,7 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getLeftParen(null));
+        this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
       }
 
     };
@@ -173,6 +174,7 @@ public class XmlStyle_StyleSheet {
     return new Style(cell) {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getRightParen(null));
+        this.set(StyleAttributes.PUNCTUATION_LEFT, true);
       }
 
     };
