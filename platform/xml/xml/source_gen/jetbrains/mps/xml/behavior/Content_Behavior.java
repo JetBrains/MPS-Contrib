@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Content_Behavior {
-  public static Class[] PARAMETERS_1213877224308 = {SNode.class};
+  private static Class[] PARAMETERS_1213877224308 = {SNode.class};
 
   public static void init(SNode thisNode) {
   }

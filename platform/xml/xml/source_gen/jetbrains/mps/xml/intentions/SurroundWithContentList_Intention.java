@@ -8,7 +8,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class SurroundWithContentList_Intention extends BaseIntention {
@@ -41,7 +41,7 @@ public class SurroundWithContentList_Intention extends BaseIntention {
     }
     SNode first = selectedNodes.get(0);
     SNodeOperations.insertPrevSiblingChild(first, contentList);
-    for(SNode selectedNode : Sequence.fromIterable(selectedNodes)) {
+    for(SNode selectedNode : ListSequence.fromList(selectedNodes)) {
       SLinkOperations.addChild(contentList, "content", selectedNode);
     }
     SLinkOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");

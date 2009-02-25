@@ -255,6 +255,7 @@ public class Element_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
+          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         }
 
@@ -315,6 +316,7 @@ public class Element_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
+          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         }
 

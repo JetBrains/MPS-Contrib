@@ -55,7 +55,6 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_8130_0(context, node, "<"));
     editorCell.addEditorCell(this.createRefNode_8130_3(context, node));
-    editorCell.addEditorCell(this.createConstant_8130_4(context, node, ""));
     editorCell.addEditorCell(this.createRefNodeList_8130_0(context, node));
     editorCell.addEditorCell(this.createConstant_8130_1(context, node, ">"));
     return editorCell;
@@ -102,14 +101,6 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_8130_2(editorCell, node, context);
     setupLabel_Constant_8130_2(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_8130_4(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8130_4(editorCell, node, context);
-    setupLabel_Constant_8130_4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -264,19 +255,6 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Indent_8130_0");
   }
 
-  private static void setupBasic_Constant_8130_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8130_4");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
   private static void setupLabel_Constant_8130_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
@@ -293,9 +271,6 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_RefNodeList_8130_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_8130_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class attributeListHandler_8130_0 extends RefNodeListHandler {

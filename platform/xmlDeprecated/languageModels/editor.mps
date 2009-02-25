@@ -71,6 +71,9 @@
         <property name="vertical" value="false" />
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1107867522561">
           <property name="text" value="&lt;" />
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="1235566444639">
+            <property name="flag" value="true" />
+          </node>
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="1214314934081">
             <property name="style" value="BOLD" />
           </node>
@@ -92,6 +95,9 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1107867877448">
           <property name="text" value="&gt;" />
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="1235566454009">
+            <property name="flag" value="true" />
+          </node>
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="1214314934413">
             <property name="style" value="BOLD" />
           </node>

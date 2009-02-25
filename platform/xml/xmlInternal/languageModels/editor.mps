@@ -410,10 +410,6 @@
           <link role="relationDeclaration" targetNodeId="1.1179271242032" />
           <link role="styleClass" targetNodeId="12.1216813778766" resolveInfo="XmlElement" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1216820949035">
-          <property name="text" value="" />
-          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1216820954373" />
-        </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1207749133352">
           <property name="vertical" value="false" />
           <property name="separatorText" value=" " />

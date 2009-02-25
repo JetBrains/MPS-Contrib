@@ -179,6 +179,9 @@
                 <property name="flag" value="true" />
               </node>
             </node>
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.HorizontalGapStyleClassItem" id="1235564607431">
+              <property name="value" value="0.0" />
+            </node>
           </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1166316633201">
             <property name="text" value=")" />
@@ -193,6 +196,9 @@
             <node role="styleItem" type="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" id="1214398032097">
               <property name="flag" value="true" />
             </node>
+          </node>
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.HorizontalGapStyleClassItem" id="1235564601356">
+            <property name="value" value="0.0" />
           </node>
         </node>
       </node>

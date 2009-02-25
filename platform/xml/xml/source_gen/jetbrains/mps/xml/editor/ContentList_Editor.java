@@ -290,6 +290,15 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefNodeList_8357_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_content_2");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0.0, Measure.SPACES));
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Constant_8357_6(EditorCell editorCell, SNode node, EditorContext context) {
@@ -299,6 +308,15 @@ public class ContentList_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefNodeList_8357_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_content_3");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0.0, Measure.SPACES));
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Indent_8357_0(EditorCell editorCell, SNode node, EditorContext context) {
