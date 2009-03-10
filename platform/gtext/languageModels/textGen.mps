@@ -27,6 +27,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
+  <languageAspect modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="5" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" version="0" />
@@ -46,13 +47,7 @@
             <property name="name" value="item" />
             <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1234547974268" />
           </node>
-          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234547964234">
-            <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendNodeTextOperation" id="1234547988640">
-              <node role="argument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1234547991377">
-                <link role="variableDeclaration" targetNodeId="1234547964232" resolveInfo="item" />
-              </node>
-            </node>
-          </node>
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234547964234" />
         </node>
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1234547930836">
@@ -77,11 +72,10 @@
             <node role="statement" type="jetbrains.mps.lang.textGen.structure.IndentBufferOperation" id="1234548072518" />
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.OperationCall" id="1234549726408">
-          <link role="function" targetNodeId="1234547840549" resolveInfo="appendItems" />
-          <node role="parameter" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234549729676">
-            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234549728800" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1234549731086">
+        <node role="statement" type="jetbrains.mps.lang.textGen.structure.CollectionOperation" id="1236685863295">
+          <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685866563">
+            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1236685866187" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1236685867786">
               <link role="link" targetNodeId="1.1179109231418" />
             </node>
           </node>
@@ -105,11 +99,10 @@
     <link role="baseTextGen" targetNodeId="1234547806906" resolveInfo="GTextTextGen" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234548158732">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234548158733">
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.OperationCall" id="1234549741259">
-          <link role="function" targetNodeId="1234547840549" resolveInfo="appendItems" />
-          <node role="parameter" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234549743511">
-            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234549742745" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1234549745187">
+        <node role="statement" type="jetbrains.mps.lang.textGen.structure.CollectionOperation" id="1236685906047">
+          <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685907722">
+            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1236685907393" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1236685908898">
               <link role="link" targetNodeId="1.1184639733180" />
             </node>
           </node>
@@ -123,24 +116,20 @@
     <link role="conceptDeclaration" targetNodeId="1.1164497519485" resolveInfo="GExpressionItem" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234795388635">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234795388636">
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendOperation" id="1234795558462">
-          <node role="argument" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1234795565510">
-            <link role="baseMethodDeclaration" targetNodeId="5.~String.valueOf(java.lang.Object):java.lang.String" resolveInfo="valueOf" />
-            <link role="classConcept" targetNodeId="5.~String" resolveInfo="String" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795582043">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795582044">
-                <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234795582045" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1234795582046">
-                  <link role="link" targetNodeId="1.1164497557065" />
-                </node>
+        <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendOperation" id="1236685516498">
+          <node role="arguments" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685634977">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685633472">
+              <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1236685633143" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1236685634617">
+                <link role="link" targetNodeId="1.1164497557065" />
               </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1234795582047">
-                <link role="baseMethodDeclaration" targetNodeId="4.1213877519769" resolveInfo="eval" />
-                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795582048">
-                  <node role="operand" type="jetbrains.mps.lang.textGen.structure.ContextParameter" id="1234795582049" />
-                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1234795582050">
-                    <link role="baseMethodDeclaration" targetNodeId="2v.~IOperationContext.getModule():jetbrains.mps.project.IModule" resolveInfo="getModule" />
-                  </node>
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1236685636653">
+              <link role="baseMethodDeclaration" targetNodeId="4.1213877519769" resolveInfo="eval" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685645937">
+                <node role="operand" type="jetbrains.mps.lang.textGen.structure.ContextParameter" id="1236685645342" />
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1236685663719">
+                  <link role="baseMethodDeclaration" targetNodeId="2v.~IOperationContext.getModule():jetbrains.mps.project.IModule" resolveInfo="getModule" />
                 </node>
               </node>
             </node>
@@ -161,16 +150,18 @@
     <link role="conceptDeclaration" targetNodeId="1.1164416446950" resolveInfo="GIndentBlock" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234795623591">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234795623592">
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.IncreaseDepthOperation" id="1234795633313" />
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendNodeTextOperation" id="1234795637408">
-          <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795641677">
-            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234795641036" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1234795644103">
-              <link role="link" targetNodeId="1.1166926910409" />
+        <node role="statement" type="jetbrains.mps.lang.textGen.structure.WithIndentOperation" id="1236685424659">
+          <node role="list" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1236685424660">
+            <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendOperation" id="1236181594020">
+              <node role="arguments" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795641677">
+                <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234795641036" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1234795644103">
+                  <link role="link" targetNodeId="1.1166926910409" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.DecreaseDepthOperation" id="1234795647433" />
       </node>
     </node>
   </node>
@@ -178,11 +169,10 @@
     <link role="conceptDeclaration" targetNodeId="1.1164412982980" resolveInfo="GItemList" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234795650951">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234795650952">
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.OperationCall" id="1234795661344">
-          <link role="function" targetNodeId="1234547840549" resolveInfo="appendItems" />
-          <node role="parameter" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795665331">
-            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234795664908" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1234795668600">
+        <node role="statement" type="jetbrains.mps.lang.textGen.structure.CollectionOperation" id="1236685690362">
+          <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685691896">
+            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1236685691520" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1236685693291">
               <link role="link" targetNodeId="1.1164413016466" />
             </node>
           </node>
@@ -195,11 +185,10 @@
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234795672227">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234795672228">
         <node role="statement" type="jetbrains.mps.lang.textGen.structure.IndentBufferOperation" id="1234795680152" />
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.OperationCall" id="1234795682716">
-          <link role="function" targetNodeId="1234547840549" resolveInfo="appendItems" />
-          <node role="parameter" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795687421">
-            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234795686905" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1234795689410">
+        <node role="statement" type="jetbrains.mps.lang.textGen.structure.CollectionOperation" id="1236685703965">
+          <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685705812">
+            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1236685705404" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1236685707347">
               <link role="link" targetNodeId="1.1166928665191" />
             </node>
           </node>
@@ -250,18 +239,18 @@
                 </node>
               </node>
               <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234795769030">
-                <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendNodeTextOperation" id="1234795802392">
-                  <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795805270">
-                    <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234795804676" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1234795807196">
+                <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendOperation" id="1236685806187">
+                  <node role="arguments" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685807690">
+                    <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1236685807314" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1236685809631">
                       <link role="link" targetNodeId="1.1211914934108" />
                     </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendNodeTextOperation" id="1234795813824">
-              <node role="argument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1234795816248">
+            <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendOperation" id="1236685812055">
+              <node role="arguments" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1236685843371">
                 <link role="variableDeclaration" targetNodeId="1234795755081" resolveInfo="item" />
               </node>
             </node>
@@ -274,10 +263,10 @@
     <link role="conceptDeclaration" targetNodeId="1.1164412789837" resolveInfo="GText" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234795820890">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234795820891">
-        <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendOperation" id="1234795830814">
-          <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1234795833989">
-            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1234795833317" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1234795836306">
+        <node role="statement" type="jetbrains.mps.lang.textGen.structure.AppendOperation" id="1236685894522">
+          <node role="arguments" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1236685896244">
+            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1236685895884" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1236685897435">
               <link role="property" targetNodeId="1.1164413036326" resolveInfo="text" />
             </node>
           </node>

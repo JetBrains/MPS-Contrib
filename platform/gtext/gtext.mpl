@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language namespace="jetbrains.mps.gtext" uuid="a83c3bd0-2f7e-4ba1-8373-12d49e99f57e" java-stubs-enabled="true" compileInMPS="true">
   <models>
-    <modelRoot path="${language_descriptor}\languageModels" namespacePrefix="jetbrains.mps.gtext" />
-    <modelRoot path="${language_descriptor}\languageAccessories" namespacePrefix="jetbrains.mps.gtext" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.gtext" />
+    <modelRoot path="${language_descriptor}/languageAccessories" namespacePrefix="jetbrains.mps.gtext" />
   </models>
   <accessoryModels />
   <generators>
     <generator generatorUID="jetbrains.mps.gtext#1164413905312" uuid="bfcadeff-430f-4472-9641-06156a02be37">
       <models>
-        <modelRoot path="${language_descriptor}\generators\baseLanguage\templates" namespacePrefix="jetbrains.mps.gtext.generator.baseLanguage.template" />
+        <modelRoot path="${language_descriptor}/generators/baseLanguage/templates" namespacePrefix="jetbrains.mps.gtext.generator.baseLanguage.template" />
       </models>
       <external-templates />
       <usedLanguages>
@@ -18,11 +18,11 @@
     </generator>
   </generators>
   <classPath>
-    <entry path="${language_descriptor}\classes_gen" />
+    <entry path="${language_descriptor}/classes_gen" include="false" />
   </classPath>
   <languageRuntimeClassPath />
   <sourcePath>
-    <source path="${language_descriptor}\source" />
+    <source path="${language_descriptor}/source" />
   </sourcePath>
   <dependencies>
     <dependency reexport="true">34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)</dependency>
