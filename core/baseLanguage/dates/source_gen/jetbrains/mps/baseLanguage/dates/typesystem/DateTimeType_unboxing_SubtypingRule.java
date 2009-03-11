@@ -13,7 +13,7 @@ public class DateTimeType_unboxing_SubtypingRule extends SubtypingRule_Runtime i
   }
 
   public SNode getSubOrSuperType(SNode dateTimeType) {
-    return new _Quotations.QuotationClass_21().createNode();
+    return new _Quotations.QuotationClass_10().createNode();
   }
 
   public String getApplicableConceptFQName() {
