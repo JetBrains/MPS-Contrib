@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.unitTest.runtime;
 
 import java.util.List;
 import java.util.ArrayList;
+import org.apache.commons.lang.ObjectUtils;
 
 public class TestRunParameters {
 
@@ -46,9 +47,9 @@ public class TestRunParameters {
       return false;
     }
     TestRunParameters parameters = (TestRunParameters)obj;
-    boolean result = this.myTestRunner.equals(parameters.myTestRunner);
-    result = result && this.myVmParameters.equals(parameters.myVmParameters);
-    result = result && this.myClassPath.equals(parameters.myClassPath);
+    boolean result = ObjectUtils.equals(this.myTestRunner, parameters.myTestRunner);
+    result = result && ObjectUtils.equals(this.myVmParameters, parameters.myVmParameters);
+    result = result && ObjectUtils.equals(this.myClassPath, parameters.myClassPath);
     return result;
   }
 

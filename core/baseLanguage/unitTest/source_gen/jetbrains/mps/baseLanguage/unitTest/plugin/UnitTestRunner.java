@@ -7,10 +7,10 @@ import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import java.util.LinkedHashMap;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
-import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import java.util.ArrayList;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.ModelAccess;
@@ -28,15 +28,15 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   public void run(List<SNode> tests) {
-    final LinkedHashMap<TestRunParameters, ArrayList<SNode>> map = new LinkedHashMap<TestRunParameters, ArrayList<SNode>>();
+    final LinkedHashMap<TestRunParameters, List<SNode>> map = new LinkedHashMap<TestRunParameters, List<SNode>>();
     for(SNode test : ListSequence.fromList(tests)) {
       TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
       if (MapSequence.fromMap(map).containsKey(parameters)) {
         map.get(parameters).add(test);
       } else
       {
-        ArrayList<SNode> t = new ArrayList<SNode>();
-        t.add(test);
+        List<SNode> t = new ArrayList<SNode>();
+        ListSequence.fromList(t).addElement(test);
         map.put(parameters, t);
       }
     }
@@ -44,7 +44,7 @@ public class UnitTestRunner extends BaseRunner {
     Thread thread = new Thread(new Runnable() {
 
       public void run() {
-        for(Map.Entry<TestRunParameters, ArrayList<SNode>> entry : SetSequence.fromSet(map.entrySet())) {
+        for(Map.Entry<TestRunParameters, List<SNode>> entry : SetSequence.fromSet(map.entrySet())) {
           runner.runTestWithParameters(entry.getKey(), entry.getValue());
         }
       }
