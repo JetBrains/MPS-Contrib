@@ -10,7 +10,6 @@ import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
-import java.util.ArrayList;
 import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.ModelAccess;
@@ -32,10 +31,10 @@ public class UnitTestRunner extends BaseRunner {
     for(SNode test : ListSequence.fromList(tests)) {
       TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
       if (MapSequence.fromMap(map).containsKey(parameters)) {
-        map.get(parameters).add(test);
+        ListSequence.fromList(map.get(parameters)).addElement(test);
       } else
       {
-        List<SNode> t = new ArrayList<SNode>();
+        List<SNode> t = ListSequence.<SNode>fromArray();
         ListSequence.fromList(t).addElement(test);
         map.put(parameters, t);
       }
