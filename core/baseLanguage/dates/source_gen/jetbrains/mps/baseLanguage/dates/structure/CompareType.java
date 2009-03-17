@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.dates.structure;
 
 import java.util.List;
 import java.util.LinkedList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 
 public enum CompareType {
   EQUALS("==", "datetime equals"),
@@ -23,12 +24,12 @@ public enum CompareType {
 
   public static List<CompareType> getConstants() {
     List<CompareType> list = new LinkedList<CompareType>();
-    list.add(CompareType.EQUALS);
-    list.add(CompareType.NOT_EQUALS);
-    list.add(CompareType.GREATER);
-    list.add(CompareType.GREATER_OR_EQUALS);
-    list.add(CompareType.LESS);
-    list.add(CompareType.LESS_OR_EQUALS);
+    ListOperations.addElement(list, CompareType.EQUALS);
+    ListOperations.addElement(list, CompareType.NOT_EQUALS);
+    ListOperations.addElement(list, CompareType.GREATER);
+    ListOperations.addElement(list, CompareType.GREATER_OR_EQUALS);
+    ListOperations.addElement(list, CompareType.LESS);
+    ListOperations.addElement(list, CompareType.LESS_OR_EQUALS);
     return list;
   }
 

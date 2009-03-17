@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.dates.structure;
 
 import java.util.List;
 import java.util.LinkedList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 
 public enum DateFormatVisibility {
   PUBLIC("public", "public"),
@@ -19,8 +20,8 @@ public enum DateFormatVisibility {
 
   public static List<DateFormatVisibility> getConstants() {
     List<DateFormatVisibility> list = new LinkedList<DateFormatVisibility>();
-    list.add(DateFormatVisibility.PUBLIC);
-    list.add(DateFormatVisibility.PRIVATE);
+    ListOperations.addElement(list, DateFormatVisibility.PUBLIC);
+    ListOperations.addElement(list, DateFormatVisibility.PRIVATE);
     return list;
   }
 

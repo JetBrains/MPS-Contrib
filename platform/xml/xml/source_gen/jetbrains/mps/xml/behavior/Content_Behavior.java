@@ -5,7 +5,7 @@ package jetbrains.mps.xml.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.List;
-import java.util.ArrayList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class Content_Behavior {
@@ -29,7 +29,7 @@ public class Content_Behavior {
   }
 
   public static List<SNode> virtual_getSubcontents_1213877224308(SNode thisNode) {
-    return new ArrayList<SNode>();
+    return ListOperations.<SNode>createList();
   }
 
   public static List<SNode> call_getSubcontents_1213877224308(SNode thisNode) {

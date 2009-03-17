@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.dates.structure;
 
 import java.util.List;
 import java.util.LinkedList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 
 public enum DayOfWeek {
   Sunday("Sunday", "SUN"),
@@ -24,13 +25,13 @@ public enum DayOfWeek {
 
   public static List<DayOfWeek> getConstants() {
     List<DayOfWeek> list = new LinkedList<DayOfWeek>();
-    list.add(DayOfWeek.Sunday);
-    list.add(DayOfWeek.Monday);
-    list.add(DayOfWeek.Tuesday);
-    list.add(DayOfWeek.Thursday);
-    list.add(DayOfWeek.Wednesday);
-    list.add(DayOfWeek.Friday);
-    list.add(DayOfWeek.Saturday);
+    ListOperations.addElement(list, DayOfWeek.Sunday);
+    ListOperations.addElement(list, DayOfWeek.Monday);
+    ListOperations.addElement(list, DayOfWeek.Tuesday);
+    ListOperations.addElement(list, DayOfWeek.Thursday);
+    ListOperations.addElement(list, DayOfWeek.Wednesday);
+    ListOperations.addElement(list, DayOfWeek.Friday);
+    ListOperations.addElement(list, DayOfWeek.Saturday);
     return list;
   }
 

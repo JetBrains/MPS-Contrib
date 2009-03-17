@@ -14,6 +14,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.util.Calculable;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
@@ -56,7 +57,7 @@ public class QueriesGenerated {
         Calculable calc = new Calculable() {
 
           public Object calculate() {
-            List<SNode> attributeDeclarations = new ArrayList<SNode>();
+            List<SNode> attributeDeclarations = ListOperations.<SNode>createList();
             SNode parentlementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
             if ((parentlementDeclaration != null)) {
               ListSequence.fromList(attributeDeclarations).addSequence(ListSequence.fromList(ElementDeclaration_Behavior.call_getAttributeDeclarations_1213877429821(parentlementDeclaration)));

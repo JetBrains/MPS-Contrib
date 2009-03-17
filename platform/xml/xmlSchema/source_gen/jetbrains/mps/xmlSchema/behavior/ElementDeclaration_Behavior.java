@@ -4,7 +4,7 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
-import java.util.ArrayList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import java.util.Set;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -22,7 +22,7 @@ public class ElementDeclaration_Behavior {
   }
 
   public static List<SNode> call_getAttributeDeclarations_1213877429821(SNode thisNode) {
-    List<SNode> attributeDeclarations = new ArrayList<SNode>();
+    List<SNode> attributeDeclarations = ListOperations.<SNode>createList();
     TypeExpression_Behavior.call_checkAttributes_1213877382373(thisNode, attributeDeclarations);
     return attributeDeclarations;
   }

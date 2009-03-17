@@ -14,7 +14,7 @@ import java.util.HashSet;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
-import java.util.ArrayList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class ElementUtil {
@@ -79,7 +79,7 @@ public class ElementUtil {
     {
       ElementDeclaration_Behavior.call_checkElements_ed_1213877429846(elementDeclaration, elementDeclarationSet);
     }
-    List<SNode> elementDeclarations = new ArrayList<SNode>();
+    List<SNode> elementDeclarations = ListOperations.<SNode>createList();
     ListSequence.fromList(elementDeclarations).addSequence(SetSequence.fromSet(elementDeclarationSet));
     return elementDeclarations;
   }
