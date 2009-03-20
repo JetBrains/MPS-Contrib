@@ -35,7 +35,6 @@
   <import index="5" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration" id="1234548035318">
     <link role="conceptDeclaration" targetNodeId="1.1179109169620" resolveInfo="GConditionalLine" />
-    <link role="baseTextGen" targetNodeId="1234547806906" resolveInfo="GTextTextGen" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234548035319">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234548035320">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1234548061150">
@@ -77,7 +76,6 @@
   </node>
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration" id="1234548158731">
     <link role="conceptDeclaration" targetNodeId="1.1184639540818" resolveInfo="GDocument" />
-    <link role="baseTextGen" targetNodeId="1234547806906" resolveInfo="GTextTextGen" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1234548158732">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1234548158733">
         <node role="statement" type="jetbrains.mps.lang.textGen.structure.Append" id="1237463992939">
