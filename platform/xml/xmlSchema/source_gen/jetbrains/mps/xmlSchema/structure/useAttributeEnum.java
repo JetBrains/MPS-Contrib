@@ -4,6 +4,7 @@ package jetbrains.mps.xmlSchema.structure;
 
 import java.util.List;
 import java.util.LinkedList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 
 public enum useAttributeEnum {
   optional("optional", "optional"),
@@ -20,9 +21,9 @@ public enum useAttributeEnum {
 
   public static List<useAttributeEnum> getConstants() {
     List<useAttributeEnum> list = new LinkedList<useAttributeEnum>();
-    list.add(useAttributeEnum.optional);
-    list.add(useAttributeEnum.prohibited);
-    list.add(useAttributeEnum.required);
+    ListOperations.addElement(list, useAttributeEnum.optional);
+    ListOperations.addElement(list, useAttributeEnum.prohibited);
+    ListOperations.addElement(list, useAttributeEnum.required);
     return list;
   }
 

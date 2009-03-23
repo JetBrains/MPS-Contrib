@@ -8,7 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
-import java.util.ArrayList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
 
 public class Project_Behavior {
@@ -23,7 +23,7 @@ public class Project_Behavior {
   }
 
   public static List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
-    List<SNode> decls = new ArrayList<SNode>();
+    List<SNode> decls = ListOperations.<SNode>createList();
     ListSequence.fromList(decls).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "property", true)));
     for(SNode pimport : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProperties", true))) {
       ListSequence.fromList(decls).addSequence(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(pimport, "propertyNode", false), "declaration", true)));
@@ -41,7 +41,7 @@ public class Project_Behavior {
   }
 
   public static List<SNode> call_getVisibleTargets_1213877351775(SNode thisNode) {
-    List<SNode> visible = new ArrayList<SNode>();
+    List<SNode> visible = ListOperations.<SNode>createList();
     for(SNode importProject : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProject", true))) {
       for(SNode target : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(importProject, "project", false), "target", true))) {
         ListSequence.fromList(visible).addElement(target);
@@ -60,7 +60,7 @@ public class Project_Behavior {
   }
 
   public static List<SNode> call_getAllTargets_1213877351828(SNode thisNode) {
-    final List<SNode> res = new ArrayList<SNode>();
+    final List<SNode> res = ListOperations.<SNode>createList();
     ListSequence.fromList(res).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)));
     ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProject", true)).visitAll(new IVisitor <SNode>() {
 
