@@ -29,22 +29,12 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_8009_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_8009_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_8009_0(context, node, "gItemStatement"));
-    editorCell.addEditorCell(this.createCollection_8009_1(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createCollection_8009_1(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_8009_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_8009_1(context, node, "  "));
     editorCell.addEditorCell(this.createRefNodeList_8009_0(context, node));
     return editorCell;
@@ -86,14 +76,10 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_8009_0");
-  }
-
-  private static void setupBasic_Collection_8009_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_8009_1");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };
@@ -116,6 +102,15 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefNodeList_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_item");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_Constant_8009_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
