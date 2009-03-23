@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
@@ -148,7 +148,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_0889_0 == null) {
       this.myListHandler_0889_0 = new FormatTokenSettings_Editor.predefinedDateFormatListHandler_0889_0(node, "predefinedDateFormat", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_0889_0.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_0889_0.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_0889_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -161,7 +161,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_0889_1 == null) {
       this.myListHandler_0889_1 = new FormatTokenSettings_Editor.dateTimePropertyCardinalityListHandler_0889_0(node, "dateTimePropertyCardinality", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_0889_1.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_0889_1.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_0889_1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -174,7 +174,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_0889_2 == null) {
       this.myListHandler_0889_2 = new FormatTokenSettings_Editor.dateTimePropertyFormatConfigurationListHandler_0889_0(node, "dateTimePropertyFormatConfiguration", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_0889_2.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_0889_2.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_0889_2(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -251,6 +251,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };
@@ -304,6 +305,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };
@@ -344,6 +346,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };

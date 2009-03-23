@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -146,7 +146,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     if (this.myListHandler_6516_0 == null) {
       this.myListHandler_6516_0 = new InlineFormatExpression_Editor.formatTokenListHandler_6516_0(node, "formatToken", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_6516_0.createCells(context, new CellLayout_Horizontal(), false);
+    EditorCell_Collection editorCell = this.myListHandler_6516_0.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_6516_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);

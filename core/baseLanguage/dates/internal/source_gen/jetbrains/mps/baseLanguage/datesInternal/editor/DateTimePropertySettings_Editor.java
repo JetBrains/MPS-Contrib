@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
@@ -206,7 +206,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_3687_0 == null) {
       this.myListHandler_3687_0 = new DateTimePropertySettings_Editor.dateTimePropertyListHandler_3687_0(node, "dateTimeProperty", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_3687_0.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_3687_0.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_3687_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -219,7 +219,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_3687_1 == null) {
       this.myListHandler_3687_1 = new DateTimePropertySettings_Editor.localeListHandler_3687_0(node, "locale", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_3687_1.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_3687_1.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_3687_1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -232,7 +232,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_3687_2 == null) {
       this.myListHandler_3687_2 = new DateTimePropertySettings_Editor.durationTypeListHandler_3687_0(node, "durationType", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_3687_2.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_3687_2.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_3687_2(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -245,7 +245,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_3687_3 == null) {
       this.myListHandler_3687_3 = new DateTimePropertySettings_Editor.monthListHandler_3687_0(node, "month", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_3687_3.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_3687_3.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_3687_3(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -258,7 +258,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     if (this.myListHandler_3687_4 == null) {
       this.myListHandler_3687_4 = new DateTimePropertySettings_Editor.schedulePeriodListHandler_3687_0(node, "schedulePeriod", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_3687_4.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_3687_4.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_3687_4(editorCell, node, context);
     editorCell.setGridLayout(true);
     editorCell.setUsesBraces(false);
@@ -335,6 +335,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };
@@ -362,6 +363,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };
@@ -389,6 +391,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };
@@ -416,6 +419,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };
@@ -457,6 +461,7 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };

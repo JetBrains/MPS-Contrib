@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
@@ -78,7 +78,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     if (this.myListHandler_6009_0 == null) {
       this.myListHandler_6009_0 = new DateTimeZonePropertyFormatConfiguration_Editor.dateTimePropertyFormatTypeListHandler_6009_0(node, "dateTimePropertyFormatType", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_6009_0.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_6009_0.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_6009_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -128,6 +128,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
 
       };
