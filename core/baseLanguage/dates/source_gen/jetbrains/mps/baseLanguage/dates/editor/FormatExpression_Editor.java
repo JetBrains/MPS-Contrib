@@ -14,9 +14,9 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
@@ -29,22 +29,12 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_3603_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_3603_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createRefNode_3603_1(context, node));
-    editorCell.addEditorCell(this.createCollection_3603_1(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createCollection_3603_1(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_3603_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_3603_0(context, node, "#"));
     editorCell.addEditorCell(this.createRefCell_3603_1(context, node));
     return editorCell;
@@ -122,20 +112,6 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_RefNode_3603_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_3603_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3603_1");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
-    FormatExression_ActionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_RefCell_3603_0(EditorCell editorCell, SNode node, EditorContext context) {

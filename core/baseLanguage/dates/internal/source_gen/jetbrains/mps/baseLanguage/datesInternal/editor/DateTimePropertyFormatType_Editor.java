@@ -23,7 +23,7 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_7531_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_7531_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);

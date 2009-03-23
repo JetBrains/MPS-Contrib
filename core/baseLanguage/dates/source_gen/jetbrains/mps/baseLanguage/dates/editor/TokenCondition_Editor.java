@@ -21,7 +21,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
 public class TokenCondition_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection_4438_2(context, node);
+    return this.createCollection_4438_1(context, node);
   }
 
   public EditorCell createInspectedCell(EditorContext context, SNode node) {
@@ -29,13 +29,14 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_4438_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_4438_0(editorCell, node, context);
     editorCell.setGridLayout(true);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_4438_1(context, node, "parameters:"));
-    editorCell.addEditorCell(this.createCollection_4438_1(context, node));
+    editorCell.addEditorCell(this.createConstant_4438_7(context, node, "datetimeToFormat"));
+    editorCell.addEditorCell(this.createConstant_4438_0(context, node, "date time to format"));
     editorCell.addEditorCell(this.createConstant_4438_3(context, node, ""));
     editorCell.addEditorCell(this.createConstant_4438_4(context, node, "returns:"));
     editorCell.addEditorCell(this.createConstant_4438_6(context, node, "Last statement should be an ExpressionStatement"));
@@ -44,19 +45,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_4438_1(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_4438_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant_4438_7(context, node, "datetimeToFormat"));
-    editorCell.addEditorCell(this.createConstant_4438_0(context, node, "date time to format"));
-    return editorCell;
-  }
-
-  public EditorCell createCollection_4438_2(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_4438_2(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -163,16 +153,13 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_4438_0");
   }
 
-  private static void setupBasic_Collection_4438_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_4438_1");
-  }
-
   private static void setupBasic_Constant_4438_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_0");
     {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };
@@ -186,6 +173,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };
@@ -193,8 +181,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupBasic_Collection_4438_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_4438_2");
+  private static void setupBasic_Collection_4438_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_4438_1");
   }
 
   private static void setupBasic_RefNode_4438_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -228,6 +216,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };
@@ -241,6 +230,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };
@@ -254,6 +244,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };
@@ -267,6 +258,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };

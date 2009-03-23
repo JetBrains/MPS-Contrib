@@ -25,22 +25,12 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_9557_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_9557_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createRefNode_9557_3(context, node));
-    editorCell.addEditorCell(this.createCollection_9557_1(context, node));
-    return editorCell;
-  }
-
-  public EditorCell createCollection_9557_1(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_9557_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_9557_0(context, node, "with"));
     editorCell.addEditorCell(this.createConstant_9557_1(context, node, "("));
     editorCell.addEditorCell(this.createRefCell_9557_1(context, node));
@@ -172,11 +162,6 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Collection_9557_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_9557_0");
-  }
-
-  private static void setupBasic_Collection_9557_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_9557_1");
-    UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
   }
 
   private static void setupBasic_Constant_9557_0(EditorCell editorCell, SNode node, EditorContext context) {

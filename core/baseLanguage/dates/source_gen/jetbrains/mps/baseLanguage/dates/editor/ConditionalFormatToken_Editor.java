@@ -10,10 +10,9 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -31,36 +30,15 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_1104_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_1104_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createCollection_1104_1(context, node));
-    editorCell.addEditorCell(this.createCollection_1104_2(context, node));
-    editorCell.addEditorCell(this.createConstant_1104_3(context, node, "}"));
-    return editorCell;
-  }
-
-  public EditorCell createCollection_1104_1(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_1104_1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_1104_0(context, node, "switch"));
     editorCell.addEditorCell(this.createConstant_1104_1(context, node, "{"));
-    return editorCell;
-  }
-
-  public EditorCell createCollection_1104_2(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_1104_2(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createIndentCell1104_0(context, node));
     editorCell.addEditorCell(this.createRefNodeList_1104_0(context, node));
+    editorCell.addEditorCell(this.createConstant_1104_3(context, node, "}"));
     return editorCell;
   }
 
@@ -101,27 +79,9 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell1104_0(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
-    return result;
-  }
-
 
   private static void setupBasic_Collection_1104_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_1104_0");
-  }
-
-  private static void setupBasic_Collection_1104_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1104_1");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-
-      };
-      inlineStyle.apply(editorCell);
-    }
   }
 
   private static void setupBasic_Constant_1104_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -132,14 +92,10 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_1104_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_1104_1");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Collection_1104_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1104_2");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
 
       };
@@ -149,15 +105,30 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefNodeList_1104_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_conditionPair");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+        }
+
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Constant_1104_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_1104_3");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
-  }
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+        }
 
-  private static void setupBasic_Indent_1104_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Indent_1104_0");
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_Constant_1104_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
