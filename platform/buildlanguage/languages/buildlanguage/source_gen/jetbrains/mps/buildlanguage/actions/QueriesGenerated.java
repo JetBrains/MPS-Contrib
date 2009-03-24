@@ -4,6 +4,7 @@ package jetbrains.mps.buildlanguage.actions;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
+import jetbrains.mps.buildlanguage.actions.Util;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SNode;
@@ -18,6 +19,7 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.buildlanguage.actions._PrecompiledPatterns;
 import jetbrains.mps.smodel.action.ChildSubstituteActionsHelper;
 import jetbrains.mps.util.Calculable;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
@@ -71,7 +73,6 @@ public class QueriesGenerated {
           public String getVisibleMatchingText(String pattern) {
             return this.getMatchingText(pattern);
           }
-
         });
       }
     }
@@ -98,7 +99,6 @@ public class QueriesGenerated {
           public String getVisibleMatchingText(String pattern) {
             return this.getMatchingText(pattern);
           }
-
         });
       }
     }
@@ -134,7 +134,6 @@ public class QueriesGenerated {
           public String getVisibleMatchingText(String pattern) {
             return this.getMatchingText(pattern);
           }
-
         });
       }
     }
@@ -173,7 +172,6 @@ public class QueriesGenerated {
             SNode decl = SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeDeclaration", false);
             return SLinkOperations.getTargets(SLinkOperations.getTarget(decl, "enum", true), "constants", true);
           }
-
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
         if (queryResult != null) {
@@ -185,7 +183,6 @@ public class QueriesGenerated {
                 SPropertyOperations.set(node, "value", SPropertyOperations.getString((item), "value"));
                 return node;
               }
-
             });
           }
         }
@@ -218,7 +215,6 @@ public class QueriesGenerated {
         public String getDescriptionText(String pattern) {
           return "plus operation";
         }
-
       });
     }
     return result;
@@ -246,7 +242,6 @@ public class QueriesGenerated {
         public String getDescriptionText(String pattern) {
           return "comment";
         }
-
       });
     }
     return result;
@@ -276,7 +271,6 @@ public class QueriesGenerated {
         public String getDescriptionText(String pattern) {
           return "plus operation";
         }
-
       });
     }
     return result;

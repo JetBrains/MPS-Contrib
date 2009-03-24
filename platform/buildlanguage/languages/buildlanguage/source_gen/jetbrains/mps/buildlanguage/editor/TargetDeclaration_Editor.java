@@ -20,6 +20,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
@@ -194,7 +195,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createComponent_4669_0(EditorContext context, SNode node) {
     if (this.myTargetDeclaration_EditorComponent4669_0 == null) {
-      this.myTargetDeclaration_EditorComponent4669_0 = new TargetDeclaration_EditorComponent(node);
+      this.myTargetDeclaration_EditorComponent4669_0 = new jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent(node);
     }
     EditorCell editorCell = this.myTargetDeclaration_EditorComponent4669_0.createEditorCell(context);
     setupBasic_Component_4669_0(editorCell, node, context);
@@ -203,7 +204,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createComponent_4669_1(EditorContext context, SNode node) {
     if (this.myTargetDeclaration_EditorComponent4669_1 == null) {
-      this.myTargetDeclaration_EditorComponent4669_1 = new TargetDeclaration_EditorComponent(node);
+      this.myTargetDeclaration_EditorComponent4669_1 = new jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent(node);
     }
     EditorCell editorCell = this.myTargetDeclaration_EditorComponent4669_1.createEditorCell(context);
     setupBasic_Component_4669_1(editorCell, node, context);
@@ -541,7 +542,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -555,7 +555,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.EDITABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -576,7 +575,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -589,7 +587,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -602,7 +599,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -622,7 +618,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -635,7 +630,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -648,7 +642,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -670,7 +663,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.SELECTABLE, false);
           this.set(StyleAttributes.EDITABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -683,7 +675,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -707,7 +698,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.SELECTABLE, false);
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -729,7 +719,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.SELECTABLE, false);
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -758,7 +747,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.SELECTABLE, false);
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -784,7 +772,6 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.SELECTABLE, false);
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }

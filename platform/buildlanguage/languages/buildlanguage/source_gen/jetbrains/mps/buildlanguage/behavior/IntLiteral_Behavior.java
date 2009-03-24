@@ -4,6 +4,7 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
 
 public class IntLiteral_Behavior {
 

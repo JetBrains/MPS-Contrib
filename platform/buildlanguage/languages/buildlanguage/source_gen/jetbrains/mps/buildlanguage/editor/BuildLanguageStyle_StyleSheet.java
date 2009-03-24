@@ -15,7 +15,6 @@ public class BuildLanguageStyle_StyleSheet {
       {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
       }
-
     };
   }
 
@@ -25,7 +24,6 @@ public class BuildLanguageStyle_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       }
-
     };
   }
 
@@ -33,7 +31,6 @@ public class BuildLanguageStyle_StyleSheet {
     return new Style(cell) {
       {
       }
-
     };
   }
 
@@ -43,7 +40,6 @@ public class BuildLanguageStyle_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       }
-
     };
   }
 
@@ -53,7 +49,6 @@ public class BuildLanguageStyle_StyleSheet {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.darkGray);
       }
-
     };
   }
 
@@ -63,7 +58,6 @@ public class BuildLanguageStyle_StyleSheet {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
       }
-
     };
   }
 
@@ -71,7 +65,6 @@ public class BuildLanguageStyle_StyleSheet {
     return new Style(cell) {
       {
       }
-
     };
   }
 
@@ -80,7 +73,6 @@ public class BuildLanguageStyle_StyleSheet {
       {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
       }
-
     };
   }
 
@@ -89,7 +81,6 @@ public class BuildLanguageStyle_StyleSheet {
       {
         this.set(StyleAttributes.STRIKE_OUT, true);
       }
-
     };
   }
 
@@ -98,7 +89,6 @@ public class BuildLanguageStyle_StyleSheet {
       {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
-
     };
   }
 
@@ -107,7 +97,6 @@ public class BuildLanguageStyle_StyleSheet {
       {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
       }
-
     };
   }
 

@@ -158,7 +158,6 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return !(SNodeOperations.isInstanceOf(it, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"));
       }
-
     });
   }
 
@@ -197,14 +196,12 @@ public class QueriesGenerated {
         SNode propertyDeclaration = SLinkOperations.getTarget(it, "propertyDeclaration", false);
         return SNodeOperations.isInstanceOf(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration") && !(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "propertyList", true)).contains(propertyDeclaration)) && !(SPropertyOperations.getBoolean(propertyDeclaration, "checkOnStart"));
       }
-
     });
     Iterable<SNode> decls = Sequence.fromIterable(externalReferences).select(new ISelector <SNode, SNode>() {
 
       public SNode select(SNode it) {
         return SLinkOperations.getTarget(it, "propertyDeclaration", false);
       }
-
     });
     return Sequence.fromIterable(decls).distinct();
   }
@@ -215,7 +212,6 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(it, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration");
       }
-
     });
   }
 
@@ -239,14 +235,12 @@ public class QueriesGenerated {
         SetSequence.fromSet(existing).addElement(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it));
         return b;
       }
-
     });
     return Sequence.fromIterable(projects).sort(new Comparator <SNode>() {
 
       public int compare(SNode a, SNode b) {
         return ITargetReference_Behavior.call_getProjectFileName_1230222765831(a).compareToIgnoreCase(ITargetReference_Behavior.call_getProjectFileName_1230222765831(b));
       }
-
     }, true);
   }
 

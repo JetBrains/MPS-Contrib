@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.typesystem;
 import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.ISubtypingRule_Runtime;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.buildlanguage.typesystem._Quotations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {

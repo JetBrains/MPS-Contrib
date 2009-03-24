@@ -116,7 +116,6 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }

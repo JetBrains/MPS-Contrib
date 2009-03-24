@@ -67,7 +67,6 @@ public class Project_Behavior {
       public void visit(SNode it) {
         ListSequence.fromList(res).addSequence(ListSequence.fromList(Project_Behavior.call_getAllTargets_1213877351828(SLinkOperations.getTarget(it, "project", false))));
       }
-
     });
     return res;
   }

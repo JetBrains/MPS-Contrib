@@ -102,7 +102,6 @@ public class FileName_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -115,7 +114,6 @@ public class FileName_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -129,7 +127,6 @@ public class FileName_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(0.5, Measure.SPACES));
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -143,7 +140,6 @@ public class FileName_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.PUNCTUATION_LEFT, true);
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.5, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
