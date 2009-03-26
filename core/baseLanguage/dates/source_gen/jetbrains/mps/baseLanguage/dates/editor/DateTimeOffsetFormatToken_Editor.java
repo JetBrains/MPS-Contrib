@@ -11,6 +11,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
@@ -89,7 +90,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_4936_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4936_0");
-    BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_RefNodeList_4936_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -98,7 +99,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_4936_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4936_2");
-    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_4936_3(EditorCell editorCell, SNode node, EditorContext context) {
@@ -109,7 +110,6 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(1., Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -196,7 +196,6 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
           }
-
         };
         inlineStyle.apply(editorCell);
       }

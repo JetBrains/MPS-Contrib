@@ -21,6 +21,9 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.baseLanguage.dates.editor.InlineFormatExpression_ActionMap_RightTransform;
+import jetbrains.mps.baseLanguage.dates.editor.InlineFormatExpression_ActionMap_Delete;
+import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -259,7 +262,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -267,12 +269,12 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_6516_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_6516_1");
-    BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_6516_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_6516_2");
-    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     InlineFormatExpression_ActionMap_RightTransform.setCellActions(editorCell, node, context);
   }
 
@@ -287,7 +289,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -302,7 +303,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -420,7 +420,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
           }
-
         };
         inlineStyle.apply(editorCell);
       }
@@ -545,7 +544,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
             this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
             this.set(StyleAttributes.EDITABLE, true);
           }
-
         };
         inlineStyle.apply(editorCell);
       }

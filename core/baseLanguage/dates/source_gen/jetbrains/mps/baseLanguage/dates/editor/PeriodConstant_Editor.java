@@ -13,12 +13,14 @@ import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.baseLanguage.dates.editor.PeriodConstant_ActionMap;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
@@ -229,7 +231,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
           }
-
         };
         inlineStyle.apply(editorCell);
       }
@@ -291,7 +292,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
           }
-
         };
         inlineStyle.apply(editorCell);
       }

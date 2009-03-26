@@ -17,7 +17,10 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusPeriodOperation_leftOperand_actionMap;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
+import jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusPeriodOperation_rightOperand_actionMap;
 
 public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
 
@@ -123,7 +126,6 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -138,7 +140,6 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -155,7 +156,6 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }

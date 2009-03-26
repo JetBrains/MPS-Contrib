@@ -125,13 +125,12 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_2692_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2692_1");
-    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getLeftBlockBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -139,13 +138,12 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_2692_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2692_2");
-    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getRightBlockBrace(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -160,7 +158,6 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }

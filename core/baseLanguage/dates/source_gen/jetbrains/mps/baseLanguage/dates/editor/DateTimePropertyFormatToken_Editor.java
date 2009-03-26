@@ -14,12 +14,14 @@ import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.baseLanguage.dates.editor.DateTimePropertyFormatToken_ActionMap;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
 
@@ -255,12 +257,12 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9366_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9366_0");
-    BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_9366_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9366_1");
-    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_RefCell_9366_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -284,7 +286,6 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -300,7 +301,6 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -316,7 +316,6 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -461,7 +460,6 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
             this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
             this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
           }
-
         };
         inlineStyle.apply(editorCell);
       }

@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -233,7 +234,6 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
           }
-
         };
         inlineStyle.apply(editorCell);
       }

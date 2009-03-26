@@ -84,7 +84,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169488454762">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
+        <link role="styleClass" targetNodeId="48.1238057685212" resolveInfo="LeftBlockBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221883">
           <property name="flag" value="true" />
         </node>
@@ -105,7 +105,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169488458781">
         <property name="text" value="}" />
-        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
+        <link role="styleClass" targetNodeId="48.1238057795118" resolveInfo="RightBlockBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221886">
           <property name="flag" value="true" />
         </node>
@@ -235,7 +235,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169563701049">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
+        <link role="styleClass" targetNodeId="48.1238057685212" resolveInfo="LeftBlockBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221874">
           <property name="flag" value="true" />
         </node>
@@ -255,7 +255,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169563728374">
         <property name="text" value="}" />
-        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
+        <link role="styleClass" targetNodeId="48.1238057795118" resolveInfo="RightBlockBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221877">
           <property name="flag" value="true" />
         </node>
@@ -778,7 +778,7 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1173960051610">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173960053346">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
+        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1173960064070">
         <link role="actionMap" targetNodeId="1173966103686" resolveInfo="DateTimePropertyFormatToken_ActionMap" />
@@ -823,7 +823,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173960057709">
         <property name="text" value="}" />
-        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1237800221870" />
     </node>
@@ -934,7 +934,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174039936126">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
+        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1174039969645">
         <link role="relationDeclaration" targetNodeId="1.1174039888135" />
@@ -952,7 +952,7 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174039938550">
         <property name="text" value="}" />
         <link role="actionMap" targetNodeId="1174046040733" resolveInfo="InlineFormatExpression_ActionMap_RightTransform" />
-        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174045900471">
         <link role="actionMap" targetNodeId="1174046138976" resolveInfo="InlineFormatExpression_ActionMap_Delete" />
@@ -1150,7 +1150,7 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174321300763">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174321300764">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
+        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1174321305126">
         <property name="separatorText" value=" " />
@@ -1164,7 +1164,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174321320004">
         <property name="text" value="}" />
-        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174321326506">
         <property name="text" value="ago" />

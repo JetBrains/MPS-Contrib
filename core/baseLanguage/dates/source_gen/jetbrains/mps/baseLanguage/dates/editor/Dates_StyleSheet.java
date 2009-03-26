@@ -18,7 +18,6 @@ public class Dates_StyleSheet {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getCompactKeyWord(null));
       }
-
     };
   }
 
@@ -30,7 +29,6 @@ public class Dates_StyleSheet {
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
       }
-
     };
   }
 
@@ -41,7 +39,6 @@ public class Dates_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
-
     };
   }
 
@@ -51,7 +48,6 @@ public class Dates_StyleSheet {
         this.putAll(BaseLanguageStyle_StyleSheet.getField(null));
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
-
     };
   }
 

@@ -19,6 +19,9 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.baseLanguage.dates.editor.AbsDateTimeMinusOperation_leftOperand_actionMap;
+import jetbrains.mps.baseLanguage.dates.editor.AbsDateTimeMinusOperation_rightOperand_actionMap;
+import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
@@ -179,7 +182,6 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -197,7 +199,6 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -218,7 +219,6 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
           this.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
