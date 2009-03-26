@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.baseLanguage.dates.constraints._Quotations;
 
 public class ConvertToDateTimeOperation_Constraints {
 
@@ -18,6 +19,7 @@ public class ConvertToDateTimeOperation_Constraints {
       can = TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_0().createNode());
       can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_1().createNode());
       can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_2().createNode());
+      can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_3().createNode());
     }
     return can;
   }

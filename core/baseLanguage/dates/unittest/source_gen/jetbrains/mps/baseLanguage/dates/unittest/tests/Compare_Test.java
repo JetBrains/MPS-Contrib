@@ -40,6 +40,12 @@ public class Compare_Test extends TestCase {
   }
 
   @Test()
+  public void test_never() throws Exception {
+    Assert.assertFalse(DateTimeOperations.compare(Long.valueOf(0), CompareType.valueOf("GE"), System.currentTimeMillis(), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(Long.valueOf(0), CompareType.valueOf("LT"), yesterday, DateTimeFieldType.secondOfMinute()));
+  }
+
+  @Test()
   public void test_lessOrEquals() throws Exception {
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear()), CompareType.valueOf("LE"), DateTimeOperations.round(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth()), DateTimeFieldType.millisOfSecond()));
   }

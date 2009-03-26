@@ -27,7 +27,6 @@ public class DateFormatReferenceUtil {
       public boolean accept(SNode it) {
         return SPropertyOperations.getBoolean(it, "isPublic") || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true);
       }
-
     }).toListSequence();
     return new SimpleSearchScope(formats);
   }

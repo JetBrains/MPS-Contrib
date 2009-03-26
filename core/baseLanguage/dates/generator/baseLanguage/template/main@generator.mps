@@ -443,6 +443,12 @@
         <link role="template" targetNodeId="1169630265920" resolveInfo="reduce_NowExpression" />
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="1238088657574">
+      <link role="applicableConcept" targetNodeId="1.1238088288461" resolveInfo="NeverExpression" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="1238088664060">
+        <link role="template" targetNodeId="1238088433863" resolveInfo="reduce_NeverExpression" />
+      </node>
+    </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="1172493734522">
       <link role="applicableConcept" targetNodeId="1.1172489559047" />
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="1172493747175">
@@ -3619,6 +3625,19 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="1238088433863">
+    <property name="package" value="operation.constant" />
+    <property name="name" value="reduce_NeverExpression" />
+    <link role="applicableConcept" targetNodeId="1.1238088288461" resolveInfo="NeverExpression" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1238089542031">
+      <link role="baseMethodDeclaration" targetNodeId="7.~Long.valueOf(long):java.lang.Long" resolveInfo="valueOf" />
+      <link role="classConcept" targetNodeId="7.~Long" resolveInfo="Long" />
+      <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238089543235">
+        <property name="value" value="0" />
+      </node>
+      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="1238089547345" />
     </node>
   </node>
 </model>

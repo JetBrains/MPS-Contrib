@@ -1045,5 +1045,14 @@
       <link role="target" targetNodeId="2.1172074318583" resolveInfo="DateTimeProperty" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238088288461">
+    <property name="package" value="operation.constant" />
+    <property name="name" value="NeverExpression" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1238088313853">
+      <property name="value" value="never" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

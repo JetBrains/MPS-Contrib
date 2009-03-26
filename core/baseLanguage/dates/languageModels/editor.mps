@@ -618,9 +618,6 @@
               <property name="readOnly" value="true" />
               <link role="relationDeclaration" targetNodeId="28.1172490222219" />
               <link role="styleClass" targetNodeId="1219660122574" resolveInfo="DateProperty" />
-              <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1219661415573">
-                <property name="value" value="1.0" />
-              </node>
             </node>
           </node>
         </node>
@@ -688,9 +685,6 @@
               <property name="readOnly" value="true" />
               <link role="relationDeclaration" targetNodeId="2.1169194664001" />
               <link role="styleClass" targetNodeId="1219660122574" resolveInfo="DateProperty" />
-              <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="1219661423178">
-                <property name="value" value="1.0" />
-              </node>
             </node>
           </node>
         </node>
@@ -1923,6 +1917,14 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1238088357338">
+    <property name="package" value="operation.constant" />
+    <link role="conceptDeclaration" targetNodeId="1.1238088288461" resolveInfo="NeverExpression" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="1238088358637">
+      <link role="styleClass" targetNodeId="1219659527813" resolveInfo="DateCompactKeyWord" />
+      <link role="relationDeclaration" targetNodeId="2.1156235010670" resolveInfo="alias" />
     </node>
   </node>
 </model>

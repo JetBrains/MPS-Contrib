@@ -21,10 +21,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.style.Padding;
-import jetbrains.mps.nodeEditor.style.Measure;
 
 public class PeriodConstant_Editor extends DefaultNodeEditor {
 
@@ -226,14 +222,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     private static void setupBasic_Property_1753_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_pluralForm");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
-      {
-        Style inlineStyle = new Style(editorCell) {
-          {
-            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
-          }
-        };
-        inlineStyle.apply(editorCell);
-      }
     }
 
     private static void setupLabel_Property_1753_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -287,14 +275,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     private static void setupBasic_Property_1753_1(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
-      {
-        Style inlineStyle = new Style(editorCell) {
-          {
-            this.set(StyleAttributes.PADDING_LEFT, new Padding(1.0, Measure.SPACES));
-          }
-        };
-        inlineStyle.apply(editorCell);
-      }
     }
 
     private static void setupLabel_Property_1753_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
