@@ -97,7 +97,7 @@ public class QueriesGenerated {
     StringBuilder b = new StringBuilder();
     int n = SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "dateTimePropertyFormatType", false), "dateTimePropertyCardinality", false), "numberOfSymbols");
     String letter = SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "dateTimePropertyFormatType", false), "letter");
-    for(int i = 0 ; i < n ; i = i + 1) {
+    for(int i = 0 ; i < n ; i++ ) {
       b.append(letter);
     }
     return b.toString();
