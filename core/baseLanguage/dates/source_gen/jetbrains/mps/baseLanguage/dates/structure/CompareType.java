@@ -22,6 +22,19 @@ public enum CompareType {
     this.myValue = value;
   }
 
+  public String getName() {
+    return this.myName;
+  }
+
+  public String getValueAsString() {
+    return this.myValue;
+  }
+
+  public String getValue() {
+    return this.myValue;
+  }
+
+
   public static List<CompareType> getConstants() {
     List<CompareType> list = new LinkedList<CompareType>();
     ListOperations.addElement(list, CompareType.EQUALS);
@@ -60,19 +73,6 @@ public enum CompareType {
       return CompareType.LESS_OR_EQUALS;
     }
     return CompareType.getDefault();
-  }
-
-
-  public String getName() {
-    return this.myName;
-  }
-
-  public String getValueAsString() {
-    return this.myValue;
-  }
-
-  public String getValue() {
-    return this.myValue;
   }
 
 }

@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.dates.actions;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
+import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -58,7 +59,6 @@ public class QueriesGenerated {
         public Object calculate() {
           return CompareType.getConstants();
         }
-
       };
       Iterable<CompareType> parameterObjects = (Iterable<CompareType>)calculable.calculate();
       assert parameterObjects != null;
@@ -88,7 +88,6 @@ public class QueriesGenerated {
           public String getDescriptionText(String text) {
             return (item).getValue();
           }
-
         });
       }
     }
@@ -111,7 +110,6 @@ public class QueriesGenerated {
             SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
             return result;
           }
-
         });
       }
     }
@@ -134,7 +132,6 @@ public class QueriesGenerated {
             SLinkOperations.setTarget(result, "dateExpression", _context.getSourceNode(), true);
             return result;
           }
-
         });
       }
     }
@@ -157,7 +154,6 @@ public class QueriesGenerated {
             SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
             return result;
           }
-
         });
       }
     }
@@ -180,7 +176,6 @@ public class QueriesGenerated {
             SLinkOperations.setTarget(result, "leftValue", _context.getSourceNode(), true);
             return result;
           }
-
         });
       }
     }
@@ -203,7 +198,6 @@ public class QueriesGenerated {
             SLinkOperations.setTarget(result, "leftValue", _context.getSourceNode(), true);
             return result;
           }
-
         });
       }
     }
@@ -226,7 +220,6 @@ public class QueriesGenerated {
             SLinkOperations.setTarget(result, "leftValue", _context.getSourceNode(), true);
             return result;
           }
-
         });
       }
     }
@@ -249,7 +242,6 @@ public class QueriesGenerated {
             SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
             return result;
           }
-
         });
       }
     }
@@ -265,7 +257,6 @@ public class QueriesGenerated {
         public Object calculate() {
           return DateTypeUtil.findDateTimeProperties(operationContext.getScope(), _context.getModel());
         }
-
       };
       Iterable<SNode> parameterObjects = (Iterable<SNode>)calculable.calculate();
       assert parameterObjects != null;
@@ -294,7 +285,6 @@ public class QueriesGenerated {
           public String getDescriptionText(String text) {
             return "Period constant";
           }
-
         });
       }
     }
@@ -324,7 +314,6 @@ public class QueriesGenerated {
         public String getDescriptionText(String pattern) {
           return "add compare precision";
         }
-
       });
     }
     return result;

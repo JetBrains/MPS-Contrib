@@ -23,6 +23,19 @@ public enum DayOfWeek {
     this.myValue = value;
   }
 
+  public String getName() {
+    return this.myName;
+  }
+
+  public String getValueAsString() {
+    return this.myValue;
+  }
+
+  public String getValue() {
+    return this.myValue;
+  }
+
+
   public static List<DayOfWeek> getConstants() {
     List<DayOfWeek> list = new LinkedList<DayOfWeek>();
     ListOperations.addElement(list, DayOfWeek.Sunday);
@@ -65,19 +78,6 @@ public enum DayOfWeek {
       return DayOfWeek.Saturday;
     }
     return DayOfWeek.getDefault();
-  }
-
-
-  public String getName() {
-    return this.myName;
-  }
-
-  public String getValueAsString() {
-    return this.myValue;
-  }
-
-  public String getValue() {
-    return this.myValue;
   }
 
 }

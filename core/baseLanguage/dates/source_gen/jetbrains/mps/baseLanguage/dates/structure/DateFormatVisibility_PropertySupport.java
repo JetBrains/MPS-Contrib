@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.dates.structure;
 
 import jetbrains.mps.smodel.PropertySupport;
 import java.util.Iterator;
+import jetbrains.mps.baseLanguage.dates.structure.DateFormatVisibility;
 
 public class DateFormatVisibility_PropertySupport extends PropertySupport {
 

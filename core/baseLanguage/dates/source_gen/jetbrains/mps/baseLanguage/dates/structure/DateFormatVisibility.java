@@ -18,6 +18,19 @@ public enum DateFormatVisibility {
     this.myValue = value;
   }
 
+  public String getName() {
+    return this.myName;
+  }
+
+  public String getValueAsString() {
+    return this.myValue;
+  }
+
+  public String getValue() {
+    return this.myValue;
+  }
+
+
   public static List<DateFormatVisibility> getConstants() {
     List<DateFormatVisibility> list = new LinkedList<DateFormatVisibility>();
     ListOperations.addElement(list, DateFormatVisibility.PUBLIC);
@@ -40,19 +53,6 @@ public enum DateFormatVisibility {
       return DateFormatVisibility.PRIVATE;
     }
     return DateFormatVisibility.getDefault();
-  }
-
-
-  public String getName() {
-    return this.myName;
-  }
-
-  public String getValueAsString() {
-    return this.myValue;
-  }
-
-  public String getValue() {
-    return this.myValue;
   }
 
 }

@@ -10,21 +10,21 @@ import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.baseLanguage.dates.typesystem._Quotations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
-public class typeof_NowExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
+public class typeof_NeverExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
 
-  public typeof_NowExpression_InferenceRule() {
+  public typeof_NeverExpression_InferenceRule() {
   }
 
-  public void applyRule(final SNode nowExpression, final TypeCheckingContext typeCheckingContext) {
+  public void applyRule(final SNode expression, final TypeCheckingContext typeCheckingContext) {
     {
-      SNode _nodeToCheck_1029348928467 = nowExpression;
+      SNode _nodeToCheck_1029348928467 = expression;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation(typeCheckingContext.typeOf(nowExpression, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1204416432300", true), new _Quotations.QuotationClass_0().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1204416432298", intentionProvider);
+      typeCheckingContext.createEquation(typeCheckingContext.typeOf(expression, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238088376856", true), new _Quotations.QuotationClass_40().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238088382562", intentionProvider);
     }
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.baseLanguage.dates.structure.NowExpression";
+    return "jetbrains.mps.baseLanguage.dates.structure.NeverExpression";
   }
 
   public boolean isApplicable(SNode argument) {
