@@ -15,6 +15,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
@@ -137,12 +138,12 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
 
   private static void setupBasic_Constant_9190_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9190_1");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -150,12 +151,12 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
 
   private static void setupBasic_Constant_9190_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9190_2");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -168,7 +169,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -182,7 +182,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }

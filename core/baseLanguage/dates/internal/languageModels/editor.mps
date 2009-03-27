@@ -625,6 +625,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1194005989095">
         <property name="text" value="(" />
+        <link role="styleClass" targetNodeId="2v.1238143818889" resolveInfo="Matching" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1194013380266">
         <link role="relationDeclaration" targetNodeId="1.1194013362176" resolveInfo="shortName" />
@@ -637,6 +638,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1194013391875">
         <property name="text" value=")" />
+        <link role="styleClass" targetNodeId="2v.1238143818889" resolveInfo="Matching" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1237800230397" />
     </node>

@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
 public class Month_Editor extends DefaultNodeEditor {
 
@@ -166,6 +167,7 @@ public class Month_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9052_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9052_0");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Property_9052_1(EditorCell editorCell, SNode node, EditorContext context) {
@@ -186,6 +188,7 @@ public class Month_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9052_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9052_3");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_Property_9052_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
