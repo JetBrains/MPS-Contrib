@@ -1054,5 +1054,43 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238248029297">
+    <property name="package" value="operation.math" />
+    <property name="name" value="MathDateTimeOperation" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1238248060720">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="leftExpression" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1238248060893">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="rightExpression" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1238248083785">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238248680491">
+    <property name="package" value="operation.math" />
+    <property name="name" value="MinDateTimeOperation" />
+    <link role="extends" targetNodeId="1238248029297" resolveInfo="BinaryDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1238248772138">
+      <property name="value" value="min" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238248707649">
+    <property name="package" value="operation.math" />
+    <property name="name" value="MaxDateTimeOperation" />
+    <link role="extends" targetNodeId="1238248029297" resolveInfo="MathDateTimeOperation" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1238248725745">
+      <property name="value" value="max" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

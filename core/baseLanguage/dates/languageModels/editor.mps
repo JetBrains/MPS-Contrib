@@ -1706,9 +1706,6 @@
       <node role="extendedClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClassReference" id="1219660130810">
         <link role="styleSheetClass" targetNodeId="48.1198595398954" resolveInfo="Field" />
       </node>
-      <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1219660187962">
-        <property name="value" value="0.0" />
-      </node>
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="1227029248328">
@@ -1925,6 +1922,32 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="1238088358637">
       <link role="styleClass" targetNodeId="1219659527813" resolveInfo="DateCompactKeyWord" />
       <link role="relationDeclaration" targetNodeId="2.1156235010670" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1238248097333">
+    <property name="package" value="operation.math" />
+    <link role="conceptDeclaration" targetNodeId="1.1238248029297" resolveInfo="BinaryDateTimeOperation" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1238248101936">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="1238248107986">
+        <link role="relationDeclaration" targetNodeId="2.1137473891462" resolveInfo="alias" />
+        <link role="styleClass" targetNodeId="48.1198596388230" resolveInfo="StaticMethod" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1238248316838">
+        <link role="relationDeclaration" targetNodeId="1.1238248060720" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1238248637597">
+        <property name="text" value=", " />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="1238252024959">
+          <property name="flag" value="true" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="1238252032727">
+          <property name="flag" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1238248643427">
+        <link role="relationDeclaration" targetNodeId="1.1238248060893" />
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1238248101938" />
     </node>
   </node>
 </model>

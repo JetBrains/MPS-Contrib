@@ -46,7 +46,6 @@ public class Dates_StyleSheet {
     return new Style(cell) {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getField(null));
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
     };
   }

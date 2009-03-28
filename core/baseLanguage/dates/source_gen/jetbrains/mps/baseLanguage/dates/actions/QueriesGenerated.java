@@ -8,6 +8,7 @@ import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.baseLanguage.dates.structure.Dates_Language;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
@@ -48,6 +49,10 @@ public class QueriesGenerated {
       }
     }
     return dto != null && SLinkOperations.getTarget(dto, "datetimeProperty", false) == null;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1238258026282(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return SNodeOperations.getParent(_context.getSourceNode()).getModel().hasLanguage(Dates_Language.MODULE_REFERENCE);
   }
 
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1169657550853(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
@@ -313,6 +318,31 @@ public class QueriesGenerated {
 
         public String getDescriptionText(String pattern) {
           return "add compare precision";
+        }
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1238254013744(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = new ArrayList<INodeSubstituteAction>();
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant");
+      result.add(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+
+        public SNode doSubstitute(String pattern) {
+          SNode period = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", null);
+          SLinkOperations.setTarget(period, "count", SNodeOperations.copyNode(_context.getSourceNode()), true);
+          SNodeOperations.replaceWithAnother(_context.getSourceNode(), period);
+          return period;
+        }
+
+        public String getMatchingText(String pattern) {
+          return " ";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
         }
       });
     }

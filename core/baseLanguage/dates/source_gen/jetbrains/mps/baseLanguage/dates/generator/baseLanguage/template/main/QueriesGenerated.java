@@ -17,6 +17,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
@@ -190,6 +191,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_1224665153509(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(DatesQueriesUtil.findEnclosingTableClass2(_context.getNode(), _context), "constructor", true)).first();
+  }
+
+  public static Object referenceMacro_GetReferent_1238250077737(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SConceptPropertyOperations.getString(_context.getNode(), "alias");
   }
 
   public static boolean ifMacro_Condition_1174047333019(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -421,6 +426,14 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1217888428891(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_1238250053372(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_1238250058438(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
   }
 

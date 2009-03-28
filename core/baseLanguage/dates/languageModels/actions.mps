@@ -11,6 +11,7 @@
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
+  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -1151,6 +1152,98 @@
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546172424" />
     </node>
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178550126504" />
+  </node>
+  <node type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActions" id="1238253999712">
+    <property name="name" value="periodTrnsformation" />
+    <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="1238254013744">
+      <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+      <node role="part" type="jetbrains.mps.lang.actions.structure.AddMenuPart" id="1238254103997">
+        <link role="concept" targetNodeId="1.1172489559047" resolveInfo="PeriodConstant" />
+        <node role="part" type="jetbrains.mps.lang.actions.structure.SimpleSideTransformMenuPart" id="1238254117248">
+          <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_Handler" id="1238254117249">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238254117250">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1238254275316">
+                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1238254275317">
+                  <property name="name" value="period" />
+                  <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238254275318">
+                    <link role="concept" targetNodeId="1.1172489559047" resolveInfo="PeriodConstant" />
+                  </node>
+                  <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1238254295479">
+                    <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeCreator" id="1238254295480">
+                      <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238254295481">
+                        <link role="concept" targetNodeId="1.1172489559047" resolveInfo="PeriodConstant" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1238254308081">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238254324182">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238254308911">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238254308082">
+                      <link role="variableDeclaration" targetNodeId="1238254275317" resolveInfo="period" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238254312134">
+                      <link role="link" targetNodeId="1.1172491543832" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="1238254325920">
+                    <node role="linkTarget" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238254333991">
+                      <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1238254332270" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" id="1238254335027" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1238254404970">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238254405597">
+                  <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1238254404971" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1238254407008">
+                    <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238254409228">
+                      <link role="variableDeclaration" targetNodeId="1238254275317" resolveInfo="period" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1238254301874">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238254303423">
+                  <link role="variableDeclaration" targetNodeId="1238254275317" resolveInfo="period" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.lang.actions.structure.SideTransform_SimpleString" id="1238254120345">
+            <property name="text" value=" " />
+          </node>
+        </node>
+      </node>
+      <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="1238258026282">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238258026283">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1238258028067">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238258241595">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238258160877">
+                <node role="operand" type="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" id="1238258037406">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238258028554">
+                    <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1238258028068" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" id="1238258036342" />
+                  </node>
+                </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238258185303">
+                  <link role="baseMethodDeclaration" targetNodeId="14.~SNode.getModel():jetbrains.mps.smodel.SModel" resolveInfo="getModel" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238258285725">
+                <link role="baseMethodDeclaration" targetNodeId="14.~SModel.hasLanguage(jetbrains.mps.project.structure.modules.ModuleReference):boolean" resolveInfo="hasLanguage" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1238258292242">
+                  <link role="classifier" targetNodeId="24.~Dates_Language" resolveInfo="Dates_Language" />
+                  <link role="variableDeclaration" targetNodeId="24.~Dates_Language.MODULE_REFERENCE" resolveInfo="MODULE_REFERENCE" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
