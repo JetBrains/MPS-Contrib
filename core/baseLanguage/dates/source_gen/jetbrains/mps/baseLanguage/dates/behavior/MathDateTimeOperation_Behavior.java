@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.baseLanguage.dates.behavior._Quotations;
+import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
 
 public class MathDateTimeOperation_Behavior {
 
@@ -27,6 +28,7 @@ public class MathDateTimeOperation_Behavior {
     can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new _Quotations.QuotationClass_2().createNode());
     can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new _Quotations.QuotationClass_3().createNode());
     can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new _Quotations.QuotationClass_4().createNode());
+    can = can || DateTypeUtil.isInstanceOfPeriod(expression);
     return can;
   }
 

@@ -77,8 +77,11 @@
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178371373915">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="1186142458707">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1186142462210">
-          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777953283">
-            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1196777953284" />
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238418626296">
+            <node role="quotedNode" type="jetbrains.mps.lang.typesystem.structure.JoinType" id="1238418628329">
+              <node role="argument" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238418633111" />
+              <node role="argument" type="jetbrains.mps.baseLanguage.dates.structure.PeriodType" id="1238418641911" />
+            </node>
           </node>
         </node>
         <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1186142458709">
@@ -145,7 +148,10 @@
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="1186143081061">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1186143084610">
           <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1196777953285">
-            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1196777953286" />
+            <node role="quotedNode" type="jetbrains.mps.lang.typesystem.structure.JoinType" id="1238413983143">
+              <node role="argument" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238413989894" />
+              <node role="argument" type="jetbrains.mps.baseLanguage.dates.structure.PeriodType" id="1238414007287" />
+            </node>
           </node>
         </node>
         <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1186143081063">
