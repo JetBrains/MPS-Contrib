@@ -16,7 +16,6 @@ public class XMLDeprecatedStyles_StyleSheet {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
       }
-
     };
   }
 
@@ -26,7 +25,6 @@ public class XMLDeprecatedStyles_StyleSheet {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
       }
-
     };
   }
 
@@ -36,7 +34,6 @@ public class XMLDeprecatedStyles_StyleSheet {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
       }
-
     };
   }
 
@@ -46,7 +43,6 @@ public class XMLDeprecatedStyles_StyleSheet {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
       }
-
     };
   }
 

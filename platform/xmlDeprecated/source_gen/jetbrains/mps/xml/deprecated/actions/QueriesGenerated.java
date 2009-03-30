@@ -44,7 +44,6 @@ public class QueriesGenerated {
           public String getVisibleMatchingText(String pattern) {
             return this.getMatchingText(pattern);
           }
-
         });
       }
     }
@@ -72,7 +71,6 @@ public class QueriesGenerated {
           public String getVisibleMatchingText(String pattern) {
             return this.getMatchingText(pattern);
           }
-
         });
       }
     }
@@ -86,7 +84,7 @@ public class QueriesGenerated {
       result.add(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
 
         public SNode doSubstitute(String pattern) {
-          //  add next attribute
+          //            add next attribute
           SNode nextAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
           SPropertyOperations.set(nextAttr, "name", StringUtils.trim(pattern));
           SNodeOperations.insertNextSiblingChild(_context.getSourceNode(), nextAttr);
@@ -100,7 +98,6 @@ public class QueriesGenerated {
         public String getVisibleMatchingText(String pattern) {
           return this.getMatchingText(pattern);
         }
-
       });
     }
     return result;

@@ -16,6 +16,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.xml.deprecated.editor.XMLDeprecatedStyles_StyleSheet;
 
 public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
 
@@ -141,7 +142,6 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
