@@ -208,6 +208,9 @@
               </node>
             </node>
           </node>
+          <node role="part" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" id="1238503552277">
+            <property name="value" value="&gt;" />
+          </node>
         </node>
       </node>
     </node>
