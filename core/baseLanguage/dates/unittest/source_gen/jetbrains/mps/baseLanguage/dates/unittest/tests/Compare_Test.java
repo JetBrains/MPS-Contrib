@@ -37,8 +37,12 @@ public class Compare_Test extends TestCase {
   }
 
   @Test()
-  public void test_minMax() throws Exception {
+  public void test_min() throws Exception {
     Assert.assertTrue(DateTimeOperations.compare((Math.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24)))), CompareType.valueOf("LT"), DateTimeOperations.convert(Period.days(1)), DateTimeFieldType.millisOfSecond()));
+  }
+
+  @Test()
+  public void test_max() throws Exception {
     Assert.assertFalse(DateTimeOperations.compare((Math.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2)))), CompareType.valueOf("EQ"), DateTimeOperations.convert(Period.hours(24)), DateTimeFieldType.millisOfSecond()));
   }
 
