@@ -69,7 +69,6 @@ public class GLine_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -152,7 +151,6 @@ public class GLine_Editor extends DefaultNodeEditor {
             this.set(StyleAttributes.EDITABLE, true);
             this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
           }
-
         };
         inlineStyle.apply(editorCell);
       }

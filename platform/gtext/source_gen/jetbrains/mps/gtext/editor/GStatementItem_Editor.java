@@ -102,7 +102,6 @@ public class GStatementItem_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -115,7 +114,6 @@ public class GStatementItem_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -128,7 +126,6 @@ public class GStatementItem_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
