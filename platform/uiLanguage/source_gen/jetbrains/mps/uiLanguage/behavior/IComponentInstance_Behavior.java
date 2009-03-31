@@ -21,7 +21,6 @@ public class IComponentInstance_Behavior {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(it, "jetbrains.mps.uiLanguage.structure.LayoutConstraint");
       }
-
     }).first();
   }
 

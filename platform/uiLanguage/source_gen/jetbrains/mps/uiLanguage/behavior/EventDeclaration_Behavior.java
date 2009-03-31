@@ -16,7 +16,7 @@ public class EventDeclaration_Behavior {
     if (ListSequence.fromList(SLinkOperations.getTargets(handler, "parameter", true)).count() != ListSequence.fromList(SLinkOperations.getTargets(thisNode, "parameter", true)).count()) {
       return "handler's parameter number is not equal with event's parameter number";
     }
-    for(int i = 0 ; i < ListSequence.fromList(SLinkOperations.getTargets(handler, "parameter", true)).count() ; i = i + 1) {
+    for(int i = 0 ; i < ListSequence.fromList(SLinkOperations.getTargets(handler, "parameter", true)).count() ; i++ ) {
       String handlerParamType = Type_Behavior.call_getErasureSignature_1213877337313(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(handler, "parameter", true)).getElement(i), "type", true));
       String eventParamType = Type_Behavior.call_getErasureSignature_1213877337313(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "parameter", true)).getElement(i), "type", true));
       if (!(eventParamType.equals(handlerParamType))) {

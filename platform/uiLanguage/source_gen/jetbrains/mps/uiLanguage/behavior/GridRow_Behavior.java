@@ -4,10 +4,12 @@ package jetbrains.mps.uiLanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
+import jetbrains.mps.uiLanguage.behavior.Grid_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.uiLanguage.behavior._Quotations;
 
 public class GridRow_Behavior {
 
@@ -18,7 +20,7 @@ public class GridRow_Behavior {
     int columnCount = Grid_Behavior.call_getColumnsCount_1213877333391(SNodeOperations.getParent(thisNode));
     List<SNode> result = ListOperations.<SNode>createList();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)));
-    for(int i = 0 ; i < columnCount - ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)).count() ; i = i + 1) {
+    for(int i = 0 ; i < columnCount - ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)).count() ; i++ ) {
       ListSequence.fromList(result).addElement(new _Quotations.QuotationClass_0().createNode());
     }
     return result;
