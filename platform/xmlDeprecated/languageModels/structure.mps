@@ -67,6 +67,10 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1107866767486">
     <property name="name" value="ElementPart" />
     <link role="extends" targetNodeId="2.1133920641626" />
+    <node role="conceptPropertyDeclaration" type="jetbrains.mps.lang.structure.structure.BooleanConceptPropertyDeclaration" id="1238507681142">
+      <property name="name" value="indented" />
+      <property name="inheritable" value="true" />
+    </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1175152583383">
       <link role="intfc" targetNodeId="2.1169194658468" />
     </node>
@@ -96,6 +100,9 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1220991225806">
       <property name="value" value="element" />
       <link role="conceptPropertyDeclaration" targetNodeId="2.1137473914776" resolveInfo="short_description" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1238507706839">
+      <link role="conceptPropertyDeclaration" targetNodeId="1238507681142" resolveInfo="indented" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1107866821377">
