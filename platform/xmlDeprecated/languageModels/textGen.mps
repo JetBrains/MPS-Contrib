@@ -26,8 +26,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="1" />
+  <maxImportIndex value="3" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
+  <import index="2" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
+  <import index="3" modelUID="f:java_stub#org.jdom.output(org.jdom.output@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration" id="1238415156895">
     <link role="conceptDeclaration" targetNodeId="1.1119976146404" resolveInfo="Document" />
     <node role="textGenBlock" type="jetbrains.mps.lang.textGen.structure.GenerateTextDeclaration" id="1238415156896">
@@ -291,11 +293,20 @@
           <node role="part" type="jetbrains.mps.lang.textGen.structure.ConstantStringAppendPart" id="1238415892877">
             <property name="value" value="=&quot;" />
           </node>
-          <node role="part" type="jetbrains.mps.lang.textGen.structure.NodeAppendPart" id="1238415896641">
-            <node role="value" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238415898485">
-              <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1238415898287" />
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1238415901093">
-                <link role="property" targetNodeId="1.1107866755246" resolveInfo="value" />
+          <node role="part" type="jetbrains.mps.lang.textGen.structure.NodeAppendPart" id="1238604468779">
+            <node role="value" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238605003952">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1238604999741">
+                <link role="baseMethodDeclaration" targetNodeId="2.~JDOMUtil.createOutputter():org.jdom.output.XMLOutputter" resolveInfo="createOutputter" />
+                <link role="classConcept" targetNodeId="2.~JDOMUtil" resolveInfo="JDOMUtil" />
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238605041661">
+                <link role="baseMethodDeclaration" targetNodeId="3.~XMLOutputter.escapeElementEntities(java.lang.String):java.lang.String" resolveInfo="escapeElementEntities" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238605045288">
+                  <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="1238605045169" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1238605047701">
+                    <link role="property" targetNodeId="1.1107866755246" resolveInfo="value" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
