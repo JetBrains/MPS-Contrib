@@ -24,7 +24,6 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention {
   public boolean isAvailableInChildNodes() {
     return true;
   }
-  
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Convert " + '\'' + (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) ?

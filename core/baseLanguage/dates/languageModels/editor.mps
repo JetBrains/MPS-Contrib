@@ -84,7 +84,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169488454762">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1238057685212" resolveInfo="LeftBlockBrace" />
+        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221883">
           <property name="flag" value="true" />
         </node>
@@ -105,7 +105,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169488458781">
         <property name="text" value="}" />
-        <link role="styleClass" targetNodeId="48.1238057795118" resolveInfo="RightBlockBrace" />
+        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221886">
           <property name="flag" value="true" />
         </node>
@@ -235,7 +235,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169563701049">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1238057685212" resolveInfo="LeftBlockBrace" />
+        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221874">
           <property name="flag" value="true" />
         </node>
@@ -255,7 +255,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169563728374">
         <property name="text" value="}" />
-        <link role="styleClass" targetNodeId="48.1238057795118" resolveInfo="RightBlockBrace" />
+        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="1237800221877">
           <property name="flag" value="true" />
         </node>
