@@ -187,7 +187,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.DRAW_BRACKETS, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -200,7 +199,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -221,7 +219,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -242,7 +239,6 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }

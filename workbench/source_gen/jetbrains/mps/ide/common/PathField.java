@@ -34,7 +34,6 @@ public class PathField extends JPanel {
 
     public void initialize() {
     }
-
   };
 
   public PathField() {
@@ -97,7 +96,6 @@ public class PathField extends JPanel {
       public void actionPerformed(ActionEvent event) {
         myThis.choosePathClicked();
       }
-
     });
     return component;
   }

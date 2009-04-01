@@ -93,7 +93,6 @@ public class BindExpression_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.LAST_POSITION_ALLOWED, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -110,7 +109,6 @@ public class BindExpression_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.FIRST_POSITION_ALLOWED, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }

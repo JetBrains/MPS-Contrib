@@ -16,7 +16,6 @@ public class Stylesheet_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
       }
-
     };
   }
 
@@ -26,7 +25,6 @@ public class Stylesheet_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       }
-
     };
   }
 
@@ -36,7 +34,6 @@ public class Stylesheet_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
       }
-
     };
   }
 
@@ -46,7 +43,6 @@ public class Stylesheet_StyleSheet {
         this.putAll(Stylesheet_StyleSheet.getAttribute(null));
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       }
-
     };
   }
 
@@ -56,7 +52,6 @@ public class Stylesheet_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
       }
-
     };
   }
 
@@ -66,7 +61,6 @@ public class Stylesheet_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
       }
-
     };
   }
 
