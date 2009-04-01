@@ -31,12 +31,10 @@ public class XmlStyle_StyleSheet {
               cell.getEditorContext()
             ));
           }
-
         });
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
-
     };
   }
 
@@ -56,10 +54,8 @@ public class XmlStyle_StyleSheet {
               cell.getEditorContext()
             ));
           }
-
         });
       }
-
     };
   }
 
@@ -77,11 +73,9 @@ public class XmlStyle_StyleSheet {
               cell.getEditorContext()
             ));
           }
-
         });
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
-
     };
   }
 
@@ -92,7 +86,6 @@ public class XmlStyle_StyleSheet {
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
-
     };
   }
 
@@ -112,10 +105,8 @@ public class XmlStyle_StyleSheet {
               cell.getEditorContext()
             ));
           }
-
         });
       }
-
     };
   }
 
@@ -126,7 +117,6 @@ public class XmlStyle_StyleSheet {
         this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
-
     };
   }
 
@@ -138,7 +128,6 @@ public class XmlStyle_StyleSheet {
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.3, Measure.SPACES));
         this.set(StyleAttributes.SELECTABLE, false);
       }
-
     };
   }
 
@@ -147,7 +136,6 @@ public class XmlStyle_StyleSheet {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getLeftParen(null));
       }
-
     };
   }
 
@@ -156,7 +144,6 @@ public class XmlStyle_StyleSheet {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getRightParen(null));
       }
-
     };
   }
 
@@ -166,7 +153,6 @@ public class XmlStyle_StyleSheet {
         this.putAll(BaseLanguageStyle_StyleSheet.getLeftParen(null));
         this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
       }
-
     };
   }
 
@@ -176,7 +162,6 @@ public class XmlStyle_StyleSheet {
         this.putAll(BaseLanguageStyle_StyleSheet.getRightParen(null));
         this.set(StyleAttributes.PUNCTUATION_LEFT, true);
       }
-
     };
   }
 
@@ -186,7 +171,6 @@ public class XmlStyle_StyleSheet {
         this.putAll(XmlStyle_StyleSheet.getXmlOpenParen(null));
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
-
     };
   }
 
@@ -196,7 +180,6 @@ public class XmlStyle_StyleSheet {
         this.putAll(XmlStyle_StyleSheet.getXmlCloseParen(null));
         this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
-
     };
   }
 
@@ -205,7 +188,6 @@ public class XmlStyle_StyleSheet {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getLeftBrace(null));
       }
-
     };
   }
 
@@ -214,7 +196,6 @@ public class XmlStyle_StyleSheet {
       {
         this.putAll(BaseLanguageStyle_StyleSheet.getRightBrace(null));
       }
-
     };
   }
 

@@ -12,6 +12,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
+import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
@@ -226,7 +227,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
           this.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
           this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -239,7 +239,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -256,7 +255,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -270,7 +268,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -295,7 +292,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -313,7 +309,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.HORIZONTAL_GAP, new Padding(0.0, Measure.SPACES));
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -421,7 +416,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.EDITABLE, true);
           }
-
         };
         inlineStyle.apply(editorCell);
       }
@@ -493,7 +487,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.EDITABLE, true);
           }
-
         };
         inlineStyle.apply(editorCell);
       }
@@ -565,7 +558,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.EDITABLE, true);
           }
-
         };
         inlineStyle.apply(editorCell);
       }
@@ -637,7 +629,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
           {
             this.set(StyleAttributes.EDITABLE, true);
           }
-
         };
         inlineStyle.apply(editorCell);
       }

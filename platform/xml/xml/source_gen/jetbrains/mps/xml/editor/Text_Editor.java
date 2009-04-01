@@ -11,6 +11,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.FocusPolicy;
 
 public class Text_Editor extends DefaultNodeEditor {

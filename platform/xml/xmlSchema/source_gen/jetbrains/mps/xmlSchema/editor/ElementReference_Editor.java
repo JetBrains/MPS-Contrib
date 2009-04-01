@@ -18,6 +18,7 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
+import jetbrains.mps.xmlSchema.editor.XmlColorConstants;
 
 public class ElementReference_Editor extends DefaultNodeEditor {
 
@@ -122,10 +123,8 @@ public class ElementReference_Editor extends DefaultNodeEditor {
                   cell.getEditorContext()
                 ));
               }
-
             });
           }
-
         };
         inlineStyle.apply(editorCell);
       }

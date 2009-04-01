@@ -20,6 +20,7 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
+import jetbrains.mps.xmlSchema.editor.XmlColorConstants;
 
 public class ElementWithContent_Editor extends DefaultNodeEditor {
 
@@ -146,7 +147,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, true);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -159,7 +159,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -182,10 +181,8 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
                 cell.getEditorContext()
               ));
             }
-
           });
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -198,7 +195,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
@@ -211,7 +207,6 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.SELECTABLE, false);
         }
-
       };
       inlineStyle.apply(editorCell);
     }

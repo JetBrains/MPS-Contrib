@@ -19,6 +19,7 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
 
 public class BaseElement_attributeList extends AbstractCellProvider {
 

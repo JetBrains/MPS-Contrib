@@ -9,6 +9,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
@@ -195,7 +196,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createComponent_4669_0(EditorContext context, SNode node) {
     if (this.myTargetDeclaration_EditorComponent4669_0 == null) {
-      this.myTargetDeclaration_EditorComponent4669_0 = new jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent(node);
+      this.myTargetDeclaration_EditorComponent4669_0 = new TargetDeclaration_EditorComponent(node);
     }
     EditorCell editorCell = this.myTargetDeclaration_EditorComponent4669_0.createEditorCell(context);
     setupBasic_Component_4669_0(editorCell, node, context);
@@ -204,7 +205,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createComponent_4669_1(EditorContext context, SNode node) {
     if (this.myTargetDeclaration_EditorComponent4669_1 == null) {
-      this.myTargetDeclaration_EditorComponent4669_1 = new jetbrains.mps.buildlanguage.editor.TargetDeclaration_EditorComponent(node);
+      this.myTargetDeclaration_EditorComponent4669_1 = new TargetDeclaration_EditorComponent(node);
     }
     EditorCell editorCell = this.myTargetDeclaration_EditorComponent4669_1.createEditorCell(context);
     setupBasic_Component_4669_1(editorCell, node, context);

@@ -95,7 +95,6 @@ public class Element_elementDeclaration extends AbstractCellProvider {
         public boolean isValidText(String s) {
           return EqualUtil.equals(s, this.getText());
         }
-
       }, node);
       editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
       setupBasic_ReadOnlyModelAccessor_4639_0(editorCell, node, context);

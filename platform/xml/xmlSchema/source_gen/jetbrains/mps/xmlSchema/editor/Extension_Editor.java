@@ -131,7 +131,6 @@ public class Extension_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
         }
-
       };
       inlineStyle.apply(editorCell);
     }
