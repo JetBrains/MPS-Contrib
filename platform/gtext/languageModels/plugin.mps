@@ -41,29 +41,16 @@
         <link role="classifier" targetNodeId="6.~String" resolveInfo="String" />
       </node>
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1228676695110">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1228676816400">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1228676816401">
-            <property name="name" value="gd" />
-            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1228676816402">
-              <link role="classifier" targetNodeId="9.~GDocument" resolveInfo="GDocument" />
-            </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="1228676816403">
-              <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1228676816404">
-                <link role="classifier" targetNodeId="9.~GDocument" resolveInfo="GDocument" />
-              </node>
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1228676816405">
-                <link role="variableDeclaration" targetNodeId="1228676814445" resolveInfo="n" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1228676816406">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1228676816407">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1228676816408">
-              <link role="variableDeclaration" targetNodeId="1228676816401" resolveInfo="gd" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1238592571864">
+              <link role="property" targetNodeId="1.1184639664013" resolveInfo="extension" />
             </node>
-            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1228676816409">
-              <link role="baseMethodDeclaration" targetNodeId="9.~GDocument.getExtension():java.lang.String" resolveInfo="getExtension" />
+            <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1238592563628">
+              <link role="concept" targetNodeId="1.1184639540818" resolveInfo="GDocument" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1238592561549">
+                <link role="variableDeclaration" targetNodeId="1228676814445" resolveInfo="n" />
+              </node>
             </node>
           </node>
         </node>
@@ -71,9 +58,7 @@
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1228676714236" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1228676814445">
         <property name="name" value="n" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1228676814446">
-          <link role="classifier" targetNodeId="5.~INodeAdapter" resolveInfo="INodeAdapter" />
-        </node>
+        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238592554157" />
       </node>
     </node>
     <node role="isDefaultBlock" type="jetbrains.mps.lang.plugin.structure.IsDefaultBlock" id="1238589581836">
