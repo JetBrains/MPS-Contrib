@@ -170,7 +170,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   public static boolean renderingCondition1753_0(SNode node, EditorContext editorContext, IScope scope) {
     boolean result = true;
     if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, "count", true), "jetbrains.mps.baseLanguage.structure.IntegerConstant")) {
-      return SPropertyOperations.getInteger(SLinkOperations.getTarget(node, "count", true), "value") != 1;
+      return SPropertyOperations.getInteger(SNodeOperations.cast(SLinkOperations.getTarget(node, "count", true), "jetbrains.mps.baseLanguage.structure.IntegerConstant"), "value") != 1;
     }
     return result;
   }

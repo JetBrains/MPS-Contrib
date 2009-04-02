@@ -119,7 +119,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1219774096052(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SPropertyOperations.getBoolean(_context.getNode(), "checkOnStart");
+    return SPropertyOperations.getBoolean(SNodeOperations.cast(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"), "checkOnStart");
   }
 
   public static boolean ifMacro_Condition_1229186350652(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -194,7 +194,7 @@ public class QueriesGenerated {
 
       public boolean accept(SNode it) {
         SNode propertyDeclaration = SLinkOperations.getTarget(it, "propertyDeclaration", false);
-        return SNodeOperations.isInstanceOf(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration") && !(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "propertyList", true)).contains(propertyDeclaration)) && !(SPropertyOperations.getBoolean(propertyDeclaration, "checkOnStart"));
+        return SNodeOperations.isInstanceOf(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration") && !(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "propertyList", true)).contains(propertyDeclaration)) && !(SPropertyOperations.getBoolean(SNodeOperations.cast(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"), "checkOnStart"));
       }
     });
     Iterable<SNode> decls = Sequence.fromIterable(externalReferences).select(new ISelector <SNode, SNode>() {

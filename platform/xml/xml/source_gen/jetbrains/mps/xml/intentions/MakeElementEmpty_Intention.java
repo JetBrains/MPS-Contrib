@@ -33,7 +33,7 @@ public class MakeElementEmpty_Intention extends BaseIntention {
     SNode contentList = SLinkOperations.getTarget(node, "contentList", true);
     List<SNode> contents = SLinkOperations.getTargets(contentList, "content", true);
     int count = ListSequence.fromList(contents).count();
-    return !(SPropertyOperations.getBoolean(node, "isEmpty")) && (count == 0 || count == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(contents).first(), "jetbrains.mps.xml.structure.Text") && SPropertyOperations.hasValue(ListSequence.fromList(contents).first(), "text", null));
+    return !(SPropertyOperations.getBoolean(node, "isEmpty")) && (count == 0 || count == 1 && SNodeOperations.isInstanceOf(ListSequence.fromList(contents).first(), "jetbrains.mps.xml.structure.Text") && SPropertyOperations.hasValue(SNodeOperations.cast(ListSequence.fromList(contents).first(), "jetbrains.mps.xml.structure.Text"), "text", null));
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {

@@ -42,7 +42,7 @@ public class SurroundWithContentList_Intention extends BaseIntention {
     SNode first = selectedNodes.get(0);
     SNodeOperations.insertPrevSiblingChild(first, contentList);
     for(SNode selectedNode : ListSequence.fromList(selectedNodes)) {
-      SLinkOperations.addChild(contentList, "content", selectedNode);
+      SLinkOperations.addChild(contentList, "content", SNodeOperations.cast(selectedNode, "jetbrains.mps.xml.structure.Content"));
     }
     SLinkOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");
   }

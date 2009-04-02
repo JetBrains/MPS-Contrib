@@ -38,14 +38,14 @@ public class QueriesGenerated {
     SNode current = _context.getSourceNode();
     SNode dto = null;
     if (SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation")) {
-      dto = current;
+      dto = SNodeOperations.cast(current, "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation");
     } else
     {
       while (SNodeOperations.hasRole(current, "jetbrains.mps.baseLanguage.structure.BinaryOperation", "rightExpression")) {
-        current = SNodeOperations.getParent(current);
+        current = SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.BinaryOperation");
       }
       if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation")) {
-        dto = SNodeOperations.getParent(current);
+        dto = SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation");
       }
     }
     return dto != null && SLinkOperations.getTarget(dto, "datetimeProperty", false) == null;

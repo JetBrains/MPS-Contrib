@@ -213,7 +213,7 @@ public class QueriesGenerated {
     List<SNode> statements = SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "condition", true), "body", true), "statement", true);
     SNode e = null;
     if (!(ListSequence.fromList(statements).isEmpty())) {
-      e = SLinkOperations.getTarget(ListSequence.fromList(statements).last(), "expression", true);
+      e = SLinkOperations.getTarget(SNodeOperations.cast(ListSequence.fromList(statements).last(), "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true);
     } else
     {
       _context.showErrorMessage(_context.getNode(), "Condition is empty");

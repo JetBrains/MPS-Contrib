@@ -18,7 +18,7 @@ public class Content_Behavior {
   public static boolean call_isSeparate_1213877224266(SNode thisNode) {
     SNode parent = SNodeOperations.getParent(thisNode);
     if (SNodeOperations.isInstanceOf(parent, "jetbrains.mps.xml.structure.ContentList")) {
-      if (!(ContentList_Behavior.call_isHorizontal_1221256530294(parent))) {
+      if (!(ContentList_Behavior.call_isHorizontal_1221256530294(SNodeOperations.cast(parent, "jetbrains.mps.xml.structure.ContentList")))) {
         return true;
       }
     }

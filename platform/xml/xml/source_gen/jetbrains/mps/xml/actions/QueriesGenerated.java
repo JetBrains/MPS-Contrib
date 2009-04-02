@@ -33,19 +33,19 @@ public class QueriesGenerated {
 
   public static void nodeFactory_NodeSetup_ComplexText_1178622222481(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText")) {
-      SLinkOperations.addChild(_context.getNewNode(), "text", _context.getSampleNode());
+      SLinkOperations.addChild(_context.getNewNode(), "text", SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText"));
     }
   }
 
   public static void nodeFactory_NodeSetup_ContentList_1178622500723(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
-      SLinkOperations.addChild(_context.getNewNode(), "content", _context.getSampleNode());
+      SLinkOperations.addChild(_context.getNewNode(), "content", SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
     }
   }
 
   public static void nodeFactory_NodeSetup_Element_1188911043247(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
-      SLinkOperations.addChild(SLinkOperations.getTarget(_context.getNewNode(), "contentList", true), "content", _context.getSampleNode());
+      SLinkOperations.addChild(SLinkOperations.getTarget(_context.getNewNode(), "contentList", true), "content", SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
     }
   }
 
@@ -132,7 +132,7 @@ public class QueriesGenerated {
 
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode prototype;
-                if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(_context.getCurrentTargetNode(), "text"))) {
+                if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(SNodeOperations.cast(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text"), "text"))) {
                   prototype = null;
                 } else
                 {

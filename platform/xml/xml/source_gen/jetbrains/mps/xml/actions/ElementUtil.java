@@ -33,11 +33,11 @@ public class ElementUtil {
         break;
       }
       if (SNodeOperations.isInstanceOf(currentNode, "jetbrains.mps.xml.structure.Element")) {
-        elementDeclaration = SLinkOperations.getTarget(currentNode, "elementDeclaration", false);
+        elementDeclaration = SLinkOperations.getTarget(SNodeOperations.cast(currentNode, "jetbrains.mps.xml.structure.Element"), "elementDeclaration", false);
         break;
       }
       if (SNodeOperations.isInstanceOf(currentNode, "jetbrains.mps.xml.structure.Content")) {
-        SNode content = currentNode;
+        SNode content = SNodeOperations.cast(currentNode, "jetbrains.mps.xml.structure.Content");
         elementDeclaration = ListSequence.fromList(SLinkOperations.getConceptLinkTargets(content, "correspondingElement")).first();
         if ((elementDeclaration != null)) {
           break;
@@ -54,7 +54,7 @@ public class ElementUtil {
     if ((element == null)) {
       SNode containingRoot = SNodeOperations.getContainingRoot(node);
       if (SNodeOperations.isInstanceOf(containingRoot, "jetbrains.mps.xml.structure.XmlRoot")) {
-        schema = XmlRoot_Behavior.call_getSchema_1213877420378(containingRoot, scope);
+        schema = XmlRoot_Behavior.call_getSchema_1213877420378(SNodeOperations.cast(containingRoot, "jetbrains.mps.xml.structure.XmlRoot"), scope);
       }
     } else
     {
