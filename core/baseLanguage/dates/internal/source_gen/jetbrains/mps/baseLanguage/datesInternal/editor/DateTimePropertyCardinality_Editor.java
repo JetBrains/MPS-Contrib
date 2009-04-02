@@ -13,6 +13,8 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 
 public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
 
@@ -101,6 +103,14 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Collection_6238_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_6238_0");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Property_6238_0(EditorCell editorCell, SNode node, EditorContext context) {

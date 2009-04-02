@@ -34,7 +34,7 @@ public class DateTimeZone_Test extends BaseTestCase {
   @Test()
   public void test_westernHemisphereDate() throws Exception {
     Long yesterday = DateTimeOperations.minus(System.currentTimeMillis(), Period.days(1));
-    Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullTime(), Locale.US, DateTimeZone.forOffsetHoursMinutes(5, 0))).equals(DateTimeOperations.print((DateTimeOperations.minus(yesterday, Period.hours(2))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forOffsetHoursMinutes(7, 0))));
+    Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forOffsetHoursMinutes(5, 0))).equals(DateTimeOperations.print((DateTimeOperations.plus(yesterday, Period.hours(22))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forOffsetHoursMinutes(7, 0))));
   }
 
 }

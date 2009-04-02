@@ -2088,8 +2088,8 @@
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238684183352">
                 <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238684183353">
                   <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
-                  <link role="dateFormat" targetNodeId="1.1173884489979" resolveInfo="fullTime" />
                   <link role="locale" targetNodeId="1.1172681410396" resolveInfo="US" />
+                  <link role="dateFormat" targetNodeId="1.1173884354722" resolveInfo="fullDate" />
                   <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238684183354">
                     <link role="variableDeclaration" targetNodeId="1238684167956" resolveInfo="yesterday" />
                   </node>
@@ -2102,11 +2102,11 @@
                   <link role="dateFormat" targetNodeId="1.1173884354722" resolveInfo="fullDate" />
                   <link role="locale" targetNodeId="1.1172681410396" resolveInfo="US" />
                   <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238684191437">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1238684191438">
-                      <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238684191439">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" id="1238686739977">
+                      <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238686744778">
                         <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
-                        <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238684191440">
-                          <property name="value" value="2" />
+                        <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238686744779">
+                          <property name="value" value="22" />
                         </node>
                       </node>
                       <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238684191441">

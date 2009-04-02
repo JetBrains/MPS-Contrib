@@ -14,6 +14,11 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet;
+import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
 public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
@@ -203,10 +208,20 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Property_7531_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_letter");
+    BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_7531_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7531_0");
+    BaseLanguageStyle_StyleSheet.getLeftBracket(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_RefCell_7531_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -214,6 +229,15 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_7531_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7531_1");
+    BaseLanguageStyle_StyleSheet.getRightBracket(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Constant_7531_2(EditorCell editorCell, SNode node, EditorContext context) {
@@ -226,14 +250,41 @@ public class DateTimePropertyFormatType_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_7531_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7531_3");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Property_7531_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_examples");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Constant_7531_4(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7531_4");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
+          this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_Property_7531_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
 public class PredefinedDateFormat_Editor extends DefaultNodeEditor {
 
@@ -75,6 +76,7 @@ public class PredefinedDateFormat_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_0047_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_0047_0");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_RefNode_0047_0(EditorCell editorCell, SNode node, EditorContext context) {
