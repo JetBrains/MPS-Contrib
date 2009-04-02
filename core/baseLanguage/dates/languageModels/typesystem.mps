@@ -837,8 +837,8 @@
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238513806588">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1238513939851">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238513942965">
-          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238513942966">
-            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneType" id="1238513944983" />
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238685880223">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1238685891194" />
           </node>
         </node>
         <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238513939854">
