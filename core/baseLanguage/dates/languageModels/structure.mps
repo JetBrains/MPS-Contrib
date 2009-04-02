@@ -266,11 +266,6 @@
       <property name="role" value="dateExpression" />
       <link role="target" targetNodeId="3.1068431790191" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1238516582463">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="zone" />
-      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169557643590">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="dateFormat" />
@@ -280,6 +275,11 @@
       <property name="metaClass" value="reference" />
       <property name="role" value="locale" />
       <link role="target" targetNodeId="2.1172680728258" resolveInfo="Locale" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1238676918828">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="zone" />
+      <link role="target" targetNodeId="2.1238668259228" resolveInfo="DateTimeZone" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1169557687716">
       <property name="value" value="#" />
@@ -695,6 +695,11 @@
       <property name="role" value="locale" />
       <link role="target" targetNodeId="2.1172680728258" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1238679007242">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="zone" />
+      <link role="target" targetNodeId="2.1238668259228" resolveInfo="DateTimeZone" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174317913525">
     <property name="name" value="DateTimeOffsetFormatToken" />
@@ -1103,7 +1108,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238513516532">
-    <property name="name" value="TimeZoneType" />
+    <property name="name" value="DateTimeZoneType" />
     <link role="extends" targetNodeId="3.1164118113764" resolveInfo="PrimitiveType" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1238513542030">
       <property name="value" value="timezone" />
@@ -1135,10 +1140,6 @@
       <property name="value" value="UTC timezone" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238514866932">
-    <property name="name" value="TimeZoneCreator" />
-    <link role="extends" targetNodeId="3.1145552809883" resolveInfo="AbstractCreator" />
   </node>
 </model>
 

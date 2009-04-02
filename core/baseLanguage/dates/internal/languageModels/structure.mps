@@ -224,6 +224,12 @@
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="1194006427224" resolveInfo="SchedulePeriod" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1238668248086">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="zone" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="1238668259228" resolveInfo="DateTimeZone" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172680728258">
     <property name="name" value="Locale" />
@@ -411,6 +417,25 @@
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1194006543511">
       <property name="name" value="month" />
       <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238668259228">
+    <property name="name" value="DateTimeZone" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1238668275511">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1238673611896">
+      <property name="name" value="sign" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1238673965483">
+      <property name="name" value="hour" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1238673978766">
+      <property name="name" value="minute" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
   </node>
 </model>

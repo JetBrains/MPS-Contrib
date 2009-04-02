@@ -861,6 +861,54 @@
       <property name="pluralForm" value="eras" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.era():org.joda.time.DateTimeFieldType" resolveInfo="era" />
     </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676062546">
+      <property name="hour" value="05" />
+      <property name="sign" value="-" />
+      <property name="name" value="NEWYORK" />
+      <property name="minute" value="00" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676299018">
+      <property name="name" value="LONDON" />
+      <property name="hour" value="00" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676329036">
+      <property name="name" value="BERLIN" />
+      <property name="hour" value="01" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238675442422">
+      <property name="hour" value="03" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
+      <property name="name" value="MOSCOW" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676468930">
+      <property name="name" value="NEWDELHI" />
+      <property name="hour" value="05" />
+      <property name="minute" value="30" />
+      <property name="sign" value="+" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676634201">
+      <property name="name" value="BANGKOK" />
+      <property name="hour" value="07" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676682406">
+      <property name="name" value="TOKYO" />
+      <property name="hour" value="09" />
+      <property name="sign" value="+" />
+      <property name="minute" value="00" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676740784">
+      <property name="name" value="SYDNEY" />
+      <property name="sign" value="+" />
+      <property name="hour" value="10" />
+      <property name="minute" value="00" />
+    </node>
   </node>
 </model>
 

@@ -14,6 +14,9 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class Month_Editor extends DefaultNodeEditor {
 
@@ -163,11 +166,21 @@ public class Month_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Property_9052_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_name");
+    BaseLanguageStyle_StyleSheet.getStaticField(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_9052_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9052_0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Property_9052_1(EditorCell editorCell, SNode node, EditorContext context) {
@@ -176,6 +189,7 @@ public class Month_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9052_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9052_1");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Property_9052_2(EditorCell editorCell, SNode node, EditorContext context) {
@@ -189,6 +203,15 @@ public class Month_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_9052_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9052_3");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
+          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_Property_9052_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

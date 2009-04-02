@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
 public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
@@ -21,7 +22,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_8932_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_8932_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -255,6 +256,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Property_8932_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_name");
+    BaseLanguageStyle_StyleSheet.getStaticField(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Property_8932_1(EditorCell editorCell, SNode node, EditorContext context) {

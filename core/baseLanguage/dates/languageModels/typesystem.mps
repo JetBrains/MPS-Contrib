@@ -172,8 +172,8 @@
       </node>
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1238516615256">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238516617244">
-          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238516617245">
-            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneType" id="1238516625654" />
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238681155697">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1238681158761" />
           </node>
         </node>
         <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238516615259">
@@ -182,8 +182,8 @@
               <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1238516610066">
                 <link role="applicableNode" targetNodeId="1178371373847" resolveInfo="formatExpression" />
               </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238516610067">
-                <link role="link" targetNodeId="2.1238516582463" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238676986899">
+                <link role="link" targetNodeId="2.1238676918828" />
               </node>
             </node>
           </node>

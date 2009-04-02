@@ -148,6 +148,30 @@ public class QueriesGenerated {
     return DatesQueriesUtil.FORMAL_TABLES_CONTAINER;
   }
 
+  public static Object propertyMacro_GetPropertyValue_1238680435649(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    int result = Integer.valueOf(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "zone", false), "hour"));
+    if (SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "zone", false), "sign") == "-") {
+      result = -1 * result;
+    }
+    return result;
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1238680552954(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Integer.valueOf(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "zone", false), "minute"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1238680630638(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    int result = Integer.valueOf(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "zone", false), "hour"));
+    if (SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "zone", false), "sign") == "-") {
+      result = -1 * result;
+    }
+    return result;
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1238680636329(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Integer.valueOf(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "zone", false), "minute"));
+  }
+
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode cc = _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ConditionalDateTimePrinterImpl");
     return ListSequence.fromList(SLinkOperations.getTargets(cc, "constructor", true)).first();
@@ -201,12 +225,16 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
   }
 
-  public static boolean ifMacro_Condition_1238663921422(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "zone", true) != null);
-  }
-
   public static boolean ifMacro_Condition_1238664043050(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
+  }
+
+  public static boolean ifMacro_Condition_1238680377315(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "zone", false) != null);
+  }
+
+  public static boolean ifMacro_Condition_1238680774477(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "zone", false) != null);
   }
 
   public static SNode sourceNodeQuery_1169643653531(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -439,10 +467,6 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1238663921414(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
-  }
-
-  public static SNode sourceNodeQuery_1238663921433(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "zone", true);
   }
 
   public static SNode sourceNodeQuery_1238663967239(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

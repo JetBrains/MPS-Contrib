@@ -1919,5 +1919,211 @@
       <link role="classifier" targetNodeId="1173787596138" resolveInfo="BaseTest" />
     </node>
   </node>
+  <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1238681295329">
+    <property name="testCaseName" value="DateTimeZone" />
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1238681295330" />
+    <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="1238681295331">
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1238681295332" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1238681295333" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238681295334" />
+    </node>
+    <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethodList" id="1238681295335">
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1238681325228">
+        <property name="methodName" value="tokyoAndMoscowShortTime" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1238681325229" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238681325230">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1238681349283">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1238681349284">
+              <property name="name" value="current" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238681349285" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1238681352599" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1238681502819">
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238681563415">
+              <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
+              <link role="dateFormat" targetNodeId="1.1173884323756" resolveInfo="shortTime" />
+              <link role="locale" targetNodeId="1.1172681496091" resolveInfo="RU" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238681557692">
+                <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" id="1238681768448">
+                  <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238681772171">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                    <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238681770013">
+                      <property name="value" value="6" />
+                    </node>
+                  </node>
+                  <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238681764947">
+                    <link role="variableDeclaration" targetNodeId="1238681349284" resolveInfo="d" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238681508823">
+              <link role="zone" targetNodeId="1.1238676682406" resolveInfo="TOKYO" />
+              <link role="dateFormat" targetNodeId="1.1173884323756" resolveInfo="shortTime" />
+              <link role="locale" targetNodeId="1.1172681496091" resolveInfo="RU" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238681508824">
+                <link role="variableDeclaration" targetNodeId="1238681349284" resolveInfo="d" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1238681823348">
+        <property name="methodName" value="tokyoAndMoscowFullTime" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1238681823349" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238681823350">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1238681853228">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1238681853229">
+              <property name="name" value="current" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238681853230" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1238681853231" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertFalse" id="1238681869320">
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238681903707">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238681884762">
+                <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238681884763">
+                  <link role="locale" targetNodeId="1.1172681496091" resolveInfo="RU" />
+                  <link role="zone" targetNodeId="1.1238676682406" resolveInfo="TOKYO" />
+                  <link role="dateFormat" targetNodeId="1.1173884489979" resolveInfo="fullTime" />
+                  <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238681884764">
+                    <link role="variableDeclaration" targetNodeId="1238681853229" resolveInfo="d" />
+                  </node>
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238681906474">
+                <link role="baseMethodDeclaration" targetNodeId="2.~String.equals(java.lang.Object):boolean" resolveInfo="equals" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238681916600">
+                  <link role="locale" targetNodeId="1.1172681496091" resolveInfo="RU" />
+                  <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
+                  <link role="dateFormat" targetNodeId="1.1173884489979" resolveInfo="fullTime" />
+                  <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238681916601">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation" id="1238681916602">
+                      <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238681916603">
+                        <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                        <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238681916604">
+                          <property name="value" value="6" />
+                        </node>
+                      </node>
+                      <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238681916605">
+                        <link role="variableDeclaration" targetNodeId="1238681853229" resolveInfo="d" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1238683286985">
+        <property name="methodName" value="westernHemisphereTime" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1238683286986" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238683286987">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1238683391694">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1238683391695">
+              <property name="name" value="yesterday" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238683391696" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1238683449984">
+                <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238683452957">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238683450409">
+                    <property name="value" value="1" />
+                  </node>
+                </node>
+                <node role="leftValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1238683399870" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1238683493368">
+            <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238683692932">
+              <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
+              <link role="dateFormat" targetNodeId="1.1173884323756" resolveInfo="shortTime" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238683687696">
+                <link role="variableDeclaration" targetNodeId="1238683391695" resolveInfo="yesterday" />
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238683752926">
+              <link role="zone" targetNodeId="1.1238676634201" resolveInfo="BANGKOK" />
+              <link role="dateFormat" targetNodeId="1.1173884323756" resolveInfo="shortTime" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238683836920">
+                <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1238684103683">
+                  <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238684107218">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                    <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238684104514">
+                      <property name="value" value="2" />
+                    </node>
+                  </node>
+                  <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238683866525">
+                    <link role="variableDeclaration" targetNodeId="1238683391695" resolveInfo="yesterday" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1238684150341">
+        <property name="methodName" value="westernHemisphereDate" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1238684150342" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238684150343">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1238684167955">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1238684167956">
+              <property name="name" value="yesterday" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238684167957" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1238684167958">
+                <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238684167959">
+                  <link role="dateTimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
+                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238684167960">
+                    <property name="value" value="1" />
+                  </node>
+                </node>
+                <node role="leftValue" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1238684167961" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertFalse" id="1238684173613">
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238684186339">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238684183352">
+                <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238684183353">
+                  <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
+                  <link role="dateFormat" targetNodeId="1.1173884489979" resolveInfo="fullTime" />
+                  <link role="locale" targetNodeId="1.1172681410396" resolveInfo="US" />
+                  <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238684183354">
+                    <link role="variableDeclaration" targetNodeId="1238684167956" resolveInfo="yesterday" />
+                  </node>
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238684187653">
+                <link role="baseMethodDeclaration" targetNodeId="2.~String.equals(java.lang.Object):boolean" resolveInfo="equals" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238684191436">
+                  <link role="zone" targetNodeId="1.1238676634201" resolveInfo="BANGKOK" />
+                  <link role="dateFormat" targetNodeId="1.1173884354722" resolveInfo="fullDate" />
+                  <link role="locale" targetNodeId="1.1172681410396" resolveInfo="US" />
+                  <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1238684191437">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation" id="1238684191438">
+                      <node role="rightValue" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238684191439">
+                        <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                        <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238684191440">
+                          <property name="value" value="2" />
+                        </node>
+                      </node>
+                      <node role="leftValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238684191441">
+                        <link role="variableDeclaration" targetNodeId="1238684167956" resolveInfo="yesterday" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1238681320836">
+      <link role="classifier" targetNodeId="1173787596138" resolveInfo="BaseTestCase" />
+    </node>
+  </node>
 </model>
 
