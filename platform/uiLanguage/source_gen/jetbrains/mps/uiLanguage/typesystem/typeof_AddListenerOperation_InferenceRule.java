@@ -7,11 +7,12 @@ import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.typesystem.inference.IErrorTarget;
 import jetbrains.mps.typesystem.inference.NodeErrorTarget;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.uiLanguage.typesystem._Quotations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_AddListenerOperation_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
@@ -20,8 +21,8 @@ public class typeof_AddListenerOperation_InferenceRule extends AbstractInference
   }
 
   public void applyRule(final SNode operation, final TypeCheckingContext typeCheckingContext) {
-    SNode eventNode = SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(operation, "leftExpression", true), "operation", true), "member", false);
-    SNode methodNode = SLinkOperations.getTarget(SLinkOperations.getTarget(operation, "rightExpression", true), "handler", false);
+    SNode eventNode = SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(operation, "leftExpression", true), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation"), "member", false);
+    SNode methodNode = SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(operation, "rightExpression", true), "jetbrains.mps.uiLanguage.structure.EventHandlerReference"), "handler", false);
     if (SLinkOperations.getCount(methodNode, "parameter") != 1) {
       {
         BaseIntentionProvider intentionProvider = null;

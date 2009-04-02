@@ -24,12 +24,12 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1202822134016(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    SNode parent = SNodeOperations.getParent(_context.getNode());
+    SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
     return ListSequence.fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1202822227345(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    SNode parent = SNodeOperations.getParent(_context.getNode());
+    SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
     return ListSequence.fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
   }
 

@@ -15,7 +15,7 @@ public class InlineRenderer_Constraints {
     if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance"))) {
       return false;
     }
-    SNode instance = _context.getParentNode();
+    SNode instance = SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance");
     return ComponentDeclaration_Behavior.call_hasCellRenderer_1213877495562(SLinkOperations.getTarget(instance, "componentDeclaration", false));
   }
 

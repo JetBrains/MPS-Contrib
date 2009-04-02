@@ -48,7 +48,7 @@ public class QueriesGenerated {
     if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
       return false;
     }
-    SNode opExpr = SLinkOperations.getTarget(_context.getNode(), "lValue", true);
+    SNode opExpr = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.DotExpression");
     if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(opExpr, "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation"))) {
       return false;
     }
@@ -131,17 +131,17 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1202732923427(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    SNode expression = SLinkOperations.getTarget(_context.getNode(), "value", true);
+    SNode expression = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
     return BindExpression_Behavior.call_getPathExpression_1213877288019(expression);
   }
 
   public static Object propertyMacro_GetPropertyValue_1203087655378(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    SNode expression = SLinkOperations.getTarget(_context.getNode(), "value", true);
+    SNode expression = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
     return BindExpression_Behavior.call_getPathExpression_1213877288019(expression);
   }
 
   public static Object propertyMacro_GetPropertyValue_1203521175722(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "componentDeclaration", false));
+    return ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "creator", true), "jetbrains.mps.uiLanguage.structure.ComponentCreator"), "componentDeclaration", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1203598354568(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -185,7 +185,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1209569938634(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "operation", true), "member", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation"), "member", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1209659206291(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -193,7 +193,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1209824360756(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "handler", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "jetbrains.mps.uiLanguage.structure.EventHandlerReference"), "handler", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1209824394980(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -201,12 +201,12 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1209824411054(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "handler", false), "name");
+    return SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "jetbrains.mps.uiLanguage.structure.EventHandlerReference"), "handler", false), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1210094419068(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    SNode operationExpression = SLinkOperations.getTarget(_context.getNode(), "lValue", true);
-    SNode referenceOperation = SLinkOperations.getTarget(operationExpression, "operation", true);
+    SNode operationExpression = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.DotExpression");
+    SNode referenceOperation = SNodeOperations.cast(SLinkOperations.getTarget(operationExpression, "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation");
     return NameUtil.getSetterName(SPropertyOperations.getString(SLinkOperations.getTarget(referenceOperation, "member", false), "name"));
   }
 
@@ -219,7 +219,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1210094637896(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return BeanDeclaration_Behavior.call_getGeneratedName_1213877331530(SNodeOperations.getAncestor(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "creator", true), "constructor", false), "jetbrains.mps.uiLanguage.structure.BeanDeclaration", false, false));
+    return BeanDeclaration_Behavior.call_getGeneratedName_1213877331530(SNodeOperations.getAncestor(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "creator", true), "jetbrains.mps.uiLanguage.structure.BeanCreator"), "constructor", false), "jetbrains.mps.uiLanguage.structure.BeanDeclaration", false, false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1210095077978(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -243,7 +243,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    SNode instance = SNodeOperations.getParent(_context.getNode());
+    SNode instance = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentInstance");
     return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
   }
 
@@ -252,7 +252,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1203087977763(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    SNode instance = SNodeOperations.getParent(_context.getNode());
+    SNode instance = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentInstance");
     return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
   }
 
@@ -261,15 +261,15 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1209824360689(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true), "operation", true), "member", false), "parameter", true), "type", true), "classifier", false);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation"), "member", false), "parameter", true), "type", true), "jetbrains.mps.baseLanguage.structure.ClassifierType"), "classifier", false);
   }
 
   public static Object referenceMacro_GetReferent_1209824360719(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true), "operation", true), "member", false), "parameter", true), "type", true), "classifier", false);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operation", true), "jetbrains.mps.uiLanguage.structure.EventAccessOperation"), "member", false), "parameter", true), "type", true), "jetbrains.mps.baseLanguage.structure.ClassifierType"), "classifier", false);
   }
 
   public static Object referenceMacro_GetReferent_1209824360739(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "handler", false);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true), "jetbrains.mps.uiLanguage.structure.EventHandlerReference"), "handler", false);
   }
 
   public static Object referenceMacro_GetReferent_1210180314557(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -297,11 +297,11 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_1202828721940(final IOperationContext operationContext, final IfMacroContext _context) {
-    return "_Dialog".equals(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "root", true), "componentDeclaration", false), "name"));
+    return "_Dialog".equals(SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "root", true), "jetbrains.mps.uiLanguage.structure.ComponentInstance"), "componentDeclaration", false), "name"));
   }
 
   public static boolean ifMacro_Condition_1202828766724(final IOperationContext operationContext, final IfMacroContext _context) {
-    return "_Dialog".equals(SPropertyOperations.getString(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "root", true), "componentDeclaration", false), "name"));
+    return "_Dialog".equals(SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "root", true), "jetbrains.mps.uiLanguage.structure.ComponentInstance"), "componentDeclaration", false), "name"));
   }
 
   public static boolean ifMacro_Condition_1203090388611(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -353,7 +353,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1202732499988(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    SNode expression = SLinkOperations.getTarget(_context.getNode(), "value", true);
+    SNode expression = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
     return BindExpression_Behavior.call_getSourceObject_1213877288039(expression);
   }
 
@@ -362,7 +362,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1203087655359(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    SNode expression = SLinkOperations.getTarget(_context.getNode(), "value", true);
+    SNode expression = SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
     return BindExpression_Behavior.call_getSourceObject_1213877288039(expression);
   }
 
@@ -419,7 +419,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1210094419049(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "operand", true);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "lValue", true), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true);
   }
 
   public static SNode sourceNodeQuery_1210094419060(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -492,7 +492,6 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
       }
-
     }).toListSequence();
   }
 
@@ -502,7 +501,6 @@ public class QueriesGenerated {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(it, "value", true), "jetbrains.mps.uiLanguage.structure.BindExpression");
       }
-
     }).toListSequence();
   }
 
@@ -527,7 +525,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1210094637913(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "creator", true), "parameter", true);
+    return SLinkOperations.getTargets(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "creator", true), "jetbrains.mps.uiLanguage.structure.BeanCreator"), "parameter", true);
   }
 
   public static Iterable sourceNodesQuery_1210095077962(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

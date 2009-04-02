@@ -16,7 +16,7 @@ public class BindExpression_Behavior {
     if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "expression", true), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
       return null;
     }
-    return SLinkOperations.getTarget(thisNode, "expression", true);
+    return SNodeOperations.cast(SLinkOperations.getTarget(thisNode, "expression", true), "jetbrains.mps.baseLanguage.structure.DotExpression");
   }
 
   public static SNode call_getAttributeReferenceOperation_1213877287985(SNode thisNode) {
@@ -27,7 +27,7 @@ public class BindExpression_Behavior {
     if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(operationExpr, "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation"))) {
       return null;
     }
-    return SLinkOperations.getTarget(operationExpr, "operation", true);
+    return SNodeOperations.cast(SLinkOperations.getTarget(operationExpr, "operation", true), "jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation");
   }
 
   public static String call_getPathExpression_1213877288019(SNode thisNode) {

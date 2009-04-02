@@ -4,6 +4,7 @@ package jetbrains.mps.uiLanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class StubCellRendererInfo_Behavior {
@@ -12,7 +13,7 @@ public class StubCellRendererInfo_Behavior {
   }
 
   public static SNode call_getInterface_1213877358391(SNode thisNode) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "cellRendererSetter", false), "parameter", true)).first(), "type", true), "classifier", false);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(thisNode, "cellRendererSetter", false), "parameter", true)).first(), "type", true), "jetbrains.mps.baseLanguage.structure.ClassifierType"), "classifier", false);
   }
 
 }
