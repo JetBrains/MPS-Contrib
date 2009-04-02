@@ -35,6 +35,7 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_2529_0(context, node, "*"));
     editorCell.addEditorCell(this.createRefNodeList_2529_0(context, node));
+    editorCell.addEditorCell(this.createConstant_2529_1(context, node, "*"));
     return editorCell;
   }
 
@@ -42,6 +43,14 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_2529_0(editorCell, node, context);
     setupLabel_Constant_2529_0(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant_2529_1(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_2529_1(editorCell, node, context);
+    setupLabel_Constant_2529_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -66,17 +75,25 @@ public class ComplexText_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_2529_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2529_0");
-    XmlStyle_StyleSheet.getXmlComplexText(editorCell).apply(editorCell);
+    XmlStyle_StyleSheet.getXmlComplexText_Start(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_RefNodeList_2529_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_text");
   }
 
+  private static void setupBasic_Constant_2529_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_2529_1");
+    XmlStyle_StyleSheet.getXmlComplexText_End(editorCell).apply(editorCell);
+  }
+
   private static void setupLabel_Constant_2529_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupLabel_RefNodeList_2529_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_2529_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class textListHandler_2529_0 extends RefNodeListHandler {

@@ -60,6 +60,10 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1161961889607">
         <link role="relationDeclaration" targetNodeId="1.1161911474092" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1238684493067">
+        <property name="text" value="*" />
+        <link role="styleClass" targetNodeId="1238686113236" resolveInfo="XmlComplexText_End" />
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1163629288709">
@@ -591,7 +595,7 @@
       </node>
     </node>
     <node role="styleClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClass" id="1216817257164">
-      <property name="name" value="XmlComplexText" />
+      <property name="name" value="XmlComplexText_Start" />
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="1216817290255">
         <property name="value" value="0.0" />
       </node>
@@ -610,6 +614,31 @@
                     <property name="value" value="114" />
                   </node>
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1216817284638">
+                    <property name="value" value="93" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="styleClass" type="jetbrains.mps.lang.editor.structure.StyleSheetClass" id="1238686113236">
+      <property name="name" value="XmlComplexText_End" />
+      <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="1238686133096">
+        <node role="query" type="jetbrains.mps.lang.editor.structure.QueryFunction_Color" id="1238686133097">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238686133098">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1238686133099">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1238686133100">
+                <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1238686133101">
+                  <link role="baseMethodDeclaration" targetNodeId="41.~Color.&lt;init&gt;(int,int,int)" resolveInfo="Color" />
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238686133102">
+                    <property name="value" value="134" />
+                  </node>
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238686133103">
+                    <property name="value" value="114" />
+                  </node>
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238686133104">
                     <property name="value" value="93" />
                   </node>
                 </node>

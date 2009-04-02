@@ -89,7 +89,7 @@ public class XmlStyle_StyleSheet {
     };
   }
 
-  public static Style getXmlComplexText(final EditorCell cell) {
+  public static Style getXmlComplexText_Start(final EditorCell cell) {
     return new Style(cell) {
       {
         this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
@@ -98,6 +98,25 @@ public class XmlStyle_StyleSheet {
 
           public Color calculate(EditorCell cell) {
             return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216817284631((cell == null ?
+              null :
+              cell.getSNode()
+            ), (cell == null ?
+              null :
+              cell.getEditorContext()
+            ));
+          }
+        });
+      }
+    };
+  }
+
+  public static Style getXmlComplexText_End(final EditorCell cell) {
+    return new Style(cell) {
+      {
+        this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
+
+          public Color calculate(EditorCell cell) {
+            return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1238686133097((cell == null ?
               null :
               cell.getSNode()
             ), (cell == null ?
@@ -212,6 +231,10 @@ public class XmlStyle_StyleSheet {
   }
 
   public static Color _StyleParameter_QueryFunction_1216817284631(SNode node, EditorContext editorContext) {
+    return new Color(134, 114, 93);
+  }
+
+  public static Color _StyleParameter_QueryFunction_1238686133097(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 

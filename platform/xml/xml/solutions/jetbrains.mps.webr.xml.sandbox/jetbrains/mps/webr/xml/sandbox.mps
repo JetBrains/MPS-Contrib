@@ -65,7 +65,11 @@
             <node role="text" type="jetbrains.mps.xml.structure.Text" id="1238684206393">
               <property name="text" value="abc" />
             </node>
+            <node role="text" type="jetbrains.mps.xml.structure.Text" id="1238686500415">
+              <property name="text" value="f" />
+            </node>
           </node>
+          <node role="content" type="jetbrains.mps.xml.structure.Text" id="1238684611592" />
         </node>
       </node>
     </node>
