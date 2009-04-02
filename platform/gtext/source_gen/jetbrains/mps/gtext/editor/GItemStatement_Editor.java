@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
@@ -60,7 +60,7 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
     if (this.myListHandler_8009_0 == null) {
       this.myListHandler_8009_0 = new GItemStatement_Editor.itemListHandler_8009_0(node, "item", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_8009_0.createCells(context, new CellLayout_Vertical(), false);
+    EditorCell_Collection editorCell = this.myListHandler_8009_0.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_8009_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
