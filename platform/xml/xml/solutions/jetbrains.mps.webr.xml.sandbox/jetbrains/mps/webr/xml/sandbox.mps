@@ -45,11 +45,29 @@
         <property name="elementName" value="root" />
         <node role="complexType" type="jetbrains.mps.xmlSchema.structure.ComplexType" id="1221255876207">
           <node role="typeExpressionList" type="jetbrains.mps.xmlSchema.structure.TypeExpressionList" id="1221255876208" />
+          <node role="mixedAttribute" type="jetbrains.mps.xmlSchema.structure.MixedAttribute" id="1238684201656" />
         </node>
       </node>
     </node>
     <node role="rootElementReference" type="jetbrains.mps.xmlSchema.structure.ElementReference" id="1221255885569">
       <link role="elementDeclaration" targetNodeId="1221255876206" resolveInfo="root" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.xmlInternal.structure.XmlFile" id="1238684155881">
+    <property name="fileName" value="b" />
+    <property name="extension" value="xml" />
+    <node role="document" type="jetbrains.mps.xmlInternal.structure.Document" id="1238684155882">
+      <node role="rootElement" type="jetbrains.mps.xml.structure.Element" id="1238684163057">
+        <property name="isEmpty" value="false" />
+        <link role="elementDeclaration" targetNodeId="1221255876206" resolveInfo="root" />
+        <node role="contentList" type="jetbrains.mps.xml.structure.ContentList" id="1238684163058">
+          <node role="content" type="jetbrains.mps.xml.structure.ComplexText" id="1238684206392">
+            <node role="text" type="jetbrains.mps.xml.structure.Text" id="1238684206393">
+              <property name="text" value="abc" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
