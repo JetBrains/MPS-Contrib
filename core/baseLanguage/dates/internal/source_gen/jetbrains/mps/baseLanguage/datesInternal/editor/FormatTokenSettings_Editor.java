@@ -35,12 +35,13 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_0889_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_0889_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createCollection_0889_3(context, node));
+    editorCell.addEditorCell(this.createConstant_0889_0(context, node, "Date/Time formatter settings"));
+    editorCell.addEditorCell(this.createConstant_0889_1(context, node, "{"));
     editorCell.addEditorCell(this.createCollection_0889_1(context, node));
     editorCell.addEditorCell(this.createConstant_0889_2(context, node, "}"));
     return editorCell;
@@ -52,11 +53,10 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant_0889_12(context, node, "  "));
     editorCell.addEditorCell(this.createRefNodeList_0889_0(context, node));
-    editorCell.addEditorCell(this.createConstant_0889_10(context, node, ""));
+    editorCell.addEditorCell(this.createConstant_0889_9(context, node, ""));
     editorCell.addEditorCell(this.createCollection_0889_2(context, node));
-    editorCell.addEditorCell(this.createConstant_0889_8(context, node, ""));
+    editorCell.addEditorCell(this.createConstant_0889_7(context, node, ""));
     editorCell.addEditorCell(this.createRefNodeList_0889_2(context, node));
     return editorCell;
   }
@@ -67,10 +67,9 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createCollection_0889_4(context, node));
-    editorCell.addEditorCell(this.createConstant_0889_5(context, node, "  "));
+    editorCell.addEditorCell(this.createCollection_0889_3(context, node));
     editorCell.addEditorCell(this.createRefNodeList_0889_1(context, node));
-    editorCell.addEditorCell(this.createConstant_0889_7(context, node, "}"));
+    editorCell.addEditorCell(this.createConstant_0889_6(context, node, "}"));
     return editorCell;
   }
 
@@ -80,19 +79,8 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant_0889_0(context, node, "Date/Time formatter settings"));
-    editorCell.addEditorCell(this.createConstant_0889_1(context, node, "{"));
-    return editorCell;
-  }
-
-  public EditorCell createCollection_0889_4(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_0889_4(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_0889_4(context, node, "datetime property cardinalities"));
-    editorCell.addEditorCell(this.createConstant_0889_11(context, node, "{"));
+    editorCell.addEditorCell(this.createConstant_0889_10(context, node, "{"));
     return editorCell;
   }
 
@@ -128,10 +116,10 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_5(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_0889_6(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_0889_5(editorCell, node, context);
-    setupLabel_Constant_0889_5(editorCell, node, context);
+    setupBasic_Constant_0889_6(editorCell, node, context);
+    setupLabel_Constant_0889_6(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -144,10 +132,10 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_8(EditorContext context, SNode node, String text) {
+  public EditorCell createConstant_0889_9(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_0889_8(editorCell, node, context);
-    setupLabel_Constant_0889_8(editorCell, node, context);
+    setupBasic_Constant_0889_9(editorCell, node, context);
+    setupLabel_Constant_0889_9(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -156,22 +144,6 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_0889_10(editorCell, node, context);
     setupLabel_Constant_0889_10(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_0889_11(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_0889_11(editorCell, node, context);
-    setupLabel_Constant_0889_11(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_0889_12(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_0889_12(editorCell, node, context);
-    setupLabel_Constant_0889_12(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -233,6 +205,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
       };
       inlineStyle.apply(editorCell);
@@ -245,6 +218,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
       };
@@ -260,6 +234,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
       };
       inlineStyle.apply(editorCell);
@@ -272,6 +247,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
         }
       };
       inlineStyle.apply(editorCell);
@@ -304,20 +280,23 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static void setupBasic_Constant_0889_5(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_0889_5");
+  private static void setupBasic_RefNodeList_0889_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("refNodeList_dateTimePropertyCardinality");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
         }
       };
       inlineStyle.apply(editorCell);
     }
   }
 
-  private static void setupBasic_RefNodeList_0889_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_dateTimePropertyCardinality");
+  private static void setupBasic_Constant_0889_6(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_0889_6");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -330,19 +309,6 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_0889_7(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_0889_7");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
-  private static void setupBasic_Constant_0889_8(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_0889_8");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -360,14 +326,15 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
         }
       };
       inlineStyle.apply(editorCell);
     }
   }
 
-  private static void setupBasic_Constant_0889_10(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_0889_10");
+  private static void setupBasic_Constant_0889_9(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_0889_9");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -381,27 +348,19 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Collection_0889_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_0889_3");
-  }
-
-  private static void setupBasic_Collection_0889_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_0889_4");
-  }
-
-  private static void setupBasic_Constant_0889_11(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_0889_11");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_0889_12(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_0889_12");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.SELECTABLE, false);
+          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
         }
       };
       inlineStyle.apply(editorCell);
     }
+  }
+
+  private static void setupBasic_Constant_0889_10(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_0889_10");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_Constant_0889_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -419,28 +378,22 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   private static void setupLabel_Constant_0889_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_0889_5(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_RefNodeList_0889_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_RefNodeList_0889_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_0889_6(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupLabel_Constant_0889_7(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_0889_8(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
   private static void setupLabel_RefNodeList_0889_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
+  private static void setupLabel_Constant_0889_9(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
   private static void setupLabel_Constant_0889_10(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_0889_11(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_0889_12(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class predefinedDateFormatListHandler_0889_0 extends RefNodeListHandler {
@@ -539,7 +492,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant_0889_6(context, node, "<no datetime property cardinalities>");
+      return this.createConstant_0889_5(context, node, "<no datetime property cardinalities>");
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
@@ -560,17 +513,17 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_0889_6(EditorContext context, SNode node, String text) {
+    public EditorCell createConstant_0889_5(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      setupBasic_Constant_0889_6(editorCell, node, context);
-      setupLabel_Constant_0889_6(editorCell, node, context);
+      setupBasic_Constant_0889_5(editorCell, node, context);
+      setupLabel_Constant_0889_5(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
 
 
-    private static void setupBasic_Constant_0889_6(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("Constant_0889_6");
+    private static void setupBasic_Constant_0889_5(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.setCellId("Constant_0889_5");
       {
         Style inlineStyle = new Style(editorCell) {
           {
@@ -581,7 +534,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       }
     }
 
-    private static void setupLabel_Constant_0889_6(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_Constant_0889_5(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }
@@ -610,7 +563,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant_0889_9(context, node, "<no datetime property format configuration>");
+      return this.createConstant_0889_8(context, node, "<no datetime property format configuration>");
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
@@ -631,17 +584,17 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_0889_9(EditorContext context, SNode node, String text) {
+    public EditorCell createConstant_0889_8(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      setupBasic_Constant_0889_9(editorCell, node, context);
-      setupLabel_Constant_0889_9(editorCell, node, context);
+      setupBasic_Constant_0889_8(editorCell, node, context);
+      setupLabel_Constant_0889_8(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
 
 
-    private static void setupBasic_Constant_0889_9(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("Constant_0889_9");
+    private static void setupBasic_Constant_0889_8(EditorCell editorCell, SNode node, EditorContext context) {
+      editorCell.setCellId("Constant_0889_8");
       {
         Style inlineStyle = new Style(editorCell) {
           {
@@ -652,7 +605,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       }
     }
 
-    private static void setupLabel_Constant_0889_9(EditorCell_Label editorCell, SNode node, EditorContext context) {
+    private static void setupLabel_Constant_0889_8(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

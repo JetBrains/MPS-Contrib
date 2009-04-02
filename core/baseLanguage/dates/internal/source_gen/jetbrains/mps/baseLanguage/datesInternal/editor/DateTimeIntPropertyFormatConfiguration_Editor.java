@@ -44,13 +44,12 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_9190_0(context, node, "format configuration"));
-    editorCell.addEditorCell(this.createConstant_9190_4(context, node, "for"));
+    editorCell.addEditorCell(this.createConstant_9190_3(context, node, "for"));
     editorCell.addEditorCell(this.createRefCell_9190_1(context, node));
     editorCell.addEditorCell(this.createConstant_9190_1(context, node, "{"));
-    editorCell.addEditorCell(this.createConstant_9190_3(context, node, "  "));
     editorCell.addEditorCell(this.createRefNodeList_9190_0(context, node));
     editorCell.addEditorCell(this.createConstant_9190_2(context, node, "}"));
-    editorCell.addEditorCell(this.createConstant_9190_5(context, node, ""));
+    editorCell.addEditorCell(this.createConstant_9190_4(context, node, ""));
     return editorCell;
   }
 
@@ -90,14 +89,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9190_4(editorCell, node, context);
     setupLabel_Constant_9190_4(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_9190_5(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_9190_5(editorCell, node, context);
-    setupLabel_Constant_9190_5(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -185,37 +176,27 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     }
   }
 
-  private static void setupBasic_Constant_9190_3(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9190_3");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
   private static void setupBasic_RefNodeList_9190_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_dateTimePropertyFormatType");
     {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
         }
       };
       inlineStyle.apply(editorCell);
     }
   }
 
-  private static void setupBasic_Constant_9190_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9190_4");
+  private static void setupBasic_Constant_9190_3(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_9190_3");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
   }
 
-  private static void setupBasic_Constant_9190_5(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9190_5");
+  private static void setupBasic_Constant_9190_4(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_9190_4");
   }
 
   private static void setupLabel_Constant_9190_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -230,16 +211,13 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   private static void setupLabel_Constant_9190_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_9190_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
   private static void setupLabel_RefNodeList_9190_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_9190_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_9190_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_9190_5(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_9190_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline9190_0 extends AbstractCellProvider {

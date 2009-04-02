@@ -38,9 +38,8 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_6009_0(context, node, "format configuration for zone"));
     editorCell.addEditorCell(this.createConstant_6009_1(context, node, "{"));
-    editorCell.addEditorCell(this.createConstant_6009_2(context, node, "  "));
     editorCell.addEditorCell(this.createRefNodeList_6009_0(context, node));
-    editorCell.addEditorCell(this.createConstant_6009_3(context, node, "}"));
+    editorCell.addEditorCell(this.createConstant_6009_2(context, node, "}"));
     return editorCell;
   }
 
@@ -64,14 +63,6 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_6009_2(editorCell, node, context);
     setupLabel_Constant_6009_2(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_6009_3(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6009_3(editorCell, node, context);
-    setupLabel_Constant_6009_3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -113,32 +104,22 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     }
   }
 
-  private static void setupBasic_Constant_6009_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6009_2");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
-    }
-  }
-
   private static void setupBasic_RefNodeList_6009_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_dateTimePropertyFormatType");
     {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
         }
       };
       inlineStyle.apply(editorCell);
     }
   }
 
-  private static void setupBasic_Constant_6009_3(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6009_3");
+  private static void setupBasic_Constant_6009_2(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_6009_2");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style inlineStyle = new Style(editorCell) {
@@ -157,13 +138,10 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   private static void setupLabel_Constant_6009_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_6009_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
   private static void setupLabel_RefNodeList_6009_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_6009_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  private static void setupLabel_Constant_6009_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class dateTimePropertyFormatTypeListHandler_6009_0 extends RefNodeListHandler {
