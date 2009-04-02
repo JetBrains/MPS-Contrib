@@ -985,16 +985,14 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1183728199176">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1183728199177">
             <property name="name" value="elementDeclarationSet" />
-            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1183728199178">
-              <link role="classifier" targetNodeId="9.~Set" resolveInfo="Set" />
-              <node role="parameter" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1216814412808">
+            <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238673585810">
+              <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238673585811">
                 <link role="concept" targetNodeId="4.1167838236835" resolveInfo="ElementDeclaration" />
               </node>
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1216814277047">
-              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1216814277050">
-                <link role="baseMethodDeclaration" targetNodeId="9.~HashSet.&lt;init&gt;()" resolveInfo="HashSet" />
-                <node role="typeParameter" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1216814422923">
+              <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" id="1238673585914">
+                <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1216814422923">
                   <link role="concept" targetNodeId="4.1167838236835" resolveInfo="ElementDeclaration" />
                 </node>
               </node>

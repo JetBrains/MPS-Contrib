@@ -10,12 +10,11 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.xml.behavior.XmlRoot_Behavior;
 import java.util.List;
 import java.util.Set;
-import java.util.HashSet;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class ElementUtil {
 
@@ -66,7 +65,7 @@ public class ElementUtil {
 
   public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node, IScope scope) {
     SNode schema = findSchema(node, scope);
-    Set<SNode> elementDeclarationSet = new HashSet<SNode>();
+    Set<SNode> elementDeclarationSet = SetSequence.<SNode>fromArray();
     if ((elementDeclaration == null)) {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
         elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));

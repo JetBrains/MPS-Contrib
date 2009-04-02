@@ -567,9 +567,8 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1195668379632">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1195668379633">
             <property name="name" value="selectedNodes" />
-            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1195668379634">
-              <link role="classifier" targetNodeId="6.~List" resolveInfo="List" />
-              <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1195668408949">
+            <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="1238673585802">
+              <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1238673585803">
                 <link role="classifier" targetNodeId="7.~SNode" resolveInfo="SNode" />
               </node>
             </node>

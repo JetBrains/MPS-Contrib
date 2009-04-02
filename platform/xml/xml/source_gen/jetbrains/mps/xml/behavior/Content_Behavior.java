@@ -4,6 +4,7 @@ package jetbrains.mps.xml.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import java.util.List;
 import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;

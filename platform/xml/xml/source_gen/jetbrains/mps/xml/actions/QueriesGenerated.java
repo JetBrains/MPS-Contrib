@@ -15,6 +15,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.util.Calculable;
 import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
+import jetbrains.mps.xml.actions.ElementUtil;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
@@ -64,7 +65,6 @@ public class QueriesGenerated {
             }
             return attributeDeclarations;
           }
-
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
         if (queryResult != null) {
@@ -85,7 +85,6 @@ public class QueriesGenerated {
               public String getVisibleMatchingText(String pattern) {
                 return this.getMatchingText(pattern);
               }
-
             });
           }
         }
@@ -104,7 +103,6 @@ public class QueriesGenerated {
         public Object calculate() {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
-
       };
       parentElement = (SNode)calc.calculate();
     }
@@ -114,7 +112,6 @@ public class QueriesGenerated {
         public Object calculate() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
-
       };
       isMixed = (Boolean)calc.calculate();
     }
@@ -127,7 +124,6 @@ public class QueriesGenerated {
           public Object calculate() {
             return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode(), operationContext.getScope());
           }
-
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
         if (queryResult != null) {
@@ -155,7 +151,6 @@ public class QueriesGenerated {
               public String getVisibleMatchingText(String pattern) {
                 return this.getMatchingText(pattern);
               }
-
             });
           }
         }
@@ -202,7 +197,6 @@ public class QueriesGenerated {
           public String getVisibleMatchingText(String pattern) {
             return this.getMatchingText(pattern);
           }
-
         });
       }
     }
@@ -218,7 +212,6 @@ public class QueriesGenerated {
         public Object calculate() {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
-
       };
       parentElement = (SNode)calc.calculate();
     }
@@ -228,7 +221,6 @@ public class QueriesGenerated {
         public Object calculate() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
-
       };
       isMixed = (Boolean)calc.calculate();
     }
@@ -242,7 +234,6 @@ public class QueriesGenerated {
         public boolean met(Object object) {
           return SConceptOperations.isExactly(_context.getChildConcept(), "jetbrains.mps.xml.structure.Content") && SConceptOperations.isSuperConceptOf(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.BaseText"), NameUtil.nodeFQName(concept)) && !(isMixed);
         }
-
       };
       if (SConceptOperations.isSuperConceptOf(applicableConcept, NameUtil.nodeFQName(concept)) && cond.met(concept)) {
         actions.remove();
