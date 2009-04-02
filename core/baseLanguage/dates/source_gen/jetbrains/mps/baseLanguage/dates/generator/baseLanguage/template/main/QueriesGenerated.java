@@ -197,8 +197,16 @@ public class QueriesGenerated {
     return SConceptPropertyOperations.getString(_context.getNode(), "alias");
   }
 
-  public static boolean ifMacro_Condition_1174047333019(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "locale", false) != null;
+  public static boolean ifMacro_Condition_1238663921403(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
+  }
+
+  public static boolean ifMacro_Condition_1238663921422(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "zone", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_1238664043050(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
   }
 
   public static SNode sourceNodeQuery_1169643653531(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -253,10 +261,6 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
   }
 
-  public static SNode sourceNodeQuery_1173786398175(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "dateExpression", true);
-  }
-
   public static SNode sourceNodeQuery_1173786607740(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
   }
@@ -265,24 +269,12 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "formatter", true);
   }
 
-  public static SNode sourceNodeQuery_1173885492448(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "dateFormat", false);
-  }
-
   public static SNode sourceNodeQuery_1173885694529(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "dateFormat", false);
   }
 
   public static SNode sourceNodeQuery_1173885746977(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "dateFormat", false);
-  }
-
-  public static SNode sourceNodeQuery_1174046783096(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
-  }
-
-  public static SNode sourceNodeQuery_1174047328922(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
   }
 
   public static SNode sourceNodeQuery_1174322960940(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -437,6 +429,30 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
   }
 
+  public static SNode sourceNodeQuery_1238663921387(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "dateExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_1238663921395(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "dateFormat", false);
+  }
+
+  public static SNode sourceNodeQuery_1238663921414(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
+  }
+
+  public static SNode sourceNodeQuery_1238663921433(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "zone", true);
+  }
+
+  public static SNode sourceNodeQuery_1238663967239(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
+  }
+
+  public static SNode sourceNodeQuery_1238664040032(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
+  }
+
   public static Iterable sourceNodesQuery_1169641843255(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "conditionPair", true);
   }
@@ -463,16 +479,16 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "dateFormat", true);
   }
 
-  public static Iterable sourceNodesQuery_1174048029695(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "formatToken", true);
-  }
-
   public static Iterable sourceNodesQuery_1174322880568(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "durationTypeReference", true);
   }
 
   public static Iterable sourceNodesQuery_1224665037764(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable");
+  }
+
+  public static Iterable sourceNodesQuery_1238663967265(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "formatToken", true);
   }
 
 }

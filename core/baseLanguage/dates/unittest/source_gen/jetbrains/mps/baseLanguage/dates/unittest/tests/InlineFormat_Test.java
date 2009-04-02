@@ -39,7 +39,7 @@ public class InlineFormat_Test extends BaseTestCase {
         builder.appendPattern("zzz");
         return builder.toFormatter();
       }
-    }).createFormatter(), Locale.US);
+    }).createFormatter(), Locale.US, null);
     Assert.assertEquals(expected, actual);
   }
 

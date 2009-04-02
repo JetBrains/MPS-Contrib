@@ -822,6 +822,7 @@
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238497891153">
               <link role="dateFormat" targetNodeId="1.1173884354722" resolveInfo="fullDate" />
+              <link role="locale" targetNodeId="1.1172681410396" resolveInfo="US" />
               <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238497888215">
                 <link role="variableDeclaration" targetNodeId="1238497824859" resolveInfo="p" />
               </node>
@@ -859,6 +860,7 @@
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238498047717">
               <link role="dateFormat" targetNodeId="1.1173884238614" resolveInfo="shortDate" />
+              <link role="locale" targetNodeId="1.1172681410396" resolveInfo="US" />
               <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238498042904">
                 <link role="variableDeclaration" targetNodeId="1238497927270" resolveInfo="p" />
               </node>
