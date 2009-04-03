@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 import java.util.Set;
 
 public class TypeExpressionList_Behavior {
@@ -20,7 +21,7 @@ public class TypeExpressionList_Behavior {
     }
   }
 
-  public static void call_checkElements_1213877199094(SNode thisNode, Set elementDeclarations) {
+  public static void call_checkElements_1213877199094(SNode thisNode, Set<SNode> elementDeclarations) {
     List<SNode> typeExpressions = SLinkOperations.getTargets(thisNode, "typeExpression", true);
     for(SNode typeExpression : ListSequence.fromList(typeExpressions)) {
       TypeExpression_Behavior.call_checkElements_1213877382378(typeExpression, elementDeclarations);

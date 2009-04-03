@@ -4,6 +4,7 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
+import jetbrains.mps.xmlSchema.behavior.ContentItem_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.Set;
 
@@ -16,7 +17,7 @@ public class ComplexContent_Behavior {
     ContentItem_Behavior.call_checkAttributes_1213877413538(SLinkOperations.getTarget(thisNode, "contentItem", true), attributeDeclarations);
   }
 
-  public static void virtual_checkElements_1213877382378(SNode thisNode, Set elementDeclarations) {
+  public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     ContentItem_Behavior.call_checkElements_1213877413543(SLinkOperations.getTarget(thisNode, "contentItem", true), elementDeclarations);
   }
 

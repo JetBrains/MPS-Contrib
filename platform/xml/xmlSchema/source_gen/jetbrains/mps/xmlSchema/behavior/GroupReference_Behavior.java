@@ -4,6 +4,7 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.Set;
+import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GroupReference_Behavior {
@@ -11,7 +12,7 @@ public class GroupReference_Behavior {
   public static void init(SNode thisNode) {
   }
 
-  public static void virtual_checkElements_1213877382378(SNode thisNode, Set elementDeclarations) {
+  public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     TypeExpression_Behavior.call_checkElements_1213877382378(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "groupDeclaration", false), "groupExpression", true), elementDeclarations);
   }
 

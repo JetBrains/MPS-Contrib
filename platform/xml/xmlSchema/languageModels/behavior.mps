@@ -136,8 +136,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877199111">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877199112">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771436985">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771436986" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877199113" />
@@ -317,8 +317,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877240532">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877240533">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771387478">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771388832" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877240534" />
@@ -593,8 +593,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877307283">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877307284">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771428205">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771428206" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877307285" />
@@ -672,8 +672,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877345984">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877345985">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771424895">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771424896" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877345986" />
@@ -734,8 +734,8 @@
       <property name="isPrivate" value="false" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877382379">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877382380">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771440243">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771440244" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877382381" />
@@ -798,8 +798,8 @@
       <property name="isPrivate" value="false" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877413544">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877413545">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771409110">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771409111" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877413546" />
@@ -831,11 +831,10 @@
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1213877419664">
               <link role="variableDeclaration" targetNodeId="1213877419665" resolveInfo="elementDeclarations" />
             </node>
-            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628851899">
-              <link role="baseMethodDeclaration" targetNodeId="3.~Set.add(java.lang.Object):boolean" resolveInfo="add" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213877419661">
-                <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1213877419662" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1213877419663">
+            <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddSetElementOperation" id="1238771626011">
+              <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238771626012">
+                <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1238771626013" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238771626014">
                   <link role="link" targetNodeId="1.1167531079758" />
                 </node>
               </node>
@@ -845,8 +844,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877419665">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877419666">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771420512">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771420513" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877419667" />
@@ -951,17 +950,16 @@
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1213877429841">
               <link role="variableDeclaration" targetNodeId="1213877429843" resolveInfo="elementDeclarations" />
             </node>
-            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628871507">
-              <link role="baseMethodDeclaration" targetNodeId="3.~Set.add(java.lang.Object):boolean" resolveInfo="add" />
-              <node role="actualArgument" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1213877429842" />
+            <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddSetElementOperation" id="1238771625963">
+              <node role="argument" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1238771625964" />
             </node>
           </node>
         </node>
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877429843">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877429844">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771416676">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771416677" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877429845" />
@@ -974,8 +972,8 @@
       <property name="isPrivate" value="false" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877429847">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877429848">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771412844">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771412845" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877429849" />
@@ -1280,8 +1278,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877476297">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877476298">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771399421">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771399422" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877476299" />
@@ -1359,8 +1357,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877514411">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877514412">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771431502">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771431503" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877514413" />
@@ -1441,8 +1439,8 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877526944">
         <property name="name" value="elementDeclarations" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877526945">
-          <link role="classifier" targetNodeId="3.~Set" resolveInfo="Set" />
+        <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="1238771403429">
+          <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1238771403430" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1213877526946" />

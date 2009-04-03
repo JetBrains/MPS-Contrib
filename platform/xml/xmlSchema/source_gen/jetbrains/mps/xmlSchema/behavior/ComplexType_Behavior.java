@@ -4,6 +4,7 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
+import jetbrains.mps.xmlSchema.behavior.TypeExpressionList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.Set;
 
@@ -16,7 +17,7 @@ public class ComplexType_Behavior {
     TypeExpressionList_Behavior.call_checkAttributes_1213877199074(SLinkOperations.getTarget(thisNode, "typeExpressionList", true), attributeDeclarations);
   }
 
-  public static void virtual_checkElements_1213877382378(SNode thisNode, Set elementDeclarations) {
+  public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     TypeExpressionList_Behavior.call_checkElements_1213877199094(SLinkOperations.getTarget(thisNode, "typeExpressionList", true), elementDeclarations);
   }
 

@@ -4,8 +4,11 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
+import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import java.util.Set;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.xmlSchema.behavior.ComplexType_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -27,11 +30,11 @@ public class ElementDeclaration_Behavior {
     return attributeDeclarations;
   }
 
-  public static void virtual_checkElements_1213877382378(SNode thisNode, Set elementDeclarations) {
-    elementDeclarations.add(thisNode);
+  public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
+    SetSequence.fromSet(elementDeclarations).addElement(thisNode);
   }
 
-  public static void call_checkElements_ed_1213877429846(SNode thisNode, Set elementDeclarations) {
+  public static void call_checkElements_ed_1213877429846(SNode thisNode, Set<SNode> elementDeclarations) {
     SNode complexType = ElementDeclaration_Behavior.call_getComplexType_1213877429806(thisNode);
     if ((complexType != null)) {
       TypeExpression_Behavior.call_checkElements_1213877382378(complexType, elementDeclarations);

@@ -4,6 +4,7 @@ package jetbrains.mps.xmlSchema.structure;
 
 import jetbrains.mps.smodel.PropertySupport;
 import java.util.Iterator;
+import jetbrains.mps.xmlSchema.structure.useAttributeEnum;
 
 public class useAttributeEnum_PropertySupport extends PropertySupport {
 

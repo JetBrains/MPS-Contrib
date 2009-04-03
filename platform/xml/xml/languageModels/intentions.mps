@@ -597,11 +597,10 @@
                 <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195668492587">
                   <link role="variableDeclaration" targetNodeId="1195668379633" resolveInfo="selectedNodes" />
                 </node>
-                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628876787">
-                  <link role="baseMethodDeclaration" targetNodeId="6.~List.add(java.lang.Object):boolean" resolveInfo="add" />
-                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217628888206">
-                    <node role="operand" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" id="1195668498326" />
-                    <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628888207">
+                <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="1238771173110">
+                  <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238771173111">
+                    <node role="operand" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_editorContext" id="1238771173112" />
+                    <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238771173113">
                       <link role="baseMethodDeclaration" targetNodeId="8.~EditorContext.getSelectedNode():jetbrains.mps.smodel.SNode" resolveInfo="getSelectedNode" />
                     </node>
                   </node>
@@ -613,24 +612,19 @@
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195668486488">
               <link role="variableDeclaration" targetNodeId="1195668379633" resolveInfo="selectedNodes" />
             </node>
-            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628885676">
-              <link role="baseMethodDeclaration" targetNodeId="6.~List.isEmpty():boolean" resolveInfo="isEmpty" />
-            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" id="1238771173128" />
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1195668553385">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1195668553386">
             <property name="name" value="first" />
             <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1195668553387" />
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1217628867827">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195668563390">
+            <node role="initializer" type="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" id="1238771173096">
+              <node role="list" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1195668563390">
                 <link role="variableDeclaration" targetNodeId="1195668379633" resolveInfo="selectedNodes" />
               </node>
-              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1217628867828">
-                <link role="baseMethodDeclaration" targetNodeId="6.~List.get(int):java.lang.Object" resolveInfo="get" />
-                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1195668563391">
-                  <property name="value" value="0" />
-                </node>
+              <node role="index" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238771173097">
+                <property name="value" value="0" />
               </node>
             </node>
           </node>

@@ -19,7 +19,7 @@ public class ContentItem_Behavior {
     BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
   }
 
-  public static void call_checkElements_1213877413543(SNode thisNode, Set elementDeclarations) {
+  public static void call_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
     BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
   }
 
@@ -31,7 +31,7 @@ public class ContentItem_Behavior {
     BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
   }
 
-  public static void callSuper_checkElements_1213877413543(SNode thisNode, String callerConceptFqName, Set elementDeclarations) {
+  public static void callSuper_checkElements_1213877413543(SNode thisNode, String callerConceptFqName, Set<SNode> elementDeclarations) {
     BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
   }
 

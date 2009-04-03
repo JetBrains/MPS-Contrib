@@ -19,7 +19,7 @@ public class TypeExpression_Behavior {
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
   }
 
-  public static void virtual_checkElements_1213877382378(SNode thisNode, Set elementDeclarations) {
+  public static void virtual_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
   }
 
   public static boolean virtual_hasElementReferences_1213877382383(SNode thisNode) {
@@ -34,7 +34,7 @@ public class TypeExpression_Behavior {
     BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_checkAttributes_1213877382373", PARAMETERS_1213877382373, attributeDeclarations);
   }
 
-  public static void call_checkElements_1213877382378(SNode thisNode, Set elementDeclarations) {
+  public static void call_checkElements_1213877382378(SNode thisNode, Set<SNode> elementDeclarations) {
     BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_checkElements_1213877382378", PARAMETERS_1213877382378, elementDeclarations);
   }
 
@@ -50,7 +50,7 @@ public class TypeExpression_Behavior {
     BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_checkAttributes_1213877382373", PARAMETERS_1213877382373, attributeDeclarations);
   }
 
-  public static void callSuper_checkElements_1213877382378(SNode thisNode, String callerConceptFqName, Set elementDeclarations) {
+  public static void callSuper_checkElements_1213877382378(SNode thisNode, String callerConceptFqName, Set<SNode> elementDeclarations) {
     BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_checkElements_1213877382378", PARAMETERS_1213877382378, elementDeclarations);
   }
 
