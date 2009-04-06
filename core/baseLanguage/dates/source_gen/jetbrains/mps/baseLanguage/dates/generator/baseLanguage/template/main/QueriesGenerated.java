@@ -104,10 +104,6 @@ public class QueriesGenerated {
     return b.toString();
   }
 
-  public static Object propertyMacro_GetPropertyValue_1204413891722(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
-  }
-
   public static Object propertyMacro_GetPropertyValue_1224583026308(final IOperationContext operationContext, final PropertyMacroContext _context) {
     String result = null;
     if (SPropertyOperations.hasValue(_context.getNode(), "compareType", "datetime equals", "datetime equals")) {
@@ -158,6 +154,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1239016277032(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return Integer.valueOf(SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "zone", false), "minute"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1239016406731(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
   }
 
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -409,10 +409,6 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
   }
 
-  public static SNode sourceNodeQuery_1217888380020(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "format", false);
-  }
-
   public static SNode sourceNodeQuery_1217888380492(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "rightValue", true);
   }
@@ -467,6 +463,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1238857482128(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "string", true);
+  }
+
+  public static SNode sourceNodeQuery_1239016445418(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "format", false);
   }
 
   public static SNode sourceNodeQuery_1239017349778(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.dates.structure;
 import jetbrains.mps.smodel.PropertySupport;
 import java.util.Iterator;
 import jetbrains.mps.baseLanguage.dates.structure.DayOfWeek;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class DayOfWeek_PropertySupport extends PropertySupport {
 
@@ -12,7 +13,7 @@ public class DayOfWeek_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<DayOfWeek> constants = DayOfWeek.getConstants().iterator();
+    Iterator<DayOfWeek> constants = ListSequence.fromList(DayOfWeek.getConstants()).iterator();
     while (constants.hasNext()) {
       DayOfWeek constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -26,7 +27,7 @@ public class DayOfWeek_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<DayOfWeek> constants = DayOfWeek.getConstants().iterator();
+    Iterator<DayOfWeek> constants = ListSequence.fromList(DayOfWeek.getConstants()).iterator();
     while (constants.hasNext()) {
       DayOfWeek constant = constants.next();
       if (value.equals(constant.getName())) {

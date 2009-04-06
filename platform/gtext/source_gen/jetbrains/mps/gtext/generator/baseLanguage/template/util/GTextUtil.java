@@ -20,7 +20,7 @@ public class GTextUtil {
 
   public static void visit(SNode n) {
     if (SNodeOperations.isInstanceOf(n, "jetbrains.mps.gtext.structure.GItem")) {
-      GTextOptimizer.optimize(n, false);
+      GTextOptimizer.optimize(SNodeOperations.cast(n, "jetbrains.mps.gtext.structure.GItem"), false);
     }
     for(SNode c : ListSequence.fromList(SNodeOperations.getChildren(n))) {
       visit(c);

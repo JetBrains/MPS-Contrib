@@ -22,7 +22,7 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_PropertyValues;
 import java.util.List;
 import jetbrains.mps.smodel.IScope;
-import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class DateTimeZone_Editor extends DefaultNodeEditor {
 
@@ -294,9 +294,9 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = new ArrayList<String>();
-      result.add("+");
-      result.add("-");
+      List<String> result = ListSequence.<String>fromArray();
+      ListSequence.fromList(result).addElement("+");
+      ListSequence.fromList(result).addElement("-");
       return result;
     }
 
@@ -307,9 +307,9 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = new ArrayList<String>();
+      List<String> result = ListSequence.<String>fromArray();
       for(int i = 0 ; i <= 12 ; i++ ) {
-        result.add((i < 10 ?
+        ListSequence.fromList(result).addElement((i < 10 ?
           "0" + i :
           "" + i
         ));
@@ -324,9 +324,9 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = new ArrayList<String>();
-      result.add("00");
-      result.add("30");
+      List<String> result = ListSequence.<String>fromArray();
+      ListSequence.fromList(result).addElement("00");
+      ListSequence.fromList(result).addElement("30");
       return result;
     }
 

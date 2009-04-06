@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.dates.structure;
 import jetbrains.mps.smodel.PropertySupport;
 import java.util.Iterator;
 import jetbrains.mps.baseLanguage.dates.structure.CompareType;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class CompareType_PropertySupport extends PropertySupport {
 
@@ -12,7 +13,7 @@ public class CompareType_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<CompareType> constants = CompareType.getConstants().iterator();
+    Iterator<CompareType> constants = ListSequence.fromList(CompareType.getConstants()).iterator();
     while (constants.hasNext()) {
       CompareType constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -26,7 +27,7 @@ public class CompareType_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<CompareType> constants = CompareType.getConstants().iterator();
+    Iterator<CompareType> constants = ListSequence.fromList(CompareType.getConstants()).iterator();
     while (constants.hasNext()) {
       CompareType constant = constants.next();
       if (value.equals(constant.getName())) {
