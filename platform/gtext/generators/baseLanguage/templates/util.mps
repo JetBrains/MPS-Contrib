@@ -159,7 +159,7 @@
                           </node>
                         </node>
                         <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1207731394892">
-                          <link role="baseMethodDeclaration" targetNodeId="2.~SNode.getChildren(java.lang.String):java.util.List" resolveInfo="getChildren" />
+                          <link role="baseMethodDeclaration" targetNodeId="2.~SNode.getChildren():java.util.List" resolveInfo="getChildren" />
                           <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1196171958522">
                             <property name="value" value="item" />
                           </node>
