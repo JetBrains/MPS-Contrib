@@ -37,4 +37,17 @@ public class DateTimeZone_Test extends BaseTestCase {
     Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forOffsetHoursMinutes(5, 0))).equals(DateTimeOperations.print((DateTimeOperations.plus(yesterday, Period.hours(22))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forOffsetHoursMinutes(7, 0))));
   }
 
+  @Test()
+  public void test_timeZoneFromVariable() throws Exception {
+    String zone = "+01:00";
+    Long thisMoment = System.currentTimeMillis();
+    Assert.assertEquals(DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID(zone)), DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forOffsetHoursMinutes(1, 0)));
+  }
+
+  @Test()
+  public void test_timeZoneFromStringLiteral() throws Exception {
+    Long thisMoment = System.currentTimeMillis();
+    Assert.assertEquals(DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID("+03:00")), DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forOffsetHoursMinutes(3, 0)));
+  }
+
 }

@@ -182,8 +182,8 @@
               <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1238516610066">
                 <link role="applicableNode" targetNodeId="1178371373847" resolveInfo="formatExpression" />
               </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238676986899">
-                <link role="link" targetNodeId="2.1238676918828" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1239018178817">
+                <link role="link" targetNodeId="2.1239015930559" />
               </node>
             </node>
           </node>
@@ -853,6 +853,144 @@
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1238513806589">
       <property name="name" value="constant" />
       <link role="concept" targetNodeId="2.1238513709008" resolveInfo="TimeZoneConstant" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1238856102342">
+    <property name="name" value="typeof_DateTimeZoneCreator" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238856102343">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1238856137733">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238856141331">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238856141332">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1238856152694" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238856137736">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1238856132700">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1238856132701">
+              <link role="applicableNode" targetNodeId="1238856102344" resolveInfo="creator" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1238856174336">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238856178168">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238856178169">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1238856182702" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238856174339">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1238856167221">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238856167222">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1238856167223">
+                <link role="applicableNode" targetNodeId="1238856102344" resolveInfo="creator" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238856167224">
+                <link role="link" targetNodeId="2.1238855978597" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1238856102344">
+      <property name="name" value="creator" />
+      <link role="concept" targetNodeId="2.1238855581199" resolveInfo="DateTimeZoneCreator" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1239015873752">
+    <property name="name" value="typeof_ConstantTimeZone" />
+    <property name="package" value="format" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239015873753">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1239015890612">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239015893510">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1239015893511">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1239015901831" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239015890615">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1239015883864">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1239015883865">
+              <link role="applicableNode" targetNodeId="1239015873754" resolveInfo="zone" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1239015873754">
+      <property name="name" value="zone" />
+      <link role="concept" targetNodeId="2.1239015860192" resolveInfo="ConstantTimeZone" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1239018206164">
+    <property name="name" value="typeof_InlineFormatExpression" />
+    <property name="package" value="format" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239018206165">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1239018223435">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239018225314">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1239018225315">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1239018229318" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239018223438">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1239018219290">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239018219291">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1239018219292">
+                <link role="applicableNode" targetNodeId="1239018206166" resolveInfo="expression" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1239018219293">
+                <link role="link" targetNodeId="2.1239016087043" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1239018206166">
+      <property name="name" value="expression" />
+      <link role="concept" targetNodeId="2.1174039789930" resolveInfo="InlineFormatExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1239019312803">
+    <property name="name" value="typeof_TimeZoneFromString" />
+    <property name="package" value="operation.constant.timezone" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239019312804">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1239019330217">
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239019330220">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1239019325417">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1239019328247">
+              <link role="applicableNode" targetNodeId="1239019312805" resolveInfo="timeZone" />
+            </node>
+          </node>
+        </node>
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239019335146">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1239019335147">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1239019341868" />
+          </node>
+        </node>
+      </node>
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1239019351520">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239019354414">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1239019354415">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1239019358230" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1239019351523">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1239019345856">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239019348405">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1239019348014">
+                <link role="applicableNode" targetNodeId="1239019312805" resolveInfo="timeZone" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1239019349878">
+                <link role="link" targetNodeId="2.1239019204488" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1239019312805">
+      <property name="name" value="timeZone" />
+      <link role="concept" targetNodeId="2.1239019022206" resolveInfo="TimeZoneFromString" />
     </node>
   </node>
 </model>

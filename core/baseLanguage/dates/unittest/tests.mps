@@ -1957,6 +1957,9 @@
                   </node>
                 </node>
               </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018615302">
+                <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
+              </node>
             </node>
             <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238681508823">
               <link role="zone" targetNodeId="1.1238676682406" resolveInfo="TOKYO" />
@@ -1964,6 +1967,9 @@
               <link role="locale" targetNodeId="1.1172681496091" resolveInfo="RU" />
               <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238681508824">
                 <link role="variableDeclaration" targetNodeId="1238681349284" resolveInfo="d" />
+              </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018607911">
+                <link role="zone" targetNodeId="1.1238676682406" resolveInfo="TOKYO" />
               </node>
             </node>
           </node>
@@ -1990,6 +1996,9 @@
                   <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238681884764">
                     <link role="variableDeclaration" targetNodeId="1238681853229" resolveInfo="d" />
                   </node>
+                  <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018628694">
+                    <link role="zone" targetNodeId="1.1238676682406" resolveInfo="TOKYO" />
+                  </node>
                 </node>
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238681906474">
@@ -2010,6 +2019,9 @@
                         <link role="variableDeclaration" targetNodeId="1238681853229" resolveInfo="d" />
                       </node>
                     </node>
+                  </node>
+                  <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018638664">
+                    <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
                   </node>
                 </node>
               </node>
@@ -2043,6 +2055,9 @@
               <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238683687696">
                 <link role="variableDeclaration" targetNodeId="1238683391695" resolveInfo="yesterday" />
               </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018648477">
+                <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
+              </node>
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238683752926">
               <link role="zone" targetNodeId="1.1238676634201" resolveInfo="BANGKOK" />
@@ -2059,6 +2074,9 @@
                     <link role="variableDeclaration" targetNodeId="1238683391695" resolveInfo="yesterday" />
                   </node>
                 </node>
+              </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018667557">
+                <link role="zone" targetNodeId="1.1238676634201" resolveInfo="BANGKOK" />
               </node>
             </node>
           </node>
@@ -2093,6 +2111,9 @@
                   <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238684183354">
                     <link role="variableDeclaration" targetNodeId="1238684167956" resolveInfo="yesterday" />
                   </node>
+                  <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018465492">
+                    <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
+                  </node>
                 </node>
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238684187653">
@@ -2114,7 +2135,89 @@
                       </node>
                     </node>
                   </node>
+                  <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018685276">
+                    <link role="zone" targetNodeId="1.1238676634201" resolveInfo="BANGKOK" />
+                  </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1239019989029">
+        <property name="methodName" value="timeZoneFromVariable" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1239019989030" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239019989031">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1239020004016">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1239020004017">
+              <property name="name" value="zone" />
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="1239020004018" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239020010145">
+                <property name="value" value="+01:00" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1239020055839">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1239020055840">
+              <property name="name" value="thisMoment" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1239020055841" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1239020061108" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1239020031366">
+            <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1239020069470">
+              <link role="dateFormat" targetNodeId="1169549842090" resolveInfo="date/time" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1239020120258">
+                <link role="variableDeclaration" targetNodeId="1239020055840" resolveInfo="now" />
+              </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString" id="1239020105255">
+                <node role="string" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1239020107491">
+                  <link role="variableDeclaration" targetNodeId="1239020004017" resolveInfo="zone" />
+                </node>
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1239020140541">
+              <link role="dateFormat" targetNodeId="1169549842090" resolveInfo="date/time" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1239020135478">
+                <link role="variableDeclaration" targetNodeId="1239020055840" resolveInfo="thisMoment" />
+              </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239020146090">
+                <link role="zone" targetNodeId="1.1238676329036" resolveInfo="BERLIN" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1239020163076">
+        <property name="methodName" value="timeZoneFromStringLiteral" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1239020163077" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239020163078">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1239020188319">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1239020188320">
+              <property name="name" value="thisMoment" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1239020188321" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1239020188322" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1239020188323">
+            <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1239020188324">
+              <link role="dateFormat" targetNodeId="1169549842090" resolveInfo="date/time" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1239020188325">
+                <link role="variableDeclaration" targetNodeId="1239020188320" resolveInfo="thisMoment" />
+              </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString" id="1239020252479">
+                <node role="string" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239020253699">
+                  <property name="value" value="+03:00" />
+                </node>
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1239020188328">
+              <link role="dateFormat" targetNodeId="1169549842090" resolveInfo="date/time" />
+              <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1239020188329">
+                <link role="variableDeclaration" targetNodeId="1239020188320" resolveInfo="thisMoment" />
+              </node>
+              <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239020188330">
+                <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
               </node>
             </node>
           </node>
