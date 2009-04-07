@@ -39,12 +39,12 @@ public class GTextOptimizer {
       } else
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GConditionalLine")) {
         SNode nextChild = optChild;
-        if (SPropertyOperations.getBoolean(optChild, "isSeparate")) {
+        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
           SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
           nextChild = (SNode)SNodeOperations.getNextSibling(nextChild);
         }
         nextChild = inlineChildren(optChild, nextChild);
-        if (SPropertyOperations.getBoolean(optChild, "isSeparate")) {
+        if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
           SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
         }
         SNodeOperations.deleteNode(optChild);
@@ -63,10 +63,10 @@ public class GTextOptimizer {
     for(SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
       if (SNodeOperations.isInstanceOf(child, "jetbrains.mps.gtext.structure.GText")) {
         if (t == null) {
-          t = child;
+          t = SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText");
         } else
         {
-          String text = SPropertyOperations.getString(child, "text");
+          String text = SPropertyOperations.getString(SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText"), "text");
           if (text != null) {
             SPropertyOperations.set(t, "text", SPropertyOperations.getString(t, "text") + text);
           }
@@ -83,8 +83,8 @@ public class GTextOptimizer {
   public static SNode inlineChildren(SNode optChild, SNode nextChild) {
     SNode nc = nextChild;
     //     cast to GItemList, because all item list containers have the same name for children items - "item"
-    while (ListSequence.fromList(SLinkOperations.getTargets(optChild, "item", true)).isNotEmpty()) {
-      SNode childOfChild = ListSequence.fromList(SLinkOperations.getTargets(optChild, "item", true)).first();
+    while (ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GItemList"), "item", true)).isNotEmpty()) {
+      SNode childOfChild = ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GItemList"), "item", true)).first();
       SNodeOperations.insertNextSiblingChild(nc, childOfChild);
       nc = childOfChild;
     }

@@ -455,7 +455,6 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
       };
       inlineStyle.apply(editorCell);
@@ -481,7 +480,6 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
       };
       inlineStyle.apply(editorCell);
@@ -507,7 +505,6 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
       };
       inlineStyle.apply(editorCell);
@@ -520,7 +517,6 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
       };
       inlineStyle.apply(editorCell);
