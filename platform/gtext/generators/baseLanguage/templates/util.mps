@@ -22,11 +22,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" version="0" />
   <import index="2" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <import index="5" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="7" modelUID="r:00000000-0000-4000-0000-011c89590570(jetbrains.mps.gtext.behavior)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1196157277388">
     <property name="name" value="GTextUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="1196158527655">
@@ -853,13 +854,13 @@
                 <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1207731411908">
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227927214">
                     <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1196176607048">
-                      <link role="concept" targetNodeId="1.1164412982980" resolveInfo="GItemList" />
+                      <link role="concept" targetNodeId="1.1239125024709" resolveInfo="GCompositeItem" />
                       <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1196176634248">
                         <link role="variableDeclaration" targetNodeId="1196176613574" resolveInfo="optChild" />
                       </node>
                     </node>
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1196176607047">
-                      <link role="link" targetNodeId="1.1164413016466" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1239127889557">
+                      <link role="baseMethodDeclaration" targetNodeId="7.1239125087745" resolveInfo="getItems" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" id="1196176607050" />
@@ -892,13 +893,13 @@
           <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1207731409496">
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227889025">
               <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1196176607063">
-                <link role="concept" targetNodeId="1.1164412982980" resolveInfo="GItemList" />
+                <link role="concept" targetNodeId="1.1239125024709" resolveInfo="GCompositeItem" />
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1196176632078">
                   <link role="variableDeclaration" targetNodeId="1196176613574" resolveInfo="optChild" />
                 </node>
               </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1196176607062">
-                <link role="link" targetNodeId="1.1164413016466" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1239127882411">
+                <link role="baseMethodDeclaration" targetNodeId="7.1239125087745" resolveInfo="getItems" />
               </node>
             </node>
             <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" id="1196176607065" />

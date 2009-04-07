@@ -131,6 +131,9 @@
       <property name="value" value="*itemList" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1239126776757">
+      <link role="intfc" targetNodeId="1239125024709" resolveInfo="GCompositeItem" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1164413172275">
     <property name="name" value="GNewLine" />
@@ -217,6 +220,9 @@
       <property name="value" value="&gt;line" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1239126769962">
+      <link role="intfc" targetNodeId="1239125024709" resolveInfo="GCompositeItem" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1179109169620">
     <property name="name" value="GConditionalLine" />
@@ -234,6 +240,9 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1179109529900">
       <property name="value" value="&gt;?condtional line" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1239126762480">
+      <link role="intfc" targetNodeId="1239125024709" resolveInfo="GCompositeItem" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1181754781153">
@@ -291,6 +300,9 @@
       <property name="sourceCardinality" value="1..n" />
       <link role="target" targetNodeId="1164412935041" resolveInfo="GItem" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1239126745840">
+      <link role="intfc" targetNodeId="1239125024709" resolveInfo="GCompositeItem" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1211920428461">
     <property name="name" value="GContentPlaceholder" />
@@ -319,6 +331,12 @@
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1211964879530">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1239126755845">
+      <link role="intfc" targetNodeId="1239125024709" resolveInfo="GCompositeItem" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="1239125024709">
+    <property name="name" value="GCompositeItem" />
   </node>
 </model>
 

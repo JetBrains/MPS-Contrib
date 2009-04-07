@@ -8,7 +8,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.gtext.behavior.GCompositeItem_Behavior;
 
 public class GTextOptimizer {
 
@@ -83,8 +83,8 @@ public class GTextOptimizer {
   public static SNode inlineChildren(SNode optChild, SNode nextChild) {
     SNode nc = nextChild;
     //     cast to GItemList, because all item list containers have the same name for children items - "item"
-    while (ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GItemList"), "item", true)).isNotEmpty()) {
-      SNode childOfChild = ListSequence.fromList(SLinkOperations.getTargets(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GItemList"), "item", true)).first();
+    while (ListSequence.fromList(GCompositeItem_Behavior.call_getItems_1239125087745(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"))).isNotEmpty()) {
+      SNode childOfChild = ListSequence.fromList(GCompositeItem_Behavior.call_getItems_1239125087745(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"))).first();
       SNodeOperations.insertNextSiblingChild(nc, childOfChild);
       nc = childOfChild;
     }

@@ -6,13 +6,9 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
-public class GLine_Behavior {
+public class GSeparatorItemList_Behavior {
 
   public static void init(SNode thisNode) {
-  }
-
-  public static boolean virtual_isComplex_1213877298853(SNode thisNode) {
-    return true;
   }
 
   public static List<SNode> virtual_getItems_1239125087745(SNode thisNode) {
