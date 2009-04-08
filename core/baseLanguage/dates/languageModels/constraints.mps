@@ -230,11 +230,8 @@
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888353455">
                   <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888353457">
                     <link role="baseMethodDeclaration" targetNodeId="7.~IsInstanceCondition.&lt;init&gt;(jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration)" resolveInfo="IsInstanceCondition" />
-                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204672721267">
-                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1173978362225">
-                        <link role="variableDeclaration" targetNodeId="1173978362223" resolveInfo="cd" />
-                      </node>
-                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAdapterOperation" id="1173978376190" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1173978362225">
+                      <link role="variableDeclaration" targetNodeId="1173978362223" resolveInfo="cd" />
                     </node>
                   </node>
                 </node>
