@@ -6,6 +6,11 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
+import java.util.List;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.buildlanguage.behavior.IPropertyHolder_Behavior;
 
 public class PropertyReference_Behavior {
 
@@ -27,6 +32,14 @@ public class PropertyReference_Behavior {
       return PropertyValueExpression_Behavior.call_toString_1213877472569(thisNode);
     }
     return PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "propertyDeclaration", false), "propertyValue", true));
+  }
+
+  public static List<SNode> getAllVisibleDeclarations_1239123615225(SNode enclosingNode) {
+    List<SNode> result = ListOperations.<SNode>createList();
+    for(SNode holder : ListSequence.fromList(SNodeOperations.getAncestors(enclosingNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder", true))) {
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(IPropertyHolder_Behavior.call_getProperties_1213877375726(holder)));
+    }
+    return result;
   }
 
 }
