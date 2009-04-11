@@ -1986,7 +1986,7 @@
                 </node>
               </node>
               <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018615302">
-                <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
+                <link role="zone" targetNodeId="1.1239365639576" resolveInfo="MOSCOW" />
               </node>
             </node>
             <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238681508823">
@@ -1997,7 +1997,7 @@
                 <link role="variableDeclaration" targetNodeId="1238681349284" resolveInfo="d" />
               </node>
               <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018607911">
-                <link role="zone" targetNodeId="1.1238676299018" resolveInfo="LONDON" />
+                <link role="zone" targetNodeId="1.1239454459125" resolveInfo="LONDON" />
               </node>
             </node>
           </node>
@@ -2025,7 +2025,7 @@
                     <link role="variableDeclaration" targetNodeId="1238681853229" resolveInfo="d" />
                   </node>
                   <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018628694">
-                    <link role="zone" targetNodeId="1.1238676299018" resolveInfo="LONDON" />
+                    <link role="zone" targetNodeId="1.1239454459125" resolveInfo="LONDON" />
                   </node>
                 </node>
               </node>
@@ -2049,7 +2049,7 @@
                     </node>
                   </node>
                   <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018638664">
-                    <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
+                    <link role="zone" targetNodeId="1.1239365639576" resolveInfo="MOSCOW" />
                   </node>
                 </node>
               </node>
@@ -2084,7 +2084,7 @@
                 <link role="variableDeclaration" targetNodeId="1238683391695" resolveInfo="yesterday" />
               </node>
               <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018648477">
-                <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
+                <link role="zone" targetNodeId="1.1239454700262" resolveInfo="NEW_YORK" />
               </node>
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression" id="1238683752926">
@@ -2104,7 +2104,7 @@
                 </node>
               </node>
               <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018667557">
-                <link role="zone" targetNodeId="1.1238676634201" resolveInfo="BANGKOK" />
+                <link role="zone" targetNodeId="1.1239454767822" resolveInfo="BANGKOK" />
               </node>
             </node>
           </node>
@@ -2140,7 +2140,7 @@
                     <link role="variableDeclaration" targetNodeId="1238684167956" resolveInfo="yesterday" />
                   </node>
                   <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018465492">
-                    <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
+                    <link role="zone" targetNodeId="1.1239454700262" resolveInfo="NEW_YORK" />
                   </node>
                 </node>
               </node>
@@ -2164,7 +2164,7 @@
                     </node>
                   </node>
                   <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018685276">
-                    <link role="zone" targetNodeId="1.1238676634201" resolveInfo="BANGKOK" />
+                    <link role="zone" targetNodeId="1.1239454767822" resolveInfo="BANGKOK" />
                   </node>
                 </node>
               </node>
@@ -2210,7 +2210,7 @@
                 <link role="variableDeclaration" targetNodeId="1239020055840" resolveInfo="thisMoment" />
               </node>
               <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239020146090">
-                <link role="zone" targetNodeId="1.1238676329036" resolveInfo="BERLIN" />
+                <link role="zone" targetNodeId="1.1239454740900" resolveInfo="BERLIN" />
               </node>
             </node>
           </node>
@@ -2245,7 +2245,7 @@
                 <link role="variableDeclaration" targetNodeId="1239020188320" resolveInfo="thisMoment" />
               </node>
               <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239020188330">
-                <link role="zone" targetNodeId="1.1238675442422" resolveInfo="MOSCOW" />
+                <link role="zone" targetNodeId="1.1239365639576" resolveInfo="MOSCOW" />
               </node>
             </node>
           </node>
