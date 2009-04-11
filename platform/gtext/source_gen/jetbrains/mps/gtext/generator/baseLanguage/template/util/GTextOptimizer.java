@@ -41,7 +41,7 @@ public class GTextOptimizer {
         SNode nextChild = optChild;
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
           SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
-          nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
+          nextChild = (SNode)SNodeOperations.getNextSibling(nextChild);
         }
         nextChild = inlineChildren(optChild, nextChild);
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
@@ -52,7 +52,7 @@ public class GTextOptimizer {
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GLine")) {
         SNode nextChild = optChild;
         SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
-        nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
+        nextChild = (SNode)SNodeOperations.getNextSibling(nextChild);
         nextChild = inlineChildren(optChild, nextChild);
         SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
         SNodeOperations.deleteNode(optChild);

@@ -30,7 +30,7 @@ public class FileName_Behavior {
     }
     SNode root = SNodeOperations.getContainingRoot(thisNode);
     if (SNodeOperations.isInstanceOf(root, "jetbrains.mps.buildlanguage.structure.Project")) {
-      SNode project = SNodeOperations.cast(root, "jetbrains.mps.buildlanguage.structure.Project");
+      SNode project = (SNode)root;
       if ((SLinkOperations.getTarget(project, "basedir", true) == null)) {
         return false;
       }
