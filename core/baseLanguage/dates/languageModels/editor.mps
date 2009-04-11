@@ -24,7 +24,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
@@ -35,7 +35,7 @@
   <maxImportIndex value="51" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="28" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="2" />
+  <import index="28" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
   <import index="36" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
   <import index="40" modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
   <import index="48" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
@@ -716,6 +716,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Alternation" id="1172490607600">
         <property name="vertical" value="true" />
+        <property name="attractsFocus" value="2" />
         <link role="actionMap" targetNodeId="1172509072796" resolveInfo="PeriodConstant_ActionMap" />
         <node role="ifTrueCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1172490607601">
           <link role="relationDeclaration" targetNodeId="1.1172489570282" />
@@ -879,7 +880,7 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1173960051610">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173960053346">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
+        <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1173960064070">
         <link role="actionMap" targetNodeId="1173966103686" resolveInfo="DateTimePropertyFormatToken_ActionMap" />
@@ -924,7 +925,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173960057709">
         <property name="text" value="}" />
-        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
+        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1237800221870" />
     </node>
@@ -1327,7 +1328,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1174386331706">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="operation.arithmetic.deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1174386108135" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174386334458">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174386338553">
@@ -1376,7 +1377,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1174387524837">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="operation.arithmetic.deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1174387394067" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174387534926">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174387534927">
@@ -1731,7 +1732,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1207143658567">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="operation.arithmetic.deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1207143297026" resolveInfo="DateTimePlusPeriodOperation" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1207143693985">
       <property name="vertical" value="false" />
@@ -1758,7 +1759,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1207222934836">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="operation.arithmetic.deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1207222873197" resolveInfo="DateTimeMinusPeriodOperation" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1207222936978">
       <property name="vertical" value="false" />
@@ -2174,6 +2175,75 @@
         <link role="relationDeclaration" targetNodeId="1.1239019204488" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1239019453670" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1239037299988">
+    <property name="package" value="operation.arithmetic" />
+    <link role="conceptDeclaration" targetNodeId="1.1239036439524" resolveInfo="PeriodInProperty" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1239037302927">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1239209562934">
+        <link role="relationDeclaration" targetNodeId="1.1239209522682" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1239037329242">
+        <property name="text" value="in" />
+        <link role="styleClass" targetNodeId="48.1215010940130" resolveInfo="Operator" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1239037329243">
+        <link role="relationDeclaration" targetNodeId="1.1239036706289" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="1239037329244">
+          <link role="conceptDeclaration" targetNodeId="28.1172074318583" resolveInfo="DateTimeProperty" />
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1239037329245">
+            <property name="readOnly" value="true" />
+            <link role="styleClass" targetNodeId="1219660122574" resolveInfo="DateProperty" />
+            <link role="relationDeclaration" targetNodeId="28.1172490222219" resolveInfo="pluralForm" />
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1239037302929" />
+    </node>
+    <node role="inspectedCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1239037535518">
+      <property name="vertical" value="false" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1239037538597">
+        <property name="text" value="absolute" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1239037600049">
+        <link role="relationDeclaration" targetNodeId="1.1239037593439" resolveInfo="absolute" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1239194000188">
+    <property name="package" value="operation.compare" />
+    <link role="conceptDeclaration" targetNodeId="1.1239193939163" resolveInfo="WithProperty" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1239194001362">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1239197886264">
+        <link role="editorComponent" targetNodeId="1239197649001" resolveInfo="WithProperty_component" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1239194001363">
+        <property name="text" value="by" />
+        <link role="styleClass" targetNodeId="48.1215010940130" resolveInfo="Operator" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1239194001364">
+        <link role="relationDeclaration" targetNodeId="1.1239193967166" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="1239194001365">
+          <link role="conceptDeclaration" targetNodeId="28.1172074318583" resolveInfo="DateTimeProperty" />
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1239194001366">
+            <property name="readOnly" value="true" />
+            <link role="styleClass" targetNodeId="1219660122574" resolveInfo="DateProperty" />
+            <link role="relationDeclaration" targetNodeId="28.1172490222219" resolveInfo="pluralForm" />
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1239194001367" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="1239197649001">
+    <property name="name" value="WithProperty_component" />
+    <link role="conceptDeclaration" targetNodeId="1.1239193939163" resolveInfo="WithPropertyCompareExpression" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1239197705020">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1239197705022" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1239199020179">
+        <link role="relationDeclaration" targetNodeId="1.1239198287872" />
+      </node>
     </node>
   </node>
 </model>

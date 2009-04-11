@@ -21,13 +21,13 @@ public class Compare_Test extends TestCase {
 
   @Test()
   public void test_greater() throws Exception {
-    Assert.assertFalse(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.valueOf("GT"), System.currentTimeMillis(), DateTimeFieldType.monthOfYear()));
+    Assert.assertFalse(System.currentTimeMillis() > System.currentTimeMillis());
     Assert.assertTrue(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.valueOf("GE"), yesterday, DateTimeFieldType.dayOfMonth()));
   }
 
   @Test()
   public void test_never() throws Exception {
-    Assert.assertFalse(DateTimeOperations.compare(Long.valueOf(0), CompareType.valueOf("GE"), System.currentTimeMillis(), DateTimeFieldType.millisOfSecond()));
+    Assert.assertFalse(Long.valueOf(0) >= System.currentTimeMillis());
     Assert.assertTrue(DateTimeOperations.compare(Long.valueOf(0), CompareType.valueOf("LT"), yesterday, DateTimeFieldType.secondOfMinute()));
   }
 
@@ -38,12 +38,12 @@ public class Compare_Test extends TestCase {
 
   @Test()
   public void test_min() throws Exception {
-    Assert.assertTrue(DateTimeOperations.compare((Math.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24)))), CompareType.valueOf("LT"), DateTimeOperations.convert(Period.days(1)), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue((Math.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24)))) < DateTimeOperations.convert(Period.days(1)));
   }
 
   @Test()
   public void test_max() throws Exception {
-    Assert.assertFalse(DateTimeOperations.compare((Math.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2)))), CompareType.valueOf("EQ"), DateTimeOperations.convert(Period.hours(24)), DateTimeFieldType.millisOfSecond()));
+    Assert.assertFalse((Math.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2)))) == DateTimeOperations.convert(Period.hours(24)));
   }
 
 }

@@ -23,6 +23,8 @@ import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_Propert
 import java.util.List;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import org.joda.time.DateTimeZone;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DateTimeZone_Editor extends DefaultNodeEditor {
 
@@ -39,12 +41,10 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_5525_0(context, node, "datetime"));
     editorCell.addEditorCell(this.createConstant_5525_2(context, node, "zone"));
     editorCell.addEditorCell(this.createProperty_5525_1(context, node));
-    editorCell.addEditorCell(this.createConstant_5525_1(context, node, "="));
-    editorCell.addEditorCell(this.createConstant_5525_3(context, node, "GMT"));
+    editorCell.addEditorCell(this.createConstant_5525_1(context, node, "for"));
     editorCell.addEditorCell(this.createProperty_5525_3(context, node));
+    editorCell.addEditorCell(this.createConstant_5525_3(context, node, "/"));
     editorCell.addEditorCell(this.createProperty_5525_5(context, node));
-    editorCell.addEditorCell(this.createConstant_5525_4(context, node, ":"));
-    editorCell.addEditorCell(this.createProperty_5525_7(context, node));
     return editorCell;
   }
 
@@ -76,14 +76,6 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_5525_3(editorCell, node, context);
     setupLabel_Constant_5525_3(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  public EditorCell createConstant_5525_4(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_5525_4(editorCell, node, context);
-    setupLabel_Constant_5525_4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -126,14 +118,14 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
       setupLabel_Property_5525_1((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new SubstituteInfoPart[]{new DateTimeZone_Editor.DateTimeZone_sign_cellMenu0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new SubstituteInfoPart[]{new DateTimeZone_Editor.DateTimeZone_continentOfCountry_cellMenu0()}));
     return editorCell;
   }
 
   public EditorCell createProperty_5525_3(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
-    provider.setRole("sign");
-    provider.setNoTargetText("+");
+    provider.setRole("continentOfCountry");
+    provider.setNoTargetText("continent");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(true);
     EditorCell cellWithRole = this.createProperty_5525_2_internal(context, node, provider);
@@ -156,47 +148,17 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
       setupLabel_Property_5525_2((EditorCell_Label)editorCell, node, context);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new SubstituteInfoPart[]{new DateTimeZone_Editor.DateTimeZone_hour_cellMenu0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new SubstituteInfoPart[]{new DateTimeZone_Editor.DateTimeZone_country_cellMenu0()}));
     return editorCell;
   }
 
   public EditorCell createProperty_5525_5(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
-    provider.setRole("hour");
-    provider.setNoTargetText("00");
+    provider.setRole("country");
+    provider.setNoTargetText("country");
     provider.setReadOnly(false);
     provider.setAllowsEmptyTarget(true);
     EditorCell cellWithRole = this.createProperty_5525_4_internal(context, node, provider);
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
-    } else
-    return cellWithRole;
-  }
-
-  public EditorCell createProperty_5525_6_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
-    EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_5525_3(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_5525_3((EditorCell_Label)editorCell, node, context);
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new SubstituteInfoPart[]{new DateTimeZone_Editor.DateTimeZone_minute_cellMenu0()}));
-    return editorCell;
-  }
-
-  public EditorCell createProperty_5525_7(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
-    provider.setRole("minute");
-    provider.setNoTargetText("00");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(true);
-    EditorCell cellWithRole = this.createProperty_5525_6_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -224,6 +186,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_5525_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_5525_1");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_5525_2(EditorCell editorCell, SNode node, EditorContext context) {
@@ -234,31 +197,30 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_5525_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_5525_3");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Property_5525_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_sign");
-  }
-
-  private static void setupBasic_Property_5525_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_hour");
-  }
-
-  private static void setupBasic_Constant_5525_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_5525_4");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.PUNCTUATION_LEFT, true);
-          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
+          this.set(StyleAttributes.SELECTABLE, false);
         }
       };
       inlineStyle.apply(editorCell);
     }
   }
 
-  private static void setupBasic_Property_5525_3(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_minute");
+  private static void setupBasic_Property_5525_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("property_continentOfCountry");
+  }
+
+  private static void setupBasic_Property_5525_2(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("property_country");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.PUNCTUATION_LEFT, false);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupLabel_Constant_5525_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -282,51 +244,45 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   private static void setupLabel_Property_5525_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  private static void setupLabel_Constant_5525_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
+  public static class DateTimeZone_continentOfCountry_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
 
-  private static void setupLabel_Property_5525_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  public static class DateTimeZone_sign_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
-
-    public DateTimeZone_sign_cellMenu0() {
+    public DateTimeZone_continentOfCountry_cellMenu0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
       List<String> result = ListSequence.<String>fromArray();
-      ListSequence.fromList(result).addElement("+");
-      ListSequence.fromList(result).addElement("-");
-      return result;
-    }
-
-}
-  public static class DateTimeZone_hour_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
-
-    public DateTimeZone_hour_cellMenu0() {
-    }
-
-    public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = ListSequence.<String>fromArray();
-      for(int i = 0 ; i <= 12 ; i++ ) {
-        ListSequence.fromList(result).addElement((i < 10 ?
-          "0" + i :
-          "" + i
-        ));
+      for(Object obj : DateTimeZone.getAvailableIDs()) {
+        String str = obj + "";
+        if (str.indexOf('/') == -1) {
+          continue;
+        }
+        String continent = str.substring(0, str.indexOf('/'));
+        if (!(ListSequence.fromList(result).contains(continent))) {
+          ListSequence.fromList(result).addElement(continent);
+        }
       }
       return result;
     }
 
 }
-  public static class DateTimeZone_minute_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
+  public static class DateTimeZone_country_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
 
-    public DateTimeZone_minute_cellMenu0() {
+    public DateTimeZone_country_cellMenu0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
       List<String> result = ListSequence.<String>fromArray();
-      ListSequence.fromList(result).addElement("00");
-      ListSequence.fromList(result).addElement("30");
+      for(Object obj : DateTimeZone.getAvailableIDs()) {
+        String str = obj + "";
+        if (str.indexOf('/') == -1) {
+          ListSequence.fromList(result).addElement(str);
+          continue;
+        }
+        String continent = str.substring(0, str.indexOf('/'));
+        if (SPropertyOperations.getString(node, "continentOfCountry") != null && continent.equals(SPropertyOperations.getString(node, "continentOfCountry"))) {
+          ListSequence.fromList(result).addElement(str.substring(str.indexOf('/') + 1));
+        }
+      }
       return result;
     }
 

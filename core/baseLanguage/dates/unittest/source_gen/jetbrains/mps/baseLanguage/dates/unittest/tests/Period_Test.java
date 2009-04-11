@@ -65,7 +65,7 @@ public class Period_Test extends TestCase {
   public void test_convert() throws Exception {
     Period p = DateTimeOperations.plus(Period.minutes(1), Period.seconds(15));
     Long d = DateTimeOperations.convert(p);
-    Assert.assertTrue(DateTimeOperations.compare(d, CompareType.valueOf("EQ"), (long)75000, DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(d == (long)75000);
   }
 
 }

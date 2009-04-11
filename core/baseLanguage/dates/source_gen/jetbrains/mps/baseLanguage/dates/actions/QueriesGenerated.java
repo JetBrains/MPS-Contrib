@@ -14,14 +14,12 @@ import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
-import jetbrains.mps.util.Calculable;
-import jetbrains.mps.baseLanguage.dates.structure.CompareType;
-import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.smodel.action.AbstractSideTransformHintSubstituteAction;
 import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.util.Calculable;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class QueriesGenerated {
 
@@ -61,45 +59,6 @@ public class QueriesGenerated {
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1169657550853(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.<INodeSubstituteAction>fromArray();
     {
-      final SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation");
-      Calculable calculable = new Calculable() {
-
-        public Object calculate() {
-          return CompareType.getConstants();
-        }
-      };
-      Iterable<CompareType> parameterObjects = (Iterable<CompareType>)calculable.calculate();
-      assert parameterObjects != null;
-      for(final CompareType item : parameterObjects) {
-        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(item, _context.getSourceNode()) {
-
-          public SNode doSubstitute(String pattern) {
-            SNode result = SModelOperations.createNewNode(_context.getModel(), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", null);
-            SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
-            SLinkOperations.setTarget(result, "op1", _context.getSourceNode(), true);
-            SPropertyOperations.set(result, "compareType", (item).getValueAsString());
-            return result;
-          }
-
-          public SNode getOutputConcept() {
-            return concept;
-          }
-
-          public String getMatchingText(String text) {
-            return (item).getName();
-          }
-
-          public String getVisibleMatchingText(String text) {
-            return this.getMatchingText(text);
-          }
-
-          public String getDescriptionText(String text) {
-            return (item).getValue();
-          }
-        });
-      }
-    }
-    {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation");
       Iterable<SNode> concepts = ListSequence.<SNode>fromArray(concept);
       concepts = Sequence.fromIterable(concepts).concat(ListSequence.fromList(SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope())));
@@ -116,72 +75,6 @@ public class QueriesGenerated {
             SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
             SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
             SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
-            return result;
-          }
-        });
-      }
-    }
-    {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation");
-      Iterable<SNode> concepts = ListSequence.<SNode>fromArray(concept);
-      concepts = Sequence.fromIterable(concepts).concat(ListSequence.fromList(SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope())));
-      for(final SNode subconcept : concepts) {
-        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
-          continue;
-        }
-        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
-          continue;
-        }
-        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
-
-          public SNode doSubstitute(String pattern) {
-            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
-            SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
-            SLinkOperations.setTarget(result, "leftValue", _context.getSourceNode(), true);
-            return result;
-          }
-        });
-      }
-    }
-    {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimePlusPeriodOperation");
-      Iterable<SNode> concepts = ListSequence.<SNode>fromArray(concept);
-      concepts = Sequence.fromIterable(concepts).concat(ListSequence.fromList(SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope())));
-      for(final SNode subconcept : concepts) {
-        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
-          continue;
-        }
-        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
-          continue;
-        }
-        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
-
-          public SNode doSubstitute(String pattern) {
-            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
-            SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
-            SLinkOperations.setTarget(result, "leftValue", _context.getSourceNode(), true);
-            return result;
-          }
-        });
-      }
-    }
-    {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusPeriodOperation");
-      Iterable<SNode> concepts = ListSequence.<SNode>fromArray(concept);
-      concepts = Sequence.fromIterable(concepts).concat(ListSequence.fromList(SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope())));
-      for(final SNode subconcept : concepts) {
-        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
-          continue;
-        }
-        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
-          continue;
-        }
-        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
-
-          public SNode doSubstitute(String pattern) {
-            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
-            SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
-            SLinkOperations.setTarget(result, "leftValue", _context.getSourceNode(), true);
             return result;
           }
         });

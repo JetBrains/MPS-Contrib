@@ -10,7 +10,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import java.util.List;
 import jetbrains.mps.smodel.search.IsInstanceCondition;
-import jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
@@ -21,7 +20,7 @@ public class DateFormatReferenceUtil {
   public static ISearchScope buildIDateFormatSearchScope(final SNode node, IScope scope) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");
-    List<SNode> formats = s.getNodes(new IsInstanceCondition(((AbstractConceptDeclaration)SNodeOperations.getAdapter(cd))));
+    List<SNode> formats = s.getNodes(new IsInstanceCondition(cd));
     formats = ListSequence.fromList(formats).where(new IWhereFilter <SNode>() {
 
       public boolean accept(SNode it) {

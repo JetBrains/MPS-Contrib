@@ -23,15 +23,17 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902bc(jetbrains.mps.lang.sharedConcepts.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="2" />
-  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="2" />
+  <maxImportIndex value="4" />
+  <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="3" modelUID="r:00000000-0000-4000-0000-011c89590454(jetbrains.mps.samples.matrixLanguage.structure)" version="0" />
+  <import index="4" modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" version="-1" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877257790">
     <link role="concept" targetNodeId="1.1174043262324" resolveInfo="DateTimeZonePropertyFormatConfiguration" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877257791">
@@ -139,6 +141,56 @@
     </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877536321">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877536322" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1239362722081">
+    <link role="concept" targetNodeId="1.1238668259228" resolveInfo="DateTimeZone" />
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1239362722082">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239362722083" />
+    </node>
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1239362726615">
+      <property name="name" value="getID" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1239362726616" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.StringType" id="1239362731743" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239362726618">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1239368283265">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1239368333724">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239368336696">
+              <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1239368336414" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1239368339607">
+                <link role="property" targetNodeId="1.1239362712519" resolveInfo="country" />
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1239368328446">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1239368328447">
+                <node role="condition" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1239368328448">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1239368328449" />
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239368328450">
+                    <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1239368328451" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1239368328452">
+                      <link role="property" targetNodeId="1.1239366855147" resolveInfo="continentOfCountry" />
+                    </node>
+                  </node>
+                </node>
+                <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239368328453">
+                  <property name="value" value="" />
+                </node>
+                <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1239368328454">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239368328455">
+                    <property name="value" value="/" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239368328456">
+                    <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1239368328457" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1239368328458">
+                      <link role="property" targetNodeId="1.1239366855147" resolveInfo="continentOfCountry" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

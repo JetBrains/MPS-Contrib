@@ -126,6 +126,157 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="3">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MoveConcepts" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582828" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356138995" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582829" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356138996" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582830" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356138997" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582831" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356138998" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582832" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356138999" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582833" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139000" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582834" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139001" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582835" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139002" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582836" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139003" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582837" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139004" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582838" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139005" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582839" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139006" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582840" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139007" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582841" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139008" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582842" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139009" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582843" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139010" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582844" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139011" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582845" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139012" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582846" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139013" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582847" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139014" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582848" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139015" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582849" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139016" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582850" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139017" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582851" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139018" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582852" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139019" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" nodeId="1239215582853" />
+          <value modelUID="r:00000000-0000-4000-0000-011c8959044e(jetbrains.mps.samples.matrixLanguage.behavior)" nodeId="1239356139020" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" nodeId="1239215582807" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590451(jetbrains.mps.samples.matrixLanguage.editor)" nodeId="1239356138973" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" nodeId="1239215582808" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590451(jetbrains.mps.samples.matrixLanguage.editor)" nodeId="1239356138974" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" nodeId="1239215582809" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590451(jetbrains.mps.samples.matrixLanguage.editor)" nodeId="1239356138975" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" nodeId="1239215582810" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590451(jetbrains.mps.samples.matrixLanguage.editor)" nodeId="1239356138976" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" nodeId="1239215582811" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590451(jetbrains.mps.samples.matrixLanguage.editor)" nodeId="1239356138977" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dc(jetbrains.mps.baseLanguage.datesInternal.editor)" nodeId="1239215582812" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590451(jetbrains.mps.samples.matrixLanguage.editor)" nodeId="1239356138978" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" nodeId="1239215582772" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590454(jetbrains.mps.samples.matrixLanguage.structure)" nodeId="1239356138939" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" nodeId="1239215582773" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590454(jetbrains.mps.samples.matrixLanguage.structure)" nodeId="1239356138940" />
+        </entry>
+        <entry>
+          <key modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" nodeId="1239215582774" />
+          <value modelUID="r:00000000-0000-4000-0000-011c89590454(jetbrains.mps.samples.matrixLanguage.structure)" nodeId="1239356138941" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="MatrixType" conceptFQName="jetbrains.mps.baseLanguage.datesInternal.structure.MatrixType" featureKind="CONCEPT" />
+          <value featureName="MatrixType" conceptFQName="jetbrains.mps.samples.matrixLanguage.structure.MatrixType" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
@@ -140,7 +291,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <maxImportIndex value="4" />
@@ -425,16 +576,12 @@
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1238668275511">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1238673611896">
-      <property name="name" value="sign" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1239362712519">
+      <property name="name" value="country" />
       <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1238673965483">
-      <property name="name" value="hour" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1238673978766">
-      <property name="name" value="minute" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1239366855147">
+      <property name="name" value="continentOfCountry" />
       <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
   </node>

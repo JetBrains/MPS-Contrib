@@ -156,7 +156,6 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
         {
           this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
           this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, false);
         }
       };
       inlineStyle.apply(editorCell);

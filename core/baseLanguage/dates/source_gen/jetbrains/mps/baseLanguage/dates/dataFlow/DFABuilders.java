@@ -12,6 +12,7 @@ import jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeCompareOperation_DataFl
 import jetbrains.mps.baseLanguage.dates.dataFlow.PeriodConstant_DataFlow;
 import jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeWithPropertyOperation_DataFlow;
 import jetbrains.mps.baseLanguage.dates.dataFlow.UnaryDateTimeOperation_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.PeriodInPropertyOperation_DataFlow;
 
 public class DFABuilders extends DataFlowBuilders {
 
@@ -24,6 +25,7 @@ public class DFABuilders extends DataFlowBuilders {
     manager.register("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant", new PeriodConstant_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", new DateTimeWithPropertyOperation_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", new UnaryDateTimeOperation_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", new PeriodInPropertyOperation_DataFlow());
   }
 
 }

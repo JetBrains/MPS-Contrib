@@ -20,12 +20,12 @@ public class typeof_TimeZoneFromString_InferenceRule extends AbstractInferenceRu
     {
       SNode _nodeToCheck_1029348928467 = timeZone;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation(typeCheckingContext.typeOf(timeZone, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019325417", true), new _Quotations.QuotationClass_50().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019330217", intentionProvider);
+      typeCheckingContext.createEquation(typeCheckingContext.typeOf(timeZone, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019325417", true), new _Quotations.QuotationClass_56().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019330217", intentionProvider);
     }
     {
       SNode _nodeToCheck_1029348928467 = timeZone;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation(typeCheckingContext.typeOf(SLinkOperations.getTarget(timeZone, "string", true), "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019345856", true), new _Quotations.QuotationClass_51().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019351520", intentionProvider);
+      typeCheckingContext.createEquation(typeCheckingContext.typeOf(SLinkOperations.getTarget(timeZone, "string", true), "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019345856", true), new _Quotations.QuotationClass_57().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019351520", intentionProvider);
     }
   }
 

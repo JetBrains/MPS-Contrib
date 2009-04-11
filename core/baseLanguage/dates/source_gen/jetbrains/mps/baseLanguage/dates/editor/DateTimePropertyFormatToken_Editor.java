@@ -257,12 +257,12 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9366_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9366_0");
-    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_Constant_9366_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9366_1");
-    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_RefCell_9366_0(EditorCell editorCell, SNode node, EditorContext context) {
