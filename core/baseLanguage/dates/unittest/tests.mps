@@ -2136,7 +2136,7 @@
                   <link role="zone" targetNodeId="1.1238676062546" resolveInfo="NEWYORK" />
                   <link role="locale" targetNodeId="1.1172681410396" resolveInfo="US" />
                   <link role="dateFormat" targetNodeId="1.1173884354722" resolveInfo="fullDate" />
-                  <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1238684183354">
+                  <node role="dateExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1239474689942">
                     <link role="variableDeclaration" targetNodeId="1238684167956" resolveInfo="yesterday" />
                   </node>
                   <node role="zone" type="jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef" id="1239018465492">
