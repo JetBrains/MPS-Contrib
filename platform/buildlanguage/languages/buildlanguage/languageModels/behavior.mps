@@ -2439,10 +2439,8 @@
         <property name="name" value="s2" />
         <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239568232720" />
       </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877353500">
-        <link role="classifier" targetNodeId="5.~SNode" resolveInfo="SNode" />
-      </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1219155723769" />
+      <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239574989263" />
     </node>
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877353501">
       <property name="name" value="getValue" />
@@ -3283,9 +3281,6 @@
       <property name="name" value="getType" />
       <property name="isVirtual" value="true" />
       <property name="isPrivate" value="false" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877398952">
-        <link role="classifier" targetNodeId="5.~SNode" resolveInfo="SNode" />
-      </node>
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877398953">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213877398954">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1213877398955">
@@ -3302,6 +3297,7 @@
         <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239568232650" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1219155723832" />
+      <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239574947590" />
     </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877398960">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877398961" />
