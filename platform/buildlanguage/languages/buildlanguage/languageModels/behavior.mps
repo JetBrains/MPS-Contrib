@@ -2443,11 +2443,15 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877353496">
         <property name="name" value="s1" />
-        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239498050097" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877353497">
+          <link role="classifier" targetNodeId="5.~SNode" resolveInfo="SNode" />
+        </node>
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877353498">
         <property name="name" value="s2" />
-        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239498050223" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877353499">
+          <link role="classifier" targetNodeId="5.~SNode" resolveInfo="SNode" />
+        </node>
       </node>
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877353500">
         <link role="classifier" targetNodeId="5.~SNode" resolveInfo="SNode" />
@@ -3305,11 +3309,15 @@
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877398956">
         <property name="name" value="s1" />
-        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239498049437" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877398957">
+          <link role="classifier" targetNodeId="5.~SNode" resolveInfo="SNode" />
+        </node>
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877398958">
         <property name="name" value="s2" />
-        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239498050292" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1213877398959">
+          <link role="classifier" targetNodeId="5.~SNode" resolveInfo="SNode" />
+        </node>
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1219155723832" />
     </node>
