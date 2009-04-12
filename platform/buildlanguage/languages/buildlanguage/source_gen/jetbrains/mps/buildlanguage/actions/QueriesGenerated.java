@@ -40,7 +40,7 @@ public class QueriesGenerated {
     if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttribute"))) {
       return false;
     }
-    SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttribute"), "attributeDeclaration", false);
+    SNode decl = SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeDeclaration", false);
     return ((SLinkOperations.getTarget(decl, "enum", true) != null)) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(decl, "enum", true), "jetbrains.mps.buildlanguage.structure.StringEnum");
   }
 
@@ -169,7 +169,7 @@ public class QueriesGenerated {
         Calculable calc = new Calculable() {
 
           public Object calculate() {
-            SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.buildlanguage.structure.GenericAttribute"), "attributeDeclaration", false);
+            SNode decl = SLinkOperations.getTarget(((SNode)_context.getParentNode()), "attributeDeclaration", false);
             return SLinkOperations.getTargets(SLinkOperations.getTarget(decl, "enum", true), "constants", true);
           }
         };

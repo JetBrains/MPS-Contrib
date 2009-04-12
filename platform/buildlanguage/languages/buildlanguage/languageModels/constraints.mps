@@ -292,9 +292,13 @@
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213104847751">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104847753">
-              <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1239490685727">
-                <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
-                <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="1213104847756" />
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1213104847754">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="1213104847755">
+                  <node role="expression" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="1213104847756" />
+                  <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1213104847757">
+                    <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
+                  </node>
+                </node>
               </node>
               <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1213104847758">
                 <link role="baseMethodDeclaration" targetNodeId="18.1213877362745" resolveInfo="getPossibleNesteds" />
@@ -454,9 +458,11 @@
                   <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1213104856785">
                     <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
                   </node>
-                  <node role="initializer" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="1239490689069">
-                    <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104856788">
+                  <node role="initializer" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="1213104856786">
+                    <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1213104856787">
+                      <link role="concept" targetNodeId="2.1197111643046" resolveInfo="GenericCall" />
+                    </node>
+                    <node role="expression" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="1213104856788">
                       <link role="variable" targetNodeId="1213104856780" resolveInfo="node" />
                     </node>
                   </node>
