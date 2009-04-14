@@ -16,16 +16,17 @@ import java.util.Map;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.baseLanguage.unitTest.plugin.UnitTestRunOutputReader;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.concurrent.CyclicBarrier;
 import jetbrains.mps.logging.Logger;
 
 public class UnitTestRunner extends BaseRunner {
 
-  private JUnitTestViewComponent component;
+  private JUnitTestViewComponent myComponent;
   private UnitTest_PreferencesComponent unitTestPreferences;
 
   public UnitTestRunner(UnitTest_PreferencesComponent unitTestPreferences, JUnitTestViewComponent component) {
-    this.component = component;
+    this.myComponent = component;
     this.unitTestPreferences = unitTestPreferences;
   }
 
@@ -78,11 +79,19 @@ public class UnitTestRunner extends BaseRunner {
       }
     });
     ProcessBuilder p = new ProcessBuilder(params);
-    this.component.appendInternal(this.getCommandString(p) + "\n\n");
+    this.myComponent.appendInternal(this.getCommandString(p) + "\n\n");
     try {
-      Process pro = p.start();
-      UnitTestRunOutputReader outReader = new UnitTestRunOutputReader(pro.getInputStream(), this.component, false);
-      UnitTestRunOutputReader errReader = new UnitTestRunOutputReader(pro.getErrorStream(), this.component, true);
+      final Process pro = p.start();
+      final UnitTestRunOutputReader outReader = new UnitTestRunOutputReader(pro.getInputStream(), this.myComponent, false);
+      final UnitTestRunOutputReader errReader = new UnitTestRunOutputReader(pro.getErrorStream(), this.myComponent, true);
+      this.myComponent.addCloseListener(new _FunctionTypes._void_P0_E0() {
+
+        public void invoke() {
+          outReader.interrupt();
+          errReader.interrupt();
+          pro.destroy();
+        }
+      });
       CyclicBarrier barrier = new CyclicBarrier(2, outReader.getExecutor());
       outReader.setBarrier(barrier);
       errReader.setBarrier(barrier);
