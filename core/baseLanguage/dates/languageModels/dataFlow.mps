@@ -186,16 +186,8 @@
         <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="1227028592518">
           <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1227028592519">
             <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="1227028592520" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1227028610105">
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1239808009904">
               <link role="link" targetNodeId="1.1172491543832" />
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" id="1239799980442">
-          <node role="variable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239799986305">
-            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="1239799981554" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1239799987621">
-              <link role="link" targetNodeId="1.1172489570282" />
             </node>
           </node>
         </node>
@@ -632,17 +624,6 @@
               <link role="link" targetNodeId="1.1239193967166" />
             </node>
           </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239806252052">
-    <property name="package" value="operation.round" />
-    <link role="conceptDeclaration" targetNodeId="1.1172325083904" resolveInfo="FloorDateTimeOperation" />
-    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239806252053">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239806252054">
-        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="1239806254805">
-          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.Expression" id="1239806254806" />
         </node>
       </node>
     </node>

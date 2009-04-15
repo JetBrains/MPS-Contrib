@@ -7,25 +7,24 @@ import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.intentions.BaseIntentionProvider;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.baseLanguage.dates.typesystem._Quotations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
-public class typeof_InlineFormatExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
+public class typeof_WithPropertyCompareExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
 
-  public typeof_InlineFormatExpression_InferenceRule() {
+  public typeof_WithPropertyCompareExpression_InferenceRule() {
   }
 
   public void applyRule(final SNode expression, final TypeCheckingContext typeCheckingContext) {
     {
       SNode _nodeToCheck_1029348928467 = expression;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation(typeCheckingContext.typeOf(SLinkOperations.getTarget(expression, "zone", true), "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239018219290", true), new _Quotations.QuotationClass_55().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239018223435", intentionProvider);
+      typeCheckingContext.createEquation(typeCheckingContext.typeOf(expression, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239808503999", true), new _Quotations.QuotationClass_60().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239808508190", intentionProvider);
     }
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression";
+    return "jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression";
   }
 
   public boolean isApplicable(SNode argument) {
