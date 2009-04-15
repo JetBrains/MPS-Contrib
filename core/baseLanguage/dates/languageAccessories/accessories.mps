@@ -429,26 +429,6 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings" id="1172074610338">
-    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1239365639576">
-      <property name="name" value="MOSCOW" />
-      <property name="continentOfCountry" value="Europe" />
-      <property name="country" value="Moscow" />
-    </node>
-    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1239454459125">
-      <property name="country" value="London" />
-      <property name="continentOfCountry" value="Europe" />
-      <property name="name" value="LONDON" />
-    </node>
-    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1239454700262">
-      <property name="continentOfCountry" value="America" />
-      <property name="country" value="New_York" />
-      <property name="name" value="NEW_YORK" />
-    </node>
-    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1239454740900">
-      <property name="continentOfCountry" value="Europe" />
-      <property name="country" value="Berlin" />
-      <property name="name" value="BERLIN" />
-    </node>
     <node role="schedulePeriod" type="jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod" id="1194007170385">
       <property name="name" value="every minute" />
     </node>
@@ -881,10 +861,61 @@
       <property name="pluralForm" value="eras" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.era():org.joda.time.DateTimeFieldType" resolveInfo="era" />
     </node>
-    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1239454767822">
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676062546">
+      <property name="hour" value="05" />
+      <property name="sign" value="-" />
+      <property name="name" value="NEWYORK" />
+      <property name="minute" value="00" />
+      <property name="continentOfCountry" value="America" />
+      <property name="country" value="New_York" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676299018">
+      <property name="name" value="LONDON" />
+      <property name="hour" value="00" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
+      <property name="continentOfCountry" value="Europe" />
+      <property name="country" value="London" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676329036">
+      <property name="name" value="BERLIN" />
+      <property name="hour" value="01" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
+      <property name="continentOfCountry" value="Europe" />
+      <property name="country" value="Berlin" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238675442422">
+      <property name="hour" value="03" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
+      <property name="name" value="MOSCOW" />
+      <property name="continentOfCountry" value="Europe" />
+      <property name="country" value="Moscow" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676634201">
+      <property name="name" value="BANGKOK" />
+      <property name="hour" value="07" />
+      <property name="minute" value="00" />
+      <property name="sign" value="+" />
       <property name="continentOfCountry" value="Asia" />
       <property name="country" value="Bangkok" />
-      <property name="name" value="BANGKOK" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676682406">
+      <property name="name" value="TOKYO" />
+      <property name="hour" value="09" />
+      <property name="sign" value="+" />
+      <property name="minute" value="00" />
+      <property name="continentOfCountry" value="Asia" />
+      <property name="country" value="Tokyo" />
+    </node>
+    <node role="zone" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZone" id="1238676740784">
+      <property name="name" value="SYDNEY" />
+      <property name="sign" value="+" />
+      <property name="hour" value="10" />
+      <property name="minute" value="00" />
+      <property name="continentOfCountry" value="Australia" />
+      <property name="country" value="Sydney" />
     </node>
   </node>
 </model>

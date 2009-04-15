@@ -8,15 +8,14 @@ import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
-public class DateTimeCompareOperation_DataFlow extends DataFlowBuilder {
+public class TokenConditionalPair_DataFlow extends DataFlowBuilder {
 
-  public DateTimeCompareOperation_DataFlow() {
+  public TokenConditionalPair_DataFlow() {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "op1", true));
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "op2", true));
-    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false));
+    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "condition", true));
+    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "format", false));
   }
 
 }

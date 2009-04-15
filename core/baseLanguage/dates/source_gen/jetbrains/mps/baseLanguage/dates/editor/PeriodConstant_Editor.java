@@ -13,7 +13,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.baseLanguage.dates.editor.PeriodConstant_ActionMap;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -147,9 +146,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_Alternation_1753_0(EditorCell editorCell, SNode node, EditorContext context) {
-    if (true) {
-      editorCell.setFocusPolicy(FocusPolicy.FIRST_EDITABLE_CELL);
-    }
     PeriodConstant_ActionMap.setCellActions(editorCell, node, context);
   }
 

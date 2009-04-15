@@ -13,6 +13,20 @@ import jetbrains.mps.baseLanguage.dates.dataFlow.PeriodConstant_DataFlow;
 import jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeWithPropertyOperation_DataFlow;
 import jetbrains.mps.baseLanguage.dates.dataFlow.UnaryDateTimeOperation_DataFlow;
 import jetbrains.mps.baseLanguage.dates.dataFlow.PeriodInPropertyOperation_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.ConditionalFormatToken_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.ConstantTimeZoneRef_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.DateFormat_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.DateFormatsTable_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.DateTimeOffsetFormatToken_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.InlineFormatExpression_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.LiteralFormatToken_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.ReferenceFormatToken_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.TokenConditionalPair_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.TimeZoneFromString_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.MathDateTimeOperation_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.DateTimePropetyReferenceOperation_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.RoundDateTimeOperation_DataFlow;
+import jetbrains.mps.baseLanguage.dates.dataFlow.WithPropertyCompareExpression_DataFlow;
 
 public class DFABuilders extends DataFlowBuilders {
 
@@ -26,6 +40,20 @@ public class DFABuilders extends DataFlowBuilders {
     manager.register("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation", new DateTimeWithPropertyOperation_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.UnaryDateTimeOperation", new UnaryDateTimeOperation_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", new PeriodInPropertyOperation_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken", new ConditionalFormatToken_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.ConstantTimeZoneRef", new ConstantTimeZoneRef_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.DateFormat", new DateFormat_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", new DateFormatsTable_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.DateTimeOffsetFormatToken", new DateTimeOffsetFormatToken_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression", new InlineFormatExpression_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.LiteralFormatToken", new LiteralFormatToken_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.ReferenceFormatToken", new ReferenceFormatToken_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair", new TokenConditionalPair_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString", new TimeZoneFromString_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.MathDateTimeOperation", new MathDateTimeOperation_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation", new DateTimePropetyReferenceOperation_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", new RoundDateTimeOperation_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", new WithPropertyCompareExpression_DataFlow());
   }
 
 }

@@ -33,7 +33,7 @@ public class Compare_Test extends TestCase {
 
   @Test()
   public void test_lessOrEquals() throws Exception {
-    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear()), CompareType.valueOf("LE"), DateTimeOperations.round(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth()), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear())), CompareType.valueOf("LE"), (DateTimeOperations.round(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth())), DateTimeFieldType.millisOfSecond()));
   }
 
   @Test()

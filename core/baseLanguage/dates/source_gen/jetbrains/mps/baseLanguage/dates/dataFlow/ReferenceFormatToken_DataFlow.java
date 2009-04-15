@@ -5,19 +5,15 @@ package jetbrains.mps.baseLanguage.dates.dataFlow;
 import jetbrains.mps.lang.dataFlow.DataFlowBuilder;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
-public class FormatExpression_DataFlow extends DataFlowBuilder {
+public class ReferenceFormatToken_DataFlow extends DataFlowBuilder {
 
-  public FormatExpression_DataFlow() {
+  public ReferenceFormatToken_DataFlow() {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "dateExpression", true));
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "zone", true));
     _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "dateFormat", false));
-    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "locale", false));
   }
 
 }

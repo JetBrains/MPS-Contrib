@@ -8,15 +8,15 @@ import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
-public class DateTimeCompareOperation_DataFlow extends DataFlowBuilder {
+public class DateFormat_DataFlow extends DataFlowBuilder {
 
-  public DateTimeCompareOperation_DataFlow() {
+  public DateFormat_DataFlow() {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "op1", true));
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "op2", true));
-    _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false));
+    for(SNode token : SLinkOperations.getTargets(_context.getNode(), "token", true)) {
+      _context.getBuilder().build((SNode)token);
+    }
   }
 
 }

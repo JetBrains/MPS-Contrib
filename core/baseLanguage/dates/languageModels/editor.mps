@@ -716,7 +716,6 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Alternation" id="1172490607600">
         <property name="vertical" value="true" />
-        <property name="attractsFocus" value="2" />
         <link role="actionMap" targetNodeId="1172509072796" resolveInfo="PeriodConstant_ActionMap" />
         <node role="ifTrueCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1172490607601">
           <link role="relationDeclaration" targetNodeId="1.1172489570282" />
