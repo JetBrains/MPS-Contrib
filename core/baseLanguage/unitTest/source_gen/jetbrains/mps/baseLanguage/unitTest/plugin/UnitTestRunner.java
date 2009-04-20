@@ -7,13 +7,13 @@ import jetbrains.mps.baseLanguage.unitTest.plugin.JUnitTestViewComponent;
 import jetbrains.mps.baseLanguage.unitTest.plugin.UnitTest_PreferencesComponent;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
-import java.util.LinkedHashMap;
+import java.util.Map;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
-import java.util.Map;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.baseLanguage.unitTest.plugin.UnitTestRunOutputReader;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
@@ -31,7 +31,7 @@ public class UnitTestRunner extends BaseRunner {
   }
 
   public void run(List<SNode> tests) {
-    final LinkedHashMap<TestRunParameters, List<SNode>> map = new LinkedHashMap<TestRunParameters, List<SNode>>();
+    final Map<TestRunParameters, List<SNode>> map = MapSequence.fromMap(new LinkedHashMap<TestRunParameters, List<SNode>>(16, (float)0.75, false));
     for(SNode test : ListSequence.fromList(tests)) {
       TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
       if (MapSequence.fromMap(map).containsKey(parameters)) {
@@ -40,15 +40,15 @@ public class UnitTestRunner extends BaseRunner {
       {
         List<SNode> t = ListSequence.<SNode>fromArray();
         ListSequence.fromList(t).addElement(test);
-        map.put(parameters, t);
+        MapSequence.fromMap(map).put(parameters, t);
       }
     }
     final UnitTestRunner runner = this;
     Thread thread = new Thread(new Runnable() {
 
       public void run() {
-        for(Map.Entry<TestRunParameters, List<SNode>> entry : SetSequence.fromSet(map.entrySet())) {
-          runner.runTestWithParameters(entry.getKey(), entry.getValue());
+        for(TestRunParameters key : Sequence.fromIterable(MapSequence.fromMap(map).keySet())) {
+          runner.runTestWithParameters(key, map.get(key));
         }
       }
     });
