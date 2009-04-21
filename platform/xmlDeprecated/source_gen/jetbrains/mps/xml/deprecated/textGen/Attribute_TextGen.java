@@ -10,9 +10,13 @@ import jetbrains.mps.util.JDOMUtil;
 public class Attribute_TextGen extends SNodeTextGen {
 
   public void doGenerateText(SNode node) {
+    String value = (SPropertyOperations.getString(node, "value") == null ?
+      "" :
+      JDOMUtil.createOutputter().escapeElementEntities(SPropertyOperations.getString(node, "value"))
+    );
     this.append(SPropertyOperations.getString(node, "name"));
     this.append("=\"");
-    this.append(JDOMUtil.createOutputter().escapeElementEntities(SPropertyOperations.getString(node, "value")));
+    this.append(value);
     this.append("\"");
   }
 

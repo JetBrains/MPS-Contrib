@@ -84,7 +84,7 @@ public class QueriesGenerated {
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
 
         public SNode doSubstitute(String pattern) {
-          //            add next attribute
+          //  add next attribute
           SNode nextAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
           SPropertyOperations.set(nextAttr, "name", StringUtils.trim(pattern));
           SNodeOperations.insertNextSiblingChild(_context.getSourceNode(), nextAttr);

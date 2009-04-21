@@ -130,6 +130,10 @@ public class QueriesGenerated {
     return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "unless"));
   }
 
+  public static boolean ifMacro_Condition_1240316820310(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "default", true) != null);
+  }
+
   public static SNode sourceNodeQuery_1197045463934(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     if (SLinkOperations.getCount(_context.getNode(), "depends") == 0) {
       return null;

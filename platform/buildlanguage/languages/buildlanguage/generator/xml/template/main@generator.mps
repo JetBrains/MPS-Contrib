@@ -615,6 +615,23 @@
             </node>
           </node>
         </node>
+        <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro" id="1240316820309">
+          <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition" id="1240316820310">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1240316820311">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1240316826527">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1240316830245">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1240316826723">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1240316826528" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1240316829382">
+                      <link role="link" targetNodeId="1.1196859969927" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="1240316832933" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1200145383481">
         <property name="name" value="basedir" />
