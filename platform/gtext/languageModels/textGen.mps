@@ -89,7 +89,6 @@
               </node>
             </node>
           </node>
-          <node role="part" type="jetbrains.mps.lang.textGen.structure.NewLineAppendPart" id="1237463992942" />
         </node>
       </node>
     </node>

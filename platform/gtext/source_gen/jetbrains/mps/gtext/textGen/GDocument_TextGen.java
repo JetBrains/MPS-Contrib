@@ -16,7 +16,6 @@ public class GDocument_TextGen extends SNodeTextGen {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
-    this.appendNewLine();
   }
 
 }
