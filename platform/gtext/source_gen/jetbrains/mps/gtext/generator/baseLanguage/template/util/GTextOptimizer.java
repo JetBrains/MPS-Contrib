@@ -29,7 +29,7 @@ public class GTextOptimizer {
   }
 
   public static int optimizeItems(SNode item) {
-    // inline item lists
+    //     inline item lists
     SNode n = item;
     for(SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
       SNode optChild = optimize(child);
@@ -41,7 +41,7 @@ public class GTextOptimizer {
         SNode nextChild = optChild;
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
           SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
-          nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
+          nextChild = (SNode)SNodeOperations.getNextSibling(nextChild);
         }
         nextChild = inlineChildren(optChild, nextChild);
         if (SPropertyOperations.getBoolean(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GConditionalLine"), "isSeparate")) {
@@ -52,13 +52,13 @@ public class GTextOptimizer {
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GLine")) {
         SNode nextChild = optChild;
         SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GIndent", null));
-        nextChild = SNodeOperations.cast(SNodeOperations.getNextSibling(nextChild), "jetbrains.mps.gtext.structure.GItem");
+        nextChild = (SNode)SNodeOperations.getNextSibling(nextChild);
         nextChild = inlineChildren(optChild, nextChild);
         SNodeOperations.insertNextSiblingChild(nextChild, SModelOperations.createNewNode(SNodeOperations.getModel(item), "jetbrains.mps.gtext.structure.GNewLine", null));
         SNodeOperations.deleteNode(optChild);
       }
     }
-    // concat text
+    //     concat text
     SNode t = null;
     for(SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
       if (SNodeOperations.isInstanceOf(child, "jetbrains.mps.gtext.structure.GText")) {
@@ -82,7 +82,7 @@ public class GTextOptimizer {
 
   public static SNode inlineChildren(SNode optChild, SNode nextChild) {
     SNode nc = nextChild;
-    // cast to GItemList, because all item list containers have the same name for children items - "item"
+    //     cast to GItemList, because all item list containers have the same name for children items - "item"
     while (ListSequence.fromList(GCompositeItem_Behavior.call_getItems_1239125087745(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"))).isNotEmpty()) {
       SNode childOfChild = ListSequence.fromList(GCompositeItem_Behavior.call_getItems_1239125087745(SNodeOperations.cast(optChild, "jetbrains.mps.gtext.structure.GCompositeItem"))).first();
       SNodeOperations.insertNextSiblingChild(nc, childOfChild);
