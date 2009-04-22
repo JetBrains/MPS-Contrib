@@ -7,7 +7,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.util.List;
 import org.jdesktop.beansbinding.AutoBinding;
-import java.util.ArrayList;
+import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.uiLanguage.runtime.events.Events;
 import java.awt.BorderLayout;
 import jetbrains.mps.ide.ui.filechoosers.treefilechooser.TreeFileChooser;
@@ -26,7 +26,7 @@ public class PathField extends JPanel {
   private JButton myButton0;
   private String myPath;
   private int myMode;
-  public List<AutoBinding> myBindings = new ArrayList<AutoBinding>();
+  public List<AutoBinding> myBindings = ListOperations.<AutoBinding>createList();
   private Events myEvents = new Events(null) {
     {
     }
@@ -68,7 +68,7 @@ public class PathField extends JPanel {
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
-      this.myBindings.add(binding);
+      ListOperations.addElement(this.myBindings, binding);
     }
   }
 
