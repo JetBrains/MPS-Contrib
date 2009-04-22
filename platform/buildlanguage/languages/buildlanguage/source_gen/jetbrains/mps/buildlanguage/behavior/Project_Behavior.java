@@ -26,7 +26,7 @@ public class Project_Behavior {
     List<SNode> decls = ListOperations.<SNode>createList();
     ListSequence.fromList(decls).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "property", true)));
     for(SNode pimport : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProperties", true))) {
-      ListSequence.fromList(decls).addSequence(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(pimport, "propertyNode", false), "declaration", true)));
+      ListSequence.fromList(decls).addSequence(ListSequence.fromList(AbstractImportProperties_Behavior.call_getPropertyDeclarations_1240397763706(pimport)));
     }
     return decls;
   }

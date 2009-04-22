@@ -78,7 +78,7 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="importProperties" />
       <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="1200418817047" resolveInfo="ImportProperties" />
+      <link role="target" targetNodeId="1240397336536" resolveInfo="AbstractImportProperties" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1199036079290">
       <property name="metaClass" value="aggregation" />
@@ -639,13 +639,17 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1200418817047">
-    <property name="name" value="ImportProperties" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <property name="name" value="ImportPropertyNode" />
+    <link role="extends" targetNodeId="1240397336536" resolveInfo="AbstractImportProperties" />
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1200418839170">
       <link role="intfc" targetNodeId="1199644616584" resolveInfo="IProjectComponent" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1200420328599">
-      <property name="value" value="import" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1240398811581">
+      <property name="value" value="import property node" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1240398870163">
+      <property name="value" value="import-properties" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1200420354547">
@@ -828,6 +832,35 @@
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="1230220832119">
     <property name="package" value="Expressions" />
     <property name="name" value="ITargetReference" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1240397336536">
+    <property name="name" value="AbstractImportProperties" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1240397359188">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1240397368000">
+      <property name="value" value="import-properties" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1240398708423">
+    <property name="name" value="ImportPropertiesFromFile" />
+    <link role="extends" targetNodeId="1240397336536" resolveInfo="AbstractImportProperties" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1240398738487">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="propertyFile" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1196851952934" resolveInfo="PropertyValueExpression" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1240398786776">
+      <property name="value" value="import properties from file" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1240398923392">
+      <property name="value" value="import-properties" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
   </node>
 </model>
 

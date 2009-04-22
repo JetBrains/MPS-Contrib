@@ -137,6 +137,12 @@
         <link role="template" targetNodeId="1201709713178" resolveInfo="reduce_ImportProject" />
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="1240399021362">
+      <link role="applicableConcept" targetNodeId="1.1240398708423" resolveInfo="ImportPropertiesFromFile" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="1240399029624">
+        <link role="template" targetNodeId="1240399029604" resolveInfo="reduce_ImportPropertiesFromFile" />
+      </node>
+    </node>
     <node role="rootMappingRule" type="jetbrains.mps.lang.generator.structure.Root_MappingRule" id="1197042309253">
       <link role="applicableConcept" targetNodeId="1.1196851066733" resolveInfo="Project" />
       <link role="template" targetNodeId="1197043042167" resolveInfo="document" />
@@ -1473,6 +1479,37 @@
         </node>
       </node>
       <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="1219150174093" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="1240399029604">
+    <property name="name" value="reduce_ImportPropertiesFromFile" />
+    <link role="applicableConcept" targetNodeId="1.1240398708423" resolveInfo="ImportPropertiesFromFile" />
+    <node role="contentNode" type="jetbrains.mps.xml.deprecated.structure.Element" id="1240399044166">
+      <property name="name" value="property" />
+      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="1240399044167" />
+      <node role="attribute" type="jetbrains.mps.xml.deprecated.structure.Attribute" id="1240399044168">
+        <property name="name" value="file" />
+        <property name="value" value="filename" />
+        <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1240399737242">
+          <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1240399737243">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1240399737244">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1240399747191">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1240399754723">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1240399747238">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1240399747192" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1240399753770">
+                      <link role="link" targetNodeId="1.1240398738487" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1240399756201">
+                    <link role="baseMethodDeclaration" targetNodeId="18.1213877472569" resolveInfo="toString" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

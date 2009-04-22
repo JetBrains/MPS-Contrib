@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 
 public class PropertyValueExpression_Behavior {
@@ -15,7 +16,7 @@ public class PropertyValueExpression_Behavior {
   }
 
   public static List<String> virtual_getPaths_1213877276955(SNode thisNode) {
-    List<String> list = ListSequence.<String>fromArray(PropertyValueExpression_Behavior.call_getActualValue_1213877472572(thisNode));
+    List<String> list = ListSequence.fromListAndArray(new ArrayList<String>(), PropertyValueExpression_Behavior.call_getActualValue_1213877472572(thisNode));
     return list;
   }
 

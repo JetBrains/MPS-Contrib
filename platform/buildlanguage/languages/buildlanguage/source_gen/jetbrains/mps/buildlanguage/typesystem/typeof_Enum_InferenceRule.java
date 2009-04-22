@@ -21,7 +21,7 @@ public class typeof_Enum_InferenceRule extends AbstractInferenceRule_Runtime imp
       {
         SNode _nodeToCheck_1029348928467 = nodeToCheck;
         BaseIntentionProvider intentionProvider = null;
-        typeCheckingContext.createLessThanInequation(typeCheckingContext.typeOf(element, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401256457", false, 0, intentionProvider);
+        typeCheckingContext.createLessThanInequation((SNode)typeCheckingContext.typeOf(element, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401239298", true), (SNode)ListSequence.fromList(SLinkOperations.getConceptLinkTargets(nodeToCheck, "type")).first(), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1197401256457", false, 0, intentionProvider);
       }
     }
   }

@@ -27,6 +27,7 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
 import java.util.Comparator;
 
 public class QueriesGenerated {
@@ -108,6 +109,10 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_1230222683911(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return "${ant.file}/../" + ITargetReference_Behavior.call_getProjectFileName_1230222765831(_context.getNode());
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1240399737243(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "propertyFile", true));
   }
 
   public static boolean ifMacro_Condition_1200145212723(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -228,7 +233,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1230222691427(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    final Set<String> existing = SetSequence.<String>fromArray();
+    final Set<String> existing = SetSequence.fromSet(new HashSet<String>());
     for(SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false))) {
       SetSequence.fromSet(existing).addElement(SPropertyOperations.getString(SLinkOperations.getTarget(importProject, "project", false), "name"));
     }
