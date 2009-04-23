@@ -13,14 +13,11 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.baseLanguage.dates.editor.DateTimePlusPeriodOperation_leftOperand_actionMap;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
-import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
-import jetbrains.mps.baseLanguage.dates.editor.DateTimePlusPeriodOperation_rightOperand_actionMap;
 
 public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
 

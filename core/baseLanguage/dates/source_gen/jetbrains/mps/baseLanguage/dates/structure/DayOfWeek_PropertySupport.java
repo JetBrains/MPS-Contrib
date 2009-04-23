@@ -4,7 +4,6 @@ package jetbrains.mps.baseLanguage.dates.structure;
 
 import jetbrains.mps.smodel.PropertySupport;
 import java.util.Iterator;
-import jetbrains.mps.baseLanguage.dates.structure.DayOfWeek;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class DayOfWeek_PropertySupport extends PropertySupport {

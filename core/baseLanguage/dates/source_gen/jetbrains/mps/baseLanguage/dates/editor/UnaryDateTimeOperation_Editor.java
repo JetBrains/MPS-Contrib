@@ -15,7 +15,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.baseLanguage.dates.editor.UnaryDateTimeOperation_ActionMap;
 
 public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
 

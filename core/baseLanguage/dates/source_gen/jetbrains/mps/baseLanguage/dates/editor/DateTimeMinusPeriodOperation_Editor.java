@@ -17,10 +17,7 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
-import jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusPeriodOperation_leftOperand_actionMap;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
-import jetbrains.mps.baseLanguage.dates.editor.Dates_StyleSheet;
-import jetbrains.mps.baseLanguage.dates.editor.DateTimeMinusPeriodOperation_rightOperand_actionMap;
 
 public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
 
