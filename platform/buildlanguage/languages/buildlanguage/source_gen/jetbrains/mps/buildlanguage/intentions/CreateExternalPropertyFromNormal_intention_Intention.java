@@ -9,11 +9,21 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import java.util.List;
+import jetbrains.mps.intentions.Intention;
+import java.util.ArrayList;
 
 public class CreateExternalPropertyFromNormal_intention_Intention extends BaseIntention {
 
+  public CreateExternalPropertyFromNormal_intention_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.buildlanguage.structure.PropertyDeclaration";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {
@@ -41,6 +51,12 @@ public class CreateExternalPropertyFromNormal_intention_Intention extends BaseIn
 
   public String getLocationString() {
     return "jetbrains.mps.buildlanguage.intentions";
+  }
+
+  public List<Intention> getInstances(final SNode node, final EditorContext editorContext) {
+    List<Intention> list = new ArrayList<Intention>();
+    list.add(this);
+    return list;
   }
 
 }

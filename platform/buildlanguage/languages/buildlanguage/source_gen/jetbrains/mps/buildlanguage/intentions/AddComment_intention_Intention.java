@@ -7,11 +7,21 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import java.util.List;
+import jetbrains.mps.intentions.Intention;
+import java.util.ArrayList;
 
 public class AddComment_intention_Intention extends BaseIntention {
 
+  public AddComment_intention_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.buildlanguage.structure.ICommented";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {
@@ -42,6 +52,12 @@ public class AddComment_intention_Intention extends BaseIntention {
 
   public String getLocationString() {
     return "jetbrains.mps.buildlanguage.intentions";
+  }
+
+  public List<Intention> getInstances(final SNode node, final EditorContext editorContext) {
+    List<Intention> list = new ArrayList<Intention>();
+    list.add(this);
+    return list;
   }
 
 }
