@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.uiLanguage" uuid="5d6bee4c-f891-4a93-a0c9-e2268726ae47" java-stubs-enabled="true" compileInMPS="false">
+<language namespace="jetbrains.mps.uiLanguage" uuid="5d6bee4c-f891-4a93-a0c9-e2268726ae47" java-stubs-enabled="false" compileInMPS="false">
   <models>
-    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.uiLanguage" />
     <modelRoot path="${language_descriptor}/languageAccessories" namespacePrefix="jetbrains.mps.uiLanguage" />
+    <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.uiLanguage" />
   </models>
   <accessoryModels>
     <model modelUID="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)" />
@@ -83,20 +83,21 @@
     </generator>
   </generators>
   <classPath>
+    <entry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false" />
     <entry path="${language_descriptor}/classes" include="false" />
     <entry path="${language_descriptor}/runtime/classes" include="false" />
-    <entry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false" />
   </classPath>
   <languageRuntimeClassPath>
-    <entry path="${language_descriptor}/runtime/classes" />
     <entry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" />
+    <entry path="${language_descriptor}/runtime/classes" />
   </languageRuntimeClassPath>
   <sourcePath />
   <dependencies>
-    <dependency reexport="false">3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
-    <dependency reexport="false">a20a42c8-ea20-45de-bc60-acb92cc25c46(jetbrains.mps.ide.uiLanguage)</dependency>
     <dependency reexport="false">37a3367b-1fb2-44d8-aa6b-18075e74e003(MPS.Classpath)</dependency>
+    <dependency reexport="false">a20a42c8-ea20-45de-bc60-acb92cc25c46(jetbrains.mps.ide.uiLanguage)</dependency>
+    <dependency reexport="false">3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)</dependency>
+    <dependency reexport="false">d1415f93-6c9c-4200-81f9-9205ed57131a(jetbrains.mps.uiLanguage#1202393863737)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguages>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguages>
