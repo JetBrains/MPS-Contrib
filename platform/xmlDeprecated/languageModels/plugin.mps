@@ -27,8 +27,6 @@
   <maxImportIndex value="11" />
   <import index="6" modelUID="f:java_stub#jetbrains.mps.generator.fileGenerator(jetbrains.mps.generator.fileGenerator@java_stub)" version="-1" />
   <import index="7" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="10" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="11" modelUID="f:java_stub#jetbrains.mps.xml.deprecated.structure(jetbrains.mps.xml.deprecated.structure@java_stub)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" />
   <node type="jetbrains.mps.lang.plugin.structure.FileGeneratorDeclaration" id="1228676841203">
     <property name="name" value="Xml" />
