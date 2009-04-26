@@ -32,7 +32,7 @@
     <property name="name" value="Xml" />
     <link role="extendedClass" targetNodeId="6.~DefaultFileGenerator" resolveInfo="DefaultFileGenerator" />
     <node role="method" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1228678086169">
-      <property name="name" value="getExtenstion" />
+      <property name="name" value="getExtension" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1228678086170">
         <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
       </node>

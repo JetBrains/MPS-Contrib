@@ -33,7 +33,7 @@
     <property name="name" value="Gtext" />
     <link role="extendedClass" targetNodeId="3.~DefaultFileGenerator" resolveInfo="DefaultFileGenerator" />
     <node role="method" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1228676695108">
-      <property name="name" value="getExtenstion" />
+      <property name="name" value="getExtension" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1228676718269">
         <link role="classifier" targetNodeId="6.~String" resolveInfo="String" />
       </node>
