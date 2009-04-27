@@ -101,6 +101,9 @@
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1196862148498">
       <link role="intfc" targetNodeId="1196862084542" resolveInfo="IPropertyHolder" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1240834046915">
+      <link role="intfc" targetNodeId="1240833739976" resolveInfo="IAntScript" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1196851087779">
     <property name="name" value="Call" />
@@ -861,6 +864,9 @@
       <property name="value" value="import-properties" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="1240833739976">
+    <property name="name" value="IAntScript" />
   </node>
 </model>
 
