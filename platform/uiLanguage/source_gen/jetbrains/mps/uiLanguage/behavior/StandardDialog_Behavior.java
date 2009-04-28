@@ -4,7 +4,6 @@ package jetbrains.mps.uiLanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.uiLanguage.behavior._Quotations;
 
 public class StandardDialog_Behavior {
 

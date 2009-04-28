@@ -20,7 +20,7 @@ public class typeof_RaiseInternalStatement_InferenceRule extends AbstractInferen
     {
       SNode _nodeToCheck_1029348928467 = statement;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createLessThanInequationStrong(typeCheckingContext.typeOf(SLinkOperations.getTarget(statement, "argument", true), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1209655701497", true), SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(statement, "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "parameter", true), "type", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1209655719223", true, 0, intentionProvider);
+      typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(statement, "argument", true), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1209655701497", true), (SNode)SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.getAncestor(statement, "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false), "parameter", true), "type", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1209655719223", true, 0, intentionProvider);
     }
   }
 

@@ -10,7 +10,6 @@ import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.uiLanguage.behavior.ComponentDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.uiLanguage.typesystem._Quotations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 

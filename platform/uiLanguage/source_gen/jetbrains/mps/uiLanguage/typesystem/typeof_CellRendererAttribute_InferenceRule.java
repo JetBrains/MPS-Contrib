@@ -21,7 +21,7 @@ public class typeof_CellRendererAttribute_InferenceRule extends AbstractInferenc
     {
       SNode _nodeToCheck_1029348928467 = attribute;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createLessThanInequationStrong(typeCheckingContext.typeOf(SLinkOperations.getTarget(attribute, "renderer", true), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1210180446514", true), SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(CellRendererAttribute_Behavior.call_getRendererInfoNode_1213877401775(attribute), "cellRendererSetter", false), "parameter", true)).first(), "type", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1210180459646", false, 0, intentionProvider);
+      typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(attribute, "renderer", true), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1210180446514", true), (SNode)SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(CellRendererAttribute_Behavior.call_getRendererInfoNode_1213877401775(attribute), "cellRendererSetter", false), "parameter", true)).first(), "type", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1210180459646", false, 0, intentionProvider);
     }
   }
 

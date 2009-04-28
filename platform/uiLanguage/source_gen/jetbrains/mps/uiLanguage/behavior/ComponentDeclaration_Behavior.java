@@ -12,7 +12,6 @@ import java.util.List;
 import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.NameUtil;
-import jetbrains.mps.uiLanguage.behavior.IComponentInstance_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifierPart_Behavior;

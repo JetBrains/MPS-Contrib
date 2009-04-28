@@ -19,7 +19,7 @@ public class typeof_AttributeValue_InferenceRule extends AbstractInferenceRule_R
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createLessThanInequationStrong(typeCheckingContext.typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1202396534901", true), SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1202396548783", false, 0, intentionProvider);
+      typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(nodeToCheck, "value", true), "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1202396534901", true), (SNode)SLinkOperations.getTarget(SLinkOperations.getTarget(nodeToCheck, "attribute", false), "type", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1202396548783", false, 0, intentionProvider);
     }
   }
 
