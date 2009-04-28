@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.unitTest.runtime;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 import org.apache.commons.lang.ObjectUtils;
 
 public class TestRunParameters {
@@ -14,8 +15,8 @@ public class TestRunParameters {
 
   public TestRunParameters() {
     this.myTestRunner = TestRunner.class.getName();
-    this.myVmParameters = ListSequence.<String>fromArray();
-    this.myClassPath = ListSequence.<String>fromArray();
+    this.myVmParameters = ListSequence.fromList(new ArrayList<String>());
+    this.myClassPath = ListSequence.fromList(new ArrayList<String>());
   }
 
   public void setTestRunner(String name) {

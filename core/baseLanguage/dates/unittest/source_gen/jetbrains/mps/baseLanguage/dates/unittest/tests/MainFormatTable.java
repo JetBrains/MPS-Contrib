@@ -6,12 +6,9 @@ import jetbrains.mps.baseLanguage.dates.runtime.table.BaseFormatTable;
 import org.joda.time.format.DateTimeFormatter;
 import org.joda.time.format.DateTimeFormatterBuilder;
 import jetbrains.mps.baseLanguage.dates.runtime.FixedLocaleDateTimeFormatter;
-import jetbrains.mps.baseLanguage.dates.unittest.tests._FormatTables;
 import java.util.Locale;
-import jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDateTimePrinter0;
 import jetbrains.mps.baseLanguage.dates.runtime.OffsetDateTimePrinter;
 import org.joda.time.DurationFieldType;
-import jetbrains.mps.baseLanguage.dates.unittest.tests.ConditionalDateTimePrinter1;
 
 public class MainFormatTable extends BaseFormatTable {
 

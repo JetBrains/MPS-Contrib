@@ -5,7 +5,6 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
-import jetbrains.mps.baseLanguage.dates.behavior._Quotations;
 import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
 
 public class MathDateTimeOperation_Behavior {
