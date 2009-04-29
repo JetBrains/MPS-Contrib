@@ -722,6 +722,86 @@
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1236786736053" />
       </node>
     </node>
+    <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1240997645393">
+      <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1240997654661">
+        <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
+      </node>
+      <node role="leftOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997670372">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1240997673968" />
+      </node>
+      <node role="rightOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997677436">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997680969" />
+      </node>
+      <node role="function" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeFunction" id="1240997645397">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1240997645398">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1240997685419">
+            <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997685420">
+              <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997690520" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1240997691835">
+      <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1240997695087">
+        <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
+      </node>
+      <node role="leftOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997697352">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997703909" />
+      </node>
+      <node role="function" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeFunction" id="1240997691839">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1240997691840">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1240997815322">
+            <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997815323">
+              <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997829049" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="rightOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997806841">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1240997811710" />
+      </node>
+    </node>
+    <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1240997838554">
+      <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1240997838555">
+        <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
+      </node>
+      <node role="leftOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997838556">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.PeriodType" id="1240997848373" />
+      </node>
+      <node role="rightOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997838558">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997838559" />
+      </node>
+      <node role="function" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeFunction" id="1240997838560">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1240997838561">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1240997853712">
+            <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997853713">
+              <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997858911" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1240997862796">
+      <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1240997862797">
+        <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
+      </node>
+      <node role="leftOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997862798">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997868600" />
+      </node>
+      <node role="rightOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997862800">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.PeriodType" id="1240997873107" />
+      </node>
+      <node role="function" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeFunction" id="1240997862802">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1240997862803">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1240997879263">
+            <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1240997879264">
+              <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="1240997882720" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1236786623255">
       <property name="leftIsExact" value="true" />
       <property name="rightIsExact" value="true" />
