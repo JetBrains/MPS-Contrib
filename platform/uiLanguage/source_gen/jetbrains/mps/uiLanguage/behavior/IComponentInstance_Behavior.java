@@ -29,11 +29,11 @@ public class IComponentInstance_Behavior {
   }
 
   public static SNode call_getExtendedComponent_1213877498080(SNode thisNode) {
-    return (SNode)BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
+    return (SNode)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.uiLanguage.structure.IComponentInstance"), "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
   }
 
   public static SNode callSuper_getExtendedComponent_1213877498080(SNode thisNode, String callerConceptFqName) {
-    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
+    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.uiLanguage.structure.IComponentInstance"), callerConceptFqName, "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
   }
 
 }
