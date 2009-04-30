@@ -6,6 +6,7 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import java.util.Set;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ContentItem_Behavior {
   private static Class[] PARAMETERS_1213877413538 = {SNode.class ,List.class};
@@ -16,27 +17,27 @@ public class ContentItem_Behavior {
   }
 
   public static void call_checkAttributes_1213877413538(SNode thisNode, List<SNode> attributeDeclarations) {
-    BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
+    BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
   }
 
   public static void call_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
-    BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
+    BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
   }
 
   public static boolean call_isMixed_1213877413548(SNode thisNode) {
-    return (Boolean)BehaviorManager.getInstance().invoke(Boolean.class, thisNode, "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
+    return (Boolean)BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
   }
 
   public static void callSuper_checkAttributes_1213877413538(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {
-    BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
+    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), callerConceptFqName, "virtual_checkAttributes_1213877413538", PARAMETERS_1213877413538, attributeDeclarations);
   }
 
   public static void callSuper_checkElements_1213877413543(SNode thisNode, String callerConceptFqName, Set<SNode> elementDeclarations) {
-    BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
+    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), callerConceptFqName, "virtual_checkElements_1213877413543", PARAMETERS_1213877413543, elementDeclarations);
   }
 
   public static boolean callSuper_isMixed_1213877413548(SNode thisNode, String callerConceptFqName) {
-    return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, thisNode, callerConceptFqName, "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
+    return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), callerConceptFqName, "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
   }
 
 }

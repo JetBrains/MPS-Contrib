@@ -5,6 +5,7 @@ package jetbrains.mps.xml.deprecated.behavior;
 import jetbrains.mps.smodel.SNode;
 import org.jdom.DocType;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ExternalId_Behavior {
   private static Class[] PARAMETERS_1234406619968 = {SNode.class ,DocType.class};
@@ -13,11 +14,11 @@ public class ExternalId_Behavior {
   }
 
   public static void call_createID_1234406619968(SNode thisNode, DocType doctype) {
-    BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_createID_1234406619968", PARAMETERS_1234406619968, doctype);
+    BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), "virtual_createID_1234406619968", PARAMETERS_1234406619968, doctype);
   }
 
   public static void callSuper_createID_1234406619968(SNode thisNode, String callerConceptFqName, DocType doctype) {
-    BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_createID_1234406619968", PARAMETERS_1234406619968, doctype);
+    BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), callerConceptFqName, "virtual_createID_1234406619968", PARAMETERS_1234406619968, doctype);
   }
 
 }

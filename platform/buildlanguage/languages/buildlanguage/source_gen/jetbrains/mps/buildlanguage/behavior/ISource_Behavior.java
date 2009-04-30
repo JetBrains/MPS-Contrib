@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ISource_Behavior {
   private static Class[] PARAMETERS_1213877276955 = {SNode.class};
@@ -13,11 +14,11 @@ public class ISource_Behavior {
   }
 
   public static List<String> call_getPaths_1213877276955(SNode thisNode) {
-    return (List<String>)BehaviorManager.getInstance().invoke(Object.class, thisNode, "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
+    return (List<String>)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
   }
 
   public static List<String> callSuper_getPaths_1213877276955(SNode thisNode, String callerConceptFqName) {
-    return (List<String>)BehaviorManager.getInstance().invokeSuper(Object.class, thisNode, callerConceptFqName, "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
+    return (List<String>)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), callerConceptFqName, "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
   }
 
 }

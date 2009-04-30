@@ -4,7 +4,6 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.Set;
-import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GroupReference_Behavior {

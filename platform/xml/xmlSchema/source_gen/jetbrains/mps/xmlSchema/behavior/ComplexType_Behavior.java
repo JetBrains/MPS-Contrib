@@ -4,7 +4,6 @@ package jetbrains.mps.xmlSchema.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
-import jetbrains.mps.xmlSchema.behavior.TypeExpressionList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.Set;
 

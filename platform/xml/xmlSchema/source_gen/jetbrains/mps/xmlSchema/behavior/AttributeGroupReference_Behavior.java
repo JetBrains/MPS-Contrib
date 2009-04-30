@@ -6,7 +6,6 @@ import jetbrains.mps.smodel.SNode;
 import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 
 public class AttributeGroupReference_Behavior {
 
