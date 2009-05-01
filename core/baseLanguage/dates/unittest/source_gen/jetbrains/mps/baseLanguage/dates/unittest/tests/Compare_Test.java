@@ -38,19 +38,26 @@ public class Compare_Test extends TestCase {
 
   @Test()
   public void test_min() throws Exception {
-    Assert.assertTrue((Math.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24)))) < DateTimeOperations.convert(Period.days(1)));
+    Assert.assertTrue(Long.valueOf(Math.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24)))) < DateTimeOperations.convert(Period.days(1)));
   }
 
   @Test()
   public void test_max() throws Exception {
-    Assert.assertFalse((Math.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2)))) == DateTimeOperations.convert(Period.hours(24)));
+    Assert.assertFalse(Long.valueOf(Math.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2)))).equals(DateTimeOperations.convert(Period.hours(24))));
   }
 
   @Test()
-  public void test_testMinusOperation() throws Exception {
+  public void test_minusExpression() throws Exception {
     Long d1 = System.currentTimeMillis();
     Long d2 = DateTimeOperations.plus(d1, Period.hours(5));
     Assert.assertTrue(DateTimeOperations.equals(DateTimeOperations.minus(d2, d1), Period.hours(5)));
+  }
+
+  @Test()
+  public void test_minusExpressionWithConvert() throws Exception {
+    Long d1 = System.currentTimeMillis();
+    Long d2 = DateTimeOperations.plus(d1, Period.hours(5));
+    Assert.assertTrue(DateTimeOperations.convert((DateTimeOperations.minus(d2, d1))).equals(DateTimeOperations.convert(Period.hours(5))));
   }
 
 }
