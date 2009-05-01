@@ -46,4 +46,11 @@ public class Compare_Test extends TestCase {
     Assert.assertFalse((Math.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2)))) == DateTimeOperations.convert(Period.hours(24)));
   }
 
+  @Test()
+  public void test_testMinusOperation() throws Exception {
+    Long d1 = System.currentTimeMillis();
+    Long d2 = DateTimeOperations.plus(d1, Period.hours(5));
+    Assert.assertTrue(DateTimeOperations.equals(DateTimeOperations.minus(d2, d1), Period.hours(5)));
+  }
+
 }
