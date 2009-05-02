@@ -20,7 +20,6 @@
   <import index="1" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <import index="2" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
-  <import index="6" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.runtime.table(jetbrains.mps.baseLanguage.dates.runtime.table@java_stub)" version="-1" />
   <import index="8" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.runtime(jetbrains.mps.baseLanguage.dates.runtime@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.datesInternal.structure.FormatTokenSettings" id="1169483995724">
     <node role="dateTimePropertyFormatConfiguration" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration" id="1173957241813">
