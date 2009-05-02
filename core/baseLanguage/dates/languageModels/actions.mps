@@ -51,7 +51,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e2(jetbrains.mps.lang.generator.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
-  <maxImportIndex value="30" />
+  <maxImportIndex value="31" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
   <import index="9" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
@@ -61,6 +61,7 @@
   <import index="20" modelUID="f:java_stub#jetbrains.mps.ide.progress(jetbrains.mps.ide.progress@java_stub)" version="-1" />
   <import index="24" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.structure(jetbrains.mps.baseLanguage.dates.structure@java_stub)" version="-1" />
   <import index="30" modelUID="f:java_stub#jetbrains.mps.typesystem.inference(jetbrains.mps.typesystem.inference@java_stub)" version="-1" />
+  <import index="31" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />
     <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="1238418304901">
@@ -1033,9 +1034,14 @@
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1238258285725">
                 <link role="baseMethodDeclaration" targetNodeId="14.~SModel.hasLanguage(jetbrains.mps.project.structure.modules.ModuleReference):boolean" resolveInfo="hasLanguage" />
-                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1238258292242">
-                  <link role="classifier" targetNodeId="24.~Dates_Language" resolveInfo="Dates_Language" />
-                  <link role="variableDeclaration" targetNodeId="24.~Dates_Language.MODULE_REFERENCE" resolveInfo="MODULE_REFERENCE" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1241266317567">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1241266311019">
+                    <link role="baseMethodDeclaration" targetNodeId="14.~BootstrapLanguages.datesLanguage():jetbrains.mps.smodel.Language" resolveInfo="datesLanguage" />
+                    <link role="classConcept" targetNodeId="14.~BootstrapLanguages" resolveInfo="BootstrapLanguages" />
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1241266323460">
+                    <link role="baseMethodDeclaration" targetNodeId="31.~AbstractModule.getModuleReference():jetbrains.mps.project.structure.modules.ModuleReference" resolveInfo="getModuleReference" />
+                  </node>
                 </node>
               </node>
             </node>

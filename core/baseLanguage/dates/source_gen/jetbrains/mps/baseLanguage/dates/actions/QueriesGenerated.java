@@ -7,7 +7,7 @@ import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.baseLanguage.dates.structure.Dates_Language;
+import jetbrains.mps.smodel.BootstrapLanguages;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
@@ -49,7 +49,7 @@ public class QueriesGenerated {
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1238258026282(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return SNodeOperations.getParent(_context.getSourceNode()).getModel().hasLanguage(Dates_Language.MODULE_REFERENCE);
+    return SNodeOperations.getParent(_context.getSourceNode()).getModel().hasLanguage(BootstrapLanguages.datesLanguage().getModuleReference());
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1238418378523(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
