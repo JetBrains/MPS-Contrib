@@ -23,7 +23,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="5" />
+  <maxImportIndex value="6" />
+  <import index="6" modelUID="r:00000000-0000-4000-0000-011c895904c6(jetbrains.mps.buildlanguage.optional)" version="-1" />
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1199644185005">
     <property name="name" value="task" />
     <property name="abstract" value="true" />
@@ -12577,7 +12578,6 @@
       <link role="declaration" targetNodeId="1208450040159" resolveInfo="charsequence" />
     </node>
   </node>
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895904c6(jetbrains.mps.buildlanguage.optional)" />
   <node type="jetbrains.mps.buildlanguage.structure.GenericTaskDeclaration" id="1208450037282">
     <property name="name" value="commandline" />
     <property name="classname" value="org.apache.tools.ant.types.Commandline" />
@@ -12594,7 +12594,7 @@
       <property name="abstract" value="true" />
       <property name="fake" value="true" />
       <node role="parentRef" type="jetbrains.mps.buildlanguage.structure.Reference" id="1208450040169">
-        <link role="declaration" targetNodeId="2v.1229269032377" resolveInfo="string;" />
+        <link role="declaration" targetNodeId="6.1229269032377" resolveInfo="string;" />
       </node>
     </node>
     <node role="nested" type="jetbrains.mps.buildlanguage.structure.NestedReference" id="1208450040170">
