@@ -34,9 +34,6 @@
   <maxImportIndex value="11" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590591(jetbrains.mps.xmlInternal.structure)" version="2" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="9" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
-  <import index="10" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="11" modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213104847207">
     <link role="concept" targetNodeId="1.1166472279594" resolveInfo="XmlFile" />
     <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="1213104847208">
