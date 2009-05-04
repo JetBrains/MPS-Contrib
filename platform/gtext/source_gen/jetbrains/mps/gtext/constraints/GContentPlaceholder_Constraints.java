@@ -9,7 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 public class GContentPlaceholder_Constraints {
 
   public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
-    //     do not allow nested blocks
+    // do not allow nested blocks
     return (SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.gtext.structure.GContentBlock", true, false) == null);
   }
 

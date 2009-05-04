@@ -7,7 +7,6 @@ import jetbrains.mps.lang.typesystem.runtime.InferenceRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.intentions.BaseIntentionProvider;
-import jetbrains.mps.gtext.typesystem._Quotations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
@@ -19,7 +18,7 @@ public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRul
     {
       SNode _nodeToCheck_1029348928467 = builderContextRef;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation(typeCheckingContext.typeOf(builderContextRef, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736320454", true), new _Quotations.QuotationClass_0().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736329894", intentionProvider);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(builderContextRef, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736320454", true), (SNode)new _Quotations.QuotationClass_0().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736329894", intentionProvider);
     }
   }
 
