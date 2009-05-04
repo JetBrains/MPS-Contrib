@@ -8555,9 +8555,6 @@
           <property name="value" value="bzip2" />
         </node>
       </node>
-      <node role="default" type="jetbrains.mps.buildlanguage.structure.StringLiteral" id="1201692798814">
-        <property name="value" value="none" />
-      </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="1229269028332" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.buildlanguage.structure.GenericAttributeDeclaration" id="1199644188723">
