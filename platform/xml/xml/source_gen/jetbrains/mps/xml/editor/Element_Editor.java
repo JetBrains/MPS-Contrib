@@ -447,7 +447,7 @@ public class Element_Editor extends DefaultNodeEditor {
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.PUNCTUATION_RIGTH, true);
+          this.set(StyleAttributes.PUNCTUATION_RIGHT, true);
         }
       };
       inlineStyle.apply(editorCell);
