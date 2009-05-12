@@ -45,10 +45,5 @@ public class RemoveDateTimeProperty_Intention extends BaseIntention {
     return "jetbrains.mps.baseLanguage.dates.intentions";
   }
 
-  public List<Intention> getInstances(final SNode node, final EditorContext editorContext) {
-    List<Intention> list = ListSequence.fromList(new ArrayList<Intention>());
-    ListSequence.fromList(list).addElement(this);
-    return list;
-  }
 
 }

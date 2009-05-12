@@ -381,7 +381,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1171902375079">
     <property name="name" value="DateTimeType" />
-    <link role="extends" targetNodeId="3.1164118113764" />
+    <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1171902397815">
       <property name="value" value="datetime" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />

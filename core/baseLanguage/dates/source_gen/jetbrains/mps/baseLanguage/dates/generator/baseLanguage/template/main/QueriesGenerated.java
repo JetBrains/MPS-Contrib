@@ -16,10 +16,10 @@ import jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
 import jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
@@ -78,11 +78,15 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static boolean baseMappingRule_Condition_1241185983836(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+  public static boolean baseMappingRule_Condition_4396211440736617751(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true));
   }
 
-  public static boolean baseMappingRule_Condition_1241186122094(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+  public static boolean baseMappingRule_Condition_4396211440736691617(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true));
+  }
+
+  public static boolean baseMappingRule_Condition_4396211440736691629(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true));
   }
 
@@ -169,26 +173,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1239804391115(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    String result = null;
-    if (SConceptPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "operation", true), "alias").equals("==")) {
-      result = "EQ";
-    }
-    if (SConceptPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "operation", true), "alias").equals("!=")) {
-      result = "NE";
-    }
-    if (SConceptPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "operation", true), "alias").equals(">")) {
-      result = "GT";
-    }
-    if (SConceptPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "operation", true), "alias").equals("<")) {
-      result = "LT";
-    }
-    if (SConceptPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "operation", true), "alias").equals(">=")) {
-      result = "GE";
-    }
-    if (SConceptPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "operation", true), "alias").equals("<=")) {
-      result = "LE";
-    }
-    return result;
+    return DatesQueriesUtil.getCompareType(SLinkOperations.getTarget(_context.getNode(), "operation", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_4396211440736525441(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return DatesQueriesUtil.getCompareType(_context.getNode());
   }
 
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -532,27 +521,19 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
   }
 
-  public static SNode sourceNodeQuery_1241186117318(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
-  }
-
-  public static SNode sourceNodeQuery_1241186117329(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
-  }
-
-  public static SNode sourceNodeQuery_1241186122077(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
-  }
-
-  public static SNode sourceNodeQuery_1241186122088(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
-  }
-
   public static SNode sourceNodeQuery_1241186763901(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
   }
 
   public static SNode sourceNodeQuery_1241186763909(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_4396211440736525432(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_4396211440736525450(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
   }
 
