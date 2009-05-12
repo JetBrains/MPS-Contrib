@@ -6,24 +6,38 @@ import junit.framework.TestCase;
 import org.junit.Test;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
 import org.joda.time.DateTimeFieldType;
+import junit.framework.Assert;
+import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 
 public class Round_Test extends TestCase {
 
   @Test()
   public void test_round() throws Exception {
     Long dt = System.currentTimeMillis();
-    DateTimeOperations.round(dt, DateTimeFieldType.dayOfMonth());
+    Long roundDt = DateTimeOperations.round(dt, DateTimeFieldType.dayOfMonth());
+    Assert.assertTrue(DateTimeOperations.compare(dt, CompareType.valueOf("NE"), roundDt, DateTimeFieldType.millisOfSecond()));
   }
 
   @Test()
   public void test_floor() throws Exception {
     Long dt = System.currentTimeMillis();
-    DateTimeOperations.roundFloor(dt, DateTimeFieldType.monthOfYear());
+    Long roundDownDt = DateTimeOperations.roundFloor(dt, DateTimeFieldType.monthOfYear());
+    Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.valueOf("LT"), roundDownDt, DateTimeFieldType.millisOfSecond()));
   }
 
   @Test()
   public void test_ceiling() throws Exception {
-    DateTimeOperations.roundCeiling(System.currentTimeMillis(), DateTimeFieldType.yearOfEra());
+    Long dt = System.currentTimeMillis();
+    Long roundUpDt = DateTimeOperations.roundCeiling(dt, DateTimeFieldType.minuteOfHour());
+    Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.valueOf("GT"), roundUpDt, DateTimeFieldType.millisOfSecond()));
+  }
+
+  @Test()
+  public void test_roundNever() throws Exception {
+    Long never = DateTimeOperations.never();
+    Long roundDownNever = DateTimeOperations.roundFloor(never, DateTimeFieldType.minuteOfHour());
+    Long roundUpNever = DateTimeOperations.roundCeiling(never, DateTimeFieldType.minuteOfHour());
+    Assert.assertFalse(DateTimeOperations.compare(roundDownNever, CompareType.valueOf("GT"), never, DateTimeFieldType.millisOfSecond()) || DateTimeOperations.compare(roundUpNever, CompareType.valueOf("GT"), never, DateTimeFieldType.millisOfSecond()));
   }
 
 }

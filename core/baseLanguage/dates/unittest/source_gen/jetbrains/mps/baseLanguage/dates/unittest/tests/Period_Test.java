@@ -4,27 +4,16 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 
 import junit.framework.TestCase;
 import org.junit.Test;
-import org.joda.time.Period;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
 import org.joda.time.DateTimeFieldType;
+import org.joda.time.Period;
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 
 public class Period_Test extends TestCase {
 
   @Test()
-  public void test_period() throws Exception {
-    Period p = null;
-  }
-
-  @Test()
-  public void test_constant() throws Exception {
-    Period p = Period.days(1);
-  }
-
-  @Test()
   public void test_plus() throws Exception {
-    Period p = DateTimeOperations.plus(Period.days(1), DateTimeOperations.minus(Period.months(2), DateTimeOperations.plus(Period.hours(1), Period.minutes(2))));
     Long firstDayOfMonth = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear());
     Long secondDayOfMonth = DateTimeOperations.plus(firstDayOfMonth, Period.days(1));
     Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.valueOf("LT"), secondDayOfMonth, DateTimeFieldType.hourOfDay()));
@@ -32,8 +21,9 @@ public class Period_Test extends TestCase {
   }
 
   @Test()
-  public void test_minus() throws Exception {
-    Long yesterday = DateTimeOperations.minus(System.currentTimeMillis(), Period.days(1));
+  public void test_plusAndEquals() throws Exception {
+    Period p = DateTimeOperations.plus(Period.days(1), DateTimeOperations.minus(Period.months(2), DateTimeOperations.plus(Period.hours(1), Period.minutes(2))));
+    Assert.assertTrue(!(DateTimeOperations.equals(p, DateTimeOperations.minus(Period.months(3), Period.days(32))) || DateTimeOperations.less(p, DateTimeOperations.minus(Period.months(3), Period.days(32)))));
   }
 
   @Test()
