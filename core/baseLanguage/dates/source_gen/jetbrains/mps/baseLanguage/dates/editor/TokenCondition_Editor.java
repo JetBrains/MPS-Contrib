@@ -188,6 +188,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
       Style inlineStyle = new Style(editorCell) {
         {
           this.set(StyleAttributes.DRAW_BRACKETS, true);
+          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, false);
         }
       };
       inlineStyle.apply(editorCell);
