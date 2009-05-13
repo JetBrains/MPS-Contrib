@@ -606,8 +606,8 @@
   <node type="jetbrains.mps.lang.typesystem.structure.OverloadedOpRulesContainer" id="1236774161156">
     <property name="name" value="DateTimeOperations" />
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1236774170246">
-      <property name="leftIsExact" value="false" />
-      <property name="rightIsExact" value="false" />
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1236774177722">
         <link role="concept" targetNodeId="3.1068581242869" resolveInfo="MinusExpression" />
       </node>
@@ -628,8 +628,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1236774229935">
-      <property name="leftIsExact" value="false" />
-      <property name="rightIsExact" value="false" />
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1236774239699">
         <link role="concept" targetNodeId="3.1068581242869" resolveInfo="MinusExpression" />
       </node>
@@ -650,8 +650,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1050935010099830680">
-      <property name="leftIsExact" value="false" />
-      <property name="rightIsExact" value="false" />
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1050935010099830681">
         <link role="concept" targetNodeId="3.1068581242869" resolveInfo="MinusExpression" />
       </node>
@@ -672,8 +672,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1236775898876">
-      <property name="leftIsExact" value="false" />
-      <property name="rightIsExact" value="false" />
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1236775904168">
         <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
       </node>
@@ -694,8 +694,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1236786743816">
-      <property name="leftIsExact" value="false" />
-      <property name="rightIsExact" value="false" />
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1236786743817">
         <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
       </node>
@@ -716,8 +716,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1236786725857">
-      <property name="leftIsExact" value="false" />
-      <property name="rightIsExact" value="false" />
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1236786725858">
         <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
       </node>
@@ -818,6 +818,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1239808217240">
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1239808225840">
         <link role="concept" targetNodeId="3.1239448985469" resolveInfo="BinaryCompareOperation" />
       </node>
@@ -838,6 +840,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1239808229122">
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="1239808232722">
         <link role="concept" targetNodeId="3.1239448985469" resolveInfo="BinaryCompareOperation" />
       </node>
@@ -858,6 +862,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="4396211440736688407">
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="4396211440736688429">
         <link role="concept" targetNodeId="3.1068580123152" resolveInfo="EqualsExpression" />
       </node>
@@ -878,6 +884,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="4396211440736688418">
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="4396211440736688430">
         <link role="concept" targetNodeId="3.1068580123152" resolveInfo="EqualsExpression" />
       </node>
@@ -898,6 +906,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="4396211440736688385">
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="4396211440736688431">
         <link role="concept" targetNodeId="3.1073239437375" resolveInfo="NotEqualsExpression" />
       </node>
@@ -918,6 +928,8 @@
       </node>
     </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="4396211440736688396">
+      <property name="leftIsExact" value="true" />
+      <property name="rightIsExact" value="true" />
       <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="4396211440736688432">
         <link role="concept" targetNodeId="3.1073239437375" resolveInfo="NotEqualsExpression" />
       </node>

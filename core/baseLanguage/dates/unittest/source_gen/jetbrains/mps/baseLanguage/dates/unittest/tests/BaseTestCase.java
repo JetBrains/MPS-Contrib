@@ -5,4 +5,7 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 import junit.framework.TestCase;
 
 public abstract class BaseTestCase extends TestCase {
+
+  public BaseTestCase() {
+  }
 }
