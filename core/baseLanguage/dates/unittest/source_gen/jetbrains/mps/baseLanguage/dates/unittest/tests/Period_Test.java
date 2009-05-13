@@ -60,7 +60,7 @@ public class Period_Test extends TestCase {
 
   @Test()
   public void test_concat() throws Exception {
-    Assert.assertEquals("3 weeks", "" + Period.weeks(3));
+    Assert.assertEquals("P3W", "" + Period.weeks(3));
   }
 
 }

@@ -1240,15 +1240,24 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" id="1241177355374">
-            <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1241185430938">
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="8733082220744040299">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8733082220744040300">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="49016844267125907">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="49016844267125908">
+              <property name="name" value="abc" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="49016844267125906" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="49016844267125909">
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="49016844267125910">
                   <link role="variableDeclaration" targetNodeId="1241177182294" resolveInfo="d2" />
                 </node>
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8733082220744040301">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="49016844267125911">
                   <link role="variableDeclaration" targetNodeId="1241177169537" resolveInfo="d1" />
                 </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" id="1241177355374">
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1241185430938">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="49016844267125912">
+                <link role="variableDeclaration" targetNodeId="49016844267125908" resolveInfo="abc" />
               </node>
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1241185430942">
                 <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
@@ -2040,7 +2049,7 @@
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6353011543860549175">
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="6353011543860556370">
             <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="6353011543860556373">
-              <property name="value" value="3 weeks" />
+              <property name="value" value="P3W" />
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="6353011543860556375">
               <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="6353011543860556379">
@@ -2743,6 +2752,42 @@
     </node>
     <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1238681320836">
       <link role="classifier" targetNodeId="1173787596138" resolveInfo="BaseTestCase" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="49016844267125914">
+    <property name="name" value="ABV" />
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="49016844267125915" />
+    <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="49016844267125916">
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="49016844267125917" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="49016844267125918" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="49016844267125919">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="49016844267126536">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="49016844267126537">
+            <property name="name" value="d1" />
+            <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="49016844267126538" />
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="49016844267126540">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="49016844267126541">
+            <property name="name" value="d2" />
+            <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="49016844267126542" />
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="49016844267125920">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="49016844267125921">
+            <property name="name" value="abc" />
+            <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="49016844267125922" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="49016844267125923">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="49016844267125924">
+                <link role="variableDeclaration" targetNodeId="49016844267126541" resolveInfo="d2" />
+              </node>
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="49016844267125925">
+                <link role="variableDeclaration" targetNodeId="49016844267126537" resolveInfo="d1" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
