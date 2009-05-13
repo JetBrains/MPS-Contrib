@@ -2034,6 +2034,26 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="6353011543860549173">
+        <property name="methodName" value="concat" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="6353011543860549174" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6353011543860549175">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="6353011543860556370">
+            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="6353011543860556373">
+              <property name="value" value="3 weeks" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="6353011543860556375">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="6353011543860556379">
+                <link role="dateTimeProperty" targetNodeId="1.1172162485440" resolveInfo="week" />
+                <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="6353011543860556378">
+                  <property name="value" value="3" />
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="6353011543860556374" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1173787596138">

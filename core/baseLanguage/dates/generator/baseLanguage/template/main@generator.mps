@@ -742,13 +742,39 @@
       <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" id="1172502062514">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1172502062515">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1175770388001">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1172502277292">
-              <link role="baseMethodDeclaration" targetNodeId="28.1172502164823" />
-              <link role="classConcept" targetNodeId="28.1171978333109" />
-              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227890878">
-                <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1172502283856" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1172502291577">
-                  <link role="link" targetNodeId="2.1081773367579" />
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="6353011543860567946">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="6353011543860617484">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="6353011543860617489">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="6353011543860617493">
+                    <link role="baseMethodDeclaration" targetNodeId="28.1175769966456" resolveInfo="isInstanceOfDatetime" />
+                    <link role="classConcept" targetNodeId="28.1171978333109" resolveInfo="DateTypeUtil" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6353011543860617495">
+                      <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="6353011543860617494" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6353011543860618587">
+                        <link role="link" targetNodeId="2.1081773367580" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="6353011543860617485">
+                    <link role="baseMethodDeclaration" targetNodeId="28.1172502164823" resolveInfo="isInstanceOfPeriod" />
+                    <link role="classConcept" targetNodeId="28.1171978333109" resolveInfo="DateTypeUtil" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6353011543860617486">
+                      <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="6353011543860617487" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6353011543860617488">
+                        <link role="link" targetNodeId="2.1081773367580" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="6353011543860569046">
+                <link role="baseMethodDeclaration" targetNodeId="28.1172502164823" resolveInfo="isInstanceOfPeriod" />
+                <link role="classConcept" targetNodeId="28.1171978333109" resolveInfo="DateTypeUtil" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6353011543860569047">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="6353011543860569048" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6353011543860569049">
+                    <link role="link" targetNodeId="2.1081773367579" />
+                  </node>
                 </node>
               </node>
             </node>

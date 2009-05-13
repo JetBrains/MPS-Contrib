@@ -58,4 +58,9 @@ public class Period_Test extends TestCase {
     Assert.assertTrue(d == (long)75000);
   }
 
+  @Test()
+  public void test_concat() throws Exception {
+    Assert.assertEquals("3 weeks", "" + Period.weeks(3));
+  }
+
 }
