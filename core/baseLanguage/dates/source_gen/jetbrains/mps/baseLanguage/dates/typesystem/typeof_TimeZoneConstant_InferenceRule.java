@@ -18,7 +18,7 @@ public class typeof_TimeZoneConstant_InferenceRule extends AbstractInferenceRule
     {
       SNode _nodeToCheck_1029348928467 = constant;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(constant, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238513936802", true), (SNode)new _Quotations.QuotationClass_75().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238513939851", intentionProvider);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(constant, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238513936802", true), (SNode)new _Quotations.QuotationClass_51().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238513939851", intentionProvider);
     }
   }
 
