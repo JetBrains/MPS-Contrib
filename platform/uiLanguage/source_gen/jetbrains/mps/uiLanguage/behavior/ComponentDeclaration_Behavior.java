@@ -9,7 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.List;
-import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
+import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
@@ -46,7 +46,7 @@ public class ComponentDeclaration_Behavior {
   }
 
   public static List<SNode> call_getDeclaredAttributes_1213877495390(SNode thisNode) {
-    List<SNode> result = ListOperations.<SNode>createList();
+    List<SNode> result = new ArrayList<SNode>();
     if (ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode) != null) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode), "attribute", true)));
     }
@@ -54,7 +54,7 @@ public class ComponentDeclaration_Behavior {
   }
 
   public static List<SNode> call_getAttributes_1213877495417(SNode thisNode) {
-    List<SNode> result = ListOperations.<SNode>createList();
+    List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getDeclaredAttributes_1213877495390(thisNode)));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getAttributes_1213877495417(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
@@ -63,7 +63,7 @@ public class ComponentDeclaration_Behavior {
   }
 
   public static List<SNode> call_getDeclaredMethods_1213877495451(SNode thisNode) {
-    List<SNode> result = ListOperations.<SNode>createList();
+    List<SNode> result = new ArrayList<SNode>();
     if (ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode) != null) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(ComponentDeclaration_Behavior.call_getController_1213877495364(thisNode), "componentMethod", true)));
     }
@@ -71,7 +71,7 @@ public class ComponentDeclaration_Behavior {
   }
 
   public static List<SNode> call_getMethods_1213877495478(SNode thisNode) {
-    List<SNode> result = ListOperations.<SNode>createList();
+    List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getDeclaredMethods_1213877495451(thisNode)));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(ComponentDeclaration_Behavior.call_getMethods_1213877495478(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));
@@ -111,7 +111,7 @@ public class ComponentDeclaration_Behavior {
   }
 
   public static List<SNode> virtual_getMembers_1213877528124(SNode thisNode) {
-    List<SNode> result = ListOperations.<SNode>createList();
+    List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.callSuper_getMembers_1213877528124(thisNode, "jetbrains.mps.uiLanguage.structure.ComponentDeclaration")));
     if (ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode) != null) {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(IClassifier_Behavior.call_getMembers_1213877528124(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(thisNode))));

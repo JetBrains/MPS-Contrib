@@ -10,8 +10,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class AddOnChangeHandler_Intention extends BaseIntention {
 
+  public AddOnChangeHandler_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.uiLanguage.structure.AttributeDeclaration";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {
