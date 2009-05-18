@@ -164,16 +164,16 @@ public class QueriesGenerated {
     return DatesQueriesUtil.FORMAL_TABLES_CONTAINER;
   }
 
-  public static Object propertyMacro_GetPropertyValue_1239016406731(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
-  }
-
   public static Object propertyMacro_GetPropertyValue_1239803858261(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return DateTimeZone_Behavior.call_getID_1239362726615(SLinkOperations.getTarget(_context.getNode(), "zone", false));
   }
 
   public static Object propertyMacro_GetPropertyValue_1239804391115(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return DatesQueriesUtil.getCompareType(SLinkOperations.getTarget(_context.getNode(), "operation", true));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2010713081064663770(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
   }
 
   public static Object propertyMacro_GetPropertyValue_4396211440736525441(final IOperationContext operationContext, final PropertyMacroContext _context) {

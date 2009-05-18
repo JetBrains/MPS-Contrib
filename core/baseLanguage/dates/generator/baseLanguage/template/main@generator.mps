@@ -1455,38 +1455,39 @@
     <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="1169639780784">
       <property name="name" value="createPrinters" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1169639780785">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1204411882064">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1204411882065">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="2010713081064661653">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="2010713081064661654">
             <property name="name" value="printers" />
-            <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="1239016406718">
-              <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1239016406719">
+            <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="2010713081064661655">
+              <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="2010713081064661656">
                 <link role="classifier" targetNodeId="4.~DateTimePrinter" resolveInfo="DateTimePrinter" />
               </node>
             </node>
-            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888376700">
-              <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" id="1239016406728">
-                <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1204413944076">
-                  <link role="classifier" targetNodeId="4.~DateTimePrinter" resolveInfo="DateTimePrinter" />
-                </node>
-                <node role="copyFrom" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1239016406729">
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="2010713081064661657">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="2010713081064663764">
+                <link role="baseMethodDeclaration" targetNodeId="6.~ArrayList.&lt;init&gt;(int)" resolveInfo="ArrayList" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="2010713081064663768">
                   <property name="value" value="2" />
-                  <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1239016406730">
-                    <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1239016406731">
-                      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239016406732">
-                        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1239016406733">
-                          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239016406734">
-                            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239016406735">
-                              <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1239016406736" />
-                              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="1239016406737">
+                  <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="2010713081064663769">
+                    <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="2010713081064663770">
+                      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2010713081064663771">
+                        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2010713081064663772">
+                          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2010713081064663773">
+                            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2010713081064663774">
+                              <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="2010713081064663775" />
+                              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="2010713081064663776">
                                 <link role="link" targetNodeId="1.1169563619049" />
                               </node>
                             </node>
-                            <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" id="1239016406738" />
+                            <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" id="2010713081064663777" />
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
+                </node>
+                <node role="typeParameter" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="2010713081064663766">
+                  <link role="classifier" targetNodeId="4.~DateTimePrinter" resolveInfo="DateTimePrinter" />
                 </node>
               </node>
             </node>
@@ -1495,7 +1496,7 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1173786119508">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204413958652">
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1204411917329">
-              <link role="variableDeclaration" targetNodeId="1204411882065" resolveInfo="printers" />
+              <link role="variableDeclaration" targetNodeId="2010713081064661654" resolveInfo="printers" />
             </node>
             <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="1239016445414">
               <node role="argument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1239016445415">
@@ -1544,7 +1545,7 @@
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1204411960616">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1204413956084">
-            <link role="variableDeclaration" targetNodeId="1204411882065" resolveInfo="printers" />
+            <link role="variableDeclaration" targetNodeId="2010713081064661654" resolveInfo="printers" />
           </node>
         </node>
       </node>
