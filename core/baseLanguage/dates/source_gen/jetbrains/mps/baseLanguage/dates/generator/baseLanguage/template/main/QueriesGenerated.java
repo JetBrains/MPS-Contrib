@@ -25,7 +25,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.baseLanguage.behavior.IOperation_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
+import java.util.ArrayList;
 
 public class QueriesGenerated {
 
@@ -543,7 +543,7 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1169643618264(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     List<SNode> statements = SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "condition", true), "body", true), "statement", true);
-    List<SNode> s = ListOperations.<SNode>createList();
+    List<SNode> s = new ArrayList<SNode>();
     ListSequence.fromList(s).addSequence(ListSequence.fromList(statements));
     if (!(ListSequence.fromList(s).isEmpty())) {
       ListSequence.fromList(s).removeElement(ListSequence.fromList(s).last());

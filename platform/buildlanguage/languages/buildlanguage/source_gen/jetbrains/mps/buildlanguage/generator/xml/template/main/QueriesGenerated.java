@@ -22,7 +22,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.List;
-import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
+import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
@@ -179,7 +179,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1197113312020(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    List<SNode> xmlattributes = ListOperations.<SNode>createList();
+    List<SNode> xmlattributes = new ArrayList<SNode>();
     for(SNode attr : SLinkOperations.getTargets(_context.getNode(), "atributes", true)) {
       SNode newAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
       SPropertyOperations.set(newAttr, "name", SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name"));

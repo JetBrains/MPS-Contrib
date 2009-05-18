@@ -4,7 +4,7 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
-import jetbrains.mps.baseLanguage.collections.internal.query.ListOperations;
+import java.util.ArrayList;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
@@ -15,7 +15,7 @@ public class AbstractImportProperties_Behavior {
   }
 
   public static List<SNode> virtual_getPropertyDeclarations_1240397763706(SNode thisNode) {
-    return ListOperations.<SNode>createList();
+    return new ArrayList<SNode>();
   }
 
   public static List<SNode> call_getPropertyDeclarations_1240397763706(SNode thisNode) {
