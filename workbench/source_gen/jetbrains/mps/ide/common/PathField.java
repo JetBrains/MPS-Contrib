@@ -7,6 +7,7 @@ import javax.swing.JTextField;
 import javax.swing.JButton;
 import java.util.List;
 import org.jdesktop.beansbinding.AutoBinding;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.uiLanguage.runtime.events.Events;
 import java.awt.BorderLayout;
@@ -26,7 +27,7 @@ public class PathField extends JPanel {
   private JButton myButton0;
   private String myPath;
   private int myMode;
-  public List<AutoBinding> myBindings = new ArrayList<AutoBinding>();
+  public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }
@@ -68,7 +69,7 @@ public class PathField extends JPanel {
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
-      this.myBindings.add(binding);
+      ListSequence.fromList(this.myBindings).addElement(binding);
     }
   }
 
