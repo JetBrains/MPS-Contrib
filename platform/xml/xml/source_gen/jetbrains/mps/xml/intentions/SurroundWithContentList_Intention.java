@@ -7,14 +7,21 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import java.util.List;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class SurroundWithContentList_Intention extends BaseIntention {
 
+  public SurroundWithContentList_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.xml.structure.Content";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {
@@ -36,10 +43,10 @@ public class SurroundWithContentList_Intention extends BaseIntention {
   public void execute(final SNode node, final EditorContext editorContext) {
     SNode contentList = SConceptOperations.createNewNode("jetbrains.mps.xml.structure.ContentList", null);
     List<SNode> selectedNodes = editorContext.getNodeEditorComponent().getNodeRangeSelection().getNodes();
-    if (selectedNodes.isEmpty()) {
-      selectedNodes.add(editorContext.getSelectedNode());
+    if (ListSequence.fromList(selectedNodes).isEmpty()) {
+      ListSequence.fromList(selectedNodes).addElement(editorContext.getSelectedNode());
     }
-    SNode first = selectedNodes.get(0);
+    SNode first = ListSequence.fromList(selectedNodes).getElement(0);
     SNodeOperations.insertPrevSiblingChild(first, contentList);
     for(SNode selectedNode : ListSequence.fromList(selectedNodes)) {
       SLinkOperations.addChild(contentList, "content", SNodeOperations.cast(selectedNode, "jetbrains.mps.xml.structure.Content"));

@@ -16,13 +16,13 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
-import jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_PropertyValues;
 import java.util.List;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 import org.joda.time.DateTimeZone;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
@@ -250,7 +250,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = ListSequence.<String>fromArray();
+      List<String> result = ListSequence.fromList(new ArrayList<String>());
       for(Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";
         if (str.indexOf('/') == -1) {
@@ -271,7 +271,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
-      List<String> result = ListSequence.<String>fromArray();
+      List<String> result = ListSequence.fromList(new ArrayList<String>());
       for(Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";
         if (str.indexOf('/') == -1) {

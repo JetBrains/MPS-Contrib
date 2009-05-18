@@ -11,6 +11,7 @@ import jetbrains.mps.xml.behavior.XmlRoot_Behavior;
 import java.util.List;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
@@ -65,14 +66,14 @@ public class ElementUtil {
 
   public static List<SNode> getElementDeclarations(SNode elementDeclaration, SNode node, IScope scope) {
     SNode schema = findSchema(node, scope);
-    Set<SNode> elementDeclarationSet = SetSequence.<SNode>fromArray();
+    Set<SNode> elementDeclarationSet = SetSequence.fromSet(new HashSet<SNode>());
     if ((elementDeclaration == null)) {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
-        elementDeclarationSet.add(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
+        SetSequence.fromSet(elementDeclarationSet).addElement(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
       } else
       {
         List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
-        elementDeclarationSet.addAll(elementDeclarations);
+        SetSequence.fromSet(elementDeclarationSet).addSequence(ListSequence.fromList(elementDeclarations));
       }
     } else
     {

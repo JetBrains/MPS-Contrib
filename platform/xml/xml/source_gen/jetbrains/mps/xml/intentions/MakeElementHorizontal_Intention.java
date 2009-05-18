@@ -11,8 +11,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class MakeElementHorizontal_Intention extends BaseIntention {
 
+  public MakeElementHorizontal_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.xml.structure.Element";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {

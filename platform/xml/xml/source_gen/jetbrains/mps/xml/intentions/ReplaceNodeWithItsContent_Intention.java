@@ -11,8 +11,15 @@ import jetbrains.mps.xml.behavior.Content_Behavior;
 
 public class ReplaceNodeWithItsContent_Intention extends BaseIntention {
 
+  public ReplaceNodeWithItsContent_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.xml.structure.Content";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {

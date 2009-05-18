@@ -9,10 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import java.util.List;
-import jetbrains.mps.intentions.Intention;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.ArrayList;
 
 public class AddDateTimePropertyForPeriod_Intention extends BaseIntention {
 
@@ -52,7 +48,5 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.baseLanguage.dates.intentions";
   }
-
-
 
 }

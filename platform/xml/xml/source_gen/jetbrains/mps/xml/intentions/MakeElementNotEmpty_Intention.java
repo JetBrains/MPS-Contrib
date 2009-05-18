@@ -9,8 +9,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class MakeElementNotEmpty_Intention extends BaseIntention {
 
+  public MakeElementNotEmpty_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.xml.structure.Element";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {

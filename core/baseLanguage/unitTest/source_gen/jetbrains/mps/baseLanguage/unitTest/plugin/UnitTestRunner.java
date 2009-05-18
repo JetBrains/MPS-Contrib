@@ -33,7 +33,7 @@ public class UnitTestRunner extends BaseRunner {
     for(SNode test : ListSequence.fromList(tests)) {
       TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
       if (MapSequence.fromMap(map).containsKey(parameters)) {
-        ListSequence.fromList(map.get(parameters)).addElement(test);
+        ListSequence.fromList(MapSequence.fromMap(map).get(parameters)).addElement(test);
       } else
       {
         List<SNode> t = ListSequence.fromList(new ArrayList<SNode>());
@@ -46,7 +46,7 @@ public class UnitTestRunner extends BaseRunner {
 
       public void run() {
         for(TestRunParameters key : Sequence.fromIterable(MapSequence.fromMap(map).keySet())) {
-          runner.runTestWithParameters(key, map.get(key));
+          runner.runTestWithParameters(key, MapSequence.fromMap(map).get(key));
         }
       }
     });

@@ -10,8 +10,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class MakeContentListVertical_Intention extends BaseIntention {
 
+  public MakeContentListVertical_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.xml.structure.ContentList";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {

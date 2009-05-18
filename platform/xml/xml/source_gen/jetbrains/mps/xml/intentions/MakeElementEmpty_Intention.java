@@ -13,8 +13,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class MakeElementEmpty_Intention extends BaseIntention {
 
+  public MakeElementEmpty_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.xml.structure.Element";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {
