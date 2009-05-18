@@ -20,7 +20,6 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
-import jetbrains.mps.xmlSchema.editor.XmlColorConstants;
 
 public class ElementWithContent_Editor extends DefaultNodeEditor {
 

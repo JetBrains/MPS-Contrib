@@ -9,8 +9,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class MakeTypeExpressionListVertical_Intention extends BaseIntention {
 
+  public MakeTypeExpressionListVertical_Intention() {
+  }
+
   public String getConcept() {
     return "jetbrains.mps.xmlSchema.structure.TypeExpressionList";
+  }
+
+  public boolean isParameterized() {
+    return false;
   }
 
   public boolean isErrorIntention() {

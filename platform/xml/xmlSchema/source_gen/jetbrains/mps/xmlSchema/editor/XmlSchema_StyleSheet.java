@@ -10,7 +10,6 @@ import java.awt.Color;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
-import jetbrains.mps.xmlSchema.editor.XmlColorConstants;
 
 public class XmlSchema_StyleSheet {
 

@@ -4,7 +4,7 @@ package jetbrains.mps.xmlSchema.structure;
 
 import jetbrains.mps.smodel.PropertySupport;
 import java.util.Iterator;
-import jetbrains.mps.xmlSchema.structure.useAttributeEnum;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class useAttributeEnum_PropertySupport extends PropertySupport {
 
@@ -12,7 +12,7 @@ public class useAttributeEnum_PropertySupport extends PropertySupport {
     if (value == null) {
       return true;
     }
-    Iterator<useAttributeEnum> constants = useAttributeEnum.getConstants().iterator();
+    Iterator<useAttributeEnum> constants = ListSequence.fromList(useAttributeEnum.getConstants()).iterator();
     while (constants.hasNext()) {
       useAttributeEnum constant = constants.next();
       if (value.equals(constant.getName())) {
@@ -26,7 +26,7 @@ public class useAttributeEnum_PropertySupport extends PropertySupport {
     if (value == null) {
       return null;
     }
-    Iterator<useAttributeEnum> constants = useAttributeEnum.getConstants().iterator();
+    Iterator<useAttributeEnum> constants = ListSequence.fromList(useAttributeEnum.getConstants()).iterator();
     while (constants.hasNext()) {
       useAttributeEnum constant = constants.next();
       if (value.equals(constant.getName())) {
