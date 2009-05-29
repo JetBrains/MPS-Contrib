@@ -46,6 +46,13 @@
           </node>
         </node>
       </node>
+      <node role="propertySetter" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" id="2560685941238418434">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2560685941238418435">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="2560685941238418436">
+            <property name="value" value="R/O" />
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213107436024">
