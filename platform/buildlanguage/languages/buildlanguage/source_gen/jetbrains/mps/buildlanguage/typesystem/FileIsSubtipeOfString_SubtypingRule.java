@@ -5,6 +5,7 @@ package jetbrains.mps.buildlanguage.typesystem;
 import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.ISubtypingRule_Runtime;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
@@ -12,8 +13,8 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
   public FileIsSubtipeOfString_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode fileType) {
-    return new _Quotations.QuotationClass_6().createNode();
+  public SNode getSubOrSuperType(SNode fileType, TypeCheckingContext typeCheckingContext) {
+    return new _Quotations.QuotationClass_6().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {
