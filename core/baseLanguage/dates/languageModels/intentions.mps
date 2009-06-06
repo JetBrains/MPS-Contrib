@@ -232,7 +232,7 @@
                     <property name="charConstant" value="\'" />
                   </node>
                   <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1238251069758">
-                    <property name="value" value=" to datetime" />
+                    <property name="value" value=" to Datetime" />
                   </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238251063453">
@@ -413,7 +413,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239198312656">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1239198362415">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239198362416">
-            <property name="value" value="Add daterime property" />
+            <property name="value" value="Add Datetime Property" />
           </node>
         </node>
       </node>
@@ -509,7 +509,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239204920762">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1239204965539">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239204965540">
-            <property name="value" value="Remove datetime property" />
+            <property name="value" value="Remove Datetime Property" />
           </node>
         </node>
       </node>
@@ -542,7 +542,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239209586312">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1239209708931">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239209708932">
-            <property name="value" value="Add datetime property" />
+            <property name="value" value="Add Datetime Property" />
           </node>
         </node>
       </node>
@@ -617,7 +617,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239209858306">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1239209899184">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1239209899185">
-            <property name="value" value="Remove datetime property" />
+            <property name="value" value="Remove Datetime Property" />
           </node>
         </node>
       </node>
