@@ -30,7 +30,7 @@ public class RemoveDateTimeProperty_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Remove datetime property";
+    return "Remove Datetime Property";
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {

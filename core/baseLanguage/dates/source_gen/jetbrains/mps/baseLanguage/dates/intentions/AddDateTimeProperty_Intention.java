@@ -32,7 +32,7 @@ public class AddDateTimeProperty_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Add daterime property";
+    return "Add Datetime Property";
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {

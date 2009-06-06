@@ -35,7 +35,7 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention {
   public String getDescription(final SNode node, final EditorContext editorContext) {
     return "Convert " + '\'' + (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) ?
       BaseConcept_Behavior.call_getPresentation_1213877396640(SLinkOperations.getTarget(node, "leftExpression", true)) :
-      BaseConcept_Behavior.call_getPresentation_1213877396640(SLinkOperations.getTarget(node, "rightExpression", true)) + '\'' + " to datetime"
+      BaseConcept_Behavior.call_getPresentation_1213877396640(SLinkOperations.getTarget(node, "rightExpression", true)) + '\'' + " to Datetime"
     );
   }
 
