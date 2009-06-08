@@ -24,5 +24,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <maxImportIndex value="0" />
+  <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration" id="6977813497819596721">
+    <property name="name" value="mc_runConfigs" />
+  </node>
 </model>
 
