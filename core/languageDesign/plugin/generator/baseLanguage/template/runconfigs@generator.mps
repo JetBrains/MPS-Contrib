@@ -1349,7 +1349,7 @@
                       <node role="expression" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="7840798570675091248">
                         <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="7840798570675091250">
                           <link role="baseMethodDeclaration" targetNodeId="7.~JLabel.&lt;init&gt;(java.lang.String)" resolveInfo="JLabel" />
-                          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="7840798570675091251">
+                          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="162872405267681169">
                             <property name="value" value="123" />
                           </node>
                         </node>
