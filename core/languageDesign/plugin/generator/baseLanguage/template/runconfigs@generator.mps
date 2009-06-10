@@ -2173,7 +2173,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="8294332872984075993">
-    <property name="name" value="reduce_ThisClassifierExpresson" />
+    <property name="name" value="reduce_ThisClassifierExpresson_in_Config" />
     <link role="applicableConcept" targetNodeId="3v.1205752633985" resolveInfo="ThisClassifierExpresson" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="8294332872984075996">
       <property name="name" value="getIcon" />
