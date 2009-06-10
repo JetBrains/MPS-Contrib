@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
 public class ReportErrorStatement_Editor extends DefaultNodeEditor {
 
@@ -26,8 +27,9 @@ public class ReportErrorStatement_Editor extends DefaultNodeEditor {
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
-    editorCell.addEditorCell(this.createConstant_9503_0(context, node, "report error"));
+    editorCell.addEditorCell(this.createConstant_9503_1(context, node, "report error"));
     editorCell.addEditorCell(this.createRefNode_9503_1(context, node));
+    editorCell.addEditorCell(this.createConstant_9503_0(context, node, ";"));
     return editorCell;
   }
 
@@ -35,6 +37,14 @@ public class ReportErrorStatement_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9503_0(editorCell, node, context);
     setupLabel_Constant_9503_0(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant_9503_1(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_9503_1(editorCell, node, context);
+    setupLabel_Constant_9503_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -71,6 +81,11 @@ public class ReportErrorStatement_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9503_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9503_0");
+    BaseLanguageStyle_StyleSheet.getSemicolon(editorCell).apply(editorCell);
+  }
+
+  private static void setupBasic_Constant_9503_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_9503_1");
   }
 
   private static void setupBasic_Collection_9503_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -81,6 +96,9 @@ public class ReportErrorStatement_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_9503_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_9503_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupLabel_RefNode_9503_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
