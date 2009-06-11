@@ -15,6 +15,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <maxImportIndex value="3" />
   <import index="1" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
   <import index="2" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
@@ -75,7 +76,7 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1202810681271">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202810691901">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202813653735">
-            <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224317" />
+            <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" id="1205754224317" />
             <node role="operation" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation" id="1205771062799">
               <link role="member" targetNodeId="1205770172009" resolveInfo="anotherSimpleMethod" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1205771063488">
@@ -89,7 +90,7 @@
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1202814456506">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202814460695">
-            <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpresson" id="1205754224148" />
+            <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" id="1205754224148" />
             <node role="operation" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation" id="1205771066726">
               <link role="member" targetNodeId="1205770172009" resolveInfo="anotherSimpleMethod" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1205771067509">
