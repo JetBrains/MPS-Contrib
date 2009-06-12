@@ -6,7 +6,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.baseLanguage.classifiers.behavior.ThisClassifierExpresson_Behavior;
+import jetbrains.mps.baseLanguage.classifiers.behavior.ThisClassifierExpression_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.generator.template.PropertyMacroContext;
@@ -41,7 +41,7 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_1207755858791(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SNodeOperations.isInstanceOf(ThisClassifierExpresson_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.BeanDeclaration");
+    return SNodeOperations.isInstanceOf(ThisClassifierExpression_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.BeanDeclaration");
   }
 
   public static boolean baseMappingRule_Condition_1207756277502(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -68,7 +68,7 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_1210700777737(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SNodeOperations.isInstanceOf(ThisClassifierExpresson_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
+    return SNodeOperations.isInstanceOf(ThisClassifierExpression_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
   }
 
   public static Object propertyMacro_GetPropertyValue_1202393917712(final IOperationContext operationContext, final PropertyMacroContext _context) {
