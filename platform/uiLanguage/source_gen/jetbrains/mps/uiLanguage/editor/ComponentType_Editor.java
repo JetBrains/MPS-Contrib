@@ -101,6 +101,7 @@ public class ComponentType_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_4939_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4939_1");
+    BaseLanguageStyle_StyleSheet.getLeftParenAfterName(editorCell).apply(editorCell);
   }
 
   private static void setupBasic_RefCell_4939_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -108,6 +109,7 @@ public class ComponentType_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_4939_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4939_2");
+    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
   }
 
   private static void setupLabel_Constant_4939_0(EditorCell_Label editorCell, SNode node, EditorContext context) {

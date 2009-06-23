@@ -637,6 +637,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1202465051137">
         <property name="text" value="&lt;" />
+        <link role="styleClass" targetNodeId="4.1234958090348" resolveInfo="LeftParenAfterName" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1202465054031">
         <link role="relationDeclaration" targetNodeId="1.1202465029373" />
@@ -650,6 +651,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1202465056802">
         <property name="text" value="&gt;" />
+        <link role="styleClass" targetNodeId="4.1215088010675" resolveInfo="RightParen" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1239884236338" />
     </node>
