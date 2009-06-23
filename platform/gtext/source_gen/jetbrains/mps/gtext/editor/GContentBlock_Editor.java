@@ -41,6 +41,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConceptProperty_4657_1(context, node));
     editorCell.addEditorCell(this.createProperty_4657_1(context, node));
+    editorCell.addEditorCell(this.createConstant_4657_1(context, node, "{"));
     editorCell.addEditorCell(this.createRefNodeList_4657_0(context, node));
     editorCell.addEditorCell(this.createConstant_4657_0(context, node, "}"));
     return editorCell;
@@ -50,6 +51,14 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4657_0(editorCell, node, context);
     setupLabel_Constant_4657_0(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  public EditorCell createConstant_4657_1(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_4657_1(editorCell, node, context);
+    setupLabel_Constant_4657_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -161,6 +170,10 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Property_4657_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_name");
+  }
+
+  private static void setupBasic_Constant_4657_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_4657_1");
     {
       Style inlineStyle = new Style(editorCell) {
         {
@@ -181,6 +194,9 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Property_4657_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_4657_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class itemListHandler_4657_0 extends RefNodeListHandler {
