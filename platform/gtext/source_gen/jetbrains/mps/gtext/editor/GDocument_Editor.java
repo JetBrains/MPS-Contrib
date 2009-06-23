@@ -9,7 +9,7 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
@@ -33,8 +33,20 @@ public class GDocument_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createCollection_9526_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_9526_0(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createCollection_9526_1(context, node));
+    editorCell.addEditorCell(this.createConstant_9526_2(context, node, ""));
+    editorCell.addEditorCell(this.createRefNodeList_9526_0(context, node));
+    return editorCell;
+  }
+
+  public EditorCell createCollection_9526_1(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+    setupBasic_Collection_9526_1(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
     editorCell.setCanBeFolded(false);
@@ -42,7 +54,6 @@ public class GDocument_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_9526_0(context, node, "."));
     editorCell.addEditorCell(this.createProperty_9526_3(context, node));
     editorCell.addEditorCell(this.createConstant_9526_1(context, node, "gDocument"));
-    editorCell.addEditorCell(this.createRefNodeList_9526_0(context, node));
     return editorCell;
   }
 
@@ -62,11 +73,19 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  public EditorCell createConstant_9526_2(EditorContext context, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    setupBasic_Constant_9526_2(editorCell, node, context);
+    setupLabel_Constant_9526_2(editorCell, node, context);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   public EditorCell createRefNodeList_9526_0(EditorContext context, SNode node) {
     if (this.myListHandler_9526_0 == null) {
       this.myListHandler_9526_0 = new GDocument_Editor.itemListHandler_9526_0(node, "item", context);
     }
-    EditorCell_Collection editorCell = this.myListHandler_9526_0.createCells(context, new CellLayout_Indent(), false);
+    EditorCell_Collection editorCell = this.myListHandler_9526_0.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_RefNodeList_9526_0(editorCell, node, context);
     editorCell.setGridLayout(false);
     editorCell.setUsesBraces(false);
@@ -138,6 +157,18 @@ public class GDocument_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_9526_0");
   }
 
+  private static void setupBasic_Collection_9526_1(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_9526_1");
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.SELECTABLE, false);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
+  }
+
   private static void setupBasic_Property_9526_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_documentName");
   }
@@ -161,10 +192,14 @@ public class GDocument_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Constant_9526_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9526_1");
+  }
+
+  private static void setupBasic_Constant_9526_2(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Constant_9526_2");
     {
       Style inlineStyle = new Style(editorCell) {
         {
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+          this.set(StyleAttributes.SELECTABLE, false);
         }
       };
       inlineStyle.apply(editorCell);
@@ -173,15 +208,6 @@ public class GDocument_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefNodeList_9526_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_item");
-    {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
-    }
   }
 
   private static void setupLabel_Property_9526_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -194,6 +220,9 @@ public class GDocument_Editor extends DefaultNodeEditor {
   }
 
   private static void setupLabel_Constant_9526_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupLabel_Constant_9526_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   private static void setupLabel_RefNodeList_9526_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
