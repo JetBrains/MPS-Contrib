@@ -5,6 +5,7 @@ package jetbrains.mps.uiLanguage.typesystem;
 import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.ISubtypingRule_Runtime;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
@@ -12,8 +13,8 @@ public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends Subtypin
   public Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode beanType) {
-    return new _Quotations.QuotationClass_4().createNode();
+  public SNode getSubOrSuperType(SNode beanType, TypeCheckingContext typeCheckingContext) {
+    return new _Quotations.QuotationClass_4().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {
