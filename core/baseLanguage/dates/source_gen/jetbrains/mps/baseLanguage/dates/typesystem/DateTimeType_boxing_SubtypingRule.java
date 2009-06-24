@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.dates.typesystem;
 import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 import jetbrains.mps.lang.typesystem.runtime.ISubtypingRule_Runtime;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 
 public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
 
@@ -13,8 +14,8 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   public DateTimeType_boxing_SubtypingRule() {
   }
 
-  public SNode getSubOrSuperType(SNode longClassifier) {
-    return new _Quotations.QuotationClass_12().createNode();
+  public SNode getSubOrSuperType(SNode longClassifier, TypeCheckingContext typeCheckingContext) {
+    return new _Quotations.QuotationClass_12().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {
