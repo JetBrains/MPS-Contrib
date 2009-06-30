@@ -33,8 +33,4 @@ public class RunConfigurationDeclaration_Behavior {
     return new PropertyReference(thisNode, "caption");
   }
 
-  public static String virtual_getFixIntentionCaption_1628770029971140579(SNode thisNode) {
-    return "Fix Caption";
-  }
-
 }
