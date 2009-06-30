@@ -6,6 +6,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.List;
+import jetbrains.mps.checkedName.PropertyReference;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
 
 public class RunConfigurationTypeDeclaration_Behavior {
 
@@ -18,6 +22,16 @@ public class RunConfigurationTypeDeclaration_Behavior {
 
   public static String call_getGeneratedClassFQName_7840798570674947577(SNode thisNode) {
     return SNodeOperations.getModel(thisNode).getLongName() + "." + RunConfigurationTypeDeclaration_Behavior.call_getGeneratedName_7840798570674947566(thisNode);
+  }
+
+  public static List<PropertyReference> virtual_getPropertiesToCheck_1628770029971140570(SNode thisNode) {
+    List<PropertyReference> props = ListSequence.fromList(new ArrayList<PropertyReference>());
+    ListSequence.fromList(props).addElement(new PropertyReference(thisNode, "caption"));
+    return props;
+  }
+
+  public static String virtual_getFixIntentionCaption_1628770029971140579(SNode thisNode) {
+    return "Fix Caption";
   }
 
 }
