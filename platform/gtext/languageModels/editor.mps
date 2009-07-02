@@ -308,7 +308,9 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1184639753073">
         <property name="vertical" value="true" />
         <link role="relationDeclaration" targetNodeId="1.1184639733180" />
-        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" id="4361271942421032544" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" id="4361271942421032544">
+          <property name="flag" value="true" />
+        </node>
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="4361271942421032545" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="4361271942421032546">
           <property name="flag" value="true" />
