@@ -20,7 +20,7 @@ public class typeof_ComponentReference_InferenceRule extends AbstractInferenceRu
     {
       SNode _nodeToCheck_1029348928467 = reference;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(reference, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3452826078638187986", true), (SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(SNodeOperations.getAncestor(reference, "jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration", false, false), "editor", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3452826078638187994", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3452826078638187989", intentionProvider);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3452826078638187986", true), (SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(SNodeOperations.getAncestor(reference, "jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration", false, false), "editor", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3452826078638187994", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "3452826078638187989", intentionProvider);
     }
   }
 
