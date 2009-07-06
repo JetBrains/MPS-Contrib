@@ -19,7 +19,7 @@ public class typeof_ComponentCreator_InferenceRule extends AbstractInferenceRule
     {
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(nodeToCheck, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1203520943092", true), (SNode)new _Quotations.QuotationClass_3().createNode(SLinkOperations.getTarget(nodeToCheck, "componentDeclaration", false), typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1203520945751", intentionProvider);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1203520943092", true), (SNode)new _Quotations.QuotationClass_3().createNode(SLinkOperations.getTarget(nodeToCheck, "componentDeclaration", false), typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1203520945751", intentionProvider);
     }
   }
 
