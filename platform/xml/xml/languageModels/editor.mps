@@ -377,7 +377,6 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1167701355879">
         <link role="relationDeclaration" targetNodeId="1.1167701332877" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="1167701355880">
-          <link role="conceptDeclaration" targetNodeId="31.1167697887602" />
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1167701361647">
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="31.1167698115100" />
@@ -422,7 +421,6 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1172960872446">
         <link role="relationDeclaration" targetNodeId="1.1172960837561" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="1172960872447">
-          <link role="conceptDeclaration" targetNodeId="31.1172950047361" />
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1172960875027">
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="31.1172959826115" />
@@ -460,7 +458,6 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1179101177299">
       <link role="relationDeclaration" targetNodeId="1.1167523262932" />
       <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="1179101177300">
-        <link role="conceptDeclaration" targetNodeId="31.1167838236835" />
         <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ReadOnlyModelAccessor" id="1226062530894">
           <node role="modelAccessor" type="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" id="1226062530895">
             <node role="getter" type="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" id="1226062530896">
