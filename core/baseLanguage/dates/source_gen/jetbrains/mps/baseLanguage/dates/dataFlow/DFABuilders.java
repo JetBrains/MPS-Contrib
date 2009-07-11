@@ -31,6 +31,7 @@ public class DFABuilders extends DataFlowBuilders {
     manager.register("jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation", new DateTimePropetyReferenceOperation_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation", new RoundDateTimeOperation_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", new WithPropertyCompareExpression_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.ParseExpression", new ParseExpression_DataFlow());
   }
 
 }

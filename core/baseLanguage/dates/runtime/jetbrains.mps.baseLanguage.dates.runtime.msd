@@ -5,7 +5,8 @@
   </models>
   <classPath>
     <entry path="${solution_descriptor}/classes_gen" include="false" />
-    <entry path="${mps_home}/lib/joda-time/joda-time-1.4.jar" include="false" />
+    <entry path="${mps_home}/lib/joda-time/joda-time-1.6.jar" include="false" />
+    <entry path="${mps_home}/lib/log4j/log4j.jar" include="false" />
   </classPath>
   <sourcePath>
     <source path="${solution_descriptor}/src" />

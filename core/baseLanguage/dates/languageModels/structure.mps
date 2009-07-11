@@ -1246,5 +1246,55 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1892577441204578414">
+    <property name="package" value="format" />
+    <property name="name" value="ParseExpression" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="conceptPropertyDeclaration" type="jetbrains.mps.lang.structure.structure.StringConceptPropertyDeclaration" id="7678715681280028185">
+      <property name="name" value="defaultKeyword" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1892577441204578966">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="dateFormat" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1173884671039" resolveInfo="IDateFormat" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2583319411283206774">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="locale" />
+      <link role="target" targetNodeId="2.1172680728258" resolveInfo="Locale" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1892577441204578449">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="source" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2583319411283206775">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="zone" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7678715681280019206">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="default" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1892577441204578446">
+      <property name="value" value="parse as" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1892577441204578448">
+      <property name="value" value="parse string as a datetime" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7678715681280028188">
+      <property name="value" value="into" />
+      <link role="conceptPropertyDeclaration" targetNodeId="7678715681280028185" resolveInfo="into" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1892577441204584700">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" resolveInfo="dontSubstituteByDefault" />
+    </node>
+  </node>
 </model>
 

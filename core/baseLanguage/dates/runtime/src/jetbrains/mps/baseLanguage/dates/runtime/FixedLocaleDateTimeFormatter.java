@@ -73,6 +73,9 @@ public class FixedLocaleDateTimeFormatter implements DateTimePrinter, DateTimePa
       super(0, null, null);
       myBucket = bucket;
       myLocale = locale;
+      // patch for the bug in Joda runtime: setZone() is called from the super constructor before the object is initialized completely
+      // one should not call any overridable methods from a constructor!
+      setZone(DateTimeUtils.getChronology(null).getZone());
     }
 
     public Chronology getChronology() {
@@ -88,7 +91,10 @@ public class FixedLocaleDateTimeFormatter implements DateTimePrinter, DateTimePa
     }
 
     public void setZone(DateTimeZone zone) {
-      myBucket.setZone(zone);
+        // patch for the bug in Joda runtime
+        if (myBucket != null) {
+            myBucket.setZone(zone);
+        }
     }
 
     public int getOffset() {
