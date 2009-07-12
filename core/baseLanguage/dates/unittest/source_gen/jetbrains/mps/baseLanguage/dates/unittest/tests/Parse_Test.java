@@ -59,11 +59,4 @@ public class Parse_Test extends BaseTestCase {
     Assert.assertEquals(DateTimeOperations.parse("1/11/70", DateTimeFormat.shortDate(), Locale.US, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
-  @Test()
-  public void test_parseShortDate() throws Exception {
-    Long parsedtime = DateTimeOperations.parse("4/5/70", DateTimeFormat.shortDate(), Locale.US, null, null);
-    Period p = DateTimeOperations.plus(Period.months(4), Period.days(5));
-    assert DateTimeOperations.compare(DateTimeOperations.convert(p), CompareType.valueOf("EQ"), parsedtime, DateTimeFieldType.millisOfSecond());
-  }
-
 }
