@@ -19,7 +19,7 @@ public class check_executeBlock_returns_NonTypesystemRule extends AbstractNonTyp
   }
 
   public void applyRule(final SNode executeBlock, final TypeCheckingContext typeCheckingContext) {
-    if (ListSequence.fromList(SNodeOperations.getDescendants(executeBlock, "jetbrains.mps.lang.plugin.structure.ExecutionConsoleStatement", false)).isEmpty()) {
+    if (ListSequence.fromList(SNodeOperations.getDescendants(executeBlock, "jetbrains.mps.lang.plugin.structure.ExecutionConsoleStatement", false, new String[]{})).isEmpty()) {
       {
         BaseIntentionProvider intentionProvider = null;
         IErrorTarget errorTarget = new NodeErrorTarget();
