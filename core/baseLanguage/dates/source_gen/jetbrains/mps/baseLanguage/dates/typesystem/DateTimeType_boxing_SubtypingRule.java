@@ -15,7 +15,7 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   }
 
   public SNode getSubOrSuperType(SNode longClassifier, TypeCheckingContext typeCheckingContext) {
-    return new _Quotations.QuotationClass_12().createNode(typeCheckingContext);
+    return new _Quotations.QuotationClass_9().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {

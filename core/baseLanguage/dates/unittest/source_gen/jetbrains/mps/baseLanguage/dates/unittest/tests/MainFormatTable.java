@@ -94,6 +94,15 @@ public class MainFormatTable extends BaseFormatTable {
       builder.append(new ConditionalDateTimePrinter1());
       return builder.toFormatter();
     }
+    if ("am-pm".equals(formatterName)) {
+      DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
+      builder.appendPattern("K");
+      builder.appendLiteral(":");
+      builder.appendPattern("mm");
+      builder.appendLiteral(" ");
+      builder.appendPattern("a");
+      return builder.toFormatter();
+    }
     return null;
   }
 

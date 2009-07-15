@@ -12,6 +12,7 @@ import org.joda.time.format.DateTimeFormat;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 import org.joda.time.PeriodType;
 import java.util.Locale;
+import org.joda.time.DateTimeZone;
 
 public class Format_Test extends BaseTestCase {
 
@@ -101,6 +102,12 @@ public class Format_Test extends BaseTestCase {
   public void test_shortDatePeriod() throws Exception {
     Period p = DateTimeOperations.plus(Period.days(10), Period.seconds(10));
     Assert.assertEquals("1/11/70", DateTimeOperations.print(p, DateTimeFormat.shortDate(), Locale.US, null));
+  }
+
+  @Test()
+  public void test_ampm() throws Exception {
+    Period p = DateTimeOperations.plus(Period.hours(3), Period.minutes(33));
+    Assert.assertEquals("3:33 AM", DateTimeOperations.print(DateTimeOperations.convert(p), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC));
   }
 
 }

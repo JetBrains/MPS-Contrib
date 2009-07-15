@@ -36,7 +36,7 @@ public class AddDateTimeProperty_Intention extends BaseIntention {
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
-    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "leftExpression", true)), new _Quotations.QuotationClass_1().createNode(), false) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new _Quotations.QuotationClass_0().createNode(), false);
+    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "leftExpression", true)), new _Quotations.QuotationClass_0().createNode(), false) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new _Quotations.QuotationClass_1().createNode(), false);
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {

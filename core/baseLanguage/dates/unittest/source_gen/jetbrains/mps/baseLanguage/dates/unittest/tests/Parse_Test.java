@@ -59,4 +59,10 @@ public class Parse_Test extends BaseTestCase {
     Assert.assertEquals(DateTimeOperations.parse("1/11/70", DateTimeFormat.shortDate(), Locale.US, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
+  @Test()
+  public void test_ampm() throws Exception {
+    Period p = DateTimeOperations.plus(Period.hours(3), Period.minutes(33));
+    Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
+  }
+
 }

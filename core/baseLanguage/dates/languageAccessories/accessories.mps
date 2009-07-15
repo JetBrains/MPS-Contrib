@@ -274,6 +274,15 @@
         <link role="dateTimePropertyCardinality" targetNodeId="1173954948729" resolveInfo="1 digit number" />
       </node>
     </node>
+    <node role="dateTimePropertyFormatConfiguration" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeIntPropertyFormatConfiguration" id="7905990018466232404">
+      <link role="dateTimeProperty" targetNodeId="7905990018466232401" resolveInfo="halfdayOfDay" />
+      <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType" id="7905990018466232405">
+        <property name="letter" value="a" />
+        <property name="meaning" value="AM/PM" />
+        <property name="examples" value="AM" />
+        <link role="dateTimePropertyCardinality" targetNodeId="7905990018466232400" />
+      </node>
+    </node>
     <node role="dateTimePropertyFormatConfiguration" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeZonePropertyFormatConfiguration" id="1174043562058">
       <node role="dateTimePropertyFormatType" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyFormatType" id="1174043562059">
         <property name="examples" value="PST" />
@@ -341,6 +350,10 @@
     <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality" id="1173955043707">
       <property name="meaning" value="zone id" />
       <property name="numberOfSymbols" value="3" />
+    </node>
+    <node role="dateTimePropertyCardinality" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertyCardinality" id="7905990018466232400">
+      <property name="numberOfSymbols" value="1" />
+      <property name="meaning" value="am/pm" />
     </node>
     <node role="predefinedDateFormat" type="jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedDateFormat" id="1173884238614">
       <node role="formatter" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1173884238615">
@@ -783,6 +796,11 @@
       <property name="pluralForm" value="minutes" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.minuteOfHour():org.joda.time.DateTimeFieldType" resolveInfo="minuteOfHour" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.minutes(int):org.joda.time.Period" resolveInfo="minutes" />
+    </node>
+    <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="7905990018466232401">
+      <property name="name" value="halfdayOfDay" />
+      <property name="pluralForm" value="halfdaysOfDay" />
+      <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.halfdayOfDay():org.joda.time.DateTimeFieldType" resolveInfo="halfdayOfDay" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1173955957891">
       <property name="name" value="hourOfHalfday" />
