@@ -103,6 +103,11 @@ public class MainFormatTable extends BaseFormatTable {
       builder.appendPattern("a");
       return builder.toFormatter();
     }
+    if ("ZZZZ".equals(formatterName)) {
+      DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
+      builder.appendPattern("ZZZ");
+      return builder.toFormatter();
+    }
     return null;
   }
 

@@ -5,6 +5,7 @@
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590298(jetbrains.mps.lang.editor.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="32" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -32,7 +33,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="51" />
+  <maxImportIndex value="53" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="28" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
@@ -40,6 +41,8 @@
   <import index="40" modelUID="r:00000000-0000-4000-0000-011c895903cf(jetbrains.mps.baseLanguage.dates.constraints)" version="9" />
   <import index="48" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
   <import index="49" modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" version="-1" />
+  <import index="52" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="53" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169487499058">
     <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
@@ -2396,6 +2399,83 @@
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="7678715681280025601" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="2583319411283206831" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="4555537781927648372">
+    <property name="package" value="operation.constant.timezone" />
+    <link role="conceptDeclaration" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="4555537781927648374">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="4555537781927678420">
+        <link role="relationDeclaration" targetNodeId="1.4555537781927678418" resolveInfo="tzid" />
+        <link role="styleClass" targetNodeId="1219660122574" resolveInfo="DateProperty" />
+        <node role="menuDescriptor" type="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" id="4555537781927941459">
+          <node role="cellMenuPart" type="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues" id="4555537781927941460">
+            <node role="valuesFunction" type="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues_GetValues" id="4555537781927941461">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4555537781927941462">
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4555537781927941463">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="4555537781927941464">
+                    <link role="classConcept" targetNodeId="53.~DateTimeZone" resolveInfo="DateTimeZone" />
+                    <link role="baseMethodDeclaration" targetNodeId="53.~DateTimeZone.getAvailableIDs():java.util.Set" resolveInfo="getAvailableIDs" />
+                  </node>
+                </node>
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="4555537781927941465">
+                  <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4555537781927941466">
+                    <property name="name" value="result" />
+                    <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="4555537781927941467">
+                      <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4555537781927941468">
+                        <link role="classifier" targetNodeId="52.~String" resolveInfo="String" />
+                      </node>
+                    </node>
+                    <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="4555537781927941469">
+                      <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" id="4555537781927941470">
+                        <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4555537781927941471">
+                          <link role="classifier" targetNodeId="52.~String" resolveInfo="String" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ForeachStatement" id="4555537781927941472">
+                  <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4555537781927941473">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4555537781927941474">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4555537781927941475">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4555537781927941476">
+                          <link role="variableDeclaration" targetNodeId="4555537781927941466" resolveInfo="result" />
+                        </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="4555537781927941477">
+                          <node role="argument" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="4555537781927941478">
+                            <link role="baseMethodDeclaration" targetNodeId="52.~String.valueOf(java.lang.Object):java.lang.String" resolveInfo="valueOf" />
+                            <link role="classConcept" targetNodeId="52.~String" resolveInfo="String" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4555537781927941479">
+                              <link role="variableDeclaration" targetNodeId="4555537781927941480" resolveInfo="id" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="variable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4555537781927941480">
+                    <property name="name" value="id" />
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4555537781927941481">
+                      <link role="classifier" targetNodeId="52.~Object" resolveInfo="Object" />
+                    </node>
+                  </node>
+                  <node role="iterable" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="4555537781927941482">
+                    <link role="baseMethodDeclaration" targetNodeId="53.~DateTimeZone.getAvailableIDs():java.util.Set" resolveInfo="getAvailableIDs" />
+                    <link role="classConcept" targetNodeId="53.~DateTimeZone" resolveInfo="DateTimeZone" />
+                  </node>
+                </node>
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="4555537781927941483">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4555537781927941484">
+                    <link role="variableDeclaration" targetNodeId="4555537781927941466" resolveInfo="result" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="4555537781927648376" />
     </node>
   </node>
 </model>

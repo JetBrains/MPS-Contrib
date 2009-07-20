@@ -1094,5 +1094,12 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239206692656" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="4555537781927648382">
+    <property name="package" value="operation.constant.timezone" />
+    <link role="concept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="4555537781927648383">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4555537781927648384" />
+    </node>
+  </node>
 </model>
 

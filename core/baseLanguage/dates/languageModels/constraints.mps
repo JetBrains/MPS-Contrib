@@ -680,5 +680,9 @@
     <property name="package" value="operation.compare" />
     <link role="concept" targetNodeId="1.1239193939163" resolveInfo="WithPropertyOperation" />
   </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="4555537781927648385">
+    <property name="package" value="operation.constant.timezone" />
+    <link role="concept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+  </node>
 </model>
 

@@ -74,4 +74,10 @@ public class Compare_Test extends TestCase {
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert((DateTimeOperations.minus(d1, d2))), CompareType.valueOf("EQ"), DateTimeOperations.convert(Period.minutes(5)), DateTimeFieldType.millisOfSecond()));
   }
 
+  @Test()
+  public void test_asd() throws Exception {
+    Long d = DateTimeOperations.plus(System.currentTimeMillis(), Period.seconds(1));
+    Assert.assertTrue(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.valueOf("EQ"), d, DateTimeFieldType.dayOfMonth()));
+  }
+
 }
