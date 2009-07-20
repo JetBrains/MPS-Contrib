@@ -65,4 +65,11 @@ public class Parse_Test extends BaseTestCase {
     Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
+  @Test()
+  public void test_timezone() throws Exception {
+    DateTimeZone tz = DateTimeZone.forID("Europe/Moscow");
+    Assert.assertEquals(DateTimeZone.forID("Europe/Moscow"), tz);
+    Assert.assertEquals(DateTimeZone.forID("Europe/Moscow"), tz);
+  }
+
 }

@@ -1280,8 +1280,9 @@
                     <link role="variableDeclaration" targetNodeId="4555537781927653086" resolveInfo="td" />
                   </node>
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="4555537781927653134">
-                    <link role="baseMethodDeclaration" targetNodeId="34.1213877435747" resolveInfo="deriveType" />
+                    <link role="baseMethodDeclaration" targetNodeId="34.4555537781928374706" resolveInfo="deriveType" />
                     <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_currentTargetNode" id="4555537781927653136" />
+                    <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_link" id="4555537781928387881" />
                   </node>
                 </node>
               </node>

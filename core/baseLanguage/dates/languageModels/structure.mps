@@ -292,6 +292,9 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1178203664031">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="4555537781928182636">
+      <link role="intfc" targetNodeId="3.1201183863028" resolveInfo="TypeDerivable" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169562965517">
     <property name="name" value="ConditionalFormatToken" />

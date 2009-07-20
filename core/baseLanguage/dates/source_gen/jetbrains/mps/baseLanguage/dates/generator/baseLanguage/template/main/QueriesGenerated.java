@@ -180,6 +180,10 @@ public class QueriesGenerated {
     return DatesQueriesUtil.getCompareType(_context.getNode());
   }
 
+  public static Object propertyMacro_GetPropertyValue_7517433918793156375(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "timezone_id");
+  }
+
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode cc = _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ConditionalDateTimePrinterImpl");
     return ListSequence.fromList(SLinkOperations.getTargets(cc, "constructor", true)).first();

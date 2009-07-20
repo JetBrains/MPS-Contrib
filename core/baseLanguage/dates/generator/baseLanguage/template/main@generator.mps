@@ -843,6 +843,13 @@
     <node role="mappingLabel" type="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" id="1215475953144">
       <property name="name" value="ConditionalDateTimePrinterImpl" />
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="7517433918793153490">
+      <property name="package" value="operation.constant.timezone" />
+      <link role="applicableConcept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="7517433918793153491">
+        <link role="template" targetNodeId="7517433918793153488" resolveInfo="reduce_TimeZoneIDExpression" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1169550327580">
     <property name="name" value="FormatTable" />
@@ -4134,7 +4141,7 @@
     <link role="applicableConcept" targetNodeId="1.1238513516532" resolveInfo="TimeZoneType" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1238513624971">
       <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1238513624972">
-        <link role="classifier" targetNodeId="6.~TimeZone" resolveInfo="TimeZone" />
+        <link role="classifier" targetNodeId="10.~DateTimeZone" resolveInfo="DateTimeZone" />
         <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="1238513631223" />
       </node>
     </node>
@@ -4658,6 +4665,32 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="7517433918793153488">
+    <property name="name" value="reduce_TimeZoneIDExpression" />
+    <link role="applicableConcept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="7517433918793156369">
+      <link role="baseMethodDeclaration" targetNodeId="10.~DateTimeZone.forID(java.lang.String):org.joda.time.DateTimeZone" resolveInfo="forID" />
+      <link role="classConcept" targetNodeId="10.~DateTimeZone" resolveInfo="DateTimeZone" />
+      <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="7517433918793156373">
+        <property name="value" value="UTC" />
+        <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="7517433918793156374">
+          <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="7517433918793156375">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7517433918793156376">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7517433918793156377">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7517433918793156379">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="7517433918793156378" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="7517433918793157495">
+                    <link role="property" targetNodeId="1.4555537781927678418" resolveInfo="timezone_id" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="7517433918793156370" />
     </node>
   </node>
 </model>

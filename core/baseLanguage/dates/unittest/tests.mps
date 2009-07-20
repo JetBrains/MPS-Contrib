@@ -3304,6 +3304,43 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="4555537781928180293">
+        <property name="methodName" value="timezone" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="4555537781928180294" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4555537781928180295">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="4555537781928181634">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4555537781928181635">
+              <property name="name" value="tz" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="4555537781928181636" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression" id="7517433918793204387">
+                <property name="timezone_id" value="Europe/Moscow" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="7517433918793204399">
+            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="7517433918793205146">
+              <link role="baseMethodDeclaration" targetNodeId="4.~DateTimeZone.forID(java.lang.String):org.joda.time.DateTimeZone" resolveInfo="forID" />
+              <link role="classConcept" targetNodeId="4.~DateTimeZone" resolveInfo="DateTimeZone" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="7517433918793205147">
+                <property name="value" value="Europe/Moscow" />
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="7517433918793205148">
+              <link role="variableDeclaration" targetNodeId="4555537781928181635" resolveInfo="tz" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="7517433918793205150">
+            <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString" id="7517433918793205153">
+              <node role="string" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="7517433918793205155">
+                <property name="value" value="Europe/Moscow" />
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="7517433918793205156">
+              <link role="variableDeclaration" targetNodeId="4555537781928181635" resolveInfo="tz" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="2583319411283568329">
       <link role="classifier" targetNodeId="1173787596138" resolveInfo="BaseTestCase" />
