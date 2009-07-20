@@ -125,7 +125,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_3683_3(context, node, "icon:"));
     editorCell.addEditorCell(this.createAlternation_3683_0(context, node));
-    editorCell.addEditorCell(EditorCell_Component.createComponentCell(context, node, RunConfigurationDeclaration_Editor._QueryFunction_JComponent_4173099520628175661(node, context), "_4173099520628175660"));
+    editorCell.addEditorCell(EditorCell_Component.createComponentCell(context, node, RunConfigurationDeclaration_Editor._QueryFunction_JComponent_8859288484512668938(node, context), "_8859288484512668937"));
     return editorCell;
   }
 
@@ -295,7 +295,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createImage_3683_0(EditorContext context, SNode node) {
     EditorCell_Image editorCell;
-    editorCell = EditorCell_Image.createImageCell(context, node, _image_provider_4173099520628175650(node, context));
+    editorCell = EditorCell_Image.createImageCell(context, node, _image_provider_8859288484512668927(node, context));
     setupBasic_Image_3683_0(editorCell, node, context);
     editorCell.setDescent(0);
     return editorCell;
@@ -879,7 +879,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   private static void setupLabel_Constant_3683_12(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
-  public static String _image_provider_4173099520628175650(SNode node, EditorContext editorContext) {
+  public static String _image_provider_8859288484512668927(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getString(node, "iconPath");
   }
 
@@ -900,7 +900,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return BlockCells.useBraces();
   }
 
-  public static JComponent _QueryFunction_JComponent_4173099520628175661(SNode node, EditorContext editorContext) {
+  public static JComponent _QueryFunction_JComponent_8859288484512668938(SNode node, EditorContext editorContext) {
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
 
