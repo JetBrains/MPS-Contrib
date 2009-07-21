@@ -33,7 +33,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="53" />
+  <maxImportIndex value="55" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="28" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
@@ -43,6 +43,8 @@
   <import index="49" modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" version="-1" />
   <import index="52" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="53" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
+  <import index="54" modelUID="f:java_stub#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
+  <import index="55" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169487499058">
     <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
@@ -2476,6 +2478,237 @@
         </node>
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="4555537781927648376" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="5473692278135631089">
+    <property name="package" value="operation.constant.timezone" />
+    <link role="conceptDeclaration" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneShiftExpression" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5473692278135631091">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ModelAccess" id="5473692278135635842">
+        <node role="modelAcessor" type="jetbrains.mps.lang.editor.structure.ModelAccessor" id="5473692278135635843">
+          <node role="getter" type="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" id="5473692278135635844">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135635845">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5473692278136129117">
+                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5473692278136129118">
+                  <property name="name" value="zone" />
+                  <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5473692278136129119">
+                    <link role="classifier" targetNodeId="53.~DateTimeZone" resolveInfo="DateTimeZone" />
+                  </node>
+                  <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="5473692278136129120">
+                    <link role="baseMethodDeclaration" targetNodeId="53.~DateTimeZone.forOffsetMillis(int):org.joda.time.DateTimeZone" resolveInfo="forOffsetMillis" />
+                    <link role="classConcept" targetNodeId="53.~DateTimeZone" resolveInfo="DateTimeZone" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278136129121">
+                      <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="5473692278136129122" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="5473692278136129123">
+                        <link role="property" targetNodeId="1.5473692278135819455" resolveInfo="offsetmillis" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5473692278136024293">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278136024297">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="5473692278136024295">
+                    <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolveInfo="forPattern" />
+                    <link role="classConcept" targetNodeId="54.~DateTimeFormat" resolveInfo="DateTimeFormat" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="5473692278136024296">
+                      <property name="value" value="ZZ" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278136024301">
+                    <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormatter.print(org.joda.time.ReadableInstant):java.lang.String" resolveInfo="print" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="5473692278136129124">
+                      <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="5473692278136132747">
+                        <link role="baseMethodDeclaration" targetNodeId="53.~DateTime.&lt;init&gt;(org.joda.time.DateTimeZone)" resolveInfo="DateTime" />
+                        <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5473692278136132750">
+                          <link role="variableDeclaration" targetNodeId="5473692278136129118" resolveInfo="zone" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="setter" type="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Setter" id="5473692278135635846">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135635847">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement" id="5473692278135820214">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135820215">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5473692278135820235">
+                    <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5473692278135820236">
+                      <property name="name" value="dt" />
+                      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5473692278135820237">
+                        <link role="classifier" targetNodeId="53.~DateTime" resolveInfo="DateTime" />
+                      </node>
+                      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820238">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820239">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="5473692278135820240">
+                            <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolveInfo="forPattern" />
+                            <link role="classConcept" targetNodeId="54.~DateTimeFormat" resolveInfo="DateTimeFormat" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="5473692278135820241">
+                              <property name="value" value="Z" />
+                            </node>
+                          </node>
+                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820242">
+                            <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormatter.withOffsetParsed():org.joda.time.format.DateTimeFormatter" resolveInfo="withOffsetParsed" />
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820243">
+                          <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolveInfo="parseDateTime" />
+                          <node role="actualArgument" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_text" id="5473692278135820244" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="5473692278135820261">
+                    <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135820262">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5473692278135820282">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820289">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820284">
+                            <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="5473692278135820283" />
+                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="5473692278135820288">
+                              <link role="property" targetNodeId="1.5473692278135819455" resolveInfo="offsetmillis" />
+                            </node>
+                          </node>
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.Property_SetOperation" id="5473692278135820293">
+                            <node role="value" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820301">
+                              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820296">
+                                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5473692278135820295">
+                                  <link role="variableDeclaration" targetNodeId="5473692278135820236" resolveInfo="dt" />
+                                </node>
+                                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820300">
+                                  <link role="baseMethodDeclaration" targetNodeId="55.~AbstractInstant.getZone():org.joda.time.DateTimeZone" resolveInfo="getZone" />
+                                </node>
+                              </node>
+                              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820305">
+                                <link role="baseMethodDeclaration" targetNodeId="53.~DateTimeZone.getStandardOffset(long):int" resolveInfo="getStandardOffset" />
+                                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LongLiteral" id="5473692278135820308">
+                                  <property name="value" value="0L" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="5473692278135820277">
+                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820272">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820266">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5473692278135820265">
+                            <link role="variableDeclaration" targetNodeId="5473692278135820236" resolveInfo="dt" />
+                          </node>
+                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820270">
+                            <link role="baseMethodDeclaration" targetNodeId="53.~DateTime.withZoneRetainFields(org.joda.time.DateTimeZone):org.joda.time.DateTime" resolveInfo="withZoneRetainFields" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="5473692278135820271">
+                              <link role="classifier" targetNodeId="53.~DateTimeZone" resolveInfo="DateTimeZone" />
+                              <link role="variableDeclaration" targetNodeId="53.~DateTimeZone.UTC" resolveInfo="UTC" />
+                            </node>
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820276">
+                          <link role="baseMethodDeclaration" targetNodeId="55.~BaseDateTime.getMillis():long" resolveInfo="getMillis" />
+                        </node>
+                      </node>
+                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LongLiteral" id="5473692278135820281">
+                        <property name="value" value="0L" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="catchClause" type="jetbrains.mps.baseLanguage.structure.CatchClause" id="5473692278135820216">
+                  <node role="throwable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5473692278135820217">
+                    <property name="name" value="ignored" />
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5473692278135820245">
+                      <link role="classifier" targetNodeId="52.~RuntimeException" resolveInfo="RuntimeException" />
+                    </node>
+                  </node>
+                  <node role="catchBody" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135820219" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="validator" type="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Validator" id="5473692278135635848">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135635849">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement" id="5473692278135820310">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135820311">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5473692278135820312">
+                    <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5473692278135820313">
+                      <property name="name" value="dt" />
+                      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5473692278135820314">
+                        <link role="classifier" targetNodeId="53.~DateTime" resolveInfo="DateTime" />
+                      </node>
+                      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820315">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820316">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="5473692278135820317">
+                            <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolveInfo="forPattern" />
+                            <link role="classConcept" targetNodeId="54.~DateTimeFormat" resolveInfo="DateTimeFormat" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="5473692278135820318">
+                              <property name="value" value="Z" />
+                            </node>
+                          </node>
+                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820319">
+                            <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormatter.withOffsetParsed():org.joda.time.format.DateTimeFormatter" resolveInfo="withOffsetParsed" />
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820320">
+                          <link role="baseMethodDeclaration" targetNodeId="54.~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolveInfo="parseDateTime" />
+                          <node role="actualArgument" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_text" id="5473692278135820321" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="5473692278135820322">
+                    <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135820323">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="5473692278135820348">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="5473692278135820350">
+                          <property name="value" value="true" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="5473692278135820336">
+                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820337">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135820338">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5473692278135820339">
+                            <link role="variableDeclaration" targetNodeId="5473692278135820313" resolveInfo="dt" />
+                          </node>
+                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820340">
+                            <link role="baseMethodDeclaration" targetNodeId="53.~DateTime.withZoneRetainFields(org.joda.time.DateTimeZone):org.joda.time.DateTime" resolveInfo="withZoneRetainFields" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="5473692278135820341">
+                              <link role="classifier" targetNodeId="53.~DateTimeZone" resolveInfo="DateTimeZone" />
+                              <link role="variableDeclaration" targetNodeId="53.~DateTimeZone.UTC" resolveInfo="UTC" />
+                            </node>
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="5473692278135820342">
+                          <link role="baseMethodDeclaration" targetNodeId="55.~BaseDateTime.getMillis():long" resolveInfo="getMillis" />
+                        </node>
+                      </node>
+                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LongLiteral" id="5473692278135820343">
+                        <property name="value" value="0L" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="catchClause" type="jetbrains.mps.baseLanguage.structure.CatchClause" id="5473692278135820344">
+                  <node role="throwable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5473692278135820345">
+                    <property name="name" value="ignored" />
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5473692278135820346">
+                      <link role="classifier" targetNodeId="52.~RuntimeException" resolveInfo="RuntimeException" />
+                    </node>
+                  </node>
+                  <node role="catchBody" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135820347" />
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="5473692278135820352">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="5473692278135820354">
+                  <property name="value" value="false" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="5473692278135631093" />
     </node>
   </node>
 </model>

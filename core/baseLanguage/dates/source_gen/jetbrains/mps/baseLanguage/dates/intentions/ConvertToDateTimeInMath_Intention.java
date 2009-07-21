@@ -40,6 +40,13 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention {
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
+    if (!(this.isApplicableToNode(node, editorContext))) {
+      return false;
+    }
+    return true;
+  }
+
+  public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     return MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node) || MathDateTimeOperation_Behavior.call_needRightConvert_1238250706060(node);
   }
 

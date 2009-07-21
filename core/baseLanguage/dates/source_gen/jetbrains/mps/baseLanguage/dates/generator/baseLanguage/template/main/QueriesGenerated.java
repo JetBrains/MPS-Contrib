@@ -184,6 +184,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "timezone_id");
   }
 
+  public static Object propertyMacro_GetPropertyValue_8625920436392692183(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(_context.getNode(), "offsetmillis");
+  }
+
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode cc = _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ConditionalDateTimePrinterImpl");
     return ListSequence.fromList(SLinkOperations.getTargets(cc, "constructor", true)).first();

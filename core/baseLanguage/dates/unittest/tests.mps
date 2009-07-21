@@ -3310,7 +3310,7 @@
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4555537781928180295">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="4555537781928181634">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4555537781928181635">
-              <property name="name" value="tz" />
+              <property name="name" value="mskid" />
               <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="4555537781928181636" />
               <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression" id="7517433918793204387">
                 <property name="timezone_id" value="Europe/Moscow" />
@@ -3337,6 +3337,27 @@
             </node>
             <node role="actual" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="7517433918793205156">
               <link role="variableDeclaration" targetNodeId="4555537781928181635" resolveInfo="tz" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1140983047399056926">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1140983047399056927">
+              <property name="name" value="mskoffset" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1140983047399056928" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression" id="8625920436392683934">
+                <property name="offsetmillis" value="10800000" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="8625920436392683936">
+            <node role="actual" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8625920436392683940">
+              <link role="variableDeclaration" targetNodeId="1140983047399056927" resolveInfo="msk" />
+            </node>
+            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="8625920436392742731">
+              <link role="baseMethodDeclaration" targetNodeId="4.~DateTimeZone.forOffsetMillis(int):org.joda.time.DateTimeZone" resolveInfo="forOffsetMillis" />
+              <link role="classConcept" targetNodeId="4.~DateTimeZone" resolveInfo="DateTimeZone" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="8625920436392742733">
+                <property name="value" value="10800000" />
+              </node>
             </node>
           </node>
         </node>

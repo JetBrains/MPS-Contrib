@@ -43,7 +43,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="18" />
+  <maxImportIndex value="19" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="0" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="5" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
@@ -53,6 +53,7 @@
   <import index="12" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <import index="16" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
   <import index="17" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
+  <import index="19" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1173960152516">
     <property name="name" value="DateTimePropertFormatTokenUtil" />
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="1173960236733">
@@ -683,6 +684,25 @@
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="4555537781927648385">
     <property name="package" value="operation.constant.timezone" />
     <link role="concept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+    <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="421159955485443030">
+      <link role="applicableProperty" targetNodeId="1.4555537781927678418" resolveInfo="timezone_id" />
+      <node role="propertyValidator" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" id="421159955485443031">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="421159955485443032">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="421159955485515304">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="421159955485516050">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="421159955485516049">
+                <link role="baseMethodDeclaration" targetNodeId="19.~DateTimeZone.getAvailableIDs():java.util.Set" resolveInfo="getAvailableIDs" />
+                <link role="classConcept" targetNodeId="19.~DateTimeZone" resolveInfo="DateTimeZone" />
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="421159955485516054">
+                <link role="baseMethodDeclaration" targetNodeId="17.~Set.contains(java.lang.Object):boolean" resolveInfo="contains" />
+                <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" id="421159955485516056" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

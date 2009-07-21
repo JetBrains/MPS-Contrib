@@ -850,6 +850,13 @@
         <link role="template" targetNodeId="7517433918793153488" resolveInfo="reduce_TimeZoneIDExpression" />
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="8625920436392689295">
+      <property name="package" value="operation.constant.timezone" />
+      <link role="applicableConcept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="8625920436392689296">
+        <link role="template" targetNodeId="8625920436392689293" resolveInfo="reduce_TimeZoneOffsetExpression" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1169550327580">
     <property name="name" value="FormatTable" />
@@ -4691,6 +4698,32 @@
         </node>
       </node>
       <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="7517433918793156370" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="8625920436392689293">
+    <property name="name" value="reduce_TimeZoneOffsetExpression" />
+    <link role="applicableConcept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="8625920436392690050">
+      <link role="baseMethodDeclaration" targetNodeId="10.~DateTimeZone.forOffsetMillis(int):org.joda.time.DateTimeZone" resolveInfo="forOffsetMillis" />
+      <link role="classConcept" targetNodeId="10.~DateTimeZone" resolveInfo="DateTimeZone" />
+      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="8625920436392690059" />
+      <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="8625920436392692181">
+        <property name="value" value="0" />
+        <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="8625920436392692182">
+          <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="8625920436392692183">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8625920436392692184">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8625920436392692185">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8625920436392692187">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="8625920436392692186" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="8625920436392693303">
+                    <link role="property" targetNodeId="1.5473692278135819455" resolveInfo="offsetmillis" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
