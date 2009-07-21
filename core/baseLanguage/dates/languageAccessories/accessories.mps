@@ -4,6 +4,8 @@
   <refactoringHistory />
   <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
+  <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903db(jetbrains.mps.baseLanguage.datesInternal.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
@@ -16,6 +18,8 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <maxImportIndex value="9" />
   <import index="1" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <import index="2" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
@@ -933,6 +937,77 @@
       <property name="minute" value="00" />
       <property name="continentOfCountry" value="Australia" />
       <property name="country" value="Sydney" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="3544298728206251107">
+    <property name="name" value="DateTimeUtil" />
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="3544298728206258585">
+      <property name="name" value="withTimeZone" />
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="3544298728206258589">
+        <property name="name" value="tz" />
+        <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="3544298728206258591" />
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="3544298728206258592">
+        <property name="name" value="block" />
+        <node role="type" type="jetbrains.mps.baseLanguage.closures.structure.UnrestrictedFunctionType" id="3544298728206258594">
+          <node role="resultType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="3544298728206258595" />
+          <node role="terminateType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="3544298728206258597" />
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="3544298728206258586" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="3544298728206258587" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3544298728206258588">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="462678460625566093">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="462678460625566094">
+            <property name="name" value="currenttz" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="462678460625566095">
+              <link role="classifier" targetNodeId="1.~DateTimeZone" resolveInfo="DateTimeZone" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="462678460625566096">
+              <link role="baseMethodDeclaration" targetNodeId="8.~DateTimeOperations.getCurrentTimeZone():org.joda.time.DateTimeZone" resolveInfo="getCurrentTimeZone" />
+              <link role="classConcept" targetNodeId="8.~DateTimeOperations" resolveInfo="DateTimeOperations" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.TryStatement" id="3544298728206258598">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3544298728206258599">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="462678460625566101">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="462678460625566103">
+                <link role="baseMethodDeclaration" targetNodeId="8.~DateTimeOperations.withTimeZone(org.joda.time.DateTimeZone):void" resolveInfo="withTimeZone" />
+                <link role="classConcept" targetNodeId="8.~DateTimeOperations" resolveInfo="DateTimeOperations" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="462678460625566104">
+                  <link role="variableDeclaration" targetNodeId="3544298728206258589" resolveInfo="tz" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="462678460625566106">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="462678460625636454">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="462678460625566107">
+                  <link role="variableDeclaration" targetNodeId="3544298728206258592" resolveInfo="block" />
+                </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.closures.structure.InvokeFunctionOperation" id="462678460625637417" />
+              </node>
+            </node>
+          </node>
+          <node role="finallyBody" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3544298728206258600">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="462678460625637424">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="462678460625637426">
+                <link role="baseMethodDeclaration" targetNodeId="8.~DateTimeOperations.withTimeZone(org.joda.time.DateTimeZone):void" resolveInfo="withTimeZone" />
+                <link role="classConcept" targetNodeId="8.~DateTimeOperations" resolveInfo="DateTimeOperations" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="462678460625637427">
+                  <link role="variableDeclaration" targetNodeId="462678460625566094" resolveInfo="currenttz" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="3544298728206251108" />
+    <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="3544298728206251109">
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="3544298728206251110" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="3544298728206251111" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3544298728206251112" />
     </node>
   </node>
 </model>
