@@ -6,6 +6,7 @@ import jetbrains.mps.nodeEditor.DefaultNodeEditor;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
@@ -22,7 +23,17 @@ import java.awt.Color;
 public class ElementReference_Editor extends DefaultNodeEditor {
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createRefCell_9443_1(context, node);
+    return this.createCollection_9443_0(context, node);
+  }
+
+  public EditorCell createCollection_9443_0(EditorContext context, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+    setupBasic_Collection_9443_0(editorCell, node, context);
+    editorCell.setGridLayout(false);
+    editorCell.setUsesBraces(false);
+    editorCell.setCanBeFolded(false);
+    editorCell.addEditorCell(this.createRefCell_9443_1(context, node));
+    return editorCell;
   }
 
   public EditorCell createRefCell_9443_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
@@ -56,6 +67,10 @@ public class ElementReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_RefCell_9443_0(EditorCell editorCell, SNode node, EditorContext context) {
+  }
+
+  private static void setupBasic_Collection_9443_0(EditorCell editorCell, SNode node, EditorContext context) {
+    editorCell.setCellId("Collection_9443_0");
   }
 
   private static void setupLabel_RefCell_9443_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
@@ -114,7 +129,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
             this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
               public Color calculate(EditorCell cell) {
-                return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_1214399679019((cell == null ?
+                return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_4519421024903901123((cell == null ?
                   null :
                   cell.getSNode()
                 ), (cell == null ?
@@ -132,7 +147,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     private static void setupLabel_Property_9443_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
-    public static Color _StyleParameter_QueryFunction_1214399679019(SNode node, EditorContext editorContext) {
+    public static Color _StyleParameter_QueryFunction_4519421024903901123(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
 
