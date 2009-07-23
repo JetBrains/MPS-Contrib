@@ -12,10 +12,10 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
@@ -67,6 +67,14 @@ public class ElementReference_Editor extends DefaultNodeEditor {
 
 
   private static void setupBasic_RefCell_9443_0(EditorCell editorCell, SNode node, EditorContext context) {
+    {
+      Style inlineStyle = new Style(editorCell) {
+        {
+          this.set(StyleAttributes.GET_PARENT_SUBSTITUDE_INFO, true);
+        }
+      };
+      inlineStyle.apply(editorCell);
+    }
   }
 
   private static void setupBasic_Collection_9443_0(EditorCell editorCell, SNode node, EditorContext context) {
@@ -129,7 +137,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
             this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
               public Color calculate(EditorCell cell) {
-                return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_4519421024903901123((cell == null ?
+                return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_448837773635573444((cell == null ?
                   null :
                   cell.getSNode()
                 ), (cell == null ?
@@ -147,7 +155,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     private static void setupLabel_Property_9443_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
-    public static Color _StyleParameter_QueryFunction_4519421024903901123(SNode node, EditorContext editorContext) {
+    public static Color _StyleParameter_QueryFunction_448837773635573444(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
 
