@@ -937,7 +937,7 @@
         <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="7382861867148541766" />
         <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="7382861867148541767" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcListMacro" id="7382861867148541768">
-          <link role="mappingLabel" targetNodeId="22.1210180725364" resolveInfo="map_PersistentField" />
+          <link role="mappingLabel" targetNodeId="8294332872984122870" resolveInfo="map_PersistentProperty" />
           <node role="sourceNodesQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" id="7382861867148541769">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7382861867148541770">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7382861867148541771">
@@ -2641,7 +2641,7 @@
                 </node>
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="7382861867148540661">
-                <link role="baseMethodDeclaration" targetNodeId="22.1217948485583" resolveInfo="getStateObject" />
+                <link role="baseMethodDeclaration" targetNodeId="7382861867148541784" resolveInfo="getStateObject" />
               </node>
             </node>
             <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="7382861867148540662" />
