@@ -10,19 +10,15 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 public class DatesInternal_StyleSheet {
 
   public static Style getSimpleText(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    return style;
   }
 
   public static Style getTableCell(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    return style;
   }
 
 }

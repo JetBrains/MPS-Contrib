@@ -14,23 +14,21 @@ import jetbrains.mps.nodeEditor.EditorContext;
 public class XmlSchema_StyleSheet {
 
   public static Style getXmlElement(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
+    Style style = new Style(cell);
+    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
-          public Color calculate(EditorCell cell) {
-            return XmlSchema_StyleSheet._StyleParameter_QueryFunction_1189991412577((cell == null ?
-              null :
-              cell.getSNode()
-            ), (cell == null ?
-              null :
-              cell.getEditorContext()
-            ));
-          }
-        });
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+      public Color calculate(EditorCell cell) {
+        return XmlSchema_StyleSheet._StyleParameter_QueryFunction_1189991412577((cell == null ?
+          null :
+          cell.getSNode()
+        ), (cell == null ?
+          null :
+          cell.getEditorContext()
+        ));
       }
-    };
+    });
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    return style;
   }
 
   public static Color _StyleParameter_QueryFunction_1189991412577(SNode node, EditorContext editorContext) {

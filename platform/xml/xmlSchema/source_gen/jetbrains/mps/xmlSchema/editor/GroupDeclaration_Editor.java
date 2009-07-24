@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -27,9 +26,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4337_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_4337_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_4337_0(context, node, "group"));
     editorCell.addEditorCell(this.createProperty_4337_1(context, node));
     editorCell.addEditorCell(this.createConstant_4337_1(context, node, ": "));
@@ -40,7 +36,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4337_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4337_0(editorCell, node, context);
-    setupLabel_Constant_4337_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -48,7 +43,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4337_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4337_1(editorCell, node, context);
-    setupLabel_Constant_4337_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -58,9 +52,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_4337_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_4337_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -69,8 +60,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("groupName");
     provider.setNoTargetText("<no groupName>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_4337_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -87,9 +76,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_4337_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefNode_4337_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -98,8 +84,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("groupExpression");
     provider.setNoTargetText("<no groupExpression>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefNode_4337_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -119,24 +103,16 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_4337_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4337_0");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
     }
   }
 
   private static void setupBasic_Property_4337_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_groupName");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
     }
   }
 
@@ -145,18 +121,6 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static void setupBasic_RefNode_4337_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4337_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_4337_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4337_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNode_4337_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

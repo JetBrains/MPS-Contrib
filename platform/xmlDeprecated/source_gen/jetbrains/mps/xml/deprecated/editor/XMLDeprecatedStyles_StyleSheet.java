@@ -11,39 +11,31 @@ import jetbrains.mps.nodeEditor.MPSColors;
 public class XMLDeprecatedStyles_StyleSheet {
 
   public static Style getElement(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
+    return style;
   }
 
   public static Style getAttributeName(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
+    return style;
   }
 
   public static Style getAttributeValue(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
+    return style;
   }
 
   public static Style getText(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.ITALIC);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
+    return style;
   }
 
 }

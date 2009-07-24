@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -30,9 +29,6 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_9490_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_9490_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createRefNodeList_9490_0(context, node));
     return editorCell;
   }
@@ -43,9 +39,6 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
     }
     EditorCell_Collection editorCell = this.myListHandler_9490_0.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_RefNodeList_9490_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.setRole(this.myListHandler_9490_0.getElementRole());
     return editorCell;
   }
@@ -54,20 +47,13 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
   private static void setupBasic_RefNodeList_9490_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_stringExpression");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.GET_PARENT_SUBSTITUDE_INFO, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.GET_PARENT_SUBSTITUDE_INFO, true);
     }
   }
 
   private static void setupBasic_Collection_9490_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_9490_0");
-  }
-
-  private static void setupLabel_RefNodeList_9490_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class stringExpressionListHandler_9490_0 extends RefNodeListHandler {

@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -31,9 +30,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_2020_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_2020_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createRefCell_2020_1(context, node));
     if (renderingCondition2020_0(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2020_1(context, node));
@@ -47,9 +43,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_2020_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_2020_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_2020_0(context, node, "on"));
     if (renderingCondition2020_1(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2020_2(context, node));
@@ -66,9 +59,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_2020_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_2020_2(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createRefCell_2020_3(context, node));
     editorCell.addEditorCell(this.createConstant_2020_1(context, node, ","));
     return editorCell;
@@ -77,9 +67,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_2020_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_2020_3(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_2020_2(context, node, "at"));
     if (renderingCondition2020_5(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2020_4(context, node));
@@ -90,9 +77,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_2020_4(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_2020_4(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     if (renderingCondition2020_6(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2020_5(context, node));
     }
@@ -103,9 +87,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_2020_5(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_2020_5(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     if (renderingCondition2020_7(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2020_6(context, node));
     }
@@ -117,9 +98,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_2020_6(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_2020_6(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createProperty_2020_13(context, node));
     editorCell.addEditorCell(this.createConstant_2020_4(context, node, ":"));
     return editorCell;
@@ -128,7 +106,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_2020_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_2020_0(editorCell, node, context);
-    setupLabel_Constant_2020_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -136,7 +113,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_2020_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_2020_1(editorCell, node, context);
-    setupLabel_Constant_2020_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -144,7 +120,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_2020_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_2020_2(editorCell, node, context);
-    setupLabel_Constant_2020_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -152,7 +127,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_2020_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_2020_3(editorCell, node, context);
-    setupLabel_Constant_2020_3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -160,7 +134,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_2020_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_2020_4(editorCell, node, context);
-    setupLabel_Constant_2020_4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -170,9 +143,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline2020_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_2020_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefCell_2020_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -181,8 +151,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("schedulePeriod");
     provider.setNoTargetText("<no schedulePeriod>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefCell_2020_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -199,9 +167,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline2020_1());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_2020_1(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefCell_2020_1((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -210,8 +175,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("month");
     provider.setNoTargetText("<no month>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefCell_2020_2_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -228,9 +191,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2020_2(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_2020_2((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -239,8 +199,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("dayOfWeek");
     provider.setNoTargetText("<day of week>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_2020_4_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -257,9 +215,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2020_3(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_2020_3((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -268,8 +223,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("dayOfMonth");
     provider.setNoTargetText("<day of month>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_2020_6_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -286,9 +239,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2020_4(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_2020_4((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -297,8 +247,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("second");
     provider.setNoTargetText("<second>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_2020_8_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -315,9 +263,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2020_5(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_2020_5((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -326,8 +271,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("minute");
     provider.setNoTargetText("<minute>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_2020_10_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -344,9 +287,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2020_6(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_2020_6((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -355,8 +295,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("hour");
     provider.setNoTargetText("<hour>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_2020_12_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -379,36 +317,24 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_2020_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_2020_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Constant_2020_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2020_0");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Collection_2020_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_2020_2");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -418,13 +344,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_2020_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2020_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-          this.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
     }
   }
 
@@ -439,36 +361,24 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_2020_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_2020_3");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Constant_2020_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2020_2");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Collection_2020_4(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_2020_4");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -479,12 +389,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_2020_5(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_2020_5");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -495,24 +401,16 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_2020_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2020_3");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Collection_2020_6(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_2020_6");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -523,49 +421,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_2020_4(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_2020_4");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
-  }
-
-  private static void setupLabel_RefCell_2020_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_2020_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefCell_2020_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_2020_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_2020_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_2020_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_2020_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_2020_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_2020_5(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_2020_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_2020_6(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_2020_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static boolean renderingCondition2020_0(SNode node, EditorContext editorContext, IScope scope) {
@@ -619,9 +477,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_2020_0(editorCell, node, context);
-      if (editorCell instanceof EditorCell_Label) {
-        setupLabel_Property_2020_0((EditorCell_Label)editorCell, node, context);
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -631,7 +486,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty_2020_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -646,9 +500,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Property_2020_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name");
-    }
-
-    private static void setupLabel_Property_2020_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }
@@ -671,9 +522,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_2020_1(editorCell, node, context);
-      if (editorCell instanceof EditorCell_Label) {
-        setupLabel_Property_2020_1((EditorCell_Label)editorCell, node, context);
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -683,7 +531,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty_2020_2_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -698,9 +545,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Property_2020_1(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name_1");
-    }
-
-    private static void setupLabel_Property_2020_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

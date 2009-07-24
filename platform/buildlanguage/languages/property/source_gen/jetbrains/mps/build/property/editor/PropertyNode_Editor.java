@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -37,9 +36,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_7739_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_7739_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createCollection_7739_1(context, node));
     editorCell.addEditorCell(this.createConstant_7739_0(context, node, ""));
     editorCell.addEditorCell(this.createRefNodeList_7739_0(context, node));
@@ -49,9 +45,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_7739_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_7739_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConceptProperty_7739_1(context, node));
     editorCell.addEditorCell(this.createProperty_7739_1(context, node));
     return editorCell;
@@ -60,7 +53,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7739_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7739_0(editorCell, node, context);
-    setupLabel_Constant_7739_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -71,9 +63,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     }
     EditorCell_Collection editorCell = this.myListHandler_7739_0.createCells(context, new CellLayout_Vertical(), false);
     setupBasic_RefNodeList_7739_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.setRole(this.myListHandler_7739_0.getElementRole());
     return editorCell;
   }
@@ -83,9 +72,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_ConceptProperty_7739_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_ConceptProperty_7739_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -94,8 +80,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createConceptProperty_7739_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -112,9 +96,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_7739_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_7739_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -123,8 +104,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_7739_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -144,12 +123,8 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_7739_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_7739_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -164,38 +139,18 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_7739_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7739_0");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-          this.set(StyleAttributes.EDITABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.EDITABLE, false);
     }
   }
 
   private static void setupBasic_RefNodeList_7739_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_declaration");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
-  }
-
-  private static void setupLabel_ConceptProperty_7739_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_7739_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7739_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNodeList_7739_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class declarationListHandler_7739_0 extends RefNodeListHandler {
@@ -247,7 +202,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     public EditorCell createConstant_7739_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       setupBasic_Constant_7739_1(editorCell, node, context);
-      setupLabel_Constant_7739_1(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
@@ -256,9 +210,6 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     private static void setupBasic_Constant_7739_1(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("Constant_7739_1");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
-    }
-
-    private static void setupLabel_Constant_7739_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

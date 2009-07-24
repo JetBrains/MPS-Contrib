@@ -14,40 +14,32 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 public class Dates_StyleSheet {
 
   public static Style getDateCompactKeyWord(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.putAll(BaseLanguageStyle_StyleSheet.getCompactKeyWord(null));
-      }
-    };
+    Style style = new Style(cell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getCompactKeyWord(null));
+    return style;
   }
 
   public static Style getDateSmall(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.SELECTABLE, false);
-        this.set(StyleAttributes.FONT_SIZE, 9);
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.SELECTABLE, false);
+    style.set(StyleAttributes.FONT_SIZE, 9);
+    style.set(StyleAttributes.PADDING_RIGHT, new Padding(1.0, Measure.SPACES));
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
+    return style;
   }
 
   public static Style getDateFormat(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
-        this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
+    style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    return style;
   }
 
   public static Style getDateProperty(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.putAll(BaseLanguageStyle_StyleSheet.getField(null));
-      }
-    };
+    Style style = new Style(cell);
+    style.putAll(BaseLanguageStyle_StyleSheet.getField(null));
+    return style;
   }
 
 }

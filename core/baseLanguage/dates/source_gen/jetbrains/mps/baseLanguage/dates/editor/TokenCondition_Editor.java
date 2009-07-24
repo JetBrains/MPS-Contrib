@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -31,9 +30,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4438_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_4438_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_4438_1(context, node, "parameters:"));
     editorCell.addEditorCell(this.createConstant_4438_7(context, node, "datetimeToFormat"));
     editorCell.addEditorCell(this.createConstant_4438_0(context, node, "date time to format"));
@@ -47,9 +43,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4438_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_4438_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_4438_2(context, node, ">"));
     editorCell.addEditorCell(this.createRefNode_4438_1(context, node));
     return editorCell;
@@ -58,7 +51,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_0(editorCell, node, context);
-    setupLabel_Constant_4438_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -66,7 +58,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_1(editorCell, node, context);
-    setupLabel_Constant_4438_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -74,7 +65,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_2(editorCell, node, context);
-    setupLabel_Constant_4438_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -82,7 +72,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_3(editorCell, node, context);
-    setupLabel_Constant_4438_3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -90,7 +79,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_4(editorCell, node, context);
-    setupLabel_Constant_4438_4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -98,7 +86,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_5(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_5(editorCell, node, context);
-    setupLabel_Constant_4438_5(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -106,7 +93,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_6(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_6(editorCell, node, context);
-    setupLabel_Constant_4438_6(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -114,7 +100,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4438_7(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4438_7(editorCell, node, context);
-    setupLabel_Constant_4438_7(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -124,9 +109,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_4438_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefNode_4438_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -135,8 +117,6 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("body");
     provider.setNoTargetText("<no body>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefNode_4438_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -156,26 +136,18 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_4438_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_0");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
   }
 
   private static void setupBasic_Constant_4438_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
   }
 
@@ -185,109 +157,58 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefNode_4438_0(EditorCell editorCell, SNode node, EditorContext context) {
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.DRAW_BRACKETS, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.DRAW_BRACKETS, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, false);
     }
   }
 
   private static void setupBasic_Constant_4438_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_2");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
     }
   }
 
   private static void setupBasic_Constant_4438_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_3");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
   }
 
   private static void setupBasic_Constant_4438_4(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_4");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
   }
 
   private static void setupBasic_Constant_4438_5(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_5");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
   }
 
   private static void setupBasic_Constant_4438_6(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_6");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
   }
 
   private static void setupBasic_Constant_4438_7(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4438_7");
-  }
-
-  private static void setupLabel_Constant_4438_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4438_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNode_4438_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4438_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4438_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4438_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4438_5(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4438_6(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4438_7(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

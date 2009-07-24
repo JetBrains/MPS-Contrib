@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -32,9 +31,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_7367_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_7367_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createCollection_7367_1(context, node));
     editorCell.addEditorCell(this.createConstant_7367_0(context, node, ""));
     editorCell.addEditorCell(this.createRefNode_7367_1(context, node));
@@ -44,9 +40,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_7367_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_7367_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createProperty_7367_1(context, node));
     editorCell.addEditorCell(this.createConstant_7367_1(context, node, "."));
     editorCell.addEditorCell(this.createProperty_7367_5(context, node));
@@ -60,7 +53,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7367_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7367_0(editorCell, node, context);
-    setupLabel_Constant_7367_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -68,7 +60,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7367_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7367_1(editorCell, node, context);
-    setupLabel_Constant_7367_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -76,7 +67,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7367_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7367_2(editorCell, node, context);
-    setupLabel_Constant_7367_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -84,7 +74,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7367_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7367_3(editorCell, node, context);
-    setupLabel_Constant_7367_3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -92,7 +81,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7367_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7367_4(editorCell, node, context);
-    setupLabel_Constant_7367_4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -102,9 +90,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_7367_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_7367_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -113,8 +98,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("fileName");
     provider.setNoTargetText("<no fileName>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_7367_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -131,9 +114,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new XmlFile_Editor._Inline7367_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_7367_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefCell_7367_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -142,8 +122,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("schema");
     provider.setNoTargetText("<no schema>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefCell_7367_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -160,9 +138,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_7367_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefNode_7367_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -171,8 +146,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("document");
     provider.setNoTargetText("<no document>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefNode_7367_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -189,9 +162,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_7367_2(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_Property_7367_2((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -200,8 +170,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("extension");
     provider.setNoTargetText("<no extension>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createProperty_7367_4_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -221,24 +189,16 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_7367_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_7367_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Constant_7367_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_7367_0");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -250,12 +210,8 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   private static void setupBasic_Property_7367_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_fileName");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     }
   }
 
@@ -282,40 +238,9 @@ public class XmlFile_Editor extends DefaultNodeEditor {
   private static void setupBasic_Property_7367_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("property_extension");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     }
-  }
-
-  private static void setupLabel_Constant_7367_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7367_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_7367_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7367_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7367_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7367_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefCell_7367_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNode_7367_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Property_7367_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline7367_0 extends AbstractCellProvider {
@@ -337,9 +262,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_7367_1(editorCell, node, context);
-      if (editorCell instanceof EditorCell_Label) {
-        setupLabel_Property_7367_1((EditorCell_Label)editorCell, node, context);
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -349,7 +271,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
       provider.setRole("schemaName");
       provider.setNoTargetText("<no schemaName>");
       provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty_7367_2_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -365,16 +286,9 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     private static void setupBasic_Property_7367_1(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_schemaName");
       {
-        Style inlineStyle = new Style(editorCell) {
-          {
-            this.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-          }
-        };
-        inlineStyle.apply(editorCell);
+        Style style = editorCell.getStyle();
+        style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
-    }
-
-    private static void setupLabel_Property_7367_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

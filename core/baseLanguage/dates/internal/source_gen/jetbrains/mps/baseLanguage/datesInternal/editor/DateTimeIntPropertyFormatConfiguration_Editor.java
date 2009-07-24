@@ -11,7 +11,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -39,9 +38,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   public EditorCell createCollection_9190_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_9190_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_9190_0(context, node, "format configuration"));
     editorCell.addEditorCell(this.createConstant_9190_3(context, node, "for"));
     editorCell.addEditorCell(this.createRefCell_9190_1(context, node));
@@ -55,7 +51,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   public EditorCell createConstant_9190_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9190_0(editorCell, node, context);
-    setupLabel_Constant_9190_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -63,7 +58,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   public EditorCell createConstant_9190_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9190_1(editorCell, node, context);
-    setupLabel_Constant_9190_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -71,7 +65,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   public EditorCell createConstant_9190_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9190_2(editorCell, node, context);
-    setupLabel_Constant_9190_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -79,7 +72,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   public EditorCell createConstant_9190_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9190_3(editorCell, node, context);
-    setupLabel_Constant_9190_3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -87,7 +79,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   public EditorCell createConstant_9190_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_9190_4(editorCell, node, context);
-    setupLabel_Constant_9190_4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -98,9 +89,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     }
     EditorCell_Collection editorCell = this.myListHandler_9190_0.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_9190_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.setRole(this.myListHandler_9190_0.getElementRole());
     return editorCell;
   }
@@ -110,9 +98,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     provider.setAuxiliaryCellProvider(new DateTimeIntPropertyFormatConfiguration_Editor._Inline9190_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_9190_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefCell_9190_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -121,8 +106,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefCell_9190_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -151,13 +134,9 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     editorCell.setCellId("Constant_9190_1");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     }
   }
 
@@ -165,27 +144,19 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     editorCell.setCellId("Constant_9190_2");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     }
   }
 
   private static void setupBasic_RefNodeList_9190_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_dateTimePropertyFormatType");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
-          this.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
     }
   }
 
@@ -196,27 +167,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
 
   private static void setupBasic_Constant_9190_4(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_9190_4");
-  }
-
-  private static void setupLabel_Constant_9190_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefCell_9190_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_9190_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_9190_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNodeList_9190_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_9190_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_9190_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline9190_0 extends AbstractCellProvider {
@@ -238,9 +188,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_9190_0(editorCell, node, context);
-      if (editorCell instanceof EditorCell_Label) {
-        setupLabel_Property_9190_0((EditorCell_Label)editorCell, node, context);
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -250,7 +197,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty_9190_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -266,9 +212,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     private static void setupBasic_Property_9190_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name");
       BaseLanguageStyle_StyleSheet.getStaticField(editorCell).apply(editorCell);
-    }
-
-    private static void setupLabel_Property_9190_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

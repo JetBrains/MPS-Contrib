@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -31,9 +30,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_7754_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_7754_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_7754_0(context, node, "("));
     editorCell.addEditorCell(this.createRefNode_7754_1(context, node));
     editorCell.addEditorCell(this.createConstant_7754_1(context, node, "-"));
@@ -48,7 +44,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7754_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7754_0(editorCell, node, context);
-    setupLabel_Constant_7754_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -56,7 +51,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7754_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7754_1(editorCell, node, context);
-    setupLabel_Constant_7754_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -64,7 +58,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7754_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7754_2(editorCell, node, context);
-    setupLabel_Constant_7754_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -72,7 +65,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7754_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7754_3(editorCell, node, context);
-    setupLabel_Constant_7754_3(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -80,7 +72,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7754_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7754_4(editorCell, node, context);
-    setupLabel_Constant_7754_4(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -90,9 +81,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_7754_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefNode_7754_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -101,8 +89,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("leftValue");
     provider.setNoTargetText("<no leftValue>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefNode_7754_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -119,9 +105,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_7754_1(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefNode_7754_1((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -130,8 +113,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rightValue");
     provider.setNoTargetText("<no rightValue>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefNode_7754_2_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -148,9 +129,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new DateTimeMinusOperation_Editor._Inline7754_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_7754_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefCell_7754_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -159,8 +137,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefCell_7754_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -190,12 +166,8 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Constant_7754_1");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.PADDING_RIGHT, new Padding(0., Measure.SPACES));
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0., Measure.SPACES));
     }
   }
 
@@ -221,30 +193,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
   }
 
-  private static void setupLabel_Constant_7754_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNode_7754_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7754_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNode_7754_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7754_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7754_3(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefCell_7754_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_7754_4(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
   public static class _Inline7754_0 extends AbstractCellProvider {
 
     public _Inline7754_0() {
@@ -264,9 +212,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_7754_0(editorCell, node, context);
-      if (editorCell instanceof EditorCell_Label) {
-        setupLabel_Property_7754_0((EditorCell_Label)editorCell, node, context);
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -276,7 +221,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
       provider.setRole("pluralForm");
       provider.setNoTargetText("<no pluralForm>");
       provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty_7754_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -292,9 +236,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     private static void setupBasic_Property_7754_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_pluralForm");
       Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
-    }
-
-    private static void setupLabel_Property_7754_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

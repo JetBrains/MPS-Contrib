@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -28,9 +27,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_1579_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_1579_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_1579_0(context, node, "<"));
     editorCell.addEditorCell(this.createRefCell_1579_1(context, node));
     editorCell.addEditorCell(this.createConstant_1579_1(context, node, ">"));
@@ -40,7 +36,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_1579_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_1579_0(editorCell, node, context);
-    setupLabel_Constant_1579_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -48,7 +43,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_1579_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_1579_1(editorCell, node, context);
-    setupLabel_Constant_1579_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -58,9 +52,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new ReferenceFormatToken_Editor._Inline1579_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_1579_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefCell_1579_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -69,8 +60,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefCell_1579_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -89,12 +78,8 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefCell_1579_0(EditorCell editorCell, SNode node, EditorContext context) {
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.LAYOUT_CONSTRAINT, "punctuation");
     }
   }
 
@@ -106,15 +91,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_1579_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_1579_1");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
-  }
-
-  private static void setupLabel_RefCell_1579_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1579_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_1579_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline1579_0 extends AbstractCellProvider {
@@ -136,9 +112,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_1579_0(editorCell, node, context);
-      if (editorCell instanceof EditorCell_Label) {
-        setupLabel_Property_1579_0((EditorCell_Label)editorCell, node, context);
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -148,7 +121,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty_1579_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -164,9 +136,6 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
     private static void setupBasic_Property_1579_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name");
       Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
-    }
-
-    private static void setupLabel_Property_1579_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

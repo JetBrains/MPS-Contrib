@@ -15,7 +15,6 @@ import org.joda.time.DateTimeZone;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.DateTime;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 
 public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
 
@@ -26,9 +25,6 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_5208_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_5208_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createModelAccess_5208_0(context, node));
     return editorCell;
   }
@@ -38,7 +34,6 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
     EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
     editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
     setupBasic_ModelAccess_5208_0(editorCell, node, context);
-    setupLabel_ModelAccess_5208_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -81,9 +76,6 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_ModelAccess_5208_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("ModelAccess_5208_0");
-  }
-
-  private static void setupLabel_ModelAccess_5208_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
 }

@@ -11,93 +11,71 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 public class BuildLanguageStyle_StyleSheet {
 
   public static Style getStringLiteral(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
+    return style;
   }
 
   public static Style getBooleanLiteral(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    return style;
   }
 
   public static Style getIntegerLiteral(final EditorCell cell) {
-    return new Style(cell) {
-      {
-      }
-    };
+    Style style = new Style(cell);
+    return style;
   }
 
   public static Style getKeyword(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    return style;
   }
 
   public static Style getTarget(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.darkGray);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.darkGray);
+    return style;
   }
 
   public static Style getTask(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_BLUE);
+    return style;
   }
 
   public static Style getProperty(final EditorCell cell) {
-    return new Style(cell) {
-      {
-      }
-    };
+    Style style = new Style(cell);
+    return style;
   }
 
   public static Style getAttributeName(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    return style;
   }
 
   public static Style getDepractaedAttributeName(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.STRIKE_OUT, true);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.STRIKE_OUT, true);
+    return style;
   }
 
   public static Style getPrompting(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
+    return style;
   }
 
   public static Style getComment(final EditorCell cell) {
-    return new Style(cell) {
-      {
-        this.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
-      }
-    };
+    Style style = new Style(cell);
+    style.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
+    return style;
   }
 
 }
