@@ -12,7 +12,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -32,9 +31,6 @@ public class GLine_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_6865_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     setupBasic_Collection_6865_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_6865_0(context, node, ">"));
     editorCell.addEditorCell(this.createRefNodeList_6865_0(context, node));
     return editorCell;
@@ -43,7 +39,6 @@ public class GLine_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_6865_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_6865_0(editorCell, node, context);
-    setupLabel_Constant_6865_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -54,9 +49,6 @@ public class GLine_Editor extends DefaultNodeEditor {
     }
     EditorCell_Collection editorCell = this.myListHandler_6865_0.createCells(context, new CellLayout_Indent(), false);
     setupBasic_RefNodeList_6865_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.setRole(this.myListHandler_6865_0.getElementRole());
     return editorCell;
   }
@@ -65,12 +57,8 @@ public class GLine_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_6865_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_6865_0");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, true);
     }
   }
 
@@ -80,12 +68,6 @@ public class GLine_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_RefNodeList_6865_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_item");
-  }
-
-  private static void setupLabel_Constant_6865_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNodeList_6865_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class itemListHandler_6865_0 extends RefNodeListHandler {
@@ -137,7 +119,6 @@ public class GLine_Editor extends DefaultNodeEditor {
     public EditorCell createConstant_6865_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       setupBasic_Constant_6865_1(editorCell, node, context);
-      setupLabel_Constant_6865_1(editorCell, node, context);
       editorCell.setDefaultText("");
       return editorCell;
     }
@@ -146,17 +127,10 @@ public class GLine_Editor extends DefaultNodeEditor {
     private static void setupBasic_Constant_6865_1(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("Constant_6865_1");
       {
-        Style inlineStyle = new Style(editorCell) {
-          {
-            this.set(StyleAttributes.EDITABLE, true);
-            this.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
-          }
-        };
-        inlineStyle.apply(editorCell);
+        Style style = editorCell.getStyle();
+        style.set(StyleAttributes.EDITABLE, true);
+        style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
-    }
-
-    private static void setupLabel_Constant_6865_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }
