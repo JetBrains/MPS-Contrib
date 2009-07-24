@@ -37,7 +37,7 @@ public class typeof_RemoveListenerOperation_InferenceRule extends AbstractInfere
     {
       SNode _nodeToCheck_1029348928467 = SNodeOperations.getAncestor(operation, "jetbrains.mps.baseLanguage.structure.Statement", false, false);
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation((SNode)SLinkOperations.getTarget(methodNode, "returnType", true), (SNode)new _Quotations.QuotationClass_5().createNode(typeCheckingContext), _nodeToCheck_1029348928467, "handler return type must be void", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1208689441044", intentionProvider);
+      typeCheckingContext.createEquation((SNode)SLinkOperations.getTarget(methodNode, "returnType", true), (SNode)new _Quotations.QuotationClass_6().createNode(typeCheckingContext), _nodeToCheck_1029348928467, "handler return type must be void", "r:00000000-0000-4000-0000-011c89590550(jetbrains.mps.uiLanguage.typesystem)", "1208689441044", intentionProvider);
     }
   }
 
