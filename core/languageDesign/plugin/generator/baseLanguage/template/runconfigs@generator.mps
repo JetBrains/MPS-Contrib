@@ -95,37 +95,37 @@
         <link role="template" targetNodeId="8821770403474041105" resolveInfo="reduce_ReportErrorStatement" />
       </node>
     </node>
-    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="8294332872984075952">
-      <link role="applicableConcept" targetNodeId="3v.1205752633985" resolveInfo="ThisClassifierExpresson" />
-      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="8294332872984075995">
-        <link role="template" targetNodeId="8294332872984075993" resolveInfo="reduce_ThisClassifierExpresson" />
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="680902548763517192">
+      <link role="applicableConcept" targetNodeId="3v.1205752633985" resolveInfo="ThisClassifierExpression" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="680902548763517193">
+        <link role="template" targetNodeId="8294332872984075993" resolveInfo="reduce_ThisClassifierExpresson_in_Config" />
       </node>
-      <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" id="8294332872984075972">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8294332872984075973">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8294332872984075974">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8294332872984821574">
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984075988">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984075976">
-                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="8294332872984075975" />
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="8294332872984075980">
-                    <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="8294332872984075981">
-                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8294332872984577315">
+      <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" id="680902548763517194">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="680902548763517195">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="680902548763517196">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="680902548763517197">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517198">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517199">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="680902548763517200" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="680902548763517201">
+                    <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="680902548763517202">
+                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="680902548763517203">
                         <link role="conceptDeclaration" targetNodeId="2v.678887849223472871" resolveInfo="GetConfigurationIconBlock" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="8294332872984075992" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="680902548763517204" />
               </node>
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984821577">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984821578">
-                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="8294332872984821579" />
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="8294332872984821580">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517205">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517206">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="680902548763517207" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="680902548763517208">
                     <link role="baseMethodDeclaration" targetNodeId="24.1213877512819" resolveInfo="getClassifier" />
                   </node>
                 </node>
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="8294332872984821581">
-                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8294332872984821582">
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="680902548763517209">
+                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="680902548763517210">
                     <link role="conceptDeclaration" targetNodeId="2v.7035278950562851062" resolveInfo="RunConfigurationDeclaration" />
                   </node>
                 </node>
@@ -133,46 +133,6 @@
             </node>
           </node>
         </node>
-      </node>
-    </node>
-    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="8294332872984457402">
-      <link role="applicableConcept" targetNodeId="3v.1205752633985" resolveInfo="ThisClassifierExpresson" />
-      <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" id="8294332872984457404">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8294332872984457405">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8294332872984457406">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8294332872984821553">
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984821567">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984821557">
-                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="8294332872984821556" />
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="8294332872984821561">
-                    <link role="baseMethodDeclaration" targetNodeId="24.1213877512819" resolveInfo="getClassifier" />
-                  </node>
-                </node>
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="8294332872984821571">
-                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8294332872984821573">
-                    <link role="conceptDeclaration" targetNodeId="2v.7035278950562851062" resolveInfo="RunConfigurationDeclaration" />
-                  </node>
-                </node>
-              </node>
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984457407">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8294332872984457408">
-                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="8294332872984457409" />
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="8294332872984457410">
-                    <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="8294332872984457411">
-                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8294332872985309550">
-                        <link role="conceptDeclaration" targetNodeId="2v.678887849223472884" resolveInfo="ExecuteConfigBlock" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="8294332872984457413" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="8294332872984457417">
-        <link role="template" targetNodeId="8294332872984457415" resolveInfo="reduce_ThisClassifierExpresson" />
       </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="3452826078638209703">
@@ -213,6 +173,49 @@
       </node>
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="3452826078638209726">
         <link role="template" targetNodeId="3452826078638209724" resolveInfo="reduce_ThisClassifierExpresson" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="680902548763517324">
+      <link role="applicableConcept" targetNodeId="3v.1205752633985" resolveInfo="ThisClassifierExpression" />
+      <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.BaseMappingRule_Condition" id="680902548763517325">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="680902548763517326">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="680902548763517327">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="680902548763517328">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517329">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517330">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="680902548763517331" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="680902548763517332">
+                    <link role="baseMethodDeclaration" targetNodeId="24.1213877512819" resolveInfo="getClassifier" />
+                  </node>
+                </node>
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="680902548763517333">
+                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="680902548763517334">
+                    <link role="conceptDeclaration" targetNodeId="2v.7035278950562851062" resolveInfo="RunConfigurationDeclaration" />
+                  </node>
+                </node>
+              </node>
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517335">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="680902548763517336">
+                  <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="680902548763517337" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="680902548763517338">
+                    <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_ConceptList" id="680902548763517339">
+                      <node role="concept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="680902548763517340">
+                        <link role="concept" targetNodeId="2v.678887849223472871" resolveInfo="GetConfigurationIconBlock" />
+                      </node>
+                      <node role="concept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="680902548763517341">
+                        <link role="concept" targetNodeId="2v.162872405267681132" resolveInfo="ConfigurationEditorDeclaration" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" id="680902548763517342" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="680902548763517343">
+        <link role="template" targetNodeId="8294332872984457415" resolveInfo="reduce_ThisClassifierExpresson" />
       </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="3452826078638209764">
@@ -2446,7 +2449,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="8294332872984457415">
-    <property name="name" value="reduce_ThisClassifierExpresson_in_Execute" />
+    <property name="name" value="reduce_ThisClassifierExpresson" />
     <link role="applicableConcept" targetNodeId="3v.1205752633985" resolveInfo="ThisClassifierExpresson" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="8294332872984577433">
       <property name="name" value="ConfigClass" />
