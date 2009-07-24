@@ -14,7 +14,7 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
   }
 
   public SNode getSubOrSuperType(SNode fileType, TypeCheckingContext typeCheckingContext) {
-    return new _Quotations.QuotationClass_6().createNode(typeCheckingContext);
+    return new _Quotations.QuotationClass_5().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {

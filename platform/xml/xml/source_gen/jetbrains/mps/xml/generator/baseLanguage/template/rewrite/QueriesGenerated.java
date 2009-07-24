@@ -19,7 +19,7 @@ public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_1191197782536(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     boolean hasNamespace = ElementDeclaration_Behavior.call_hasNamespace_1213877429936(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false));
-    boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", false)).isEmpty();
+    boolean condition = hasNamespace && ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.xmlInternal.structure.NamespaceAttribute", false, new String[]{})).isEmpty();
     return condition;
   }
 

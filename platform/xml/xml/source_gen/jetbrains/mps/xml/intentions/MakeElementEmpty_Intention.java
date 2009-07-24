@@ -37,6 +37,13 @@ public class MakeElementEmpty_Intention extends BaseIntention {
   }
 
   public boolean isApplicable(final SNode node, final EditorContext editorContext) {
+    if (!(this.isApplicableToNode(node, editorContext))) {
+      return false;
+    }
+    return true;
+  }
+
+  public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
     SNode contentList = SLinkOperations.getTarget(node, "contentList", true);
     List<SNode> contents = SLinkOperations.getTargets(contentList, "content", true);
     int count = ListSequence.fromList(contents).count();

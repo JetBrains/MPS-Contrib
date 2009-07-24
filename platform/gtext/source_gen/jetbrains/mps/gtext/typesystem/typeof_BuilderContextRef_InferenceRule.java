@@ -18,7 +18,7 @@ public class typeof_BuilderContextRef_InferenceRule extends AbstractInferenceRul
     {
       SNode _nodeToCheck_1029348928467 = builderContextRef;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(builderContextRef, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736320454", true), (SNode)new _Quotations.QuotationClass_0().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736329894", intentionProvider);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736320454", true), (SNode)new _Quotations.QuotationClass_0().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)", "1207736329894", intentionProvider);
     }
   }
 

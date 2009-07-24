@@ -198,7 +198,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1219152731276(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    List<SNode> references = SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.PropertyReference", false);
+    List<SNode> references = SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.PropertyReference", false, new String[]{});
     Iterable<SNode> externalReferences = ListSequence.fromList(references).where(new IWhereFilter <SNode>() {
 
       public boolean accept(SNode it) {
@@ -234,10 +234,10 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1230222691427(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     final Set<String> existing = SetSequence.fromSet(new HashSet<String>());
-    for(SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false))) {
+    for(SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false, new String[]{}))) {
       SetSequence.fromSet(existing).addElement(SPropertyOperations.getString(SLinkOperations.getTarget(importProject, "project", false), "name"));
     }
-    Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false)).where(new IWhereFilter <SNode>() {
+    Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false, new String[]{})).where(new IWhereFilter <SNode>() {
 
       public boolean accept(SNode it) {
         boolean b = !(SetSequence.fromSet(existing).contains(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it)));

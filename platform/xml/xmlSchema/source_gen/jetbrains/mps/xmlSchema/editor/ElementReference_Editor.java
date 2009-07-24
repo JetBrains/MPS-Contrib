@@ -137,7 +137,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
             this.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
               public Color calculate(EditorCell cell) {
-                return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_448837773635573444((cell == null ?
+                return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_5110219550151426132((cell == null ?
                   null :
                   cell.getSNode()
                 ), (cell == null ?
@@ -155,7 +155,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     private static void setupLabel_Property_9443_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
-    public static Color _StyleParameter_QueryFunction_448837773635573444(SNode node, EditorContext editorContext) {
+    public static Color _StyleParameter_QueryFunction_5110219550151426132(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
 
