@@ -12,7 +12,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -36,9 +35,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4953_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_4953_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_4953_0(context, node, "Dialog"));
     editorCell.addEditorCell(this.createCollection_4953_1(context, node));
     editorCell.addEditorCell(this.createCollection_4953_3(context, node));
@@ -48,9 +44,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4953_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_4953_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createIndentCell4953_0(context, node));
     editorCell.addEditorCell(this.createCollection_4953_2(context, node));
     return editorCell;
@@ -59,9 +52,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4953_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_4953_2(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_4953_1(context, node, "Content"));
     editorCell.addEditorCell(this.createCollection_4953_5(context, node));
     return editorCell;
@@ -70,9 +60,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4953_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_4953_3(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createIndentCell4953_1(context, node));
     editorCell.addEditorCell(this.createCollection_4953_4(context, node));
     return editorCell;
@@ -81,9 +68,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4953_4(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_4953_4(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_4953_2(context, node, "Buttons"));
     editorCell.addEditorCell(this.createCollection_4953_6(context, node));
     return editorCell;
@@ -92,9 +76,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4953_5(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_4953_5(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createIndentCell4953_2(context, node));
     editorCell.addEditorCell(this.createRefNode_4953_1(context, node));
     return editorCell;
@@ -103,9 +84,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_4953_6(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_4953_6(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createIndentCell4953_3(context, node));
     editorCell.addEditorCell(this.createRefNodeList_4953_0(context, node));
     return editorCell;
@@ -114,7 +92,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4953_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4953_0(editorCell, node, context);
-    setupLabel_Constant_4953_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -122,7 +99,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4953_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4953_1(editorCell, node, context);
-    setupLabel_Constant_4953_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -130,7 +106,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_4953_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_4953_2(editorCell, node, context);
-    setupLabel_Constant_4953_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -141,9 +116,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     }
     EditorCell_Collection editorCell = this.myListHandler_4953_0.createCells(context, new CellLayout_Horizontal(), false);
     setupBasic_RefNodeList_4953_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.setRole(this.myListHandler_4953_0.getElementRole());
     return editorCell;
   }
@@ -173,9 +145,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(null);
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_4953_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefNode_4953_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -184,8 +153,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rootComponent");
     provider.setNoTargetText("<no rootComponent>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefNode_4953_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -210,24 +177,16 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_4953_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_4953_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Collection_4953_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_4953_2");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -243,24 +202,16 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_4953_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_4953_3");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Collection_4953_4(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_4953_4");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -276,12 +227,8 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_4953_5(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_4953_5");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -295,12 +242,8 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_4953_6(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_4953_6");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -310,21 +253,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
 
   private static void setupBasic_Indent_4953_3(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Indent_4953_3");
-  }
-
-  private static void setupLabel_Constant_4953_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4953_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_4953_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNode_4953_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNodeList_4953_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class buttonListHandler_4953_0 extends RefNodeListHandler {

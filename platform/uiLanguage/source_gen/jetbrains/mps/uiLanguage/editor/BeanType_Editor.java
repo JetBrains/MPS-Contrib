@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
@@ -27,9 +26,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_6322_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_6322_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_6322_0(context, node, "bean"));
     editorCell.addEditorCell(this.createConstant_6322_1(context, node, "<"));
     editorCell.addEditorCell(this.createRefCell_6322_1(context, node));
@@ -40,7 +36,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_6322_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_6322_0(editorCell, node, context);
-    setupLabel_Constant_6322_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -48,7 +43,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_6322_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_6322_1(editorCell, node, context);
-    setupLabel_Constant_6322_1(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -56,7 +50,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_6322_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_6322_2(editorCell, node, context);
-    setupLabel_Constant_6322_2(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -66,9 +59,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
     provider.setAuxiliaryCellProvider(new BeanType_Editor._Inline6322_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_6322_0(editorCell, node, context);
-    if (editorCell instanceof EditorCell_Label) {
-      setupLabel_RefCell_6322_0((EditorCell_Label)editorCell, node, context);
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -77,8 +67,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("bean");
     provider.setNoTargetText("<no bean>");
-    provider.setReadOnly(false);
-    provider.setAllowsEmptyTarget(false);
     EditorCell cellWithRole = this.createRefCell_6322_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -98,24 +86,16 @@ public class BeanType_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_6322_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_6322_0");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
   private static void setupBasic_Constant_6322_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_6322_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -125,25 +105,9 @@ public class BeanType_Editor extends DefaultNodeEditor {
   private static void setupBasic_Constant_6322_2(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_6322_2");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
-  }
-
-  private static void setupLabel_Constant_6322_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_6322_1(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefCell_6322_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_Constant_6322_2(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class _Inline6322_0 extends AbstractCellProvider {
@@ -165,9 +129,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
       provider.setAuxiliaryCellProvider(null);
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_6322_0(editorCell, node, context);
-      if (editorCell instanceof EditorCell_Label) {
-        setupLabel_Property_6322_0((EditorCell_Label)editorCell, node, context);
-      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -177,7 +138,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
-      provider.setAllowsEmptyTarget(false);
       EditorCell cellWithRole = this.createProperty_6322_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -192,9 +152,6 @@ public class BeanType_Editor extends DefaultNodeEditor {
 
     private static void setupBasic_Property_6322_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("property_name");
-    }
-
-    private static void setupLabel_Property_6322_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
     }
 
 }

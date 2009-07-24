@@ -13,7 +13,6 @@ import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Label;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -32,9 +31,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_7736_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     setupBasic_Collection_7736_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createConstant_7736_0(context, node, "Row"));
     editorCell.addEditorCell(this.createCollection_7736_1(context, node));
     return editorCell;
@@ -43,9 +39,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_7736_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     setupBasic_Collection_7736_1(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.addEditorCell(this.createIndentCell7736_0(context, node));
     editorCell.addEditorCell(this.createRefNodeList_7736_0(context, node));
     return editorCell;
@@ -54,7 +47,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
   public EditorCell createConstant_7736_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     setupBasic_Constant_7736_0(editorCell, node, context);
-    setupLabel_Constant_7736_0(editorCell, node, context);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -65,9 +57,6 @@ public class GridRow_Editor extends DefaultNodeEditor {
     }
     EditorCell_Collection editorCell = this.myListHandler_7736_0.createCells(context, new CellLayout_Horizontal(), false);
     setupBasic_RefNodeList_7736_0(editorCell, node, context);
-    editorCell.setGridLayout(false);
-    editorCell.setUsesBraces(false);
-    editorCell.setCanBeFolded(false);
     editorCell.setRole(this.myListHandler_7736_0.getElementRole());
     return editorCell;
   }
@@ -90,12 +79,8 @@ public class GridRow_Editor extends DefaultNodeEditor {
   private static void setupBasic_Collection_7736_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Collection_7736_1");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.SELECTABLE, false);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
     }
   }
 
@@ -106,19 +91,9 @@ public class GridRow_Editor extends DefaultNodeEditor {
   private static void setupBasic_RefNodeList_7736_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_component");
     {
-      Style inlineStyle = new Style(editorCell) {
-        {
-          this.set(StyleAttributes.DRAW_BRACKETS, true);
-        }
-      };
-      inlineStyle.apply(editorCell);
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.DRAW_BRACKETS, true);
     }
-  }
-
-  private static void setupLabel_Constant_7736_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupLabel_RefNodeList_7736_0(EditorCell_Label editorCell, SNode node, EditorContext context) {
   }
 
   public static class componentListHandler_7736_0 extends RefNodeListHandler {
