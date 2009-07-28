@@ -4512,9 +4512,7 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="2583319411283203432">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="2583319411283203433">
             <property name="name" value="dateTime" />
-            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="2583319411283315498">
-              <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
-            </node>
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4887793210801096635" />
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2583319411283203435">

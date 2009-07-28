@@ -1156,15 +1156,11 @@
                 <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4555537781927654074">
                   <property name="name" value="result" />
                   <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="4555537781927654075">
-                    <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4555537781927654076">
-                      <link role="classifier" targetNodeId="32.~String" resolveInfo="String" />
-                    </node>
+                    <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="4887793210800806832" />
                   </node>
                   <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="4555537781927654077">
                     <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" id="4555537781927654078">
-                      <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4555537781927654079">
-                        <link role="classifier" targetNodeId="32.~String" resolveInfo="String" />
-                      </node>
+                      <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="4887793210800806834" />
                     </node>
                   </node>
                 </node>

@@ -2424,15 +2424,11 @@
                   <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4555537781927941466">
                     <property name="name" value="result" />
                     <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="4555537781927941467">
-                      <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4555537781927941468">
-                        <link role="classifier" targetNodeId="52.~String" resolveInfo="String" />
-                      </node>
+                      <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="4887793210800810059" />
                     </node>
                     <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="4555537781927941469">
                       <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" id="4555537781927941470">
-                        <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4555537781927941471">
-                          <link role="classifier" targetNodeId="52.~String" resolveInfo="String" />
-                        </node>
+                        <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="4887793210800810057" />
                       </node>
                     </node>
                   </node>
