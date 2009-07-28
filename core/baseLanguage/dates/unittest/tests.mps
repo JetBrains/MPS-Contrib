@@ -1708,20 +1708,6 @@
       </node>
     </node>
     <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance" id="6283241156709679074" />
-    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="6283241156709679075">
-      <property name="name" value="main" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="6283241156709679076" />
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="6283241156709679077" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6283241156709679078" />
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="6283241156709679079">
-        <property name="name" value="args" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.ArrayType" id="6283241156709679080">
-          <node role="componentType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6283241156709679081">
-            <link role="classifier" targetNodeId="2.~String" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1172329632465">
     <property name="testCaseName" value="Property" />
@@ -2524,9 +2510,7 @@
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1174048267846">
                   <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1174048267847">
                     <property name="name" value="expected" />
-                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1174048267848">
-                      <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
-                    </node>
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4859441577819137953" />
                     <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1174048272584">
                       <property name="value" value="Fri, 16 Mar 2007 15:27:22 MSK" />
                     </node>
@@ -2535,9 +2519,7 @@
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1174048258950">
                   <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1174048258951">
                     <property name="name" value="actual" />
-                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1174048258952">
-                      <link role="classifier" targetNodeId="2.~String" resolveInfo="String" />
-                    </node>
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4859441577819137954" />
                     <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.InlineFormatExpression" id="1174048283653">
                       <property name="withLocale" value="true" />
                       <link role="locale" targetNodeId="1.1172681410396" />
