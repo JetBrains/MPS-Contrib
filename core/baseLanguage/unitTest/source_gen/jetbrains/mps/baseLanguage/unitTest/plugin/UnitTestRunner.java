@@ -12,7 +12,7 @@ import java.util.LinkedHashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.Sequence;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.concurrent.CyclicBarrier;
@@ -45,7 +45,7 @@ public class UnitTestRunner extends BaseRunner {
     Thread thread = new Thread(new Runnable() {
 
       public void run() {
-        for(TestRunParameters key : Sequence.fromIterable(MapSequence.fromMap(map).keySet())) {
+        for(TestRunParameters key : SetSequence.fromSet(MapSequence.fromMap(map).keySet())) {
           runner.runTestWithParameters(key, MapSequence.fromMap(map).get(key));
         }
       }
