@@ -34,9 +34,7 @@
     <link role="extendedClass" targetNodeId="6.~DefaultFileGenerator" resolveInfo="DefaultFileGenerator" />
     <node role="method" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1228678086169">
       <property name="name" value="getExtension" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1228678086170">
-        <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
-      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.StringType" id="4853609160933722465" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1228678086171">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1238592602853">
           <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238592602854">
