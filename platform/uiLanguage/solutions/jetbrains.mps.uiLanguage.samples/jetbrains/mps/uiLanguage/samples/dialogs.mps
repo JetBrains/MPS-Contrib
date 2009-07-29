@@ -91,15 +91,11 @@
     <link role="component" targetNodeId="1202829285111" resolveInfo="DialogDemo" />
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202832245759">
       <property name="name" value="name" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202832251715">
-        <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
-      </node>
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4853609160933722451" />
     </node>
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202832252747">
       <property name="name" value="lastName" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202832254749">
-        <link role="classifier" targetNodeId="1.~String" resolveInfo="String" />
-      </node>
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4853609160933722477" />
     </node>
     <node role="componentMethod" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodDeclaration" id="1205770172088">
       <property name="name" value="onOk" />

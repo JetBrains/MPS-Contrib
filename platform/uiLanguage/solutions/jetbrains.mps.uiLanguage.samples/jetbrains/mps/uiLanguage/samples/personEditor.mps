@@ -142,15 +142,11 @@
     <link role="component" targetNodeId="1202742898078" resolveInfo="PersonEditor" />
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202743493336">
       <property name="name" value="firstName" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202743498166">
-        <link role="classifier" targetNodeId="4.~String" resolveInfo="String" />
-      </node>
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4853609160933722475" />
     </node>
     <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202743500214">
       <property name="name" value="lastName" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1202743501325">
-        <link role="classifier" targetNodeId="4.~String" resolveInfo="String" />
-      </node>
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4853609160933722484" />
     </node>
   </node>
 </model>
