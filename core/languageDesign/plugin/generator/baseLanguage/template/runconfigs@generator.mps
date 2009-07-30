@@ -66,6 +66,12 @@
   <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration" id="6977813497819596721">
     <property name="name" value="mc_runConfigs" />
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="7974234327424811606">
+      <link role="applicableConcept" targetNodeId="2v.7974234327424524992" resolveInfo="RunConfigType" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="7974234327424813718">
+        <link role="template" targetNodeId="7974234327424529463" resolveInfo="reduce_RunConfigType" />
+      </node>
+    </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="7840798570675188765">
       <link role="applicableConcept" targetNodeId="2v.678887849223472892" resolveInfo="ActionsStatement" />
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="7840798570675188773">
@@ -2658,6 +2664,34 @@
               </node>
             </node>
             <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="7382861867148540662" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="7974234327424529463">
+    <property name="name" value="reduce_RunConfigType" />
+    <link role="applicableConcept" targetNodeId="2v.7974234327424524992" resolveInfo="RunConfigType" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7974234327424529464">
+      <link role="classifier" targetNodeId="2.~RunConfigurationBase" resolveInfo="RunConfigurationBase" />
+      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="7974234327424529465" />
+      <node role="referenceMacro$link_attribute$classifier" type="jetbrains.mps.lang.generator.structure.ReferenceMacro" id="7974234327424529466">
+        <node role="referentFunction" type="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent" id="7974234327424529467">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7974234327424529468">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7974234327424529469">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7974234327424529470">
+                <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="7974234327424529471" />
+                <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" id="7974234327424529472">
+                  <link role="label" targetNodeId="8294332872984577431" resolveInfo="map_ConfigClass" />
+                  <node role="inputNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7974234327424529473">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="7974234327424529474" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7974234327424532517">
+                      <link role="link" targetNodeId="2v.7974234327424528831" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

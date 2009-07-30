@@ -33,4 +33,8 @@ public class RunConfigurationDeclaration_Behavior {
     return new PropertyReference(thisNode, "caption");
   }
 
+  public static SNode virtual_createType_1213877527970(SNode thisNode) {
+    return new _Quotations.QuotationClass_10().createNode();
+  }
+
 }
