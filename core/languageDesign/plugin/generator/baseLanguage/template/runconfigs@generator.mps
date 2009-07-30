@@ -1275,9 +1275,6 @@
           </node>
         </node>
       </node>
-      <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5270651368258532424">
-        <link role="classifier" targetNodeId="4.~Object" resolveInfo="Object" />
-      </node>
     </node>
     <node role="field" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration" id="7382861867148541938">
       <property name="name" value="myState" />
