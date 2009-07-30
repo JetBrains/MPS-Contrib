@@ -34,7 +34,7 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    return new _Quotations.QuotationClass_10().createNode();
+    return new _Quotations.QuotationClass_10().createNode(thisNode);
   }
 
 }
