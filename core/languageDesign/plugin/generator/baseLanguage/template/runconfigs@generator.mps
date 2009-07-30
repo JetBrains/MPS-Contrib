@@ -1255,6 +1255,29 @@
         <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="7382861867148541778" />
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7382861867148541779" />
       </node>
+      <node role="implementedInterface" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5270651368258518237">
+        <link role="classifier" targetNodeId="4.~Cloneable" resolveInfo="Cloneable" />
+      </node>
+      <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="5270651368258518239">
+        <property name="name" value="clone" />
+        <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="5270651368258532426" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5270651368258518241">
+          <link role="classifier" targetNodeId="4.~Object" resolveInfo="Object" />
+        </node>
+        <node role="throwsItem" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5270651368258518242">
+          <link role="classifier" targetNodeId="4.~CloneNotSupportedException" resolveInfo="CloneNotSupportedException" />
+        </node>
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5270651368258518243">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="5270651368258518251">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.SuperMethodCall" id="5270651368258519141">
+              <link role="baseMethodDeclaration" targetNodeId="4.~Object.clone():java.lang.Object" resolveInfo="clone" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5270651368258532424">
+        <link role="classifier" targetNodeId="4.~Object" resolveInfo="Object" />
+      </node>
     </node>
     <node role="field" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration" id="7382861867148541938">
       <property name="name" value="myState" />
@@ -1329,6 +1352,85 @@
               <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="7840798570674954476" />
               <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="7840798570674954481">
                 <link role="baseMethodDeclaration" targetNodeId="11.7840798570674951656" resolveInfo="getGeneratedName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="6478141838441059121">
+      <property name="name" value="clone" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6478141838441061461">
+        <link role="classifier" targetNodeId="2.~RunConfiguration" resolveInfo="RunConfiguration" />
+      </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="6478141838441059123" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6478141838441059124">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement" id="6478141838441062014">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6478141838441062015">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="6478141838441062026">
+              <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="6478141838441062027">
+                <property name="name" value="result" />
+                <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6478141838441062028">
+                  <link role="classifier" targetNodeId="7840798570674823468" resolveInfo="Configuration" />
+                </node>
+                <node role="initializer" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="6478141838441062029">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="6478141838441062030">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.SuperMethodCall" id="6478141838441062031">
+                      <link role="baseMethodDeclaration" targetNodeId="2.~RunConfigurationBase.clone():com.intellij.execution.configurations.RunConfiguration" resolveInfo="clone" />
+                    </node>
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6478141838441062032">
+                      <link role="classifier" targetNodeId="7840798570674823468" resolveInfo="Configuration" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6478141838441062033">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="6478141838441062034">
+                <node role="rValue" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="6478141838441062035">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="6478141838441062036">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6478141838441062037">
+                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6478141838441062038">
+                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" id="6478141838441062039">
+                          <link role="fieldDeclaration" targetNodeId="7382861867148541938" resolveInfo="myState" />
+                        </node>
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.ThisExpression" id="6478141838441062040" />
+                      </node>
+                      <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="6478141838441062041">
+                        <link role="baseMethodDeclaration" targetNodeId="4.~Object.clone():java.lang.Object" resolveInfo="clone" />
+                      </node>
+                    </node>
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6478141838441062042">
+                      <link role="classifier" targetNodeId="7382861867148541764" resolveInfo="MyState" />
+                    </node>
+                  </node>
+                </node>
+                <node role="lValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6478141838441062043">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="6478141838441062044">
+                    <link role="variableDeclaration" targetNodeId="6478141838441062027" resolveInfo="result" />
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation" id="6478141838441062045">
+                    <link role="fieldDeclaration" targetNodeId="7382861867148541938" resolveInfo="myState" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="6478141838441062046">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="6478141838441062047">
+                <link role="variableDeclaration" targetNodeId="6478141838441062027" resolveInfo="result" />
+              </node>
+            </node>
+          </node>
+          <node role="catchClause" type="jetbrains.mps.baseLanguage.structure.CatchClause" id="6478141838441062017">
+            <node role="throwable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="6478141838441062018">
+              <property name="name" value="e" />
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6478141838441062021">
+                <link role="classifier" targetNodeId="4.~CloneNotSupportedException" resolveInfo="CloneNotSupportedException" />
+              </node>
+            </node>
+            <node role="catchBody" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6478141838441062020">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="6478141838441062022">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="6478141838441062024" />
               </node>
             </node>
           </node>
