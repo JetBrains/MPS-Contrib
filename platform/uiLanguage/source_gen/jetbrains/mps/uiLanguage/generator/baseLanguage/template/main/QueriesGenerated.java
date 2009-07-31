@@ -71,6 +71,14 @@ public class QueriesGenerated {
     return SNodeOperations.isInstanceOf(ThisClassifierExpression_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration");
   }
 
+  public static boolean baseMappingRule_Condition_2036480205474092878(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return (SNodeOperations.getAncestor(SLinkOperations.getTarget(_context.getNode(), "component", false), "jetbrains.mps.uiLanguage.structure.ComponentInstance", false, false) != null);
+  }
+
+  public static boolean baseMappingRule_Condition_2036480205474094293(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return (SNodeOperations.getAncestor(SLinkOperations.getTarget(_context.getNode(), "component", false), "jetbrains.mps.uiLanguage.structure.ComponentInstance", false, false) == null);
+  }
+
   public static Object propertyMacro_GetPropertyValue_1202393917712(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(_context.getNode()));
   }
