@@ -1009,30 +1009,30 @@
     <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="1213107438022">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213107438023">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1213107438024">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1213107438025">
-            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1213107438026">
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213107438027">
-                <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="1213107438028" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1213107438029">
-                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1213107438030">
-                    <link role="conceptDeclaration" targetNodeId="1.1210179557036" resolveInfo="CellRendererAttribute" />
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1213107438026">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213107438027">
+              <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="1213107438028" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1213107438029">
+                <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1213107438030">
+                  <link role="conceptDeclaration" targetNodeId="1.1210179557036" resolveInfo="CellRendererAttribute" />
+                </node>
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1213107438025">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213107438035">
+                <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="1213107438036" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1213107438037">
+                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1213107438038">
+                    <link role="conceptDeclaration" targetNodeId="1.1202389314593" resolveInfo="AttributeValue" />
                   </node>
                 </node>
               </node>
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213107438031">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213107438031">
                 <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="1213107438032" />
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1213107438033">
                   <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1213107438034">
                     <link role="conceptDeclaration" targetNodeId="1.1203084152264" resolveInfo="ListElements" />
                   </node>
-                </node>
-              </node>
-            </node>
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213107438035">
-              <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="1213107438036" />
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="1213107438037">
-                <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1213107438038">
-                  <link role="conceptDeclaration" targetNodeId="1.1202389314593" resolveInfo="AttributeValue" />
                 </node>
               </node>
             </node>
