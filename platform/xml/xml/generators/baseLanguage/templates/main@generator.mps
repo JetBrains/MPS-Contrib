@@ -264,12 +264,15 @@
           <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1169056138286">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1169056138287">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1169056139570">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1169056146198">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1169056169534">
-                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1169056174099">
-                      <property name="value" value="=&quot;" />
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1169056169534">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1169056174099">
+                    <property name="value" value="=&quot;" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1169056146198">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1169056143228">
+                      <property name="value" value=" " />
                     </node>
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227889695">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227889695">
                       <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227850181">
                         <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1169056150388" />
                         <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1169056152187">
@@ -280,9 +283,6 @@
                         <link role="property" targetNodeId="12.1167698115100" />
                       </node>
                     </node>
-                  </node>
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1169056143228">
-                    <property name="value" value=" " />
                   </node>
                 </node>
               </node>
@@ -365,15 +365,15 @@
           <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1179112575400">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1179112575401">
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1179112575402">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179112575403">
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179112575404">
-                    <property name="value" value="&amp;" />
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179112575405">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179112575406">
+                    <property name="value" value=";" />
                   </node>
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179112575405">
-                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179112575406">
-                      <property name="value" value=";" />
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179112575403">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179112575404">
+                      <property name="value" value="&amp;" />
                     </node>
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227888649">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227888649">
                       <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227912173">
                         <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1179112575409" />
                         <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1207747272397">
@@ -559,12 +559,15 @@
             <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1179113432129">
               <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1179113432130">
                 <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1179113432131">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179113432132">
-                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179113432133">
-                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179113432134">
-                        <property name="value" value="&gt;" />
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179113432133">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179113432134">
+                      <property name="value" value="&gt;" />
+                    </node>
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1179113432132">
+                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179113432140">
+                        <property name="value" value="&lt;/" />
                       </node>
-                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227885312">
+                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227885312">
                         <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227935914">
                           <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1179113432139" />
                           <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1179113432138">
@@ -575,9 +578,6 @@
                           <link role="baseMethodDeclaration" targetNodeId="24.1213877429904" />
                         </node>
                       </node>
-                    </node>
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1179113432140">
-                      <property name="value" value="&lt;/" />
                     </node>
                   </node>
                 </node>

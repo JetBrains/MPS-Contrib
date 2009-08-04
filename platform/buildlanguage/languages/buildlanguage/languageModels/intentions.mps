@@ -47,15 +47,15 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201260187615">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1201602536535">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602536536">
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602536537">
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201602536551">
-                <property name="value" value="Add Comment for " />
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201603035367">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603037260">
+                <property name="value" value=" " />
               </node>
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201603035367">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603037260">
-                  <property name="value" value=" " />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602536537">
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201602536551">
+                  <property name="value" value="Add Comment for " />
                 </node>
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1201603030416">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1201603030416">
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1201603032887">
                     <node role="condition" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1201603032888">
                       <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1201603032889">
@@ -149,15 +149,15 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1201595870745">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1201595870746">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201595870747">
-            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602456165">
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201595870748">
-                <property name="value" value="Remove Empty Comment from " />
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201603060701">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603061657">
+                <property name="value" value=" " />
               </node>
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201603060701">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201603061657">
-                  <property name="value" value=" " />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1201602456165">
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1201595870748">
+                  <property name="value" value="Remove Empty Comment from " />
                 </node>
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1201603054514">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1201603054514">
                   <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1201603055625">
                     <node role="condition" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1201603055626">
                       <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1201603055627">

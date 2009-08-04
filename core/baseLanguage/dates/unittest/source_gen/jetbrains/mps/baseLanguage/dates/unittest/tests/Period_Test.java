@@ -22,7 +22,7 @@ public class Period_Test extends TestCase {
 
   @Test()
   public void test_plusAndEquals() throws Exception {
-    Period p = DateTimeOperations.plus(Period.days(1), DateTimeOperations.minus(Period.months(2), DateTimeOperations.plus(Period.hours(1), Period.minutes(2))));
+    Period p = DateTimeOperations.plus(DateTimeOperations.minus(DateTimeOperations.plus(Period.days(1), Period.months(2)), Period.hours(1)), Period.minutes(2));
     Assert.assertTrue(!(DateTimeOperations.equals(p, DateTimeOperations.minus(Period.months(3), Period.days(32))) || DateTimeOperations.less(p, DateTimeOperations.minus(Period.months(3), Period.days(32)))));
   }
 

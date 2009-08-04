@@ -380,22 +380,22 @@
         <node role="condition" type="jetbrains.mps.lang.actions.structure.QueryFunction_RemoveBy_Condition" id="1177863610305">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1177863610306">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1177864663629">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1177864670093">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227920443">
-                  <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_childConcept" id="1177864665450" />
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" id="1177864665451">
-                    <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1217631635080">
-                      <link role="conceptDeclaration" targetNodeId="1.1161371727643" resolveInfo="Content" />
-                    </node>
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1183568013511">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1183568056952">
+                  <node role="expression" type="jetbrains.mps.lang.actions.structure.SubstituteNodeBuilderVariableReference" id="1183568056953">
+                    <link role="variableDeclaration" targetNodeId="1183566520742" resolveInfo="isMixed" />
                   </node>
                 </node>
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1183568013511">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1183568056952">
-                    <node role="expression" type="jetbrains.mps.lang.actions.structure.SubstituteNodeBuilderVariableReference" id="1183568056953">
-                      <link role="variableDeclaration" targetNodeId="1183566520742" resolveInfo="isMixed" />
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="1177864670093">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227920443">
+                    <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_childConcept" id="1177864665450" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" id="1177864665451">
+                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1217631635080">
+                        <link role="conceptDeclaration" targetNodeId="1.1161371727643" resolveInfo="Content" />
+                      </node>
                     </node>
                   </node>
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227890259">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227890259">
                     <node role="operand" type="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" id="1177864675175">
                       <link role="conceptDeclaration" targetNodeId="1.1163340203555" />
                     </node>
