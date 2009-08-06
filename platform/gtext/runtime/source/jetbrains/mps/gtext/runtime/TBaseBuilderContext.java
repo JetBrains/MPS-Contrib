@@ -18,13 +18,6 @@ package jetbrains.mps.gtext.runtime;
 import java.util.*;
 import java.util.logging.Logger;
 
-/**
- * Created by IntelliJ IDEA.
- * User: vadim
- * Date: Apr 9, 2008
- * Time: 1:05:02 PM
- * To change this template use File | Settings | File Templates.
- */
 public class TBaseBuilderContext {
 
   protected static String ROOT = "__ROOT__";
