@@ -21,4 +21,7 @@ public class IPropertyHolder_Behavior {
     return (List<SNode>)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IPropertyHolder"), callerConceptFqName, "virtual_getProperties_1213877375726", PARAMETERS_1213877375726);
   }
 
+  public static void some_5212804791338391016() {
+  }
+
 }

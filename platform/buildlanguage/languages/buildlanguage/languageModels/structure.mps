@@ -571,29 +571,6 @@
       <link role="target" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1198344963196">
-    <property name="name" value="ImportDeclatation" />
-    <property name="package" value="Generic" />
-    <link role="extends" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1198846296587">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="classpathref" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="1198939133999" resolveInfo="PathReference" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1198345034590">
-      <property name="value" value="typedef" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1201102365922">
-      <property name="name" value="lastErrorMessage" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1201102373247">
-      <property name="name" value="status" />
-      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1198939133999">
     <property name="name" value="PathReference" />
     <property name="package" value="Expressions" />
@@ -690,19 +667,6 @@
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="1201111033873">
     <property name="package" value="Extend" />
     <property name="name" value="ISource" />
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1201252583131">
-    <property name="package" value="Generic" />
-    <property name="name" value="GenericImportedDeclaration" />
-    <link role="extends" targetNodeId="1196851304975" resolveInfo="GenericDeclaration" />
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1201252639595">
-      <property name="name" value="classname" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1201252646470">
-      <property name="name" value="tag" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1201253892996">
     <property name="package" value="Generic" />
