@@ -97,7 +97,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
     }
     editorCell.addEditorCell(this.createIndentCell4953_2(context, node));
-    editorCell.addEditorCell(this.createRefNode_4953_1(context, node));
+    editorCell.addEditorCell(this.createRefNode_4953_0(context, node));
     return editorCell;
   }
 
@@ -167,25 +167,21 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public EditorCell createRefNode_4953_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-    EditorCell editorCell = provider.createEditorCell(context);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    return editorCell;
-  }
-
-  public EditorCell createRefNode_4953_1(EditorContext context, SNode node) {
+  public EditorCell createRefNode_4953_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rootComponent");
     provider.setNoTargetText("<no rootComponent>");
-    EditorCell cellWithRole = this.createRefNode_4953_0_internal(context, node, provider);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(context);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
+    return editorCell;
   }
 
   public static class buttonListHandler_4953_0 extends RefNodeListHandler {
