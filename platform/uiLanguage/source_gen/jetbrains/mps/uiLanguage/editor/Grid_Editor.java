@@ -8,12 +8,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -36,7 +36,7 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_3546_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_3546_0(editorCell, node, context);
+    editorCell.setCellId("Collection_3546_0");
     editorCell.addEditorCell(this.createConstant_3546_0(context, node, "Grid"));
     editorCell.addEditorCell(this.createCollection_3546_1(context, node));
     return editorCell;
@@ -44,7 +44,11 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_3546_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_3546_1(editorCell, node, context);
+    editorCell.setCellId("Collection_3546_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.addEditorCell(this.createIndentCell3546_0(context, node));
     editorCell.addEditorCell(this.createRefNodeList_3546_0(context, node));
     return editorCell;
@@ -52,14 +56,15 @@ public class Grid_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_3546_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_3546_2(editorCell, node, context);
+    editorCell.setCellId("Collection_3546_2");
     editorCell.addEditorCell(this.createRefNodeList_3546_1(context, node));
     return editorCell;
   }
 
   public EditorCell createConstant_3546_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_3546_0(editorCell, node, context);
+    editorCell.setCellId("Constant_3546_0");
+    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -69,7 +74,7 @@ public class Grid_Editor extends DefaultNodeEditor {
       this.myListHandler_3546_0 = new Grid_Editor.rowListHandler_3546_0(node, "row", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_3546_0.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_RefNodeList_3546_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_row");
     editorCell.setRole(this.myListHandler_3546_0.getElementRole());
     return editorCell;
   }
@@ -79,7 +84,7 @@ public class Grid_Editor extends DefaultNodeEditor {
       this.myListHandler_3546_1 = new Grid_Editor.contentListHandler_3546_0(node, "content", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_3546_1.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_RefNodeList_3546_1(editorCell, node, context);
+    editorCell.setCellId("refNodeList_content");
     editorCell.setRole(this.myListHandler_3546_1.getElementRole());
     return editorCell;
   }
@@ -87,40 +92,6 @@ public class Grid_Editor extends DefaultNodeEditor {
   public EditorCell createIndentCell3546_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
-  }
-
-
-  private static void setupBasic_Collection_3546_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3546_0");
-  }
-
-  private static void setupBasic_Constant_3546_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_3546_0");
-    Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Collection_3546_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3546_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_Indent_3546_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Indent_3546_0");
-  }
-
-  private static void setupBasic_RefNodeList_3546_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_row");
-  }
-
-  private static void setupBasic_Collection_3546_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3546_2");
-  }
-
-  private static void setupBasic_RefNodeList_3546_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_content");
   }
 
   public static class rowListHandler_3546_0 extends RefNodeListHandler {

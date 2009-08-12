@@ -21,7 +21,7 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6069_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_6069_0(editorCell, node, context);
+    editorCell.setCellId("Collection_6069_0");
     editorCell.addEditorCell(this.createConstant_6069_0(context, node, "layout constraint"));
     editorCell.addEditorCell(this.createConstant_6069_1(context, node, ":"));
     editorCell.addEditorCell(this.createRefNode_6069_1(context, node));
@@ -30,21 +30,21 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_6069_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6069_0(editorCell, node, context);
+    editorCell.setCellId("Constant_6069_0");
+    Stylesheet_StyleSheet.getLayoutConstraint(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_6069_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6069_1(editorCell, node, context);
+    editorCell.setCellId("Constant_6069_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createRefNode_6069_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_6069_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -62,23 +62,6 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_6069_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6069_0");
-  }
-
-  private static void setupBasic_Constant_6069_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6069_0");
-    Stylesheet_StyleSheet.getLayoutConstraint(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_6069_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6069_1");
-  }
-
-  private static void setupBasic_RefNode_6069_0(EditorCell editorCell, SNode node, EditorContext context) {
   }
 
 }
