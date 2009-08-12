@@ -21,7 +21,7 @@ public class GContentPlaceholder_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_3963_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_3963_0(editorCell, node, context);
+    editorCell.setCellId("Collection_3963_0");
     editorCell.addEditorCell(this.createConceptProperty_3963_1(context, node));
     editorCell.addEditorCell(this.createProperty_3963_1(context, node));
     return editorCell;
@@ -29,7 +29,7 @@ public class GContentPlaceholder_Editor extends DefaultNodeEditor {
 
   public EditorCell createConceptProperty_3963_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_ConceptProperty_3963_0(editorCell, node, context);
+    editorCell.setCellId("conceptProperty_alias");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -51,7 +51,7 @@ public class GContentPlaceholder_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_3963_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_3963_0(editorCell, node, context);
+    editorCell.setCellId("property_name");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -69,19 +69,6 @@ public class GContentPlaceholder_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_3963_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3963_0");
-  }
-
-  private static void setupBasic_ConceptProperty_3963_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("conceptProperty_alias");
-  }
-
-  private static void setupBasic_Property_3963_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_name");
   }
 
 }

@@ -19,7 +19,8 @@ public class Text_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_0753_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_0753_0(editorCell, node, context);
+    editorCell.setCellId("property_text");
+    XMLDeprecatedStyles_StyleSheet.getText(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -37,12 +38,6 @@ public class Text_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Property_0753_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_text");
-    XMLDeprecatedStyles_StyleSheet.getText(editorCell).apply(editorCell);
   }
 
 }

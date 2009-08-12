@@ -11,13 +11,13 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
-import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
-import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.nodeEditor.cellMenu.CompositeSubstituteInfo;
+import jetbrains.mps.nodeEditor.cellMenu.SubstituteInfoPart;
+import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_ReplaceNode_CustomNodeConcept;
 
 public class PlusOperation_Editor extends DefaultNodeEditor {
@@ -28,7 +28,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_0751_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_0751_0(editorCell, node, context);
+    editorCell.setCellId("Collection_0751_0");
     editorCell.addEditorCell(this.createRefNode_0751_1(context, node));
     editorCell.addEditorCell(this.createConceptProperty_0751_1(context, node));
     editorCell.addEditorCell(this.createRefNode_0751_3(context, node));
@@ -37,7 +37,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_0751_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_0751_0(editorCell, node, context);
+    BinaryOperation_LeftArgument_Actions.setCellActions(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -59,7 +59,12 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createConceptProperty_0751_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_ConceptProperty_0751_0(editorCell, node, context);
+    editorCell.setCellId("conceptProperty_operation");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PADDING_LEFT, new Padding(0.8, Measure.SPACES));
+      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.8, Measure.SPACES));
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new SubstituteInfoPart[]{new PlusOperation_Editor.PlusOperation_Editor_replaceWith_BinaryOperation_cellMenu0()}));
     return editorCell;
@@ -82,7 +87,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_0751_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_0751_1(editorCell, node, context);
+    BinaryOperation_RightArgument_Actions.setCellActions(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -100,28 +105,6 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_0751_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_0751_0");
-  }
-
-  private static void setupBasic_RefNode_0751_0(EditorCell editorCell, SNode node, EditorContext context) {
-    BinaryOperation_LeftArgument_Actions.setCellActions(editorCell, node, context);
-  }
-
-  private static void setupBasic_ConceptProperty_0751_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("conceptProperty_operation");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PADDING_LEFT, new Padding(0.8, Measure.SPACES));
-      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.8, Measure.SPACES));
-    }
-  }
-
-  private static void setupBasic_RefNode_0751_1(EditorCell editorCell, SNode node, EditorContext context) {
-    BinaryOperation_RightArgument_Actions.setCellActions(editorCell, node, context);
   }
 
   public static class PlusOperation_Editor_replaceWith_BinaryOperation_cellMenu0 extends AbstractCellMenuPart_ReplaceNode_CustomNodeConcept {

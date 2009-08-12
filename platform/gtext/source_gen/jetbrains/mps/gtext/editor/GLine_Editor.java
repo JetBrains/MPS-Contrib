@@ -8,10 +8,10 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -30,7 +30,11 @@ public class GLine_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6865_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6865_0(editorCell, node, context);
+    editorCell.setCellId("Collection_6865_0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, true);
+    }
     editorCell.addEditorCell(this.createConstant_6865_0(context, node, ">"));
     editorCell.addEditorCell(this.createRefNodeList_6865_0(context, node));
     return editorCell;
@@ -38,7 +42,7 @@ public class GLine_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_6865_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6865_0(editorCell, node, context);
+    editorCell.setCellId("Constant_6865_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -48,26 +52,9 @@ public class GLine_Editor extends DefaultNodeEditor {
       this.myListHandler_6865_0 = new GLine_Editor.itemListHandler_6865_0(node, "item", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_6865_0.createCells(context, new CellLayout_Indent(), false);
-    setupBasic_RefNodeList_6865_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_item");
     editorCell.setRole(this.myListHandler_6865_0.getElementRole());
     return editorCell;
-  }
-
-
-  private static void setupBasic_Collection_6865_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6865_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, true);
-    }
-  }
-
-  private static void setupBasic_Constant_6865_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6865_0");
-  }
-
-  private static void setupBasic_RefNodeList_6865_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_item");
   }
 
   public static class itemListHandler_6865_0 extends RefNodeListHandler {
@@ -118,19 +105,14 @@ public class GLine_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstant_6865_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      setupBasic_Constant_6865_1(editorCell, node, context);
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-
-
-    private static void setupBasic_Constant_6865_1(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("Constant_6865_1");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.EDITABLE, true);
         style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
+      editorCell.setDefaultText("");
+      return editorCell;
     }
 
 }

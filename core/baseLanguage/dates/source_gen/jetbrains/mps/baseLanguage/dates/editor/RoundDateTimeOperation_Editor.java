@@ -24,7 +24,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_0370_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_0370_0(editorCell, node, context);
+    editorCell.setCellId("Collection_0370_0");
     editorCell.addEditorCell(this.createRefNode_0370_1(context, node));
     editorCell.addEditorCell(this.createConceptProperty_0370_1(context, node));
     editorCell.addEditorCell(this.createRefCell_0370_1(context, node));
@@ -33,7 +33,6 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_0370_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -56,7 +55,7 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
   public EditorCell createRefCell_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new RoundDateTimeOperation_Editor._Inline0370_0());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefCell_0370_0(editorCell, node, context);
+    UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -78,7 +77,9 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createConceptProperty_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_ConceptProperty_0370_0(editorCell, node, context);
+    editorCell.setCellId("conceptProperty_alias");
+    Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
+    UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -98,24 +99,6 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-
-  private static void setupBasic_Collection_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_0370_0");
-  }
-
-  private static void setupBasic_RefNode_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_RefCell_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
-    UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
-  }
-
-  private static void setupBasic_ConceptProperty_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("conceptProperty_alias");
-    Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
-    UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
-  }
-
   public static class _Inline0370_0 extends AbstractCellProvider {
 
     public _Inline0370_0() {
@@ -132,7 +115,8 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
 
     public EditorCell createProperty_0370_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_Property_0370_0(editorCell, node, context);
+      editorCell.setCellId("property_name");
+      Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -151,12 +135,6 @@ public class RoundDateTimeOperation_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
       return cellWithRole;
-    }
-
-
-    private static void setupBasic_Property_0370_0(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
-      Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     }
 
 }

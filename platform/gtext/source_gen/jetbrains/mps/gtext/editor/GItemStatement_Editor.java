@@ -9,9 +9,9 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -29,7 +29,7 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_8009_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_8009_0(editorCell, node, context);
+    editorCell.setCellId("Collection_8009_0");
     editorCell.addEditorCell(this.createConstant_8009_0(context, node, "gItemStatement"));
     editorCell.addEditorCell(this.createRefNodeList_8009_0(context, node));
     return editorCell;
@@ -37,7 +37,11 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_8009_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8009_0(editorCell, node, context);
+    editorCell.setCellId("Constant_8009_0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -47,31 +51,14 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
       this.myListHandler_8009_0 = new GItemStatement_Editor.itemListHandler_8009_0(node, "item", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_8009_0.createCells(context, new CellLayout_Indent(), false);
-    setupBasic_RefNodeList_8009_0(editorCell, node, context);
-    editorCell.setRole(this.myListHandler_8009_0.getElementRole());
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Collection_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_8009_0");
-  }
-
-  private static void setupBasic_Constant_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8009_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-  }
-
-  private static void setupBasic_RefNodeList_8009_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_item");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     }
+    editorCell.setRole(this.myListHandler_8009_0.getElementRole());
+    return editorCell;
   }
 
   public static class itemListHandler_8009_0 extends RefNodeListHandler {

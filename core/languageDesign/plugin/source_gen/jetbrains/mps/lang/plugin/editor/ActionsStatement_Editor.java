@@ -9,8 +9,8 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -28,7 +28,7 @@ public class ActionsStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_2822_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_2822_0(editorCell, node, context);
+    editorCell.setCellId("Collection_2822_0");
     editorCell.addEditorCell(this.createConstant_2822_0(context, node, "actions"));
     editorCell.addEditorCell(this.createRefNodeList_2822_0(context, node));
     editorCell.addEditorCell(this.createConstant_2822_1(context, node, ";"));
@@ -37,14 +37,15 @@ public class ActionsStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_2822_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_2822_0(editorCell, node, context);
+    editorCell.setCellId("Constant_2822_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_2822_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_2822_1(editorCell, node, context);
+    editorCell.setCellId("Constant_2822_1");
+    BaseLanguageStyle_StyleSheet.getSemicolon(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -54,27 +55,9 @@ public class ActionsStatement_Editor extends DefaultNodeEditor {
       this.myListHandler_2822_0 = new ActionsStatement_Editor.actionListHandler_2822_0(node, "action", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_2822_0.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_RefNodeList_2822_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_action");
     editorCell.setRole(this.myListHandler_2822_0.getElementRole());
     return editorCell;
-  }
-
-
-  private static void setupBasic_Constant_2822_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_2822_0");
-  }
-
-  private static void setupBasic_Collection_2822_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_2822_0");
-  }
-
-  private static void setupBasic_Constant_2822_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_2822_1");
-    BaseLanguageStyle_StyleSheet.getSemicolon(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_RefNodeList_2822_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_action");
   }
 
   public static class actionListHandler_2822_0 extends RefNodeListHandler {

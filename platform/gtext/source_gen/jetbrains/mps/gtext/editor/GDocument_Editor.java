@@ -9,13 +9,13 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -33,7 +33,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_9526_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_9526_0(editorCell, node, context);
+    editorCell.setCellId("Collection_9526_0");
     editorCell.addEditorCell(this.createProperty_9526_1(context, node));
     editorCell.addEditorCell(this.createConstant_9526_0(context, node, "."));
     editorCell.addEditorCell(this.createProperty_9526_3(context, node));
@@ -45,21 +45,35 @@ public class GDocument_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_9526_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_9526_0(editorCell, node, context);
+    editorCell.setCellId("Constant_9526_0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+      style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_9526_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_9526_1(editorCell, node, context);
+    editorCell.setCellId("Constant_9526_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_9526_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_9526_2(editorCell, node, context);
+    editorCell.setCellId("Constant_9526_2");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -69,14 +83,19 @@ public class GDocument_Editor extends DefaultNodeEditor {
       this.myListHandler_9526_0 = new GDocument_Editor.itemListHandler_9526_0(node, "item", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_9526_0.createCells(context, new CellLayout_Indent(), false);
-    setupBasic_RefNodeList_9526_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_item");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
     editorCell.setRole(this.myListHandler_9526_0.getElementRole());
     return editorCell;
   }
 
   public EditorCell createProperty_9526_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_9526_0(editorCell, node, context);
+    editorCell.setCellId("property_documentName");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -98,7 +117,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_9526_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_9526_1(editorCell, node, context);
+    editorCell.setCellId("property_extension");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -116,54 +135,6 @@ public class GDocument_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_9526_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_9526_0");
-  }
-
-  private static void setupBasic_Property_9526_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_documentName");
-  }
-
-  private static void setupBasic_Constant_9526_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9526_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-      style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
-    }
-  }
-
-  private static void setupBasic_Property_9526_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_extension");
-  }
-
-  private static void setupBasic_Constant_9526_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9526_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-  }
-
-  private static void setupBasic_Constant_9526_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9526_2");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-  }
-
-  private static void setupBasic_RefNodeList_9526_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_item");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
   }
 
   public static class itemListHandler_9526_0 extends RefNodeListHandler {

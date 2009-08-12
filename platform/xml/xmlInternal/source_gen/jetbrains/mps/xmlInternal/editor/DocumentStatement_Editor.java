@@ -7,15 +7,15 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
 
 public class DocumentStatement_Editor extends DefaultNodeEditor {
 
@@ -25,7 +25,7 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_5624_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_5624_0(editorCell, node, context);
+    editorCell.setCellId("Collection_5624_0");
     editorCell.addEditorCell(this.createConstant_5624_0(context, node, "document statement"));
     editorCell.addEditorCell(this.createCollection_5624_1(context, node));
     return editorCell;
@@ -33,7 +33,11 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_5624_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_5624_1(editorCell, node, context);
+    editorCell.setCellId("Collection_5624_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.addEditorCell(this.createIndentCell5624_0(context, node));
     editorCell.addEditorCell(this.createRefNode_5624_1(context, node));
     return editorCell;
@@ -41,7 +45,8 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_5624_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_5624_0(editorCell, node, context);
+    editorCell.setCellId("Constant_5624_0");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -53,7 +58,6 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_5624_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_5624_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -71,31 +75,6 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_5624_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_5624_0");
-  }
-
-  private static void setupBasic_Constant_5624_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_5624_0");
-    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Collection_5624_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_5624_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_RefNode_5624_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Indent_5624_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Indent_5624_0");
   }
 
 }

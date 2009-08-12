@@ -9,12 +9,12 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -33,7 +33,7 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_4936_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_4936_0(editorCell, node, context);
+    editorCell.setCellId("Collection_4936_0");
     editorCell.addEditorCell(this.createConstant_4936_0(context, node, "{"));
     editorCell.addEditorCell(this.createRefNodeList_4936_0(context, node));
     editorCell.addEditorCell(this.createConstant_4936_2(context, node, "}"));
@@ -43,21 +43,28 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_4936_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_4936_0(editorCell, node, context);
+    editorCell.setCellId("Constant_4936_0");
+    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_4936_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_4936_2(editorCell, node, context);
+    editorCell.setCellId("Constant_4936_2");
+    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_4936_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_4936_3(editorCell, node, context);
+    editorCell.setCellId("Constant_4936_3");
+    Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PADDING_LEFT, new Padding(1., Measure.SPACES));
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -67,37 +74,9 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
       this.myListHandler_4936_0 = new DateTimeOffsetFormatToken_Editor.durationTypeReferenceListHandler_4936_0(node, "durationTypeReference", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_4936_0.createCells(context, new CellLayout_Indent(), false);
-    setupBasic_RefNodeList_4936_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_durationTypeReference");
     editorCell.setRole(this.myListHandler_4936_0.getElementRole());
     return editorCell;
-  }
-
-
-  private static void setupBasic_Collection_4936_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_4936_0");
-  }
-
-  private static void setupBasic_Constant_4936_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_4936_0");
-    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_RefNodeList_4936_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_durationTypeReference");
-  }
-
-  private static void setupBasic_Constant_4936_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_4936_2");
-    BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_4936_3(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_4936_3");
-    Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PADDING_LEFT, new Padding(1., Measure.SPACES));
-    }
   }
 
   public static class durationTypeReferenceListHandler_4936_0 extends RefNodeListHandler {
@@ -155,18 +134,13 @@ public class DateTimeOffsetFormatToken_Editor extends DefaultNodeEditor {
 
     public EditorCell createConstant_4936_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      setupBasic_Constant_4936_1(editorCell, node, context);
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-
-
-    private static void setupBasic_Constant_4936_1(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("Constant_4936_1");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
+      editorCell.setDefaultText("");
+      return editorCell;
     }
 
 }

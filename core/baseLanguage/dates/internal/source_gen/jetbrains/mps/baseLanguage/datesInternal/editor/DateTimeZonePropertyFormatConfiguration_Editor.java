@@ -9,11 +9,11 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -31,7 +31,7 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
 
   public EditorCell createCollection_6009_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6009_0(editorCell, node, context);
+    editorCell.setCellId("Collection_6009_0");
     editorCell.addEditorCell(this.createConstant_6009_0(context, node, "format configuration for zone"));
     editorCell.addEditorCell(this.createConstant_6009_1(context, node, "{"));
     editorCell.addEditorCell(this.createRefNodeList_6009_0(context, node));
@@ -41,21 +41,34 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
 
   public EditorCell createConstant_6009_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6009_0(editorCell, node, context);
+    editorCell.setCellId("Constant_6009_0");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_6009_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6009_1(editorCell, node, context);
+    editorCell.setCellId("Constant_6009_1");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_6009_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6009_2(editorCell, node, context);
+    editorCell.setCellId("Constant_6009_2");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -65,32 +78,6 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
       this.myListHandler_6009_0 = new DateTimeZonePropertyFormatConfiguration_Editor.dateTimePropertyFormatTypeListHandler_6009_0(node, "dateTimePropertyFormatType", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_6009_0.createCells(context, new CellLayout_Indent(), false);
-    setupBasic_RefNodeList_6009_0(editorCell, node, context);
-    editorCell.setRole(this.myListHandler_6009_0.getElementRole());
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Collection_6009_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6009_0");
-  }
-
-  private static void setupBasic_Constant_6009_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6009_0");
-    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_6009_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6009_1");
-    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    }
-  }
-
-  private static void setupBasic_RefNodeList_6009_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_dateTimePropertyFormatType");
     {
       Style style = editorCell.getStyle();
@@ -98,16 +85,8 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
       style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
       style.set(StyleAttributes.INDENT_LAYOUT_INDENT, true);
     }
-  }
-
-  private static void setupBasic_Constant_6009_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6009_2");
-    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    }
+    editorCell.setRole(this.myListHandler_6009_0.getElementRole());
+    return editorCell;
   }
 
   public static class dateTimePropertyFormatTypeListHandler_6009_0 extends RefNodeListHandler {

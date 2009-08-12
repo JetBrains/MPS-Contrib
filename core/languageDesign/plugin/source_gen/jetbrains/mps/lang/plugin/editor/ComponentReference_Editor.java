@@ -17,15 +17,10 @@ public class ComponentReference_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_0914_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_0914_0(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Constant_0914_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_0914_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 
 }

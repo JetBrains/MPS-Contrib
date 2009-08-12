@@ -19,18 +19,13 @@ public class GIndent_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_4185_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_4185_0(editorCell, node, context);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Constant_4185_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Constant_4185_0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
     }
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 
 }

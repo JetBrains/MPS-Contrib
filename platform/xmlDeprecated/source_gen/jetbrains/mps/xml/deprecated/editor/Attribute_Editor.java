@@ -9,10 +9,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.FocusPolicy;
 
 public class Attribute_Editor extends DefaultNodeEditor {
 
@@ -22,7 +22,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_1680_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_1680_0(editorCell, node, context);
+    editorCell.setCellId("Collection_1680_0");
     editorCell.addEditorCell(this.createProperty_1680_1(context, node));
     editorCell.addEditorCell(this.createConstant_1680_0(context, node, "="));
     editorCell.addEditorCell(this.createConstant_1680_1(context, node, "\""));
@@ -33,28 +33,34 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_1680_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_1680_0(editorCell, node, context);
+    editorCell.setCellId("Constant_1680_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_1680_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_1680_1(editorCell, node, context);
+    editorCell.setCellId("Constant_1680_1");
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_1680_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_1680_2(editorCell, node, context);
+    editorCell.setCellId("Constant_1680_2");
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createProperty_1680_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_1680_0(editorCell, node, context);
+    editorCell.setCellId("property_name");
+    XMLDeprecatedStyles_StyleSheet.getAttributeName(editorCell).apply(editorCell);
+    if (true) {
+      editorCell.setFocusPolicy(FocusPolicy.ATTRACTS_FOCUS);
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -76,7 +82,8 @@ public class Attribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_1680_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_1680_1(editorCell, node, context);
+    editorCell.setCellId("property_value");
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -94,38 +101,6 @@ public class Attribute_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_1680_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_1680_0");
-  }
-
-  private static void setupBasic_Property_1680_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_name");
-    XMLDeprecatedStyles_StyleSheet.getAttributeName(editorCell).apply(editorCell);
-    if (true) {
-      editorCell.setFocusPolicy(FocusPolicy.ATTRACTS_FOCUS);
-    }
-  }
-
-  private static void setupBasic_Constant_1680_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1680_0");
-  }
-
-  private static void setupBasic_Constant_1680_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1680_1");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Property_1680_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_value");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Constant_1680_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_1680_2");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
   }
 
 }

@@ -16,13 +16,8 @@ public class Declaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createError_6686_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "declaration");
-    setupBasic_Error_6686_0(editorCell, node, context);
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Error_6686_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Error_6686_0");
+    return editorCell;
   }
 
 }

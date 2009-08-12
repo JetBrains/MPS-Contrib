@@ -8,15 +8,15 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class TargetReference_Editor extends DefaultNodeEditor {
 
@@ -26,7 +26,7 @@ public class TargetReference_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_3330_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_3330_0(editorCell, node, context);
+    editorCell.setCellId("Collection_3330_0");
     editorCell.addEditorCell(this.createRefCell_3330_1(context, node));
     return editorCell;
   }
@@ -34,7 +34,11 @@ public class TargetReference_Editor extends DefaultNodeEditor {
   public EditorCell createRefCell_3330_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new TargetReference_Editor._Inline3330_0());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefCell_3330_0(editorCell, node, context);
+    BuildLanguageStyle_StyleSheet.getTarget(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.GET_PARENT_SUBSTITUDE_INFO, true);
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -54,19 +58,6 @@ public class TargetReference_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-
-  private static void setupBasic_RefCell_3330_0(EditorCell editorCell, SNode node, EditorContext context) {
-    BuildLanguageStyle_StyleSheet.getTarget(editorCell).apply(editorCell);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.GET_PARENT_SUBSTITUDE_INFO, true);
-    }
-  }
-
-  private static void setupBasic_Collection_3330_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3330_0");
-  }
-
   public static class _Inline3330_0 extends AbstractCellProvider {
 
     public _Inline3330_0() {
@@ -83,7 +74,11 @@ public class TargetReference_Editor extends DefaultNodeEditor {
 
     public EditorCell createProperty_3330_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_Property_3330_0(editorCell, node, context);
+      editorCell.setCellId("property_name");
+      {
+        Style style = editorCell.getStyle();
+        style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -102,15 +97,6 @@ public class TargetReference_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
       return cellWithRole;
-    }
-
-
-    private static void setupBasic_Property_3330_0(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
-      {
-        Style style = editorCell.getStyle();
-        style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-      }
     }
 
 }

@@ -11,9 +11,9 @@ import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 
 public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
 
@@ -23,7 +23,7 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_3905_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_3905_0(editorCell, node, context);
+    editorCell.setCellId("Collection_3905_0");
     editorCell.addEditorCell(this.createRefNode_3905_1(context, node));
     editorCell.addEditorCell(this.createConceptProperty_3905_1(context, node));
     return editorCell;
@@ -31,7 +31,6 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_3905_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_3905_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -53,7 +52,12 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
 
   public EditorCell createConceptProperty_3905_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_ConceptProperty_3905_0(editorCell, node, context);
+    editorCell.setCellId("conceptProperty_alias");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.EDITABLE, false);
+    }
+    UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -71,23 +75,6 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_3905_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3905_0");
-  }
-
-  private static void setupBasic_RefNode_3905_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_ConceptProperty_3905_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("conceptProperty_alias");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.EDITABLE, false);
-    }
-    UnaryDateTimeOperation_ActionMap.setCellActions(editorCell, node, context);
   }
 
 }

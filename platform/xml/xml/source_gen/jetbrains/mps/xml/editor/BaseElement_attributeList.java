@@ -38,7 +38,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
 
   public EditorCell createCollection_0618_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_0618_0(editorCell, node, context);
+    editorCell.setCellId("Collection_0618_0");
     editorCell.addEditorCell(this.createRefNodeList_0618_0(context, node));
     return editorCell;
   }
@@ -48,22 +48,13 @@ public class BaseElement_attributeList extends AbstractCellProvider {
       this.myListHandler_0618_0 = new BaseElement_attributeList.attributeListHandler_0618_0(node, "attribute", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_0618_0.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_RefNodeList_0618_0(editorCell, node, context);
-    editorCell.setRole(this.myListHandler_0618_0.getElementRole());
-    return editorCell;
-  }
-
-
-  private static void setupBasic_RefNodeList_0618_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_attribute");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.GET_PARENT_SUBSTITUDE_INFO, true);
     }
-  }
-
-  private static void setupBasic_Collection_0618_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_0618_0");
+    editorCell.setRole(this.myListHandler_0618_0.getElementRole());
+    return editorCell;
   }
 
   public static class attributeListHandler_0618_0 extends RefNodeListHandler {
@@ -121,15 +112,10 @@ public class BaseElement_attributeList extends AbstractCellProvider {
 
     public EditorCell createConstant_0618_0(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-      setupBasic_Constant_0618_0(editorCell, node, context);
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-
-
-    private static void setupBasic_Constant_0618_0(EditorCell editorCell, SNode node, EditorContext context) {
       editorCell.setCellId("Constant_0618_0");
       XmlStyle_StyleSheet.getXmlEmptyCell(editorCell).apply(editorCell);
+      editorCell.setDefaultText("");
+      return editorCell;
     }
 
 }

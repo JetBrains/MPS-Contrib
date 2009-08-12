@@ -16,13 +16,8 @@ public class BaseAttribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createError_0001_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "baseAttribute");
-    setupBasic_Error_0001_0(editorCell, node, context);
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Error_0001_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Error_0001_0");
+    return editorCell;
   }
 
 }

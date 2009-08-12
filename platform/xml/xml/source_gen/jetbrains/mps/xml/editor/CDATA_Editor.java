@@ -21,7 +21,7 @@ public class CDATA_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_3553_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_3553_0(editorCell, node, context);
+    editorCell.setCellId("Collection_3553_0");
     editorCell.addEditorCell(this.createConstant_3553_0(context, node, "<![CDATA["));
     editorCell.addEditorCell(this.createRefNode_3553_1(context, node));
     editorCell.addEditorCell(this.createConstant_3553_1(context, node, "]]>"));
@@ -30,21 +30,20 @@ public class CDATA_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_3553_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_3553_0(editorCell, node, context);
+    editorCell.setCellId("Constant_3553_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_3553_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_3553_1(editorCell, node, context);
+    editorCell.setCellId("Constant_3553_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createRefNode_3553_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_3553_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -62,22 +61,6 @@ public class CDATA_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_3553_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_3553_0");
-  }
-
-  private static void setupBasic_Constant_3553_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_3553_0");
-  }
-
-  private static void setupBasic_RefNode_3553_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Constant_3553_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_3553_1");
   }
 
 }

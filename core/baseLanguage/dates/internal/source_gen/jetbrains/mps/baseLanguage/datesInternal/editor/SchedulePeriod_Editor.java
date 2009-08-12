@@ -9,10 +9,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
 public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
@@ -22,7 +22,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_8932_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_8932_0(editorCell, node, context);
+    editorCell.setCellId("Collection_8932_0");
     editorCell.addEditorCell(this.createProperty_8932_1(context, node));
     editorCell.addEditorCell(this.createConstant_8932_0(context, node, ":"));
     editorCell.addEditorCell(this.createProperty_8932_3(context, node));
@@ -36,14 +36,15 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_8932_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8932_0(editorCell, node, context);
+    editorCell.setCellId("Constant_8932_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createProperty_8932_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_8932_0(editorCell, node, context);
+    editorCell.setCellId("property_name");
+    BaseLanguageStyle_StyleSheet.getStaticField(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -65,7 +66,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_8932_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_8932_1(editorCell, node, context);
+    editorCell.setCellId("property_month");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -87,7 +88,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_8932_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_8932_2(editorCell, node, context);
+    editorCell.setCellId("property_dayOfMonth");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -109,7 +110,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_8932_6_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_8932_3(editorCell, node, context);
+    editorCell.setCellId("property_dayOfWeek");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -131,7 +132,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_8932_8_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_8932_4(editorCell, node, context);
+    editorCell.setCellId("property_hour");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -153,7 +154,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_8932_10_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_8932_5(editorCell, node, context);
+    editorCell.setCellId("property_minute");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -175,7 +176,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
 
   public EditorCell createProperty_8932_12_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_8932_6(editorCell, node, context);
+    editorCell.setCellId("property_second");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -193,44 +194,6 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_8932_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_8932_0");
-  }
-
-  private static void setupBasic_Property_8932_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_name");
-    BaseLanguageStyle_StyleSheet.getStaticField(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_Property_8932_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_month");
-  }
-
-  private static void setupBasic_Property_8932_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_dayOfMonth");
-  }
-
-  private static void setupBasic_Property_8932_3(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_dayOfWeek");
-  }
-
-  private static void setupBasic_Property_8932_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_hour");
-  }
-
-  private static void setupBasic_Property_8932_5(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_minute");
-  }
-
-  private static void setupBasic_Property_8932_6(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_second");
-  }
-
-  private static void setupBasic_Constant_8932_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8932_0");
   }
 
 }

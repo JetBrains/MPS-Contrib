@@ -16,13 +16,8 @@ public class GItem_Editor extends DefaultNodeEditor {
 
   public EditorCell createError_6866_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "gItem");
-    setupBasic_Error_6866_0(editorCell, node, context);
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Error_6866_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Error_6866_0");
+    return editorCell;
   }
 
 }

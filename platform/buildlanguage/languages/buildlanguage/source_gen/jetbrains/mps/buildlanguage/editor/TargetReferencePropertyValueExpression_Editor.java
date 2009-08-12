@@ -27,7 +27,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
 
   public EditorCell createCollection_4210_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_4210_0(editorCell, node, context);
+    editorCell.setCellId("Collection_4210_0");
     editorCell.addEditorCell(this.createConstant_4210_0(context, node, "target"));
     editorCell.addEditorCell(this.createRefCell_4210_1(context, node));
     return editorCell;
@@ -35,14 +35,14 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
 
   public EditorCell createConstant_4210_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_4210_0(editorCell, node, context);
+    editorCell.setCellId("Constant_4210_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createProperty_4210_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_4210_0(editorCell, node, context);
+    editorCell.setCellId("property_fullName");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -65,7 +65,6 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
   public EditorCell createRefCell_4210_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new TargetReferencePropertyValueExpression_Editor._Inline4210_0());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefCell_4210_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -85,22 +84,6 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     return cellWithRole;
   }
 
-
-  private static void setupBasic_Property_4210_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_fullName");
-  }
-
-  private static void setupBasic_Collection_4210_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_4210_0");
-  }
-
-  private static void setupBasic_Constant_4210_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_4210_0");
-  }
-
-  private static void setupBasic_RefCell_4210_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
   public static class _Inline4210_0 extends AbstractCellProvider {
 
     public _Inline4210_0() {
@@ -117,7 +100,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
 
     public EditorCell createProperty_4210_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_Property_4210_1(editorCell, node, context);
+      editorCell.setCellId("property_name");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -136,11 +119,6 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
       return cellWithRole;
-    }
-
-
-    private static void setupBasic_Property_4210_1(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
     }
 
 }

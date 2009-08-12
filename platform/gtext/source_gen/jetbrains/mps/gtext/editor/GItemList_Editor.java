@@ -9,10 +9,10 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.gtext.behavior.GItem_Behavior;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -41,13 +41,12 @@ public class GItemList_Editor extends DefaultNodeEditor {
     {
       editorCell = this.createCollection_9588_0(context, node);
     }
-    setupBasic_Alternation_9588_0(editorCell, node, context);
     return editorCell;
   }
 
   public EditorCell createCollection_9588_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_9588_0(editorCell, node, context);
+    editorCell.setCellId("Collection_9588_0");
     editorCell.setUsesBraces(true);
     editorCell.addEditorCell(this.createConstant_9588_0(context, node, "*"));
     editorCell.addEditorCell(this.createRefNodeList_9588_0(context, node));
@@ -56,7 +55,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_9588_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_9588_1(editorCell, node, context);
+    editorCell.setCellId("Collection_9588_1");
     editorCell.setUsesBraces(true);
     editorCell.addEditorCell(this.createConstant_9588_1(context, node, "*"));
     editorCell.addEditorCell(this.createRefNodeList_9588_1(context, node));
@@ -65,14 +64,23 @@ public class GItemList_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_9588_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_9588_0(editorCell, node, context);
+    editorCell.setCellId("Constant_9588_0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_9588_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_9588_1(editorCell, node, context);
+    editorCell.setCellId("Constant_9588_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -82,7 +90,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
       this.myListHandler_9588_0 = new GItemList_Editor.itemListHandler_9588_0(node, "item", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_9588_0.createCells(context, new CellLayout_Indent(), false);
-    setupBasic_RefNodeList_9588_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_item");
     editorCell.setRole(this.myListHandler_9588_0.getElementRole());
     return editorCell;
   }
@@ -92,45 +100,6 @@ public class GItemList_Editor extends DefaultNodeEditor {
       this.myListHandler_9588_1 = new GItemList_Editor.itemListHandler_9588_1(node, "item", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_9588_1.createCells(context, new CellLayout_Indent(), false);
-    setupBasic_RefNodeList_9588_1(editorCell, node, context);
-    editorCell.setRole(this.myListHandler_9588_1.getElementRole());
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Alternation_9588_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_9588_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_9588_0");
-  }
-
-  private static void setupBasic_Constant_9588_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9588_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
-    }
-  }
-
-  private static void setupBasic_RefNodeList_9588_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_item");
-  }
-
-  private static void setupBasic_Collection_9588_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_9588_1");
-  }
-
-  private static void setupBasic_Constant_9588_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_9588_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-  }
-
-  private static void setupBasic_RefNodeList_9588_1(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_item_1");
     {
       Style style = editorCell.getStyle();
@@ -138,7 +107,10 @@ public class GItemList_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
+    editorCell.setRole(this.myListHandler_9588_1.getElementRole());
+    return editorCell;
   }
+
 
   public static boolean renderingCondition9588_0(SNode node, EditorContext editorContext, IScope scope) {
     return GItem_Behavior.call_isComplex_1213877298853(node);

@@ -8,10 +8,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -40,7 +40,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
 
   public EditorCell createCollection_8362_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_8362_0(editorCell, node, context);
+    editorCell.setCellId("Collection_8362_0");
     editorCell.addEditorCell(this.createConstant_8362_0(context, node, "depends"));
     editorCell.addEditorCell(this.createConstant_8362_1(context, node, "="));
     editorCell.addEditorCell(this.createRefNodeList_8362_0(context, node));
@@ -49,7 +49,11 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
 
   public EditorCell createCollection_8362_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_8362_1(editorCell, node, context);
+    editorCell.setCellId("Collection_8362_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     if (renderingCondition8362_0(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_8362_0(context, node));
     }
@@ -58,14 +62,14 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
 
   public EditorCell createConstant_8362_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8362_0(editorCell, node, context);
+    editorCell.setCellId("Constant_8362_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_8362_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8362_1(editorCell, node, context);
+    editorCell.setCellId("Constant_8362_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -75,35 +79,11 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
       this.myListHandler_8362_0 = new TargetDeclaration_EditorComponent.dependsListHandler_8362_0(node, "depends", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_8362_0.createCells(context, new CellLayout_Horizontal(), false);
-    setupBasic_RefNodeList_8362_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_depends");
     editorCell.setRole(this.myListHandler_8362_0.getElementRole());
     return editorCell;
   }
 
-
-  private static void setupBasic_Collection_8362_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_8362_0");
-  }
-
-  private static void setupBasic_Constant_8362_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8362_0");
-  }
-
-  private static void setupBasic_Constant_8362_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8362_1");
-  }
-
-  private static void setupBasic_RefNodeList_8362_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_depends");
-  }
-
-  private static void setupBasic_Collection_8362_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_8362_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
 
   public static boolean renderingCondition8362_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();

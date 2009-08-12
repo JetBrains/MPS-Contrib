@@ -28,7 +28,7 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_9490_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_9490_0(editorCell, node, context);
+    editorCell.setCellId("Collection_9490_0");
     editorCell.addEditorCell(this.createRefNodeList_9490_0(context, node));
     return editorCell;
   }
@@ -38,22 +38,13 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
       this.myListHandler_9490_0 = new MultiLineString_Editor.stringExpressionListHandler_9490_0(node, "stringExpression", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_9490_0.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_RefNodeList_9490_0(editorCell, node, context);
-    editorCell.setRole(this.myListHandler_9490_0.getElementRole());
-    return editorCell;
-  }
-
-
-  private static void setupBasic_RefNodeList_9490_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("refNodeList_stringExpression");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.GET_PARENT_SUBSTITUDE_INFO, true);
     }
-  }
-
-  private static void setupBasic_Collection_9490_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_9490_0");
+    editorCell.setRole(this.myListHandler_9490_0.getElementRole());
+    return editorCell;
   }
 
   public static class stringExpressionListHandler_9490_0 extends RefNodeListHandler {

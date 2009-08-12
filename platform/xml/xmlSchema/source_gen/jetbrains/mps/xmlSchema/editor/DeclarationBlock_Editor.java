@@ -8,10 +8,10 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -30,7 +30,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_8297_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_8297_0(editorCell, node, context);
+    editorCell.setCellId("Collection_8297_0");
     editorCell.addEditorCell(this.createRefNodeList_8297_0(context, node));
     editorCell.addEditorCell(this.createConstant_8297_0(context, node, ""));
     editorCell.addEditorCell(this.createCollection_8297_1(context, node));
@@ -40,7 +40,11 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_8297_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_8297_1(editorCell, node, context);
+    editorCell.setCellId("Collection_8297_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.addEditorCell(this.createConstant_8297_1(context, node, "  "));
     editorCell.addEditorCell(this.createRefNodeList_8297_1(context, node));
     return editorCell;
@@ -48,21 +52,33 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_8297_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8297_0(editorCell, node, context);
+    editorCell.setCellId("Constant_8297_0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_8297_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8297_1(editorCell, node, context);
+    editorCell.setCellId("Constant_8297_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_8297_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_8297_2(editorCell, node, context);
+    editorCell.setCellId("Constant_8297_2");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -72,7 +88,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
       this.myListHandler_8297_0 = new DeclarationBlock_Editor.textLineListHandler_8297_0(node, "textLine", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_8297_0.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_RefNodeList_8297_0(editorCell, node, context);
+    editorCell.setCellId("refNodeList_textLine");
     editorCell.setRole(this.myListHandler_8297_0.getElementRole());
     return editorCell;
   }
@@ -82,54 +98,9 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
       this.myListHandler_8297_1 = new DeclarationBlock_Editor.declarationListHandler_8297_0(node, "declaration", context);
     }
     EditorCell_Collection editorCell = this.myListHandler_8297_1.createCells(context, new CellLayout_Vertical(), false);
-    setupBasic_RefNodeList_8297_1(editorCell, node, context);
+    editorCell.setCellId("refNodeList_declaration");
     editorCell.setRole(this.myListHandler_8297_1.getElementRole());
     return editorCell;
-  }
-
-
-  private static void setupBasic_Collection_8297_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_8297_0");
-  }
-
-  private static void setupBasic_RefNodeList_8297_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_textLine");
-  }
-
-  private static void setupBasic_Constant_8297_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8297_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_Collection_8297_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_8297_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_Constant_8297_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8297_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_RefNodeList_8297_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("refNodeList_declaration");
-  }
-
-  private static void setupBasic_Constant_8297_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_8297_2");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
   }
 
   public static class textLineListHandler_8297_0 extends RefNodeListHandler {

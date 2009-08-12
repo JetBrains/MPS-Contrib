@@ -7,17 +7,17 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
+import jetbrains.mps.nodeEditor.style.Style;
+import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
-import jetbrains.mps.baseLanguage.datesInternal.editor.DatesInternal_StyleSheet;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
@@ -35,7 +35,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6271_0(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_0");
     editorCell.addEditorCell(this.createRefNode_6271_1(context, node));
     editorCell.addEditorCell(this.createCollection_6271_1(context, node));
     if (renderingCondition6271_0(node, context, context.getOperationContext().getScope())) {
@@ -49,7 +49,11 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6271_1(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.addEditorCell(this.createConceptProperty_6271_1(context, node));
     editorCell.addEditorCell(this.createRefCell_6271_1(context, node));
     return editorCell;
@@ -57,7 +61,12 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_6271_2(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_2");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    }
     editorCell.addEditorCell(this.createConstant_6271_0(context, node, "("));
     editorCell.addEditorCell(this.createRefCell_6271_3(context, node));
     editorCell.addEditorCell(this.createConstant_6271_1(context, node, ")"));
@@ -66,7 +75,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
-    setupBasic_Collection_6271_3(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_3");
     editorCell.addEditorCell(this.createCollection_6271_4(context, node));
     editorCell.addEditorCell(this.createCollection_6271_5(context, node));
     editorCell.addEditorCell(this.createCollection_6271_7(context, node));
@@ -75,7 +84,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_4(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6271_4(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_4");
     editorCell.addEditorCell(this.createConstant_6271_2(context, node, "locale"));
     editorCell.addEditorCell(this.createRefCell_6271_5(context, node));
     return editorCell;
@@ -83,7 +92,12 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_5(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6271_5(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_5");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.addEditorCell(this.createConstant_6271_3(context, node, "zone"));
     editorCell.addEditorCell(this.createRefNode_6271_3(context, node));
     return editorCell;
@@ -91,7 +105,11 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_6(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6271_6(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_6");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.addEditorCell(this.createConceptProperty_6271_3(context, node));
     editorCell.addEditorCell(this.createRefNode_6271_5(context, node));
     return editorCell;
@@ -99,7 +117,11 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_6271_7(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
-    setupBasic_Collection_6271_7(editorCell, node, context);
+    editorCell.setCellId("Collection_6271_7");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.addEditorCell(this.createConstant_6271_4(context, node, "default"));
     editorCell.addEditorCell(this.createRefNode_6271_7(context, node));
     return editorCell;
@@ -107,42 +129,53 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_6271_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6271_0(editorCell, node, context);
+    editorCell.setCellId("Constant_6271_0");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_6271_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6271_1(editorCell, node, context);
+    editorCell.setCellId("Constant_6271_1");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+      style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_6271_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6271_2(editorCell, node, context);
+    editorCell.setCellId("Constant_6271_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_6271_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6271_3(editorCell, node, context);
+    editorCell.setCellId("Constant_6271_3");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_6271_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_6271_4(editorCell, node, context);
+    editorCell.setCellId("Constant_6271_4");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createRefNode_6271_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_6271_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -164,7 +197,8 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createConceptProperty_6271_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_ConceptProperty_6271_0(editorCell, node, context);
+    editorCell.setCellId("conceptProperty_alias");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -187,7 +221,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
   public EditorCell createRefCell_6271_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline6271_0());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefCell_6271_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -210,7 +243,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
   public EditorCell createRefCell_6271_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline6271_1());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefCell_6271_1(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -233,7 +265,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
   public EditorCell createRefCell_6271_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new ParseExpression_Editor._Inline6271_2());
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefCell_6271_2(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -255,7 +286,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_6271_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_6271_1(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -277,7 +307,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_6271_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_6271_2(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -299,7 +328,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createRefNode_6271_6_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_RefNode_6271_3(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -321,7 +349,8 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createConceptProperty_6271_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_ConceptProperty_6271_1(editorCell, node, context);
+    editorCell.setCellId("conceptProperty_defaultKeyword");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -341,123 +370,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-
-  private static void setupBasic_Collection_6271_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_0");
-  }
-
-  private static void setupBasic_RefNode_6271_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_6271_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_1");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_ConceptProperty_6271_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("conceptProperty_alias");
-    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
-  }
-
-  private static void setupBasic_RefCell_6271_0(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_6271_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_2");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-    }
-  }
-
-  private static void setupBasic_Constant_6271_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6271_0");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
-      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-    }
-  }
-
-  private static void setupBasic_RefCell_6271_1(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Constant_6271_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6271_1");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
-      style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
-    }
-  }
-
-  private static void setupBasic_Collection_6271_3(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_3");
-  }
-
-  private static void setupBasic_Collection_6271_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_4");
-  }
-
-  private static void setupBasic_Constant_6271_2(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6271_2");
-  }
-
-  private static void setupBasic_RefCell_6271_2(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_6271_5(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_5");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_Constant_6271_3(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6271_3");
-  }
-
-  private static void setupBasic_RefNode_6271_1(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_6271_6(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_6");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_RefNode_6271_2(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_Collection_6271_7(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_6271_7");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-  }
-
-  private static void setupBasic_Constant_6271_4(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_6271_4");
-  }
-
-  private static void setupBasic_RefNode_6271_3(EditorCell editorCell, SNode node, EditorContext context) {
-  }
-
-  private static void setupBasic_ConceptProperty_6271_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("conceptProperty_defaultKeyword");
-    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
-  }
 
   public static boolean renderingCondition6271_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
@@ -483,7 +395,12 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
     public EditorCell createProperty_6271_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_Property_6271_0(editorCell, node, context);
+      editorCell.setCellId("property_name");
+      Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
+      {
+        Style style = editorCell.getStyle();
+        style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
+      }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -504,16 +421,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
       return cellWithRole;
     }
 
-
-    private static void setupBasic_Property_6271_0(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name");
-      Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
-      {
-        Style style = editorCell.getStyle();
-        style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
-      }
-    }
-
 }
   public static class _Inline6271_1 extends AbstractCellProvider {
 
@@ -531,7 +438,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
     public EditorCell createProperty_6271_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_Property_6271_1(editorCell, node, context);
+      editorCell.setCellId("property_name_1");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -552,11 +459,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
       return cellWithRole;
     }
 
-
-    private static void setupBasic_Property_6271_1(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name_1");
-    }
-
 }
   public static class _Inline6271_2 extends AbstractCellProvider {
 
@@ -574,7 +476,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
 
     public EditorCell createProperty_6271_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
-      setupBasic_Property_6271_2(editorCell, node, context);
+      editorCell.setCellId("property_name_2");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       return editorCell;
     }
@@ -593,11 +495,6 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
       } else
       return cellWithRole;
-    }
-
-
-    private static void setupBasic_Property_6271_2(EditorCell editorCell, SNode node, EditorContext context) {
-      editorCell.setCellId("property_name_2");
     }
 
 }

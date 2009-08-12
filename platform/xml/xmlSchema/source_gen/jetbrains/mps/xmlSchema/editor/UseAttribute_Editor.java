@@ -21,7 +21,7 @@ public class UseAttribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createCollection_5639_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
-    setupBasic_Collection_5639_0(editorCell, node, context);
+    editorCell.setCellId("Collection_5639_0");
     editorCell.addEditorCell(this.createConstant_5639_0(context, node, "["));
     editorCell.addEditorCell(this.createProperty_5639_1(context, node));
     editorCell.addEditorCell(this.createConstant_5639_1(context, node, "]"));
@@ -30,21 +30,21 @@ public class UseAttribute_Editor extends DefaultNodeEditor {
 
   public EditorCell createConstant_5639_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_5639_0(editorCell, node, context);
+    editorCell.setCellId("Constant_5639_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createConstant_5639_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
-    setupBasic_Constant_5639_1(editorCell, node, context);
+    editorCell.setCellId("Constant_5639_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
   public EditorCell createProperty_5639_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
-    setupBasic_Property_5639_0(editorCell, node, context);
+    editorCell.setCellId("property_use");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
@@ -62,23 +62,6 @@ public class UseAttribute_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
     } else
     return cellWithRole;
-  }
-
-
-  private static void setupBasic_Collection_5639_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Collection_5639_0");
-  }
-
-  private static void setupBasic_Constant_5639_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_5639_0");
-  }
-
-  private static void setupBasic_Constant_5639_1(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("Constant_5639_1");
-  }
-
-  private static void setupBasic_Property_5639_0(EditorCell editorCell, SNode node, EditorContext context) {
-    editorCell.setCellId("property_use");
   }
 
 }

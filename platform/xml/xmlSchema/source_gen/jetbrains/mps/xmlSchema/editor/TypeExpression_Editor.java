@@ -16,13 +16,8 @@ public class TypeExpression_Editor extends DefaultNodeEditor {
 
   public EditorCell createError_1066_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "typeExpression");
-    setupBasic_Error_1066_0(editorCell, node, context);
-    return editorCell;
-  }
-
-
-  private static void setupBasic_Error_1066_0(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setCellId("Error_1066_0");
+    return editorCell;
   }
 
 }
