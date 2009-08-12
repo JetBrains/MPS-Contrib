@@ -41,8 +41,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     return editorCell;
   }
 
-  public EditorCell createRefCell_4639_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_4639_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline4639_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_4639_0(editorCell, node, context);

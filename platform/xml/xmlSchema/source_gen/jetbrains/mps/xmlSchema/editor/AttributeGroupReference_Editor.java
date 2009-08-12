@@ -31,8 +31,7 @@ public class AttributeGroupReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_7844_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_7844_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new AttributeGroupReference_Editor._Inline7844_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_7844_0(editorCell, node, context);
@@ -81,9 +80,7 @@ public class AttributeGroupReference_Editor extends DefaultNodeEditor {
       return this.createProperty_7844_1(context, node);
     }
 
-    public EditorCell createProperty_7844_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_7844_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_7844_0(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

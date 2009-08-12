@@ -93,8 +93,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     return editorCell;
   }
 
-  public EditorCell createRefCell_9190_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_9190_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new DateTimeIntPropertyFormatConfiguration_Editor._Inline9190_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_9190_0(editorCell, node, context);
@@ -183,9 +182,7 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       return this.createProperty_9190_1(context, node);
     }
 
-    public EditorCell createProperty_9190_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_9190_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_9190_0(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

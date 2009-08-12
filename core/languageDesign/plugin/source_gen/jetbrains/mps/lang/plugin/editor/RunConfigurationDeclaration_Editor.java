@@ -110,7 +110,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     setupBasic_Collection_3683_4(editorCell, node, context);
     editorCell.addEditorCell(this.createConstant_3683_3(context, node, "icon:"));
     editorCell.addEditorCell(this.createAlternation_3683_0(context, node));
-    editorCell.addEditorCell(EditorCell_Component.createComponentCell(context, node, RunConfigurationDeclaration_Editor._QueryFunction_JComponent_7974234327425252166(node, context), "_7974234327425252165"));
+    editorCell.addEditorCell(EditorCell_Component.createComponentCell(context, node, RunConfigurationDeclaration_Editor._QueryFunction_JComponent_5170495790388493355(node, context), "_5170495790388493354"));
     return editorCell;
   }
 
@@ -252,7 +252,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
 
   public EditorCell createImage_3683_0(EditorContext context, SNode node) {
     EditorCell_Image editorCell;
-    editorCell = EditorCell_Image.createImageCell(context, node, _image_provider_7974234327425252155(node, context));
+    editorCell = EditorCell_Image.createImageCell(context, node, _image_provider_5170495790388493344(node, context));
     setupBasic_Image_3683_0(editorCell, node, context);
     editorCell.setDescent(0);
     return editorCell;
@@ -273,9 +273,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public EditorCell createProperty_3683_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_3683_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_3683_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -297,8 +295,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefCell_3683_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_3683_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new RunConfigurationDeclaration_Editor._Inline3683_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_3683_0(editorCell, node, context);
@@ -321,9 +318,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty_3683_4_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_3683_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_3683_2(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -345,9 +340,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty_3683_6_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_3683_6_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_3683_3(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -369,9 +362,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefNode_3683_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createRefNode_3683_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_3683_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -393,9 +384,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefNode_3683_2_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createRefNode_3683_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_3683_1(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -417,9 +406,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefNode_3683_4_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createRefNode_3683_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_3683_2(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -441,9 +428,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefNode_3683_6_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createRefNode_3683_6_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_3683_3(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -667,7 +652,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
   }
 
-  public static String _image_provider_7974234327425252155(SNode node, EditorContext editorContext) {
+  public static String _image_provider_5170495790388493344(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getString(node, "iconPath");
   }
 
@@ -688,7 +673,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return BlockCells.useBraces();
   }
 
-  public static JComponent _QueryFunction_JComponent_7974234327425252166(SNode node, EditorContext editorContext) {
+  public static JComponent _QueryFunction_JComponent_5170495790388493355(SNode node, EditorContext editorContext) {
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
 
@@ -706,9 +691,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
       return this.createProperty_3683_3(context, node);
     }
 
-    public EditorCell createProperty_3683_2_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_3683_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_3683_1(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

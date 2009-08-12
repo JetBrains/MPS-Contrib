@@ -17,9 +17,7 @@ public class PropertyType_Editor extends DefaultNodeEditor {
     return this.createConceptProperty_1165_1(context, node);
   }
 
-  public EditorCell createConceptProperty_1165_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createConceptProperty_1165_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_ConceptProperty_1165_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

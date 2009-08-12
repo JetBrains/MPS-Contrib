@@ -40,9 +40,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     return editorCell;
   }
 
-  public EditorCell createProperty_4210_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_4210_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_4210_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -64,8 +62,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
     return cellWithRole;
   }
 
-  public EditorCell createRefCell_4210_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_4210_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new TargetReferencePropertyValueExpression_Editor._Inline4210_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_4210_0(editorCell, node, context);
@@ -118,9 +115,7 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
       return this.createProperty_4210_3(context, node);
     }
 
-    public EditorCell createProperty_4210_2_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_4210_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_4210_1(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

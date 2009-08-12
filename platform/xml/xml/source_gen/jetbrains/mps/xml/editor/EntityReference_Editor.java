@@ -46,8 +46,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_3244_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_3244_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new EntityReference_Editor._Inline3244_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_3244_0(editorCell, node, context);
@@ -106,9 +105,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
       return this.createProperty_3244_1(context, node);
     }
 
-    public EditorCell createProperty_3244_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_3244_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_3244_0(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
