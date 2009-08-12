@@ -209,9 +209,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public EditorCell createProperty_2913_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_2913_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2913_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -233,9 +231,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefNode_2913_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createRefNode_2913_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_2913_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -257,9 +253,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty_2913_2_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_2913_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2913_1(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -281,8 +275,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefCell_2913_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_2913_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new ComponentDeclaration_Editor._Inline2913_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_2913_0(editorCell, node, context);
@@ -305,8 +298,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefCell_2913_2_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_2913_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new ComponentDeclaration_Editor._Inline2913_1());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_2913_1(editorCell, node, context);
@@ -329,9 +321,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty_2913_8_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_2913_8_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2913_4(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -353,9 +343,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createProperty_2913_10_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_2913_10_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_2913_5(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -377,9 +365,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefNode_2913_2_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createRefNode_2913_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_2913_1(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -593,9 +579,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
       return this.createProperty_2913_5(context, node);
     }
 
-    public EditorCell createProperty_2913_4_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_2913_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_2913_2(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -638,9 +622,7 @@ public class ComponentDeclaration_Editor extends DefaultNodeEditor {
       return this.createProperty_2913_7(context, node);
     }
 
-    public EditorCell createProperty_2913_6_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_2913_6_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_2913_3(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

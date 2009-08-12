@@ -32,8 +32,7 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_8060_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_8060_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new AttributeReferenceOperation_Editor._Inline8060_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_8060_0(editorCell, node, context);
@@ -82,9 +81,7 @@ public class AttributeReferenceOperation_Editor extends DefaultNodeEditor {
       return this.createProperty_8060_1(context, node);
     }
 
-    public EditorCell createProperty_8060_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_8060_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_8060_0(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

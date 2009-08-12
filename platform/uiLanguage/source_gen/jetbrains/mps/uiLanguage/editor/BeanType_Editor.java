@@ -54,8 +54,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_6322_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
+  public EditorCell createRefCell_6322_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     provider.setAuxiliaryCellProvider(new BeanType_Editor._Inline6322_0());
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefCell_6322_0(editorCell, node, context);
@@ -124,9 +123,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
       return this.createProperty_6322_1(context, node);
     }
 
-    public EditorCell createProperty_6322_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-      CellProviderWithRole provider = aProvider;
-      provider.setAuxiliaryCellProvider(null);
+    public EditorCell createProperty_6322_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
       EditorCell editorCell = provider.createEditorCell(context);
       setupBasic_Property_6322_0(editorCell, node, context);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

@@ -74,9 +74,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public EditorCell createProperty_8053_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_8053_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_8053_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -98,9 +96,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return cellWithRole;
   }
 
-  public EditorCell createRefNode_8053_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createRefNode_8053_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_RefNode_8053_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

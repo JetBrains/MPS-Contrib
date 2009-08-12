@@ -176,9 +176,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public EditorCell createProperty_7986_0_internal(EditorContext context, SNode node, CellProviderWithRole aProvider) {
-    CellProviderWithRole provider = aProvider;
-    provider.setAuxiliaryCellProvider(null);
+  public EditorCell createProperty_7986_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
     EditorCell editorCell = provider.createEditorCell(context);
     setupBasic_Property_7986_0(editorCell, node, context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
