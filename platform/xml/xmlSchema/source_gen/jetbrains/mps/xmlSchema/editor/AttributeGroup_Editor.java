@@ -14,8 +14,8 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
@@ -38,7 +38,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_1527_0");
     editorCell.addEditorCell(this.createConstant_1527_0(context, node, "attributeGroup"));
-    editorCell.addEditorCell(this.createProperty_1527_1(context, node));
+    editorCell.addEditorCell(this.createProperty_1527_0(context, node));
     editorCell.addEditorCell(this.createConstant_1527_2(context, node, ": "));
     editorCell.addEditorCell(this.createRefNodeList_1527_0(context, node));
     return editorCell;
@@ -72,8 +72,12 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_1527_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-    EditorCell editorCell = provider.createEditorCell(context);
+  public EditorCell createProperty_1527_0(EditorContext context, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+    provider.setRole("attributeGroupName");
+    provider.setNoTargetText("<no attributeGroupName>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(context);
     editorCell.setCellId("property_attributeGroupName");
     {
       Style style = editorCell.getStyle();
@@ -81,22 +85,14 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
     }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    return editorCell;
-  }
-
-  public EditorCell createProperty_1527_1(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
-    provider.setRole("attributeGroupName");
-    provider.setNoTargetText("<no attributeGroupName>");
-    EditorCell cellWithRole = this.createProperty_1527_0_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
+    return editorCell;
   }
 
   public static class attributeExpressionListHandler_1527_0 extends RefNodeListHandler {

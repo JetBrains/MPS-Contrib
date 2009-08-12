@@ -49,7 +49,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   public EditorCell createCollection_6516_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_6516_0");
-    editorCell.addEditorCell(this.createRefNode_6516_1(context, node));
+    editorCell.addEditorCell(this.createRefNode_6516_0(context, node));
     if (renderingCondition6516_1(node, context, context.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_6516_5(context, node));
     }
@@ -73,7 +73,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     InlineFormatExpression_ActionMap_Delete.setCellActions(editorCell, node, context);
     editorCell.addEditorCell(this.createConstant_6516_3(context, node, "with locale"));
     editorCell.addEditorCell(this.createConstant_6516_7(context, node, "("));
-    editorCell.addEditorCell(this.createRefCell_6516_1(context, node));
+    editorCell.addEditorCell(this.createRefCell_6516_0(context, node));
     editorCell.addEditorCell(this.createConstant_6516_4(context, node, ")"));
     return editorCell;
   }
@@ -82,7 +82,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_6516_2");
     editorCell.addEditorCell(this.createConstant_6516_5(context, node, "locale"));
-    editorCell.addEditorCell(this.createRefCell_6516_3(context, node));
+    editorCell.addEditorCell(this.createRefCell_6516_1(context, node));
     return editorCell;
   }
 
@@ -104,7 +104,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createConstant_6516_8(context, node, "datetime"));
     editorCell.addEditorCell(this.createConstant_6516_9(context, node, "zone"));
-    editorCell.addEditorCell(this.createRefNode_6516_5(context, node));
+    editorCell.addEditorCell(this.createRefNode_6516_2(context, node));
     return editorCell;
   }
 
@@ -112,7 +112,7 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_6516_5");
     editorCell.addEditorCell(this.createConstant_6516_10(context, node, "in"));
-    editorCell.addEditorCell(this.createRefNode_6516_3(context, node));
+    editorCell.addEditorCell(this.createRefNode_6516_1(context, node));
     return editorCell;
   }
 
@@ -217,31 +217,38 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_6516_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-    EditorCell editorCell = provider.createEditorCell(context);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    return editorCell;
-  }
-
-  public EditorCell createRefNode_6516_1(EditorContext context, SNode node) {
+  public EditorCell createRefNode_6516_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
-    EditorCell cellWithRole = this.createRefNode_6516_0_internal(context, node, provider);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(context);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
+    return editorCell;
   }
 
-  public EditorCell createRefCell_6516_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
+  public EditorCell createRefCell_6516_0(EditorContext context, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, context);
+    provider.setRole("locale");
+    provider.setNoTargetText("<no locale>");
+    EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new InlineFormatExpression_Editor._Inline6516_0());
-    EditorCell editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = context.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+    } else
     return editorCell;
   }
 
@@ -249,79 +256,52 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
-    EditorCell cellWithRole = this.createRefCell_6516_0_internal(context, node, provider);
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
-    } else
-    return cellWithRole;
-  }
-
-  public EditorCell createRefCell_6516_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
+    EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new InlineFormatExpression_Editor._Inline6516_1());
-    EditorCell editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(context);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    return editorCell;
-  }
-
-  public EditorCell createRefCell_6516_3(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, context);
-    provider.setRole("locale");
-    provider.setNoTargetText("<no locale>");
-    EditorCell cellWithRole = this.createRefCell_6516_2_internal(context, node, provider);
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
-  }
-
-  public EditorCell createRefNode_6516_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-    EditorCell editorCell = provider.createEditorCell(context);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefNode_6516_3(EditorContext context, SNode node) {
+  public EditorCell createRefNode_6516_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("zone");
     provider.setNoTargetText("<no zone>");
-    EditorCell cellWithRole = this.createRefNode_6516_2_internal(context, node, provider);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(context);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
-  }
-
-  public EditorCell createRefNode_6516_4_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-    EditorCell editorCell = provider.createEditorCell(context);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     return editorCell;
   }
 
-  public EditorCell createRefNode_6516_5(EditorContext context, SNode node) {
+  public EditorCell createRefNode_6516_2(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("zone");
     provider.setNoTargetText("<no zone>");
-    EditorCell cellWithRole = this.createRefNode_6516_4_internal(context, node, provider);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(context);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
+    return editorCell;
   }
 
 
@@ -344,34 +324,30 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createProperty_6516_1(context, node);
+      return this.createProperty_6516_0(context, node);
     }
 
-    public EditorCell createProperty_6516_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-      EditorCell editorCell = provider.createEditorCell(context);
+    public EditorCell createProperty_6516_0(EditorContext context, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, context);
+      provider.setRole("name");
+      provider.setNoTargetText("<no name>");
+      provider.setReadOnly(true);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(context);
       editorCell.setCellId("property_name");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
       }
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-      return editorCell;
-    }
-
-    public EditorCell createProperty_6516_1(EditorContext context, SNode node) {
-      CellProviderWithRole provider = new PropertyCellProvider(node, context);
-      provider.setRole("name");
-      provider.setNoTargetText("<no name>");
-      provider.setReadOnly(true);
-      EditorCell cellWithRole = this.createProperty_6516_0_internal(context, node, provider);
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
       if (attributeConcept != null) {
         IOperationContext opContext = context.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
       } else
-      return cellWithRole;
+      return editorCell;
     }
 
 }
@@ -386,30 +362,26 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createProperty_6516_3(context, node);
+      return this.createProperty_6516_1(context, node);
     }
 
-    public EditorCell createProperty_6516_2_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-      EditorCell editorCell = provider.createEditorCell(context);
-      editorCell.setCellId("property_name_1");
-      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-      return editorCell;
-    }
-
-    public EditorCell createProperty_6516_3(EditorContext context, SNode node) {
+    public EditorCell createProperty_6516_1(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
-      EditorCell cellWithRole = this.createProperty_6516_2_internal(context, node, provider);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(context);
+      editorCell.setCellId("property_name_1");
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
       if (attributeConcept != null) {
         IOperationContext opContext = context.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
       } else
-      return cellWithRole;
+      return editorCell;
     }
 
 }

@@ -24,7 +24,7 @@ public class EntityDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_5899_0");
     editorCell.addEditorCell(this.createConstant_5899_1(context, node, "<!"));
     editorCell.addEditorCell(this.createConstant_5899_0(context, node, "ENTITY"));
-    editorCell.addEditorCell(this.createProperty_5899_1(context, node));
+    editorCell.addEditorCell(this.createProperty_5899_0(context, node));
     editorCell.addEditorCell(this.createConstant_5899_2(context, node, ">"));
     return editorCell;
   }
@@ -50,26 +50,22 @@ public class EntityDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_5899_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-    EditorCell editorCell = provider.createEditorCell(context);
-    editorCell.setCellId("property_entityName");
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    return editorCell;
-  }
-
-  public EditorCell createProperty_5899_1(EditorContext context, SNode node) {
+  public EditorCell createProperty_5899_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("entityName");
     provider.setNoTargetText("<no entityName>");
-    EditorCell cellWithRole = this.createProperty_5899_0_internal(context, node, provider);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(context);
+    editorCell.setCellId("property_entityName");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
+    return editorCell;
   }
 
 }

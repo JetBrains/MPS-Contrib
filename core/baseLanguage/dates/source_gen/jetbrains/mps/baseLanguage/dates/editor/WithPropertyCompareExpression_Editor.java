@@ -29,7 +29,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_6938_0");
     editorCell.addEditorCell(this.createComponent_6938_0(context, node));
     editorCell.addEditorCell(this.createConstant_6938_0(context, node, "by"));
-    editorCell.addEditorCell(this.createRefCell_6938_1(context, node));
+    editorCell.addEditorCell(this.createRefCell_6938_0(context, node));
     return editorCell;
   }
 
@@ -49,26 +49,22 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_6938_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-    provider.setAuxiliaryCellProvider(new WithPropertyCompareExpression_Editor._Inline6938_0());
-    EditorCell editorCell = provider.createEditorCell(context);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    return editorCell;
-  }
-
-  public EditorCell createRefCell_6938_1(EditorContext context, SNode node) {
+  public EditorCell createRefCell_6938_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
-    EditorCell cellWithRole = this.createRefCell_6938_0_internal(context, node, provider);
+    EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new WithPropertyCompareExpression_Editor._Inline6938_0());
+    editorCell = provider.createEditorCell(context);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
       IOperationContext opContext = context.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
     } else
-    return cellWithRole;
+    return editorCell;
   }
 
   public static class _Inline6938_0 extends AbstractCellProvider {
@@ -82,31 +78,27 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createProperty_6938_1(context, node);
+      return this.createProperty_6938_0(context, node);
     }
 
-    public EditorCell createProperty_6938_0_internal(EditorContext context, SNode node, CellProviderWithRole provider) {
-      EditorCell editorCell = provider.createEditorCell(context);
-      editorCell.setCellId("property_pluralForm");
-      Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
-      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-      return editorCell;
-    }
-
-    public EditorCell createProperty_6938_1(EditorContext context, SNode node) {
+    public EditorCell createProperty_6938_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("pluralForm");
       provider.setNoTargetText("<no pluralForm>");
       provider.setReadOnly(true);
-      EditorCell cellWithRole = this.createProperty_6938_0_internal(context, node, provider);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(context);
+      editorCell.setCellId("property_pluralForm");
+      Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
       if (attributeConcept != null) {
         IOperationContext opContext = context.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, cellWithRole);
+        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
       } else
-      return cellWithRole;
+      return editorCell;
     }
 
 }
