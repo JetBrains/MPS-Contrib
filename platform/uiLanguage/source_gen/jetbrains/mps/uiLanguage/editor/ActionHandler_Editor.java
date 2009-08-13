@@ -22,22 +22,22 @@ public class ActionHandler_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_8008_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8008_0");
-    editorCell.addEditorCell(this.createConstant_8008_0(editorContext, node, "action"));
-    editorCell.addEditorCell(this.createConstant_8008_1(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_8008_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_8008_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_8008_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8008_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8008_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "action");
     editorCell.setCellId("Constant_8008_0");
     Stylesheet_StyleSheet.getActionHandler(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_8008_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8008_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_8008_1");
     editorCell.setDefaultText("");
     return editorCell;

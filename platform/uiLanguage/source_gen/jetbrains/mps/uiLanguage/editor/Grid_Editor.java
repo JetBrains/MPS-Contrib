@@ -34,7 +34,7 @@ public class Grid_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3546_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3546_0");
-    editorCell.addEditorCell(this.createConstant_3546_0(editorContext, node, "Grid"));
+    editorCell.addEditorCell(this.createConstant_3546_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_3546_1(editorContext, node));
     return editorCell;
   }
@@ -58,8 +58,8 @@ public class Grid_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3546_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3546_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Grid");
     editorCell.setCellId("Constant_3546_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

@@ -22,22 +22,22 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_2923_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_2923_0");
-    editorCell.addEditorCell(this.createConstant_2923_0(editorContext, node, "renderer"));
-    editorCell.addEditorCell(this.createConstant_2923_1(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_2923_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2923_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_2923_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2923_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2923_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "renderer");
     editorCell.setCellId("Constant_2923_0");
     Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_2923_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2923_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_2923_1");
     Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

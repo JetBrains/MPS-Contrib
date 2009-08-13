@@ -33,7 +33,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_4953_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_4953_0");
-    editorCell.addEditorCell(this.createConstant_4953_0(editorContext, node, "Dialog"));
+    editorCell.addEditorCell(this.createConstant_4953_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_4953_1(editorContext, node));
     editorCell.addEditorCell(this.createCollection_4953_3(editorContext, node));
     return editorCell;
@@ -58,7 +58,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_4953_1(editorContext, node, "Content"));
+    editorCell.addEditorCell(this.createConstant_4953_1(editorContext, node));
     editorCell.addEditorCell(this.createCollection_4953_5(editorContext, node));
     return editorCell;
   }
@@ -82,7 +82,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_4953_2(editorContext, node, "Buttons"));
+    editorCell.addEditorCell(this.createConstant_4953_2(editorContext, node));
     editorCell.addEditorCell(this.createCollection_4953_6(editorContext, node));
     return editorCell;
   }
@@ -111,24 +111,24 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4953_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4953_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Dialog");
     editorCell.setCellId("Constant_4953_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4953_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4953_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Content");
     editorCell.setCellId("Constant_4953_1");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4953_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4953_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Buttons");
     editorCell.setCellId("Constant_4953_2");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

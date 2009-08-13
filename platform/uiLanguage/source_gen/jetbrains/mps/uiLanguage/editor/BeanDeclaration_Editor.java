@@ -34,14 +34,14 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_7986_0");
     editorCell.addEditorCell(this.createCollection_7986_3(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7986_3(editorContext, node, ""));
-    editorCell.addEditorCell(this.createConstant_7986_0(editorContext, node, "attributes:"));
+    editorCell.addEditorCell(this.createConstant_7986_3(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7986_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_7986_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7986_1(editorContext, node, ""));
-    editorCell.addEditorCell(this.createConstant_7986_5(editorContext, node, "constructors:"));
+    editorCell.addEditorCell(this.createConstant_7986_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7986_5(editorContext, node));
     editorCell.addEditorCell(this.createCollection_7986_4(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7986_6(editorContext, node, ""));
-    editorCell.addEditorCell(this.createConstant_7986_2(editorContext, node, "methods:"));
+    editorCell.addEditorCell(this.createConstant_7986_6(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7986_2(editorContext, node));
     editorCell.addEditorCell(this.createCollection_7986_2(editorContext, node));
     return editorCell;
   }
@@ -77,7 +77,7 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_7986_4(editorContext, node, "bean"));
+    editorCell.addEditorCell(this.createConstant_7986_4(editorContext, node));
     editorCell.addEditorCell(this.createProperty_7986_0(editorContext, node));
     return editorCell;
   }
@@ -94,8 +94,8 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7986_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7986_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attributes:");
     editorCell.setCellId("Constant_7986_0");
     {
       Style style = editorCell.getStyle();
@@ -105,8 +105,8 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7986_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7986_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_7986_1");
     {
       Style style = editorCell.getStyle();
@@ -116,8 +116,8 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7986_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7986_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "methods:");
     editorCell.setCellId("Constant_7986_2");
     {
       Style style = editorCell.getStyle();
@@ -127,8 +127,8 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7986_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7986_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_7986_3");
     {
       Style style = editorCell.getStyle();
@@ -138,15 +138,15 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7986_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7986_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "bean");
     editorCell.setCellId("Constant_7986_4");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_7986_5(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7986_5(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "constructors:");
     editorCell.setCellId("Constant_7986_5");
     {
       Style style = editorCell.getStyle();
@@ -156,8 +156,8 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7986_6(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7986_6(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_7986_6");
     {
       Style style = editorCell.getStyle();

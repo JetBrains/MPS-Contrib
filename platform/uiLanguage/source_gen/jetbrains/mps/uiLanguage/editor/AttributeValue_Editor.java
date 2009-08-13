@@ -26,13 +26,13 @@ public class AttributeValue_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_2697_0");
     editorCell.addEditorCell(this.createRefCell_2697_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_2697_0(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_2697_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_2697_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2697_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2697_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_2697_0");
     editorCell.setDefaultText("");
     return editorCell;

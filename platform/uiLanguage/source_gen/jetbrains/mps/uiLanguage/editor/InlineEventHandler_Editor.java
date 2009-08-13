@@ -28,7 +28,7 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_5651_0");
     editorCell.addEditorCell(this.createCollection_5651_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5651_0(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_5651_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_5651_0(editorContext, node));
     return editorCell;
   }
@@ -40,20 +40,20 @@ public class InlineEventHandler_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_5651_1(editorContext, node, "on"));
+    editorCell.addEditorCell(this.createConstant_5651_1(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_5651_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_5651_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5651_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_5651_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5651_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5651_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "on");
     editorCell.setCellId("Constant_5651_1");
     editorCell.setDefaultText("");
     return editorCell;

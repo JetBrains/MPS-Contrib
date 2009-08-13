@@ -22,21 +22,21 @@ public class InlineRenderer_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_8064_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8064_0");
-    editorCell.addEditorCell(this.createConstant_8064_0(editorContext, node, "renderer(inline)"));
-    editorCell.addEditorCell(this.createConstant_8064_1(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_8064_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_8064_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_8064_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8064_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8064_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "renderer(inline)");
     editorCell.setCellId("Constant_8064_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_8064_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8064_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_8064_1");
     editorCell.setDefaultText("");
     return editorCell;

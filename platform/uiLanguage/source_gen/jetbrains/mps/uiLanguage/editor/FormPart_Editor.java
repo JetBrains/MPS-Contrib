@@ -43,7 +43,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_8053_0(editorContext, node, "label:"));
+    editorCell.addEditorCell(this.createConstant_8053_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_8053_0(editorContext, node));
     return editorCell;
   }
@@ -55,7 +55,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_8053_1(editorContext, node, "content:"));
+    editorCell.addEditorCell(this.createConstant_8053_1(editorContext, node));
     return editorCell;
   }
 
@@ -71,15 +71,15 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_8053_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8053_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "label:");
     editorCell.setCellId("Constant_8053_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_8053_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8053_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "content:");
     editorCell.setCellId("Constant_8053_1");
     editorCell.setDefaultText("");
     return editorCell;

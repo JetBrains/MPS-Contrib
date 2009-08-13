@@ -35,21 +35,21 @@ public class BeanCreator_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3920_0");
     editorCell.addEditorCell(this.createRefCell_3920_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3920_0(editorContext, node, "("));
+    editorCell.addEditorCell(this.createConstant_3920_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_3920_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3920_1(editorContext, node, ")"));
+    editorCell.addEditorCell(this.createConstant_3920_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3920_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3920_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_3920_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3920_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3920_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_3920_1");
     editorCell.setDefaultText("");
     return editorCell;

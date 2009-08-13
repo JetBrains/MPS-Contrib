@@ -22,22 +22,22 @@ public class LayoutConstraint_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_6069_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_6069_0");
-    editorCell.addEditorCell(this.createConstant_6069_0(editorContext, node, "layout constraint"));
-    editorCell.addEditorCell(this.createConstant_6069_1(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_6069_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6069_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_6069_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6069_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6069_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "layout constraint");
     editorCell.setCellId("Constant_6069_0");
     Stylesheet_StyleSheet.getLayoutConstraint(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6069_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6069_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_6069_1");
     editorCell.setDefaultText("");
     return editorCell;

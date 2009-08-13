@@ -29,7 +29,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_1454_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_1454_0");
-    editorCell.addEditorCell(this.createConstant_1454_0(editorContext, node, "Scroller"));
+    editorCell.addEditorCell(this.createConstant_1454_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_1454_1(editorContext, node));
     return editorCell;
   }
@@ -46,8 +46,8 @@ public class Scroller_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_1454_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_1454_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Scroller");
     editorCell.setCellId("Constant_1454_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
