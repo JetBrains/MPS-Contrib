@@ -23,13 +23,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GConditionalLine_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_7239_0;
+  private AbstractCellListHandler myListHandler_7239_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_7239_0(context, node);
   }
 
-  public EditorCell createCollection_7239_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_7239_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_7239_0");
     editorCell.addEditorCell(this.createConstant_7239_0(context, node, ">"));
@@ -39,21 +39,21 @@ public class GConditionalLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7239_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7239_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7239_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_7239_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7239_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7239_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_7239_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_7239_0(EditorContext context, SNode node) {
     if (this.myListHandler_7239_0 == null) {
       this.myListHandler_7239_0 = new GConditionalLine_Editor.itemListHandler_7239_0(node, "item", context);
     }
@@ -63,7 +63,7 @@ public class GConditionalLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_7239_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_7239_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("isSeparate");
     provider.setNoTargetText("<no isSeparate>");
@@ -81,7 +81,7 @@ public class GConditionalLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class itemListHandler_7239_0 extends RefNodeListHandler {
+  private static class itemListHandler_7239_0 extends RefNodeListHandler {
 
     public itemListHandler_7239_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

@@ -14,7 +14,7 @@ public class FormatToken_Editor extends DefaultNodeEditor {
     return this.createError_3286_0(context, node);
   }
 
-  public EditorCell createError_3286_0(EditorContext context, SNode node) {
+  private EditorCell createError_3286_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "format token");
     editorCell.setCellId("Error_3286_0");
     return editorCell;

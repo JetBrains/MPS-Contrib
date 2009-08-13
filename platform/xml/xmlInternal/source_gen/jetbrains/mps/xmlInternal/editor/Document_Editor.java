@@ -18,7 +18,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return this.createCollection_8673_0(context, node);
   }
 
-  public EditorCell createCollection_8673_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8673_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_8673_0");
     editorCell.addEditorCell(this.createRefNode_8673_1(context, node));
@@ -26,7 +26,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_8673_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_8673_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rootElement");
     provider.setNoTargetText("<no rootElement>");
@@ -43,7 +43,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_8673_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_8673_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("prolog");
     provider.setNoTargetText("<no prolog>");

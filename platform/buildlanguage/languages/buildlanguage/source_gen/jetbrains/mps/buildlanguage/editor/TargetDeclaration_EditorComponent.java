@@ -24,7 +24,7 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
 
-  /* package */AbstractCellListHandler myListHandler_8362_0;
+  private AbstractCellListHandler myListHandler_8362_0;
 
   public TargetDeclaration_EditorComponent(SNode node) {
     super(node);
@@ -38,7 +38,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     return this.createCollection_8362_1(context, node);
   }
 
-  public EditorCell createCollection_8362_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8362_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8362_0");
     editorCell.addEditorCell(this.createConstant_8362_0(context, node, "depends"));
@@ -47,7 +47,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     return editorCell;
   }
 
-  public EditorCell createCollection_8362_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_8362_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8362_1");
     {
@@ -60,21 +60,21 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     return editorCell;
   }
 
-  public EditorCell createConstant_8362_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8362_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8362_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_8362_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8362_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8362_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8362_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8362_0(EditorContext context, SNode node) {
     if (this.myListHandler_8362_0 == null) {
       this.myListHandler_8362_0 = new TargetDeclaration_EditorComponent.dependsListHandler_8362_0(node, "depends", context);
     }
@@ -85,11 +85,11 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
   }
 
 
-  public static boolean renderingCondition8362_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition8362_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
   }
 
-  public static class dependsListHandler_8362_0 extends RefNodeListHandler {
+  private static class dependsListHandler_8362_0 extends RefNodeListHandler {
 
     public dependsListHandler_8362_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

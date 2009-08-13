@@ -22,7 +22,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class BaseElement_attributeList extends AbstractCellProvider {
 
-  /* package */AbstractCellListHandler myListHandler_0618_0;
+  private AbstractCellListHandler myListHandler_0618_0;
 
   public BaseElement_attributeList(SNode node) {
     super(node);
@@ -36,14 +36,14 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     return this.createCollection_0618_0(context, node);
   }
 
-  public EditorCell createCollection_0618_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_0618_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_0618_0");
     editorCell.addEditorCell(this.createRefNodeList_0618_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_0618_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_0618_0(EditorContext context, SNode node) {
     if (this.myListHandler_0618_0 == null) {
       this.myListHandler_0618_0 = new BaseElement_attributeList.attributeListHandler_0618_0(node, "attribute", context);
     }
@@ -57,7 +57,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     return editorCell;
   }
 
-  public static class attributeListHandler_0618_0 extends RefNodeListHandler {
+  private static class attributeListHandler_0618_0 extends RefNodeListHandler {
 
     public attributeListHandler_0618_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -110,7 +110,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
       }
     }
 
-    public EditorCell createConstant_0618_0(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_0618_0(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_0618_0");
       XmlStyle_StyleSheet.getXmlEmptyCell(editorCell).apply(editorCell);

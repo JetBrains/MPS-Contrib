@@ -34,14 +34,14 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     return this.createCollection_4639_0(context, node);
   }
 
-  public EditorCell createCollection_4639_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_4639_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_4639_0");
     editorCell.addEditorCell(this.createRefCell_4639_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefCell_4639_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_4639_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
@@ -77,7 +77,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
       return this.createReadOnlyModelAccessor_4639_0(context, node);
     }
 
-    public EditorCell createReadOnlyModelAccessor_4639_0(final EditorContext context, final SNode node) {
+    private EditorCell createReadOnlyModelAccessor_4639_0(final EditorContext context, final SNode node) {
       EditorCell_Property editorCell = EditorCell_Property.create(context, new ModelAccessor() {
 
         public String getText() {

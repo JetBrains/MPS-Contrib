@@ -21,14 +21,14 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class DeclarationBlock_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_8297_0;
-  /* package */AbstractCellListHandler myListHandler_8297_1;
+  private AbstractCellListHandler myListHandler_8297_0;
+  private AbstractCellListHandler myListHandler_8297_1;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_8297_0(context, node);
   }
 
-  public EditorCell createCollection_8297_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8297_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_8297_0");
     editorCell.addEditorCell(this.createRefNodeList_8297_0(context, node));
@@ -38,7 +38,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8297_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_8297_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8297_1");
     {
@@ -50,7 +50,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8297_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8297_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8297_0");
     {
@@ -61,7 +61,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8297_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8297_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8297_1");
     {
@@ -72,7 +72,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8297_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8297_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8297_2");
     {
@@ -83,7 +83,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8297_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8297_0(EditorContext context, SNode node) {
     if (this.myListHandler_8297_0 == null) {
       this.myListHandler_8297_0 = new DeclarationBlock_Editor.textLineListHandler_8297_0(node, "textLine", context);
     }
@@ -93,7 +93,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8297_1(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8297_1(EditorContext context, SNode node) {
     if (this.myListHandler_8297_1 == null) {
       this.myListHandler_8297_1 = new DeclarationBlock_Editor.declarationListHandler_8297_0(node, "declaration", context);
     }
@@ -103,7 +103,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class textLineListHandler_8297_0 extends RefNodeListHandler {
+  private static class textLineListHandler_8297_0 extends RefNodeListHandler {
 
     public textLineListHandler_8297_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -146,7 +146,7 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class declarationListHandler_8297_0 extends RefNodeListHandler {
+  private static class declarationListHandler_8297_0 extends RefNodeListHandler {
 
     public declarationListHandler_8297_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

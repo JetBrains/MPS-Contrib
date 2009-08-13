@@ -31,7 +31,7 @@ public class XmlSchema_StyleSheet {
     return style;
   }
 
-  public static Color _StyleParameter_QueryFunction_1189991412577(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_1189991412577(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 

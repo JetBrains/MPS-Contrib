@@ -18,7 +18,7 @@ public class EntityLine_Editor extends DefaultNodeEditor {
     return this.createCollection_8331_0(context, node);
   }
 
-  public EditorCell createCollection_8331_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8331_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8331_0");
     editorCell.addEditorCell(this.createRefNode_8331_0(context, node));
@@ -26,7 +26,7 @@ public class EntityLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_8331_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_8331_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("entityDeclaration");
     provider.setNoTargetText("<no entityDeclaration>");
@@ -43,7 +43,7 @@ public class EntityLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_8331_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_8331_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("comment");
     provider.setNoTargetText("<no comment>");

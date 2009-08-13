@@ -21,7 +21,7 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
     return this.createCollection_6238_0(context, node);
   }
 
-  public EditorCell createCollection_6238_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_6238_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_6238_0");
     {
@@ -34,14 +34,14 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6238_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6238_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6238_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_6238_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_6238_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("numberOfSymbols");
     provider.setNoTargetText("<no numberOfSymbols>");
@@ -59,7 +59,7 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_6238_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_6238_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("meaning");
     provider.setNoTargetText("<no meaning>");

@@ -23,7 +23,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return this.createCollection_9557_0(context, node);
   }
 
-  public EditorCell createCollection_9557_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9557_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9557_0");
     editorCell.addEditorCell(this.createRefNode_9557_1(context, node));
@@ -36,7 +36,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9557_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9557_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9557_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
@@ -44,7 +44,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9557_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9557_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9557_1");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
@@ -52,7 +52,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9557_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9557_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9557_2");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
@@ -60,7 +60,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9557_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9557_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9557_3");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
@@ -68,7 +68,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_9557_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_9557_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
@@ -86,7 +86,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_9557_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_9557_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("expression");
     provider.setNoTargetText("<no expression>");
@@ -103,7 +103,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_9557_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_9557_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
@@ -134,7 +134,7 @@ public class DateTimeWithPropertyOperation_Editor extends DefaultNodeEditor {
       return this.createProperty_9557_0(context, node);
     }
 
-    public EditorCell createProperty_9557_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_9557_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

@@ -22,13 +22,13 @@ import jetbrains.mps.nodeEditor.MPSColors;
 
 public class GLine_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_6865_0;
+  private AbstractCellListHandler myListHandler_6865_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_6865_0(context, node);
   }
 
-  public EditorCell createCollection_6865_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_6865_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_6865_0");
     {
@@ -40,14 +40,14 @@ public class GLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6865_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6865_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6865_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_6865_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_6865_0(EditorContext context, SNode node) {
     if (this.myListHandler_6865_0 == null) {
       this.myListHandler_6865_0 = new GLine_Editor.itemListHandler_6865_0(node, "item", context);
     }
@@ -57,7 +57,7 @@ public class GLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class itemListHandler_6865_0 extends RefNodeListHandler {
+  private static class itemListHandler_6865_0 extends RefNodeListHandler {
 
     public itemListHandler_6865_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -103,7 +103,7 @@ public class GLine_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_6865_1(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_6865_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_6865_1");
       {

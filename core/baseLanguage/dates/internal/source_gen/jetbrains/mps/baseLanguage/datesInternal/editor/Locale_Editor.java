@@ -21,7 +21,7 @@ public class Locale_Editor extends DefaultNodeEditor {
     return this.createCollection_9646_0(context, node);
   }
 
-  public EditorCell createCollection_9646_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9646_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9646_0");
     editorCell.addEditorCell(this.createConstant_9646_0(context, node, "locale"));
@@ -31,7 +31,7 @@ public class Locale_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9646_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9646_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9646_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -39,14 +39,14 @@ public class Locale_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9646_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9646_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9646_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_9646_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_9646_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -65,7 +65,7 @@ public class Locale_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_9646_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_9646_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("javaLocale");
     provider.setNoTargetText("<no javaLocale>");

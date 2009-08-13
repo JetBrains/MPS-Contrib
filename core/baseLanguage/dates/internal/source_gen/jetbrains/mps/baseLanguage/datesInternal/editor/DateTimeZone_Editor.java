@@ -31,7 +31,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return this.createCollection_5525_0(context, node);
   }
 
-  public EditorCell createCollection_5525_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_5525_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_5525_0");
     editorCell.addEditorCell(this.createConstant_5525_0(context, node, "datetime"));
@@ -44,7 +44,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_5525_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5525_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5525_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -52,7 +52,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_5525_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5525_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5525_1");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
@@ -60,7 +60,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_5525_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5525_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5525_2");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -68,7 +68,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_5525_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5525_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5525_3");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
@@ -80,7 +80,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_5525_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_5525_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -99,7 +99,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_5525_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_5525_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("continentOfCountry");
     provider.setNoTargetText("continent");
@@ -119,7 +119,7 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_5525_2(EditorContext context, SNode node) {
+  private EditorCell createProperty_5525_2(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("country");
     provider.setNoTargetText("country");

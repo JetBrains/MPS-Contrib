@@ -27,7 +27,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     return this.createCollection_3248_1(context, node);
   }
 
-  public EditorCell createCollection_3248_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3248_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_3248_0");
     editorCell.addEditorCell(this.createRefNode_3248_0(context, node));
@@ -36,7 +36,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3248_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_3248_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3248_1");
     editorCell.addEditorCell(this.createConstant_3248_1(context, node, "absolute"));
@@ -44,7 +44,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3248_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3248_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3248_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
@@ -52,14 +52,14 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3248_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3248_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3248_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefCell_3248_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_3248_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
@@ -77,7 +77,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_3248_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_3248_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("absolute");
     provider.setNoTargetText("<no absolute>");
@@ -95,7 +95,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_3248_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_3248_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
@@ -126,7 +126,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
       return this.createProperty_3248_0(context, node);
     }
 
-    public EditorCell createProperty_3248_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_3248_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("pluralForm");
       provider.setNoTargetText("<no pluralForm>");

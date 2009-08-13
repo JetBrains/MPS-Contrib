@@ -23,13 +23,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GSeparatorItemList_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1453_0;
+  private AbstractCellListHandler myListHandler_1453_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_1453_0(context, node);
   }
 
-  public EditorCell createCollection_1453_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_1453_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_1453_0");
     editorCell.setUsesBraces(true);
@@ -39,7 +39,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_1453_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_1453_0(EditorContext context, SNode node) {
     if (this.myListHandler_1453_0 == null) {
       this.myListHandler_1453_0 = new GSeparatorItemList_Editor.itemListHandler_1453_0(node, "item", context);
     }
@@ -49,7 +49,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_1453_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_1453_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("separator");
     provider.setNoTargetText("<no separator>");
@@ -66,7 +66,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConceptProperty_1453_0(EditorContext context, SNode node) {
+  private EditorCell createConceptProperty_1453_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
@@ -84,7 +84,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class itemListHandler_1453_0 extends RefNodeListHandler {
+  private static class itemListHandler_1453_0 extends RefNodeListHandler {
 
     public itemListHandler_1453_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

@@ -17,7 +17,7 @@ public class SimpleContent_Editor extends DefaultNodeEditor {
     return this.createConstant_4091_0(context, node, "simpleContent");
   }
 
-  public EditorCell createConstant_4091_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4091_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4091_0");
     {

@@ -23,7 +23,7 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     return this.createCollection_4337_0(context, node);
   }
 
-  public EditorCell createCollection_4337_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_4337_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_4337_0");
     editorCell.addEditorCell(this.createConstant_4337_0(context, node, "group"));
@@ -33,7 +33,7 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4337_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4337_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4337_0");
     {
@@ -44,14 +44,14 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4337_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4337_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4337_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_4337_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_4337_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("groupName");
     provider.setNoTargetText("<no groupName>");
@@ -73,7 +73,7 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_4337_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_4337_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("groupExpression");
     provider.setNoTargetText("<no groupExpression>");

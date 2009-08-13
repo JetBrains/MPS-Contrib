@@ -23,7 +23,7 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     return this.createCollection_5624_0(context, node);
   }
 
-  public EditorCell createCollection_5624_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_5624_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_5624_0");
     editorCell.addEditorCell(this.createConstant_5624_0(context, node, "document statement"));
@@ -31,7 +31,7 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_5624_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_5624_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_5624_1");
     {
@@ -43,7 +43,7 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_5624_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5624_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5624_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -51,12 +51,12 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell5624_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell5624_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createRefNode_5624_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_5624_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("document");
     provider.setNoTargetText("<no document>");

@@ -25,7 +25,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     return this.createCollection_5077_0(context, node);
   }
 
-  public EditorCell createCollection_5077_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_5077_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_5077_0");
     editorCell.addEditorCell(this.createCollection_5077_1(context, node));
@@ -34,14 +34,14 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_5077_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_5077_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_5077_1");
     editorCell.addEditorCell(this.createRefNode_5077_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstant_5077_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5077_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5077_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
@@ -49,7 +49,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_5077_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_5077_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("format");
     provider.setNoTargetText("<no format>");
@@ -67,7 +67,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_5077_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_5077_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("condition");
     provider.setNoTargetText("<no condition>");
@@ -102,7 +102,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
       return this.createProperty_5077_0(context, node);
     }
 
-    public EditorCell createProperty_5077_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_5077_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

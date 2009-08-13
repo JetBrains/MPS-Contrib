@@ -30,16 +30,16 @@ import jetbrains.mps.nodeEditor.FocusPolicy;
 
 public class ContentList_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_8357_0;
-  /* package */AbstractCellListHandler myListHandler_8357_1;
-  /* package */AbstractCellListHandler myListHandler_8357_2;
-  /* package */AbstractCellListHandler myListHandler_8357_3;
+  private AbstractCellListHandler myListHandler_8357_0;
+  private AbstractCellListHandler myListHandler_8357_1;
+  private AbstractCellListHandler myListHandler_8357_2;
+  private AbstractCellListHandler myListHandler_8357_3;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createAlternation_8357_0(context, node);
   }
 
-  public EditorCell createAlternation_8357_0(EditorContext context, SNode node) {
+  private EditorCell createAlternation_8357_0(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = ContentList_Editor.renderingCondition8357_0(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -52,7 +52,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createAlternation_8357_1(EditorContext context, SNode node) {
+  private EditorCell createAlternation_8357_1(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = ContentList_Editor.renderingCondition8357_1(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -65,7 +65,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createAlternation_8357_2(EditorContext context, SNode node) {
+  private EditorCell createAlternation_8357_2(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = ContentList_Editor.renderingCondition8357_2(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -78,7 +78,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8357_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8357_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_8357_0");
     editorCell.addEditorCell(this.createConstant_8357_0(context, node, "("));
@@ -87,7 +87,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8357_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_8357_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8357_1");
     {
@@ -99,7 +99,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8357_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_8357_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8357_2");
     editorCell.addEditorCell(this.createConstant_8357_4(context, node, "("));
@@ -108,7 +108,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8357_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8357_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8357_0");
     XmlStyle_StyleSheet.getXmlOpenBrace(editorCell).apply(editorCell);
@@ -121,7 +121,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8357_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8357_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8357_3");
     XmlStyle_StyleSheet.getXmlCloseBrace(editorCell).apply(editorCell);
@@ -133,7 +133,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8357_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8357_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8357_4");
     XmlStyle_StyleSheet.getXmlCLOpenParen(editorCell).apply(editorCell);
@@ -141,7 +141,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8357_6(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8357_6(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8357_6");
     XmlStyle_StyleSheet.getXmlCLCloseParen(editorCell).apply(editorCell);
@@ -149,7 +149,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8357_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8357_0(EditorContext context, SNode node) {
     if (this.myListHandler_8357_0 == null) {
       this.myListHandler_8357_0 = new ContentList_Editor.contentListHandler_8357_0(node, "content", context);
     }
@@ -159,7 +159,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8357_1(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8357_1(EditorContext context, SNode node) {
     if (this.myListHandler_8357_1 == null) {
       this.myListHandler_8357_1 = new ContentList_Editor.contentListHandler_8357_1(node, "content", context);
     }
@@ -173,7 +173,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8357_2(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8357_2(EditorContext context, SNode node) {
     if (this.myListHandler_8357_2 == null) {
       this.myListHandler_8357_2 = new ContentList_Editor.contentListHandler_8357_2(node, "content", context);
     }
@@ -187,7 +187,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8357_3(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8357_3(EditorContext context, SNode node) {
     if (this.myListHandler_8357_3 == null) {
       this.myListHandler_8357_3 = new ContentList_Editor.contentListHandler_8357_3(node, "content", context);
     }
@@ -201,25 +201,25 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell8357_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell8357_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
 
-  public static boolean renderingCondition8357_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition8357_0(SNode node, EditorContext editorContext, IScope scope) {
     return ContentList_Behavior.call_isHorizontal_1221256530294(node);
   }
 
-  public static boolean renderingCondition8357_1(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition8357_1(SNode node, EditorContext editorContext, IScope scope) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.ContentList");
   }
 
-  public static boolean renderingCondition8357_2(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition8357_2(SNode node, EditorContext editorContext, IScope scope) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.xml.structure.BaseElement");
   }
 
-  public static class contentListHandler_8357_0 extends RefNodeListHandler {
+  private static class contentListHandler_8357_0 extends RefNodeListHandler {
 
     public contentListHandler_8357_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -265,7 +265,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_8357_1(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_8357_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_8357_1");
       {
@@ -277,7 +277,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class contentListHandler_8357_1 extends RefNodeListHandler {
+  private static class contentListHandler_8357_1 extends RefNodeListHandler {
 
     public contentListHandler_8357_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -323,7 +323,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_8357_2(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_8357_2(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_8357_2");
       {
@@ -335,7 +335,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class contentListHandler_8357_2 extends RefNodeListHandler {
+  private static class contentListHandler_8357_2 extends RefNodeListHandler {
 
     public contentListHandler_8357_2(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -381,7 +381,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_8357_5(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_8357_5(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_8357_5");
       {
@@ -393,7 +393,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class contentListHandler_8357_3 extends RefNodeListHandler {
+  private static class contentListHandler_8357_3 extends RefNodeListHandler {
 
     public contentListHandler_8357_3(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -439,7 +439,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_8357_7(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_8357_7(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_8357_7");
       {

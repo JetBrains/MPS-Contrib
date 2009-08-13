@@ -28,13 +28,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class AttributeGroup_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1527_0;
+  private AbstractCellListHandler myListHandler_1527_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_1527_0(context, node);
   }
 
-  public EditorCell createCollection_1527_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_1527_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_1527_0");
     editorCell.addEditorCell(this.createConstant_1527_0(context, node, "attributeGroup"));
@@ -44,7 +44,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_1527_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_1527_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_1527_0");
     {
@@ -55,14 +55,14 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_1527_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_1527_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_1527_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_1527_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_1527_0(EditorContext context, SNode node) {
     if (this.myListHandler_1527_0 == null) {
       this.myListHandler_1527_0 = new AttributeGroup_Editor.attributeExpressionListHandler_1527_0(node, "attributeExpression", context);
     }
@@ -72,7 +72,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_1527_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_1527_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("attributeGroupName");
     provider.setNoTargetText("<no attributeGroupName>");
@@ -95,7 +95,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class attributeExpressionListHandler_1527_0 extends RefNodeListHandler {
+  private static class attributeExpressionListHandler_1527_0 extends RefNodeListHandler {
 
     public attributeExpressionListHandler_1527_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -148,7 +148,7 @@ public class AttributeGroup_Editor extends DefaultNodeEditor {
       }
     }
 
-    public EditorCell createConstant_1527_1(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_1527_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_1527_1");
       editorCell.setDefaultText("");

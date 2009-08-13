@@ -24,15 +24,15 @@ import jetbrains.mps.nodeEditor.MPSColors;
 
 public class FormatTokenSettings_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_0889_0;
-  /* package */AbstractCellListHandler myListHandler_0889_1;
-  /* package */AbstractCellListHandler myListHandler_0889_2;
+  private AbstractCellListHandler myListHandler_0889_0;
+  private AbstractCellListHandler myListHandler_0889_1;
+  private AbstractCellListHandler myListHandler_0889_2;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_0889_0(context, node);
   }
 
-  public EditorCell createCollection_0889_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_0889_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_0889_0");
     editorCell.addEditorCell(this.createConstant_0889_0(context, node, "Date/Time formatter settings"));
@@ -42,7 +42,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_0889_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_0889_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_0889_1");
     {
@@ -59,7 +59,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_0889_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_0889_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_0889_2");
     {
@@ -73,7 +73,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_0889_3(EditorContext context, SNode node) {
+  private EditorCell createCollection_0889_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_0889_3");
     {
@@ -85,7 +85,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -93,7 +93,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_1");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
@@ -106,7 +106,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_2");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
@@ -119,7 +119,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_4");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -131,7 +131,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_6(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_6(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_6");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
@@ -143,7 +143,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_7(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_7(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_7");
     {
@@ -155,7 +155,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_9(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_9(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_9");
     {
@@ -167,7 +167,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0889_10(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0889_10(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0889_10");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
@@ -175,7 +175,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_0889_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_0889_0(EditorContext context, SNode node) {
     if (this.myListHandler_0889_0 == null) {
       this.myListHandler_0889_0 = new FormatTokenSettings_Editor.predefinedDateFormatListHandler_0889_0(node, "predefinedDateFormat", context);
     }
@@ -190,7 +190,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_0889_1(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_0889_1(EditorContext context, SNode node) {
     if (this.myListHandler_0889_1 == null) {
       this.myListHandler_0889_1 = new FormatTokenSettings_Editor.dateTimePropertyCardinalityListHandler_0889_0(node, "dateTimePropertyCardinality", context);
     }
@@ -206,7 +206,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_0889_2(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_0889_2(EditorContext context, SNode node) {
     if (this.myListHandler_0889_2 == null) {
       this.myListHandler_0889_2 = new FormatTokenSettings_Editor.dateTimePropertyFormatConfigurationListHandler_0889_0(node, "dateTimePropertyFormatConfiguration", context);
     }
@@ -221,7 +221,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class predefinedDateFormatListHandler_0889_0 extends RefNodeListHandler {
+  private static class predefinedDateFormatListHandler_0889_0 extends RefNodeListHandler {
 
     public predefinedDateFormatListHandler_0889_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -267,7 +267,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_0889_3(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_0889_3(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_0889_3");
       {
@@ -279,7 +279,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class dateTimePropertyCardinalityListHandler_0889_0 extends RefNodeListHandler {
+  private static class dateTimePropertyCardinalityListHandler_0889_0 extends RefNodeListHandler {
 
     public dateTimePropertyCardinalityListHandler_0889_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -325,7 +325,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_0889_5(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_0889_5(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_0889_5");
       {
@@ -337,7 +337,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class dateTimePropertyFormatConfigurationListHandler_0889_0 extends RefNodeListHandler {
+  private static class dateTimePropertyFormatConfigurationListHandler_0889_0 extends RefNodeListHandler {
 
     public dateTimePropertyFormatConfigurationListHandler_0889_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -383,7 +383,7 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_0889_8(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_0889_8(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_0889_8");
       {

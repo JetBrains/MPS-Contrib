@@ -20,20 +20,20 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class MultiLineString_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_9490_0;
+  private AbstractCellListHandler myListHandler_9490_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_9490_0(context, node);
   }
 
-  public EditorCell createCollection_9490_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9490_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9490_0");
     editorCell.addEditorCell(this.createRefNodeList_9490_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_9490_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_9490_0(EditorContext context, SNode node) {
     if (this.myListHandler_9490_0 == null) {
       this.myListHandler_9490_0 = new MultiLineString_Editor.stringExpressionListHandler_9490_0(node, "stringExpression", context);
     }
@@ -47,7 +47,7 @@ public class MultiLineString_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class stringExpressionListHandler_9490_0 extends RefNodeListHandler {
+  private static class stringExpressionListHandler_9490_0 extends RefNodeListHandler {
 
     public stringExpressionListHandler_9490_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

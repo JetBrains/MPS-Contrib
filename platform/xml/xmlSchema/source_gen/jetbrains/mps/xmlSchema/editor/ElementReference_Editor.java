@@ -25,14 +25,14 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     return this.createCollection_9443_0(context, node);
   }
 
-  public EditorCell createCollection_9443_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9443_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9443_0");
     editorCell.addEditorCell(this.createRefCell_9443_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefCell_9443_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_9443_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
@@ -68,7 +68,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       return this.createProperty_9443_0(context, node);
     }
 
-    public EditorCell createProperty_9443_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_9443_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("elementName");
       provider.setNoTargetText("<no elementName>");
@@ -82,7 +82,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
         style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
           public Color calculate(EditorCell cell) {
-            return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_4322628721828441228((cell == null ?
+            return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_1767562947360136220((cell == null ?
               null :
               cell.getSNode()
             ), (cell == null ?
@@ -104,7 +104,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     }
 
 
-    public static Color _StyleParameter_QueryFunction_4322628721828441228(SNode node, EditorContext editorContext) {
+    private static Color _StyleParameter_QueryFunction_1767562947360136220(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
 

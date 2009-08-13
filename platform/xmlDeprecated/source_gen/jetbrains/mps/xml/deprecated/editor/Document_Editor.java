@@ -22,7 +22,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return this.createCollection_8673_0(context, node);
   }
 
-  public EditorCell createCollection_8673_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8673_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_8673_0");
     editorCell.addEditorCell(this.createCollection_8673_1(context, node));
@@ -32,7 +32,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8673_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_8673_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8673_1");
     {
@@ -46,7 +46,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8673_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8673_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8673_0");
     XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
@@ -54,7 +54,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8673_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8673_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8673_1");
     {
@@ -65,7 +65,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8673_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8673_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8673_2");
     XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
@@ -78,7 +78,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8673_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_8673_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("?name?");
@@ -97,7 +97,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_8673_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_8673_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rootElement");
     provider.setNoTargetText("<no root element>");
@@ -114,7 +114,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_8673_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_8673_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("doctype");
     provider.setNoTargetText("<no doctype>");
@@ -131,7 +131,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8673_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_8673_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("extension");
     provider.setNoTargetText("<no extension>");

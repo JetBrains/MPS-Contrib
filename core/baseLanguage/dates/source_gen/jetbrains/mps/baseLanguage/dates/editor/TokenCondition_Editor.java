@@ -27,7 +27,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return this.createCollection_4438_0(context, node);
   }
 
-  public EditorCell createCollection_4438_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_4438_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_4438_0");
     editorCell.addEditorCell(this.createConstant_4438_1(context, node, "parameters:"));
@@ -40,7 +40,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_4438_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_4438_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_4438_1");
     editorCell.addEditorCell(this.createConstant_4438_2(context, node, ">"));
@@ -48,7 +48,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_0");
     {
@@ -60,7 +60,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_1");
     {
@@ -72,7 +72,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_2");
     {
@@ -83,7 +83,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_3");
     {
@@ -95,7 +95,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_4");
     {
@@ -107,7 +107,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_5(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_5(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_5");
     {
@@ -119,7 +119,7 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_6(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_6(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_6");
     {
@@ -131,14 +131,14 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4438_7(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4438_7(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4438_7");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNode_4438_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_4438_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("body");
     provider.setNoTargetText("<no body>");

@@ -25,7 +25,7 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
     return this.createCollection_2473_0(context, node);
   }
 
-  public EditorCell createCollection_2473_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_2473_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_2473_0");
     {
@@ -40,7 +40,7 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2473_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_2473_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2473_1");
     {
@@ -54,7 +54,7 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2473_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_2473_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2473_2");
     {
@@ -66,14 +66,14 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2473_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2473_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2473_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_2473_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2473_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2473_1");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
@@ -81,7 +81,7 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2473_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2473_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2473_2");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
@@ -89,12 +89,12 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell2473_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell2473_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createRefNode_2473_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_2473_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("body");
     provider.setNoTargetText("<no body>");
@@ -116,11 +116,11 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition2473_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition2473_0(SNode node, EditorContext editorContext, IScope scope) {
     return BlockCells.useBraces();
   }
 
-  public static boolean renderingCondition2473_1(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition2473_1(SNode node, EditorContext editorContext, IScope scope) {
     return BlockCells.useBraces();
   }
 

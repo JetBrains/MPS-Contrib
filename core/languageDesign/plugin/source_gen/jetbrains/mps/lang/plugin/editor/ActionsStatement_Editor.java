@@ -20,13 +20,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class ActionsStatement_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_2822_0;
+  private AbstractCellListHandler myListHandler_2822_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_2822_0(context, node);
   }
 
-  public EditorCell createCollection_2822_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_2822_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2822_0");
     editorCell.addEditorCell(this.createConstant_2822_0(context, node, "actions"));
@@ -35,14 +35,14 @@ public class ActionsStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2822_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2822_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2822_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_2822_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2822_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2822_1");
     BaseLanguageStyle_StyleSheet.getSemicolon(editorCell).apply(editorCell);
@@ -50,7 +50,7 @@ public class ActionsStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_2822_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_2822_0(EditorContext context, SNode node) {
     if (this.myListHandler_2822_0 == null) {
       this.myListHandler_2822_0 = new ActionsStatement_Editor.actionListHandler_2822_0(node, "action", context);
     }
@@ -60,7 +60,7 @@ public class ActionsStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class actionListHandler_2822_0 extends RefNodeListHandler {
+  private static class actionListHandler_2822_0 extends RefNodeListHandler {
 
     public actionListHandler_2822_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

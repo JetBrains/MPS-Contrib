@@ -20,7 +20,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return this.createCollection_7461_0(context, node);
   }
 
-  public EditorCell createCollection_7461_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_7461_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_7461_0");
     editorCell.addEditorCell(this.createConstant_7461_0(context, node, "xmlns"));
@@ -33,7 +33,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7461_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7461_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7461_0");
     XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
@@ -41,7 +41,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7461_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7461_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7461_1");
     XmlStyle_StyleSheet.getXmlOperator(editorCell).apply(editorCell);
@@ -49,7 +49,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7461_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7461_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7461_2");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
@@ -57,7 +57,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7461_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7461_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7461_3");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
@@ -65,7 +65,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7461_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7461_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7461_4");
     XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
@@ -73,7 +73,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_7461_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_7461_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("uri");
     provider.setNoTargetText("<no uri>");
@@ -92,7 +92,7 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_7461_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_7461_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("prefix");
     provider.setNoTargetText("<no prefix>");

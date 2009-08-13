@@ -20,7 +20,7 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
     return this.createCollection_0183_0(context, node);
   }
 
-  public EditorCell createCollection_0183_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_0183_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_0183_0");
     editorCell.addEditorCell(this.createConstant_0183_1(context, node, "["));
@@ -31,28 +31,28 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0183_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0183_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0183_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_0183_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0183_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0183_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_0183_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0183_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0183_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_0183_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_0183_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("minOccurs");
     provider.setNoTargetText("<no minOccurs>");
@@ -71,7 +71,7 @@ public class OccursAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_0183_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_0183_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("maxOccurs");
     provider.setNoTargetText("<no maxOccurs>");

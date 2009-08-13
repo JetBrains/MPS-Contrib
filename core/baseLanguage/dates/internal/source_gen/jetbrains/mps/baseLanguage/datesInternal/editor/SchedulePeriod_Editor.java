@@ -20,7 +20,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return this.createCollection_8932_0(context, node);
   }
 
-  public EditorCell createCollection_8932_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8932_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8932_0");
     editorCell.addEditorCell(this.createProperty_8932_0(context, node));
@@ -34,14 +34,14 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8932_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8932_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8932_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_8932_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_8932_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -60,7 +60,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8932_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_8932_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("month");
     provider.setNoTargetText("<no month>");
@@ -78,7 +78,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8932_2(EditorContext context, SNode node) {
+  private EditorCell createProperty_8932_2(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("dayOfMonth");
     provider.setNoTargetText("<no dayOfMonth>");
@@ -96,7 +96,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8932_3(EditorContext context, SNode node) {
+  private EditorCell createProperty_8932_3(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("dayOfWeek");
     provider.setNoTargetText("<no dayOfWeek>");
@@ -114,7 +114,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8932_4(EditorContext context, SNode node) {
+  private EditorCell createProperty_8932_4(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("hour");
     provider.setNoTargetText("<no hour>");
@@ -132,7 +132,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8932_5(EditorContext context, SNode node) {
+  private EditorCell createProperty_8932_5(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("minute");
     provider.setNoTargetText("<no minute>");
@@ -150,7 +150,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_8932_6(EditorContext context, SNode node) {
+  private EditorCell createProperty_8932_6(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("second");
     provider.setNoTargetText("<no second>");

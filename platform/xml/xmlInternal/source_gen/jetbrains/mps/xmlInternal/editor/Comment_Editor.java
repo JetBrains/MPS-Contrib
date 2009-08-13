@@ -26,14 +26,14 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Comment_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_3245_0;
-  /* package */AbstractCellListHandler myListHandler_3245_1;
+  private AbstractCellListHandler myListHandler_3245_0;
+  private AbstractCellListHandler myListHandler_3245_1;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createAlternation_3245_0(context, node);
   }
 
-  public EditorCell createAlternation_3245_0(EditorContext context, SNode node) {
+  private EditorCell createAlternation_3245_0(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = Comment_Editor.renderingCondition3245_0(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -46,7 +46,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3245_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3245_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3245_0");
     editorCell.addEditorCell(this.createConstant_3245_0(context, node, "<!--"));
@@ -55,7 +55,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3245_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_3245_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_3245_1");
     editorCell.addEditorCell(this.createConstant_3245_3(context, node, "<!--"));
@@ -64,7 +64,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3245_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_3245_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3245_2");
     {
@@ -76,7 +76,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3245_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3245_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3245_0");
     {
@@ -88,7 +88,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3245_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3245_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3245_2");
     {
@@ -100,7 +100,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3245_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3245_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3245_3");
     {
@@ -112,7 +112,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3245_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3245_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3245_4");
     {
@@ -123,7 +123,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3245_5(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3245_5(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3245_5");
     {
@@ -135,7 +135,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3245_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3245_0(EditorContext context, SNode node) {
     if (this.myListHandler_3245_0 == null) {
       this.myListHandler_3245_0 = new Comment_Editor.textListHandler_3245_0(node, "text", context);
     }
@@ -145,7 +145,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3245_1(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3245_1(EditorContext context, SNode node) {
     if (this.myListHandler_3245_1 == null) {
       this.myListHandler_3245_1 = new Comment_Editor.textListHandler_3245_1(node, "text", context);
     }
@@ -156,11 +156,11 @@ public class Comment_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition3245_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition3245_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getCount(node, "text") <= 1;
   }
 
-  public static class textListHandler_3245_0 extends RefNodeListHandler {
+  private static class textListHandler_3245_0 extends RefNodeListHandler {
 
     public textListHandler_3245_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -206,7 +206,7 @@ public class Comment_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_3245_1(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_3245_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_3245_1");
       editorCell.setDefaultText("");
@@ -214,7 +214,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class textListHandler_3245_1 extends RefNodeListHandler {
+  private static class textListHandler_3245_1 extends RefNodeListHandler {
 
     public textListHandler_3245_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

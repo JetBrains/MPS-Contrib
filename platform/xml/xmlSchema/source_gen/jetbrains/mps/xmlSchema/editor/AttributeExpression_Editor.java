@@ -14,7 +14,7 @@ public class AttributeExpression_Editor extends DefaultNodeEditor {
     return this.createError_3976_0(context, node);
   }
 
-  public EditorCell createError_3976_0(EditorContext context, SNode node) {
+  private EditorCell createError_3976_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "attributeExpression");
     editorCell.setCellId("Error_3976_0");
     return editorCell;

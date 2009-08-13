@@ -26,14 +26,14 @@ public class WithProperty_component extends AbstractCellProvider {
     return this.createCollection_7625_0(context, node);
   }
 
-  public EditorCell createCollection_7625_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_7625_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_7625_0");
     editorCell.addEditorCell(this.createRefNode_7625_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefNode_7625_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_7625_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("operation");
     provider.setNoTargetText("<no operation>");

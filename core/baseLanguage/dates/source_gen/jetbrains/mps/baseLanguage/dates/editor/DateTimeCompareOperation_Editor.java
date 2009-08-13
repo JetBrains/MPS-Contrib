@@ -40,7 +40,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return this.createCollection_9167_1(context, node);
   }
 
-  public EditorCell createCollection_9167_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9167_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9167_0");
     editorCell.addEditorCell(this.createRefNode_9167_0(context, node));
@@ -53,7 +53,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_9167_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_9167_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9167_1");
     editorCell.addEditorCell(this.createConstant_9167_0(context, node, "Compare datetime expressions by"));
@@ -61,7 +61,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_9167_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_9167_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9167_2");
     {
@@ -73,14 +73,14 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9167_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9167_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9167_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_9167_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9167_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9167_1");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
@@ -88,7 +88,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9167_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9167_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9167_2");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
@@ -96,7 +96,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createReadOnlyModelAccessor_9167_0(final EditorContext context, final SNode node) {
+  private EditorCell createReadOnlyModelAccessor_9167_0(final EditorContext context, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(context, new ModelAccessor() {
 
       public String getText() {
@@ -119,7 +119,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_9167_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_9167_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("op1");
     provider.setNoTargetText("<no op1>");
@@ -137,7 +137,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_9167_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_9167_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("compareType");
     provider.setNoTargetText("<no compareType>");
@@ -160,7 +160,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_9167_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_9167_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("op2");
     provider.setNoTargetText("<no op2>");
@@ -182,7 +182,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_9167_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_9167_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
@@ -201,7 +201,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition9167_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition9167_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "datetimeProperty", false) != null);
   }
 
@@ -219,7 +219,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       return this.createProperty_9167_1(context, node);
     }
 
-    public EditorCell createProperty_9167_1(EditorContext context, SNode node) {
+    private EditorCell createProperty_9167_1(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

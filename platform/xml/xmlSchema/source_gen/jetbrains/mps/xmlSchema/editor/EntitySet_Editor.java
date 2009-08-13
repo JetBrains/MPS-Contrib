@@ -30,13 +30,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class EntitySet_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_3021_0;
+  private AbstractCellListHandler myListHandler_3021_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_3021_0(context, node);
   }
 
-  public EditorCell createAlternation_3021_0(EditorContext context, SNode node) {
+  private EditorCell createAlternation_3021_0(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = EntitySet_Editor.renderingCondition3021_0(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -49,7 +49,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3021_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3021_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_3021_0");
     editorCell.addEditorCell(this.createCollection_3021_1(context, node));
@@ -58,7 +58,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3021_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_3021_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3021_1");
     {
@@ -72,14 +72,14 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3021_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3021_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3021_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_3021_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3021_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3021_1");
     {
@@ -90,14 +90,14 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3021_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3021_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3021_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3021_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3021_0(EditorContext context, SNode node) {
     if (this.myListHandler_3021_0 == null) {
       this.myListHandler_3021_0 = new EntitySet_Editor.entityBlockListHandler_3021_0(node, "entityBlock", context);
     }
@@ -107,7 +107,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_3021_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_3021_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("entitySetName");
     provider.setNoTargetText("<no entitySetName>");
@@ -125,7 +125,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_3021_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_3021_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("url");
     provider.setNoTargetText("<no url>");
@@ -144,15 +144,15 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition3021_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition3021_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getString(node, "url") == null;
   }
 
-  public static JComponent _QueryFunction_JComponent_1176495136463(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_1176495136463(SNode node, EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "url"));
   }
 
-  public static class entityBlockListHandler_3021_0 extends RefNodeListHandler {
+  private static class entityBlockListHandler_3021_0 extends RefNodeListHandler {
 
     public entityBlockListHandler_3021_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

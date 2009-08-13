@@ -26,13 +26,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class DateFormatsTable_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_2692_0;
+  private AbstractCellListHandler myListHandler_2692_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_2692_0(context, node);
   }
 
-  public EditorCell createCollection_2692_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_2692_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_2692_0");
     editorCell.addEditorCell(this.createConstant_2692_0(context, node, "formats"));
@@ -43,7 +43,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2692_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2692_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2692_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -51,7 +51,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2692_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2692_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2692_1");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
@@ -63,7 +63,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2692_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2692_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2692_2");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
@@ -75,7 +75,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_2692_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_2692_0(EditorContext context, SNode node) {
     if (this.myListHandler_2692_0 == null) {
       this.myListHandler_2692_0 = new DateFormatsTable_Editor.dateFormatListHandler_2692_0(node, "dateFormat", context);
     }
@@ -91,7 +91,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_2692_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_2692_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -109,7 +109,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class dateFormatListHandler_2692_0 extends RefNodeListHandler {
+  private static class dateFormatListHandler_2692_0 extends RefNodeListHandler {
 
     public dateFormatListHandler_2692_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -155,7 +155,7 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_2692_3(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_2692_3(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_2692_3");
       editorCell.setDefaultText("");

@@ -25,7 +25,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return this.createAlternation_2283_0(context, node);
   }
 
-  public EditorCell createAlternation_2283_0(EditorContext context, SNode node) {
+  private EditorCell createAlternation_2283_0(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = Sequence_Editor.renderingCondition2283_0(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -38,7 +38,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2283_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_2283_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_2283_0");
     editorCell.addEditorCell(this.createConstant_2283_0(context, node, "sequence"));
@@ -46,7 +46,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2283_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_2283_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2283_1");
     {
@@ -58,7 +58,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2283_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_2283_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2283_2");
     editorCell.addEditorCell(this.createConstant_2283_2(context, node, "sequence"));
@@ -68,7 +68,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2283_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2283_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2283_0");
     {
@@ -79,7 +79,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2283_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2283_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2283_1");
     {
@@ -90,7 +90,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2283_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2283_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2283_2");
     {
@@ -101,21 +101,21 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2283_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2283_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2283_3");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_2283_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2283_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2283_4");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNode_2283_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_2283_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("typeExpressionList");
     provider.setNoTargetText("<no typeExpressionList>");
@@ -132,7 +132,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_2283_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_2283_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("typeExpressionList");
     provider.setNoTargetText("<no typeExpressionList>");
@@ -150,7 +150,7 @@ public class Sequence_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition2283_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition2283_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "typeExpressionList", true), "isVertical");
   }
 

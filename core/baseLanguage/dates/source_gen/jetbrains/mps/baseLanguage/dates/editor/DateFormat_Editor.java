@@ -26,13 +26,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class DateFormat_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_0713_0;
+  private AbstractCellListHandler myListHandler_0713_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_0713_0(context, node);
   }
 
-  public EditorCell createCollection_0713_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_0713_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_0713_0");
     editorCell.addEditorCell(this.createProperty_0713_1(context, node));
@@ -42,7 +42,7 @@ public class DateFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0713_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0713_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0713_0");
     {
@@ -53,7 +53,7 @@ public class DateFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_0713_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_0713_0(EditorContext context, SNode node) {
     if (this.myListHandler_0713_0 == null) {
       this.myListHandler_0713_0 = new DateFormat_Editor.tokenListHandler_0713_0(node, "token", context);
     }
@@ -63,7 +63,7 @@ public class DateFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_0713_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_0713_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -82,7 +82,7 @@ public class DateFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_0713_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_0713_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("dateFormatVisibility");
     provider.setNoTargetText("<no dateFormatVisibility>");
@@ -101,7 +101,7 @@ public class DateFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class tokenListHandler_0713_0 extends RefNodeListHandler {
+  private static class tokenListHandler_0713_0 extends RefNodeListHandler {
 
     public tokenListHandler_0713_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -147,7 +147,7 @@ public class DateFormat_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_0713_1(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_0713_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_0713_1");
       editorCell.setDefaultText("");

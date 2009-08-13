@@ -19,7 +19,7 @@ public class UseAttribute_Editor extends DefaultNodeEditor {
     return this.createCollection_5639_0(context, node);
   }
 
-  public EditorCell createCollection_5639_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_5639_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_5639_0");
     editorCell.addEditorCell(this.createConstant_5639_0(context, node, "["));
@@ -28,21 +28,21 @@ public class UseAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_5639_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5639_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5639_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_5639_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5639_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5639_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_5639_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_5639_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("use");
     provider.setNoTargetText("<no use>");

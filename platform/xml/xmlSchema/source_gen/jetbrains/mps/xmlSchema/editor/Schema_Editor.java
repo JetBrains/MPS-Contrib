@@ -30,13 +30,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Schema_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_3461_0;
+  private AbstractCellListHandler myListHandler_3461_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_3461_0(context, node);
   }
 
-  public EditorCell createCollection_3461_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3461_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_3461_0");
     editorCell.addEditorCell(this.createCollection_3461_1(context, node));
@@ -49,7 +49,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3461_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_3461_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3461_1");
     {
@@ -62,7 +62,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3461_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_3461_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3461_2");
     {
@@ -78,7 +78,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3461_3(EditorContext context, SNode node) {
+  private EditorCell createCollection_3461_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3461_3");
     {
@@ -90,14 +90,14 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_1");
     {
@@ -108,14 +108,14 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_3");
     {
@@ -126,28 +126,28 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_4");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_5(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_5(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_5");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_6(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_6(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_6");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_7(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_7(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_7");
     {
@@ -158,14 +158,14 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3461_8(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3461_8(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3461_8");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3461_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3461_0(EditorContext context, SNode node) {
     if (this.myListHandler_3461_0 == null) {
       this.myListHandler_3461_0 = new Schema_Editor.declarationBlockListHandler_3461_0(node, "declarationBlock", context);
     }
@@ -175,7 +175,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_3461_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_3461_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rootElementReference");
     provider.setNoTargetText("<no rootElementReference>");
@@ -192,7 +192,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_3461_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_3461_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("schemaName");
     provider.setNoTargetText("<no schemaName>");
@@ -210,7 +210,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_3461_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_3461_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("alwaysUseRoot");
     provider.setNoTargetText("<no alwaysUseRoot>");
@@ -228,7 +228,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_3461_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_3461_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("defaultNamespaceDeclaration");
     provider.setNoTargetText("<no defaultNamespaceDeclaration>");
@@ -246,11 +246,11 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
 
-  public static JComponent _QueryFunction_JComponent_1176495162226(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_1176495162226(SNode node, EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "schemaUrl"));
   }
 
-  public static class declarationBlockListHandler_3461_0 extends RefNodeListHandler {
+  private static class declarationBlockListHandler_3461_0 extends RefNodeListHandler {
 
     public declarationBlockListHandler_3461_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

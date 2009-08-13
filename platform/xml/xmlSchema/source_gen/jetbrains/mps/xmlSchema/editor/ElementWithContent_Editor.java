@@ -26,7 +26,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return this.createCollection_3733_0(context, node);
   }
 
-  public EditorCell createCollection_3733_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3733_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_3733_0");
     editorCell.addEditorCell(this.createCollection_3733_1(context, node));
@@ -34,7 +34,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3733_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_3733_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3733_1");
     {
@@ -46,7 +46,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3733_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_3733_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3733_2");
     {
@@ -58,7 +58,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3733_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3733_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3733_0");
     {
@@ -69,7 +69,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3733_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3733_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3733_1");
     {
@@ -80,7 +80,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_3733_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_3733_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("elementName");
     provider.setNoTargetText("<no elementName>");
@@ -114,7 +114,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_3733_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_3733_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("complexType");
     provider.setNoTargetText("<no complexType>");
@@ -132,7 +132,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
   }
 
 
-  public static Color _StyleParameter_QueryFunction_1214399677786(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_1214399677786(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 

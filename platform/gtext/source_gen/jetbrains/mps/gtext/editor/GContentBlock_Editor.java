@@ -26,13 +26,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GContentBlock_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_4657_0;
+  private AbstractCellListHandler myListHandler_4657_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_4657_0(context, node);
   }
 
-  public EditorCell createCollection_4657_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_4657_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_4657_0");
     editorCell.addEditorCell(this.createConceptProperty_4657_0(context, node));
@@ -43,7 +43,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4657_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4657_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4657_0");
     {
@@ -54,7 +54,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4657_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4657_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4657_1");
     {
@@ -65,7 +65,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_4657_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_4657_0(EditorContext context, SNode node) {
     if (this.myListHandler_4657_0 == null) {
       this.myListHandler_4657_0 = new GContentBlock_Editor.itemListHandler_4657_0(node, "item", context);
     }
@@ -80,7 +80,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConceptProperty_4657_0(EditorContext context, SNode node) {
+  private EditorCell createConceptProperty_4657_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
@@ -98,7 +98,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_4657_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_4657_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -116,7 +116,7 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class itemListHandler_4657_0 extends RefNodeListHandler {
+  private static class itemListHandler_4657_0 extends RefNodeListHandler {
 
     public itemListHandler_4657_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

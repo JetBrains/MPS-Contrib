@@ -23,7 +23,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     return this.createCollection_3244_0(context, node);
   }
 
-  public EditorCell createCollection_3244_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3244_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3244_0");
     editorCell.addEditorCell(this.createConstant_3244_0(context, node, "&"));
@@ -32,7 +32,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3244_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3244_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3244_0");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
@@ -40,7 +40,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3244_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3244_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3244_1");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
@@ -48,7 +48,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_3244_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_3244_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("entityDeclaration");
     provider.setNoTargetText("<no entityDeclaration>");
@@ -84,7 +84,7 @@ public class EntityReference_Editor extends DefaultNodeEditor {
       return this.createProperty_3244_0(context, node);
     }
 
-    public EditorCell createProperty_3244_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_3244_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("entityName");
       provider.setNoTargetText("<no entityName>");

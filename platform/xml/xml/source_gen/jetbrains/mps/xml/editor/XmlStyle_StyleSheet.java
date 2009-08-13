@@ -186,23 +186,23 @@ public class XmlStyle_StyleSheet {
     return style;
   }
 
-  public static Color _StyleParameter_QueryFunction_1216811988465(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_1216811988465(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  public static Color _StyleParameter_QueryFunction_1216813809296(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_1216813809296(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  public static Color _StyleParameter_QueryFunction_1216813895290(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_1216813895290(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  public static Color _StyleParameter_QueryFunction_1216817284631(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_1216817284631(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  public static Color _StyleParameter_QueryFunction_1238686133097(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_1238686133097(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 

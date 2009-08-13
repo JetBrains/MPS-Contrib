@@ -18,7 +18,7 @@ public class Text_Editor extends DefaultNodeEditor {
     return this.createProperty_0753_0(context, node);
   }
 
-  public EditorCell createProperty_0753_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_0753_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("text");
     provider.setNoTargetText("");

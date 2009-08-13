@@ -25,14 +25,14 @@ import jetbrains.mps.nodeEditor.style.Style;
 
 public class TypeExpressionList_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_3028_0;
-  /* package */AbstractCellListHandler myListHandler_3028_1;
+  private AbstractCellListHandler myListHandler_3028_0;
+  private AbstractCellListHandler myListHandler_3028_1;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createAlternation_3028_0(context, node);
   }
 
-  public EditorCell createAlternation_3028_0(EditorContext context, SNode node) {
+  private EditorCell createAlternation_3028_0(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = TypeExpressionList_Editor.renderingCondition3028_0(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -45,7 +45,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3028_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3028_0(EditorContext context, SNode node) {
     if (this.myListHandler_3028_0 == null) {
       this.myListHandler_3028_0 = new TypeExpressionList_Editor.typeExpressionListHandler_3028_0(node, "typeExpression", context);
     }
@@ -55,7 +55,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3028_1(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3028_1(EditorContext context, SNode node) {
     if (this.myListHandler_3028_1 == null) {
       this.myListHandler_3028_1 = new TypeExpressionList_Editor.typeExpressionListHandler_3028_1(node, "typeExpression", context);
     }
@@ -66,11 +66,11 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition3028_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition3028_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isVertical");
   }
 
-  public static class typeExpressionListHandler_3028_0 extends RefNodeListHandler {
+  private static class typeExpressionListHandler_3028_0 extends RefNodeListHandler {
 
     public typeExpressionListHandler_3028_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -123,7 +123,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       }
     }
 
-    public EditorCell createConstant_3028_0(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_3028_0(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_3028_0");
       {
@@ -135,7 +135,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class typeExpressionListHandler_3028_1 extends RefNodeListHandler {
+  private static class typeExpressionListHandler_3028_1 extends RefNodeListHandler {
 
     public typeExpressionListHandler_3028_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -181,7 +181,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_3028_1(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_3028_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_3028_1");
       {

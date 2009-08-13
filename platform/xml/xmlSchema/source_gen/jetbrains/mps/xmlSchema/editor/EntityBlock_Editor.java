@@ -25,13 +25,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class EntityBlock_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_0386_0;
+  private AbstractCellListHandler myListHandler_0386_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_0386_0(context, node);
   }
 
-  public EditorCell createCollection_0386_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_0386_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_0386_0");
     editorCell.addEditorCell(this.createRefNode_0386_0(context, node));
@@ -40,7 +40,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0386_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0386_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0386_0");
     {
@@ -51,7 +51,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_0386_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_0386_0(EditorContext context, SNode node) {
     if (this.myListHandler_0386_0 == null) {
       this.myListHandler_0386_0 = new EntityBlock_Editor.entityLineListHandler_0386_0(node, "entityLine", context);
     }
@@ -61,7 +61,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_0386_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_0386_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("comment");
     provider.setNoTargetText("<no comment>");
@@ -78,7 +78,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class entityLineListHandler_0386_0 extends RefNodeListHandler {
+  private static class entityLineListHandler_0386_0 extends RefNodeListHandler {
 
     public entityLineListHandler_0386_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -124,7 +124,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(context);
     }
 
-    public EditorCell createConstant_0386_1(EditorContext context, SNode node, String text) {
+    private EditorCell createConstant_0386_1(EditorContext context, SNode node, String text) {
       EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
       editorCell.setCellId("Constant_0386_1");
       editorCell.setDefaultText("");

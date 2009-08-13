@@ -22,14 +22,14 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
     return this.createCollection_5208_0(context, node);
   }
 
-  public EditorCell createCollection_5208_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_5208_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_5208_0");
     editorCell.addEditorCell(this.createModelAccess_5208_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createModelAccess_5208_0(EditorContext context, SNode node) {
+  private EditorCell createModelAccess_5208_0(EditorContext context, SNode node) {
     ModelAccessor modelAccessor = this._modelAccessorFactory_5473692278135635842(context, node);
     EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
     editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
@@ -38,7 +38,7 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public ModelAccessor _modelAccessorFactory_5473692278135635842(final EditorContext editorContext, final SNode node) {
+  private ModelAccessor _modelAccessorFactory_5473692278135635842(final EditorContext editorContext, final SNode node) {
     return new ModelAccessor() {
 
       public String getText() {

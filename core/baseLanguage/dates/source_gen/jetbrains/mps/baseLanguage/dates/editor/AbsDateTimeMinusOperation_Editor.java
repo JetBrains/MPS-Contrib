@@ -27,7 +27,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return this.createCollection_7032_0(context, node);
   }
 
-  public EditorCell createCollection_7032_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_7032_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_7032_0");
     editorCell.addEditorCell(this.createConstant_7032_0(context, node, "|"));
@@ -40,7 +40,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7032_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7032_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7032_0");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
@@ -48,7 +48,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7032_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7032_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7032_1");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
@@ -56,7 +56,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7032_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7032_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7032_2");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
@@ -64,7 +64,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7032_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7032_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7032_3");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
@@ -77,7 +77,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_7032_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_7032_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("leftValue");
     provider.setNoTargetText("<no leftValue>");
@@ -99,7 +99,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_7032_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_7032_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rightValue");
     provider.setNoTargetText("<no rightValue>");
@@ -121,7 +121,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_7032_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_7032_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
@@ -153,7 +153,7 @@ public class AbsDateTimeMinusOperation_Editor extends DefaultNodeEditor {
       return this.createProperty_7032_0(context, node);
     }
 
-    public EditorCell createProperty_7032_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_7032_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("pluralForm");
       provider.setNoTargetText("<no pluralForm>");

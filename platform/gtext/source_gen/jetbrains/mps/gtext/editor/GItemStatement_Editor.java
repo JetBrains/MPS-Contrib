@@ -21,13 +21,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GItemStatement_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_8009_0;
+  private AbstractCellListHandler myListHandler_8009_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_8009_0(context, node);
   }
 
-  public EditorCell createCollection_8009_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8009_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_8009_0");
     editorCell.addEditorCell(this.createConstant_8009_0(context, node, "gItemStatement"));
@@ -35,7 +35,7 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8009_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8009_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8009_0");
     {
@@ -46,7 +46,7 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_8009_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_8009_0(EditorContext context, SNode node) {
     if (this.myListHandler_8009_0 == null) {
       this.myListHandler_8009_0 = new GItemStatement_Editor.itemListHandler_8009_0(node, "item", context);
     }
@@ -61,7 +61,7 @@ public class GItemStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class itemListHandler_8009_0 extends RefNodeListHandler {
+  private static class itemListHandler_8009_0 extends RefNodeListHandler {
 
     public itemListHandler_8009_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

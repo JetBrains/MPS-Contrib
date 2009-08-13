@@ -21,7 +21,7 @@ public class GText_Editor extends DefaultNodeEditor {
     return this.createProperty_7704_0(context, node);
   }
 
-  public EditorCell createProperty_7704_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_7704_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("text");
     provider.setNoTargetText("<no text>");

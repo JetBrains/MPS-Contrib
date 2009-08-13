@@ -23,7 +23,7 @@ public class FileName_Editor extends DefaultNodeEditor {
     return this.createCollection_0693_0(context, node);
   }
 
-  public EditorCell createCollection_0693_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_0693_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_0693_0");
     editorCell.addEditorCell(this.createConstant_0693_0(context, node, "file"));
@@ -33,7 +33,7 @@ public class FileName_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0693_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0693_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0693_0");
     {
@@ -44,7 +44,7 @@ public class FileName_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0693_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0693_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0693_1");
     {
@@ -56,7 +56,7 @@ public class FileName_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_0693_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_0693_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_0693_2");
     {
@@ -68,7 +68,7 @@ public class FileName_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_0693_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_0693_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("value");
     provider.setNoTargetText("<no value>");

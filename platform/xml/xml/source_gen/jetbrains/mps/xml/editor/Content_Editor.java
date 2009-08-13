@@ -14,7 +14,7 @@ public class Content_Editor extends DefaultNodeEditor {
     return this.createError_8957_0(context, node);
   }
 
-  public EditorCell createError_8957_0(EditorContext context, SNode node) {
+  private EditorCell createError_8957_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "content");
     editorCell.setCellId("Error_8957_0");
     return editorCell;

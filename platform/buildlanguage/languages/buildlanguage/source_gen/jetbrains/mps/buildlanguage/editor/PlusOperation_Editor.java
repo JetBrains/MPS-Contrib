@@ -26,7 +26,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     return this.createCollection_0751_0(context, node);
   }
 
-  public EditorCell createCollection_0751_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_0751_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_0751_0");
     editorCell.addEditorCell(this.createRefNode_0751_0(context, node));
@@ -35,7 +35,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_0751_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_0751_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("left");
     provider.setNoTargetText("<no left>");
@@ -53,7 +53,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConceptProperty_0751_0(EditorContext context, SNode node) {
+  private EditorCell createConceptProperty_0751_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("operation");
     provider.setNoTargetText("<no operation>");
@@ -77,7 +77,7 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_0751_1(EditorContext context, SNode node) {
+  private EditorCell createRefNode_0751_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("right");
     provider.setNoTargetText("<no right>");

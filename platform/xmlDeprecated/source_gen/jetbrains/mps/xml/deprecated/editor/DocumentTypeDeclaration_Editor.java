@@ -22,14 +22,14 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     return this.createCollection_6391_0(context, node);
   }
 
-  public EditorCell createCollection_6391_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_6391_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_6391_0");
     editorCell.addEditorCell(this.createCollection_6391_1(context, node));
     return editorCell;
   }
 
-  public EditorCell createCollection_6391_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_6391_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_6391_1");
     {
@@ -44,14 +44,14 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6391_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6391_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6391_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_6391_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6391_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6391_1");
     XMLDeprecatedStyles_StyleSheet.getElement(editorCell).apply(editorCell);
@@ -59,14 +59,14 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6391_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6391_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6391_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_6391_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_6391_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -85,7 +85,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_6391_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_6391_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("externalID");
     provider.setNoTargetText("<no externalID>");

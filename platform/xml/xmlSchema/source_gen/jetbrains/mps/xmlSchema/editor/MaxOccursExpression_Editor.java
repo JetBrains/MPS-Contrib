@@ -14,7 +14,7 @@ public class MaxOccursExpression_Editor extends DefaultNodeEditor {
     return this.createError_2073_0(context, node);
   }
 
-  public EditorCell createError_2073_0(EditorContext context, SNode node) {
+  private EditorCell createError_2073_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "maxOccursExpression");
     editorCell.setCellId("Error_2073_0");
     return editorCell;

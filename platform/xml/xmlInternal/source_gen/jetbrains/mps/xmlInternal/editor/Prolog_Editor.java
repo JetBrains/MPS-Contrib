@@ -18,14 +18,14 @@ public class Prolog_Editor extends DefaultNodeEditor {
     return this.createCollection_7323_0(context, node);
   }
 
-  public EditorCell createCollection_7323_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_7323_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_7323_0");
     editorCell.addEditorCell(this.createRefNode_7323_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefNode_7323_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_7323_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("documentTypeDeclaration");
     provider.setNoTargetText("<no documentTypeDeclaration>");

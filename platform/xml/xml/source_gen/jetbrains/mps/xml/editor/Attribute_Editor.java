@@ -26,7 +26,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return this.createCollection_1680_0(context, node);
   }
 
-  public EditorCell createCollection_1680_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_1680_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_1680_0");
     editorCell.addEditorCell(this.createRefCell_1680_0(context, node));
@@ -37,7 +37,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_1680_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_1680_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_1680_0");
     XmlStyle_StyleSheet.getXmlOperator(editorCell).apply(editorCell);
@@ -45,7 +45,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_1680_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_1680_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_1680_1");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
@@ -53,7 +53,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_1680_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_1680_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_1680_2");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
@@ -61,7 +61,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_1680_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_1680_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("attributeDeclaration");
     provider.setNoTargetText("<no attributeDeclaration>");
@@ -79,7 +79,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_1680_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_1680_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("value");
     provider.setNoTargetText("<no value>");
@@ -114,7 +114,7 @@ public class Attribute_Editor extends DefaultNodeEditor {
       return this.createProperty_1680_0(context, node);
     }
 
-    public EditorCell createProperty_1680_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_1680_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("attributeName");
       provider.setNoTargetText("<no attributeName>");

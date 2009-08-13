@@ -14,7 +14,7 @@ public class BaseText_Editor extends DefaultNodeEditor {
     return this.createError_0242_0(context, node);
   }
 
-  public EditorCell createError_0242_0(EditorContext context, SNode node) {
+  private EditorCell createError_0242_0(EditorContext context, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(context, node, "baseText");
     editorCell.setCellId("Error_0242_0");
     return editorCell;

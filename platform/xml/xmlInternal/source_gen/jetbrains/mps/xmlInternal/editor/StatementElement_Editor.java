@@ -23,7 +23,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return this.createCollection_6255_0(context, node);
   }
 
-  public EditorCell createCollection_6255_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_6255_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_6255_0");
     editorCell.addEditorCell(this.createCollection_6255_2(context, node));
@@ -32,7 +32,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_6255_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_6255_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_6255_1");
     {
@@ -44,7 +44,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_6255_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_6255_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_6255_2");
     {
@@ -58,7 +58,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_6255_3(EditorContext context, SNode node) {
+  private EditorCell createCollection_6255_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_6255_3");
     {
@@ -72,7 +72,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6255_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6255_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6255_0");
     XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
@@ -80,7 +80,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6255_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6255_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6255_1");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
@@ -88,7 +88,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6255_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6255_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6255_2");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
@@ -96,7 +96,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6255_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6255_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6255_3");
     XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
@@ -104,7 +104,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6255_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6255_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6255_4");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
@@ -112,7 +112,7 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6255_5(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6255_5(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6255_5");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
@@ -120,12 +120,12 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell6255_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell6255_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createRefNode_6255_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_6255_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("statementList");
     provider.setNoTargetText("<no statementList>");

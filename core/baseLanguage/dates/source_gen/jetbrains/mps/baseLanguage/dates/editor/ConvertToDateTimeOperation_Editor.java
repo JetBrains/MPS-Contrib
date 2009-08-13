@@ -17,7 +17,7 @@ public class ConvertToDateTimeOperation_Editor extends DefaultNodeEditor {
     return this.createConceptProperty_9742_0(context, node);
   }
 
-  public EditorCell createConceptProperty_9742_0(EditorContext context, SNode node) {
+  private EditorCell createConceptProperty_9742_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

@@ -24,14 +24,14 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GItemList_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_9588_0;
-  /* package */AbstractCellListHandler myListHandler_9588_1;
+  private AbstractCellListHandler myListHandler_9588_0;
+  private AbstractCellListHandler myListHandler_9588_1;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createAlternation_9588_0(context, node);
   }
 
-  public EditorCell createAlternation_9588_0(EditorContext context, SNode node) {
+  private EditorCell createAlternation_9588_0(EditorContext context, SNode node) {
     boolean alternationCondition = true;
     alternationCondition = GItemList_Editor.renderingCondition9588_0(node, context, context.getOperationContext().getScope());
     EditorCell editorCell = null;
@@ -44,7 +44,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_9588_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9588_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9588_0");
     editorCell.setUsesBraces(true);
@@ -53,7 +53,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_9588_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_9588_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9588_1");
     editorCell.setUsesBraces(true);
@@ -62,7 +62,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9588_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9588_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9588_0");
     {
@@ -73,7 +73,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9588_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9588_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9588_1");
     {
@@ -85,7 +85,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_9588_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_9588_0(EditorContext context, SNode node) {
     if (this.myListHandler_9588_0 == null) {
       this.myListHandler_9588_0 = new GItemList_Editor.itemListHandler_9588_0(node, "item", context);
     }
@@ -95,7 +95,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_9588_1(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_9588_1(EditorContext context, SNode node) {
     if (this.myListHandler_9588_1 == null) {
       this.myListHandler_9588_1 = new GItemList_Editor.itemListHandler_9588_1(node, "item", context);
     }
@@ -112,11 +112,11 @@ public class GItemList_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition9588_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition9588_0(SNode node, EditorContext editorContext, IScope scope) {
     return GItem_Behavior.call_isComplex_1213877298853(node);
   }
 
-  public static class itemListHandler_9588_0 extends RefNodeListHandler {
+  private static class itemListHandler_9588_0 extends RefNodeListHandler {
 
     public itemListHandler_9588_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -159,7 +159,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class itemListHandler_9588_1 extends RefNodeListHandler {
+  private static class itemListHandler_9588_1 extends RefNodeListHandler {
 
     public itemListHandler_9588_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

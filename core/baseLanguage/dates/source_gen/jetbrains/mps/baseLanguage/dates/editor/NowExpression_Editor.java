@@ -22,14 +22,14 @@ public class NowExpression_Editor extends DefaultNodeEditor {
     return this.createConstant_4750_0(context, node, "Instance of DateTime corresponding to current moment");
   }
 
-  public EditorCell createConstant_4750_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4750_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4750_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConceptProperty_4750_0(EditorContext context, SNode node) {
+  private EditorCell createConceptProperty_4750_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

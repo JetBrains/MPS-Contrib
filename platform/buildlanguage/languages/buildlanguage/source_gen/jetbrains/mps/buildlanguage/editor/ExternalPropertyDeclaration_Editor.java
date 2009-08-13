@@ -35,7 +35,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return this.createCollection_2766_4(context, node);
   }
 
-  public EditorCell createCollection_2766_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_2766_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_2766_0");
     if (renderingCondition2766_0(node, context, context.getOperationContext().getScope())) {
@@ -45,7 +45,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2766_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_2766_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2766_1");
     {
@@ -57,7 +57,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2766_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_2766_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2766_2");
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, new BasicCellContext(node), new SubstituteInfoPart[]{new ExternalPropertyDeclaration_Editor.ExternalPropertyDeclaration_generic_cellMenu0()}));
@@ -71,7 +71,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2766_3(EditorContext context, SNode node) {
+  private EditorCell createCollection_2766_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2766_3");
     editorCell.addEditorCell(this.createConstant_2766_3(context, node, "check on start"));
@@ -80,7 +80,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_2766_4(EditorContext context, SNode node) {
+  private EditorCell createCollection_2766_4(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2766_4");
     {
@@ -93,7 +93,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2766_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2766_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2766_0");
     BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
@@ -101,14 +101,14 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2766_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2766_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2766_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_2766_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2766_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2766_2");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
@@ -116,7 +116,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2766_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2766_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2766_3");
     BuildLanguageStyle_StyleSheet.getAttributeName(editorCell).apply(editorCell);
@@ -124,14 +124,14 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2766_4(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2766_4(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2766_4");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createProperty_2766_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_2766_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("shortDescription");
     provider.setNoTargetText("<no shortDescription>");
@@ -151,7 +151,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConceptProperty_2766_0(EditorContext context, SNode node) {
+  private EditorCell createConceptProperty_2766_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, context);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
@@ -170,7 +170,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_2766_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_2766_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -189,7 +189,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_2766_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_2766_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("type");
     provider.setNoTargetText("<no type>");
@@ -206,7 +206,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_2766_2(EditorContext context, SNode node) {
+  private EditorCell createProperty_2766_2(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("checkOnStart");
     provider.setNoTargetText("<no checkOnStart>");
@@ -226,15 +226,15 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   }
 
 
-  public static boolean renderingCondition2766_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition2766_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getString(node, "shortDescription") != null;
   }
 
-  public static boolean renderingCondition2766_1(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition2766_1(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "checkOnStart");
   }
 
-  public static boolean renderingCondition2766_2(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition2766_2(SNode node, EditorContext editorContext, IScope scope) {
     return SNodeOperations.isInstanceOf(SNodeOperations.getParent(node), "jetbrains.mps.buildlanguage.structure.Project");
   }
 

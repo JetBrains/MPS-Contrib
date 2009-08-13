@@ -23,7 +23,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return this.createCollection_9052_0(context, node);
   }
 
-  public EditorCell createCollection_9052_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9052_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_9052_0");
     editorCell.addEditorCell(this.createConstant_9052_1(context, node, "month"));
@@ -36,7 +36,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9052_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9052_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9052_0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
@@ -49,7 +49,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9052_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9052_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9052_1");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -57,14 +57,14 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9052_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9052_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9052_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_9052_3(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9052_3(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9052_3");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
@@ -77,7 +77,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_9052_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_9052_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -96,7 +96,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_9052_1(EditorContext context, SNode node) {
+  private EditorCell createProperty_9052_1(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("days");
     provider.setNoTargetText("<no days>");
@@ -114,7 +114,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createProperty_9052_2(EditorContext context, SNode node) {
+  private EditorCell createProperty_9052_2(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("shortName");
     provider.setNoTargetText("<no shortName>");

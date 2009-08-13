@@ -18,13 +18,13 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellProvider myWithProperty_component6938_0;
+  private AbstractCellProvider myWithProperty_component6938_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_6938_0(context, node);
   }
 
-  public EditorCell createCollection_6938_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_6938_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_6938_0");
     editorCell.addEditorCell(this.createComponent_6938_0(context, node));
@@ -33,7 +33,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createComponent_6938_0(EditorContext context, SNode node) {
+  private EditorCell createComponent_6938_0(EditorContext context, SNode node) {
     if (this.myWithProperty_component6938_0 == null) {
       this.myWithProperty_component6938_0 = new WithProperty_component(node);
     }
@@ -41,7 +41,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6938_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6938_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6938_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
@@ -49,7 +49,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_6938_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_6938_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
@@ -81,7 +81,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
       return this.createProperty_6938_0(context, node);
     }
 
-    public EditorCell createProperty_6938_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_6938_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("pluralForm");
       provider.setNoTargetText("<no pluralForm>");

@@ -24,14 +24,14 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
     return this.createCollection_1318_0(context, node);
   }
 
-  public EditorCell createCollection_1318_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_1318_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_1318_0");
     editorCell.addEditorCell(this.createRefCell_1318_0(context, node));
     return editorCell;
   }
 
-  public EditorCell createRefCell_1318_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_1318_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("propertyDeclaration");
     provider.setNoTargetText("<no propertyDeclaration>");
@@ -68,7 +68,7 @@ public class PropertyReference_Editor extends DefaultNodeEditor {
       return this.createProperty_1318_0(context, node);
     }
 
-    public EditorCell createProperty_1318_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_1318_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
