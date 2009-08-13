@@ -106,7 +106,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createConstant_7369_3(context, node, "icon:"));
     editorCell.addEditorCell(this.createAlternation_7369_0(context, node));
-    editorCell.addEditorCell(EditorCell_Component.createComponentCell(context, node, RunConfigurationTypeDeclaration_Editor._QueryFunction_JComponent_1767562947359900285(node, context), "_1767562947359900284"));
+    editorCell.addEditorCell(EditorCell_Component.createComponentCell(context, node, RunConfigurationTypeDeclaration_Editor._QueryFunction_JComponent_1767562947361236772(node, context), "_1767562947361236771"));
     return editorCell;
   }
 
@@ -239,7 +239,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createImage_7369_0(EditorContext context, SNode node) {
     EditorCell_Image editorCell;
-    editorCell = EditorCell_Image.createImageCell(context, node, _image_provider_1767562947359900274(node, context));
+    editorCell = EditorCell_Image.createImageCell(context, node, _image_provider_1767562947361236761(node, context));
     editorCell.setCellId("Image_7369_0");
     editorCell.setDescent(0);
     return editorCell;
@@ -325,7 +325,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   }
 
 
-  public static String _image_provider_1767562947359900274(SNode node, EditorContext editorContext) {
+  public static String _image_provider_1767562947361236761(SNode node, EditorContext editorContext) {
     return SPropertyOperations.getString(node, "iconPath");
   }
 
@@ -346,7 +346,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     return BlockCells.useBraces();
   }
 
-  private static JComponent _QueryFunction_JComponent_1767562947359900285(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_1767562947361236772(SNode node, EditorContext editorContext) {
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
 
