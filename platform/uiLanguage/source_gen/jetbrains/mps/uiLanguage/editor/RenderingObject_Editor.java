@@ -10,12 +10,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class RenderingObject_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConstant_1679_0(context, node, "object");
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createConstant_1679_0(editorContext, node, "object");
   }
 
-  private EditorCell createConstant_1679_0(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_1679_0(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_1679_0");
     editorCell.setDefaultText("");
     return editorCell;
