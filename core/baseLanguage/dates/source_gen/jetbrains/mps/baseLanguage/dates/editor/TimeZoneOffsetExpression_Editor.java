@@ -8,13 +8,13 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.cells.ModelAccessor;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
-import jetbrains.mps.nodeEditor.CellActionType;
-import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
 import org.joda.time.DateTimeZone;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.DateTime;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Property;
+import jetbrains.mps.nodeEditor.CellActionType;
+import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
 
 public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
 
@@ -29,17 +29,8 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createModelAccess_5208_0(EditorContext context, SNode node) {
-    ModelAccessor modelAccessor = this._modelAccessorFactory_5473692278135635842(context, node);
-    EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
-    editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
-    editorCell.setCellId("ModelAccess_5208_0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private ModelAccessor _modelAccessorFactory_5473692278135635842(final EditorContext editorContext, final SNode node) {
-    return new ModelAccessor() {
+  private EditorCell createModelAccess_5208_0(final EditorContext context, final SNode node) {
+    ModelAccessor modelAccessor = new ModelAccessor() {
 
       public String getText() {
         DateTimeZone zone = DateTimeZone.forOffsetMillis(SPropertyOperations.getInteger(node, "offsetmillis"));
@@ -67,6 +58,11 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
         return false;
       }
     };
+    EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
+    editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
+    editorCell.setCellId("ModelAccess_5208_0");
+    editorCell.setDefaultText("");
+    return editorCell;
   }
 
 }
