@@ -14,17 +14,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Text_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createProperty_0753_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createProperty_0753_0(editorContext, node);
   }
 
-  private EditorCell createProperty_0753_0(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+  private EditorCell createProperty_0753_0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");
     provider.setNoTargetText("");
     provider.setAllowsEmptyTarget(true);
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_text");
     XmlStyle_StyleSheet.getXmlText(editorCell).apply(editorCell);
     if (true) {
@@ -34,9 +34,9 @@ public class Text_Editor extends DefaultNodeEditor {
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }

@@ -20,22 +20,22 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection_4539_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createCollection_4539_0(editorContext, node);
   }
 
-  private EditorCell createCollection_4539_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_4539_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_4539_0");
-    editorCell.addEditorCell(this.createRefNode_4539_0(context, node));
-    editorCell.addEditorCell(this.createConstant_4539_0(context, node, "+"));
-    editorCell.addEditorCell(this.createConstant_4539_1(context, node, "period"));
-    editorCell.addEditorCell(this.createRefNode_4539_1(context, node));
+    editorCell.addEditorCell(this.createRefNode_4539_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4539_0(editorContext, node, "+"));
+    editorCell.addEditorCell(this.createConstant_4539_1(editorContext, node, "period"));
+    editorCell.addEditorCell(this.createRefNode_4539_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4539_0(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_4539_0(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_4539_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
@@ -46,46 +46,46 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4539_1(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_4539_1(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_4539_1");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_4539_0(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, context);
+  private EditorCell createRefNode_4539_0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("leftValue");
     provider.setNoTargetText("<no leftValue>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
-    DateTimePlusPeriodOperation_leftOperand_actionMap.setCellActions(editorCell, node, context);
+    editorCell = provider.createEditorCell(editorContext);
+    DateTimePlusPeriodOperation_leftOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
 
-  private EditorCell createRefNode_4539_1(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, context);
+  private EditorCell createRefNode_4539_1(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rightValue");
     provider.setNoTargetText("<no rightValue>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
-    DateTimePlusPeriodOperation_rightOperand_actionMap.setCellActions(editorCell, node, context);
+    editorCell = provider.createEditorCell(editorContext);
+    DateTimePlusPeriodOperation_rightOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }

@@ -10,12 +10,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 
 public class GroupExpression_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError_4309_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createError_4309_0(editorContext, node);
   }
 
-  private EditorCell createError_4309_0(EditorContext context, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error(context, node, "groupExpression");
+  private EditorCell createError_4309_0(EditorContext editorContext, SNode node) {
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "groupExpression");
     editorCell.setCellId("Error_4309_0");
     return editorCell;
   }

@@ -23,112 +23,112 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
 public class ScheduleLiteral_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection_2020_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createCollection_2020_0(editorContext, node);
   }
 
-  private EditorCell createCollection_2020_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_2020_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2020_0");
-    editorCell.addEditorCell(this.createRefCell_2020_0(context, node));
-    if (renderingCondition2020_0(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_2020_1(context, node));
+    editorCell.addEditorCell(this.createRefCell_2020_0(editorContext, node));
+    if (renderingCondition2020_0(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_2020_1(editorContext, node));
     }
-    if (renderingCondition2020_4(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_2020_3(context, node));
+    if (renderingCondition2020_4(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_2020_3(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createCollection_2020_1(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_2020_1(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2020_1");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_2020_0(context, node, "on"));
-    if (renderingCondition2020_1(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_2020_2(context, node));
+    editorCell.addEditorCell(this.createConstant_2020_0(editorContext, node, "on"));
+    if (renderingCondition2020_1(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_2020_2(editorContext, node));
     }
-    if (renderingCondition2020_2(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createProperty_2020_3(context, node));
+    if (renderingCondition2020_2(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createProperty_2020_3(editorContext, node));
     }
-    if (renderingCondition2020_3(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createProperty_2020_2(context, node));
+    if (renderingCondition2020_3(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createProperty_2020_2(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createCollection_2020_2(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_2020_2(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2020_2");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createRefCell_2020_1(context, node));
-    editorCell.addEditorCell(this.createConstant_2020_1(context, node, ","));
+    editorCell.addEditorCell(this.createRefCell_2020_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2020_1(editorContext, node, ","));
     return editorCell;
   }
 
-  private EditorCell createCollection_2020_3(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_2020_3(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2020_3");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_2020_2(context, node, "at"));
-    if (renderingCondition2020_5(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_2020_4(context, node));
+    editorCell.addEditorCell(this.createConstant_2020_2(editorContext, node, "at"));
+    if (renderingCondition2020_5(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_2020_4(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createCollection_2020_4(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_2020_4(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2020_4");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    if (renderingCondition2020_6(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_2020_5(context, node));
+    if (renderingCondition2020_6(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_2020_5(editorContext, node));
     }
-    editorCell.addEditorCell(this.createProperty_2020_4(context, node));
+    editorCell.addEditorCell(this.createProperty_2020_4(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_2020_5(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_2020_5(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2020_5");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    if (renderingCondition2020_7(node, context, context.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_2020_6(context, node));
+    if (renderingCondition2020_7(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_2020_6(editorContext, node));
     }
-    editorCell.addEditorCell(this.createProperty_2020_5(context, node));
-    editorCell.addEditorCell(this.createConstant_2020_3(context, node, ":"));
+    editorCell.addEditorCell(this.createProperty_2020_5(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2020_3(editorContext, node, ":"));
     return editorCell;
   }
 
-  private EditorCell createCollection_2020_6(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_2020_6(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2020_6");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createProperty_2020_6(context, node));
-    editorCell.addEditorCell(this.createConstant_2020_4(context, node, ":"));
+    editorCell.addEditorCell(this.createProperty_2020_6(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2020_4(editorContext, node, ":"));
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_0(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_2020_0(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_2020_0");
     {
       Style style = editorCell.getStyle();
@@ -138,8 +138,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_1(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_2020_1(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_2020_1");
     {
       Style style = editorCell.getStyle();
@@ -150,8 +150,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_2(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_2020_2(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_2020_2");
     {
       Style style = editorCell.getStyle();
@@ -161,8 +161,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_3(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_2020_3(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_2020_3");
     {
       Style style = editorCell.getStyle();
@@ -172,8 +172,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_4(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_2020_4(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_2020_4");
     {
       Style style = editorCell.getStyle();
@@ -183,128 +183,128 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_2020_0(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, context);
+  private EditorCell createRefCell_2020_0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("schedulePeriod");
     provider.setNoTargetText("<no schedulePeriod>");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline2020_0());
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
 
-  private EditorCell createRefCell_2020_1(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, context);
+  private EditorCell createRefCell_2020_1(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("month");
     provider.setNoTargetText("<no month>");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new ScheduleLiteral_Editor._Inline2020_1());
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
 
-  private EditorCell createProperty_2020_2(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+  private EditorCell createProperty_2020_2(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("dayOfWeek");
     provider.setNoTargetText("<day of week>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_dayOfWeek");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
 
-  private EditorCell createProperty_2020_3(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+  private EditorCell createProperty_2020_3(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("dayOfMonth");
     provider.setNoTargetText("<day of month>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_dayOfMonth");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
 
-  private EditorCell createProperty_2020_4(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+  private EditorCell createProperty_2020_4(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("second");
     provider.setNoTargetText("<second>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_second");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
 
-  private EditorCell createProperty_2020_5(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+  private EditorCell createProperty_2020_5(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("minute");
     provider.setNoTargetText("<minute>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_minute");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
 
-  private EditorCell createProperty_2020_6(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+  private EditorCell createProperty_2020_6(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("hour");
     provider.setNoTargetText("<hour>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_hour");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }
@@ -348,29 +348,29 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       super();
     }
 
-    public EditorCell createEditorCell(EditorContext context) {
-      return this.createEditorCell(context, this.getSNode());
+    public EditorCell createEditorCell(EditorContext editorContext) {
+      return this.createEditorCell(editorContext, this.getSNode());
     }
 
-    public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createProperty_2020_0(context, node);
+    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+      return this.createProperty_2020_0(editorContext, node);
     }
 
-    private EditorCell createProperty_2020_0(EditorContext context, SNode node) {
-      CellProviderWithRole provider = new PropertyCellProvider(node, context);
+    private EditorCell createProperty_2020_0(EditorContext editorContext, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       EditorCell editorCell;
-      editorCell = provider.createEditorCell(context);
+      editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
       if (attributeConcept != null) {
-        IOperationContext opContext = context.getOperationContext();
+        IOperationContext opContext = editorContext.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
       } else
       return editorCell;
     }
@@ -382,29 +382,29 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       super();
     }
 
-    public EditorCell createEditorCell(EditorContext context) {
-      return this.createEditorCell(context, this.getSNode());
+    public EditorCell createEditorCell(EditorContext editorContext) {
+      return this.createEditorCell(editorContext, this.getSNode());
     }
 
-    public EditorCell createEditorCell(EditorContext context, SNode node) {
-      return this.createProperty_2020_1(context, node);
+    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+      return this.createProperty_2020_1(editorContext, node);
     }
 
-    private EditorCell createProperty_2020_1(EditorContext context, SNode node) {
-      CellProviderWithRole provider = new PropertyCellProvider(node, context);
+    private EditorCell createProperty_2020_1(EditorContext editorContext, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
       provider.setReadOnly(true);
       EditorCell editorCell;
-      editorCell = provider.createEditorCell(context);
+      editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_1");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
       if (attributeConcept != null) {
-        IOperationContext opContext = context.getOperationContext();
+        IOperationContext opContext = editorContext.getOperationContext();
         EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-        return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
       } else
       return editorCell;
     }

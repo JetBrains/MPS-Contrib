@@ -10,12 +10,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 
 public class MaxOccursExpression_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError_2073_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createError_2073_0(editorContext, node);
   }
 
-  private EditorCell createError_2073_0(EditorContext context, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error(context, node, "maxOccursExpression");
+  private EditorCell createError_2073_0(EditorContext editorContext, SNode node) {
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "maxOccursExpression");
     editorCell.setCellId("Error_2073_0");
     return editorCell;
   }

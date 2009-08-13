@@ -22,33 +22,33 @@ import java.util.ArrayList;
 
 public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection_5584_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createCollection_5584_0(editorContext, node);
   }
 
-  private EditorCell createCollection_5584_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_5584_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_5584_0");
-    editorCell.addEditorCell(this.createProperty_5584_0(context, node));
+    editorCell.addEditorCell(this.createProperty_5584_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createProperty_5584_0(EditorContext context, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, context);
+  private EditorCell createProperty_5584_0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("timezone_id");
     provider.setNoTargetText("<no timezone_id>");
     EditorCell editorCell;
-    editorCell = provider.createEditorCell(context);
+    editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_timezone_id");
     Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(context, provider.getCellContext(), new SubstituteInfoPart[]{new TimeZoneIDExpression_Editor.TimeZoneIDExpression_timezone_id_cellMenu0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new TimeZoneIDExpression_Editor.TimeZoneIDExpression_timezone_id_cellMenu0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
-      IOperationContext opContext = context.getOperationContext();
+      IOperationContext opContext = editorContext.getOperationContext();
       EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(context, attributeConcept, attributeKind, editorCell);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
   }

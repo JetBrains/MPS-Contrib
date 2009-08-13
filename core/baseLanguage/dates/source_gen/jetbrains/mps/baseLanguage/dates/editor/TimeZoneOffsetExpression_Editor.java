@@ -18,18 +18,18 @@ import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
 
 public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection_5208_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createCollection_5208_0(editorContext, node);
   }
 
-  private EditorCell createCollection_5208_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_5208_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_5208_0");
-    editorCell.addEditorCell(this.createModelAccess_5208_0(context, node));
+    editorCell.addEditorCell(this.createModelAccess_5208_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createModelAccess_5208_0(final EditorContext context, final SNode node) {
+  private EditorCell createModelAccess_5208_0(final EditorContext editorContext, final SNode node) {
     ModelAccessor modelAccessor = new ModelAccessor() {
 
       public String getText() {
@@ -58,7 +58,7 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
         return false;
       }
     };
-    EditorCell_Property editorCell = EditorCell_Property.create(context, modelAccessor, node);
+    EditorCell_Property editorCell = EditorCell_Property.create(editorContext, modelAccessor, node);
     editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
     editorCell.setCellId("ModelAccess_5208_0");
     editorCell.setDefaultText("");

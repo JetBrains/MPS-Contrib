@@ -10,12 +10,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 
 public class BaseText_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createError_0242_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createError_0242_0(editorContext, node);
   }
 
-  private EditorCell createError_0242_0(EditorContext context, SNode node) {
-    EditorCell_Error editorCell = new EditorCell_Error(context, node, "baseText");
+  private EditorCell createError_0242_0(EditorContext editorContext, SNode node) {
+    EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "baseText");
     editorCell.setCellId("Error_0242_0");
     return editorCell;
   }

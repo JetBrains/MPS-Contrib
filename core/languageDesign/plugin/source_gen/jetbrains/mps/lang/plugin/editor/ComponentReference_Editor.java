@@ -11,12 +11,12 @@ import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
 public class ComponentReference_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConstant_0914_0(context, node, "component");
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createConstant_0914_0(editorContext, node, "component");
   }
 
-  private EditorCell createConstant_0914_0(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_0914_0(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_0914_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

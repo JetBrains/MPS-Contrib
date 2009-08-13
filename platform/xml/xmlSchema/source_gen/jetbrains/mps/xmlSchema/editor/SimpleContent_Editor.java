@@ -13,12 +13,12 @@ import jetbrains.mps.nodeEditor.MPSColors;
 
 public class SimpleContent_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createConstant_4091_0(context, node, "simpleContent");
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createConstant_4091_0(editorContext, node, "simpleContent");
   }
 
-  private EditorCell createConstant_4091_0(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_4091_0(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_4091_0");
     {
       Style style = editorCell.getStyle();

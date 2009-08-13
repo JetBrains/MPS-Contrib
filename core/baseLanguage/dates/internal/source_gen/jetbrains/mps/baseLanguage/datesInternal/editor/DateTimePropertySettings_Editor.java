@@ -25,45 +25,45 @@ import jetbrains.mps.nodeEditor.MPSColors;
 
 public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
 
-  public EditorCell createEditorCell(EditorContext context, SNode node) {
-    return this.createCollection_3687_0(context, node);
+  public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+    return this.createCollection_3687_0(editorContext, node);
   }
 
-  private EditorCell createCollection_3687_0(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
+  private EditorCell createCollection_3687_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_3687_0");
-    editorCell.addEditorCell(this.createConstant_3687_0(context, node, "datetime properties"));
-    editorCell.addEditorCell(this.createConstant_3687_1(context, node, "{"));
-    editorCell.addEditorCell(this.createCollection_3687_1(context, node));
-    editorCell.addEditorCell(this.createConstant_3687_2(context, node, "}"));
+    editorCell.addEditorCell(this.createConstant_3687_0(editorContext, node, "datetime properties"));
+    editorCell.addEditorCell(this.createConstant_3687_1(editorContext, node, "{"));
+    editorCell.addEditorCell(this.createCollection_3687_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3687_2(editorContext, node, "}"));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_1(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+  private EditorCell createCollection_3687_1(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3687_1");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
-    editorCell.addEditorCell(this.createConstant_3687_17(context, node, ""));
-    editorCell.addEditorCell(this.createCollection_3687_5(context, node));
-    editorCell.addEditorCell(this.createConstant_3687_4(context, node, ""));
-    editorCell.addEditorCell(this.createCollection_3687_6(context, node));
-    editorCell.addEditorCell(this.createConstant_3687_16(context, node, ""));
-    editorCell.addEditorCell(this.createCollection_3687_4(context, node));
-    editorCell.addEditorCell(this.createCollection_3687_3(context, node));
-    editorCell.addEditorCell(this.createConstant_3687_6(context, node, ""));
-    editorCell.addEditorCell(this.createCollection_3687_2(context, node));
-    editorCell.addEditorCell(this.createConstant_3687_18(context, node, ""));
-    editorCell.addEditorCell(this.createCollection_3687_7(context, node));
-    editorCell.addEditorCell(this.createConstant_3687_19(context, node, ""));
+    editorCell.addEditorCell(this.createConstant_3687_17(editorContext, node, ""));
+    editorCell.addEditorCell(this.createCollection_3687_5(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3687_4(editorContext, node, ""));
+    editorCell.addEditorCell(this.createCollection_3687_6(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3687_16(editorContext, node, ""));
+    editorCell.addEditorCell(this.createCollection_3687_4(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_3687_3(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3687_6(editorContext, node, ""));
+    editorCell.addEditorCell(this.createCollection_3687_2(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3687_18(editorContext, node, ""));
+    editorCell.addEditorCell(this.createCollection_3687_7(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3687_19(editorContext, node, ""));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_2(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
+  private EditorCell createCollection_3687_2(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3687_2");
     {
       Style style = editorCell.getStyle();
@@ -71,26 +71,26 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
     editorCell.setGridLayout(true);
-    editorCell.addEditorCell(this.createCollection_3687_8(context, node));
-    editorCell.addEditorCell(this.createCollection_3687_9(context, node));
+    editorCell.addEditorCell(this.createCollection_3687_8(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_3687_9(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_3(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_3687_3(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3687_3");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createIndentCell3687_3(context, node));
-    editorCell.addEditorCell(this.createRefNodeList_3687_2(context, node));
+    editorCell.addEditorCell(this.createIndentCell3687_3(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_3687_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_4(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_3687_4(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3687_4");
     {
       Style style = editorCell.getStyle();
@@ -98,26 +98,26 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
-    editorCell.addEditorCell(this.createIndentCell3687_2(context, node));
-    editorCell.addEditorCell(this.createRefNodeList_3687_0(context, node));
+    editorCell.addEditorCell(this.createIndentCell3687_2(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_3687_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_5(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_3687_5(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3687_5");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createIndentCell3687_0(context, node));
-    editorCell.addEditorCell(this.createRefNodeList_3687_1(context, node));
+    editorCell.addEditorCell(this.createIndentCell3687_0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_3687_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_6(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_3687_6(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3687_6");
     {
       Style style = editorCell.getStyle();
@@ -125,50 +125,50 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
-    editorCell.addEditorCell(this.createIndentCell3687_1(context, node));
-    editorCell.addEditorCell(this.createRefNodeList_3687_5(context, node));
+    editorCell.addEditorCell(this.createIndentCell3687_1(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_3687_5(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_7(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_3687_7(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3687_7");
-    editorCell.addEditorCell(this.createIndentCell3687_6(context, node));
-    editorCell.addEditorCell(this.createRefNodeList_3687_3(context, node));
+    editorCell.addEditorCell(this.createIndentCell3687_6(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_3687_3(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_8(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_3687_8(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3687_8");
-    editorCell.addEditorCell(this.createIndentCell3687_4(context, node));
-    editorCell.addEditorCell(this.createConstant_3687_10(context, node, "month"));
-    editorCell.addEditorCell(this.createConstant_3687_11(context, node, "day of month"));
-    editorCell.addEditorCell(this.createConstant_3687_12(context, node, "day of week"));
-    editorCell.addEditorCell(this.createConstant_3687_13(context, node, "hour"));
-    editorCell.addEditorCell(this.createConstant_3687_14(context, node, "minute"));
-    editorCell.addEditorCell(this.createConstant_3687_15(context, node, "second"));
+    editorCell.addEditorCell(this.createIndentCell3687_4(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3687_10(editorContext, node, "month"));
+    editorCell.addEditorCell(this.createConstant_3687_11(editorContext, node, "day of month"));
+    editorCell.addEditorCell(this.createConstant_3687_12(editorContext, node, "day of week"));
+    editorCell.addEditorCell(this.createConstant_3687_13(editorContext, node, "hour"));
+    editorCell.addEditorCell(this.createConstant_3687_14(editorContext, node, "minute"));
+    editorCell.addEditorCell(this.createConstant_3687_15(editorContext, node, "second"));
     return editorCell;
   }
 
-  private EditorCell createCollection_3687_9(EditorContext context, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
+  private EditorCell createCollection_3687_9(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3687_9");
-    editorCell.addEditorCell(this.createIndentCell3687_5(context, node));
-    editorCell.addEditorCell(this.createRefNodeList_3687_4(context, node));
+    editorCell.addEditorCell(this.createIndentCell3687_5(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_3687_4(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_0(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_0(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_1(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_1(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_1");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -180,8 +180,8 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_2(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_2(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_2");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -193,8 +193,8 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_4(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_4(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_4");
     {
       Style style = editorCell.getStyle();
@@ -205,8 +205,8 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_6(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_6(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_6");
     {
       Style style = editorCell.getStyle();
@@ -217,48 +217,48 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_10(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_10(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_10");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_11(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_11(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_11");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_12(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_12(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_12");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_13(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_13(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_13");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_14(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_14(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_14");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_15(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_15(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_15");
     DatesInternal_StyleSheet.getTableCell(editorCell).apply(editorCell);
     {
@@ -269,8 +269,8 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_16(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_16(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_16");
     {
       Style style = editorCell.getStyle();
@@ -280,30 +280,30 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_17(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_17(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_17");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_18(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_18(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_18");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3687_19(EditorContext context, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+  private EditorCell createConstant_3687_19(EditorContext editorContext, SNode node, String text) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
     editorCell.setCellId("Constant_3687_19");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3687_0(EditorContext context, SNode node) {
-    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.dateTimePropertyListHandler_3687_0(node, "dateTimeProperty", context);
-    EditorCell_Collection editorCell = handler.createCells(context, new CellLayout_Vertical(), false);
+  private EditorCell createRefNodeList_3687_0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.dateTimePropertyListHandler_3687_0(node, "dateTimeProperty", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_dateTimeProperty");
     {
       Style style = editorCell.getStyle();
@@ -313,9 +313,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3687_1(EditorContext context, SNode node) {
-    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.localeListHandler_3687_0(node, "locale", context);
-    EditorCell_Collection editorCell = handler.createCells(context, new CellLayout_Vertical(), false);
+  private EditorCell createRefNodeList_3687_1(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.localeListHandler_3687_0(node, "locale", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_locale");
     {
       Style style = editorCell.getStyle();
@@ -325,9 +325,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3687_2(EditorContext context, SNode node) {
-    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.durationTypeListHandler_3687_0(node, "durationType", context);
-    EditorCell_Collection editorCell = handler.createCells(context, new CellLayout_Vertical(), false);
+  private EditorCell createRefNodeList_3687_2(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.durationTypeListHandler_3687_0(node, "durationType", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_durationType");
     {
       Style style = editorCell.getStyle();
@@ -337,9 +337,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3687_3(EditorContext context, SNode node) {
-    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.monthListHandler_3687_0(node, "month", context);
-    EditorCell_Collection editorCell = handler.createCells(context, new CellLayout_Vertical(), false);
+  private EditorCell createRefNodeList_3687_3(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.monthListHandler_3687_0(node, "month", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_month");
     {
       Style style = editorCell.getStyle();
@@ -349,18 +349,18 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3687_4(EditorContext context, SNode node) {
-    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.schedulePeriodListHandler_3687_0(node, "schedulePeriod", context);
-    EditorCell_Collection editorCell = handler.createCells(context, new CellLayout_Vertical(), false);
+  private EditorCell createRefNodeList_3687_4(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.schedulePeriodListHandler_3687_0(node, "schedulePeriod", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_schedulePeriod");
     editorCell.setGridLayout(true);
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3687_5(EditorContext context, SNode node) {
-    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.zoneListHandler_3687_0(node, "zone", context);
-    EditorCell_Collection editorCell = handler.createCells(context, new CellLayout_Vertical(), false);
+  private EditorCell createRefNodeList_3687_5(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new DateTimePropertySettings_Editor.zoneListHandler_3687_0(node, "zone", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_zone");
     {
       Style style = editorCell.getStyle();
@@ -370,38 +370,38 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createIndentCell3687_0(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
+  private EditorCell createIndentCell3687_0(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell3687_1(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
+  private EditorCell createIndentCell3687_1(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell3687_2(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
+  private EditorCell createIndentCell3687_2(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell3687_3(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
+  private EditorCell createIndentCell3687_3(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell3687_4(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
+  private EditorCell createIndentCell3687_4(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell3687_5(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
+  private EditorCell createIndentCell3687_5(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell3687_6(EditorContext context, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(context, node);
+  private EditorCell createIndentCell3687_6(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
@@ -411,29 +411,29 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       super(ownerNode, childRole, context, false);
     }
 
-    public SNode createNodeToInsert(EditorContext context) {
+    public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, context, super.getElementRole());
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
 
-    public EditorCell createNodeCell(EditorContext context, SNode elementNode) {
-      EditorCell elementCell = super.createNodeCell(context, elementNode);
-      this.installElementCellActions(this.getOwner(), elementNode, elementCell, context);
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
 
-    public EditorCell createEmptyCell(EditorContext context) {
+    public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
-      emptyCell = this.createEmptyCell_internal(context, this.getOwner());
-      this.installElementCellActions(super.getOwner(), null, emptyCell, context);
+      emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
 
-    public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant_3687_3(context, node, "<no datetime properties>");
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_3687_3(editorContext, node, "<no datetime properties>");
     }
 
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
@@ -442,17 +442,17 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
     }
 
-    public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+    public EditorCell createSeparatorCell(EditorContext editorContext) {
+      return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_3687_3(EditorContext context, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    private EditorCell createConstant_3687_3(EditorContext editorContext, SNode node, String text) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
       editorCell.setCellId("Constant_3687_3");
       {
         Style style = editorCell.getStyle();
@@ -469,29 +469,29 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       super(ownerNode, childRole, context, false);
     }
 
-    public SNode createNodeToInsert(EditorContext context) {
+    public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, context, super.getElementRole());
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
 
-    public EditorCell createNodeCell(EditorContext context, SNode elementNode) {
-      EditorCell elementCell = super.createNodeCell(context, elementNode);
-      this.installElementCellActions(this.getOwner(), elementNode, elementCell, context);
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
 
-    public EditorCell createEmptyCell(EditorContext context) {
+    public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
-      emptyCell = this.createEmptyCell_internal(context, this.getOwner());
-      this.installElementCellActions(super.getOwner(), null, emptyCell, context);
+      emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
 
-    public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant_3687_5(context, node, "<no locales>");
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_3687_5(editorContext, node, "<no locales>");
     }
 
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
@@ -500,17 +500,17 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
     }
 
-    public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+    public EditorCell createSeparatorCell(EditorContext editorContext) {
+      return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_3687_5(EditorContext context, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    private EditorCell createConstant_3687_5(EditorContext editorContext, SNode node, String text) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
       editorCell.setCellId("Constant_3687_5");
       {
         Style style = editorCell.getStyle();
@@ -527,29 +527,29 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       super(ownerNode, childRole, context, false);
     }
 
-    public SNode createNodeToInsert(EditorContext context) {
+    public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, context, super.getElementRole());
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
 
-    public EditorCell createNodeCell(EditorContext context, SNode elementNode) {
-      EditorCell elementCell = super.createNodeCell(context, elementNode);
-      this.installElementCellActions(this.getOwner(), elementNode, elementCell, context);
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
 
-    public EditorCell createEmptyCell(EditorContext context) {
+    public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
-      emptyCell = this.createEmptyCell_internal(context, this.getOwner());
-      this.installElementCellActions(super.getOwner(), null, emptyCell, context);
+      emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
 
-    public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant_3687_7(context, node, "<no duration types>");
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_3687_7(editorContext, node, "<no duration types>");
     }
 
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
@@ -558,17 +558,17 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
     }
 
-    public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+    public EditorCell createSeparatorCell(EditorContext editorContext) {
+      return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_3687_7(EditorContext context, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    private EditorCell createConstant_3687_7(EditorContext editorContext, SNode node, String text) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
       editorCell.setCellId("Constant_3687_7");
       {
         Style style = editorCell.getStyle();
@@ -585,29 +585,29 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       super(ownerNode, childRole, context, false);
     }
 
-    public SNode createNodeToInsert(EditorContext context) {
+    public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, context, super.getElementRole());
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
 
-    public EditorCell createNodeCell(EditorContext context, SNode elementNode) {
-      EditorCell elementCell = super.createNodeCell(context, elementNode);
-      this.installElementCellActions(this.getOwner(), elementNode, elementCell, context);
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
 
-    public EditorCell createEmptyCell(EditorContext context) {
+    public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
-      emptyCell = this.createEmptyCell_internal(context, this.getOwner());
-      this.installElementCellActions(super.getOwner(), null, emptyCell, context);
+      emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
 
-    public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant_3687_8(context, node, "<no months>");
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_3687_8(editorContext, node, "<no months>");
     }
 
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
@@ -616,17 +616,17 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
     }
 
-    public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+    public EditorCell createSeparatorCell(EditorContext editorContext) {
+      return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_3687_8(EditorContext context, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    private EditorCell createConstant_3687_8(EditorContext editorContext, SNode node, String text) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
       editorCell.setCellId("Constant_3687_8");
       {
         Style style = editorCell.getStyle();
@@ -643,29 +643,29 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       super(ownerNode, childRole, context, false);
     }
 
-    public SNode createNodeToInsert(EditorContext context) {
+    public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, context, super.getElementRole());
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
 
-    public EditorCell createNodeCell(EditorContext context, SNode elementNode) {
-      EditorCell elementCell = super.createNodeCell(context, elementNode);
-      this.installElementCellActions(this.getOwner(), elementNode, elementCell, context);
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
 
-    public EditorCell createEmptyCell(EditorContext context) {
+    public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
-      emptyCell = this.createEmptyCell_internal(context, this.getOwner());
-      this.installElementCellActions(super.getOwner(), null, emptyCell, context);
+      emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
 
-    public EditorCell createEmptyCell_internal(EditorContext context, SNode node) {
-      return this.createConstant_3687_9(context, node, "<schedule periods>");
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_3687_9(editorContext, node, "<schedule periods>");
     }
 
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
@@ -674,17 +674,17 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
     }
 
-    public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+    public EditorCell createSeparatorCell(EditorContext editorContext) {
+      return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_3687_9(EditorContext context, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
+    private EditorCell createConstant_3687_9(EditorContext editorContext, SNode node, String text) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
       editorCell.setCellId("Constant_3687_9");
       {
         Style style = editorCell.getStyle();
@@ -701,25 +701,25 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       super(ownerNode, childRole, context, false);
     }
 
-    public SNode createNodeToInsert(EditorContext context) {
+    public SNode createNodeToInsert(EditorContext editorContext) {
       SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, context, super.getElementRole());
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
     }
 
-    public EditorCell createNodeCell(EditorContext context, SNode elementNode) {
-      EditorCell elementCell = super.createNodeCell(context, elementNode);
-      this.installElementCellActions(this.getOwner(), elementNode, elementCell, context);
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
       return elementCell;
     }
 
-    public EditorCell createEmptyCell(EditorContext context) {
+    public EditorCell createEmptyCell(EditorContext editorContext) {
       EditorCell emptyCell = null;
-      emptyCell = super.createEmptyCell(context);
-      this.installElementCellActions(super.getOwner(), null, emptyCell, context);
+      emptyCell = super.createEmptyCell(editorContext);
+      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
       return emptyCell;
     }
 
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext context) {
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
       if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
         elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
         SNode substituteInfoNode = listOwner;
@@ -728,13 +728,13 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
           elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
         }
         if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), context));
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
     }
 
-    public EditorCell createSeparatorCell(EditorContext context) {
-      return super.createSeparatorCell(context);
+    public EditorCell createSeparatorCell(EditorContext editorContext) {
+      return super.createSeparatorCell(editorContext);
     }
 
 }
