@@ -19,11 +19,11 @@ public class NowExpression_Editor extends DefaultNodeEditor {
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createConstant_4750_0(editorContext, node, "Instance of DateTime corresponding to current moment");
+    return this.createConstant_4750_0(editorContext, node);
   }
 
-  private EditorCell createConstant_4750_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4750_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Instance of DateTime corresponding to current moment");
     editorCell.setCellId("Constant_4750_0");
     editorCell.setDefaultText("");
     return editorCell;

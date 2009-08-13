@@ -46,18 +46,18 @@ public class Comment_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3245_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3245_0");
-    editorCell.addEditorCell(this.createConstant_3245_0(editorContext, node, "<!--"));
+    editorCell.addEditorCell(this.createConstant_3245_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_3245_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3245_2(editorContext, node, "-->"));
+    editorCell.addEditorCell(this.createConstant_3245_2(editorContext, node));
     return editorCell;
   }
 
   private EditorCell createCollection_3245_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3245_1");
-    editorCell.addEditorCell(this.createConstant_3245_3(editorContext, node, "<!--"));
+    editorCell.addEditorCell(this.createConstant_3245_3(editorContext, node));
     editorCell.addEditorCell(this.createCollection_3245_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3245_5(editorContext, node, "-->"));
+    editorCell.addEditorCell(this.createConstant_3245_5(editorContext, node));
     return editorCell;
   }
 
@@ -68,13 +68,13 @@ public class Comment_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_3245_4(editorContext, node, "  "));
+    editorCell.addEditorCell(this.createConstant_3245_4(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_3245_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3245_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3245_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<!--");
     editorCell.setCellId("Constant_3245_0");
     {
       Style style = editorCell.getStyle();
@@ -85,8 +85,8 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3245_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3245_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "-->");
     editorCell.setCellId("Constant_3245_2");
     {
       Style style = editorCell.getStyle();
@@ -97,8 +97,8 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3245_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3245_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<!--");
     editorCell.setCellId("Constant_3245_3");
     {
       Style style = editorCell.getStyle();
@@ -109,8 +109,8 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3245_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3245_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_3245_4");
     {
       Style style = editorCell.getStyle();
@@ -120,8 +120,8 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3245_5(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3245_5(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "-->");
     editorCell.setCellId("Constant_3245_5");
     {
       Style style = editorCell.getStyle();
@@ -178,7 +178,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_3245_1(editorContext, node, "");
+      return this.createConstant_3245_1(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -199,8 +199,8 @@ public class Comment_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_3245_1(EditorContext editorContext, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+    private EditorCell createConstant_3245_1(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_3245_1");
       editorCell.setDefaultText("");
       return editorCell;

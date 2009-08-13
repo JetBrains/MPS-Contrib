@@ -29,13 +29,13 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
     editorCell.addEditorCell(this.createProperty_6238_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6238_0(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_6238_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_6238_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6238_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6238_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_6238_0");
     editorCell.setDefaultText("");
     return editorCell;

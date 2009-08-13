@@ -78,7 +78,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_0618_0(editorContext, node, "attr");
+      return this.createConstant_0618_0(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -106,8 +106,8 @@ public class BaseElement_attributeList extends AbstractCellProvider {
       }
     }
 
-    private EditorCell createConstant_0618_0(EditorContext editorContext, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+    private EditorCell createConstant_0618_0(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attr");
       editorCell.setCellId("Constant_0618_0");
       XmlStyle_StyleSheet.getXmlEmptyCell(editorCell).apply(editorCell);
       editorCell.setDefaultText("");

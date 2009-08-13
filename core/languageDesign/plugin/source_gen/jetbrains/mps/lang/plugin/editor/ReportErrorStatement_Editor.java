@@ -23,22 +23,22 @@ public class ReportErrorStatement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_9503_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_9503_0");
-    editorCell.addEditorCell(this.createConstant_9503_1(editorContext, node, "report error"));
+    editorCell.addEditorCell(this.createConstant_9503_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_9503_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9503_0(editorContext, node, ";"));
+    editorCell.addEditorCell(this.createConstant_9503_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9503_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9503_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_9503_0");
     BaseLanguageStyle_StyleSheet.getSemicolon(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9503_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9503_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "report error");
     editorCell.setCellId("Constant_9503_1");
     editorCell.setDefaultText("");
     return editorCell;

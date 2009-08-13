@@ -34,42 +34,42 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_5525_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_5525_0");
-    editorCell.addEditorCell(this.createConstant_5525_0(editorContext, node, "datetime"));
-    editorCell.addEditorCell(this.createConstant_5525_2(editorContext, node, "zone"));
+    editorCell.addEditorCell(this.createConstant_5525_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5525_2(editorContext, node));
     editorCell.addEditorCell(this.createProperty_5525_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5525_1(editorContext, node, "for"));
+    editorCell.addEditorCell(this.createConstant_5525_1(editorContext, node));
     editorCell.addEditorCell(this.createProperty_5525_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5525_3(editorContext, node, "/"));
+    editorCell.addEditorCell(this.createConstant_5525_3(editorContext, node));
     editorCell.addEditorCell(this.createProperty_5525_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_5525_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5525_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetime");
     editorCell.setCellId("Constant_5525_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5525_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5525_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
     editorCell.setCellId("Constant_5525_1");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5525_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5525_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "zone");
     editorCell.setCellId("Constant_5525_2");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5525_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5525_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "/");
     editorCell.setCellId("Constant_5525_3");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {

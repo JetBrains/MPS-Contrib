@@ -27,14 +27,14 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3246_0");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
-    editorCell.addEditorCell(this.createConstant_3246_0(editorContext, node, "\""));
+    editorCell.addEditorCell(this.createConstant_3246_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_3246_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3246_1(editorContext, node, "\""));
+    editorCell.addEditorCell(this.createConstant_3246_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3246_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3246_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_3246_0");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
     {
@@ -45,8 +45,8 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3246_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3246_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_3246_1");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
     {

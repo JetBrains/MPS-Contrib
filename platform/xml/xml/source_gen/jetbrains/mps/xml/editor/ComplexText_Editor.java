@@ -26,22 +26,22 @@ public class ComplexText_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_2529_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_2529_0");
-    editorCell.addEditorCell(this.createConstant_2529_0(editorContext, node, "*"));
+    editorCell.addEditorCell(this.createConstant_2529_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_2529_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_2529_1(editorContext, node, "*"));
+    editorCell.addEditorCell(this.createConstant_2529_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2529_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2529_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_2529_0");
     XmlStyle_StyleSheet.getXmlComplexText_Start(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_2529_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2529_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "*");
     editorCell.setCellId("Constant_2529_1");
     XmlStyle_StyleSheet.getXmlComplexText_End(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

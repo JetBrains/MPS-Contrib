@@ -38,13 +38,13 @@ public class ConfigurationEditorDeclaration_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_8267_0(editorContext, node, "component:"));
+    editorCell.addEditorCell(this.createConstant_8267_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_8267_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8267_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8267_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "component:");
     editorCell.setCellId("Constant_8267_0");
     editorCell.setDefaultText("");
     return editorCell;

@@ -42,7 +42,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     if (renderingCondition3603_0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_3603_4(editorContext, node));
     }
-    editorCell.addEditorCell(this.createConstant_3603_0(editorContext, node, "#"));
+    editorCell.addEditorCell(this.createConstant_3603_0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_3603_0(editorContext, node));
     if (renderingCondition3603_1(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_3603_5(editorContext, node));
@@ -61,7 +61,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3603_2(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_3603_2");
-    editorCell.addEditorCell(this.createConstant_3603_1(editorContext, node, "locale"));
+    editorCell.addEditorCell(this.createConstant_3603_1(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_3603_1(editorContext, node));
     return editorCell;
   }
@@ -74,7 +74,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_3603_2(editorContext, node, "zone"));
+    editorCell.addEditorCell(this.createConstant_3603_2(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_3603_2(editorContext, node));
     return editorCell;
   }
@@ -82,7 +82,7 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3603_4(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3603_4");
-    editorCell.addEditorCell(this.createConstant_3603_3(editorContext, node, "in"));
+    editorCell.addEditorCell(this.createConstant_3603_3(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_3603_1(editorContext, node));
     return editorCell;
   }
@@ -95,14 +95,14 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     }
-    editorCell.addEditorCell(this.createConstant_3603_4(editorContext, node, "("));
+    editorCell.addEditorCell(this.createConstant_3603_4(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_3603_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3603_5(editorContext, node, ")"));
+    editorCell.addEditorCell(this.createConstant_3603_5(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3603_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3603_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
     editorCell.setCellId("Constant_3603_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
@@ -114,22 +114,22 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3603_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3603_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
     editorCell.setCellId("Constant_3603_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3603_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3603_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "zone");
     editorCell.setCellId("Constant_3603_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3603_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3603_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_3603_3");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {
@@ -140,8 +140,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3603_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3603_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_3603_4");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {
@@ -153,8 +153,8 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3603_5(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3603_5(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_3603_5");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     {

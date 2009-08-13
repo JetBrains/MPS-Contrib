@@ -30,27 +30,27 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_7754_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_7754_0");
-    editorCell.addEditorCell(this.createConstant_7754_0(editorContext, node, "("));
+    editorCell.addEditorCell(this.createConstant_7754_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_7754_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7754_1(editorContext, node, "-"));
-    editorCell.addEditorCell(this.createConstant_7754_4(editorContext, node, "date"));
+    editorCell.addEditorCell(this.createConstant_7754_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7754_4(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_7754_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7754_2(editorContext, node, ")"));
-    editorCell.addEditorCell(this.createConstant_7754_3(editorContext, node, "in"));
+    editorCell.addEditorCell(this.createConstant_7754_2(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7754_3(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_7754_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_7754_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7754_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_7754_0");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_7754_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7754_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "-");
     editorCell.setCellId("Constant_7754_1");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
@@ -61,24 +61,24 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7754_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7754_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_7754_2");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_7754_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7754_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_7754_3");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_7754_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7754_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
     editorCell.setCellId("Constant_7754_4");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

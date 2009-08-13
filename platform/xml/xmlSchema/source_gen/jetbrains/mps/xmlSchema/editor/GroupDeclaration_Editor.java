@@ -26,15 +26,15 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_4337_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_4337_0");
-    editorCell.addEditorCell(this.createConstant_4337_0(editorContext, node, "group"));
+    editorCell.addEditorCell(this.createConstant_4337_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_4337_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4337_1(editorContext, node, ": "));
+    editorCell.addEditorCell(this.createConstant_4337_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_4337_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4337_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4337_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "group");
     editorCell.setCellId("Constant_4337_0");
     {
       Style style = editorCell.getStyle();
@@ -44,8 +44,8 @@ public class GroupDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4337_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4337_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ": ");
     editorCell.setCellId("Constant_4337_1");
     editorCell.setDefaultText("");
     return editorCell;

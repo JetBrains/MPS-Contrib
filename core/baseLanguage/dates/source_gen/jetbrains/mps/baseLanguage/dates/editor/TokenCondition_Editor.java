@@ -30,26 +30,26 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_4438_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_4438_0");
-    editorCell.addEditorCell(this.createConstant_4438_1(editorContext, node, "parameters:"));
-    editorCell.addEditorCell(this.createConstant_4438_7(editorContext, node, "datetimeToFormat"));
-    editorCell.addEditorCell(this.createConstant_4438_0(editorContext, node, "date time to format"));
-    editorCell.addEditorCell(this.createConstant_4438_3(editorContext, node, ""));
-    editorCell.addEditorCell(this.createConstant_4438_4(editorContext, node, "returns:"));
-    editorCell.addEditorCell(this.createConstant_4438_6(editorContext, node, "Last statement should be an ExpressionStatement"));
-    editorCell.addEditorCell(this.createConstant_4438_5(editorContext, node, "Value of the expression is a condition to test"));
+    editorCell.addEditorCell(this.createConstant_4438_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_7(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_3(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_4(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_6(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_5(editorContext, node));
     return editorCell;
   }
 
   private EditorCell createCollection_4438_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_4438_1");
-    editorCell.addEditorCell(this.createConstant_4438_2(editorContext, node, ">"));
+    editorCell.addEditorCell(this.createConstant_4438_2(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_4438_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date time to format");
     editorCell.setCellId("Constant_4438_0");
     {
       Style style = editorCell.getStyle();
@@ -60,8 +60,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "parameters:");
     editorCell.setCellId("Constant_4438_1");
     {
       Style style = editorCell.getStyle();
@@ -72,8 +72,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_4438_2");
     {
       Style style = editorCell.getStyle();
@@ -83,8 +83,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_4438_3");
     {
       Style style = editorCell.getStyle();
@@ -95,8 +95,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "returns:");
     editorCell.setCellId("Constant_4438_4");
     {
       Style style = editorCell.getStyle();
@@ -107,8 +107,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_5(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_5(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Value of the expression is a condition to test");
     editorCell.setCellId("Constant_4438_5");
     {
       Style style = editorCell.getStyle();
@@ -119,8 +119,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_6(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_6(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Last statement should be an ExpressionStatement");
     editorCell.setCellId("Constant_4438_6");
     {
       Style style = editorCell.getStyle();
@@ -131,8 +131,8 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_7(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4438_7(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetimeToFormat");
     editorCell.setCellId("Constant_4438_7");
     editorCell.setDefaultText("");
     return editorCell;

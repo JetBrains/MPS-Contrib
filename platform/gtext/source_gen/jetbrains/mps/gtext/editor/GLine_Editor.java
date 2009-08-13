@@ -33,13 +33,13 @@ public class GLine_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, true);
     }
-    editorCell.addEditorCell(this.createConstant_6865_0(editorContext, node, ">"));
+    editorCell.addEditorCell(this.createConstant_6865_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_6865_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6865_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6865_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_6865_0");
     editorCell.setDefaultText("");
     return editorCell;
@@ -78,7 +78,7 @@ public class GLine_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_6865_1(editorContext, node, "<< items >>");
+      return this.createConstant_6865_1(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -99,8 +99,8 @@ public class GLine_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_6865_1(EditorContext editorContext, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+    private EditorCell createConstant_6865_1(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<< items >>");
       editorCell.setCellId("Constant_6865_1");
       {
         Style style = editorCell.getStyle();

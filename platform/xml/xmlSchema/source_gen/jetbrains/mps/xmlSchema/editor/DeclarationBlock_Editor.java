@@ -29,9 +29,9 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_8297_0");
     editorCell.addEditorCell(this.createRefNodeList_8297_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8297_0(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_8297_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_8297_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8297_2(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_8297_2(editorContext, node));
     return editorCell;
   }
 
@@ -42,13 +42,13 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_8297_1(editorContext, node, "  "));
+    editorCell.addEditorCell(this.createConstant_8297_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_8297_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8297_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8297_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_8297_0");
     {
       Style style = editorCell.getStyle();
@@ -58,8 +58,8 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_8297_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8297_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_8297_1");
     {
       Style style = editorCell.getStyle();
@@ -69,8 +69,8 @@ public class DeclarationBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_8297_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_8297_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_8297_2");
     {
       Style style = editorCell.getStyle();

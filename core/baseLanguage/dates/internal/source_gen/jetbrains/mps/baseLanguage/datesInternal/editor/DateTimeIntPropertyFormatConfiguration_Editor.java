@@ -36,26 +36,26 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   private EditorCell createCollection_9190_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_9190_0");
-    editorCell.addEditorCell(this.createConstant_9190_0(editorContext, node, "format configuration"));
-    editorCell.addEditorCell(this.createConstant_9190_3(editorContext, node, "for"));
+    editorCell.addEditorCell(this.createConstant_9190_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9190_3(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_9190_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9190_1(editorContext, node, "{"));
+    editorCell.addEditorCell(this.createConstant_9190_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_9190_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9190_2(editorContext, node, "}"));
-    editorCell.addEditorCell(this.createConstant_9190_4(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_9190_2(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9190_4(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9190_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9190_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "format configuration");
     editorCell.setCellId("Constant_9190_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9190_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9190_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_9190_1");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -67,8 +67,8 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     return editorCell;
   }
 
-  private EditorCell createConstant_9190_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9190_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_9190_2");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -80,16 +80,16 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     return editorCell;
   }
 
-  private EditorCell createConstant_9190_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9190_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
     editorCell.setCellId("Constant_9190_3");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9190_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9190_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_9190_4");
     editorCell.setDefaultText("");
     return editorCell;

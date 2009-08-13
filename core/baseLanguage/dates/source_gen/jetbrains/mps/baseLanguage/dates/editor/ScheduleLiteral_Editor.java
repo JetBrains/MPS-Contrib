@@ -47,7 +47,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_2020_0(editorContext, node, "on"));
+    editorCell.addEditorCell(this.createConstant_2020_0(editorContext, node));
     if (renderingCondition2020_1(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2020_2(editorContext, node));
     }
@@ -68,7 +68,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
     }
     editorCell.addEditorCell(this.createRefCell_2020_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_2020_1(editorContext, node, ","));
+    editorCell.addEditorCell(this.createConstant_2020_1(editorContext, node));
     return editorCell;
   }
 
@@ -79,7 +79,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_2020_2(editorContext, node, "at"));
+    editorCell.addEditorCell(this.createConstant_2020_2(editorContext, node));
     if (renderingCondition2020_5(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2020_4(editorContext, node));
     }
@@ -111,7 +111,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       editorCell.addEditorCell(this.createCollection_2020_6(editorContext, node));
     }
     editorCell.addEditorCell(this.createProperty_2020_5(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_2020_3(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_2020_3(editorContext, node));
     return editorCell;
   }
 
@@ -123,12 +123,12 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
     }
     editorCell.addEditorCell(this.createProperty_2020_6(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_2020_4(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_2020_4(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2020_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "on");
     editorCell.setCellId("Constant_2020_0");
     {
       Style style = editorCell.getStyle();
@@ -138,8 +138,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2020_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
     editorCell.setCellId("Constant_2020_1");
     {
       Style style = editorCell.getStyle();
@@ -150,8 +150,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2020_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "at");
     editorCell.setCellId("Constant_2020_2");
     {
       Style style = editorCell.getStyle();
@@ -161,8 +161,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2020_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_2020_3");
     {
       Style style = editorCell.getStyle();
@@ -172,8 +172,8 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2020_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2020_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_2020_4");
     {
       Style style = editorCell.getStyle();

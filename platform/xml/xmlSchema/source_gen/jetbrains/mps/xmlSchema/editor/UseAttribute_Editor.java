@@ -22,21 +22,21 @@ public class UseAttribute_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_5639_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_5639_0");
-    editorCell.addEditorCell(this.createConstant_5639_0(editorContext, node, "["));
+    editorCell.addEditorCell(this.createConstant_5639_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_5639_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5639_1(editorContext, node, "]"));
+    editorCell.addEditorCell(this.createConstant_5639_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_5639_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5639_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "[");
     editorCell.setCellId("Constant_5639_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5639_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5639_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_5639_1");
     editorCell.setDefaultText("");
     return editorCell;

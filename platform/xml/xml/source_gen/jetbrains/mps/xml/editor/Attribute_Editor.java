@@ -30,31 +30,31 @@ public class Attribute_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_1680_0");
     editorCell.addEditorCell(this.createRefCell_1680_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_1680_0(editorContext, node, "="));
-    editorCell.addEditorCell(this.createConstant_1680_1(editorContext, node, "\""));
+    editorCell.addEditorCell(this.createConstant_1680_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_1680_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_1680_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_1680_2(editorContext, node, "\""));
+    editorCell.addEditorCell(this.createConstant_1680_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_1680_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_1680_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_1680_0");
     XmlStyle_StyleSheet.getXmlOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_1680_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_1680_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_1680_1");
     XmlStyle_StyleSheet.getXmlOpenQuote(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_1680_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_1680_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_1680_2");
     XmlStyle_StyleSheet.getXmlCloseQuote(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

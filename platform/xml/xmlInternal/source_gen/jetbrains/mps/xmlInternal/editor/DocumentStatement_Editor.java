@@ -26,7 +26,7 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_5624_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_5624_0");
-    editorCell.addEditorCell(this.createConstant_5624_0(editorContext, node, "document statement"));
+    editorCell.addEditorCell(this.createConstant_5624_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_5624_1(editorContext, node));
     return editorCell;
   }
@@ -43,8 +43,8 @@ public class DocumentStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_5624_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_5624_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "document statement");
     editorCell.setCellId("Constant_5624_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

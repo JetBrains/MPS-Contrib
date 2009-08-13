@@ -9,10 +9,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
@@ -38,11 +38,11 @@ public class Schema_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3461_0");
     editorCell.addEditorCell(this.createCollection_3461_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3461_1(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_3461_1(editorContext, node));
     editorCell.addEditorCell(this.createCollection_3461_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3461_3(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_3461_3(editorContext, node));
     editorCell.addEditorCell(this.createCollection_3461_3(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3461_7(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_3461_7(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_3461_0(editorContext, node));
     return editorCell;
   }
@@ -55,8 +55,8 @@ public class Schema_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
     }
     editorCell.addEditorCell(this.createProperty_3461_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3461_0(editorContext, node, "schema"));
-    editorCell.addEditorCell(EditorCell_Component.createComponentCell(editorContext, node, Schema_Editor._QueryFunction_JComponent_1176495162226(node, editorContext), "_1172958214549"));
+    editorCell.addEditorCell(this.createConstant_3461_0(editorContext, node));
+    editorCell.addEditorCell(this.createJComponent_3461_0(editorContext, node));
     return editorCell;
   }
 
@@ -67,12 +67,12 @@ public class Schema_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_3461_2(editorContext, node, "root element:"));
+    editorCell.addEditorCell(this.createConstant_3461_2(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_3461_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3461_4(editorContext, node, "("));
-    editorCell.addEditorCell(this.createConstant_3461_6(editorContext, node, "alwaysUseRoot:"));
+    editorCell.addEditorCell(this.createConstant_3461_4(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3461_6(editorContext, node));
     editorCell.addEditorCell(this.createProperty_3461_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3461_5(editorContext, node, ")"));
+    editorCell.addEditorCell(this.createConstant_3461_5(editorContext, node));
     return editorCell;
   }
 
@@ -83,20 +83,20 @@ public class Schema_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_3461_8(editorContext, node, "default namespace:"));
+    editorCell.addEditorCell(this.createConstant_3461_8(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_3461_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "schema");
     editorCell.setCellId("Constant_3461_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_3461_1");
     {
       Style style = editorCell.getStyle();
@@ -106,15 +106,15 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "root element:");
     editorCell.setCellId("Constant_3461_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_3461_3");
     {
       Style style = editorCell.getStyle();
@@ -124,29 +124,29 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_3461_4");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_5(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_5(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_3461_5");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_6(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_6(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "alwaysUseRoot:");
     editorCell.setCellId("Constant_3461_6");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_7(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_7(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_3461_7");
     {
       Style style = editorCell.getStyle();
@@ -156,8 +156,8 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3461_8(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3461_8(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "default namespace:");
     editorCell.setCellId("Constant_3461_8");
     editorCell.setDefaultText("");
     return editorCell;
@@ -168,6 +168,12 @@ public class Schema_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_declarationBlock");
     editorCell.setRole(handler.getElementRole());
+    return editorCell;
+  }
+
+  private EditorCell createJComponent_3461_0(EditorContext editorContext, SNode node) {
+    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Schema_Editor._QueryFunction_JComponent_1176495162226(node, editorContext), "_1172958214549");
+    editorCell.setCellId("JComponent_3461_0");
     return editorCell;
   }
 

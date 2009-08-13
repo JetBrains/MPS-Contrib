@@ -35,7 +35,7 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_7739_0");
     editorCell.addEditorCell(this.createCollection_7739_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7739_0(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_7739_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_7739_0(editorContext, node));
     return editorCell;
   }
@@ -52,8 +52,8 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7739_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_7739_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_7739_0");
     {
       Style style = editorCell.getStyle();
@@ -137,7 +137,7 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_7739_1(editorContext, node, "<property declarations>");
+      return this.createConstant_7739_1(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -158,8 +158,8 @@ public class PropertyNode_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_7739_1(EditorContext editorContext, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+    private EditorCell createConstant_7739_1(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<property declarations>");
       editorCell.setCellId("Constant_7739_1");
       BuildLanguageStyle_StyleSheet.getPrompting(editorCell).apply(editorCell);
       editorCell.setDefaultText("");

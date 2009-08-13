@@ -34,12 +34,12 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_0386_0");
     editorCell.addEditorCell(this.createRefNode_0386_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_0386_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_0386_0(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_0386_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_0386_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_0386_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_0386_0");
     {
       Style style = editorCell.getStyle();
@@ -99,7 +99,7 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_0386_1(editorContext, node, "");
+      return this.createConstant_0386_1(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -120,8 +120,8 @@ public class EntityBlock_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_0386_1(EditorContext editorContext, SNode node, String text) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+    private EditorCell createConstant_0386_1(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_0386_1");
       editorCell.setDefaultText("");
       return editorCell;

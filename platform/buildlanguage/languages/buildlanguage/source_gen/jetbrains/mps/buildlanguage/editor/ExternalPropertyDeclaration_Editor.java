@@ -52,7 +52,7 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_2766_0(editorContext, node, "//"));
+    editorCell.addEditorCell(this.createConstant_2766_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_2766_0(editorContext, node));
     return editorCell;
   }
@@ -62,11 +62,11 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_2766_2");
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, new BasicCellContext(node), new SubstituteInfoPart[]{new ExternalPropertyDeclaration_Editor.ExternalPropertyDeclaration_generic_cellMenu0()}));
     if (renderingCondition2766_1(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createConstant_2766_2(editorContext, node, "checked"));
+      editorCell.addEditorCell(this.createConstant_2766_2(editorContext, node));
     }
     editorCell.addEditorCell(this.createConceptProperty_2766_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_2766_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_2766_1(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_2766_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_2766_0(editorContext, node));
     return editorCell;
   }
@@ -74,8 +74,8 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_2766_3(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_2766_3");
-    editorCell.addEditorCell(this.createConstant_2766_3(editorContext, node, "check on start"));
-    editorCell.addEditorCell(this.createConstant_2766_4(editorContext, node, "="));
+    editorCell.addEditorCell(this.createConstant_2766_3(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2766_4(editorContext, node));
     editorCell.addEditorCell(this.createProperty_2766_2(editorContext, node));
     return editorCell;
   }
@@ -93,39 +93,39 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2766_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2766_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "//");
     editorCell.setCellId("Constant_2766_0");
     BuildLanguageStyle_StyleSheet.getComment(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_2766_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2766_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_2766_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_2766_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2766_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "checked");
     editorCell.setCellId("Constant_2766_2");
     BuildLanguageStyle_StyleSheet.getKeyword(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_2766_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2766_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "check on start");
     editorCell.setCellId("Constant_2766_3");
     BuildLanguageStyle_StyleSheet.getAttributeName(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_2766_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2766_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_2766_4");
     editorCell.setDefaultText("");
     return editorCell;

@@ -22,38 +22,38 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_0717_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_0717_0");
-    editorCell.addEditorCell(this.createConstant_0717_0(editorContext, node, "namespace"));
+    editorCell.addEditorCell(this.createConstant_0717_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_0717_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_0717_1(editorContext, node, "="));
-    editorCell.addEditorCell(this.createConstant_0717_2(editorContext, node, "\""));
+    editorCell.addEditorCell(this.createConstant_0717_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_0717_2(editorContext, node));
     editorCell.addEditorCell(this.createProperty_0717_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_0717_3(editorContext, node, "\""));
+    editorCell.addEditorCell(this.createConstant_0717_3(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_0717_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_0717_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "namespace");
     editorCell.setCellId("Constant_0717_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_0717_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_0717_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_0717_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_0717_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_0717_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_0717_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_0717_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_0717_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
     editorCell.setCellId("Constant_0717_3");
     editorCell.setDefaultText("");
     return editorCell;

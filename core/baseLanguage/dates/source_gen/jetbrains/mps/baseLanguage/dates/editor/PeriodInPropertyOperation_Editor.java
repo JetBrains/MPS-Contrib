@@ -31,7 +31,7 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_3248_0");
     editorCell.addEditorCell(this.createRefNode_3248_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3248_0(editorContext, node, "in"));
+    editorCell.addEditorCell(this.createConstant_3248_0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_3248_0(editorContext, node));
     return editorCell;
   }
@@ -39,21 +39,21 @@ public class PeriodInPropertyOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3248_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_3248_1");
-    editorCell.addEditorCell(this.createConstant_3248_1(editorContext, node, "absolute"));
+    editorCell.addEditorCell(this.createConstant_3248_1(editorContext, node));
     editorCell.addEditorCell(this.createProperty_3248_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3248_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3248_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_3248_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3248_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3248_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "absolute");
     editorCell.setCellId("Constant_3248_1");
     editorCell.setDefaultText("");
     return editorCell;

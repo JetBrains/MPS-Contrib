@@ -35,14 +35,14 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_4657_0");
     editorCell.addEditorCell(this.createConceptProperty_4657_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_4657_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4657_1(editorContext, node, "{"));
+    editorCell.addEditorCell(this.createConstant_4657_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_4657_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4657_0(editorContext, node, "}"));
+    editorCell.addEditorCell(this.createConstant_4657_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4657_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4657_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_4657_0");
     {
       Style style = editorCell.getStyle();
@@ -52,8 +52,8 @@ public class GContentBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4657_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_4657_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_4657_1");
     {
       Style style = editorCell.getStyle();

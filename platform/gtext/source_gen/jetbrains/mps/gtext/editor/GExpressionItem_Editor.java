@@ -25,13 +25,13 @@ public class GExpressionItem_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_2934_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2934_0");
-    editorCell.addEditorCell(this.createConstant_2934_0(editorContext, node, "expression"));
+    editorCell.addEditorCell(this.createConstant_2934_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_2934_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2934_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2934_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "expression");
     editorCell.setCellId("Constant_2934_0");
     {
       Style style = editorCell.getStyle();

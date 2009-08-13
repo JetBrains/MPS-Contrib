@@ -25,13 +25,13 @@ public class GStatementItem_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_2833_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_2833_0");
-    editorCell.addEditorCell(this.createConstant_2833_0(editorContext, node, "statement"));
+    editorCell.addEditorCell(this.createConstant_2833_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_2833_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2833_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2833_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement");
     editorCell.setCellId("Constant_2833_0");
     {
       Style style = editorCell.getStyle();

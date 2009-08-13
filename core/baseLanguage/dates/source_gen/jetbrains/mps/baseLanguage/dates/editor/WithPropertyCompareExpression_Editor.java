@@ -26,7 +26,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6938_0");
     editorCell.addEditorCell(this.createComponent_6938_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6938_0(editorContext, node, "by"));
+    editorCell.addEditorCell(this.createConstant_6938_0(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6938_0(editorContext, node));
     return editorCell;
   }
@@ -37,8 +37,8 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_6938_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6938_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
     editorCell.setCellId("Constant_6938_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

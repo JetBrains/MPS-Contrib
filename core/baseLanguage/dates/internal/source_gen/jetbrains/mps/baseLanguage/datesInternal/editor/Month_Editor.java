@@ -26,18 +26,18 @@ public class Month_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_9052_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_9052_0");
-    editorCell.addEditorCell(this.createConstant_9052_1(editorContext, node, "month"));
+    editorCell.addEditorCell(this.createConstant_9052_1(editorContext, node));
     editorCell.addEditorCell(this.createProperty_9052_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_0(editorContext, node, "("));
+    editorCell.addEditorCell(this.createConstant_9052_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_9052_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_2(editorContext, node, ":"));
+    editorCell.addEditorCell(this.createConstant_9052_2(editorContext, node));
     editorCell.addEditorCell(this.createProperty_9052_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_3(editorContext, node, ")"));
+    editorCell.addEditorCell(this.createConstant_9052_3(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9052_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_9052_0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -49,23 +49,23 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9052_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "month");
     editorCell.setCellId("Constant_9052_1");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9052_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
     editorCell.setCellId("Constant_9052_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9052_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_9052_3");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {

@@ -33,16 +33,16 @@ public class GDocument_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_9526_0");
     editorCell.addEditorCell(this.createProperty_9526_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9526_0(editorContext, node, "."));
+    editorCell.addEditorCell(this.createConstant_9526_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_9526_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9526_1(editorContext, node, "gDocument"));
-    editorCell.addEditorCell(this.createConstant_9526_2(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_9526_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9526_2(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_9526_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9526_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9526_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
     editorCell.setCellId("Constant_9526_0");
     {
       Style style = editorCell.getStyle();
@@ -53,8 +53,8 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9526_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9526_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "gDocument");
     editorCell.setCellId("Constant_9526_1");
     {
       Style style = editorCell.getStyle();
@@ -64,8 +64,8 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9526_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9526_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_9526_2");
     {
       Style style = editorCell.getStyle();

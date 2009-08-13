@@ -22,21 +22,21 @@ public class CDATA_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_3553_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_3553_0");
-    editorCell.addEditorCell(this.createConstant_3553_0(editorContext, node, "<![CDATA["));
+    editorCell.addEditorCell(this.createConstant_3553_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_3553_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3553_1(editorContext, node, "]]>"));
+    editorCell.addEditorCell(this.createConstant_3553_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3553_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3553_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<![CDATA[");
     editorCell.setCellId("Constant_3553_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3553_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_3553_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]]>");
     editorCell.setCellId("Constant_3553_1");
     editorCell.setDefaultText("");
     return editorCell;

@@ -30,23 +30,23 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   private EditorCell createCollection_6009_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6009_0");
-    editorCell.addEditorCell(this.createConstant_6009_0(editorContext, node, "format configuration for zone"));
-    editorCell.addEditorCell(this.createConstant_6009_1(editorContext, node, "{"));
+    editorCell.addEditorCell(this.createConstant_6009_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6009_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_6009_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6009_2(editorContext, node, "}"));
+    editorCell.addEditorCell(this.createConstant_6009_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6009_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6009_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "format configuration for zone");
     editorCell.setCellId("Constant_6009_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6009_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6009_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_6009_1");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -58,8 +58,8 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     return editorCell;
   }
 
-  private EditorCell createConstant_6009_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6009_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_6009_2");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {

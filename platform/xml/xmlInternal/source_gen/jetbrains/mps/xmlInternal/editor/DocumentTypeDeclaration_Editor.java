@@ -29,7 +29,7 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_6391_0");
     editorCell.addEditorCell(this.createCollection_6391_1(editorContext, node));
     editorCell.addEditorCell(this.createCollection_6391_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6391_2(editorContext, node, ">"));
+    editorCell.addEditorCell(this.createConstant_6391_2(editorContext, node));
     return editorCell;
   }
 
@@ -40,8 +40,8 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_6391_0(editorContext, node, "<!"));
-    editorCell.addEditorCell(this.createConstant_6391_1(editorContext, node, "DOCTYPE"));
+    editorCell.addEditorCell(this.createConstant_6391_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6391_1(editorContext, node));
     editorCell.addEditorCell(this.createProperty_6391_0(editorContext, node));
     return editorCell;
   }
@@ -58,23 +58,23 @@ public class DocumentTypeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_6391_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6391_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<!");
     editorCell.setCellId("Constant_6391_0");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6391_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6391_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "DOCTYPE");
     editorCell.setCellId("Constant_6391_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6391_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6391_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_6391_2");
     editorCell.setDefaultText("");
     return editorCell;

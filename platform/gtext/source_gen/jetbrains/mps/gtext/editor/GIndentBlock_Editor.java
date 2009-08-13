@@ -25,13 +25,13 @@ public class GIndentBlock_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_9362_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_9362_0");
-    editorCell.addEditorCell(this.createConstant_9362_0(editorContext, node, "indentBlock"));
+    editorCell.addEditorCell(this.createConstant_9362_0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_9362_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9362_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9362_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "indentBlock");
     editorCell.setCellId("Constant_9362_0");
     {
       Style style = editorCell.getStyle();

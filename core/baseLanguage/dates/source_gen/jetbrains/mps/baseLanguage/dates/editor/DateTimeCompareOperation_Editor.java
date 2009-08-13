@@ -45,7 +45,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("Collection_9167_0");
     editorCell.addEditorCell(this.createRefNode_9167_0(editorContext, node));
     editorCell.addEditorCell(this.createProperty_9167_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9167_2(editorContext, node, "date"));
+    editorCell.addEditorCell(this.createConstant_9167_2(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_9167_1(editorContext, node));
     if (renderingCondition9167_0(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_9167_2(editorContext, node));
@@ -56,7 +56,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_9167_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_9167_1");
-    editorCell.addEditorCell(this.createConstant_9167_0(editorContext, node, "Compare datetime expressions by"));
+    editorCell.addEditorCell(this.createConstant_9167_0(editorContext, node));
     editorCell.addEditorCell(this.createReadOnlyModelAccessor_9167_0(editorContext, node));
     return editorCell;
   }
@@ -68,28 +68,28 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_9167_1(editorContext, node, "by"));
+    editorCell.addEditorCell(this.createConstant_9167_1(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_9167_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9167_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9167_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Compare datetime expressions by");
     editorCell.setCellId("Constant_9167_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9167_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9167_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
     editorCell.setCellId("Constant_9167_1");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9167_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_9167_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
     editorCell.setCellId("Constant_9167_2");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

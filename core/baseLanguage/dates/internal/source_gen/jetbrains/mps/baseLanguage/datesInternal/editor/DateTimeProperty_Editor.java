@@ -30,10 +30,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_6516_0");
     editorCell.addEditorCell(this.createProperty_6516_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6516_0(editorContext, node, "{"));
+    editorCell.addEditorCell(this.createConstant_6516_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_6516_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6516_1(editorContext, node, "}"));
-    editorCell.addEditorCell(this.createConstant_6516_5(editorContext, node, ""));
+    editorCell.addEditorCell(this.createConstant_6516_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6516_5(editorContext, node));
     return editorCell;
   }
 
@@ -46,19 +46,19 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
     editorCell.addEditorCell(this.createIndentCell6516_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6516_2(editorContext, node, "Joda DateTimeFieldType"));
+    editorCell.addEditorCell(this.createConstant_6516_2(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6516_0(editorContext, node));
     editorCell.addEditorCell(this.createIndentCell6516_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6516_4(editorContext, node, "Joda PeriodType"));
+    editorCell.addEditorCell(this.createConstant_6516_4(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6516_1(editorContext, node));
     editorCell.addEditorCell(this.createIndentCell6516_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6516_3(editorContext, node, "Plural form"));
+    editorCell.addEditorCell(this.createConstant_6516_3(editorContext, node));
     editorCell.addEditorCell(this.createProperty_6516_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6516_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6516_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_6516_0");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -70,8 +70,8 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_6516_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6516_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_6516_1");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
@@ -83,32 +83,32 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_6516_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6516_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DateTimeFieldType");
     editorCell.setCellId("Constant_6516_2");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6516_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6516_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Plural form");
     editorCell.setCellId("Constant_6516_3");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6516_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6516_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda PeriodType");
     editorCell.setCellId("Constant_6516_4");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6516_5(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6516_5(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_6516_5");
     editorCell.setDefaultText("");
     return editorCell;

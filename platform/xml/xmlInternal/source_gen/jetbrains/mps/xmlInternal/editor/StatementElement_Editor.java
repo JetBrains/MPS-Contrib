@@ -52,9 +52,9 @@ public class StatementElement_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_6255_1(editorContext, node, "<"));
-    editorCell.addEditorCell(this.createConstant_6255_0(editorContext, node, "statement element"));
-    editorCell.addEditorCell(this.createConstant_6255_2(editorContext, node, ">"));
+    editorCell.addEditorCell(this.createConstant_6255_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6255_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6255_2(editorContext, node));
     return editorCell;
   }
 
@@ -66,54 +66,54 @@ public class StatementElement_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_6255_4(editorContext, node, "</"));
-    editorCell.addEditorCell(this.createConstant_6255_3(editorContext, node, "statement element"));
-    editorCell.addEditorCell(this.createConstant_6255_5(editorContext, node, ">"));
+    editorCell.addEditorCell(this.createConstant_6255_4(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6255_3(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6255_5(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6255_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6255_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
     editorCell.setCellId("Constant_6255_0");
     XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6255_1(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6255_1(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_6255_1");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6255_2(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6255_2(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_6255_2");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6255_3(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6255_3(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
     editorCell.setCellId("Constant_6255_3");
     XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6255_4(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6255_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "</");
     editorCell.setCellId("Constant_6255_4");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6255_5(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_6255_5(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
     editorCell.setCellId("Constant_6255_5");
     XmlStyle_StyleSheet.getXmlCloseParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");

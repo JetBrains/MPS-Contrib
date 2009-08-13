@@ -25,7 +25,7 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_2819_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_2819_0");
-    editorCell.addEditorCell(this.createConstant_2819_0(editorContext, node, "PUBLIC"));
+    editorCell.addEditorCell(this.createConstant_2819_0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_2819_1(editorContext, node));
     return editorCell;
   }
@@ -54,8 +54,8 @@ public class PublicExternalId_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_2819_0(EditorContext editorContext, SNode node, String text) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, text);
+  private EditorCell createConstant_2819_0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "PUBLIC");
     editorCell.setCellId("Constant_2819_0");
     editorCell.setDefaultText("");
     return editorCell;
