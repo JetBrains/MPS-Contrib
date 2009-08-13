@@ -22,13 +22,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GridRow_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_7736_0;
+  private AbstractCellListHandler myListHandler_7736_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_7736_0(context, node);
   }
 
-  public EditorCell createCollection_7736_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_7736_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_7736_0");
     editorCell.addEditorCell(this.createConstant_7736_0(context, node, "Row"));
@@ -36,7 +36,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_7736_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_7736_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_7736_1");
     {
@@ -48,7 +48,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_7736_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_7736_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_7736_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
@@ -56,7 +56,7 @@ public class GridRow_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_7736_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_7736_0(EditorContext context, SNode node) {
     if (this.myListHandler_7736_0 == null) {
       this.myListHandler_7736_0 = new GridRow_Editor.componentListHandler_7736_0(node, "component", context);
     }
@@ -70,12 +70,12 @@ public class GridRow_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell7736_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell7736_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class componentListHandler_7736_0 extends RefNodeListHandler {
+  private static class componentListHandler_7736_0 extends RefNodeListHandler {
 
     public componentListHandler_7736_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

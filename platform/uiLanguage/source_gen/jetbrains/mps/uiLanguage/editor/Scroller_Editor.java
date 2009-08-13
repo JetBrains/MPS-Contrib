@@ -22,13 +22,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Scroller_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_1454_0;
+  private AbstractCellListHandler myListHandler_1454_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_1454_0(context, node);
   }
 
-  public EditorCell createCollection_1454_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_1454_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_1454_0");
     editorCell.addEditorCell(this.createConstant_1454_0(context, node, "Scroller"));
@@ -36,7 +36,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_1454_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_1454_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_1454_1");
     {
@@ -48,7 +48,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_1454_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_1454_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_1454_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
@@ -56,7 +56,7 @@ public class Scroller_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_1454_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_1454_0(EditorContext context, SNode node) {
     if (this.myListHandler_1454_0 == null) {
       this.myListHandler_1454_0 = new Scroller_Editor.contentListHandler_1454_0(node, "content", context);
     }
@@ -66,12 +66,12 @@ public class Scroller_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell1454_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell1454_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class contentListHandler_1454_0 extends RefNodeListHandler {
+  private static class contentListHandler_1454_0 extends RefNodeListHandler {
 
     public contentListHandler_1454_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

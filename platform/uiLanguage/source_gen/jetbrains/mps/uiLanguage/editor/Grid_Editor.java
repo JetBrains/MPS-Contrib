@@ -23,8 +23,8 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Grid_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_3546_0;
-  /* package */AbstractCellListHandler myListHandler_3546_1;
+  private AbstractCellListHandler myListHandler_3546_0;
+  private AbstractCellListHandler myListHandler_3546_1;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_3546_0(context, node);
@@ -34,7 +34,7 @@ public class Grid_Editor extends DefaultNodeEditor {
     return this.createCollection_3546_2(context, node);
   }
 
-  public EditorCell createCollection_3546_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3546_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_3546_0");
     editorCell.addEditorCell(this.createConstant_3546_0(context, node, "Grid"));
@@ -42,7 +42,7 @@ public class Grid_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3546_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_3546_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3546_1");
     {
@@ -54,14 +54,14 @@ public class Grid_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3546_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_3546_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_3546_2");
     editorCell.addEditorCell(this.createRefNodeList_3546_1(context, node));
     return editorCell;
   }
 
-  public EditorCell createConstant_3546_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3546_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3546_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
@@ -69,7 +69,7 @@ public class Grid_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3546_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3546_0(EditorContext context, SNode node) {
     if (this.myListHandler_3546_0 == null) {
       this.myListHandler_3546_0 = new Grid_Editor.rowListHandler_3546_0(node, "row", context);
     }
@@ -79,7 +79,7 @@ public class Grid_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_3546_1(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_3546_1(EditorContext context, SNode node) {
     if (this.myListHandler_3546_1 == null) {
       this.myListHandler_3546_1 = new Grid_Editor.contentListHandler_3546_0(node, "content", context);
     }
@@ -89,12 +89,12 @@ public class Grid_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell3546_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell3546_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public static class rowListHandler_3546_0 extends RefNodeListHandler {
+  private static class rowListHandler_3546_0 extends RefNodeListHandler {
 
     public rowListHandler_3546_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
@@ -137,7 +137,7 @@ public class Grid_Editor extends DefaultNodeEditor {
     }
 
 }
-  public static class contentListHandler_3546_0 extends RefNodeListHandler {
+  private static class contentListHandler_3546_0 extends RefNodeListHandler {
 
     public contentListHandler_3546_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);

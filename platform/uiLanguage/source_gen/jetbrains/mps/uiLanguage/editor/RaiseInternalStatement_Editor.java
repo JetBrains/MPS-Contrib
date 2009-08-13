@@ -19,7 +19,7 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
     return this.createCollection_5818_0(context, node);
   }
 
-  public EditorCell createCollection_5818_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_5818_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(context, node);
     editorCell.setCellId("Collection_5818_0");
     editorCell.addEditorCell(this.createConstant_5818_0(context, node, "raise"));
@@ -28,21 +28,21 @@ public class RaiseInternalStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_5818_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5818_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5818_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_5818_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_5818_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_5818_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefNode_5818_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_5818_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("argument");
     provider.setNoTargetText("<no argument>");

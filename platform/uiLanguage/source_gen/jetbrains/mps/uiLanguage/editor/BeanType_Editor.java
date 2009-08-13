@@ -23,7 +23,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     return this.createCollection_6322_0(context, node);
   }
 
-  public EditorCell createCollection_6322_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_6322_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_6322_0");
     editorCell.addEditorCell(this.createConstant_6322_0(context, node, "bean"));
@@ -33,7 +33,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6322_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6322_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6322_0");
     {
@@ -44,7 +44,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6322_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6322_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6322_1");
     {
@@ -55,7 +55,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_6322_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_6322_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_6322_2");
     {
@@ -66,7 +66,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefCell_6322_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_6322_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("bean");
     provider.setNoTargetText("<no bean>");
@@ -98,7 +98,7 @@ public class BeanType_Editor extends DefaultNodeEditor {
       return this.createProperty_6322_0(context, node);
     }
 
-    public EditorCell createProperty_6322_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_6322_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

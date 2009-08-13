@@ -14,7 +14,7 @@ public class RenderingObject_Editor extends DefaultNodeEditor {
     return this.createConstant_1679_0(context, node, "object");
   }
 
-  public EditorCell createConstant_1679_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_1679_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_1679_0");
     editorCell.setDefaultText("");

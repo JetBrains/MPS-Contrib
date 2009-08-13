@@ -23,7 +23,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return this.createCollection_8053_0(context, node);
   }
 
-  public EditorCell createCollection_8053_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_8053_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_8053_0");
     {
@@ -36,7 +36,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8053_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_8053_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8053_1");
     {
@@ -48,7 +48,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8053_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_8053_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8053_2");
     {
@@ -59,7 +59,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_8053_3(EditorContext context, SNode node) {
+  private EditorCell createCollection_8053_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_8053_3");
     {
@@ -71,26 +71,26 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_8053_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8053_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8053_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_8053_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_8053_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_8053_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createIndentCell8053_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell8053_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createProperty_8053_0(EditorContext context, SNode node) {
+  private EditorCell createProperty_8053_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, context);
     provider.setRole("label");
     provider.setNoTargetText("<no label>");
@@ -108,7 +108,7 @@ public class FormPart_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_8053_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_8053_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("content");
     provider.setNoTargetText("<no content>");

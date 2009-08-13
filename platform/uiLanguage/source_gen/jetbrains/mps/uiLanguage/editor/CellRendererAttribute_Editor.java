@@ -19,7 +19,7 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
     return this.createCollection_2923_0(context, node);
   }
 
-  public EditorCell createCollection_2923_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_2923_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_2923_0");
     editorCell.addEditorCell(this.createConstant_2923_0(context, node, "renderer"));
@@ -28,7 +28,7 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2923_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2923_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2923_0");
     Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
@@ -36,7 +36,7 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_2923_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_2923_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_2923_1");
     Stylesheet_StyleSheet.getModel(editorCell).apply(editorCell);
@@ -44,7 +44,7 @@ public class CellRendererAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNode_2923_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_2923_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("renderer");
     provider.setNoTargetText("<no renderer>");

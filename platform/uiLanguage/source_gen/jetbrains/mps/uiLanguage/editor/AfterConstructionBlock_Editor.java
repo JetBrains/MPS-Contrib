@@ -23,7 +23,7 @@ public class AfterConstructionBlock_Editor extends DefaultNodeEditor {
     return this.createCollection_3276_0(context, node);
   }
 
-  public EditorCell createCollection_3276_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_3276_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_3276_0");
     editorCell.addEditorCell(this.createCollection_3276_1(context, node));
@@ -32,7 +32,7 @@ public class AfterConstructionBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3276_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_3276_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3276_1");
     {
@@ -44,7 +44,7 @@ public class AfterConstructionBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_3276_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_3276_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_3276_2");
     {
@@ -56,7 +56,7 @@ public class AfterConstructionBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3276_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3276_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3276_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -64,26 +64,26 @@ public class AfterConstructionBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_3276_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3276_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3276_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_3276_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_3276_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_3276_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createIndentCell3276_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell3276_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createRefNode_3276_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_3276_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("body");
     provider.setNoTargetText("<no body>");

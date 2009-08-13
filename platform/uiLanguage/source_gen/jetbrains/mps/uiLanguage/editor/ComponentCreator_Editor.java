@@ -22,7 +22,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
     return this.createCollection_9395_0(context, node);
   }
 
-  public EditorCell createCollection_9395_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_9395_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_9395_0");
     editorCell.addEditorCell(this.createConstant_9395_0(context, node, "component"));
@@ -32,7 +32,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9395_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9395_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9395_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
@@ -40,21 +40,21 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_9395_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9395_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9395_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createConstant_9395_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_9395_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_9395_2");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  public EditorCell createRefCell_9395_0(EditorContext context, SNode node) {
+  private EditorCell createRefCell_9395_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, context);
     provider.setRole("componentDeclaration");
     provider.setNoTargetText("<no componentDeclaration>");
@@ -86,7 +86,7 @@ public class ComponentCreator_Editor extends DefaultNodeEditor {
       return this.createProperty_9395_0(context, node);
     }
 
-    public EditorCell createProperty_9395_0(EditorContext context, SNode node) {
+    private EditorCell createProperty_9395_0(EditorContext context, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, context);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

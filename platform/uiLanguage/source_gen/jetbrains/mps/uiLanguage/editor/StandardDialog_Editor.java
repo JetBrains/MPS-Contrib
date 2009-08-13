@@ -26,13 +26,13 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class StandardDialog_Editor extends DefaultNodeEditor {
 
-  /* package */AbstractCellListHandler myListHandler_4953_0;
+  private AbstractCellListHandler myListHandler_4953_0;
 
   public EditorCell createEditorCell(EditorContext context, SNode node) {
     return this.createCollection_4953_0(context, node);
   }
 
-  public EditorCell createCollection_4953_0(EditorContext context, SNode node) {
+  private EditorCell createCollection_4953_0(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_4953_0");
     editorCell.addEditorCell(this.createConstant_4953_0(context, node, "Dialog"));
@@ -41,7 +41,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_4953_1(EditorContext context, SNode node) {
+  private EditorCell createCollection_4953_1(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_4953_1");
     {
@@ -53,7 +53,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_4953_2(EditorContext context, SNode node) {
+  private EditorCell createCollection_4953_2(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_4953_2");
     {
@@ -65,7 +65,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_4953_3(EditorContext context, SNode node) {
+  private EditorCell createCollection_4953_3(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_4953_3");
     {
@@ -77,7 +77,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_4953_4(EditorContext context, SNode node) {
+  private EditorCell createCollection_4953_4(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(context, node);
     editorCell.setCellId("Collection_4953_4");
     {
@@ -89,7 +89,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_4953_5(EditorContext context, SNode node) {
+  private EditorCell createCollection_4953_5(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_4953_5");
     {
@@ -101,7 +101,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createCollection_4953_6(EditorContext context, SNode node) {
+  private EditorCell createCollection_4953_6(EditorContext context, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(context, node);
     editorCell.setCellId("Collection_4953_6");
     {
@@ -113,7 +113,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4953_0(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4953_0(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4953_0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
@@ -121,7 +121,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4953_1(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4953_1(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4953_1");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
@@ -129,7 +129,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createConstant_4953_2(EditorContext context, SNode node, String text) {
+  private EditorCell createConstant_4953_2(EditorContext context, SNode node, String text) {
     EditorCell_Constant editorCell = new EditorCell_Constant(context, node, text);
     editorCell.setCellId("Constant_4953_2");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
@@ -137,7 +137,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createRefNodeList_4953_0(EditorContext context, SNode node) {
+  private EditorCell createRefNodeList_4953_0(EditorContext context, SNode node) {
     if (this.myListHandler_4953_0 == null) {
       this.myListHandler_4953_0 = new StandardDialog_Editor.buttonListHandler_4953_0(node, "button", context);
     }
@@ -147,27 +147,27 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public EditorCell createIndentCell4953_0(EditorContext context, SNode node) {
+  private EditorCell createIndentCell4953_0(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createIndentCell4953_1(EditorContext context, SNode node) {
+  private EditorCell createIndentCell4953_1(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createIndentCell4953_2(EditorContext context, SNode node) {
+  private EditorCell createIndentCell4953_2(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createIndentCell4953_3(EditorContext context, SNode node) {
+  private EditorCell createIndentCell4953_3(EditorContext context, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(context, node);
     return result;
   }
 
-  public EditorCell createRefNode_4953_0(EditorContext context, SNode node) {
+  private EditorCell createRefNode_4953_0(EditorContext context, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, context);
     provider.setRole("rootComponent");
     provider.setNoTargetText("<no rootComponent>");
@@ -184,7 +184,7 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class buttonListHandler_4953_0 extends RefNodeListHandler {
+  private static class buttonListHandler_4953_0 extends RefNodeListHandler {
 
     public buttonListHandler_4953_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
