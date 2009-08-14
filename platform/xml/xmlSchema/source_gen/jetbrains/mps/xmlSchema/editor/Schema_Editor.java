@@ -172,7 +172,7 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createJComponent_3461_0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Schema_Editor._QueryFunction_JComponent_1176495162226(node, editorContext), "_1172958214549");
+    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Schema_Editor._QueryFunction_JComponent_3461_0(node, editorContext), "_3461_0");
     editorCell.setCellId("JComponent_3461_0");
     return editorCell;
   }
@@ -248,7 +248,7 @@ public class Schema_Editor extends DefaultNodeEditor {
   }
 
 
-  private static JComponent _QueryFunction_JComponent_1176495162226(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_3461_0(SNode node, EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "schemaUrl"));
   }
 

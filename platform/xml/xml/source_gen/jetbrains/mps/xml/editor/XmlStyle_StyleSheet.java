@@ -22,7 +22,7 @@ public class XmlStyle_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
       public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216813809296((cell == null ?
+        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_1((cell == null ?
           null :
           cell.getSNode()
         ), (cell == null ?
@@ -43,7 +43,7 @@ public class XmlStyle_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
       public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216811988465((cell == null ?
+        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_0((cell == null ?
           null :
           cell.getSNode()
         ), (cell == null ?
@@ -60,7 +60,7 @@ public class XmlStyle_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
       public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216813895290((cell == null ?
+        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_2((cell == null ?
           null :
           cell.getSNode()
         ), (cell == null ?
@@ -88,7 +88,7 @@ public class XmlStyle_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
       public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1216817284631((cell == null ?
+        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_3((cell == null ?
           null :
           cell.getSNode()
         ), (cell == null ?
@@ -105,7 +105,7 @@ public class XmlStyle_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
       public Color calculate(EditorCell cell) {
-        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_1238686133097((cell == null ?
+        return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_4((cell == null ?
           null :
           cell.getSNode()
         ), (cell == null ?
@@ -186,23 +186,23 @@ public class XmlStyle_StyleSheet {
     return style;
   }
 
-  private static Color _StyleParameter_QueryFunction_1216811988465(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_3718_0(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  private static Color _StyleParameter_QueryFunction_1216813809296(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_3718_1(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  private static Color _StyleParameter_QueryFunction_1216813895290(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_3718_2(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  private static Color _StyleParameter_QueryFunction_1216817284631(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_3718_3(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  private static Color _StyleParameter_QueryFunction_1238686133097(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_3718_4(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 

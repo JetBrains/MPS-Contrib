@@ -18,7 +18,7 @@ public class XmlSchema_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
       public Color calculate(EditorCell cell) {
-        return XmlSchema_StyleSheet._StyleParameter_QueryFunction_1189991412577((cell == null ?
+        return XmlSchema_StyleSheet._StyleParameter_QueryFunction_9352_0((cell == null ?
           null :
           cell.getSNode()
         ), (cell == null ?
@@ -31,7 +31,7 @@ public class XmlSchema_StyleSheet {
     return style;
   }
 
-  private static Color _StyleParameter_QueryFunction_1189991412577(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_9352_0(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 

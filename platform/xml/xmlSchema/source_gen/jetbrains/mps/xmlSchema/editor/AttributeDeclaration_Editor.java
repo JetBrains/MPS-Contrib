@@ -59,7 +59,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
 
         public Color calculate(EditorCell cell) {
-          return AttributeDeclaration_Editor._StyleParameter_QueryFunction_1214399678733((cell == null ?
+          return AttributeDeclaration_Editor._StyleParameter_QueryFunction_6802_0((cell == null ?
             null :
             cell.getSNode()
           ), (cell == null ?
@@ -98,7 +98,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   }
 
 
-  private static Color _StyleParameter_QueryFunction_1214399678733(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_6802_0(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 

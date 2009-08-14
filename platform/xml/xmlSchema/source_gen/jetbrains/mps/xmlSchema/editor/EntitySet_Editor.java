@@ -104,7 +104,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createJComponent_3021_0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, EntitySet_Editor._QueryFunction_JComponent_1176495136463(node, editorContext), "_1172963395100");
+    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, EntitySet_Editor._QueryFunction_JComponent_3021_0(node, editorContext), "_3021_0");
     editorCell.setCellId("JComponent_3021_0");
     return editorCell;
   }
@@ -150,7 +150,7 @@ public class EntitySet_Editor extends DefaultNodeEditor {
     return SPropertyOperations.getString(node, "url") == null;
   }
 
-  private static JComponent _QueryFunction_JComponent_1176495136463(SNode node, EditorContext editorContext) {
+  private static JComponent _QueryFunction_JComponent_3021_0(SNode node, EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "url"));
   }
 
