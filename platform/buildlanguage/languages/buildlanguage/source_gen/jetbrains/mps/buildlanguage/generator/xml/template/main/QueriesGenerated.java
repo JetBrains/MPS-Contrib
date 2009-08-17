@@ -22,7 +22,6 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.List;
-import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Set;
@@ -60,19 +59,8 @@ public class QueriesGenerated {
     return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "propertyValue", true));
   }
 
-  public static Object propertyMacro_GetPropertyValue_1197113195048(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "declaration", false), "name");
-  }
-
   public static Object propertyMacro_GetPropertyValue_1197725505264(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return PropertyValueExpression_Behavior.call_toString_1213877472569(_context.getNode());
-  }
-
-  public static Object propertyMacro_GetPropertyValue_1199645638495(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    if (SPropertyOperations.getString(_context.getNode(), "id") == null) {
-      return _context.createUniqueName(SPropertyOperations.getString(_context.getNode(), "name"), null);
-    }
-    return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1199647316381(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -115,10 +103,6 @@ public class QueriesGenerated {
     return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "propertyFile", true));
   }
 
-  public static boolean ifMacro_Condition_1200145212723(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "id") != null;
-  }
-
   public static boolean ifMacro_Condition_1200145404081(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "basedir", true) != null);
   }
@@ -149,10 +133,6 @@ public class QueriesGenerated {
     return attribute;
   }
 
-  public static SNode sourceNodeQuery_1197725188422(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "internalText", true);
-  }
-
   public static SNode sourceNodeQuery_1219774104894(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return _context.getNode();
   }
@@ -176,21 +156,6 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1197045203873(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "taskCall", true);
-  }
-
-  public static Iterable sourceNodesQuery_1197113312020(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    List<SNode> xmlattributes = new ArrayList<SNode>();
-    for(SNode attr : SLinkOperations.getTargets(_context.getNode(), "atributes", true)) {
-      SNode newAttr = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
-      SPropertyOperations.set(newAttr, "name", SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name"));
-      SPropertyOperations.set(newAttr, "value", PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(attr, "value", true)));
-      ListSequence.fromList(xmlattributes).addElement(newAttr);
-    }
-    return xmlattributes;
-  }
-
-  public static Iterable sourceNodesQuery_1197395852854(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "nested", true);
   }
 
   public static Iterable sourceNodesQuery_1199029853220(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
