@@ -182,19 +182,32 @@
             </node>
           </node>
         </node>
-        <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="353793545802854665">
-          <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="353793545802854666">
-            <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="353793545802854667">
-              <link role="applicableNode" targetNodeId="353793545802854671" resolveInfo="genericAttributeDeclaration" />
+        <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8233904257588443242">
+          <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="353793545802854665">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="353793545802854666">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="353793545802854667">
+                <link role="applicableNode" targetNodeId="353793545802854671" resolveInfo="genericAttributeDeclaration" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="353793545802854668">
+                <link role="property" targetNodeId="2v.1169194664001" resolveInfo="name" />
+              </node>
             </node>
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="353793545802854668">
-              <link role="property" targetNodeId="2v.1169194664001" resolveInfo="name" />
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="353793545802854669">
+              <link role="baseMethodDeclaration" targetNodeId="3.~String.contains(java.lang.CharSequence):boolean" resolveInfo="contains" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="353793545802854670">
+                <property name="value" value=" " />
+              </node>
             </node>
           </node>
-          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="353793545802854669">
-            <link role="baseMethodDeclaration" targetNodeId="3.~String.contains(java.lang.CharSequence):boolean" resolveInfo="contains" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="353793545802854670">
-              <property name="value" value=" " />
+          <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="8233904257588443253">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="8233904257588443256" />
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8233904257588443245">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="8233904257588443246">
+                <link role="applicableNode" targetNodeId="353793545802854671" resolveInfo="genericAttributeDeclaration" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="8233904257588443248">
+                <link role="property" targetNodeId="2v.1169194664001" resolveInfo="name" />
+              </node>
             </node>
           </node>
         </node>

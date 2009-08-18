@@ -269,5 +269,15 @@
       <link role="target" targetNodeId="353793545802643486" resolveInfo="GenericTaskDeclaration" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8241842287689193814">
+    <property name="name" value="CustomTaskDeclaration" />
+    <property name="package" value="CustomTasks" />
+    <property name="rootable" value="true" />
+    <link role="extends" targetNodeId="353793545802643486" resolveInfo="TaskDeclaration" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="8233904257588170335">
+      <property name="value" value="custom task declaration" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

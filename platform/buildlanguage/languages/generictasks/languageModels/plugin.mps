@@ -255,7 +255,7 @@
     <property name="name" value="ImportAntStuffUtil" />
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="353793545803155654">
       <property name="isFinal" value="true" />
-      <property name="name" value="BUILDLANGUAGE_NAMESPACE" />
+      <property name="name" value="LANGUAGE_NAMESPACE" />
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="353793545803155655" />
       <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="353793545803155656" />
       <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="353793545803155657">
@@ -384,6 +384,29 @@
         <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="353793545803155705">
           <link role="classifier" targetNodeId="3.~Language" resolveInfo="Language" />
         </node>
+      </node>
+    </node>
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="8233904257588557402">
+      <property name="name" value="getLanguageReference" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="8233904257588557404" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8233904257588557405">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8233904257588562489">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8233904257588562490">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="8233904257588562491">
+              <link role="classConcept" targetNodeId="3.~MPSModuleRepository" resolveInfo="MPSModuleRepository" />
+              <link role="baseMethodDeclaration" targetNodeId="3.~MPSModuleRepository.getInstance():jetbrains.mps.smodel.MPSModuleRepository" resolveInfo="getInstance" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8233904257588562492">
+              <link role="baseMethodDeclaration" targetNodeId="3.~MPSModuleRepository.getLanguage(java.lang.String):jetbrains.mps.smodel.Language" resolveInfo="getLanguage" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference" id="8233904257588562494">
+                <link role="variableDeclaration" targetNodeId="353793545803155654" resolveInfo="LANGUAGE_NAMESPACE" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="8233904257588558649">
+        <link role="classifier" targetNodeId="3.~Language" resolveInfo="Language" />
       </node>
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="353793545803155706">

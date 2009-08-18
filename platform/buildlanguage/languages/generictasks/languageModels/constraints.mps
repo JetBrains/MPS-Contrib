@@ -33,11 +33,16 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
   <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="5" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="4" />
+  <maxImportIndex value="9" />
   <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="5" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
   <import index="4" modelUID="f:java_stub#jetbrains.mps.smodel.search(jetbrains.mps.smodel.search@java_stub)" version="-1" />
+  <import index="5" modelUID="f:java_stub#jetbrains.mps.build.generictasks.tasksfromjar(jetbrains.mps.build.generictasks.tasksfromjar@java_stub)" version="-1" />
+  <import index="6" modelUID="r:f2a46e84-6223-43fc-9c7a-2bd327c7efad(jetbrains.mps.build.generictasks.plugin)" version="-1" />
+  <import index="7" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
+  <import index="8" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
+  <import index="9" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
   <visible index="2" modelUID="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="353793545802644405">
     <link role="concept" targetNodeId="1.353793545802643466" resolveInfo="GenericAttribute" />
@@ -719,6 +724,38 @@
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3037831562615764173">
               <link role="variableDeclaration" targetNodeId="3037831562615764095" resolveInfo="decls" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="8233904257588554672">
+    <property name="package" value="CustomTasks" />
+    <link role="concept" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="8233904257588554705">
+    <link role="concept" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
+    <node role="canBeRoot" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeARoot" id="8233904257588554706">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8233904257588554707">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1445805690439864417">
+          <node role="expression" type="jetbrains.mps.lang.smodel.structure.StaticConceptMethodCall" id="1445805690439864462">
+            <link role="concept" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
+            <link role="baseMethodDeclaration" targetNodeId="2v.1445805690439864419" resolveInfo="isInGeneratedModels" />
+            <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_operationContext" id="1445805690439864463" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1445805690439864464">
+    <link role="concept" targetNodeId="1.353793545802643483" resolveInfo="TaskInterfaceDeclaration" />
+    <node role="canBeRoot" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeARoot" id="1445805690439864465">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1445805690439864466">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1445805690439864467">
+          <node role="expression" type="jetbrains.mps.lang.smodel.structure.StaticConceptMethodCall" id="1445805690439864468">
+            <link role="concept" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
+            <link role="baseMethodDeclaration" targetNodeId="2v.1445805690439864419" resolveInfo="isInGeneratedModels" />
+            <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_operationContext" id="1445805690439864469" />
           </node>
         </node>
       </node>
