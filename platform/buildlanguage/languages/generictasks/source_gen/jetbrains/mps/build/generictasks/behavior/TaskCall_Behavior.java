@@ -10,7 +10,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
 import java.util.List;
 import java.util.ArrayList;
-import jetbrains.mps.buildlanguage.behavior.Declaration_Behavior;
 
 public class TaskCall_Behavior {
 
@@ -45,20 +44,9 @@ public class TaskCall_Behavior {
 
   public static List<SNode> call_getUndefinedAttributes_353793545802643943(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    for(SNode attrDecl : ListSequence.fromList(TaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(thisNode, "declaration", false)))) {
+    for(SNode attrDecl : ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(thisNode, "declaration", false)))) {
       if (!(TaskCall_Behavior.call_isAttributeDefined_353793545802643915(thisNode, attrDecl))) {
         ListSequence.fromList(result).addElement(attrDecl);
-      }
-    }
-    return result;
-  }
-
-  public static List<SNode> call_getPossibleNesteds_353793545802643975(SNode thisNode, List<SNode> visible) {
-    List<SNode> result = new ArrayList<SNode>();
-    ListSequence.fromList(result).addSequence(ListSequence.fromList(TaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(SLinkOperations.getTarget(thisNode, "declaration", false))));
-    for(SNode declaration : ListSequence.fromList(visible)) {
-      if (!(SPropertyOperations.getBoolean(declaration, "fake")) && Declaration_Behavior.call_isHeirOf_1213877304107(declaration, TaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(SLinkOperations.getTarget(thisNode, "declaration", false))) && !(Declaration_Behavior.call_isAbstract_1213877304071(declaration))) {
-        ListSequence.fromList(result).addElement(declaration);
       }
     }
     return result;

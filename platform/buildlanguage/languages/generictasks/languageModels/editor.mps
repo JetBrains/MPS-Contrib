@@ -30,12 +30,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)" version="32" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)" version="0" />
-  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="5" />
+  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="18" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="5" />
-  <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="5" />
+  <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="18" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)" version="0" />
   <import index="5" modelUID="f:java_stub#jetbrains.mps.nodeEditor(jetbrains.mps.nodeEditor@java_stub)" version="-1" />
@@ -253,7 +253,7 @@
                   </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="353793545802643583">
-                  <link role="property" targetNodeId="1.353793545802643493" resolveInfo="canHaveInternalText" />
+                  <link role="property" targetNodeId="1.1191515374482329395" resolveInfo="canHaveInternalText" />
                 </node>
               </node>
             </node>
@@ -340,7 +340,7 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="353793545802643616">
             <property name="separatorText" value="," />
-            <link role="relationDeclaration" targetNodeId="1.353793545802643490" />
+            <link role="relationDeclaration" targetNodeId="1.1191515374482307496" />
             <node role="emptyCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="353793545802643617">
               <property name="text" value="&lt;interfaces&gt;" />
               <link role="styleClass" targetNodeId="3.1200419086632" resolveInfo="prompting" />
@@ -358,7 +358,7 @@
                     <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="353793545802643625">
                       <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="353793545802643626" />
                       <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="353793545802643627">
-                        <link role="link" targetNodeId="1.353793545802643490" />
+                        <link role="link" targetNodeId="1.1191515374482307496" />
                       </node>
                     </node>
                     <node role="operation" type="jetbrains.mps.lang.smodel.structure.LinkList_GetCountOperation" id="353793545802643628" />
@@ -389,7 +389,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="353793545802643637">
         <property name="separatorText" value="," />
-        <link role="relationDeclaration" targetNodeId="1.353793545802643490" />
+        <link role="relationDeclaration" targetNodeId="1.1191515374482307496" />
         <node role="emptyCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="353793545802643638">
           <property name="text" value="&lt;interfaces&gt;" />
           <link role="styleClass" targetNodeId="3.1200419086632" resolveInfo="prompting" />
@@ -424,8 +424,35 @@
           <property name="flag" value="false" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="7368641669175282258" />
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="7368641669175282257">
-          <link role="editorComponent" targetNodeId="1032973292712859493" resolveInfo="TaskDeclarationNesteds_EditorComponent" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="255405926712651509">
+          <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="255405926712651510" />
+          <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1191515374482369526">
+            <property name="vertical" value="false" />
+            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1191515374482369527">
+              <property name="text" value="nested elements:" />
+              <link role="styleClass" targetNodeId="3.1197151281083" resolveInfo="keyword" />
+            </node>
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1191515374482369528">
+              <property name="flag" value="false" />
+            </node>
+            <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1191515374482369529" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="255405926712651512">
+            <property name="vertical" value="false" />
+            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="255405926712651513" />
+            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="255405926712651514">
+              <property name="vertical" value="true" />
+              <link role="relationDeclaration" targetNodeId="1.353793545802643489" />
+              <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="255405926712651515">
+                <property name="flag" value="false" />
+              </node>
+              <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="255405926712651516" />
+            </node>
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="255405926712651517">
+              <property name="flag" value="false" />
+            </node>
+            <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="255405926712651518" />
+          </node>
         </node>
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="7368641669175282255" />
       </node>
@@ -733,7 +760,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="8241842287689220298">
     <property name="name" value="TaskDeclarationHeader_EditorComponent" />
-    <link role="conceptDeclaration" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
+    <link role="conceptDeclaration" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8241842287689220349">
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="8241842287689220350" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8241842287689220300">
@@ -747,7 +774,7 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8241842287689220305">
                   <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="8241842287689220306" />
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="8241842287689220307">
-                    <link role="property" targetNodeId="1.353793545802643492" resolveInfo="abstract" />
+                    <link role="property" targetNodeId="1.1191515374482349460" resolveInfo="abstract" />
                   </node>
                 </node>
               </node>
@@ -772,7 +799,7 @@
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8241842287689220315">
                     <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="8241842287689220316" />
                     <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="8241842287689220317">
-                      <link role="link" targetNodeId="1.353793545802643488" />
+                      <link role="link" targetNodeId="1.1191515374482300626" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="8241842287689220318" />
@@ -782,7 +809,7 @@
           </node>
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="8241842287689220319">
-          <link role="relationDeclaration" targetNodeId="1.353793545802643488" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482300626" />
           <link role="styleClass" targetNodeId="3.1200590829429" resolveInfo="task" />
           <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="8241842287689220320">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8241842287689220321">
@@ -791,7 +818,7 @@
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8241842287689220324">
                     <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="8241842287689220325" />
                     <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="8241842287689220326">
-                      <link role="link" targetNodeId="1.353793545802643488" />
+                      <link role="link" targetNodeId="1.1191515374482300626" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="8241842287689220327" />
@@ -808,7 +835,7 @@
           </node>
           <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="8241842287689220330">
             <property name="separatorText" value="," />
-            <link role="relationDeclaration" targetNodeId="1.353793545802643490" />
+            <link role="relationDeclaration" targetNodeId="1.1191515374482307496" />
             <link role="styleClass" targetNodeId="3.1200590829429" resolveInfo="task" />
             <node role="emptyCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="8241842287689220331">
               <property name="text" value="&lt;interfaces&gt;" />
@@ -827,7 +854,7 @@
                     <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8241842287689220339">
                       <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="8241842287689220340" />
                       <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="8241842287689220341">
-                        <link role="link" targetNodeId="1.353793545802643490" />
+                        <link role="link" targetNodeId="1.1191515374482307496" />
                       </node>
                     </node>
                     <node role="operation" type="jetbrains.mps.lang.smodel.structure.LinkList_GetCountOperation" id="8241842287689220342" />
@@ -854,7 +881,7 @@
           <link role="styleClass" targetNodeId="3.1197151281083" resolveInfo="keyword" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="8241842287689220355">
-          <link role="relationDeclaration" targetNodeId="1.353793545802643495" resolveInfo="classname" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482272893" resolveInfo="classname" />
         </node>
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8241842287689220356">
           <property name="flag" value="false" />
@@ -869,7 +896,7 @@
           <link role="styleClass" targetNodeId="3.1197151281083" resolveInfo="keyword" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="8233904257587923503">
-          <link role="relationDeclaration" targetNodeId="1.353793545802643493" resolveInfo="canHaveInternalText" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482329395" resolveInfo="canHaveInternalText" />
         </node>
         <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="8233904257587923504">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8233904257587923505">
@@ -877,7 +904,7 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8233904257587923507">
                 <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="8233904257587923508" />
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="8233904257587923509">
-                  <link role="property" targetNodeId="1.353793545802643493" resolveInfo="canHaveInternalText" />
+                  <link role="property" targetNodeId="1.1191515374482329395" resolveInfo="canHaveInternalText" />
                 </node>
               </node>
             </node>
@@ -890,43 +917,9 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="1032973292712859493">
-    <property name="name" value="TaskDeclarationNesteds_EditorComponent" />
-    <link role="conceptDeclaration" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
-    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1032973292712862869">
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1032973292712862872">
-        <property name="vertical" value="false" />
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1032973292712862874">
-          <property name="text" value="nested elements:" />
-          <link role="styleClass" targetNodeId="3.1197151281083" resolveInfo="keyword" />
-        </node>
-        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1032973292712862875">
-          <property name="flag" value="false" />
-        </node>
-        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1032973292712862876" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1032973292712862877">
-        <property name="vertical" value="false" />
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="1032973292712862879" />
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1032973292712862880">
-          <property name="vertical" value="true" />
-          <link role="relationDeclaration" targetNodeId="1.353793545802643489" />
-          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1032973292712862881">
-            <property name="flag" value="false" />
-          </node>
-          <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="1032973292712862882" />
-        </node>
-        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1032973292712862883">
-          <property name="flag" value="false" />
-        </node>
-        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1032973292712862884" />
-      </node>
-      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="1032973292712862871" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="8233904257587923431">
     <property name="name" value="TaskDeclarationAttributes_EditorComponent" />
-    <link role="conceptDeclaration" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
+    <link role="conceptDeclaration" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923433">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923436">
         <property name="vertical" value="false" />
@@ -944,7 +937,7 @@
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="8233904257587923443" />
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="8233904257587923444">
           <property name="vertical" value="true" />
-          <link role="relationDeclaration" targetNodeId="1.353793545802643487" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482293756" />
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8233904257587923445">
             <property name="flag" value="false" />
           </node>
@@ -960,7 +953,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="8233904257587923457">
     <property name="name" value="TaskDeclarationInspector_EditorComponent" />
-    <link role="conceptDeclaration" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
+    <link role="conceptDeclaration" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923459">
       <property name="vertical" value="true" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923460">
@@ -969,7 +962,7 @@
           <property name="text" value="classname:" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="8233904257587923462">
-          <link role="relationDeclaration" targetNodeId="1.353793545802643495" resolveInfo="classname" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482272893" resolveInfo="classname" />
         </node>
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8233904257587923463">
           <property name="flag" value="false" />
@@ -986,7 +979,7 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="8233904257587923468">
           <link role="styleClass" targetNodeId="3.1196866068487" resolveInfo="booleanLiteral" />
-          <link role="relationDeclaration" targetNodeId="1.353793545802643492" resolveInfo="abstract" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482349460" resolveInfo="abstract" />
         </node>
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8233904257587923469">
           <property name="flag" value="false" />
@@ -1002,7 +995,7 @@
           <property name="text" value="=" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="8233904257587923474">
-          <link role="relationDeclaration" targetNodeId="1.353793545802643488" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482300626" />
           <link role="styleClass" targetNodeId="3.1200590829429" resolveInfo="task" />
         </node>
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8233904257587923475">
@@ -1020,7 +1013,7 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="8233904257587923480">
           <property name="separatorText" value="," />
-          <link role="relationDeclaration" targetNodeId="1.353793545802643490" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482307496" />
           <node role="emptyCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="8233904257587923481">
             <property name="text" value="&lt;interfaces&gt;" />
             <link role="styleClass" targetNodeId="3.1200419086632" resolveInfo="prompting" />
@@ -1042,7 +1035,7 @@
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="8233904257587923488">
           <link role="styleClass" targetNodeId="3.1196866068487" resolveInfo="booleanLiteral" />
-          <link role="relationDeclaration" targetNodeId="1.353793545802643493" resolveInfo="canHaveInternalText" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482329395" resolveInfo="canHaveInternalText" />
         </node>
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8233904257587923489">
           <property name="flag" value="false" />
@@ -1058,7 +1051,7 @@
           <property name="text" value="=" />
         </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="8233904257587923494">
-          <link role="relationDeclaration" targetNodeId="1.353793545802643494" resolveInfo="depracated" />
+          <link role="relationDeclaration" targetNodeId="1.1191515374482465107" resolveInfo="depracated" />
           <link role="styleClass" targetNodeId="3.1196866068487" resolveInfo="booleanLiteral" />
         </node>
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8233904257587923495">
@@ -1086,18 +1079,32 @@
         </node>
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1445805690439939468" />
       </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1445805690439939469">
-        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1445805690439939470">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1191515374481607009">
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1191515374481607010">
           <property name="flag" value="false" />
         </node>
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="1445805690439939471" />
-        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="1445805690439939472">
-          <link role="editorComponent" targetNodeId="1032973292712859493" resolveInfo="TaskDeclarationNesteds_EditorComponent" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="1191515374481607013" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1191515374481715096">
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1191515374481715097">
+            <property name="flag" value="false" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1191515374481715100">
+            <property name="text" value="methods:" />
+            <link role="styleClass" targetNodeId="3.1197151281083" resolveInfo="keyword" />
+          </node>
+          <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1191515374481715103">
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1191515374481715104">
+              <property name="flag" value="false" />
+            </node>
+            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="1191515374481715107" />
+            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1191515374481715109">
+              <link role="relationDeclaration" targetNodeId="1.1445805690439923998" />
+            </node>
+            <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1191515374481715106" />
+          </node>
+          <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="1191515374481715099" />
         </node>
-        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1445805690439939473" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1445805690439939475">
-        <link role="relationDeclaration" targetNodeId="1.1445805690439923998" />
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1191515374481607012" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="1445805690439927377" />
     </node>
@@ -1105,6 +1112,7 @@
       <link role="editorComponent" targetNodeId="8233904257587923457" resolveInfo="TaskDeclarationInspector_EditorComponent" />
     </node>
   </node>
+  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1445805690440312019">
     <property name="package" value="CustomTasks" />
     <link role="conceptDeclaration" targetNodeId="1.1445805690440174700" resolveInfo="AttributeReference" />
@@ -1114,6 +1122,7 @@
         <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1445805690440312024">
           <property name="readOnly" value="true" />
           <link role="relationDeclaration" targetNodeId="2v.1169194664001" resolveInfo="name" />
+          <link role="styleClass" targetNodeId="4v.1198595398954" resolveInfo="Field" />
         </node>
       </node>
     </node>

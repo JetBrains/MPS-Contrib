@@ -62,6 +62,181 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="6">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="NestedReference" conceptFQName="jetbrains.mps.build.generictasks.structure.NestedReference" featureKind="CONCEPT" />
+          <value featureName="NestedReferenceDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.NestedReferenceDeclaration" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="7">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="Reference" conceptFQName="jetbrains.mps.build.generictasks.structure.Reference" featureKind="CONCEPT" />
+          <value featureName="TaskReference" conceptFQName="jetbrains.mps.build.generictasks.structure.TaskReference" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="8">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="NestedReferenceDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.NestedReferenceDeclaration" featureKind="CONCEPT" />
+          <value featureName="NestedDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.NestedDeclaration" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="9">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MovePropertyUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643492" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482258555" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="abstract" featureKind="PROPERTY" />
+          <value featureName="abstract" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="PROPERTY" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="10">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MovePropertyUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643493" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482265724" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="canHaveInternalText" featureKind="PROPERTY" />
+          <value featureName="canHaveInternalText" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="PROPERTY" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="11">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MovePropertyUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643495" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482272893" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="classname" featureKind="PROPERTY" />
+          <value featureName="classname" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="PROPERTY" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="12">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MoveLinkUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643487" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482293756" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="attributesDecl" featureKind="CHILD" />
+          <value featureName="attributesDecl" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="13">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MoveLinkUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643488" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482300626" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="parentRef" featureKind="CHILD" />
+          <value featureName="parentRef" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="14">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MoveLinkUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643490" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482307496" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="interfaces" featureKind="CHILD" />
+          <value featureName="interfaces" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="15">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MovePropertyUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643493" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482329395" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="canHaveInternalText" featureKind="PROPERTY" />
+          <value featureName="canHaveInternalText" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="PROPERTY" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="16">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MovePropertyUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643492" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482349460" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="abstract" featureKind="PROPERTY" />
+          <value featureName="abstract" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="PROPERTY" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="17">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MovePropertyUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="353793545802643494" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482465107" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="depracated" featureKind="PROPERTY" />
+          <value featureName="depracated" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractTaskDeclaration" featureKind="PROPERTY" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="18">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="ATaskDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.ATaskDeclaration" featureKind="CONCEPT" />
+          <value featureName="BuiltInTaskDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" featureKind="CONCEPT" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
@@ -87,7 +262,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)" version="32" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="5" />
+  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="18" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <maxImportIndex value="4" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
@@ -150,7 +325,7 @@
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643478">
       <property name="role" value="declaration" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="353793545802643486" resolveInfo="GenericTaskDeclaration" />
+      <link role="target" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643479">
       <property name="metaClass" value="aggregation" />
@@ -186,53 +361,20 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="353793545802643486">
-    <property name="name" value="TaskDeclaration" />
+    <property name="name" value="BuiltInTaskDeclaration" />
     <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643487">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="attributesDecl" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="353793545802643469" resolveInfo="GenericAttributeDeclaration" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643488">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="parentRef" />
-      <link role="target" targetNodeId="3037831562615764081" resolveInfo="Reference" />
-    </node>
+    <link role="extends" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643489">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="nested" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="353793545802643498" resolveInfo="NestedReference" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643490">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="interfaces" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="3037831562615764081" resolveInfo="Reference" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643491">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="fakeDeclaration" />
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="353793545802643486" resolveInfo="GenericTaskDeclaration" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="353793545802643492">
-      <property name="name" value="abstract" />
-      <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="353793545802643493">
-      <property name="name" value="canHaveInternalText" />
-      <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="353793545802643494">
-      <property name="name" value="depracated" />
-      <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
-    </node>
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="353793545802643495">
-      <property name="name" value="classname" />
-      <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="353793545802643496">
       <property name="name" value="fake" />
@@ -244,7 +386,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="353793545802643498">
-    <property name="name" value="NestedReference" />
+    <property name="name" value="NestedDeclaration" />
     <link role="extends" targetNodeId="3037831562615764081" resolveInfo="Reference" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643499">
       <property name="metaClass" value="aggregation" />
@@ -266,19 +408,19 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3037831562615764081">
-    <property name="name" value="Reference" />
+    <property name="name" value="TaskReference" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="3037831562615764082">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="declaration" />
-      <link role="target" targetNodeId="353793545802643486" resolveInfo="GenericTaskDeclaration" />
+      <link role="target" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8241842287689193814">
     <property name="name" value="CustomTaskDeclaration" />
     <property name="package" value="CustomTasks" />
     <property name="rootable" value="true" />
-    <link role="extends" targetNodeId="353793545802643486" resolveInfo="TaskDeclaration" />
+    <link role="extends" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1445805690439923998">
       <property name="metaClass" value="aggregation" />
       <property name="role" value="executeBlock" />
@@ -319,6 +461,46 @@
       <property name="role" value="attributeDeclaration" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="353793545802643469" resolveInfo="AttributeDeclaration" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1191515374482103179">
+    <property name="name" value="AbstractTaskDeclaration" />
+    <link role="extends" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1191515374482272893">
+      <property name="name" value="classname" />
+      <link role="dataType" targetNodeId="2v.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1191515374482293756">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="attributesDecl" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="353793545802643469" resolveInfo="AttributeDeclaration" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1191515374482300626">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="parentRef" />
+      <link role="target" targetNodeId="3037831562615764081" resolveInfo="TaskReference" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1191515374482307496">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="interfaces" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="3037831562615764081" resolveInfo="TaskReference" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1191515374482329395">
+      <property name="name" value="canHaveInternalText" />
+      <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1191515374482349460">
+      <property name="name" value="abstract" />
+      <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1191515374482465107">
+      <property name="name" value="depracated" />
+      <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1191515374482685363">
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />
     </node>
   </node>
 </model>

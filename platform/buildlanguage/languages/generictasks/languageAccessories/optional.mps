@@ -12,7 +12,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c2(jetbrains.mps.buildlanguage.editor)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c7(jetbrains.mps.buildlanguage.plugin)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c3(jetbrains.mps.buildlanguage.generated)" version="0" />
-  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="5" />
+  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="18" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -82,13 +82,13 @@
       <property name="name" value="protocol" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852294" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852295">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852295">
       <link role="declaration" targetNodeId="353793545802853813" resolveInfo="schema" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852296">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852296">
         <link role="declaration" targetNodeId="353793545802853813" resolveInfo="schema" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852297">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852297">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -112,7 +112,7 @@
       <property name="name" value="addsourcefile" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852306" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852307">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852307">
       <link role="declaration" targetNodeId="2v.353793545802812993" resolveInfo="execon" />
     </node>
   </node>
@@ -120,7 +120,7 @@
     <property name="name" value="abstracthotdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.j2ee.AbstractHotDeploymentTool" />
     <property name="abstract" value="true" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852309">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852309">
       <link role="declaration" targetNodeId="353793545802853090" resolveInfo="hotdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802852310">
@@ -147,13 +147,13 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852321">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852321">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852322">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852322">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852323">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852323">
         <link role="declaration" targetNodeId="353793545802852320" resolveInfo="classpath" />
       </node>
     </node>
@@ -189,9 +189,9 @@
       <property name="name" value="styledir" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802852337" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852338">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852338">
       <link role="declaration" targetNodeId="2v.353793545802814584" resolveInfo="param" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852339">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852339">
         <link role="declaration" targetNodeId="2v.353793545802814584" resolveInfo="param" />
       </node>
     </node>
@@ -199,7 +199,7 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852340">
     <property name="name" value="antresolver" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.resolvers.AntResolver" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852341">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852341">
       <link role="declaration" targetNodeId="353793545802853026" resolveInfo="extensionresolver" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802852342">
@@ -262,7 +262,7 @@
       <property name="name" value="system" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852370" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852371">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852371">
       <link role="declaration" targetNodeId="2v.353793545802812993" resolveInfo="execon" />
     </node>
   </node>
@@ -330,13 +330,13 @@
       <property name="name" value="formatter" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.junit.FormatterElement" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852400">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852400">
         <link role="declaration" targetNodeId="353793545802853044" resolveInfo="formatterelement" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852401">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852401">
       <link role="declaration" targetNodeId="353793545802853044" resolveInfo="formatterelement" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852402">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852402">
         <link role="declaration" targetNodeId="353793545802852399" resolveInfo="formatter" />
       </node>
     </node>
@@ -344,18 +344,18 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852403">
     <property name="name" value="batchtest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.junit.BatchTest" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852404">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852404">
       <link role="declaration" targetNodeId="353793545802852380" resolveInfo="basetest" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852405">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852405">
       <link role="declaration" targetNodeId="2v.353793545802814992" resolveInfo="resourcecollection" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852406">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852406">
         <link role="declaration" targetNodeId="2v.353793545802814992" resolveInfo="resourcecollection" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852407">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852407">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852408">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852408">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
@@ -395,27 +395,27 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852425">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852425">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852426">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852426">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852427">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852427">
         <link role="declaration" targetNodeId="353793545802852424" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852428">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852428">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852429">
     <property name="name" value="borlanddeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.BorlandDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852430">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852430">
       <link role="declaration" targetNodeId="353793545802853063" resolveInfo="genericdeploymenttool" />
     </node>
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852431">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852431">
       <link role="declaration" targetNodeId="353793545802853007" resolveInfo="executestreamhandler" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802852432">
@@ -486,13 +486,13 @@
       <property name="name" value="cabfile" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802852464" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852465">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852465">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852466">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852466">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852467">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852467">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -523,7 +523,7 @@
       <property name="name" value="identical" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852480" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852481">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852481">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -566,7 +566,7 @@
       <property name="name" value="branch" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852500" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852501">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852501">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -601,7 +601,7 @@
       <property name="name" value="objselect" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852516" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852517">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852517">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -620,41 +620,41 @@
       <property name="name" value="task" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852524" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852525">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852525">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852526">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852526">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852527">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852527">
       <link role="declaration" targetNodeId="353793545802852741" resolveInfo="continuus" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852528">
     <property name="name" value="ccmcheckin" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckin" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852529">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852529">
       <link role="declaration" targetNodeId="353793545802852518" resolveInfo="ccmcheck" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852530">
     <property name="name" value="ccmcheckintask" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckinDefault" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852531">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852531">
       <link role="declaration" targetNodeId="353793545802852518" resolveInfo="ccmcheck" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852532">
     <property name="name" value="ccmcheckout" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ccm.CCMCheckout" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852533">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852533">
       <link role="declaration" targetNodeId="353793545802852518" resolveInfo="ccmcheck" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852534">
     <property name="name" value="ccmcreatetask" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ccm.CCMCreateTask" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852535">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852535">
       <link role="declaration" targetNodeId="353793545802853007" resolveInfo="executestreamhandler" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802852536">
@@ -693,7 +693,7 @@
       <property name="name" value="subsystem" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852553" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852554">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852554">
       <link role="declaration" targetNodeId="353793545802852741" resolveInfo="continuus" />
     </node>
   </node>
@@ -728,7 +728,7 @@
       <property name="name" value="typevalue" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852569" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852570">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852570">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -763,7 +763,7 @@
       <property name="name" value="nlabel" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852585" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852586">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852586">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -782,7 +782,7 @@
       <property name="name" value="nocheckout" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852593" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852594">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852594">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -821,7 +821,7 @@
       <property name="name" value="eltype" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852611" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852612">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852612">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -856,7 +856,7 @@
       <property name="name" value="vob" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852627" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852628">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852628">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -899,7 +899,7 @@
       <property name="name" value="shared" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852647" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852648">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852648">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -918,7 +918,7 @@
       <property name="name" value="ccmproject" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852655" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852656">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852656">
       <link role="declaration" targetNodeId="353793545802852741" resolveInfo="continuus" />
     </node>
   </node>
@@ -953,7 +953,7 @@
       <property name="name" value="typekind" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852671" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852672">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852672">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -964,7 +964,7 @@
       <property name="name" value="keepcopy" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852675" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852676">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852676">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -987,7 +987,7 @@
       <property name="name" value="objselect" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852685" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852686">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852686">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -1018,7 +1018,7 @@
       <property name="name" value="currenttime" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852699" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852700">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852700">
       <link role="declaration" targetNodeId="353793545802852731" resolveInfo="clearcase" />
     </node>
   </node>
@@ -1033,7 +1033,7 @@
       <property name="name" value="group" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852705" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852706">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852706">
       <link role="declaration" targetNodeId="353793545802852298" resolveInfo="abstractaccesstask" />
     </node>
   </node>
@@ -1048,7 +1048,7 @@
       <property name="name" value="owner" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852711" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852712">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852712">
       <link role="declaration" targetNodeId="353793545802852298" resolveInfo="abstractaccesstask" />
     </node>
   </node>
@@ -1071,13 +1071,13 @@
       <property name="name" value="rootfileset" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852720">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852720">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852721">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852721">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852722">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852722">
         <link role="declaration" targetNodeId="353793545802852719" resolveInfo="rootfileset" />
       </node>
     </node>
@@ -1085,17 +1085,17 @@
       <property name="name" value="configuredroot" />
       <property name="classname" value="org.apache.tools.ant.types.optional.depend.ClassfileSet$ClassRoot" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852724">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852724">
         <link role="declaration" targetNodeId="353793545802852728" resolveInfo="classroot" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852725">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852725">
       <link role="declaration" targetNodeId="353793545802852728" resolveInfo="classroot" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852726">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852726">
         <link role="declaration" targetNodeId="353793545802852723" resolveInfo="configuredroot" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852727">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852727">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
     </node>
   </node>
@@ -1127,7 +1127,7 @@
       <property name="name" value="failonerr" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852739" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852740">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852740">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -1143,7 +1143,7 @@
       <property name="name" value="ccmdir" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802852745" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852746">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852746">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -1186,17 +1186,17 @@
       <property name="name" value="compilerspecificoptions" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.dotnet.NetCommand" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852765">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852765">
         <link role="declaration" targetNodeId="353793545802853690" resolveInfo="netcommand" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852766">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852766">
       <link role="declaration" targetNodeId="353793545802853690" resolveInfo="netcommand" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852767">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852767">
         <link role="declaration" targetNodeId="353793545802852764" resolveInfo="compilerspecificoptions" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852768">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852768">
       <link role="declaration" targetNodeId="353793545802852801" resolveInfo="dotnetcompile" />
     </node>
   </node>
@@ -1239,17 +1239,17 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852787">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852787">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852788">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852788">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852789">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852789">
         <link role="declaration" targetNodeId="353793545802852786" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852790">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852790">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -1268,17 +1268,17 @@
       <property name="name" value="src" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852797">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852797">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852798">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852798">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852799">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852799">
         <link role="declaration" targetNodeId="353793545802852796" resolveInfo="src" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852800">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852800">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -1372,13 +1372,13 @@
       <property name="name" value="reference" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852842">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852842">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852843">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852843">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852844">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852844">
         <link role="declaration" targetNodeId="353793545802852841" resolveInfo="reference" />
       </node>
     </node>
@@ -1386,13 +1386,13 @@
       <property name="name" value="define" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.dotnet.DotnetDefine" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852846">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852846">
         <link role="declaration" targetNodeId="353793545802852854" resolveInfo="dotnetdefine" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852847">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852847">
       <link role="declaration" targetNodeId="353793545802852854" resolveInfo="dotnetdefine" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852848">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852848">
         <link role="declaration" targetNodeId="353793545802852845" resolveInfo="define" />
       </node>
     </node>
@@ -1400,17 +1400,17 @@
       <property name="name" value="resource" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.dotnet.DotnetResource" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852850">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852850">
         <link role="declaration" targetNodeId="353793545802852861" resolveInfo="dotnetresource" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852851">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852851">
       <link role="declaration" targetNodeId="353793545802852861" resolveInfo="dotnetresource" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852852">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852852">
         <link role="declaration" targetNodeId="353793545802852849" resolveInfo="resource" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852853">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852853">
       <link role="declaration" targetNodeId="353793545802852791" resolveInfo="dotnetbasematchingtask" />
     </node>
   </node>
@@ -1453,9 +1453,9 @@
       <property name="name" value="embed" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802852871" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852872">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852872">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852873">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852873">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
@@ -1463,14 +1463,14 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852874">
     <property name="name" value="dtdlocation" />
     <property name="classname" value="org.apache.tools.ant.types.DTDLocation" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852875">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852875">
       <link role="declaration" targetNodeId="2v.353793545802815021" resolveInfo="resourcelocation" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802852876">
     <property name="name" value="dtdlocation" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DTDLocation" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852877">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852877">
       <link role="declaration" targetNodeId="353793545802852874" resolveInfo="dtdlocation" />
     </node>
   </node>
@@ -1478,10 +1478,10 @@
     <property name="name" value="dynamicconfigurator" />
     <property name="classname" value="org.apache.tools.ant.DynamicConfigurator" />
     <property name="abstract" value="true" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852879">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852879">
       <link role="declaration" targetNodeId="2v.353793545802812860" resolveInfo="dynamicattribute" />
     </node>
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852880">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852880">
       <link role="declaration" targetNodeId="2v.353793545802812861" resolveInfo="dynamicelement" />
     </node>
   </node>
@@ -1520,13 +1520,13 @@
       <property name="name" value="srcfile" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802852896" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852897">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852897">
       <link role="declaration" targetNodeId="2v.353793545802814795" resolveInfo="propertyset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852898">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852898">
         <link role="declaration" targetNodeId="2v.353793545802814795" resolveInfo="propertyset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852899">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852899">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -1611,13 +1611,13 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852935">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852935">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852936">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852936">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852937">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852937">
         <link role="declaration" targetNodeId="353793545802852934" resolveInfo="classpath" />
       </node>
     </node>
@@ -1625,13 +1625,13 @@
       <property name="name" value="dtd" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.EjbJar$DTDLocation" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852939">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852939">
         <link role="declaration" targetNodeId="353793545802852876" resolveInfo="dtdlocation" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852940">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852940">
       <link role="declaration" targetNodeId="353793545802852876" resolveInfo="dtdlocation" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852941">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852941">
         <link role="declaration" targetNodeId="353793545802852938" resolveInfo="dtd" />
       </node>
     </node>
@@ -1639,13 +1639,13 @@
       <property name="name" value="weblogic" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852943">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852943">
         <link role="declaration" targetNodeId="353793545802854213" resolveInfo="weblogicdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852944">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852944">
       <link role="declaration" targetNodeId="353793545802854213" resolveInfo="weblogicdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852945">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852945">
         <link role="declaration" targetNodeId="353793545802852942" resolveInfo="weblogic" />
       </node>
     </node>
@@ -1653,13 +1653,13 @@
       <property name="name" value="websphere" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852947">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852947">
         <link role="declaration" targetNodeId="353793545802854272" resolveInfo="webspheredeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852948">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852948">
       <link role="declaration" targetNodeId="353793545802854272" resolveInfo="webspheredeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852949">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852949">
         <link role="declaration" targetNodeId="353793545802852946" resolveInfo="websphere" />
       </node>
     </node>
@@ -1667,13 +1667,13 @@
       <property name="name" value="borland" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.BorlandDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852951">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852951">
         <link role="declaration" targetNodeId="353793545802852429" resolveInfo="borlanddeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852952">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852952">
       <link role="declaration" targetNodeId="353793545802852429" resolveInfo="borlanddeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852953">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852953">
         <link role="declaration" targetNodeId="353793545802852950" resolveInfo="borland" />
       </node>
     </node>
@@ -1681,13 +1681,13 @@
       <property name="name" value="iplanet" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.IPlanetDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852955">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852955">
         <link role="declaration" targetNodeId="353793545802853193" resolveInfo="iplanetdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852956">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852956">
       <link role="declaration" targetNodeId="353793545802853193" resolveInfo="iplanetdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852957">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852957">
         <link role="declaration" targetNodeId="353793545802852954" resolveInfo="iplanet" />
       </node>
     </node>
@@ -1695,13 +1695,13 @@
       <property name="name" value="jboss" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.JbossDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852959">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852959">
         <link role="declaration" targetNodeId="353793545802853361" resolveInfo="jbossdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852960">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852960">
       <link role="declaration" targetNodeId="353793545802853361" resolveInfo="jbossdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852961">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852961">
         <link role="declaration" targetNodeId="353793545802852958" resolveInfo="jboss" />
       </node>
     </node>
@@ -1709,13 +1709,13 @@
       <property name="name" value="jonas" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852963">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852963">
         <link role="declaration" targetNodeId="353793545802853426" resolveInfo="jonasdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852964">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852964">
       <link role="declaration" targetNodeId="353793545802853426" resolveInfo="jonasdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852965">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852965">
         <link role="declaration" targetNodeId="353793545802852962" resolveInfo="jonas" />
       </node>
     </node>
@@ -1723,13 +1723,13 @@
       <property name="name" value="weblogictoplink" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicTOPLinkDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852967">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852967">
         <link role="declaration" targetNodeId="353793545802854266" resolveInfo="weblogictoplinkdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852968">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852968">
       <link role="declaration" targetNodeId="353793545802854266" resolveInfo="weblogictoplinkdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852969">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852969">
         <link role="declaration" targetNodeId="353793545802852966" resolveInfo="weblogictoplink" />
       </node>
     </node>
@@ -1737,17 +1737,17 @@
       <property name="name" value="support" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852971">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852971">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802852972">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802852972">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852973">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852973">
         <link role="declaration" targetNodeId="353793545802852970" resolveInfo="support" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802852974">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802852974">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -1871,7 +1871,7 @@
       <property name="name" value="implementationurl" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853024" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853025">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853025">
       <link role="declaration" targetNodeId="2v.353793545802812581" resolveInfo="datatype" />
     </node>
   </node>
@@ -1886,9 +1886,9 @@
       <property name="name" value="refid" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.CallReferenceType" id="353793545802853029" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853030">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853030">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853031">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853031">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
@@ -1896,23 +1896,23 @@
       <property name="name" value="extension" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtensionAdapter" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853033">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853033">
         <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853034">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853034">
       <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853035">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853035">
         <link role="declaration" targetNodeId="353793545802853032" resolveInfo="extension" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853036">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853036">
       <link role="declaration" targetNodeId="353793545802853633" resolveInfo="libfileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853037">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853037">
         <link role="declaration" targetNodeId="353793545802853633" resolveInfo="libfileset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853038">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853038">
       <link role="declaration" targetNodeId="2v.353793545802812581" resolveInfo="datatype" />
     </node>
   </node>
@@ -1974,7 +1974,7 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853063">
     <property name="name" value="genericdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.GenericDeploymentTool" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853064">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853064">
       <link role="declaration" targetNodeId="353793545802852900" resolveInfo="ejbdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853065">
@@ -1997,13 +1997,13 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853074">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853074">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853075">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853075">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853076">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853076">
         <link role="declaration" targetNodeId="353793545802853073" resolveInfo="classpath" />
       </node>
     </node>
@@ -2011,7 +2011,7 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853077">
     <property name="name" value="generichotdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.j2ee.GenericHotDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853078">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853078">
       <link role="declaration" targetNodeId="353793545802852308" resolveInfo="abstracthotdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853079">
@@ -2026,7 +2026,7 @@
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853084">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853084">
         <link role="declaration" targetNodeId="2v.353793545802811883" resolveInfo="argument" />
       </node>
     </node>
@@ -2034,16 +2034,16 @@
       <property name="name" value="jvmarg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853086">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853086">
         <link role="declaration" targetNodeId="2v.353793545802811883" resolveInfo="argument" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853087">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853087">
       <link role="declaration" targetNodeId="2v.353793545802811883" resolveInfo="argument" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853088">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853088">
         <link role="declaration" targetNodeId="353793545802853083" resolveInfo="arg" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853089">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853089">
         <link role="declaration" targetNodeId="353793545802853085" resolveInfo="jvmarg" />
       </node>
     </node>
@@ -2103,17 +2103,17 @@
       <property name="name" value="reference" />
       <property name="classname" value="org.apache.tools.ant.types.FileSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853115">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853115">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853116">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853116">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853117">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853117">
         <link role="declaration" targetNodeId="353793545802853114" resolveInfo="reference" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853118">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853118">
       <link role="declaration" targetNodeId="353793545802852791" resolveInfo="dotnetbasematchingtask" />
     </node>
   </node>
@@ -2199,7 +2199,7 @@
       <property name="name" value="sourcefile" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802853157" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853158">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853158">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2230,7 +2230,7 @@
       <property name="name" value="usesysarray" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802853171" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853172">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853172">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2269,24 +2269,24 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853189">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853189">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853190">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853190">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853191">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853191">
         <link role="declaration" targetNodeId="353793545802853188" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853192">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853192">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853193">
     <property name="name" value="iplanetdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.IPlanetDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853194">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853194">
       <link role="declaration" targetNodeId="353793545802853063" resolveInfo="genericdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853195">
@@ -2325,13 +2325,13 @@
       <property name="name" value="configuredextension" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtensionAdapter" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853211">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853211">
         <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853212">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853212">
       <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853213">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853213">
         <link role="declaration" targetNodeId="353793545802853210" resolveInfo="configuredextension" />
       </node>
     </node>
@@ -2339,17 +2339,17 @@
       <property name="name" value="configuredextensionset" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853215">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853215">
         <link role="declaration" targetNodeId="353793545802853027" resolveInfo="extensionset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853216">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853216">
       <link role="declaration" targetNodeId="353793545802853027" resolveInfo="extensionset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853217">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853217">
         <link role="declaration" targetNodeId="353793545802853214" resolveInfo="configuredextensionset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853218">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853218">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2360,13 +2360,13 @@
       <property name="name" value="file" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802853221" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853222">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853222">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853223">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853223">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853224">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853224">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2381,13 +2381,13 @@
       <property name="name" value="configuredattribute" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtraAttribute" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853229">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853229">
         <link role="declaration" targetNodeId="353793545802853039" resolveInfo="extraattribute" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853230">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853230">
       <link role="declaration" targetNodeId="353793545802853039" resolveInfo="extraattribute" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853231">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853231">
         <link role="declaration" targetNodeId="353793545802853228" resolveInfo="configuredattribute" />
       </node>
     </node>
@@ -2395,13 +2395,13 @@
       <property name="name" value="configuredextension" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtensionAdapter" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853233">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853233">
         <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853234">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853234">
       <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853235">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853235">
         <link role="declaration" targetNodeId="353793545802853232" resolveInfo="configuredextension" />
       </node>
     </node>
@@ -2409,7 +2409,7 @@
       <property name="name" value="configureddepends" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853237">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853237">
         <link role="declaration" targetNodeId="353793545802853027" resolveInfo="extensionset" />
       </node>
     </node>
@@ -2417,20 +2417,20 @@
       <property name="name" value="configuredoptions" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtensionSet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853239">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853239">
         <link role="declaration" targetNodeId="353793545802853027" resolveInfo="extensionset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853240">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853240">
       <link role="declaration" targetNodeId="353793545802853027" resolveInfo="extensionset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853241">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853241">
         <link role="declaration" targetNodeId="353793545802853236" resolveInfo="configureddepends" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853242">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853242">
         <link role="declaration" targetNodeId="353793545802853238" resolveInfo="configuredoptions" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853243">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853243">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2453,13 +2453,13 @@
       <property name="name" value="configuredextension" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.ExtensionAdapter" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853252">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853252">
         <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853253">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853253">
       <link role="declaration" targetNodeId="353793545802853008" resolveInfo="extensionadapter" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853254">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853254">
         <link role="declaration" targetNodeId="353793545802853251" resolveInfo="configuredextension" />
       </node>
     </node>
@@ -2467,13 +2467,13 @@
       <property name="name" value="configuredlocation" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.resolvers.LocationResolver" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853256">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853256">
         <link role="declaration" targetNodeId="353793545802853641" resolveInfo="locationresolver" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853257">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853257">
       <link role="declaration" targetNodeId="353793545802853641" resolveInfo="locationresolver" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853258">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853258">
         <link role="declaration" targetNodeId="353793545802853255" resolveInfo="configuredlocation" />
       </node>
     </node>
@@ -2481,13 +2481,13 @@
       <property name="name" value="configuredurl" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.resolvers.URLResolver" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853260">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853260">
         <link role="declaration" targetNodeId="353793545802854057" resolveInfo="urlresolver" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853261">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853261">
       <link role="declaration" targetNodeId="353793545802854057" resolveInfo="urlresolver" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853262">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853262">
         <link role="declaration" targetNodeId="353793545802853259" resolveInfo="configuredurl" />
       </node>
     </node>
@@ -2495,17 +2495,17 @@
       <property name="name" value="configuredant" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.resolvers.AntResolver" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853264">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853264">
         <link role="declaration" targetNodeId="353793545802852340" resolveInfo="antresolver" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853265">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853265">
       <link role="declaration" targetNodeId="353793545802852340" resolveInfo="antresolver" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853266">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853266">
         <link role="declaration" targetNodeId="353793545802853263" resolveInfo="configuredant" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853267">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853267">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2612,7 +2612,7 @@
       <property name="name" value="jdkversion" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853318" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853319">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853319">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2671,13 +2671,13 @@
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.util.facade.ImplementationSpecificArgument" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853346">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853346">
         <link role="declaration" targetNodeId="2v.353793545802813455" resolveInfo="implementationspecificargument" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853347">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853347">
       <link role="declaration" targetNodeId="2v.353793545802813455" resolveInfo="implementationspecificargument" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853348">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853348">
         <link role="declaration" targetNodeId="353793545802853345" resolveInfo="arg" />
       </node>
     </node>
@@ -2685,7 +2685,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853350">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853350">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
@@ -2693,16 +2693,16 @@
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853352">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853352">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853353">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853353">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853354">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853354">
         <link role="declaration" targetNodeId="353793545802853349" resolveInfo="classpath" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853355">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853355">
         <link role="declaration" targetNodeId="353793545802853351" resolveInfo="bootclasspath" />
       </node>
     </node>
@@ -2710,24 +2710,24 @@
       <property name="name" value="class" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.Javah$ClassArgument" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853357">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853357">
         <link role="declaration" targetNodeId="353793545802852713" resolveInfo="classargument" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853358">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853358">
       <link role="declaration" targetNodeId="353793545802852713" resolveInfo="classargument" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853359">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853359">
         <link role="declaration" targetNodeId="353793545802853356" resolveInfo="class" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853360">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853360">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853361">
     <property name="name" value="jbossdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.JbossDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853362">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853362">
       <link role="declaration" targetNodeId="353793545802853063" resolveInfo="genericdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853363">
@@ -2758,7 +2758,7 @@
       <property name="name" value="javacchome" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802853375" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853376">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853376">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2825,7 +2825,7 @@
       <property name="name" value="outputdirectory" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802853407" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853408">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853408">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -2852,7 +2852,7 @@
       <property name="name" value="mergefiles" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853419">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853419">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
@@ -2860,27 +2860,27 @@
       <property name="name" value="addfiles" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853421">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853421">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853422">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853422">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853423">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853423">
         <link role="declaration" targetNodeId="353793545802853418" resolveInfo="mergefiles" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853424">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853424">
         <link role="declaration" targetNodeId="353793545802853420" resolveInfo="addfiles" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853425">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853425">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853426">
     <property name="name" value="jonasdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.JonasDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853427">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853427">
       <link role="declaration" targetNodeId="353793545802853063" resolveInfo="genericdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853428">
@@ -2943,10 +2943,10 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853456">
     <property name="name" value="jonashotdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.j2ee.JonasHotDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853457">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853457">
       <link role="declaration" targetNodeId="353793545802853077" resolveInfo="generichotdeploymenttool" />
     </node>
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853458">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853458">
       <link role="declaration" targetNodeId="353793545802853090" resolveInfo="hotdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853459">
@@ -2981,7 +2981,7 @@
       <property name="name" value="securescoping" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802853473" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853474">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853474">
       <link role="declaration" targetNodeId="353793545802852801" resolveInfo="dotnetcompile" />
     </node>
   </node>
@@ -3052,7 +3052,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853507">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853507">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
@@ -3060,16 +3060,16 @@
       <property name="name" value="compilerclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853509">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853509">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853510">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853510">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853511">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853511">
         <link role="declaration" targetNodeId="353793545802853506" resolveInfo="classpath" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853512">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853512">
         <link role="declaration" targetNodeId="353793545802853508" resolveInfo="compilerclasspath" />
       </node>
     </node>
@@ -3077,17 +3077,17 @@
       <property name="name" value="webapp" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.jsp.JspC$WebAppParameter" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853514">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853514">
         <link role="declaration" targetNodeId="353793545802854210" resolveInfo="webappparameter" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853515">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853515">
       <link role="declaration" targetNodeId="353793545802854210" resolveInfo="webappparameter" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853516">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853516">
         <link role="declaration" targetNodeId="353793545802853513" resolveInfo="webapp" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853517">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853517">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -3208,7 +3208,7 @@
       <property name="name" value="sysproperty" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853570">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853570">
         <link role="declaration" targetNodeId="2v.353793545802815786" resolveInfo="variable" />
       </node>
     </node>
@@ -3216,7 +3216,7 @@
       <property name="name" value="env" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853572">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853572">
         <link role="declaration" targetNodeId="2v.353793545802815786" resolveInfo="variable" />
       </node>
     </node>
@@ -3224,19 +3224,19 @@
       <property name="name" value="configuredsysproperty" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853574">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853574">
         <link role="declaration" targetNodeId="2v.353793545802815786" resolveInfo="variable" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853575">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853575">
       <link role="declaration" targetNodeId="2v.353793545802815786" resolveInfo="variable" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853576">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853576">
         <link role="declaration" targetNodeId="353793545802853569" resolveInfo="sysproperty" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853577">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853577">
         <link role="declaration" targetNodeId="353793545802853571" resolveInfo="env" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853578">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853578">
         <link role="declaration" targetNodeId="353793545802853573" resolveInfo="configuredsysproperty" />
       </node>
     </node>
@@ -3244,7 +3244,7 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853580">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853580">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
@@ -3252,22 +3252,22 @@
       <property name="name" value="bootclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853582">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853582">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853583">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853583">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853584">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853584">
         <link role="declaration" targetNodeId="353793545802853579" resolveInfo="classpath" />
       </node>
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853585">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853585">
         <link role="declaration" targetNodeId="353793545802853581" resolveInfo="bootclasspath" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853586">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853586">
       <link role="declaration" targetNodeId="2v.353793545802814718" resolveInfo="permissions" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853587">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853587">
         <link role="declaration" targetNodeId="2v.353793545802814718" resolveInfo="permissions" />
       </node>
     </node>
@@ -3275,13 +3275,13 @@
       <property name="name" value="jvmarg" />
       <property name="classname" value="org.apache.tools.ant.types.Commandline$Argument" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853589">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853589">
         <link role="declaration" targetNodeId="2v.353793545802811883" resolveInfo="argument" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853590">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853590">
       <link role="declaration" targetNodeId="2v.353793545802811883" resolveInfo="argument" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853591">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853591">
         <link role="declaration" targetNodeId="353793545802853588" resolveInfo="jvmarg" />
       </node>
     </node>
@@ -3289,19 +3289,19 @@
       <property name="name" value="syspropertyset" />
       <property name="classname" value="org.apache.tools.ant.types.PropertySet" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853593">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853593">
         <link role="declaration" targetNodeId="2v.353793545802814795" resolveInfo="propertyset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853594">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853594">
       <link role="declaration" targetNodeId="2v.353793545802814795" resolveInfo="propertyset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853595">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853595">
         <link role="declaration" targetNodeId="353793545802853592" resolveInfo="syspropertyset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853596">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853596">
       <link role="declaration" targetNodeId="2v.353793545802811895" resolveInfo="assertions" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853597">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853597">
         <link role="declaration" targetNodeId="2v.353793545802811895" resolveInfo="assertions" />
       </node>
     </node>
@@ -3309,13 +3309,13 @@
       <property name="name" value="formatter" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.junit.FormatterElement" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853599">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853599">
         <link role="declaration" targetNodeId="353793545802853044" resolveInfo="formatterelement" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853600">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853600">
       <link role="declaration" targetNodeId="353793545802853044" resolveInfo="formatterelement" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853601">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853601">
         <link role="declaration" targetNodeId="353793545802853598" resolveInfo="formatter" />
       </node>
     </node>
@@ -3323,30 +3323,30 @@
       <property name="name" value="test" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTest" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853603">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853603">
         <link role="declaration" targetNodeId="353793545802853622" resolveInfo="junittest" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853604">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853604">
       <link role="declaration" targetNodeId="353793545802853622" resolveInfo="junittest" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853605">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853605">
         <link role="declaration" targetNodeId="353793545802853602" resolveInfo="test" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853606">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853606">
       <link role="declaration" targetNodeId="353793545802852403" resolveInfo="batchtest" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853607">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853607">
         <link role="declaration" targetNodeId="353793545802852403" resolveInfo="batchtest" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853608">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853608">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853609">
     <property name="name" value="junitreport" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.junit.XMLResultAggregator" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853610">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853610">
       <link role="declaration" targetNodeId="353793545802854332" resolveInfo="xmlconstants" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853611">
@@ -3357,9 +3357,9 @@
       <property name="name" value="tofile" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853614" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853615">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853615">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853616">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853616">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
@@ -3367,27 +3367,27 @@
       <property name="name" value="report" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.junit.AggregateTransformer" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853618">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853618">
         <link role="declaration" targetNodeId="353793545802852324" resolveInfo="aggregatetransformer" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853619">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853619">
       <link role="declaration" targetNodeId="353793545802852324" resolveInfo="aggregatetransformer" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853620">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853620">
         <link role="declaration" targetNodeId="353793545802853617" resolveInfo="report" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853621">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853621">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853622">
     <property name="name" value="junittest" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTest" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853623">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853623">
       <link role="declaration" targetNodeId="353793545802852380" resolveInfo="basetest" />
     </node>
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853624">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853624">
       <link role="declaration" targetNodeId="2v.353793545802812204" resolveInfo="cloneable" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853625">
@@ -3422,14 +3422,14 @@
       <property name="name" value="urlbase" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853639" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853640">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853640">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853641">
     <property name="name" value="locationresolver" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.resolvers.LocationResolver" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853642">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853642">
       <link role="declaration" targetNodeId="353793545802853026" resolveInfo="extensionresolver" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853643">
@@ -3441,7 +3441,7 @@
     <property name="name" value="mimemail" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.net.MimeMail" />
     <property name="depracated" value="true" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853646">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853646">
       <link role="declaration" targetNodeId="2v.353793545802814131" resolveInfo="mail" />
     </node>
   </node>
@@ -3449,7 +3449,7 @@
     <property name="name" value="msvss" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.vss.MSVSS" />
     <property name="abstract" value="true" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853648">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853648">
       <link role="declaration" targetNodeId="353793545802853660" resolveInfo="msvssconstants" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853649">
@@ -3472,7 +3472,7 @@
       <property name="name" value="serverpath" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853658" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853659">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853659">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -3508,9 +3508,9 @@
       <property name="name" value="ext" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853673" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853674">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853674">
       <link role="declaration" targetNodeId="2v.353793545802813119" resolveInfo="filenamemapper" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853675">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853675">
         <link role="declaration" targetNodeId="2v.353793545802813119" resolveInfo="filenamemapper" />
       </node>
     </node>
@@ -3518,23 +3518,23 @@
       <property name="name" value="arg" />
       <property name="classname" value="org.apache.tools.ant.util.facade.ImplementationSpecificArgument" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853677">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853677">
         <link role="declaration" targetNodeId="2v.353793545802813455" resolveInfo="implementationspecificargument" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853678">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853678">
       <link role="declaration" targetNodeId="2v.353793545802813455" resolveInfo="implementationspecificargument" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853679">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853679">
         <link role="declaration" targetNodeId="353793545802853676" resolveInfo="arg" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853680">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853680">
       <link role="declaration" targetNodeId="2v.353793545802814270" resolveInfo="mapper" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853681">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853681">
         <link role="declaration" targetNodeId="2v.353793545802814270" resolveInfo="mapper" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853682">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853682">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -3581,13 +3581,13 @@
       <property name="name" value="argument" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853702">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853702">
         <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853703">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853703">
       <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853704">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853704">
         <link role="declaration" targetNodeId="353793545802853701" resolveInfo="argument" />
       </node>
     </node>
@@ -3596,13 +3596,13 @@
       <property name="classname" value="[Ljava.lang.String;" />
       <property name="abstract" value="true" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853706">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853706">
         <link role="declaration" targetNodeId="353793545802854012" resolveInfo="string;" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853707">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853707">
       <link role="declaration" targetNodeId="353793545802854012" resolveInfo="string;" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853708">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853708">
         <link role="declaration" targetNodeId="353793545802853705" resolveInfo="arguments" />
       </node>
     </node>
@@ -3630,13 +3630,13 @@
       <property name="name" value="file" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802853718" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853719">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853719">
       <link role="declaration" targetNodeId="353793545802852975" resolveInfo="entry" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853720">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853720">
         <link role="declaration" targetNodeId="353793545802852975" resolveInfo="entry" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853721">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853721">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -3699,13 +3699,13 @@
       <property name="name" value="config" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802853750" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853751">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853751">
       <link role="declaration" targetNodeId="353793545802853754" resolveInfo="pvcsproject" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853752">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853752">
         <link role="declaration" targetNodeId="353793545802853754" resolveInfo="pvcsproject" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853753">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853753">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -3737,7 +3737,7 @@
       <property name="name" value="srcdir" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.FileType" id="353793545802853765" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853766">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853766">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -3769,9 +3769,9 @@
       <property name="name" value="match" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853779" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853780">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853780">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853781">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853781">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
@@ -3779,23 +3779,23 @@
       <property name="name" value="regexp" />
       <property name="classname" value="org.apache.tools.ant.types.RegularExpression" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853783">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853783">
         <link role="declaration" targetNodeId="2v.353793545802814904" resolveInfo="regularexpression" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853784">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853784">
       <link role="declaration" targetNodeId="2v.353793545802814904" resolveInfo="regularexpression" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853785">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853785">
         <link role="declaration" targetNodeId="353793545802853782" resolveInfo="regexp" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853786">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853786">
       <link role="declaration" targetNodeId="2v.353793545802815442" resolveInfo="substitution" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853787">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853787">
         <link role="declaration" targetNodeId="2v.353793545802815442" resolveInfo="substitution" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853788">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853788">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -3846,7 +3846,7 @@
       <property name="name" value="rpmbuildcommand" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853811" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853812">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853812">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -3905,17 +3905,17 @@
       <property name="name" value="configuredschema" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.SchemaValidate$SchemaLocation" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853837">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853837">
         <link role="declaration" targetNodeId="353793545802853820" resolveInfo="schemalocation" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853838">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853838">
       <link role="declaration" targetNodeId="353793545802853820" resolveInfo="schemalocation" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853839">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853839">
         <link role="declaration" targetNodeId="353793545802853836" resolveInfo="configuredschema" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853840">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853840">
       <link role="declaration" targetNodeId="353793545802854333" resolveInfo="xmlvalidate" />
     </node>
   </node>
@@ -3955,13 +3955,13 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853857">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853857">
         <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853858">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853858">
       <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853859">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853859">
         <link role="declaration" targetNodeId="353793545802853856" resolveInfo="text" />
       </node>
     </node>
@@ -3969,17 +3969,17 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853861">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853861">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853862">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853862">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853863">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853863">
         <link role="declaration" targetNodeId="353793545802853860" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853864">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853864">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -4011,19 +4011,19 @@
       <property name="name" value="element" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.script.ScriptDef$NestedElement" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853877">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853877">
         <link role="declaration" targetNodeId="353793545802853683" resolveInfo="nestedelement" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853878">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853878">
       <link role="declaration" targetNodeId="353793545802853683" resolveInfo="nestedelement" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853879">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853879">
         <link role="declaration" targetNodeId="353793545802853876" resolveInfo="element" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853880">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853880">
       <link role="declaration" targetNodeId="353793545802852377" resolveInfo="attribute" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853881">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853881">
         <link role="declaration" targetNodeId="353793545802852377" resolveInfo="attribute" />
       </node>
     </node>
@@ -4031,17 +4031,17 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853883">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853883">
         <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853884">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853884">
       <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853885">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853885">
         <link role="declaration" targetNodeId="353793545802853882" resolveInfo="text" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853886">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853886">
       <link role="declaration" targetNodeId="2v.353793545802812614" resolveInfo="defbase" />
     </node>
   </node>
@@ -4049,24 +4049,24 @@
     <property name="name" value="scriptdefbase" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.script.ScriptDefBase" />
     <property name="canHaveInternalText" value="true" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853888">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853888">
       <link role="declaration" targetNodeId="353793545802852878" resolveInfo="dynamicconfigurator" />
     </node>
     <node role="fakeDeclaration" type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802853889">
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853890">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853890">
         <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853891">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853891">
       <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853892">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853892">
         <link role="declaration" targetNodeId="353793545802853889" resolveInfo="text" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853893">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853893">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -4110,13 +4110,13 @@
       <property name="name" value="text" />
       <property name="classname" value="java.lang.String" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853912">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853912">
         <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853913">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853913">
       <link role="declaration" targetNodeId="2v.353793545802815290" resolveInfo="string" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853914">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853914">
         <link role="declaration" targetNodeId="353793545802853911" resolveInfo="text" />
       </node>
     </node>
@@ -4124,17 +4124,17 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853916">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853916">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853917">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853917">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853918">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853918">
         <link role="declaration" targetNodeId="353793545802853915" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853919">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853919">
       <link role="declaration" targetNodeId="2v.353793545802812009" resolveInfo="baseselector" />
     </node>
   </node>
@@ -4153,13 +4153,13 @@
       <property name="name" value="generic" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.j2ee.GenericHotDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853926">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853926">
         <link role="declaration" targetNodeId="353793545802853077" resolveInfo="generichotdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853927">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853927">
       <link role="declaration" targetNodeId="353793545802853077" resolveInfo="generichotdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853928">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853928">
         <link role="declaration" targetNodeId="353793545802853925" resolveInfo="generic" />
       </node>
     </node>
@@ -4167,13 +4167,13 @@
       <property name="name" value="weblogic" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.j2ee.WebLogicHotDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853930">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853930">
         <link role="declaration" targetNodeId="353793545802854257" resolveInfo="weblogichotdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853931">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853931">
       <link role="declaration" targetNodeId="353793545802854257" resolveInfo="weblogichotdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853932">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853932">
         <link role="declaration" targetNodeId="353793545802853929" resolveInfo="weblogic" />
       </node>
     </node>
@@ -4181,17 +4181,17 @@
       <property name="name" value="jonas" />
       <property name="classname" value="org.apache.tools.ant.taskdefs.optional.j2ee.JonasHotDeploymentTool" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853934">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853934">
         <link role="declaration" targetNodeId="353793545802853456" resolveInfo="jonashotdeploymenttool" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802853935">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802853935">
       <link role="declaration" targetNodeId="353793545802853456" resolveInfo="jonashotdeploymenttool" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853936">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853936">
         <link role="declaration" targetNodeId="353793545802853933" resolveInfo="jonas" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853937">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853937">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -4226,7 +4226,7 @@
       <property name="name" value="proxypassword" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853952" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853953">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853953">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -4234,7 +4234,7 @@
     <property name="name" value="sos" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.sos.SOS" />
     <property name="abstract" value="true" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853955">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853955">
       <link role="declaration" targetNodeId="353793545802853993" resolveInfo="soscmd" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802853956">
@@ -4281,7 +4281,7 @@
       <property name="name" value="localpath" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802853977" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853978">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853978">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
@@ -4300,7 +4300,7 @@
       <property name="name" value="recursive" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802853985" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853986">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853986">
       <link role="declaration" targetNodeId="353793545802853954" resolveInfo="sos" />
     </node>
   </node>
@@ -4315,7 +4315,7 @@
       <property name="name" value="recursive" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802853991" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802853992">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802853992">
       <link role="declaration" targetNodeId="353793545802853954" resolveInfo="sos" />
     </node>
   </node>
@@ -4343,7 +4343,7 @@
       <property name="name" value="recursive" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802854002" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854003">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854003">
       <link role="declaration" targetNodeId="353793545802853954" resolveInfo="sos" />
     </node>
   </node>
@@ -4362,7 +4362,7 @@
       <property name="name" value="version" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854010" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854011">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854011">
       <link role="declaration" targetNodeId="353793545802853954" resolveInfo="sos" />
     </node>
   </node>
@@ -4370,10 +4370,10 @@
     <property name="name" value="string;" />
     <property name="classname" value="[Ljava.lang.String;" />
     <property name="abstract" value="true" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854013">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854013">
       <link role="declaration" targetNodeId="2v.353793545802812204" resolveInfo="cloneable" />
     </node>
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854014">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854014">
       <link role="declaration" targetNodeId="2v.353793545802815121" resolveInfo="serializable" />
     </node>
   </node>
@@ -4404,13 +4404,13 @@
       <property name="name" value="linkfilename" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854027" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854028">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854028">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854029">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854029">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854030">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854030">
       <link role="declaration" targetNodeId="2v.353793545802812852" resolveInfo="dispatchtask" />
     </node>
   </node>
@@ -4461,20 +4461,20 @@
       <property name="name" value="bundleencoding" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854053" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854054">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854054">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854055">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854055">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854056">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854056">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802854057">
     <property name="name" value="urlresolver" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.extension.resolvers.URLResolver" />
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854058">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854058">
       <link role="declaration" targetNodeId="353793545802853026" resolveInfo="extensionresolver" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802854059">
@@ -4517,7 +4517,7 @@
       <property name="name" value="optioncompare" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854077" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854078">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854078">
       <link role="declaration" targetNodeId="353793545802852801" resolveInfo="dotnetcompile" />
     </node>
   </node>
@@ -4544,7 +4544,7 @@
       <property name="name" value="localpath" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854089" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854090">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854090">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4571,7 +4571,7 @@
       <property name="name" value="localpath" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854101" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854102">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854102">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4636,7 +4636,7 @@
       <property name="name" value="getlocalcopy" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802854129" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854130">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854130">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4647,7 +4647,7 @@
       <property name="name" value="autoresponse" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854133" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854134">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854134">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4666,7 +4666,7 @@
       <property name="name" value="autoresponse" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854141" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854142">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854142">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4735,7 +4735,7 @@
       </node>
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854171" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854172">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854172">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4796,7 +4796,7 @@
       <property name="name" value="dateformat" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854198" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854199">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854199">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4819,7 +4819,7 @@
       <property name="name" value="autoresponse" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.StringType" id="353793545802854208" />
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854209">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854209">
       <link role="declaration" targetNodeId="353793545802853647" resolveInfo="msvss" />
     </node>
   </node>
@@ -4834,7 +4834,7 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802854213">
     <property name="name" value="weblogicdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854214">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854214">
       <link role="declaration" targetNodeId="353793545802853063" resolveInfo="genericdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802854215">
@@ -4909,13 +4909,13 @@
       <property name="name" value="sysproperty" />
       <property name="classname" value="org.apache.tools.ant.types.Environment$Variable" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854250">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854250">
         <link role="declaration" targetNodeId="2v.353793545802815786" resolveInfo="variable" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854251">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854251">
       <link role="declaration" targetNodeId="2v.353793545802815786" resolveInfo="variable" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854252">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854252">
         <link role="declaration" targetNodeId="353793545802854249" resolveInfo="sysproperty" />
       </node>
     </node>
@@ -4923,13 +4923,13 @@
       <property name="name" value="wlclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854254">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854254">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854255">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854255">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854256">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854256">
         <link role="declaration" targetNodeId="353793545802854253" resolveInfo="wlclasspath" />
       </node>
     </node>
@@ -4937,10 +4937,10 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802854257">
     <property name="name" value="weblogichotdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.j2ee.WebLogicHotDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854258">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854258">
       <link role="declaration" targetNodeId="353793545802852308" resolveInfo="abstracthotdeploymenttool" />
     </node>
-    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854259">
+    <node role="interfaces" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854259">
       <link role="declaration" targetNodeId="353793545802853090" resolveInfo="hotdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802854260">
@@ -4959,7 +4959,7 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802854266">
     <property name="name" value="weblogictoplinkdeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.WeblogicTOPLinkDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854267">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854267">
       <link role="declaration" targetNodeId="353793545802854213" resolveInfo="weblogicdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802854268">
@@ -4974,7 +4974,7 @@
   <node type="jetbrains.mps.build.generictasks.structure.TaskDeclaration" id="353793545802854272">
     <property name="name" value="webspheredeploymenttool" />
     <property name="classname" value="org.apache.tools.ant.taskdefs.optional.ejb.WebsphereDeploymentTool" />
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854273">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854273">
       <link role="declaration" targetNodeId="353793545802853063" resolveInfo="genericdeploymenttool" />
     </node>
     <node role="attributesDecl" type="jetbrains.mps.build.generictasks.structure.AttributeDeclaration" id="353793545802854274">
@@ -5061,13 +5061,13 @@
       <property name="name" value="wasclasspath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854315">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854315">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854316">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854316">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854317">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854317">
         <link role="declaration" targetNodeId="353793545802854314" resolveInfo="wasclasspath" />
       </node>
     </node>
@@ -5095,17 +5095,17 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854328">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854328">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854329">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854329">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854330">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854330">
         <link role="declaration" targetNodeId="353793545802854327" resolveInfo="classpath" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854331">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854331">
       <link role="declaration" targetNodeId="2v.353793545802814314" resolveInfo="matchingtask" />
     </node>
   </node>
@@ -5145,21 +5145,21 @@
       <property name="name" value="warn" />
       <node role="attributeType" type="jetbrains.mps.buildlanguage.structure.BooleanType" id="353793545802854347" />
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854348">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854348">
       <link role="declaration" targetNodeId="353793545802852372" resolveInfo="attribute" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854349">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854349">
         <link role="declaration" targetNodeId="353793545802852372" resolveInfo="attribute" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854350">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854350">
       <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854351">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854351">
         <link role="declaration" targetNodeId="2v.353793545802813175" resolveInfo="fileset" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854352">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854352">
       <link role="declaration" targetNodeId="353793545802853709" resolveInfo="property" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854353">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854353">
         <link role="declaration" targetNodeId="353793545802853709" resolveInfo="property" />
       </node>
     </node>
@@ -5167,13 +5167,13 @@
       <property name="name" value="classpath" />
       <property name="classname" value="org.apache.tools.ant.types.Path" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854355">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854355">
         <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854356">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854356">
       <link role="declaration" targetNodeId="2v.353793545802814623" resolveInfo="path" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854357">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854357">
         <link role="declaration" targetNodeId="353793545802854354" resolveInfo="classpath" />
       </node>
     </node>
@@ -5181,13 +5181,13 @@
       <property name="name" value="dtd" />
       <property name="classname" value="org.apache.tools.ant.types.DTDLocation" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854359">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854359">
         <link role="declaration" targetNodeId="353793545802852874" resolveInfo="dtdlocation" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854360">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854360">
       <link role="declaration" targetNodeId="353793545802852874" resolveInfo="dtdlocation" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854361">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854361">
         <link role="declaration" targetNodeId="353793545802854358" resolveInfo="dtd" />
       </node>
     </node>
@@ -5195,17 +5195,17 @@
       <property name="name" value="configuredxmlcatalog" />
       <property name="classname" value="org.apache.tools.ant.types.XMLCatalog" />
       <property name="fake" value="true" />
-      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854363">
+      <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854363">
         <link role="declaration" targetNodeId="2v.353793545802815834" resolveInfo="xmlcatalog" />
       </node>
     </node>
-    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedReference" id="353793545802854364">
+    <node role="nested" type="jetbrains.mps.build.generictasks.structure.NestedDeclaration" id="353793545802854364">
       <link role="declaration" targetNodeId="2v.353793545802815834" resolveInfo="xmlcatalog" />
-      <node role="role" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854365">
+      <node role="role" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854365">
         <link role="declaration" targetNodeId="353793545802854362" resolveInfo="configuredxmlcatalog" />
       </node>
     </node>
-    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.Reference" id="353793545802854366">
+    <node role="parentRef" type="jetbrains.mps.build.generictasks.structure.TaskReference" id="353793545802854366">
       <link role="declaration" targetNodeId="2v.353793545802815544" resolveInfo="task" />
     </node>
   </node>
