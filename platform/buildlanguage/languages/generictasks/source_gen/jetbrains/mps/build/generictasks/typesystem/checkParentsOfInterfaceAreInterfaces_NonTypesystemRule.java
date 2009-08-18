@@ -22,7 +22,7 @@ public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends Abst
 
   public void applyRule(final SNode genericInterfaceDeclaration, final TypeCheckingContext typeCheckingContext) {
     for(SNode parent : ListSequence.fromList(SLinkOperations.getTargets(genericInterfaceDeclaration, "parents", true))) {
-      if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, "declaration", false), "jetbrains.mps.build.generictasks.structure.GenericInterfaceDeclaration"))) {
+      if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, "declaration", false), "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
         {
           BaseIntentionProvider intentionProvider = null;
           IErrorTarget errorTarget = new NodeErrorTarget();
@@ -33,7 +33,7 @@ public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends Abst
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.build.generictasks.structure.GenericInterfaceDeclaration";
+    return "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration";
   }
 
   public boolean isApplicable(SNode argument) {

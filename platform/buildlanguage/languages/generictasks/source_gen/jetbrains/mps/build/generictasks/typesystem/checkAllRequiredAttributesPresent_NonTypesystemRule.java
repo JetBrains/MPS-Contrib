@@ -7,9 +7,9 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.build.generictasks.behavior.GenericTaskDeclaration_Behavior;
+import jetbrains.mps.build.generictasks.behavior.TaskDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.build.generictasks.behavior.GenericAttributeDeclaration_Behavior;
+import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.typesystem.inference.IErrorTarget;
@@ -22,8 +22,8 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
   }
 
   public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext) {
-    for(SNode attrDecl : ListSequence.fromList(GenericTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
-      if (GenericAttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
+    for(SNode attrDecl : ListSequence.fromList(TaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
+      if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
         boolean found = false;
         for(SNode attr : ListSequence.fromList(SLinkOperations.getTargets(genericTaskCall, "atributes", true))) {
           if (SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name").equals(SPropertyOperations.getString(attrDecl, "name"))) {
@@ -46,7 +46,7 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.build.generictasks.structure.GenericCall";
+    return "jetbrains.mps.build.generictasks.structure.TaskCall";
   }
 
   public boolean isApplicable(SNode argument) {

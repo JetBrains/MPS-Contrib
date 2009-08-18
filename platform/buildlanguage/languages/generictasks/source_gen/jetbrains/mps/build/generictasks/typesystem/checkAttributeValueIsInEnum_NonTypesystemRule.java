@@ -32,7 +32,7 @@ public class checkAttributeValueIsInEnum_NonTypesystemRule extends AbstractNonTy
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.build.generictasks.structure.GenericAttribute";
+    return "jetbrains.mps.build.generictasks.structure.Attribute";
   }
 
   public boolean isApplicable(SNode argument) {

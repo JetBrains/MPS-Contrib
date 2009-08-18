@@ -13,11 +13,11 @@ public class Util {
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")) {
       return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "type", true), NameUtil.nodeFQName(type));
     } else
-    if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.build.generictasks.structure.GenericAttribute")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.GenericAttribute"), "attributeDeclaration", false), "attributeType", true), NameUtil.nodeFQName(type));
+    if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.build.generictasks.structure.Attribute")) {
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.Attribute"), "attributeDeclaration", false), "attributeType", true), NameUtil.nodeFQName(type));
     } else
-    if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.build.generictasks.structure.GenericAttributeDeclaration")) {
-      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.GenericAttributeDeclaration"), "attributeType", true), NameUtil.nodeFQName(type));
+    if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration")) {
+      return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.build.generictasks.structure.AttributeDeclaration"), "attributeType", true), NameUtil.nodeFQName(type));
     }
     return false;
   }

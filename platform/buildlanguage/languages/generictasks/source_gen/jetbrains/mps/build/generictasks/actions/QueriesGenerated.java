@@ -22,10 +22,10 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 public class QueriesGenerated {
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_353793545802854369(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.GenericAttribute"))) {
+    if (!(SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"))) {
       return false;
     }
-    SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.GenericAttribute"), "attributeDeclaration", false);
+    SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"), "attributeDeclaration", false);
     return ((SLinkOperations.getTarget(decl, "enum", true) != null)) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(decl, "enum", true), "jetbrains.mps.buildlanguage.structure.StringEnum");
   }
 
@@ -38,7 +38,7 @@ public class QueriesGenerated {
         Calculable calc = new Calculable() {
 
           public Object calculate() {
-            SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.GenericAttribute"), "attributeDeclaration", false);
+            SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"), "attributeDeclaration", false);
             return SLinkOperations.getTargets(SLinkOperations.getTarget(decl, "enum", true), "constants", true);
           }
         };

@@ -17,7 +17,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IScope;
-import jetbrains.mps.build.generictasks.behavior.GenericAttributeDeclaration_Behavior;
+import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GenericAttributeDeclaration_EditorComponent extends AbstractCellProvider {
@@ -185,11 +185,11 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
 
 
   private static boolean renderingCondition2790_0(SNode node, EditorContext editorContext, IScope scope) {
-    return (!(GenericAttributeDeclaration_Behavior.call_isRequired_353793545802643811(node)) && (SLinkOperations.getTarget(node, "default", true) != null)) || editorContext.isInspector();
+    return (!(AttributeDeclaration_Behavior.call_isRequired_353793545802643811(node)) && (SLinkOperations.getTarget(node, "default", true) != null)) || editorContext.isInspector();
   }
 
   private static boolean renderingCondition2790_1(SNode node, EditorContext editorContext, IScope scope) {
-    return GenericAttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(node) || editorContext.isInspector();
+    return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(node) || editorContext.isInspector();
   }
 
 }

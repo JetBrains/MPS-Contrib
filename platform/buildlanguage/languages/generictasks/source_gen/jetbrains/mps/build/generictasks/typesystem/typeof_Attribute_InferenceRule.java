@@ -24,7 +24,7 @@ public class typeof_Attribute_InferenceRule extends AbstractInferenceRule_Runtim
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.build.generictasks.structure.GenericAttribute";
+    return "jetbrains.mps.build.generictasks.structure.Attribute";
   }
 
   public boolean isApplicable(SNode argument) {

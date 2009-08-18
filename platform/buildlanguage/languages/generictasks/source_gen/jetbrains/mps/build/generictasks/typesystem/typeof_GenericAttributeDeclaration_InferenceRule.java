@@ -34,7 +34,7 @@ public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractIn
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.build.generictasks.structure.GenericAttributeDeclaration";
+    return "jetbrains.mps.build.generictasks.structure.AttributeDeclaration";
   }
 
   public boolean isApplicable(SNode argument) {
