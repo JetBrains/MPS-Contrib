@@ -30,7 +30,6 @@ import jetbrains.mps.nodeEditor.BlockCells;
 import javax.swing.JComponent;
 
 public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_7369_7(editorContext, node);
   }
@@ -41,8 +40,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_7369_6(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createConstant_7369_4(editorContext, node);
     }
     return editorCell;
@@ -240,8 +238,7 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createImage_7369_0(final EditorContext editorContext, final SNode node) {
     EditorCell_Image editorCell;
-    editorCell = EditorCell_Image.createImageCell(editorContext, node, new _FunctionTypes._return_P0_E0 <String>() {
-
+    editorCell = EditorCell_Image.createImageCell(editorContext, node, new _FunctionTypes._return_P0_E0<String>() {
       public String invoke() {
         return SPropertyOperations.getString(node, "iconPath");
       }
@@ -336,7 +333,6 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition7369_0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
     IModule module = EditorUtil.findAnchorModule(node);
@@ -357,5 +353,4 @@ public class RunConfigurationTypeDeclaration_Editor extends DefaultNodeEditor {
   private static JComponent _QueryFunction_JComponent_7369_0(SNode node, EditorContext editorContext) {
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
-
 }

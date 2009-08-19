@@ -18,7 +18,6 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
-
   public static boolean baseMappingRule_Condition_1167336746563(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     _context.showErrorMessage(_context.getNode(), "trying to generate abstract BaseText");
     return true;
@@ -124,5 +123,4 @@ public class QueriesGenerated {
   public static Iterable sourceNodesQuery_1179113432111(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "attribute", true);
   }
-
 }

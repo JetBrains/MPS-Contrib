@@ -24,7 +24,6 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.style.Style;
 
 public class TypeExpressionList_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_3028_0(editorContext, node);
   }
@@ -35,8 +34,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createRefNodeList_3028_1(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createRefNodeList_3028_0(editorContext, node);
     }
     return editorCell;
@@ -58,13 +56,11 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition3028_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isVertical");
   }
 
   private static class typeExpressionListHandler_3028_0 extends RefNodeListHandler {
-
     public typeExpressionListHandler_3028_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -126,10 +122,9 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class typeExpressionListHandler_3028_1 extends RefNodeListHandler {
-
     public typeExpressionListHandler_3028_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -184,7 +179,5 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

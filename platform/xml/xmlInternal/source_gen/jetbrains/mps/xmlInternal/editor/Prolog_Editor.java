@@ -13,7 +13,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Prolog_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_7323_0(editorContext, node);
   }
@@ -41,5 +40,4 @@ public class Prolog_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

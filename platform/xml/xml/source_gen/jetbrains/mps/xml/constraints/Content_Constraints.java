@@ -4,9 +4,7 @@ package jetbrains.mps.xml.constraints;
 
 
 public class Content_Constraints {
-
   public static String getDefaultConcreteConceptFqName() {
     return "jetbrains.mps.xml.structure.Text";
   }
-
 }

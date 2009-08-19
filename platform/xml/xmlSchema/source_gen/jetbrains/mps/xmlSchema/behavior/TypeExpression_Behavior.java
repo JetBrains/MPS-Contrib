@@ -62,5 +62,4 @@ public class TypeExpression_Behavior {
   public static boolean callSuper_isMixed_1213877382388(SNode thisNode, String callerConceptFqName) {
     return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.TypeExpression"), callerConceptFqName, "virtual_isMixed_1213877382388", PARAMETERS_1213877382388);
   }
-
 }

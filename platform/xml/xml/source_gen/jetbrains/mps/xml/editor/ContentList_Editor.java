@@ -29,7 +29,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.FocusPolicy;
 
 public class ContentList_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_8357_0(editorContext, node);
   }
@@ -40,8 +39,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createAlternation_8357_2(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createAlternation_8357_1(editorContext, node);
     }
     return editorCell;
@@ -53,8 +51,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_8357_0(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createRefNodeList_8357_1(editorContext, node);
     }
     return editorCell;
@@ -66,8 +63,7 @@ public class ContentList_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createRefNodeList_8357_3(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createCollection_8357_2(editorContext, node);
     }
     return editorCell;
@@ -193,7 +189,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
     return result;
   }
 
-
   private static boolean renderingCondition8357_0(SNode node, EditorContext editorContext, IScope scope) {
     return ContentList_Behavior.call_isHorizontal_1221256530294(node);
   }
@@ -207,7 +202,6 @@ public class ContentList_Editor extends DefaultNodeEditor {
   }
 
   private static class contentListHandler_8357_0 extends RefNodeListHandler {
-
     public contentListHandler_8357_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -262,10 +256,9 @@ public class ContentList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class contentListHandler_8357_1 extends RefNodeListHandler {
-
     public contentListHandler_8357_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -320,10 +313,9 @@ public class ContentList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class contentListHandler_8357_2 extends RefNodeListHandler {
-
     public contentListHandler_8357_2(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -378,10 +370,9 @@ public class ContentList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class contentListHandler_8357_3 extends RefNodeListHandler {
-
     public contentListHandler_8357_3(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -439,7 +430,5 @@ public class ContentList_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

@@ -10,7 +10,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class MakeElementVertical_Intention extends BaseIntention {
-
   public MakeElementVertical_Intention() {
   }
 
@@ -52,5 +51,4 @@ public class MakeElementVertical_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.xml.intentions";
   }
-
 }

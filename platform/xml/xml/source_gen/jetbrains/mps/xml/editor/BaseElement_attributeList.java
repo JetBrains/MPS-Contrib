@@ -21,7 +21,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 
 public class BaseElement_attributeList extends AbstractCellProvider {
-
   public BaseElement_attributeList(SNode node) {
     super(node);
   }
@@ -54,7 +53,6 @@ public class BaseElement_attributeList extends AbstractCellProvider {
   }
 
   private static class attributeListHandler_0618_0 extends RefNodeListHandler {
-
     public attributeListHandler_0618_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -113,7 +111,5 @@ public class BaseElement_attributeList extends AbstractCellProvider {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

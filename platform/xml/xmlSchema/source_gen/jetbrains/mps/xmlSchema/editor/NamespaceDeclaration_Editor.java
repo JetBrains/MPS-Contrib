@@ -14,7 +14,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_0717_0(editorContext, node);
   }
@@ -94,5 +93,4 @@ public class NamespaceDeclaration_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

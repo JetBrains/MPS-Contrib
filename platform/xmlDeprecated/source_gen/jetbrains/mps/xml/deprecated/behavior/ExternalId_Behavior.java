@@ -20,5 +20,4 @@ public class ExternalId_Behavior {
   public static void callSuper_createID_1234406619968(SNode thisNode, String callerConceptFqName, DocType doctype) {
     BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.deprecated.structure.ExternalId"), callerConceptFqName, "virtual_createID_1234406619968", PARAMETERS_1234406619968, doctype);
   }
-
 }

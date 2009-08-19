@@ -9,7 +9,6 @@ import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class DocumentTypeDeclaration_TextGen extends SNodeTextGen {
-
   public void doGenerateText(SNode node) {
     this.append("<!DOCTYPE ");
     this.append(SPropertyOperations.getString(node, "name"));
@@ -17,5 +16,4 @@ public class DocumentTypeDeclaration_TextGen extends SNodeTextGen {
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "externalID", true), this.getSNode());
     this.append(">");
   }
-
 }

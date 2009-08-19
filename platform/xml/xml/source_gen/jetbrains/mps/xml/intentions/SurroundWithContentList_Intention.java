@@ -12,7 +12,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class SurroundWithContentList_Intention extends BaseIntention {
-
   public SurroundWithContentList_Intention() {
   }
 
@@ -55,7 +54,7 @@ public class SurroundWithContentList_Intention extends BaseIntention {
     }
     SNode first = ListSequence.fromList(selectedNodes).getElement(0);
     SNodeOperations.insertPrevSiblingChild(first, contentList);
-    for(SNode selectedNode : ListSequence.fromList(selectedNodes)) {
+    for (SNode selectedNode : ListSequence.fromList(selectedNodes)) {
       SLinkOperations.addChild(contentList, "content", SNodeOperations.cast(selectedNode, "jetbrains.mps.xml.structure.Content"));
     }
     SLinkOperations.addNewChild(contentList, "content", "jetbrains.mps.xml.structure.Content");
@@ -64,5 +63,4 @@ public class SurroundWithContentList_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.xml.intentions";
   }
-
 }

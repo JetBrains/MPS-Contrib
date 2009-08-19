@@ -29,7 +29,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Schema_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3461_0(editorContext, node);
   }
@@ -247,13 +246,11 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static JComponent _QueryFunction_JComponent_3461_0(SNode node, EditorContext editorContext) {
     return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "schemaUrl"));
   }
 
   private static class declarationBlockListHandler_3461_0 extends RefNodeListHandler {
-
     public declarationBlockListHandler_3461_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -293,7 +290,5 @@ public class Schema_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

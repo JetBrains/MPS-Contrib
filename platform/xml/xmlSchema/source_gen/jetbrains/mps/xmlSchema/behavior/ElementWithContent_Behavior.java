@@ -6,12 +6,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ElementWithContent_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static SNode virtual_getComplexType_1213877429806(SNode thisNode) {
     return SLinkOperations.getTarget(thisNode, "complexType", true);
   }
-
 }

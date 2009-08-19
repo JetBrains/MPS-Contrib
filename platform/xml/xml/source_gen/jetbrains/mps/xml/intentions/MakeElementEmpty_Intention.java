@@ -12,7 +12,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class MakeElementEmpty_Intention extends BaseIntention {
-
   public MakeElementEmpty_Intention() {
   }
 
@@ -57,5 +56,4 @@ public class MakeElementEmpty_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.xml.intentions";
   }
-
 }

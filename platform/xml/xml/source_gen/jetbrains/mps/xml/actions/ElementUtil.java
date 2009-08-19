@@ -18,7 +18,6 @@ import jetbrains.mps.xmlSchema.behavior.ElementDeclaration_Behavior;
 import java.util.ArrayList;
 
 public class ElementUtil {
-
   public static SNode getParentElementDeclaration(SNode node, IScope scope) {
     return getParentElementDeclaration(node, scope, true);
   }
@@ -57,8 +56,7 @@ public class ElementUtil {
       if (SNodeOperations.isInstanceOf(containingRoot, "jetbrains.mps.xml.structure.XmlRoot")) {
         schema = XmlRoot_Behavior.call_getSchema_1213877420378(SNodeOperations.cast(containingRoot, "jetbrains.mps.xml.structure.XmlRoot"), scope);
       }
-    } else
-    {
+    } else {
       schema = SNodeOperations.getAncestor(SLinkOperations.getTarget(element, "elementDeclaration", false), "jetbrains.mps.xmlSchema.structure.Schema", false, false);
     }
     return schema;
@@ -70,18 +68,15 @@ public class ElementUtil {
     if ((elementDeclaration == null)) {
       if ((schema != null) && SPropertyOperations.getBoolean(schema, "alwaysUseRoot")) {
         SetSequence.fromSet(elementDeclarationSet).addElement(SLinkOperations.getTarget(SLinkOperations.getTarget(schema, "rootElementReference", true), "elementDeclaration", false));
-      } else
-      {
+      } else {
         List<SNode> elementDeclarations = SModelOperations.getNodesIncludingImported(SNodeOperations.getModel(node), scope, "jetbrains.mps.xmlSchema.structure.ElementDeclaration");
         SetSequence.fromSet(elementDeclarationSet).addSequence(ListSequence.fromList(elementDeclarations));
       }
-    } else
-    {
+    } else {
       ElementDeclaration_Behavior.call_checkElements_ed_1213877429846(elementDeclaration, elementDeclarationSet);
     }
     List<SNode> elementDeclarations = new ArrayList<SNode>();
     ListSequence.fromList(elementDeclarations).addSequence(SetSequence.fromSet(elementDeclarationSet));
     return elementDeclarations;
   }
-
 }

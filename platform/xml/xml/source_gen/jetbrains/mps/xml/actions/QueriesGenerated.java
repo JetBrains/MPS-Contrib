@@ -28,7 +28,6 @@ import java.util.Iterator;
 import jetbrains.mps.util.Condition;
 
 public class QueriesGenerated {
-
   public static void nodeFactory_NodeSetup_ComplexText_1178622222481(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText")) {
       SLinkOperations.addChild(_context.getNewNode(), "text", SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText"));
@@ -54,7 +53,6 @@ public class QueriesGenerated {
       SNode childConcept = (SNode)_context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Calculable calc = new Calculable() {
-
           public Object calculate() {
             List<SNode> attributeDeclarations = new ArrayList<SNode>();
             SNode parentlementDeclaration = ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
@@ -66,9 +64,8 @@ public class QueriesGenerated {
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
         if (queryResult != null) {
-          for(final SNode item : queryResult) {
+          for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode attribute = SModelOperations.createNewNode(model, "jetbrains.mps.xml.structure.Attribute", _context.getCurrentTargetNode());
                 SLinkOperations.setTarget(attribute, "attributeDeclaration", (item), false);
@@ -97,7 +94,6 @@ public class QueriesGenerated {
     final boolean isMixed;
     {
       Calculable calc = new Calculable() {
-
         public Object calculate() {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
@@ -106,7 +102,6 @@ public class QueriesGenerated {
     }
     {
       Calculable calc = new Calculable() {
-
         public Object calculate() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
@@ -118,22 +113,19 @@ public class QueriesGenerated {
       SNode childConcept = (SNode)_context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Calculable calc = new Calculable() {
-
           public Object calculate() {
             return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode(), operationContext.getScope());
           }
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
         if (queryResult != null) {
-          for(final SNode item : queryResult) {
+          for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
                 SNode prototype;
                 if (SNodeOperations.isInstanceOf(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text") && pattern.equals(SPropertyOperations.getString(SNodeOperations.cast(_context.getCurrentTargetNode(), "jetbrains.mps.xml.structure.Text"), "text"))) {
                   prototype = null;
-                } else
-                {
+                } else {
                   prototype = _context.getCurrentTargetNode();
                 }
                 SNode element = SModelOperations.createNewNode(model, "jetbrains.mps.xml.structure.Element", prototype);
@@ -164,7 +156,6 @@ public class QueriesGenerated {
       SNode childConcept = (SNode)_context.getChildConcept();
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode text = SConceptOperations.createNewNode("jetbrains.mps.xml.structure.Text", _context.getCurrentTargetNode());
             if (pattern.length() > 0) {
@@ -206,7 +197,6 @@ public class QueriesGenerated {
     final boolean isMixed;
     {
       Calculable calc = new Calculable() {
-
         public Object calculate() {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
@@ -215,7 +205,6 @@ public class QueriesGenerated {
     }
     {
       Calculable calc = new Calculable() {
-
         public Object calculate() {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
@@ -228,7 +217,6 @@ public class QueriesGenerated {
       final SNode concept = current.getOutputConcept();
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Content");
       Condition cond = new Condition() {
-
         public boolean met(Object object) {
           return SConceptOperations.isExactly(_context.getChildConcept(), "jetbrains.mps.xml.structure.Content") && SConceptOperations.isSuperConceptOf(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.BaseText"), NameUtil.nodeFQName(concept)) && !(isMixed);
         }
@@ -238,5 +226,4 @@ public class QueriesGenerated {
       }
     }
   }
-
 }

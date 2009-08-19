@@ -5,8 +5,6 @@ package jetbrains.mps.xml.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class Element_Behavior {
-
   public static void init(SNode thisNode) {
   }
-
 }

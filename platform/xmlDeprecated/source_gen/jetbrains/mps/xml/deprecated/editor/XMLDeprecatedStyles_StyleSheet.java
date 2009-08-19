@@ -9,7 +9,6 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class XMLDeprecatedStyles_StyleSheet {
-
   public static Style getElement(final EditorCell cell) {
     Style style = new Style(cell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
@@ -37,5 +36,4 @@ public class XMLDeprecatedStyles_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
     return style;
   }
-
 }

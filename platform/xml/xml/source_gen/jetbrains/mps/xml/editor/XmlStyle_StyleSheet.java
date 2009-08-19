@@ -16,11 +16,9 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 
 public class XmlStyle_StyleSheet {
-
   public static Style getXmlElement(final EditorCell cell) {
     Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
       public Color calculate(EditorCell cell) {
         return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_1((cell == null ?
           null :
@@ -40,8 +38,7 @@ public class XmlStyle_StyleSheet {
     Style style = new Style(cell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
       public Color calculate(EditorCell cell) {
         return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_0((cell == null ?
           null :
@@ -57,8 +54,7 @@ public class XmlStyle_StyleSheet {
 
   public static Style getXmlEntity(final EditorCell cell) {
     Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
       public Color calculate(EditorCell cell) {
         return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_2((cell == null ?
           null :
@@ -85,8 +81,7 @@ public class XmlStyle_StyleSheet {
     Style style = new Style(cell);
     style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     style.set(StyleAttributes.LAST_POSITION_ALLOWED, false);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
       public Color calculate(EditorCell cell) {
         return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_3((cell == null ?
           null :
@@ -102,8 +97,7 @@ public class XmlStyle_StyleSheet {
 
   public static Style getXmlComplexText_End(final EditorCell cell) {
     Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
       public Color calculate(EditorCell cell) {
         return XmlStyle_StyleSheet._StyleParameter_QueryFunction_3718_4((cell == null ?
           null :
@@ -205,5 +199,4 @@ public class XmlStyle_StyleSheet {
   private static Color _StyleParameter_QueryFunction_3718_4(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
-
 }

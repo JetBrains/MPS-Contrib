@@ -7,7 +7,6 @@ import org.jdom.DocType;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class PublicId_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -15,5 +14,4 @@ public class PublicId_Behavior {
     doctype.setPublicID(SPropertyOperations.getString(thisNode, "publicID"));
     doctype.setSystemID(SPropertyOperations.getString(thisNode, "systemID"));
   }
-
 }

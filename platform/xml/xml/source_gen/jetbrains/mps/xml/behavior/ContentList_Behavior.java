@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperati
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ContentList_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -43,5 +42,4 @@ public class ContentList_Behavior {
     }
     return false;
   }
-
 }

@@ -15,7 +15,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class ReportErrorStatement_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_9503_0(editorContext, node);
   }
@@ -60,5 +59,4 @@ public class ReportErrorStatement_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

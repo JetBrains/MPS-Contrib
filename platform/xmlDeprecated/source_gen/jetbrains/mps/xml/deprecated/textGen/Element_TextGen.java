@@ -11,7 +11,6 @@ import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 
 public class Element_TextGen extends SNodeTextGen {
-
   public void doGenerateText(SNode node) {
     this.indentBuffer();
     this.append("<");
@@ -20,7 +19,7 @@ public class Element_TextGen extends SNodeTextGen {
       this.append(" ");
     }
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "attribute", true)).isNotEmpty()) {
-      for(SNode item : SLinkOperations.getTargets(node, "attribute", true)) {
+      for (SNode item : SLinkOperations.getTargets(node, "attribute", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
         if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "attribute", true)).last()) {
           this.append(" ");
@@ -38,7 +37,7 @@ public class Element_TextGen extends SNodeTextGen {
     }
     this.increaseDepth();
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "content", true)).isNotEmpty()) {
-      for(SNode item : SLinkOperations.getTargets(node, "content", true)) {
+      for (SNode item : SLinkOperations.getTargets(node, "content", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
@@ -51,5 +50,4 @@ public class Element_TextGen extends SNodeTextGen {
     this.append(">");
     this.appendNewLine();
   }
-
 }

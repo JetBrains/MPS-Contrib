@@ -21,7 +21,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class ElementWithContent_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3733_0(editorContext, node);
   }
@@ -90,8 +89,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-      style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+      style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
         public Color calculate(EditorCell cell) {
           return ElementWithContent_Editor._StyleParameter_QueryFunction_3733_0((cell == null ?
             null :
@@ -131,9 +129,7 @@ public class ElementWithContent_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static Color _StyleParameter_QueryFunction_3733_0(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
-
 }

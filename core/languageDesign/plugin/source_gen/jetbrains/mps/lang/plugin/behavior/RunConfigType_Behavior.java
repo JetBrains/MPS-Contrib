@@ -8,7 +8,6 @@ import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class RunConfigType_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -19,5 +18,4 @@ public class RunConfigType_Behavior {
   public static SNode virtual_getClassExpression_1213877337357(SNode thisNode) {
     return null;
   }
-
 }

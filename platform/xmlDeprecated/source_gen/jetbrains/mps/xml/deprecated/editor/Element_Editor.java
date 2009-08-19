@@ -28,7 +28,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Element_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3264_0(editorContext, node);
   }
@@ -190,7 +189,6 @@ public class Element_Editor extends DefaultNodeEditor {
   }
 
   private static class contentListHandler_3264_0 extends RefNodeListHandler {
-
     public contentListHandler_3264_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -245,10 +243,9 @@ public class Element_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("...");
       return editorCell;
     }
+  }
 
-}
   private static class attributeListHandler_3264_0 extends RefNodeListHandler {
-
     public attributeListHandler_3264_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -303,7 +300,5 @@ public class Element_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("...");
       return editorCell;
     }
-
-}
-
+  }
 }

@@ -41,7 +41,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3683_7(editorContext, node);
   }
@@ -52,8 +51,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_3683_5(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createConstant_3683_4(editorContext, node);
     }
     return editorCell;
@@ -312,8 +310,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createImage_3683_0(final EditorContext editorContext, final SNode node) {
     EditorCell_Image editorCell;
-    editorCell = EditorCell_Image.createImageCell(editorContext, node, new _FunctionTypes._return_P0_E0 <String>() {
-
+    editorCell = EditorCell_Image.createImageCell(editorContext, node, new _FunctionTypes._return_P0_E0<String>() {
       public String invoke() {
         return SPropertyOperations.getString(node, "iconPath");
       }
@@ -483,7 +480,6 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition3683_0(SNode node, EditorContext editorContext, IScope scope) {
     String path = null;
     IModule module = EditorUtil.findAnchorModule(node);
@@ -506,7 +502,6 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline3683_0 extends AbstractCellProvider {
-
     public _Inline3683_0() {
       super();
     }
@@ -537,10 +532,9 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   private static class propertyListHandler_3683_0 extends RefNodeListHandler {
-
     public propertyListHandler_3683_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -580,7 +574,5 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

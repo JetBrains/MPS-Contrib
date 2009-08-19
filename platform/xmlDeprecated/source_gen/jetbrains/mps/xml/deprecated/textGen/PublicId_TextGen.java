@@ -7,7 +7,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class PublicId_TextGen extends SNodeTextGen {
-
   public void doGenerateText(SNode node) {
     this.append("PUBLIC ");
     this.append("\"");
@@ -18,5 +17,4 @@ public class PublicId_TextGen extends SNodeTextGen {
     this.append(SPropertyOperations.getString(node, "systemID"));
     this.append("\"");
   }
-
 }

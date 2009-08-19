@@ -59,5 +59,4 @@ public enum useAttributeEnum {
     }
     return useAttributeEnum.getDefault();
   }
-
 }

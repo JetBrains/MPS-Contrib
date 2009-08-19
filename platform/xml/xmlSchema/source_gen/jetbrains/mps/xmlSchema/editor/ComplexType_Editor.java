@@ -18,7 +18,6 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class ComplexType_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_7234_0(editorContext, node);
   }
@@ -138,5 +137,4 @@ public class ComplexType_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

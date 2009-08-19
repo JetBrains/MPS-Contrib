@@ -9,7 +9,6 @@ import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class MakeContentListVertical_Intention extends BaseIntention {
-
   public MakeContentListVertical_Intention() {
   }
 
@@ -51,5 +50,4 @@ public class MakeContentListVertical_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.xml.intentions";
   }
-
 }

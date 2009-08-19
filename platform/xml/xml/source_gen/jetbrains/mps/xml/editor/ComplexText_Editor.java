@@ -18,7 +18,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class ComplexText_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_2529_0(editorContext, node);
   }
@@ -57,7 +56,6 @@ public class ComplexText_Editor extends DefaultNodeEditor {
   }
 
   private static class textListHandler_2529_0 extends RefNodeListHandler {
-
     public textListHandler_2529_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -97,7 +95,5 @@ public class ComplexText_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

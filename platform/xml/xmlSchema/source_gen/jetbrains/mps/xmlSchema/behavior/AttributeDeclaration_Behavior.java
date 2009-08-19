@@ -7,12 +7,10 @@ import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class AttributeDeclaration_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static void virtual_checkAttributes_1213877382373(SNode thisNode, List<SNode> attributeDeclarations) {
     ListSequence.fromList(attributeDeclarations).addElement(thisNode);
   }
-
 }

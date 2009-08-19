@@ -7,12 +7,10 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class XmlFile_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static SNode virtual_getSchema_1213877420378(SNode thisNode, IScope scope) {
     return SLinkOperations.getTarget(thisNode, "schema", false);
   }
-
 }

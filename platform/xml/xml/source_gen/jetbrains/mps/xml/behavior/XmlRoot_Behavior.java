@@ -20,5 +20,4 @@ public class XmlRoot_Behavior {
   public static SNode callSuper_getSchema_1213877420378(SNode thisNode, String callerConceptFqName, IScope scope) {
     return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.XmlRoot"), callerConceptFqName, "virtual_getSchema_1213877420378", PARAMETERS_1213877420378, scope);
   }
-
 }

@@ -73,5 +73,4 @@ public class ElementDeclaration_Behavior {
   public static SNode callSuper_getComplexType_1213877429806(SNode thisNode, String callerConceptFqName) {
     return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ElementDeclaration"), callerConceptFqName, "virtual_getComplexType_1213877429806", PARAMETERS_1213877429806);
   }
-
 }

@@ -5,7 +5,6 @@ package jetbrains.mps.xmlSchema.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class SimpleContent_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -16,5 +15,4 @@ public class SimpleContent_Behavior {
   public static boolean virtual_isMixed_1213877382388(SNode thisNode) {
     return true;
   }
-
 }

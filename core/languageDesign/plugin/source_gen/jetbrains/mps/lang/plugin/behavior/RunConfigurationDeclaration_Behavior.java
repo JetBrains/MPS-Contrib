@@ -9,7 +9,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.checkedName.PropertyReference;
 
 public class RunConfigurationDeclaration_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -36,5 +35,4 @@ public class RunConfigurationDeclaration_Behavior {
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
     return new _Quotations.QuotationClass_10().createNode(thisNode);
   }
-
 }

@@ -5,8 +5,6 @@ package jetbrains.mps.xmlSchema.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class GroupDeclaration_Behavior {
-
   public static void init(SNode thisNode) {
   }
-
 }

@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.JDOMUtil;
 
 public class Attribute_TextGen extends SNodeTextGen {
-
   public void doGenerateText(SNode node) {
     String value = (SPropertyOperations.getString(node, "value") == null ?
       "" :
@@ -19,5 +18,4 @@ public class Attribute_TextGen extends SNodeTextGen {
     this.append(value);
     this.append("\"");
   }
-
 }

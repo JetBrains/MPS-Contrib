@@ -8,7 +8,6 @@ import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class MakeElementNotEmpty_Intention extends BaseIntention {
-
   public MakeElementNotEmpty_Intention() {
   }
 
@@ -50,5 +49,4 @@ public class MakeElementNotEmpty_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.xml.intentions";
   }
-
 }

@@ -20,7 +20,6 @@ import jetbrains.mps.nodeEditor.style.AttributeCalculator;
 import java.awt.Color;
 
 public class ElementReference_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_9443_0(editorContext, node);
   }
@@ -55,7 +54,6 @@ public class ElementReference_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline9443_0 extends AbstractCellProvider {
-
     public _Inline9443_0() {
       super();
     }
@@ -79,8 +77,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
-        style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+        style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
           public Color calculate(EditorCell cell) {
             return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_9443_0((cell == null ?
               null :
@@ -103,11 +100,8 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       return editorCell;
     }
 
-
     private static Color _StyleParameter_QueryFunction_9443_0(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
-
-}
-
+  }
 }

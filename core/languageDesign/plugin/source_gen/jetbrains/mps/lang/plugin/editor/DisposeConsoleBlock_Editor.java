@@ -20,7 +20,6 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.nodeEditor.BlockCells;
 
 public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_2473_0(editorContext, node);
   }
@@ -115,7 +114,6 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition2473_0(SNode node, EditorContext editorContext, IScope scope) {
     return BlockCells.useBraces();
   }
@@ -123,5 +121,4 @@ public class DisposeConsoleBlock_Editor extends DefaultNodeEditor {
   private static boolean renderingCondition2473_1(SNode node, EditorContext editorContext, IScope scope) {
     return BlockCells.useBraces();
   }
-
 }

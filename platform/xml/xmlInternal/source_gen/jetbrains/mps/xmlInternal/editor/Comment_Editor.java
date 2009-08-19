@@ -25,7 +25,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Comment_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_3245_0(editorContext, node);
   }
@@ -36,8 +35,7 @@ public class Comment_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_3245_0(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createCollection_3245_1(editorContext, node);
     }
     return editorCell;
@@ -148,13 +146,11 @@ public class Comment_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition3245_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getCount(node, "text") <= 1;
   }
 
   private static class textListHandler_3245_0 extends RefNodeListHandler {
-
     public textListHandler_3245_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -205,10 +201,9 @@ public class Comment_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class textListHandler_3245_1 extends RefNodeListHandler {
-
     public textListHandler_3245_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -248,7 +243,5 @@ public class Comment_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

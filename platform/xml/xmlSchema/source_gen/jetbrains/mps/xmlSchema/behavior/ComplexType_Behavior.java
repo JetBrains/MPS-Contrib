@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.Set;
 
 public class ComplexType_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -31,5 +30,4 @@ public class ComplexType_Behavior {
     }
     return mixed;
   }
-
 }

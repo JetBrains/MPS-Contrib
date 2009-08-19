@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.Set;
 
 public class ComplexContent_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -27,5 +26,4 @@ public class ComplexContent_Behavior {
   public static boolean virtual_isMixed_1213877382388(SNode thisNode) {
     return ContentItem_Behavior.call_isMixed_1213877413548(SLinkOperations.getTarget(thisNode, "contentItem", true));
   }
-
 }

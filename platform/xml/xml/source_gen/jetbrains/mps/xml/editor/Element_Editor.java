@@ -23,7 +23,6 @@ import jetbrains.mps.xml.behavior.ContentList_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Element_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_3264_0(editorContext, node);
   }
@@ -34,8 +33,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_3264_5(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createAlternation_3264_1(editorContext, node);
     }
     return editorCell;
@@ -47,8 +45,7 @@ public class Element_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_3264_4(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createCollection_3264_0(editorContext, node);
     }
     return editorCell;
@@ -304,7 +301,6 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition3264_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isEmpty");
   }
@@ -312,5 +308,4 @@ public class Element_Editor extends DefaultNodeEditor {
   private static boolean renderingCondition3264_1(SNode node, EditorContext editorContext, IScope scope) {
     return ContentList_Behavior.call_isHorizontal_1221256530294(SLinkOperations.getTarget(node, "contentList", true));
   }
-
 }

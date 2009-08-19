@@ -12,11 +12,9 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 
 public class XmlSchema_StyleSheet {
-
   public static Style getXmlElement(final EditorCell cell) {
     Style style = new Style(cell);
-    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator <Color>() {
-
+    style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
       public Color calculate(EditorCell cell) {
         return XmlSchema_StyleSheet._StyleParameter_QueryFunction_9352_0((cell == null ?
           null :
@@ -34,5 +32,4 @@ public class XmlSchema_StyleSheet {
   private static Color _StyleParameter_QueryFunction_9352_0(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
-
 }

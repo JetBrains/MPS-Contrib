@@ -39,5 +39,4 @@ public class Content_Behavior {
   public static List<SNode> callSuper_getSubcontents_1213877224308(SNode thisNode, String callerConceptFqName) {
     return (List<SNode>)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xml.structure.Content"), callerConceptFqName, "virtual_getSubcontents_1213877224308", PARAMETERS_1213877224308);
   }
-
 }
