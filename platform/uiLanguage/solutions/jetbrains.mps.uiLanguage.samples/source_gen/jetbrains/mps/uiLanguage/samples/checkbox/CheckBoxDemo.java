@@ -18,7 +18,6 @@ import org.jdesktop.beansbinding.BeanProperty;
 import org.jdesktop.beansbinding.Bindings;
 
 public class CheckBoxDemo extends JFrame {
-
   public CheckBoxDemo myThis;
   private VBoxPanel myComponent0;
   private JLabel myComponent1;
@@ -27,7 +26,6 @@ public class CheckBoxDemo extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
 
     public void initialize() {
     }
@@ -71,7 +69,7 @@ public class CheckBoxDemo extends JFrame {
   }
 
   private void unbind() {
-    for(AutoBinding binding : this.myBindings) {
+    for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
         binding.unbind();
       }
@@ -98,5 +96,4 @@ public class CheckBoxDemo extends JFrame {
     component.setText("Check me");
     return component;
   }
-
 }

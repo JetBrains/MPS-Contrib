@@ -24,7 +24,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class DialogDemo extends JDialog {
-
   public DialogDemo myThis;
   private JPanel myComponent0;
   private JLabel myComponent1;
@@ -44,7 +43,6 @@ public class DialogDemo extends JDialog {
   private Events myEvents = new Events(null) {
     {
     }
-
 
     public void initialize() {
     }
@@ -95,7 +93,7 @@ public class DialogDemo extends JDialog {
   }
 
   private void unbind() {
-    for(AutoBinding binding : this.myBindings) {
+    for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
         binding.unbind();
       }
@@ -106,8 +104,7 @@ public class DialogDemo extends JDialog {
     JPanel component = new JPanel();
     this.myComponent0 = component;
     component.setLayout(new GridBagLayout());
-    component.add(this.createComponent1(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent1(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -116,8 +113,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent2(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent2(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -126,8 +122,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent3(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent3(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -137,8 +132,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent4(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent4(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -148,8 +142,7 @@ public class DialogDemo extends JDialog {
         return c;
       }
     }.value());
-    component.add(this.createComponent5(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent5(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -232,7 +225,6 @@ public class DialogDemo extends JDialog {
     this.myComponent10 = component;
     component.setText("OK");
     component.addActionListener(new ActionListener() {
-
       public void actionPerformed(ActionEvent event) {
         myThis.onOk();
       }
@@ -245,7 +237,6 @@ public class DialogDemo extends JDialog {
     this.myComponent11 = component;
     component.setText("Cancel");
     component.addActionListener(new ActionListener() {
-
       public void actionPerformed(ActionEvent event) {
         myThis.onCancel();
       }
@@ -273,13 +264,12 @@ public class DialogDemo extends JDialog {
     this.firePropertyChange("lastName", oldValue, newValue);
   }
 
-  /* package */void onOk() {
+  /*package*/ void onOk() {
     myThis.dispose();
   }
 
-  /* package */void onCancel() {
+  /*package*/ void onCancel() {
     System.out.println("Cancel");
     myThis.dispose();
   }
-
 }

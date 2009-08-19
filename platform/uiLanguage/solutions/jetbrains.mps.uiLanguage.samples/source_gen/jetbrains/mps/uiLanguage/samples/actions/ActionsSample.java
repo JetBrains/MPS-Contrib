@@ -17,7 +17,6 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
 public class ActionsSample extends JFrame {
-
   public ActionsSample myThis;
   private VBoxPanel myComponent0;
   private JLabel myLabel0;
@@ -26,7 +25,6 @@ public class ActionsSample extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
 
     public void initialize() {
     }
@@ -62,7 +60,7 @@ public class ActionsSample extends JFrame {
   }
 
   private void unbind() {
-    for(AutoBinding binding : this.myBindings) {
+    for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
         binding.unbind();
       }
@@ -88,7 +86,6 @@ public class ActionsSample extends JFrame {
     JButton component = new JButton();
     this.myComponent1 = component;
     component.addActionListener(new ActionListener() {
-
       public void actionPerformed(ActionEvent event) {
         myThis.myLabel0.setText("Preved");
       }
@@ -97,9 +94,8 @@ public class ActionsSample extends JFrame {
     return component;
   }
 
-  /* package */void abc() {
+  /*package*/ void abc() {
     int abcdefI = 239 + 23;
     int i = 23 + 23 - 23 * (abcdefI + 23 * 100);
   }
-
 }

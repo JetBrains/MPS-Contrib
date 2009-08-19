@@ -12,14 +12,12 @@ import jetbrains.mps.uiLanguage.runtime.events.Events;
 import java.awt.Dimension;
 
 public class SimpleFrame extends JFrame {
-
   public SimpleFrame myThis;
   private JCheckBox myComponent0;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
     }
-
 
     public void initialize() {
     }
@@ -56,7 +54,7 @@ public class SimpleFrame extends JFrame {
   }
 
   private void unbind() {
-    for(AutoBinding binding : this.myBindings) {
+    for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
         binding.unbind();
       }
@@ -69,12 +67,11 @@ public class SimpleFrame extends JFrame {
     return component;
   }
 
-  /* package */void anotherSimpleMethod(int a, int b) {
+  /*package*/ void anotherSimpleMethod(int a, int b) {
   }
 
-  /* package */void simpleMethod() {
+  /*package*/ void simpleMethod() {
     myThis.anotherSimpleMethod(2, 3);
     myThis.anotherSimpleMethod(3, 2);
   }
-
 }

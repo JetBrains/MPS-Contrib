@@ -17,7 +17,6 @@ import jetbrains.mps.uiLanguage.runtime.ValueWrapper;
 import java.awt.GridBagConstraints;
 
 public class FormDemo extends JFrame {
-
   public FormDemo myThis;
   private JPanel myComponent0;
   private JLabel myComponent1;
@@ -29,7 +28,6 @@ public class FormDemo extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
 
     public void initialize() {
     }
@@ -63,7 +61,7 @@ public class FormDemo extends JFrame {
   }
 
   private void unbind() {
-    for(AutoBinding binding : this.myBindings) {
+    for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
         binding.unbind();
       }
@@ -74,8 +72,7 @@ public class FormDemo extends JFrame {
     JPanel component = new JPanel();
     this.myComponent0 = component;
     component.setLayout(new GridBagLayout());
-    component.add(this.createComponent1(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent1(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -84,8 +81,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent2(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent2(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -94,8 +90,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent3(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent3(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -105,8 +100,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent4(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent4(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -116,8 +110,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent5(), new ValueWrapper <GridBagConstraints>() {
-
+    component.add(this.createComponent5(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -163,5 +156,4 @@ public class FormDemo extends JFrame {
     this.myComponent5 = component;
     return component;
   }
-
 }

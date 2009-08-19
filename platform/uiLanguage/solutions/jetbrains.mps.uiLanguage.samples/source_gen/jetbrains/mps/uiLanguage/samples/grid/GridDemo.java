@@ -14,7 +14,6 @@ import java.awt.Dimension;
 import java.awt.GridLayout;
 
 public class GridDemo extends JFrame {
-
   public GridDemo myThis;
   private JPanel myComponent0;
   private JLabel myComponent1;
@@ -27,7 +26,6 @@ public class GridDemo extends JFrame {
   private Events myEvents = new Events(null) {
     {
     }
-
 
     public void initialize() {
     }
@@ -61,7 +59,7 @@ public class GridDemo extends JFrame {
   }
 
   private void unbind() {
-    for(AutoBinding binding : this.myBindings) {
+    for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
         binding.unbind();
       }
@@ -121,5 +119,4 @@ public class GridDemo extends JFrame {
     component.setText("2,3");
     return component;
   }
-
 }

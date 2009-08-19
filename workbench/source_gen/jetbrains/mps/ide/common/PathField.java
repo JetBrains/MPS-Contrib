@@ -21,7 +21,6 @@ import jetbrains.mps.vfs.FileSystemFile;
 import jetbrains.mps.vfs.IFile;
 
 public class PathField extends JPanel {
-
   public PathField myThis;
   private JTextField myPathField0;
   private JButton myButton0;
@@ -31,7 +30,6 @@ public class PathField extends JPanel {
   private Events myEvents = new Events(null) {
     {
     }
-
 
     public void initialize() {
     }
@@ -74,7 +72,7 @@ public class PathField extends JPanel {
   }
 
   private void unbind() {
-    for(AutoBinding binding : this.myBindings) {
+    for (AutoBinding binding : this.myBindings) {
       if (binding.isBound()) {
         binding.unbind();
       }
@@ -93,7 +91,6 @@ public class PathField extends JPanel {
     this.myButton0 = component;
     component.setText("...");
     component.addActionListener(new ActionListener() {
-
       public void actionPerformed(ActionEvent event) {
         myThis.choosePathClicked();
       }
@@ -121,7 +118,7 @@ public class PathField extends JPanel {
     this.firePropertyChange("mode", oldValue, newValue);
   }
 
-  /* package */void choosePathClicked() {
+  /*package*/ void choosePathClicked() {
     String oldPath = myThis.myPathField0.getText();
     TreeFileChooser chooser = new TreeFileChooser();
     chooser.setMode(myThis.getMode());
@@ -138,5 +135,4 @@ public class PathField extends JPanel {
     myThis.myPathField0.setEnabled(enabled);
     myThis.myButton0.setEnabled(enabled);
   }
-
 }
