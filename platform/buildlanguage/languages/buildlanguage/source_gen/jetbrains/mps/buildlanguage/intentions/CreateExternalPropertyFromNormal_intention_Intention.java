@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class CreateExternalPropertyFromNormal_intention_Intention extends BaseIntention {
-
   public CreateExternalPropertyFromNormal_intention_Intention() {
   }
 
@@ -56,5 +55,4 @@ public class CreateExternalPropertyFromNormal_intention_Intention extends BaseIn
   public String getLocationString() {
     return "jetbrains.mps.buildlanguage.intentions";
   }
-
 }

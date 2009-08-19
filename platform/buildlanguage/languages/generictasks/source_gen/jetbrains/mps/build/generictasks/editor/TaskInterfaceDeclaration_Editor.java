@@ -29,7 +29,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_0922_0(editorContext, node);
   }
@@ -159,13 +158,11 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition0922_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getCount(node, "interfaces") > 0;
   }
 
   private static class interfacesListHandler_0922_0 extends RefNodeListHandler {
-
     public interfacesListHandler_0922_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -224,10 +221,9 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class interfacesListHandler_0922_1 extends RefNodeListHandler {
-
     public interfacesListHandler_0922_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -286,7 +282,5 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

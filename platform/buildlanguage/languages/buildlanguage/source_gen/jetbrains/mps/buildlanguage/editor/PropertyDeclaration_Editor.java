@@ -25,7 +25,6 @@ import jetbrains.mps.lang.editor.generator.internal.AbstractCellMenuPart_Generic
 import jetbrains.mps.smodel.SModel;
 
 public class PropertyDeclaration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_5641_0(editorContext, node);
   }
@@ -179,13 +178,11 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition5641_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getString(node, "shortDescription") != null;
   }
 
   public static class PropertyDeclaration_generic_cellMenu0 extends AbstractCellMenuPart_Generic_Item {
-
     public PropertyDeclaration_generic_cellMenu0() {
     }
 
@@ -196,7 +193,5 @@ public class PropertyDeclaration_Editor extends DefaultNodeEditor {
     public String getMatchingText() {
       return "//";
     }
-
-}
-
+  }
 }

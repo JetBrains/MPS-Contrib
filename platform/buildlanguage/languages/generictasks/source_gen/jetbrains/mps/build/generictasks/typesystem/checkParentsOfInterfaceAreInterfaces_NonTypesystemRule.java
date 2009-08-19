@@ -16,12 +16,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
-
   public checkParentsOfInterfaceAreInterfaces_NonTypesystemRule() {
   }
 
   public void applyRule(final SNode genericInterfaceDeclaration, final TypeCheckingContext typeCheckingContext) {
-    for(SNode parent : ListSequence.fromList(SLinkOperations.getTargets(genericInterfaceDeclaration, "parents", true))) {
+    for (SNode parent : ListSequence.fromList(SLinkOperations.getTargets(genericInterfaceDeclaration, "parents", true))) {
       if (!(SNodeOperations.isInstanceOf(SLinkOperations.getTarget(parent, "declaration", false), "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration"))) {
         {
           BaseIntentionProvider intentionProvider = null;
@@ -43,5 +42,4 @@ public class checkParentsOfInterfaceAreInterfaces_NonTypesystemRule extends Abst
   public boolean overrides() {
     return false;
   }
-
 }

@@ -20,7 +20,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class Attribute_EditorComponent extends AbstractCellProvider {
-
   public Attribute_EditorComponent(SNode node) {
     super(node);
   }
@@ -109,7 +108,6 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     return editorCell;
   }
 
-
   private static boolean renderingCondition4307_0(SNode node, EditorContext editorContext, IScope scope) {
     return !(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false)));
   }
@@ -119,7 +117,6 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
   }
 
   public static class _Inline4307_0 extends AbstractCellProvider {
-
     public _Inline4307_0() {
       super();
     }
@@ -151,10 +148,9 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline4307_1 extends AbstractCellProvider {
-
     public _Inline4307_1() {
       super();
     }
@@ -185,7 +181,5 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

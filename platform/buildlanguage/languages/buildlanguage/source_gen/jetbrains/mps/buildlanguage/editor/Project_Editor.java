@@ -28,7 +28,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Project_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_5773_0(editorContext, node);
   }
@@ -383,7 +382,6 @@ public class Project_Editor extends DefaultNodeEditor {
   }
 
   private static class targetListHandler_5773_0 extends RefNodeListHandler {
-
     public targetListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -435,10 +433,9 @@ public class Project_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class propertyListHandler_5773_0 extends RefNodeListHandler {
-
     public propertyListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -490,10 +487,9 @@ public class Project_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class pathsListHandler_5773_0 extends RefNodeListHandler {
-
     public pathsListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -545,10 +541,9 @@ public class Project_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class importPropertiesListHandler_5773_0 extends RefNodeListHandler {
-
     public importPropertiesListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -600,10 +595,9 @@ public class Project_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class importProjectListHandler_5773_0 extends RefNodeListHandler {
-
     public importProjectListHandler_5773_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -655,7 +649,5 @@ public class Project_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

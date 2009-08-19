@@ -7,7 +7,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class PlusOperation_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -15,15 +14,13 @@ public class PlusOperation_Behavior {
     String left;
     if ((SLinkOperations.getTarget(thisNode, "left", true) == null)) {
       left = "";
-    } else
-    {
+    } else {
       left = PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(thisNode, "left", true));
     }
     String right;
     if ((SLinkOperations.getTarget(thisNode, "right", true) == null)) {
       right = "";
-    } else
-    {
+    } else {
       right = PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(thisNode, "right", true));
     }
     return left + right;
@@ -37,18 +34,15 @@ public class PlusOperation_Behavior {
     String left;
     if ((SLinkOperations.getTarget(thisNode, "left", true) == null)) {
       left = "";
-    } else
-    {
+    } else {
       left = PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "left", true));
     }
     String right;
     if ((SLinkOperations.getTarget(thisNode, "right", true) == null)) {
       right = "";
-    } else
-    {
+    } else {
       right = PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "right", true));
     }
     return left + right;
   }
-
 }

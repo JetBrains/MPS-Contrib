@@ -9,7 +9,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperati
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class AddComment_intention_Intention extends BaseIntention {
-
   public AddComment_intention_Intention() {
   }
 
@@ -57,5 +56,4 @@ public class AddComment_intention_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.buildlanguage.intentions";
   }
-
 }

@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class TargetReferencePropertyValueExpression_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -30,5 +29,4 @@ public class TargetReferencePropertyValueExpression_Behavior {
   public static String virtual_getProjectFileName_1230222765831(SNode thisNode) {
     return SPropertyOperations.getString(SNodeOperations.getAncestor(SLinkOperations.getTarget(thisNode, "declaration", false), "jetbrains.mps.buildlanguage.structure.Project", false, true), "name") + ".xml";
   }
-
 }

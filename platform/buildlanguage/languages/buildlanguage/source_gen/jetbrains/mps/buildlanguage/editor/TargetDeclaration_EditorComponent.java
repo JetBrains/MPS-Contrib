@@ -23,7 +23,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
-
   public TargetDeclaration_EditorComponent(SNode node) {
     super(node);
   }
@@ -80,13 +79,11 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     return editorCell;
   }
 
-
   private static boolean renderingCondition8362_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
   }
 
   private static class dependsListHandler_8362_0 extends RefNodeListHandler {
-
     public dependsListHandler_8362_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -133,7 +130,5 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
         return editorCell;
       }
     }
-
-}
-
+  }
 }

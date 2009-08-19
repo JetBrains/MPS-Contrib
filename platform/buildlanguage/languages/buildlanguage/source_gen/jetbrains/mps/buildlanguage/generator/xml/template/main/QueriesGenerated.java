@@ -30,7 +30,6 @@ import java.util.HashSet;
 import java.util.Comparator;
 
 public class QueriesGenerated {
-
   public static boolean baseMappingRule_Condition_1224769157301(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.buildlanguage.structure.Project", false, true) != null);
   }
@@ -142,8 +141,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1197043380401(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "property", true)).where(new IWhereFilter <SNode>() {
-
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "property", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return !(SNodeOperations.isInstanceOf(it, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"));
       }
@@ -164,15 +162,13 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1219152731276(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     List<SNode> references = SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.PropertyReference", false, new String[]{});
-    Iterable<SNode> externalReferences = ListSequence.fromList(references).where(new IWhereFilter <SNode>() {
-
+    Iterable<SNode> externalReferences = ListSequence.fromList(references).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         SNode propertyDeclaration = SLinkOperations.getTarget(it, "propertyDeclaration", false);
         return SNodeOperations.isInstanceOf(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration") && !(ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "propertyList", true)).contains(propertyDeclaration)) && !(SPropertyOperations.getBoolean(SNodeOperations.cast(propertyDeclaration, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration"), "checkOnStart"));
       }
     });
-    Iterable<SNode> decls = Sequence.fromIterable(externalReferences).select(new ISelector <SNode, SNode>() {
-
+    Iterable<SNode> decls = Sequence.fromIterable(externalReferences).select(new ISelector<SNode, SNode>() {
       public SNode select(SNode it) {
         return SLinkOperations.getTarget(it, "propertyDeclaration", false);
       }
@@ -181,8 +177,7 @@ public class QueriesGenerated {
   }
 
   public static Iterable sourceNodesQuery_1219774083522(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "property", true)).where(new IWhereFilter <SNode>() {
-
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "property", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(it, "jetbrains.mps.buildlanguage.structure.ExternalPropertyDeclaration");
       }
@@ -199,23 +194,20 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1230222691427(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     final Set<String> existing = SetSequence.fromSet(new HashSet<String>());
-    for(SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false, new String[]{}))) {
+    for (SNode importProject : ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ImportProject", false, new String[]{}))) {
       SetSequence.fromSet(existing).addElement(SPropertyOperations.getString(SLinkOperations.getTarget(importProject, "project", false), "name"));
     }
-    Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false, new String[]{})).where(new IWhereFilter <SNode>() {
-
+    Iterable<SNode> projects = ListSequence.fromList(SNodeOperations.getDescendants(_context.getNode(), "jetbrains.mps.buildlanguage.structure.ITargetReference", false, new String[]{})).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         boolean b = !(SetSequence.fromSet(existing).contains(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it)));
         SetSequence.fromSet(existing).addElement(ITargetReference_Behavior.call_getProjectFileName_1230222765831(it));
         return b;
       }
     });
-    return Sequence.fromIterable(projects).sort(new Comparator <SNode>() {
-
+    return Sequence.fromIterable(projects).sort(new Comparator<SNode>() {
       public int compare(SNode a, SNode b) {
         return ITargetReference_Behavior.call_getProjectFileName_1230222765831(a).compareToIgnoreCase(ITargetReference_Behavior.call_getProjectFileName_1230222765831(b));
       }
     }, true);
   }
-
 }

@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.util.NameUtil;
 
 public class Util {
-
   public static boolean checkNodeType(SNode parentNode, SNode type) {
     if (SNodeOperations.isInstanceOf(parentNode, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration")) {
       return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(parentNode, "jetbrains.mps.buildlanguage.structure.PropertyDeclaration"), "type", true), NameUtil.nodeFQName(type));
@@ -21,5 +20,4 @@ public class Util {
     }
     return false;
   }
-
 }

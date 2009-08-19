@@ -19,5 +19,4 @@ public class ITargetReference_Behavior {
   public static String callSuper_getProjectFileName_1230222765831(SNode thisNode, String callerConceptFqName) {
     return (String)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ITargetReference"), callerConceptFqName, "virtual_getProjectFileName_1230222765831", PARAMETERS_1230222765831);
   }
-
 }

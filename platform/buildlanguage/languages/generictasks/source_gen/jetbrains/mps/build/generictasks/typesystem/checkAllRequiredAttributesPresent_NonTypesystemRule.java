@@ -17,15 +17,14 @@ import jetbrains.mps.typesystem.inference.NodeErrorTarget;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class checkAllRequiredAttributesPresent_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
-
   public checkAllRequiredAttributesPresent_NonTypesystemRule() {
   }
 
   public void applyRule(final SNode genericTaskCall, final TypeCheckingContext typeCheckingContext) {
-    for(SNode attrDecl : ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
+    for (SNode attrDecl : ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(genericTaskCall, "declaration", false)))) {
       if (AttributeDeclaration_Behavior.call_isRequired_353793545802643811(attrDecl)) {
         boolean found = false;
-        for(SNode attr : ListSequence.fromList(SLinkOperations.getTargets(genericTaskCall, "atributes", true))) {
+        for (SNode attr : ListSequence.fromList(SLinkOperations.getTargets(genericTaskCall, "atributes", true))) {
           if (SPropertyOperations.getString(SLinkOperations.getTarget(attr, "attributeDeclaration", false), "name").equals(SPropertyOperations.getString(attrDecl, "name"))) {
             if ((SLinkOperations.getTarget(attr, "value", true) != null)) {
               found = true;
@@ -56,5 +55,4 @@ public class checkAllRequiredAttributesPresent_NonTypesystemRule extends Abstrac
   public boolean overrides() {
     return false;
   }
-
 }

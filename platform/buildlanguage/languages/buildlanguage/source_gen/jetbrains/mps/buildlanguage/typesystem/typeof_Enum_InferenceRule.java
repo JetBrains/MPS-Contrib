@@ -12,12 +12,11 @@ import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_Enum_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
-
   public typeof_Enum_InferenceRule() {
   }
 
   public void applyRule(final SNode nodeToCheck, final TypeCheckingContext typeCheckingContext) {
-    for(SNode element : ListSequence.fromList(SLinkOperations.getTargets(nodeToCheck, "constants", true))) {
+    for (SNode element : ListSequence.fromList(SLinkOperations.getTargets(nodeToCheck, "constants", true))) {
       {
         SNode _nodeToCheck_1029348928467 = element;
         BaseIntentionProvider intentionProvider = null;
@@ -37,5 +36,4 @@ public class typeof_Enum_InferenceRule extends AbstractInferenceRule_Runtime imp
   public boolean overrides() {
     return false;
   }
-
 }

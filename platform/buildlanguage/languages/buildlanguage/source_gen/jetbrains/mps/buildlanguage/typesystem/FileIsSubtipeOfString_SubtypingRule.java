@@ -9,7 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
-
   public FileIsSubtipeOfString_SubtypingRule() {
   }
 
@@ -28,5 +27,4 @@ public class FileIsSubtipeOfString_SubtypingRule extends SubtypingRule_Runtime i
   public boolean isWeak() {
     return false;
   }
-
 }

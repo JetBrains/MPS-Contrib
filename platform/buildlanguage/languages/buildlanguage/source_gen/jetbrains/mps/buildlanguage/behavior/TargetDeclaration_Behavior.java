@@ -9,7 +9,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 
 public class TargetDeclaration_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -18,7 +17,7 @@ public class TargetDeclaration_Behavior {
       return "";
     }
     StringBuffer buffer = new StringBuffer();
-    for(int i = 0 ; i < SLinkOperations.getCount(thisNode, "depends") ; i++ ) {
+    for (int i = 0 ; i < SLinkOperations.getCount(thisNode, "depends") ; i++ ) {
       buffer.append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).getElement(i), "targetDeclaration", false), "name"));
       if (i < SLinkOperations.getCount(thisNode, "depends") - 1) {
         buffer.append(",");
@@ -30,5 +29,4 @@ public class TargetDeclaration_Behavior {
   public static List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
     return SLinkOperations.getTargets(thisNode, "propertyList", true);
   }
-
 }

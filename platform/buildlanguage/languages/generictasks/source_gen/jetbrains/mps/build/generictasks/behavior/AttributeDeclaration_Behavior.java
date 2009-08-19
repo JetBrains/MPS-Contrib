@@ -6,7 +6,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class AttributeDeclaration_Behavior {
-
   public static void init(SNode thisNode) {
     SPropertyOperations.set(thisNode, "deprecated", "" + (false));
     SPropertyOperations.set(thisNode, "required", "" + (false));
@@ -23,5 +22,4 @@ public class AttributeDeclaration_Behavior {
   public static boolean call_equals_353793545802643827(SNode thisNode, SNode decl) {
     return SPropertyOperations.getString(thisNode, "name").equals(SPropertyOperations.getString(decl, "name"));
   }
-
 }

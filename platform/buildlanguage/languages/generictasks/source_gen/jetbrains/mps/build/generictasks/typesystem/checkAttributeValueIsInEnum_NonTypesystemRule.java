@@ -15,7 +15,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class checkAttributeValueIsInEnum_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
-
   public checkAttributeValueIsInEnum_NonTypesystemRule() {
   }
 
@@ -42,5 +41,4 @@ public class checkAttributeValueIsInEnum_NonTypesystemRule extends AbstractNonTy
   public boolean overrides() {
     return false;
   }
-
 }

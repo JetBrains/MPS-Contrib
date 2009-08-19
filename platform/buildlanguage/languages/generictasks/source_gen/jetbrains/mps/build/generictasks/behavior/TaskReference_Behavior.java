@@ -5,8 +5,6 @@ package jetbrains.mps.build.generictasks.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class TaskReference_Behavior {
-
   public static void init(SNode thisNode) {
   }
-
 }

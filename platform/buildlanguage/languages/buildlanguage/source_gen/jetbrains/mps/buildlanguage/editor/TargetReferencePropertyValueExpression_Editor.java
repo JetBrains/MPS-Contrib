@@ -16,7 +16,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
 public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createProperty_4210_0(editorContext, node);
   }
@@ -77,7 +76,6 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
   }
 
   public static class _Inline4210_0 extends AbstractCellProvider {
-
     public _Inline4210_0() {
       super();
     }
@@ -108,7 +106,5 @@ public class TargetReferencePropertyValueExpression_Editor extends DefaultNodeEd
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

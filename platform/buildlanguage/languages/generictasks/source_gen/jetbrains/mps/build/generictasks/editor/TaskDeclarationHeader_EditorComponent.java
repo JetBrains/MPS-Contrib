@@ -32,7 +32,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider {
-
   public TaskDeclarationHeader_EditorComponent(SNode node) {
     super(node);
   }
@@ -269,7 +268,6 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
     return editorCell;
   }
 
-
   private static boolean renderingCondition1965_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "canHaveInternalText");
   }
@@ -291,7 +289,6 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private static class interfacesListHandler_1965_0 extends RefNodeListHandler {
-
     public interfacesListHandler_1965_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -350,7 +347,5 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

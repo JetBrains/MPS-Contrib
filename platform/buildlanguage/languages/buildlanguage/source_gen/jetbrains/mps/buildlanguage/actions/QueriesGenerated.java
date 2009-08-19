@@ -24,7 +24,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class QueriesGenerated {
-
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_1201708668619(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     return Util.checkNodeType(_context.getParentNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType"));
   }
@@ -44,7 +43,6 @@ public class QueriesGenerated {
       SNode childConcept = (SNode)_context.getChildConcept();
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
             SPropertyOperations.set(result, "value", "" + (true));
@@ -70,7 +68,6 @@ public class QueriesGenerated {
       SNode childConcept = (SNode)_context.getChildConcept();
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode result = SModelOperations.createNewNode(model, "jetbrains.mps.buildlanguage.structure.BooleanLiteral", null);
             SPropertyOperations.set(result, "value", "" + (false));
@@ -101,7 +98,6 @@ public class QueriesGenerated {
       SNode childConcept = (SNode)_context.getChildConcept();
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
             SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.IntLiteral", null);
             SPropertyOperations.set(newNode, "value", "" + (Integer.parseInt(pattern)));
@@ -154,7 +150,6 @@ public class QueriesGenerated {
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-
         public SNode doSubstitute(String pattern) {
           SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
           SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
@@ -183,7 +178,6 @@ public class QueriesGenerated {
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.ICommented");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-
         public SNode doSubstitute(String pattern) {
           SPropertyOperations.set(_context.getSourceNode(), "shortDescription", "");
           return _context.getSourceNode();
@@ -210,7 +204,6 @@ public class QueriesGenerated {
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.PlusOperation");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-
         public SNode doSubstitute(String pattern) {
           SNode newNode = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.PlusOperation", null);
           SNodeOperations.replaceWithAnother(_context.getSourceNode(), newNode);
@@ -233,5 +226,4 @@ public class QueriesGenerated {
     }
     return result;
   }
-
 }

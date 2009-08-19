@@ -12,7 +12,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
 
 public class PathReference_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -35,7 +34,7 @@ public class PathReference_Behavior {
       if (path != null) {
         ListSequence.fromList(list).addElement(path);
       }
-      for(SNode nested : ListSequence.fromList(SLinkOperations.getTargets(call, "nested", true))) {
+      for (SNode nested : ListSequence.fromList(SLinkOperations.getTargets(call, "nested", true))) {
         if (SNodeOperations.isInstanceOf(nested, "jetbrains.mps.build.generictasks.structure.TaskCall")) {
           SNode ngeneric = SNodeOperations.cast(nested, "jetbrains.mps.build.generictasks.structure.TaskCall");
           if ((SLinkOperations.getTarget(ngeneric, "declaration", false) != null) && SPropertyOperations.getString(SLinkOperations.getTarget(ngeneric, "declaration", false), "name").equals("path")) {
@@ -50,5 +49,4 @@ public class PathReference_Behavior {
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return PropertyValueExpression_Behavior.call_toString_1213877472569(thisNode);
   }
-
 }

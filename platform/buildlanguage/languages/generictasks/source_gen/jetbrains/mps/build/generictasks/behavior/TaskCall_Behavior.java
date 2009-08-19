@@ -12,14 +12,13 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class TaskCall_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static String call_getAttributeValue_353793545802643859(SNode thisNode, String name) {
     SNode node = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeDeclaration", null);
     SPropertyOperations.set(node, "name", name);
-    for(SNode attr : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
+    for (SNode attr : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
       if (Attribute_Behavior.call_isOfDeclaration_353793545802643786(attr, node)) {
         if ((SLinkOperations.getTarget(attr, "value", true) != null)) {
           return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(attr, "value", true));
@@ -34,7 +33,7 @@ public class TaskCall_Behavior {
   }
 
   public static boolean call_isAttributeDefined_353793545802643915(SNode thisNode, SNode attrDecl) {
-    for(SNode attribute : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
+    for (SNode attribute : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "atributes", true))) {
       if ((SLinkOperations.getTarget(attribute, "attributeDeclaration", false) != null) && Attribute_Behavior.call_isOfDeclaration_353793545802643786(attribute, attrDecl)) {
         return true;
       }
@@ -44,7 +43,7 @@ public class TaskCall_Behavior {
 
   public static List<SNode> call_getUndefinedAttributes_353793545802643943(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    for(SNode attrDecl : ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(thisNode, "declaration", false)))) {
+    for (SNode attrDecl : ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(thisNode, "declaration", false)))) {
       if (!(TaskCall_Behavior.call_isAttributeDefined_353793545802643915(thisNode, attrDecl))) {
         ListSequence.fromList(result).addElement(attrDecl);
       }
@@ -59,5 +58,4 @@ public class TaskCall_Behavior {
   public static boolean call_isDeprecated_353793545802644052(SNode thisNode) {
     return (SLinkOperations.getTarget(thisNode, "declaration", false) != null) && SPropertyOperations.getBoolean(SLinkOperations.getTarget(thisNode, "declaration", false), "depracated");
   }
-
 }

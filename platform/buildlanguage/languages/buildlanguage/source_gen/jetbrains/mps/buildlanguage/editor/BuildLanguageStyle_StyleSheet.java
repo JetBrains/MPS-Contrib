@@ -9,7 +9,6 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class BuildLanguageStyle_StyleSheet {
-
   public static Style getStringLiteral(final EditorCell cell) {
     Style style = new Style(cell);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_GREEN);
@@ -77,5 +76,4 @@ public class BuildLanguageStyle_StyleSheet {
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.gray);
     return style;
   }
-
 }

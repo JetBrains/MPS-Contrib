@@ -36,5 +36,4 @@ public class PropertyValueExpression_Behavior {
   public static String callSuper_getActualValue_1213877472572(SNode thisNode, String callerConceptFqName) {
     return (String)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
   }
-
 }

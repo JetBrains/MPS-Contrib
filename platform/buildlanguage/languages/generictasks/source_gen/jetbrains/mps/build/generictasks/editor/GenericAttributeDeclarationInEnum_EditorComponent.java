@@ -16,7 +16,6 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GenericAttributeDeclarationInEnum_EditorComponent extends AbstractCellProvider {
-
   public GenericAttributeDeclarationInEnum_EditorComponent(SNode node) {
     super(node);
   }
@@ -65,7 +64,6 @@ public class GenericAttributeDeclarationInEnum_EditorComponent extends AbstractC
     return editorCell;
   }
 
-
   private static boolean renderingCondition4612_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }
@@ -73,5 +71,4 @@ public class GenericAttributeDeclarationInEnum_EditorComponent extends AbstractC
   private static boolean renderingCondition4612_1(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }
-
 }

@@ -9,7 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class checkFileExistance_NonTypesystemRule extends AbstractNonTypesystemRule_Runtime implements NonTypesystemRule_Runtime {
-
   public checkFileExistance_NonTypesystemRule() {
   }
 
@@ -27,5 +26,4 @@ public class checkFileExistance_NonTypesystemRule extends AbstractNonTypesystemR
   public boolean overrides() {
     return false;
   }
-
 }

@@ -6,7 +6,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Attribute_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -16,5 +15,4 @@ public class Attribute_Behavior {
     }
     return AttributeDeclaration_Behavior.call_equals_353793545802643827(SLinkOperations.getTarget(thisNode, "attributeDeclaration", false), decl);
   }
-
 }

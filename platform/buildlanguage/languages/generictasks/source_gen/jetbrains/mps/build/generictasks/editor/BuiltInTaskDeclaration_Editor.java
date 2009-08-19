@@ -23,7 +23,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_5098_2(editorContext, node);
   }
@@ -150,7 +149,6 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static class nestedListHandler_5098_0 extends RefNodeListHandler {
-
     public nestedListHandler_5098_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -190,7 +188,5 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

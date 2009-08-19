@@ -14,7 +14,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.build.generictasks.plugin.ImportAntStuffUtil;
 
 public class BuiltInTaskDeclaration_Behavior {
-
   public static void init(SNode thisNode) {
     SPropertyOperations.set(thisNode, "depracated", "" + (false));
     SPropertyOperations.set(thisNode, "fake", "" + (false));
@@ -25,9 +24,9 @@ public class BuiltInTaskDeclaration_Behavior {
     ListSequence.fromList(attrs).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "attributesDecl", true)));
     if ((SLinkOperations.getTarget(thisNode, "parentRef", true) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) {
       List<SNode> nodes = BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(((SNode)SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false)));
-      for(SNode newAttrDecl : ListSequence.fromList(nodes)) {
+      for (SNode newAttrDecl : ListSequence.fromList(nodes)) {
         boolean found = false;
-        for(SNode oldAttrDecl : ListSequence.fromList(attrs)) {
+        for (SNode oldAttrDecl : ListSequence.fromList(attrs)) {
           if (AttributeDeclaration_Behavior.call_equals_353793545802643827(oldAttrDecl, newAttrDecl)) {
             found = true;
             break;
@@ -43,8 +42,8 @@ public class BuiltInTaskDeclaration_Behavior {
 
   public static List<SNode> call_getNestedTasks_353793545802644151(SNode thisNode) {
     List<SNode> nested = new ArrayList<SNode>();
-    for(SNode nref : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "nested", true))) {
-      for(SNode ref : ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true))) {
+    for (SNode nref : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "nested", true))) {
+      for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true))) {
         ListSequence.fromList(nested).addElement(SLinkOperations.getTarget(ref, "declaration", false));
       }
     }
@@ -56,7 +55,7 @@ public class BuiltInTaskDeclaration_Behavior {
 
   public static List<SNode> call_getFakeDeclarations_353793545802644200(SNode thisNode) {
     List<SNode> result = new ArrayList<SNode>();
-    for(SNode declaration : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "fakeDeclaration", true))) {
+    for (SNode declaration : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "fakeDeclaration", true))) {
       if (!(SNodeOperations.isInstanceOf(declaration, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) && !(SPropertyOperations.getBoolean(declaration, "abstract"))) {
         ListSequence.fromList(result).addElement(declaration);
       }
@@ -80,7 +79,7 @@ public class BuiltInTaskDeclaration_Behavior {
       if ((SLinkOperations.getTarget(declOfProbableParent, "parentRef", true) != null)) {
         return false;
       }
-      for(SNode intRef : ListSequence.fromList(SLinkOperations.getTargets(declOfProbableParent, "interfaces", true))) {
+      for (SNode intRef : ListSequence.fromList(SLinkOperations.getTargets(declOfProbableParent, "interfaces", true))) {
         if (Declaration_Behavior.call_isHeirOf_1213877304079(thisNode, SLinkOperations.getTarget(intRef, "declaration", false))) {
           return true;
         }
@@ -91,7 +90,7 @@ public class BuiltInTaskDeclaration_Behavior {
       return true;
     }
     if (SNodeOperations.isInstanceOf(probableParent, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) {
-      for(SNode interfaceReference : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "interfaces", true))) {
+      for (SNode interfaceReference : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "interfaces", true))) {
         if ((SLinkOperations.getTarget(interfaceReference, "declaration", false) == null)) {
           System.err.println("Node " + interfaceReference + " have null declaration.");
           continue;
@@ -111,14 +110,13 @@ public class BuiltInTaskDeclaration_Behavior {
   public static List<SNode> virtual_getPossibleNesteds_1191515374482689153(SNode thisNode, List<SNode> declarations) {
     List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
-    for(SNode declaration : ListSequence.fromList(declarations)) {
+    for (SNode declaration : ListSequence.fromList(declarations)) {
       if (SNodeOperations.isInstanceOf(declaration, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) {
         SNode builtInDecl = SNodeOperations.cast(declaration, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
         if (!(SPropertyOperations.getBoolean(builtInDecl, "fake")) && Declaration_Behavior.call_isHeirOf_1213877304107(declaration, BuiltInTaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(thisNode)) && !(Declaration_Behavior.call_isAbstract_1213877304071(declaration))) {
           ListSequence.fromList(result).addElement(declaration);
         }
-      } else
-      {
+      } else {
         // TODO: deal with other types of declarations
       }
     }
@@ -128,5 +126,4 @@ public class BuiltInTaskDeclaration_Behavior {
   public static boolean isInGeneratedModels_1445805690439864419(IOperationContext operationContext) {
     return operationContext.getModule().getModuleId().equals(ImportAntStuffUtil.getLanguageReference().getModuleId());
   }
-
 }

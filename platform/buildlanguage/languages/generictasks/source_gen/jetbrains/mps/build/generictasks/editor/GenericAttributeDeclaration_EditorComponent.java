@@ -21,7 +21,6 @@ import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GenericAttributeDeclaration_EditorComponent extends AbstractCellProvider {
-
   public GenericAttributeDeclaration_EditorComponent(SNode node) {
     super(node);
   }
@@ -183,7 +182,6 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
     return editorCell;
   }
 
-
   private static boolean renderingCondition2790_0(SNode node, EditorContext editorContext, IScope scope) {
     return (!(AttributeDeclaration_Behavior.call_isRequired_353793545802643811(node)) && (SLinkOperations.getTarget(node, "default", true) != null)) || editorContext.isInspector();
   }
@@ -191,5 +189,4 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
   private static boolean renderingCondition2790_1(SNode node, EditorContext editorContext, IScope scope) {
     return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(node) || editorContext.isInspector();
   }
-
 }

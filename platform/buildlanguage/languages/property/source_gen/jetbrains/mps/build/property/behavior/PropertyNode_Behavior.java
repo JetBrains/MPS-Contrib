@@ -9,7 +9,6 @@ import java.util.List;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class PropertyNode_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -20,5 +19,4 @@ public class PropertyNode_Behavior {
   public static List<SNode> virtual_getProperties_1213877375726(SNode thisNode) {
     return SLinkOperations.getTargets(thisNode, "declaration", true);
   }
-
 }

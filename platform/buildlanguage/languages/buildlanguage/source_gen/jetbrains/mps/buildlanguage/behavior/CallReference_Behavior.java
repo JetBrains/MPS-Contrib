@@ -7,7 +7,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class CallReference_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -21,5 +20,4 @@ public class CallReference_Behavior {
     }
     return SPropertyOperations.getString(SLinkOperations.getTarget(thisNode, "call", false), "name");
   }
-
 }

@@ -27,7 +27,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvider {
-
   public TaskDeclarationInspector_EditorComponent(SNode node) {
     super(node);
   }
@@ -308,7 +307,6 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
   }
 
   private static class interfacesListHandler_7843_0 extends RefNodeListHandler {
-
     public interfacesListHandler_7843_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -367,7 +365,5 @@ public class TaskDeclarationInspector_EditorComponent extends AbstractCellProvid
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

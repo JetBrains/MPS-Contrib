@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class CreateNormalPropertyFromExternal_intention_Intention extends BaseIntention {
-
   public CreateNormalPropertyFromExternal_intention_Intention() {
   }
 
@@ -45,5 +44,4 @@ public class CreateNormalPropertyFromExternal_intention_Intention extends BaseIn
   public String getLocationString() {
     return "jetbrains.mps.buildlanguage.intentions";
   }
-
 }

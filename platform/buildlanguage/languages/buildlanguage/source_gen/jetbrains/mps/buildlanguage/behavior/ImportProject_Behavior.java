@@ -5,8 +5,6 @@ package jetbrains.mps.buildlanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class ImportProject_Behavior {
-
   public static void init(SNode thisNode) {
   }
-
 }

@@ -9,7 +9,6 @@ import java.io.File;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class FileName_Behavior {
-
   public static void init(SNode thisNode) {
     SLinkOperations.setTarget(thisNode, "value", SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringLiteral", null), true);
   }
@@ -42,5 +41,4 @@ public class FileName_Behavior {
   public static String virtual_getActualValue_1213877472572(SNode thisNode) {
     return PropertyValueExpression_Behavior.call_getActualValue_1213877472572(SLinkOperations.getTarget(thisNode, "value", true));
   }
-
 }
