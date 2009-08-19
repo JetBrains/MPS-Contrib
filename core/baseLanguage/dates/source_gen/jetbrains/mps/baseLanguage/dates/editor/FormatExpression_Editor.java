@@ -26,7 +26,6 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class FormatExpression_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3603_0(editorContext, node);
   }
@@ -270,7 +269,6 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition3603_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "zone", true) != null);
   }
@@ -280,7 +278,6 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline3603_0 extends AbstractCellProvider {
-
     public _Inline3603_0() {
       super();
     }
@@ -312,10 +309,9 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline3603_1 extends AbstractCellProvider {
-
     public _Inline3603_1() {
       super();
     }
@@ -346,10 +342,9 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline3603_2 extends AbstractCellProvider {
-
     public _Inline3603_2() {
       super();
     }
@@ -380,7 +375,5 @@ public class FormatExpression_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

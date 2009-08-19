@@ -23,7 +23,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class FormatTokenSettings_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_0889_0(editorContext, node);
   }
@@ -212,7 +211,6 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
   }
 
   private static class predefinedDateFormatListHandler_0889_0 extends RefNodeListHandler {
-
     public predefinedDateFormatListHandler_0889_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -267,10 +265,9 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class dateTimePropertyCardinalityListHandler_0889_0 extends RefNodeListHandler {
-
     public dateTimePropertyCardinalityListHandler_0889_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -325,10 +322,9 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class dateTimePropertyFormatConfigurationListHandler_0889_0 extends RefNodeListHandler {
-
     public dateTimePropertyFormatConfigurationListHandler_0889_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -383,7 +379,5 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

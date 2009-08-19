@@ -79,5 +79,4 @@ public enum DayOfWeek {
     }
     return DayOfWeek.getDefault();
   }
-
 }

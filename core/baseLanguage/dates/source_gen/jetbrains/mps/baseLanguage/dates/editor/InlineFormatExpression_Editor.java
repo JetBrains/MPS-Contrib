@@ -35,7 +35,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class InlineFormatExpression_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_6516_0(editorContext, node);
   }
@@ -300,7 +299,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition6516_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "withLocale") || SLinkOperations.getTarget(node, "locale", false) != null;
   }
@@ -310,7 +308,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline6516_0 extends AbstractCellProvider {
-
     public _Inline6516_0() {
       super();
     }
@@ -345,10 +342,9 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline6516_1 extends AbstractCellProvider {
-
     public _Inline6516_1() {
       super();
     }
@@ -379,10 +375,9 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   private static class formatTokenListHandler_6516_0 extends RefNodeListHandler {
-
     public formatTokenListHandler_6516_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -438,7 +433,5 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

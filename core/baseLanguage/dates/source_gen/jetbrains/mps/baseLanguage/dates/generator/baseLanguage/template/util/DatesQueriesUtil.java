@@ -29,7 +29,7 @@ public class DatesQueriesUtil {
   public static SNode findFormattersFieldDeclaration(SNode node, TemplateQueryContext genctx) {
     SNode clazz = findEnclosingTableClass2(node, genctx);
     SNode result = null;
-    for(SNode sfd : SLinkOperations.getTargets(clazz, "staticField", true)) {
+    for (SNode sfd : SLinkOperations.getTargets(clazz, "staticField", true)) {
       if (SPropertyOperations.hasValue(sfd, "name", "formatters")) {
         result = sfd;
         break;
@@ -63,5 +63,4 @@ public class DatesQueriesUtil {
     }
     return result;
   }
-
 }

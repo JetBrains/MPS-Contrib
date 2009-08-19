@@ -28,7 +28,6 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import java.util.ArrayList;
 
 public class QueriesGenerated {
-
   public static boolean createRootRule_Condition_1224664961741(final IOperationContext operationContext, final CreateRootRuleContext _context) {
     return ListSequence.fromList(SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable")).count() > 0;
   }
@@ -118,7 +117,7 @@ public class QueriesGenerated {
     StringBuilder b = new StringBuilder();
     int n = SPropertyOperations.getInteger(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "dateTimePropertyFormatType", false), "dateTimePropertyCardinality", false), "numberOfSymbols");
     String letter = SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "dateTimePropertyFormatType", false), "letter");
-    for(int i = 0 ; i < n ; i++ ) {
+    for (int i = 0 ; i < n ; i++ ) {
       b.append(letter);
     }
     return b.toString();
@@ -282,8 +281,7 @@ public class QueriesGenerated {
     SNode e = null;
     if (!(ListSequence.fromList(statements).isEmpty())) {
       e = SLinkOperations.getTarget(SNodeOperations.cast(ListSequence.fromList(statements).last(), "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true);
-    } else
-    {
+    } else {
       _context.showErrorMessage(_context.getNode(), "Condition is empty");
     }
     return e;
@@ -614,5 +612,4 @@ public class QueriesGenerated {
   public static Iterable sourceNodesQuery_1238663967265(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "formatToken", true);
   }
-
 }

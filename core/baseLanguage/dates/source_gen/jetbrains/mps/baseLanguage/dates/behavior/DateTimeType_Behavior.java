@@ -5,12 +5,10 @@ package jetbrains.mps.baseLanguage.dates.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class DateTimeType_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static SNode virtual_getJavaType_1213877337345(SNode thisNode) {
     return new _Quotations.QuotationClass_0().createNode();
   }
-
 }

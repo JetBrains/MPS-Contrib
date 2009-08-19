@@ -8,7 +8,6 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
 
 public class MathDateTimeOperation_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -30,5 +29,4 @@ public class MathDateTimeOperation_Behavior {
     can = can || DateTypeUtil.isInstanceOfPeriod(expression);
     return can;
   }
-
 }

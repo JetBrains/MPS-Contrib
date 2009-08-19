@@ -10,7 +10,6 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ConvertToDateTimeOperation_Constraints {
-
   public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
     boolean can = false;
     if (SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression")) {
@@ -22,5 +21,4 @@ public class ConvertToDateTimeOperation_Constraints {
     }
     return can;
   }
-
 }

@@ -9,14 +9,12 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class DateFormatsTable_DataFlow extends DataFlowBuilder {
-
   public DateFormatsTable_DataFlow() {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    for(SNode format : SLinkOperations.getTargets(_context.getNode(), "dateFormat", true)) {
+    for (SNode format : SLinkOperations.getTargets(_context.getNode(), "dateFormat", true)) {
       _context.getBuilder().build((SNode)format);
     }
   }
-
 }

@@ -6,7 +6,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DateTimeZone_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -16,5 +15,4 @@ public class DateTimeZone_Behavior {
       ""
     )) + SPropertyOperations.getString(thisNode, "country");
   }
-
 }

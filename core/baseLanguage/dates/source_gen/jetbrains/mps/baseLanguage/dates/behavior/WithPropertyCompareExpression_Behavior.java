@@ -7,7 +7,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class WithPropertyCompareExpression_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -18,5 +17,4 @@ public class WithPropertyCompareExpression_Behavior {
     }
     return property;
   }
-
 }

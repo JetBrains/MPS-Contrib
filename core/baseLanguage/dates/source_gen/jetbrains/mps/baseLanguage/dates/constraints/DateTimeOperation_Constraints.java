@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
 
 public class DateTimeOperation_Constraints {
-
   public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
     boolean can = false;
     if (SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression")) {
@@ -20,5 +19,4 @@ public class DateTimeOperation_Constraints {
     }
     return can;
   }
-
 }

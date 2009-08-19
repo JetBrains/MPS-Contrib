@@ -16,7 +16,6 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 
 public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3905_0(editorContext, node);
   }
@@ -68,5 +67,4 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

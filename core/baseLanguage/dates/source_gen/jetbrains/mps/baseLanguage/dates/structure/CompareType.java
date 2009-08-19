@@ -74,5 +74,4 @@ public enum CompareType {
     }
     return CompareType.getDefault();
   }
-
 }

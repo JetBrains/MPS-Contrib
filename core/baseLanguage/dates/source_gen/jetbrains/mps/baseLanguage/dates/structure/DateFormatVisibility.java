@@ -54,5 +54,4 @@ public enum DateFormatVisibility {
     }
     return DateFormatVisibility.getDefault();
   }
-
 }

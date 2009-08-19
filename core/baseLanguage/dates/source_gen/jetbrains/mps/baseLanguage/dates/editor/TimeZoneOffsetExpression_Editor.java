@@ -17,7 +17,6 @@ import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
 
 public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_5208_0(editorContext, node);
   }
@@ -31,7 +30,6 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
 
   private EditorCell createModelAccess_5208_0(final EditorContext editorContext, final SNode node) {
     ModelAccessor modelAccessor = new ModelAccessor() {
-
       public String getText() {
         DateTimeZone zone = DateTimeZone.forOffsetMillis(SPropertyOperations.getInteger(node, "offsetmillis"));
         return DateTimeFormat.forPattern("ZZ").print(new DateTime(zone));
@@ -64,5 +62,4 @@ public class TimeZoneOffsetExpression_Editor extends DefaultNodeEditor {
     editorCell.setDefaultText("");
     return editorCell;
   }
-
 }

@@ -20,7 +20,6 @@ import jetbrains.mps.nodeEditor.MPSFonts;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_1638_0(editorContext, node);
   }
@@ -51,7 +50,6 @@ public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline1638_0 extends AbstractCellProvider {
-
     public _Inline1638_0() {
       super();
     }
@@ -88,7 +86,5 @@ public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

@@ -17,5 +17,4 @@ public abstract class BaseTestCase extends TestCase {
       LOGGING_INITIALIZED = true;
     }
   }
-
 }

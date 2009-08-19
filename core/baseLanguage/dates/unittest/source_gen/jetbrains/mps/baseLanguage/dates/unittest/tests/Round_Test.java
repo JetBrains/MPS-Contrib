@@ -10,34 +10,32 @@ import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 
 public class Round_Test extends TestCase {
-
-  @Test()
+  @Test
   public void test_round() throws Exception {
     Long dt = System.currentTimeMillis();
     Long roundDt = DateTimeOperations.round(dt, DateTimeFieldType.dayOfMonth());
     Assert.assertTrue(DateTimeOperations.compare(dt, CompareType.valueOf("NE"), roundDt, DateTimeFieldType.millisOfSecond()));
   }
 
-  @Test()
+  @Test
   public void test_floor() throws Exception {
     Long dt = System.currentTimeMillis();
     Long roundDownDt = DateTimeOperations.roundFloor(dt, DateTimeFieldType.monthOfYear());
     Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.valueOf("LT"), roundDownDt, DateTimeFieldType.millisOfSecond()));
   }
 
-  @Test()
+  @Test
   public void test_ceiling() throws Exception {
     Long dt = System.currentTimeMillis();
     Long roundUpDt = DateTimeOperations.roundCeiling(dt, DateTimeFieldType.minuteOfHour());
     Assert.assertFalse(DateTimeOperations.compare(dt, CompareType.valueOf("GT"), roundUpDt, DateTimeFieldType.millisOfSecond()));
   }
 
-  @Test()
+  @Test
   public void test_roundNever() throws Exception {
     Long never = DateTimeOperations.never();
     Long roundDownNever = DateTimeOperations.roundFloor(never, DateTimeFieldType.minuteOfHour());
     Long roundUpNever = DateTimeOperations.roundCeiling(never, DateTimeFieldType.minuteOfHour());
     Assert.assertFalse(DateTimeOperations.compare(roundDownNever, CompareType.valueOf("GT"), never, DateTimeFieldType.millisOfSecond()) || DateTimeOperations.compare(roundUpNever, CompareType.valueOf("GT"), never, DateTimeFieldType.millisOfSecond()));
   }
-
 }

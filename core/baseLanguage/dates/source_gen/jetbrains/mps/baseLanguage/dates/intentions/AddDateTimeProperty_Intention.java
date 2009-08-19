@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class AddDateTimeProperty_Intention extends BaseIntention {
-
   public AddDateTimeProperty_Intention() {
   }
 
@@ -55,5 +54,4 @@ public class AddDateTimeProperty_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.baseLanguage.dates.intentions";
   }
-
 }

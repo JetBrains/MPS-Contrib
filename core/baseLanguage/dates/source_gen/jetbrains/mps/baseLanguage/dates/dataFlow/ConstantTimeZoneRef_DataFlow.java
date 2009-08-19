@@ -8,12 +8,10 @@ import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ConstantTimeZoneRef_DataFlow extends DataFlowBuilder {
-
   public ConstantTimeZoneRef_DataFlow() {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "zone", false));
   }
-
 }

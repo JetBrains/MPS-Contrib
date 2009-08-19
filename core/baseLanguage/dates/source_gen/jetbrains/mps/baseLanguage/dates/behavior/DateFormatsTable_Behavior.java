@@ -7,12 +7,10 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DateFormatsTable_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static String call_getGeneratedConstantName_1224665497476(SNode thisNode) {
     return NameUtil.toConstantName(SPropertyOperations.getString(thisNode, "name"));
   }
-
 }

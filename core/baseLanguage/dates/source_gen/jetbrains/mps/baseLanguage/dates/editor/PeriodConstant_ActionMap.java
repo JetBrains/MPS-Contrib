@@ -11,14 +11,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class PeriodConstant_ActionMap {
-
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.DELETE, new PeriodConstant_ActionMap.PeriodConstant_ActionMap_DELETE(node));
   }
 
   public static class PeriodConstant_ActionMap_DELETE extends EditorCellAction {
-
-    /* package */SNode myNode;
+    /*package*/ SNode myNode;
 
     public PeriodConstant_ActionMap_DELETE(SNode node) {
       this.myNode = node;
@@ -35,7 +33,5 @@ public class PeriodConstant_ActionMap {
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "count", true));
     }
-
-}
-
+  }
 }

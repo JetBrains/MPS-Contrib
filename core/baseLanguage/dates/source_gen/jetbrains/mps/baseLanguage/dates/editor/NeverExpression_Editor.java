@@ -12,7 +12,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class NeverExpression_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createConceptProperty_8664_0(editorContext, node);
   }
@@ -35,5 +34,4 @@ public class NeverExpression_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

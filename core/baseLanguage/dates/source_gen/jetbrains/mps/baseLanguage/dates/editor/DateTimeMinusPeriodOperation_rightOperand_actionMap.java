@@ -11,14 +11,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class DateTimeMinusPeriodOperation_rightOperand_actionMap {
-
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.DELETE, new DateTimeMinusPeriodOperation_rightOperand_actionMap.DateTimeMinusPeriodOperation_rightOperand_actionMap_DELETE(node));
   }
 
   public static class DateTimeMinusPeriodOperation_rightOperand_actionMap_DELETE extends EditorCellAction {
-
-    /* package */SNode myNode;
+    /*package*/ SNode myNode;
 
     public DateTimeMinusPeriodOperation_rightOperand_actionMap_DELETE(SNode node) {
       this.myNode = node;
@@ -35,7 +33,5 @@ public class DateTimeMinusPeriodOperation_rightOperand_actionMap {
     public void execute_internal(EditorContext editorContext, SNode node) {
       SNodeOperations.replaceWithAnother(node, SLinkOperations.getTarget(node, "leftValue", true));
     }
-
-}
-
+  }
 }

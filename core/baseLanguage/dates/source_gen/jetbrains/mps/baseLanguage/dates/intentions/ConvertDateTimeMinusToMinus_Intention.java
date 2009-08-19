@@ -9,7 +9,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ConvertDateTimeMinusToMinus_Intention extends BaseIntention {
-
   public ConvertDateTimeMinusToMinus_Intention() {
   }
 
@@ -53,5 +52,4 @@ public class ConvertDateTimeMinusToMinus_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.baseLanguage.dates.intentions";
   }
-
 }

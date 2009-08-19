@@ -15,49 +15,48 @@ import java.util.Locale;
 import org.joda.time.DateTimeZone;
 
 public class Format_Test extends BaseTestCase {
-
-  @Test()
+  @Test
   public void test_timeFormat() throws Exception {
     DateTime dt = new DateTime();
     Assert.assertEquals(dt.toString("HH:mm:ss"), DateTimeOperations.print(DateTimeOperations.convert(dt), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null));
   }
 
-  @Test()
+  @Test
   public void test_jodaDateTime() throws Exception {
     Long today = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).toLocalDate().toDateTimeAtMidnight());
     Assert.assertEquals(new DateTime(today).toString("yyyy-MM-dd"), DateTimeOperations.print(today, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), null, null));
   }
 
-  @Test()
+  @Test
   public void test_nowOptionalDate() throws Exception {
     Assert.assertEquals(19, DateTimeOperations.print(System.currentTimeMillis(), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, null).length());
   }
 
-  @Test()
+  @Test
   public void test_yesterdayOptionalDate() throws Exception {
     Long yesterday = DateTimeOperations.minus(System.currentTimeMillis(), Period.days(1));
     Assert.assertEquals(19, DateTimeOperations.print(yesterday, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("optionalDate"), null, null).length());
     Assert.assertEquals(8, DateTimeOperations.print(System.currentTimeMillis(), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("optionalDate"), null, null).length());
   }
 
-  @Test()
+  @Test
   public void test_nullOptionalDate() throws Exception {
     Assert.assertEquals("-", DateTimeOperations.print((Long)null, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("optionalDate"), null, null));
   }
 
-  @Test()
+  @Test
   public void test_usDayOfWeek() throws Exception {
     Long monday = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear());
     String expected = "Monday";
     Assert.assertEquals(expected, DateTimeOperations.print(monday, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("usDayOfWeek"), null, null));
   }
 
-  @Test()
+  @Test
   public void test_predefined() throws Exception {
     Assert.assertTrue(DateTimeOperations.print(System.currentTimeMillis(), DateTimeFormat.fullDateTime(), null, null) != null);
   }
 
-  @Test()
+  @Test
   public void test_minutesAgo() throws Exception {
     Long dt = DateTimeOperations.minus(System.currentTimeMillis(), Period.minutes(27));
     String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"), null, null);
@@ -66,7 +65,7 @@ public class Format_Test extends BaseTestCase {
     }
   }
 
-  @Test()
+  @Test
   public void test_minutesAfter() throws Exception {
     Long dt = DateTimeOperations.plus(System.currentTimeMillis(), Period.minutes(27));
     String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"), null, null);
@@ -75,7 +74,7 @@ public class Format_Test extends BaseTestCase {
     }
   }
 
-  @Test()
+  @Test
   public void test_hoursMinutesAgo() throws Exception {
     Long dt = DateTimeOperations.minus((DateTimeOperations.minus(System.currentTimeMillis(), Period.hours(2))), Period.minutes(27));
     String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"), null, null);
@@ -84,7 +83,7 @@ public class Format_Test extends BaseTestCase {
     }
   }
 
-  @Test()
+  @Test
   public void test_formatForPeriod() throws Exception {
     Period p = Period.days(20);
     Long d = DateTimeOperations.convert(p);
@@ -92,22 +91,21 @@ public class Format_Test extends BaseTestCase {
     Assert.assertEquals(DateTimeOperations.print(DateTimeOperations.convert(p), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null), DateTimeOperations.print(d, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null));
   }
 
-  @Test()
+  @Test
   public void test_fullDateForPeriod() throws Exception {
     Period p = DateTimeOperations.plus(Period.weeks(2), Period.minutes(15));
     Assert.assertEquals("Thursday, January 15, 1970", DateTimeOperations.print(p, DateTimeFormat.fullDate(), Locale.US, null));
   }
 
-  @Test()
+  @Test
   public void test_shortDatePeriod() throws Exception {
     Period p = DateTimeOperations.plus(Period.days(10), Period.seconds(10));
     Assert.assertEquals("1/11/70", DateTimeOperations.print(p, DateTimeFormat.shortDate(), Locale.US, null));
   }
 
-  @Test()
+  @Test
   public void test_ampm() throws Exception {
     Period p = DateTimeOperations.plus(Period.hours(3), Period.minutes(33));
     Assert.assertEquals("3:33 AM", DateTimeOperations.print(DateTimeOperations.convert(p), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC));
   }
-
 }

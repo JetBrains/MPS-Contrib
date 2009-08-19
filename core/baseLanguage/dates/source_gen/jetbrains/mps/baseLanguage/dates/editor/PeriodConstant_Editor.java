@@ -20,7 +20,6 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class PeriodConstant_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_1753_0(editorContext, node);
   }
@@ -31,8 +30,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createRefCell_1753_0(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createRefCell_1753_1(editorContext, node);
     }
     PeriodConstant_ActionMap.setCellActions(editorCell, node, editorContext);
@@ -100,7 +98,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition1753_0(SNode node, EditorContext editorContext, IScope scope) {
     boolean result = true;
     if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(node, "count", true), "jetbrains.mps.baseLanguage.structure.IntegerConstant")) {
@@ -110,7 +107,6 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline1753_0 extends AbstractCellProvider {
-
     public _Inline1753_0() {
       super();
     }
@@ -142,10 +138,9 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline1753_1 extends AbstractCellProvider {
-
     public _Inline1753_1() {
       super();
     }
@@ -177,7 +172,5 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

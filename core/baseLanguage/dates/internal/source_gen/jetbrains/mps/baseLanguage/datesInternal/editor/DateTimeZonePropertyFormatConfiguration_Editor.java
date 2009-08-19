@@ -22,7 +22,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_6009_0(editorContext, node);
   }
@@ -86,7 +85,6 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
   }
 
   private static class dateTimePropertyFormatTypeListHandler_6009_0 extends RefNodeListHandler {
-
     public dateTimePropertyFormatTypeListHandler_6009_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -126,7 +124,5 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

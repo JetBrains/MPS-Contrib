@@ -21,7 +21,6 @@ import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
 public class DateTimeProperty_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_6516_0(editorContext, node);
   }
@@ -216,7 +215,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline6516_0 extends AbstractCellProvider {
-
     public _Inline6516_0() {
       super();
     }
@@ -248,10 +246,9 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline6516_1 extends AbstractCellProvider {
-
     public _Inline6516_1() {
       super();
     }
@@ -283,7 +280,5 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

@@ -5,16 +5,13 @@ package jetbrains.mps.baseLanguage.dates.structure;
 import jetbrains.mps.smodel.PropertySupport;
 
 public class OneThirtyOneInteger_PropertySupport extends PropertySupport {
-
   public boolean canSetValue(String value) {
     String testValue = null;
     if (value == null) {
       testValue = "";
-    } else
-    {
+    } else {
       testValue = value;
     }
     return testValue.matches("([123456789])|([12]\\d)|(3[01])");
   }
-
 }

@@ -22,7 +22,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
 public class ScheduleLiteral_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_2020_0(editorContext, node);
   }
@@ -309,7 +308,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition2020_0(SNode node, EditorContext editorContext, IScope scope) {
     return ScheduleLiteral_Behavior.call_hasDay_1213877270117(node);
   }
@@ -343,7 +341,6 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline2020_0 extends AbstractCellProvider {
-
     public _Inline2020_0() {
       super();
     }
@@ -374,10 +371,9 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline2020_1 extends AbstractCellProvider {
-
     public _Inline2020_1() {
       super();
     }
@@ -408,7 +404,5 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

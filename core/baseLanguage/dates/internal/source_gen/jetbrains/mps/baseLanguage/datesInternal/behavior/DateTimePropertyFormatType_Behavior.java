@@ -5,8 +5,6 @@ package jetbrains.mps.baseLanguage.datesInternal.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class DateTimePropertyFormatType_Behavior {
-
   public static void init(SNode thisNode) {
   }
-
 }

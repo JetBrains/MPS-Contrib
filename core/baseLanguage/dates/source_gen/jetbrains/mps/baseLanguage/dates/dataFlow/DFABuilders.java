@@ -6,7 +6,6 @@ import jetbrains.mps.lang.dataFlow.DataFlowBuilders;
 import jetbrains.mps.lang.dataFlow.DataFlowManager;
 
 public class DFABuilders extends DataFlowBuilders {
-
   public void install(DataFlowManager manager) {
     manager.register("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", new FormatExpression_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.DateTimeMinusOperation", new DateTimeMinusOperation_DataFlow());
@@ -33,5 +32,4 @@ public class DFABuilders extends DataFlowBuilders {
     manager.register("jetbrains.mps.baseLanguage.dates.structure.WithPropertyCompareExpression", new WithPropertyCompareExpression_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.ParseExpression", new ParseExpression_DataFlow());
   }
-
 }

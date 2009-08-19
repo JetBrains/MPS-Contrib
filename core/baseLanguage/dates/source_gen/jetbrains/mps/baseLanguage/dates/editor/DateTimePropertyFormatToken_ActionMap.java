@@ -11,14 +11,12 @@ import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUt
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class DateTimePropertyFormatToken_ActionMap {
-
   public static void setCellActions(EditorCell editorCell, SNode node, EditorContext context) {
     editorCell.setAction(CellActionType.RIGHT_TRANSFORM, new DateTimePropertyFormatToken_ActionMap.DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM(node));
   }
 
   public static class DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM extends EditorCellAction {
-
-    /* package */SNode myNode;
+    /*package*/ SNode myNode;
 
     public DateTimePropertyFormatToken_ActionMap_RIGHT_TRANSFORM(SNode node) {
       this.myNode = node;
@@ -37,7 +35,5 @@ public class DateTimePropertyFormatToken_ActionMap {
         SLinkOperations.setTarget(node, "dateTimePropertyFormatType", null, false);
       }
     }
-
-}
-
+  }
 }

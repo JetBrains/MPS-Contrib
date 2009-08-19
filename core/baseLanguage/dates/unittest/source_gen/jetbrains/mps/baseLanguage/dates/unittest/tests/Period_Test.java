@@ -11,8 +11,7 @@ import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 
 public class Period_Test extends TestCase {
-
-  @Test()
+  @Test
   public void test_plus() throws Exception {
     Long firstDayOfMonth = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear());
     Long secondDayOfMonth = DateTimeOperations.plus(firstDayOfMonth, Period.days(1));
@@ -20,47 +19,46 @@ public class Period_Test extends TestCase {
     Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.valueOf("EQ"), secondDayOfMonth, DateTimeFieldType.monthOfYear()));
   }
 
-  @Test()
+  @Test
   public void test_plusAndEquals() throws Exception {
     Period p = DateTimeOperations.plus(DateTimeOperations.minus(DateTimeOperations.plus(Period.days(1), Period.months(2)), Period.hours(1)), Period.minutes(2));
     Assert.assertTrue(!(DateTimeOperations.equals(p, DateTimeOperations.minus(Period.months(3), Period.days(32))) || DateTimeOperations.less(p, DateTimeOperations.minus(Period.months(3), Period.days(32)))));
   }
 
-  @Test()
+  @Test
   public void test_equals() throws Exception {
     Assert.assertTrue(DateTimeOperations.equals(Period.hours(24), Period.days(1)));
   }
 
-  @Test()
+  @Test
   public void test_lessOrEquals() throws Exception {
     Assert.assertTrue((DateTimeOperations.equals(Period.days(28), Period.months(1)) || DateTimeOperations.less(Period.days(28), Period.months(1))));
   }
 
-  @Test()
+  @Test
   public void test_greaterOrEquals() throws Exception {
     Assert.assertTrue(!(DateTimeOperations.less(Period.days(31), Period.months(1))));
   }
 
-  @Test()
+  @Test
   public void test_less() throws Exception {
     Assert.assertTrue(DateTimeOperations.less(Period.days(13), Period.weeks(2)));
   }
 
-  @Test()
+  @Test
   public void test_greater() throws Exception {
     Assert.assertFalse(!(DateTimeOperations.equals(Period.days(13), Period.weeks(2)) || DateTimeOperations.less(Period.days(13), Period.weeks(2))));
   }
 
-  @Test()
+  @Test
   public void test_convert() throws Exception {
     Period p = DateTimeOperations.plus(Period.minutes(1), Period.seconds(15));
     Long d = DateTimeOperations.convert(p);
     Assert.assertTrue(d == (long)75000);
   }
 
-  @Test()
+  @Test
   public void test_concat() throws Exception {
     Assert.assertEquals("P3W", "" + Period.weeks(3));
   }
-
 }

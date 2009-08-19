@@ -12,7 +12,6 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class Dates_StyleSheet {
-
   public static Style getDateCompactKeyWord(final EditorCell cell) {
     Style style = new Style(cell);
     style.putAll(BaseLanguageStyle_StyleSheet.getCompactKeyWord(null));
@@ -41,5 +40,4 @@ public class Dates_StyleSheet {
     style.putAll(BaseLanguageStyle_StyleSheet.getField(null));
     return style;
   }
-
 }

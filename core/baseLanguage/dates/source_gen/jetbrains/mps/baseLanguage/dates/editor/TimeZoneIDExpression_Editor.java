@@ -21,7 +21,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 
 public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_5584_0(editorContext, node);
   }
@@ -54,19 +53,16 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
   }
 
   public static class TimeZoneIDExpression_timezone_id_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
-
     public TimeZoneIDExpression_timezone_id_cellMenu0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
       DateTimeZone.getAvailableIDs();
       List<String> result = ListSequence.fromList(new ArrayList<String>());
-      for(Object id : DateTimeZone.getAvailableIDs()) {
+      for (Object id : DateTimeZone.getAvailableIDs()) {
         ListSequence.fromList(result).addElement(String.valueOf(id));
       }
       return result;
     }
-
-}
-
+  }
 }

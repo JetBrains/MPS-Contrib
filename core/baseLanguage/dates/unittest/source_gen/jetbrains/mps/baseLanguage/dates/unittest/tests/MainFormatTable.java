@@ -11,7 +11,6 @@ import jetbrains.mps.baseLanguage.dates.runtime.OffsetDateTimePrinter;
 import org.joda.time.DurationFieldType;
 
 public class MainFormatTable extends BaseFormatTable {
-
   public MainFormatTable() {
   }
 
@@ -110,5 +109,4 @@ public class MainFormatTable extends BaseFormatTable {
     }
     return null;
   }
-
 }

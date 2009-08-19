@@ -28,7 +28,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_9190_0(editorContext, node);
   }
@@ -128,7 +127,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
   }
 
   public static class _Inline9190_0 extends AbstractCellProvider {
-
     public _Inline9190_0() {
       super();
     }
@@ -160,10 +158,9 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       } else
       return editorCell;
     }
+  }
 
-}
   private static class dateTimePropertyFormatTypeListHandler_9190_0 extends RefNodeListHandler {
-
     public dateTimePropertyFormatTypeListHandler_9190_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -203,7 +200,5 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

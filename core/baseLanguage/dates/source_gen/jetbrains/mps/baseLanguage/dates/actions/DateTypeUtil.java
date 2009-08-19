@@ -60,5 +60,4 @@ public class DateTypeUtil {
     IAdaptiveProgressMonitor pm = new NullAdaptiveProgressMonitor();
     return SModelOperations.getNodesIncludingImported(model, scope, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
   }
-
 }

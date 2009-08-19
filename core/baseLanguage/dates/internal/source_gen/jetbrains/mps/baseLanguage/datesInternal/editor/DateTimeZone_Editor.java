@@ -26,7 +26,6 @@ import org.joda.time.DateTimeZone;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DateTimeZone_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_5525_0(editorContext, node);
   }
@@ -144,13 +143,12 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
   }
 
   public static class DateTimeZone_continentOfCountry_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
-
     public DateTimeZone_continentOfCountry_cellMenu0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
       List<String> result = ListSequence.fromList(new ArrayList<String>());
-      for(Object obj : DateTimeZone.getAvailableIDs()) {
+      for (Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";
         if (str.indexOf('/') == -1) {
           continue;
@@ -162,16 +160,15 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
       }
       return result;
     }
+  }
 
-}
   public static class DateTimeZone_country_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
-
     public DateTimeZone_country_cellMenu0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
       List<String> result = ListSequence.fromList(new ArrayList<String>());
-      for(Object obj : DateTimeZone.getAvailableIDs()) {
+      for (Object obj : DateTimeZone.getAvailableIDs()) {
         String str = obj + "";
         if (str.indexOf('/') == -1) {
           ListSequence.fromList(result).addElement(str);
@@ -184,7 +181,5 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
       }
       return result;
     }
-
-}
-
+  }
 }

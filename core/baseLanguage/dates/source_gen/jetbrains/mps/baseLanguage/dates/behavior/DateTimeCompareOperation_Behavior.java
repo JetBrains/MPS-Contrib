@@ -8,7 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class DateTimeCompareOperation_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -47,5 +46,4 @@ public class DateTimeCompareOperation_Behavior {
   public static boolean call_isGE_1213877526473(SNode thisNode) {
     return SPropertyOperations.hasValue(thisNode, "compareType", "datetime greater or equals", "datetime equals");
   }
-
 }

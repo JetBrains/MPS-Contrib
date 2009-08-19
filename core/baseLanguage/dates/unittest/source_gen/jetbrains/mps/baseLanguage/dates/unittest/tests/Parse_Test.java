@@ -14,21 +14,20 @@ import java.util.Locale;
 import org.joda.time.DateTimeZone;
 
 public class Parse_Test extends BaseTestCase {
-
-  @Test()
+  @Test
   public void test_timeFormat() throws Exception {
     DateTime dt = new DateTime();
     Long today = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth());
     Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(DateTimeOperations.convert(dt), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null, today), DateTimeOperations.roundFloor(DateTimeOperations.convert(dt), DateTimeFieldType.secondOfMinute()));
   }
 
-  @Test()
+  @Test
   public void test_jodaDateTime() throws Exception {
     Long today = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).toLocalDate().toDateTimeAtMidnight());
     Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(today, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), null, null), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), null, null, null), today);
   }
 
-  @Test()
+  @Test
   public void test_usDayOfWeek() throws Exception {
     Long monday = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear());
     Long wednesday = DateTimeOperations.plus(DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear()), Period.days(2));
@@ -36,7 +35,7 @@ public class Parse_Test extends BaseTestCase {
     Assert.assertEquals(DateTimeOperations.parse("Monday", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("usDayOfWeek"), null, null, wednesday), monday);
   }
 
-  @Test()
+  @Test
   public void test_predefined() throws Exception {
     Long instant = System.currentTimeMillis();
     String fdt = DateTimeOperations.print(instant, DateTimeFormat.fullDateTime(), null, null);
@@ -46,26 +45,26 @@ public class Parse_Test extends BaseTestCase {
     Assert.assertEquals(DateTimeOperations.parse(fd, DateTimeFormat.fullDate(), null, null, null), DateTimeOperations.roundFloor(instant, DateTimeFieldType.dayOfMonth()));
   }
 
-  @Test()
+  @Test
   public void test_fullDateForPeriod() throws Exception {
     Period p = Period.weeks(2);
     //  must specify the zone!
     Assert.assertEquals(DateTimeOperations.parse("Thursday, January 15, 1970", DateTimeFormat.fullDate(), Locale.US, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
-  @Test()
+  @Test
   public void test_shortDatePeriod() throws Exception {
     Period p = Period.days(10);
     Assert.assertEquals(DateTimeOperations.parse("1/11/70", DateTimeFormat.shortDate(), Locale.US, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
-  @Test()
+  @Test
   public void test_ampm() throws Exception {
     Period p = DateTimeOperations.plus(Period.hours(3), Period.minutes(33));
     Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
-  @Test()
+  @Test
   public void test_timezone() throws Exception {
     DateTimeZone mskid = DateTimeZone.forID("Europe/Moscow");
     Assert.assertEquals(DateTimeZone.forID("Europe/Moscow"), mskid);
@@ -73,5 +72,4 @@ public class Parse_Test extends BaseTestCase {
     DateTimeZone mskoffset = DateTimeZone.forOffsetMillis(10800000);
     Assert.assertEquals(DateTimeZone.forOffsetMillis(10800000), mskoffset);
   }
-
 }

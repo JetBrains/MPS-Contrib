@@ -8,7 +8,6 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class DatesInternal_StyleSheet {
-
   public static Style getSimpleText(final EditorCell cell) {
     Style style = new Style(cell);
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
@@ -20,5 +19,4 @@ public class DatesInternal_StyleSheet {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     return style;
   }
-
 }

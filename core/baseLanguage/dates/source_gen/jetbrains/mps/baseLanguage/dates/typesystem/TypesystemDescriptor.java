@@ -9,7 +9,6 @@ import jetbrains.mps.lang.typesystem.runtime.OverloadedOperationsTypesProvider;
 import jetbrains.mps.smodel.SNode;
 
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
-
   public TypesystemDescriptor() {
     {
       InferenceRule_Runtime inferenceRule = new typeof_NowExpression_InferenceRule();
@@ -113,7 +112,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myRightTypeIsExact = true;
         }
 
-
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_23().createNode();
         }
@@ -129,7 +127,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myLeftTypeIsExact = true;
           this.myRightTypeIsExact = true;
         }
-
 
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_24().createNode();
@@ -147,7 +144,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myRightTypeIsExact = true;
         }
 
-
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_29().createNode();
         }
@@ -163,7 +159,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myLeftTypeIsExact = true;
           this.myRightTypeIsExact = true;
         }
-
 
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_32().createNode();
@@ -181,7 +176,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myRightTypeIsExact = true;
         }
 
-
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_35().createNode();
         }
@@ -197,7 +191,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myLeftTypeIsExact = true;
           this.myRightTypeIsExact = true;
         }
-
 
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_51().createNode();
@@ -215,7 +208,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myRightTypeIsExact = true;
         }
 
-
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_54().createNode();
         }
@@ -231,7 +223,6 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
           this.myLeftTypeIsExact = true;
           this.myRightTypeIsExact = true;
         }
-
 
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
           return new _Quotations.QuotationClass_58().createNode();

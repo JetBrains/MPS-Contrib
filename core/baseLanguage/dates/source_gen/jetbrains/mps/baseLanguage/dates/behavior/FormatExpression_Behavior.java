@@ -7,7 +7,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class FormatExpression_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -31,5 +30,4 @@ public class FormatExpression_Behavior {
     }
     return null;
   }
-
 }

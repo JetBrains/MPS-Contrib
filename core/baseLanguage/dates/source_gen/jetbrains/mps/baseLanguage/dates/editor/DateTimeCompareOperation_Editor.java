@@ -31,7 +31,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.nodeEditor.AbstractCellProvider;
 
 public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_9167_0(editorContext, node);
   }
@@ -98,7 +97,6 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
 
   private EditorCell createReadOnlyModelAccessor_9167_0(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
-
       public String getText() {
         return SPropertyOperations.getString(DateTimeCompareOperation_Behavior.call_getDatetimeProperty_1213877526399(node), "name");
       }
@@ -200,13 +198,11 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition9167_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "datetimeProperty", false) != null);
   }
 
   public static class _Inline9167_0 extends AbstractCellProvider {
-
     public _Inline9167_0() {
       super();
     }
@@ -238,7 +234,5 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

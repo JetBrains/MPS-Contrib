@@ -25,7 +25,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class DateFormatsTable_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_2692_0(editorContext, node);
   }
@@ -106,7 +105,6 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
   }
 
   private static class dateFormatListHandler_2692_0 extends RefNodeListHandler {
-
     public dateFormatListHandler_2692_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -157,7 +155,5 @@ public class DateFormatsTable_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

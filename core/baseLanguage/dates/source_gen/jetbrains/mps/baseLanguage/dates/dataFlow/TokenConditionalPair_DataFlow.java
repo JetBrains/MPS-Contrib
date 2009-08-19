@@ -9,7 +9,6 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class TokenConditionalPair_DataFlow extends DataFlowBuilder {
-
   public TokenConditionalPair_DataFlow() {
   }
 
@@ -17,5 +16,4 @@ public class TokenConditionalPair_DataFlow extends DataFlowBuilder {
     _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "condition", true));
     _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "format", false));
   }
-
 }

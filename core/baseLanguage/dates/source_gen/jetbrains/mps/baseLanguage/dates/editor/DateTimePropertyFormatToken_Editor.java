@@ -23,7 +23,6 @@ import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
 
 public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_9366_0(editorContext, node);
   }
@@ -196,13 +195,11 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition9366_0(SNode node, EditorContext editorContext, IScope scope) {
     return !(DateTimePropertFormatTokenUtil.isFormatTypeDefault(node));
   }
 
   public static class _Inline9366_0 extends AbstractCellProvider {
-
     public _Inline9366_0() {
       super();
     }
@@ -234,10 +231,9 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline9366_1 extends AbstractCellProvider {
-
     public _Inline9366_1() {
       super();
     }
@@ -273,10 +269,9 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline9366_2 extends AbstractCellProvider {
-
     public _Inline9366_2() {
       super();
     }
@@ -307,10 +302,9 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline9366_3 extends AbstractCellProvider {
-
     public _Inline9366_3() {
       super();
     }
@@ -341,10 +335,9 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   public static class _Inline9366_4 extends AbstractCellProvider {
-
     public _Inline9366_4() {
       super();
     }
@@ -375,7 +368,5 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
-
-}
-
+  }
 }

@@ -19,7 +19,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_6075_0(editorContext, node);
   }
@@ -97,5 +96,4 @@ public class DateTimeMinusPeriodOperation_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

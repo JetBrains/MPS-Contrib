@@ -13,7 +13,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class WithProperty_component extends AbstractCellProvider {
-
   public WithProperty_component(SNode node) {
     super(node);
   }
@@ -49,5 +48,4 @@ public class WithProperty_component extends AbstractCellProvider {
     } else
     return editorCell;
   }
-
 }

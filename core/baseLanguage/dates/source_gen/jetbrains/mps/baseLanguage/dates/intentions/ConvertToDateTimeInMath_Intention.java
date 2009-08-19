@@ -12,7 +12,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ConvertToDateTimeInMath_Intention extends BaseIntention {
-
   public ConvertToDateTimeInMath_Intention() {
   }
 
@@ -56,8 +55,7 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention {
     if (MathDateTimeOperation_Behavior.call_needLeftConvert_1238250704510(node)) {
       SLinkOperations.setTarget(dotExpression, "operand", SNodeOperations.copyNode(SLinkOperations.getTarget(node, "leftExpression", true)), true);
       SLinkOperations.setTarget(node, "leftExpression", dotExpression, true);
-    } else
-    {
+    } else {
       SLinkOperations.setTarget(dotExpression, "operand", SNodeOperations.copyNode(SLinkOperations.getTarget(node, "rightExpression", true)), true);
       SLinkOperations.setTarget(node, "rightExpression", dotExpression, true);
     }
@@ -66,5 +64,4 @@ public class ConvertToDateTimeInMath_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.baseLanguage.dates.intentions";
   }
-
 }

@@ -16,18 +16,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
 
 public class DateFormatReferenceUtil {
-
   public static ISearchScope buildIDateFormatSearchScope(final SNode node, IScope scope) {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IDateFormat");
     List<SNode> formats = s.getNodes(new IsInstanceCondition(cd));
-    formats = ListSequence.fromList(formats).where(new IWhereFilter <SNode>() {
-
+    formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SPropertyOperations.getBoolean(it, "isPublic") || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true);
       }
     }).toListSequence();
     return new SimpleSearchScope(formats);
   }
-
 }

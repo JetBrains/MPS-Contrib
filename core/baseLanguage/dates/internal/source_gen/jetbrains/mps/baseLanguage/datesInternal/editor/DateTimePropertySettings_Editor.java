@@ -24,7 +24,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3687_0(editorContext, node);
   }
@@ -406,7 +405,6 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
   }
 
   private static class dateTimePropertyListHandler_3687_0 extends RefNodeListHandler {
-
     public dateTimePropertyListHandler_3687_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -461,10 +459,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class localeListHandler_3687_0 extends RefNodeListHandler {
-
     public localeListHandler_3687_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -519,10 +516,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class durationTypeListHandler_3687_0 extends RefNodeListHandler {
-
     public durationTypeListHandler_3687_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -577,10 +573,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class monthListHandler_3687_0 extends RefNodeListHandler {
-
     public monthListHandler_3687_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -635,10 +630,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class schedulePeriodListHandler_3687_0 extends RefNodeListHandler {
-
     public schedulePeriodListHandler_3687_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -693,10 +687,9 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
+  }
 
-}
   private static class zoneListHandler_3687_0 extends RefNodeListHandler {
-
     public zoneListHandler_3687_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -736,7 +729,5 @@ public class DateTimePropertySettings_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

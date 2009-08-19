@@ -7,7 +7,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class DateTimePropertFormatTokenUtil {
-
   public static boolean isFormatTypeDefault(SNode token) {
     return SLinkOperations.getTarget(token, "dateTimePropertyFormatType", false) != null && SLinkOperations.getTarget(token, "dateTimePropertyFormatType", false) == getDefaultFormatType(token);
   }
@@ -20,5 +19,4 @@ public class DateTimePropertFormatTokenUtil {
     }
     return result;
   }
-
 }

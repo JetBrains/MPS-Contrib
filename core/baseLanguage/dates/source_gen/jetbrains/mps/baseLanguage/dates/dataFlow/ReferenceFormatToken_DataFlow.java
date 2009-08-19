@@ -8,12 +8,10 @@ import jetbrains.mps.lang.dataFlow.DataFlowBuilderContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ReferenceFormatToken_DataFlow extends DataFlowBuilder {
-
   public ReferenceFormatToken_DataFlow() {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "dateFormat", false));
   }
-
 }
