@@ -8,11 +8,9 @@ import jetbrains.mps.textGen.TextGenManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class GIndentBlock_TextGen extends SNodeTextGen {
-
   public void doGenerateText(SNode node) {
     this.increaseDepth();
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "itemList", true), this.getSNode());
     this.decreaseDepth();
   }
-
 }

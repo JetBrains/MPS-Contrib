@@ -16,7 +16,6 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 
 public class GText_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createProperty_7704_0(editorContext, node);
   }
@@ -43,5 +42,4 @@ public class GText_Editor extends DefaultNodeEditor {
     } else
     return editorCell;
   }
-
 }

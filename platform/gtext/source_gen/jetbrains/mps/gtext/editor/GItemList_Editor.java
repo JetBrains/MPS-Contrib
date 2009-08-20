@@ -23,7 +23,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GItemList_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createAlternation_9588_0(editorContext, node);
   }
@@ -34,8 +33,7 @@ public class GItemList_Editor extends DefaultNodeEditor {
     EditorCell editorCell = null;
     if (alternationCondition) {
       editorCell = this.createCollection_9588_1(editorContext, node);
-    } else
-    {
+    } else {
       editorCell = this.createCollection_9588_0(editorContext, node);
     }
     return editorCell;
@@ -104,13 +102,11 @@ public class GItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition9588_0(SNode node, EditorContext editorContext, IScope scope) {
     return GItem_Behavior.call_isComplex_1213877298853(node);
   }
 
   private static class itemListHandler_9588_0 extends RefNodeListHandler {
-
     public itemListHandler_9588_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -150,10 +146,9 @@ public class GItemList_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
+  }
 
-}
   private static class itemListHandler_9588_1 extends RefNodeListHandler {
-
     public itemListHandler_9588_1(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -193,7 +188,5 @@ public class GItemList_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }

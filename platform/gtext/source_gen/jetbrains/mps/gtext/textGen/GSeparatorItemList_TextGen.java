@@ -9,14 +9,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.textGen.TextGenManager;
 
 public class GSeparatorItemList_TextGen extends SNodeTextGen {
-
   public void doGenerateText(SNode node) {
-    for(SNode item : SLinkOperations.getTargets(node, "item", true)) {
+    for (SNode item : SLinkOperations.getTargets(node, "item", true)) {
       if (item != ListSequence.fromList(SLinkOperations.getTargets(node, "item", true)).first()) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "separator", true), this.getSNode());
       }
       TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
     }
   }
-
 }

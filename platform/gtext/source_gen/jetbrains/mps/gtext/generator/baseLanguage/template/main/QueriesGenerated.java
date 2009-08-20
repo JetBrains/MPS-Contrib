@@ -17,7 +17,6 @@ import jetbrains.mps.generator.template.MappingScriptContext;
 import jetbrains.mps.gtext.generator.baseLanguage.template.util.GTextUtil;
 
 public class QueriesGenerated {
-
   public static boolean baseMappingRule_Condition_4246810654489780485(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return GTextConcept_Behavior.call_shouldBeReduced_1213877310935(_context.getNode());
   }
@@ -105,5 +104,4 @@ public class QueriesGenerated {
   public static void mappingScript_CodeBlock_1196149742907(final IOperationContext operationContext, final MappingScriptContext _context) {
     GTextUtil.optimize(_context.getModel());
   }
-
 }

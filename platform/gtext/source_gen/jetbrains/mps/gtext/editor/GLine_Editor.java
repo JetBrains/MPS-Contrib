@@ -21,7 +21,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 import jetbrains.mps.nodeEditor.MPSColors;
 
 public class GLine_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_6865_0(editorContext, node);
   }
@@ -54,7 +53,6 @@ public class GLine_Editor extends DefaultNodeEditor {
   }
 
   private static class itemListHandler_6865_0 extends RefNodeListHandler {
-
     public itemListHandler_6865_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -110,7 +108,5 @@ public class GLine_Editor extends DefaultNodeEditor {
       editorCell.setDefaultText("");
       return editorCell;
     }
-
-}
-
+  }
 }

@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.gtext.behavior.GCompositeItem_Behavior;
 
 public class GTextOptimizer {
-
   public static SNode optimize(SNode item, boolean mayReplace) {
     if (SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GConditionalLine") || SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GLine")) {
       if (optimizeItems(item) == 1 && mayReplace && SNodeOperations.isInstanceOf(item, "jetbrains.mps.gtext.structure.GItemList")) {
@@ -31,7 +30,7 @@ public class GTextOptimizer {
   public static int optimizeItems(SNode item) {
     // inline item lists
     SNode n = item;
-    for(SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
+    for (SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
       SNode optChild = optimize(child);
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GItemList")) {
         inlineChildren(optChild, optChild);
@@ -60,20 +59,18 @@ public class GTextOptimizer {
     }
     // concat text
     SNode t = null;
-    for(SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
+    for (SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
       if (SNodeOperations.isInstanceOf(child, "jetbrains.mps.gtext.structure.GText")) {
         if (t == null) {
           t = SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText");
-        } else
-        {
+        } else {
           String text = SPropertyOperations.getString(SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText"), "text");
           if (text != null) {
             SPropertyOperations.set(t, "text", SPropertyOperations.getString(t, "text") + text);
           }
           SNodeOperations.deleteNode(child);
         }
-      } else
-      {
+      } else {
         t = null;
       }
     }
@@ -90,5 +87,4 @@ public class GTextOptimizer {
     }
     return nc;
   }
-
 }

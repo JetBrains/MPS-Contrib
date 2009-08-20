@@ -22,7 +22,6 @@ public class BinaryOperation_LeftArgument_Actions {
       this.myNode = node;
     }
 
-
     public String getDescriptionText() {
       return "replace binary operation wiht right argument";
     }

@@ -23,5 +23,4 @@ public class GItem_Behavior {
   public static boolean callSuper_isComplex_1213877298853(SNode thisNode, String callerConceptFqName) {
     return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GItem"), callerConceptFqName, "virtual_isComplex_1213877298853", PARAMETERS_1213877298853);
   }
-
 }

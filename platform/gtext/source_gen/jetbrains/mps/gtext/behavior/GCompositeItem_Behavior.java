@@ -20,5 +20,4 @@ public class GCompositeItem_Behavior {
   public static List<SNode> callSuper_getItems_1239125087745(SNode thisNode, String callerConceptFqName) {
     return (List<SNode>)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.gtext.structure.GCompositeItem"), callerConceptFqName, "virtual_getItems_1239125087745", PARAMETERS_1239125087745);
   }
-
 }

@@ -10,13 +10,12 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.textGen.TextGenManager;
 
 public class GConditionalLine_TextGen extends SNodeTextGen {
-
   public void doGenerateText(SNode node) {
     if (SPropertyOperations.getBoolean(node, "isSeparate")) {
       this.indentBuffer();
     }
     if (ListSequence.fromList(SLinkOperations.getTargets(node, "item", true)).isNotEmpty()) {
-      for(SNode item : SLinkOperations.getTargets(node, "item", true)) {
+      for (SNode item : SLinkOperations.getTargets(node, "item", true)) {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
@@ -24,5 +23,4 @@ public class GConditionalLine_TextGen extends SNodeTextGen {
       this.appendNewLine();
     }
   }
-
 }

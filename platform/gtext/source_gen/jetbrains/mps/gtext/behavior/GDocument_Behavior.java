@@ -5,8 +5,6 @@ package jetbrains.mps.gtext.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class GDocument_Behavior {
-
   public static void init(SNode thisNode) {
   }
-
 }
