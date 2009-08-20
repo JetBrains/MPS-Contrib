@@ -9,7 +9,6 @@ import jetbrains.mps.nodeEditor.MPSColors;
 import jetbrains.mps.nodeEditor.MPSFonts;
 
 public class Stylesheet_StyleSheet {
-
   public static Style getAttribute(final EditorCell cell) {
     Style style = new Style(cell);
     style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
@@ -51,5 +50,4 @@ public class Stylesheet_StyleSheet {
     style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     return style;
   }
-
 }

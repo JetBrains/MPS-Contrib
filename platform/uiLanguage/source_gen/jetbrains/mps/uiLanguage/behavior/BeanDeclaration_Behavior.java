@@ -11,7 +11,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class BeanDeclaration_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
@@ -28,5 +27,4 @@ public class BeanDeclaration_Behavior {
     SLinkOperations.setTarget(type, "bean", thisNode, false);
     return type;
   }
-
 }

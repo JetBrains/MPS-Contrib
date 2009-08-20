@@ -15,7 +15,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
-
   public subtyping_ComponentType_SubtypingRule() {
   }
 
@@ -42,5 +41,4 @@ public class subtyping_ComponentType_SubtypingRule extends SubtypingRule_Runtime
   public boolean isWeak() {
     return false;
   }
-
 }

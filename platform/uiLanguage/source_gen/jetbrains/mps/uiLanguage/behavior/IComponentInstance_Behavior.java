@@ -16,8 +16,7 @@ public class IComponentInstance_Behavior {
   }
 
   public static SNode call_getLayoutConstraint_1213877498060(SNode thisNode) {
-    return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "content", true)).where(new IWhereFilter <SNode>() {
-
+    return SNodeOperations.cast(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "content", true)).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
         return SNodeOperations.isInstanceOf(it, "jetbrains.mps.uiLanguage.structure.LayoutConstraint");
       }
@@ -35,5 +34,4 @@ public class IComponentInstance_Behavior {
   public static SNode callSuper_getExtendedComponent_1213877498080(SNode thisNode, String callerConceptFqName) {
     return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.uiLanguage.structure.IComponentInstance"), callerConceptFqName, "virtual_getExtendedComponent_1213877498080", PARAMETERS_1213877498080);
   }
-
 }

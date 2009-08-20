@@ -12,7 +12,6 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
 
 public class QueriesGenerated {
-
   public static Object propertyMacro_GetPropertyValue_1202833834564(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "text");
   }
@@ -32,5 +31,4 @@ public class QueriesGenerated {
   public static SNode weaving_MappingRule_ContextNodeQuery_1202834159580(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
     return _context.getCopiedOutputNodeForInputNode(SLinkOperations.getTarget(_context.getNode(), "rootComponent", true));
   }
-
 }
