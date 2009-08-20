@@ -286,6 +286,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="353793545802643469">
     <property name="name" value="AttributeDeclaration" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="353793545802643470">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
@@ -348,6 +349,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="353793545802643483">
     <property name="name" value="TaskInterfaceDeclaration" />
     <property name="rootable" value="true" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="353793545802643486" resolveInfo="GenericTaskDeclaration" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643484">
       <property name="metaClass" value="aggregation" />
@@ -363,6 +365,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="353793545802643486">
     <property name="name" value="BuiltInTaskDeclaration" />
     <property name="rootable" value="true" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643489">
       <property name="metaClass" value="aggregation" />
@@ -387,6 +390,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="353793545802643498">
     <property name="name" value="NestedDeclaration" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="3037831562615764081" resolveInfo="Reference" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="353793545802643499">
       <property name="metaClass" value="aggregation" />
@@ -418,7 +422,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8241842287689193814">
     <property name="name" value="CustomTaskDeclaration" />
-    <property name="package" value="CustomTasks" />
+    <property name="package" value="Declarations.Custom" />
     <property name="rootable" value="true" />
     <link role="extends" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1445805690439923998">
@@ -427,13 +431,19 @@
       <property name="sourceCardinality" value="0..1" />
       <link role="target" targetNodeId="1445805690439914321" resolveInfo="ExecuteTaskBlock" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="373392210222575167">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="nested" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="373392210222527235" resolveInfo="CustomNestedDeclaration" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="8233904257588170335">
       <property name="value" value="custom task declaration" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1445805690439914321">
-    <property name="package" value="CustomTasks" />
+    <property name="package" value="Declarations.Custom" />
     <property name="name" value="ExecuteTaskBlock" />
     <link role="extends" targetNodeId="3.1137021947720" resolveInfo="ConceptFunction" />
     <node role="conceptLink" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink" id="1445805690439923996">
@@ -449,7 +459,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1445805690440174700">
-    <property name="package" value="CustomTasks" />
+    <property name="package" value="Declarations.Custom" />
     <property name="name" value="AttributeReference" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1445805690440240799">
@@ -465,6 +475,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1191515374482103179">
     <property name="name" value="AbstractTaskDeclaration" />
+    <property name="package" value="Declarations" />
     <link role="extends" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1191515374482272893">
       <property name="name" value="classname" />
@@ -501,6 +512,24 @@
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1191515374482685363">
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="373392210222527235">
+    <property name="package" value="Declarations.Custom" />
+    <property name="name" value="CustomNestedDeclaration" />
+    <link role="extends" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="373392210222527236">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="type" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="373392210222527237">
+      <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="373392210222854623">
+      <property name="name" value="allowMany" />
+      <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
     </node>
   </node>
 </model>

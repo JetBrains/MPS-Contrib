@@ -98,6 +98,7 @@
   </node>
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="353793545802643810">
+    <property name="package" value="Declarations" />
     <link role="concept" targetNodeId="1.353793545802643469" resolveInfo="GenericAttributeDeclaration" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="353793545802643811">
       <property name="name" value="isRequired" />
@@ -556,6 +557,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="353793545802644070">
+    <property name="package" value="Declarations" />
     <link role="concept" targetNodeId="1.353793545802643486" resolveInfo="GenericTaskDeclaration" />
     <node role="staticMethod" type="jetbrains.mps.lang.behavior.structure.StaticConceptMethodDeclaration" id="1445805690439864419">
       <property name="name" value="isInGeneratedModels" />
@@ -1814,7 +1816,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="8233904257588554673">
-    <property name="package" value="CustomTasks" />
+    <property name="package" value="Declarations.Custom" />
     <link role="concept" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1191515374482730820">
       <property name="name" value="getPossibleNesteds" />
@@ -1845,6 +1847,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1191515374482685345">
+    <property name="package" value="Declarations" />
     <link role="concept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1191515374482731138">
       <property name="name" value="isAbstract" />
@@ -1899,6 +1902,113 @@
     </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1191515374482685346">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1191515374482685347" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="373392210222777134">
+    <property name="package" value="Declarations.Custom" />
+    <link role="concept" targetNodeId="1.373392210222527235" resolveInfo="CustomNestedDeclaration" />
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="373392210222777137">
+      <property name="name" value="getCapitalName" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="373392210222777138" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.StringType" id="373392210222778323" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="373392210222777140">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="373392210222778369">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="373392210222778371">
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778372">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778373">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778374">
+                  <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="373392210222778375" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="373392210222778376">
+                    <link role="property" targetNodeId="2v.1169194664001" resolveInfo="name" />
+                  </node>
+                </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="373392210222778377">
+                  <link role="baseMethodDeclaration" targetNodeId="4.~String.substring(int,int):java.lang.String" resolveInfo="substring" />
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="373392210222778378">
+                    <property name="value" value="0" />
+                  </node>
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="373392210222778379">
+                    <property name="value" value="1" />
+                  </node>
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="373392210222778380">
+                <link role="baseMethodDeclaration" targetNodeId="4.~String.toUpperCase():java.lang.String" resolveInfo="toUpperCase" />
+              </node>
+            </node>
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778381">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778382">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778383">
+                  <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="373392210222778384" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="373392210222778385">
+                    <link role="property" targetNodeId="2v.1169194664001" resolveInfo="name" />
+                  </node>
+                </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="373392210222778386">
+                  <link role="baseMethodDeclaration" targetNodeId="4.~String.substring(int):java.lang.String" resolveInfo="substring" />
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="373392210222778387">
+                    <property name="value" value="1" />
+                  </node>
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="373392210222778388">
+                <link role="baseMethodDeclaration" targetNodeId="4.~String.toLowerCase():java.lang.String" resolveInfo="toLowerCase" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="373392210222778389">
+      <property name="name" value="getPossibleNesteds" />
+      <link role="overriddenMethod" targetNodeId="1191515374482689153" resolveInfo="getPossibleNesteds" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="373392210222778390" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="373392210222778392">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="373392210222778396">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778403">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222778399">
+              <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="373392210222778400" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="373392210222778402">
+                <link role="link" targetNodeId="1.373392210222527236" />
+              </node>
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="373392210222778407">
+              <link role="baseMethodDeclaration" targetNodeId="1191515374482689153" resolveInfo="getPossibleNesteds" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="373392210222778408">
+                <link role="variableDeclaration" targetNodeId="373392210222778393" resolveInfo="declarations" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="373392210222778393">
+        <property name="name" value="declarations" />
+        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="373392210222778394">
+          <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="373392210222778395">
+        <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+      </node>
+    </node>
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="373392210222912029">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="373392210222912030">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="373392210222912031">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222912036">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222912032">
+              <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="373392210222912033" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="373392210222912035">
+                <link role="property" targetNodeId="1.373392210222854623" resolveInfo="allowMany" />
+              </node>
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Property_SetOperation" id="373392210222912040">
+              <node role="value" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="373392210222912042">
+                <property name="value" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>

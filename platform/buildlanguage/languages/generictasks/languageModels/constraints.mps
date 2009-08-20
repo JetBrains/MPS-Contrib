@@ -700,10 +700,11 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="8233904257588554672">
-    <property name="package" value="CustomTasks" />
+    <property name="package" value="Declarations.Custom" />
     <link role="concept" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="8233904257588554705">
+    <property name="package" value="Declarations" />
     <link role="concept" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
     <node role="canBeRoot" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeARoot" id="8233904257588554706">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8233904257588554707">
@@ -718,6 +719,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1445805690439864464">
+    <property name="package" value="Declarations" />
     <link role="concept" targetNodeId="1.353793545802643483" resolveInfo="TaskInterfaceDeclaration" />
     <node role="canBeRoot" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeARoot" id="1445805690439864465">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1445805690439864466">
@@ -726,6 +728,24 @@
             <link role="concept" targetNodeId="1.353793545802643486" resolveInfo="TaskDeclaration" />
             <link role="baseMethodDeclaration" targetNodeId="2v.1445805690439864419" resolveInfo="isInGeneratedModels" />
             <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_operationContext" id="1445805690439864469" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="373392210222724712">
+    <property name="package" value="Declarations.Custom" />
+    <link role="concept" targetNodeId="1.373392210222527235" resolveInfo="CustomNestedDeclaration" />
+    <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="373392210222724713">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="373392210222724714">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="373392210222726414">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="373392210222726416">
+            <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="373392210222726415" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="373392210222726421">
+              <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="373392210222726423">
+                <link role="conceptDeclaration" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
+              </node>
+            </node>
           </node>
         </node>
       </node>

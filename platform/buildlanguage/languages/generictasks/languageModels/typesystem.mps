@@ -79,6 +79,7 @@
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" id="353793545802854619">
     <property name="name" value="chechAttributeDeclarationDefaultValueIsInEnum" />
+    <property name="package" value="Declarations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="353793545802854620">
       <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="353793545802854621">
         <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="353793545802854622">
@@ -223,6 +224,7 @@
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="353793545802854672">
     <property name="name" value="typeof_GenericAttributeDeclaration" />
+    <property name="package" value="Declarations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="353793545802854673">
       <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="353793545802854674">
         <node role="condition" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="353793545802854675">
@@ -329,6 +331,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule" id="353793545802854718">
     <property name="name" value="checkParentsOfInterfaceAreInterfaces" />
+    <property name="package" value="Declarations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="353793545802854719">
       <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="353793545802854720">
         <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="353793545802854721">
