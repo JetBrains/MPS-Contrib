@@ -12,7 +12,6 @@ import jetbrains.mps.uiLanguage.behavior.GridRow_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class QueriesGenerated {
-
   public static Object propertyMacro_GetPropertyValue_1202825165022(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return Grid_Behavior.call_getRowCount_1213877333382(_context.getNode());
   }
@@ -36,5 +35,4 @@ public class QueriesGenerated {
   public static Iterable sourceNodesQuery_1203604100897(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "content", true);
   }
-
 }

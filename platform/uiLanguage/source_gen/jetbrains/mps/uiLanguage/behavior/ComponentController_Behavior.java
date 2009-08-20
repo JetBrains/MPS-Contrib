@@ -6,12 +6,10 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ComponentController_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static SNode virtual_getMainClassifier_1213877255428(SNode thisNode) {
     return SLinkOperations.getTarget(thisNode, "component", false);
   }
-
 }

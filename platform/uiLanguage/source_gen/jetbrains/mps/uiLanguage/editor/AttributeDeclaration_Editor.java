@@ -22,7 +22,6 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class AttributeDeclaration_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_6802_0(editorContext, node);
   }
@@ -180,7 +179,6 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-
   private static boolean renderingCondition6802_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getTarget(node, "onChange", true) != null;
   }
@@ -188,5 +186,4 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   private static boolean renderingCondition6802_1(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getTarget(node, "initializer", true) != null;
   }
-
 }

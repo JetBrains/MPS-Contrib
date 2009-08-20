@@ -8,12 +8,10 @@ import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class ComponentType_Behavior {
-
   public static void init(SNode thisNode) {
   }
 
   public static List<SNode> virtual_getMembers_1213877402148(SNode thisNode, SNode contextNode) {
     return IClassifier_Behavior.call_getMembers_1213877528020(SLinkOperations.getTarget(thisNode, "component", false), contextNode);
   }
-
 }

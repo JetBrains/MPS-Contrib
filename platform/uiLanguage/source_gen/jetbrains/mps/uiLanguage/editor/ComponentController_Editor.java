@@ -28,7 +28,6 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultReferenceSubstituteInfo;
 import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class ComponentController_Editor extends DefaultNodeEditor {
-
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
     return this.createCollection_3923_0(editorContext, node);
   }
@@ -296,7 +295,6 @@ public class ComponentController_Editor extends DefaultNodeEditor {
   }
 
   public static class _Inline3923_0 extends AbstractCellProvider {
-
     public _Inline3923_0() {
       super();
     }
@@ -327,10 +325,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
       } else
       return editorCell;
     }
+  }
 
-}
   private static class attributeListHandler_3923_0 extends RefNodeListHandler {
-
     public attributeListHandler_3923_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -370,10 +367,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
+  }
 
-}
   private static class componentMethodListHandler_3923_0 extends RefNodeListHandler {
-
     public componentMethodListHandler_3923_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -413,10 +409,9 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
+  }
 
-}
   private static class eventListHandler_3923_0 extends RefNodeListHandler {
-
     public eventListHandler_3923_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
@@ -456,7 +451,5 @@ public class ComponentController_Editor extends DefaultNodeEditor {
     public EditorCell createSeparatorCell(EditorContext editorContext) {
       return super.createSeparatorCell(editorContext);
     }
-
-}
-
+  }
 }
