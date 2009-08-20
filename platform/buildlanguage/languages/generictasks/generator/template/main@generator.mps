@@ -662,19 +662,6 @@
         </node>
       </node>
     </node>
-    <node role="property" type="jetbrains.mps.baseLanguage.structure.Property" id="7156220466231764620">
-      <property name="propertyName" value="LOOK_HERE" />
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="7156220466231764621" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7156220466231766766">
-        <link role="classifier" targetNodeId="8233904257588044661" resolveInfo="CustomTask" />
-      </node>
-      <node role="propertyImplementation" type="jetbrains.mps.baseLanguage.structure.DefaultPropertyImplementation" id="7156220466231764623">
-        <node role="defaultGetAccessor" type="jetbrains.mps.baseLanguage.structure.DefaultGetAccessor" id="7156220466231764624" />
-        <node role="defaultSetAccessor" type="jetbrains.mps.baseLanguage.structure.DefaultSetAccessor" id="7156220466231764625">
-          <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="7156220466231764626" />
-        </node>
-      </node>
-    </node>
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="8233904257588044662" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="8233904257588044663">
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="8233904257588044664" />
