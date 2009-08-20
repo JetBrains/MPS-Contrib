@@ -19,7 +19,6 @@ import java.util.concurrent.CyclicBarrier;
 import jetbrains.mps.logging.Logger;
 
 public class UnitTestRunner extends BaseRunner {
-
   private JUnitTestViewComponent myComponent;
   private UnitTest_PreferencesComponent unitTestPreferences;
 
@@ -30,12 +29,11 @@ public class UnitTestRunner extends BaseRunner {
 
   public void run(List<SNode> tests) {
     final Map<TestRunParameters, List<SNode>> map = MapSequence.fromMap(new LinkedHashMap<TestRunParameters, List<SNode>>(16, (float)0.75, false));
-    for(SNode test : ListSequence.fromList(tests)) {
+    for (SNode test : ListSequence.fromList(tests)) {
       TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
       if (MapSequence.fromMap(map).containsKey(parameters)) {
         ListSequence.fromList(MapSequence.fromMap(map).get(parameters)).addElement(test);
-      } else
-      {
+      } else {
         List<SNode> t = ListSequence.fromList(new ArrayList<SNode>());
         ListSequence.fromList(t).addElement(test);
         MapSequence.fromMap(map).put(parameters, t);
@@ -43,9 +41,8 @@ public class UnitTestRunner extends BaseRunner {
     }
     final UnitTestRunner runner = this;
     Thread thread = new Thread(new Runnable() {
-
       public void run() {
-        for(TestRunParameters key : SetSequence.fromSet(MapSequence.fromMap(map).keySet())) {
+        for (TestRunParameters key : SetSequence.fromSet(MapSequence.fromMap(map).keySet())) {
           runner.runTestWithParameters(key, MapSequence.fromMap(map).get(key));
         }
       }
@@ -62,16 +59,14 @@ public class UnitTestRunner extends BaseRunner {
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
     ModelAccess.instance().runReadAction(new Runnable() {
-
       public void run() {
         UnitTestRunner.this.addClassPath(params, UnitTestRunner.this.getClasspathString(ListSequence.fromList(tests).first(), parameters.getCalssPath()));
       }
     });
     ListSequence.fromList(params).addElement(parameters.getTestRunner());
     ModelAccess.instance().runReadAction(new Runnable() {
-
       public void run() {
-        for(SNode test : ListSequence.fromList(tests)) {
+        for (SNode test : ListSequence.fromList(tests)) {
           ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
         }
       }
@@ -83,7 +78,6 @@ public class UnitTestRunner extends BaseRunner {
       final UnitTestRunOutputReader outReader = new UnitTestRunOutputReader(pro.getInputStream(), this.myComponent, false);
       final UnitTestRunOutputReader errReader = new UnitTestRunOutputReader(pro.getErrorStream(), this.myComponent, true);
       this.myComponent.addCloseListener(new _FunctionTypes._void_P0_E0() {
-
         public void invoke() {
           outReader.interrupt();
           errReader.interrupt();
@@ -104,10 +98,9 @@ public class UnitTestRunner extends BaseRunner {
   public String getClasspathString(SNode node, List<String> addictionClassPath) {
     StringBuffer buff = new StringBuffer();
     buff.append(super.getClasspath(node));
-    for(String path : addictionClassPath) {
+    for (String path : addictionClassPath) {
       buff.append(path).append(BaseRunner.ps());
     }
     return buff.toString();
   }
-
 }
