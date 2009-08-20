@@ -247,6 +247,36 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="20">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MoveLinkUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="4204020193046331124" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="2631460705265241807" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="actualArgument" featureKind="CHILD" />
+          <value featureName="actualArgument" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractMethodCall" featureKind="CHILD" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
+    <refactoringContext modelVersion="21">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.MoveLinkUp" />
+      <moveMap>
+        <entry>
+          <key modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="4204020193045987732" />
+          <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="2631460705265414465" />
+        </entry>
+      </moveMap>
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="methodDeclaration" featureKind="REFERENCE" />
+          <value featureName="methodDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.AbstractMethodCall" featureKind="REFERENCE" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
@@ -272,7 +302,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c1(jetbrains.mps.buildlanguage.constraints)" version="32" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="19" />
+  <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <maxImportIndex value="4" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
@@ -545,20 +575,8 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4204020193045984321">
     <property name="package" value="Declarations.Custom" />
     <property name="name" value="AttributeMethodCall" />
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4204020193046331124">
-      <property name="sourceCardinality" value="0..n" />
-      <property name="role" value="actualArgument" />
-      <property name="metaClass" value="aggregation" />
-      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4204020193045987732">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="methodDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3.1068580123165" resolveInfo="InstanceMethodDeclaration" />
-    </node>
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="4204020193045984322">
+    <link role="extends" targetNodeId="8556692234561240528" resolveInfo="AbstractMethodCall" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="2631460705265707822">
       <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
     </node>
   </node>
@@ -575,6 +593,37 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="3874956854920828287">
       <property name="value" value="reference to task nested task" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="8556692234561240528">
+    <property name="package" value="Declarations.Custom" />
+    <property name="name" value="AbstractMethodCall" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="8556692234561240529">
+      <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2631460705265241807">
+      <property name="sourceCardinality" value="0..n" />
+      <property name="role" value="actualArgument" />
+      <property name="metaClass" value="aggregation" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="2631460705265414465">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="methodDeclaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068580123165" resolveInfo="InstanceMethodDeclaration" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="2631460705265506137">
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="2631460705265571485">
+    <property name="package" value="Declarations.Custom" />
+    <property name="name" value="CustomNestedMethodCall" />
+    <link role="extends" targetNodeId="8556692234561240528" resolveInfo="AbstractMethodCall" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="2631460705265707821">
+      <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
     </node>
   </node>
 </model>
