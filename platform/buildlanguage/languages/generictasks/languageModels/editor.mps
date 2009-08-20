@@ -1252,5 +1252,22 @@
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="4204020193046331126" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="3874956854920828289">
+    <property name="package" value="Declarations.Custom" />
+    <link role="conceptDeclaration" targetNodeId="1.3874956854920828284" resolveInfo="CustomNestedReference" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="3874956854920828291">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="3874956854920828294">
+        <link role="relationDeclaration" targetNodeId="1.3874956854920828288" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="3874956854920828295">
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="3874956854920828297">
+            <property name="readOnly" value="true" />
+            <link role="relationDeclaration" targetNodeId="2v.1169194664001" resolveInfo="name" />
+            <link role="styleClass" targetNodeId="4v.1198595398954" resolveInfo="Field" />
+          </node>
+        </node>
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="3874956854920828293" />
+    </node>
+  </node>
 </model>
 
