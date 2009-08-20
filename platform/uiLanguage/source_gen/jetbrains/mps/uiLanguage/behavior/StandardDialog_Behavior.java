@@ -6,10 +6,12 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class StandardDialog_Behavior {
+
   public static void init(SNode thisNode) {
   }
 
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
     return SLinkOperations.getTarget(new _Quotations.QuotationClass_1().createNode(), "componentDeclaration", false);
   }
+
 }

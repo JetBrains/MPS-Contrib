@@ -5,6 +5,8 @@ package jetbrains.mps.uiLanguage.behavior;
 import jetbrains.mps.smodel.SNode;
 
 public class RemoveListenerOperation_Behavior {
+
   public static void init(SNode thisNode) {
   }
+
 }

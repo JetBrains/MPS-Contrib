@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class BindExpression_Behavior {
+
   public static void init(SNode thisNode) {
   }
 
@@ -42,4 +43,5 @@ public class BindExpression_Behavior {
     }
     throw new RuntimeException();
   }
+
 }

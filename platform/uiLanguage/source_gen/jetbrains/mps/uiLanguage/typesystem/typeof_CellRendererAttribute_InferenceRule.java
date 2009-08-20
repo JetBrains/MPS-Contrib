@@ -13,6 +13,7 @@ import jetbrains.mps.uiLanguage.behavior.CellRendererAttribute_Behavior;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class typeof_CellRendererAttribute_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
+
   public typeof_CellRendererAttribute_InferenceRule() {
   }
 
@@ -35,4 +36,5 @@ public class typeof_CellRendererAttribute_InferenceRule extends AbstractInferenc
   public boolean overrides() {
     return false;
   }
+
 }

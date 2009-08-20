@@ -9,6 +9,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class AddInitializer_Intention extends BaseIntention {
+
   public AddInitializer_Intention() {
   }
 
@@ -52,4 +53,5 @@ public class AddInitializer_Intention extends BaseIntention {
   public String getLocationString() {
     return "jetbrains.mps.uiLanguage.intentions";
   }
+
 }

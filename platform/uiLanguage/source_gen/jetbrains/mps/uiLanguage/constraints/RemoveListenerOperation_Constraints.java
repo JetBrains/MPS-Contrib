@@ -8,6 +8,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class RemoveListenerOperation_Constraints {
+
   public static boolean canBeAParent(final IOperationContext operationContext, final CanBeAParentContext _context) {
     if (SNodeOperations.hasRole(_context.getLink(), "jetbrains.mps.baseLanguage.structure.BinaryOperation", "leftExpression")) {
       if (!(SNodeOperations.isInstanceOf(_context.getNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"))) {
@@ -24,4 +25,5 @@ public class RemoveListenerOperation_Constraints {
     }
     return true;
   }
+
 }

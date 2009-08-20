@@ -7,6 +7,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class Grid_Behavior {
+
   public static void init(SNode thisNode) {
   }
 
@@ -16,9 +17,10 @@ public class Grid_Behavior {
 
   public static int call_getColumnsCount_1213877333391(SNode thisNode) {
     int columnsCount = 0;
-    for (SNode row : SLinkOperations.getTargets(thisNode, "row", true)) {
+    for(SNode row : SLinkOperations.getTargets(thisNode, "row", true)) {
       columnsCount = Math.max(columnsCount, ListSequence.fromList(SLinkOperations.getTargets(row, "component", true)).count());
     }
     return columnsCount;
   }
+
 }

@@ -18,6 +18,7 @@ import jetbrains.mps.util.Condition;
 import jetbrains.mps.util.NameUtil;
 
 public class QueriesGenerated {
+
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_1208687331562(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     return SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.AddListenerOperation") || SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.RemoveListenerOperation");
   }
@@ -34,6 +35,7 @@ public class QueriesGenerated {
       final SNode concept = current.getOutputConcept();
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.Expression");
       Condition cond = new Condition() {
+
         public boolean met(Object object) {
           return !(SConceptOperations.isExactly(concept, "jetbrains.mps.uiLanguage.structure.EventHandlerReference"));
         }
@@ -43,4 +45,5 @@ public class QueriesGenerated {
       }
     }
   }
+
 }

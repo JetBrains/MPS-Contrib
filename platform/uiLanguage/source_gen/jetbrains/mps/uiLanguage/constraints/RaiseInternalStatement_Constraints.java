@@ -7,7 +7,9 @@ import jetbrains.mps.smodel.constraints.CanBeAChildContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class RaiseInternalStatement_Constraints {
+
   public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
     return SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.EventDeclaration", false, false) != null;
   }
+
 }

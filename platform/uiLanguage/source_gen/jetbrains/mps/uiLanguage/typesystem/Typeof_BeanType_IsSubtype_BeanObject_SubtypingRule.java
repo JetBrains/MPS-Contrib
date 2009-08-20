@@ -9,6 +9,7 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
+
   public Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule() {
   }
 
@@ -27,4 +28,5 @@ public class Typeof_BeanType_IsSubtype_BeanObject_SubtypingRule extends Subtypin
   public boolean isWeak() {
     return false;
   }
+
 }

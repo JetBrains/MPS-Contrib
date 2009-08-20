@@ -17,6 +17,7 @@ import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifier_Behavior;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IClassifierPart_Behavior;
 
 public class ComponentDeclaration_Behavior {
+
   public static void init(SNode thisNode) {
   }
 
@@ -36,7 +37,8 @@ public class ComponentDeclaration_Behavior {
 
   public static SNode call_getController_1213877495364(SNode thisNode) {
     final SNode component = thisNode;
-    return ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(thisNode), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter<SNode>() {
+    return ListSequence.fromList(SModelOperations.getRoots(SNodeOperations.getModel(thisNode), "jetbrains.mps.uiLanguage.structure.ComponentController")).where(new IWhereFilter <SNode>() {
+
       public boolean accept(SNode it) {
         return SLinkOperations.getTarget(it, "component", false) == component;
       }
@@ -120,4 +122,5 @@ public class ComponentDeclaration_Behavior {
     }
     return result;
   }
+
 }
