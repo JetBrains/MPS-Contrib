@@ -4,6 +4,9 @@ package jetbrains.mps.build.generictasks.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import java.io.File;
 
 public class AttributeDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -21,5 +24,19 @@ public class AttributeDeclaration_Behavior {
 
   public static boolean call_equals_353793545802643827(SNode thisNode, SNode decl) {
     return SPropertyOperations.getString(thisNode, "name").equals(SPropertyOperations.getString(decl, "name"));
+  }
+
+  public static String call_getRealClassName_4585165390551294438(SNode thisNode) {
+    if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.FileType")) {
+      return File.class.getName();
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.StringType")) {
+      return String.class.getName();
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.BooleanType")) {
+      return Integer.class.getName();
+    } else if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(thisNode, "attributeType", true), "jetbrains.mps.buildlanguage.structure.IntegerType")) {
+      return Boolean.class.getName();
+    } else {
+      return Object.class.getName();
+    }
   }
 }
