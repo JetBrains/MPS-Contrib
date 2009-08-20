@@ -64,6 +64,7 @@ public class GenericAttributeDeclarationInEnum_EditorComponent extends AbstractC
     return editorCell;
   }
 
+
   private static boolean renderingCondition4612_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }

@@ -158,6 +158,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+
   private static boolean renderingCondition0922_0(SNode node, EditorContext editorContext, IScope scope) {
     return SLinkOperations.getCount(node, "interfaces") > 0;
   }

@@ -284,6 +284,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+
   private static boolean renderingCondition7193_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getString(node, "shortDescription") != null;
   }

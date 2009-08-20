@@ -268,6 +268,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
     return editorCell;
   }
 
+
   private static boolean renderingCondition1965_0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "canHaveInternalText");
   }

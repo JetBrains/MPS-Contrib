@@ -108,6 +108,7 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     return editorCell;
   }
 
+
   private static boolean renderingCondition4307_0(SNode node, EditorContext editorContext, IScope scope) {
     return !(AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false)));
   }
