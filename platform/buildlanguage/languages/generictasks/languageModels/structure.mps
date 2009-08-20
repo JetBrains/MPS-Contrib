@@ -232,7 +232,7 @@
       <moveMap />
       <conceptFeatureMap>
         <entry>
-          <key featureName="ATaskDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.ATaskDeclaration" featureKind="CONCEPT" />
+          <key featureName="TaskDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.TaskDeclaration" featureKind="CONCEPT" />
           <value featureName="BuiltInTaskDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration" featureKind="CONCEPT" />
         </entry>
       </conceptFeatureMap>
