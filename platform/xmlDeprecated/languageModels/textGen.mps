@@ -5,7 +5,7 @@
   <language namespace="b83431fe-5c8f-40bc-8a36-65e25f4dd253(jetbrains.mps.lang.textGen)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
-  <languageAspect modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="8" />
+  <languageAspect modelUID="r:de0d3c0c-d049-41cf-bbf9-a920ba513cd3(jetbrains.mps.lang.textGen.structure)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="1" />
@@ -73,7 +73,7 @@
         </node>
       </node>
     </node>
-    <node role="extention" type="jetbrains.mps.lang.textGen.structure.ExtentionDeclaration" id="7547703063484778805">
+    <node role="extension" type="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration" id="7547703063484778805">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7547703063484778806">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7547703063484778807">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="7547703063484778808">

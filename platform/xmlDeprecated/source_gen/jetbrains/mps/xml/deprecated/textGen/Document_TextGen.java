@@ -17,7 +17,7 @@ public class Document_TextGen extends SNodeTextGen {
     TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), SLinkOperations.getTarget(node, "rootElement", true), this.getSNode());
   }
 
-  public String getExtention(SNode node) {
+  public String getExtension(SNode node) {
     return (SPropertyOperations.getString(node, "extension") == null ?
       "xml" :
       SPropertyOperations.getString(node, "extension")

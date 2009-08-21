@@ -7,6 +7,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.textGen.TextGenManager;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 
 public class GDocument_TextGen extends SNodeTextGen {
   public void doGenerateText(SNode node) {
@@ -15,5 +16,9 @@ public class GDocument_TextGen extends SNodeTextGen {
         TextGenManager.instance().appendNodeText(this.getContext(), this.getBuffer(), item, this.getSNode());
       }
     }
+  }
+
+  public String getExtension(SNode node) {
+    return SPropertyOperations.getString(node, "extension");
   }
 }
