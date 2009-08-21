@@ -73,6 +73,41 @@
         </node>
       </node>
     </node>
+    <node role="extention" type="jetbrains.mps.lang.textGen.structure.ExtentionDeclaration" id="7547703063484778805">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7547703063484778806">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7547703063484778807">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="7547703063484778808">
+            <property name="value" value="xml" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="extension" type="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration" id="2341412953773657693">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2341412953773657700">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2341412953773657701">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="2341412953773657702">
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="2341412953773658078">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="2341412953773658081" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2341412953773657712">
+                <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="2341412953773657711" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="2341412953773657716">
+                  <link role="property" targetNodeId="1.1234428502488" resolveInfo="extension" />
+                </node>
+              </node>
+            </node>
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="2341412953773658082">
+              <property name="value" value="xml" />
+            </node>
+            <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2341412953773658084">
+              <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="2341412953773658083" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="2341412953773658088">
+                <link role="property" targetNodeId="1.1234428502488" resolveInfo="extension" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.textGen.structure.ConceptTextGenDeclaration" id="1238415474351">
