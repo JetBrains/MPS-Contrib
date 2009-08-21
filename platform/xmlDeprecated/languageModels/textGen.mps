@@ -73,15 +73,6 @@
         </node>
       </node>
     </node>
-    <node role="extension" type="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration" id="7547703063484778805">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7547703063484778806">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7547703063484778807">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="7547703063484778808">
-            <property name="value" value="xml" />
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="extension" type="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration" id="2341412953773657693">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2341412953773657700">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2341412953773657701">

@@ -91,18 +91,6 @@
         </node>
       </node>
     </node>
-    <node role="extension" type="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration" id="7547703063484774815">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7547703063484774816">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7547703063484774817">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7547703063484774819">
-            <node role="operand" type="jetbrains.mps.lang.textGen.structure.NodeParameter" id="7547703063484774818" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="7547703063484774823">
-              <link role="property" targetNodeId="1.1184639664013" resolveInfo="extension" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="extension" type="jetbrains.mps.lang.textGen.structure.ExtensionDeclaration" id="9098138405996044049">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="9098138405996044050">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="9098138405996044051">
