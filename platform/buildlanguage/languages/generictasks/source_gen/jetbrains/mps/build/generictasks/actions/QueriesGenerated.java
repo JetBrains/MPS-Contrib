@@ -35,7 +35,7 @@ public class QueriesGenerated {
   }
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_IOperation_8167803625326067082(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    return SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression") && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operation", true), "jetbrains.mps.build.generictasks.structure.CustomNestedReference");
+    return SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression") && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true), "jetbrains.mps.build.generictasks.structure.CustomNestedReference");
   }
 
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_353793545802854368(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -149,12 +149,12 @@ public class QueriesGenerated {
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_IOperation_8167803625326067081(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.build.generictasks.structure.CustomNestedReference");
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.build.generictasks.structure.CustomNestedMethodCall");
       SNode childConcept = (SNode)_context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Calculable calc = new Calculable() {
           public Object calculate() {
-            return Sequence.fromIterable(AbstractMethodCall_Behavior.call_getMethods_8167803625326067118(SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.CustomNestedDeclaration", null), SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true), _context.getModel(), operationContext.getScope())).toListSequence();
+            return Sequence.fromIterable(AbstractMethodCall_Behavior.call_getMethods_8167803625326067118(SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.CustomNestedMethodCall", null), SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true), _context.getModel(), operationContext.getScope())).toListSequence();
           }
         };
         Iterable<SNode> queryResult = (Iterable)calc.calculate();
@@ -162,7 +162,7 @@ public class QueriesGenerated {
           for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
               public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-                SNode call = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeMethodCall", null);
+                SNode call = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.CustomNestedMethodCall", null);
                 SLinkOperations.setTarget(call, "methodDeclaration", (item), false);
                 return call;
               }

@@ -1135,6 +1135,18 @@
             </node>
             <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1191515374481715106" />
           </node>
+          <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="8208147803461374972" />
+          <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8208147803461374974">
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="8208147803461374975">
+              <property name="flag" value="false" />
+            </node>
+            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="8208147803461374978" />
+            <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="8208147803461374980">
+              <link role="relationDeclaration" targetNodeId="1.8208147803461330479" />
+              <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="8208147803461374982" />
+            </node>
+            <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="8208147803461374977" />
+          </node>
           <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="1191515374481715099" />
         </node>
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1191515374481607012" />
@@ -1243,19 +1255,21 @@
         <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="2631460705265506148">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2631460705265506149">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2631460705265506150">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265506151">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265506152">
-                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265506153">
-                    <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="2631460705265506154" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2631460705265506155">
-                      <link role="link" targetNodeId="1.2631460705265414465" />
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8425667428462998861">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265506151">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265506152">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265506153">
+                      <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="2631460705265506154" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2631460705265506155">
+                        <link role="link" targetNodeId="1.2631460705265414465" />
+                      </node>
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="2631460705265506156">
+                      <link role="link" targetNodeId="5v.1068580123134" />
                     </node>
                   </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="2631460705265506156">
-                    <link role="link" targetNodeId="5v.1068580123134" />
-                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" id="2631460705265506157" />
                 </node>
-                <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.IsEmptyOperation" id="2631460705265506157" />
               </node>
             </node>
           </node>

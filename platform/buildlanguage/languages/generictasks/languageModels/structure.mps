@@ -327,7 +327,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="353793545802643469">
     <property name="name" value="AttributeDeclaration" />
     <property name="package" value="Declarations" />
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <link role="extends" targetNodeId="4.1213999088275" resolveInfo="DefaultClassifierFieldDeclaration" />
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="353793545802643470">
       <link role="intfc" targetNodeId="2v.1169194658468" resolveInfo="INamedConcept" />
     </node>
@@ -477,9 +477,18 @@
       <property name="sourceCardinality" value="0..n" />
       <link role="target" targetNodeId="373392210222527235" resolveInfo="CustomNestedDeclaration" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="8208147803461330479">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="method" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="4.1205769003971" resolveInfo="DefaultClassifierMethodDeclaration" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="8233904257588170335">
       <property name="value" value="custom task declaration" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="3179085178683966465">
+      <link role="intfc" targetNodeId="4.1205751982837" resolveInfo="IClassifier" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1445805690439914321">
@@ -612,7 +621,7 @@
       <property name="metaClass" value="reference" />
       <property name="role" value="methodDeclaration" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3.1068580123165" resolveInfo="InstanceMethodDeclaration" />
+      <link role="target" targetNodeId="3.1068580123132" resolveInfo="BaseMethodDeclaration" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="2631460705265506137">
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />

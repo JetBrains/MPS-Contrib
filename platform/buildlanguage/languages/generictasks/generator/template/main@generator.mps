@@ -9,6 +9,7 @@
   <language namespace="823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml.deprecated)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
+  <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
@@ -43,6 +44,7 @@
   <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
+  <language-engaged-on-generation namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="11" />
   <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="21" />
@@ -86,6 +88,7 @@
       </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="3874956854920914880">
+      <property name="applyToConceptInheritors" value="true" />
       <link role="applicableConcept" targetNodeId="1.8556692234561240528" resolveInfo="AbstractMethodCall" />
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="3874956854920919966">
         <link role="template" targetNodeId="3874956854920919964" resolveInfo="reduce_AttributeMethodCall" />
@@ -629,6 +632,26 @@
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="373392210222778450">
                   <property name="value" value="addConfigured" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="7789994764604180042">
+      <property name="name" value="helperMethods" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="7789994764604180043" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="7789994764604180044" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7789994764604180045" />
+      <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcListMacro" id="3340126824940128">
+        <node role="sourceNodesQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" id="3340126824940129">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3340126824940130">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3340126824942262">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3340126824942264">
+                <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="3340126824942263" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="3340126824942268">
+                  <link role="link" targetNodeId="1.8208147803461330479" />
                 </node>
               </node>
             </node>

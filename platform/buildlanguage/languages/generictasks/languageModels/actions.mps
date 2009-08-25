@@ -357,7 +357,7 @@
         <link role="concept" targetNodeId="1.4204020193045984321" resolveInfo="AttributeMethodCall" />
         <node role="part" type="jetbrains.mps.lang.actions.structure.ParameterizedSubstituteMenuPart" id="8167803625326067101">
           <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="8167803625326067107">
-            <link role="concept" targetNodeId="3v.1068580123165" resolveInfo="InstanceMethodDeclaration" />
+            <link role="concept" targetNodeId="3v.1068580123132" resolveInfo="BaseMethodDeclaration" />
           </node>
           <node role="query" type="jetbrains.mps.lang.actions.structure.QueryFunction_ParameterizedSubstitute_Query" id="8167803625326067103">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8167803625326067104">
@@ -477,8 +477,8 @@
                     <link role="concept" targetNodeId="3v.1197027756228" resolveInfo="DotExpression" />
                     <node role="leftExpression" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_parentNode" id="8167803625326067088" />
                   </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="8167803625326113766">
-                    <link role="link" targetNodeId="3v.1197027833540" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="3179085178684240423">
+                    <link role="link" targetNodeId="3v.1197027771414" />
                   </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="8167803625326067089">
@@ -500,10 +500,10 @@
         </node>
       </node>
       <node role="part" type="jetbrains.mps.lang.actions.structure.AddMenuPart" id="8167803625326069774">
-        <link role="concept" targetNodeId="1.3874956854920828284" resolveInfo="CustomNestedReference" />
+        <link role="concept" targetNodeId="1.2631460705265571485" resolveInfo="CustomNestedMethodCall" />
         <node role="part" type="jetbrains.mps.lang.actions.structure.ParameterizedSubstituteMenuPart" id="8167803625326069776">
           <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="8167803625326069782">
-            <link role="concept" targetNodeId="3v.1068580123165" resolveInfo="InstanceMethodDeclaration" />
+            <link role="concept" targetNodeId="3v.1068580123132" resolveInfo="BaseMethodDeclaration" />
           </node>
           <node role="query" type="jetbrains.mps.lang.actions.structure.QueryFunction_ParameterizedSubstitute_Query" id="8167803625326069778">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8167803625326069779">
@@ -513,7 +513,7 @@
                     <node role="operand" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="8167803625326069786">
                       <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeCreator" id="8167803625326069787">
                         <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="8167803625326069788">
-                          <link role="concept" targetNodeId="1.373392210222527235" resolveInfo="CustomNestedDeclaration" />
+                          <link role="concept" targetNodeId="1.2631460705265571485" resolveInfo="CustomNestedMethodCall" />
                         </node>
                       </node>
                     </node>
@@ -543,12 +543,12 @@
                 <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="8167803625326070836">
                   <property name="name" value="call" />
                   <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="8167803625326070837">
-                    <link role="concept" targetNodeId="1.4204020193045984321" resolveInfo="AttributeMethodCall" />
+                    <link role="concept" targetNodeId="1.2631460705265571485" resolveInfo="CustomNestedMethodCall" />
                   </node>
                   <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="8167803625326070838">
                     <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeCreator" id="8167803625326070839">
                       <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="8167803625326070840">
-                        <link role="concept" targetNodeId="1.4204020193045984321" resolveInfo="AttributeMethodCall" />
+                        <link role="concept" targetNodeId="1.2631460705265571485" resolveInfo="CustomNestedMethodCall" />
                       </node>
                     </node>
                   </node>
@@ -560,7 +560,7 @@
                     <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8167803625326070844">
                       <link role="variableDeclaration" targetNodeId="8167803625326070836" resolveInfo="call" />
                     </node>
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="8167803625326070845">
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="8425667428462919649">
                       <link role="link" targetNodeId="1.2631460705265414465" />
                     </node>
                   </node>
