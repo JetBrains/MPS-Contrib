@@ -581,14 +581,6 @@
       <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4204020193045984321">
-    <property name="package" value="Declarations.Custom" />
-    <property name="name" value="AttributeMethodCall" />
-    <link role="extends" targetNodeId="8556692234561240528" resolveInfo="AbstractMethodCall" />
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="2631460705265707822">
-      <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3874956854920828284">
     <property name="package" value="Declarations.Custom" />
     <property name="name" value="CustomNestedReference" />
@@ -633,6 +625,21 @@
     <link role="extends" targetNodeId="8556692234561240528" resolveInfo="AbstractMethodCall" />
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="2631460705265707821">
       <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1965570764765319398">
+    <property name="package" value="Declarations.Custom" />
+    <property name="name" value="NestedType" />
+    <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1965570764765319399">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="taskDeclaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1965570764765362585">
+      <property name="value" value="nested element" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>

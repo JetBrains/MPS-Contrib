@@ -2467,55 +2467,6 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2631460705265509107" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="2631460705265509116">
-    <property name="package" value="Declarations.Custom" />
-    <link role="concept" targetNodeId="1.4204020193045984321" resolveInfo="AttributeMethodCall" />
-    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="2631460705265509119">
-      <property name="name" value="getRealClassName" />
-      <link role="overriddenMethod" targetNodeId="2631460705265509108" resolveInfo="getRealClassName" />
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="2631460705265509120" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2631460705265509122">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="2631460705265509127">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="2631460705265509128">
-            <property name="name" value="attributeReference" />
-            <property name="isFinal" value="true" />
-            <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="2631460705265509129">
-              <link role="concept" targetNodeId="1.1445805690440174700" resolveInfo="AttributeReference" />
-            </node>
-            <node role="initializer" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="2631460705265509130">
-              <link role="concept" targetNodeId="1.1445805690440174700" resolveInfo="AttributeReference" />
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="2631460705265509143">
-                <link role="variableDeclaration" targetNodeId="2631460705265509123" resolveInfo="node" />
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="2631460705265509146">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265509148">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2631460705265509149">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="2631460705265509150">
-                <link role="variableDeclaration" targetNodeId="2631460705265509128" resolveInfo="attributeReference" />
-              </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2631460705265509151">
-                <link role="link" targetNodeId="1.1445805690440240795" />
-              </node>
-            </node>
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="2631460705265509152">
-              <link role="baseMethodDeclaration" targetNodeId="4585165390551294438" resolveInfo="getRealClassName" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="2631460705265509123">
-        <property name="name" value="node" />
-        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="2631460705265509124" />
-      </node>
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.StringType" id="2631460705265509125" />
-    </node>
-    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="2631460705265509117">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2631460705265509118" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="2631460705265571851">
     <property name="package" value="Declarations.Custom" />
     <link role="concept" targetNodeId="1.2631460705265571485" resolveInfo="CustomNestedMethodCall" />
