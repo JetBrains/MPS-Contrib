@@ -64,6 +64,29 @@
           <property name="name" value="myThis" />
           <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1209564955138">
             <link role="classifier" targetNodeId="1202393893891" resolveInfo="ComponentClass" />
+            <node role="referenceMacro$link_attribute$classifier" type="jetbrains.mps.lang.generator.structure.ReferenceMacro" id="5360151489983400326">
+              <node role="referentFunction" type="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent" id="5360151489983400327">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5360151489983400328">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5360151489983402893">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5360151489983402895">
+                      <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="5360151489983402894" />
+                      <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" id="5360151489983402899">
+                        <link role="label" targetNodeId="1210169846785" resolveInfo="componentClass" />
+                        <node role="inputNode" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="5360151489983402907">
+                          <link role="concept" targetNodeId="1.1202387718766" resolveInfo="ComponentDeclaration" />
+                          <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5360151489983402902">
+                            <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="5360151489983402901" />
+                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="5360151489983402906">
+                              <link role="baseMethodDeclaration" targetNodeId="20.1213877512819" resolveInfo="getClassifier" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -1218,7 +1241,7 @@
                 </node>
                 <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1203087836926">
                   <link role="classConcept" targetNodeId="17.~SwingBindings" resolveInfo="SwingBindings" />
-                  <link role="baseMethodDeclaration" targetNodeId="17.~SwingBindings.createJListBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.lang.Object,org.jdesktop.beansbinding.Property,javax.swing.JList):org.jdesktop.swingbinding.JListBinding" resolveInfo="createJListBinding" />
+                  <link role="baseMethodDeclaration" targetNodeId="17.~SwingBindings.createJListBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.util.List,javax.swing.JList,java.lang.String):org.jdesktop.swingbinding.JListBinding" resolveInfo="createJListBinding" />
                   <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference" id="1203087877506">
                     <link role="enumClass" targetNodeId="12.~AutoBinding$UpdateStrategy" resolveInfo="AutoBinding.UpdateStrategy" />
                     <link role="enumConstantDeclaration" targetNodeId="12.~AutoBinding$UpdateStrategy.READ_WRITE" resolveInfo="READ_WRITE" />

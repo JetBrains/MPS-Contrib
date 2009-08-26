@@ -308,6 +308,10 @@ public class QueriesGenerated {
     return fqname;
   }
 
+  public static Object referenceMacro_GetReferent_5360151489983400327(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.cast(ThisClassifierExpression_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"), "componentClass");
+  }
+
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
     return IComponentInstance_Behavior.call_getLayoutConstraint_1213877498060(_context.getNode()) != null;
   }
