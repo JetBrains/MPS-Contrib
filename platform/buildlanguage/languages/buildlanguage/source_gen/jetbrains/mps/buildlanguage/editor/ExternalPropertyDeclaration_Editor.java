@@ -82,10 +82,6 @@ public class ExternalPropertyDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createCollection_2766_4(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_2766_4");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
     if (renderingCondition2766_2(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_2766_3(editorContext, node));
     }
