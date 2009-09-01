@@ -1961,7 +1961,7 @@
     <link role="concept" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1191515374482730820">
       <property name="name" value="getPossibleNesteds" />
-      <link role="overriddenMethod" targetNodeId="1191515374482689153" resolveInfo="getPossibleNesteds" />
+      <link role="overriddenMethod" targetNodeId="1449762848926780436" resolveInfo="getPossibleNesteds" />
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1191515374482730821" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1191515374482730823">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="1191515374482730831">
@@ -1976,11 +1976,11 @@
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1191515374482730824">
         <property name="name" value="declarations" />
         <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="1191515374482730825">
-          <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+          <link role="elementConcept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="1191515374482730826">
-        <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+        <link role="elementConcept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
       </node>
     </node>
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="2631460705265621313">
@@ -2124,11 +2124,11 @@
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="373392210222778393">
         <property name="name" value="declarations" />
         <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="373392210222778394">
-          <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+          <link role="elementConcept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
         </node>
       </node>
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="373392210222778395">
-        <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+        <link role="elementConcept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
       </node>
     </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="373392210222912029">
@@ -2497,7 +2497,7 @@
               <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="3179085178684193129">
                 <property name="name" value="taskDeclaration" />
                 <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="3179085178684193130">
-                  <link role="concept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+                  <link role="concept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
                 </node>
                 <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3179085178684193131">
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3179085178684193132">
@@ -2630,12 +2630,12 @@
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1449762848926780437">
         <property name="name" value="declarations" />
         <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="1449762848926780438">
-          <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+          <link role="elementConcept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
         </node>
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1449762848926780439" />
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="1449762848926780440">
-        <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+        <link role="elementConcept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
       </node>
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1449762848926780441" />
     </node>

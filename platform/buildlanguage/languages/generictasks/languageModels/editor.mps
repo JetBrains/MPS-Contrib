@@ -765,7 +765,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="8241842287689220298">
     <property name="name" value="TaskDeclarationHeader_EditorComponent" />
-    <link role="conceptDeclaration" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+    <link role="conceptDeclaration" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8241842287689220349">
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" id="8241842287689220350" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8241842287689220300">
@@ -822,8 +822,8 @@
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8241842287689220323">
                   <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8241842287689220324">
                     <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="8241842287689220325" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7699562953468597292">
-                      <link role="link" targetNodeId="1.3037831562615764082" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4544201235359066061">
+                      <link role="link" targetNodeId="1.7699562953468509841" />
                     </node>
                   </node>
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="8241842287689220327" />
@@ -924,7 +924,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="8233904257587923431">
     <property name="name" value="TaskDeclarationAttributes_EditorComponent" />
-    <link role="conceptDeclaration" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+    <link role="conceptDeclaration" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923433">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923436">
         <property name="vertical" value="false" />
@@ -958,7 +958,7 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.EditorComponentDeclaration" id="8233904257587923457">
     <property name="name" value="TaskDeclarationInspector_EditorComponent" />
-    <link role="conceptDeclaration" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+    <link role="conceptDeclaration" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923459">
       <property name="vertical" value="true" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="8233904257587923460">
