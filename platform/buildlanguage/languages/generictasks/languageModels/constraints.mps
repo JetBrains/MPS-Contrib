@@ -231,12 +231,12 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="353793545802644485">
               <property name="name" value="declarations" />
               <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="353793545802644486">
-                <link role="elementConcept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+                <link role="elementConcept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
               </node>
               <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="353793545802644487">
                 <node role="operand" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" id="353793545802644488" />
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" id="353793545802644489">
-                  <link role="concept" targetNodeId="1.1191515374482103179" resolveInfo="AbstractTaskDeclaration" />
+                  <link role="concept" targetNodeId="1.5699548131010533020" resolveInfo="ITaskDeclaration" />
                   <node role="scope" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_scope" id="353793545802644490" />
                 </node>
               </node>
@@ -262,7 +262,7 @@
                                     <link role="variableDeclaration" targetNodeId="1191515374482688695" resolveInfo="it" />
                                   </node>
                                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1191515374482688694">
-                                    <link role="baseMethodDeclaration" targetNodeId="2v.1191515374482685348" resolveInfo="canBeRootTask" />
+                                    <link role="baseMethodDeclaration" targetNodeId="2v.1449762848926780427" resolveInfo="canBeRootTask" />
                                   </node>
                                 </node>
                               </node>
@@ -303,7 +303,7 @@
                 </node>
               </node>
               <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="353793545802644532">
-                <link role="baseMethodDeclaration" targetNodeId="2v.1191515374482689153" resolveInfo="getPossibleNesteds" />
+                <link role="baseMethodDeclaration" targetNodeId="2v.1449762848926780436" resolveInfo="getPossibleNesteds" />
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="353793545802644533">
                   <link role="variableDeclaration" targetNodeId="353793545802644485" resolveInfo="declarations" />
                 </node>
@@ -516,12 +516,12 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="3037831562615764095">
               <property name="name" value="decls" />
               <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="3037831562615764096">
-                <link role="elementConcept" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
+                <link role="elementConcept" targetNodeId="2.5699548131010533022" resolveInfo="IDeclaration" />
               </node>
               <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3037831562615764097">
                 <node role="operand" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" id="3037831562615764098" />
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Model_NodesIncludingImportedOperation" id="3037831562615764099">
-                  <link role="concept" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
+                  <link role="concept" targetNodeId="2.5699548131010533022" resolveInfo="IDeclaration" />
                   <node role="scope" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_scope" id="3037831562615764100" />
                 </node>
               </node>
@@ -533,12 +533,12 @@
                 <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="3037831562615764104">
                   <property name="name" value="newDecls" />
                   <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="3037831562615764105">
-                    <link role="elementConcept" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
+                    <link role="elementConcept" targetNodeId="2.5699548131010533022" resolveInfo="IDeclaration" />
                   </node>
                   <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="3037831562615764106">
                     <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeListCreator" id="3037831562615764107">
                       <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="3037831562615764108">
-                        <link role="elementConcept" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
+                        <link role="elementConcept" targetNodeId="2.5699548131010533022" resolveInfo="IDeclaration" />
                       </node>
                     </node>
                   </node>
@@ -596,7 +596,7 @@
                 <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" id="3037831562615764130" />
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsRoleOperation" id="3037831562615764131">
                   <link role="conceptOfParent" targetNodeId="1.353793545802643486" resolveInfo="GenericTaskDeclaration" />
-                  <link role="linkInParent" targetNodeId="1.1191515374482307496" />
+                  <link role="linkInParent" targetNodeId="1.353793545802643491" />
                 </node>
               </node>
               <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3037831562615764132">
@@ -614,12 +614,12 @@
                   <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="3037831562615764139">
                     <property name="name" value="newDecls" />
                     <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="3037831562615764140">
-                      <link role="elementConcept" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
+                      <link role="elementConcept" targetNodeId="2.5699548131010533022" resolveInfo="IDeclaration" />
                     </node>
                     <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="3037831562615764141">
                       <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeListCreator" id="3037831562615764142">
                         <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="3037831562615764143">
-                          <link role="elementConcept" targetNodeId="2.1198324973114" resolveInfo="Declaration" />
+                          <link role="elementConcept" targetNodeId="2.5699548131010533022" resolveInfo="IDeclaration" />
                         </node>
                       </node>
                     </node>
@@ -679,7 +679,7 @@
                   <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" id="3037831562615764166" />
                   <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsRoleOperation" id="3037831562615764167">
                     <link role="conceptOfParent" targetNodeId="1.353793545802643486" resolveInfo="GenericTaskDeclaration" />
-                    <link role="linkInParent" targetNodeId="1.1191515374482300626" />
+                    <link role="linkInParent" targetNodeId="1.353793545802643491" />
                   </node>
                 </node>
                 <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3037831562615764168">
@@ -706,7 +706,7 @@
     <property name="package" value="Declarations.Custom" />
     <link role="concept" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
     <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="2631460705265621281">
-      <link role="applicableProperty" targetNodeId="1.1191515374482272893" resolveInfo="classname" />
+      <link role="applicableProperty" targetNodeId="1.7699562953468509836" resolveInfo="classname" />
       <node role="propertyGetter" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter" id="2631460705265621282">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2631460705265621283">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2631460705265621284">

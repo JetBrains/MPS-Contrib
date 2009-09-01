@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
-import jetbrains.mps.buildlanguage.behavior.Declaration_Behavior;
+import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.build.generictasks.plugin.ImportAntStuffUtil;
 
@@ -70,23 +70,23 @@ public class BuiltInTaskDeclaration_Behavior {
     return ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(thisNode)).count() > 0;
   }
 
-  public static boolean virtual_isHeirOf_1213877304079(SNode thisNode, SNode probableParent) {
+  public static boolean virtual_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
     if (SNodeOperations.isInstanceOf(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && SPropertyOperations.getBoolean(SNodeOperations.cast(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"), "fake")) {
       SNode declOfProbableParent = SNodeOperations.cast(probableParent, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
-      if ((SLinkOperations.getTarget(declOfProbableParent, "parentRef", true) != null) && Declaration_Behavior.call_isHeirOf_1213877304079(thisNode, SLinkOperations.getTarget(SLinkOperations.getTarget(declOfProbableParent, "parentRef", true), "declaration", false))) {
+      if ((SLinkOperations.getTarget(declOfProbableParent, "parentRef", true) != null) && IDeclaration_Behavior.call_isHeirOf_5699548131010535069(thisNode, SLinkOperations.getTarget(SLinkOperations.getTarget(declOfProbableParent, "parentRef", true), "declaration", false))) {
         return true;
       }
       if ((SLinkOperations.getTarget(declOfProbableParent, "parentRef", true) != null)) {
         return false;
       }
       for (SNode intRef : ListSequence.fromList(SLinkOperations.getTargets(declOfProbableParent, "interfaces", true))) {
-        if (Declaration_Behavior.call_isHeirOf_1213877304079(thisNode, SLinkOperations.getTarget(intRef, "declaration", false))) {
+        if (IDeclaration_Behavior.call_isHeirOf_5699548131010535069(thisNode, SLinkOperations.getTarget(intRef, "declaration", false))) {
           return true;
         }
       }
       return false;
     }
-    if (Declaration_Behavior.callSuper_isHeirOf_1213877304079(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", probableParent)) {
+    if (IDeclaration_Behavior.callSuper_isHeirOf_5699548131010535069(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", probableParent)) {
       return true;
     }
     if (SNodeOperations.isInstanceOf(probableParent, "jetbrains.mps.build.generictasks.structure.TaskInterfaceDeclaration")) {
@@ -95,7 +95,7 @@ public class BuiltInTaskDeclaration_Behavior {
           System.err.println("Node " + interfaceReference + " have null declaration.");
           continue;
         }
-        if (Declaration_Behavior.call_isHeirOf_1213877304079(SLinkOperations.getTarget(interfaceReference, "declaration", false), probableParent)) {
+        if (IDeclaration_Behavior.call_isHeirOf_5699548131010535069(SLinkOperations.getTarget(interfaceReference, "declaration", false), probableParent)) {
           return true;
         }
       }
@@ -103,17 +103,17 @@ public class BuiltInTaskDeclaration_Behavior {
     return false;
   }
 
-  public static boolean virtual_canBeRootTask_1191515374482685348(SNode thisNode) {
-    return AbstractTaskDeclaration_Behavior.callSuper_canBeRootTask_1191515374482685348(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && !(SPropertyOperations.getBoolean(thisNode, "fake"));
+  public static boolean virtual_canBeRootTask_1449762848926780427(SNode thisNode) {
+    return ITaskDeclaration_Behavior.callSuper_canBeRootTask_1449762848926780427(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && !(SPropertyOperations.getBoolean(thisNode, "fake"));
   }
 
-  public static List<SNode> virtual_getPossibleNesteds_1191515374482689153(SNode thisNode, List<SNode> declarations) {
+  public static List<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
     List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
     for (SNode declaration : ListSequence.fromList(declarations)) {
       if (SNodeOperations.isInstanceOf(declaration, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) {
         SNode builtInDecl = SNodeOperations.cast(declaration, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
-        if (!(SPropertyOperations.getBoolean(builtInDecl, "fake")) && Declaration_Behavior.call_isHeirOf_1213877304107(declaration, BuiltInTaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(thisNode)) && !(Declaration_Behavior.call_isAbstract_1213877304071(declaration))) {
+        if (!(SPropertyOperations.getBoolean(builtInDecl, "fake")) && IDeclaration_Behavior.call_isHeirOf_5699548131010535105(declaration, BuiltInTaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(thisNode)) && !(IDeclaration_Behavior.call_isAbstract_5699548131010533031(declaration))) {
           ListSequence.fromList(result).addElement(declaration);
         }
       } else {

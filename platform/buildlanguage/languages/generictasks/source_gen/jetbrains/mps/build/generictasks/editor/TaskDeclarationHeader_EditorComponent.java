@@ -281,7 +281,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private static boolean renderingCondition1965_3(SNode node, EditorContext editorContext, IScope scope) {
-    return (SLinkOperations.getTarget(node, "parentRef", true) != null);
+    return (SLinkOperations.getTarget(node, "declaration", false) != null);
   }
 
   private static boolean renderingCondition1965_4(SNode node, EditorContext editorContext, IScope scope) {
