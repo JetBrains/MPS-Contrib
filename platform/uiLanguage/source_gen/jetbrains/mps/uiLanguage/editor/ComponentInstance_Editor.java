@@ -20,7 +20,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -198,7 +198,7 @@ public class ComponentInstance_Editor extends DefaultNodeEditor {
     return SPropertyOperations.getString(node, "name") != null;
   }
 
-  public static class _Inline1354_0 extends AbstractCellProvider {
+  public static class _Inline1354_0 extends InlineCellProvider {
     public _Inline1354_0() {
       super();
     }
