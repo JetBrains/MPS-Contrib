@@ -17,6 +17,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.build.generictasks.behavior.AttributeDeclaration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class Attribute_EditorComponent extends AbstractCellProvider {
@@ -116,7 +117,7 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     return AttributeDeclaration_Behavior.call_isDeprecated_353793545802643819(SLinkOperations.getTarget(node, "attributeDeclaration", false));
   }
 
-  public static class _Inline4307_0 extends AbstractCellProvider {
+  public static class _Inline4307_0 extends InlineCellProvider {
     public _Inline4307_0() {
       super();
     }
@@ -150,7 +151,7 @@ public class Attribute_EditorComponent extends AbstractCellProvider {
     }
   }
 
-  public static class _Inline4307_1 extends AbstractCellProvider {
+  public static class _Inline4307_1 extends InlineCellProvider {
     public _Inline4307_1() {
       super();
     }

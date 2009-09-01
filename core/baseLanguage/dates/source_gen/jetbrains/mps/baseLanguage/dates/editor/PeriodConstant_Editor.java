@@ -16,7 +16,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class PeriodConstant_Editor extends DefaultNodeEditor {
@@ -106,7 +106,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  public static class _Inline1753_0 extends AbstractCellProvider {
+  public static class _Inline1753_0 extends InlineCellProvider {
     public _Inline1753_0() {
       super();
     }
@@ -140,7 +140,7 @@ public class PeriodConstant_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline1753_1 extends AbstractCellProvider {
+  public static class _Inline1753_1 extends InlineCellProvider {
     public _Inline1753_1() {
       super();
     }

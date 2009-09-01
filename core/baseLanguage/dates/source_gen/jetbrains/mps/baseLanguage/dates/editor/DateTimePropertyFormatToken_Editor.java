@@ -17,7 +17,7 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.baseLanguage.dates.constraints.DateTimePropertFormatTokenUtil;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
@@ -199,7 +199,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     return !(DateTimePropertFormatTokenUtil.isFormatTypeDefault(node));
   }
 
-  public static class _Inline9366_0 extends AbstractCellProvider {
+  public static class _Inline9366_0 extends InlineCellProvider {
     public _Inline9366_0() {
       super();
     }
@@ -233,7 +233,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline9366_1 extends AbstractCellProvider {
+  public static class _Inline9366_1 extends InlineCellProvider {
     public _Inline9366_1() {
       super();
     }
@@ -271,7 +271,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline9366_2 extends AbstractCellProvider {
+  public static class _Inline9366_2 extends InlineCellProvider {
     public _Inline9366_2() {
       super();
     }
@@ -304,7 +304,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline9366_3 extends AbstractCellProvider {
+  public static class _Inline9366_3 extends InlineCellProvider {
     public _Inline9366_3() {
       super();
     }
@@ -337,7 +337,7 @@ public class DateTimePropertyFormatToken_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline9366_4 extends AbstractCellProvider {
+  public static class _Inline9366_4 extends InlineCellProvider {
     public _Inline9366_4() {
       super();
     }

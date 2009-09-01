@@ -15,7 +15,7 @@ import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
@@ -70,7 +70,7 @@ public class ReferenceFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline1579_0 extends AbstractCellProvider {
+  public static class _Inline1579_0 extends InlineCellProvider {
     public _Inline1579_0() {
       super();
     }

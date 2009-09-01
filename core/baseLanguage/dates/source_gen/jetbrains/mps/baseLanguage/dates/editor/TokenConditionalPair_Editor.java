@@ -16,7 +16,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class TokenConditionalPair_Editor extends DefaultNodeEditor {
@@ -87,7 +87,7 @@ public class TokenConditionalPair_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline5077_0 extends AbstractCellProvider {
+  public static class _Inline5077_0 extends InlineCellProvider {
     public _Inline5077_0() {
       super();
     }

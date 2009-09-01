@@ -20,7 +20,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class XmlFile_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -174,7 +174,7 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline7367_0 extends AbstractCellProvider {
+  public static class _Inline7367_0 extends InlineCellProvider {
     public _Inline7367_0() {
       super();
     }

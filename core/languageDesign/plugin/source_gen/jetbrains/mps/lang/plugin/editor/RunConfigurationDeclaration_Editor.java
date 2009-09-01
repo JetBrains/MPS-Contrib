@@ -32,7 +32,7 @@ import jetbrains.mps.plugins.MacrosUtil;
 import jetbrains.mps.vfs.FileSystem;
 import jetbrains.mps.nodeEditor.BlockCells;
 import javax.swing.JComponent;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -501,7 +501,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
     return EditorUtil.createSelectIconButton(node, "iconPath", editorContext);
   }
 
-  public static class _Inline3683_0 extends AbstractCellProvider {
+  public static class _Inline3683_0 extends InlineCellProvider {
     public _Inline3683_0() {
       super();
     }

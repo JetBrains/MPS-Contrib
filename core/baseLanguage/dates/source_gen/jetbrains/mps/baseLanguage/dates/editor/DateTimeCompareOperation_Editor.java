@@ -28,7 +28,7 @@ import jetbrains.mps.nodeEditor.style.Measure;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -202,7 +202,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return (SLinkOperations.getTarget(node, "datetimeProperty", false) != null);
   }
 
-  public static class _Inline9167_0 extends AbstractCellProvider {
+  public static class _Inline9167_0 extends InlineCellProvider {
     public _Inline9167_0() {
       super();
     }

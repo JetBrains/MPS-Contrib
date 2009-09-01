@@ -20,7 +20,7 @@ import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class ParseExpression_Editor extends DefaultNodeEditor {
@@ -341,7 +341,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     return (SLinkOperations.getTarget(node, "default", true) != null);
   }
 
-  public static class _Inline6271_0 extends AbstractCellProvider {
+  public static class _Inline6271_0 extends InlineCellProvider {
     public _Inline6271_0() {
       super();
     }
@@ -379,7 +379,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline6271_1 extends AbstractCellProvider {
+  public static class _Inline6271_1 extends InlineCellProvider {
     public _Inline6271_1() {
       super();
     }
@@ -412,7 +412,7 @@ public class ParseExpression_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline6271_2 extends AbstractCellProvider {
+  public static class _Inline6271_2 extends InlineCellProvider {
     public _Inline6271_2() {
       super();
     }

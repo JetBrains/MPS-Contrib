@@ -19,7 +19,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class ScheduleLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -340,7 +340,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     return SPropertyOperations.getBoolean(SLinkOperations.getTarget(node, "schedulePeriod", false), "hour");
   }
 
-  public static class _Inline2020_0 extends AbstractCellProvider {
+  public static class _Inline2020_0 extends InlineCellProvider {
     public _Inline2020_0() {
       super();
     }
@@ -373,7 +373,7 @@ public class ScheduleLiteral_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline2020_1 extends AbstractCellProvider {
+  public static class _Inline2020_1 extends InlineCellProvider {
     public _Inline2020_1() {
       super();
     }
