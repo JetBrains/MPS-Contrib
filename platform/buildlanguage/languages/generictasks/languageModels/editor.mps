@@ -1157,24 +1157,6 @@
       <link role="editorComponent" targetNodeId="8233904257587923457" resolveInfo="TaskDeclarationInspector_EditorComponent" />
     </node>
   </node>
-  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
-  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1445805690440312019">
-    <property name="package" value="Declarations.Custom" />
-    <link role="conceptDeclaration" targetNodeId="1.1445805690440174700" resolveInfo="AttributeReference" />
-    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="4204020193046272217">
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="4204020193046272219">
-        <link role="relationDeclaration" targetNodeId="1.1445805690440240795" />
-        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="4204020193046272220">
-          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="4204020193046272221">
-            <property name="readOnly" value="true" />
-            <link role="styleClass" targetNodeId="4v.1198595398954" resolveInfo="Field" />
-            <link role="relationDeclaration" targetNodeId="2v.1169194664001" resolveInfo="name" />
-          </node>
-        </node>
-      </node>
-      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="4204020193046272218" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="373392210222527238">
     <property name="package" value="Declarations.Custom" />
     <link role="conceptDeclaration" targetNodeId="1.373392210222527235" resolveInfo="CustomNestedDeclaration" />
@@ -1209,6 +1191,7 @@
       </node>
     </node>
   </node>
+  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="3874956854920828289">
     <property name="package" value="Declarations.Custom" />
     <link role="conceptDeclaration" targetNodeId="1.3874956854920828284" resolveInfo="CustomNestedReference" />

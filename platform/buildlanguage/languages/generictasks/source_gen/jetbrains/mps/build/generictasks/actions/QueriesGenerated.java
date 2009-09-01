@@ -66,29 +66,6 @@ public class QueriesGenerated {
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_3442822536477596446(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.build.generictasks.structure.AttributeReference");
-      SNode childConcept = (SNode)_context.getChildConcept();
-      if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        Calculable calc = new Calculable() {
-          public Object calculate() {
-            return SLinkOperations.getTargets(SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.CustomTaskDeclaration", false, false), "attributesDecl", true);
-          }
-        };
-        Iterable<SNode> queryResult = (Iterable)calc.calculate();
-        if (queryResult != null) {
-          for (final SNode item : queryResult) {
-            ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-              public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-                SNode ref = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.AttributeReference", null);
-                SLinkOperations.setTarget(ref, "attributeDeclaration", (item), false);
-                return ref;
-              }
-            });
-          }
-        }
-      }
-    }
-    {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.build.generictasks.structure.CustomNestedReference");
       SNode childConcept = (SNode)_context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {

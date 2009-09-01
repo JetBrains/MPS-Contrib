@@ -507,21 +507,6 @@
       <link role="conceptPropertyDeclaration" targetNodeId="3.1216468774225" resolveInfo="showName" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1445805690440174700">
-    <property name="package" value="Declarations.Custom" />
-    <property name="name" value="AttributeReference" />
-    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1445805690440240799">
-      <property name="value" value="reference to task attribute" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1445805690440240795">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="attributeDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="353793545802643469" resolveInfo="AttributeDeclaration" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1191515374482103179">
     <property name="name" value="AbstractTaskDeclaration" />
     <property name="package" value="Declarations" />
