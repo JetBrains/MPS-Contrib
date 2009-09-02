@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import org.apache.commons.lang.ObjectUtils;
 
 public class TestRunParameters {
-
   private String myTestRunner;
   private List<String> myVmParameters;
   private List<String> myClassPath;
@@ -57,5 +56,4 @@ public class TestRunParameters {
   public int hashCode() {
     return this.myTestRunner.hashCode() + this.myClassPath.hashCode() + this.myVmParameters.hashCode();
   }
-
 }
