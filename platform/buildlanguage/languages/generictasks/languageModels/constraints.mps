@@ -935,8 +935,8 @@
           </node>
           <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CoerceStatement" id="4697616000804501663">
             <node role="pattern" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="4697616000804501664">
-              <property name="name" value="customTaskDeclaration" />
-              <link role="concept" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
+              <property name="name" value="customTaskDeclarationType" />
+              <link role="concept" targetNodeId="1.7414886352090157815" resolveInfo="CustomTaskDeclarationType" />
             </node>
             <node role="nodeToCoerce" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4697616000804501665">
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4697616000804501666">
@@ -945,13 +945,40 @@
               <node role="operation" type="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" id="4697616000804501667" />
             </node>
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4697616000804501668">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="4697616000804505440">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4697616000804505443">
-                  <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="4697616000804505442">
-                    <link role="applicableNode" targetNodeId="4697616000804501664" resolveInfo="customTaskDeclaration" />
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="7414886352090160125">
+                <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7414886352090160126">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="7414886352090160139">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7414886352090160140">
+                      <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="7414886352090160151">
+                        <link role="concept" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
+                        <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7414886352090160141">
+                          <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="7414886352090160142">
+                            <link role="applicableNode" targetNodeId="4697616000804501664" resolveInfo="customTaskDeclarationType" />
+                          </node>
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7414886352090160143">
+                            <link role="link" targetNodeId="1.7414886352090157816" />
+                          </node>
+                        </node>
+                      </node>
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="7414886352090160144">
+                        <link role="baseMethodDeclaration" targetNodeId="2v.4697616000804031077" resolveInfo="getMethods" />
+                      </node>
+                    </node>
                   </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="4697616000804505447">
-                    <link role="baseMethodDeclaration" targetNodeId="2v.4697616000804031077" resolveInfo="getMethods" />
+                </node>
+                <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7414886352090160132">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7414886352090160129">
+                    <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="7414886352090160130">
+                      <link role="applicableNode" targetNodeId="4697616000804501664" resolveInfo="customTaskDeclarationType" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7414886352090160131">
+                      <link role="link" targetNodeId="1.7414886352090157816" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="7414886352090160136">
+                    <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="7414886352090160138">
+                      <link role="conceptDeclaration" targetNodeId="1.8241842287689193814" resolveInfo="CustomTaskDeclaration" />
+                    </node>
                   </node>
                 </node>
               </node>

@@ -609,5 +609,16 @@
     <property name="name" value="TaskMethodCall" />
     <link role="extends" targetNodeId="4.1205769149993" resolveInfo="DefaultClassifierMethodCallOperation" />
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7414886352090157815">
+    <property name="package" value="Declarations.Custom" />
+    <property name="name" value="CustomTaskDeclarationType" />
+    <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7414886352090157816">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="taskDeclaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="5699548131010533020" resolveInfo="ITaskDeclaration" />
+    </node>
+  </node>
 </model>
 
