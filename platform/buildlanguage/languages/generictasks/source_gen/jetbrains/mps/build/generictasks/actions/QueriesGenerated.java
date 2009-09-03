@@ -7,7 +7,6 @@ import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.smodel.action.NodeSetupContext;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
@@ -27,10 +26,6 @@ public class QueriesGenerated {
     }
     SNode decl = SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.Attribute"), "attributeDeclaration", false);
     return ((SLinkOperations.getTarget(decl, "enum", true) != null)) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(decl, "enum", true), "jetbrains.mps.buildlanguage.structure.StringEnum");
-  }
-
-  public static void nodeFactory_NodeSetup_AttributeDeclaration_6024259375396984355(final IOperationContext operationContext, final NodeSetupContext _context) {
-    SLinkOperations.setTarget(_context.getNewNode(), "type", null, true);
   }
 
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_PropertyValueExpression_353793545802854368(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -53,34 +48,6 @@ public class QueriesGenerated {
                 SNode node = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.StringLiteral", null);
                 SPropertyOperations.set(node, "value", SPropertyOperations.getString((item), "value"));
                 return node;
-              }
-            });
-          }
-        }
-      }
-    }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_3442822536477596446(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.build.generictasks.structure.CustomNestedReference");
-      SNode childConcept = (SNode)_context.getChildConcept();
-      if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        Calculable calc = new Calculable() {
-          public Object calculate() {
-            return SLinkOperations.getTargets(SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.build.generictasks.structure.CustomTaskDeclaration", false, false), "nested", true);
-          }
-        };
-        Iterable<SNode> queryResult = (Iterable)calc.calculate();
-        if (queryResult != null) {
-          for (final SNode item : queryResult) {
-            ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-              public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-                SNode ref = SConceptOperations.createNewNode("jetbrains.mps.build.generictasks.structure.CustomNestedReference", null);
-                SLinkOperations.setTarget(ref, "nestedDeclaration", (item), false);
-                return ref;
               }
             });
           }
