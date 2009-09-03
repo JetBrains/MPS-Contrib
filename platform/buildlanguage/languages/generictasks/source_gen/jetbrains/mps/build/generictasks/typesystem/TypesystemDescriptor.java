@@ -17,7 +17,11 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_CustomNestedReference_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_CustomNestedAccessOperation_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_CustomTaskMemberAccessOperation_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
@@ -25,11 +29,7 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_DefaultClassifierFieldAccessOperation_InferenceRule();
-      this.myInferenceRules.add(inferenceRule);
-    }
-    {
-      NonTypesystemRule_Runtime nonTypesystemRule = new chechAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule();
+      NonTypesystemRule_Runtime nonTypesystemRule = new checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
     {
