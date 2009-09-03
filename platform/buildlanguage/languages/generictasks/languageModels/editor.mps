@@ -1191,30 +1191,12 @@
       </node>
     </node>
   </node>
-  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" />
-  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="3874956854920828289">
-    <property name="package" value="Declarations.Custom" />
-    <link role="conceptDeclaration" targetNodeId="1.3874956854920828284" resolveInfo="CustomNestedReference" />
-    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="3874956854920828291">
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="3874956854920828294">
-        <link role="relationDeclaration" targetNodeId="1.3874956854920828288" />
-        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="3874956854920828295">
-          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="3874956854920828297">
-            <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="2v.1169194664001" resolveInfo="name" />
-            <link role="styleClass" targetNodeId="4v.1198595398954" resolveInfo="Field" />
-          </node>
-        </node>
-      </node>
-      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="3874956854920828293" />
-    </node>
-  </node>
-  <visible index="5" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" />
+  <visible index="4" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="3974730391134077637">
     <property name="package" value="Declarations.Custom" />
     <link role="conceptDeclaration" targetNodeId="1.3974730391133962375" resolveInfo="CustomTaskMemberAccessOperation" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="3974730391134077639">
-      <link role="relationDeclaration" targetNodeId="5v.1205756909548" />
+      <link role="relationDeclaration" targetNodeId="4v.1205756909548" />
       <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="3974730391134077640">
         <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="3974730391134077642">
           <property name="readOnly" value="true" />

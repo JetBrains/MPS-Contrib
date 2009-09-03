@@ -538,21 +538,6 @@
       <link role="dataType" targetNodeId="2v.1082983657063" resolveInfo="boolean" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3874956854920828284">
-    <property name="package" value="Declarations.Custom" />
-    <property name="name" value="CustomNestedReference" />
-    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="3874956854920828288">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="nestedDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="373392210222527235" resolveInfo="CustomNestedDeclaration" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="3874956854920828287">
-      <property name="value" value="reference nested task" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1965570764765319398">
     <property name="package" value="Declarations.Custom" />
     <property name="name" value="NestedType" />
