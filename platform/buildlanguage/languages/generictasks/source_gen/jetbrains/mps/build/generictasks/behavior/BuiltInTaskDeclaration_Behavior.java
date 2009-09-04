@@ -40,7 +40,7 @@ public class BuiltInTaskDeclaration_Behavior {
     return attrs;
   }
 
-  public static List<SNode> call_getNestedTasks_353793545802644151(SNode thisNode) {
+  public static List<SNode> virtual_getNestedTasks_4241383766070831847(SNode thisNode) {
     List<SNode> nested = new ArrayList<SNode>();
     for (SNode nref : ListSequence.fromList(SLinkOperations.getTargets(thisNode, "nested", true))) {
       for (SNode ref : ListSequence.fromList(SLinkOperations.getTargets(nref, "role", true))) {
@@ -48,7 +48,7 @@ public class BuiltInTaskDeclaration_Behavior {
       }
     }
     if ((SLinkOperations.getTarget(thisNode, "parentRef", true) != null)) {
-      ListSequence.fromList(nested).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false))));
+      ListSequence.fromList(nested).addSequence(ListSequence.fromList(ITaskDeclaration_Behavior.call_getNestedTasks_4241383766070831847(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false))));
     }
     return nested;
   }
@@ -64,10 +64,6 @@ public class BuiltInTaskDeclaration_Behavior {
       ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false))));
     }
     return result;
-  }
-
-  public static boolean call_hasNested_353793545802644261(SNode thisNode) {
-    return ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(thisNode)).count() > 0;
   }
 
   public static boolean virtual_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
@@ -108,19 +104,11 @@ public class BuiltInTaskDeclaration_Behavior {
   }
 
   public static List<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
-    List<SNode> result = new ArrayList<SNode>();
-    ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
-    for (SNode declaration : ListSequence.fromList(declarations)) {
-      if (SNodeOperations.isInstanceOf(declaration, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) {
-        SNode builtInDecl = SNodeOperations.cast(declaration, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration");
-        if (!(SPropertyOperations.getBoolean(builtInDecl, "fake")) && IDeclaration_Behavior.call_isHeirOf_5699548131010535105(declaration, BuiltInTaskDeclaration_Behavior.call_getNestedTasks_353793545802644151(thisNode)) && !(IDeclaration_Behavior.call_isAbstract_5699548131010533031(declaration))) {
-          ListSequence.fromList(result).addElement(declaration);
-        }
-      } else {
-        // TODO: deal with other types of declarations
-      }
-    }
-    return result;
+    return ListSequence.fromList(ITaskDeclaration_Behavior.callSuper_getPossibleNesteds_1449762848926780436(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", declarations)).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode))).toListSequence();
+  }
+
+  public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {
+    return SPropertyOperations.getBoolean(thisNode, "fake");
   }
 
   public static boolean isInGeneratedModels_1445805690439864419(IOperationContext operationContext) {

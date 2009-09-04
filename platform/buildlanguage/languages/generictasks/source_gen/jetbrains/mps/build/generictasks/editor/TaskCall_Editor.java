@@ -24,7 +24,7 @@ import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.build.generictasks.behavior.TaskCall_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
-import jetbrains.mps.build.generictasks.behavior.BuiltInTaskDeclaration_Behavior;
+import jetbrains.mps.build.generictasks.behavior.ITaskDeclaration_Behavior;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -301,7 +301,7 @@ public class TaskCall_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition7193_4(SNode node, EditorContext editorContext, IScope scope) {
-    return BuiltInTaskDeclaration_Behavior.call_hasNested_353793545802644261(SLinkOperations.getTarget(node, "declaration", false));
+    return ITaskDeclaration_Behavior.call_hasNested_4241383766070759083(SLinkOperations.getTarget(node, "declaration", false));
   }
 
   public static class _Inline7193_0 extends InlineCellProvider {

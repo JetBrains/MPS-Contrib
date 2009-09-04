@@ -291,8 +291,8 @@
                     <link role="link" targetNodeId="1.353793545802643478" />
                   </node>
                 </node>
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="353793545802643599">
-                  <link role="baseMethodDeclaration" targetNodeId="3v.353793545802644261" resolveInfo="hasNested" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="4241383766070767410">
+                  <link role="baseMethodDeclaration" targetNodeId="3v.4241383766070759083" resolveInfo="hasNested" />
                 </node>
               </node>
             </node>
