@@ -1125,5 +1125,33 @@
       <link role="concept" targetNodeId="1.373392210222527235" resolveInfo="CustomNestedDeclaration" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="3907017218178371353">
+    <property name="name" value="typeof_InternalTextAccessOperation" />
+    <property name="package" value="Declarations.Custom" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3907017218178371354">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="3907017218178373368">
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="3907017218178373371">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="3907017218178373365">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="3907017218178373367">
+              <link role="applicableNode" targetNodeId="3907017218178371355" resolveInfo="operation" />
+            </node>
+          </node>
+        </node>
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="3907017218178378630">
+          <node role="normalType" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="3907017218178378631">
+            <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeCreator" id="3907017218178378633">
+              <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="3907017218178378634">
+                <link role="concept" targetNodeId="5.1225271177708" resolveInfo="StringType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="3907017218178371355">
+      <property name="name" value="operation" />
+      <link role="concept" targetNodeId="1.3907017218178187227" resolveInfo="InternalTextAccessOperation" />
+    </node>
+  </node>
 </model>
 

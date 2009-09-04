@@ -1205,5 +1205,12 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="3907017218178187229">
+    <property name="package" value="Declarations.Custom" />
+    <link role="conceptDeclaration" targetNodeId="1.3907017218178187227" resolveInfo="InternalTextAccessOperation" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="3907017218178319644">
+      <link role="relationDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

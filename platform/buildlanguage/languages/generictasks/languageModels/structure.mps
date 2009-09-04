@@ -634,5 +634,17 @@
       <link role="target" targetNodeId="5699548131010533020" resolveInfo="ITaskDeclaration" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3907017218178187227">
+    <property name="package" value="Declarations.Custom" />
+    <property name="name" value="InternalTextAccessOperation" />
+    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="3907017218178190624">
+      <property name="value" value="internalText" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="3907017218178474015">
+      <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
+    </node>
+  </node>
 </model>
 
