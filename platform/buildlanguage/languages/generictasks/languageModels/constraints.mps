@@ -37,7 +37,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959036e(jetbrains.mps.baseLanguage.classifiers.constraints)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="14" />
+  <maxImportIndex value="15" />
   <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
@@ -52,6 +52,7 @@
   <import index="12" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <import index="13" modelUID="f:java_stub#jetbrains.mps.baseLanguage.constraints(jetbrains.mps.baseLanguage.constraints@java_stub)" version="-1" />
   <import index="14" modelUID="r:00000000-0000-4000-0000-011c8959036d(jetbrains.mps.baseLanguage.classifiers.behavior)" version="-1" />
+  <import index="15" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <visible index="2" modelUID="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="353793545802644405">
     <link role="concept" targetNodeId="1.353793545802643466" resolveInfo="GenericAttribute" />
@@ -1012,6 +1013,32 @@
               </node>
               <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="7414886352090538858">
                 <link role="property" targetNodeId="3v.1169194664001" resolveInfo="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="4710899751214125125">
+    <property name="package" value="Declarations" />
+    <link role="concept" targetNodeId="1.353793545802643498" resolveInfo="NestedDeclaration" />
+    <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="4710899751214150062">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4710899751214150063">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4710899751214150064">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="4710899751214150093">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4710899751214150072">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4710899751214150067">
+                <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" id="4710899751214150065" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="4710899751214150071">
+                  <link role="property" targetNodeId="15.1071599776563" resolveInfo="role" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="4710899751214150076">
+                <link role="baseMethodDeclaration" targetNodeId="7.~String.equals(java.lang.Object):boolean" resolveInfo="equals" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="4710899751214150092">
+                  <property name="value" value="parentRef" />
+                </node>
               </node>
             </node>
           </node>
