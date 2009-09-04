@@ -430,23 +430,19 @@
         </node>
       </node>
       <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SetType" id="7414886352090384238">
-        <node role="elementType" type="jetbrains.mps.baseLanguage.structure.UpperBoundType" id="7414886352090384241">
-          <node role="bound" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7414886352090384244">
-            <link role="classifier" targetNodeId="7.~Object" resolveInfo="Object" />
-            <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro" id="7414886352090384248">
-              <link role="templateSwitch" targetNodeId="7156220466231602628" resolveInfo="switch_NestedTaskType" />
-            </node>
+        <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4710899751214021279">
+          <link role="classifier" targetNodeId="7.~Object" resolveInfo="Object" />
+          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro" id="4710899751214021283">
+            <link role="templateSwitch" targetNodeId="7156220466231602628" resolveInfo="switch_NestedTaskType" />
           </node>
         </node>
       </node>
       <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="7414886352090395726">
         <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.HashSetCreator" id="7414886352090395727">
-          <node role="elementType" type="jetbrains.mps.baseLanguage.structure.UpperBoundType" id="7414886352090395728">
-            <node role="bound" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7414886352090395729">
-              <link role="classifier" targetNodeId="7.~Object" resolveInfo="Object" />
-              <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro" id="7414886352090395730">
-                <link role="templateSwitch" targetNodeId="7156220466231602628" resolveInfo="switch_NestedTaskType" />
-              </node>
+          <node role="elementType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4710899751214021288">
+            <link role="classifier" targetNodeId="7.~Object" resolveInfo="Object" />
+            <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro" id="4710899751214021292">
+              <link role="templateSwitch" targetNodeId="7156220466231602628" resolveInfo="switch_NestedTaskType" />
             </node>
           </node>
         </node>
