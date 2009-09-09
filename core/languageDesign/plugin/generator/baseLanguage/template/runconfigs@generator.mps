@@ -3282,6 +3282,49 @@
                   </node>
                 </node>
               </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4418372807722341477">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4418372807722341485">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4418372807722341478">
+                    <link role="variableDeclaration" targetNodeId="5447563960349298678" resolveInfo="_config" />
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="4418372807722341492">
+                    <link role="baseMethodDeclaration" targetNodeId="2.~RunConfigurationBase.setName(java.lang.String):void" resolveInfo="setName" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="4418372807722341493">
+                      <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" id="4418372807722341495">
+                        <node role="sourceNodeQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" id="4418372807722341496">
+                          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4418372807722341497">
+                            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4418372807722341498">
+                              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4418372807722341500">
+                                <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="4418372807722341499" />
+                                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4418372807722341504">
+                                  <link role="link" targetNodeId="2v.4418372807722332007" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.IfMacro" id="4418372807722341506">
+                  <node role="conditionFunction" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition" id="4418372807722341507">
+                    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4418372807722341508">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4418372807722341509">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4418372807722341517">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4418372807722341511">
+                            <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="4418372807722341510" />
+                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4418372807722341516">
+                              <link role="link" targetNodeId="2v.4418372807722332007" />
+                            </node>
+                          </node>
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="4418372807722341521" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="9068086904326285544">
                 <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="9068086904326285551">
                   <node role="rValue" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="9068086904326285558">
