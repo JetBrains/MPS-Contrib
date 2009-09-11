@@ -15,6 +15,6 @@ public abstract class BaseRunConfig extends RunConfigurationBase implements Loca
   }
 
   public String suggestedName() {
-    return null;
+    return getName();
   }
 }
