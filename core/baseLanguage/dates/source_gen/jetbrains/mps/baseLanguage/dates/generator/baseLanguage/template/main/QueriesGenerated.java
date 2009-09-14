@@ -82,7 +82,14 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_4396211440736691617(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true));
+    boolean retVal = false;
+    try {
+      retVal = DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true));
+    } catch (Throwable t) {
+      System.err.println("***** PANIC!!! DUMPING MEMORY ***** ");
+      t.printStackTrace();
+    }
+    return retVal;
   }
 
   public static boolean baseMappingRule_Condition_4396211440736691629(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
