@@ -12,38 +12,38 @@ import org.joda.time.Period;
 
 public class DateTimeZone_Test extends BaseTestCase {
   @Test
-  public void test_londonAndMoscowShortTime() throws Exception {
+  public void londonAndMoscowShortTime() throws Exception {
     Long current = System.currentTimeMillis();
     Assert.assertEquals(DateTimeOperations.print(current, DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London")), DateTimeOperations.print((DateTimeOperations.minus(current, Period.hours(3))), DateTimeFormat.shortTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow")));
   }
 
   @Test
-  public void test_londonAndMoscowFullTime() throws Exception {
+  public void londonAndMoscowFullTime() throws Exception {
     Long current = System.currentTimeMillis();
     Assert.assertFalse((DateTimeOperations.print(current, DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/London"))).equals(DateTimeOperations.print((DateTimeOperations.minus(current, Period.hours(3))), DateTimeFormat.fullTime(), new Locale("ru", "RU", ""), DateTimeZone.forID("Europe/Moscow"))));
   }
 
   @Test
-  public void test_westernHemisphereTime() throws Exception {
+  public void westernHemisphereTime() throws Exception {
     Long yesterday = DateTimeOperations.minus(System.currentTimeMillis(), Period.days(1));
     Assert.assertEquals(DateTimeOperations.print(yesterday, DateTimeFormat.shortTime(), null, DateTimeZone.forID("America/New_York")), DateTimeOperations.print((DateTimeOperations.minus(yesterday, Period.hours(11))), DateTimeFormat.shortTime(), null, DateTimeZone.forID("Asia/Bangkok")));
   }
 
   @Test
-  public void test_westernHemisphereDate() throws Exception {
+  public void westernHemisphereDate() throws Exception {
     Long yesterday = DateTimeOperations.minus(System.currentTimeMillis(), Period.days(1));
     Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("America/New_York"))).equals(DateTimeOperations.print((DateTimeOperations.plus(yesterday, Period.hours(22))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("Asia/Bangkok"))));
   }
 
   @Test
-  public void test_timeZoneFromVariable() throws Exception {
+  public void timeZoneFromVariable() throws Exception {
     String zone = "Europe/Berlin";
     Long thisMoment = System.currentTimeMillis();
     Assert.assertEquals(DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID(zone)), DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID("Europe/Berlin")));
   }
 
   @Test
-  public void test_timeZoneFromStringLiteral() throws Exception {
+  public void timeZoneFromStringLiteral() throws Exception {
     Long thisMoment = System.currentTimeMillis();
     Assert.assertEquals(DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")), DateTimeOperations.print(thisMoment, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow")));
   }

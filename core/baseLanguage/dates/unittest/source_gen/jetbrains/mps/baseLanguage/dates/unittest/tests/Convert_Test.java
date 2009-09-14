@@ -12,21 +12,21 @@ import org.joda.time.DateTime;
 
 public class Convert_Test extends TestCase {
   @Test
-  public void test_javaDate() throws Exception {
+  public void javaDate() throws Exception {
     Date date = new Date();
     Long dt = DateTimeOperations.convert(date);
     Assert.assertEquals(date, new Date(dt));
   }
 
   @Test
-  public void test_javaCalendar() throws Exception {
+  public void javaCalendar() throws Exception {
     Calendar calendar = Calendar.getInstance();
     Long dt = DateTimeOperations.convert(calendar);
     Assert.assertEquals(calendar, new DateTime(dt).toCalendar(null));
   }
 
   @Test
-  public void test_jodaDateTime() throws Exception {
+  public void jodaDateTime() throws Exception {
     DateTime datetime = new DateTime();
     Long dt = DateTimeOperations.convert(datetime);
     Assert.assertEquals(datetime, new DateTime(dt));

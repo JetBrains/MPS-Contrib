@@ -10,14 +10,14 @@ import junit.framework.Assert;
 
 public class Property_Test extends TestCase {
   @Test
-  public void test_minute() throws Exception {
+  public void minute() throws Exception {
     Long month = DateTimeOperations.round(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth());
     Integer expected = 0;
     Assert.assertEquals(expected, DateTimeOperations.get(month, DateTimeFieldType.minuteOfHour()));
   }
 
   @Test
-  public void test_month() throws Exception {
+  public void month() throws Exception {
     Assert.assertTrue(DateTimeOperations.get(System.currentTimeMillis(), DateTimeFieldType.monthOfYear()) < 13);
   }
 }

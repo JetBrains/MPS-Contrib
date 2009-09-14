@@ -15,20 +15,20 @@ import org.joda.time.DateTimeZone;
 
 public class Parse_Test extends BaseTestCase {
   @Test
-  public void test_timeFormat() throws Exception {
+  public void timeFormat() throws Exception {
     DateTime dt = new DateTime();
     Long today = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth());
     Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(DateTimeOperations.convert(dt), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null, today), DateTimeOperations.roundFloor(DateTimeOperations.convert(dt), DateTimeFieldType.secondOfMinute()));
   }
 
   @Test
-  public void test_jodaDateTime() throws Exception {
+  public void jodaDateTime() throws Exception {
     Long today = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).toLocalDate().toDateTimeAtMidnight());
     Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(today, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), null, null), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), null, null, null), today);
   }
 
   @Test
-  public void test_usDayOfWeek() throws Exception {
+  public void usDayOfWeek() throws Exception {
     Long monday = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear());
     Long wednesday = DateTimeOperations.plus(DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear()), Period.days(2));
     Assert.assertFalse(DateTimeOperations.compare(monday, CompareType.valueOf("EQ"), wednesday, DateTimeFieldType.millisOfSecond()));
@@ -36,7 +36,7 @@ public class Parse_Test extends BaseTestCase {
   }
 
   @Test
-  public void test_predefined() throws Exception {
+  public void predefined() throws Exception {
     Long instant = System.currentTimeMillis();
     String fdt = DateTimeOperations.print(instant, DateTimeFormat.fullDateTime(), null, null);
     //  the fullDateTime is not parseable (Joda apparently can't parse abbreviated time zone)
@@ -46,26 +46,26 @@ public class Parse_Test extends BaseTestCase {
   }
 
   @Test
-  public void test_fullDateForPeriod() throws Exception {
+  public void fullDateForPeriod() throws Exception {
     Period p = Period.weeks(2);
     //  must specify the zone!
     Assert.assertEquals(DateTimeOperations.parse("Thursday, January 15, 1970", DateTimeFormat.fullDate(), Locale.US, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
   @Test
-  public void test_shortDatePeriod() throws Exception {
+  public void shortDatePeriod() throws Exception {
     Period p = Period.days(10);
     Assert.assertEquals(DateTimeOperations.parse("1/11/70", DateTimeFormat.shortDate(), Locale.US, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
   @Test
-  public void test_ampm() throws Exception {
+  public void ampm() throws Exception {
     Period p = DateTimeOperations.plus(Period.hours(3), Period.minutes(33));
     Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
   @Test
-  public void test_timezone() throws Exception {
+  public void timezone() throws Exception {
     DateTimeZone mskid = DateTimeZone.forID("Europe/Moscow");
     Assert.assertEquals(DateTimeZone.forID("Europe/Moscow"), mskid);
     Assert.assertEquals(DateTimeZone.forID("Europe/Moscow"), mskid);

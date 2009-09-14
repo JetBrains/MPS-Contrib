@@ -18,7 +18,7 @@ import jetbrains.mps.baseLanguage.dates.accessories.DateTimeUtil;
 
 public class InlineFormat_Test extends BaseTestCase {
   @Test
-  public void test_inlineFormat() throws Exception {
+  public void inlineFormat() throws Exception {
     //  some tests rely on MSK time zone
     DateTimeZone msk = DateTimeZone.forID("Europe/Moscow");
     {

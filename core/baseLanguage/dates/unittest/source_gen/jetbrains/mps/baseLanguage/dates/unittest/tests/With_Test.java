@@ -10,7 +10,7 @@ import junit.framework.Assert;
 
 public class With_Test extends TestCase {
   @Test
-  public void test_monday() throws Exception {
+  public void monday() throws Exception {
     Long n = System.currentTimeMillis();
     Long firstOfJan = DateTimeOperations.with(DateTimeOperations.with(DateTimeOperations.with(n, DateTimeFieldType.yearOfEra(), 2007), DateTimeFieldType.monthOfYear(), 1), DateTimeFieldType.dayOfMonth(), 1);
     Long firstOfFirstWeek = DateTimeOperations.with(DateTimeOperations.with(DateTimeOperations.with(n, DateTimeFieldType.yearOfEra(), 2007), DateTimeFieldType.weekOfWeekyear(), 1), DateTimeFieldType.dayOfWeek(), 1);
