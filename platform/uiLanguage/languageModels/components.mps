@@ -127,6 +127,18 @@
         <link role="classifier" targetNodeId="3.~Color" resolveInfo="Color" />
       </node>
     </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="8226459646154029727">
+      <property name="name" value="icon" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="8226459646154029788">
+        <link role="classifier" targetNodeId="2.~Icon" resolveInfo="Icon" />
+      </node>
+    </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="8226459646154220786">
+      <property name="name" value="font" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="8226459646154220847">
+        <link role="classifier" targetNodeId="3.~Font" resolveInfo="Font" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202738287160">
     <property name="name" value="VBox" />
@@ -143,6 +155,7 @@
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202815836444">
     <property name="name" value="CheckBox" />
     <property name="stub" value="true" />
+    <property name="actionComponent" value="true" />
     <link role="mapTo" targetNodeId="2.~JCheckBox" resolveInfo="JCheckBox" />
     <link role="extendedComponent" targetNodeId="1202393560969" resolveInfo="Button" />
   </node>
@@ -222,6 +235,26 @@
       <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1204287681555">
         <link role="classifier" targetNodeId="2.~ButtonGroup" resolveInfo="ButtonGroup" />
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="2081431238554771058">
+    <link role="component" targetNodeId="1202816402995" resolveInfo="Panel" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="2081431238554771059">
+      <property name="name" value="visible" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="2081431238554771061" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="8606751926055253470">
+    <property name="name" value="Separator" />
+    <property name="stub" value="true" />
+    <link role="extendedComponent" targetNodeId="1202393472906" resolveInfo="BaseComponent" />
+    <link role="mapTo" targetNodeId="2.~JSeparator" resolveInfo="JSeparator" />
+  </node>
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="8606751926055253530">
+    <link role="component" targetNodeId="8606751926055253470" resolveInfo="Separator" />
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="8606751926055253531">
+      <property name="name" value="orientation" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.IntegerType" id="8606751926055253533" />
     </node>
   </node>
 </model>
