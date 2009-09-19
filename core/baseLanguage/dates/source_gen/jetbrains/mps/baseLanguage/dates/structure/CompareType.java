@@ -34,7 +34,6 @@ public enum CompareType {
     return this.myValue;
   }
 
-
   public static List<CompareType> getConstants() {
     List<CompareType> list = ListSequence.fromList(new LinkedList<CompareType>());
     ListSequence.fromList(list).addElement(CompareType.EQUALS);

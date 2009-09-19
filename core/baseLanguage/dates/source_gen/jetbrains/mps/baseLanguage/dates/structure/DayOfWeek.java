@@ -35,7 +35,6 @@ public enum DayOfWeek {
     return this.myValue;
   }
 
-
   public static List<DayOfWeek> getConstants() {
     List<DayOfWeek> list = ListSequence.fromList(new LinkedList<DayOfWeek>());
     ListSequence.fromList(list).addElement(DayOfWeek.Sunday);

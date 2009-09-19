@@ -31,7 +31,6 @@ public enum useAttributeEnum {
     return this.myValue;
   }
 
-
   public static List<useAttributeEnum> getConstants() {
     List<useAttributeEnum> list = ListSequence.fromList(new LinkedList<useAttributeEnum>());
     ListSequence.fromList(list).addElement(useAttributeEnum.optional);

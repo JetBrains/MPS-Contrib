@@ -30,7 +30,6 @@ public enum DateFormatVisibility {
     return this.myValue;
   }
 
-
   public static List<DateFormatVisibility> getConstants() {
     List<DateFormatVisibility> list = ListSequence.fromList(new LinkedList<DateFormatVisibility>());
     ListSequence.fromList(list).addElement(DateFormatVisibility.PUBLIC);
