@@ -21,6 +21,7 @@ import jetbrains.mps.logging.Logger;
 public class UnitTestRunner extends BaseRunner {
   private JUnitTestViewComponent myComponent;
   private UnitTest_PreferencesComponent unitTestPreferences;
+  private Process myProcess;
 
   public UnitTestRunner(UnitTest_PreferencesComponent unitTestPreferences, JUnitTestViewComponent component) {
     this.myComponent = component;
@@ -51,6 +52,10 @@ public class UnitTestRunner extends BaseRunner {
     thread.start();
   }
 
+  public Process getProcess() {
+    return this.myProcess;
+  }
+
   private void runTestWithParameters(final TestRunParameters parameters, final List<SNode> tests) {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     this.addJavaCommand(params);
@@ -74,14 +79,14 @@ public class UnitTestRunner extends BaseRunner {
     ProcessBuilder p = new ProcessBuilder(params);
     this.myComponent.appendInternal(this.getCommandString(p) + "\n\n");
     try {
-      final Process pro = p.start();
-      final UnitTestRunOutputReader outReader = new UnitTestRunOutputReader(pro.getInputStream(), this.myComponent, false);
-      final UnitTestRunOutputReader errReader = new UnitTestRunOutputReader(pro.getErrorStream(), this.myComponent, true);
+      this.myProcess = p.start();
+      final UnitTestRunOutputReader outReader = new UnitTestRunOutputReader(this.myProcess.getInputStream(), this.myComponent, false);
+      final UnitTestRunOutputReader errReader = new UnitTestRunOutputReader(this.myProcess.getErrorStream(), this.myComponent, true);
       this.myComponent.addCloseListener(new _FunctionTypes._void_P0_E0() {
         public void invoke() {
           outReader.interrupt();
           errReader.interrupt();
-          pro.destroy();
+          UnitTestRunner.this.myProcess.destroy();
         }
       });
       CyclicBarrier barrier = new CyclicBarrier(2, outReader.getExecutor());
@@ -89,7 +94,7 @@ public class UnitTestRunner extends BaseRunner {
       errReader.setBarrier(barrier);
       outReader.start();
       errReader.start();
-      pro.waitFor();
+      this.myProcess.waitFor();
     } catch (Exception e) {
       Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);
     }
