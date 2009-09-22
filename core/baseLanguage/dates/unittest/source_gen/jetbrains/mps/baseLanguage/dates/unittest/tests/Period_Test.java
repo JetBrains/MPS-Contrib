@@ -13,33 +13,39 @@ public class Period_Test extends TestCase {
   public void test_plus() throws Exception {
     Long firstDayOfMonth = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear());
     Long secondDayOfMonth = DateTimeOperations.plus(firstDayOfMonth, Period.days(1));
-    Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.valueOf("LT"), secondDayOfMonth, DateTimeFieldType.hourOfDay()));
-    Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.valueOf("EQ"), secondDayOfMonth, DateTimeFieldType.monthOfYear()));
+    Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.LT, secondDayOfMonth, DateTimeFieldType.hourOfDay()));
+    Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.EQ, secondDayOfMonth, DateTimeFieldType.monthOfYear()));
   }
 
   public void test_plusAndEquals() throws Exception {
     Period p = DateTimeOperations.plus(DateTimeOperations.minus(DateTimeOperations.plus(Period.days(1), Period.months(2)), Period.hours(1)), Period.minutes(2));
-    Assert.assertTrue(!(DateTimeOperations.equals(p, DateTimeOperations.minus(Period.months(3), Period.days(32))) || DateTimeOperations.less(p, DateTimeOperations.minus(Period.months(3), Period.days(32)))));
+    Assert.assertTrue(DateTimeOperations.compare(p, CompareType.GT, DateTimeOperations.minus(Period.months(3), Period.days(32))));
   }
 
   public void test_equals() throws Exception {
-    Assert.assertTrue(DateTimeOperations.equals(Period.hours(24), Period.days(1)));
+    Assert.assertTrue(DateTimeOperations.compare(Period.hours(24), CompareType.EQ, Period.days(1)));
   }
 
   public void test_lessOrEquals() throws Exception {
-    Assert.assertTrue((DateTimeOperations.equals(Period.days(28), Period.months(1)) || DateTimeOperations.less(Period.days(28), Period.months(1))));
+    Assert.assertTrue(DateTimeOperations.compare(Period.days(28), CompareType.LE, Period.months(1)));
   }
 
   public void test_greaterOrEquals() throws Exception {
-    Assert.assertTrue(!(DateTimeOperations.less(Period.days(31), Period.months(1))));
+    Assert.assertTrue(DateTimeOperations.compare(Period.days(31), CompareType.GE, Period.months(1)));
   }
 
   public void test_less() throws Exception {
-    Assert.assertTrue(DateTimeOperations.less(Period.days(13), Period.weeks(2)));
+    Assert.assertTrue(DateTimeOperations.compare(Period.days(13), CompareType.LT, Period.weeks(2)));
   }
 
   public void test_greater() throws Exception {
-    Assert.assertFalse(!(DateTimeOperations.equals(Period.days(13), Period.weeks(2)) || DateTimeOperations.less(Period.days(13), Period.weeks(2))));
+    Assert.assertFalse(DateTimeOperations.compare(Period.days(13), CompareType.GT, Period.weeks(2)));
+  }
+
+  public void test_greater2() throws Exception {
+    Period mdays = Period.days(5);
+    Assert.assertTrue(DateTimeOperations.compare(mdays, CompareType.GT, Period.days(4)));
+    Assert.assertFalse(DateTimeOperations.compare(mdays, CompareType.GT, Period.days(6)));
   }
 
   public void test_convert() throws Exception {

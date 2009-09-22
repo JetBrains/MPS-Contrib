@@ -51,7 +51,7 @@ public class Format_Test extends BaseTestCase {
   public void test_minutesAgo() throws Exception {
     Long dt = DateTimeOperations.minus(System.currentTimeMillis(), Period.minutes(27));
     String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"), null, null);
-    if ((DateTimeOperations.compare(dt, CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.hourOfDay())) && (DateTimeOperations.equals(new Period((long)System.currentTimeMillis() - dt, PeriodType.minutes()), Period.minutes(27)))) {
+    if ((DateTimeOperations.compare(dt, CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.hourOfDay())) && (DateTimeOperations.compare(new Period((long)System.currentTimeMillis() - dt, PeriodType.minutes()), CompareType.EQ, Period.minutes(27)))) {
       Assert.assertEquals("27 minutes ago", actual);
     }
   }
@@ -59,7 +59,7 @@ public class Format_Test extends BaseTestCase {
   public void test_minutesAfter() throws Exception {
     Long dt = DateTimeOperations.plus(System.currentTimeMillis(), Period.minutes(27));
     String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"), null, null);
-    if (DateTimeOperations.compare(dt, CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.hourOfDay()) && (DateTimeOperations.equals(Period.minutes(27), new Period((long)dt - System.currentTimeMillis(), PeriodType.minutes())))) {
+    if (DateTimeOperations.compare(dt, CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.hourOfDay()) && (DateTimeOperations.compare(Period.minutes(27), CompareType.EQ, new Period((long)dt - System.currentTimeMillis(), PeriodType.minutes())))) {
       Assert.assertEquals("in 27 minutes", actual);
     }
   }
@@ -67,7 +67,7 @@ public class Format_Test extends BaseTestCase {
   public void test_hoursMinutesAgo() throws Exception {
     Long dt = DateTimeOperations.minus((DateTimeOperations.minus(System.currentTimeMillis(), Period.hours(2))), Period.minutes(27));
     String actual = DateTimeOperations.print(dt, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"), null, null);
-    if (DateTimeOperations.compare(dt, CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.dayOfMonth()) && DateTimeOperations.compare(DateTimeOperations.plus(DateTimeOperations.plus(dt, Period.hours(2)), Period.minutes(27)), CompareType.valueOf("EQ"), System.currentTimeMillis(), DateTimeFieldType.minuteOfHour())) {
+    if (DateTimeOperations.compare(dt, CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.dayOfMonth()) && DateTimeOperations.compare(DateTimeOperations.plus(DateTimeOperations.plus(dt, Period.hours(2)), Period.minutes(27)), CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.minuteOfHour())) {
       Assert.assertEquals("2 hours and 27 minutes ago", actual);
     }
   }

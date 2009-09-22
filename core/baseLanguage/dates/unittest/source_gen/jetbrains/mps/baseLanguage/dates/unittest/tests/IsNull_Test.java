@@ -25,33 +25,33 @@ public class IsNull_Test extends TestCase {
   public void test_nullCompareEquals() throws Exception {
     Long dt1 = null;
     Long d2 = null;
-    Assert.assertTrue(DateTimeOperations.compare(dt1, CompareType.valueOf("EQ"), d2, DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(dt1, CompareType.EQ, d2, DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_nullCompareNotEquals() throws Exception {
     Long dt1 = null;
     Long dt2 = System.currentTimeMillis();
-    Assert.assertTrue(DateTimeOperations.compare(dt1, CompareType.valueOf("NE"), dt2, DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(dt1, CompareType.NE, dt2, DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_nullLess() throws Exception {
     Long dt1 = System.currentTimeMillis();
     Long d2 = null;
-    Assert.assertTrue(DateTimeOperations.compare(dt1, CompareType.valueOf("GT"), d2, DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(dt1, CompareType.GT, d2, DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_nullIsNever() throws Exception {
     Long nullDate = null;
-    Assert.assertTrue(DateTimeOperations.compare(nullDate, CompareType.valueOf("EQ"), DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(nullDate, CompareType.EQ, DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_nowIsNotNever() throws Exception {
     Long nowDate = System.currentTimeMillis();
-    Assert.assertTrue(DateTimeOperations.compare(nowDate, CompareType.valueOf("NE"), DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(nowDate, CompareType.NE, DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_zeroDateIsNotNever() throws Exception {
     Long at1January1970 = DateTimeOperations.convert(Period.seconds(0));
-    Assert.assertFalse(DateTimeOperations.compare(at1January1970, CompareType.valueOf("EQ"), null, DateTimeFieldType.millisOfSecond()) || DateTimeOperations.compare(at1January1970, CompareType.valueOf("EQ"), DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
+    Assert.assertFalse(DateTimeOperations.compare(at1January1970, CompareType.EQ, null, DateTimeFieldType.millisOfSecond()) || DateTimeOperations.compare(at1January1970, CompareType.EQ, DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
   }
 }
