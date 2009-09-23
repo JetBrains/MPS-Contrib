@@ -38,7 +38,7 @@ public class TestRunParameters {
     this.myClassPath = classPath;
   }
 
-  public List<String> getCalssPath() {
+  public List<String> getClassPath() {
     return this.myClassPath;
   }
 
