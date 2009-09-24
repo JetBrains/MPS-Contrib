@@ -15,6 +15,7 @@ import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.smodel.ModelAccess;
+import org.apache.commons.lang.StringUtils;
 import java.io.File;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.concurrent.CyclicBarrier;
@@ -98,7 +99,7 @@ public class UnitTestRunner extends BaseRunner {
       ListSequence.fromList(params).addElement(programParams);
     }
     ProcessBuilder p = new ProcessBuilder(params);
-    if (workingDir != null) {
+    if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
       p.directory(new File(workingDir));
     }
     this.myComponent.appendInternal(this.getCommandString(p) + "\n\n");
