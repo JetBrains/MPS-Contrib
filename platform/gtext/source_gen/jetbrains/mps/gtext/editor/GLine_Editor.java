@@ -98,14 +98,14 @@ public class GLine_Editor extends DefaultNodeEditor {
     }
 
     private EditorCell createConstant_6865_1(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<< items >>");
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
       editorCell.setCellId("Constant_6865_1");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.EDITABLE, true);
         style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
       }
-      editorCell.setDefaultText("");
+      editorCell.setDefaultText("<< items >>");
       return editorCell;
     }
   }

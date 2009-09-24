@@ -231,7 +231,7 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="1167316177532">
         <link role="relationDeclaration" targetNodeId="1.1166928665191" />
         <node role="emptyCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1167316177533">
-          <property name="text" value="&lt;&lt; items &gt;&gt;" />
+          <property name="nullText" value="&lt;&lt; items &gt;&gt;" />
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.EditableStyleClassItem" id="1214398032000">
             <property name="flag" value="true" />
           </node>
