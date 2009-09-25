@@ -515,16 +515,30 @@
             </node>
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213107435863">
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="1213107435864">
-                <node role="rValue" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1213107435865">
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1213107435866" />
-                  <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.CoerceExpression" id="1213107435867">
-                    <node role="pattern" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1213107435868">
-                      <property name="name" value="dateTimeType" />
-                      <link role="concept" targetNodeId="1.1171902375079" resolveInfo="DateTimeType" />
+                <node role="rValue" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="670620798051998518">
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="670620798051999043">
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="670620798051999046" />
+                    <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.CoerceExpression" id="670620798051999038">
+                      <node role="pattern" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999042">
+                        <property name="name" value="dateTimeWithTZType" />
+                        <link role="concept" targetNodeId="1.1195930031035447613" resolveInfo="DateTimeWithTZType" />
+                      </node>
+                      <node role="nodeToCoerce" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="670620798051999041">
+                        <link role="variableDeclaration" targetNodeId="1213107435855" resolveInfo="type" />
+                      </node>
                     </node>
-                    <node role="nodeToCoerce" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213107435869">
-                      <link role="variableDeclaration" targetNodeId="1213107435855" resolveInfo="type" />
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="1213107435865">
+                    <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.CoerceExpression" id="1213107435867">
+                      <node role="pattern" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1213107435868">
+                        <property name="name" value="dateTimeType" />
+                        <link role="concept" targetNodeId="1.1171902375079" resolveInfo="DateTimeType" />
+                      </node>
+                      <node role="nodeToCoerce" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213107435869">
+                        <link role="variableDeclaration" targetNodeId="1213107435855" resolveInfo="type" />
+                      </node>
                     </node>
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1213107435866" />
                   </node>
                 </node>
                 <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1213107435870">

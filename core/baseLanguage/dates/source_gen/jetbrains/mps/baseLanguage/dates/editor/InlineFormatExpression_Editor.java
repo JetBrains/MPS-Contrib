@@ -67,7 +67,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    InlineFormatExpression_ActionMap_Delete.setCellActions(editorCell, node, editorContext);
     editorCell.addEditorCell(this.createConstant_6516_3(editorContext, node));
     editorCell.addEditorCell(this.createConstant_6516_7(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6516_0(editorContext, node));
@@ -138,7 +137,6 @@ public class InlineFormatExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_6516_2");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
-    InlineFormatExpression_ActionMap_RightTransform.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }

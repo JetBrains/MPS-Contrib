@@ -11,7 +11,6 @@ import jetbrains.mps.baseLanguage.behavior.TypeDerivable_Behavior;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
-import jetbrains.mps.smodel.action.NodeSetupContext;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
@@ -37,12 +36,12 @@ import jetbrains.mps.nodeEditor.CellSide;
 public class QueriesGenerated {
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_4555537781927653007(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
-    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new _Quotations.QuotationClass_9().createNode());
+    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new _Quotations.QuotationClass_11().createNode());
   }
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_5473692278135639405(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
-    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new _Quotations.QuotationClass_11().createNode());
+    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new _Quotations.QuotationClass_13().createNode());
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1169657599823(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
@@ -77,7 +76,15 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
   }
 
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1892577441204588313(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ParseDateTimeExpression_670620798052429713(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ParseDateTimeExpression_670620798052429809(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return (SLinkOperations.getTarget(_context.getSourceNode(), "default", true) == null);
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_670620798052616884(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.StringType"), true) != null;
   }
 
@@ -93,12 +100,8 @@ public class QueriesGenerated {
     return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"), true) != null;
   }
 
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ParseExpression_7678715681280028107(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return (SLinkOperations.getTarget(_context.getSourceNode(), "default", true) == null);
-  }
-
-  public static void nodeFactory_NodeSetup_ParseExpression_1892577441204588453(final IOperationContext operationContext, final NodeSetupContext _context) {
-    SLinkOperations.setTarget(_context.getNewNode(), "source", SNodeOperations.as(_context.getSampleNode(), "jetbrains.mps.baseLanguage.structure.Expression"), true);
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_7499037524191428232(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfTimezone(_context.getSourceNode()) && SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getSourceNode()), "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
   }
 
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_4555537781927653006(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -384,17 +387,61 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1892577441204584702(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_ParseDateTimeExpression_670620798052429712(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseExpression");
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          return SNodeOperations.replaceWithNewChild(_context.getSourceNode(), "jetbrains.mps.baseLanguage.dates.structure.ParseExpression");
+          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new _Quotations.QuotationClass_7().createNode(), "locale", false), false);
         }
 
         public String getMatchingText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseExpression"), "alias");
+          return "(";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_ParseDateTimeExpression_670620798052429808(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          return SLinkOperations.setTarget(_context.getSourceNode(), "default", new _Quotations.QuotationClass_8().createNode(), true);
+        }
+
+        public String getMatchingText(String pattern) {
+          return "into";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_670620798052615669(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          SNode n = SNodeOperations.replaceWithNewChild(_context.getSourceNode(), "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+          SLinkOperations.setTarget(n, "source", _context.getSourceNode(), true);
+          return n;
+        }
+
+        public String getMatchingText(String pattern) {
+          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "alias");
         }
 
         public String getVisibleMatchingText(String pattern) {
@@ -402,7 +449,7 @@ public class QueriesGenerated {
         }
 
         public String getDescriptionText(String pattern) {
-          return SPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseExpression"), "shortDescription");
+          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "shortDescription");
         }
       });
     }
@@ -429,7 +476,7 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new _Quotations.QuotationClass_8().createNode(), "locale", false), false);
+          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new _Quotations.QuotationClass_10().createNode(), "locale", false), false);
         }
 
         public String getMatchingText(String pattern) {
@@ -470,28 +517,16 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_ParseExpression_7678715681280025607(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_7499037524191428215(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseExpression");
-      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
-          SLinkOperations.setNewChild(_context.getSourceNode(), "default", "jetbrains.mps.baseLanguage.structure.Expression");
-          return _context.getSourceNode();
+      Calculable calc = new Calculable() {
+        public Object calculate() {
+          return SNodeOperations.getParent(_context.getSourceNode());
         }
-
-        public String getMatchingText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseExpression"), "defaultKeyword");
-        }
-
-        public String getVisibleMatchingText(String pattern) {
-          return this.getMatchingText(pattern);
-        }
-
-        public String getDescriptionText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseExpression"), "defaultKeyword");
-        }
-      });
+      };
+      SNode node = (SNode)calc.calculate();
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(ModelActions.createRightTransformHintSubstituteActions(node, CellSide.RIGHT, _context.getTransformationTag(), operationContext)));
     }
     return result;
   }

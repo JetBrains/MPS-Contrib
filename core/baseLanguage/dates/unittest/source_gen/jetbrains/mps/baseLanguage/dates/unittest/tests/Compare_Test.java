@@ -15,16 +15,19 @@ public class Compare_Test extends TestCase {
   private static Long yesterday = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).minusDays(1));
 
   public void test_equals() throws Exception {
-    Assert.assertTrue(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.secondOfMinute()));
-    Assert.assertFalse(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.NE, System.currentTimeMillis(), DateTimeFieldType.millisOfSecond()));
+    Long now1 = System.currentTimeMillis();
+    Assert.assertTrue(DateTimeOperations.compare(now1, CompareType.EQ, now1, DateTimeFieldType.secondOfMinute()));
+    Assert.assertFalse(DateTimeOperations.compare(now1, CompareType.NE, now1, DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_zoneEquals() throws Exception {
-    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault())), CompareType.EQ, DateTimeOperations.roundFloor((DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault())), DateTimeFieldType.millisOfSecond()), DateTimeFieldType.millisOfSecond()));
+    Long now1 = System.currentTimeMillis();
+    Assert.assertEquals((DateTimeOperations.convert(now1, DateTimeZone.getDefault())), DateTimeOperations.roundFloor((DateTimeOperations.convert(now1, DateTimeZone.getDefault())), DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_greater() throws Exception {
-    Assert.assertFalse(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.GT, System.currentTimeMillis(), DateTimeFieldType.millisOfSecond()));
+    Long now1 = System.currentTimeMillis();
+    Assert.assertFalse(DateTimeOperations.compare(now1, CompareType.GT, now1, DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.GE, yesterday, DateTimeFieldType.dayOfMonth()));
   }
 

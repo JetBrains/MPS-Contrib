@@ -8,9 +8,9 @@ import org.joda.time.DateTimeFieldType;
 import junit.framework.Assert;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.DateTimeZone;
+import java.util.Locale;
 import org.joda.time.Period;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
-import java.util.Locale;
 
 public class Parse_Test extends BaseTestCase {
   public void test_timeFormat() throws Exception {
@@ -20,7 +20,7 @@ public class Parse_Test extends BaseTestCase {
   }
 
   public void test_dateParseinTZ() throws Exception {
-    Assert.assertEquals("11/01/1970", DateTimeOperations.print((DateTimeOperations.parseDateTime("1/11/70", DateTimeFormat.shortDate(), DateTimeZone.getDefault(), null, null)), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("mShortDate"), null));
+    Assert.assertEquals("11/01/1970", DateTimeOperations.print((DateTimeOperations.parseDateTime("1/11/70", DateTimeFormat.shortDate(), DateTimeZone.UTC, Locale.US, null)), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("mShortDate"), null));
   }
 
   public void test_jodaDateTime() throws Exception {

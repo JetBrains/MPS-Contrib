@@ -40,12 +40,13 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="13" />
+  <maxImportIndex value="14" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="6" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="12" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
   <import index="13" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
+  <import index="14" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1178371373855">
     <property name="name" value="typeof_NowExpression" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1178371373856">
@@ -388,38 +389,6 @@
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1209035586429">
       <property name="name" value="nodeToCheck" />
       <link role="concept" targetNodeId="2.1209035204722" resolveInfo="ConvertToDateTimeOperation" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1209036019371">
-    <property name="name" value="typeof_DateTimeOperation" />
-    <property name="package" value="operation" />
-    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209036019372">
-      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1209036045328">
-        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1209036047670">
-          <node role="normalType" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209036062098">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1209036053573">
-              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1209036053201">
-                <link role="applicableNode" targetNodeId="1209036019373" resolveInfo="nodeToCheck" />
-              </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SConceptLinkAccess" id="1209036059317">
-                <link role="conceptLinkDeclaration" targetNodeId="2.1209035895681" resolveInfo="operationType" />
-              </node>
-            </node>
-            <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" id="1209036065628" />
-          </node>
-        </node>
-        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1209036045332">
-          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1209036042398">
-            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1209036042399">
-              <link role="applicableNode" targetNodeId="1209036019373" resolveInfo="nodeToCheck" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1209036019373">
-      <property name="name" value="nodeToCheck" />
-      <link role="concept" targetNodeId="2.1209035760903" resolveInfo="DateTimeOperation" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1213195050820">
@@ -1446,6 +1415,25 @@
           </node>
         </node>
       </node>
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="7499037524191428205">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="7499037524191428209">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="7499037524191428210">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="7499037524191428213" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="7499037524191428208">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="7499037524191428197">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7499037524191428200">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="7499037524191428199">
+                <link role="applicableNode" targetNodeId="4389880778953638811" resolveInfo="expression" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7499037524191428204">
+                <link role="link" targetNodeId="2.4389880778953634895" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="4389880778953638811">
       <property name="name" value="expression" />
@@ -1536,6 +1524,158 @@
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="194163770812065855">
       <property name="name" value="expression" />
       <link role="concept" targetNodeId="2.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999047">
+    <property name="name" value="typeof_ConvertToJavaCalendarOperation" />
+    <property name="package" value="operation.convert" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999048">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999054">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999058">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="670620798051999059">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="670620798051999062">
+              <link role="classifier" targetNodeId="14.~Calendar" resolveInfo="Calendar" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999057">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="670620798051999051">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="670620798051999053">
+              <link role="applicableNode" targetNodeId="670620798051999049" resolveInfo="operation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999049">
+      <property name="name" value="operation" />
+      <link role="concept" targetNodeId="2.1209036309347" resolveInfo="ConvertToJavaCalendarOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999063">
+    <property name="name" value="typeof_ConvertToJavaDateOperation" />
+    <property name="package" value="operation.convert" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999064">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999070">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999074">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="670620798051999075">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="670620798051999078">
+              <link role="classifier" targetNodeId="14.~Date" resolveInfo="Date" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999073">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="670620798051999067">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="670620798051999069">
+              <link role="applicableNode" targetNodeId="670620798051999065" resolveInfo="operation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999065">
+      <property name="name" value="operation" />
+      <link role="concept" targetNodeId="2.1209036325551" resolveInfo="ConvertToJavaDateOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999079">
+    <property name="name" value="typeof_ConvertToJodaDateTimeOperation" />
+    <property name="package" value="operation.convert" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999080">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999086">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999090">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="670620798051999091">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="670620798051999094">
+              <link role="classifier" targetNodeId="13.~DateTime" resolveInfo="DateTime" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999089">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="670620798051999083">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="670620798051999085">
+              <link role="applicableNode" targetNodeId="670620798051999081" resolveInfo="operation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999081">
+      <property name="name" value="operation" />
+      <link role="concept" targetNodeId="2.1209036336317" resolveInfo="ConvertToJodaDateTimeOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999095">
+    <property name="name" value="typeof_DateTimePropetyReferenceOperation" />
+    <property name="package" value="operation.property" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999096">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999102">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999110">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="670620798051999111">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="670620798051999114">
+              <link role="classifier" targetNodeId="6.~Integer" resolveInfo="Integer" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999105">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="670620798051999099">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="670620798051999101">
+              <link role="applicableNode" targetNodeId="670620798051999097" resolveInfo="operation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999097">
+      <property name="name" value="operation" />
+      <link role="concept" targetNodeId="2.1209039739631" resolveInfo="DateTimePropetyReferenceOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999115">
+    <property name="name" value="typeof_NotNullOperation" />
+    <property name="package" value="operation.compare" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999116">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999122">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999126">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="670620798051999127">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="670620798051999129" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999125">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="670620798051999119">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="670620798051999121">
+              <link role="applicableNode" targetNodeId="670620798051999117" resolveInfo="operation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999117">
+      <property name="name" value="operation" />
+      <link role="concept" targetNodeId="2.1209036122468" resolveInfo="NotNullOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999130">
+    <property name="name" value="typeof_NullOperation" />
+    <property name="package" value="operation.compare" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999131">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999137">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999141">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="670620798051999142">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="670620798051999144" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999140">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="670620798051999134">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="670620798051999136">
+              <link role="applicableNode" targetNodeId="670620798051999132" resolveInfo="operation" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999132">
+      <property name="name" value="operation" />
+      <link role="concept" targetNodeId="2.1209036143519" resolveInfo="NullOperation" />
     </node>
   </node>
 </model>
