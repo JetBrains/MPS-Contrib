@@ -53,6 +53,15 @@ public class MainFormatTable extends BaseFormatTable {
       builder.appendPattern("ss");
       return builder.toFormatter();
     }
+    if ("mShortDate".equals(formatterName)) {
+      DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
+      builder.appendPattern("dd");
+      builder.appendLiteral("/");
+      builder.appendPattern("MM");
+      builder.appendLiteral("/");
+      builder.appendPattern("yyyy");
+      return builder.toFormatter();
+    }
     if ("week".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
       builder.appendPattern("EEE");

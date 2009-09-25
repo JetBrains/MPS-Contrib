@@ -8,6 +8,7 @@ import org.joda.time.DateTime;
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 import org.joda.time.DateTimeFieldType;
+import org.joda.time.DateTimeZone;
 import org.joda.time.Period;
 
 public class Compare_Test extends TestCase {
@@ -15,6 +16,11 @@ public class Compare_Test extends TestCase {
 
   public void test_equals() throws Exception {
     Assert.assertTrue(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.EQ, System.currentTimeMillis(), DateTimeFieldType.secondOfMinute()));
+    Assert.assertFalse(DateTimeOperations.compare(System.currentTimeMillis(), CompareType.NE, System.currentTimeMillis(), DateTimeFieldType.millisOfSecond()));
+  }
+
+  public void test_zoneEquals() throws Exception {
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault())), CompareType.EQ, DateTimeOperations.roundFloor((DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault())), DateTimeFieldType.millisOfSecond()), DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_greater() throws Exception {

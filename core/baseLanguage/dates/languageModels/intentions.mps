@@ -48,6 +48,7 @@
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" id="1207144041354">
     <property name="name" value="ConvertDateTimePlusToPlus" />
     <property name="isErrorIntention" value="true" />
+    <property name="package" value="deprecated" />
     <link role="forConcept" targetNodeId="1.1207143297026" resolveInfo="DateTimePlusPeriodOperation" />
     <node role="descriptionFunction" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock" id="1207144041355">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1207144041356">
@@ -125,6 +126,7 @@
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" id="1207223065533">
     <property name="name" value="ConvertDateTimeMinusToMinus" />
     <property name="isErrorIntention" value="true" />
+    <property name="package" value="deprecated" />
     <link role="forConcept" targetNodeId="1.1207222873197" resolveInfo="DateTimeMinusPeriodOperation" />
     <node role="descriptionFunction" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock" id="1207223065534">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1207223065535">

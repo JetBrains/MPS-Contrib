@@ -243,7 +243,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169495318439">
     <property name="name" value="LiteralFormatToken" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1169495350409">
       <property name="name" value="value" />
@@ -260,7 +260,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169495337236">
     <property name="name" value="FormatToken" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1169543700004">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
@@ -268,7 +268,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169557513226">
     <property name="name" value="FormatExpression" />
-    <property name="package" value="format" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169557612323">
       <property name="metaClass" value="aggregation" />
@@ -296,7 +296,7 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1172063525570">
-      <property name="value" value="Format datetime using predefined formatter" />
+      <property name="value" value="Format instant using predefined formatter" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1178203664031">
@@ -305,10 +305,11 @@
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="4555537781928182636">
       <link role="intfc" targetNodeId="3.1201183863028" resolveInfo="TypeDerivable" />
     </node>
+    <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="2890840340813345706" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169562965517">
     <property name="name" value="ConditionalFormatToken" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169563619049">
       <property name="metaClass" value="aggregation" />
@@ -327,7 +328,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169563273551">
     <property name="name" value="ReferenceFormatToken" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169563300146">
       <property name="sourceCardinality" value="1" />
@@ -345,7 +346,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169563444535">
     <property name="name" value="TokenConditionalPair" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169563469176">
       <property name="metaClass" value="aggregation" />
@@ -361,7 +362,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169630122569">
     <property name="name" value="NowExpression" />
-    <property name="package" value="operation.constant" />
+    <property name="package" value="constant" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1169630187167">
       <property name="value" value="now" />
@@ -370,7 +371,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169631506005">
     <property name="name" value="TokenCondition" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="3.1137021947720" />
     <node role="conceptLink" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink" id="1172162329997">
       <link role="conceptLinkDeclaration" targetNodeId="3.1137545148427" />
@@ -583,7 +584,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172489559047">
     <property name="name" value="PeriodConstant" />
-    <property name="package" value="operation.constant" />
+    <property name="package" value="constant" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1172491543832">
       <property name="metaClass" value="aggregation" />
@@ -599,7 +600,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172679701720">
     <property name="name" value="FixedLocaleFormatToken" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1172679863969">
       <property name="sourceCardinality" value="1" />
@@ -618,7 +619,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1173959836330">
     <property name="name" value="DateTimePropertyFormatToken" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1173960023920">
       <property name="value" value="{&lt;{dateTimePropertyFormatConfiguration}&gt;}" />
@@ -658,7 +659,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174039789930">
     <property name="name" value="InlineFormatExpression" />
-    <property name="package" value="format" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="1171963068132" resolveInfo="UnaryDateTimeOperation" />
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1174046000278">
       <property name="name" value="withLocale" />
@@ -669,7 +670,7 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1178211569462">
-      <property name="value" value="Format datetime using inline formatter" />
+      <property name="value" value="Format instant using inline formatter" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1178205325518">
@@ -690,10 +691,11 @@
       <property name="role" value="locale" />
       <link role="target" targetNodeId="2.1172680728258" />
     </node>
+    <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="2890840340813345707" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174317913525">
     <property name="name" value="DateTimeOffsetFormatToken" />
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1174321263884">
       <property name="metaClass" value="aggregation" />
@@ -708,6 +710,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174320869813">
     <property name="name" value="DurationTypeReference" />
+    <property name="package" value="format.token" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1174320881454">
       <property name="sourceCardinality" value="1" />
@@ -717,7 +720,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174386108135">
     <property name="name" value="DateTimeMinusOperation" />
-    <property name="package" value="operation.arithmetic.deprecated" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1174386153808">
       <property name="metaClass" value="aggregation" />
@@ -751,7 +754,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174387394067">
     <property name="name" value="AbsDateTimeMinusOperation" />
-    <property name="package" value="operation.arithmetic.deprecated" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="1174386108135" resolveInfo="DateTimeMinusOperation" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1174387424365">
       <property name="value" value="-" />
@@ -767,7 +770,7 @@
     <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="1239036315987" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1194003500823">
-    <property name="package" value="operation.constant.schedule" />
+    <property name="package" value="constant.schedule" />
     <property name="name" value="ScheduleLiteral" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1194007702067">
@@ -806,17 +809,17 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" id="1194004752522">
-    <property name="package" value="operation.constant.schedule" />
+    <property name="package" value="constant.schedule" />
     <property name="name" value="ZeroSixtyInteger" />
     <property name="constraint" value="[012345]\\d" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" id="1194004947075">
-    <property name="package" value="operation.constant.schedule" />
+    <property name="package" value="constant.schedule" />
     <property name="name" value="ZeroTwentyFourInteger" />
     <property name="constraint" value="([01]\\d)|(2[03])" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" id="1194005227362">
-    <property name="package" value="operation.constant.schedule" />
+    <property name="package" value="constant.schedule" />
     <property name="name" value="DayOfWeek" />
     <link role="memberDataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="1194005227363">
@@ -849,12 +852,12 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" id="1194005562740">
-    <property name="package" value="operation.constant.schedule" />
+    <property name="package" value="constant.schedule" />
     <property name="name" value="OneThirtyOneInteger" />
     <property name="constraint" value="([123456789])|([12]\\d)|(3[01])" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1207143297026">
-    <property name="package" value="operation.arithmetic.deprecated" />
+    <property name="package" value="deprecated" />
     <property name="name" value="DateTimePlusPeriodOperation" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1207143609180">
@@ -880,7 +883,7 @@
     <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="1239027476054" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1207222873197">
-    <property name="package" value="operation.arithmetic.deprecated" />
+    <property name="package" value="deprecated" />
     <property name="name" value="DateTimeMinusPeriodOperation" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1207222906993">
@@ -1055,7 +1058,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238088288461">
-    <property name="package" value="operation.constant" />
+    <property name="package" value="constant" />
     <property name="name" value="NeverExpression" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1238088313853">
@@ -1110,7 +1113,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238513709008">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <property name="name" value="TimeZoneConstant" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1238513729994">
@@ -1118,7 +1121,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238514419896">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <property name="name" value="DefaultTimeZoneConstant" />
     <link role="extends" targetNodeId="1238513709008" resolveInfo="TimeZoneConstant" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1238514466148">
@@ -1127,7 +1130,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238514476665">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <property name="name" value="UTCTimeZoneConstant" />
     <link role="extends" targetNodeId="1238513709008" resolveInfo="TimeZoneConstant" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1238514488478">
@@ -1137,6 +1140,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238855581199">
     <property name="name" value="DateTimeZoneCreator" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="3.1145552809883" resolveInfo="AbstractCreator" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1238855978597">
       <property name="metaClass" value="aggregation" />
@@ -1151,7 +1155,7 @@
     <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="1195930031035471008" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1239015860192">
-    <property name="package" value="format" />
+    <property name="package" value="timezone" />
     <property name="name" value="ConstantTimeZoneRef" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1239015906660">
@@ -1166,7 +1170,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1239019022206">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <property name="name" value="TimeZoneFromString" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1239019204488">
@@ -1237,7 +1241,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1892577441204578414">
-    <property name="package" value="format" />
+    <property name="package" value="deprecated" />
     <property name="name" value="ParseExpression" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="conceptPropertyDeclaration" type="jetbrains.mps.lang.structure.structure.StringConceptPropertyDeclaration" id="7678715681280028185">
@@ -1287,7 +1291,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4555537781927648369">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <property name="name" value="TimeZoneIDExpression" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="4555537781927678418">
@@ -1307,7 +1311,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5473692278135631085">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <property name="name" value="TimeZoneOffsetExpression" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5473692278135819455">
@@ -1356,6 +1360,110 @@
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="6626410111395870949">
       <link role="intfc" targetNodeId="3.1201183863028" resolveInfo="TypeDerivable" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4389880778953634893">
+    <property name="name" value="ParseDateTimeExpression" />
+    <property name="package" value="format" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4389880778953634897">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="dateFormat" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1173884671039" resolveInfo="IDateFormat" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4389880778953634898">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="locale" />
+      <link role="target" targetNodeId="2.1172680728258" resolveInfo="Locale" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4389880778953634894">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="source" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4389880778953634895">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="zone" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4389880778953634896">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="default" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4251945201431291611">
+      <property name="value" value="parse datetime as" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4251945201431291613">
+      <property name="value" value="parse string in timezone" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5034322243092296606">
+    <property name="name" value="FormatDateTimeExpression" />
+    <property name="package" value="format" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5034322243092298627">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="dateFormat" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1173884671039" resolveInfo="IDateFormat" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5034322243092298628">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="locale" />
+      <link role="target" targetNodeId="2.1172680728258" resolveInfo="Locale" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5034322243092298623">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="datetime" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5034322243092298624">
+      <property name="value" value="#" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5034322243092298626">
+      <property name="value" value="Format datetime using predefined formatter" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="5034322243092301678">
+      <link role="intfc" targetNodeId="3.1201183863028" resolveInfo="TypeDerivable" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5034322243093083314">
+    <property name="package" value="format" />
+    <property name="name" value="InlineFormatDateTimeExpression" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5034322243093093771">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="locale" />
+      <link role="target" targetNodeId="2.1172680728258" resolveInfo="Locale" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5034322243093093769">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="datetime" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5034322243093093770">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="formatToken" />
+      <property name="sourceCardinality" value="1..n" />
+      <link role="target" targetNodeId="1169495337236" resolveInfo="FormatToken" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5034322243093092807">
+      <property name="value" value="#{&lt;format&gt;}" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5034322243093092809">
+      <property name="value" value="Format datetime using inline formatter" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
     </node>
   </node>
 </model>

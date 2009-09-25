@@ -23,16 +23,16 @@ public class Round_Test extends TestCase {
 
   public void test_roundInTwoZones() throws Exception {
     DateTime clockchange = DateTimeOperations.convert(DateTimeOperations.parse("2009-03-29 01:59:00", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID("Asia/Singapore"), null), DateTimeZone.forID("Asia/Singapore"));
-    Assert.assertEquals("2009-03-29 02:00:00", DateTimeOperations.print(DateTimeOperations.round((DateTimeOperations.plus(clockchange, Period.minutes(2))), DateTimeFieldType.hourOfDay()), ((InlineDateFormatter)new InlineDateFormatter() {
+    Assert.assertEquals("2009-03-29 02:00:00", DateTimeOperations.print(DateTimeOperations.round((DateTimeOperations.plus(clockchange, Period.minutes(2))), DateTimeFieldType.hourOfDay()), (new InlineDateFormatter() {
       public DateTimeFormatter createFormatter() {
         DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
         builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"));
         return builder.toFormatter();
       }
-    }).createFormatter(), null, null));
+    }).createFormatter(), null));
 
     clockchange = DateTimeOperations.convert(DateTimeOperations.parse("2009-03-29 01:59:00", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, DateTimeZone.forID("Europe/Moscow"), null), DateTimeZone.forID("Europe/Moscow"));
-    Assert.assertEquals("2009-03-29 03:00:00", DateTimeOperations.print(DateTimeOperations.round((DateTimeOperations.plus(clockchange, Period.minutes(3))), DateTimeFieldType.hourOfDay()), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null, null));
+    Assert.assertEquals("2009-03-29 03:00:00", DateTimeOperations.print(DateTimeOperations.round((DateTimeOperations.plus(clockchange, Period.minutes(3))), DateTimeFieldType.hourOfDay()), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date/time"), null));
   }
 
   public void test_floor() throws Exception {

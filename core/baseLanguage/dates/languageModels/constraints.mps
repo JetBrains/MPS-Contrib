@@ -320,6 +320,7 @@
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178550127447" />
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213104837351">
+    <property name="package" value="format.token" />
     <link role="concept" targetNodeId="1.1169563444535" resolveInfo="TokenConditionalPair" />
     <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="1213104837352">
       <link role="applicableLink" targetNodeId="1.1169563482193" />
@@ -338,6 +339,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213104846051">
+    <property name="package" value="deprecated" />
     <link role="concept" targetNodeId="1.1169557513226" resolveInfo="FormatExpression" />
     <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="1213104846052">
       <link role="applicableLink" targetNodeId="1.1169557643590" />
@@ -385,6 +387,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213104846946">
+    <property name="package" value="format.token" />
     <link role="concept" targetNodeId="1.1173959836330" resolveInfo="DateTimePropertyFormatToken" />
     <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="1213104846947">
       <link role="applicableLink" targetNodeId="1.1173966637440" />
@@ -440,6 +443,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213104847082">
+    <property name="package" value="format.token" />
     <link role="concept" targetNodeId="1.1172679701720" resolveInfo="FixedLocaleFormatToken" />
     <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="1213104847083">
       <link role="applicableLink" targetNodeId="1.1172683726790" />
@@ -458,6 +462,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1213104858514">
+    <property name="package" value="format.token" />
     <link role="concept" targetNodeId="1.1169563273551" resolveInfo="ReferenceFormatToken" />
     <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="1213104858515">
       <link role="applicableLink" targetNodeId="1.1169563300146" />
@@ -682,7 +687,7 @@
     <link role="concept" targetNodeId="1.1239193939163" resolveInfo="WithPropertyOperation" />
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="4555537781927648385">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <link role="concept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
     <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="421159955485443030">
       <link role="applicableProperty" targetNodeId="1.4555537781927678418" resolveInfo="timezone_id" />
@@ -698,6 +703,25 @@
                 <link role="baseMethodDeclaration" targetNodeId="17.~Set.contains(java.lang.Object):boolean" resolveInfo="contains" />
                 <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" id="421159955485516056" />
               </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="5034322243092299899">
+    <property name="package" value="format" />
+    <link role="concept" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />
+    <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="5034322243092299900">
+      <link role="applicableLink" targetNodeId="1.5034322243092298627" />
+      <node role="searchScopeFactory" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Factory" id="5034322243092299901">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5034322243092299902">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5034322243092299903">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="5034322243092299905">
+              <link role="baseMethodDeclaration" targetNodeId="1173977222265" resolveInfo="buildIDateFormatSearchScope" />
+              <link role="classConcept" targetNodeId="1173977205622" resolveInfo="DateFormatReferenceUtil" />
+              <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="5034322243092299906" />
+              <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_scope" id="5034322243092299908" />
             </node>
           </node>
         </node>

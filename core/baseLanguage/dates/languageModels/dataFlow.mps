@@ -36,7 +36,7 @@
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1227028372044">
-    <property name="package" value="format" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1169557513226" resolveInfo="FormatExpression" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1227028372045">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227028372046">
@@ -76,7 +76,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1227028481848">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1174386108135" resolveInfo="DateTimeMinusOperation" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1227028481849">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227028481850">
@@ -100,7 +100,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1227028519246">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1207222873197" resolveInfo="DateTimeMinusPeriodOperation" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1227028519247">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227028519248">
@@ -124,7 +124,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1227028544355">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1207143297026" resolveInfo="DateTimePlusPeriodOperation" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1227028544356">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227028544357">
@@ -180,7 +180,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1227028590411">
-    <property name="package" value="operation.constant" />
+    <property name="package" value="constant" />
     <link role="conceptDeclaration" targetNodeId="1.1172489559047" resolveInfo="PeriodConstant" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1227028590412">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227028590413">
@@ -268,7 +268,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239792942230">
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="conceptDeclaration" targetNodeId="1.1169562965517" resolveInfo="ConditionalFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239792942231">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239792942232">
@@ -297,7 +297,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239792992052">
-    <property name="package" value="format" />
+    <property name="package" value="timezone" />
     <link role="conceptDeclaration" targetNodeId="1.1239015860192" resolveInfo="ConstantTimeZoneRef" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239792992053">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239792992054">
@@ -371,7 +371,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793091231">
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="conceptDeclaration" targetNodeId="1.1174317913525" resolveInfo="DateTimeOffsetFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793091232">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793091233">
@@ -400,7 +400,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793205216">
-    <property name="package" value="format" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1174039789930" resolveInfo="InlineFormatExpression" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793205217">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793205218">
@@ -479,14 +479,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793260324">
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="conceptDeclaration" targetNodeId="1.1169495318439" resolveInfo="LiteralFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793260325">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793260326" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793281628">
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="conceptDeclaration" targetNodeId="1.1169563273551" resolveInfo="ReferenceFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793281629">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793281630">
@@ -502,7 +502,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793322146">
-    <property name="package" value="format" />
+    <property name="package" value="format.token" />
     <link role="conceptDeclaration" targetNodeId="1.1169563444535" resolveInfo="TokenConditionalPair" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793322147">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793322148">
@@ -526,7 +526,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239799918898">
-    <property name="package" value="operation.constant.timezone" />
+    <property name="package" value="timezone" />
     <link role="conceptDeclaration" targetNodeId="1.1239019022206" resolveInfo="TimeZoneFromString" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239799918899">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239799918900">
@@ -630,7 +630,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="7678715681280286742">
-    <property name="package" value="format" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1892577441204578414" resolveInfo="ParseExpression" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="7678715681280286743">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7678715681280286744">
@@ -656,6 +656,128 @@
             <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7678715681280287884">
               <link role="link" targetNodeId="1.7678715681280019206" />
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="4389880778953638877">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.4389880778953634893" resolveInfo="ParseDateTimeExpression" />
+    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="4389880778953638878">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4389880778953638879">
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="4389880778953638880">
+          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4389880778953638883">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="4389880778953638882" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4389880778953638887">
+              <link role="link" targetNodeId="1.4389880778953634894" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="4389880778953638891">
+          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4389880778953638894">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="4389880778953638893" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4389880778953638899">
+              <link role="link" targetNodeId="1.4389880778953634895" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="4389880778953638901">
+          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4389880778953638904">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="4389880778953638903" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4389880778953638908">
+              <link role="link" targetNodeId="1.4389880778953634896" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="5034322243092302165">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />
+    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="5034322243092302166">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5034322243092302167">
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="5034322243092302168">
+          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5034322243092302171">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="5034322243092302170" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5034322243092302175">
+              <link role="link" targetNodeId="1.5034322243092298623" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" id="5034322243092302177">
+          <node role="variable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5034322243092302180">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="5034322243092302179" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5034322243092302184">
+              <link role="link" targetNodeId="1.5034322243092298627" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" id="5034322243092302186">
+          <node role="variable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5034322243092302189">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="5034322243092302188" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5034322243092302193">
+              <link role="link" targetNodeId="1.5034322243092298628" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="194163770812053383">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="194163770812053384">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="194163770812053385">
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="194163770812053386">
+          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812053389">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="194163770812053388" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812053393">
+              <link role="link" targetNodeId="1.5034322243093093769" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ForeachStatement" id="194163770812053395">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="194163770812053396">
+            <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="194163770812053419">
+              <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="194163770812053421">
+                <link role="variableDeclaration" targetNodeId="194163770812053399" resolveInfo="formatToken" />
+              </node>
+            </node>
+          </node>
+          <node role="iterable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812053409">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="194163770812053408" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="194163770812053415">
+              <link role="link" targetNodeId="1.5034322243093093770" />
+            </node>
+          </node>
+          <node role="variable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="194163770812053399">
+            <property name="name" value="formatToken" />
+            <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="194163770812053403">
+              <link role="concept" targetNodeId="1.1169495337236" resolveInfo="FormatToken" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="194163770812053423">
+          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="194163770812053424">
+            <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" id="194163770812053438">
+              <node role="variable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812053441">
+                <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="194163770812053440" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812053445">
+                  <link role="link" targetNodeId="1.5034322243093093771" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812053433">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812053428">
+              <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="194163770812053427" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812053432">
+                <link role="link" targetNodeId="1.5034322243093093771" />
+              </node>
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="194163770812053437" />
           </node>
         </node>
       </node>

@@ -93,4 +93,8 @@ public class Format_Test extends BaseTestCase {
     Period p = DateTimeOperations.plus(Period.hours(3), Period.minutes(33));
     Assert.assertEquals("3:33 AM", DateTimeOperations.print(DateTimeOperations.convert(p), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC));
   }
+
+  public void test_formatInLocale() throws Exception {
+    Assert.assertEquals("4:01 PM", DateTimeOperations.print(DateTimeOperations.convert(DateTimeOperations.with(DateTimeOperations.with(System.currentTimeMillis(), DateTimeFieldType.hourOfDay(), 16), DateTimeFieldType.minuteOfHour(), 1), DateTimeZone.getDefault()), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), Locale.FRANCE));
+  }
 }

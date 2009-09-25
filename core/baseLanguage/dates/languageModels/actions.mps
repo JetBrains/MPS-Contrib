@@ -14,6 +14,7 @@
   <language namespace="d4615e3b-d671-4ba9-af01-2b78369b0ba7(jetbrains.mps.lang.pattern)" />
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
+  <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -54,7 +55,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590515(jetbrains.mps.baseLanguage.regexp.constraints)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" />
-  <maxImportIndex value="35" />
+  <maxImportIndex value="37" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="9" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
@@ -68,13 +69,54 @@
   <import index="33" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <import index="34" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="35" modelUID="f:java_stub#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
+  <import index="36" modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)" version="-1" />
+  <import index="37" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.accessories(jetbrains.mps.baseLanguage.dates.accessories@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActions" id="1169657528660">
     <property name="name" value="BLDT_rtransform" />
+    <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="2890840340813144774">
+      <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+      <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="2890840340813145989">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2890840340813145990">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2890840340813146051">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="2890840340813146781">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="2890840340813146773">
+                <link role="baseMethodDeclaration" targetNodeId="2890840340813146749" resolveInfo="isInstanceOfTimezone" />
+                <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
+                <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="2890840340813146774" />
+              </node>
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2890840340813146790">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2890840340813146785">
+                  <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="2890840340813146784" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" id="2890840340813146789" />
+                </node>
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="2890840340813146794">
+                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="2890840340813146796">
+                    <link role="conceptDeclaration" targetNodeId="1.2639623922402691276" resolveInfo="InTimezoneExpression" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="part" type="jetbrains.mps.lang.actions.structure.IncludeRightTransformForNodePart" id="2890840340813146798">
+        <node role="nodeBlock" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_NodeQuery" id="2890840340813146799">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2890840340813146800">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2890840340813146801">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2890840340813146803">
+                <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="2890840340813146802" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" id="2890840340813146807" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="1238418304901">
       <property name="description" value="Operation on datetime and period expression" />
       <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
       <node role="part" type="jetbrains.mps.lang.actions.structure.ConceptRightTransformPart" id="1238418480251">
-        <link role="concept" targetNodeId="1.1174039789930" resolveInfo="InlineFormatExpression" />
+        <link role="concept" targetNodeId="1.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
         <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_ConceptHandler" id="1238418480252">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238418480253">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1238418480254">
@@ -89,8 +131,8 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238418480260">
                 <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238418480261">
                   <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_result" id="1238418480262" />
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238418480263">
-                    <link role="link" targetNodeId="1.1171964003156" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2890840340813091929">
+                    <link role="link" targetNodeId="1.5034322243093093769" />
                   </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="1238418480264">
@@ -105,7 +147,7 @@
         </node>
       </node>
       <node role="part" type="jetbrains.mps.lang.actions.structure.ConceptRightTransformPart" id="1238418480268">
-        <link role="concept" targetNodeId="1.1169557513226" resolveInfo="FormatExpression" />
+        <link role="concept" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />
         <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_ConceptHandler" id="1238418480269">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238418480270">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1238418480271">
@@ -120,8 +162,8 @@
               <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238418480277">
                 <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1238418480278">
                   <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_result" id="1238418480279" />
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1238418480280">
-                    <link role="link" targetNodeId="1.1169557612323" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2890840340813091931">
+                    <link role="link" targetNodeId="1.5034322243092298623" />
                   </node>
                 </node>
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="1238418480281">
@@ -144,17 +186,10 @@
                 <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
                 <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="796336488935366524" />
               </node>
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="1238418445817">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1238418424624">
-                  <link role="baseMethodDeclaration" targetNodeId="1175769966456" resolveInfo="isInstanceOfDatetime" />
-                  <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
-                  <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1238418427485" />
-                </node>
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1238418456586">
-                  <link role="baseMethodDeclaration" targetNodeId="1172502164823" resolveInfo="isInstanceOfPeriod" />
-                  <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
-                  <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1238418459962" />
-                </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1238418456586">
+                <link role="baseMethodDeclaration" targetNodeId="1172502164823" resolveInfo="isInstanceOfPeriod" />
+                <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
+                <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1238418459962" />
               </node>
             </node>
           </node>
@@ -570,6 +605,16 @@
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="1209041871791" />
     </node>
+    <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="2890840340813146764">
+      <property name="name" value="dateTimeZoneType" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="2890840340813146765" />
+      <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="2890840340813146767">
+        <link role="concept" targetNodeId="1.1238513516532" resolveInfo="DateTimeZoneType" />
+      </node>
+      <node role="initializer" type="jetbrains.mps.lang.quotation.structure.Quotation" id="2890840340813146769">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="2890840340813146771" />
+      </node>
+    </node>
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="5351757338848080885">
       <property name="name" value="dateTimeWithTZType" />
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility" id="5351757338848080886" />
@@ -713,6 +758,28 @@
         <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1175769982711" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178546172494" />
+    </node>
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="2890840340813146749">
+      <property name="name" value="isInstanceOfTimezone" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="2890840340813146751" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2890840340813146752">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2890840340813146755">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalStaticMethodCall" id="2890840340813146756">
+            <link role="baseMethodDeclaration" targetNodeId="1175768616289" resolveInfo="isInstanceOf" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="2890840340813146760">
+              <link role="variableDeclaration" targetNodeId="2890840340813146758" resolveInfo="node" />
+            </node>
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference" id="2890840340813146772">
+              <link role="variableDeclaration" targetNodeId="2890840340813146764" resolveInfo="dateTimeZoneType" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="2890840340813146754" />
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="2890840340813146758">
+        <property name="name" value="node" />
+        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="2890840340813146759" />
+      </node>
     </node>
     <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="5351757338848079613">
       <property name="name" value="isInstanceOfDatetimeWithTZ" />
@@ -1703,6 +1770,119 @@
             </node>
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6626410111396383020">
               <node role="expression" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_result" id="6626410111396383024" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActions" id="194163770812433046">
+    <property name="name" value="FormatDateTimeExpression_addLocale" />
+    <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="2890840340813345708">
+      <link role="applicableConcept" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />
+      <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="2890840340813346923">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2890840340813346924">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2890840340813346982">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2890840340813346989">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2890840340813346984">
+                <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="2890840340813346983" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2890840340813346988">
+                  <link role="link" targetNodeId="1.5034322243092298628" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" id="2890840340813346993" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="part" type="jetbrains.mps.lang.actions.structure.AddMenuPart" id="2890840340813346994">
+        <link role="concept" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />
+        <node role="part" type="jetbrains.mps.lang.actions.structure.SimpleSideTransformMenuPart" id="2890840340813346995">
+          <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_Handler" id="2890840340813346996">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2890840340813346997">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2890840340813347000">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="2890840340813347007">
+                  <node role="lValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2890840340813347002">
+                    <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="2890840340813347001" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2890840340813347006">
+                      <link role="link" targetNodeId="1.5034322243092298628" />
+                    </node>
+                  </node>
+                  <node role="rValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2890840340813347017">
+                    <node role="operand" type="jetbrains.mps.lang.quotation.structure.Quotation" id="2890840340813347018">
+                      <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression" id="2890840340813347019">
+                        <link role="dateFormat" targetNodeId="36.1173884238614" resolveInfo="shortDate" />
+                        <link role="locale" targetNodeId="36.1172681308861" resolveInfo="ENGLISH" />
+                        <node role="datetime" type="jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression" id="2890840340813347020">
+                          <node role="timezone" type="jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant" id="2890840340813347025" />
+                          <node role="datetime" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="2890840340813347022" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="2890840340813347023">
+                      <link role="link" targetNodeId="1.5034322243092298628" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.lang.actions.structure.SideTransform_SimpleString" id="2890840340813346999">
+            <property name="text" value="(" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="194163770812433047">
+      <link role="applicableConcept" targetNodeId="1.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+      <node role="part" type="jetbrains.mps.lang.actions.structure.AddMenuPart" id="194163770812434568">
+        <link role="concept" targetNodeId="1.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+        <node role="part" type="jetbrains.mps.lang.actions.structure.SimpleSideTransformMenuPart" id="194163770812434570">
+          <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_Handler" id="194163770812434571">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="194163770812434572">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="194163770812434576">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="194163770812721390">
+                  <node role="lValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812434578">
+                    <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="194163770812434577" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812434582">
+                      <link role="link" targetNodeId="1.5034322243093093771" />
+                    </node>
+                  </node>
+                  <node role="rValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812721408">
+                    <node role="operand" type="jetbrains.mps.lang.quotation.structure.Quotation" id="194163770812721403">
+                      <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression" id="194163770812721404">
+                        <link role="locale" targetNodeId="36.1172681308861" resolveInfo="ENGLISH" />
+                        <link role="dateFormat" targetNodeId="36.1173884238614" resolveInfo="shortDate" />
+                        <node role="datetime" type="jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression" id="194163770812721405">
+                          <node role="timezone" type="jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant" id="2890840340813347024" />
+                          <node role="datetime" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="194163770812721407" />
+                        </node>
+                      </node>
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812721412">
+                      <link role="link" targetNodeId="1.5034322243092298628" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.lang.actions.structure.SideTransform_SimpleString" id="194163770812434573">
+            <property name="text" value="(" />
+          </node>
+        </node>
+      </node>
+      <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="194163770812434496">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="194163770812434497">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="194163770812434555">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812434562">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812434557">
+                <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="194163770812434556" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812434561">
+                  <link role="link" targetNodeId="1.5034322243093093771" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" id="194163770812434566" />
             </node>
           </node>
         </node>

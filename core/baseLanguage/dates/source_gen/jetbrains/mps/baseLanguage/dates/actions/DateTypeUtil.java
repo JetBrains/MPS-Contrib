@@ -16,7 +16,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public class DateTypeUtil {
   private static SNode dateTimeType = new _Quotations.QuotationClass_0().createNode();
-  private static SNode dateTimeWithTZType = new _Quotations.QuotationClass_7().createNode();
+  private static SNode dateTimeZoneType = new _Quotations.QuotationClass_7().createNode();
+  private static SNode dateTimeWithTZType = new _Quotations.QuotationClass_10().createNode();
   private static SNode periodType = new _Quotations.QuotationClass_1().createNode();
   private static SNode intType = new _Quotations.QuotationClass_2().createNode();
   private static SNode javaDateType = new _Quotations.QuotationClass_3().createNode();
@@ -33,6 +34,10 @@ public class DateTypeUtil {
 
   public static boolean isInstanceOfDatetime(SNode node) {
     return isInstanceOf(node, dateTimeType);
+  }
+
+  public static boolean isInstanceOfTimezone(SNode node) {
+    return isInstanceOf(node, dateTimeZoneType);
   }
 
   public static boolean isInstanceOfDatetimeWithTZ(SNode node) {
