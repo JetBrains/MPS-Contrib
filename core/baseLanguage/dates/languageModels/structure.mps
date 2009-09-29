@@ -397,7 +397,7 @@
     <property name="name" value="DateTimeType" />
     <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1171902397815">
-      <property name="value" value="datetime" />
+      <property name="value" value="instant" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
   </node>
@@ -1294,7 +1294,7 @@
     <property name="name" value="DateTimeWithTZType" />
     <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1195930031035447614">
-      <property name="value" value="datetimetz" />
+      <property name="value" value="datetime" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
