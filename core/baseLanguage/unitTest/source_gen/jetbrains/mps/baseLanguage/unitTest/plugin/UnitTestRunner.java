@@ -75,7 +75,7 @@ public class UnitTestRunner extends BaseRunner {
       vmParams = this.configParameter.getVMParameters();
     }
     this.addJavaCommand(params);
-    if (this.unitTestPreferences.getStateObject().useDebug) {
+    if (this.unitTestPreferences != null && this.unitTestPreferences.getStateObject().useDebug) {
       this.addDebug(params, this.unitTestPreferences.getStateObject().debugPort, false);
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
