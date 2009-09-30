@@ -42,7 +42,7 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention {
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), new _Quotations.QuotationClass_2().createNode(), false);
+    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), new _Quotations.QuotationClass_0().createNode(), false);
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {

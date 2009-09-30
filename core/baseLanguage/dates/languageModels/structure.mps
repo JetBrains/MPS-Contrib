@@ -417,7 +417,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172074800504">
     <property name="name" value="DateTimeCompareOperation" />
-    <property name="package" value="operation.compare" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="3.1068431790191" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1172075931971">
       <property name="value" value="compare dates by &lt;{datetimeProperty}&gt;" />
@@ -460,7 +460,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" id="1172075151844">
     <property name="name" value="CompareType" />
-    <property name="package" value="operation.compare" />
+    <property name="package" value="deprecated" />
     <property name="memberIdentifierPolicy" value="custom" />
     <link role="memberDataType" targetNodeId="1.1082983041843" />
     <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="1172075151845">
@@ -947,7 +947,7 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209036122470">
-      <property name="value" value="Check is datetime is not null" />
+      <property name="value" value="Check if datetime is not null" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
   </node>
@@ -960,7 +960,7 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209036143521">
-      <property name="value" value="Check is datetime is null" />
+      <property name="value" value="Check if datetime is null" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
   </node>

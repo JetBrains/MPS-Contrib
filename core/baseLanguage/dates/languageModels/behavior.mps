@@ -713,7 +713,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877526003">
-    <property name="package" value="operation.compare" />
+    <property name="package" value="deprecated" />
     <link role="concept" targetNodeId="1.1172074800504" resolveInfo="DateTimeCompareOperation" />
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1213877526386">
       <property name="name" value="hasMillisPrecision" />

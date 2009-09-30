@@ -5,6 +5,8 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 import junit.framework.TestCase;
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
+import org.joda.time.DateTime;
+import org.joda.time.DateTimeZone;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 import org.joda.time.DateTimeFieldType;
 import org.joda.time.Period;
@@ -16,10 +18,22 @@ public class IsNull_Test extends TestCase {
     Assert.assertFalse(DateTimeOperations.isNull(System.currentTimeMillis()));
   }
 
+  public void test_isNull2() throws Exception {
+    DateTime dt = null;
+    Assert.assertTrue(DateTimeOperations.isNull(dt));
+    Assert.assertFalse(DateTimeOperations.isNotNull(dt));
+  }
+
   public void test_isNotNull() throws Exception {
     Long dt = null;
     Assert.assertFalse(DateTimeOperations.isNotNull(dt));
     Assert.assertTrue(DateTimeOperations.isNotNull(System.currentTimeMillis()));
+  }
+
+  public void test_isNotNull2() throws Exception {
+    DateTime dt = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
+    Assert.assertTrue(DateTimeOperations.isNotNull(dt));
+    Assert.assertFalse(DateTimeOperations.isNull(dt));
   }
 
   public void test_nullCompareEquals() throws Exception {

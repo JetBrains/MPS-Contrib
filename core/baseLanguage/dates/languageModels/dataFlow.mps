@@ -148,7 +148,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1227028559873">
-    <property name="package" value="operation.compare" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1172074800504" resolveInfo="DateTimeCompareOperation" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1227028559874">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1227028559875">

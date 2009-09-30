@@ -523,7 +523,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1172074935895">
-    <property name="package" value="operation.compare" />
+    <property name="package" value="deprecated" />
     <link role="conceptDeclaration" targetNodeId="1.1172074800504" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1172074938400">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1172074946226">
@@ -2594,9 +2594,20 @@
         <property name="text" value="in" />
         <link role="styleClass" targetNodeId="1219659527813" resolveInfo="DateCompactKeyWord" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="2644539331223619519">
+        <property name="text" value="(" />
+        <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
+      </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="2639623922402692163" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="2639623922402692168">
         <link role="relationDeclaration" targetNodeId="1.2639623922402691641" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="2644539331223486521">
+        <property name="text" value=")" />
+        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SideTransformAnchorTagStyleClassItem" id="2644539331223619520">
+          <property name="tag" value="default_RTransform" />
+        </node>
       </node>
     </node>
   </node>

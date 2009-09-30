@@ -52,22 +52,6 @@ public class QueriesGenerated {
     return DateTypeUtil.isInstanceOfInt(_context.getSourceNode());
   }
 
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1227018647672(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    SNode current = _context.getSourceNode();
-    SNode dto = null;
-    if (SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation")) {
-      dto = SNodeOperations.cast(current, "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation");
-    } else {
-      while (SNodeOperations.hasRole(current, "jetbrains.mps.baseLanguage.structure.BinaryOperation", "rightExpression")) {
-        current = SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.BinaryOperation");
-      }
-      if (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation")) {
-        dto = SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation");
-      }
-    }
-    return dto != null && SLinkOperations.getTarget(dto, "datetimeProperty", false) == null;
-  }
-
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1238418378523(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return DateTypeUtil.isInstanceOfPeriod(_context.getSourceNode()) || DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
   }
@@ -86,10 +70,6 @@ public class QueriesGenerated {
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_670620798052616884(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.StringType"), true) != null;
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_2890840340813145989(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfTimezone(_context.getSourceNode()) && SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getSourceNode()), "jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression");
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_FormatDateTimeExpression_2890840340813346923(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
@@ -292,33 +272,6 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1227018642479(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation");
-      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
-          SNode dto = SNodeOperations.getAncestor(_context.getSourceNode(), "jetbrains.mps.baseLanguage.dates.structure.DateTimeCompareOperation", true, false);
-          SLinkOperations.setTarget(dto, "datetimeProperty", ListSequence.fromList(SLinkOperations.getConceptLinkTargets(dto, "defaultDatetimeProperty")).first(), false);
-          return dto;
-        }
-
-        public String getMatchingText(String pattern) {
-          return "by";
-        }
-
-        public String getVisibleMatchingText(String pattern) {
-          return this.getMatchingText(pattern);
-        }
-
-        public String getDescriptionText(String pattern) {
-          return "add compare precision";
-        }
-      });
-    }
-    return result;
-  }
-
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1238418304901(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
@@ -393,7 +346,8 @@ public class QueriesGenerated {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new _Quotations.QuotationClass_7().createNode(), "locale", false), false);
+          SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new _Quotations.QuotationClass_7().createNode(), "locale", false), false);
+          return SNodeOperations.getNode("r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)", "1172074383898");
         }
 
         public String getMatchingText(String pattern) {
@@ -452,20 +406,6 @@ public class QueriesGenerated {
           return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "shortDescription");
         }
       });
-    }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_2890840340813144774(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      Calculable calc = new Calculable() {
-        public Object calculate() {
-          return SNodeOperations.getParent(_context.getSourceNode());
-        }
-      };
-      SNode node = (SNode)calc.calculate();
-      ListSequence.fromList(result).addSequence(ListSequence.fromList(ModelActions.createRightTransformHintSubstituteActions(node, CellSide.RIGHT, _context.getTransformationTag(), operationContext)));
     }
     return result;
   }
