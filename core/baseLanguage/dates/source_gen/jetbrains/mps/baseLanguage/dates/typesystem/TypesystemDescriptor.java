@@ -341,15 +341,47 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     {
       OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
         {
-          this.myLeftOperandType = new _Quotations.QuotationClass_92().createNode();
-          this.myRightOperandType = new _Quotations.QuotationClass_93().createNode();
+          this.myLeftOperandType = new _Quotations.QuotationClass_87().createNode();
+          this.myRightOperandType = new _Quotations.QuotationClass_88().createNode();
+          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation";
+          this.myLeftTypeIsExact = false;
+          this.myRightTypeIsExact = false;
+        }
+
+        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+          return new _Quotations.QuotationClass_89().createNode();
+        }
+      };
+      this.myOverloadedOperationsTypesProviders.add(provider);
+    }
+    {
+      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+        {
+          this.myLeftOperandType = new _Quotations.QuotationClass_90().createNode();
+          this.myRightOperandType = new _Quotations.QuotationClass_91().createNode();
           this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
           this.myLeftTypeIsExact = false;
           this.myRightTypeIsExact = false;
         }
 
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new _Quotations.QuotationClass_94().createNode();
+          return new _Quotations.QuotationClass_92().createNode();
+        }
+      };
+      this.myOverloadedOperationsTypesProviders.add(provider);
+    }
+    {
+      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+        {
+          this.myLeftOperandType = new _Quotations.QuotationClass_98().createNode();
+          this.myRightOperandType = new _Quotations.QuotationClass_99().createNode();
+          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
+          this.myLeftTypeIsExact = false;
+          this.myRightTypeIsExact = false;
+        }
+
+        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+          return new _Quotations.QuotationClass_100().createNode();
         }
       };
       this.myOverloadedOperationsTypesProviders.add(provider);

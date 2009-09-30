@@ -24,7 +24,7 @@ public class Compare_Test extends TestCase {
   public void test_equals2() throws Exception {
     DateTime now1 = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
     Assert.assertTrue(DateTimeOperations.compare(now1, CompareType.EQ, now1, DateTimeFieldType.millisOfSecond()));
-    Assert.assertFalse(DateTimeOperations.compare(now1, CompareType.NE, now1, DateTimeFieldType.hourOfDay()));
+    Assert.assertFalse(DateTimeOperations.compare(now1, CompareType.NE, now1, DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_zoneEquals() throws Exception {
@@ -76,6 +76,10 @@ public class Compare_Test extends TestCase {
     Long d1 = System.currentTimeMillis();
     Long d2 = DateTimeOperations.plus(d1, Period.hours(5));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.minus(d2, d1), CompareType.EQ, Period.hours(5)));
+
+    DateTime now1 = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("CET"));
+    DateTime now2 = DateTimeOperations.plus(now1, Period.hours(5));
+    Assert.assertEquals(Period.hours(5), DateTimeOperations.minus(now2, now1));
   }
 
   public void test_plusExpressionWithConvert() throws Exception {

@@ -1006,6 +1006,12 @@
         <link role="template" targetNodeId="194163770812053449" resolveInfo="reduce_InlineFormatDateTimeExpression" />
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="3931616304474644669">
+      <link role="applicableConcept" targetNodeId="1.3931616304474644667" resolveInfo="DurationType" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="3931616304474644671">
+        <link role="template" targetNodeId="3931616304474644672" resolveInfo="reduce_DurationType" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1169550327580">
     <property name="name" value="FormatTable" />
@@ -3544,7 +3550,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="1209037512244">
     <property name="name" value="reduce_ConvertToJavaCalendarOperation" />
-    <property name="package" value="operation.convert" />
+    <property name="package" value="deprecated" />
     <link role="applicableConcept" targetNodeId="1.1209036309347" resolveInfo="ConvertToJavaCalendarOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="1209037512245">
       <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209037512246">
@@ -3634,7 +3640,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="1209037556127">
     <property name="name" value="reduce_ConvertToJodaDateTimeOperation" />
-    <property name="package" value="operation.convert" />
+    <property name="package" value="deprecated" />
     <link role="applicableConcept" targetNodeId="1.1209036336317" resolveInfo="ConvertToJodaDateTimeOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="1209037556128">
       <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1209037556129">
@@ -4986,6 +4992,14 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="3931616304474644672">
+    <property name="name" value="reduce_DurationType" />
+    <link role="applicableConcept" targetNodeId="1.3931616304474644667" resolveInfo="DurationType" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="3931616304474646847">
+      <link role="classifier" targetNodeId="7.~Long" resolveInfo="Long" />
+      <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="3931616304474646848" />
     </node>
   </node>
 </model>

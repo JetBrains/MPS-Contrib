@@ -45,7 +45,7 @@ public class QueriesGenerated {
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1169657599823(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfDatetime(_context.getSourceNode()) || DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
+    return DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1172507582020(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
@@ -357,6 +357,10 @@ public class QueriesGenerated {
         public String getVisibleMatchingText(String pattern) {
           return this.getMatchingText(pattern);
         }
+
+        public String getDescriptionText(String pattern) {
+          return "specify parsing locale";
+        }
       });
     }
     return result;
@@ -377,6 +381,10 @@ public class QueriesGenerated {
 
         public String getVisibleMatchingText(String pattern) {
           return this.getMatchingText(pattern);
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "specify datetime with default values";
         }
       });
     }

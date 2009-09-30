@@ -163,17 +163,10 @@
       <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="1169657599823">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1171980595073">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1175770059855">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="796336488935366525">
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="796336488935366530">
-                <link role="baseMethodDeclaration" targetNodeId="5351757338848079613" resolveInfo="isInstanceOfDatetimeWithTZ" />
-                <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
-                <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="796336488935366531" />
-              </node>
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1175770069701">
-                <link role="baseMethodDeclaration" targetNodeId="1175769966456" resolveInfo="isInstanceOfDatetime" />
-                <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
-                <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1175770071624" />
-              </node>
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="796336488935366530">
+              <link role="baseMethodDeclaration" targetNodeId="5351757338848079613" resolveInfo="isInstanceOfDatetimeWithTZ" />
+              <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
+              <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="796336488935366531" />
             </node>
           </node>
         </node>
@@ -1639,6 +1632,9 @@
           <node role="matchingText" type="jetbrains.mps.lang.actions.structure.SideTransform_SimpleString" id="670620798052429828">
             <property name="text" value="into" />
           </node>
+          <node role="descriptionText" type="jetbrains.mps.lang.actions.structure.SideTransform_SimpleString" id="3931616304474331361">
+            <property name="text" value="specify datetime with default values" />
+          </node>
         </node>
       </node>
       <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="670620798052429809">
@@ -1714,6 +1710,9 @@
           </node>
           <node role="matchingText" type="jetbrains.mps.lang.actions.structure.SideTransform_SimpleString" id="670620798052429790">
             <property name="text" value="(" />
+          </node>
+          <node role="descriptionText" type="jetbrains.mps.lang.actions.structure.SideTransform_SimpleString" id="3931616304474331373">
+            <property name="text" value="specify parsing locale" />
           </node>
         </node>
       </node>

@@ -708,6 +708,26 @@
         <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.PeriodType" id="1236775911986" />
       </node>
     </node>
+    <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="3931616304474648900">
+      <node role="leftOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="3931616304474648907">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DurationType" id="3931616304474648910" />
+      </node>
+      <node role="rightOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="3931616304474648911">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DurationType" id="3931616304474648914" />
+      </node>
+      <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="3931616304474648906">
+        <link role="concept" targetNodeId="3.1068581242875" resolveInfo="PlusExpression" />
+      </node>
+      <node role="function" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeFunction" id="3931616304474648904">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3931616304474648905">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="3931616304474648915">
+            <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="3931616304474648917">
+              <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DurationType" id="3931616304474648920" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="1236786743816">
       <property name="leftIsExact" value="true" />
       <property name="rightIsExact" value="true" />
@@ -854,6 +874,26 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node role="rule" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeRule" id="3931616304474646858">
+      <node role="leftOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="3931616304474648880">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DurationType" id="3931616304474648883" />
+      </node>
+      <node role="operationConcept" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="3931616304474646864">
+        <link role="concept" targetNodeId="3.1239448985469" resolveInfo="BinaryCompareOperation" />
+      </node>
+      <node role="function" type="jetbrains.mps.lang.typesystem.structure.OverloadedOperatorTypeFunction" id="3931616304474646862">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3931616304474646863">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="3931616304474648892">
+            <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="3931616304474648894">
+              <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="3931616304474648895" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="rightOperandType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="3931616304474648886">
+        <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DurationType" id="3931616304474648887" />
       </node>
     </node>
   </node>
@@ -1569,7 +1609,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999047">
     <property name="name" value="typeof_ConvertToJavaCalendarOperation" />
-    <property name="package" value="operation.convert" />
+    <property name="package" value="deprecated" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999048">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999054">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999058">
@@ -1621,7 +1661,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="670620798051999079">
     <property name="name" value="typeof_ConvertToJodaDateTimeOperation" />
-    <property name="package" value="operation.convert" />
+    <property name="package" value="deprecated" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="670620798051999080">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="670620798051999086">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="670620798051999090">

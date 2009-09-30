@@ -912,11 +912,11 @@
     <property name="name" value="ConvertToDateTimeOperation" />
     <property name="package" value="operation.convert" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209035204724">
-      <property name="value" value="datetime" />
+      <property name="value" value="instant" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209035204725">
-      <property name="value" value="Convert to datetime" />
+      <property name="value" value="Convert to instant" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1209035280779">
@@ -966,7 +966,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209036309347">
     <property name="name" value="ConvertToJavaCalendarOperation" />
-    <property name="package" value="operation.convert" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="1209035760903" resolveInfo="DateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209036309350">
       <property name="value" value="javaCalendar" />
@@ -976,6 +976,7 @@
       <property name="value" value="Convert to java.util.Calendar" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
+    <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="3931616304474476229" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209036325551">
     <property name="name" value="ConvertToJavaDateOperation" />
@@ -992,7 +993,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209036336317">
     <property name="name" value="ConvertToJodaDateTimeOperation" />
-    <property name="package" value="operation.convert" />
+    <property name="package" value="deprecated" />
     <link role="extends" targetNodeId="1209035760903" resolveInfo="DateTimeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209036336321">
       <property name="value" value="jodaDateTime" />
@@ -1002,6 +1003,7 @@
       <property name="value" value="Convert to org.joda.time.DateTime" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
     </node>
+    <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="3931616304474476228" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209039739631">
     <property name="name" value="DateTimePropetyReferenceOperation" />
@@ -1431,6 +1433,14 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5034322243093092809">
       <property name="value" value="Format datetime using inline formatter" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3931616304474644667">
+    <property name="name" value="DurationType" />
+    <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="3931616304474648884">
+      <property name="value" value="duration" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>
