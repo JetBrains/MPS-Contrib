@@ -14,6 +14,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.ModelAccess;
 import org.apache.commons.lang.StringUtils;
 import java.io.File;
@@ -80,7 +81,8 @@ public class UnitTestRunner extends BaseRunner {
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
     if (vmParams != null) {
-      ListSequence.fromList(params).addElement(vmParams);
+      String[] paramList = this.splitParams(vmParams);
+      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
@@ -96,7 +98,8 @@ public class UnitTestRunner extends BaseRunner {
       }
     });
     if (programParams != null) {
-      ListSequence.fromList(params).addElement(programParams);
+      String[] paramList = this.splitParams(programParams);
+      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
     ProcessBuilder p = new ProcessBuilder(params);
     if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
