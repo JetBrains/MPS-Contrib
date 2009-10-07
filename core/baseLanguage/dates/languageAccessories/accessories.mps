@@ -788,18 +788,21 @@
       <property name="pluralForm" value="milliseconds" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.millisOfSecond():org.joda.time.DateTimeFieldType" resolveInfo="millisOfSecond" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.millis(int):org.joda.time.Period" resolveInfo="millis" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.millis():org.joda.time.DurationFieldType" resolveInfo="millis" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172074612199">
       <property name="name" value="second" />
       <property name="pluralForm" value="seconds" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.secondOfMinute():org.joda.time.DateTimeFieldType" resolveInfo="secondOfMinute" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.seconds(int):org.joda.time.Period" resolveInfo="seconds" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.seconds():org.joda.time.DurationFieldType" resolveInfo="seconds" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172074618358">
       <property name="name" value="minute" />
       <property name="pluralForm" value="minutes" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.minuteOfHour():org.joda.time.DateTimeFieldType" resolveInfo="minuteOfHour" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.minutes(int):org.joda.time.Period" resolveInfo="minutes" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.minutes():org.joda.time.DurationFieldType" resolveInfo="minutes" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="7905990018466232401">
       <property name="name" value="halfdayOfDay" />
@@ -811,66 +814,77 @@
       <property name="pluralForm" value="hours of halfday" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.hourOfHalfday():org.joda.time.DateTimeFieldType" resolveInfo="hourOfHalfday" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.hours(int):org.joda.time.Period" resolveInfo="hours" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.hours():org.joda.time.DurationFieldType" resolveInfo="hours" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1173955990079">
       <property name="name" value="clockhourOfHalfday" />
       <property name="pluralForm" value="clockhours of halfday" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.clockhourOfHalfday():org.joda.time.DateTimeFieldType" resolveInfo="clockhourOfHalfday" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.hours(int):org.joda.time.Period" resolveInfo="hours" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.hours():org.joda.time.DurationFieldType" resolveInfo="hours" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172074620250">
       <property name="name" value="hour" />
       <property name="pluralForm" value="hours" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.hourOfDay():org.joda.time.DateTimeFieldType" resolveInfo="hourOfDay" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.hours(int):org.joda.time.Period" resolveInfo="hours" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.hours():org.joda.time.DurationFieldType" resolveInfo="hours" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1173955983718">
       <property name="name" value="clockhour" />
       <property name="pluralForm" value="clockhours" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.clockhourOfDay():org.joda.time.DateTimeFieldType" resolveInfo="clockhourOfDay" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.hours(int):org.joda.time.Period" resolveInfo="hours" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.hours():org.joda.time.DurationFieldType" resolveInfo="hours" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172074737375">
       <property name="name" value="day" />
       <property name="pluralForm" value="days" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.dayOfMonth():org.joda.time.DateTimeFieldType" resolveInfo="dayOfMonth" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.days(int):org.joda.time.Period" resolveInfo="days" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.days():org.joda.time.DurationFieldType" resolveInfo="days" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172332318159">
       <property name="name" value="dayOfWeek" />
       <property name="pluralForm" value="days of week" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.dayOfWeek():org.joda.time.DateTimeFieldType" resolveInfo="dayOfWeek" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.days(int):org.joda.time.Period" resolveInfo="days" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.days():org.joda.time.DurationFieldType" resolveInfo="days" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172332326016">
       <property name="name" value="dayOfYear" />
       <property name="pluralForm" value="days of year" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.dayOfYear():org.joda.time.DateTimeFieldType" resolveInfo="dayOfYear" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.days(int):org.joda.time.Period" resolveInfo="days" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.days():org.joda.time.DurationFieldType" resolveInfo="days" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172162485440">
       <property name="name" value="week" />
       <property name="pluralForm" value="weeks" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.weekOfWeekyear():org.joda.time.DateTimeFieldType" resolveInfo="weekOfWeekyear" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.weeks(int):org.joda.time.Period" resolveInfo="weeks" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.weeks():org.joda.time.DurationFieldType" resolveInfo="weeks" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172074751786">
       <property name="name" value="month" />
       <property name="pluralForm" value="months" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.monthOfYear():org.joda.time.DateTimeFieldType" resolveInfo="monthOfYear" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.months(int):org.joda.time.Period" resolveInfo="months" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.months():org.joda.time.DurationFieldType" resolveInfo="months" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172074760743">
       <property name="name" value="year" />
       <property name="pluralForm" value="years" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.yearOfEra():org.joda.time.DateTimeFieldType" resolveInfo="yearOfEra" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.years(int):org.joda.time.Period" resolveInfo="years" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.years():org.joda.time.DurationFieldType" resolveInfo="years" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1173957959032">
       <property name="name" value="yearOfCentury" />
       <property name="pluralForm" value="years of century" />
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.yearOfCentury():org.joda.time.DateTimeFieldType" resolveInfo="yearOfCentury" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.years(int):org.joda.time.Period" resolveInfo="years" />
+      <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.years():org.joda.time.DurationFieldType" resolveInfo="years" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1173957123915">
       <property name="name" value="century" />

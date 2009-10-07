@@ -71,7 +71,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213104846011">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104846012">
               <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" id="1213104846013" />
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1213104846014">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="3394771273340077938">
                 <link role="property" targetNodeId="10.1169194664001" resolveInfo="name" />
               </node>
             </node>
@@ -202,7 +202,7 @@
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213104856618">
             <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213104856619">
               <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" id="1213104856620" />
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1213104856621">
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="3394771273340077940">
                 <link role="property" targetNodeId="10.1169194664001" resolveInfo="name" />
               </node>
             </node>

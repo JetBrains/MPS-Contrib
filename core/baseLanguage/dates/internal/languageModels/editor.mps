@@ -486,6 +486,24 @@
             <property name="flag" value="true" />
           </node>
         </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="5372916090360849431" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5372916090360849433">
+          <property name="text" value="Joda DurationType" />
+          <link role="styleClass" targetNodeId="1238677641009" resolveInfo="SimpleText" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="5372916090360849435">
+          <link role="relationDeclaration" targetNodeId="1.5372916090360849425" />
+          <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="5372916090360849436">
+            <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="5372916090360849438">
+              <property name="readOnly" value="true" />
+              <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+              <link role="styleClass" targetNodeId="2v.1198595398954" resolveInfo="Field" />
+            </node>
+          </node>
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="5372916090360849439">
+            <property name="flag" value="true" />
+          </node>
+        </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="1238665509071" />
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1172490250098">
           <property name="text" value="Plural form" />

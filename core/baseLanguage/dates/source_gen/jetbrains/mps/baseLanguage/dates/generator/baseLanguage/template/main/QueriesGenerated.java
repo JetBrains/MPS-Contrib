@@ -10,12 +10,15 @@ import jetbrains.mps.generator.template.BaseMappingRuleContext;
 import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.lang.typesystem.runtime.HUtil;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior;
+import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
 import jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior;
@@ -37,13 +40,13 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_1172502299366(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    if (!(DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)))) {
+    if (!(DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDuration(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)))) {
       return false;
     }
-    if (!(DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)))) {
+    if (!(DateTypeUtil.isInstanceOfPeriod(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDuration(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) || DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)))) {
       return false;
     }
-    return SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", false, false) == null;
+    return true;
   }
 
   public static boolean baseMappingRule_Condition_1172503815482(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -62,7 +65,16 @@ public class QueriesGenerated {
     boolean result = SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.baseLanguage.dates.structure.DateTimeOperation");
     result = result || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation");
     result = result || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.baseLanguage.dates.structure.DateTimePropetyReferenceOperation");
+    result = result || SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.baseLanguage.dates.structure.ConvertToDurationOperation");
     return result;
+  }
+
+  public static boolean baseMappingRule_Condition_1548440323223124135(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "datetime", true)), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DurationType"), false) != null;
+  }
+
+  public static boolean baseMappingRule_Condition_3627207017677899546(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(_context.getNode(), "datetime", true)), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DurationType"), false) != null;
   }
 
   public static boolean baseMappingRule_Condition_4396211440736617751(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -75,6 +87,18 @@ public class QueriesGenerated {
 
   public static boolean baseMappingRule_Condition_4396211440736691629(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return (DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && DateTypeUtil.isInstanceOfDatetime(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true))) || (DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "leftExpression", true)) && DateTypeUtil.isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(_context.getNode(), "rightExpression", true)));
+  }
+
+  public static boolean baseMappingRule_Condition_8253375325060751596(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return DateTypeUtil.isInstanceOfDurationCompare(_context.getNode());
+  }
+
+  public static boolean baseMappingRule_Condition_8253375325061005045(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return DateTypeUtil.isInstanceOfDurationCompare(_context.getNode());
+  }
+
+  public static boolean baseMappingRule_Condition_8253375325061005053(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return DateTypeUtil.isInstanceOfDurationCompare(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1169551307709(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -159,6 +183,10 @@ public class QueriesGenerated {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
   }
 
+  public static Object propertyMacro_GetPropertyValue_3394771273339691135(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ScheduleLiteral_Behavior.call_toCronExpression_1213877270167(_context.getNode());
+  }
+
   public static Object propertyMacro_GetPropertyValue_7517433918793156375(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "timezone_id");
   }
@@ -212,6 +240,30 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaPeriodType", false);
   }
 
+  public static Object referenceMacro_GetReferent_276836602888578452(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaPeriodType", false);
+  }
+
+  public static Object referenceMacro_GetReferent_276836602888578463(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaDurationType", false);
+  }
+
+  public static Object referenceMacro_GetReferent_1548440323223124195(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaPeriodType", false);
+  }
+
+  public static Object referenceMacro_GetReferent_3627207017676753937(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SConceptPropertyOperations.getString(_context.getNode(), "alias");
+  }
+
+  public static Object referenceMacro_GetReferent_3627207017677900814(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaPeriodType", false);
+  }
+
+  public static Object referenceMacro_GetReferent_3627207017677900825(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaDurationType", false);
+  }
+
   public static Object referenceMacro_GetReferent_4389880778953523212(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "precision", false), "jodaDateTimeFieldType", false);
   }
@@ -232,8 +284,8 @@ public class QueriesGenerated {
     return DatesQueriesUtil.getCompareType(SLinkOperations.getTarget(_context.getNode(), "operation", true));
   }
 
-  public static Object referenceMacro_GetReferent_8678577827671022855(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SConceptPropertyOperations.getString(_context.getNode(), "alias");
+  public static Object referenceMacro_GetReferent_8253375325060806904(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return DatesQueriesUtil.getCompareType(_context.getNode());
   }
 
   public static boolean ifMacro_Condition_1238663921403(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -252,12 +304,16 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "zone", true) != null);
   }
 
-  public static boolean ifMacro_Condition_1239805514071(final IOperationContext operationContext, final IfMacroContext _context) {
+  public static boolean ifMacro_Condition_194163770812065825(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
+  }
+
+  public static boolean ifMacro_Condition_1548440323223124032(final IOperationContext operationContext, final IfMacroContext _context) {
     return !(SPropertyOperations.getBoolean(_context.getNode(), "absolute"));
   }
 
-  public static boolean ifMacro_Condition_194163770812065825(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
+  public static boolean ifMacro_Condition_3627207017678269497(final IOperationContext operationContext, final IfMacroContext _context) {
+    return !(SPropertyOperations.getBoolean(_context.getNode(), "absolute"));
   }
 
   public static boolean ifMacro_Condition_4251945201431291547(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -447,36 +503,44 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "operation", true), "rightExpression", true);
   }
 
-  public static SNode sourceNodeQuery_1239805514082(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return _context.getNode();
-  }
-
-  public static SNode sourceNodeQuery_1239805514087(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
-  }
-
-  public static SNode sourceNodeQuery_1241177845942(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
-  }
-
-  public static SNode sourceNodeQuery_1241177845950(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
-  }
-
-  public static SNode sourceNodeQuery_1241180874253(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
-  }
-
-  public static SNode sourceNodeQuery_1241180874261(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
-  }
-
   public static SNode sourceNodeQuery_194163770812065708(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
   }
 
   public static SNode sourceNodeQuery_194163770812065829(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "locale", false);
+  }
+
+  public static SNode sourceNodeQuery_1548440323223124045(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
+  }
+
+  public static SNode sourceNodeQuery_1548440323223124061(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation"), "datetime", true);
+  }
+
+  public static SNode sourceNodeQuery_3627207017676753920(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_3627207017676753929(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_3627207017677900845(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
+  }
+
+  public static SNode sourceNodeQuery_3627207017677900926(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
+  }
+
+  public static SNode sourceNodeQuery_3627207017678269486(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
+  }
+
+  public static SNode sourceNodeQuery_3627207017678269531(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
   }
 
   public static SNode sourceNodeQuery_4251945201431279745(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -523,6 +587,22 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
   }
 
+  public static SNode sourceNodeQuery_5372916090360435514(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_5372916090360435522(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_5372916090360435533(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_5372916090360435541(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
+  }
+
   public static SNode sourceNodeQuery_5969170299421234302(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
   }
@@ -567,12 +647,16 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "default", true);
   }
 
-  public static SNode sourceNodeQuery_8678577827671022834(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
+  public static SNode sourceNodeQuery_8253375325060141198(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return IOperation_Behavior.call_getOperand_1213877410070(_context.getNode());
   }
 
-  public static SNode sourceNodeQuery_8678577827671022838(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_8253375325060806896(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "leftExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_8253375325060806900(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
   }
 
   public static Iterable sourceNodesQuery_1169641843255(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

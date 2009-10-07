@@ -10,8 +10,6 @@ import jetbrains.mps.typesystem.inference.SubtypingManager;
 import java.util.List;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.SModel;
-import jetbrains.mps.ide.progress.IAdaptiveProgressMonitor;
-import jetbrains.mps.ide.progress.NullAdaptiveProgressMonitor;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 
 public class DateTypeUtil {
@@ -19,6 +17,7 @@ public class DateTypeUtil {
   private static SNode dateTimeZoneType = new _Quotations.QuotationClass_9().createNode();
   private static SNode dateTimeWithTZType = new _Quotations.QuotationClass_12().createNode();
   private static SNode periodType = new _Quotations.QuotationClass_1().createNode();
+  private static SNode durationType = new _Quotations.QuotationClass_13().createNode();
   private static SNode intType = new _Quotations.QuotationClass_2().createNode();
   private static SNode javaDateType = new _Quotations.QuotationClass_3().createNode();
   private static SNode javaCalendarType = new _Quotations.QuotationClass_4().createNode();
@@ -30,6 +29,14 @@ public class DateTypeUtil {
 
   public static boolean isInstanceOfPeriodCompare(SNode compareOperation) {
     return bothOperandsAreNotNull(compareOperation) && isInstanceOfPeriod(SLinkOperations.getTarget(compareOperation, "leftExpression", true));
+  }
+
+  public static boolean isInstanceOfDurationCompare(SNode compareOperation) {
+    return bothOperandsAreNotNull(compareOperation) && isInstanceOfDuration(SLinkOperations.getTarget(compareOperation, "leftExpression", true));
+  }
+
+  public static boolean isInstanceOfDuration(SNode node) {
+    return isInstanceOf(node, durationType);
   }
 
   public static boolean isInstanceOfDatetime(SNode node) {
@@ -67,7 +74,6 @@ public class DateTypeUtil {
   }
 
   public static List<SNode> findDateTimeProperties(IScope scope, SModel model) {
-    IAdaptiveProgressMonitor pm = new NullAdaptiveProgressMonitor();
     return SModelOperations.getNodesIncludingImported(model, scope, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
   }
 }

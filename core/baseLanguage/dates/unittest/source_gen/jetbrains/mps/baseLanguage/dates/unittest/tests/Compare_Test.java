@@ -4,6 +4,7 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 
 import junit.framework.TestCase;
 import org.joda.time.DateTime;
+import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
 import org.joda.time.DateTimeZone;
 import org.joda.time.Period;
@@ -12,8 +13,8 @@ import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 import org.joda.time.DateTimeFieldType;
 
 public class Compare_Test extends TestCase {
-  private static DateTime yesterday = DateTimeOperations.minus(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault()), Period.days(1));
-  private static Long yesterdayInstant = DateTimeOperations.minus(System.currentTimeMillis(), Period.days(1));
+  private static DateTime yesterday = DateTimeArithmetics.minus(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault()), Period.days(1));
+  private static Long yesterdayInstant = DateTimeArithmetics.minus(System.currentTimeMillis(), Period.days(1));
 
   public void test_equals() throws Exception {
     Long now1 = System.currentTimeMillis();
@@ -47,62 +48,32 @@ public class Compare_Test extends TestCase {
   public void test_never() throws Exception {
     Assert.assertFalse(DateTimeOperations.compare(DateTimeOperations.never(), CompareType.GE, System.currentTimeMillis(), DateTimeFieldType.millisOfSecond()));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.never(), CompareType.LT, yesterdayInstant, DateTimeFieldType.secondOfMinute()));
+    Assert.assertNull(DateTimeOperations.never());
+    Assert.assertNull(DateTimeOperations.convert(DateTimeOperations.never(), DateTimeZone.getDefault()));
   }
 
   public void test_lessOrEquals() throws Exception {
     Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear())), CompareType.LE, (DateTimeOperations.round(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth())), DateTimeFieldType.millisOfSecond()));
-    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("Europe/Moscow")), CompareType.LE, DateTimeOperations.plus(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("Europe/Amsterdam")), Period.hours(1)), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("Europe/Moscow")), CompareType.LE, DateTimeArithmetics.plus(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("Europe/Amsterdam")), Period.hours(1)), DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_min() throws Exception {
-    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24))), CompareType.LT, DateTimeOperations.convert(Period.days(1)), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare(DateTimeArithmetics.min(DateTimeOperations.convert(Period.hours(12)), DateTimeOperations.convert(Period.hours(24))), CompareType.LT, DateTimeOperations.convert(Period.days(1)), DateTimeFieldType.millisOfSecond()));
     Long nowx = System.currentTimeMillis();
-    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.min(DateTimeOperations.convert(nowx, DateTimeZone.forID("Africa/Accra")), DateTimeOperations.convert(nowx, DateTimeZone.getDefault()))), CompareType.EQ, DateTimeOperations.convert(nowx, DateTimeZone.getDefault()), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.min(DateTimeOperations.convert(nowx, DateTimeZone.forID("Africa/Accra")), DateTimeOperations.convert(nowx, DateTimeZone.getDefault()))), CompareType.EQ, DateTimeOperations.convert(nowx, DateTimeZone.getDefault()), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.min(nowx, DateTimeOperations.never())), CompareType.EQ, DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.min(DateTimeOperations.never(), nowx)), CompareType.EQ, DateTimeOperations.never(), DateTimeFieldType.millisOfSecond()));
   }
 
   public void test_max() throws Exception {
-    Assert.assertFalse(DateTimeOperations.compare(DateTimeOperations.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2))), CompareType.EQ, DateTimeOperations.convert(Period.hours(24)), DateTimeFieldType.millisOfSecond()));
+    Assert.assertFalse(DateTimeOperations.compare(DateTimeArithmetics.max(DateTimeOperations.convert(Period.days(1)), DateTimeOperations.convert(Period.days(2))), CompareType.EQ, DateTimeOperations.convert(Period.hours(24)), DateTimeFieldType.millisOfSecond()));
     Long nowx = System.currentTimeMillis();
-    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.max(DateTimeOperations.convert(nowx, DateTimeZone.forID("Africa/Accra")), DateTimeOperations.convert(nowx, DateTimeZone.getDefault()))), CompareType.EQ, DateTimeOperations.convert(nowx, DateTimeZone.getDefault()), DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.max(DateTimeOperations.convert(nowx, DateTimeZone.forID("Africa/Accra")), DateTimeOperations.convert(nowx, DateTimeZone.getDefault()))), CompareType.EQ, DateTimeOperations.convert(nowx, DateTimeZone.getDefault()), DateTimeFieldType.millisOfSecond()));
 
     DateTime dt1 = DateTimeOperations.parseDateTime("1970-03-03", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), DateTimeZone.UTC, null, null);
     DateTime dt2 = DateTimeOperations.parseDateTime("1970-03-04", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), DateTimeZone.UTC, null, null);
-    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.max(dt1, dt2)), CompareType.EQ, dt2, DateTimeFieldType.millisOfSecond()));
-    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.min(dt1, dt2)), CompareType.EQ, dt1, DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.max(dt1, dt2)), CompareType.EQ, dt2, DateTimeFieldType.millisOfSecond()));
+    Assert.assertTrue(DateTimeOperations.compare((DateTimeArithmetics.min(dt1, dt2)), CompareType.EQ, dt1, DateTimeFieldType.millisOfSecond()));
     Assert.assertFalse(DateTimeOperations.compare(dt1, CompareType.EQ, dt2, DateTimeFieldType.millisOfSecond()));
-  }
-
-  public void test_plusExpression() throws Exception {
-    Long d1 = System.currentTimeMillis();
-    Long d2 = DateTimeOperations.plus(d1, Period.hours(5));
-    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.minus(d2, d1), CompareType.EQ, Period.hours(5)));
-
-    DateTime now1 = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.forID("CET"));
-    DateTime now2 = DateTimeOperations.plus(now1, Period.hours(5));
-    Assert.assertEquals(Period.hours(5), DateTimeOperations.minus(now2, now1));
-  }
-
-  public void test_plusExpressionWithConvert() throws Exception {
-    Long d1 = System.currentTimeMillis();
-    Long d2 = DateTimeOperations.plus(d1, Period.hours(5));
-    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert((DateTimeOperations.minus(d2, d1))), CompareType.EQ, DateTimeOperations.convert(Period.hours(5)), DateTimeFieldType.millisOfSecond()));
-  }
-
-  public void test_plusExpressionReversed() throws Exception {
-    Long d1 = System.currentTimeMillis();
-    Long d2 = DateTimeOperations.plus(Period.hours(5), d1);
-    Assert.assertTrue(DateTimeOperations.compare((DateTimeOperations.minus(d2, d1)), CompareType.EQ, Period.hours(5)));
-  }
-
-  public void test_minusExpression() throws Exception {
-    Long d1 = System.currentTimeMillis();
-    Long d2 = DateTimeOperations.minus(d1, Period.minutes(5));
-    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.minus(d1, d2), CompareType.EQ, Period.minutes(5)));
-  }
-
-  public void test_minusExpressionWithConvert() throws Exception {
-    Long d1 = System.currentTimeMillis();
-    Long d2 = DateTimeOperations.minus(d1, Period.minutes(5));
-    Assert.assertTrue(DateTimeOperations.compare(DateTimeOperations.convert((DateTimeOperations.minus(d1, d2))), CompareType.EQ, DateTimeOperations.convert(Period.minutes(5)), DateTimeFieldType.millisOfSecond()));
   }
 }

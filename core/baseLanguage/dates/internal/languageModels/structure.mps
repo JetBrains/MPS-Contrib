@@ -340,6 +340,11 @@
       <property name="role" value="jodaPeriodType" />
       <link role="target" targetNodeId="3.1081236700938" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5372916090360849425">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="jodaDurationType" />
+      <link role="target" targetNodeId="3.1081236700938" resolveInfo="StaticMethodDeclaration" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172074383898">
     <property name="rootable" value="true" />
@@ -525,10 +530,6 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1194005944850">
     <property name="name" value="Month" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1194005961112">
-      <property name="name" value="name" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1194013362176">
       <property name="name" value="shortName" />
       <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
@@ -537,14 +538,13 @@
       <property name="name" value="days" />
       <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="3394771273340077939">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1194006427224">
     <property name="name" value="SchedulePeriod" />
     <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1194006456806">
-      <property name="name" value="name" />
-      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
-    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1194006461854">
       <property name="name" value="second" />
       <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
@@ -568,6 +568,9 @@
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1194006543511">
       <property name="name" value="month" />
       <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="3394771273340077937">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1238668259228">

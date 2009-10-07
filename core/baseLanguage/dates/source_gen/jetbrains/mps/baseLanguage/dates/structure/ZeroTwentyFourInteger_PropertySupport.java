@@ -12,6 +12,6 @@ public class ZeroTwentyFourInteger_PropertySupport extends PropertySupport {
     } else {
       testValue = value;
     }
-    return testValue.matches("([01]\\d)|(2[03])");
+    return testValue.matches("([01]\\d)|(2[0-3])");
   }
 }

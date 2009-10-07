@@ -1420,34 +1420,6 @@
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="6626410111396440261">
-    <link role="concept" targetNodeId="1.1195930031035447613" resolveInfo="DateTimeWithTZType" />
-    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="6626410111396440262">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6626410111396440263" />
-    </node>
-    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="6626410111396452688">
-      <property name="isVirtual" value="true" />
-      <property name="name" value="getJavaType" />
-      <property name="isPrivate" value="false" />
-      <link role="overriddenMethod" targetNodeId="2v.1213877337345" resolveInfo="getJavaType" />
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="6626410111396452689" />
-      <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="6626410111396452691">
-        <link role="concept" targetNodeId="6.1068431790189" resolveInfo="Type" />
-      </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance" id="6626410111396452692">
-        <link role="annotation" targetNodeId="2.~Override" />
-      </node>
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6626410111396452806">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="6626410111396452813">
-          <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="6626410111396452815">
-            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6626410111396452818">
-              <link role="classifier" targetNodeId="15.~DateTime" resolveInfo="DateTime" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="5034322243092301670">
     <property name="package" value="format" />
     <link role="concept" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />

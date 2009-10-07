@@ -627,12 +627,12 @@
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1239209821421">
             <property name="name" value="expression" />
             <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239209821422">
-              <link role="concept" targetNodeId="1.1239036439524" resolveInfo="PeriodInPropertyOperation" />
+              <link role="concept" targetNodeId="1.276836602888578296" resolveInfo="PeriodInPropertyExpression" />
             </node>
             <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1239209821423">
               <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeCreator" id="1239209821424">
                 <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1239209821425">
-                  <link role="concept" targetNodeId="1.1239036439524" resolveInfo="PeriodInPropertyOperation" />
+                  <link role="concept" targetNodeId="1.276836602888578296" resolveInfo="PeriodInPropertyExpression" />
                 </node>
               </node>
             </node>
@@ -644,8 +644,8 @@
               <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1239209821429">
                 <link role="variableDeclaration" targetNodeId="1239209821421" resolveInfo="expression" />
               </node>
-              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1239209851536">
-                <link role="link" targetNodeId="1.1239209522682" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="276836602888608320">
+                <link role="link" targetNodeId="1.276836602888578300" />
               </node>
             </node>
             <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="1239209821431">
@@ -684,8 +684,43 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" id="276836602888578344">
+    <property name="package" value="operation.property" />
+    <property name="name" value="remove_PeriodInPropertyExpression" />
+    <link role="forConcept" targetNodeId="1.276836602888578296" resolveInfo="PeriodInPropertyExpression" />
+    <node role="descriptionFunction" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock" id="276836602888578345">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="276836602888578346">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="276836602888578386">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="276836602888578387">
+            <property name="value" value="Remove Datetime Property" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="executeFunction" type="jetbrains.mps.lang.intentions.structure.ExecuteBlock" id="276836602888578347">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="276836602888578348">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="276836602888578366">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="276836602888578368">
+            <node role="operand" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" id="276836602888578367" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="276836602888578372">
+              <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="276836602888578380">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="276836602888578375">
+                  <node role="operand" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node" id="276836602888578374" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="276836602888578379">
+                    <link role="link" targetNodeId="1.276836602888578300" />
+                  </node>
+                </node>
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" id="276836602888578384" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" id="1239209858304">
     <property name="name" value="RemoveDateTimePropertyFromPeriod" />
+    <property name="package" value="deprecated" />
     <link role="forConcept" targetNodeId="1.1239036439524" resolveInfo="PeriodInPropertyOperation" />
     <node role="descriptionFunction" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock" id="1239209858305">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239209858306">

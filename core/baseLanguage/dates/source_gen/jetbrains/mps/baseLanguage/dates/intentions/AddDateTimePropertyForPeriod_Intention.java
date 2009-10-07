@@ -46,7 +46,7 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention {
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SNode expression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation", null);
+    SNode expression = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", null);
     SLinkOperations.setTarget(expression, "datetime", SNodeOperations.copyNode(node), true);
     SNodeOperations.replaceWithAnother(node, expression);
   }

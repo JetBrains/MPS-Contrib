@@ -772,7 +772,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1194003500823">
     <property name="package" value="constant.schedule" />
     <property name="name" value="ScheduleLiteral" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1194007702067">
       <property name="sourceCardinality" value="1" />
       <property name="role" value="schedulePeriod" />
@@ -816,7 +816,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConstrainedDataTypeDeclaration" id="1194004947075">
     <property name="package" value="constant.schedule" />
     <property name="name" value="ZeroTwentyFourInteger" />
-    <property name="constraint" value="([01]\\d)|(2[03])" />
+    <property name="constraint" value="([01]\\d)|(2[0-3])" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" id="1194005227362">
     <property name="package" value="constant.schedule" />
@@ -911,6 +911,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1209035204722">
     <property name="name" value="ConvertToDateTimeOperation" />
     <property name="package" value="operation.convert" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1209035204724">
       <property name="value" value="instant" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
@@ -1151,7 +1152,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1239036439524">
-    <property name="package" value="operation.arithmetic" />
+    <property name="package" value="deprecated" />
     <property name="name" value="PeriodInPropertyOperation" />
     <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1239209522682">
@@ -1170,13 +1171,17 @@
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1239036724026">
-      <property name="value" value="in property" />
+      <property name="value" value="period in days/months/years" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="3627207017678653858">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" resolveInfo="dontSubstituteByDefault" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1239037593439">
       <property name="name" value="absolute" />
       <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
     </node>
+    <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="276836602888578295" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1239193939163">
     <property name="package" value="operation.compare" />
@@ -1190,7 +1195,7 @@
       <property name="metaClass" value="aggregation" />
       <property name="role" value="operation" />
       <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3.1239448985469" resolveInfo="BinaryCompareOperation" />
+      <link role="target" targetNodeId="3.1081773326031" resolveInfo="BinaryOperation" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1239193967166">
       <property name="sourceCardinality" value="1" />
@@ -1255,6 +1260,7 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1892577441204584700">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" resolveInfo="dontSubstituteByDefault" />
     </node>
+    <node role="deprecatedNode$attribute" type="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" id="3394771273339504217" />
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4555537781927648369">
     <property name="package" value="timezone" />
@@ -1441,6 +1447,47 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="3931616304474648884">
       <property name="value" value="duration" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5372916090361181333">
+    <property name="package" value="operation.convert" />
+    <property name="name" value="ConvertToDurationOperation" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="5372916090361181335">
+      <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5372916090361181336">
+      <property name="value" value="toDuration" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5372916090361181338">
+      <property name="value" value="convert to Duration" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="276836602888578296">
+    <property name="package" value="operation.property" />
+    <property name="name" value="PeriodInPropertyExpression" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="276836602888578302">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="datetimeProperty" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1172074318583" resolveInfo="DateTimeProperty" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="276836602888578297">
+      <property name="value" value="in" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="276836602888578299">
+      <property name="value" value="number of full hours/days/months in period" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="276836602888578300">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="datetime" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     </node>
   </node>
 </model>

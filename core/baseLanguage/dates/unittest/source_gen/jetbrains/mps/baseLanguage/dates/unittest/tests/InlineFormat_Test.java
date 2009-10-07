@@ -14,6 +14,7 @@ import org.joda.time.format.DateTimeFormatterBuilder;
 import java.util.Locale;
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.accessories.DateTimeUtil;
+import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import org.joda.time.Period;
 
 public class InlineFormat_Test extends BaseTestCase {
@@ -63,7 +64,7 @@ public class InlineFormat_Test extends BaseTestCase {
 
   public void test_withTimezone() throws Exception {
     Long now1 = System.currentTimeMillis();
-    String ddd = DateTimeOperations.print(DateTimeOperations.minus((DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/Moscow"))), Period.hours(2)), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null);
+    String ddd = DateTimeOperations.print(DateTimeArithmetics.minus((DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/Moscow"))), Period.hours(2)), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null);
     Assert.assertEquals(ddd, DateTimeOperations.print(DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/Prague")), (new InlineDateFormatter() {
       public DateTimeFormatter createFormatter() {
         DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();

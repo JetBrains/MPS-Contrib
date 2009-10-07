@@ -17,7 +17,7 @@ public class typeof_ConvertToJavaDateOperation_InferenceRule extends AbstractInf
     {
       SNode _nodeToCheck_1029348928467 = operation;
       BaseIntentionProvider intentionProvider = null;
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999067", true), (SNode)new _Quotations.QuotationClass_58().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999070", intentionProvider);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999067", true), (SNode)new _Quotations.QuotationClass_59().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999070", intentionProvider);
     }
   }
 

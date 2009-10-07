@@ -9,6 +9,7 @@ import junit.framework.Assert;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.DateTimeZone;
 import java.util.Locale;
+import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import org.joda.time.Period;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 
@@ -30,7 +31,7 @@ public class Parse_Test extends BaseTestCase {
 
   public void test_usDayOfWeek() throws Exception {
     Long monday = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear());
-    Long wednesday = DateTimeOperations.plus(DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear()), Period.days(2));
+    Long wednesday = DateTimeArithmetics.plus(DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear()), Period.days(2));
     Assert.assertFalse(DateTimeOperations.compare(monday, CompareType.EQ, wednesday, DateTimeFieldType.millisOfSecond()));
     Assert.assertEquals(DateTimeOperations.parse("Monday", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("usDayOfWeek"), null, null, wednesday), monday);
   }
@@ -56,7 +57,7 @@ public class Parse_Test extends BaseTestCase {
   }
 
   public void test_ampm() throws Exception {
-    Period p = DateTimeOperations.plus(Period.hours(3), Period.minutes(33));
+    Period p = DateTimeArithmetics.plus(Period.hours(3), Period.minutes(33));
     Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 

@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 import junit.framework.TestCase;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeOperations;
 import org.joda.time.DateTimeFieldType;
+import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import org.joda.time.Period;
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
@@ -12,14 +13,14 @@ import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 public class Period_Test extends TestCase {
   public void test_plus() throws Exception {
     Long firstDayOfMonth = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.monthOfYear());
-    Long secondDayOfMonth = DateTimeOperations.plus(firstDayOfMonth, Period.days(1));
+    Long secondDayOfMonth = DateTimeArithmetics.plus(firstDayOfMonth, Period.days(1));
     Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.LT, secondDayOfMonth, DateTimeFieldType.hourOfDay()));
     Assert.assertTrue(DateTimeOperations.compare(firstDayOfMonth, CompareType.EQ, secondDayOfMonth, DateTimeFieldType.monthOfYear()));
   }
 
   public void test_plusAndEquals() throws Exception {
-    Period p = DateTimeOperations.plus(DateTimeOperations.minus(DateTimeOperations.plus(Period.days(1), Period.months(2)), Period.hours(1)), Period.minutes(2));
-    Assert.assertTrue(DateTimeOperations.compare(p, CompareType.GT, DateTimeOperations.minus(Period.months(3), Period.days(32))));
+    Period p = DateTimeArithmetics.plus(DateTimeArithmetics.minus(DateTimeArithmetics.plus(Period.days(1), Period.months(2)), Period.hours(1)), Period.minutes(2));
+    Assert.assertTrue(DateTimeOperations.compare(p, CompareType.GT, DateTimeArithmetics.minus(Period.months(3), Period.days(32))));
   }
 
   public void test_equals() throws Exception {
@@ -49,7 +50,7 @@ public class Period_Test extends TestCase {
   }
 
   public void test_convert() throws Exception {
-    Period p = DateTimeOperations.plus(Period.minutes(1), Period.seconds(15));
+    Period p = DateTimeArithmetics.plus(Period.minutes(1), Period.seconds(15));
     Long d = DateTimeOperations.convert(p);
     Assert.assertTrue(d == (long)75000);
   }
