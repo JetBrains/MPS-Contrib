@@ -35,7 +35,7 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_1339_1(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "main node");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "main context item");
     editorCell.setCellId("Constant_1339_1");
     editorCell.setDefaultText("");
     return editorCell;
@@ -43,8 +43,8 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNode_1339_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("nodeExpr");
-    provider.setNoTargetText("<no nodeExpr>");
+    provider.setRole("contextItem");
+    provider.setNoTargetText("<no contextItem>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
