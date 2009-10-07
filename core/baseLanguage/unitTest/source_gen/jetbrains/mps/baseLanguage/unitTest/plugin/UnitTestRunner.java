@@ -14,9 +14,9 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
+import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.ModelAccess;
-import org.apache.commons.lang.StringUtils;
 import java.io.File;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.concurrent.CyclicBarrier;
@@ -80,7 +80,7 @@ public class UnitTestRunner extends BaseRunner {
       this.addDebug(params, this.unitTestPreferences.getStateObject().debugPort, false);
     }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
-    if (vmParams != null) {
+    if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
       String[] paramList = this.splitParams(vmParams);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
@@ -97,7 +97,7 @@ public class UnitTestRunner extends BaseRunner {
         }
       }
     });
-    if (programParams != null) {
+    if (programParams != null && StringUtils.isNotEmpty(programParams)) {
       String[] paramList = this.splitParams(programParams);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
