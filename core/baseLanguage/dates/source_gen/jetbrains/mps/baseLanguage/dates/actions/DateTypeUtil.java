@@ -11,6 +11,7 @@ import java.util.List;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
+import jetbrains.mps.lang.typesystem.runtime.HUtil;
 
 public class DateTypeUtil {
   private static SNode dateTimeType = new _Quotations.QuotationClass_0().createNode();
@@ -75,5 +76,34 @@ public class DateTypeUtil {
 
   public static List<SNode> findDateTimeProperties(IScope scope, SModel model) {
     return SModelOperations.getNodesIncludingImported(model, scope, "jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
+  }
+
+  public static SNode getContainingPeriod(SNode expr) {
+    SNode current = expr;
+    while ((current != null) && TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(current), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.PeriodType"), false) == null) {
+      current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ?
+        SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") :
+        null
+      );
+    }
+    return current;
+  }
+
+  public static SNode getCompareExpression(SNode expr) {
+    SNode current = expr;
+    while ((current != null)) {
+      if (SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.structure.EqualsExpression") || SNodeOperations.isInstanceOf(current, "jetbrains.mps.baseLanguage.structure.NotEqualsExpression")) {
+        if (isInstanceOfDatetimeWithTZ(SLinkOperations.getTarget(SNodeOperations.cast(current, "jetbrains.mps.baseLanguage.structure.BinaryOperation"), "leftExpression", true))) {
+          return SNodeOperations.cast(current, "jetbrains.mps.baseLanguage.structure.BinaryOperation");
+        }
+        return null;
+      } else {
+        current = (SNodeOperations.isInstanceOf(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") ?
+          SNodeOperations.cast(SNodeOperations.getParent(current), "jetbrains.mps.baseLanguage.structure.Expression") :
+          null
+        );
+      }
+    }
+    return null;
   }
 }
