@@ -3123,6 +3123,7 @@
                     <node role="creator" type="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator" id="1238663967249">
                       <node role="cls" type="jetbrains.mps.baseLanguage.structure.AnonymousClass" id="1238663967250">
                         <link role="classifier" targetNodeId="36.~InlineDateFormatter" resolveInfo="InlineDateFormatter" />
+                        <link role="baseMethodDeclaration" targetNodeId="36.~InlineDateFormatter.&lt;init&gt;()" resolveInfo="InlineDateFormatter" />
                         <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="1238663967251">
                           <property name="name" value="createFormatter" />
                           <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1238663967252">
@@ -5070,6 +5071,7 @@
                     <node role="cls" type="jetbrains.mps.baseLanguage.structure.AnonymousClass" id="194163770812065796">
                       <property name="nonStatic" value="true" />
                       <link role="classifier" targetNodeId="36.~InlineDateFormatter" resolveInfo="InlineDateFormatter" />
+                      <link role="baseMethodDeclaration" targetNodeId="36.~InlineDateFormatter.&lt;init&gt;()" resolveInfo="InlineDateFormatter" />
                       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="194163770812065797" />
                       <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="194163770812065798">
                         <property name="name" value="createFormatter" />
