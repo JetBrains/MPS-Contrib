@@ -1513,6 +1513,26 @@
           </node>
         </node>
       </node>
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="5488841840788546541">
+        <property name="checkOnly" value="true" />
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="5488841840788546550">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="5488841840788546551">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType" id="5488841840788546553" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="5488841840788546544">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="5488841840788545324">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5488841840788545327">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="5488841840788545326">
+                <link role="applicableNode" targetNodeId="2639623922402551151" resolveInfo="operation" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5488841840788546540">
+                <link role="link" targetNodeId="2.1171964003156" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="2639623922402551151">
       <property name="name" value="operation" />
