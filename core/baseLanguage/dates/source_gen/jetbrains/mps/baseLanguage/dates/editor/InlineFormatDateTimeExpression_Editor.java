@@ -98,6 +98,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_2455_1");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
+    InlineFormatDateTimeExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -125,7 +126,8 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_2455_4(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_2455_4");
-    BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
+    BaseLanguageStyle_StyleSheet.getLeftParenAfterName(editorCell).apply(editorCell);
+    InlineFormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -133,10 +135,12 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_2455_6(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
     editorCell.setCellId("Constant_2455_6");
+    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
     }
+    InlineFormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -329,6 +333,7 @@ public class InlineFormatDateTimeExpression_Editor extends DefaultNodeEditor {
         style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
         style.set(StyleAttributes.EDITABLE, true);
       }
+      InlineFormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
       editorCell.setDefaultText("");
       return editorCell;
     }

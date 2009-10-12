@@ -719,6 +719,52 @@
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1239194160817">
     <property name="package" value="operation.compare" />
     <link role="concept" targetNodeId="1.1239193939163" resolveInfo="WithPropertyOperation" />
+    <node role="canBeParent" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAParent" id="8931998598488287817">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8931998598488287818">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="8931998598488464420">
+          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8931998598488464421">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="5600029375247040345">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="5600029375247040360">
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="5600029375247040352">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5600029375247215620">
+                    <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" id="5600029375247040347" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="5600029375247215624">
+                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="5600029375247215626">
+                        <link role="conceptDeclaration" targetNodeId="6.1239448985469" resolveInfo="BinaryCompareOperation" />
+                      </node>
+                    </node>
+                  </node>
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="5600029375247040356">
+                    <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" id="5600029375247040355" />
+                    <node role="rightExpression" type="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" id="5600029375247040359">
+                      <link role="conceptDeclaration" targetNodeId="6.1068580123152" resolveInfo="EqualsExpression" />
+                    </node>
+                  </node>
+                </node>
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="5600029375247040365">
+                  <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" id="5600029375247040364" />
+                  <node role="rightExpression" type="jetbrains.mps.lang.smodel.structure.ConceptRefExpression" id="5600029375247040368">
+                    <link role="conceptDeclaration" targetNodeId="6.1073239437375" resolveInfo="NotEqualsExpression" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="5600029375247040340">
+            <node role="rightExpression" type="jetbrains.mps.lang.smodel.structure.LinkRefExpression" id="5600029375247040343">
+              <link role="conceptDeclaration" targetNodeId="1.1239193939163" resolveInfo="WithPropertyCompareExpression" />
+              <link role="linkDeclaration" targetNodeId="1.1239198287872" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_link" id="8931998598488464424" />
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8931998598488464461">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="8931998598488464462">
+            <property name="value" value="true" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="4555537781927648385">
     <property name="package" value="timezone" />

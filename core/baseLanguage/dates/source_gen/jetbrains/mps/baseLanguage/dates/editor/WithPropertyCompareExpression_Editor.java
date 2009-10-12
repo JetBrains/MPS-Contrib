@@ -41,6 +41,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
     editorCell.setCellId("Constant_6938_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
+    WithPropertyCompareExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -52,6 +53,7 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new WithPropertyCompareExpression_Editor._Inline6938_0());
     editorCell = provider.createEditorCell(editorContext);
+    WithPropertyCompareExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

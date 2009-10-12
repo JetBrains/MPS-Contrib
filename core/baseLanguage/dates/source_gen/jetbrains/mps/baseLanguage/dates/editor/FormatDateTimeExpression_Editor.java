@@ -85,6 +85,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
       style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
     }
+    FormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -101,6 +102,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_5298_2");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
+    FormatDateTimeExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -140,6 +142,7 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
     }
+    FormatDateTimeExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

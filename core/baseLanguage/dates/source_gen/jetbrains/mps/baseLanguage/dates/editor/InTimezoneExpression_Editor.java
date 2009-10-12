@@ -36,6 +36,7 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_9626_0");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
+    InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -48,6 +49,7 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
     }
+    InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -56,6 +58,7 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_9626_2");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
+    InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -83,6 +86,7 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no timezone>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

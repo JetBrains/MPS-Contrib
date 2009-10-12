@@ -2090,9 +2090,11 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1239194001363">
         <property name="text" value="by" />
         <link role="styleClass" targetNodeId="48.1215010940130" resolveInfo="Operator" />
+        <link role="actionMap" targetNodeId="5600029375248625372" resolveInfo="WithPropertyCompareExpression_delete" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1239194001364">
         <link role="relationDeclaration" targetNodeId="1.1239193967166" />
+        <link role="actionMap" targetNodeId="5600029375248625372" resolveInfo="WithPropertyCompareExpression_delete" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="1239194001365">
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1239194001366">
             <property name="readOnly" value="true" />
@@ -2593,18 +2595,22 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="2639623922402692166">
         <property name="text" value="in" />
         <link role="styleClass" targetNodeId="1219659527813" resolveInfo="DateCompactKeyWord" />
+        <link role="actionMap" targetNodeId="5600029375247572396" resolveInfo="InTimeZoneExpression_delete" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="2644539331223619519">
         <property name="text" value="(" />
         <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
+        <link role="actionMap" targetNodeId="5600029375247572396" resolveInfo="InTimeZoneExpression_delete" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="2639623922402692163" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="2639623922402692168">
         <link role="relationDeclaration" targetNodeId="1.2639623922402691641" />
+        <link role="actionMap" targetNodeId="5600029375247572396" resolveInfo="InTimeZoneExpression_delete" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="2644539331223486521">
         <property name="text" value=")" />
         <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+        <link role="actionMap" targetNodeId="5600029375247572396" resolveInfo="InTimeZoneExpression_delete" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SideTransformAnchorTagStyleClassItem" id="2644539331223619520">
           <property name="tag" value="default_RTransform" />
         </node>
@@ -2776,6 +2782,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5034322243092298641">
         <property name="text" value="#" />
+        <link role="actionMap" targetNodeId="6240071430106213339" resolveInfo="FormatDateTimeExpression_delete" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" id="5034322243092298642">
           <property name="value" value="0.0" />
         </node>
@@ -2786,6 +2793,7 @@
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="5034322243092298635" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="5034322243092298646">
         <link role="relationDeclaration" targetNodeId="1.5034322243092298627" />
+        <link role="actionMap" targetNodeId="6240071430106213339" resolveInfo="FormatDateTimeExpression_delete" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="5034322243092298647">
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="5034322243092298649">
             <property name="readOnly" value="true" />
@@ -2820,6 +2828,7 @@
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5034322243092298657">
           <property name="text" value=")" />
           <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+          <link role="actionMap" targetNodeId="6240071430106390467" resolveInfo="FormatDateTimeExpression_deleteLocale" />
         </node>
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="5034322243092298654" />
         <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="5034322243092298663">
@@ -2880,12 +2889,14 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5034322243093099652">
         <property name="text" value="{" />
-        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
+        <link role="styleClass" targetNodeId="48.1234958090348" resolveInfo="LeftParenAfterName" />
+        <link role="actionMap" targetNodeId="6240071430105681206" resolveInfo="InlineFormatDateTimeExpression_delete" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="5034322243093099654">
         <link role="relationDeclaration" targetNodeId="1.5034322243093093770" />
         <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="5034322243093099655" />
         <node role="emptyCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5034322243093099656">
+          <link role="actionMap" targetNodeId="6240071430105681206" resolveInfo="InlineFormatDateTimeExpression_delete" />
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="5034322243093099657">
             <property name="value" value="0.0" />
           </node>
@@ -2896,6 +2907,8 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5034322243093099661">
         <property name="text" value="}" />
+        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+        <link role="actionMap" targetNodeId="6240071430105681206" resolveInfo="InlineFormatDateTimeExpression_delete" />
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SideTransformAnchorTagStyleClassItem" id="194163770812433045">
           <property name="tag" value="default_RTransform" />
         </node>
@@ -2939,6 +2952,7 @@
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="194163770812053360">
           <property name="text" value=")" />
           <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+          <link role="actionMap" targetNodeId="6240071430105858338" resolveInfo="InlineFormatDateTimeExpression_deleteLocale" />
         </node>
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="5034322243093099643" />
@@ -2995,6 +3009,162 @@
         </node>
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="276836602888578307" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="5600029375247572396">
+    <property name="package" value="operation.convert" />
+    <property name="name" value="InTimeZoneExpression_delete" />
+    <link role="applicableConcept" targetNodeId="1.2639623922402691276" resolveInfo="InTimezoneExpression" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="5600029375247572397">
+      <property name="actionId" value="delete_action_id" />
+      <property name="description" value="Delete timezone" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="5600029375247572398">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5600029375247572399">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5600029375247572400">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5600029375247572402">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="5600029375247572401" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="5600029375247573615">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5600029375247573618">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="5600029375247573617" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5600029375247573622">
+                    <link role="link" targetNodeId="1.2639623922402691278" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="5600029375248625372">
+    <property name="package" value="operation.compare" />
+    <property name="name" value="WithPropertyCompareExpression_delete" />
+    <link role="applicableConcept" targetNodeId="1.1239193939163" resolveInfo="WithPropertyCompareExpression" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="5600029375248627568">
+      <property name="actionId" value="delete_action_id" />
+      <property name="description" value="Remove property" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="5600029375248627569">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5600029375248627570">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5600029375248627571">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5600029375248633460">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="5600029375248627572" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="5600029375248634673">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5600029375248634676">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="5600029375248634675" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5600029375248634680">
+                    <link role="link" targetNodeId="1.1239198287872" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="6240071430105681206">
+    <property name="package" value="format" />
+    <property name="name" value="InlineFormatDateTimeExpression_delete" />
+    <link role="applicableConcept" targetNodeId="1.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="6240071430105682166">
+      <property name="actionId" value="delete_action_id" />
+      <property name="description" value="Remove formatting" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="6240071430105682167">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6240071430105682168">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6240071430105682169">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430105682171">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="6240071430105682170" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="6240071430105683384">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430105683387">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="6240071430105683386" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6240071430105683391">
+                    <link role="link" targetNodeId="1.5034322243093093769" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="6240071430105858338">
+    <property name="package" value="format" />
+    <property name="name" value="InlineFormatDateTimeExpression_deleteLocale" />
+    <link role="applicableConcept" targetNodeId="1.5034322243093083314" resolveInfo="InlineFormatDateTimeExpression" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="6240071430105860531">
+      <property name="actionId" value="delete_action_id" />
+      <property name="description" value="Delete locale" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="6240071430105860532">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6240071430105860533">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6240071430105860534">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430105861750">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430105860536">
+                <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="6240071430105860535" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6240071430105861749">
+                  <link role="link" targetNodeId="1.5034322243093093771" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="6240071430105861754">
+                <node role="linkTarget" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="6240071430105861757" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="6240071430106213339">
+    <property name="package" value="format" />
+    <property name="name" value="FormatDateTimeExpression_delete" />
+    <link role="applicableConcept" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="6240071430106214299">
+      <property name="actionId" value="delete_action_id" />
+      <property name="description" value="Remove formatting" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="6240071430106214300">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6240071430106214301">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6240071430106214302">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430106214304">
+              <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="6240071430106214303" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="6240071430106215517">
+                <node role="replacementNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430106215520">
+                  <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="6240071430106215519" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6240071430106215524">
+                    <link role="link" targetNodeId="1.5034322243092298623" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.CellActionMapDeclaration" id="6240071430106390467">
+    <property name="package" value="format" />
+    <property name="name" value="FormatDateTimeExpression_deleteLocale" />
+    <link role="applicableConcept" targetNodeId="1.5034322243092296606" resolveInfo="FormatDateTimeExpression" />
+    <node role="item" type="jetbrains.mps.lang.editor.structure.CellActionMapItem" id="6240071430106390468">
+      <property name="actionId" value="delete_action_id" />
+      <property name="description" value="Remove locale" />
+      <node role="executeFunction" type="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" id="6240071430106390469">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6240071430106390470">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6240071430106390471">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430106391689">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6240071430106390473">
+                <node role="operand" type="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" id="6240071430106390472" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6240071430106391688">
+                  <link role="link" targetNodeId="1.5034322243092298628" />
+                </node>
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="6240071430106391693">
+                <node role="linkTarget" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="6240071430106391696" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
