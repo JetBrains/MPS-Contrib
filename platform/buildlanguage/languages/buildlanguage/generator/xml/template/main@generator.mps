@@ -457,10 +457,8 @@
                 <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1219153267727">
                   <property name="name" value="decls" />
                   <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.SequenceType" id="1219153267728">
-                    <node role="elementType" type="jetbrains.mps.lang.smodel.structure._LinkAccessT" id="1219153267729">
-                      <property name="singularCradinality" value="true" />
-                      <property name="aggregation" value="false" />
-                      <link role="targetConcept" targetNodeId="1.1196851107341" resolveInfo="PropertyDeclaration" />
+                    <node role="elementType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="5458013232459742097">
+                      <link role="concept" targetNodeId="1.1196851107341" resolveInfo="PropertyDeclaration" />
                     </node>
                   </node>
                   <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1219153267730">
