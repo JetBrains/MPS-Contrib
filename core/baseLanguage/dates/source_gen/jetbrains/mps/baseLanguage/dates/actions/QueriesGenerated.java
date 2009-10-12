@@ -76,6 +76,10 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
   }
 
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_5488841840788087896(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfDatetime(_context.getSourceNode());
+  }
+
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6240071430105321172(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return DateTypeUtil.isInstanceOfPeriod(_context.getSourceNode()) || DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
   }
@@ -434,13 +438,71 @@ public class QueriesGenerated {
     return result;
   }
 
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_5488841840788086430(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          SNode result = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
+          SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
+          SNode tzexpr = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
+          SLinkOperations.setTarget(tzexpr, "datetime", _context.getSourceNode(), true);
+          SLinkOperations.setTarget(tzexpr, "timezone", SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant", null), true);
+          SLinkOperations.setTarget(result, "datetime", tzexpr, true);
+          return result;
+        }
+
+        public String getMatchingText(String pattern) {
+          return "#{";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+
+        public String getDescriptionText(String pattern) {
+          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"), "shortDescription");
+        }
+      });
+    }
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression");
+      Iterable<SNode> concepts;
+      concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
+      for (final SNode subconcept : concepts) {
+        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
+          continue;
+        }
+        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
+          continue;
+        }
+        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
+          public SNode doSubstitute(String pattern) {
+            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
+            {
+              SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
+              SNode tzexpr = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", null);
+              SLinkOperations.setTarget(tzexpr, "datetime", _context.getSourceNode(), true);
+              SLinkOperations.setTarget(tzexpr, "timezone", SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant", null), true);
+              SLinkOperations.setTarget(result, "datetime", tzexpr, true);
+              return result;
+            }
+          }
+        });
+      }
+    }
+    return result;
+  }
+
   public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_6240071430105321137(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
       SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          SNode result = SNodeOperations.replaceWithNewChild(_context.getSourceNode(), "jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression");
+          SNode result = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
+          SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
           SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
           return result;
         }
