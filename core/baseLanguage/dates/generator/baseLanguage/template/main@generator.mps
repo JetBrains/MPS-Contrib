@@ -5167,10 +5167,15 @@
                 <node role="sourceNodeQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" id="194163770812065829">
                   <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="194163770812065830">
                     <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="194163770812065831">
-                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812065833">
-                        <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="194163770812065832" />
-                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812065837">
-                          <link role="link" targetNodeId="1.5034322243093093771" />
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4858741172755502701">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="194163770812065833">
+                          <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="194163770812065832" />
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="194163770812065837">
+                            <link role="link" targetNodeId="1.5034322243093093771" />
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4858741172755502705">
+                          <link role="link" targetNodeId="29.1172681540798" />
                         </node>
                       </node>
                     </node>

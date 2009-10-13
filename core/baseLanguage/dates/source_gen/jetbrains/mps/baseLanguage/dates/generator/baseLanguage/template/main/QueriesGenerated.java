@@ -508,7 +508,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_194163770812065829(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "locale", false);
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
   }
 
   public static SNode sourceNodeQuery_1548440323223124045(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

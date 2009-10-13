@@ -13,6 +13,9 @@ import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 import org.joda.time.PeriodType;
 import java.util.Locale;
 import org.joda.time.DateTimeZone;
+import jetbrains.mps.baseLanguage.dates.runtime.InlineDateFormatter;
+import org.joda.time.format.DateTimeFormatter;
+import org.joda.time.format.DateTimeFormatterBuilder;
 
 public class Format_Test extends BaseTestCase {
   public void test_timeFormat() throws Exception {
@@ -97,5 +100,19 @@ public class Format_Test extends BaseTestCase {
 
   public void test_formatInLocale() throws Exception {
     Assert.assertEquals("4:01 PM", DateTimeOperations.print(DateTimeOperations.convert(DateTimeOperations.with(DateTimeOperations.with(System.currentTimeMillis(), DateTimeFieldType.hourOfDay(), 16), DateTimeFieldType.minuteOfHour(), 1), DateTimeZone.getDefault()), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), Locale.FRANCE));
+  }
+
+  public void test_testLocale() throws Exception {
+    DateTime dt = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
+    Assert.assertEquals("2 hours ago" + "(" + (DateTimeOperations.print(DateTimeArithmetics.minus(dt, Period.hours(2)), DateTimeFormat.fullDateTime(), Locale.GERMAN)) + ")", DateTimeOperations.print((DateTimeArithmetics.minus(dt, Period.hours(2))), (new InlineDateFormatter() {
+      public DateTimeFormatter createFormatter() {
+        DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
+        builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"));
+        builder.appendLiteral("(");
+        builder.append(DateTimeFormat.fullDateTime());
+        builder.appendLiteral(")");
+        return builder.toFormatter();
+      }
+    }).createFormatter(), Locale.GERMAN));
   }
 }
