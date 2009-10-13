@@ -17,7 +17,7 @@ public class TargetDeclaration_Behavior {
       return "";
     }
     StringBuffer buffer = new StringBuffer();
-    for (int i = 0 ; i < SLinkOperations.getCount(thisNode, "depends") ; i++ ) {
+    for (int i = 0; i < SLinkOperations.getCount(thisNode, "depends"); i++) {
       buffer.append(SPropertyOperations.getString(SLinkOperations.getTarget(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "depends", true)).getElement(i), "targetDeclaration", false), "name"));
       if (i < SLinkOperations.getCount(thisNode, "depends") - 1) {
         buffer.append(",");

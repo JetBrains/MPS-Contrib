@@ -13,7 +13,7 @@ public class Enum_Behavior {
   public static String call_toString_1213877413898(SNode thisNode) {
     StringBuffer sb = new StringBuffer();
     sb.append("{");
-    for (int i = 0 ; i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).count() ; i++ ) {
+    for (int i = 0; i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).count(); i++) {
       sb.append(PropertyValueExpression_Behavior.call_toString_1213877472569(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).getElement(i)));
       if (i < ListSequence.fromList(SLinkOperations.getTargets(thisNode, "constants", true)).count() - 1) {
         sb.append(", ");
