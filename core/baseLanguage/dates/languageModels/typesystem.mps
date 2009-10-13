@@ -1886,6 +1886,26 @@
           </node>
         </node>
       </node>
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="4858741172755310220">
+        <property name="checkOnly" value="true" />
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="4858741172755310224">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="4858741172755310225">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType" id="4858741172755310227" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="4858741172755310223">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="4858741172755310212">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4858741172755310215">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="4858741172755310214">
+                <link role="applicableNode" targetNodeId="670620798051999097" resolveInfo="operation" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="4858741172755310219">
+                <link role="baseMethodDeclaration" targetNodeId="15.1213877410070" resolveInfo="getOperand" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="670620798051999097">
       <property name="name" value="operation" />

@@ -489,8 +489,8 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
     {
       OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
         {
-          this.myLeftOperandType = new _Quotations.QuotationClass_113().createNode();
-          this.myRightOperandType = new _Quotations.QuotationClass_114().createNode();
+          this.myLeftOperandType = new _Quotations.QuotationClass_114().createNode();
+          this.myRightOperandType = new _Quotations.QuotationClass_115().createNode();
           this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
           this.myLeftTypeIsExact = true;
           this.myRightTypeIsExact = true;
@@ -499,7 +499,7 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
         }
 
         public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new _Quotations.QuotationClass_115().createNode();
+          return new _Quotations.QuotationClass_116().createNode();
         }
       };
       this.myOverloadedOperationsTypesProviders.add(provider);
