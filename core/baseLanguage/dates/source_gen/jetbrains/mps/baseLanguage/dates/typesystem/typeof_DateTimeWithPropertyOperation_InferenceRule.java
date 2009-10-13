@@ -25,6 +25,11 @@ public class typeof_DateTimeWithPropertyOperation_InferenceRule extends Abstract
       BaseIntentionProvider intentionProvider = null;
       typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "2639623922402551102", true), (SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(op, "datetime", true), "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "2639623922402551123", true), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "2639623922402551110", intentionProvider);
     }
+    {
+      SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(op, "datetime", true);
+      BaseIntentionProvider intentionProvider = null;
+      typeCheckingContext.createLessThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "3986031709810154698", true), (SNode)new _Quotations.QuotationClass_100().createNode(typeCheckingContext), _nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "3986031709810158442", true, 0, intentionProvider);
+    }
   }
 
   public String getApplicableConceptFQName() {

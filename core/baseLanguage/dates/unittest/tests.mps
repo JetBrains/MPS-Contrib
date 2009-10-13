@@ -2089,7 +2089,6 @@
         </node>
       </node>
     </node>
-    <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance" id="6283241156709679074" />
   </node>
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1172329632465">
     <property name="testCaseName" value="Property" />
