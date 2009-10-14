@@ -11,6 +11,7 @@
   <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <language namespace="fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)" />
   <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
+  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -695,6 +696,26 @@
                 </node>
                 <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3627207017677325882">
                   <link role="variableDeclaration" targetNodeId="1213107437404" resolveInfo="can" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3992658348645879272">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="3992658348645879274">
+                <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3992658348645879273">
+                  <link role="variableDeclaration" targetNodeId="1213107437404" resolveInfo="can" />
+                </node>
+                <node role="rValue" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="3992658348645879278">
+                  <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.IsSubtypeExpression" id="3992658348645879281">
+                    <node role="subtypeExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3992658348645879284">
+                      <link role="variableDeclaration" targetNodeId="1213107437410" resolveInfo="operandType" />
+                    </node>
+                    <node role="supertypeExpression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="3992658348645879285">
+                      <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType" id="3992658348645879287" />
+                    </node>
+                  </node>
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3992658348645879277">
+                    <link role="variableDeclaration" targetNodeId="1213107437404" resolveInfo="can" />
+                  </node>
                 </node>
               </node>
             </node>

@@ -2355,7 +2355,7 @@
     <link role="applicableConcept" targetNodeId="1.1172324086632" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="4389880778953523254">
       <link role="classConcept" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
-      <link role="baseMethodDeclaration" targetNodeId="36.~DateTimeOperations.round(java.lang.Long,org.joda.time.DateTimeFieldType):java.lang.Long" resolveInfo="round" />
+      <link role="baseMethodDeclaration" targetNodeId="36.~DateTimeOperations.round(org.joda.time.DateTime,org.joda.time.DateTimeFieldType):org.joda.time.DateTime" resolveInfo="round" />
       <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="4389880778953523255">
         <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" id="4389880778953523256">
           <node role="sourceNodeQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" id="4389880778953523257">

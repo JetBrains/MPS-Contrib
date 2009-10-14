@@ -19,6 +19,7 @@ public class ConvertToDateTimeOperation_Constraints {
       can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_2().createNode());
       can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_3().createNode());
       can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_4().createNode());
+      can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(operandType, new _Quotations.QuotationClass_5().createNode());
     }
     return can;
   }
