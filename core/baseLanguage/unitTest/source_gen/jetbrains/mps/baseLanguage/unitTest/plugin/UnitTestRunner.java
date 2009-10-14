@@ -19,7 +19,6 @@ import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.ModelAccess;
 import java.io.File;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
-import java.util.concurrent.CyclicBarrier;
 import jetbrains.mps.logging.Logger;
 
 public class UnitTestRunner extends BaseRunner {
@@ -108,20 +107,11 @@ public class UnitTestRunner extends BaseRunner {
     this.myComponent.appendInternal(this.getCommandString(p) + "\n\n");
     try {
       this.myProcess = p.start();
-      final UnitTestRunOutputReader outReader = new UnitTestRunOutputReader(this.myProcess.getInputStream(), this.myComponent, false);
-      final UnitTestRunOutputReader errReader = new UnitTestRunOutputReader(this.myProcess.getErrorStream(), this.myComponent, true);
       this.myComponent.addCloseListener(new _FunctionTypes._void_P0_E0() {
         public void invoke() {
-          outReader.interrupt();
-          errReader.interrupt();
           UnitTestRunner.this.myProcess.destroy();
         }
       });
-      CyclicBarrier barrier = new CyclicBarrier(2, outReader.getExecutor());
-      outReader.setBarrier(barrier);
-      errReader.setBarrier(barrier);
-      outReader.start();
-      errReader.start();
       this.myProcess.waitFor();
     } catch (Exception e) {
       Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);
