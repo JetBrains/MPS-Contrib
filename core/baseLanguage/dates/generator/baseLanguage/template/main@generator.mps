@@ -3548,7 +3548,7 @@
     <link role="applicableConcept" targetNodeId="1.1207143297026" resolveInfo="DateTimePlusPeriodOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1207144970599">
       <link role="classConcept" targetNodeId="36.~DateTimeOperations" resolveInfo="DateTimeOperations" />
-      <link role="baseMethodDeclaration" targetNodeId="36.~DateTimeOperations.plus(org.joda.time.Period,org.joda.time.Period):org.joda.time.Period" resolveInfo="plus" />
+      <link role="baseMethodDeclaration" targetNodeId="36.~DateTimeOperations.plus(java.lang.Long,org.joda.time.Period):java.lang.Long" resolveInfo="plus" />
       <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1207144970600">
         <property name="value" value="0" />
         <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro" id="1207144970601">
