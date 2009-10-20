@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
+import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.SModelUtil_new;
 
@@ -20,13 +21,15 @@ public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractIn
       {
         SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(nodeToCheck, "default", true);
         BaseIntentionProvider intentionProvider = null;
-        typeCheckingContext.createGreaterThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854693", true), (SNode)SLinkOperations.getTarget(nodeToCheck, "attributeType", true), _nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854687", false, 0, intentionProvider);
+        EquationInfo info = new EquationInfo(_nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854687", 0, intentionProvider);
+        typeCheckingContext.createGreaterThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854693", true), (SNode)SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, info);
       }
       if ((SLinkOperations.getTarget(nodeToCheck, "enum", true) != null)) {
         {
           SNode _nodeToCheck_1029348928467 = nodeToCheck;
           BaseIntentionProvider intentionProvider = null;
-          typeCheckingContext.createLessThanInequation((SNode)ListSequence.fromList(SLinkOperations.getConceptLinkTargets(SLinkOperations.getTarget(nodeToCheck, "enum", true), "type")).first(), (SNode)SLinkOperations.getTarget(nodeToCheck, "attributeType", true), _nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854699", false, 0, intentionProvider);
+          EquationInfo info = new EquationInfo(_nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854699", 0, intentionProvider);
+          typeCheckingContext.createLessThanInequation((SNode)ListSequence.fromList(SLinkOperations.getConceptLinkTargets(SLinkOperations.getTarget(nodeToCheck, "enum", true), "type")).first(), (SNode)SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, info);
         }
       }
     }
