@@ -25,14 +25,14 @@ public class TBaseBuilderContext {
   protected Map<String, TContent> myContents;
   protected Stack<TContent> myContentsStack;
   protected TBuffer myBuffer;
-  protected List<TBaseBuilderContextListener> listeners = new ArrayList<TBaseBuilderContextListener>();
+  protected List<TBaseBuilderContextListener> myListeners;
 
   public TBaseBuilderContext() {
   }
 
   /* Buffer operations */
 
-  public void initBuffer(TBuffer buffer) {
+  void initBuffer(TBuffer buffer) {
     myContents = null;
     myContentsStack = null;
     TContent rootContent = new TContent(ROOT, buffer);
@@ -150,16 +150,25 @@ public class TBaseBuilderContext {
     return getContentsStack().peek();
   }
 
+  private List<TBaseBuilderContextListener> getListeners() {
+    if (myListeners == null) {
+      myListeners =  new ArrayList<TBaseBuilderContextListener>();
+    }
+
+    return myListeners;
+  }
+
   public void addListener(TBaseBuilderContextListener l) {
-    listeners.add(l);
+    getListeners().add(l);
   }
 
   public void removeListener(TBaseBuilderContextListener l) {
-    listeners.remove(l);
+    getListeners().remove(l);
   }
 
   protected void notify(ListenerVisitor v) {
-    for (TBaseBuilderContextListener l : listeners) {
+    if (myListeners == null) { return; }
+    for (TBaseBuilderContextListener l : myListeners) {
       v.visit(l);
     }
   }
