@@ -102,14 +102,6 @@ public class TBaseBuilderContext {
     myBuffer.decreaseIndent();
   }
 
-  public void suspendRenderingUnless(boolean condition) {
-    myBuffer.suspendRenderingUnless(condition);
-  }
-
-  public void resumeRendering() {
-    myBuffer.resumeRendering();
-  }
-
   protected Map<String, TContent> getContents() {
     if (myContents == null) {
       myContents = new TreeMap<String, TContent>();
