@@ -20,6 +20,7 @@ public class typeof_ExecutionConsoleStatement_InferenceRule extends AbstractInfe
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(statement, "consoleComponent", true);
       BaseIntentionProvider intentionProvider = null;
       EquationInfo info = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "678887849223567609", 0, intentionProvider);
+      info.setInequationGroup("default");
       typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(statement, "consoleComponent", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "678887849223567601", true), (SNode)new _Quotations.QuotationClass_17().createNode(typeCheckingContext), true, info);
     }
   }

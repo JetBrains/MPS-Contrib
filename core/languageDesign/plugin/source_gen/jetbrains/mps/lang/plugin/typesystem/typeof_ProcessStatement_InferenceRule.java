@@ -20,6 +20,7 @@ public class typeof_ProcessStatement_InferenceRule extends AbstractInferenceRule
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(statement, "process", true);
       BaseIntentionProvider intentionProvider = null;
       EquationInfo info = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "9061443648117359126", 0, intentionProvider);
+      info.setInequationGroup("default");
       typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(SLinkOperations.getTarget(statement, "process", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "9061443648117359131", true), (SNode)new _Quotations.QuotationClass_25().createNode(typeCheckingContext), true, info);
     }
     {

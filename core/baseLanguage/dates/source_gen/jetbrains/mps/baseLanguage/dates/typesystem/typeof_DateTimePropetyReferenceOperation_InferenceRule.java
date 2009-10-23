@@ -26,6 +26,7 @@ public class typeof_DateTimePropetyReferenceOperation_InferenceRule extends Abst
       SNode _nodeToCheck_1029348928467 = IOperation_Behavior.call_getOperand_1213877410070(operation);
       BaseIntentionProvider intentionProvider = null;
       EquationInfo info = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "4858741172755310220", 0, intentionProvider);
+      info.setInequationGroup("default");
       typeCheckingContext.createLessThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "4858741172755310212", true), (SNode)new _Quotations.QuotationClass_111().createNode(typeCheckingContext), true, info);
     }
   }

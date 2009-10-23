@@ -21,6 +21,7 @@ public class typeof_CreateRunConfigStatement_InferenceRule extends AbstractInfer
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(statement, "configName", true);
       BaseIntentionProvider intentionProvider = null;
       EquationInfo info = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1177638545603482924", 0, intentionProvider);
+      info.setInequationGroup("default");
       typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "1177638545603482916", true), (SNode)new _Quotations.QuotationClass_18().createNode(typeCheckingContext), false, info);
     }
     for (SNode property : ListSequence.fromList(SLinkOperations.getTargets(statement, "property", true))) {
@@ -28,6 +29,7 @@ public class typeof_CreateRunConfigStatement_InferenceRule extends AbstractInfer
         SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(property, "propertyValue", true);
         BaseIntentionProvider intentionProvider = null;
         EquationInfo info = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7066926174333307556", 0, intentionProvider);
+        info.setInequationGroup("default");
         typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7066926174333307542", true), (SNode)SLinkOperations.getTarget(SLinkOperations.getTarget(property, "property", false), "type", true), false, info);
       }
     }
