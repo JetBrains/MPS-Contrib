@@ -28,11 +28,15 @@ public class TBaseBuilderContext {
   protected List<TBaseBuilderContextListener> myListeners;
 
   public TBaseBuilderContext() {
+    initBuffer(createBuffer());
+  }
+
+  protected TBuffer createBuffer() {
+    return new TBuffer();
   }
 
   /* Buffer operations */
-
-  void initBuffer(TBuffer buffer) {
+  private void initBuffer(TBuffer buffer) {
     myContents = null;
     myContentsStack = null;
     TContent rootContent = new TContent(ROOT, buffer);
@@ -40,10 +44,6 @@ public class TBaseBuilderContext {
     rootContent.setPosition(0);
     getContentsStack().push(getContents().get(ROOT));
     myBuffer = buffer;
-  }
-
-  public void initBuffer() {
-    initBuffer(new TBuffer());
   }
 
   public String getText() {
