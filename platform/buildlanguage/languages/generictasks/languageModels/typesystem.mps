@@ -78,6 +78,7 @@
             </node>
           </node>
         </node>
+        <node role="inequationGroup" type="jetbrains.mps.lang.typesystem.structure.DefaultGroupReference" id="5970100369440882575" />
       </node>
     </node>
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="353793545802854618">
@@ -284,6 +285,7 @@
                 </node>
               </node>
             </node>
+            <node role="inequationGroup" type="jetbrains.mps.lang.typesystem.structure.DefaultGroupReference" id="5970100369440882469" />
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="353793545802854697">
             <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="353793545802854698">
@@ -316,6 +318,7 @@
                     <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" id="353793545802854711" />
                   </node>
                 </node>
+                <node role="inequationGroup" type="jetbrains.mps.lang.typesystem.structure.DefaultGroupReference" id="5970100369440882784" />
               </node>
             </node>
             <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="353793545802854712">
