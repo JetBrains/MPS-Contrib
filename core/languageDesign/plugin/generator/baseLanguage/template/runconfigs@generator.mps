@@ -4641,6 +4641,7 @@
       </node>
     </node>
   </node>
+  <visible index="10" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="446387597135550805">
     <property name="name" value="reduce_NodeCreatorTarget" />
     <property name="package" value="RunConfigs.Create.Creator" />
@@ -4669,9 +4670,14 @@
                       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="446387597135550934">
                         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="446387597135550935">
                           <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="4911001837910403961">
-                            <node role="ifTrue" type="jetbrains.mps.lang.quotation.structure.Quotation" id="4911001837910403968">
-                              <node role="quotedNode" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="4911001837910403971">
-                                <link role="concept" targetNodeId="8v.1133920641626" resolveInfo="BaseConcept" />
+                            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1142847354092391654">
+                              <node role="operand" type="jetbrains.mps.lang.quotation.structure.Quotation" id="4911001837910403968">
+                                <node role="quotedNode" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="4911001837910403971">
+                                  <link role="concept" targetNodeId="8v.1133920641626" resolveInfo="BaseConcept" />
+                                </node>
+                              </node>
+                              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1142847354092391658">
+                                <link role="link" targetNodeId="10v.1154546997487" />
                               </node>
                             </node>
                             <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4911001837910403977">
