@@ -11,6 +11,7 @@
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
+  <language namespace="3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
@@ -38,6 +39,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <maxImportIndex value="36" />
   <import index="2" modelUID="f:java_stub#com.intellij.execution.configurations(com.intellij.execution.configurations@java_stub)" version="-1" />
   <import index="3" modelUID="f:java_stub#jetbrains.mps.ide.icons(jetbrains.mps.ide.icons@java_stub)" version="-1" />
@@ -4666,10 +4668,26 @@
                     <node role="referentFunction" type="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent" id="446387597135550933">
                       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="446387597135550934">
                         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="446387597135550935">
-                          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="446387597135550937">
-                            <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="446387597135550936" />
-                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="446387597135550941">
-                              <link role="link" targetNodeId="2v.3856910426407529508" />
+                          <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="4911001837910403961">
+                            <node role="ifTrue" type="jetbrains.mps.lang.quotation.structure.Quotation" id="4911001837910403968">
+                              <node role="quotedNode" type="jetbrains.mps.lang.smodel.structure.ConceptReference" id="4911001837910403971">
+                                <link role="concept" targetNodeId="8v.1133920641626" resolveInfo="BaseConcept" />
+                              </node>
+                            </node>
+                            <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4911001837910403977">
+                              <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="4911001837910403976" />
+                              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4911001837910403981">
+                                <link role="link" targetNodeId="2v.3856910426407529508" />
+                              </node>
+                            </node>
+                            <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="4911001837910375703">
+                              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="4911001837910403960" />
+                              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="446387597135550937">
+                                <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="446387597135550936" />
+                                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="446387597135550941">
+                                  <link role="link" targetNodeId="2v.3856910426407529508" />
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
