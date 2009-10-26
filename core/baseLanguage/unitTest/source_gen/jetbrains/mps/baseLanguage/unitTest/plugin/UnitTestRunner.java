@@ -21,12 +21,10 @@ public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
   private JUnitTestViewComponent myComponent;
-  private UnitTest_PreferencesComponent unitTestPreferences;
   private ConfigRunParameters configParameter;
 
-  public UnitTestRunner(UnitTest_PreferencesComponent unitTestPreferences, JUnitTestViewComponent component) {
+  public UnitTestRunner(JUnitTestViewComponent component) {
     this.myComponent = component;
-    this.unitTestPreferences = unitTestPreferences;
   }
 
   @Nullable
@@ -62,9 +60,6 @@ public class UnitTestRunner extends BaseRunner {
       vmParams = this.configParameter.getVMParameters();
     }
     this.addJavaCommand(params);
-    if (this.unitTestPreferences != null && this.unitTestPreferences.getStateObject().useDebug) {
-      this.addDebug(params, this.unitTestPreferences.getStateObject().debugPort, false);
-    }
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
     if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
       String[] paramList = this.splitParams(vmParams);
