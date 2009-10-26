@@ -15,6 +15,7 @@
   <language namespace="daafa647-f1f7-4b0b-b096-69cd7c8408c0(jetbrains.mps.baseLanguage.regexp)" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
+  <language namespace="760a0a8c-eabb-4521-8bfd-65db761a9ba3(jetbrains.mps.baseLanguage.logging)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a4(jetbrains.mps.lang.actions.constraints)" version="16" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902a8(jetbrains.mps.lang.actions.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -55,6 +56,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590515(jetbrains.mps.baseLanguage.regexp.constraints)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590518(jetbrains.mps.baseLanguage.regexp.structure)" version="0" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959057f(jetbrains.mps.baseLanguage.logging.structure)" version="0" />
   <maxImportIndex value="37" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
@@ -543,17 +545,75 @@
       <property name="name" value="isInstanceOf" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1175768618167" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1175768616291">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1209041951560">
-          <node role="expression" type="jetbrains.mps.lang.typesystem.structure.IsStrongSubtypeExpression" id="1180023149876">
-            <node role="subtypeExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1204227922575">
-              <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1180023155697">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="4740561867495542387">
+          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4740561867495542388">
+            <node role="statement" type="jetbrains.mps.baseLanguage.logging.structure.LogStatement" id="4740561867495542408">
+              <property name="severity" value="error" />
+              <node role="logExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="4740561867495542409">
+                <property name="value" value="Null parameter to isInstanceOf()" />
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="4740561867495542404">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="4740561867495542406">
+                <property name="value" value="false" />
+              </node>
+            </node>
+          </node>
+          <node role="condition" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="4740561867495542396">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="4740561867495542400">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="4740561867495542403" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="4740561867495542399">
+                <link role="variableDeclaration" targetNodeId="1175768648887" resolveInfo="type" />
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="4740561867495542392">
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="4740561867495542391">
                 <link role="variableDeclaration" targetNodeId="1175768643167" resolveInfo="node" />
               </node>
-              <node role="operation" type="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" id="1180023159181" />
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="4740561867495542395" />
             </node>
-            <node role="supertypeExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="1180023165562">
-              <link role="variableDeclaration" targetNodeId="1175768648887" resolveInfo="type" />
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement" id="4740561867495542359">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4740561867495542360">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="4740561867495542366">
+              <node role="expression" type="jetbrains.mps.lang.typesystem.structure.IsStrongSubtypeExpression" id="4740561867495542374">
+                <node role="subtypeExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4740561867495542375">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="4740561867495542376">
+                    <link role="variableDeclaration" targetNodeId="1175768643167" resolveInfo="node" />
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" id="4740561867495542377" />
+                </node>
+                <node role="supertypeExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="4740561867495542378">
+                  <link role="variableDeclaration" targetNodeId="1175768648887" resolveInfo="type" />
+                </node>
+              </node>
             </node>
+          </node>
+          <node role="catchClause" type="jetbrains.mps.baseLanguage.structure.CatchClause" id="4740561867495542362">
+            <node role="throwable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4740561867495542363">
+              <property name="name" value="thr" />
+              <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4740561867495542379">
+                <link role="classifier" targetNodeId="32.~Throwable" resolveInfo="Throwable" />
+              </node>
+            </node>
+            <node role="catchBody" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4740561867495542365">
+              <node role="statement" type="jetbrains.mps.baseLanguage.logging.structure.LogStatement" id="4740561867495542380">
+                <property name="severity" value="error" />
+                <property name="hasException" value="true" />
+                <node role="logExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="4740561867495542381">
+                  <property name="value" value="Error executing isStrongSubtype(): " />
+                </node>
+                <node role="exception" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4740561867495542382">
+                  <link role="variableDeclaration" targetNodeId="4740561867495542363" resolveInfo="thr" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4740561867495542384">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="4740561867495542385">
+            <property name="value" value="false" />
           </node>
         </node>
       </node>
