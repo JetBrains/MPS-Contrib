@@ -11,6 +11,7 @@ import jetbrains.mps.buildlanguage.behavior.Enum_Behavior;
 import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.typesystem.inference.IErrorTarget;
 import jetbrains.mps.typesystem.inference.NodeErrorTarget;
+import jetbrains.mps.nodeEditor.IErrorReporter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
@@ -24,7 +25,7 @@ public class checkAttributeValueIsInEnum_NonTypesystemRule extends AbstractNonTy
         {
           BaseIntentionProvider intentionProvider = null;
           IErrorTarget errorTarget = new NodeErrorTarget();
-          typeCheckingContext.reportTypeError(genericAttribute, "Attribute \"" + SPropertyOperations.getString(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "name") + "\" must have value in " + Enum_Behavior.call_toString_1213877413898(SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "enum", true)), "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854764", intentionProvider, errorTarget);
+          IErrorReporter _reporter_2309309498 = typeCheckingContext.reportTypeError(genericAttribute, "Attribute \"" + SPropertyOperations.getString(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "name") + "\" must have value in " + Enum_Behavior.call_toString_1213877413898(SLinkOperations.getTarget(SLinkOperations.getTarget(genericAttribute, "attributeDeclaration", false), "enum", true)), "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854764", intentionProvider, errorTarget);
         }
       }
     }
