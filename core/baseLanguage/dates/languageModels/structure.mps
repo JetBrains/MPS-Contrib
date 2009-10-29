@@ -703,6 +703,11 @@
       <property name="role" value="durationTypeReference" />
       <link role="target" targetNodeId="1174320869813" resolveInfo="DurationTypeReference" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="779372288057192089">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="referenceTime" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1174320614661">
       <property name="value" value="{time} ago" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
@@ -1488,6 +1493,54 @@
       <property name="role" value="datetime" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="779372288056193783">
+    <property name="package" value="constant" />
+    <property name="name" value="TimeConstant" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="779372288056193790">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="timezone" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="779372288056193789">
+      <property name="metaClass" value="reference" />
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="month" />
+      <link role="target" targetNodeId="2.1194005944850" resolveInfo="Month" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="779372288056193784">
+      <property name="name" value="second" />
+      <link role="dataType" targetNodeId="1194004752522" resolveInfo="ZeroSixtyInteger" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="779372288056193785">
+      <property name="name" value="minute" />
+      <link role="dataType" targetNodeId="1194004752522" resolveInfo="ZeroSixtyInteger" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="779372288056193786">
+      <property name="name" value="hour" />
+      <link role="dataType" targetNodeId="1194004947075" resolveInfo="ZeroTwentyFourInteger" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="779372288056193787">
+      <property name="name" value="day" />
+      <link role="dataType" targetNodeId="1194005562740" resolveInfo="OneThirtyOneInteger" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="779372288056193788">
+      <property name="name" value="year" />
+      <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="779372288056596479">
+      <property name="value" value="time constant" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="779372288056596481">
+      <property name="value" value="DD-MM-YEAR HH24:MM:SS" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="779372288056821938">
+      <link role="intfc" targetNodeId="3.1201183863028" resolveInfo="TypeDerivable" />
     </node>
   </node>
 </model>

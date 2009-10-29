@@ -538,6 +538,10 @@
       <property name="name" value="days" />
       <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="779372288056199109">
+      <property name="name" value="number" />
+      <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
+    </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="3394771273340077939">
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>

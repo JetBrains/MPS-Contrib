@@ -179,6 +179,30 @@ public class QueriesGenerated {
     return DateTimeZone_Behavior.call_getID_1239362726615(SLinkOperations.getTarget(_context.getNode(), "zone", false));
   }
 
+  public static Object propertyMacro_GetPropertyValue_779372288056197861(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(_context.getNode(), "year");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_779372288056199096(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getInteger(SLinkOperations.getTarget(_context.getNode(), "month", false), "number");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_779372288056434609(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Integer.parseInt(SPropertyOperations.getString(_context.getNode(), "day"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_779372288056438821(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Integer.parseInt(SPropertyOperations.getString(_context.getNode(), "hour"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_779372288056451713(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Integer.parseInt(SPropertyOperations.getString(_context.getNode(), "minute"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_779372288056451725(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return Integer.parseInt(SPropertyOperations.getString(_context.getNode(), "second"));
+  }
+
   public static Object propertyMacro_GetPropertyValue_2010713081064663770(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
   }
@@ -511,6 +535,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
   }
 
+  public static SNode sourceNodeQuery_779372288056451735(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "timezone", true);
+  }
+
   public static SNode sourceNodeQuery_1548440323223124045(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "datetime", true);
   }
@@ -625,6 +653,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_5969170299421642583(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "rightExpression", true);
+  }
+
+  public static SNode sourceNodeQuery_6173552745501645604(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "referenceTime", true);
   }
 
   public static SNode sourceNodeQuery_7678715681280134991(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

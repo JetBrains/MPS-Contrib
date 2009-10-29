@@ -485,61 +485,73 @@
       <property name="name" value="January" />
       <property name="days" value="31" />
       <property name="shortName" value="JAN" />
+      <property name="number" value="1" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006152676">
       <property name="name" value="February" />
       <property name="days" value="29" />
       <property name="shortName" value="FEB" />
+      <property name="number" value="2" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006159484">
       <property name="name" value="March" />
       <property name="days" value="31" />
       <property name="shortName" value="MAR" />
+      <property name="number" value="3" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006186107">
       <property name="name" value="April" />
       <property name="days" value="30" />
       <property name="shortName" value="APR" />
+      <property name="number" value="4" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006191796">
       <property name="name" value="May" />
       <property name="days" value="31" />
       <property name="shortName" value="MAY" />
+      <property name="number" value="5" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006197551">
       <property name="name" value="June" />
       <property name="days" value="30" />
       <property name="shortName" value="JUN" />
+      <property name="number" value="6" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006201142">
       <property name="name" value="July" />
       <property name="days" value="31" />
       <property name="shortName" value="JUL" />
+      <property name="number" value="7" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006205361">
       <property name="name" value="August" />
       <property name="days" value="31" />
       <property name="shortName" value="AUG" />
+      <property name="number" value="8" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006210984">
       <property name="name" value="September" />
       <property name="days" value="30" />
       <property name="shortName" value="SEP" />
+      <property name="number" value="9" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006227657">
       <property name="name" value="October" />
       <property name="days" value="31" />
       <property name="shortName" value="OCT" />
+      <property name="number" value="10" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006244243">
       <property name="name" value="November" />
       <property name="days" value="30" />
       <property name="shortName" value="NOV" />
+      <property name="number" value="11" />
     </node>
     <node role="month" type="jetbrains.mps.baseLanguage.datesInternal.structure.Month" id="1194006274157">
       <property name="name" value="December" />
       <property name="days" value="31" />
       <property name="shortName" value="DEC" />
+      <property name="number" value="12" />
     </node>
     <node role="durationType" type="jetbrains.mps.baseLanguage.datesInternal.structure.DurationType" id="1174321453450">
       <node role="jodaDurationFieldType" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1174321453451">

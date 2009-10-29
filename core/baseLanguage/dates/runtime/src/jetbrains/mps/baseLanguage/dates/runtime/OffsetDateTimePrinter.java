@@ -30,10 +30,16 @@ import java.io.IOException;
 public class OffsetDateTimePrinter implements DateTimePrinter {
   private PeriodType myPeriodType;
   private PeriodFormatter myPeriodFormatter;
+  private ReadableInstant myReference;
 
-  public OffsetDateTimePrinter(DurationFieldType... types) {
+  public OffsetDateTimePrinter(DateTime reference, DurationFieldType... types) {
     myPeriodType = PeriodType.forFields(types);
     myPeriodFormatter = PeriodFormat.getDefault();
+    myReference = reference;
+  }
+
+  public OffsetDateTimePrinter(DurationFieldType... types) {
+    this(null, types);
   }
 
   public int estimatePrintedLength() {
@@ -79,17 +85,20 @@ public class OffsetDateTimePrinter implements DateTimePrinter {
   }
 
   private Period toPeriod(DateTime dateTime) {
-    Period period = dateTime.isBeforeNow() ?
-            new Period(dateTime, (ReadableInstant) null, myPeriodType) :
-            new Period((ReadableInstant) null, dateTime, myPeriodType);
+    boolean isBefore = myReference == null ? dateTime.isBeforeNow() : dateTime.compareTo(myReference) < 0;
+    Period period = isBefore ?
+            new Period(dateTime, myReference, myPeriodType) :
+            new Period(myReference, dateTime, myPeriodType);
     return period;
   }
 
-  private static String prefix(DateTime dateTime) {
-    return dateTime.isAfterNow() ? "in " : "";
+  private String prefix(DateTime dateTime) {
+    boolean isBefore = myReference == null ? dateTime.isBeforeNow() : dateTime.compareTo(myReference) < 0;
+    return isBefore ? "" : "in ";
   }
 
-  private static String suffix(DateTime dateTime) {
-    return dateTime.isAfterNow() ? "" : " ago";
+  private String suffix(DateTime dateTime) {
+    boolean isBefore = myReference == null ? dateTime.isBeforeNow() : dateTime.compareTo(myReference) < 0;
+    return isBefore ? " ago" : "";
   }
 }

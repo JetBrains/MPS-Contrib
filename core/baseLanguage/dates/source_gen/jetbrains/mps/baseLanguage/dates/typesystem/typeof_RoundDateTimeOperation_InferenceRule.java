@@ -27,7 +27,7 @@ public class typeof_RoundDateTimeOperation_InferenceRule extends AbstractInferen
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5488841840788546541", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5488841840788545324", true), (SNode)new _Quotations.QuotationClass_121().createNode(typeCheckingContext), true, _info_12389875345);
+      typeCheckingContext.createLessThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5488841840788545324", true), (SNode)new _Quotations.QuotationClass_122().createNode(typeCheckingContext), true, _info_12389875345);
     }
   }
 

@@ -19,7 +19,7 @@ public class ParseDateTimeExpression_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "zone"), "role").equals(role)) {
-        return new _Quotations.QuotationClass_15().createNode();
+        return new _Quotations.QuotationClass_17().createNode();
       }
     }
     return null;
@@ -27,7 +27,7 @@ public class ParseDateTimeExpression_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "zone") == link) {
-      return new _Quotations.QuotationClass_16().createNode();
+      return new _Quotations.QuotationClass_18().createNode();
     }
     return null;
   }

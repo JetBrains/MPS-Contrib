@@ -103,11 +103,11 @@ public class Format_Test extends BaseTestCase {
   }
 
   public void test_testLocale() throws Exception {
-    DateTime dt = DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault());
-    Assert.assertEquals("2 hours ago" + "(" + (DateTimeOperations.print(DateTimeArithmetics.minus(dt, Period.hours(2)), DateTimeFormat.fullDateTime(), Locale.GERMAN)) + ")", DateTimeOperations.print((DateTimeArithmetics.minus(dt, Period.hours(2))), (new InlineDateFormatter() {
+    DateTime dt = new DateTime(2000, 4, 12, 20, 19, 13, 0, DateTimeZone.forID("GMT+0"));
+    Assert.assertEquals("in 1 hour and 19 minutes" + "(" + (DateTimeOperations.print(dt, DateTimeFormat.fullDateTime(), Locale.GERMAN)) + ")", DateTimeOperations.print(dt, (new InlineDateFormatter() {
       public DateTimeFormatter createFormatter() {
         DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-        builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("offset"));
+        builder.append(_FormatTables.MAIN_FORMAT2.getFormatter("hoursBeforeFixed"));
         builder.appendLiteral("(");
         builder.append(DateTimeFormat.fullDateTime());
         builder.appendLiteral(")");

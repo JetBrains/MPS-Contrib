@@ -14,9 +14,9 @@ public class FormatExpression_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "dateExpression"), "role").equals(role)) {
-        return new _Quotations.QuotationClass_9().createNode();
+        return new _Quotations.QuotationClass_11().createNode();
       } else if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "dateExpression"), "role").equals(role)) {
-        return new _Quotations.QuotationClass_10().createNode();
+        return new _Quotations.QuotationClass_12().createNode();
       }
     }
     return null;
@@ -24,9 +24,9 @@ public class FormatExpression_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "dateExpression") == link) {
-      return new _Quotations.QuotationClass_11().createNode();
+      return new _Quotations.QuotationClass_13().createNode();
     } else if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatExpression", "zone") == link) {
-      return new _Quotations.QuotationClass_12().createNode();
+      return new _Quotations.QuotationClass_14().createNode();
     }
     return null;
   }

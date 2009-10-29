@@ -781,6 +781,15 @@
         <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
         <link role="styleClass" targetNodeId="2v.1198160792349" resolveInfo="StaticField" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="779372288056275149">
+        <property name="text" value="," />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="779372288056352603">
+          <property name="flag" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="779372288056275151">
+        <link role="relationDeclaration" targetNodeId="1.779372288056199109" resolveInfo="number" />
+      </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1194005989095">
         <property name="text" value="(" />
         <link role="styleClass" targetNodeId="2v.1238143818889" resolveInfo="Matching" />
@@ -795,10 +804,16 @@
         <link role="relationDeclaration" targetNodeId="1.1194013362176" resolveInfo="shortName" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1194013388699">
-        <property name="text" value=":" />
+        <property name="text" value="," />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="779372288056352604">
+          <property name="flag" value="true" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1194005992420">
         <link role="relationDeclaration" targetNodeId="1.1194005962762" resolveInfo="days" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="779372288056275154">
+        <property name="text" value="days" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1194013391875">
         <property name="text" value=")" />

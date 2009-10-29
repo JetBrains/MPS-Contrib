@@ -2133,5 +2133,29 @@
       <link role="concept" targetNodeId="2.1194003500823" resolveInfo="ScheduleLiteral" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="779372288056193824">
+    <property name="name" value="typeof_TimeConstant" />
+    <property name="package" value="constant" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="779372288056193825">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="779372288056195846">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="779372288056195850">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="779372288056195851">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType" id="779372288056195854" />
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="779372288056195849">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="779372288056195843">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="779372288056195845">
+              <link role="applicableNode" targetNodeId="779372288056193826" resolveInfo="constant" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="779372288056193826">
+      <property name="name" value="constant" />
+      <link role="concept" targetNodeId="2.779372288056193783" resolveInfo="TimeConstant" />
+    </node>
+  </node>
 </model>
 

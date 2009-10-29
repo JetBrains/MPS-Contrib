@@ -9,6 +9,8 @@ import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import org.joda.time.Period;
 import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
+import org.joda.time.DateTime;
+import org.joda.time.DateTimeZone;
 
 public class Period_Test extends TestCase {
   public void test_plus() throws Exception {
@@ -24,7 +26,9 @@ public class Period_Test extends TestCase {
   }
 
   public void test_equals() throws Exception {
-    Assert.assertTrue(DateTimeOperations.compare(Period.hours(24), CompareType.EQ, Period.days(1)));
+    Assert.assertEquals(DateTimeArithmetics.plus((new DateTime(2009, 10, 24, 13, 0, 0, 0, DateTimeZone.forID("Europe/Prague"))), Period.hours(25)), DateTimeArithmetics.plus((new DateTime(2009, 10, 24, 13, 0, 0, 0, DateTimeZone.forID("Europe/Prague"))), Period.days(1)));
+    Assert.assertEquals(DateTimeArithmetics.plus((new DateTime(2009, 3, 28, 13, 0, 0, 0, DateTimeZone.forID("Europe/Prague"))), Period.hours(23)), DateTimeArithmetics.plus((new DateTime(2009, 3, 28, 13, 0, 0, 0, DateTimeZone.forID("Europe/Prague"))), Period.days(1)));
+    Assert.assertTrue(DateTimeOperations.compare(Period.hours(24), CompareType.EQ, Period.days(1)) || (DateTimeOperations.compare(Period.hours(25), CompareType.EQ, Period.days(1)) && DateTimeOperations.get(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.getDefault()), DateTimeFieldType.monthOfYear()) == 10) || DateTimeOperations.compare(Period.hours(23), CompareType.EQ, Period.days(1)));
   }
 
   public void test_lessOrEquals() throws Exception {
