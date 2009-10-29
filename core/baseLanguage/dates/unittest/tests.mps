@@ -4494,6 +4494,18 @@
               </node>
             </node>
           </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="8433752473579308867">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="8433752473579308868">
+              <property name="name" value="dtt" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType" id="8433752473579308869" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression" id="8433752473579883771">
+                <node role="datetime" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="8433752473579771417" />
+                <node role="timezone" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8433752473580294821">
+                  <link role="variableDeclaration" targetNodeId="4555537781928181635" resolveInfo="mskid" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="7517433918793204399">
             <node role="expected" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="7517433918793205146">
               <link role="baseMethodDeclaration" targetNodeId="4.~DateTimeZone.forID(java.lang.String):org.joda.time.DateTimeZone" resolveInfo="forID" />

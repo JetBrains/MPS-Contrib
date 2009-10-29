@@ -63,6 +63,7 @@ public class Parse_Test extends BaseTestCase {
 
   public void test_timezone() throws Exception {
     DateTimeZone mskid = DateTimeZone.forID("Europe/Moscow");
+    DateTime dtt = DateTimeOperations.convert(System.currentTimeMillis(), mskid);
     Assert.assertEquals(DateTimeZone.forID("Europe/Moscow"), mskid);
     Assert.assertEquals(DateTimeZone.forID("Europe/Moscow"), mskid);
     DateTimeZone mskoffset = DateTimeZone.forOffsetMillis(10800000);

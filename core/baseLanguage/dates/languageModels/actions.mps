@@ -895,16 +895,64 @@
     </node>
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1178550126504" />
   </node>
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
   <node type="jetbrains.mps.lang.actions.structure.NodeSubstituteActions" id="4555537781927653005">
     <property name="name" value="subs_TimeZoneIDExpression" />
     <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.NodeSubstituteActionsBuilder" id="4555537781927653006">
       <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
-      <node role="part" type="jetbrains.mps.lang.actions.structure.RemoveDefaultsPart" id="4555537781927653138" />
-      <node role="part" type="jetbrains.mps.lang.actions.structure.ConceptSubstitutePart" id="4555537781928088783">
-        <link role="concept" targetNodeId="1.1238514419896" resolveInfo="DefaultTimeZoneConstant" />
-      </node>
-      <node role="part" type="jetbrains.mps.lang.actions.structure.ConceptSubstitutePart" id="4555537781928090142">
-        <link role="concept" targetNodeId="1.1238514476665" resolveInfo="UTCTimeZoneConstant" />
+      <node role="part" type="jetbrains.mps.lang.actions.structure.RemoveByConditionPart" id="8433752473579885120">
+        <node role="condition" type="jetbrains.mps.lang.actions.structure.QueryFunction_RemoveBy_Condition" id="8433752473579885121">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473579885122">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8433752473579886661">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068750">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068753">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068756">
+                    <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068755" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068760">
+                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068762">
+                        <link role="conceptDeclaration" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068737">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068724">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473579886670">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473579886663">
+                        <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473579886662" />
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473579886667">
+                          <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068710">
+                            <link role="conceptDeclaration" targetNodeId="1.1238513709008" resolveInfo="TimeZoneConstant" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068727">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068730">
+                        <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068729" />
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068734">
+                          <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068736">
+                            <link role="conceptDeclaration" targetNodeId="2.1068498886296" resolveInfo="VariableReference" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068740">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068743">
+                      <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068742" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068747">
+                        <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068749">
+                          <link role="conceptDeclaration" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="part" type="jetbrains.mps.lang.actions.structure.AddMenuPart" id="4555537781927653140">
         <link role="concept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
@@ -1016,6 +1064,257 @@
           </node>
         </node>
       </node>
+      <node role="part" type="jetbrains.mps.lang.actions.structure.AddMenuPart" id="8433752473580067065">
+        <link role="concept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
+        <node role="part" type="jetbrains.mps.lang.actions.structure.SimpleItemSubstitutePart" id="8433752473580067066">
+          <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_Substitute_Handler" id="8433752473580067067">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067068">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="8433752473580067069">
+                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="8433752473580067070">
+                  <property name="name" value="tz" />
+                  <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="8433752473580067071">
+                    <link role="concept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
+                  </node>
+                  <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="8433752473580067072">
+                    <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeCreator" id="8433752473580067073">
+                      <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="8433752473580067074">
+                        <link role="concept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8433752473580067075">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067076">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067077">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8433752473580067078">
+                      <link role="variableDeclaration" targetNodeId="8433752473580067070" resolveInfo="tz" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="8433752473580067079">
+                      <link role="property" targetNodeId="1.5473692278135819455" resolveInfo="offsetmillis" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Property_SetOperation" id="8433752473580067080">
+                    <node role="value" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="8433752473580067081">
+                      <property name="value" value="0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement" id="8433752473580067082">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067083">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="8433752473580067084">
+                    <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="8433752473580067085">
+                      <property name="name" value="dt" />
+                      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="8433752473580067086">
+                        <link role="classifier" targetNodeId="33.~DateTime" resolveInfo="DateTime" />
+                      </node>
+                      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067087">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067088">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="8433752473580067089">
+                            <link role="baseMethodDeclaration" targetNodeId="35.~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolveInfo="forPattern" />
+                            <link role="classConcept" targetNodeId="35.~DateTimeFormat" resolveInfo="DateTimeFormat" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="8433752473580067090">
+                              <property name="value" value="Z" />
+                            </node>
+                          </node>
+                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8433752473580067091">
+                            <link role="baseMethodDeclaration" targetNodeId="35.~DateTimeFormatter.withOffsetParsed():org.joda.time.format.DateTimeFormatter" resolveInfo="withOffsetParsed" />
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8433752473580067092">
+                          <link role="baseMethodDeclaration" targetNodeId="35.~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolveInfo="parseDateTime" />
+                          <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="8433752473580067093" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="8433752473580067094">
+                    <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067095">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8433752473580067096">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067097">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067098">
+                            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8433752473580067099">
+                              <link role="variableDeclaration" targetNodeId="8433752473580067070" resolveInfo="tz" />
+                            </node>
+                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="8433752473580067100">
+                              <link role="property" targetNodeId="1.5473692278135819455" resolveInfo="offsetmillis" />
+                            </node>
+                          </node>
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.Property_SetOperation" id="8433752473580067101">
+                            <node role="value" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067102">
+                              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067103">
+                                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8433752473580067104">
+                                  <link role="variableDeclaration" targetNodeId="8433752473580067085" resolveInfo="dt" />
+                                </node>
+                                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8433752473580067105">
+                                  <link role="baseMethodDeclaration" targetNodeId="9.~AbstractInstant.getZone():org.joda.time.DateTimeZone" resolveInfo="getZone" />
+                                </node>
+                              </node>
+                              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8433752473580067106">
+                                <link role="baseMethodDeclaration" targetNodeId="33.~DateTimeZone.getStandardOffset(long):int" resolveInfo="getStandardOffset" />
+                                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LongLiteral" id="8433752473580067107">
+                                  <property name="value" value="0L" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="8433752473580067108">
+                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067109">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067110">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8433752473580067111">
+                            <link role="variableDeclaration" targetNodeId="8433752473580067085" resolveInfo="dt" />
+                          </node>
+                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8433752473580067112">
+                            <link role="baseMethodDeclaration" targetNodeId="33.~DateTime.withZoneRetainFields(org.joda.time.DateTimeZone):org.joda.time.DateTime" resolveInfo="withZoneRetainFields" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="8433752473580067113">
+                              <link role="classifier" targetNodeId="33.~DateTimeZone" resolveInfo="DateTimeZone" />
+                              <link role="variableDeclaration" targetNodeId="33.~DateTimeZone.UTC" resolveInfo="UTC" />
+                            </node>
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8433752473580067114">
+                          <link role="baseMethodDeclaration" targetNodeId="9.~BaseDateTime.getMillis():long" resolveInfo="getMillis" />
+                        </node>
+                      </node>
+                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LongLiteral" id="8433752473580067115">
+                        <property name="value" value="0L" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="catchClause" type="jetbrains.mps.baseLanguage.structure.CatchClause" id="8433752473580067116">
+                  <node role="throwable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="8433752473580067117">
+                    <property name="name" value="ignored" />
+                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="8433752473580067118">
+                      <link role="classifier" targetNodeId="32.~RuntimeException" resolveInfo="RuntimeException" />
+                    </node>
+                  </node>
+                  <node role="catchBody" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067119" />
+                </node>
+              </node>
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8433752473580067120">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8433752473580067121">
+                  <link role="variableDeclaration" targetNodeId="8433752473580067070" resolveInfo="tz" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="canSubstitute" type="jetbrains.mps.lang.actions.structure.QueryFunction_CanSubstitute" id="8433752473580067122">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067123">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="8433752473580067124">
+                <node role="condition" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_strictly" id="8433752473580067125" />
+                <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067126">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="8433752473580067127">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067128">
+                      <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="8433752473580067129" />
+                      <node role="operation" type="jetbrains.mps.baseLanguage.regexp.structure.MatchRegexpOperation" id="8433752473580067130">
+                        <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.InlineRegexpExpression" id="8433752473580067131">
+                          <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067132">
+                            <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PositiveSymbolClassRegexp" id="8433752473580067133">
+                              <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="8433752473580067134">
+                                <property name="character" value="+" />
+                              </node>
+                              <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="8433752473580067135">
+                                <property name="character" value="-" />
+                              </node>
+                            </node>
+                            <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067136">
+                              <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067137">
+                                <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                              </node>
+                              <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067138">
+                                <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067139">
+                                  <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                                </node>
+                                <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067140">
+                                  <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PositiveSymbolClassRegexp" id="8433752473580067141">
+                                    <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="8433752473580067142">
+                                      <property name="character" value=":" />
+                                    </node>
+                                  </node>
+                                  <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067143">
+                                    <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067144">
+                                      <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                                    </node>
+                                    <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067145">
+                                      <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="ifFalseStatement" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="8433752473580067146">
+                  <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067147">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="8433752473580067148">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580067149">
+                        <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="8433752473580067150" />
+                        <node role="operation" type="jetbrains.mps.baseLanguage.regexp.structure.MatchRegexpOperation" id="8433752473580067151">
+                          <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.InlineRegexpExpression" id="8433752473580067152">
+                            <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067153">
+                              <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PositiveSymbolClassRegexp" id="8433752473580067154">
+                                <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="8433752473580067155">
+                                  <property name="character" value="+" />
+                                </node>
+                                <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="8433752473580067156">
+                                  <property name="character" value="-" />
+                                </node>
+                              </node>
+                              <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067157">
+                                <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067158">
+                                  <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                                </node>
+                                <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067159">
+                                  <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.QuestionRegexp" id="8433752473580067160">
+                                    <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067161">
+                                      <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                                    </node>
+                                  </node>
+                                  <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8433752473580067162">
+                                    <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.QuestionRegexp" id="8433752473580067163">
+                                      <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067164">
+                                        <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                                      </node>
+                                    </node>
+                                    <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.QuestionRegexp" id="8433752473580067165">
+                                      <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8433752473580067166">
+                                        <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="matchingText" type="jetbrains.mps.lang.actions.structure.QueryFunction_ParameterizedSubstitute_String" id="8433752473580067167">
+            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473580067168">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8433752473580067169">
+                <node role="expression" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="8433752473580067170" />
+              </node>
+            </node>
+          </node>
+          <node role="descriptionText" type="jetbrains.mps.lang.actions.structure.Substitute_SimpleString" id="8433752473580067171">
+            <property name="text" value="offset time zone" />
+          </node>
+        </node>
+      </node>
       <node role="precondition" type="jetbrains.mps.lang.actions.structure.NodeSubstitutePreconditionFunction" id="4555537781927653007">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4555537781927653008">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="4555537781927653085">
@@ -1059,313 +1358,6 @@
                   <link role="variableDeclaration" targetNodeId="4555537781927653086" resolveInfo="td" />
                 </node>
                 <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="4555537781927653101" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590519(jetbrains.mps.baseLanguage.regexp.jetbrains.mps.regexp.accessory)" />
-  <node type="jetbrains.mps.lang.actions.structure.NodeSubstituteActions" id="5473692278135635933">
-    <property name="name" value="subs_TimeZoneOffsetExpression" />
-    <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.NodeSubstituteActionsBuilder" id="5473692278135635934">
-      <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
-      <node role="part" type="jetbrains.mps.lang.actions.structure.RemoveDefaultsPart" id="5473692278135639435" />
-      <node role="part" type="jetbrains.mps.lang.actions.structure.AddMenuPart" id="1140983047398774557">
-        <link role="concept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
-        <node role="part" type="jetbrains.mps.lang.actions.structure.SimpleItemSubstitutePart" id="1140983047398774561">
-          <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_Substitute_Handler" id="1140983047398774562">
-            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774563">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1140983047398774781">
-                <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1140983047398774782">
-                  <property name="name" value="tz" />
-                  <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1140983047398774783">
-                    <link role="concept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
-                  </node>
-                  <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1140983047398774784">
-                    <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeCreator" id="1140983047398774785">
-                      <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="1140983047398774786">
-                        <link role="concept" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1140983047398774787">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774788">
-                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774789">
-                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1140983047398774790">
-                      <link role="variableDeclaration" targetNodeId="1140983047398774782" resolveInfo="tz" />
-                    </node>
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1140983047398774791">
-                      <link role="property" targetNodeId="1.5473692278135819455" resolveInfo="offsetmillis" />
-                    </node>
-                  </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Property_SetOperation" id="1140983047398774792">
-                    <node role="value" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1140983047398774793">
-                      <property name="value" value="0" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement" id="1140983047398774742">
-                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774743">
-                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1140983047398774744">
-                    <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1140983047398774745">
-                      <property name="name" value="dt" />
-                      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1140983047398774746">
-                        <link role="classifier" targetNodeId="33.~DateTime" resolveInfo="DateTime" />
-                      </node>
-                      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774747">
-                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774748">
-                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1140983047398774749">
-                            <link role="baseMethodDeclaration" targetNodeId="35.~DateTimeFormat.forPattern(java.lang.String):org.joda.time.format.DateTimeFormatter" resolveInfo="forPattern" />
-                            <link role="classConcept" targetNodeId="35.~DateTimeFormat" resolveInfo="DateTimeFormat" />
-                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1140983047398774750">
-                              <property name="value" value="Z" />
-                            </node>
-                          </node>
-                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1140983047398774751">
-                            <link role="baseMethodDeclaration" targetNodeId="35.~DateTimeFormatter.withOffsetParsed():org.joda.time.format.DateTimeFormatter" resolveInfo="withOffsetParsed" />
-                          </node>
-                        </node>
-                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1140983047398774752">
-                          <link role="baseMethodDeclaration" targetNodeId="35.~DateTimeFormatter.parseDateTime(java.lang.String):org.joda.time.DateTime" resolveInfo="parseDateTime" />
-                          <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="1140983047398774797" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1140983047398774754">
-                    <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774755">
-                      <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1140983047398774756">
-                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774757">
-                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774758">
-                            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1140983047398774796">
-                              <link role="variableDeclaration" targetNodeId="1140983047398774782" resolveInfo="tz" />
-                            </node>
-                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1140983047398774760">
-                              <link role="property" targetNodeId="1.5473692278135819455" resolveInfo="offsetmillis" />
-                            </node>
-                          </node>
-                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.Property_SetOperation" id="1140983047398774761">
-                            <node role="value" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774762">
-                              <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774763">
-                                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1140983047398774764">
-                                  <link role="variableDeclaration" targetNodeId="1140983047398774745" resolveInfo="dt" />
-                                </node>
-                                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1140983047398774765">
-                                  <link role="baseMethodDeclaration" targetNodeId="9.~AbstractInstant.getZone():org.joda.time.DateTimeZone" resolveInfo="getZone" />
-                                </node>
-                              </node>
-                              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1140983047398774766">
-                                <link role="baseMethodDeclaration" targetNodeId="33.~DateTimeZone.getStandardOffset(long):int" resolveInfo="getStandardOffset" />
-                                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LongLiteral" id="1140983047398774767">
-                                  <property name="value" value="0L" />
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="1140983047398774768">
-                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774769">
-                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774770">
-                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1140983047398774771">
-                            <link role="variableDeclaration" targetNodeId="1140983047398774745" resolveInfo="dt" />
-                          </node>
-                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1140983047398774772">
-                            <link role="baseMethodDeclaration" targetNodeId="33.~DateTime.withZoneRetainFields(org.joda.time.DateTimeZone):org.joda.time.DateTime" resolveInfo="withZoneRetainFields" />
-                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1140983047398774773">
-                              <link role="classifier" targetNodeId="33.~DateTimeZone" resolveInfo="DateTimeZone" />
-                              <link role="variableDeclaration" targetNodeId="33.~DateTimeZone.UTC" resolveInfo="UTC" />
-                            </node>
-                          </node>
-                        </node>
-                        <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1140983047398774774">
-                          <link role="baseMethodDeclaration" targetNodeId="9.~BaseDateTime.getMillis():long" resolveInfo="getMillis" />
-                        </node>
-                      </node>
-                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LongLiteral" id="1140983047398774775">
-                        <property name="value" value="0L" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node role="catchClause" type="jetbrains.mps.baseLanguage.structure.CatchClause" id="1140983047398774776">
-                  <node role="throwable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1140983047398774777">
-                    <property name="name" value="ignored" />
-                    <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1140983047398774778">
-                      <link role="classifier" targetNodeId="32.~RuntimeException" resolveInfo="RuntimeException" />
-                    </node>
-                  </node>
-                  <node role="catchBody" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774779" />
-                </node>
-              </node>
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1140983047398774794">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1140983047398774795">
-                  <link role="variableDeclaration" targetNodeId="1140983047398774782" resolveInfo="tz" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="canSubstitute" type="jetbrains.mps.lang.actions.structure.QueryFunction_CanSubstitute" id="1140983047398774564">
-            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774565">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="1140983047398774623">
-                <node role="condition" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_strictly" id="1140983047398774626" />
-                <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774625">
-                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1140983047398774627">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774636">
-                      <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="1140983047398774629" />
-                      <node role="operation" type="jetbrains.mps.baseLanguage.regexp.structure.MatchRegexpOperation" id="1140983047398774641">
-                        <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.InlineRegexpExpression" id="1140983047398774643">
-                          <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="1140983047398774684">
-                            <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PositiveSymbolClassRegexp" id="1140983047398774679">
-                              <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="1140983047398774681">
-                                <property name="character" value="+" />
-                              </node>
-                              <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="1140983047398774683">
-                                <property name="character" value="-" />
-                              </node>
-                            </node>
-                            <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="1140983047398774690">
-                              <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="1140983047398774687">
-                                <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                              </node>
-                              <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="1140983047398774696">
-                                <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="1140983047398774694">
-                                  <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                                </node>
-                                <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="1140983047398774701">
-                                  <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PositiveSymbolClassRegexp" id="1140983047398774699">
-                                    <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="1140983047398774700">
-                                      <property name="character" value=":" />
-                                    </node>
-                                  </node>
-                                  <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="1140983047398774705">
-                                    <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="1140983047398774704">
-                                      <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                                    </node>
-                                    <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="1140983047398774708">
-                                      <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node role="ifFalseStatement" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="1140983047398774709">
-                  <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774710">
-                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1140983047398774711">
-                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1140983047398774712">
-                        <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="1140983047398774713" />
-                        <node role="operation" type="jetbrains.mps.baseLanguage.regexp.structure.MatchRegexpOperation" id="1140983047398774714">
-                          <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.InlineRegexpExpression" id="1140983047398774715">
-                            <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8625920436392581794">
-                              <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PositiveSymbolClassRegexp" id="1140983047398774717">
-                                <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="1140983047398774718">
-                                  <property name="character" value="+" />
-                                </node>
-                                <node role="part" type="jetbrains.mps.baseLanguage.regexp.structure.CharacterSymbolClassPart" id="1140983047398774719">
-                                  <property name="character" value="-" />
-                                </node>
-                              </node>
-                              <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8625920436392581798">
-                                <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8625920436392581797">
-                                  <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                                </node>
-                                <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8625920436392581804">
-                                  <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.QuestionRegexp" id="8625920436392581802">
-                                    <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8625920436392581801">
-                                      <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                                    </node>
-                                  </node>
-                                  <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.SeqRegexp" id="8625920436392581811">
-                                    <node role="left" type="jetbrains.mps.baseLanguage.regexp.structure.QuestionRegexp" id="8625920436392581809">
-                                      <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8625920436392581807">
-                                        <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                                      </node>
-                                    </node>
-                                    <node role="right" type="jetbrains.mps.baseLanguage.regexp.structure.QuestionRegexp" id="8625920436392581816">
-                                      <node role="regexp" type="jetbrains.mps.baseLanguage.regexp.structure.PredefinedSymbolClassRegexp" id="8625920436392581814">
-                                        <link role="symbolClass" targetNodeId="2v.1174554674770" resolveInfo="\d" />
-                                      </node>
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="matchingText" type="jetbrains.mps.lang.actions.structure.QueryFunction_ParameterizedSubstitute_String" id="1140983047398774735">
-            <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1140983047398774736">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1140983047398774737">
-                <node role="expression" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_pattern" id="1140983047398774738" />
-              </node>
-            </node>
-          </node>
-          <node role="descriptionText" type="jetbrains.mps.lang.actions.structure.Substitute_SimpleString" id="1140983047398774740">
-            <property name="text" value="offset time zone" />
-          </node>
-        </node>
-      </node>
-      <node role="precondition" type="jetbrains.mps.lang.actions.structure.NodeSubstitutePreconditionFunction" id="5473692278135639405">
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5473692278135639406">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5473692278135639412">
-            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5473692278135639413">
-              <property name="name" value="td" />
-              <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="5473692278135639414">
-                <link role="concept" targetNodeId="2.1201183863028" resolveInfo="TypeDerivable" />
-              </node>
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135639415">
-                <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_parentNode" id="5473692278135639416" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="5473692278135639417">
-                  <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="5473692278135639418">
-                    <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="5473692278135639419">
-                      <link role="conceptDeclaration" targetNodeId="2.1201183863028" resolveInfo="TypeDerivable" />
-                    </node>
-                  </node>
-                  <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" id="5473692278135639420" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5473692278135639421">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="5473692278135639422">
-              <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.IsSubtypeExpression" id="5473692278135639423">
-                <node role="supertypeExpression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="5473692278135639424">
-                  <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="5473692278135639425" />
-                </node>
-                <node role="subtypeExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135639426">
-                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5473692278135639427">
-                    <link role="variableDeclaration" targetNodeId="5473692278135639413" resolveInfo="td" />
-                  </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="5473692278135639428">
-                    <link role="baseMethodDeclaration" targetNodeId="34.4555537781928374706" resolveInfo="deriveType" />
-                    <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_currentTargetNode" id="5473692278135639429" />
-                    <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_link" id="5473692278135639430" />
-                  </node>
-                </node>
-              </node>
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5473692278135639431">
-                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5473692278135639432">
-                  <link role="variableDeclaration" targetNodeId="5473692278135639413" resolveInfo="td" />
-                </node>
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" id="5473692278135639433" />
               </node>
             </node>
           </node>
