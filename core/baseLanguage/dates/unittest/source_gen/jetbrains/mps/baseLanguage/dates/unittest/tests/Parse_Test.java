@@ -61,6 +61,11 @@ public class Parse_Test extends BaseTestCase {
     Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
+  public void test_ampm2() throws Exception {
+    DateTimeZone mskid = DateTimeZone.forID("Europe/Moscow");
+    Assert.assertEquals(new DateTime(2000, 1, 1, 4, 23, 0, 0, mskid), DateTimeOperations.parseDateTime("4:23 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), mskid, null, new DateTime(2000, 1, 1, 0, 0, 0, 0, mskid)));
+  }
+
   public void test_timezone() throws Exception {
     DateTimeZone mskid = DateTimeZone.forID("Europe/Moscow");
     DateTime dtt = DateTimeOperations.convert(System.currentTimeMillis(), mskid);

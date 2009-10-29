@@ -4481,6 +4481,54 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="34521615669077534">
+        <property name="methodName" value="ampm2" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="34521615669077535" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="34521615669077536">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="34521615669077559">
+            <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="34521615669077560">
+              <property name="name" value="mskid" />
+              <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="34521615669077561" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression" id="34521615669077562">
+                <property name="timezone_id" value="Europe/Moscow" />
+              </node>
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="34521615669077553">
+            <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="34521615669077556">
+              <property name="day" value="1" />
+              <property name="year" value="2000" />
+              <property name="hour" value="04" />
+              <property name="minute" value="23" />
+              <property name="second" value="00" />
+              <link role="month" targetNodeId="1.1194006123738" resolveInfo="January" />
+              <node role="timezone" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="34521615669077563">
+                <link role="variableDeclaration" targetNodeId="34521615669077560" resolveInfo="mskid" />
+              </node>
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression" id="34521615669077565">
+              <link role="dateFormat" targetNodeId="7905990018466231048" resolveInfo="am-pm" />
+              <node role="zone" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="34521615669077572">
+                <link role="variableDeclaration" targetNodeId="34521615669077560" resolveInfo="mskid" />
+              </node>
+              <node role="source" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="34521615669077564">
+                <property name="value" value="4:23 AM" />
+              </node>
+              <node role="default" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="34521615669077579">
+                <property name="day" value="1" />
+                <property name="year" value="2000" />
+                <property name="hour" value="00" />
+                <property name="minute" value="00" />
+                <property name="second" value="00" />
+                <link role="month" targetNodeId="1.1194006123738" resolveInfo="January" />
+                <node role="timezone" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="34521615669077581">
+                  <link role="variableDeclaration" targetNodeId="34521615669077560" resolveInfo="mskid" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="4555537781928180293">
         <property name="methodName" value="timezone" />
         <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="4555537781928180294" />
