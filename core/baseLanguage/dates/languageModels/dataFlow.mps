@@ -268,7 +268,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239792942230">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169562965517" resolveInfo="ConditionalFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239792942231">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239792942232">
@@ -371,7 +371,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793091231">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1174317913525" resolveInfo="DateTimeOffsetFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793091232">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793091233">
@@ -479,14 +479,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793260324">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169495318439" resolveInfo="LiteralFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793260325">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793260326" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793281628">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169563273551" resolveInfo="ReferenceFormatToken" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793281629">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793281630">
@@ -502,7 +502,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="1239793322146">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169563444535" resolveInfo="TokenConditionalPair" />
     <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="1239793322147">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1239793322148">
@@ -857,6 +857,64 @@
             <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="34521615669576961" />
             <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="34521615669576966">
               <link role="link" targetNodeId="1.34521615669572120" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="48671598477581853">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.48671598477573965" resolveInfo="PeriodFormat" />
+    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="48671598477581854">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477581855">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ForeachStatement" id="48671598477581856">
+          <node role="iterable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="48671598477581869">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="48671598477581868" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="48671598477581875">
+              <link role="link" targetNodeId="1.48671598477578849" />
+            </node>
+          </node>
+          <node role="variable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="48671598477581858">
+            <property name="name" value="t" />
+            <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="48671598477581863">
+              <link role="concept" targetNodeId="1.48671598477578848" resolveInfo="PeriodFormatToken" />
+            </node>
+          </node>
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477581860">
+            <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="48671598477581882">
+              <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="48671598477581884">
+                <link role="variableDeclaration" targetNodeId="48671598477581858" resolveInfo="t" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="48671598477852510">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.48671598477850406" resolveInfo="PeriodFormatsTable" />
+    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="48671598477852511">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477852512">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ForeachStatement" id="48671598477852513">
+          <node role="iterable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="48671598477852526">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="48671598477852525" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="48671598477852532">
+              <link role="link" targetNodeId="1.48671598477850408" />
+            </node>
+          </node>
+          <node role="variable" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="48671598477852515">
+            <property name="name" value="format" />
+            <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="48671598477852520">
+              <link role="concept" targetNodeId="1.48671598477573965" resolveInfo="PeriodFormat" />
+            </node>
+          </node>
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477852517">
+            <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="48671598477852536">
+              <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="48671598477852538">
+                <link role="variableDeclaration" targetNodeId="48671598477852515" resolveInfo="format" />
+              </node>
             </node>
           </node>
         </node>

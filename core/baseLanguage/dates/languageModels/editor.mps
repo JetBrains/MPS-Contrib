@@ -76,7 +76,7 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169488439006">
       <property name="vertical" value="true" />
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169488446011">
-        <property name="text" value="formats" />
+        <property name="text" value="date formats" />
         <link role="styleClass" targetNodeId="48.1186415544875" resolveInfo="KeyWord" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1169550080987">
@@ -116,7 +116,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169495358926">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169495318439" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169495511306">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1169495511307">
@@ -135,7 +135,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169549287824">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169495337236" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Error" id="1169549290218">
       <property name="text" value="format token" />
@@ -288,7 +288,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169563386806">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169563273551" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169563391622">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173969243420">
@@ -316,7 +316,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169563544178">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169563444535" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169563547149">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="7998319938823441802">
@@ -346,7 +346,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169563638159">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169562965517" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169563701046">
       <property name="vertical" value="true" />
@@ -398,7 +398,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169631841789">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1169631506005" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1169632541034">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1169632549428">
@@ -809,7 +809,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1172679877675">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1172679701720" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1172683773714">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1172683777552">
@@ -855,7 +855,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1173960048905">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1173959836330" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1173960051610">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1173960053346">
@@ -1156,7 +1156,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1174320937662">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1174320869813" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="1174320940648">
       <link role="relationDeclaration" targetNodeId="1.1174320881454" />
@@ -1170,7 +1170,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1174321289495">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="conceptDeclaration" targetNodeId="1.1174317913525" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1174321300763">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1174321300764">
@@ -3435,6 +3435,85 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="48671598477578850">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.48671598477573965" resolveInfo="PeriodFormat" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="48671598477579811">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="48671598477579814">
+        <link role="relationDeclaration" targetNodeId="1.48671598477578846" resolveInfo="visibility" />
+        <link role="styleClass" targetNodeId="48.1186415544875" resolveInfo="KeyWord" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="48671598477579817">
+        <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+        <link role="styleClass" targetNodeId="1219659856537" resolveInfo="DateFormat" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="48671598477579819">
+        <property name="text" value=":" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="48671598477579820">
+        <link role="relationDeclaration" targetNodeId="1.48671598477578849" />
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="48671598477579821" />
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="48671598477579813" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="48671598477581895">
+    <property name="package" value="format.period" />
+    <link role="conceptDeclaration" targetNodeId="1.48671598477581889" resolveInfo="PeriodLiteralFormatToken" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="48671598477581897">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="48671598477581900">
+        <link role="relationDeclaration" targetNodeId="1.48671598477581894" resolveInfo="value" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="48671598477581901">
+          <property name="style" value="BOLD" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" id="48671598477581902">
+          <property name="value" value="0.0" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="48671598477581903">
+          <property name="color" value="DARK_GREEN" />
+        </node>
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="48671598477581899" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="48671598477850409">
+    <property name="package" value="format" />
+    <link role="conceptDeclaration" targetNodeId="1.48671598477850406" resolveInfo="PeriodFormatsTable" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="48671598477850411">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="48671598477850413" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="48671598477850415">
+        <property name="text" value="period formats" />
+        <link role="styleClass" targetNodeId="48.1186415544875" resolveInfo="KeyWord" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="48671598477850417">
+        <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="48671598477850419">
+        <property name="text" value="{" />
+        <link role="styleClass" targetNodeId="48.1215091279307" resolveInfo="LeftBrace" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="48671598477850420">
+          <property name="flag" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" id="48671598477850423">
+        <link role="relationDeclaration" targetNodeId="1.48671598477850408" />
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="48671598477850424" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" id="48671598477850425">
+          <property name="flag" value="true" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" id="48671598477850427">
+          <property name="flag" value="true" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="48671598477850429">
+          <property name="flag" value="true" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="48671598477850431">
+        <property name="text" value="}" />
+        <link role="styleClass" targetNodeId="48.1215091331565" resolveInfo="RightBrace" />
       </node>
     </node>
   </node>

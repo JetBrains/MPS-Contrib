@@ -60,7 +60,7 @@
   <import index="14" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <import index="15" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877259059">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="concept" targetNodeId="1.1173959836330" resolveInfo="DateTimePropertyFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877259060">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877259061" />
@@ -511,14 +511,14 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877297616">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="concept" targetNodeId="1.1169563444535" resolveInfo="TokenConditionalPair" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877297617">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877297618" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877368222">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="concept" targetNodeId="1.1169563273551" resolveInfo="ReferenceFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877368223">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877368224" />
@@ -539,7 +539,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877434064">
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="concept" targetNodeId="1.1172679701720" resolveInfo="FixedLocaleFormatToken" />
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1213877434065">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213877434066" />
@@ -1936,6 +1936,32 @@
       <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance" id="34521615669577133">
         <link role="annotation" targetNodeId="2.~Override" resolveInfo="Override" />
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="48671598477850432">
+    <property name="package" value="format" />
+    <link role="concept" targetNodeId="1.48671598477850406" resolveInfo="PeriodFormatsTable" />
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="48671598477850435">
+      <property name="name" value="getGeneratedConstantName" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="48671598477850436" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.StringType" id="48671598477850437" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477850438">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="48671598477850439">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="48671598477850440">
+            <link role="baseMethodDeclaration" targetNodeId="8.~NameUtil.toConstantName(java.lang.String):java.lang.String" resolveInfo="toConstantName" />
+            <link role="classConcept" targetNodeId="8.~NameUtil" resolveInfo="NameUtil" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="48671598477850441">
+              <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="48671598477850442" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="48671598477850443">
+                <link role="property" targetNodeId="7.1169194664001" resolveInfo="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="48671598477850433">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477850434" />
     </node>
   </node>
 </model>

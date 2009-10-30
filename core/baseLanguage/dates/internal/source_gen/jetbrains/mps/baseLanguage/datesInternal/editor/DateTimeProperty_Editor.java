@@ -50,9 +50,15 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createIndentCell6516_1(editorContext, node));
     editorCell.addEditorCell(this.createConstant_6516_4(editorContext, node));
     editorCell.addEditorCell(this.createRefCell_6516_1(editorContext, node));
+    editorCell.addEditorCell(this.createIndentCell6516_5(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6516_8(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_6516_3(editorContext, node));
+    editorCell.addEditorCell(this.createIndentCell6516_4(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6516_7(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_6516_2(editorContext, node));
     editorCell.addEditorCell(this.createIndentCell6516_3(editorContext, node));
     editorCell.addEditorCell(this.createConstant_6516_6(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_6516_2(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_6516_4(editorContext, node));
     editorCell.addEditorCell(this.createIndentCell6516_2(editorContext, node));
     editorCell.addEditorCell(this.createConstant_6516_3(editorContext, node));
     editorCell.addEditorCell(this.createProperty_6516_2(editorContext, node));
@@ -117,8 +123,22 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createConstant_6516_6(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DurationType");
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Single form");
     editorCell.setCellId("Constant_6516_6");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_6516_7(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Period formatting method");
+    editorCell.setCellId("Constant_6516_7");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_6516_8(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DurationType");
+    editorCell.setCellId("Constant_6516_8");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
@@ -140,6 +160,16 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
   }
 
   private EditorCell createIndentCell6516_3(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    return result;
+  }
+
+  private EditorCell createIndentCell6516_4(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    return result;
+  }
+
+  private EditorCell createIndentCell6516_5(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
@@ -230,12 +260,57 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createProperty_6516_4(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("singleForm");
+    provider.setNoTargetText("<no singleForm>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_singleForm");
+    BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
   private EditorCell createRefCell_6516_2(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("periodFormatMethod");
+    provider.setNoTargetText("<no periodFormatMethod>");
+    EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline6516_2());
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefCell_6516_3(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("jodaDurationType");
     provider.setNoTargetText("<no jodaDurationType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline6516_2());
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline6516_3());
     editorCell = provider.createEditorCell(editorContext);
     {
       Style style = editorCell.getStyle();
@@ -330,10 +405,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_6516_4(editorContext, node);
+      return this.createProperty_6516_5(editorContext, node);
     }
 
-    private EditorCell createProperty_6516_4(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_6516_5(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -341,6 +416,40 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_name_3");
+      BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
+      editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+      SNode attributeConcept = provider.getRoleAttribute();
+      Class attributeKind = provider.getRoleAttributeClass();
+      if (attributeConcept != null) {
+        IOperationContext opContext = editorContext.getOperationContext();
+        EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+        return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+      } else
+      return editorCell;
+    }
+  }
+
+  public static class _Inline6516_3 extends InlineCellProvider {
+    public _Inline6516_3() {
+      super();
+    }
+
+    public EditorCell createEditorCell(EditorContext editorContext) {
+      return this.createEditorCell(editorContext, this.getSNode());
+    }
+
+    public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
+      return this.createProperty_6516_6(editorContext, node);
+    }
+
+    private EditorCell createProperty_6516_6(EditorContext editorContext, SNode node) {
+      CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+      provider.setRole("name");
+      provider.setNoTargetText("<no name>");
+      provider.setReadOnly(true);
+      EditorCell editorCell;
+      editorCell = provider.createEditorCell(editorContext);
+      editorCell.setCellId("property_name_4");
       BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();

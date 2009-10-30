@@ -180,6 +180,18 @@ public class QueriesGenerated {
     return DateTimeZone_Behavior.call_getID_1239362726615(SLinkOperations.getTarget(_context.getNode(), "zone", false));
   }
 
+  public static Object propertyMacro_GetPropertyValue_48671598477581929(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "value");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_48671598477852571(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_48671598477852680(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
   public static Object propertyMacro_GetPropertyValue_779372288056197861(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getInteger(_context.getNode(), "year");
   }
@@ -747,6 +759,14 @@ public class QueriesGenerated {
 
   public static Iterable sourceNodesQuery_1238663967265(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "formatToken", true);
+  }
+
+  public static Iterable sourceNodesQuery_48671598477852558(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "periodFormat", true);
+  }
+
+  public static Iterable sourceNodesQuery_48671598477852667(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "token", true);
   }
 
   public static Iterable sourceNodesQuery_194163770812065813(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

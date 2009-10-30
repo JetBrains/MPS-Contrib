@@ -224,7 +224,7 @@
     <property name="package" value="format" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1172682197983">
-      <property name="value" value="format" />
+      <property name="value" value="date format" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169487470543">
@@ -243,7 +243,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169495318439">
     <property name="name" value="LiteralFormatToken" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1169495350409">
       <property name="name" value="value" />
@@ -260,7 +260,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169495337236">
     <property name="name" value="FormatToken" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="1169543700004">
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" />
@@ -309,7 +309,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169562965517">
     <property name="name" value="ConditionalFormatToken" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169563619049">
       <property name="metaClass" value="aggregation" />
@@ -328,7 +328,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169563273551">
     <property name="name" value="ReferenceFormatToken" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169563300146">
       <property name="sourceCardinality" value="1" />
@@ -346,7 +346,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169563444535">
     <property name="name" value="TokenConditionalPair" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1169563469176">
       <property name="metaClass" value="aggregation" />
@@ -371,7 +371,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169631506005">
     <property name="name" value="TokenCondition" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="3.1137021947720" />
     <node role="conceptLink" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink" id="1172162329997">
       <link role="conceptLinkDeclaration" targetNodeId="3.1137545148427" />
@@ -600,7 +600,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172679701720">
     <property name="name" value="FixedLocaleFormatToken" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1172679863969">
       <property name="sourceCardinality" value="1" />
@@ -619,7 +619,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1173959836330">
     <property name="name" value="DateTimePropertyFormatToken" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1173960023920">
       <property name="value" value="{&lt;{dateTimePropertyFormatConfiguration}&gt;}" />
@@ -695,7 +695,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174317913525">
     <property name="name" value="DateTimeOffsetFormatToken" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1169495337236" resolveInfo="FormatToken" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1174321263884">
       <property name="metaClass" value="aggregation" />
@@ -715,7 +715,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1174320869813">
     <property name="name" value="DurationTypeReference" />
-    <property name="package" value="format.token" />
+    <property name="package" value="format.date" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1174320881454">
       <property name="sourceCardinality" value="1" />
@@ -1574,6 +1574,68 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="34521615669572123">
       <property name="value" value="Format period using predefined formatter" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="48671598477573965">
+    <property name="package" value="format" />
+    <property name="name" value="PeriodFormat" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="48671598477578849">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="token" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="48671598477578848" resolveInfo="PeriodFormatToken" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="48671598477578846">
+      <property name="name" value="visibility" />
+      <link role="dataType" targetNodeId="1173975646059" resolveInfo="DateFormatVisibility" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="48671598477573977">
+      <link role="intfc" targetNodeId="2.34521615669325562" resolveInfo="IPeriodFormat" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="48671598477578847">
+      <property name="value" value="period format" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="48671598477578848">
+    <property name="package" value="format.period" />
+    <property name="name" value="PeriodFormatToken" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="48671598477581885">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="48671598477581889">
+    <property name="package" value="format.period" />
+    <property name="name" value="PeriodLiteralFormatToken" />
+    <link role="extends" targetNodeId="48671598477578848" resolveInfo="PeriodFormatToken" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="48671598477581894">
+      <property name="name" value="value" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="48671598477581890">
+      <property name="value" value="'" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="48671598477581893">
+      <property name="value" value="custom text" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="48671598477850406">
+    <property name="package" value="format" />
+    <property name="name" value="PeriodFormatsTable" />
+    <property name="rootable" value="true" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="48671598477850408">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="periodFormat" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="48671598477573965" resolveInfo="PeriodFormat" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="48671598477850407">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
 </model>

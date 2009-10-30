@@ -329,6 +329,10 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172074318583">
     <property name="name" value="DateTimeProperty" />
     <link role="extends" targetNodeId="1.1133920641626" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="48671598476606810">
+      <property name="name" value="singleForm" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1172490222219">
       <property name="name" value="pluralForm" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -350,6 +354,12 @@
       <property name="metaClass" value="reference" />
       <property name="role" value="jodaDurationType" />
       <link role="target" targetNodeId="3.1081236700938" resolveInfo="StaticMethodDeclaration" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="48671598476606809">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="periodFormatMethod" />
+      <property name="sourceCardinality" value="0..1" />
+      <link role="target" targetNodeId="3.1068580123165" resolveInfo="InstanceMethodDeclaration" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1172074383898">

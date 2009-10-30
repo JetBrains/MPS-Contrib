@@ -528,6 +528,34 @@
             <property name="flag" value="true" />
           </node>
         </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="48671598476606819" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="48671598476606821">
+          <property name="text" value="Period formatting method" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="48671598476606823">
+          <link role="relationDeclaration" targetNodeId="1.48671598476606809" />
+          <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="48671598476606824">
+            <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="48671598476606826">
+              <property name="readOnly" value="true" />
+              <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+              <link role="styleClass" targetNodeId="2v.1198595398954" resolveInfo="Field" />
+            </node>
+          </node>
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="48671598476606827">
+            <property name="flag" value="true" />
+          </node>
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="48671598476606812" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="48671598476606814">
+          <property name="text" value="Single form" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="48671598476606816">
+          <link role="relationDeclaration" targetNodeId="1.48671598476606810" resolveInfo="singleForm" />
+          <link role="styleClass" targetNodeId="2v.1198595398954" resolveInfo="Field" />
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" id="48671598476606817">
+            <property name="flag" value="true" />
+          </node>
+        </node>
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Indent" id="1238665509071" />
         <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1172490250098">
           <property name="text" value="Plural form" />

@@ -5135,5 +5135,17 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable" id="48671598478025726">
+    <property name="name" value="PeriodFormats" />
+    <node role="periodFormat" type="jetbrains.mps.baseLanguage.dates.structure.PeriodFormat" id="48671598478025727">
+      <property name="name" value="simple" />
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken" id="48671598478025739">
+        <property name="value" value="v1" />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken" id="48671598478025737">
+        <property name="value" value="v2" />
+      </node>
+    </node>
+  </node>
 </model>
 
