@@ -76,6 +76,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_7692_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
     editorCell.setCellId("Constant_7692_0");
+    FormatPeriodExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -83,6 +84,11 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_7692_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_7692_1");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
+    }
+    FormatPeriodExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -90,6 +96,11 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_7692_2(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_7692_2");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    }
+    FormatPeriodExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -125,6 +136,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_0());
     editorCell = provider.createEditorCell(editorContext);
+    FormatPeriodExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -143,6 +155,7 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_1());
     editorCell = provider.createEditorCell(editorContext);
+    FormatPeriodExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
