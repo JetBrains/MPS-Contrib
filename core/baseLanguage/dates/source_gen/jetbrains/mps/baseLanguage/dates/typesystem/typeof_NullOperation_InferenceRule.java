@@ -19,7 +19,7 @@ public class typeof_NullOperation_InferenceRule extends AbstractInferenceRule_Ru
       SNode _nodeToCheck_1029348928467 = operation;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999137", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999134", true), (SNode)new _Quotations.QuotationClass_63().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999134", true), (SNode)new _Quotations.QuotationClass_65().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 

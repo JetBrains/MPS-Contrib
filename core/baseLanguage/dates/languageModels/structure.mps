@@ -1543,5 +1543,38 @@
       <link role="intfc" targetNodeId="3.1201183863028" resolveInfo="TypeDerivable" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="34521615669572115">
+    <property name="package" value="format" />
+    <property name="name" value="FormatPeriodExpression" />
+    <link role="extends" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="34521615669572119">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="format" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.34521615669325562" resolveInfo="IPeriodFormat" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="34521615669572120">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="locale" />
+      <link role="target" targetNodeId="2.1172680728258" resolveInfo="Locale" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="34521615669572118">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="period" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="34521615669572117">
+      <link role="intfc" targetNodeId="3.1201183863028" resolveInfo="TypeDerivable" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="34521615669572121">
+      <property name="value" value="#" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="34521615669572123">
+      <property name="value" value="Format period using predefined formatter" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
 </model>
 

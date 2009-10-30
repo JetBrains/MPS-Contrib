@@ -1891,17 +1891,10 @@
       <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="6240071430105321172">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6240071430105321173">
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6240071430105321174">
-            <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="6240071430105321175">
-              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="6240071430105321176">
-                <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
-                <link role="baseMethodDeclaration" targetNodeId="5351757338848079613" resolveInfo="isInstanceOfDatetimeWithTZ" />
-                <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="6240071430105321177" />
-              </node>
-              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="6240071430105321178">
-                <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
-                <link role="baseMethodDeclaration" targetNodeId="1172502164823" resolveInfo="isInstanceOfPeriod" />
-                <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="6240071430105321179" />
-              </node>
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="6240071430105321176">
+              <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
+              <link role="baseMethodDeclaration" targetNodeId="5351757338848079613" resolveInfo="isInstanceOfDatetimeWithTZ" />
+              <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="6240071430105321177" />
             </node>
           </node>
         </node>
@@ -2124,6 +2117,52 @@
               <link role="baseMethodDeclaration" targetNodeId="1175769966456" resolveInfo="isInstanceOfDatetime" />
               <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
               <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="5488841840788087958" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="actionsBuilder" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstituteActionsBuilder" id="1379098806890398903">
+      <property name="description" value="Operation on period expression" />
+      <link role="applicableConcept" targetNodeId="2.1068431790191" resolveInfo="Expression" />
+      <node role="part" type="jetbrains.mps.lang.actions.structure.ConceptRightTransformPart" id="1379098806890398935">
+        <link role="concept" targetNodeId="1.34521615669572115" resolveInfo="FormatPeriodExpression" />
+        <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_ConceptHandler" id="1379098806890398936">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1379098806890398937">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1379098806890398938">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1379098806890398939">
+                <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1379098806890398940" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ReplaceWithAnotherOperation" id="1379098806890398941">
+                  <node role="replacementNode" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_result" id="1379098806890398942" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1379098806890398943">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1379098806890398944">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1379098806890398945">
+                  <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_result" id="1379098806890398946" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="1379098806890400447">
+                    <link role="link" targetNodeId="1.34521615669572118" />
+                  </node>
+                </node>
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" id="1379098806890398948">
+                  <node role="linkTarget" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1379098806890398949" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1379098806890398950">
+              <node role="expression" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_result" id="1379098806890398951" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="precondition" type="jetbrains.mps.lang.actions.structure.SideTransformHintSubstitutePreconditionFunction" id="1379098806890398952">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1379098806890398953">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1379098806890398954">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="1379098806890398958">
+              <link role="classConcept" targetNodeId="1171978333109" resolveInfo="DateTypeUtil" />
+              <link role="baseMethodDeclaration" targetNodeId="1172502164823" resolveInfo="isInstanceOfPeriod" />
+              <node role="actualArgument" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_sourceNode" id="1379098806890398959" />
             </node>
           </node>
         </node>

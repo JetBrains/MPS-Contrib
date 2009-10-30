@@ -3210,6 +3210,37 @@
           </node>
         </node>
       </node>
+      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1379098806889909685">
+        <property name="methodName" value="format" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="1379098806889909686" />
+        <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1379098806889909687" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1379098806889909688">
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1379098806889911027">
+            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1379098806889911030">
+              <property name="value" value="3 months and 2 days" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression" id="1379098806889911049">
+              <link role="format" targetNodeId="1.34521615669461598" resolveInfo="defaultFormat" />
+              <node role="period" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1379098806889911051">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1379098806889911052">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1379098806889911053">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074751786" resolveInfo="month" />
+                    <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1379098806889911054">
+                      <property name="value" value="3" />
+                    </node>
+                  </node>
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1379098806889911055">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
+                    <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1379098806889911056">
+                      <property name="value" value="2" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1173787596138">

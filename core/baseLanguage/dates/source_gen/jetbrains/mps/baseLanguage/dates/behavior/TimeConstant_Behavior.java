@@ -19,7 +19,7 @@ public class TimeConstant_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "timezone"), "role").equals(role)) {
-        return new _Quotations.QuotationClass_5().createNode();
+        return new _Quotations.QuotationClass_7().createNode();
       }
     }
     return null;
@@ -27,7 +27,7 @@ public class TimeConstant_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "timezone") == link) {
-      return new _Quotations.QuotationClass_6().createNode();
+      return new _Quotations.QuotationClass_8().createNode();
     }
     return null;
   }

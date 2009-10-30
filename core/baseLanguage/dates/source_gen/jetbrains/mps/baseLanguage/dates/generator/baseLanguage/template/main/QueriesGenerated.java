@@ -27,6 +27,7 @@ import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.baseLanguage.behavior.IOperation_Behavior;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import java.util.ArrayList;
 
@@ -537,6 +538,25 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_779372288056451735(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "timezone", true);
+  }
+
+  public static SNode sourceNodeQuery_1379098806889724510(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "period", true);
+  }
+
+  public static SNode sourceNodeQuery_1379098806889724521(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null) ?
+      SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true) :
+      SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.NullLiteral", null)
+    );
+  }
+
+  public static SNode sourceNodeQuery_1379098806890584433(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "format", false);
+  }
+
+  public static SNode sourceNodeQuery_1379098806890866348(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "formatter", true);
   }
 
   public static SNode sourceNodeQuery_1548440323223124045(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

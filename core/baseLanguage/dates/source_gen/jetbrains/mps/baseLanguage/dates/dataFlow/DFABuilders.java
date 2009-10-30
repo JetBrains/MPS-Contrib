@@ -36,5 +36,6 @@ public class DFABuilders extends DataFlowBuilders {
     manager.register("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", new InlineFormatDateTimeExpression_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", new InTimezoneExpression_DataFlow());
     manager.register("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression", new PeriodInPropertyExpression_DataFlow());
+    manager.register("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", new FormatPeriodExpression_DataFlow());
   }
 }

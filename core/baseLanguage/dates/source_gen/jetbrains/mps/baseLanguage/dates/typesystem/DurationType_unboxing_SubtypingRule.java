@@ -13,7 +13,7 @@ public class DurationType_unboxing_SubtypingRule extends SubtypingRule_Runtime i
   }
 
   public SNode getSubOrSuperType(SNode durationType, TypeCheckingContext typeCheckingContext) {
-    return new _Quotations.QuotationClass_119().createNode(typeCheckingContext);
+    return new _Quotations.QuotationClass_121().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {

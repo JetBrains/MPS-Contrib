@@ -443,6 +443,13 @@
         <link role="baseMethodDeclaration" targetNodeId="8.~PredefinedFormats.defaultFormat():org.joda.time.format.DateTimeFormatter" resolveInfo="defaultFormat" />
       </node>
     </node>
+    <node role="predefinedPeriodFormat" type="jetbrains.mps.baseLanguage.datesInternal.structure.PredefinedPeriodFormat" id="34521615669461598">
+      <property name="name" value="defaultFormat" />
+      <node role="formatter" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="34521615669477336">
+        <link role="baseMethodDeclaration" targetNodeId="4.~PeriodFormat.getDefault():org.joda.time.format.PeriodFormatter" resolveInfo="getDefault" />
+        <link role="classConcept" targetNodeId="4.~PeriodFormat" resolveInfo="PeriodFormat" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimePropertySettings" id="1172074610338">
     <node role="schedulePeriod" type="jetbrains.mps.baseLanguage.datesInternal.structure.SchedulePeriod" id="1194007170385">

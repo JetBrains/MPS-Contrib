@@ -11,6 +11,7 @@ import junit.framework.Assert;
 import jetbrains.mps.baseLanguage.dates.runtime.CompareType;
 import org.joda.time.DateTime;
 import org.joda.time.DateTimeZone;
+import org.joda.time.format.PeriodFormat;
 
 public class Period_Test extends TestCase {
   public void test_plus() throws Exception {
@@ -61,5 +62,9 @@ public class Period_Test extends TestCase {
 
   public void test_concat() throws Exception {
     Assert.assertEquals("P3W", "" + Period.weeks(3));
+  }
+
+  public void test_format() throws Exception {
+    Assert.assertEquals("3 months and 2 days", DateTimeOperations.print((DateTimeArithmetics.plus(Period.months(3), Period.days(2))), PeriodFormat.getDefault(), null));
   }
 }

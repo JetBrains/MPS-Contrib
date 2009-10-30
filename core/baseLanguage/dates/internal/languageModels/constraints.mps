@@ -267,5 +267,21 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="1379098806889929547">
+    <property name="package" value="format" />
+    <link role="concept" targetNodeId="1.34521615669325565" resolveInfo="PredefinedPeriodFormat" />
+    <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="1379098806889929548">
+      <link role="applicableProperty" targetNodeId="1.34521615669325564" resolveInfo="isPublic" />
+      <node role="propertyGetter" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter" id="1379098806889929549">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1379098806889929550">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1379098806889929551">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1379098806889929552">
+              <property name="value" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

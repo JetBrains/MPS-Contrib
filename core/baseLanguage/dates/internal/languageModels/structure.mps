@@ -307,6 +307,12 @@
       <property name="metaClass" value="aggregation" />
       <link role="target" targetNodeId="1173883503931" resolveInfo="PredefinedDateFormat" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="34521615669406427">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="predefinedPeriodFormat" />
+      <property name="sourceCardinality" value="0..n" />
+      <link role="target" targetNodeId="34521615669325565" resolveInfo="PredefinedPeriodFormat" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1173954797770">
       <property name="sourceCardinality" value="0..n" />
       <property name="role" value="dateTimePropertyCardinality" />
@@ -593,6 +599,35 @@
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1239366855147">
       <property name="name" value="continentOfCountry" />
       <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" id="34521615669325562">
+    <property name="package" value="format" />
+    <property name="name" value="IPeriodFormat" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="34521615669325564">
+      <property name="name" value="isPublic" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
+    <node role="extends" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="34521615669325563">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="34521615669325565">
+    <property name="package" value="format" />
+    <property name="name" value="PredefinedPeriodFormat" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="34521615669325568">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="formatter" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1081236700937" resolveInfo="StaticMethodCall" />
+    </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="34521615669325566">
+      <link role="intfc" targetNodeId="34521615669325562" resolveInfo="IPeriodFormat" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="34521615669325567">
+      <property name="value" value="predefined period format" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>

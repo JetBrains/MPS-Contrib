@@ -34,7 +34,7 @@ public class typeof_DateTimeWithPropertyOperation_InferenceRule extends Abstract
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "3986031709810158442", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "3986031709810154698", true), (SNode)new _Quotations.QuotationClass_101().createNode(typeCheckingContext), true, _info_12389875345);
+      typeCheckingContext.createLessThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "3986031709810154698", true), (SNode)new _Quotations.QuotationClass_103().createNode(typeCheckingContext), true, _info_12389875345);
     }
   }
 

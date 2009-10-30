@@ -65,6 +65,10 @@ public class QueriesGenerated {
     return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.StringType"), true) != null;
   }
 
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1379098806890398952(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfPeriod(_context.getSourceNode());
+  }
+
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_2151017756820978893(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return DateTypeUtil.getContainingPeriod(_context.getSourceNode()) != null;
   }
@@ -78,7 +82,7 @@ public class QueriesGenerated {
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6240071430105321172(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfPeriod(_context.getSourceNode()) || DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
+    return DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6626410111396231034(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
@@ -361,6 +365,32 @@ public class QueriesGenerated {
           return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), "shortDescription");
         }
       });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1379098806890398903(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression");
+      Iterable<SNode> concepts;
+      concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
+      for (final SNode subconcept : concepts) {
+        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
+          continue;
+        }
+        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
+          continue;
+        }
+        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
+          public SNode doSubstitute(String pattern) {
+            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
+            SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
+            SLinkOperations.setTarget(result, "period", _context.getSourceNode(), true);
+            return result;
+          }
+        });
+      }
     }
     return result;
   }

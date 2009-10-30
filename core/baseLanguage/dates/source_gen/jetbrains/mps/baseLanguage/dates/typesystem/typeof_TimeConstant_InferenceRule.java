@@ -19,7 +19,7 @@ public class typeof_TimeConstant_InferenceRule extends AbstractInferenceRule_Run
       SNode _nodeToCheck_1029348928467 = constant;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "779372288056195846", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "779372288056195843", true), (SNode)new _Quotations.QuotationClass_64().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "779372288056195843", true), (SNode)new _Quotations.QuotationClass_66().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 
