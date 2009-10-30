@@ -26,7 +26,7 @@ public abstract class BaseRunConfig extends RunConfigurationBase implements Loca
   }
 
   public boolean isGeneratedName() {
-    return false;
+    return true;
   }
 
   public String suggestedName() {
