@@ -3607,8 +3607,10 @@
       <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="1174040194401">
         <property name="methodName" value="inlineFormat" />
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1174040194402">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="7742274008255420201">
-            <property name="value" value=" some tests rely on MSK time zone" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636453561">
+            <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636453562">
+              <property name="text" value=" some tests rely on MSK time zone" />
+            </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="462678460625670242">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="462678460625670243">
@@ -4379,8 +4381,10 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="8783374338363182109">
-            <property name="value" value=" the fullDateTime is not parseable (Joda apparently can't parse abbreviated time zone)" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636453257">
+            <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636453258">
+              <property name="text" value=" the fullDateTime is not parseable (Joda apparently can't parse abbreviated time zone)" />
+            </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNull" id="8783374338363182103">
             <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.ParseExpression" id="8783374338363182106">
@@ -4435,8 +4439,10 @@
               </node>
             </node>
           </node>
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="9074471975326002012">
-            <property name="value" value=" must specify the zone!" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636453037">
+            <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636453038">
+              <property name="text" value=" must specify the zone!" />
+            </node>
           </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="2583319411283568599">
             <node role="expected" type="jetbrains.mps.baseLanguage.dates.structure.ParseExpression" id="9074471975325896058">
