@@ -17,23 +17,23 @@ public class Parse_Test extends BaseTestCase {
   public void test_timeFormat() throws Exception {
     DateTime dt = new DateTime();
     Long today = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.dayOfMonth());
-    Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(DateTimeOperations.convert(dt), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null, null, today), DateTimeOperations.roundFloor(DateTimeOperations.convert(dt), DateTimeFieldType.secondOfMinute()));
+    Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(DateTimeOperations.convert(dt), _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("time"), null, null), _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("time"), null, null, today), DateTimeOperations.roundFloor(DateTimeOperations.convert(dt), DateTimeFieldType.secondOfMinute()));
   }
 
   public void test_dateParseinTZ() throws Exception {
-    Assert.assertEquals("11/01/1970", DateTimeOperations.print((DateTimeOperations.parseDateTime("1/11/70", DateTimeFormat.shortDate(), DateTimeZone.UTC, Locale.US, null)), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("mShortDate"), null));
+    Assert.assertEquals("11/01/1970", DateTimeOperations.print((DateTimeOperations.parseDateTime("1/11/70", DateTimeFormat.shortDate(), DateTimeZone.UTC, Locale.US, null)), _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("mShortDate"), null));
   }
 
   public void test_jodaDateTime() throws Exception {
     Long today = DateTimeOperations.convert(new DateTime(System.currentTimeMillis()).toLocalDate().toDateTimeAtMidnight());
-    Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(today, _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), null, null), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"), null, null, null), today);
+    Assert.assertEquals(DateTimeOperations.parse(DateTimeOperations.print(today, _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("date"), null, null), _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("date"), null, null, null), today);
   }
 
   public void test_usDayOfWeek() throws Exception {
     Long monday = DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear());
     Long wednesday = DateTimeArithmetics.plus(DateTimeOperations.roundFloor(System.currentTimeMillis(), DateTimeFieldType.weekOfWeekyear()), Period.days(2));
     Assert.assertFalse(DateTimeOperations.compare(monday, CompareType.EQ, wednesday, DateTimeFieldType.millisOfSecond()));
-    Assert.assertEquals(DateTimeOperations.parse("Monday", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("usDayOfWeek"), null, null, wednesday), monday);
+    Assert.assertEquals(DateTimeOperations.parse("Monday", _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("usDayOfWeek"), null, null, wednesday), monday);
   }
 
   public void test_predefined() throws Exception {
@@ -58,12 +58,12 @@ public class Parse_Test extends BaseTestCase {
 
   public void test_ampm() throws Exception {
     Period p = DateTimeArithmetics.plus(Period.hours(3), Period.minutes(33));
-    Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
+    Assert.assertEquals(DateTimeOperations.parse("3:33 AM", _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("am-pm"), null, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 
   public void test_ampm2() throws Exception {
     DateTimeZone mskid = DateTimeZone.forID("Europe/Moscow");
-    Assert.assertEquals(new DateTime(2000, 1, 1, 4, 23, 0, 0, mskid), DateTimeOperations.parseDateTime("4:23 AM", _FormatTables.MAIN_FORMAT_TABLE.getFormatter("am-pm"), mskid, null, new DateTime(2000, 1, 1, 0, 0, 0, 0, mskid)));
+    Assert.assertEquals(new DateTime(2000, 1, 1, 4, 23, 0, 0, mskid), DateTimeOperations.parseDateTime("4:23 AM", _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("am-pm"), mskid, null, new DateTime(2000, 1, 1, 0, 0, 0, 0, mskid)));
   }
 
   public void test_timezone() throws Exception {

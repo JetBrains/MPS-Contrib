@@ -1133,6 +1133,10 @@
     <node role="mappingLabel" type="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" id="1215475953144">
       <property name="name" value="ConditionalDateTimePrinterImpl" />
     </node>
+    <node role="mappingLabel" type="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration" id="930215626861298776">
+      <property name="name" value="FormatTableName" />
+      <link role="targetConcept" targetNodeId="2.1070462154015" resolveInfo="StaticFieldDeclaration" />
+    </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="7517433918793153490">
       <property name="package" value="operation.constant.timezone" />
       <link role="applicableConcept" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
@@ -2864,20 +2868,26 @@
         <node role="propertyMacro$property_attribute$fieldName" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1224666129940">
           <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1224666129941">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224666129942">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1224666168810">
-                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224666223634">
-                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224666216269">
-                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1224666168811" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="1224666218225">
-                      <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="1224666218226">
-                        <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="1224666220915">
-                          <link role="conceptDeclaration" targetNodeId="1.1169481390637" resolveInfo="DateFormatsTable" />
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626861298783">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626862082039">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626861298785">
+                    <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="930215626861298784" />
+                    <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" id="930215626861298789">
+                      <link role="label" targetNodeId="930215626861298776" resolveInfo="FormatTableName" />
+                      <node role="inputNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626861298791">
+                        <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626861298792" />
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="930215626861298793">
+                          <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="930215626861298794">
+                            <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="930215626861298795">
+                              <link role="conceptDeclaration" targetNodeId="1.1169481390637" resolveInfo="DateFormatsTable" />
+                            </node>
+                          </node>
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1224666225355">
-                    <link role="baseMethodDeclaration" targetNodeId="34.1224665497476" resolveInfo="getGeneratedConstantName" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="930215626862082043">
+                    <link role="property" targetNodeId="3.1169194664001" resolveInfo="name" />
                   </node>
                 </node>
               </node>
@@ -3970,7 +3980,7 @@
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1224664937275" />
     <node role="rootTemplateAnnotation$attribute" type="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation" id="1224664937295" />
     <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="1224664986924">
-      <property name="name" value="FORMAT_TALBE" />
+      <property name="name" value="FORMAT_TABLE" />
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1224664988972" />
       <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1224664993064">
         <link role="classifier" targetNodeId="1169550327580" resolveInfo="FormatTable" />
@@ -4003,6 +4013,7 @@
         </node>
       </node>
       <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro" id="1224665037763">
+        <link role="mappingLabel" targetNodeId="930215626861298776" resolveInfo="FormatTableName" />
         <node role="sourceNodesQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" id="1224665037764">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224665037765">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1224665050663">
@@ -4022,11 +4033,88 @@
       <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="1224665085680">
         <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="1224665085681">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1224665085682">
-            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1224665490657">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1224665513643">
-                <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="1224665490658" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1224665516271">
-                  <link role="baseMethodDeclaration" targetNodeId="34.1224665497476" resolveInfo="getGeneratedConstantName" />
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626861105012">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626861105014">
+                <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="930215626861105013" />
+                <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" id="930215626861105018">
+                  <node role="baseName" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626861105020">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626861105021" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="930215626861105022">
+                      <link role="baseMethodDeclaration" targetNodeId="34.1224665497476" resolveInfo="getGeneratedConstantName" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="staticField" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" id="930215626859988916">
+      <property name="name" value="FORMAT_TABLE" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="930215626860206684">
+        <link role="classifier" targetNodeId="48671598477852545" resolveInfo="PeriodFormatTable" />
+      </node>
+      <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="930215626859988921">
+        <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="930215626859988923">
+          <link role="baseMethodDeclaration" targetNodeId="48671598477852547" resolveInfo="PeriodFormatTable" />
+          <node role="referenceMacro$link_attribute$baseMethodDeclaration" type="jetbrains.mps.lang.generator.structure.ReferenceMacro" id="930215626859988924">
+            <node role="referentFunction" type="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent" id="930215626859988925">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626859988926">
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="930215626859988978">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859989012">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859989004">
+                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859988979">
+                        <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="930215626859988988" />
+                        <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" id="930215626859988981">
+                          <link role="label" targetNodeId="48671598477864249" resolveInfo="PeriodFormatTableClass" />
+                          <node role="inputNode" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626859988990" />
+                        </node>
+                      </node>
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="930215626859989010">
+                        <link role="link" targetNodeId="2.1068390468201" />
+                      </node>
+                    </node>
+                    <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" id="930215626859989016" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.LoopMacro" id="930215626859988937">
+        <link role="mappingLabel" targetNodeId="930215626861298776" resolveInfo="FormatTableName" />
+        <node role="sourceNodesQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" id="930215626859988938">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626859988939">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626859988940">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859988947">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859988942">
+                  <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="930215626859988941" />
+                  <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetInputModel" id="930215626859988946" />
+                </node>
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Model_RootsOperation" id="930215626859988951">
+                  <link role="concept" targetNodeId="1.48671598477850406" resolveInfo="PeriodFormatsTable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="930215626859988952" />
+      <node role="propertyMacro$property_attribute$name" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="930215626859988953">
+        <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="930215626859988954">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626859988955">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626859988956">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626861105025">
+                <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="930215626861105024" />
+                <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_CreateUniqueName" id="930215626861105029">
+                  <node role="baseName" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626861105031">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626861105032" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="930215626861105033">
+                      <link role="baseMethodDeclaration" targetNodeId="34.48671598477850435" resolveInfo="getGeneratedConstantName" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -5940,6 +6028,12 @@
   <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch" id="1379098806890585667">
     <property name="package" value="format" />
     <property name="name" value="switch_IPeriodFormat_reference" />
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="930215626860410238">
+      <link role="applicableConcept" targetNodeId="1.48671598477573965" resolveInfo="PeriodFormat" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="930215626860410240">
+        <link role="template" targetNodeId="5074955036991702210" resolveInfo="reduce_PeriodFormat_IPeriodFormat_reference" />
+      </node>
+    </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="1379098806890585668">
       <link role="applicableConcept" targetNodeId="29.34521615669325565" resolveInfo="PredefinedPeriodFormat" />
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="1379098806890585750">
@@ -6030,41 +6124,6 @@
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="48671598477852545">
     <property name="package" value="format" />
     <property name="name" value="PeriodFormatTable" />
-    <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="48671598477852552">
-      <property name="name" value="createFormatter" />
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="48671598478066020">
-        <link role="classifier" targetNodeId="4.~PeriodFormatter" resolveInfo="PeriodFormatter" />
-      </node>
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477852554">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="48671598477852555">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="48671598477852556">
-            <property name="value" value="Create datetime formatter" />
-          </node>
-          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcListMacro" id="48671598477852557">
-            <node role="sourceNodesQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" id="48671598477852558">
-              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477852559">
-                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="48671598477852560">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="48671598477852561">
-                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="48671598477852562" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="48671598477852569">
-                      <link role="link" targetNodeId="1.48671598477850408" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="48671598477852564">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="48671598477852565" />
-        </node>
-      </node>
-      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="48671598477852566">
-        <property name="name" value="formatterName" />
-        <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="48671598477852567" />
-      </node>
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="48671598477852568" />
-    </node>
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="48671598477852546" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="48671598477852547">
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="48671598477852548" />
@@ -6086,6 +6145,49 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="930215626860597324">
+      <link role="classifier" targetNodeId="37.~BasePeriodFormatTable" resolveInfo="BasePeriodFormatTable" />
+    </node>
+    <node role="method" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="930215626860597326">
+      <property name="name" value="createFormatter" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="930215626860597347" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="930215626860597328">
+        <link role="classifier" targetNodeId="4.~PeriodFormatter" resolveInfo="PeriodFormatter" />
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="930215626860597329">
+        <property name="name" value="formatterName" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="930215626860597330">
+          <link role="classifier" targetNodeId="7.~String" resolveInfo="String" />
+        </node>
+      </node>
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626860597331">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626860597338">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="930215626860597339">
+            <property name="value" value="Create period formatter" />
+          </node>
+          <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.CopySrcListMacro" id="930215626860597340">
+            <node role="sourceNodesQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery" id="930215626860597341">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626860597342">
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626860597343">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626860597344">
+                    <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626860597345" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess" id="930215626860597346">
+                      <link role="link" targetNodeId="1.48671598477850408" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="930215626860597336">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="930215626860597333" />
+        </node>
+      </node>
+      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance" id="930215626860597335">
+        <link role="annotation" targetNodeId="7.~Override" resolveInfo="Override" />
       </node>
     </node>
   </node>
@@ -6186,12 +6288,143 @@
           <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="48671598477852650" />
         </node>
         <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="48671598477852651" />
+        <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance" id="930215626859979185">
+          <link role="annotation" targetNodeId="7.~Override" resolveInfo="Override" />
+        </node>
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="48671598477852629" />
       <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="48671598477852630">
         <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="48671598477852631" />
         <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="48671598477852632" />
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477852633" />
+      </node>
+      <node role="superclass" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="930215626859979184">
+        <link role="classifier" targetNodeId="37.~BasePeriodFormatTable" resolveInfo="BasePeriodFormatTable" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="5074955036991702210">
+    <property name="package" value="format" />
+    <property name="name" value="reduce_PeriodFormat_IPeriodFormat_reference" />
+    <link role="applicableConcept" targetNodeId="1.48671598477573965" resolveInfo="PeriodFormat" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="5074955036991704390">
+      <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5074955036991704391">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5074955036991715094">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5074955036991715095">
+            <property name="name" value="i" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5074955036991715096">
+              <link role="classifier" targetNodeId="7.~Integer" resolveInfo="Integer" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5074955036991704398">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5074955036991715098">
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="930215626859988857">
+              <link role="baseMethodDeclaration" targetNodeId="37.~BasePeriodFormatTable.getFormatter(java.lang.String):org.joda.time.format.PeriodFormatter" resolveInfo="getFormatter" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="930215626859988858">
+                <property name="value" value="default" />
+                <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="930215626859988900">
+                  <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="930215626859988901">
+                    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626859988902">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626859988903">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859988905">
+                          <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626859988904" />
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="930215626859988909">
+                            <link role="property" targetNodeId="3.1169194664001" resolveInfo="name" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="operand" type="jetbrains.mps.baseLanguageInternal.structure.InternalStaticFieldReference" id="930215626859988862">
+              <property name="fieldName" value="TABLE_CONSTANT" />
+              <property name="fqClassName" value="x.y.z._FormatTable" />
+              <node role="propertyMacro$property_attribute$fqClassName" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="930215626859988863">
+                <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="930215626859988864">
+                  <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626859988865">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="930215626859988866">
+                      <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="930215626859988867">
+                        <property name="name" value="table" />
+                        <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="930215626859988868">
+                          <link role="concept" targetNodeId="1.48671598477850406" resolveInfo="PeriodFormatsTable" />
+                        </node>
+                        <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859988869">
+                          <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626859988870" />
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="930215626859988871">
+                            <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="930215626859988872">
+                              <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="930215626859988885">
+                                <link role="conceptDeclaration" targetNodeId="1.48671598477850406" resolveInfo="PeriodFormatsTable" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="930215626859988874">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="930215626859988875">
+                        <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="930215626859988876">
+                          <link role="classifier" targetNodeId="9.1169555993608" resolveInfo="DatesQueriesUtil" />
+                          <link role="variableDeclaration" targetNodeId="9.1224671086657" resolveInfo="FORMAL_TABLES_CONTAINER" />
+                        </node>
+                        <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="930215626859988877">
+                          <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859988878">
+                            <node role="operand" type="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" id="930215626859988879">
+                              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626859988880">
+                                <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="930215626859988881">
+                                  <link role="variableDeclaration" targetNodeId="930215626859988867" resolveInfo="table" />
+                                </node>
+                                <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" id="930215626859988882" />
+                              </node>
+                            </node>
+                            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="930215626859988883">
+                              <link role="baseMethodDeclaration" targetNodeId="43.~SModel.getLongName():java.lang.String" resolveInfo="getLongName" />
+                            </node>
+                          </node>
+                          <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="930215626859988884">
+                            <property name="value" value="." />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="propertyMacro$property_attribute$fieldName" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="930215626859988887">
+                <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="930215626859988888">
+                  <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="930215626859988889">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="930215626859988890">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626862278655">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626862278656">
+                          <node role="operand" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext" id="930215626862278657" />
+                          <node role="operation" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput" id="930215626862278658">
+                            <link role="label" targetNodeId="930215626861298776" resolveInfo="FormatTableName" />
+                            <node role="inputNode" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="930215626862278659">
+                              <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="930215626862278660" />
+                              <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="930215626862278661">
+                                <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="930215626862278662">
+                                  <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="930215626862278666">
+                                    <link role="conceptDeclaration" targetNodeId="1.48671598477850406" resolveInfo="PeriodFormatsTable" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="930215626862278664">
+                          <link role="property" targetNodeId="3.1169194664001" resolveInfo="name" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="930215626859988886" />
+          </node>
+        </node>
       </node>
     </node>
   </node>

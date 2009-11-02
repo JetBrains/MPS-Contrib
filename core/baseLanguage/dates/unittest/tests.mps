@@ -3239,6 +3239,20 @@
               </node>
             </node>
           </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="5074955036991687079">
+            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="5074955036991687082">
+              <property name="value" value="v1v2" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression" id="5074955036991687086">
+              <link role="format" targetNodeId="48671598478025727" resolveInfo="simple" />
+              <node role="period" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="5074955036991687084">
+                <link role="dateTimeProperty" targetNodeId="1.1172074751786" resolveInfo="month" />
+                <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="5074955036991687083">
+                  <property name="value" value="3" />
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -5150,7 +5164,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable" id="48671598478025726">
-    <property name="name" value="PeriodFormats" />
+    <property name="name" value="main_Format2" />
     <node role="periodFormat" type="jetbrains.mps.baseLanguage.dates.structure.PeriodFormat" id="48671598478025727">
       <property name="name" value="simple" />
       <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken" id="48671598478025739">

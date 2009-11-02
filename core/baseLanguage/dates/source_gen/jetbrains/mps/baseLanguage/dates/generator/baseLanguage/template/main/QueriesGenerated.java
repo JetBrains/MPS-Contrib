@@ -18,6 +18,7 @@ import jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior;
+import jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatsTable_Behavior;
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
@@ -160,11 +161,11 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1224665085681(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return DateFormatsTable_Behavior.call_getGeneratedConstantName_1224665497476(_context.getNode());
+    return _context.createUniqueName(DateFormatsTable_Behavior.call_getGeneratedConstantName_1224665497476(_context.getNode()), null);
   }
 
   public static Object propertyMacro_GetPropertyValue_1224666129941(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return DateFormatsTable_Behavior.call_getGeneratedConstantName_1224665497476(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false));
+    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false), "FormatTableName"), "name");
   }
 
   public static Object propertyMacro_GetPropertyValue_1224666133131(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -214,6 +215,23 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_779372288056451725(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return Integer.parseInt(SPropertyOperations.getString(_context.getNode(), "second"));
+  }
+
+  public static Object propertyMacro_GetPropertyValue_930215626859988864(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    SNode table = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", false, false);
+    return SNodeOperations.getModel(table).getLongName() + "." + DatesQueriesUtil.FORMAL_TABLES_CONTAINER;
+  }
+
+  public static Object propertyMacro_GetPropertyValue_930215626859988888(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", false, false), "FormatTableName"), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_930215626859988901(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_930215626859988954(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return _context.createUniqueName(PeriodFormatsTable_Behavior.call_getGeneratedConstantName_48671598477850435(_context.getNode()), null);
   }
 
   public static Object propertyMacro_GetPropertyValue_2010713081064663770(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -283,6 +301,10 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_276836602888578463(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaDurationType", false);
+  }
+
+  public static Object referenceMacro_GetReferent_930215626859988925(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "PeriodFormatTableClass"), "constructor", true)).first();
   }
 
   public static Object referenceMacro_GetReferent_1548440323223124195(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -761,15 +783,19 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "formatToken", true);
   }
 
-  public static Iterable sourceNodesQuery_48671598477852558(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return SLinkOperations.getTargets(_context.getNode(), "periodFormat", true);
-  }
-
   public static Iterable sourceNodesQuery_48671598477852667(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "token", true);
   }
 
   public static Iterable sourceNodesQuery_194163770812065813(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "formatToken", true);
+  }
+
+  public static Iterable sourceNodesQuery_930215626859988938(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SModelOperations.getRoots(_context.getInputModel(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable");
+  }
+
+  public static Iterable sourceNodesQuery_930215626860597341(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(_context.getNode(), "periodFormat", true);
   }
 }

@@ -66,5 +66,6 @@ public class Period_Test extends TestCase {
 
   public void test_format() throws Exception {
     Assert.assertEquals("3 months and 2 days", DateTimeOperations.print((DateTimeArithmetics.plus(Period.months(3), Period.days(2))), PeriodFormat.getDefault(), null));
+    Assert.assertEquals("v1v2", DateTimeOperations.print(Period.months(3), _FormatTables.MAIN__FORMAT20.getFormatter("simple"), null));
   }
 }

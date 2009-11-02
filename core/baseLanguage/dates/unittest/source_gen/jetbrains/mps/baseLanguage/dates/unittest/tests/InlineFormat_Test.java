@@ -64,7 +64,7 @@ public class InlineFormat_Test extends BaseTestCase {
 
   public void test_withTimezone() throws Exception {
     Long now1 = System.currentTimeMillis();
-    String ddd = DateTimeOperations.print(DateTimeArithmetics.minus((DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/Moscow"))), Period.hours(2)), _FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"), null);
+    String ddd = DateTimeOperations.print(DateTimeArithmetics.minus((DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/Moscow"))), Period.hours(2)), _FormatTables.MAIN_FORMAT_TABLE0.getFormatter("time"), null);
     Assert.assertEquals(ddd, DateTimeOperations.print(DateTimeOperations.convert(now1, DateTimeZone.forID("Europe/Prague")), (new InlineDateFormatter() {
       public DateTimeFormatter createFormatter() {
         DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
