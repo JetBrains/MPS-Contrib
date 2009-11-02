@@ -1638,5 +1638,31 @@
       <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7249953535157196261">
+    <property name="package" value="format.period" />
+    <property name="name" value="PeriodPropertyFormatToken" />
+    <link role="extends" targetNodeId="48671598477578848" resolveInfo="PeriodFormatToken" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7249953535157223265">
+      <property name="metaClass" value="reference" />
+      <property name="sourceCardinality" value="1" />
+      <property name="role" value="property" />
+      <link role="target" targetNodeId="2.1172074318583" resolveInfo="DateTimeProperty" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7249953535157212421">
+    <property name="package" value="format.period" />
+    <property name="name" value="PeriodReferenceFormatToken" />
+    <link role="extends" targetNodeId="48671598477578848" resolveInfo="PeriodFormatToken" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7249953535157212422">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="format" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.34521615669325562" resolveInfo="IPeriodFormat" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7249953535157212425">
+      <property name="value" value="insert period format" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
 </model>
 

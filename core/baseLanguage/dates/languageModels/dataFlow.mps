@@ -921,5 +921,21 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="7249953535157218350">
+    <property name="package" value="format.period" />
+    <link role="conceptDeclaration" targetNodeId="1.7249953535157212421" resolveInfo="PeriodReferenceFormatToken" />
+    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="7249953535157218351">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7249953535157218352">
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" id="7249953535157218353">
+          <node role="variable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7249953535157218356">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="7249953535157218355" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7249953535157218360">
+              <link role="link" targetNodeId="1.7249953535157212422" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -343,6 +343,10 @@ public class QueriesGenerated {
     return DatesQueriesUtil.getCompareType(SLinkOperations.getTarget(_context.getNode(), "operation", true));
   }
 
+  public static Object referenceMacro_GetReferent_7249953535157223342(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "property", false), "periodFormatMethod", false);
+  }
+
   public static Object referenceMacro_GetReferent_8253375325060806904(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return DatesQueriesUtil.getCompareType(_context.getNode());
   }
@@ -711,6 +715,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_6173552745501645604(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "referenceTime", true);
+  }
+
+  public static SNode sourceNodeQuery_7249953535157223256(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "format", false);
   }
 
   public static SNode sourceNodeQuery_7678715681280134991(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

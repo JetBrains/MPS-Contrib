@@ -5174,6 +5174,21 @@
         <property name="value" value="v2" />
       </node>
     </node>
+    <node role="periodFormat" type="jetbrains.mps.baseLanguage.dates.structure.PeriodFormat" id="7249953535157400024">
+      <property name="name" value="x" />
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken" id="7249953535157603017">
+        <link role="property" targetNodeId="1.1172074620250" resolveInfo="hour" />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken" id="7249953535157794978">
+        <link role="property" targetNodeId="1.1172074760743" resolveInfo="year" />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken" id="7249953535157986011">
+        <link role="format" targetNodeId="48671598478025727" resolveInfo="simple" />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodLiteralFormatToken" id="7249953535157401371">
+        <property name="value" value="done" />
+      </node>
+    </node>
   </node>
 </model>
 

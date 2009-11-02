@@ -1233,6 +1233,20 @@
         <link role="template" targetNodeId="48671598477852583" resolveInfo="reduce_PeriodFormat" />
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="7249953535157218361">
+      <property name="package" value="format.period" />
+      <link role="applicableConcept" targetNodeId="1.7249953535157212421" resolveInfo="PeriodReferenceFormatToken" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="7249953535157218363">
+        <link role="template" targetNodeId="7249953535157218364" resolveInfo="reduce_PeriodReferenceFormatToken" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="7249953535157223312">
+      <property name="package" value="format.period" />
+      <link role="applicableConcept" targetNodeId="1.7249953535157196261" resolveInfo="PeriodPropertyFormatToken" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="7249953535157223314">
+        <link role="template" targetNodeId="7249953535157223315" resolveInfo="reduce_PeriodPropertyFormatToken" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="1169550327580">
     <property name="name" value="FormatTable" />
@@ -1999,7 +2013,7 @@
               <link role="variableDeclaration" targetNodeId="1169646993419" resolveInfo="builder" />
             </node>
             <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208987574793">
-              <link role="baseMethodDeclaration" targetNodeId="4.~DateTimeFormatterBuilder.append(org.joda.time.format.DateTimePrinter):org.joda.time.format.DateTimeFormatterBuilder" resolveInfo="append" />
+              <link role="baseMethodDeclaration" targetNodeId="4.~DateTimeFormatterBuilder.append(org.joda.time.format.DateTimeFormatter):org.joda.time.format.DateTimeFormatterBuilder" resolveInfo="append" />
               <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="1173885683698">
                 <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro" id="1173885689637">
                   <link role="templateSwitch" targetNodeId="1173885209754" resolveInfo="switch_IDateFormat_reference" />
@@ -3085,7 +3099,7 @@
                                 <link role="variableDeclaration" targetNodeId="1173967759630" resolveInfo="b" />
                               </node>
                               <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1208987574584">
-                                <link role="baseMethodDeclaration" targetNodeId="7.~StringBuilder.append(java.lang.CharSequence):java.lang.StringBuilder" resolveInfo="append" />
+                                <link role="baseMethodDeclaration" targetNodeId="7.~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolveInfo="append" />
                                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1173967986964">
                                   <link role="variableDeclaration" targetNodeId="1173967969300" resolveInfo="letter" />
                                 </node>
@@ -6079,6 +6093,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="48671598477581907">
     <property name="name" value="reduce_PeriodLiteralFormatToken" />
+    <property name="package" value="format.period" />
     <link role="applicableConcept" targetNodeId="1.48671598477581889" resolveInfo="PeriodLiteralFormatToken" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="48671598477581909">
       <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477581910">
@@ -6193,6 +6208,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="48671598477852583">
     <property name="name" value="reduce_PeriodFormat" />
+    <property name="package" value="format.period" />
     <link role="applicableConcept" targetNodeId="1.48671598477573965" resolveInfo="PeriodFormat" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="48671598477852628">
       <property name="name" value="PeriodFormatTable" />
@@ -6424,6 +6440,98 @@
             </node>
             <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="930215626859988886" />
           </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="7249953535157218364">
+    <property name="name" value="reduce_PeriodReferenceFormatToken" />
+    <property name="package" value="format.period" />
+    <link role="applicableConcept" targetNodeId="1.7249953535157212421" resolveInfo="PeriodReferenceFormatToken" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="7249953535157223235">
+      <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7249953535157223236">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="7249953535157223237">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="7249953535157223238">
+            <property name="name" value="builder" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7249953535157223239">
+              <link role="classifier" targetNodeId="4.~PeriodFormatterBuilder" resolveInfo="PeriodFormatterBuilder" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7249953535157223240">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7249953535157223241">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="7249953535157223242">
+              <link role="variableDeclaration" targetNodeId="7249953535157223238" resolveInfo="builder" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="7249953535157223243">
+              <link role="baseMethodDeclaration" targetNodeId="4.~PeriodFormatterBuilder.append(org.joda.time.format.PeriodFormatter):org.joda.time.format.PeriodFormatterBuilder" resolveInfo="append" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="7249953535157223253">
+                <node role="nodeMacro$attribute" type="jetbrains.mps.lang.generator.structure.SwitchMacro" id="7249953535157223255">
+                  <link role="templateSwitch" targetNodeId="1379098806890585667" resolveInfo="switch_IPeriodFormat_reference" />
+                  <node role="sourceNodeQuery" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery" id="7249953535157223256">
+                    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7249953535157223257">
+                      <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7249953535157223258">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7249953535157223260">
+                          <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="7249953535157223259" />
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7249953535157223264">
+                            <link role="link" targetNodeId="1.7249953535157212422" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="7249953535157223252" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="7249953535157223315">
+    <property name="name" value="reduce_PeriodPropertyFormatToken" />
+    <property name="package" value="format.period" />
+    <link role="applicableConcept" targetNodeId="1.7249953535157196261" resolveInfo="PeriodPropertyFormatToken" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="7249953535157223318">
+      <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7249953535157223319">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="7249953535157223320">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="7249953535157223321">
+            <property name="name" value="builder" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7249953535157223322">
+              <link role="classifier" targetNodeId="4.~PeriodFormatterBuilder" resolveInfo="PeriodFormatterBuilder" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7249953535157223323">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7249953535157223336">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="7249953535157223325">
+              <link role="variableDeclaration" targetNodeId="7249953535157223321" resolveInfo="builder" />
+            </node>
+            <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="7249953535157223340">
+              <link role="baseMethodDeclaration" targetNodeId="4.~PeriodFormatterBuilder.appendDays():org.joda.time.format.PeriodFormatterBuilder" resolveInfo="appendDays" />
+              <node role="referenceMacro$link_attribute$baseMethodDeclaration" type="jetbrains.mps.lang.generator.structure.ReferenceMacro" id="7249953535157223341">
+                <node role="referentFunction" type="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent" id="7249953535157223342">
+                  <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7249953535157223343">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7249953535157223344">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7249953535157223351">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7249953535157223346">
+                          <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="7249953535157223345" />
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7249953535157223350">
+                            <link role="link" targetNodeId="1.7249953535157223265" />
+                          </node>
+                        </node>
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="7249953535157223355">
+                          <link role="link" targetNodeId="29.48671598476606809" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="7249953535157223335" />
         </node>
       </node>
     </node>

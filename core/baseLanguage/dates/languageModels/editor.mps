@@ -3517,5 +3517,58 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="7249953535157212426">
+    <property name="package" value="format.period" />
+    <link role="conceptDeclaration" targetNodeId="1.7249953535157212421" resolveInfo="PeriodReferenceFormatToken" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="7249953535157212428">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="7249953535157212430" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="7249953535157212431">
+        <property name="text" value="&lt;" />
+        <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="7249953535157212435">
+        <link role="relationDeclaration" targetNodeId="1.7249953535157212422" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="7249953535157212436">
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="7249953535157212438">
+            <property name="readOnly" value="true" />
+            <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+            <link role="styleClass" targetNodeId="1219659856537" resolveInfo="DateFormat" />
+          </node>
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.LayoutConstraintStyleClassItem" id="7249953535157212439">
+          <property name="layoutConstraint" value="punctuation" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="7249953535157212433">
+        <property name="text" value="&gt;" />
+        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="7249953535157223269">
+    <property name="package" value="format.period" />
+    <link role="conceptDeclaration" targetNodeId="1.7249953535157196261" resolveInfo="PeriodPropertyFormatToken" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="7249953535157223271">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="7249953535157223272" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="7249953535157223273">
+        <property name="text" value="{" />
+        <link role="styleClass" targetNodeId="48.1215087929380" resolveInfo="LeftParen" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="7249953535157223277">
+        <link role="relationDeclaration" targetNodeId="1.7249953535157223265" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="7249953535157223278">
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="7249953535157223280">
+            <property name="readOnly" value="true" />
+            <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
+            <link role="styleClass" targetNodeId="1219660122574" resolveInfo="DateProperty" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="7249953535157223276">
+        <property name="text" value="}" />
+        <link role="styleClass" targetNodeId="48.1215088010675" resolveInfo="RightParen" />
+      </node>
+    </node>
+  </node>
 </model>
 

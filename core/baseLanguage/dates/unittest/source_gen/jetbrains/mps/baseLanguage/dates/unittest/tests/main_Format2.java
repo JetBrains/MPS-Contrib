@@ -18,6 +18,14 @@ public class main_Format2 extends BasePeriodFormatTable {
       builder.appendLiteral("v2");
       return builder.toFormatter();
     }
+    if ("x".equals(formatterName)) {
+      PeriodFormatterBuilder builder = new PeriodFormatterBuilder();
+      builder.appendHours();
+      builder.appendYears();
+      builder.append(_FormatTables.MAIN__FORMAT20.getFormatter("simple"));
+      builder.appendLiteral("done");
+      return builder.toFormatter();
+    }
     return null;
   }
 }
