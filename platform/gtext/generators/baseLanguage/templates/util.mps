@@ -315,8 +315,10 @@
       <property name="name" value="optimizeItems" />
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1196171112603" />
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1196171112604">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="1196171112605">
-          <property name="value" value="inline item lists" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636453329">
+          <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636453330">
+            <property name="text" value="inline item lists" />
+          </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1196171112606">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1196171112607">
@@ -637,8 +639,10 @@
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="1196175721805">
-          <property name="value" value="concat text" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636454167">
+          <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636454168">
+            <property name="text" value="concat text" />
+          </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1196175759851">
           <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1196175759852">
@@ -832,8 +836,10 @@
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="1196177752701">
-          <property name="value" value="cast to GItemList, because all item list containers have the same name for children items - &quot;item&quot;" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636453521">
+          <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636453522">
+            <property name="text" value="cast to GItemList, because all item list containers have the same name for children items - &quot;item&quot;" />
+          </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.WhileStatement" id="1196176607040">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1196176607041">

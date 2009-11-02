@@ -176,8 +176,10 @@
         <node role="part" type="jetbrains.mps.lang.actions.structure.SimpleSideTransformMenuPart" id="1220992876614">
           <node role="handler" type="jetbrains.mps.lang.actions.structure.QueryFunction_SideTransform_Handler" id="1220992876615">
             <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1220992876616">
-              <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="1220992925981">
-                <property name="value" value=" add next attribute" />
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636453731">
+                <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636453732">
+                  <property name="text" value=" add next attribute" />
+                </node>
               </node>
               <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1220992946295">
                 <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1220992946296">

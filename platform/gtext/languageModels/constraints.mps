@@ -48,8 +48,10 @@
       </node>
       <node role="propertySetter" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertySetter" id="2560685941238418434">
         <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2560685941238418435">
-          <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="2560685941238418436">
-            <property name="value" value="R/O" />
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636453717">
+            <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636453718">
+              <property name="text" value="R/O" />
+            </node>
           </node>
         </node>
       </node>
@@ -59,8 +61,10 @@
     <link role="concept" targetNodeId="1.1211920428461" resolveInfo="GContentPlaceholder" />
     <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="1213107436025">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1213107436026">
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.RemarkStatement" id="1213107436027">
-          <property name="value" value="do not allow nested blocks" />
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.SingleLineComment" id="7376433222636454045">
+          <node role="commentPart" type="jetbrains.mps.baseLanguage.structure.TextCommentPart" id="7376433222636454046">
+            <property name="text" value="do not allow nested blocks" />
+          </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1213107436028">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1213107436029">
