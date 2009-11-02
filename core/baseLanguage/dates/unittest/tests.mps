@@ -3948,14 +3948,21 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1238683391695">
               <property name="name" value="yesterday" />
               <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238683391696" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="1239205214189">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1239206096239" />
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1239206096240">
-                  <link role="dateTimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
-                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1239206096241">
-                    <property name="value" value="1" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5074955036991669848">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="5074955036991669845">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5074955036991669846">
+                    <property name="day" value="23" />
+                    <property name="year" value="2009" />
+                    <property name="hour" value="13" />
+                    <property name="minute" value="18" />
+                    <property name="second" value="20" />
+                    <link role="month" targetNodeId="1.1194006201142" resolveInfo="July" />
+                    <node role="timezone" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression" id="5074955036991669847">
+                      <property name="timezone_id" value="UTC" />
+                    </node>
                   </node>
                 </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation" id="5074955036991669852" />
               </node>
             </node>
           </node>
@@ -4001,14 +4008,21 @@
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1238684167956">
               <property name="name" value="yesterday" />
               <node role="type" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType" id="1238684167957" />
-              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.MinusExpression" id="1239197172389">
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression" id="1238684167961" />
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1238684167959">
-                  <link role="dateTimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
-                  <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1238684167960">
-                    <property name="value" value="1" />
+              <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5074955036991669853">
+                <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="5074955036991669854">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5074955036991669855">
+                    <property name="day" value="23" />
+                    <property name="year" value="2009" />
+                    <property name="hour" value="13" />
+                    <property name="minute" value="18" />
+                    <property name="second" value="20" />
+                    <link role="month" targetNodeId="1.1194006201142" resolveInfo="July" />
+                    <node role="timezone" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression" id="5074955036991669856">
+                      <property name="timezone_id" value="UTC" />
+                    </node>
                   </node>
                 </node>
+                <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.ConvertToDateTimeOperation" id="5074955036991669857" />
               </node>
             </node>
           </node>

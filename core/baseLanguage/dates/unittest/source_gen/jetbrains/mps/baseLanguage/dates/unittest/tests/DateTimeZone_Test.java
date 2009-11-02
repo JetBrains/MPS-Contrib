@@ -9,6 +9,7 @@ import java.util.Locale;
 import org.joda.time.DateTimeZone;
 import jetbrains.mps.baseLanguage.dates.runtime.DateTimeArithmetics;
 import org.joda.time.Period;
+import org.joda.time.DateTime;
 
 public class DateTimeZone_Test extends BaseTestCase {
   public void test_londonAndMoscowShortTime() throws Exception {
@@ -22,12 +23,12 @@ public class DateTimeZone_Test extends BaseTestCase {
   }
 
   public void test_westernHemisphereTime() throws Exception {
-    Long yesterday = DateTimeArithmetics.minus(System.currentTimeMillis(), Period.days(1));
+    Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
     Assert.assertEquals(DateTimeOperations.print(yesterday, DateTimeFormat.shortTime(), null, DateTimeZone.forID("America/New_York")), DateTimeOperations.print((DateTimeArithmetics.minus(yesterday, Period.hours(11))), DateTimeFormat.shortTime(), null, DateTimeZone.forID("Asia/Bangkok")));
   }
 
   public void test_westernHemisphereDate() throws Exception {
-    Long yesterday = DateTimeArithmetics.minus(System.currentTimeMillis(), Period.days(1));
+    Long yesterday = DateTimeOperations.convert((new DateTime(2009, 7, 23, 13, 18, 20, 0, DateTimeZone.forID("UTC"))));
     Assert.assertFalse((DateTimeOperations.print(yesterday, DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("America/New_York"))).equals(DateTimeOperations.print((DateTimeArithmetics.plus(yesterday, Period.hours(22))), DateTimeFormat.fullDate(), Locale.US, DateTimeZone.forID("Asia/Bangkok"))));
   }
 
