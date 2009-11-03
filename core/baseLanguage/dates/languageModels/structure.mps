@@ -1662,6 +1662,10 @@
       <property name="name" value="minDigits" />
       <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1778677549314158601">
+      <property name="name" value="zeroHandling" />
+      <link role="dataType" targetNodeId="1778677549314158595" resolveInfo="PeriodZeroHandlingKind" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7249953535157223265">
       <property name="metaClass" value="reference" />
       <property name="sourceCardinality" value="1" />
@@ -1729,6 +1733,38 @@
       <property name="externalValue" value="right" />
       <property name="internalValue" value="ifAfter" />
       <property name="javaIdentifier" value="IFAFTER" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" id="1778677549314158595">
+    <property name="package" value="format.period" />
+    <property name="name" value="PeriodZeroHandlingKind" />
+    <property name="memberIdentifierPolicy" value="custom" />
+    <link role="memberDataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    <link role="defaultMember" targetNodeId="1778677549314158598" />
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="1778677549314158596">
+      <property name="javaIdentifier" value="ALWAYS" />
+      <property name="internalValue" value="always" />
+      <property name="externalValue" value="always" />
+    </node>
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="1778677549314158597">
+      <property name="javaIdentifier" value="IFSUPPORTED" />
+      <property name="internalValue" value="ifSupported" />
+      <property name="externalValue" value="if supported" />
+    </node>
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="1778677549314158598">
+      <property name="javaIdentifier" value="NEVER" />
+      <property name="internalValue" value="never" />
+      <property name="externalValue" value="never" />
+    </node>
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="1778677549314158599">
+      <property name="javaIdentifier" value="RARELY_FIRST" />
+      <property name="internalValue" value="rarelyFirst" />
+      <property name="externalValue" value="rarely first" />
+    </node>
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="1778677549314158600">
+      <property name="javaIdentifier" value="RARELY_LAST" />
+      <property name="internalValue" value="rarelyLast" />
+      <property name="externalValue" value="rarely last" />
     </node>
   </node>
 </model>

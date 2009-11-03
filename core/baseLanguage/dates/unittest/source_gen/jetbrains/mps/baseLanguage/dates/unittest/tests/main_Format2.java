@@ -33,6 +33,24 @@ public class main_Format2 extends BasePeriodFormatTable {
       builder.appendSuffix(" minute", " minutes");
       return builder.toFormatter();
     }
+    if ("indaysWithMinutes".equals(formatterName)) {
+      PeriodFormatterBuilder builder = new PeriodFormatterBuilder();
+      builder.minimumPrintedDigits(1);
+      builder.printZeroNever();
+      builder.appendDays();
+      builder.appendSuffix(" day", " days");
+      builder.appendSeparator(" and ");
+      builder.minimumPrintedDigits(1);
+      builder.printZeroNever();
+      builder.appendHours();
+      builder.appendSuffix(" hour", " hours");
+      builder.appendSeparator(" and ");
+      builder.minimumPrintedDigits(2);
+      builder.printZeroAlways();
+      builder.appendMinutes();
+      builder.appendSuffix(" minute", " minutes");
+      return builder.toFormatter();
+    }
     if ("indays2".equals(formatterName)) {
       PeriodFormatterBuilder builder = new PeriodFormatterBuilder();
       builder.appendDays();

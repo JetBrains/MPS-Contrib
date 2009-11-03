@@ -3624,6 +3624,33 @@
           </node>
         </node>
       </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1778677549314164983">
+        <property name="text" value="!" />
+        <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="1778677549314164984">
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1778677549314164985">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="1778677549314164986">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="1778677549314164987">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1778677549314164995">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1778677549314164990">
+                    <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="1778677549314164989" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1778677549314164994">
+                      <link role="property" targetNodeId="1.1778677549314158601" resolveInfo="zeroHandling" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.Property_HasValue_Enum" id="1778677549314164999">
+                    <node role="value" type="jetbrains.mps.lang.smodel.structure.EnumMemberReference" id="1778677549314165000">
+                      <link role="enumMember" targetNodeId="1.1778677549314158598" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="1778677549314165001">
+          <property name="flag" value="true" />
+        </node>
+      </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="7249953535157223277">
         <link role="relationDeclaration" targetNodeId="1.7249953535157223265" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="7249953535157223278">
@@ -3806,6 +3833,24 @@
           </node>
           <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5581663871703917266">
             <property name="color" value="DARK_GREEN" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="1778677549314164527">
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem" id="1778677549314164528">
+          <property name="flag" value="false" />
+        </node>
+        <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="1778677549314164530" />
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1778677549314164531">
+          <property name="text" value="zero handling policy" />
+        </node>
+        <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1778677549314164533">
+          <link role="relationDeclaration" targetNodeId="1.1778677549314158601" resolveInfo="zeroHandling" />
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="1778677549314164534">
+            <property name="style" value="BOLD" />
+          </node>
+          <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="1778677549314164535">
+            <property name="color" value="DARK_MAGENTA" />
           </node>
         </node>
       </node>

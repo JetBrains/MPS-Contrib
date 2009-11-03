@@ -25,8 +25,8 @@ import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavi
 import jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.generator.template.IfMacroContext;
-import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.baseLanguage.behavior.IOperation_Behavior;
@@ -340,6 +340,22 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false), "jodaPeriodType", false);
   }
 
+  public static Object referenceMacro_GetReferent_1778677549314164610(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    if (SPropertyOperations.hasValue(_context.getNode(), "zeroHandling", "always", "never")) {
+      return "printZeroAlways";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "zeroHandling", "ifSupported", "never")) {
+      return "printZeroIfSupported";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "zeroHandling", "rarelyFirst", "never")) {
+      return "printZeroRarelyFirst";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "zeroHandling", "rarelyLast", "never")) {
+      return "printZeroRarelyLast";
+    }
+    return "printZeroNever";
+  }
+
   public static Object referenceMacro_GetReferent_3627207017676753937(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SConceptPropertyOperations.getString(_context.getNode(), "alias");
   }
@@ -412,6 +428,15 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_1548440323223124032(final IOperationContext operationContext, final IfMacroContext _context) {
     return !(SPropertyOperations.getBoolean(_context.getNode(), "absolute"));
+  }
+
+  public static boolean ifMacro_Condition_1778677549314164568(final IOperationContext operationContext, final IfMacroContext _context) {
+    SNode container = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
+    return ListSequence.fromList(SNodeOperations.getDescendants(container, "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", false, new String[]{})).any(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return !(SPropertyOperations.hasValue(it, "zeroHandling", "never", "never"));
+      }
+    });
   }
 
   public static boolean ifMacro_Condition_2872438607476484885(final IOperationContext operationContext, final IfMacroContext _context) {

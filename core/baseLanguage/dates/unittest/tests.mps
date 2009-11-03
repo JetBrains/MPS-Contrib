@@ -3349,6 +3349,30 @@
               </node>
             </node>
           </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertEquals" id="1778677549314369275">
+            <node role="expected" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1778677549314369276">
+              <property name="value" value="3 days and 2 hours and 00 minutes" />
+            </node>
+            <node role="actual" type="jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression" id="1778677549314369277">
+              <link role="format" targetNodeId="1778677549314369268" resolveInfo="indaysWithMinutes" />
+              <node role="period" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1778677549314369278">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1778677549314369279">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1778677549314369280">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074737375" resolveInfo="day" />
+                    <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1778677549314369281">
+                      <property name="value" value="3" />
+                    </node>
+                  </node>
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.dates.structure.PeriodConstant" id="1778677549314369282">
+                    <link role="dateTimeProperty" targetNodeId="1.1172074620250" resolveInfo="hour" />
+                    <node role="count" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1778677549314369283">
+                      <property name="value" value="2" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -5299,6 +5323,33 @@
         <property name="suffix" value=" minute" />
         <property name="suffixPlural" value=" minutes" />
         <property name="minDigits" value="2" />
+        <link role="property" targetNodeId="1.1172074618358" resolveInfo="minute" />
+      </node>
+    </node>
+    <node role="periodFormat" type="jetbrains.mps.baseLanguage.dates.structure.PeriodFormat" id="1778677549314369268">
+      <property name="name" value="indaysWithMinutes" />
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken" id="1778677549314369269">
+        <property name="suffix" value=" day" />
+        <property name="minDigits" value="1" />
+        <property name="suffixPlural" value=" days" />
+        <link role="property" targetNodeId="1.1172074737375" resolveInfo="day" />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken" id="1778677549314369270">
+        <property name="text" value=" and " />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken" id="1778677549314369271">
+        <property name="suffix" value=" hour" />
+        <property name="suffixPlural" value=" hours" />
+        <link role="property" targetNodeId="1.1172074620250" resolveInfo="hour" />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodSeparatorFormatToken" id="1778677549314369272">
+        <property name="text" value=" and " />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken" id="1778677549314369273">
+        <property name="suffix" value=" minute" />
+        <property name="suffixPlural" value=" minutes" />
+        <property name="minDigits" value="2" />
+        <property name="zeroHandling" value="always" />
         <link role="property" targetNodeId="1.1172074618358" resolveInfo="minute" />
       </node>
     </node>
