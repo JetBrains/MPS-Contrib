@@ -1642,6 +1642,26 @@
     <property name="package" value="format.period" />
     <property name="name" value="PeriodPropertyFormatToken" />
     <link role="extends" targetNodeId="48671598477578848" resolveInfo="PeriodFormatToken" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871703912302">
+      <property name="name" value="prefix" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871703912303">
+      <property name="name" value="prefixPlural" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871703912304">
+      <property name="name" value="suffix" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871703912305">
+      <property name="name" value="suffixPlural" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871703912306">
+      <property name="name" value="minDigits" />
+      <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
+    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7249953535157223265">
       <property name="metaClass" value="reference" />
       <property name="sourceCardinality" value="1" />
@@ -1662,6 +1682,53 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7249953535157212425">
       <property name="value" value="insert period format" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5581663871702358898">
+    <property name="package" value="format.period" />
+    <property name="name" value="PeriodSeparatorFormatToken" />
+    <link role="extends" targetNodeId="48671598477578848" resolveInfo="PeriodFormatToken" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871702358907">
+      <property name="name" value="kind" />
+      <link role="dataType" targetNodeId="5581663871702358901" resolveInfo="PeriodSeparatorKind" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871702358899">
+      <property name="name" value="text" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5581663871702358900">
+      <property name="name" value="lastText" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5581663871702543733">
+      <property name="value" value="separator" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5581663871702543735">
+      <property name="value" value="printed only with field around" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" id="5581663871702358901">
+    <property name="package" value="format.period" />
+    <property name="name" value="PeriodSeparatorKind" />
+    <property name="memberIdentifierPolicy" value="custom" />
+    <link role="memberDataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    <link role="defaultMember" targetNodeId="5581663871702358902" />
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="5581663871702358902">
+      <property name="internalValue" value="default" />
+      <property name="externalValue" value="both" />
+      <property name="javaIdentifier" value="DEFAULT" />
+    </node>
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="5581663871702358905">
+      <property name="internalValue" value="ifBefore" />
+      <property name="externalValue" value="left" />
+      <property name="javaIdentifier" value="IFBEFORE" />
+    </node>
+    <node role="member" type="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" id="5581663871702358906">
+      <property name="externalValue" value="right" />
+      <property name="internalValue" value="ifAfter" />
+      <property name="javaIdentifier" value="IFAFTER" />
     </node>
   </node>
 </model>

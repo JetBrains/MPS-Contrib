@@ -1300,6 +1300,29 @@
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="7249953535157223281">
     <property name="package" value="format.period" />
     <link role="concept" targetNodeId="1.7249953535157196261" resolveInfo="PeriodPropertyFormatToken" />
+    <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="5581663871704304597">
+      <link role="applicableProperty" targetNodeId="1.5581663871703912306" resolveInfo="minDigits" />
+      <node role="propertyValidator" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" id="5581663871704305616">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5581663871704305617">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5581663871704305618">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="5581663871704305619">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LessThanExpression" id="5581663871704305620">
+                <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" id="5581663871704305621" />
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="5581663871704305622">
+                  <property name="value" value="20" />
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" id="5581663871704305623">
+                <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" id="5581663871704305624" />
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="5581663871704305625">
+                  <property name="value" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="7249953535157223282">
       <link role="applicableLink" targetNodeId="1.7249953535157223265" />
       <node role="presentation" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Presentation" id="7249953535157223285">

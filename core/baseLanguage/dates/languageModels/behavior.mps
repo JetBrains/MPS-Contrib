@@ -1964,5 +1964,26 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="48671598477850434" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="5581663871704498938">
+    <property name="package" value="format.period" />
+    <link role="concept" targetNodeId="1.7249953535157196261" resolveInfo="PeriodPropertyFormatToken" />
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="5581663871704498939">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5581663871704498940">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5581663871704500956">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="5581663871704500963">
+            <node role="lValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5581663871704500958">
+              <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="5581663871704500957" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="5581663871704500962">
+                <link role="property" targetNodeId="1.5581663871703912306" resolveInfo="minDigits" />
+              </node>
+            </node>
+            <node role="rValue" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="5581663871704500966">
+              <property name="value" value="1" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

@@ -25,6 +25,8 @@ import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavi
 import jetbrains.mps.baseLanguage.dates.behavior.WithPropertyCompareExpression_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
 import jetbrains.mps.generator.template.IfMacroContext;
+import org.apache.commons.lang.StringUtils;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import java.util.List;
 import jetbrains.mps.baseLanguage.behavior.IOperation_Behavior;
@@ -238,8 +240,35 @@ public class QueriesGenerated {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)).count();
   }
 
+  public static Object propertyMacro_GetPropertyValue_2872438607476484900(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "suffix");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2872438607476486224(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "prefix");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_2872438607476942807(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return (SPropertyOperations.getInteger(_context.getNode(), "minDigits") > 0 ?
+      SPropertyOperations.getInteger(_context.getNode(), "minDigits") :
+      1
+    );
+  }
+
   public static Object propertyMacro_GetPropertyValue_3394771273339691135(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return ScheduleLiteral_Behavior.call_toCronExpression_1213877270167(_context.getNode());
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5581663871702930732(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "text");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5581663871703143252(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "text");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_5581663871703143260(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "lastText");
   }
 
   public static Object propertyMacro_GetPropertyValue_7517433918793156375(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -331,6 +360,16 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "precision", false), "jodaDateTimeFieldType", false);
   }
 
+  public static Object referenceMacro_GetReferent_5581663871703143296(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    if (SPropertyOperations.hasValue(_context.getNode(), "kind", "ifBefore", "default")) {
+      return "appendSeparatorIfFieldsBefore";
+    }
+    if (SPropertyOperations.hasValue(_context.getNode(), "kind", "ifAfter", "default")) {
+      return "appendSeparatorIfFieldsAfter";
+    }
+    return "appendSeparator";
+  }
+
   public static Object referenceMacro_GetReferent_5969170299421533109(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return DatesQueriesUtil.getCompareType(_context.getNode());
   }
@@ -375,6 +414,23 @@ public class QueriesGenerated {
     return !(SPropertyOperations.getBoolean(_context.getNode(), "absolute"));
   }
 
+  public static boolean ifMacro_Condition_2872438607476484885(final IOperationContext operationContext, final IfMacroContext _context) {
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "suffix"));
+  }
+
+  public static boolean ifMacro_Condition_2872438607476486235(final IOperationContext operationContext, final IfMacroContext _context) {
+    return StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "prefix"));
+  }
+
+  public static boolean ifMacro_Condition_2872438607477349715(final IOperationContext operationContext, final IfMacroContext _context) {
+    SNode container = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
+    return ListSequence.fromList(SNodeOperations.getDescendants(container, "jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken", false, new String[]{})).any(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return SPropertyOperations.getInteger(it, "minDigits") > 1;
+      }
+    });
+  }
+
   public static boolean ifMacro_Condition_3627207017678269497(final IOperationContext operationContext, final IfMacroContext _context) {
     return !(SPropertyOperations.getBoolean(_context.getNode(), "absolute"));
   }
@@ -389,6 +445,10 @@ public class QueriesGenerated {
 
   public static boolean ifMacro_Condition_5034322243092314751(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "locale", false) != null);
+  }
+
+  public static boolean ifMacro_Condition_5581663871703143195(final IOperationContext operationContext, final IfMacroContext _context) {
+    return !(SPropertyOperations.hasValue(_context.getNode(), "kind", "default", "default") && StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "lastText")));
   }
 
   public static boolean ifMacro_Condition_7678715681280135007(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -603,6 +663,24 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_1548440323223124061(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SNodeOperations.cast(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyOperation"), "datetime", true);
+  }
+
+  public static SNode sourceNodeQuery_2872438607476484913(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    if (StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "suffixPlural"))) {
+      SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
+      SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "suffixPlural"));
+      return literal;
+    }
+    return null;
+  }
+
+  public static SNode sourceNodeQuery_2872438607476702408(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    if (StringUtils.isNotEmpty(SPropertyOperations.getString(_context.getNode(), "prefixPlural"))) {
+      SNode literal = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.StringLiteral", null);
+      SPropertyOperations.set(literal, "value", SPropertyOperations.getString(_context.getNode(), "prefixPlural"));
+      return literal;
+    }
+    return null;
   }
 
   public static SNode sourceNodeQuery_3627207017676753920(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

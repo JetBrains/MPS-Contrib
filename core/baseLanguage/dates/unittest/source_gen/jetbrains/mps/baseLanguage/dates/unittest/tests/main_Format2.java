@@ -5,7 +5,6 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 import jetbrains.mps.baseLanguage.dates.runtime.table.BasePeriodFormatTable;
 import org.joda.time.format.PeriodFormatter;
 import org.joda.time.format.PeriodFormatterBuilder;
-import org.joda.time.format.PeriodFormat;
 
 public class main_Format2 extends BasePeriodFormatTable {
   public main_Format2() {
@@ -19,13 +18,42 @@ public class main_Format2 extends BasePeriodFormatTable {
       builder.appendLiteral("v2");
       return builder.toFormatter();
     }
-    if ("x".equals(formatterName)) {
+    if ("indays".equals(formatterName)) {
       PeriodFormatterBuilder builder = new PeriodFormatterBuilder();
-      builder.appendMonths();
-      builder.appendWeeks();
-      builder.append(PeriodFormat.getDefault());
-      builder.append(_FormatTables.MAIN__FORMAT20.getFormatter("simple"));
-      builder.appendLiteral("done");
+      builder.minimumPrintedDigits(1);
+      builder.appendDays();
+      builder.appendSuffix(" day", " days");
+      builder.appendSeparator(" and ");
+      builder.minimumPrintedDigits(1);
+      builder.appendHours();
+      builder.appendSuffix(" hour", " hours");
+      builder.appendSeparator(" and ");
+      builder.minimumPrintedDigits(2);
+      builder.appendMinutes();
+      builder.appendSuffix(" minute", " minutes");
+      return builder.toFormatter();
+    }
+    if ("indays2".equals(formatterName)) {
+      PeriodFormatterBuilder builder = new PeriodFormatterBuilder();
+      builder.appendDays();
+      builder.appendSuffix(" day(s)");
+      builder.appendSeparator(" ");
+      builder.appendHours();
+      builder.appendSuffix(" hour(s)");
+      builder.appendSeparator(" ");
+      builder.appendMinutes();
+      builder.appendSuffix(" minute(s)");
+      return builder.toFormatter();
+    }
+    if ("aday".equals(formatterName)) {
+      PeriodFormatterBuilder builder = new PeriodFormatterBuilder();
+      builder.appendPrefix("Day: ", "Days: ");
+      builder.minimumPrintedDigits(1);
+      builder.appendDays();
+      builder.appendLiteral(" or ");
+      builder.appendPrefix("days number: ");
+      builder.minimumPrintedDigits(2);
+      builder.appendDays();
       return builder.toFormatter();
     }
     return null;
