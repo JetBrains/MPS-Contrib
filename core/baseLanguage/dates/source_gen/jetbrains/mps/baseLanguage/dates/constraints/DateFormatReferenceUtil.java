@@ -14,6 +14,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.smodel.search.SimpleSearchScope;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class DateFormatReferenceUtil {
   public static ISearchScope buildIDateFormatSearchScope(final SNode node, IScope scope) {
@@ -32,9 +33,22 @@ public class DateFormatReferenceUtil {
     ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
     SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.IPeriodFormat");
     List<SNode> formats = s.getNodes(new IsInstanceCondition(cd));
+    final SNode containingFormat = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.dates.structure.PeriodFormat", true, false);
     formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
       public boolean accept(SNode it) {
-        return SPropertyOperations.getBoolean(it, "isPublic") || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true);
+        return (SPropertyOperations.getBoolean(it, "isPublic") || SNodeOperations.getAncestor(it, null, false, true) == SNodeOperations.getAncestor(node, null, false, true)) && it != containingFormat;
+      }
+    }).toListSequence();
+    return new SimpleSearchScope(formats);
+  }
+
+  public static ISearchScope buildPeriodPropertySearchScope(SNode node, IScope scope) {
+    ISearchScope s = SModelSearchUtil.createModelAndImportedModelsScope(SNodeOperations.getModel(node), scope);
+    SNode cd = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty");
+    List<SNode> formats = s.getNodes(new IsInstanceCondition(cd));
+    formats = ListSequence.fromList(formats).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return (SLinkOperations.getTarget(it, "periodFormatMethod", false) != null);
       }
     }).toListSequence();
     return new SimpleSearchScope(formats);

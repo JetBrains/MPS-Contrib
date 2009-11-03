@@ -867,7 +867,6 @@
       <link role="jodaDateTimeFieldType" targetNodeId="1.~DateTimeFieldType.clockhourOfDay():org.joda.time.DateTimeFieldType" resolveInfo="clockhourOfDay" />
       <link role="jodaPeriodType" targetNodeId="1.~Period.hours(int):org.joda.time.Period" resolveInfo="hours" />
       <link role="jodaDurationType" targetNodeId="1.~DurationFieldType.hours():org.joda.time.DurationFieldType" resolveInfo="hours" />
-      <link role="periodFormatMethod" targetNodeId="4.~PeriodFormatterBuilder.appendHours():org.joda.time.format.PeriodFormatterBuilder" resolveInfo="appendHours" />
     </node>
     <node role="dateTimeProperty" type="jetbrains.mps.baseLanguage.datesInternal.structure.DateTimeProperty" id="1172074737375">
       <property name="name" value="day" />

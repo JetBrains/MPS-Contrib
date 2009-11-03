@@ -5,6 +5,7 @@ package jetbrains.mps.baseLanguage.dates.unittest.tests;
 import jetbrains.mps.baseLanguage.dates.runtime.table.BasePeriodFormatTable;
 import org.joda.time.format.PeriodFormatter;
 import org.joda.time.format.PeriodFormatterBuilder;
+import org.joda.time.format.PeriodFormat;
 
 public class main_Format2 extends BasePeriodFormatTable {
   public main_Format2() {
@@ -20,8 +21,9 @@ public class main_Format2 extends BasePeriodFormatTable {
     }
     if ("x".equals(formatterName)) {
       PeriodFormatterBuilder builder = new PeriodFormatterBuilder();
-      builder.appendHours();
-      builder.appendYears();
+      builder.appendMonths();
+      builder.appendWeeks();
+      builder.append(PeriodFormat.getDefault());
       builder.append(_FormatTables.MAIN__FORMAT20.getFormatter("simple"));
       builder.appendLiteral("done");
       return builder.toFormatter();

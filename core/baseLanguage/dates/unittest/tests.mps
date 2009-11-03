@@ -5182,11 +5182,15 @@
     </node>
     <node role="periodFormat" type="jetbrains.mps.baseLanguage.dates.structure.PeriodFormat" id="7249953535157400024">
       <property name="name" value="x" />
+      <property name="visibility" value="public" />
       <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken" id="7249953535157603017">
-        <link role="property" targetNodeId="1.1172074620250" resolveInfo="hour" />
+        <link role="property" targetNodeId="1.1172074751786" resolveInfo="month" />
       </node>
       <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodPropertyFormatToken" id="7249953535157794978">
-        <link role="property" targetNodeId="1.1172074760743" resolveInfo="year" />
+        <link role="property" targetNodeId="1.1172162485440" resolveInfo="week" />
+      </node>
+      <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken" id="5581663871701715846">
+        <link role="format" targetNodeId="1.34521615669461598" resolveInfo="defaultFormat" />
       </node>
       <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.PeriodReferenceFormatToken" id="7249953535157986011">
         <link role="format" targetNodeId="48671598478025727" resolveInfo="simple" />

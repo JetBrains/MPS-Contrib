@@ -79,13 +79,12 @@ public class PeriodPropertyFormatToken_Editor extends DefaultNodeEditor {
 
     private EditorCell createProperty_4096_0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-      provider.setRole("name");
-      provider.setNoTargetText("<no name>");
+      provider.setRole("pluralForm");
+      provider.setNoTargetText("<no pluralForm>");
       provider.setReadOnly(true);
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
-      editorCell.setCellId("property_name");
-      Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
+      editorCell.setCellId("property_pluralForm");
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();

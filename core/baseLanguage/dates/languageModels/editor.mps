@@ -33,7 +33,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590402(jetbrains.mps.baseLanguage.strings.structure)" version="9" />
-  <maxImportIndex value="56" />
+  <maxImportIndex value="57" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="28" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
@@ -46,6 +46,7 @@
   <import index="54" modelUID="f:java_stub#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
   <import index="55" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
   <import index="56" modelUID="f:java_stub#jetbrains.mps.nodeEditor(jetbrains.mps.nodeEditor@java_stub)" version="-1" />
+  <import index="57" modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" version="-1" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="1169487499058">
     <property name="package" value="format" />
     <link role="conceptDeclaration" targetNodeId="1.1169487448949" />
@@ -3557,10 +3558,9 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="7249953535157223277">
         <link role="relationDeclaration" targetNodeId="1.7249953535157223265" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="7249953535157223278">
-          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="7249953535157223280">
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="5581663871701421236">
             <property name="readOnly" value="true" />
-            <link role="relationDeclaration" targetNodeId="2.1169194664001" resolveInfo="name" />
-            <link role="styleClass" targetNodeId="1219660122574" resolveInfo="DateProperty" />
+            <link role="relationDeclaration" targetNodeId="28.1172490222219" resolveInfo="pluralForm" />
           </node>
         </node>
       </node>
