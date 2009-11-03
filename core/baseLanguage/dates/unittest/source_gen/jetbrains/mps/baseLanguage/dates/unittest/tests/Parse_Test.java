@@ -39,7 +39,7 @@ public class Parse_Test extends BaseTestCase {
   public void test_predefined() throws Exception {
     Long instant = System.currentTimeMillis();
     String fdt = DateTimeOperations.print(instant, DateTimeFormat.fullDateTime(), null, null);
-    //  the fullDateTime is not parseable (Joda apparently can't parse abbreviated time zone)
+    //  the fullDateTime is not parseable (Joda apparently can't parse abbreviated time zone) 
     Assert.assertNull(DateTimeOperations.parse(fdt, DateTimeFormat.fullDateTime(), null, null, null));
     String fd = DateTimeOperations.print(instant, DateTimeFormat.fullDate(), null, null);
     Assert.assertEquals(DateTimeOperations.parse(fd, DateTimeFormat.fullDate(), null, null, null), DateTimeOperations.roundFloor(instant, DateTimeFieldType.dayOfMonth()));
@@ -47,7 +47,7 @@ public class Parse_Test extends BaseTestCase {
 
   public void test_fullDateForPeriod() throws Exception {
     Period p = Period.weeks(2);
-    //  must specify the zone!
+    //  must specify the zone! 
     Assert.assertEquals(DateTimeOperations.parse("Thursday, January 15, 1970", DateTimeFormat.fullDate(), Locale.US, DateTimeZone.UTC, null), DateTimeOperations.convert(p));
   }
 

@@ -19,7 +19,7 @@ import org.joda.time.Period;
 
 public class InlineFormat_Test extends BaseTestCase {
   public void test_inlineFormat() throws Exception {
-    //  some tests rely on MSK time zone
+    //  some tests rely on MSK time zone 
     DateTimeZone msk = DateTimeZone.forID("Europe/Moscow");
     {
       _UnrestrictedClosures._void_void_P0_E0 __closure__ = new _UnrestrictedClosures._void_void_P0_E0(new _UnrestrictedFunctionTypes._void_void_P0_E0() {
