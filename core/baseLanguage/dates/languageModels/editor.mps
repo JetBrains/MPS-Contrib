@@ -3650,6 +3650,9 @@
         <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="1778677549314165001">
           <property name="flag" value="true" />
         </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" id="6799940379546021349">
+          <property name="color" value="yellow" />
+        </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="7249953535157223277">
         <link role="relationDeclaration" targetNodeId="1.7249953535157223265" />
