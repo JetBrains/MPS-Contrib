@@ -103,6 +103,10 @@
         <link role="classifier" targetNodeId="3.~Color" resolveInfo="Color" />
       </node>
     </node>
+    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1969840607716864734">
+      <property name="name" value="editable" />
+      <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="1969840607716864736" />
+    </node>
   </node>
   <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202465811094">
     <property name="name" value="Label" />
