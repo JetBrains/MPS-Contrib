@@ -96,10 +96,10 @@ public class UnitTestRunner extends BaseRunner {
 
   public String getClasspathString(SNode node, List<String> addictionClassPath) {
     StringBuffer buff = new StringBuffer();
-    buff.append(super.getClasspath(node));
     for (String path : addictionClassPath) {
       buff.append(path).append(BaseRunner.ps());
     }
+    buff.append(super.getClasspath(node));
     return buff.toString();
   }
 }
