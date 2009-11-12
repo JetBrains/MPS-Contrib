@@ -486,8 +486,14 @@
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="446387597135550795">
       <link role="applicableConcept" targetNodeId="2v.3856910426407529503" resolveInfo="ModelCreatorTarget" />
-      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="446387597135550804">
-        <link role="template" targetNodeId="446387597135550802" resolveInfo="reduce_ModelCreatorTarget" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="5711758102250240350">
+        <link role="template" targetNodeId="5711758102250146872" resolveInfo="reduce_ModelCreatorTarget" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="5711758102250240351">
+      <link role="applicableConcept" targetNodeId="2v.1969840607717540885" resolveInfo="ProjectCreatorTarget" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="5711758102250240353">
+        <link role="template" targetNodeId="446387597135550802" resolveInfo="reduce_ProjectCreatorTarget" />
       </node>
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="446387597135550797">
@@ -4643,9 +4649,9 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="446387597135550802">
-    <property name="name" value="reduce_ModelCreatorTarget" />
+    <property name="name" value="reduce_ProjectCreatorTarget" />
     <property name="package" value="RunConfigs.Create.Creator" />
-    <link role="applicableConcept" targetNodeId="2v.3856910426407529503" resolveInfo="ModelCreatorTarget" />
+    <link role="applicableConcept" targetNodeId="2v.1969840607717540885" resolveInfo="ProjectCreatorTarget" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="446387597135550869">
       <property name="name" value="isApplicable" />
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="446387597135550870" />
@@ -4653,11 +4659,11 @@
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="446387597135550872">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="446387597135550882">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" id="446387597135550883">
-            <node role="classType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="446387597135550889">
-              <link role="classifier" targetNodeId="5.~SModel" resolveInfo="SModel" />
-            </node>
             <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="446387597135550885">
               <link role="variableDeclaration" targetNodeId="446387597135550886" resolveInfo="element" />
+            </node>
+            <node role="classType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5711758102250240349">
+              <link role="classifier" targetNodeId="6.~MPSProject" resolveInfo="MPSProject" />
             </node>
           </node>
           <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="446387597135550888" />
@@ -4751,6 +4757,36 @@
         <property name="isFinal" value="true" />
         <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="446387597135550912">
           <link role="classifier" targetNodeId="4.~Object" resolveInfo="Object" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="5711758102250146872">
+    <property name="name" value="reduce_ModelCreatorTarget" />
+    <property name="package" value="RunConfigs.Create.Creator" />
+    <link role="applicableConcept" targetNodeId="2v.3856910426407529503" resolveInfo="ModelCreatorTarget" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="5711758102250146873">
+      <property name="name" value="isApplicable" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="5711758102250146874" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" id="5711758102250146875" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5711758102250146876">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5711758102250146877">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" id="5711758102250146878">
+            <node role="classType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5711758102250146879">
+              <link role="classifier" targetNodeId="null" resolveInfo="SModel" />
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="5711758102250146880">
+              <link role="variableDeclaration" targetNodeId="5711758102250146882" resolveInfo="element" />
+            </node>
+          </node>
+          <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="5711758102250146881" />
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="5711758102250146882">
+        <property name="name" value="element" />
+        <property name="isFinal" value="true" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5711758102250146883">
+          <link role="classifier" targetNodeId="null" resolveInfo="Object" />
         </node>
       </node>
     </node>
