@@ -4773,7 +4773,7 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5711758102250146877">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.InstanceOfExpression" id="5711758102250146878">
             <node role="classType" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5711758102250146879">
-              <link role="classifier" targetNodeId="null" resolveInfo="SModel" />
+              <link role="classifier" targetNodeId="5.~SModel" resolveInfo="SModel" />
             </node>
             <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="5711758102250146880">
               <link role="variableDeclaration" targetNodeId="5711758102250146882" resolveInfo="element" />
@@ -4786,7 +4786,7 @@
         <property name="name" value="element" />
         <property name="isFinal" value="true" />
         <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="5711758102250146883">
-          <link role="classifier" targetNodeId="null" resolveInfo="Object" />
+          <link role="classifier" targetNodeId="4.~Object" resolveInfo="Object" />
         </node>
       </node>
     </node>
