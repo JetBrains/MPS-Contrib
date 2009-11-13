@@ -32,7 +32,7 @@ public class TBaseBuilderContext {
 
   /* Buffer operations */
 
-  void initBuffer(TBuffer buffer) {
+  public void initBuffer(TBufer buffer) {
     myContents = null;
     myContentsStack = null;
     TContent rootContent = new TContent(ROOT, buffer);
@@ -42,7 +42,7 @@ public class TBaseBuilderContext {
     myBuffer = buffer;
   }
 
-  void initBuffer() {
+  public void initBuffer() {
     initBuffer(new TBuffer());
   }
 
