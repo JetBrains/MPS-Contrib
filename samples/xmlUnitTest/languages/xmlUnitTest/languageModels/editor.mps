@@ -68,8 +68,7 @@
       </node>
     </node>
   </node>
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895902d7(jetbrains.mps.baseLanguage.unitTest.structure)" />
-  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c895902d4(jetbrains.mps.baseLanguage.unitTest.editor)" />
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895902d4(jetbrains.mps.baseLanguage.unitTest.editor)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="5211164146777002726">
     <link role="conceptDeclaration" targetNodeId="1.5211164146777002721" resolveInfo="AssertXMLEquals" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5211164146777002728">
@@ -81,7 +80,7 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="5211164146777002731">
         <property name="noTargetText" value="expected" />
-        <link role="relationDeclaration" targetNodeId="2v.1171978312978" />
+        <link role="relationDeclaration" targetNodeId="1.5211164146777002724" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5211164146777002732">
         <property name="text" value="equals" />
@@ -91,10 +90,10 @@
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="5211164146777002734">
         <property name="noTargetText" value="actual" />
-        <link role="relationDeclaration" targetNodeId="2v.1171978322433" />
+        <link role="relationDeclaration" targetNodeId="1.5211164146777002723" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Component" id="5211164146777002735">
-        <link role="editorComponent" targetNodeId="3v.5168467225194540178" resolveInfo="MessageComponent" />
+        <link role="editorComponent" targetNodeId="2v.5168467225194540178" resolveInfo="MessageComponent" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5211164146777002736">
         <property name="text" value=";" />

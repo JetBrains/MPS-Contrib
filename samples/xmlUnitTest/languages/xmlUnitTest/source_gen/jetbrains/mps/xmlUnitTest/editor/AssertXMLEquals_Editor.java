@@ -76,7 +76,7 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNode_3100_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("expected");
+    provider.setRole("actual");
     provider.setNoTargetText("expected");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
@@ -93,7 +93,7 @@ public class AssertXMLEquals_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefNode_3100_1(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("actual");
+    provider.setRole("expected");
     provider.setNoTargetText("actual");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
