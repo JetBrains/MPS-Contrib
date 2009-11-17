@@ -16,6 +16,12 @@ import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.io.File;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import java.util.Set;
+import jetbrains.mps.project.IModule;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.LinkedHashSet;
 
 public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
@@ -65,7 +71,7 @@ public class UnitTestRunner extends BaseRunner {
       String[] paramList = this.splitParams(vmParams);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
-    this.addClassPath(params, this.getClasspathString(ListSequence.fromList(tests).first(), parameters.getClassPath()));
+    this.addClassPath(params, this.getClasspathString(tests, parameters.getClassPath()));
     ListSequence.fromList(params).addElement(parameters.getTestRunner());
     for (SNode test : ListSequence.fromList(tests)) {
       ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
@@ -94,12 +100,22 @@ public class UnitTestRunner extends BaseRunner {
     }
   }
 
-  public String getClasspathString(SNode node, List<String> addictionClassPath) {
+  public String getClasspathString(List<SNode> list, List<String> addictionClassPath) {
+    Set<IModule> uniqModules = SetSequence.fromSet(new HashSet<IModule>());
+    for (SNode testable : list) {
+      IModule module = SNodeOperations.getModel(testable).getModelDescriptor().getModule();
+      SetSequence.fromSet(uniqModules).addElement(module);
+    }
+    Set<String> classpath = SetSequence.fromSet(new LinkedHashSet<String>());
+    for (IModule module : uniqModules) {
+      SetSequence.fromSet(classpath).addSequence(SetSequence.fromSet(BaseRunner.getModuleClasspath(module, true)));
+    }
+    ListSequence.fromList(addictionClassPath).addSequence(SetSequence.fromSet(classpath));
+
     StringBuffer buff = new StringBuffer();
     for (String path : addictionClassPath) {
       buff.append(path).append(BaseRunner.ps());
     }
-    buff.append(super.getClasspath(node));
     return buff.toString();
   }
 }
