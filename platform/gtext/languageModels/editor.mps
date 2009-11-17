@@ -291,6 +291,7 @@
         </node>
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="1184639682643">
+        <property name="allowEmptyText" value="true" />
         <link role="relationDeclaration" targetNodeId="1.1184639664013" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1184639690723">
