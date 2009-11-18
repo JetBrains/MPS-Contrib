@@ -29,7 +29,7 @@ public class typeof_CreateRunConfigStatement_InferenceRule extends AbstractInfer
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7162284997071996041", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7162284997071996046", true), (SNode)new _Quotations.QuotationClass_24().createNode(typeCheckingContext), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequationStrong((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7162284997071996046", true), (SNode)new _Quotations.QuotationClass_27().createNode(typeCheckingContext), false, _info_12389875345);
     }
     for (SNode property : ListSequence.fromList(SLinkOperations.getTargets(statement, "property", true))) {
       {

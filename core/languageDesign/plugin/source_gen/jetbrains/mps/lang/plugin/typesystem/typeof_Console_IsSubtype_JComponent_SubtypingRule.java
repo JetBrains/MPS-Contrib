@@ -13,7 +13,7 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
   }
 
   public SNode getSubOrSuperType(SNode consoleType, TypeCheckingContext typeCheckingContext) {
-    return new _Quotations.QuotationClass_30().createNode(typeCheckingContext);
+    return new _Quotations.QuotationClass_35().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {
