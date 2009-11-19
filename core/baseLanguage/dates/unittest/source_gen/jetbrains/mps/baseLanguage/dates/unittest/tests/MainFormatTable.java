@@ -18,7 +18,7 @@ public class MainFormatTable extends BaseFormatTable {
     if ("usDayOfWeek".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
       {
-        FixedLocaleDateTimeFormatter formatter = new FixedLocaleDateTimeFormatter(_FormatTables.MAIN_FORMAT_TABLE0.getFormatter("fullDayOfWeek"), Locale.US);
+        FixedLocaleDateTimeFormatter formatter = new FixedLocaleDateTimeFormatter(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("fullDayOfWeek"), Locale.US);
         builder.append(formatter, formatter);
       }
       return builder.toFormatter();
@@ -30,9 +30,9 @@ public class MainFormatTable extends BaseFormatTable {
     }
     if ("date/time".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-      builder.append(_FormatTables.MAIN_FORMAT_TABLE0.getFormatter("date"));
+      builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"));
       builder.appendLiteral(" ");
-      builder.append(_FormatTables.MAIN_FORMAT_TABLE0.getFormatter("time"));
+      builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"));
       return builder.toFormatter();
     }
     if ("date".equals(formatterName)) {

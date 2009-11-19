@@ -16,9 +16,9 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.baseLanguage.dates.behavior.DateFormatsTable_Behavior;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.baseLanguage.dates.generator.baseLanguage.template.util.DatesQueriesUtil;
 import jetbrains.mps.baseLanguage.datesInternal.behavior.DateTimeZone_Behavior;
-import jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatsTable_Behavior;
 import jetbrains.mps.baseLanguage.dates.behavior.ScheduleLiteral_Behavior;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.baseLanguage.dates.behavior.DateTimeCompareOperation_Behavior;
@@ -163,11 +163,12 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_1224665085681(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return _context.createUniqueName(DateFormatsTable_Behavior.call_getGeneratedConstantName_1224665497476(_context.getNode()), null);
+    return DateFormatsTable_Behavior.call_getGeneratedConstantName_1224665497476(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_1224666129941(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false), "FormatTableName"), "name");
+    SNode formatsTable = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", false, false);
+    return NameUtil.toConstantName(SPropertyOperations.getString(formatsTable, "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_1224666133131(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -225,7 +226,8 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_930215626859988888(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", false, false), "FormatTableName"), "name");
+    SNode formatsTable = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodFormatsTable", false, false);
+    return NameUtil.toConstantName(SPropertyOperations.getString(formatsTable, "name"));
   }
 
   public static Object propertyMacro_GetPropertyValue_930215626859988901(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -233,7 +235,7 @@ public class QueriesGenerated {
   }
 
   public static Object propertyMacro_GetPropertyValue_930215626859988954(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return _context.createUniqueName(PeriodFormatsTable_Behavior.call_getGeneratedConstantName_48671598477850435(_context.getNode()), null);
+    return DateFormatsTable_Behavior.call_getGeneratedConstantName_1224665497476(_context.getNode());
   }
 
   public static Object propertyMacro_GetPropertyValue_2010713081064663770(final IOperationContext operationContext, final PropertyMacroContext _context) {

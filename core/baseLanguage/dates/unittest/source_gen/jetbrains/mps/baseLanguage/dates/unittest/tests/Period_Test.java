@@ -66,11 +66,11 @@ public class Period_Test extends TestCase {
 
   public void test_format() throws Exception {
     Assert.assertEquals("3 months and 2 days", DateTimeOperations.print((DateTimeArithmetics.plus(Period.months(3), Period.days(2))), PeriodFormat.getDefault(), null));
-    Assert.assertEquals("v1v2", DateTimeOperations.print(Period.months(3), _FormatTables.MAIN__FORMAT20.getFormatter("simple"), null));
-    Assert.assertEquals("3 days and 2 hours", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT20.getFormatter("indays"), null));
-    Assert.assertEquals("3 day(s) 2 hour(s)", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT20.getFormatter("indays2"), null));
-    Assert.assertEquals("Days: 3 or days number: 03", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT20.getFormatter("aday"), null));
-    Assert.assertEquals("Day: 1 or days number: 01", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(1), Period.hours(2))), _FormatTables.MAIN__FORMAT20.getFormatter("aday"), null));
-    Assert.assertEquals("3 days and 2 hours and 00 minutes", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT20.getFormatter("indaysWithMinutes"), null));
+    Assert.assertEquals("v1v2", DateTimeOperations.print(Period.months(3), _FormatTables.MAIN__FORMAT2.getFormatter("simple"), null));
+    Assert.assertEquals("3 days and 2 hours", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT2.getFormatter("indays"), null));
+    Assert.assertEquals("3 day(s) 2 hour(s)", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT2.getFormatter("indays2"), null));
+    Assert.assertEquals("Days: 3 or days number: 03", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT2.getFormatter("aday"), null));
+    Assert.assertEquals("Day: 1 or days number: 01", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(1), Period.hours(2))), _FormatTables.MAIN__FORMAT2.getFormatter("aday"), null));
+    Assert.assertEquals("3 days and 2 hours and 00 minutes", DateTimeOperations.print((DateTimeArithmetics.plus(Period.days(3), Period.hours(2))), _FormatTables.MAIN__FORMAT2.getFormatter("indaysWithMinutes"), null));
   }
 }
