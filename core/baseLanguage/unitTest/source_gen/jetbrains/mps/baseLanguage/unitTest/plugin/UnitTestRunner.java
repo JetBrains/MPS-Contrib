@@ -28,6 +28,7 @@ public class UnitTestRunner extends BaseRunner {
 
   private JUnitTestViewComponent myComponent;
   private ConfigRunParameters configParameter;
+  private ProcessBuilder processBuilder;
 
   public UnitTestRunner(JUnitTestViewComponent component) {
     this.myComponent = component;
@@ -55,6 +56,13 @@ public class UnitTestRunner extends BaseRunner {
     this.configParameter = configRunParameters;
   }
 
+  public String getCommandString() {
+    if (this.processBuilder == null) {
+      return null;
+    }
+    return this.getCommandString(this.processBuilder);
+  }
+
   private Process runTestWithParameters(TestRunParameters parameters, List<SNode> tests) {
     List<String> params = ListSequence.fromList(new ArrayList<String>());
     String workingDir = null;
@@ -80,14 +88,14 @@ public class UnitTestRunner extends BaseRunner {
       String[] paramList = this.splitParams(programParams);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
-    ProcessBuilder p = new ProcessBuilder(params);
+    this.processBuilder = new ProcessBuilder(params);
     if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
-      p.directory(new File(workingDir));
+      this.processBuilder.directory(new File(workingDir));
     }
-    this.myComponent.appendInternal(this.getCommandString(p) + "\n\n");
+    this.myComponent.appendInternal(this.getCommandString(this.processBuilder) + "\n\n");
 
     try {
-      final Process result = p.start();
+      final Process result = this.processBuilder.start();
       this.myComponent.addCloseListener(new _FunctionTypes._void_P0_E0() {
         public void invoke() {
           result.destroy();
