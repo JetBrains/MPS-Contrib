@@ -502,6 +502,13 @@
         <link role="template" targetNodeId="446387597135550799" resolveInfo="reduce_ModuleCreatorTarget" />
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="5508914264442964680">
+      <property name="package" value="Tool" />
+      <link role="applicableConcept" targetNodeId="2v.1203071677434" resolveInfo="ToolDeclaration" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="5508914264442964682">
+        <link role="template" targetNodeId="5508914264442964683" resolveInfo="reduce_ToolDeclaration" />
+      </node>
+    </node>
   </node>
   <visible index="5" modelUID="f:java_stub#jetbrains.mps.plugins(jetbrains.mps.plugins@java_stub)" />
   <visible index="6" modelUID="f:java_stub#jetbrains.mps.generator.template(jetbrains.mps.generator.template@java_stub)" />
@@ -4790,6 +4797,11 @@
         </node>
       </node>
     </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="5508914264442964683">
+    <property name="name" value="reduce_ToolDeclaration" />
+    <link role="applicableConcept" targetNodeId="2v.1203071677434" resolveInfo="ToolDeclaration" />
+    <node role="contentNode" type="jetbrains.mps.lang.core.structure.BaseConcept" id="5508914264442964684" />
   </node>
 </model>
 
