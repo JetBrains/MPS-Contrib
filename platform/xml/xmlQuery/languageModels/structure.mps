@@ -49,6 +49,7 @@
   <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4815471077468621634">
     <property name="name" value="AccessChildOperation" />
     <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
@@ -58,8 +59,11 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2.1167838236835" resolveInfo="ElementDeclaration" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1211753978541804873">
+      <property name="value" value="access child operation" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+    </node>
   </node>
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4815471077468621637">
     <property name="name" value="XMLNodeType" />
     <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
