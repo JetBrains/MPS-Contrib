@@ -4,6 +4,7 @@
   <refactoringHistory />
   <language namespace="a8fdde77-2e6c-41f6-ac79-8e9b6449c271(jetbrains.mps.xmlQuery)" />
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
@@ -29,10 +30,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
+  <languageAspect modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="1" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="3" />
-  <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="-1" />
+  <maxImportIndex value="4" />
+  <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
+  <import index="4" modelUID="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="4815471077468675525">
     <link role="conceptDeclaration" targetNodeId="1.4815471077468621634" resolveInfo="GetChildOperation" />
@@ -43,6 +46,21 @@
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="4815471077468703762">
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="2v.1169194664001" resolveInfo="name" />
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="4991903842868554311">
+              <property name="style" value="BOLD" />
+            </node>
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="4991903842868554313">
+              <node role="query" type="jetbrains.mps.lang.editor.structure.QueryFunction_Color" id="4991903842868554314">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868554315">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4991903842868554316">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="4991903842868554317">
+                      <link role="classifier" targetNodeId="4.1178296794013" resolveInfo="XmlColorConstants" />
+                      <link role="variableDeclaration" targetNodeId="4.1178296808264" resolveInfo="XML_COLOR" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
@@ -85,6 +103,42 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="4815471077468675543">
         <property name="text" value="&gt;" />
         <link role="styleClass" targetNodeId="3v.1215088010675" resolveInfo="RightParen" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="4991903842868351360">
+    <link role="conceptDeclaration" targetNodeId="1.4991903842868303816" resolveInfo="XMLNodeOperation" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Error" id="4991903842868351362">
+      <property name="text" value="&lt;abstract operation&gt;" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="4991903842868445304">
+    <link role="conceptDeclaration" targetNodeId="1.4991903842868445303" resolveInfo="AccessAttributeOperation" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="4991903842868445306">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="4991903842868445308" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="4991903842868445353">
+        <link role="relationDeclaration" targetNodeId="1.4991903842868445309" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="4991903842868445354">
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="4991903842868445356">
+            <property name="readOnly" value="true" />
+            <link role="relationDeclaration" targetNodeId="2.1167698115100" resolveInfo="attributeName" />
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="4991903842868554319">
+              <property name="style" value="BOLD_ITALIC" />
+            </node>
+            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="4991903842868554320">
+              <node role="query" type="jetbrains.mps.lang.editor.structure.QueryFunction_Color" id="4991903842868554321">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868554322">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4991903842868554323">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="4991903842868554324">
+                      <link role="classifier" targetNodeId="4.1178296794013" resolveInfo="XmlColorConstants" />
+                      <link role="variableDeclaration" targetNodeId="4.1178296808264" resolveInfo="XML_COLOR" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
