@@ -92,7 +92,6 @@ public class UnitTestRunner extends BaseRunner {
     if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
       this.processBuilder.directory(new File(workingDir));
     }
-    this.myComponent.appendInternal(this.getCommandString(this.processBuilder) + "\n\n");
 
     try {
       final Process result = this.processBuilder.start();
