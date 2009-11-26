@@ -28,22 +28,14 @@ public class MakeTypeExpressionListVertical_Intention extends BaseIntention {
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
-    return "Make typeExpressionList Vertical";
-  }
-
-  public boolean isApplicable(final SNode node, final EditorContext editorContext) {
-    if (!(this.isApplicableToNode(node, editorContext))) {
-      return false;
-    }
-    return true;
-  }
-
-  public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return !(SPropertyOperations.getBoolean(node, "isVertical"));
+    return (SPropertyOperations.getBoolean(node, "isVertical") ?
+      "Make type expression list horizontal" :
+      "Make type expression list vertical"
+    );
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
-    SPropertyOperations.set(node, "isVertical", "" + (true));
+    SPropertyOperations.set(node, "isVertical", "" + !(SPropertyOperations.getBoolean(node, "isVertical")));
   }
 
   public String getLocationString() {
