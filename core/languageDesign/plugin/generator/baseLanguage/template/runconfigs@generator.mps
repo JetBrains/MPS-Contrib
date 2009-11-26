@@ -4487,6 +4487,7 @@
       <property name="name" value="createConfig" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="7559322914920376244">
         <property name="name" value="parameter" />
+        <property name="isFinal" value="true" />
         <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7559322914920376248">
           <link role="classifier" targetNodeId="22.1206099429727" resolveInfo="A" />
           <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="7559322914920376250">
