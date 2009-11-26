@@ -37,6 +37,7 @@
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration" id="1195647346726">
     <property name="name" value="MakeTypeExpressionListVertical" />
     <property name="isErrorIntention" value="false" />
+    <property name="isAvailableInChildNodes" value="true" />
     <link role="forConcept" targetNodeId="1.1167795596947" resolveInfo="TypeExpressionList" />
     <node role="descriptionFunction" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock" id="1195647346780">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1195647346781">

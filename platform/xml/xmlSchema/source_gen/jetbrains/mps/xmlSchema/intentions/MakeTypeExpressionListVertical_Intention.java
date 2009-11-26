@@ -24,7 +24,7 @@ public class MakeTypeExpressionListVertical_Intention extends BaseIntention {
   }
 
   public boolean isAvailableInChildNodes() {
-    return false;
+    return true;
   }
 
   public String getDescription(final SNode node, final EditorContext editorContext) {
