@@ -125,6 +125,33 @@
           </node>
         </node>
       </node>
+      <node role="referentSetHandler" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSetHandler" id="3096351618092932125">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3096351618092932126" />
+      </node>
+    </node>
+    <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="3096351618093111304">
+      <link role="applicableLink" targetNodeId="1.4815471077468621639" />
+      <node role="referentSetHandler" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSetHandler" id="3096351618093111305">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3096351618093111306">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.AssertStatement" id="3096351618093111307">
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="3096351618093111308">
+              <node role="rightExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_newReferentNode" id="3096351618093111309" />
+              <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_oldReferentNode" id="3096351618093111310" />
+            </node>
+          </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3096351618093111311">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="3096351618093111312">
+              <node role="rValue" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="3096351618093111313" />
+              <node role="lValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3096351618093111314">
+                <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_referenceNode" id="3096351618093111315" />
+                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="3096351618093111316">
+                  <link role="link" targetNodeId="1.4815471077468621640" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
