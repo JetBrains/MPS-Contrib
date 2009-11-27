@@ -2943,14 +2943,6 @@
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="7188670272547474302">
-          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="7188670272547474303">
-            <property name="name" value="s" />
-            <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="7188670272547474304">
-              <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="7188670272547474306" />
-            </node>
-          </node>
-        </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2341233264267947423">
           <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050744117">
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="2341233264267947425">
@@ -2962,12 +2954,22 @@
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3865540407050744122">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050744124">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3865540407050744123">
-              <link role="variableDeclaration" targetNodeId="3096351618092919987" resolveInfo="xxx" />
-            </node>
-            <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessChildOperation" id="3865540407050744129">
-              <link role="elementDeclaration" targetNodeId="3096351618092919916" resolveInfo="models" />
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="3865540407050776367">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.CastExpression" id="3865540407050776368">
+              <node role="expression" type="jetbrains.mps.baseLanguage.collections.structure.ListElementAccessExpression" id="3865540407050776369">
+                <node role="index" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="3865540407050776370">
+                  <property name="value" value="0" />
+                </node>
+                <node role="list" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050776371">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3865540407050776372">
+                    <link role="variableDeclaration" targetNodeId="3096351618092919987" resolveInfo="xxx" />
+                  </node>
+                  <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessChildOperation" id="3865540407050776373">
+                    <link role="elementDeclaration" targetNodeId="3096351618092919916" resolveInfo="models" />
+                  </node>
+                </node>
+              </node>
+              <node role="type" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="3865540407050776377" />
             </node>
           </node>
         </node>
@@ -2993,6 +2995,14 @@
                 <property name="value" value="someChild" />
               </node>
             </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3865540407050776006">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050776014">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3865540407050776013">
+              <link role="variableDeclaration" targetNodeId="3096351618092919987" resolveInfo="xxx" />
+            </node>
+            <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessTextOperation" id="3865540407050776018" />
           </node>
         </node>
       </node>

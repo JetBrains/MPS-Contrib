@@ -138,6 +138,12 @@
         </node>
       </node>
     </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="3865540407050744312">
+      <link role="applicableConcept" targetNodeId="1.4203809819610731778" resolveInfo="AccessTextOperation" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="3865540407050746138">
+        <link role="template" targetNodeId="3865540407050744314" resolveInfo="reduce_AccessTextOperation" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="2341233264267760847">
     <property name="name" value="reduce_AccessArbitraryChildOperation" />
@@ -267,6 +273,39 @@
                   </node>
                 </node>
                 <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="3865540407050586212" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="3865540407050744314">
+    <property name="name" value="reduce_AccessTextOperation" />
+    <link role="applicableConcept" targetNodeId="1.4203809819610731778" resolveInfo="AccessTextOperation" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="3865540407050744315">
+      <property name="name" value="someMethod" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="3865540407050744316" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3865540407050744317">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="3865540407050744318">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="3865540407050744319">
+            <property name="name" value="e" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="3865540407050744320">
+              <link role="classifier" targetNodeId="4.~Element" resolveInfo="Element" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="3865540407050744918">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="3865540407050744919">
+            <property name="name" value="text" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="3865540407050744920" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050744923">
+              <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3865540407050744922">
+                <link role="variableDeclaration" targetNodeId="3865540407050744319" resolveInfo="e" />
+              </node>
+              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="3865540407050746135">
+                <link role="baseMethodDeclaration" targetNodeId="4.~Element.getText():java.lang.String" resolveInfo="getText" />
+                <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="3865540407050746136" />
               </node>
             </node>
           </node>
