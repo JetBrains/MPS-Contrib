@@ -5,7 +5,6 @@
   <language namespace="a8fdde77-2e6c-41f6-ac79-8e9b6449c271(jetbrains.mps.xmlQuery)" />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
-  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902fb(jetbrains.mps.lang.smodel.constraints)" version="21" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
@@ -28,12 +27,11 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="6" />
+  <maxImportIndex value="8" />
   <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
-  <import index="5" modelUID="r:00000000-0000-4000-0000-011c8959058c(jetbrains.mps.webr.xml.sandbox)" version="-1" />
-  <import index="6" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
+  <import index="8" modelUID="r:00000000-0000-4000-0000-011c8959058c(jetbrains.mps.webr.xml.sandbox)" version="-1" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="4991903842868198512">
     <property name="name" value="typeof_AccessChildOperation" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868198513">
@@ -142,8 +140,8 @@
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="7129398160684691408">
           <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="7129398160684691409">
             <node role="quotedNode" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="7129398160684718930">
-              <link role="complexType" targetNodeId="5.3096351618092919948" />
-              <link role="schema" targetNodeId="5.3096351618092772314" resolveInfo="MPS solution schema" />
+              <link role="complexType" targetNodeId="8.3096351618092919948" />
+              <link role="schema" targetNodeId="8.3096351618092772314" resolveInfo="MPS solution schema" />
               <node role="referenceAntiquotation$link_attribute$schema" type="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" id="7129398160684718931">
                 <node role="expression" type="jetbrains.mps.lang.typesystem.structure.TypeVarReference" id="7129398160684718932">
                   <link role="typeVarDeclaration" targetNodeId="4991903842868220605" resolveInfo="schema" />
@@ -170,7 +168,7 @@
           <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="7129398160684691433">
             <node role="quotedNode" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="7129398160684691434">
               <node role="elementType" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="7129398160684906863">
-                <link role="schema" targetNodeId="5.3096351618092772314" resolveInfo="MPS solution schema" />
+                <link role="schema" targetNodeId="8.3096351618092772314" resolveInfo="MPS solution schema" />
                 <node role="referenceAntiquotation$link_attribute$schema" type="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" id="7129398160684906864">
                   <node role="expression" type="jetbrains.mps.lang.typesystem.structure.TypeVarReference" id="7129398160684906865">
                     <link role="typeVarDeclaration" targetNodeId="4991903842868220605" resolveInfo="schema" />
