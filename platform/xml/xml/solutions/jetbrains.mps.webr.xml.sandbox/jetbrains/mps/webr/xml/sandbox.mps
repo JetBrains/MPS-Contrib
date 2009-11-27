@@ -2939,7 +2939,7 @@
             <property name="name" value="xxx" />
             <node role="type" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="3096351618092919988">
               <link role="schema" targetNodeId="3096351618092772314" resolveInfo="MPS solution schema" />
-              <link role="complexType" targetNodeId="3096351618092919948" />
+              <link role="complexType" targetNodeId="3096351618092772340" />
             </node>
           </node>
         </node>
@@ -2952,13 +2952,45 @@
           </node>
         </node>
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="2341233264267947423">
-          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2341233264268045391">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050744117">
             <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="2341233264267947425">
               <link role="variableDeclaration" targetNodeId="3096351618092919987" resolveInfo="xxx" />
             </node>
-            <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation" id="2341233264268045396">
-              <node role="childNameExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="2341233264268045399">
-                <property name="value" value="abc" />
+            <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessAttributeOperation" id="3865540407050744121">
+              <link role="attributeDeclaration" targetNodeId="3096351618092840283" resolveInfo="name" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3865540407050744122">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050744124">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3865540407050744123">
+              <link role="variableDeclaration" targetNodeId="3096351618092919987" resolveInfo="xxx" />
+            </node>
+            <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessChildOperation" id="3865540407050744129">
+              <link role="elementDeclaration" targetNodeId="3096351618092919916" resolveInfo="models" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3865540407050744135">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050744137">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3865540407050744136">
+              <link role="variableDeclaration" targetNodeId="3096351618092919987" resolveInfo="xxx" />
+            </node>
+            <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessArbitraryAttributeOperation" id="3865540407050744141">
+              <node role="attributeNameExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="3865540407050744143">
+                <property name="value" value="someAttr" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3865540407050744145">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050744147">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3865540407050744146">
+              <link role="variableDeclaration" targetNodeId="3096351618092919987" resolveInfo="xxx" />
+            </node>
+            <node role="operation" type="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation" id="3865540407050744151">
+              <node role="childNameExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="3865540407050744153">
+                <property name="value" value="someChild" />
               </node>
             </node>
           </node>
