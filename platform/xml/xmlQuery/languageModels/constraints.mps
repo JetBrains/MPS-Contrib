@@ -227,6 +227,23 @@
               </node>
             </node>
           </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="2341233264267687136">
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2341233264267687137">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="2341233264267687145">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="2341233264267687148">
+                  <node role="creator" type="jetbrains.mps.lang.smodel.structure.SNodeListCreator" id="2341233264267693797">
+                    <node role="createdType" type="jetbrains.mps.lang.smodel.structure.SNodeListType" id="2341233264267693798" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="2341233264267687141">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="2341233264267687144" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="2341233264267687140">
+                <link role="variableDeclaration" targetNodeId="3129600724328900185" resolveInfo="complexType" />
+              </node>
+            </node>
+          </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="3129600724328918847">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="3129600724328918848">
               <property name="name" value="elementDeclaration" />
