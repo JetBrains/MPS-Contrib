@@ -10,6 +10,6 @@ public class ElementWithType_Behavior {
   }
 
   public static SNode virtual_getComplexType_1213877429806(SNode thisNode) {
-    return SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "complexTypeReference", true), "complextType", false);
+    return SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "complexTypeReference", true), "complexType", false);
   }
 }

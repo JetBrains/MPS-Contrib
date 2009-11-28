@@ -294,6 +294,16 @@
         </entry>
       </conceptFeatureMap>
     </refactoringContext>
+    <refactoringContext modelVersion="2">
+      <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameLink" />
+      <moveMap />
+      <conceptFeatureMap>
+        <entry>
+          <key featureName="complextType" conceptFQName="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" featureKind="REFERENCE" />
+          <value featureName="complexType" conceptFQName="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" featureKind="REFERENCE" />
+        </entry>
+      </conceptFeatureMap>
+    </refactoringContext>
   </refactoringHistory>
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
@@ -312,7 +322,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959058f(jetbrains.mps.xmlInternal.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903e4(jetbrains.mps.internal.collections.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <maxImportIndex value="5" />
@@ -620,7 +630,7 @@
     <property name="name" value="ComplexTypeReference" />
     <link role="extends" targetNodeId="1.1133920641626" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1167790582664">
-      <property name="role" value="complextType" />
+      <property name="role" value="complexType" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="1167615791597" resolveInfo="ComplexType" />
     </node>

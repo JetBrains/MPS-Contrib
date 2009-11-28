@@ -19,7 +19,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="1" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
@@ -920,7 +920,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832294">
-                  <link role="complextType" targetNodeId="4815471077468832113" resolveInfo="Block" />
+                  <link role="complexType" targetNodeId="4815471077468832113" resolveInfo="Block" />
                 </node>
               </node>
             </node>
@@ -940,7 +940,7 @@
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.ComplexContent" id="4815471077468832301">
               <node role="contentItem" type="jetbrains.mps.xmlSchema.structure.Extension" id="4815471077468832302">
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832303">
-                  <link role="complextType" targetNodeId="4815471077468832113" resolveInfo="Block" />
+                  <link role="complexType" targetNodeId="4815471077468832113" resolveInfo="Block" />
                 </node>
                 <node role="typeExpressionList" type="jetbrains.mps.xmlSchema.structure.TypeExpressionList" id="4815471077468832304">
                   <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" id="4815471077468832305">
@@ -965,7 +965,7 @@
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.ComplexContent" id="4815471077468832311">
               <node role="contentItem" type="jetbrains.mps.xmlSchema.structure.Extension" id="4815471077468832312">
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832313">
-                  <link role="complextType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
+                  <link role="complexType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
                 </node>
                 <node role="typeExpressionList" type="jetbrains.mps.xmlSchema.structure.TypeExpressionList" id="4815471077468832314">
                   <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" id="4815471077468832315">
@@ -995,7 +995,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832326">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1017,7 +1017,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832336">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1037,7 +1037,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832345">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1057,7 +1057,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832354">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1077,7 +1077,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832363">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1097,7 +1097,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832372">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1117,7 +1117,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832381">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1179,7 +1179,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832407">
-                  <link role="complextType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
+                  <link role="complexType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
                 </node>
               </node>
             </node>
@@ -1223,7 +1223,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832427">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1243,7 +1243,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832436">
-                  <link role="complextType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
+                  <link role="complexType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
                 </node>
               </node>
             </node>
@@ -1271,7 +1271,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832448">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1311,7 +1311,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832465">
-                  <link role="complextType" targetNodeId="4815471077468832147" resolveInfo="pre.content" />
+                  <link role="complexType" targetNodeId="4815471077468832147" resolveInfo="pre.content" />
                 </node>
               </node>
             </node>
@@ -1339,7 +1339,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832477">
-                  <link role="complextType" targetNodeId="4815471077468832113" resolveInfo="Block" />
+                  <link role="complexType" targetNodeId="4815471077468832113" resolveInfo="Block" />
                 </node>
               </node>
             </node>
@@ -1370,7 +1370,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832490">
-                  <link role="complextType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
+                  <link role="complexType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
                 </node>
               </node>
             </node>
@@ -1396,7 +1396,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832501">
-                  <link role="complextType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
+                  <link role="complexType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
                 </node>
               </node>
             </node>
@@ -1455,7 +1455,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832523">
-                  <link role="complextType" targetNodeId="4815471077468832135" resolveInfo="a.content" />
+                  <link role="complexType" targetNodeId="4815471077468832135" resolveInfo="a.content" />
                 </node>
               </node>
             </node>
@@ -1480,7 +1480,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832534">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1509,7 +1509,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832546">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1539,7 +1539,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832559">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1559,7 +1559,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832568">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1579,7 +1579,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832577">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1599,7 +1599,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832586">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1619,7 +1619,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832595">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1639,7 +1639,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832604">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1659,7 +1659,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832613">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1679,7 +1679,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832622">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1699,7 +1699,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832631">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1719,7 +1719,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832640">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1739,7 +1739,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832649">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1759,7 +1759,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832658">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1779,7 +1779,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832667">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1799,7 +1799,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832676">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1819,7 +1819,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832685">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1839,7 +1839,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832694">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1859,7 +1859,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832703">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -1879,7 +1879,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832712">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -2245,7 +2245,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832851">
-                  <link role="complextType" targetNodeId="4815471077468832160" resolveInfo="form.content" />
+                  <link role="complexType" targetNodeId="4815471077468832160" resolveInfo="form.content" />
                 </node>
               </node>
             </node>
@@ -2276,7 +2276,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832863">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -2529,7 +2529,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832960">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -2565,7 +2565,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468832974">
-                  <link role="complextType" targetNodeId="4815471077468832168" resolveInfo="button.content" />
+                  <link role="complexType" targetNodeId="4815471077468832168" resolveInfo="button.content" />
                 </node>
               </node>
             </node>
@@ -2673,7 +2673,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468833015">
-                  <link role="complextType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
+                  <link role="complexType" targetNodeId="4815471077468832070" resolveInfo="Inline" />
                 </node>
               </node>
             </node>
@@ -2867,7 +2867,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468833090">
-                  <link role="complextType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
+                  <link role="complexType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
                 </node>
               </node>
             </node>
@@ -2914,7 +2914,7 @@
                   </node>
                 </node>
                 <node role="complexTypeReference" type="jetbrains.mps.xmlSchema.structure.ComplexTypeReference" id="4815471077468833108">
-                  <link role="complextType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
+                  <link role="complexType" targetNodeId="4815471077468832122" resolveInfo="Flow" />
                 </node>
               </node>
             </node>

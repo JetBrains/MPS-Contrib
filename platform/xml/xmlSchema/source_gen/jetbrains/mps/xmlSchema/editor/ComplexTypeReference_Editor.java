@@ -31,8 +31,8 @@ public class ComplexTypeReference_Editor extends DefaultNodeEditor {
 
   private EditorCell createRefCell_6603_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("complextType");
-    provider.setNoTargetText("<no complextType>");
+    provider.setRole("complexType");
+    provider.setNoTargetText("<no complexType>");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new ComplexTypeReference_Editor._Inline6603_0());
     editorCell = provider.createEditorCell(editorContext);
