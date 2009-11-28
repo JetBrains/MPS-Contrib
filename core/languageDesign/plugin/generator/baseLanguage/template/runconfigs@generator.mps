@@ -40,7 +40,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590345(jetbrains.mps.lang.pattern.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
-  <maxImportIndex value="36" />
+  <maxImportIndex value="37" />
   <import index="2" modelUID="f:java_stub#com.intellij.execution.configurations(com.intellij.execution.configurations@java_stub)" version="-1" />
   <import index="3" modelUID="f:java_stub#jetbrains.mps.ide.icons(jetbrains.mps.ide.icons@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
@@ -74,6 +74,7 @@
   <import index="34" modelUID="f:java_stub#java.nio.charset(java.nio.charset@java_stub)" version="-1" />
   <import index="35" modelUID="f:java_stub#com.intellij.execution.impl(com.intellij.execution.impl@java_stub)" version="-1" />
   <import index="36" modelUID="f:java_stub#jetbrains.mps.workbench(jetbrains.mps.workbench@java_stub)" version="-1" />
+  <import index="37" modelUID="r:af5efca5-3385-45cc-9441-f2124214c2e2(jetbrains.mps.debug)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590373(jetbrains.mps.baseLanguage.classifiers.structure)" />
   <visible index="4" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
@@ -1965,15 +1966,11 @@
                         <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="6483235410534828679">
                           <link role="classifier" targetNodeId="35.~ConsoleViewImpl" resolveInfo="ConsoleViewImpl" />
                         </node>
-                        <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="6483235410534828676">
-                          <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="6483235410534829737">
-                            <link role="baseMethodDeclaration" targetNodeId="35.~ConsoleViewImpl.&lt;init&gt;(com.intellij.openapi.project.Project,boolean)" resolveInfo="ConsoleViewImpl" />
-                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="6483235410534834514">
-                              <link role="variableDeclaration" targetNodeId="6483235410534834506" resolveInfo="project" />
-                            </node>
-                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="6483235410534830752">
-                              <property name="value" value="false" />
-                            </node>
+                        <node role="initializer" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="5480079629709898076">
+                          <link role="baseMethodDeclaration" targetNodeId="37.1412418657078202477" resolveInfo="createConsoleView" />
+                          <link role="classConcept" targetNodeId="37.4494976841093370953" resolveInfo="StacktraceUtil" />
+                          <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5480079629709898077">
+                            <link role="variableDeclaration" targetNodeId="6483235410534834506" resolveInfo="project" />
                           </node>
                         </node>
                       </node>
