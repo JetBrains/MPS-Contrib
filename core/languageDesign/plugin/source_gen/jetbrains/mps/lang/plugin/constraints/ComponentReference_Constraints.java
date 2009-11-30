@@ -8,6 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ComponentReference_Constraints {
   public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
-    return (SNodeOperations.getAncestorWhereConceptInList(_context.getParentNode(), new String[]{"jetbrains.mps.lang.plugin.structure.ApplyEditorBlock","jetbrains.mps.lang.plugin.structure.ResetEditorBlock"}, false, false) != null);
+    return (SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration", false, false) != null);
   }
 }
