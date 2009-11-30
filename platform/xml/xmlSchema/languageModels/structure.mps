@@ -828,6 +828,10 @@
       <property name="value" value="string" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5496586556363462747">
+      <property name="name" value="defaultValue" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5496586556363185392">
     <property name="name" value="SchemaType" />
@@ -843,10 +847,18 @@
       <property name="value" value="integer" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5496586556363463999">
+      <property name="name" value="defaultValue" />
+      <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5496586556363185398">
     <property name="name" value="BooleanSchemaType" />
     <link role="extends" targetNodeId="5496586556363185392" resolveInfo="SchemaType" />
+    <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5496586556363449135">
+      <property name="name" value="defaultValue" />
+      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5496586556363185401">
       <property name="value" value="boolean" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />

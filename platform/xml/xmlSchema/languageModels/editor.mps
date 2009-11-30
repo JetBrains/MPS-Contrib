@@ -984,5 +984,83 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="5496586556363449136">
+    <link role="conceptDeclaration" targetNodeId="1.5496586556363185398" resolveInfo="BooleanSchemaType" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5496586556363449138">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="5496586556363449139" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="5496586556363449140">
+        <link role="relationDeclaration" targetNodeId="2v.1156235010670" resolveInfo="alias" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5496586556363449141">
+          <property name="color" value="DARK_MAGENTA" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5496586556363462736">
+        <property name="text" value="=" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="5496586556363462738">
+        <link role="relationDeclaration" targetNodeId="1.5496586556363449135" resolveInfo="defaultValue" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="5496586556363462739">
+    <link role="conceptDeclaration" targetNodeId="1.5496586556363185391" resolveInfo="StringSchemaType" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5496586556363462741">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="5496586556363462742" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="5496586556363462743">
+        <link role="relationDeclaration" targetNodeId="2v.1156235010670" resolveInfo="alias" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5496586556363462744">
+          <property name="color" value="DARK_MAGENTA" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5496586556363462745">
+        <property name="text" value="=" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5496586556363462749">
+        <property name="text" value="&quot;" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" id="5496586556363463992">
+          <property name="flag" value="true" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5496586556363463996">
+          <property name="color" value="DARK_GREEN" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="5496586556363462746">
+        <property name="attractsFocus" value="1" />
+        <property name="emptyNoTargetText" value="true" />
+        <property name="allowEmptyText" value="true" />
+        <link role="relationDeclaration" targetNodeId="1.5496586556363462747" resolveInfo="default" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5496586556363463997">
+          <property name="color" value="DARK_GREEN" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5496586556363463991">
+        <property name="text" value="&quot;" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.PunctuationLeftStyleClassItem" id="5496586556363463993">
+          <property name="flag" value="true" />
+        </node>
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5496586556363463998">
+          <property name="color" value="DARK_GREEN" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="5496586556363464000">
+    <link role="conceptDeclaration" targetNodeId="1.5496586556363185396" resolveInfo="IntegerSchemaType" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5496586556363464002">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="5496586556363464003" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="5496586556363464004">
+        <link role="relationDeclaration" targetNodeId="2v.1156235010670" resolveInfo="alias" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5496586556363464005">
+          <property name="color" value="DARK_MAGENTA" />
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5496586556363464006">
+        <property name="text" value="=" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="5496586556363464016">
+        <link role="relationDeclaration" targetNodeId="1.5496586556363463999" resolveInfo="defaultValue" />
+      </node>
+    </node>
+  </node>
 </model>
 
