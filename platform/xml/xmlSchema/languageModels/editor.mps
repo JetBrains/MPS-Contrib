@@ -572,6 +572,15 @@
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="1168468339525">
         <link role="relationDeclaration" targetNodeId="1.1168467754208" />
       </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5496586556363185434">
+        <property name="text" value="(" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="5496586556363185430">
+        <link role="relationDeclaration" targetNodeId="1.5496586556363185428" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5496586556363185436">
+        <property name="text" value=")" />
+      </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" id="1239884340970" />
     </node>
   </node>
@@ -959,6 +968,19 @@
       </node>
       <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="1189991463351">
         <property name="style" value="BOLD" />
+      </node>
+    </node>
+  </node>
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="5496586556363185402">
+    <link role="conceptDeclaration" targetNodeId="1.5496586556363185392" resolveInfo="SchemaType" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5496586556363185410">
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="5496586556363185412" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ConceptProperty" id="5496586556363291035">
+        <link role="relationDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+        <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="5496586556363352644">
+          <property name="color" value="DARK_MAGENTA" />
+        </node>
       </node>
     </node>
   </node>

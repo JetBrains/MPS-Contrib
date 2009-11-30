@@ -580,6 +580,11 @@
       <property name="sourceCardinality" value="0..1" />
       <link role="target" targetNodeId="1168467644385" resolveInfo="UseAttribute" />
     </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="5496586556363185428">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="type" />
+      <link role="target" targetNodeId="5496586556363185392" resolveInfo="SchemaType" />
+    </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1167698115100">
       <property name="name" value="attributeName" />
       <link role="dataType" targetNodeId="1.1082983041843" />
@@ -814,6 +819,37 @@
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="1189887827906">
       <property name="name" value="uri" />
       <link role="dataType" targetNodeId="1.1082983041843" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5496586556363185391">
+    <property name="name" value="StringSchemaType" />
+    <link role="extends" targetNodeId="5496586556363185392" resolveInfo="SchemaType" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5496586556363185395">
+      <property name="value" value="string" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5496586556363185392">
+    <property name="name" value="SchemaType" />
+    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="5496586556363185393">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473854053" resolveInfo="abstract" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5496586556363185396">
+    <property name="name" value="IntegerSchemaType" />
+    <link role="extends" targetNodeId="5496586556363185392" resolveInfo="SchemaType" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5496586556363185397">
+      <property name="value" value="integer" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5496586556363185398">
+    <property name="name" value="BooleanSchemaType" />
+    <link role="extends" targetNodeId="5496586556363185392" resolveInfo="SchemaType" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5496586556363185401">
+      <property name="value" value="boolean" />
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>
