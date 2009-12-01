@@ -76,12 +76,12 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "operand", true);
   }
 
-  public static SNode sourceNodeQuery_2341233264267947640(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation"), "childNameExpression", true);
+  public static SNode sourceNodeQuery_115745247309764140(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "operand", true);
   }
 
-  public static SNode sourceNodeQuery_2341233264268045124(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "operand", true);
+  public static SNode sourceNodeQuery_115745247309764149(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation"), "childNameExpression", true);
   }
 
   public static SNode sourceNodeQuery_3865540407050586204(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

@@ -13,8 +13,8 @@
         <generator generatorUID="5f9babc9-8d5d-4825-8e61-17b241ee6272(jetbrains.mps.baseLanguage.collections#1151699677197)" />
       </external-templates>
       <dependencies>
-        <dependency reexport="false">b51b9e02-45dc-4b48-b300-cf49360a8d1f(jetbrains.mps.xmlSchema)</dependency>
         <dependency reexport="false">13bb5d8e-e640-4722-80ed-259ec90709b3(jetbrains.mps.xmlQuery.runtime)</dependency>
+        <dependency reexport="false">b51b9e02-45dc-4b48-b300-cf49360a8d1f(jetbrains.mps.xmlSchema)</dependency>
       </dependencies>
       <usedDevKits>
         <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
