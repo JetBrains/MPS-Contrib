@@ -5,6 +5,7 @@
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="7866978e-a0f0-4cc7-81bc-4d213d9375e1(jetbrains.mps.lang.smodel)" />
+  <language namespace="13744753-c81f-424a-9c1b-cf8943bf4e86(jetbrains.mps.lang.sharedConcepts)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c1(jetbrains.mps.baseLanguage.constraints)" version="83" />
@@ -236,6 +237,28 @@
               <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_node" id="1213104855740" />
               <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1213104855741">
                 <link role="property" targetNodeId="1.1167710946714" resolveInfo="attributeGroupName" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="115745247309443795">
+    <link role="concept" targetNodeId="1.1167790566663" resolveInfo="ComplexTypeReference" />
+    <node role="referent" type="jetbrains.mps.lang.constraints.structure.NodeReferentConstraint" id="115745247309443796">
+      <link role="applicableLink" targetNodeId="1.1167790582664" />
+      <node role="searchScopeFactory" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_ReferentSearchScope_Factory" id="115745247309443797">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="115745247309443798">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="115745247309443799">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="115745247309443801">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="115745247309449455">
+                <link role="baseMethodDeclaration" targetNodeId="3.~ModelAndImportedModelsScope.&lt;init&gt;(jetbrains.mps.smodel.SModel,boolean,jetbrains.mps.smodel.IScope)" resolveInfo="ModelAndImportedModelsScope" />
+                <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_model" id="115745247309449456" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="115745247309449458">
+                  <property name="value" value="false" />
+                </node>
+                <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_scope" id="115745247309449460" />
               </node>
             </node>
           </node>
