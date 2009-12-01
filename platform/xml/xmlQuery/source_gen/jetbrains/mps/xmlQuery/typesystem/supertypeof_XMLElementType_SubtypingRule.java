@@ -7,6 +7,9 @@ import jetbrains.mps.lang.typesystem.runtime.ISubtypingRule_Runtime;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.smodel.SModelUtil_new;
 
 public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
@@ -15,9 +18,22 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
 
   public SNode getSubOrSuperType(SNode xmlType, TypeCheckingContext typeCheckingContext) {
     if ((SLinkOperations.getTarget(xmlType, "schema", false) == null)) {
-      return new _Quotations.QuotationClass_1().createNode(typeCheckingContext);
+      return new _Quotations.QuotationClass_3().createNode(typeCheckingContext);
     } else {
-      return new _Quotations.QuotationClass_2().createNode(typeCheckingContext);
+      for (SNode te : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(xmlType, "complexType", false), "typeExpressionList", true), "typeExpression", true))) {
+        if (SNodeOperations.isInstanceOf(te, "jetbrains.mps.xmlSchema.structure.ComplexContent")) {
+          if (SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SNodeOperations.cast(te, "jetbrains.mps.xmlSchema.structure.ComplexContent"), "contentItem", true), "jetbrains.mps.xmlSchema.structure.Extension")) {
+            SNode ct = SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(te, "jetbrains.mps.xmlSchema.structure.ComplexContent"), "contentItem", true), "complexTypeReference", true), "complexType", false);
+
+            SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
+            SLinkOperations.setTarget(type, "schema", SNodeOperations.getAncestor(ct, "jetbrains.mps.xmlSchema.structure.Schema", false, false), false);
+            SLinkOperations.setTarget(type, "complexType", ct, false);
+
+            return type;
+          }
+        }
+      }
+      return new _Quotations.QuotationClass_1().createNode(typeCheckingContext);
     }
   }
 
