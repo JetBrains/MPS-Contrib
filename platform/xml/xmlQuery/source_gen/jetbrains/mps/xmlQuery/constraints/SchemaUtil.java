@@ -84,4 +84,16 @@ public class SchemaUtil {
     }
     return type;
   }
+
+  public static SNode getAttributeType(SNode attributeDeclaration) {
+    SNode attributeSchemaType = SLinkOperations.getTarget(attributeDeclaration, "type", true);
+    if ((attributeSchemaType == null) || SNodeOperations.isInstanceOf(attributeSchemaType, "jetbrains.mps.xmlSchema.structure.StringSchemaType")) {
+      return new _Quotations.QuotationClass_0().createNode();
+    } else if (SNodeOperations.isInstanceOf(attributeSchemaType, "jetbrains.mps.xmlSchema.structure.BooleanSchemaType")) {
+      return new _Quotations.QuotationClass_1().createNode();
+    } else if (SNodeOperations.isInstanceOf(attributeSchemaType, "jetbrains.mps.xmlSchema.structure.IntegerSchemaType")) {
+      return new _Quotations.QuotationClass_2().createNode();
+    }
+    return new _Quotations.QuotationClass_3().createNode();
+  }
 }

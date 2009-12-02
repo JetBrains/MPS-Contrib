@@ -176,7 +176,7 @@
     <property name="name" value="XMLElementBuilder" />
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="3903783035315079228">
-      <property name="value" value="XML builder" />
+      <property name="value" value="XML element builder" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
     </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4705273682234098455">
@@ -202,6 +202,26 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1558623248072789137">
       <property name="value" value="create new XML element" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7225751495667376018">
+    <property name="name" value="XMLAttributeBuilder" />
+    <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7225751495667403566">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="value" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7225751495667376019">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="attributeDeclaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1167697887602" resolveInfo="AttributeDeclaration" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7225751495667376020">
+      <property name="value" value="XML attribute builder" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
     </node>
   </node>
 </model>

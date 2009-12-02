@@ -256,5 +256,26 @@
       <link role="relationDeclaration" targetNodeId="1.4705273682234223651" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="7225751495667376021">
+    <link role="conceptDeclaration" targetNodeId="1.7225751495667376018" resolveInfo="XMLAttributeBuilder" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="7225751495667376023">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="7225751495667376026">
+        <link role="relationDeclaration" targetNodeId="1.7225751495667376019" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="7225751495667376027">
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="7225751495667376029">
+            <property name="readOnly" value="true" />
+            <link role="relationDeclaration" targetNodeId="2.1167698115100" resolveInfo="attributeName" />
+          </node>
+        </node>
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="7225751495667403582">
+        <property name="text" value=":" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="7225751495667403584">
+        <link role="relationDeclaration" targetNodeId="1.7225751495667403566" />
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="7225751495667376025" />
+    </node>
+  </node>
 </model>
 
