@@ -3371,6 +3371,111 @@
         </node>
       </node>
     </node>
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="10026583185569307">
+      <property name="name" value="saveSolutionDescriptor" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="10026583185569308" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="10026583185569309" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185569310">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="10026583185569321">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="10026583185569322">
+            <property name="name" value="solElem" />
+            <node role="type" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="10026583185569323">
+              <link role="complexType" targetNodeId="115745247309443212" />
+              <link role="schema" targetNodeId="3096351618092772314" resolveInfo="MPS solution schema" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="10026583185569324">
+              <node role="creator" type="jetbrains.mps.xmlQuery.structure.XMLElementCreator" id="10026583185569325">
+                <node role="type" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="10026583185569326">
+                  <link role="complexType" targetNodeId="115745247309443212" />
+                  <link role="schema" targetNodeId="3096351618092772314" resolveInfo="MPS solution schema" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.AsBuilderStatement" id="10026583185569327">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="10026583185569328">
+            <link role="variableDeclaration" targetNodeId="10026583185569322" resolveInfo="solElem" />
+          </node>
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185569329">
+            <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="10026583185569330">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185569331" />
+              <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLAttributeBuilder" id="10026583185569332">
+                <link role="attributeDeclaration" targetNodeId="115745247309484129" resolveInfo="compileInMPS" />
+                <node role="value" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="10026583185569333">
+                  <property name="value" value="true" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="10026583185569334">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185569336">
+                <node role="statement" type="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" id="2874394990473827588">
+                  <node role="variable" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariable" id="2874394990473827589">
+                    <property name="name" value="moduleReference" />
+                  </node>
+                  <node role="inputSequence" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2874394990473827595">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="2874394990473827593">
+                      <link role="variableDeclaration" targetNodeId="10026583185569313" resolveInfo="descriptor" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="2874394990473827600">
+                      <link role="baseMethodDeclaration" targetNodeId="3.~ModuleDescriptor.getUsedLanguages():java.util.List" resolveInfo="getUsedLanguages" />
+                    </node>
+                  </node>
+                  <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2874394990473827591">
+                    <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="2874394990473827607">
+                      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2874394990473827608">
+                        <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="2874394990473827618">
+                          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="2874394990473827619" />
+                          <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLTextBuilder" id="2874394990473827620">
+                            <node role="value" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="2874394990473827625">
+                              <node role="operand" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" id="2874394990473827622">
+                                <link role="variable" targetNodeId="2874394990473827589" resolveInfo="moduleReference" />
+                              </node>
+                              <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="2874394990473828871">
+                                <link role="baseMethodDeclaration" targetNodeId="3.~ModuleReference.toString():java.lang.String" resolveInfo="toString" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLElementBuilder" id="2874394990473827609">
+                        <link role="elementType" targetNodeId="4647729700483383388" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLElementBuilder" id="10026583185569360">
+                <link role="elementType" targetNodeId="4647729700483383329" />
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="10026583185569340">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185569341" />
+              <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLTextBuilder" id="10026583185569342">
+                <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="10026583185569343">
+                  <property name="value" value="afsdf" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLElementBuilder" id="10026583185569344">
+            <link role="elementType" targetNodeId="115745247309443212" />
+          </node>
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="10026583185569311">
+        <property name="name" value="file" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="10026583185569312">
+          <link role="classifier" targetNodeId="4.~IFile" resolveInfo="IFile" />
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="10026583185569313">
+        <property name="name" value="descriptor" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="10026583185569315">
+          <link role="classifier" targetNodeId="3.~SolutionDescriptor" resolveInfo="SolutionDescriptor" />
+        </node>
+      </node>
+    </node>
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="4815471077468833112" />
   </node>
   <node type="jetbrains.mps.xmlSchema.structure.Schema" id="3096351618092772314">
@@ -4395,12 +4500,99 @@
             </node>
           </node>
         </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.Statement" id="3903783035315100700" />
       </node>
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="115745247309690347" />
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="115745247309690348">
         <property name="name" value="args" />
         <node role="type" type="jetbrains.mps.baseLanguage.structure.ArrayType" id="115745247309690350">
           <node role="componentType" type="jetbrains.mps.baseLanguage.structure.StringType" id="115745247309690349" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.baseLanguage.structure.ClassConcept" id="4705273682234200656">
+    <property name="name" value="XMLBuilderSandbox" />
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="4705273682234200657" />
+    <node role="staticMethod" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" id="4705273682234200673">
+      <property name="name" value="main" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="4705273682234200674" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="4705273682234200675" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4705273682234200676">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="10026583185548220">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="10026583185548221">
+            <property name="name" value="solDescr" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="10026583185548222">
+              <link role="classifier" targetNodeId="3.~SolutionDescriptor" resolveInfo="SolutionDescriptor" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="10026583185548224">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="10026583185569298">
+                <link role="baseMethodDeclaration" targetNodeId="3.~SolutionDescriptor.&lt;init&gt;()" resolveInfo="SolutionDescriptor" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1558623248073002847">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1558623248073002848">
+            <property name="name" value="solElem" />
+            <node role="type" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="1558623248073002846">
+              <link role="schema" targetNodeId="3096351618092772314" resolveInfo="MPS solution schema" />
+              <link role="complexType" targetNodeId="115745247309443212" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1558623248073002849">
+              <node role="creator" type="jetbrains.mps.xmlQuery.structure.XMLElementCreator" id="1558623248073002850">
+                <node role="type" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="1558623248073002851">
+                  <link role="schema" targetNodeId="3096351618092772314" resolveInfo="MPS solution schema" />
+                  <link role="complexType" targetNodeId="115745247309443212" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.AsBuilderStatement" id="1558623248073074478">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="1558623248073195075">
+            <link role="variableDeclaration" targetNodeId="1558623248073002848" resolveInfo="solElem" />
+          </node>
+          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1558623248073074481">
+            <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="10026583184937118">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583184937119" />
+              <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLAttributeBuilder" id="10026583184937120">
+                <link role="attributeDeclaration" targetNodeId="115745247309484129" resolveInfo="compileInMPS" />
+                <node role="value" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="10026583185058248">
+                  <property name="value" value="true" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="7225751495667375998">
+              <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLElementBuilder" id="7225751495667376001">
+                <link role="elementType" targetNodeId="4647729700483383593" />
+              </node>
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7225751495667376000" />
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="1558623248073195088">
+              <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLElementBuilder" id="1558623248073195091">
+                <link role="elementType" targetNodeId="4647729700483383319" />
+              </node>
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1558623248073195090" />
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.builders.structure.BuilderStatement" id="10026583185548209">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185548210" />
+              <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLTextBuilder" id="10026583185548211">
+                <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="10026583185548213">
+                  <property name="value" value="afsdf" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="builder" type="jetbrains.mps.xmlQuery.structure.XMLElementBuilder" id="1558623248073074485">
+            <link role="elementType" targetNodeId="115745247309443212" />
+          </node>
+        </node>
+      </node>
+      <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="4705273682234200677">
+        <property name="name" value="args" />
+        <node role="type" type="jetbrains.mps.baseLanguage.structure.ArrayType" id="4705273682234200678">
+          <node role="componentType" type="jetbrains.mps.baseLanguage.structure.StringType" id="4705273682234200679" />
         </node>
       </node>
     </node>
