@@ -10,6 +10,9 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import org.apache.commons.lang.StringUtils;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class SchemaUtil {
   public static List<SNode> getAvailableAttributes(SNode complexType) {
@@ -62,5 +65,23 @@ public class SchemaUtil {
       }
     }));
     return children;
+  }
+
+  public static String complexTypePresentation(SNode complexType) {
+    String typeName = SPropertyOperations.getString(complexType, "typeName");
+    if (StringUtils.isEmpty(typeName)) {
+      return SPropertyOperations.getString(SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.ElementWithContent", false, false), "elementName");
+    } else {
+      return "[" + typeName + "]";
+    }
+  }
+
+  public static SNode constructXMLElementType(SNode complexType) {
+    SNode type = SConceptOperations.createNewNode("jetbrains.mps.xmlQuery.structure.XMLElementType", null);
+    if (complexType != null) {
+      SLinkOperations.setTarget(type, "schema", SNodeOperations.getAncestor(complexType, "jetbrains.mps.xmlSchema.structure.Schema", false, false), false);
+      SLinkOperations.setTarget(type, "complexType", complexType, false);
+    }
+    return type;
   }
 }

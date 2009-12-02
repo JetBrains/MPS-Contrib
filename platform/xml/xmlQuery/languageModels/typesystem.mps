@@ -29,6 +29,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959034b(jetbrains.mps.lang.quotation.structure)" version="0" />
   <languageAspect modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
+  <languageAspect modelUID="r:77052501-5144-48a7-be50-7535fc6d1073(jetbrains.mps.baseLanguage.builders.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="10" />
   <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
@@ -37,6 +38,7 @@
   <import index="8" modelUID="r:00000000-0000-4000-0000-011c8959058c(jetbrains.mps.webr.xml.sandbox)" version="-1" />
   <import index="9" modelUID="f:java_stub#org.jdom(org.jdom@java_stub)" version="-1" />
   <import index="10" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
+  <visible index="2" modelUID="r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="4991903842868198512">
     <property name="name" value="typeof_AccessChildOperation" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868198513">
@@ -123,26 +125,6 @@
           </node>
         </node>
       </node>
-      <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="115745247309631911">
-        <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="115745247309631912">
-          <property name="name" value="schema" />
-          <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="115745247309631913">
-            <link role="concept" targetNodeId="2.1167513239198" resolveInfo="Schema" />
-          </node>
-          <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="115745247309631916">
-            <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="115745247309631915">
-              <link role="variableDeclaration" targetNodeId="4991903842868219242" resolveInfo="complexType" />
-            </node>
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="115745247309653272">
-              <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="115745247309653273">
-                <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="115745247309653276">
-                  <link role="conceptDeclaration" targetNodeId="2.1167513239198" resolveInfo="Schema" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="7129398160684691426">
         <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="7129398160684691427">
           <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="7129398160684691428">
@@ -154,16 +136,14 @@
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="7129398160684691432">
           <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="7129398160684691433">
             <node role="quotedNode" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="7129398160684691434">
-              <node role="elementType" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="7129398160684906863">
-                <link role="schema" targetNodeId="8.3096351618092772314" resolveInfo="MPS solution schema" />
-                <node role="referenceAntiquotation$link_attribute$schema" type="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" id="7129398160684906864">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="115745247309653277">
-                    <link role="variableDeclaration" targetNodeId="115745247309631912" resolveInfo="schema" />
-                  </node>
-                </node>
-                <node role="referenceAntiquotation$link_attribute$complexType" type="jetbrains.mps.lang.quotation.structure.ReferenceAntiquotation" id="7129398160684962919">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="7129398160684964951">
-                    <link role="variableDeclaration" targetNodeId="4991903842868219242" resolveInfo="complexType" />
+              <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="4705273682234223441">
+                <node role="_attr_$attribute" type="jetbrains.mps.lang.quotation.structure.Antiquotation" id="4705273682234223442">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="4705273682234223445">
+                    <link role="baseMethodDeclaration" targetNodeId="2v.4705273682234223376" resolveInfo="constructXMLElementType" />
+                    <link role="classConcept" targetNodeId="2v.2341233264267552651" resolveInfo="SchemaUtil" />
+                    <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="4705273682234223446">
+                      <link role="variableDeclaration" targetNodeId="4991903842868219242" resolveInfo="complexType" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -686,6 +666,34 @@
     <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="115745247309398850">
       <property name="name" value="operation" />
       <link role="concept" targetNodeId="1.4203809819610731778" resolveInfo="AccessTextOperation" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="4705273682234223825">
+    <property name="name" value="typeof_XMLElementCreator" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4705273682234223826">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="4705273682234223845">
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="4705273682234223849">
+          <node role="normalType" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="4705273682234223851">
+            <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="4705273682234223850">
+              <link role="applicableNode" targetNodeId="4705273682234223827" resolveInfo="creator" />
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="4705273682234223855">
+              <link role="link" targetNodeId="1.4705273682234223651" />
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="4705273682234223848">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="4705273682234223842">
+            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="4705273682234223844">
+              <link role="applicableNode" targetNodeId="4705273682234223827" resolveInfo="creator" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="4705273682234223827">
+      <property name="name" value="creator" />
+      <link role="concept" targetNodeId="1.4705273682234223462" resolveInfo="XMLElementCreator" />
     </node>
   </node>
 </model>

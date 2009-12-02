@@ -33,6 +33,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
+  <languageAspect modelUID="r:77052501-5144-48a7-be50-7535fc6d1073(jetbrains.mps.baseLanguage.builders.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="14" />
   <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
@@ -253,6 +254,12 @@
       <link role="applicableConcept" targetNodeId="1.4203809819610731778" resolveInfo="AccessTextOperation" />
       <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="3865540407050746138">
         <link role="template" targetNodeId="3865540407050744314" resolveInfo="reduce_AccessTextOperation" />
+      </node>
+    </node>
+    <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="4705273682234223856">
+      <link role="applicableConcept" targetNodeId="1.4705273682234223462" resolveInfo="XMLElementCreator" />
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference" id="4705273682234223858">
+        <link role="template" targetNodeId="4705273682234223859" resolveInfo="reduce_XMLElementCreator" />
       </node>
     </node>
   </node>
@@ -872,6 +879,31 @@
                 </node>
               </node>
               <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="108366216419476389" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="4705273682234223859">
+    <property name="name" value="reduce_XMLElementCreator" />
+    <link role="applicableConcept" targetNodeId="1.4705273682234223462" resolveInfo="XMLElementCreator" />
+    <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="4705273682234223861">
+      <property name="name" value="someMethod" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="4705273682234223862" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="4705273682234223863" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4705273682234223864">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="4705273682234223865">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4705273682234223866">
+            <property name="name" value="e" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="4705273682234223867">
+              <link role="classifier" targetNodeId="4.~Element" resolveInfo="Element" />
+            </node>
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="4705273682234223869">
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="4705273682234223870">
+                <link role="baseMethodDeclaration" targetNodeId="4.~Element.&lt;init&gt;()" resolveInfo="Element" />
+                <node role="templateFragment$attribute" type="jetbrains.mps.lang.generator.structure.TemplateFragment" id="4705273682234223882" />
+              </node>
             </node>
           </node>
         </node>
