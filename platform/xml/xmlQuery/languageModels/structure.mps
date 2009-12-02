@@ -227,5 +227,22 @@
       <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="10026583185341422">
+    <property name="name" value="XMLTextBuilder" />
+    <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="10026583185341425">
+      <property name="value" value="XML text builder" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="10026583185341427">
+      <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
+    </node>
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="10026583185341423">
+      <property name="metaClass" value="aggregation" />
+      <property name="role" value="value" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+  </node>
 </model>
 

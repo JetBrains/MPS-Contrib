@@ -230,23 +230,14 @@
     <link role="conceptDeclaration" targetNodeId="1.3903783035314887839" resolveInfo="XMLBuilder" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="3903783035314918694">
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="3903783035314918696" />
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1558623248073074487">
-        <property name="text" value="xml" />
-        <link role="styleClass" targetNodeId="3v.1186415544875" resolveInfo="KeyWord" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1558623248073134736">
-        <property name="text" value="&lt;" />
-        <link role="styleClass" targetNodeId="3v.1234958090348" resolveInfo="LeftParenAfterName" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="10026583185569384">
+        <property name="text" value="[" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="4705273682234098456">
         <link role="relationDeclaration" targetNodeId="1.4705273682234098455" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="4705273682234098457">
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" id="4705273682234098459" />
         </node>
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="1558623248073134738">
-        <property name="text" value="&gt;" />
-        <link role="styleClass" targetNodeId="3v.1215088010675" resolveInfo="RightParen" />
       </node>
     </node>
   </node>
@@ -275,6 +266,21 @@
         <link role="relationDeclaration" targetNodeId="1.7225751495667403566" />
       </node>
       <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="7225751495667376025" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="10026583185439889">
+    <link role="conceptDeclaration" targetNodeId="1.10026583185341422" resolveInfo="XMLTextBuilder" />
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="10026583185439891">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="10026583185439901">
+        <property name="text" value="text" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="10026583185439895">
+        <property name="text" value=":" />
+      </node>
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode" id="10026583185439896">
+        <link role="relationDeclaration" targetNodeId="1.7225751495667403566" />
+      </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="10026583185439897" />
     </node>
   </node>
 </model>

@@ -18,7 +18,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
 
   public SNode getSubOrSuperType(SNode xmlType, TypeCheckingContext typeCheckingContext) {
     if ((SLinkOperations.getTarget(xmlType, "schema", false) == null)) {
-      return new _Quotations.QuotationClass_3().createNode(typeCheckingContext);
+      return new _Quotations.QuotationClass_4().createNode(typeCheckingContext);
     } else {
       for (SNode te : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(xmlType, "complexType", false), "typeExpressionList", true), "typeExpression", true))) {
         if (SNodeOperations.isInstanceOf(te, "jetbrains.mps.xmlSchema.structure.ComplexContent")) {
@@ -33,7 +33,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
           }
         }
       }
-      return new _Quotations.QuotationClass_1().createNode(typeCheckingContext);
+      return new _Quotations.QuotationClass_2().createNode(typeCheckingContext);
     }
   }
 

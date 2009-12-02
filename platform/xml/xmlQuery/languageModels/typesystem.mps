@@ -644,5 +644,34 @@
       <link role="concept" targetNodeId="1.7225751495667376018" resolveInfo="XMLAttributeBuilder" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="10026583185478629">
+    <property name="name" value="typeof_XMLTextBuilder" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185478630">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="10026583185478632">
+        <node role="inequationGroup" type="jetbrains.mps.lang.typesystem.structure.DefaultGroupReference" id="10026583185478633" />
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="10026583185478639">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="10026583185478640">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="10026583185478641">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="10026583185478642">
+                <link role="applicableNode" targetNodeId="10026583185478631" resolveInfo="builder" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="10026583185480678">
+                <link role="link" targetNodeId="1.10026583185341423" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="10026583185480674">
+          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="10026583185480675">
+            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.StringType" id="10026583185480677" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="10026583185478631">
+      <property name="name" value="builder" />
+      <link role="concept" targetNodeId="1.10026583185341422" resolveInfo="XMLTextBuilder" />
+    </node>
+  </node>
 </model>
 
