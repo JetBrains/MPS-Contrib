@@ -223,6 +223,9 @@
       <property name="value" value="XML attribute builder" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
     </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="10026583184691874">
+      <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
+    </node>
   </node>
 </model>
 

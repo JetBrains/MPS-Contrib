@@ -606,5 +606,43 @@
       <link role="concept" targetNodeId="1.4705273682234223462" resolveInfo="XMLElementCreator" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="10026583185000614">
+    <property name="name" value="typeof_XMLAttributeBuilder" />
+    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185000615">
+      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="10026583185000617">
+        <node role="inequationGroup" type="jetbrains.mps.lang.typesystem.structure.DefaultGroupReference" id="10026583185000618" />
+        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="10026583185021989">
+          <node role="normalType" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="10026583185021992">
+            <link role="baseMethodDeclaration" targetNodeId="2v.7225751495667397638" resolveInfo="getAttributeType" />
+            <link role="classConcept" targetNodeId="2v.2341233264267552651" resolveInfo="SchemaUtil" />
+            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="10026583185021994">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="10026583185021993">
+                <link role="applicableNode" targetNodeId="10026583185000616" resolveInfo="builder" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="10026583185021998">
+                <link role="link" targetNodeId="1.7225751495667376019" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="10026583185000629">
+          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="10026583185000630">
+            <node role="term" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="10026583185000631">
+              <node role="operand" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="10026583185000632">
+                <link role="applicableNode" targetNodeId="10026583185000616" resolveInfo="builder" />
+              </node>
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="10026583185021987">
+                <link role="link" targetNodeId="1.7225751495667403566" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="10026583185000616">
+      <property name="name" value="builder" />
+      <link role="concept" targetNodeId="1.7225751495667376018" resolveInfo="XMLAttributeBuilder" />
+    </node>
+  </node>
 </model>
 
