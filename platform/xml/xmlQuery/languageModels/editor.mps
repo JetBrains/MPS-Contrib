@@ -33,10 +33,11 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
   <languageAspect modelUID="r:77052501-5144-48a7-be50-7535fc6d1073(jetbrains.mps.baseLanguage.builders.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="5" />
+  <maxImportIndex value="6" />
   <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
   <import index="4" modelUID="r:00000000-0000-4000-0000-011c89590596(jetbrains.mps.xmlSchema.editor)" version="-1" />
+  <import index="6" modelUID="r:00000000-0000-4000-0000-011c89590586(jetbrains.mps.xml.editor)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="4815471077468675525">
     <link role="conceptDeclaration" targetNodeId="1.4815471077468621634" resolveInfo="GetChildOperation" />
@@ -47,21 +48,7 @@
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="4815471077468703762">
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="2v.1169194664001" resolveInfo="name" />
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="4991903842868554311">
-              <property name="style" value="BOLD" />
-            </node>
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="4991903842868554313">
-              <node role="query" type="jetbrains.mps.lang.editor.structure.QueryFunction_Color" id="4991903842868554314">
-                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868554315">
-                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4991903842868554316">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="4991903842868554317">
-                      <link role="classifier" targetNodeId="4.1178296794013" resolveInfo="XmlColorConstants" />
-                      <link role="variableDeclaration" targetNodeId="4.1178296808264" resolveInfo="XML_COLOR" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+            <link role="styleClass" targetNodeId="6.1216813778766" resolveInfo="XmlElement" />
           </node>
         </node>
       </node>
@@ -114,6 +101,7 @@
         <property name="emptyNoTargetText" value="false" />
         <property name="noTargetText" value="..." />
         <link role="relationDeclaration" targetNodeId="1.4815471077468621640" />
+        <link role="styleClass" targetNodeId="6.1216813778766" resolveInfo="XmlElement" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="4815471077468675537">
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" id="4815471077468675538" />
         </node>
@@ -155,21 +143,7 @@
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="4991903842868445356">
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="2.1167698115100" resolveInfo="attributeName" />
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" id="4991903842868554319">
-              <property name="style" value="BOLD_ITALIC" />
-            </node>
-            <node role="styleItem" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" id="4991903842868554320">
-              <node role="query" type="jetbrains.mps.lang.editor.structure.QueryFunction_Color" id="4991903842868554321">
-                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868554322">
-                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="4991903842868554323">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="4991903842868554324">
-                      <link role="classifier" targetNodeId="4.1178296794013" resolveInfo="XmlColorConstants" />
-                      <link role="variableDeclaration" targetNodeId="4.1178296808264" resolveInfo="XML_COLOR" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
+            <link role="styleClass" targetNodeId="6.1216811828132" resolveInfo="XmlAttribute" />
           </node>
         </node>
       </node>
@@ -231,6 +205,7 @@
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="608266221866600138">
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="608266221866600140">
         <link role="relationDeclaration" targetNodeId="1.4705273682234098455" />
+        <link role="styleClass" targetNodeId="6.1216813778766" resolveInfo="XmlElement" />
         <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="608266221866600141">
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" id="608266221866600142" />
         </node>
@@ -253,6 +228,7 @@
           <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="7225751495667376029">
             <property name="readOnly" value="true" />
             <link role="relationDeclaration" targetNodeId="2.1167698115100" resolveInfo="attributeName" />
+            <link role="styleClass" targetNodeId="6.1216811828132" resolveInfo="XmlAttribute" />
           </node>
         </node>
       </node>

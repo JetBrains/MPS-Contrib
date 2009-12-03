@@ -13,12 +13,7 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import jetbrains.mps.nodeEditor.style.Style;
-import jetbrains.mps.nodeEditor.style.StyleAttributes;
-import jetbrains.mps.nodeEditor.MPSFonts;
-import jetbrains.mps.nodeEditor.style.AttributeCalculator;
-import java.awt.Color;
-import jetbrains.mps.xmlSchema.editor.XmlColorConstants;
+import jetbrains.mps.xml.editor.XmlStyle_StyleSheet;
 
 public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
@@ -71,21 +66,7 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
       EditorCell editorCell;
       editorCell = provider.createEditorCell(editorContext);
       editorCell.setCellId("property_attributeName");
-      {
-        Style style = editorCell.getStyle();
-        style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
-        style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
-          public Color calculate(EditorCell cell) {
-            return AccessAttributeOperation_Editor._Inline3869_0._StyleParameter_QueryFunction_3869_0((cell == null ?
-              null :
-              cell.getSNode()
-            ), (cell == null ?
-              null :
-              cell.getEditorContext()
-            ));
-          }
-        });
-      }
+      XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
       editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
       SNode attributeConcept = provider.getRoleAttribute();
       Class attributeKind = provider.getRoleAttributeClass();
@@ -95,10 +76,6 @@ public class AccessAttributeOperation_Editor extends DefaultNodeEditor {
         return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
       } else
       return editorCell;
-    }
-
-    private static Color _StyleParameter_QueryFunction_3869_0(SNode node, EditorContext editorContext) {
-      return XmlColorConstants.XML_COLOR;
     }
   }
 }
