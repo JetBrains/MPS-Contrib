@@ -1349,6 +1349,45 @@
         </node>
       </node>
     </node>
+    <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="7567280977594943779">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7567280977594943780">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7567280977595060290">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7567280977595060294">
+            <node role="operand" type="jetbrains.mps.lang.smodel.structure.StaticConceptMethodCall" id="7567280977595060291">
+              <link role="concept" targetNodeId="4v.7057666463730155275" resolveInfo="Builder" />
+              <link role="baseMethodDeclaration" targetNodeId="10.7057666463730366732" resolveInfo="getContextBuilder" />
+              <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="7567280977595060293" />
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="7567280977595060298">
+              <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="7567280977595060300">
+                <link role="conceptDeclaration" targetNodeId="1.3903783035314887839" resolveInfo="XMLElementBuilder" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="7567280977594965151">
+    <link role="concept" targetNodeId="1.10026583185341422" resolveInfo="XMLTextBuilder" />
+    <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="7567280977594965152">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="7567280977594965153">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="7567280977595060301">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="7567280977595060302">
+            <node role="operand" type="jetbrains.mps.lang.smodel.structure.StaticConceptMethodCall" id="7567280977595060303">
+              <link role="concept" targetNodeId="4v.7057666463730155275" resolveInfo="Builder" />
+              <link role="baseMethodDeclaration" targetNodeId="10.7057666463730366732" resolveInfo="getContextBuilder" />
+              <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="7567280977595060304" />
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="7567280977595060305">
+              <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="7567280977595060306">
+                <link role="conceptDeclaration" targetNodeId="1.3903783035314887839" resolveInfo="XMLElementBuilder" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
