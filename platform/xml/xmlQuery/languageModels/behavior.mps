@@ -6,6 +6,7 @@
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="a8fdde77-2e6c-41f6-ac79-8e9b6449c271(jetbrains.mps.xmlQuery)" />
+  <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590283(jetbrains.mps.lang.core.constraints)" version="2" />
@@ -235,13 +236,19 @@
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1558623248072717356">
           <node role="expression" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1558623248072784713">
             <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1558623248072849082">
-              <node role="creator" type="jetbrains.mps.xmlQuery.structure.XMLElementCreator" id="1558623248072926308">
-                <node role="type" type="jetbrains.mps.xmlQuery.structure.XMLElementType" id="1558623248072926309">
-                  <node role="_attr_$attribute" type="jetbrains.mps.lang.quotation.structure.Antiquotation" id="1558623248072926312">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1558623248072926315">
-                      <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1558623248072926314" />
-                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="1558623248072926319">
-                        <link role="baseMethodDeclaration" targetNodeId="5v.7057666463730718251" resolveInfo="getResultType" />
+              <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="608266221866881037">
+                <link role="baseMethodDeclaration" targetNodeId="4.~Element.&lt;init&gt;(java.lang.String)" resolveInfo="Element" />
+                <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="608266221866902390">
+                  <property name="value" value="elementName" />
+                  <node role="propertyAntiquotation$property_attribute$value" type="jetbrains.mps.lang.quotation.structure.PropertyAntiquotation" id="608266221866902391">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall" id="608266221866902420">
+                      <link role="baseMethodDeclaration" targetNodeId="6v.4705273682234098401" resolveInfo="complexTypePresentation" />
+                      <link role="classConcept" targetNodeId="6v.2341233264267552651" resolveInfo="SchemaUtil" />
+                      <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="608266221866902423">
+                        <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="608266221866902422" />
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="608266221866902427">
+                          <link role="link" targetNodeId="2v.4705273682234098455" />
+                        </node>
                       </node>
                     </node>
                   </node>

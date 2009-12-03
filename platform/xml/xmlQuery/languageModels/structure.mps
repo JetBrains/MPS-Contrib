@@ -177,7 +177,7 @@
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4705273682234098455">
       <property name="metaClass" value="reference" />
-      <property name="role" value="elementType" />
+      <property name="role" value="complexType" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2.1167615791597" resolveInfo="ComplexType" />
     </node>
