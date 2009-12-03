@@ -228,17 +228,14 @@
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="3903783035314918692">
     <link role="conceptDeclaration" targetNodeId="1.3903783035314887839" resolveInfo="XMLBuilder" />
-    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="3903783035314918694">
-      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="3903783035314918696" />
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="10026583185569384">
-        <property name="text" value="[" />
-      </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="4705273682234098456">
+    <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="608266221866600138">
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_RefCell" id="608266221866600140">
         <link role="relationDeclaration" targetNodeId="1.4705273682234098455" />
-        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="4705273682234098457">
-          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" id="4705273682234098459" />
+        <node role="editorComponent" type="jetbrains.mps.lang.editor.structure.InlineEditorComponent" id="608266221866600141">
+          <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_ReferencePresentation" id="608266221866600142" />
         </node>
       </node>
+      <node role="cellLayout" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent" id="608266221866600139" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" id="4705273682234223822">

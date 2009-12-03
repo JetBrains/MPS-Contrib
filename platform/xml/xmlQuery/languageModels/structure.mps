@@ -175,14 +175,10 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3903783035314887839">
     <property name="name" value="XMLElementBuilder" />
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="3903783035315079228">
-      <property name="value" value="XML element builder" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4705273682234098455">
       <property name="metaClass" value="reference" />
       <property name="role" value="elementType" />
-      <property name="sourceCardinality" value="0..1" />
+      <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2.1167615791597" resolveInfo="ComplexType" />
     </node>
   </node>
