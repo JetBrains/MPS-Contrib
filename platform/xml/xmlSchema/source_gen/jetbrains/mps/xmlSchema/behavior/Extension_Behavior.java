@@ -17,6 +17,7 @@ public class Extension_Behavior {
 
   public static void virtual_checkElements_1213877413543(SNode thisNode, Set<SNode> elementDeclarations) {
     TypeExpression_Behavior.call_checkElements_1213877382378(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "complexTypeReference", true), "complexType", false), elementDeclarations);
+    TypeExpressionList_Behavior.call_checkElements_1213877199094(SLinkOperations.getTarget(thisNode, "typeExpressionList", true), elementDeclarations);
   }
 
   public static boolean virtual_isMixed_1213877413548(SNode thisNode) {

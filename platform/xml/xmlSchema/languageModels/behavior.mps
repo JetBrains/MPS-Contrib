@@ -664,6 +664,22 @@
             </node>
           </node>
         </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3149278768676716509">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3149278768676716516">
+            <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3149278768676716511">
+              <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="3149278768676716510" />
+              <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="3149278768676716515">
+                <link role="link" targetNodeId="1.1167797649631" />
+              </node>
+            </node>
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" id="3149278768676716520">
+              <link role="baseMethodDeclaration" targetNodeId="1213877199094" resolveInfo="checkElements" />
+              <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="3149278768676716521">
+                <link role="variableDeclaration" targetNodeId="1213877345984" resolveInfo="elementDeclarations" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="parameter" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" id="1213877345984">
         <property name="name" value="elementDeclarations" />
