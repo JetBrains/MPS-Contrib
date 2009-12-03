@@ -215,10 +215,6 @@
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="2.1167697887602" resolveInfo="AttributeDeclaration" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7225751495667376020">
-      <property name="value" value="XML attribute builder" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="10026583184691874">
       <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
     </node>
@@ -226,10 +222,6 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="10026583185341422">
     <property name="name" value="XMLTextBuilder" />
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="10026583185341425">
-      <property name="value" value="XML text builder" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="10026583185341427">
       <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
     </node>
