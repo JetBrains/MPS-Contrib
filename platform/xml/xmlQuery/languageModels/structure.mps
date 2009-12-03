@@ -222,6 +222,14 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="10026583185341422">
     <property name="name" value="XMLTextBuilder" />
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7567280977594908265">
+      <property name="value" value="text :" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7567280977594908267">
+      <property name="value" value="XML element text" />
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+    </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="10026583185341427">
       <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
     </node>
