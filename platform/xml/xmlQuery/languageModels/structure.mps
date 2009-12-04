@@ -238,34 +238,15 @@
       <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3149278768676753890">
-    <property name="name" value="RootElementBuilder" />
-    <property name="package" value="builders" />
-    <link role="extends" targetNodeId="3149278768676788174" resolveInfo="ElementBuilder" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="3149278768676759088">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="complexType" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167615791597" resolveInfo="ComplexType" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3149278768676759302">
-    <property name="package" value="builders" />
-    <property name="name" value="ChildElementBuilder" />
-    <link role="extends" targetNodeId="3149278768676788174" resolveInfo="ElementBuilder" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="3149278768676759303">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="elementDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167838236835" resolveInfo="ElementDeclaration" />
-    </node>
-  </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3149278768676788174">
     <property name="package" value="builders" />
     <property name="name" value="ElementBuilder" />
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="3149278768676788184">
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1384720974900260378">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="elementDeclaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1167838236835" resolveInfo="ElementDeclaration" />
     </node>
   </node>
 </model>
