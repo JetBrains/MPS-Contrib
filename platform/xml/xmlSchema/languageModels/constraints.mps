@@ -266,5 +266,23 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="6992757512063935554">
+    <link role="concept" targetNodeId="1.6992757512063653197" resolveInfo="BoundExpression" />
+    <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="6992757512063935555">
+      <link role="applicableProperty" targetNodeId="1.6992757512063666792" resolveInfo="maxOccurs" />
+      <node role="propertyValidator" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" id="6992757512063935556">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6992757512063935557">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6992757512063936124">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.GreaterThanExpression" id="6992757512063936126">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="6992757512063936129">
+                <property name="value" value="0" />
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" id="6992757512063936125" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

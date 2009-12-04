@@ -878,7 +878,7 @@
     <property name="name" value="BoundExpression" />
     <link role="extends" targetNodeId="1167614628572" resolveInfo="MaxOccursExpression" />
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="6992757512063666792">
-      <property name="name" value="value" />
+      <property name="name" value="maxOccurs" />
       <link role="dataType" targetNodeId="1.1082983657062" resolveInfo="integer" />
     </node>
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="6992757512063653198">
