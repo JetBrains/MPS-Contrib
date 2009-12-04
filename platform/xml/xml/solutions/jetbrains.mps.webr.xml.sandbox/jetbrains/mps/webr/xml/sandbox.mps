@@ -15,7 +15,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902db(jetbrains.mps.baseLanguage.blTypes.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590588(jetbrains.mps.xml.structure)" version="0" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903fe(jetbrains.mps.baseLanguage.strings.constraints)" version="1" />
@@ -368,7 +368,7 @@
             </node>
             <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832076">
               <property name="minOccurs" value="0" />
-              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832077" />
+              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832077" />
             </node>
           </node>
         </node>
@@ -473,7 +473,7 @@
           <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.Choice" id="4815471077468832115">
             <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832116">
               <property name="minOccurs" value="0" />
-              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832117" />
+              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832117" />
             </node>
             <node role="typeExpressionList" type="jetbrains.mps.xmlSchema.structure.TypeExpressionList" id="4815471077468832118">
               <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.GroupReference" id="4815471077468832119">
@@ -495,7 +495,7 @@
           <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.Choice" id="4815471077468832124">
             <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832125">
               <property name="minOccurs" value="0" />
-              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832126" />
+              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832126" />
             </node>
             <node role="typeExpressionList" type="jetbrains.mps.xmlSchema.structure.TypeExpressionList" id="4815471077468832127">
               <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.GroupReference" id="4815471077468832128">
@@ -543,7 +543,7 @@
             </node>
             <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832144">
               <property name="minOccurs" value="0" />
-              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832145" />
+              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832145" />
             </node>
           </node>
         </node>
@@ -575,7 +575,7 @@
             </node>
             <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832157">
               <property name="minOccurs" value="0" />
-              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832158" />
+              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832158" />
             </node>
           </node>
         </node>
@@ -595,7 +595,7 @@
             </node>
             <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832166">
               <property name="minOccurs" value="0" />
-              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832167" />
+              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832167" />
             </node>
           </node>
         </node>
@@ -638,7 +638,7 @@
             </node>
             <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832182">
               <property name="minOccurs" value="0" />
-              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832183" />
+              <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832183" />
             </node>
           </node>
         </node>
@@ -683,7 +683,7 @@
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.Choice" id="4815471077468832200">
               <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832201">
                 <property name="minOccurs" value="0" />
-                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832202" />
+                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832202" />
               </node>
               <node role="typeExpressionList" type="jetbrains.mps.xmlSchema.structure.TypeExpressionList" id="4815471077468832203">
                 <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.ElementReference" id="4815471077468832204">
@@ -1197,7 +1197,7 @@
                 </node>
               </node>
               <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832416">
-                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832417" />
+                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832417" />
               </node>
             </node>
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" id="4815471077468832418">
@@ -1913,7 +1913,7 @@
               </node>
               <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832726">
                 <property name="minOccurs" value="0" />
-                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832727" />
+                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832727" />
               </node>
             </node>
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" id="4815471077468832728">
@@ -2068,7 +2068,7 @@
               </node>
               <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832783">
                 <property name="minOccurs" value="0" />
-                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832784" />
+                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832784" />
               </node>
             </node>
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" id="4815471077468832785">
@@ -2138,7 +2138,7 @@
                     </node>
                   </node>
                   <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832812">
-                    <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832813" />
+                    <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832813" />
                   </node>
                 </node>
                 <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.ElementReference" id="4815471077468832814">
@@ -2352,7 +2352,7 @@
               </node>
               <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832891">
                 <property name="minOccurs" value="1" />
-                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832892" />
+                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832892" />
               </node>
             </node>
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" id="4815471077468832893">
@@ -2498,7 +2498,7 @@
                   </node>
                   <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468832948">
                     <property name="minOccurs" value="0" />
-                    <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468832949" />
+                    <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468832949" />
                   </node>
                 </node>
               </node>
@@ -2812,7 +2812,7 @@
               </node>
               <node role="occursAttribute" type="jetbrains.mps.xmlSchema.structure.OccursAttribute" id="4815471077468833070">
                 <property name="minOccurs" value="1" />
-                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundedExpression" id="4815471077468833071" />
+                <node role="maxOccurs" type="jetbrains.mps.xmlSchema.structure.UnboundExpression" id="4815471077468833071" />
               </node>
             </node>
             <node role="typeExpression" type="jetbrains.mps.xmlSchema.structure.AttributeGroupReference" id="4815471077468833072">
