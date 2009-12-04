@@ -345,6 +345,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="3865540407050586121">
     <property name="name" value="reduce_AccessArbitraryAttributeOperation" />
+    <property name="package" value="operations" />
     <link role="applicableConcept" targetNodeId="1.634907465121463881" resolveInfo="AccessArbitraryAttributeOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="3865540407050586124">
       <property name="name" value="someMethod" />
@@ -400,6 +401,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="3865540407050744314">
     <property name="name" value="reduce_AccessTextOperation" />
+    <property name="package" value="operations" />
     <link role="applicableConcept" targetNodeId="1.4203809819610731778" resolveInfo="AccessTextOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="3865540407050744315">
       <property name="name" value="someMethod" />

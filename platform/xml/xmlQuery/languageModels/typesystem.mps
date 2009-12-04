@@ -41,6 +41,7 @@
   <visible index="2" modelUID="r:e79b58b4-ea58-4c9d-b43b-c3a260addf6a(jetbrains.mps.xmlQuery.constraints)" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="4991903842868198512">
     <property name="name" value="typeof_AccessChildOperation" />
+    <property name="package" value="operations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868198513">
       <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="4991903842868219196">
         <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="4991903842868219197">
@@ -159,6 +160,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="4991903842868473295">
     <property name="name" value="typeof_AccessAttributeOperation" />
+    <property name="package" value="operations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="4991903842868473296">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="7225751495667402982">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="7225751495667402986">
@@ -191,6 +193,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="634907465121461835">
     <property name="name" value="typeof_AccessArbitraryChildOperation" />
+    <property name="package" value="operations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="634907465121461836">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="4203809819610648546">
         <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="4203809819610648547">
@@ -236,6 +239,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="634907465121486818">
     <property name="name" value="typeof_AccessArbitraryAttributeOperation" />
+    <property name="package" value="operations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="634907465121486819">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="634907465121486825">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="634907465121486829">
@@ -557,6 +561,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="115745247309398848">
     <property name="name" value="typeof_AccessTextOperation" />
+    <property name="package" value="operations" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="115745247309398849">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="115745247309398866">
         <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="115745247309398873">
@@ -608,6 +613,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="10026583185000614">
     <property name="name" value="typeof_XMLAttributeBuilder" />
+    <property name="package" value="builders" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185000615">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="10026583185000617">
         <node role="inequationGroup" type="jetbrains.mps.lang.typesystem.structure.DefaultGroupReference" id="10026583185000618" />
@@ -646,6 +652,7 @@
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="10026583185478629">
     <property name="name" value="typeof_XMLTextBuilder" />
+    <property name="package" value="builders" />
     <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="10026583185478630">
       <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" id="10026583185478632">
         <node role="inequationGroup" type="jetbrains.mps.lang.typesystem.structure.DefaultGroupReference" id="10026583185478633" />

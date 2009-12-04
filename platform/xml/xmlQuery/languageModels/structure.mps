@@ -71,6 +71,7 @@
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4815471077468621634">
     <property name="name" value="AccessChildOperation" />
+    <property name="package" value="operations" />
     <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4815471077468621635">
       <property name="metaClass" value="reference" />
@@ -105,6 +106,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4991903842868303816">
     <property name="name" value="XMLElementOperation" />
+    <property name="package" value="operations" />
     <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="4991903842868303817">
       <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
@@ -116,6 +118,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4991903842868445303">
     <property name="name" value="AccessAttributeOperation" />
     <property name="iconPath" value="${mps_home}/core/baseLanguage/baseLanguage/icons/fieldNew.png" />
+    <property name="package" value="operations" />
     <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4991903842868445309">
       <property name="metaClass" value="reference" />
@@ -126,6 +129,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="634907465121461799">
     <property name="name" value="AccessArbitraryChildOperation" />
+    <property name="package" value="operations" />
     <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4203809819610565424">
       <property name="metaClass" value="aggregation" />
@@ -144,6 +148,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="634907465121463881">
     <property name="name" value="AccessArbitraryAttributeOperation" />
+    <property name="package" value="operations" />
     <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4203809819610565421">
       <property name="metaClass" value="aggregation" />
@@ -162,6 +167,7 @@
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4203809819610731778">
     <property name="name" value="AccessTextOperation" />
+    <property name="package" value="operations" />
     <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4203809819610731780">
       <property name="value" value="text" />
@@ -170,16 +176,6 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4203809819610731782">
       <property name="value" value="access elements'text" />
       <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3903783035314887839">
-    <property name="name" value="XMLElementBuilder" />
-    <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4705273682234098455">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="complexType" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167615791597" resolveInfo="ComplexType" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4705273682234223462">
@@ -201,7 +197,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7225751495667376018">
-    <property name="name" value="XMLAttributeBuilder" />
+    <property name="name" value="AttributeBuilder" />
+    <property name="package" value="builders" />
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
     <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7225751495667403566">
       <property name="metaClass" value="aggregation" />
@@ -220,7 +217,8 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="10026583185341422">
-    <property name="name" value="XMLTextBuilder" />
+    <property name="name" value="TextBuilder" />
+    <property name="package" value="builders" />
     <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7567280977594908265">
       <property name="value" value="text :" />
@@ -238,6 +236,36 @@
       <property name="role" value="value" />
       <property name="sourceCardinality" value="1" />
       <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3149278768676753890">
+    <property name="name" value="RootElementBuilder" />
+    <property name="package" value="builders" />
+    <link role="extends" targetNodeId="3149278768676788174" resolveInfo="ElementBuilder" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="3149278768676759088">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="complexType" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1167615791597" resolveInfo="ComplexType" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3149278768676759302">
+    <property name="package" value="builders" />
+    <property name="name" value="ChildElementBuilder" />
+    <link role="extends" targetNodeId="3149278768676788174" resolveInfo="ElementBuilder" />
+    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="3149278768676759303">
+      <property name="metaClass" value="reference" />
+      <property name="role" value="elementDeclaration" />
+      <property name="sourceCardinality" value="1" />
+      <link role="target" targetNodeId="2.1167838236835" resolveInfo="ElementDeclaration" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3149278768676788174">
+    <property name="package" value="builders" />
+    <property name="name" value="ElementBuilder" />
+    <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="3149278768676788184">
+      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />
     </node>
   </node>
 </model>

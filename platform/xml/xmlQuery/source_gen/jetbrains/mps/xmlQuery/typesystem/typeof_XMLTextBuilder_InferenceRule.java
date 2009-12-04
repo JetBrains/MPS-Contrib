@@ -26,7 +26,7 @@ public class typeof_XMLTextBuilder_InferenceRule extends AbstractInferenceRule_R
   }
 
   public String getApplicableConceptFQName() {
-    return "jetbrains.mps.xmlQuery.structure.XMLTextBuilder";
+    return "jetbrains.mps.xmlQuery.structure.TextBuilder";
   }
 
   public boolean isApplicable(SNode argument) {

@@ -85,6 +85,15 @@ public class SchemaUtil {
     return type;
   }
 
+  public static SNode constructXMLElementTypeForElement(SNode elementDeclaration) {
+    if (SNodeOperations.isInstanceOf(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithType")) {
+      return constructXMLElementType(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithType"), "complexTypeReference", true), "complexType", false));
+    } else if (SNodeOperations.isInstanceOf(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithContent")) {
+      return constructXMLElementType(SLinkOperations.getTarget(SNodeOperations.cast(elementDeclaration, "jetbrains.mps.xmlSchema.structure.ElementWithContent"), "complexType", true));
+    }
+    return null;
+  }
+
   public static SNode getAttributeType(SNode attributeDeclaration) {
     SNode attributeSchemaType = SLinkOperations.getTarget(attributeDeclaration, "type", true);
     if ((attributeSchemaType == null) || SNodeOperations.isInstanceOf(attributeSchemaType, "jetbrains.mps.xmlSchema.structure.StringSchemaType")) {
