@@ -13,7 +13,7 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 
 public class QueriesGenerated {
   public static boolean baseMappingRule_Condition_2341233264268020340(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation");
+    return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation");
   }
 
   public static boolean baseMappingRule_Condition_4647729700483326629(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
@@ -56,12 +56,12 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessAttributeOperation"), "attributeDeclaration", false), "type", true), "jetbrains.mps.xmlSchema.structure.StringSchemaType"), "defaultValue");
   }
 
-  public static Object propertyMacro_GetPropertyValue_3865540407050480895(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false), "elementName");
-  }
-
   public static Object propertyMacro_GetPropertyValue_4647729700483161978(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessAttributeOperation"), "attributeDeclaration", false), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_6992757512064148577(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(SLinkOperations.getTarget(_context.getNode(), "elementDeclaration", false), "elementName");
   }
 
   public static SNode sourceNodeQuery_108366216419476255(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -81,7 +81,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_115745247309764149(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation"), "childNameExpression", true);
+    return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getNode(), "operation", true), "jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation"), "childNameExpression", true);
   }
 
   public static SNode sourceNodeQuery_3865540407050586204(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
