@@ -1467,6 +1467,35 @@
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="5293902215866131465">
     <property name="package" value="operation.property" />
     <link role="concept" targetNodeId="1.5293902215864689835" resolveInfo="TimeZoneNameOperation" />
+    <node role="property" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint" id="8736588939154832163">
+      <link role="applicableProperty" targetNodeId="1.5293902215864689837" resolveInfo="property" />
+      <node role="propertyValidator" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator" id="8736588939154832164">
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8736588939154832165">
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8736588939154832737">
+            <node role="expression" type="jetbrains.mps.baseLanguage.structure.OrExpression" id="8736588939154856958">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8736588939154856962">
+                <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" id="8736588939154856961" />
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8736588939154856966">
+                  <link role="baseMethodDeclaration" targetNodeId="2.~String.equals(java.lang.Object):boolean" resolveInfo="equals" />
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="8736588939154856967">
+                    <property name="value" value="name" />
+                  </node>
+                </node>
+              </node>
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8736588939154832739">
+                <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintsFunctionParameter_propertyValue" id="8736588939154832738" />
+                <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8736588939154832743">
+                  <link role="baseMethodDeclaration" targetNodeId="2.~String.equals(java.lang.Object):boolean" resolveInfo="equals" />
+                  <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="8736588939154832744">
+                    <property name="value" value="short name" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="5293902215866131466">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215866131467">
         <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5293902215866131468">

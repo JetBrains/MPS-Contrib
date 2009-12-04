@@ -1803,8 +1803,8 @@
       <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
     </node>
     <node role="propertyDeclaration" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration" id="5293902215864689837">
-      <property name="name" value="isShort" />
-      <link role="dataType" targetNodeId="1.1082983657063" resolveInfo="boolean" />
+      <property name="name" value="property" />
+      <link role="dataType" targetNodeId="1.1082983041843" resolveInfo="string" />
     </node>
     <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="5293902215864689836">
       <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
@@ -1812,6 +1812,9 @@
     <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="5293902215864689838">
       <property name="value" value="name" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="8736588939155698759">
+      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473994950" resolveInfo="dontSubstituteByDefault" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="5293902215865424196">

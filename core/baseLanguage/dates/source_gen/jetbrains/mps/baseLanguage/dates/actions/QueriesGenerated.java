@@ -4,13 +4,13 @@ package jetbrains.mps.baseLanguage.dates.actions;
 
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.typesystem.inference.TypeChecker;
-import jetbrains.mps.baseLanguage.behavior.TypeDerivable_Behavior;
-import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
+import jetbrains.mps.baseLanguage.behavior.TypeDerivable_Behavior;
+import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
@@ -18,12 +18,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
+import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
+import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.Calculable;
 import org.joda.time.DateTimeZone;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
-import jetbrains.mps.smodel.SModel;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
@@ -36,6 +36,15 @@ import java.util.Iterator;
 import jetbrains.mps.util.Condition;
 
 public class QueriesGenerated {
+  public static boolean nodeSubstituteActionsBuilder_Precondition_TimeZoneNameOperation_1064517862347161195(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
+    boolean can = false;
+    if (SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression")) {
+      SNode type = TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.DotExpression"), "operand", true));
+      can = TypeChecker.getInstance().getRuntimeSupport().coerce_(type, HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType"), true) != null;
+    }
+    return can;
+  }
+
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_4555537781927653007(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
     return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new _Quotations.QuotationClass_11().createNode());
@@ -99,6 +108,61 @@ public class QueriesGenerated {
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_FormatPeriodExpression_8875872347490100003(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
+  }
+
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_TimeZoneNameOperation_1064517862347160283(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation");
+      SNode childConcept = (SNode)_context.getChildConcept();
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode op = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", null);
+            SPropertyOperations.set(op, "property", "short name");
+            return op;
+          }
+
+          public String getDescriptionText(String pattern) {
+            return "ex: GMT, CET";
+          }
+
+          public String getMatchingText(String pattern) {
+            return "short name at";
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+        });
+      }
+    }
+    {
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation");
+      SNode childConcept = (SNode)_context.getChildConcept();
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode op = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", null);
+            SPropertyOperations.set(op, "property", "name");
+            return op;
+          }
+
+          public String getDescriptionText(String pattern) {
+            return "ex: Central European Time";
+          }
+
+          public String getMatchingText(String pattern) {
+            return "name at";
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+        });
+      }
+    }
+    return result;
   }
 
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_4555537781927653006(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {

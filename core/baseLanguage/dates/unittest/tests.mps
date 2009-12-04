@@ -4418,6 +4418,7 @@
                 <link role="variableDeclaration" targetNodeId="5293902215865158109" resolveInfo="gmt" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865158119">
+                <property name="property" value="name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865158120">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865158121">
                     <property name="day" value="1" />
@@ -4445,6 +4446,7 @@
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865158131">
                 <property name="isShort" value="true" />
+                <property name="property" value="short name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865158132">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865158133">
                     <property name="day" value="1" />
@@ -4471,6 +4473,7 @@
                 <link role="variableDeclaration" targetNodeId="5293902215865158109" resolveInfo="gmt" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865158144">
+                <property name="property" value="name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865158145">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865158146">
                     <property name="day" value="1" />
@@ -4498,6 +4501,7 @@
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865158156">
                 <property name="isShort" value="true" />
+                <property name="property" value="short name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865158157">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865158158">
                     <property name="day" value="1" />
@@ -4564,6 +4568,7 @@
                 <link role="variableDeclaration" targetNodeId="5293902215865165960" resolveInfo="prg" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865165982">
+                <property name="property" value="name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865165983">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865165984">
                     <property name="day" value="1" />
@@ -4591,6 +4596,7 @@
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865165991">
                 <property name="isShort" value="true" />
+                <property name="property" value="short name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865165992">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865165993">
                     <property name="day" value="1" />
@@ -4617,6 +4623,7 @@
                 <link role="variableDeclaration" targetNodeId="5293902215865165960" resolveInfo="prg" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865166000">
+                <property name="property" value="name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865166001">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865166002">
                     <property name="day" value="1" />
@@ -4644,6 +4651,7 @@
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865166009">
                 <property name="isShort" value="true" />
+                <property name="property" value="short name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865166010">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865166011">
                     <property name="day" value="1" />
@@ -4679,6 +4687,7 @@
                 </node>
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215865197711">
+                <property name="property" value="name" />
                 <link role="locale" targetNodeId="1.1172681346440" resolveInfo="FRENCH" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215865197712">
                   <node role="operand" type="jetbrains.mps.baseLanguage.dates.structure.TimeConstant" id="5293902215865197713">
@@ -4817,6 +4826,7 @@
                 <link role="variableDeclaration" targetNodeId="5293902215866758562" resolveInfo="tz2" />
               </node>
               <node role="operation" type="jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation" id="5293902215866758573">
+                <property name="property" value="name" />
                 <node role="instant" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5293902215866758582">
                   <link role="variableDeclaration" targetNodeId="5293902215866758578" resolveInfo="n" />
                 </node>

@@ -379,9 +379,9 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_5293902215864743806(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return (SPropertyOperations.getBoolean(_context.getNode(), "isShort") ?
-      "getShortName" :
-      "getName"
+    return (SPropertyOperations.getString(_context.getNode(), "property").equals("name") ?
+      "getName" :
+      "getShortName"
     );
   }
 

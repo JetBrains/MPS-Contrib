@@ -4118,24 +4118,65 @@
     <property name="package" value="operation.property" />
     <link role="conceptDeclaration" targetNodeId="1.5293902215864689835" resolveInfo="TimeZoneNameOperation" />
     <node role="cellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Collection" id="5293902215864698568">
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5293902215864721218">
-        <property name="text" value="short" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Property" id="8736588939154832162">
+        <link role="relationDeclaration" targetNodeId="1.5293902215864689837" resolveInfo="property" />
         <link role="styleClass" targetNodeId="48.1198595398954" resolveInfo="Field" />
-        <node role="renderingCondition" type="jetbrains.mps.lang.editor.structure.QueryFunction_NodeCondition" id="5293902215864721219">
-          <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215864721220">
-            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5293902215864721221">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215864721223">
-                <node role="operand" type="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_node" id="5293902215864721222" />
-                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="5293902215864721227">
-                  <link role="property" targetNodeId="1.5293902215864689837" resolveInfo="isShort" />
+        <node role="menuDescriptor" type="jetbrains.mps.lang.editor.structure.CellMenuDescriptor" id="8736588939154832748">
+          <node role="cellMenuPart" type="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues" id="8736588939154832749">
+            <node role="valuesFunction" type="jetbrains.mps.lang.editor.structure.CellMenuPart_PropertyValues_GetValues" id="8736588939154832750">
+              <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8736588939154832751">
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="8736588939154832752">
+                  <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="8736588939154832753">
+                    <property name="name" value="l" />
+                    <node role="type" type="jetbrains.mps.baseLanguage.collections.structure.ListType" id="8736588939154832754">
+                      <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="8736588939154832756" />
+                    </node>
+                    <node role="initializer" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="8736588939154832758">
+                      <node role="creator" type="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" id="8736588939154856881">
+                        <node role="elementType" type="jetbrains.mps.baseLanguage.structure.StringType" id="8736588939154856883" />
+                        <node role="initSize" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="8736588939154856886">
+                          <property name="value" value="2" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8736588939154856888">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8736588939154856890">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8736588939154856889">
+                      <link role="variableDeclaration" targetNodeId="8736588939154832753" resolveInfo="l" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="8736588939154856894">
+                      <node role="argument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="8736588939154856900">
+                        <property name="value" value="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8736588939154856906">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8736588939154856908">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8736588939154856907">
+                      <link role="variableDeclaration" targetNodeId="8736588939154832753" resolveInfo="l" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" id="8736588939154856914">
+                      <node role="argument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="8736588939154856924">
+                        <property name="value" value="short name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8736588939154856943">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="8736588939154856944">
+                    <link role="variableDeclaration" targetNodeId="8736588939154832753" resolveInfo="l" />
+                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5293902215864698571">
-        <property name="text" value="name at" />
+      <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="8736588939154832747">
+        <property name="text" value="at" />
         <link role="styleClass" targetNodeId="48.1198595398954" resolveInfo="Field" />
       </node>
       <node role="childCellModel" type="jetbrains.mps.lang.editor.structure.CellModel_Constant" id="5293902215864698574">

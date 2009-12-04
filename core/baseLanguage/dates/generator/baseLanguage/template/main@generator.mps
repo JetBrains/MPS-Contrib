@@ -7258,6 +7258,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="5293902215864075092">
     <property name="name" value="reduce_TimeZoneIdOperation" />
+    <property name="package" value="operation.property" />
     <link role="applicableConcept" targetNodeId="1.5293902215864051658" resolveInfo="TimeZoneIdOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="5293902215864075095">
       <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215864102182">
@@ -7278,6 +7279,7 @@
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="5293902215864689842">
     <property name="name" value="reduce_TimeZoneNameOperation" />
+    <property name="package" value="operation.property" />
     <link role="applicableConcept" targetNodeId="1.5293902215864689835" resolveInfo="TimeZoneNameOperation" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.BlockStatement" id="5293902215864689844">
       <node role="statements" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215864689845">
@@ -7352,15 +7354,23 @@
                     <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5293902215864743808">
                       <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="5293902215864743815">
                         <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="5293902215864743819">
-                          <property name="value" value="getShortName" />
-                        </node>
-                        <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="5293902215864743820">
                           <property name="value" value="getName" />
                         </node>
-                        <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215864743810">
-                          <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="5293902215864743809" />
-                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="5293902215864743814">
-                            <link role="property" targetNodeId="1.5293902215864689837" resolveInfo="isShort" />
+                        <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="5293902215864743820">
+                          <property name="value" value="getShortName" />
+                        </node>
+                        <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8736588939155081540">
+                          <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215864743810">
+                            <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="5293902215864743809" />
+                            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="5293902215864743814">
+                              <link role="property" targetNodeId="1.5293902215864689837" resolveInfo="isShort" />
+                            </node>
+                          </node>
+                          <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="8736588939155081544">
+                            <link role="baseMethodDeclaration" targetNodeId="7.~String.equals(java.lang.Object):boolean" resolveInfo="equals" />
+                            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="8736588939155086658">
+                              <property name="value" value="name" />
+                            </node>
                           </node>
                         </node>
                       </node>
