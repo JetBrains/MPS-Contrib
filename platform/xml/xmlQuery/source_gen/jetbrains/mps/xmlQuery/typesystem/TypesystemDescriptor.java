@@ -10,7 +10,7 @@ import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
     {
-      InferenceRule_Runtime inferenceRule = new typeof_AccessChildOperation_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_AccessChildrenOperation_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
@@ -18,7 +18,7 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_AccessArbitraryChildOperation_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_AccessArbitraryChildrenOperation_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {

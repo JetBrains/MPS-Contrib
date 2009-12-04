@@ -23,7 +23,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ba(jetbrains.mps.lang.sharedConcepts.constraints)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
+  <languageAspect modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
@@ -32,13 +32,13 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959033d(jetbrains.mps.lang.annotations.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902b4(jetbrains.mps.lang.typesystem.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
+  <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <languageAspect modelUID="r:77052501-5144-48a7-be50-7535fc6d1073(jetbrains.mps.baseLanguage.builders.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="14" />
-  <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="3" />
+  <import index="1" modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)" version="4" />
   <import index="4" modelUID="f:java_stub#org.jdom(org.jdom@java_stub)" version="-1" />
-  <import index="6" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="2" />
+  <import index="6" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <import index="14" modelUID="r:10bf3684-5fb2-4fa0-9dd9-1d05589df2e9(jetbrains.mps.xmlQuery.runtime)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration" id="2341233264267726013">
@@ -85,22 +85,22 @@
     </node>
     <node role="reductionMappingRule" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule" id="3865540407050478679">
       <link role="applicableConcept" targetNodeId="1.4815471077468621634" resolveInfo="AccessChildOperation" />
-      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" id="3865540407050480889">
-        <node role="templateNode" type="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildOperation" id="3865540407050480891">
-          <node role="childNameExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="3865540407050480893">
-            <property name="value" value="childName" />
-            <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="3865540407050480894">
-              <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="3865540407050480895">
-                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3865540407050480896">
-                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3865540407050480897">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050502257">
-                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3865540407050480899">
-                        <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="3865540407050480898" />
-                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="3865540407050502256">
+      <node role="ruleConsequence" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence" id="6992757512064105554">
+        <node role="templateNode" type="jetbrains.mps.xmlQuery.structure.AccessArbitraryChildrenOperation" id="6992757512064105556">
+          <node role="childNameExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="6992757512064148575">
+            <property name="value" value="" />
+            <node role="propertyMacro$property_attribute$value" type="jetbrains.mps.lang.generator.structure.PropertyMacro" id="6992757512064148576">
+              <node role="propertyValueFunction" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue" id="6992757512064148577">
+                <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="6992757512064148578">
+                  <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="6992757512064148579">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6992757512064169938">
+                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="6992757512064148581">
+                        <node role="operand" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode" id="6992757512064148580" />
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="6992757512064169937">
                           <link role="link" targetNodeId="1.4815471077468621635" />
                         </node>
                       </node>
-                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="3865540407050713852">
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="6992757512064169942">
                         <link role="property" targetNodeId="6.1167838788027" resolveInfo="elementName" />
                       </node>
                     </node>
@@ -264,7 +264,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration" id="2341233264267760847">
-    <property name="name" value="reduce_AccessArbitraryChildOperation" />
+    <property name="name" value="reduce_AccessArbitraryChildrenOperation" />
     <link role="applicableConcept" targetNodeId="2v.1197027756228" resolveInfo="DotExpression" />
     <node role="contentNode" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" id="2341233264267760849">
       <property name="name" value="someMethod" />
