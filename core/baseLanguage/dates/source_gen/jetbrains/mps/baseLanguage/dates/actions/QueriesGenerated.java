@@ -658,7 +658,7 @@ public class QueriesGenerated {
       SNode applicableConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.structure.Expression");
       Condition cond = new Condition() {
         public boolean met(Object object) {
-          return !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant")) && !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.structure.VariableReference")) && !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression")) && !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression"));
+          return !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.dates.structure.TimeZoneConstant")) && !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.structure.VariableReference")) && !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.dates.structure.TimeZoneIDExpression")) && !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.dates.structure.TimeZoneOffsetExpression")) && !(SConceptOperations.isSubConceptOf(concept, "jetbrains.mps.baseLanguage.dates.structure.TimeZoneFromString"));
         }
       };
       if (SConceptOperations.isSuperConceptOf(applicableConcept, NameUtil.nodeFQName(concept)) && cond.met(concept)) {

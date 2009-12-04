@@ -937,5 +937,29 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="5293902215866558871">
+    <property name="package" value="operation.property" />
+    <link role="conceptDeclaration" targetNodeId="1.5293902215864689835" resolveInfo="TimeZoneNameOperation" />
+    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="5293902215866558872">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215866558873">
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="5293902215866558973">
+          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866558979">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="5293902215866558978" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5293902215866580335">
+              <link role="link" targetNodeId="1.5293902215864698564" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitReadStatement" id="5293902215866580337">
+          <node role="variable" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866580340">
+            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="5293902215866580339" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5293902215866580344">
+              <link role="link" targetNodeId="1.5293902215864942486" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

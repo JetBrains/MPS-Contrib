@@ -906,46 +906,58 @@
         <node role="condition" type="jetbrains.mps.lang.actions.structure.QueryFunction_RemoveBy_Condition" id="8433752473579885121">
           <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="8433752473579885122">
             <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="8433752473579886661">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068750">
-                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068753">
-                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068756">
-                    <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068755" />
-                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068760">
-                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068762">
-                        <link role="conceptDeclaration" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="5293902215862610833">
+                <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="5293902215862611149">
+                  <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215862611152">
+                    <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="5293902215862611151" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="5293902215862611156">
+                      <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="5293902215862611158">
+                        <link role="conceptDeclaration" targetNodeId="1.1239019022206" resolveInfo="TimeZoneFromString" />
                       </node>
                     </node>
                   </node>
                 </node>
-                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068737">
-                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068724">
-                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473579886670">
-                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473579886663">
-                        <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473579886662" />
-                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473579886667">
-                          <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068710">
-                            <link role="conceptDeclaration" targetNodeId="1.1238513709008" resolveInfo="TimeZoneConstant" />
+                <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068750">
+                  <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068737">
+                    <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.AndExpression" id="8433752473580068724">
+                      <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473579886670">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473579886663">
+                          <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473579886662" />
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473579886667">
+                            <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068710">
+                              <link role="conceptDeclaration" targetNodeId="1.1238513709008" resolveInfo="TimeZoneConstant" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068727">
+                        <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068730">
+                          <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068729" />
+                          <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068734">
+                            <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068736">
+                              <link role="conceptDeclaration" targetNodeId="2.1068498886296" resolveInfo="VariableReference" />
+                            </node>
                           </node>
                         </node>
                       </node>
                     </node>
-                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068727">
-                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068730">
-                        <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068729" />
-                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068734">
-                          <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068736">
-                            <link role="conceptDeclaration" targetNodeId="2.1068498886296" resolveInfo="VariableReference" />
+                    <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068740">
+                      <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068743">
+                        <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068742" />
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068747">
+                          <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068749">
+                            <link role="conceptDeclaration" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
                           </node>
                         </node>
                       </node>
                     </node>
                   </node>
-                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068740">
-                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068743">
-                      <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068742" />
-                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068747">
-                        <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068749">
-                          <link role="conceptDeclaration" targetNodeId="1.4555537781927648369" resolveInfo="TimeZoneIDExpression" />
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NotExpression" id="8433752473580068753">
+                    <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="8433752473580068756">
+                      <node role="operand" type="jetbrains.mps.lang.actions.structure.ConceptFunctionParameter_concept" id="8433752473580068755" />
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Concept_IsSubConceptOfOperation" id="8433752473580068760">
+                        <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="8433752473580068762">
+                          <link role="conceptDeclaration" targetNodeId="1.5473692278135631085" resolveInfo="TimeZoneOffsetExpression" />
                         </node>
                       </node>
                     </node>

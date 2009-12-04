@@ -1393,5 +1393,147 @@
       </node>
     </node>
   </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="5293902215866130859">
+    <property name="package" value="operation.property" />
+    <link role="concept" targetNodeId="1.5293902215864051658" resolveInfo="TimeZoneIdOperation" />
+    <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="5293902215866130860">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215866130861">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5293902215866130862">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5293902215866130863">
+            <property name="name" value="can" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="5293902215866130864" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="5293902215866130865">
+              <property name="value" value="false" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="5293902215866130866">
+          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215866130867">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5293902215866130868">
+              <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5293902215866130869">
+                <property name="name" value="type" />
+                <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="5293902215866130870" />
+                <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866130871">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866130872">
+                    <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="5293902215866130873">
+                      <link role="concept" targetNodeId="6.1197027756228" resolveInfo="DotExpression" />
+                      <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="5293902215866130874" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5293902215866130875">
+                      <link role="link" targetNodeId="6.1197027771414" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" id="5293902215866130876" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5293902215866130877">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="5293902215866130878">
+                <node role="rValue" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="5293902215866130885">
+                  <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.CoerceExpression" id="5293902215866130886">
+                    <node role="pattern" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="5293902215866130887">
+                      <property name="name" value="dateTimeZoneType" />
+                      <link role="concept" targetNodeId="1.1238513516532" resolveInfo="DateTimeZoneType" />
+                    </node>
+                    <node role="nodeToCoerce" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5293902215866130888">
+                      <link role="variableDeclaration" targetNodeId="5293902215866130869" resolveInfo="type" />
+                    </node>
+                  </node>
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="5293902215866130889" />
+                </node>
+                <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5293902215866130890">
+                  <link role="variableDeclaration" targetNodeId="5293902215866130863" resolveInfo="can" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866130891">
+            <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="5293902215866130892" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="5293902215866130893">
+              <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="5293902215866130894">
+                <link role="conceptDeclaration" targetNodeId="6.1197027756228" resolveInfo="DotExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5293902215866130895">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5293902215866130896">
+            <link role="variableDeclaration" targetNodeId="5293902215866130863" resolveInfo="can" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints" id="5293902215866131465">
+    <property name="package" value="operation.property" />
+    <link role="concept" targetNodeId="1.5293902215864689835" resolveInfo="TimeZoneNameOperation" />
+    <node role="canBeChild" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" id="5293902215866131466">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215866131467">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5293902215866131468">
+          <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5293902215866131469">
+            <property name="name" value="can" />
+            <node role="type" type="jetbrains.mps.baseLanguage.structure.BooleanType" id="5293902215866131470" />
+            <node role="initializer" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="5293902215866131471">
+              <property name="value" value="false" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="5293902215866131472">
+          <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5293902215866131473">
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="5293902215866131474">
+              <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="5293902215866131475">
+                <property name="name" value="type" />
+                <node role="type" type="jetbrains.mps.lang.smodel.structure.SNodeType" id="5293902215866131476" />
+                <node role="initializer" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866131477">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866131478">
+                    <node role="operand" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" id="5293902215866131479">
+                      <link role="concept" targetNodeId="6.1197027756228" resolveInfo="DotExpression" />
+                      <node role="leftExpression" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="5293902215866131480" />
+                    </node>
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5293902215866131481">
+                      <link role="link" targetNodeId="6.1197027771414" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.lang.typesystem.structure.Node_TypeOperation" id="5293902215866131482" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5293902215866131483">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="5293902215866131484">
+                <node role="rValue" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" id="5293902215866131485">
+                  <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.CoerceExpression" id="5293902215866131486">
+                    <node role="pattern" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="5293902215866131487">
+                      <property name="name" value="dateTimeZoneType" />
+                      <link role="concept" targetNodeId="1.1238513516532" resolveInfo="DateTimeZoneType" />
+                    </node>
+                    <node role="nodeToCoerce" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5293902215866131488">
+                      <link role="variableDeclaration" targetNodeId="5293902215866131475" resolveInfo="type" />
+                    </node>
+                  </node>
+                  <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="5293902215866131489" />
+                </node>
+                <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5293902215866131490">
+                  <link role="variableDeclaration" targetNodeId="5293902215866131469" resolveInfo="can" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5293902215866131491">
+            <node role="operand" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" id="5293902215866131492" />
+            <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" id="5293902215866131493">
+              <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="5293902215866131494">
+                <link role="conceptDeclaration" targetNodeId="6.1197027756228" resolveInfo="DotExpression" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="5293902215866131495">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="5293902215866131496">
+            <link role="variableDeclaration" targetNodeId="5293902215866131469" resolveInfo="can" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

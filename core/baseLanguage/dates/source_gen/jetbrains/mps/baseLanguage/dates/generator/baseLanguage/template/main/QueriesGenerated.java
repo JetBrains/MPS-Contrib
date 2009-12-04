@@ -378,6 +378,13 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "precision", false), "jodaDateTimeFieldType", false);
   }
 
+  public static Object referenceMacro_GetReferent_5293902215864743806(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return (SPropertyOperations.getBoolean(_context.getNode(), "isShort") ?
+      "getShortName" :
+      "getName"
+    );
+  }
+
   public static Object referenceMacro_GetReferent_5581663871703143296(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     if (SPropertyOperations.hasValue(_context.getNode(), "kind", "ifBefore", "default")) {
       return "appendSeparatorIfFieldsBefore";
@@ -776,6 +783,17 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_5034322243092314755(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true);
+  }
+
+  public static SNode sourceNodeQuery_5293902215864721348(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "instant", true);
+  }
+
+  public static SNode sourceNodeQuery_5293902215864721359(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null) ?
+      SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "locale", false), "javaLocale", true) :
+      SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.NullLiteral", null)
+    );
   }
 
   public static SNode sourceNodeQuery_5372916090360435514(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
