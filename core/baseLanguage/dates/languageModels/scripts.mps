@@ -39,10 +39,10 @@
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
   <node type="jetbrains.mps.lang.script.structure.MigrationScript" id="1239030444745">
-    <property name="migrationFromBuild" value="1193" />
     <property name="name" value="ConvertDateTimeMathOperations" />
     <property name="title" value="convert datetime math operations" />
     <property name="category" value="dates" />
+    <property name="migrationFromBuild" value="5070" />
     <node role="part" type="jetbrains.mps.lang.script.structure.MigrationScriptPart_Instance" id="1239030478794">
       <property name="description" value="datetime minus period convert" />
       <property name="showAsIntention" value="true" />
@@ -246,10 +246,10 @@
   </node>
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c895903ce(jetbrains.mps.baseLanguage.dates.behavior)" />
   <node type="jetbrains.mps.lang.script.structure.MigrationScript" id="1239189403575">
-    <property name="migrationFromBuild" value="1193" />
     <property name="name" value="ConvertDateTimeCompareOperations" />
     <property name="category" value="dates" />
     <property name="title" value="convert datetime compare operations " />
+    <property name="migrationFromBuild" value="5070" />
     <node role="part" type="jetbrains.mps.lang.script.structure.MigrationScriptPart_Instance" id="1239189512971">
       <property name="description" value="convert with property" />
       <property name="showAsIntention" value="true" />
