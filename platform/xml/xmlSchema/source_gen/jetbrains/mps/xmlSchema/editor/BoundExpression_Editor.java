@@ -26,11 +26,11 @@ public class BoundExpression_Editor extends DefaultNodeEditor {
 
   private EditorCell createProperty_5222_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("value");
-    provider.setNoTargetText("<no value>");
+    provider.setRole("maxOccurs");
+    provider.setNoTargetText("<no maxOccurs>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_value");
+    editorCell.setCellId("property_maxOccurs");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
