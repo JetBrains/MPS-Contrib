@@ -5,8 +5,8 @@ package jetbrains.mps.xmlQuery.constraints;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import java.util.ArrayList;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.ISelector;
@@ -15,22 +15,18 @@ import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
 public class SchemaUtil {
-  public static List<SNode> getAvailableAttributes(SNode complexType) {
-    if ((complexType == null)) {
+  public static List<SNode> getAvailableAttributes(SNode typeExpression) {
+    if ((typeExpression == null)) {
       return new ArrayList<SNode>();
     }
 
-    return getAvailableAttributes(SLinkOperations.getTargets(SLinkOperations.getTarget(complexType, "typeExpressionList", true), "typeExpression", true));
-  }
-
-  public static List<SNode> getAvailableAttributes(SNode typeExpression, boolean ignored) {
     if (SNodeOperations.isInstanceOf(typeExpression, "jetbrains.mps.xmlSchema.structure.ComplexContent")) {
       SNode contentItem = SLinkOperations.getTarget(SNodeOperations.cast(typeExpression, "jetbrains.mps.xmlSchema.structure.ComplexContent"), "contentItem", true);
       assert SNodeOperations.isInstanceOf(contentItem, "jetbrains.mps.xmlSchema.structure.Extension");
-      SNode extension = SNodeOperations.cast(contentItem, "jetbrains.mps.xmlSchema.structure.Extension");
-      SLinkOperations.getTarget(extension, "complexTypeReference", true);
 
-      return getAvailableAttributes(SLinkOperations.getTargets(SLinkOperations.getTarget(extension, "typeExpressionList", true), "typeExpression", true));
+      SNode extension = SNodeOperations.cast(contentItem, "jetbrains.mps.xmlSchema.structure.Extension");
+      return ListSequence.fromList(getAvailableAttributes(SLinkOperations.getTarget(SLinkOperations.getTarget(extension, "complexTypeReference", true), "complexType", false))).concat(ListSequence.fromList(getAvailableAttributes(SLinkOperations.getTargets(SLinkOperations.getTarget(extension, "typeExpressionList", true), "typeExpression", true)))).toListSequence();
+
     } else if (SNodeOperations.isInstanceOf(typeExpression, "jetbrains.mps.xmlSchema.structure.AttributeDeclaration")) {
       List<SNode> attributes = new ArrayList<SNode>();
       ListSequence.fromList(attributes).addElement(SNodeOperations.cast(typeExpression, "jetbrains.mps.xmlSchema.structure.AttributeDeclaration"));
@@ -39,6 +35,8 @@ public class SchemaUtil {
       return getAvailableAttributes(SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(typeExpression, "jetbrains.mps.xmlSchema.structure.AttributeGroupReference"), "attributeGroup", false), "attributeExpression", true));
     } else if (SNodeOperations.isInstanceOf(typeExpression, "jetbrains.mps.xmlSchema.structure.GroupExpression")) {
       return new ArrayList<SNode>();
+    } else if (SNodeOperations.isInstanceOf(typeExpression, "jetbrains.mps.xmlSchema.structure.ComplexType")) {
+      return getAvailableAttributes(SLinkOperations.getTargets(SLinkOperations.getTarget(SNodeOperations.cast(typeExpression, "jetbrains.mps.xmlSchema.structure.ComplexType"), "typeExpressionList", true), "typeExpression", true));
     } else {
       System.out.println("WARNING!!! New type expression: " + SNodeOperations.getConceptDeclaration(typeExpression));
       return new ArrayList<SNode>();
@@ -48,7 +46,7 @@ public class SchemaUtil {
   public static List<SNode> getAvailableAttributes(List<SNode> typeExpressions) {
     List<SNode> attributes = new ArrayList<SNode>();
     for (SNode typeExpression : ListSequence.fromList(typeExpressions)) {
-      ListSequence.fromList(attributes).addSequence(ListSequence.fromList(getAvailableAttributes(typeExpression, true)));
+      ListSequence.fromList(attributes).addSequence(ListSequence.fromList(getAvailableAttributes(typeExpression)));
     }
     return attributes;
   }
