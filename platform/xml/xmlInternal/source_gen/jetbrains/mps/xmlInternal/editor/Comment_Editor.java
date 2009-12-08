@@ -16,6 +16,7 @@ import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -147,7 +148,7 @@ public class Comment_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition3245_0(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "text") <= 1;
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "text", true)).count() <= 1;
   }
 
   private static class textListHandler_3245_0 extends RefNodeListHandler {
