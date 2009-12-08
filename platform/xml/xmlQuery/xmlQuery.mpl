@@ -44,7 +44,6 @@
     <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
     <dependency reexport="false">132aa4d8-a3f7-441c-a7eb-3fce23492c6a(jetbrains.mps.baseLanguage.builders)</dependency>
     <dependency reexport="false">83888646-71ce-4f1c-9c53-c54016f6ad4f(jetbrains.mps.baseLanguage.collections)</dependency>
-    <dependency reexport="false">9964a1b9-b601-4d3d-aefb-2f3b3388a256(jetbrains.mps.webr.xml.sandbox)</dependency>
     <dependency reexport="false">2c55c7ac-60c3-4eea-b9db-0d627bd2dcb9(jetbrains.mps.xml)</dependency>
     <dependency reexport="false">b51b9e02-45dc-4b48-b300-cf49360a8d1f(jetbrains.mps.xmlSchema)</dependency>
   </dependencies>
@@ -57,6 +56,9 @@
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
+  <runtime>
+    <dependency reexport="false">13bb5d8e-e640-4722-80ed-259ec90709b3(jetbrains.mps.xmlQuery.runtime)</dependency>
+  </runtime>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
     <extendedLanguage>132aa4d8-a3f7-441c-a7eb-3fce23492c6a(jetbrains.mps.baseLanguage.builders)</extendedLanguage>
