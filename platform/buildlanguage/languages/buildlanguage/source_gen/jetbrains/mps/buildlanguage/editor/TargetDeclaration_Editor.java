@@ -23,6 +23,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.FocusPolicy;
 import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import org.apache.commons.lang.StringUtils;
@@ -458,7 +459,7 @@ public class TargetDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition4669_0(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
   }
 
   private static boolean renderingCondition4669_1(SNode node, EditorContext editorContext, IScope scope) {

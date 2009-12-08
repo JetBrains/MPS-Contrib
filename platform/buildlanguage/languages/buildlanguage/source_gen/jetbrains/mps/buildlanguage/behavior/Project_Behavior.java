@@ -4,9 +4,9 @@ package jetbrains.mps.buildlanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
@@ -14,7 +14,7 @@ import jetbrains.mps.internal.collections.runtime.IVisitor;
 public class Project_Behavior {
   public static void init(SNode thisNode) {
     SNode target = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.TargetDeclaration", null);
-    SLinkOperations.addChild(thisNode, "target", target);
+    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)).addElement(target);
     SPropertyOperations.set(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)).first(), "name", "default");
     SNode defaultRef = SConceptOperations.createNewNode("jetbrains.mps.buildlanguage.structure.TargetReference", null);
     SLinkOperations.setTarget(defaultRef, "targetDeclaration", ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)).first(), false);

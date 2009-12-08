@@ -11,6 +11,7 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Horizontal;
 import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -75,7 +76,7 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
   }
 
   private static boolean renderingCondition8362_0(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "depends") != 0 || editorContext.isInspector();
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
   }
 
   private static class dependsListHandler_8362_0 extends RefNodeListHandler {
