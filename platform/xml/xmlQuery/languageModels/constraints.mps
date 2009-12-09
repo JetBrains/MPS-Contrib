@@ -217,6 +217,76 @@
               </node>
             </node>
           </node>
+          <node role="statement" type="jetbrains.mps.baseLanguage.structure.IfStatement" id="3014833108615681580">
+            <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3014833108615681581">
+              <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3014833108615702983">
+                <node role="expression" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression" id="3014833108615702985">
+                  <node role="lValue" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3014833108615702984">
+                    <link role="variableDeclaration" targetNodeId="3129600724328918848" resolveInfo="elementDeclaration" />
+                  </node>
+                  <node role="rValue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3014833108615702997">
+                    <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3014833108615702988">
+                      <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3014833108615702989">
+                        <node role="operand" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3014833108615702990">
+                          <link role="variableDeclaration" targetNodeId="3129600724328900185" resolveInfo="complexType" />
+                        </node>
+                        <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" id="3014833108615702991">
+                          <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="3014833108615702992">
+                            <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="3014833108615702993">
+                              <link role="conceptDeclaration" targetNodeId="2.1167513239198" resolveInfo="Schema" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node role="operation" type="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" id="3014833108615702994">
+                        <node role="parameter" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" id="3014833108615702995">
+                          <node role="conceptArgument" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" id="3014833108615702996">
+                            <link role="conceptDeclaration" targetNodeId="2.1167838362804" resolveInfo="ElementWithType" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="operation" type="jetbrains.mps.baseLanguage.collections.structure.FindFirstOperation" id="3014833108615703001">
+                      <node role="closure" type="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" id="3014833108615703002">
+                        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="3014833108615703003">
+                          <node role="statement" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement" id="3014833108615703012">
+                            <node role="expression" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="3014833108615703055">
+                              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3014833108615703071">
+                                <link role="variableDeclaration" targetNodeId="3129600724328900185" resolveInfo="complexType" />
+                              </node>
+                              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3014833108615703038">
+                                <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="3014833108615703020">
+                                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.ParameterReference" id="3014833108615703013">
+                                    <link role="variableDeclaration" targetNodeId="3014833108615703004" resolveInfo="ewt" />
+                                  </node>
+                                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="3014833108615703030">
+                                    <link role="link" targetNodeId="2.1167839503230" />
+                                  </node>
+                                </node>
+                                <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="3014833108615703048">
+                                  <link role="link" targetNodeId="2.1167790582664" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="parameter" type="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" id="3014833108615703004">
+                          <property name="name" value="ewt" />
+                          <node role="type" type="jetbrains.mps.baseLanguage.structure.WildCardType" id="3014833108615703005" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.EqualsExpression" id="3014833108615681585">
+              <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.NullLiteral" id="3014833108615681588" />
+              <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3014833108615681584">
+                <link role="variableDeclaration" targetNodeId="3129600724328918848" resolveInfo="elementDeclaration" />
+              </node>
+            </node>
+          </node>
           <node role="statement" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" id="1211753978542125464">
             <node role="localVariableDeclaration" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" id="1211753978542125465">
               <property name="name" value="elementDeclarations" />
@@ -229,7 +299,7 @@
                 <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference" id="3129600724328918862">
                   <link role="variableDeclaration" targetNodeId="3129600724328918848" resolveInfo="elementDeclaration" />
                 </node>
-                <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="1211753978542125471" />
+                <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="3014833108615640108" />
                 <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_scope" id="1211753978542125472" />
               </node>
             </node>
@@ -1249,7 +1319,7 @@
                             <link role="link" targetNodeId="1.1384720974900260378" />
                           </node>
                         </node>
-                        <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="3036783058493954392" />
+                        <node role="actualArgument" type="jetbrains.mps.lang.constraints.structure.ConceptParameter_ReferentSearchScope_enclosingNode" id="3014833108615640107" />
                         <node role="actualArgument" type="jetbrains.mps.lang.sharedConcepts.structure.ConceptFunctionParameter_scope" id="3036783058493954393" />
                       </node>
                     </node>
