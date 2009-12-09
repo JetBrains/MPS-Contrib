@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class InlineFormatExpression_convert_Intention extends BaseIntention implements Intention {
@@ -42,8 +43,8 @@ public class InlineFormatExpression_convert_Intention extends BaseIntention impl
     SNode ife = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
     SLinkOperations.setTarget(ife, "datetime", ite, true);
     SLinkOperations.setTarget(ife, "locale", SLinkOperations.getTarget(node, "locale", false), false);
-    SLinkOperations.removeAllChildren(ife, "formatToken");
-    SLinkOperations.addAll(ife, "formatToken", SLinkOperations.getTargets(node, "formatToken", true));
+    ListSequence.fromList(SLinkOperations.getTargets(ife, "formatToken", true)).clear();
+    ListSequence.fromList(SLinkOperations.getTargets(ife, "formatToken", true)).addSequence(ListSequence.fromList(SLinkOperations.getTargets(node, "formatToken", true)));
     SNodeOperations.replaceWithAnother(node, ife);
   }
 
