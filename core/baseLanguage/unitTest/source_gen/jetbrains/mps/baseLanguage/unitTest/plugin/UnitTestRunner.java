@@ -26,11 +26,11 @@ import java.util.LinkedHashSet;
 public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
-  private JUnitTestViewComponent myComponent;
+  private UnitTestViewComponent myComponent;
   private ConfigRunParameters configParameter;
   private ProcessBuilder processBuilder;
 
-  public UnitTestRunner(JUnitTestViewComponent component) {
+  public UnitTestRunner(UnitTestViewComponent component) {
     this.myComponent = component;
   }
 
