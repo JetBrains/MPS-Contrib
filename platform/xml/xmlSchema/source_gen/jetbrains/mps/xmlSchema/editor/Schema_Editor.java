@@ -10,17 +10,15 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.nodeEditor.AbstractCellProvider;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Component;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
-import javax.swing.JComponent;
-import jetbrains.mps.ide.browser.HyperlinkUtil;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -55,7 +53,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createProperty_3461_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_3461_0(editorContext, node));
-    editorCell.addEditorCell(this.createJComponent_3461_0(editorContext, node));
+    editorCell.addEditorCell(this.createCustom_3461_0(editorContext, node));
     return editorCell;
   }
 
@@ -162,17 +160,30 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createCustom_3461_0(final EditorContext editorContext, final SNode node) {
+    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<AbstractCellProvider>() {
+      public AbstractCellProvider invoke() {
+        return new AbstractCellProvider() {
+          public EditorCell createEditorCell(EditorContext p0) {
+            return EditorCell_URL.create(p0, node, "schemaUrl");
+          }
+        };
+      }
+    }.invoke();
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("Custom_3461_0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.UNDERLINED, true);
+    }
+    return editorCell;
+  }
+
   private EditorCell createRefNodeList_3461_0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new Schema_Editor.declarationBlockListHandler_3461_0(node, "declarationBlock", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_declarationBlock");
     editorCell.setRole(handler.getElementRole());
-    return editorCell;
-  }
-
-  private EditorCell createJComponent_3461_0(EditorContext editorContext, SNode node) {
-    EditorCell editorCell = EditorCell_Component.createComponentCell(editorContext, node, Schema_Editor._QueryFunction_JComponent_3461_0(node, editorContext), "_3461_0");
-    editorCell.setCellId("JComponent_3461_0");
     return editorCell;
   }
 
@@ -244,10 +255,6 @@ public class Schema_Editor extends DefaultNodeEditor {
       return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
     } else
     return editorCell;
-  }
-
-  private static JComponent _QueryFunction_JComponent_3461_0(SNode node, EditorContext editorContext) {
-    return HyperlinkUtil.getHyperlinkComponent(SPropertyOperations.getString(node, "schemaUrl"));
   }
 
   private static class declarationBlockListHandler_3461_0 extends RefNodeListHandler {
