@@ -325,6 +325,9 @@
       <property name="value" value="conditional token" />
       <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" />
     </node>
+    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1075917115049836851">
+      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1169563273551">
     <property name="name" value="ReferenceFormatToken" />

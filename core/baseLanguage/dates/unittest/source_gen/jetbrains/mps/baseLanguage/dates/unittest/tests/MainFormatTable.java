@@ -11,6 +11,8 @@ import jetbrains.mps.baseLanguage.dates.runtime.OffsetDateTimePrinter;
 import org.joda.time.DurationFieldType;
 
 public class MainFormatTable extends BaseFormatTable {
+  public static MainFormatTable INSTANCE = new MainFormatTable();
+
   public MainFormatTable() {
   }
 
@@ -18,7 +20,7 @@ public class MainFormatTable extends BaseFormatTable {
     if ("usDayOfWeek".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
       {
-        FixedLocaleDateTimeFormatter formatter = new FixedLocaleDateTimeFormatter(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("fullDayOfWeek"), Locale.US);
+        FixedLocaleDateTimeFormatter formatter = new FixedLocaleDateTimeFormatter(MainFormatTable.INSTANCE.getFormatter("fullDayOfWeek"), Locale.US);
         builder.append(formatter, formatter);
       }
       return builder.toFormatter();
@@ -30,9 +32,9 @@ public class MainFormatTable extends BaseFormatTable {
     }
     if ("date/time".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-      builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("date"));
+      builder.append(MainFormatTable.INSTANCE.getFormatter("date"));
       builder.appendLiteral(" ");
-      builder.append(_FormatTables.MAIN_FORMAT_TABLE.getFormatter("time"));
+      builder.append(MainFormatTable.INSTANCE.getFormatter("time"));
       return builder.toFormatter();
     }
     if ("date".equals(formatterName)) {
@@ -74,7 +76,7 @@ public class MainFormatTable extends BaseFormatTable {
     }
     if ("optionalDate".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-      builder.append(new ConditionalDateTimePrinter0());
+      builder.append(new ConditionalDTPrinterOptionalDate());
       return builder.toFormatter();
     }
     if ("momentsAgo".equals(formatterName)) {
@@ -99,7 +101,7 @@ public class MainFormatTable extends BaseFormatTable {
     }
     if ("offset".equals(formatterName)) {
       DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
-      builder.append(new ConditionalDateTimePrinter1());
+      builder.append(new ConditionalDTPrinterOffset());
       return builder.toFormatter();
     }
     if ("am-pm".equals(formatterName)) {

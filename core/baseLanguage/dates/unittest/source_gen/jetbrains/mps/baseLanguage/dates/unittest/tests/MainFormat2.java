@@ -11,6 +11,8 @@ import org.joda.time.DateTimeZone;
 import org.joda.time.DurationFieldType;
 
 public class MainFormat2 extends BaseFormatTable {
+  public static MainFormat2 INSTANCE = new MainFormat2();
+
   public MainFormat2() {
   }
 

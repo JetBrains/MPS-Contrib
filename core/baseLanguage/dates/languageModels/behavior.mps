@@ -11,6 +11,7 @@
   <language namespace="cccc689c-f365-4862-a8b6-34ecddf8ee26(jetbrains.mps.baseLanguage.dates)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <language namespace="1991585e-225e-4371-977a-68a7888adae2(jetbrains.mps.baseLanguage.datesInternal)" />
+  <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590307(jetbrains.mps.lang.constraints.constraints)" version="9" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="8" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590328(jetbrains.mps.baseLanguage.collections.constraints)" version="6" />
@@ -1983,6 +1984,54 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1075917115049868776">
+    <property name="package" value="format.date" />
+    <link role="concept" targetNodeId="1.1169562965517" resolveInfo="ConditionalFormatToken" />
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="1075917115049868779">
+      <property name="name" value="getClassName" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="1075917115049868780" />
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.StringType" id="1075917115049868783" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1075917115049868782">
+        <node role="statement" type="jetbrains.mps.baseLanguage.structure.ReturnStatement" id="1075917115049868784">
+          <node role="expression" type="jetbrains.mps.baseLanguage.structure.PlusExpression" id="1075917115049868786">
+            <node role="rightExpression" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" id="1075917115049868787">
+              <node role="expression" type="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" id="1075917115049868788">
+                <node role="ifTrue" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1075917115049868789">
+                  <node role="operand" type="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" id="1075917115049868790">
+                    <node role="leftExpression" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1075917115049868804" />
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" id="1075917115049868792">
+                    <link role="baseMethodDeclaration" targetNodeId="13.~SNode.getId():java.lang.String" resolveInfo="getId" />
+                  </node>
+                </node>
+                <node role="ifFalse" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1075917115049868793">
+                  <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1075917115049868805" />
+                  <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1075917115049868806">
+                    <link role="property" targetNodeId="7.1169194664001" resolveInfo="name" />
+                  </node>
+                </node>
+                <node role="condition" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1075917115049868796">
+                  <node role="operand" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1075917115049868797">
+                    <node role="operand" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="1075917115049868802" />
+                    <node role="operation" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess" id="1075917115049868803">
+                      <link role="property" targetNodeId="7.1169194664001" resolveInfo="name" />
+                    </node>
+                  </node>
+                  <node role="operation" type="jetbrains.mps.baseLanguage.structure.IsEmptyOperation" id="1075917115049868800" />
+                </node>
+              </node>
+            </node>
+            <node role="leftExpression" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1075917115049868801">
+              <property name="value" value="ConditionalDTPrinter" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="1075917115049868777">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1075917115049868778" />
     </node>
   </node>
 </model>

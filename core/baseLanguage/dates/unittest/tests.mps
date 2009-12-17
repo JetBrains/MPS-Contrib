@@ -150,6 +150,7 @@
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.dates.structure.DateFormat" id="1169564829638">
       <property name="name" value="optionalDate" />
       <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken" id="1169645782400">
+        <property name="name" value="OptionalDate" />
         <node role="conditionPair" type="jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair" id="1172687359615">
           <link role="format" targetNodeId="1172687345331" resolveInfo="empty" />
           <node role="condition" type="jetbrains.mps.baseLanguage.dates.structure.TokenCondition" id="1172687359616">
@@ -237,6 +238,7 @@
     <node role="dateFormat" type="jetbrains.mps.baseLanguage.dates.structure.DateFormat" id="1174322041098">
       <property name="name" value="offset" />
       <node role="token" type="jetbrains.mps.baseLanguage.dates.structure.ConditionalFormatToken" id="1174322061629">
+        <property name="name" value="Offset" />
         <node role="conditionPair" type="jetbrains.mps.baseLanguage.dates.structure.TokenConditionalPair" id="1174322237476">
           <link role="format" targetNodeId="1174322248463" resolveInfo="momentsAgo" />
           <node role="condition" type="jetbrains.mps.baseLanguage.dates.structure.TokenCondition" id="1174322237477">

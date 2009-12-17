@@ -7,6 +7,8 @@ import org.joda.time.format.PeriodFormatter;
 import org.joda.time.format.PeriodFormatterBuilder;
 
 public class main_Format2 extends BasePeriodFormatTable {
+  public static main_Format2 INSTANCE = new main_Format2();
+
   public main_Format2() {
   }
 

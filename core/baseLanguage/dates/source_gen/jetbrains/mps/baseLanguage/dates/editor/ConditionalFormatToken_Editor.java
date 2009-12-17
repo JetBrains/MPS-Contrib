@@ -7,12 +7,16 @@ import jetbrains.mps.nodeEditor.cells.EditorCell;
 import jetbrains.mps.nodeEditor.EditorContext;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
-import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
+import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
+import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -25,6 +29,10 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     return this.createCollection_1104_0(editorContext, node);
   }
 
+  public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
+    return this.createCollection_1104_1(editorContext, node);
+  }
+
   private EditorCell createCollection_1104_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_1104_0");
@@ -32,6 +40,25 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_1104_1(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_1104_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_1104_3(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_1104_1(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
+    editorCell.setCellId("Collection_1104_1");
+    editorCell.addEditorCell(this.createCollection_1104_2(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_1104_2(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
+    editorCell.setCellId("Collection_1104_2");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createConstant_1104_4(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_1104_0(editorContext, node));
     return editorCell;
   }
 
@@ -67,6 +94,13 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_1104_4(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "name");
+    editorCell.setCellId("Constant_1104_4");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createRefNodeList_1104_0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new ConditionalFormatToken_Editor.conditionPairListHandler_1104_0(node, "conditionPair", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
@@ -78,6 +112,25 @@ public class ConditionalFormatToken_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
     }
     editorCell.setRole(handler.getElementRole());
+    return editorCell;
+  }
+
+  private EditorCell createProperty_1104_0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("name");
+    provider.setNoTargetText("<no name>");
+    provider.setAllowsEmptyTarget(true);
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_name");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
     return editorCell;
   }
 
