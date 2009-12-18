@@ -10,8 +10,6 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
-import jetbrains.mps.nodeEditor.AbstractCellProvider;
-import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Vertical;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
@@ -19,6 +17,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.URLCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -53,7 +52,7 @@ public class Schema_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createProperty_3461_0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_3461_0(editorContext, node));
-    editorCell.addEditorCell(this.createCustom_3461_0(editorContext, node));
+    editorCell.addEditorCell(this.createURL_3461_0(editorContext, node));
     return editorCell;
   }
 
@@ -160,25 +159,6 @@ public class Schema_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCustom_3461_0(final EditorContext editorContext, final SNode node) {
-    AbstractCellProvider provider = new _FunctionTypes._return_P0_E0<AbstractCellProvider>() {
-      public AbstractCellProvider invoke() {
-        return new AbstractCellProvider() {
-          public EditorCell createEditorCell(EditorContext p0) {
-            return EditorCell_URL.create(p0, node, "schemaUrl");
-          }
-        };
-      }
-    }.invoke();
-    EditorCell editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("Custom_3461_0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.UNDERLINED, true);
-    }
-    return editorCell;
-  }
-
   private EditorCell createRefNodeList_3461_0(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new Schema_Editor.declarationBlockListHandler_3461_0(node, "declarationBlock", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
@@ -246,6 +226,24 @@ public class Schema_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no defaultNamespaceDeclaration>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createURL_3461_0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new URLCellProvider(node, editorContext);
+    provider.setRole("schemaUrl");
+    provider.setNoTargetText("<no schemaUrl>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("URL_3461_0");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
