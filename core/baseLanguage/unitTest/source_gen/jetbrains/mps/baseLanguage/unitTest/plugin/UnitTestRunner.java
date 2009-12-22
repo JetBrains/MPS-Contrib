@@ -24,7 +24,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import java.util.LinkedHashSet;
 
 public class UnitTestRunner extends BaseRunner {
-  private static final Logger LOG = Logger.getLogger(UnitTestRunner.class);
+  private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
   private UnitTestViewComponent myComponent;
   private ConfigRunParameters configParameter;
