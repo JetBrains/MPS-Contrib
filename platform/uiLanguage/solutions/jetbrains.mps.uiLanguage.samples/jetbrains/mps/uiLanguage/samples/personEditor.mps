@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:00000000-0000-4000-0000-011c89590560(jetbrains.mps.uiLanguage.samples.personEditor)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
@@ -21,132 +21,132 @@
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)" version="-1" />
   <import index="4" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="5" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
-  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration" id="1202742898078">
-    <property name="name" value="PersonEditor" />
-    <node role="root" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743408395">
-      <link role="componentDeclaration" targetNodeId="2.1202393511419" resolveInfo="Frame" />
-      <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743446182">
-        <link role="componentDeclaration" targetNodeId="2.1202738287160" resolveInfo="VBox" />
-        <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743448419">
-          <link role="componentDeclaration" targetNodeId="2.1202465811094" resolveInfo="Label" />
-          <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743450170">
-            <link role="attribute" targetNodeId="2.1202465836231" resolveInfo="text" />
-            <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202743450734">
-              <property name="value" value="Name:" />
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentDeclaration:1" id="1202742898078">
+    <property name="name:1" value="PersonEditor" />
+    <node role="root:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743408395">
+      <link role="componentDeclaration:1" targetNodeId="2.1202393511419" resolveInfo="Frame" />
+      <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743446182">
+        <link role="componentDeclaration:1" targetNodeId="2.1202738287160" resolveInfo="VBox" />
+        <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743448419">
+          <link role="componentDeclaration:1" targetNodeId="2.1202465811094" resolveInfo="Label" />
+          <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743450170">
+            <link role="attribute:1" targetNodeId="2.1202465836231" resolveInfo="text" />
+            <node role="value:1" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1202743450734">
+              <property name="value:3" value="Name:" />
             </node>
           </node>
         </node>
-        <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743453549">
-          <link role="componentDeclaration" targetNodeId="2.1202464198724" resolveInfo="TextField" />
-          <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743509561">
-            <link role="attribute" targetNodeId="2.1202464208353" resolveInfo="text" />
-            <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202743510547">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202743513456">
-                <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" id="1205754224096" />
-                <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202743514630">
-                  <link role="member" targetNodeId="1202743493336" resolveInfo="firstName" />
+        <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743453549">
+          <link role="componentDeclaration:1" targetNodeId="2.1202464198724" resolveInfo="TextField" />
+          <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743509561">
+            <link role="attribute:1" targetNodeId="2.1202464208353" resolveInfo="text" />
+            <node role="value:1" type="jetbrains.mps.uiLanguage.structure.BindExpression:1" id="1202743510547">
+              <node role="expression:1" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1202743513456">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="1205754224096" />
+                <node role="operation:3" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation:1" id="1202743514630">
+                  <link role="member:1" targetNodeId="1202743493336" resolveInfo="firstName" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743455738">
-          <link role="componentDeclaration" targetNodeId="2.1202465811094" resolveInfo="Label" />
-          <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743456958">
-            <link role="attribute" targetNodeId="2.1202465836231" resolveInfo="text" />
-            <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202743457945">
-              <property name="value" value="Last Name:" />
+        <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743455738">
+          <link role="componentDeclaration:1" targetNodeId="2.1202465811094" resolveInfo="Label" />
+          <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743456958">
+            <link role="attribute:1" targetNodeId="2.1202465836231" resolveInfo="text" />
+            <node role="value:1" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1202743457945">
+              <property name="value:3" value="Last Name:" />
             </node>
           </node>
         </node>
-        <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743471369">
-          <link role="componentDeclaration" targetNodeId="2.1202464198724" resolveInfo="TextField" />
-          <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743516976">
-            <link role="attribute" targetNodeId="2.1202464208353" resolveInfo="text" />
-            <node role="value" type="jetbrains.mps.uiLanguage.structure.BindExpression" id="1202743518025">
-              <node role="expression" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="1202743520356">
-                <node role="operand" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression" id="1205754224271" />
-                <node role="operation" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation" id="1202743521389">
-                  <link role="member" targetNodeId="1202743500214" resolveInfo="lastName" />
+        <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743471369">
+          <link role="componentDeclaration:1" targetNodeId="2.1202464198724" resolveInfo="TextField" />
+          <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743516976">
+            <link role="attribute:1" targetNodeId="2.1202464208353" resolveInfo="text" />
+            <node role="value:1" type="jetbrains.mps.uiLanguage.structure.BindExpression:1" id="1202743518025">
+              <node role="expression:1" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1202743520356">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="1205754224271" />
+                <node role="operation:3" type="jetbrains.mps.uiLanguage.structure.AttributeReferenceOperation:1" id="1202743521389">
+                  <link role="member:1" targetNodeId="1202743500214" resolveInfo="lastName" />
                 </node>
               </node>
             </node>
           </node>
         </node>
-        <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743476512">
-          <link role="componentDeclaration" targetNodeId="2.1202738350852" resolveInfo="HBox" />
-          <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743479060">
-            <link role="componentDeclaration" targetNodeId="2.1202393560969" resolveInfo="Button" />
-            <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743482998">
-              <link role="attribute" targetNodeId="2.1202393575288" resolveInfo="text" />
-              <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202743483750">
-                <property name="value" value="OK" />
+        <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743476512">
+          <link role="componentDeclaration:1" targetNodeId="2.1202738350852" resolveInfo="HBox" />
+          <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743479060">
+            <link role="componentDeclaration:1" targetNodeId="2.1202393560969" resolveInfo="Button" />
+            <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743482998">
+              <link role="attribute:1" targetNodeId="2.1202393575288" resolveInfo="text" />
+              <node role="value:1" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1202743483750">
+                <property name="value:3" value="OK" />
               </node>
             </node>
           </node>
-          <node role="content" type="jetbrains.mps.uiLanguage.structure.ComponentInstance" id="1202743485940">
-            <link role="componentDeclaration" targetNodeId="2.1202393560969" resolveInfo="Button" />
-            <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743487503">
-              <link role="attribute" targetNodeId="2.1202393575288" resolveInfo="text" />
-              <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202743488036">
-                <property name="value" value="Cancel" />
+          <node role="content:1" type="jetbrains.mps.uiLanguage.structure.ComponentInstance:1" id="1202743485940">
+            <link role="componentDeclaration:1" targetNodeId="2.1202393560969" resolveInfo="Button" />
+            <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743487503">
+              <link role="attribute:1" targetNodeId="2.1202393575288" resolveInfo="text" />
+              <node role="value:1" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1202743488036">
+                <property name="value:3" value="Cancel" />
               </node>
             </node>
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202746266624">
-        <link role="attribute" targetNodeId="2.1202393523190" resolveInfo="title" />
-        <node role="value" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="1202746268298">
-          <property name="value" value="Simple Databinding Sample" />
+      <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202746266624">
+        <link role="attribute:1" targetNodeId="2.1202393523190" resolveInfo="title" />
+        <node role="value:1" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1202746268298">
+          <property name="value:3" value="Simple Databinding Sample" />
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743410302">
-        <link role="attribute" targetNodeId="2.1202396307047" resolveInfo="size" />
-        <node role="value" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888433318">
-          <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888433320">
-            <link role="baseMethodDeclaration" targetNodeId="1.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202743431607">
-              <property name="value" value="400" />
+      <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743410302">
+        <link role="attribute:1" targetNodeId="2.1202396307047" resolveInfo="size" />
+        <node role="value:1" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1217888433318">
+          <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1217888433320">
+            <link role="baseMethodDeclaration:3" targetNodeId="1.~Dimension.&lt;init&gt;(int,int)" resolveInfo="Dimension" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="1202743431607">
+              <property name="value:3" value="400" />
             </node>
-            <node role="actualArgument" type="jetbrains.mps.baseLanguage.structure.IntegerConstant" id="1202743432813">
-              <property name="value" value="300" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="1202743432813">
+              <property name="value:3" value="300" />
             </node>
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743439350">
-        <link role="attribute" targetNodeId="2.1202393600503" resolveInfo="layout" />
-        <node role="value" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression" id="1217888406070">
-          <node role="creator" type="jetbrains.mps.baseLanguage.structure.ClassCreator" id="1217888406072">
-            <link role="baseMethodDeclaration" targetNodeId="1.~FlowLayout.&lt;init&gt;()" resolveInfo="FlowLayout" />
+      <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743439350">
+        <link role="attribute:1" targetNodeId="2.1202393600503" resolveInfo="layout" />
+        <node role="value:1" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1217888406070">
+          <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1217888406072">
+            <link role="baseMethodDeclaration:3" targetNodeId="1.~FlowLayout.&lt;init&gt;()" resolveInfo="FlowLayout" />
           </node>
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202746241382">
-        <link role="attribute" targetNodeId="2.1202746217446" resolveInfo="defaultCloseOperation" />
-        <node role="value" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference" id="1202746241383">
-          <link role="classifier" targetNodeId="5.~JFrame" resolveInfo="JFrame" />
-          <link role="variableDeclaration" targetNodeId="5.~JFrame.EXIT_ON_CLOSE" resolveInfo="EXIT_ON_CLOSE" />
+      <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202746241382">
+        <link role="attribute:1" targetNodeId="2.1202746217446" resolveInfo="defaultCloseOperation" />
+        <node role="value:1" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1202746241383">
+          <link role="classifier:3" targetNodeId="5.~JFrame" resolveInfo="JFrame" />
+          <link role="variableDeclaration:3" targetNodeId="5.~JFrame.EXIT_ON_CLOSE" resolveInfo="EXIT_ON_CLOSE" />
         </node>
       </node>
-      <node role="content" type="jetbrains.mps.uiLanguage.structure.AttributeValue" id="1202743435487">
-        <link role="attribute" targetNodeId="2.1202396132470" resolveInfo="visible" />
-        <node role="value" type="jetbrains.mps.baseLanguage.structure.BooleanConstant" id="1202743436348">
-          <property name="value" value="true" />
+      <node role="content:1" type="jetbrains.mps.uiLanguage.structure.AttributeValue:1" id="1202743435487">
+        <link role="attribute:1" targetNodeId="2.1202396132470" resolveInfo="visible" />
+        <node role="value:1" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="1202743436348">
+          <property name="value:3" value="true" />
         </node>
       </node>
     </node>
   </node>
-  <node type="jetbrains.mps.uiLanguage.structure.ComponentController" id="1202743491663">
-    <link role="component" targetNodeId="1202742898078" resolveInfo="PersonEditor" />
-    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202743493336">
-      <property name="name" value="firstName" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4853609160933722475" />
+  <node type="jetbrains.mps.uiLanguage.structure.ComponentController:1" id="1202743491663">
+    <link role="component:1" targetNodeId="1202742898078" resolveInfo="PersonEditor" />
+    <node role="attribute:1" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration:1" id="1202743493336">
+      <property name="name:1" value="firstName" />
+      <node role="type:1" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="4853609160933722475" />
     </node>
-    <node role="attribute" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration" id="1202743500214">
-      <property name="name" value="lastName" />
-      <node role="type" type="jetbrains.mps.baseLanguage.structure.StringType" id="4853609160933722484" />
+    <node role="attribute:1" type="jetbrains.mps.uiLanguage.structure.AttributeDeclaration:1" id="1202743500214">
+      <property name="name:1" value="lastName" />
+      <node role="type:1" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="4853609160933722484" />
     </node>
   </node>
 </model>
