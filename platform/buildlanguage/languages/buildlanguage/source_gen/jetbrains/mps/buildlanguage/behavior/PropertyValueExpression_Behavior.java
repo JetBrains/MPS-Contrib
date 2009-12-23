@@ -22,18 +22,18 @@ public class PropertyValueExpression_Behavior {
   }
 
   public static String call_toString_1213877472569(SNode thisNode) {
-    return (String)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_toString_1213877472569", PARAMETERS_1213877472569);
+    return (String) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_toString_1213877472569", PARAMETERS_1213877472569);
   }
 
   public static String call_getActualValue_1213877472572(SNode thisNode) {
-    return (String)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
+    return (String) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
   }
 
   public static String callSuper_toString_1213877472569(SNode thisNode, String callerConceptFqName) {
-    return (String)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_toString_1213877472569", PARAMETERS_1213877472569);
+    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_toString_1213877472569", PARAMETERS_1213877472569);
   }
 
   public static String callSuper_getActualValue_1213877472572(SNode thisNode, String callerConceptFqName) {
-    return (String)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
+    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.PropertyValueExpression"), callerConceptFqName, "virtual_getActualValue_1213877472572", PARAMETERS_1213877472572);
   }
 }

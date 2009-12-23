@@ -14,10 +14,10 @@ public class ISource_Behavior {
   }
 
   public static List<String> call_getPaths_1213877276955(SNode thisNode) {
-    return (List<String>)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
+    return (List<String>) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
   }
 
   public static List<String> callSuper_getPaths_1213877276955(SNode thisNode, String callerConceptFqName) {
-    return (List<String>)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), callerConceptFqName, "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
+    return (List<String>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.ISource"), callerConceptFqName, "virtual_getPaths_1213877276955", PARAMETERS_1213877276955);
   }
 }

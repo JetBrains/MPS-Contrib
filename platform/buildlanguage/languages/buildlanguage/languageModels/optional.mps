@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:00000000-0000-4000-0000-011c895904c6(jetbrains.mps.buildlanguage.optional)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory>
     <refactoringContext modelVersion="0">
       <refactoring refactoringClass="jetbrains.mps.lang.core.scripts.MoveNodes" />

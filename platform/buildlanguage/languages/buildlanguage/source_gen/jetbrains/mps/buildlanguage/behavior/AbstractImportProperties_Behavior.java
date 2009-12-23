@@ -19,10 +19,10 @@ public class AbstractImportProperties_Behavior {
   }
 
   public static List<SNode> call_getPropertyDeclarations_1240397763706(SNode thisNode) {
-    return (List<SNode>)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), "virtual_getPropertyDeclarations_1240397763706", PARAMETERS_1240397763706);
+    return (List<SNode>) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), "virtual_getPropertyDeclarations_1240397763706", PARAMETERS_1240397763706);
   }
 
   public static List<SNode> callSuper_getPropertyDeclarations_1240397763706(SNode thisNode, String callerConceptFqName) {
-    return (List<SNode>)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), callerConceptFqName, "virtual_getPropertyDeclarations_1240397763706", PARAMETERS_1240397763706);
+    return (List<SNode>) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.AbstractImportProperties"), callerConceptFqName, "virtual_getPropertyDeclarations_1240397763706", PARAMETERS_1240397763706);
   }
 }

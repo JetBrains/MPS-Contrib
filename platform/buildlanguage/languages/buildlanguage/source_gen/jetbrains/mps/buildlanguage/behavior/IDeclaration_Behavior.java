@@ -41,34 +41,34 @@ public class IDeclaration_Behavior {
   }
 
   public static boolean call_isAbstract_5699548131010533031(SNode thisNode) {
-    return (Boolean)BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isAbstract_5699548131010533031", PARAMETERS_5699548131010533031);
+    return (Boolean) BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isAbstract_5699548131010533031", PARAMETERS_5699548131010533031);
   }
 
   public static SNode call_getParent_5699548131010535048(SNode thisNode) {
-    return (SNode)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_getParent_5699548131010535048", PARAMETERS_5699548131010535048);
+    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_getParent_5699548131010535048", PARAMETERS_5699548131010535048);
   }
 
   public static boolean call_isHeirOf_5699548131010535069(SNode thisNode, SNode probableParent) {
-    return (Boolean)BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isHeirOf_5699548131010535069", PARAMETERS_5699548131010535069, probableParent);
+    return (Boolean) BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isHeirOf_5699548131010535069", PARAMETERS_5699548131010535069, probableParent);
   }
 
   public static boolean call_isHeirOf_5699548131010535105(SNode thisNode, List<SNode> parents) {
-    return (Boolean)BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isHeirOf_5699548131010535105", PARAMETERS_5699548131010535105, parents);
+    return (Boolean) BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), "virtual_isHeirOf_5699548131010535105", PARAMETERS_5699548131010535105, parents);
   }
 
   public static boolean callSuper_isAbstract_5699548131010533031(SNode thisNode, String callerConceptFqName) {
-    return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_isAbstract_5699548131010533031", PARAMETERS_5699548131010533031);
+    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_isAbstract_5699548131010533031", PARAMETERS_5699548131010533031);
   }
 
   public static SNode callSuper_getParent_5699548131010535048(SNode thisNode, String callerConceptFqName) {
-    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_getParent_5699548131010535048", PARAMETERS_5699548131010535048);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_getParent_5699548131010535048", PARAMETERS_5699548131010535048);
   }
 
   public static boolean callSuper_isHeirOf_5699548131010535069(SNode thisNode, String callerConceptFqName, SNode probableParent) {
-    return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_isHeirOf_5699548131010535069", PARAMETERS_5699548131010535069, probableParent);
+    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_isHeirOf_5699548131010535069", PARAMETERS_5699548131010535069, probableParent);
   }
 
   public static boolean callSuper_isHeirOf_5699548131010535105(SNode thisNode, String callerConceptFqName, List<SNode> parents) {
-    return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_isHeirOf_5699548131010535105", PARAMETERS_5699548131010535105, parents);
+    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.buildlanguage.structure.IDeclaration"), callerConceptFqName, "virtual_isHeirOf_5699548131010535105", PARAMETERS_5699548131010535105, parents);
   }
 }
