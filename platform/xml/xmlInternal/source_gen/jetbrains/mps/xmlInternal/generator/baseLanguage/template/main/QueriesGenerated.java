@@ -7,6 +7,7 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.xml.behavior.Content_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
@@ -46,7 +47,7 @@ public class QueriesGenerated {
   }
 
   public static boolean ifMacro_Condition_4931842319244434157(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SLinkOperations.getCount(_context.getNode(), "text") > 1;
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "text", true)).count() > 1;
   }
 
   public static SNode sourceNodeQuery_1173194024331(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
