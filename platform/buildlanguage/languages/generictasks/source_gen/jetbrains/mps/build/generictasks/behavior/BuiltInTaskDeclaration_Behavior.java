@@ -23,7 +23,7 @@ public class BuiltInTaskDeclaration_Behavior {
     List<SNode> attrs = new ArrayList<SNode>();
     ListSequence.fromList(attrs).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "attributesDecl", true)));
     if ((SLinkOperations.getTarget(thisNode, "parentRef", true) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) {
-      List<SNode> nodes = BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(((SNode)SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false)));
+      List<SNode> nodes = BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(((SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false)));
       for (SNode newAttrDecl : ListSequence.fromList(nodes)) {
         boolean found = false;
         for (SNode oldAttrDecl : ListSequence.fromList(attrs)) {
