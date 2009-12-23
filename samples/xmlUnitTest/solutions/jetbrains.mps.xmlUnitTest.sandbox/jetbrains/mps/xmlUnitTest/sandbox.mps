@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:711fa6a3-3961-4b7b-b3da-5afbfdf297e7(jetbrains.mps.xmlUnitTest.sandbox)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory />
   <language namespace="f85adbd8-2ec2-4572-bcfc-8dd799a7f025(jetbrains.mps.xmlUnitTest)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -16,21 +16,21 @@
   <maxImportIndex value="0" />
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="9070985627710925999">
     <property name="testCaseName" value="Sample" />
-    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="9070985627710926000" />
-    <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration" id="9070985627710926001">
-      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="9070985627710926002" />
-      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="9070985627710926003" />
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="9070985627710926004" />
+    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="9070985627710926000" />
+    <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="9070985627710926001">
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="9070985627710926002" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="9070985627710926003" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="9070985627710926004" />
     </node>
     <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethodList" id="9070985627710926005">
       <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="9070985627710932722">
         <property name="methodName" value="compareXML" />
-        <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility" id="9070985627710932723" />
-        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType" id="9070985627710932724" />
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="9070985627710932725">
-          <node role="statement" type="jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals" id="9070985627710932727">
-            <node role="actual" type="jetbrains.mps.baseLanguage.structure.StringLiteral" id="9070985627710932736">
-              <property name="value" value="&lt;foo&gt;&lt;bar id=\&quot;123\&quot;/&gt;&lt;/foo&gt;" />
+        <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="9070985627710932723" />
+        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="9070985627710932724" />
+        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="9070985627710932725">
+          <node role="statement:3" type="jetbrains.mps.xmlUnitTest.structure.AssertXMLEquals" id="9070985627710932727">
+            <node role="actual" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="9070985627710932736">
+              <property name="value:3" value="&lt;foo&gt;&lt;bar id=\&quot;123\&quot;/&gt;&lt;/foo&gt;" />
             </node>
             <node role="expected" type="jetbrains.mps.xmlUnitTest.structure.XMLStringLiteral" id="9070985627710932730">
               <node role="xml" type="jetbrains.mps.xmlUnitTest.structure.XMLLiteral" id="9070985627710932731">

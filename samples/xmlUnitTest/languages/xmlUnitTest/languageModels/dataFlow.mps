@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:4f7e1546-f010-4245-9179-6018a9cfa4a2(jetbrains.mps.xmlUnitTest.dataFlow)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory />
   <language namespace="7fa12e9c-b949-4976-b4fa-19accbc320b4(jetbrains.mps.lang.dataFlow)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -29,23 +29,23 @@
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:77603f21-ab6b-487f-82f9-e98e1903f0fc(jetbrains.mps.xmlUnitTest.structure)" version="-1" />
-  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration" id="5211164146777002739">
-    <link role="conceptDeclaration" targetNodeId="1.5211164146777002721" resolveInfo="AssertXMLEquals" />
-    <node role="builderBlock" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock" id="5211164146777002740">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="5211164146777002741">
-        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="5211164146777002742">
-          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5211164146777002743">
-            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="5211164146777002744" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5211164146777002750">
-              <link role="link" targetNodeId="1.5211164146777002723" />
+  <node type="jetbrains.mps.lang.dataFlow.structure.DataFlowBuilderDeclaration:0" id="5211164146777002739">
+    <link role="conceptDeclaration:0" targetNodeId="1.5211164146777002721" resolveInfo="AssertXMLEquals" />
+    <node role="builderBlock:0" type="jetbrains.mps.lang.dataFlow.structure.BuilderBlock:0" id="5211164146777002740">
+      <node role="body:0" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5211164146777002741">
+        <node role="statement:3" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement:0" id="5211164146777002742">
+          <node role="codeFor:0" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5211164146777002743">
+            <node role="operand:3" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter:0" id="5211164146777002744" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="5211164146777002750">
+              <link role="link:16" targetNodeId="1.5211164146777002723" />
             </node>
           </node>
         </node>
-        <node role="statement" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement" id="5211164146777002746">
-          <node role="codeFor" type="jetbrains.mps.baseLanguage.structure.DotExpression" id="5211164146777002747">
-            <node role="operand" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter" id="5211164146777002748" />
-            <node role="operation" type="jetbrains.mps.lang.smodel.structure.SLinkAccess" id="5211164146777002751">
-              <link role="link" targetNodeId="1.5211164146777002724" />
+        <node role="statement:3" type="jetbrains.mps.lang.dataFlow.structure.EmitCodeForStatement:0" id="5211164146777002746">
+          <node role="codeFor:0" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5211164146777002747">
+            <node role="operand:3" type="jetbrains.mps.lang.dataFlow.structure.NodeParameter:0" id="5211164146777002748" />
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="5211164146777002751">
+              <link role="link:16" targetNodeId="1.5211164146777002724" />
             </node>
           </node>
         </node>

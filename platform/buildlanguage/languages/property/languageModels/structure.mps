@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory>
     <refactoringContext modelVersion="0">
       <refactoring refactoringClass="jetbrains.mps.refactoring.renameLanguage.LanguageRenamer$MyRefactoring" />
@@ -54,37 +54,37 @@
   <maxImportIndex value="6" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="1200504738494">
-    <property name="name" value="PropertyNode" />
-    <property name="rootable" value="true" />
-    <property name="iconPath" value="${language_descriptor}\icons\properties.png" />
-    <link role="extends" targetNodeId="1.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1200504738495">
-      <link role="intfc" targetNodeId="1.1169194658468" resolveInfo="INamedConcept" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1200504738494">
+    <property name="name:0" value="PropertyNode" />
+    <property name="rootable:0" value="true" />
+    <property name="iconPath:0" value="${language_descriptor}\icons\properties.png" />
+    <link role="extends:0" targetNodeId="1.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1200504738495">
+      <link role="intfc:0" targetNodeId="1.1169194658468:0" resolveInfo="INamedConcept" />
     </node>
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="1201778851487">
-      <link role="intfc" targetNodeId="2.1196862084542" resolveInfo="IPropertyHolder" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1201778851487">
+      <link role="intfc:0" targetNodeId="2.1196862084542:21" resolveInfo="IPropertyHolder" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1200504738496">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="declaration" />
-      <property name="sourceCardinality" value="0..n" />
-      <link role="target" targetNodeId="2.1196851107341" resolveInfo="PropertyDeclaration" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1200504738496">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="declaration" />
+      <property name="sourceCardinality:0" value="0..n" />
+      <link role="target:0" targetNodeId="2.1196851107341:21" resolveInfo="PropertyDeclaration" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1200504738497">
-      <property name="value" value="property node" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473891462" resolveInfo="alias" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1200504738497">
+      <property name="value:0" value="property node" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="1.1137473891462:0" resolveInfo="alias" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1200508847484">
-      <property name="value" value="property file" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1.1137473914776" resolveInfo="short_description" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1200508847484">
+      <property name="value:0" value="property file" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="1.1137473914776:0" resolveInfo="short_description" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1200508901738">
-      <property name="value" value=".properties" />
-      <link role="conceptPropertyDeclaration" targetNodeId="1200508859110" resolveInfo="extension" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1200508901738">
+      <property name="value:0" value=".properties" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="1200508859110:1" resolveInfo="extension" />
     </node>
-    <node role="conceptPropertyDeclaration" type="jetbrains.mps.lang.structure.structure.StringConceptPropertyDeclaration" id="1200508859110">
-      <property name="name" value="extension" />
+    <node role="conceptPropertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.StringConceptPropertyDeclaration:0" id="1200508859110">
+      <property name="name:0" value="extension" />
     </node>
   </node>
 </model>

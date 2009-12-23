@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:bd6e2c7d-3a5d-4eed-9ff9-27f23ecb34e2(jetbrains.mps.xmlQuery.structure)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory>
     <refactoringContext modelVersion="0">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.refactorings.RenameConcept" />
@@ -79,184 +79,184 @@
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="6" modelUID="r:77052501-5144-48a7-be50-7535fc6d1073(jetbrains.mps.baseLanguage.builders.structure)" version="0" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4815471077468621634">
-    <property name="name" value="AccessChildrenOperation" />
-    <property name="package" value="operations" />
-    <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4815471077468621635">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="elementDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167838236835" resolveInfo="ElementDeclaration" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4815471077468621634">
+    <property name="name:0" value="AccessChildrenOperation" />
+    <property name="package:0" value="operations" />
+    <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4815471077468621635">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="elementDeclaration" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="2.1167838236835:3" resolveInfo="ElementDeclaration" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1211753978541804873">
-      <property name="value" value="access child operation" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4815471077468621637">
-    <property name="name" value="XMLElementType" />
-    <link role="extends" targetNodeId="3.1068431790189" resolveInfo="Type" />
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4815471077468621638">
-      <property name="value" value="xml&lt;&gt;" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4815471077468621639">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="schema" />
-      <property name="sourceCardinality" value="0..1" />
-      <link role="target" targetNodeId="2.1167513239198" resolveInfo="Schema" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4815471077468621640">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="complexType" />
-      <property name="sourceCardinality" value="0..1" />
-      <link role="target" targetNodeId="2.1167615791597" resolveInfo="ComplexType" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1211753978541804873">
+      <property name="value:0" value="access child operation" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4991903842868303816">
-    <property name="name" value="XMLElementOperation" />
-    <property name="package" value="operations" />
-    <link role="extends" targetNodeId="2v.1133920641626" resolveInfo="BaseConcept" />
-    <node role="implements" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" id="4991903842868303817">
-      <link role="intfc" targetNodeId="3.1197027803184" resolveInfo="IOperation" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4815471077468621637">
+    <property name="name:0" value="XMLElementType" />
+    <link role="extends:0" targetNodeId="3.1068431790189:3" resolveInfo="Type" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4815471077468621638">
+      <property name="value:0" value="xml&lt;&gt;" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="4991903842868351364">
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473854053" resolveInfo="abstract" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4815471077468621639">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="schema" />
+      <property name="sourceCardinality:0" value="0..1" />
+      <link role="target:0" targetNodeId="2.1167513239198:3" resolveInfo="Schema" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4991903842868445303">
-    <property name="name" value="AccessAttributeOperation" />
-    <property name="iconPath" value="${mps_home}/core/baseLanguage/baseLanguage/icons/fieldNew.png" />
-    <property name="package" value="operations" />
-    <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4991903842868445309">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="attributeDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167697887602" resolveInfo="AttributeDeclaration" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4815471077468621640">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="complexType" />
+      <property name="sourceCardinality:0" value="0..1" />
+      <link role="target:0" targetNodeId="2.1167615791597:3" resolveInfo="ComplexType" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="634907465121461799">
-    <property name="name" value="AccessArbitraryChildrenOperation" />
-    <property name="package" value="operations" />
-    <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4203809819610565424">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="childNameExpression" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4991903842868303816">
+    <property name="name:0" value="XMLElementOperation" />
+    <property name="package:0" value="operations" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="4991903842868303817">
+      <link role="intfc:0" targetNodeId="3.1197027803184:3" resolveInfo="IOperation" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="634907465121461801">
-      <property name="value" value="child" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="634907465121461834">
-      <property name="value" value="arbitrary child" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="4991903842868351364">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="634907465121463881">
-    <property name="name" value="AccessArbitraryAttributeOperation" />
-    <property name="package" value="operations" />
-    <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4203809819610565421">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="attributeNameExpression" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="634907465121463883">
-      <property name="value" value="attribute" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="634907465121463884">
-      <property name="value" value="arbitrary attribute" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4991903842868445303">
+    <property name="name:0" value="AccessAttributeOperation" />
+    <property name="iconPath:0" value="${mps_home}/core/baseLanguage/baseLanguage/icons/fieldNew.png" />
+    <property name="package:0" value="operations" />
+    <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4991903842868445309">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="attributeDeclaration" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="2.1167697887602:3" resolveInfo="AttributeDeclaration" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4203809819610731778">
-    <property name="name" value="AccessTextOperation" />
-    <property name="package" value="operations" />
-    <link role="extends" targetNodeId="4991903842868303816" resolveInfo="XMLNodeOperation" />
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4203809819610731780">
-      <property name="value" value="text" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="634907465121461799">
+    <property name="name:0" value="AccessArbitraryChildrenOperation" />
+    <property name="package:0" value="operations" />
+    <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4203809819610565424">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="childNameExpression" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="4203809819610731782">
-      <property name="value" value="access elements'text" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="634907465121461801">
+      <property name="value:0" value="child" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="4705273682234223462">
-    <property name="name" value="XMLElementCreator" />
-    <link role="extends" targetNodeId="3.1145552809883" resolveInfo="AbstractCreator" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="4705273682234223651">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="type" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="4815471077468621637" resolveInfo="XMLElementType" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1558623248072788965">
-      <property name="value" value="xml&lt;&gt;" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="1558623248072789137">
-      <property name="value" value="create new XML element" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="634907465121461834">
+      <property name="value:0" value="arbitrary child" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="7225751495667376018">
-    <property name="name" value="AttributeBuilder" />
-    <property name="package" value="builders" />
-    <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7225751495667403566">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="value" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="634907465121463881">
+    <property name="name:0" value="AccessArbitraryAttributeOperation" />
+    <property name="package:0" value="operations" />
+    <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4203809819610565421">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="attributeNameExpression" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
     </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="7225751495667376019">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="attributeDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167697887602" resolveInfo="AttributeDeclaration" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="634907465121463883">
+      <property name="value:0" value="attribute" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="10026583184691874">
-      <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
-    </node>
-  </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="10026583185341422">
-    <property name="name" value="TextBuilder" />
-    <property name="package" value="builders" />
-    <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7567280977594908265">
-      <property name="value" value="text :" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473891462" resolveInfo="alias" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.StringConceptProperty" id="7567280977594908267">
-      <property name="value" value="XML element text" />
-      <link role="conceptPropertyDeclaration" targetNodeId="2v.1137473914776" resolveInfo="shortDescription" />
-    </node>
-    <node role="conceptProperty" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty" id="10026583185341427">
-      <link role="conceptPropertyDeclaration" targetNodeId="6.7057666463730595168" resolveInfo="leaf" />
-    </node>
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="10026583185341423">
-      <property name="metaClass" value="aggregation" />
-      <property name="role" value="value" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="3.1068431790191" resolveInfo="Expression" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="634907465121463884">
+      <property name="value:0" value="arbitrary attribute" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
   </node>
-  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration" id="3149278768676788174">
-    <property name="package" value="builders" />
-    <property name="name" value="ElementBuilder" />
-    <link role="extends" targetNodeId="6.7057666463730155275" resolveInfo="Builder" />
-    <node role="linkDeclaration" type="jetbrains.mps.lang.structure.structure.LinkDeclaration" id="1384720974900260378">
-      <property name="metaClass" value="reference" />
-      <property name="role" value="elementDeclaration" />
-      <property name="sourceCardinality" value="1" />
-      <link role="target" targetNodeId="2.1167838236835" resolveInfo="ElementDeclaration" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4203809819610731778">
+    <property name="name:0" value="AccessTextOperation" />
+    <property name="package:0" value="operations" />
+    <link role="extends:0" targetNodeId="4991903842868303816:4" resolveInfo="XMLNodeOperation" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4203809819610731780">
+      <property name="value:0" value="text" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4203809819610731782">
+      <property name="value:0" value="access elements'text" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4705273682234223462">
+    <property name="name:0" value="XMLElementCreator" />
+    <link role="extends:0" targetNodeId="3.1145552809883:3" resolveInfo="AbstractCreator" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="4705273682234223651">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="type" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="4815471077468621637:4" resolveInfo="XMLElementType" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1558623248072788965">
+      <property name="value:0" value="xml&lt;&gt;" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1558623248072789137">
+      <property name="value:0" value="create new XML element" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7225751495667376018">
+    <property name="name:0" value="AttributeBuilder" />
+    <property name="package:0" value="builders" />
+    <link role="extends:0" targetNodeId="6.7057666463730155275:0" resolveInfo="Builder" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7225751495667403566">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="value" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7225751495667376019">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="attributeDeclaration" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="2.1167697887602:3" resolveInfo="AttributeDeclaration" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="10026583184691874">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="6.7057666463730595168:0" resolveInfo="leaf" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="10026583185341422">
+    <property name="name:0" value="TextBuilder" />
+    <property name="package:0" value="builders" />
+    <link role="extends:0" targetNodeId="6.7057666463730155275:0" resolveInfo="Builder" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7567280977594908265">
+      <property name="value:0" value="text :" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7567280977594908267">
+      <property name="value:0" value="XML element text" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="10026583185341427">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="6.7057666463730595168:0" resolveInfo="leaf" />
+    </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="10026583185341423">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="value" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="3.1068431790191:3" resolveInfo="Expression" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="3149278768676788174">
+    <property name="package:0" value="builders" />
+    <property name="name:0" value="ElementBuilder" />
+    <link role="extends:0" targetNodeId="6.7057666463730155275:0" resolveInfo="Builder" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="1384720974900260378">
+      <property name="metaClass:0" value="reference" />
+      <property name="role:0" value="elementDeclaration" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="2.1167838236835:3" resolveInfo="ElementDeclaration" />
     </node>
   </node>
 </model>
