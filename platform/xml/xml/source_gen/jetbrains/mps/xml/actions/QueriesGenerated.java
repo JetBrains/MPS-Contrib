@@ -50,7 +50,7 @@ public class QueriesGenerated {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Attribute");
-      SNode childConcept = (SNode)_context.getChildConcept();
+      SNode childConcept = (SNode) _context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Calculable calc = new Calculable() {
           public Object calculate() {
@@ -62,7 +62,7 @@ public class QueriesGenerated {
             return attributeDeclarations;
           }
         };
-        Iterable<SNode> queryResult = (Iterable)calc.calculate();
+        Iterable<SNode> queryResult = (Iterable) calc.calculate();
         if (queryResult != null) {
           for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
@@ -98,7 +98,7 @@ public class QueriesGenerated {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
       };
-      parentElement = (SNode)calc.calculate();
+      parentElement = (SNode) calc.calculate();
     }
     {
       Calculable calc = new Calculable() {
@@ -106,18 +106,18 @@ public class QueriesGenerated {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
       };
-      isMixed = (Boolean)calc.calculate();
+      isMixed = (Boolean) calc.calculate();
     }
     {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Element");
-      SNode childConcept = (SNode)_context.getChildConcept();
+      SNode childConcept = (SNode) _context.getChildConcept();
       if (SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         Calculable calc = new Calculable() {
           public Object calculate() {
             return ElementUtil.getElementDeclarations(parentElement, _context.getParentNode(), operationContext.getScope());
           }
         };
-        Iterable<SNode> queryResult = (Iterable)calc.calculate();
+        Iterable<SNode> queryResult = (Iterable) calc.calculate();
         if (queryResult != null) {
           for (final SNode item : queryResult) {
             ListSequence.fromList(result).addElement(new DefaultChildNodeSubstituteAction(outputConcept, item, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
@@ -153,7 +153,7 @@ public class QueriesGenerated {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
       SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text");
-      SNode childConcept = (SNode)_context.getChildConcept();
+      SNode childConcept = (SNode) _context.getChildConcept();
       if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
         ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
           public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
@@ -201,7 +201,7 @@ public class QueriesGenerated {
           return ElementUtil.getParentElementDeclaration(_context.getParentNode(), operationContext.getScope());
         }
       };
-      parentElement = (SNode)calc.calculate();
+      parentElement = (SNode) calc.calculate();
     }
     {
       Calculable calc = new Calculable() {
@@ -209,7 +209,7 @@ public class QueriesGenerated {
           return (parentElement == null) || TypeExpression_Behavior.call_isMixed_1213877382388(parentElement);
         }
       };
-      isMixed = (Boolean)calc.calculate();
+      isMixed = (Boolean) calc.calculate();
     }
     Iterator<INodeSubstituteAction> actions = _context.getActions();
     while (actions.hasNext()) {
