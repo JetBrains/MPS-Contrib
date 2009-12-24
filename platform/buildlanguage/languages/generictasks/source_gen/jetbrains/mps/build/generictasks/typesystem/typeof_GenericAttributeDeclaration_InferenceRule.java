@@ -23,7 +23,7 @@ public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractIn
         BaseIntentionProvider intentionProvider = null;
         EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854687", 0, intentionProvider);
         _info_12389875345.setInequationGroup("default");
-        typeCheckingContext.createGreaterThanInequation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854693", true), (SNode)SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, _info_12389875345);
+        typeCheckingContext.createGreaterThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854693", true), (SNode) SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, _info_12389875345);
       }
       if ((SLinkOperations.getTarget(nodeToCheck, "enum", true) != null)) {
         {
@@ -31,7 +31,7 @@ public class typeof_GenericAttributeDeclaration_InferenceRule extends AbstractIn
           BaseIntentionProvider intentionProvider = null;
           EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:eac20369-5993-49cc-a9ac-fbeb7a91d81f(jetbrains.mps.build.generictasks.typesystem)", "353793545802854699", 0, intentionProvider);
           _info_12389875345.setInequationGroup("default");
-          typeCheckingContext.createLessThanInequation((SNode)ListSequence.fromList(SLinkOperations.getConceptLinkTargets(SLinkOperations.getTarget(nodeToCheck, "enum", true), "type")).first(), (SNode)SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, _info_12389875345);
+          typeCheckingContext.createLessThanInequation((SNode) ListSequence.fromList(SLinkOperations.getConceptLinkTargets(SLinkOperations.getTarget(nodeToCheck, "enum", true), "type")).first(), (SNode) SLinkOperations.getTarget(nodeToCheck, "attributeType", true), false, _info_12389875345);
         }
       }
     }
