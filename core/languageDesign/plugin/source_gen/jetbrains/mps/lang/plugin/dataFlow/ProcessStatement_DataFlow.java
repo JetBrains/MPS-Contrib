@@ -13,7 +13,7 @@ public class ProcessStatement_DataFlow extends DataFlowBuilder {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "process", true));
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "command", true));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "process", true));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "command", true));
   }
 }
