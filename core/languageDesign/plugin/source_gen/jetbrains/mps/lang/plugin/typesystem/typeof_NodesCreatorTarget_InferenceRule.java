@@ -20,7 +20,7 @@ public class typeof_NodesCreatorTarget_InferenceRule extends AbstractInferenceRu
       SNode _nodeToCheck_1029348928467 = target;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "441707825122650658", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "441707825122650667", true), (SNode) new _Quotations.QuotationClass_30().createNode(SLinkOperations.getTarget(target, "concept", false), typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "441707825122650667", true), (SNode) new _Quotations.QuotationClass_33().createNode(SLinkOperations.getTarget(target, "concept", false), typeCheckingContext), _info_12389875345);
     }
   }
 
