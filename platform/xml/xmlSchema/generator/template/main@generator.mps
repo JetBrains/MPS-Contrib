@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:7cd2ab50-795e-40e4-9913-a76e3028b5d1(jetbrains.mps.xmlSchema.generator.template.main@generator)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory />
   <language namespace="b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590585(jetbrains.mps.xml.constraints)" version="6" />
@@ -35,10 +35,10 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <maxImportIndex value="2" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
-  <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration" id="2709156219364519556">
-    <property name="name" value="main" />
-    <node role="dropRootRule" type="jetbrains.mps.lang.generator.structure.DropRootRule" id="2709156219364549621">
-      <link role="applicableConcept" targetNodeId="1.1167513239198" resolveInfo="Schema" />
+  <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="2709156219364519556">
+    <property name="name:2" value="main" />
+    <node role="dropRootRule:2" type="jetbrains.mps.lang.generator.structure.DropRootRule:2" id="2709156219364549621">
+      <link role="applicableConcept:2" targetNodeId="1.1167513239198:3" resolveInfo="Schema" />
     </node>
   </node>
 </model>

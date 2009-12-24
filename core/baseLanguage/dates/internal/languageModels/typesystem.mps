@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:e8ab0d3d-755b-484a-bfcc-496dbc9af2ce(jetbrains.mps.baseLanguage.datesInternal.typesystem)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -31,27 +31,27 @@
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="2" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
-  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1238686054902">
-    <property name="name" value="typeof_DateTimeZone" />
-    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1238686054903">
-      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1238686218519">
-        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238686221258">
-          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1238686310155">
-            <node role="quotedNode" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType" id="1238686310156" />
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1238686054902">
+    <property name="name:3" value="typeof_DateTimeZone" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1238686054903">
+      <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1238686218519">
+        <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1238686221258">
+          <node role="normalType:3" type="jetbrains.mps.lang.quotation.structure.Quotation:0" id="1238686310155">
+            <node role="quotedNode:0" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType:1" id="1238686310156" />
           </node>
         </node>
-        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1238686218522">
-          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1238686214063">
-            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1238686216393">
-              <link role="applicableNode" targetNodeId="1238686054904" resolveInfo="zone" />
+        <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1238686218522">
+          <node role="normalType:3" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression:3" id="1238686214063">
+            <node role="term:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="1238686216393">
+              <link role="applicableNode:3" targetNodeId="1238686054904" resolveInfo="zone" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1238686054904">
-      <property name="name" value="zone" />
-      <link role="concept" targetNodeId="1.1238668259228" resolveInfo="DateTimeZone" />
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="1238686054904">
+      <property name="name:3" value="zone" />
+      <link role="concept:3" targetNodeId="1.1238668259228:3" resolveInfo="DateTimeZone" />
     </node>
   </node>
 </model>

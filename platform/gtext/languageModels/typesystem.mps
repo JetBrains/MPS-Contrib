@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <model modelUID="r:00000000-0000-4000-0000-011c89590573(jetbrains.mps.gtext.typesystem)">
-  <persistence version="3" />
+  <persistence version="4" />
   <refactoringHistory />
   <language namespace="7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
@@ -33,29 +33,29 @@
   <maxImportIndex value="5" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590575(jetbrains.mps.gtext.structure)" version="0" />
   <import index="5" modelUID="f:java_stub#jetbrains.mps.gtext.runtime(jetbrains.mps.gtext.runtime@java_stub)" version="-1" />
-  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule" id="1181754943395">
-    <property name="name" value="typeof_BuilderContextRef" />
-    <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList" id="1181754943396">
-      <node role="statement" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement" id="1207736329894">
-        <node role="rightExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1207736334228">
-          <node role="normalType" type="jetbrains.mps.lang.quotation.structure.Quotation" id="1207736334229">
-            <node role="quotedNode" type="jetbrains.mps.baseLanguage.structure.ClassifierType" id="1207736372194">
-              <link role="classifier" targetNodeId="5.~TBaseBuilderContext" resolveInfo="TBaseBuilderContext" />
+  <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1181754943395">
+    <property name="name:3" value="typeof_BuilderContextRef" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1181754943396">
+      <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.CreateEquationStatement:3" id="1207736329894">
+        <node role="rightExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1207736334228">
+          <node role="normalType:3" type="jetbrains.mps.lang.quotation.structure.Quotation:0" id="1207736334229">
+            <node role="quotedNode:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1207736372194">
+              <link role="classifier:3" targetNodeId="5.~TBaseBuilderContext" resolveInfo="TBaseBuilderContext" />
             </node>
           </node>
         </node>
-        <node role="leftExpression" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause" id="1207736329898">
-          <node role="normalType" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression" id="1207736320454">
-            <node role="term" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference" id="1207736323029">
-              <link role="applicableNode" targetNodeId="1181754943394" resolveInfo="builderContextRef" />
+        <node role="leftExpression:3" type="jetbrains.mps.lang.typesystem.structure.NormalTypeClause:3" id="1207736329898">
+          <node role="normalType:3" type="jetbrains.mps.lang.typesystem.structure.TypeOfExpression:3" id="1207736320454">
+            <node role="term:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="1207736323029">
+              <link role="applicableNode:3" targetNodeId="1181754943394" resolveInfo="builderContextRef" />
             </node>
           </node>
         </node>
       </node>
     </node>
-    <node role="applicableNode" type="jetbrains.mps.lang.typesystem.structure.ConceptReference" id="1181754943394">
-      <property name="name" value="builderContextRef" />
-      <link role="concept" targetNodeId="1.1181754781153" />
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="1181754943394">
+      <property name="name:3" value="builderContextRef" />
+      <link role="concept:3" targetNodeId="1.1181754781153:0" />
     </node>
   </node>
 </model>
