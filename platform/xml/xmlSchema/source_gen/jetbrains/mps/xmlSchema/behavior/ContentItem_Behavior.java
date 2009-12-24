@@ -25,7 +25,7 @@ public class ContentItem_Behavior {
   }
 
   public static boolean call_isMixed_1213877413548(SNode thisNode) {
-    return (Boolean)BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
+    return (Boolean) BehaviorManager.getInstance().invoke(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
   }
 
   public static void callSuper_checkAttributes_1213877413538(SNode thisNode, String callerConceptFqName, List<SNode> attributeDeclarations) {
@@ -37,6 +37,6 @@ public class ContentItem_Behavior {
   }
 
   public static boolean callSuper_isMixed_1213877413548(SNode thisNode, String callerConceptFqName) {
-    return (Boolean)BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), callerConceptFqName, "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
+    return (Boolean) BehaviorManager.getInstance().invokeSuper(Boolean.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlSchema.structure.ContentItem"), callerConceptFqName, "virtual_isMixed_1213877413548", PARAMETERS_1213877413548);
   }
 }
