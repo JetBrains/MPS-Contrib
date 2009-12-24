@@ -13,8 +13,8 @@ public class DateTimeCompareOperation_DataFlow extends DataFlowBuilder {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "op1", true));
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "op2", true));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "op1", true));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "op2", true));
     _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "datetimeProperty", false));
   }
 }

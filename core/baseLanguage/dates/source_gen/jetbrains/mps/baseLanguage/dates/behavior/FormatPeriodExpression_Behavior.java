@@ -33,18 +33,18 @@ public class FormatPeriodExpression_Behavior {
   }
 
   public static SNode call_deriveType_34521615669576867(SNode thisNode, SNode expression) {
-    return (SNode)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), "virtual_deriveType_1213877435747", PARAMETERS_34521615669576867, expression);
+    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), "virtual_deriveType_1213877435747", PARAMETERS_34521615669576867, expression);
   }
 
   public static SNode call_deriveType_34521615669576905(SNode thisNode, SNode expression, SNode link) {
-    return (SNode)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, expression, link);
+    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, expression, link);
   }
 
   public static SNode callSuper_deriveType_34521615669576867(SNode thisNode, String callerConceptFqName, SNode expression) {
-    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_34521615669576867, expression);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_1213877435747", PARAMETERS_34521615669576867, expression);
   }
 
   public static SNode callSuper_deriveType_34521615669576905(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
-    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, expression, link);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, expression, link);
   }
 }

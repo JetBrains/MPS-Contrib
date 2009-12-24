@@ -26,7 +26,7 @@ public class InlineFormat_Test extends BaseTestCase {
         public Result<Object, Object> invokeUnrestricted() {
           Long dt = DateTimeOperations.with(DateTimeOperations.with(DateTimeOperations.with(DateTimeOperations.with(DateTimeOperations.with(DateTimeOperations.with(System.currentTimeMillis(), DateTimeFieldType.yearOfEra(), 2007), DateTimeFieldType.monthOfYear(), 3), DateTimeFieldType.dayOfMonth(), 16), DateTimeFieldType.hourOfDay(), 15), DateTimeFieldType.minuteOfHour(), 27), DateTimeFieldType.secondOfMinute(), 22);
           String expected = "Fri, 16 Mar 2007 15:27:22 MSK";
-          String actual = DateTimeOperations.print(dt, ((InlineDateFormatter)new InlineDateFormatter() {
+          String actual = DateTimeOperations.print(dt, ((InlineDateFormatter) new InlineDateFormatter() {
             public DateTimeFormatter createFormatter() {
               DateTimeFormatterBuilder builder = new DateTimeFormatterBuilder();
               builder.appendPattern("EEE");

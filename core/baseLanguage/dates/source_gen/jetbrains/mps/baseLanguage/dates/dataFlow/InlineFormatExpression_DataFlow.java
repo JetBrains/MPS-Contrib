@@ -13,12 +13,12 @@ public class InlineFormatExpression_DataFlow extends DataFlowBuilder {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "datetime", true));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "datetime", true));
     if ((SLinkOperations.getTarget(_context.getNode(), "zone", true) != null)) {
-      _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "zone", true));
+      _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "zone", true));
     }
     for (SNode formatToken : SLinkOperations.getTargets(_context.getNode(), "formatToken", true)) {
-      _context.getBuilder().build((SNode)formatToken);
+      _context.getBuilder().build((SNode) formatToken);
     }
     if ((SLinkOperations.getTarget(_context.getNode(), "locale", false) != null)) {
       _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "locale", false));

@@ -80,14 +80,14 @@ public class DateTimeZone_Test extends BaseTestCase {
 
   public void test_allZones() throws Exception {
     int count = 0;
-    for (String id : ((Set<String>)DateTimeZone.getAvailableIDs())) {
+    for (String id : ((Set<String>) DateTimeZone.getAvailableIDs())) {
       if (id.startsWith("Europe/P")) {
         // note: sometimes id != timezone(id).id 
         count++;
       }
     }
     Assert.assertTrue(count >= 3);
-    Assert.assertTrue(((Set<String>)DateTimeZone.getAvailableIDs()).contains("Europe/Moscow"));
+    Assert.assertTrue(((Set<String>) DateTimeZone.getAvailableIDs()).contains("Europe/Moscow"));
   }
 
   public void test_dataFlowCheck() throws Exception {

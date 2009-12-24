@@ -14,7 +14,7 @@ public class DateFormat_DataFlow extends DataFlowBuilder {
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     for (SNode token : SLinkOperations.getTargets(_context.getNode(), "token", true)) {
-      _context.getBuilder().build((SNode)token);
+      _context.getBuilder().build((SNode) token);
     }
   }
 }

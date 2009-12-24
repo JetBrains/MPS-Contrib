@@ -14,7 +14,7 @@ public class ConditionalFormatToken_DataFlow extends DataFlowBuilder {
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     for (SNode pair : SLinkOperations.getTargets(_context.getNode(), "conditionPair", true)) {
-      _context.getBuilder().build((SNode)pair);
+      _context.getBuilder().build((SNode) pair);
     }
   }
 }

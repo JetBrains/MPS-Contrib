@@ -14,7 +14,7 @@ public class PeriodFormat_DataFlow extends DataFlowBuilder {
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
     for (SNode t : SLinkOperations.getTargets(_context.getNode(), "token", true)) {
-      _context.getBuilder().build((SNode)t);
+      _context.getBuilder().build((SNode) t);
     }
   }
 }

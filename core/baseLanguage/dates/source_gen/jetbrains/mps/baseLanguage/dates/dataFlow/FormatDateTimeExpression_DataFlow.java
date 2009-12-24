@@ -13,7 +13,7 @@ public class FormatDateTimeExpression_DataFlow extends DataFlowBuilder {
   }
 
   public void build(final IOperationContext operationContext, final DataFlowBuilderContext _context) {
-    _context.getBuilder().build((SNode)SLinkOperations.getTarget(_context.getNode(), "datetime", true));
+    _context.getBuilder().build((SNode) SLinkOperations.getTarget(_context.getNode(), "datetime", true));
     _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "dateFormat", false));
     _context.getBuilder().emitRead(SLinkOperations.getTarget(_context.getNode(), "locale", false));
   }

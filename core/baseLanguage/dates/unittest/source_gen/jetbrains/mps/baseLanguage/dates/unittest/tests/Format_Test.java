@@ -39,7 +39,7 @@ public class Format_Test extends BaseTestCase {
   }
 
   public void test_nullOptionalDate() throws Exception {
-    Assert.assertEquals("-", DateTimeOperations.print((Long)null, MainFormatTable.INSTANCE.getFormatter("optionalDate"), null, null));
+    Assert.assertEquals("-", DateTimeOperations.print((Long) null, MainFormatTable.INSTANCE.getFormatter("optionalDate"), null, null));
   }
 
   public void test_usDayOfWeek() throws Exception {

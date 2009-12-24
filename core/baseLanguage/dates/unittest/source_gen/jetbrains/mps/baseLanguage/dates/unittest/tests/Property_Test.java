@@ -27,7 +27,7 @@ public class Property_Test extends TestCase {
 
   public void test_inPropertyOldForInstant() throws Exception {
     Long min27 = DateTimeOperations.convert(Period.seconds(1620));
-    Assert.assertTrue(DateTimeOperations.compare(new Period((long)(min27), PeriodType.minutes()), CompareType.EQ, Period.minutes(27)));
+    Assert.assertTrue(DateTimeOperations.compare(new Period((long) (min27), PeriodType.minutes()), CompareType.EQ, Period.minutes(27)));
     Assert.assertNotNull(DateTimeArithmetics.minus(DateTimeOperations.never(), min27));
     Assert.assertNotNull(new Period((DateTimeArithmetics.minus(DateTimeOperations.never(), min27)).getMillis(), PeriodType.minutes()));
     Assert.assertFalse(DateTimeOperations.compare(new Period((DateTimeArithmetics.minus(DateTimeOperations.never(), min27)).getMillis(), PeriodType.minutes()), CompareType.EQ, Period.minutes(27)));
@@ -44,7 +44,7 @@ public class Property_Test extends TestCase {
   public void test_inPropertyOldForInstantFromDatetime() throws Exception {
     DateTime nw = DateTimeOperations.with(DateTimeOperations.convert(System.currentTimeMillis(), DateTimeZone.UTC), DateTimeFieldType.minuteOfHour(), 53);
     DateTime before = DateTimeArithmetics.minus(nw, Period.minutes(27));
-    Assert.assertTrue(DateTimeOperations.compare(new Period((long)(DateTimeOperations.convert((DateTimeArithmetics.minus(nw, before)))), PeriodType.minutes()), CompareType.EQ, Period.minutes(27)));
+    Assert.assertTrue(DateTimeOperations.compare(new Period((long) (DateTimeOperations.convert((DateTimeArithmetics.minus(nw, before)))), PeriodType.minutes()), CompareType.EQ, Period.minutes(27)));
   }
 
   public void test_inPropertyForDatetime() throws Exception {
@@ -52,6 +52,6 @@ public class Property_Test extends TestCase {
     DateTime before = DateTimeArithmetics.minus(nw, Period.minutes(27));
     Assert.assertTrue(DateTimeOperations.compare(nw, CompareType.EQ, before, DateTimeFieldType.hourOfDay()));
     Assert.assertTrue(DateTimeOperations.compare(DateTimeArithmetics.minus(nw, before), CompareType.EQ, Period.minutes(27)));
-    Assert.assertTrue(new Period((Period)DateTimeArithmetics.minus(nw, before), PeriodType.minutes()).get(DurationFieldType.minutes()) == 27);
+    Assert.assertTrue(new Period((Period) DateTimeArithmetics.minus(nw, before), PeriodType.minutes()).get(DurationFieldType.minutes()) == 27);
   }
 }

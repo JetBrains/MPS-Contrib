@@ -57,7 +57,7 @@ public class Period_Test extends TestCase {
   public void test_convert() throws Exception {
     Period p = DateTimeArithmetics.plus(Period.minutes(1), Period.seconds(15));
     Long d = DateTimeOperations.convert(p);
-    Assert.assertTrue(d == (long)75000);
+    Assert.assertTrue(d == (long) 75000);
   }
 
   public void test_concat() throws Exception {
