@@ -19,7 +19,7 @@ public class BeanDeclaration_Behavior {
   }
 
   public static String call_getGeneratedClassFQName_1213877331538(SNode thisNode) {
-    return ((SModel)SNodeOperations.getModel(thisNode)).getLongName() + "." + BeanDeclaration_Behavior.call_getGeneratedName_1213877331530(thisNode);
+    return ((SModel) SNodeOperations.getModel(thisNode)).getLongName() + "." + BeanDeclaration_Behavior.call_getGeneratedName_1213877331530(thisNode);
   }
 
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
