@@ -30,7 +30,7 @@ public class GTextOptimizer {
   public static int optimizeItems(SNode item) {
     // inline item lists 
     SNode n = item;
-    for (SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
+    for (SNode child : ListSequence.fromList((List<SNode>) n.getChildren("item"))) {
       SNode optChild = optimize(child);
       if (SNodeOperations.isInstanceOf(optChild, "jetbrains.mps.gtext.structure.GItemList")) {
         inlineChildren(optChild, optChild);
@@ -59,7 +59,7 @@ public class GTextOptimizer {
     }
     // concat text 
     SNode t = null;
-    for (SNode child : ListSequence.fromList((List<SNode>)n.getChildren("item"))) {
+    for (SNode child : ListSequence.fromList((List<SNode>) n.getChildren("item"))) {
       if (SNodeOperations.isInstanceOf(child, "jetbrains.mps.gtext.structure.GText")) {
         if (t == null) {
           t = SNodeOperations.cast(child, "jetbrains.mps.gtext.structure.GText");
