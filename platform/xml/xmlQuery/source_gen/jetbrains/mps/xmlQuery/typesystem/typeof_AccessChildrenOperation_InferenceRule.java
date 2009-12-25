@@ -30,7 +30,7 @@ public class typeof_AccessChildrenOperation_InferenceRule extends AbstractInfere
       SNode _nodeToCheck_1029348928467 = operation;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684691426", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684691428", true), (SNode)new _Quotations.QuotationClass_8().createNode(SchemaUtil.constructXMLElementType(complexType), typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7129398160684691428", true), (SNode) new _Quotations.QuotationClass_8().createNode(SchemaUtil.constructXMLElementType(complexType), typeCheckingContext), _info_12389875345);
     }
   }
 

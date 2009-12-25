@@ -33,10 +33,10 @@ public class XMLElementType_Behavior {
   }
 
   public static String call_getPresentation_7129398160685021502(SNode thisNode) {
-    return (String)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), "virtual_getPresentation_1213877396640", PARAMETERS_7129398160685021502);
+    return (String) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), "virtual_getPresentation_1213877396640", PARAMETERS_7129398160685021502);
   }
 
   public static String callSuper_getPresentation_7129398160685021502(SNode thisNode, String callerConceptFqName) {
-    return (String)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), callerConceptFqName, "virtual_getPresentation_1213877396640", PARAMETERS_7129398160685021502);
+    return (String) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.XMLElementType"), callerConceptFqName, "virtual_getPresentation_1213877396640", PARAMETERS_7129398160685021502);
   }
 }

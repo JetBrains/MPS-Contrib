@@ -21,7 +21,7 @@ public class typeof_AccessAttributeOperation_InferenceRule extends AbstractInfer
       SNode _nodeToCheck_1029348928467 = operation;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7225751495667402982", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode)typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7225751495667402979", true), (SNode)SchemaUtil.getAttributeType(SLinkOperations.getTarget(operation, "attributeDeclaration", false)), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:d89ddc4c-de44-408f-97b1-095c4af64bfb(jetbrains.mps.xmlQuery.typesystem)", "7225751495667402979", true), (SNode) SchemaUtil.getAttributeType(SLinkOperations.getTarget(operation, "attributeDeclaration", false)), _info_12389875345);
     }
   }
 

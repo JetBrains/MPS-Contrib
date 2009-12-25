@@ -30,26 +30,26 @@ public class AttributeBuilder_Behavior {
   }
 
   public static SNode call_getResultType_7225751495667376241(SNode thisNode) {
-    return (SNode)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), "virtual_getResultType_7057666463730718251", PARAMETERS_7225751495667376241);
+    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), "virtual_getResultType_7057666463730718251", PARAMETERS_7225751495667376241);
   }
 
   public static SNode call_getCreatorExpression_7225751495667376245(SNode thisNode, SNode parentRef) {
-    return (SNode)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_7225751495667376245, parentRef);
+    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_7225751495667376245, parentRef);
   }
 
   public static SNode call_getAttachStatementChild_608266221866981658(SNode thisNode, SNode parentBuilder, SNode parentRef, SNode childRef) {
-    return (SNode)BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981658, parentBuilder, parentRef, childRef);
+    return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981658, parentBuilder, parentRef, childRef);
   }
 
   public static SNode callSuper_getResultType_7225751495667376241(SNode thisNode, String callerConceptFqName) {
-    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_7225751495667376241);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getResultType_7057666463730718251", PARAMETERS_7225751495667376241);
   }
 
   public static SNode callSuper_getCreatorExpression_7225751495667376245(SNode thisNode, String callerConceptFqName, SNode parentRef) {
-    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_7225751495667376245, parentRef);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getCreatorExpression_7057666463730727863", PARAMETERS_7225751495667376245, parentRef);
   }
 
   public static SNode callSuper_getAttachStatementChild_608266221866981658(SNode thisNode, String callerConceptFqName, SNode parentBuilder, SNode parentRef, SNode childRef) {
-    return (SNode)BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981658, parentBuilder, parentRef, childRef);
+    return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.xmlQuery.structure.AttributeBuilder"), callerConceptFqName, "virtual_getAttachStatementChild_4797501453850305563", PARAMETERS_608266221866981658, parentBuilder, parentRef, childRef);
   }
 }
