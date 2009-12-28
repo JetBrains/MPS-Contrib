@@ -70,8 +70,6 @@
   <import index="30" modelUID="f:java_stub#com.intellij.openapi.extensions(com.intellij.openapi.extensions@java_stub)" version="-1" />
   <import index="31" modelUID="f:java_stub#com.intellij.execution.actions(com.intellij.execution.actions@java_stub)" version="-1" />
   <import index="32" modelUID="f:java_stub#com.intellij.execution.junit(com.intellij.execution.junit@java_stub)" version="-1" />
-  <import index="33" modelUID="r:00000000-0000-4000-0000-011c895902c8(jetbrains.mps.baseLanguage.plugin)" version="-1" />
-  <import index="34" modelUID="f:java_stub#java.nio.charset(java.nio.charset@java_stub)" version="-1" />
   <import index="35" modelUID="f:java_stub#com.intellij.execution.impl(com.intellij.execution.impl@java_stub)" version="-1" />
   <import index="36" modelUID="f:java_stub#jetbrains.mps.workbench(jetbrains.mps.workbench@java_stub)" version="-1" />
   <import index="37" modelUID="r:af5efca5-3385-45cc-9441-f2124214c2e2(jetbrains.mps.debug)" version="-1" />
