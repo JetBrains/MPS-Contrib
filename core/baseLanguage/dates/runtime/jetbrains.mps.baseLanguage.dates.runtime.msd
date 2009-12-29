@@ -6,10 +6,12 @@
   <classPath>
     <entry path="${solution_descriptor}/classes_gen" include="false" />
     <entry path="${mps_home}/lib/joda-time/joda-time-1.6.jar" include="false" />
-    <entry path="${mps_home}/lib/log4j/log4j.jar" include="false" />
   </classPath>
   <sourcePath>
     <source path="${solution_descriptor}/src" />
   </sourcePath>
+  <dependencies>
+    <dependency reexport="false">37a3367b-1fb2-44d8-aa6b-18075e74e003(MPS.Classpath)</dependency>
+  </dependencies>
 </solution>
 
