@@ -16,10 +16,10 @@ import jetbrains.mps.generator.template.IfMacroContext;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.buildlanguage.behavior.TargetDeclaration_Behavior;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.Sequence;
@@ -123,7 +123,7 @@ public class QueriesGenerated {
   }
 
   public static SNode sourceNodeQuery_1197045463934(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    if (SLinkOperations.getCount(_context.getNode(), "depends") == 0) {
+    if (ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "depends", true)).count() == 0) {
       return null;
     }
     SNode attribute = SConceptOperations.createNewNode("jetbrains.mps.xml.deprecated.structure.Attribute", null);
