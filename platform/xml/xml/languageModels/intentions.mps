@@ -661,8 +661,8 @@
                     <link role="link:16" targetNodeId="1.1163629255661:0" />
                   </node>
                 </node>
-                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.LinkList_AddChildOperation:16" id="1195665988546">
-                  <node role="childNode:16" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="1195665988547">
+                <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation:7" id="2898190064848338715">
+                  <node role="argument:7" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="1195665988547">
                     <link role="concept:16" targetNodeId="1.1161371727643:0" resolveInfo="Content" />
                     <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="1195665988548">
                       <link role="variable:7" targetNodeId="1195665988538" resolveInfo="selectedNode" />

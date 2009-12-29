@@ -5,11 +5,11 @@ package jetbrains.mps.xml.actions;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSetupContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
 import jetbrains.mps.smodel.action.NodeSubstituteActionsFactoryContext;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
@@ -30,19 +30,19 @@ import jetbrains.mps.util.Condition;
 public class QueriesGenerated {
   public static void nodeFactory_NodeSetup_ComplexText_1178622222481(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText")) {
-      SLinkOperations.addChild(_context.getNewNode(), "text", SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText"));
+      ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "text", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.BaseText"));
     }
   }
 
   public static void nodeFactory_NodeSetup_ContentList_1178622500723(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
-      SLinkOperations.addChild(_context.getNewNode(), "content", SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
+      ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "content", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
     }
   }
 
   public static void nodeFactory_NodeSetup_Element_1188911043247(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
-      SLinkOperations.addChild(SLinkOperations.getTarget(_context.getNewNode(), "contentList", true), "content", SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
+      ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNewNode(), "contentList", true), "content", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
     }
   }
 
