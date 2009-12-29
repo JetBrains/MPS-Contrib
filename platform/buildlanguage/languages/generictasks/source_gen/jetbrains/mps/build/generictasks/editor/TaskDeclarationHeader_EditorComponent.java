@@ -23,6 +23,7 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -285,7 +286,7 @@ public class TaskDeclarationHeader_EditorComponent extends AbstractCellProvider 
   }
 
   private static boolean renderingCondition1965_4(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "interfaces") > 0;
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
   }
 
   private static class interfacesListHandler_1965_0 extends RefNodeListHandler {

@@ -216,8 +216,8 @@
                           <link role="link:16" targetNodeId="1.353793545802643479:22" />
                         </node>
                       </node>
-                      <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.LinkList_AddChildOperation:16" id="353793545802644480">
-                        <node role="childNode:16" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="353793545802644481">
+                      <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation:7" id="1810715974609111548">
+                        <node role="argument:7" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="353793545802644481">
                           <link role="variableDeclaration:3" targetNodeId="353793545802644463" resolveInfo="attr" />
                         </node>
                       </node>

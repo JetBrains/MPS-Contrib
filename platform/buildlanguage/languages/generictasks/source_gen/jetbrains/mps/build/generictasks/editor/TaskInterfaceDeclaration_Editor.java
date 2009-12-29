@@ -19,6 +19,7 @@ import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.buildlanguage.editor.BuildLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.IScope;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
@@ -159,7 +160,7 @@ public class TaskInterfaceDeclaration_Editor extends DefaultNodeEditor {
   }
 
   private static boolean renderingCondition0922_0(SNode node, EditorContext editorContext, IScope scope) {
-    return SLinkOperations.getCount(node, "interfaces") > 0;
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "interfaces", true)).count() > 0;
   }
 
   private static class interfacesListHandler_0922_0 extends RefNodeListHandler {

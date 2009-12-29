@@ -364,7 +364,7 @@
                         <link role="link:16" targetNodeId="1.7699562953468509842:22" />
                       </node>
                     </node>
-                    <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.LinkList_GetCountOperation:16" id="353793545802643628" />
+                    <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation:7" id="1810715974609111574" />
                   </node>
                 </node>
               </node>
@@ -862,7 +862,7 @@
                         <link role="link:16" targetNodeId="1.7699562953468509842:22" />
                       </node>
                     </node>
-                    <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.LinkList_GetCountOperation:16" id="8241842287689220342" />
+                    <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation:7" id="1810715974609111575" />
                   </node>
                 </node>
               </node>
