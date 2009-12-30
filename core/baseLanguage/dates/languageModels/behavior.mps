@@ -1351,9 +1351,6 @@
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="6626410111395872163">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
       </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="6626410111395872164">
-        <link role="annotation:3" targetNodeId="2.~Override" />
-      </node>
     </node>
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="2890840340813585276">
       <property name="name" value="deriveType" />
@@ -1415,9 +1412,6 @@
       </node>
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="2890840340813585283">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
-      </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="2890840340813585284">
-        <link role="annotation:3" targetNodeId="2.~Override" />
       </node>
     </node>
   </node>
@@ -1500,9 +1494,6 @@
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="5034322243092301684">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
       </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="5034322243092301685">
-        <link role="annotation:3" targetNodeId="2.~Override" />
-      </node>
     </node>
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="5034322243092301788">
       <property name="name" value="deriveType" />
@@ -1546,9 +1537,6 @@
       </node>
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="5034322243092301795">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
-      </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="5034322243092301796">
-        <link role="annotation:3" targetNodeId="2.~Override" />
       </node>
     </node>
   </node>
@@ -1631,9 +1619,6 @@
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="7499037524191428330">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
       </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="7499037524191428331">
-        <link role="annotation:3" targetNodeId="2.~Override" />
-      </node>
     </node>
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="7499037524191428434">
       <property name="name" value="deriveType" />
@@ -1677,9 +1662,6 @@
       </node>
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="7499037524191428441">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
-      </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="7499037524191428442">
-        <link role="annotation:3" targetNodeId="2.~Override" />
       </node>
     </node>
   </node>
@@ -1887,9 +1869,6 @@
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="34521615669576872">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
       </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="34521615669577132">
-        <link role="annotation:3" targetNodeId="2.~Override" resolveInfo="Override" />
-      </node>
     </node>
     <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="34521615669576905">
       <property name="name" value="deriveType" />
@@ -1933,9 +1912,6 @@
       </node>
       <node role="returnType" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="34521615669576912">
         <link role="concept:16" targetNodeId="6.1068431790189:3" resolveInfo="Type" />
-      </node>
-      <node role="annotation" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="34521615669577133">
-        <link role="annotation:3" targetNodeId="2.~Override" resolveInfo="Override" />
       </node>
     </node>
   </node>
