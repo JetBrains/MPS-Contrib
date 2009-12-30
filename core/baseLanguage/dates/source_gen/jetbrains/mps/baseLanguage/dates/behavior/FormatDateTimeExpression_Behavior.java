@@ -15,6 +15,7 @@ public class FormatDateTimeExpression_Behavior {
   public static void init(SNode thisNode) {
   }
 
+  @Override
   public static SNode virtual_deriveType_1213877435747(SNode thisNode, SNode expression) {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
@@ -25,6 +26,7 @@ public class FormatDateTimeExpression_Behavior {
     return null;
   }
 
+  @Override
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", "datetime") == link) {
       return new _Quotations.QuotationClass_18().createNode();
