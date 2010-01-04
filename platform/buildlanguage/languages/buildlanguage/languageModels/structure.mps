@@ -5621,7 +5621,6 @@
   <maxImportIndex value="11" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="10" modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" version="1" />
-  <import index="11" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1196851066733">
     <property name="name:0" value="Project" />
     <property name="rootable:0" value="true" />

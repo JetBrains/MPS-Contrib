@@ -47,8 +47,6 @@
   <import index="53" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <import index="54" modelUID="f:java_stub#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
   <import index="55" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
-  <import index="56" modelUID="f:java_stub#jetbrains.mps.nodeEditor(jetbrains.mps.nodeEditor@java_stub)" version="-1" />
-  <import index="57" modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" version="-1" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="1169487499058">
     <property name="package:32" value="format" />
     <link role="conceptDeclaration:32" targetNodeId="1.1169487448949:1" />

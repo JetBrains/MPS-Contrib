@@ -55,7 +55,6 @@
   <import index="16" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
   <import index="17" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <import index="19" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
-  <import index="20" modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1173960152516">
     <property name="name:3" value="DateTimePropertFormatTokenUtil" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="1173960236733">

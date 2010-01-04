@@ -41,15 +41,6 @@
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c89590598(jetbrains.mps.xmlSchema.structure)" version="3" />
   <import index="38" modelUID="f:java_stub#jetbrains.mps.ide.browser(jetbrains.mps.ide.browser@java_stub)" version="-1" />
   <import index="43" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
-  <import index="44" modelUID="f:java_stub#jetbrains.mps.nodeEditor(jetbrains.mps.nodeEditor@java_stub)" version="-1" />
-  <import index="45" modelUID="f:java_stub#jetbrains.mps.nodeEditor.cells(jetbrains.mps.nodeEditor.cells@java_stub)" version="-1" />
-  <import index="46" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <import index="47" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
-  <import index="48" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="49" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
-  <import index="50" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="51" modelUID="f:java_stub#java.awt.event(java.awt.event@java_stub)" version="-1" />
-  <import index="52" modelUID="f:java_stub#com.intellij.ide(com.intellij.ide@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="1167512717589">
     <link role="conceptDeclaration:32" targetNodeId="1.1167512696010:3" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="1167840624744">

@@ -68,15 +68,12 @@
   <import index="14" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="16" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <import index="19" modelUID="r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)" version="3" />
-  <import index="20" modelUID="f:java_stub#jetbrains.mps.ide.progress(jetbrains.mps.ide.progress@java_stub)" version="-1" />
   <import index="30" modelUID="f:java_stub#jetbrains.mps.typesystem.inference(jetbrains.mps.typesystem.inference@java_stub)" version="-1" />
-  <import index="31" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
   <import index="32" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="33" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <import index="34" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="35" modelUID="f:java_stub#org.joda.time.format(org.joda.time.format@java_stub)" version="-1" />
   <import index="36" modelUID="r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)" version="-1" />
-  <import index="37" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.accessories(jetbrains.mps.baseLanguage.dates.accessories@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1171978333109">
     <property name="name:3" value="DateTypeUtil" />
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="1175767570824">

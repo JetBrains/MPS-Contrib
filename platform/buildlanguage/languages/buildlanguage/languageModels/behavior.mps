@@ -43,8 +43,6 @@
   <import index="4" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
   <import index="7" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <import index="8" modelUID="r:00000000-0000-4000-0000-011c895904e2(jetbrains.mps.build.property.structure)" version="1" />
-  <import index="9" modelUID="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" version="-1" />
-  <import index="10" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877231973">
     <property name="package" value="Declarations" />
     <link role="concept" targetNodeId="1.1196851099544:21" resolveInfo="TargetDeclaration" />

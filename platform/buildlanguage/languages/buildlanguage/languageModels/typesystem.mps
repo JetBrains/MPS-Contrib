@@ -50,11 +50,6 @@
   <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <maxImportIndex value="11" />
   <import index="1" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <import index="5" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="6" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
-  <import index="9" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
-  <import index="10" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
-  <import index="11" modelUID="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" version="-1" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1196871134034">
     <property name="name:3" value="typeof_PropertyDeclaration" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1196871134035">

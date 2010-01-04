@@ -12,7 +12,7 @@
       </models>
       <external-templates />
       <usedLanguages>
-        <usedLanguages>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguages>
+        <usedLanguage>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguage>
       </usedLanguages>
       <mapping-priorities>
         <mapping-priority-rule kind="strictly_before">
@@ -41,7 +41,6 @@
   </sourcePath>
   <dependencies>
     <dependency reexport="true">34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)</dependency>
-    <dependency reexport="false">b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</dependency>
   </dependencies>
   <runtime>
     <dependency reexport="true">34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)</dependency>

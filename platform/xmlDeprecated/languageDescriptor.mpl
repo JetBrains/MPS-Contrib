@@ -18,11 +18,6 @@
   </classPath>
   <languageRuntimeClassPath />
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</dependency>
-    <dependency reexport="false">648edee0-a74d-4997-b400-98c57131fd93(jetbrains.mps.xml#1129923280838)</dependency>
-    <dependency reexport="false">13bb5d8e-e640-4722-80ed-259ec90709b3(jetbrains.mps.xmlQuery.runtime)</dependency>
-  </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>

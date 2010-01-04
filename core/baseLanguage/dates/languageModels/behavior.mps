@@ -59,7 +59,6 @@
   <import index="12" modelUID="r:00000000-0000-4000-0000-011c895903cd(jetbrains.mps.baseLanguage.dates.actions)" version="-1" />
   <import index="13" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="14" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <import index="15" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="1213877259059">
     <property name="package" value="format.date" />
     <link role="concept" targetNodeId="1.1173959836330:1" resolveInfo="DateTimePropertyFormatToken" />

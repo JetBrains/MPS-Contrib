@@ -21,9 +21,6 @@
     <entry path="${language_descriptor}/lib/xmlunit-1.3.jar" />
   </languageRuntimeClassPath>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">0541f836-6605-43e5-8e71-9d5f3e3ed485(jetbrains.mps.sampleXML#1225240266472)</dependency>
-  </dependencies>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>

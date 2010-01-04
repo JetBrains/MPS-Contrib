@@ -40,18 +40,8 @@
   <maxImportIndex value="15" />
   <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <import index="3" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
   <import index="4" modelUID="f:java_stub#jetbrains.mps.smodel.search(jetbrains.mps.smodel.search@java_stub)" version="-1" />
-  <import index="5" modelUID="f:java_stub#jetbrains.mps.build.generictasks.tasksfromjar(jetbrains.mps.build.generictasks.tasksfromjar@java_stub)" version="-1" />
-  <import index="6" modelUID="r:f2a46e84-6223-43fc-9c7a-2bd327c7efad(jetbrains.mps.build.generictasks.plugin)" version="-1" />
   <import index="7" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="8" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
-  <import index="9" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
-  <import index="10" modelUID="f:java_stub#jetbrains.mps.baseLanguage.search(jetbrains.mps.baseLanguage.search@java_stub)" version="-1" />
-  <import index="11" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
-  <import index="12" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="13" modelUID="f:java_stub#jetbrains.mps.baseLanguage.constraints(jetbrains.mps.baseLanguage.constraints@java_stub)" version="-1" />
-  <import index="14" modelUID="r:00000000-0000-4000-0000-011c8959036d(jetbrains.mps.baseLanguage.classifiers.behavior)" version="-1" />
   <import index="15" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <visible index="2" modelUID="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="353793545802644405">

@@ -44,9 +44,6 @@
   <import index="1" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
   <import index="3" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="4" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
-  <import index="5" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <import index="6" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="353793545802854604">
     <property name="name:3" value="typeof_Attribute" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="353793545802854605">

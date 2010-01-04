@@ -44,7 +44,6 @@
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895903d5(jetbrains.mps.baseLanguage.dates.structure)" version="1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="6" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="12" modelUID="f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)" version="-1" />
   <import index="13" modelUID="f:java_stub#org.joda.time(org.joda.time@java_stub)" version="-1" />
   <import index="14" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <import index="15" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
