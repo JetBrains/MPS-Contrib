@@ -6,6 +6,13 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.baseLanguage.dates.actions.DateTypeUtil;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.project.GlobalScope;
+import jetbrains.mps.smodel.SReference;
+import jetbrains.mps.smodel.SModelReference;
+import jetbrains.mps.smodel.SNodeId;
 
 public class MathDateTimeOperation_Behavior {
   public static void init(SNode thisNode) {
@@ -22,11 +29,82 @@ public class MathDateTimeOperation_Behavior {
   public static boolean call_needConvert_1238250776233(SNode thisNode, SNode expression) {
     boolean can = false;
     SNode expressionType = TypeChecker.getInstance().getTypeOf(expression);
-    can = TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new _Quotations.QuotationClass_1().createNode());
-    can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new _Quotations.QuotationClass_2().createNode());
-    can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new _Quotations.QuotationClass_3().createNode());
-    can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new _Quotations.QuotationClass_4().createNode());
+    can = TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new MathDateTimeOperation_Behavior.QuotationClass_5533_0().createNode());
+    can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new MathDateTimeOperation_Behavior.QuotationClass_5533_1().createNode());
+    can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new MathDateTimeOperation_Behavior.QuotationClass_5533_2().createNode());
+    can = can || TypeChecker.getInstance().getSubtypingManager().isSubtype(expressionType, new MathDateTimeOperation_Behavior.QuotationClass_5533_3().createNode());
     can = can || DateTypeUtil.isInstanceOfPeriod(expression);
     return can;
+  }
+
+  public static class QuotationClass_5533_0 {
+    public QuotationClass_5533_0() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_5 = null;
+      {
+        quotedNode_5 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5 = quotedNode_5;
+        quotedNode1_5.addReference(SReference.create("classifier", quotedNode1_5, SModelReference.fromString("f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)"), SNodeId.fromString("~AbstractInstant")));
+        result = quotedNode1_5;
+      }
+      return result;
+    }
+  }
+
+  public static class QuotationClass_5533_1 {
+    public QuotationClass_5533_1() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_6 = null;
+      {
+        quotedNode_6 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_6 = quotedNode_6;
+        quotedNode1_6.addReference(SReference.create("classifier", quotedNode1_6, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
+        result = quotedNode1_6;
+      }
+      return result;
+    }
+  }
+
+  public static class QuotationClass_5533_2 {
+    public QuotationClass_5533_2() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_7 = null;
+      {
+        quotedNode_7 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_7 = quotedNode_7;
+        quotedNode1_7.addReference(SReference.create("classifier", quotedNode1_7, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
+        result = quotedNode1_7;
+      }
+      return result;
+    }
+  }
+
+  public static class QuotationClass_5533_3 {
+    public QuotationClass_5533_3() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_8 = null;
+      {
+        quotedNode_8 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8 = quotedNode_8;
+        result = quotedNode1_8;
+      }
+      return result;
+    }
   }
 }

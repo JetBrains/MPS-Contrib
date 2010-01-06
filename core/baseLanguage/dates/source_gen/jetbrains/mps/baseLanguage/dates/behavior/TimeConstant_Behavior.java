@@ -7,6 +7,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.project.GlobalScope;
 
 public class TimeConstant_Behavior {
   private static Class[] PARAMETERS_779372288056823164 = {SNode.class ,SNode.class};
@@ -19,7 +24,7 @@ public class TimeConstant_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "timezone"), "role").equals(role)) {
-        return new _Quotations.QuotationClass_7().createNode();
+        return new TimeConstant_Behavior.QuotationClass_7984_0().createNode();
       }
     }
     return null;
@@ -27,7 +32,7 @@ public class TimeConstant_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "timezone") == link) {
-      return new _Quotations.QuotationClass_8().createNode();
+      return new TimeConstant_Behavior.QuotationClass_7984_1().createNode();
     }
     return null;
   }
@@ -46,5 +51,39 @@ public class TimeConstant_Behavior {
 
   public static SNode callSuper_deriveType_779372288056825341(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.TimeConstant"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_779372288056825341, expression, link);
+  }
+
+  public static class QuotationClass_7984_0 {
+    public QuotationClass_7984_0() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_17 = null;
+      {
+        quotedNode_17 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_17 = quotedNode_17;
+        result = quotedNode1_17;
+      }
+      return result;
+    }
+  }
+
+  public static class QuotationClass_7984_1 {
+    public QuotationClass_7984_1() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_18 = null;
+      {
+        quotedNode_18 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_18 = quotedNode_18;
+        result = quotedNode1_18;
+      }
+      return result;
+    }
   }
 }

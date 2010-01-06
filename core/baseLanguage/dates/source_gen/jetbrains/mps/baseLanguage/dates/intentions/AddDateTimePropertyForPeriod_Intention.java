@@ -10,6 +10,10 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.project.GlobalScope;
 
 public class AddDateTimePropertyForPeriod_Intention extends BaseIntention implements Intention {
   public AddDateTimePropertyForPeriod_Intention() {
@@ -43,7 +47,7 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention implem
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), new _Quotations.QuotationClass_0().createNode(), false);
+    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), new AddDateTimePropertyForPeriod_Intention.QuotationClass_9594_0().createNode(), false);
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
@@ -54,5 +58,22 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention implem
 
   public String getLocationString() {
     return "jetbrains.mps.baseLanguage.dates.intentions";
+  }
+
+  public static class QuotationClass_9594_0 {
+    public QuotationClass_9594_0() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_4 = null;
+      {
+        quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4 = quotedNode_4;
+        result = quotedNode1_4;
+      }
+      return result;
+    }
   }
 }

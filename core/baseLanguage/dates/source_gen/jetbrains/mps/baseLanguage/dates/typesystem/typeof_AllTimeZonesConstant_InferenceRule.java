@@ -9,6 +9,13 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.smodel.SModelUtil_new;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.project.GlobalScope;
+import jetbrains.mps.smodel.SReference;
+import jetbrains.mps.smodel.SModelReference;
+import jetbrains.mps.smodel.SNodeId;
 
 public class typeof_AllTimeZonesConstant_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
   public typeof_AllTimeZonesConstant_InferenceRule() {
@@ -19,7 +26,7 @@ public class typeof_AllTimeZonesConstant_InferenceRule extends AbstractInference
       SNode _nodeToCheck_1029348928467 = constant;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215865434343", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215865434340", true), (SNode) new _Quotations.QuotationClass_121().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215865434340", true), (SNode) new typeof_AllTimeZonesConstant_InferenceRule.QuotationClass_6639_0().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 
@@ -33,5 +40,48 @@ public class typeof_AllTimeZonesConstant_InferenceRule extends AbstractInference
 
   public boolean overrides() {
     return false;
+  }
+
+  public static class QuotationClass_6639_0 {
+    public QuotationClass_6639_0() {
+    }
+
+    public SNode createNode(final TypeCheckingContext typeCheckingContext) {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_144 = null;
+      SNode quotedNode_145 = null;
+      {
+        quotedNode_144 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_144 = quotedNode_144;
+        quotedNode1_144.addReference(SReference.create("classifier", quotedNode1_144, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
+        {
+          quotedNode_145 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_145 = quotedNode_145;
+          quotedNode_144.addChild("parameter", quotedNode1_145);
+        }
+        result = quotedNode1_144;
+      }
+      return result;
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_144 = null;
+      SNode quotedNode_145 = null;
+      {
+        quotedNode_144 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_144 = quotedNode_144;
+        quotedNode1_144.addReference(SReference.create("classifier", quotedNode1_144, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
+        {
+          quotedNode_145 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_145 = quotedNode_145;
+          quotedNode_144.addChild("parameter", quotedNode1_145);
+        }
+        result = quotedNode1_144;
+      }
+      return result;
+    }
   }
 }

@@ -7,6 +7,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.project.GlobalScope;
 
 public class ParseDateTimeExpression_Behavior {
   private static Class[] PARAMETERS_7499037524191428325 = {SNode.class ,SNode.class};
@@ -19,7 +24,7 @@ public class ParseDateTimeExpression_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "zone"), "role").equals(role)) {
-        return new _Quotations.QuotationClass_19().createNode();
+        return new ParseDateTimeExpression_Behavior.QuotationClass_9803_0().createNode();
       }
     }
     return null;
@@ -27,7 +32,7 @@ public class ParseDateTimeExpression_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression", "zone") == link) {
-      return new _Quotations.QuotationClass_20().createNode();
+      return new ParseDateTimeExpression_Behavior.QuotationClass_9803_1().createNode();
     }
     return null;
   }
@@ -46,5 +51,39 @@ public class ParseDateTimeExpression_Behavior {
 
   public static SNode callSuper_deriveType_7499037524191428434(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_7499037524191428434, expression, link);
+  }
+
+  public static class QuotationClass_9803_0 {
+    public QuotationClass_9803_0() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_15 = null;
+      {
+        quotedNode_15 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_15 = quotedNode_15;
+        result = quotedNode1_15;
+      }
+      return result;
+    }
+  }
+
+  public static class QuotationClass_9803_1 {
+    public QuotationClass_9803_1() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_16 = null;
+      {
+        quotedNode_16 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_16 = quotedNode_16;
+        result = quotedNode1_16;
+      }
+      return result;
+    }
   }
 }

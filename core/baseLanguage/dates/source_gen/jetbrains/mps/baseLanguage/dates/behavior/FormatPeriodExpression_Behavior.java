@@ -7,6 +7,11 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.project.GlobalScope;
 
 public class FormatPeriodExpression_Behavior {
   private static Class[] PARAMETERS_34521615669576867 = {SNode.class ,SNode.class};
@@ -19,7 +24,7 @@ public class FormatPeriodExpression_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "period"), "role").equals(role)) {
-        return new _Quotations.QuotationClass_5().createNode();
+        return new FormatPeriodExpression_Behavior.QuotationClass_0127_0().createNode();
       }
     }
     return null;
@@ -27,7 +32,7 @@ public class FormatPeriodExpression_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression", "period") == link) {
-      return new _Quotations.QuotationClass_6().createNode();
+      return new FormatPeriodExpression_Behavior.QuotationClass_0127_1().createNode();
     }
     return null;
   }
@@ -46,5 +51,39 @@ public class FormatPeriodExpression_Behavior {
 
   public static SNode callSuper_deriveType_34521615669576905(SNode thisNode, String callerConceptFqName, SNode expression, SNode link) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_34521615669576905, expression, link);
+  }
+
+  public static class QuotationClass_0127_0 {
+    public QuotationClass_0127_0() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_19 = null;
+      {
+        quotedNode_19 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_19 = quotedNode_19;
+        result = quotedNode1_19;
+      }
+      return result;
+    }
+  }
+
+  public static class QuotationClass_0127_1 {
+    public QuotationClass_0127_1() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_20 = null;
+      {
+        quotedNode_20 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_20 = quotedNode_20;
+        result = quotedNode1_20;
+      }
+      return result;
+    }
   }
 }
