@@ -9,6 +9,10 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.typesystem.inference.EquationInfo;
 import jetbrains.mps.smodel.SModelUtil_new;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.project.GlobalScope;
 
 public class typeof_ConsoleExpression_InferenceRule extends AbstractInferenceRule_Runtime implements InferenceRule_Runtime {
   public typeof_ConsoleExpression_InferenceRule() {
@@ -19,7 +23,7 @@ public class typeof_ConsoleExpression_InferenceRule extends AbstractInferenceRul
       SNode _nodeToCheck_1029348928467 = expression;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "9061443648117368153", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "9061443648117368150", true), (SNode) new _Quotations.QuotationClass_38().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "9061443648117368150", true), (SNode) new typeof_ConsoleExpression_InferenceRule.QuotationClass_9255_0().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 
@@ -33,5 +37,34 @@ public class typeof_ConsoleExpression_InferenceRule extends AbstractInferenceRul
 
   public boolean overrides() {
     return false;
+  }
+
+  public static class QuotationClass_9255_0 {
+    public QuotationClass_9255_0() {
+    }
+
+    public SNode createNode(final TypeCheckingContext typeCheckingContext) {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_41 = null;
+      {
+        quotedNode_41 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.ConsoleType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_41 = quotedNode_41;
+        result = quotedNode1_41;
+      }
+      return result;
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_41 = null;
+      {
+        quotedNode_41 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.ConsoleType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_41 = quotedNode_41;
+        result = quotedNode1_41;
+      }
+      return result;
+    }
   }
 }

@@ -7,6 +7,11 @@ import jetbrains.mps.util.NameUtil;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.checkedName.PropertyReference;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.project.GlobalScope;
 
 public class RunConfigurationDeclaration_Behavior {
   public static void init(SNode thisNode) {
@@ -33,6 +38,24 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    return new _Quotations.QuotationClass_10().createNode(thisNode);
+    return new RunConfigurationDeclaration_Behavior.QuotationClass_3854_0().createNode(thisNode);
+  }
+
+  public static class QuotationClass_3854_0 {
+    public QuotationClass_3854_0() {
+    }
+
+    public SNode createNode(Object parameter_3854_0) {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_4 = null;
+      {
+        quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.RunConfigType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4 = quotedNode_4;
+        quotedNode1_4.setReferent("runConfig", (SNode) parameter_3854_0);
+        result = quotedNode1_4;
+      }
+      return result;
+    }
   }
 }
