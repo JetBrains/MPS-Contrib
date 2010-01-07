@@ -187,1316 +187,1297 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       SubtypingRule_Runtime subtypingRule = new DurationType_unboxing_SubtypingRule();
       this.mySubtypingRules.add(subtypingRule);
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider0("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider1("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider2("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider3("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider4("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider5("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider6("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider7("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider8("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider9("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider10("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider11("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider12("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider13("jetbrains.mps.baseLanguage.structure.MinusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider14("jetbrains.mps.baseLanguage.structure.BinaryCompareOperation"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider15("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider16("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider17("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+    this.myOverloadedOperationsTypesProviders.add(new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider18("jetbrains.mps.baseLanguage.structure.PlusExpression"));
+  }
+
+  public static class CustomOverloadedOperationsTypesProvider0 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider0(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider0.QuotationClass_1832_1().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider0.QuotationClass_1832_2().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
+    }
+
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider0.QuotationClass_1832_0().createNode();
+    }
+
+    public static class QuotationClass_1832_0 {
+      public QuotationClass_1832_0() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_0 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_1().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_2().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.MinusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0 = quotedNode_0;
+          result = quotedNode1_0;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_0().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_1 {
+      public QuotationClass_1832_1() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_1 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_4().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_5().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.MinusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_1 = quotedNode_1;
+          result = quotedNode1_1;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_3().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_2 {
+      public QuotationClass_1832_2() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_2 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_7().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_8().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_2 = quotedNode_2;
+          result = quotedNode1_2;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_6().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+  }
+
+  public static class CustomOverloadedOperationsTypesProvider1 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider1(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider1.QuotationClass_1832_4().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider1.QuotationClass_1832_5().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
+    }
+
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider1.QuotationClass_1832_3().createNode();
+    }
+
+    public static class QuotationClass_1832_3 {
+      public QuotationClass_1832_3() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_3 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_10().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_11().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_3 = quotedNode_3;
+          result = quotedNode1_3;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_9().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_4 {
+      public QuotationClass_1832_4() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_4 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_13().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_14().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_4 = quotedNode_4;
+          result = quotedNode1_4;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_12().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_5 {
+      public QuotationClass_1832_5() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_5 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_16().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_17().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_5 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_5 = quotedNode_5;
+          result = quotedNode1_5;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_15().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+  }
+
+  public static class CustomOverloadedOperationsTypesProvider2 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider2(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider2.QuotationClass_1832_7().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider2.QuotationClass_1832_8().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
+    }
+
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider2.QuotationClass_1832_6().createNode();
+    }
+
+    public static class QuotationClass_1832_6 {
+      public QuotationClass_1832_6() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_6 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_19().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_20().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_6 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6 = quotedNode_6;
+          result = quotedNode1_6;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_18().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_7 {
+      public QuotationClass_1832_7() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_7 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_22().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_23().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_7 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_7 = quotedNode_7;
+          result = quotedNode1_7;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_21().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_8 {
+      public QuotationClass_1832_8() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_8 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_25().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_26().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_8 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_8 = quotedNode_8;
+          result = quotedNode1_8;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_24().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+  }
+
+  public static class CustomOverloadedOperationsTypesProvider3 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider3(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider3.QuotationClass_1832_10().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider3.QuotationClass_1832_11().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
+    }
+
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider3.QuotationClass_1832_9().createNode();
+    }
+
+    public static class QuotationClass_1832_9 {
+      public QuotationClass_1832_9() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_9 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_28().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_29().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.MinusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_9 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_9 = quotedNode_9;
+          result = quotedNode1_9;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_27().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_10 {
+      public QuotationClass_1832_10() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_10 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_31().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_32().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.MinusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_10 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_10 = quotedNode_10;
+          result = quotedNode1_10;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_30().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_11 {
+      public QuotationClass_1832_11() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_11 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_34().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_35().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.MinusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_11 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_11 = quotedNode_11;
+          result = quotedNode1_11;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_33().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+  }
+
+  public static class CustomOverloadedOperationsTypesProvider4 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider4(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider4.QuotationClass_1832_13().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider4.QuotationClass_1832_14().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
+    }
+
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider4.QuotationClass_1832_12().createNode();
+    }
+
+    public static class QuotationClass_1832_12 {
+      public QuotationClass_1832_12() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_12 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_37().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_38().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.MinusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_12 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_12 = quotedNode_12;
+          result = quotedNode1_12;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_36().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_13 {
+      public QuotationClass_1832_13() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_13 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_40().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_41().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.MinusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_13 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_13 = quotedNode_13;
+          result = quotedNode1_13;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_39().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_14 {
+      public QuotationClass_1832_14() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_14 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_43().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_44().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_14 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_14 = quotedNode_14;
+          result = quotedNode1_14;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_42().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+  }
+
+  public static class CustomOverloadedOperationsTypesProvider5 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider5(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider5.QuotationClass_1832_16().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider5.QuotationClass_1832_17().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
+    }
+
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider5.QuotationClass_1832_15().createNode();
+    }
+
+    public static class QuotationClass_1832_15 {
+      public QuotationClass_1832_15() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_15 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_46().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_47().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_15 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_15 = quotedNode_15;
+          result = quotedNode1_15;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_45().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_16 {
+      public QuotationClass_1832_16() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_16 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_49().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_50().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_16 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_16 = quotedNode_16;
+          result = quotedNode1_16;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_48().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+
+    public static class QuotationClass_1832_17 {
+      public QuotationClass_1832_17() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_17 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_52().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_53().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_17 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_17 = quotedNode_17;
+          result = quotedNode1_17;
         }
-
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_51().createNode();
-        }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
     }
-    {
-      OverloadedOperationsTypesProvider provider = new OverloadedOperationsTypesProvider() {
+  }
+
+  public static class CustomOverloadedOperationsTypesProvider6 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider6(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider6.QuotationClass_1832_19().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider6.QuotationClass_1832_20().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
+    }
+
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider6.QuotationClass_1832_18().createNode();
+    }
+
+    public static class QuotationClass_1832_18 {
+      public QuotationClass_1832_18() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_18 = null;
         {
-          this.myLeftOperandType = new TypesystemDescriptor.QuotationClass_1832_55().createNode();
-          this.myRightOperandType = new TypesystemDescriptor.QuotationClass_1832_56().createNode();
-          this.myOperationConceptFQName = "jetbrains.mps.baseLanguage.structure.PlusExpression";
-          this.myLeftTypeIsExact = true;
-          this.myRightTypeIsExact = true;
-          this.myRightIsStrong = false;
-          this.myLeftIsStrong = false;
+          quotedNode_18 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_18 = quotedNode_18;
+          result = quotedNode1_18;
         }
+        return result;
+      }
+    }
 
-        public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
-          return new TypesystemDescriptor.QuotationClass_1832_54().createNode();
+    public static class QuotationClass_1832_19 {
+      public QuotationClass_1832_19() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_19 = null;
+        {
+          quotedNode_19 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_19 = quotedNode_19;
+          result = quotedNode1_19;
         }
-      };
-      this.myOverloadedOperationsTypesProviders.add(provider);
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_20 {
+      public QuotationClass_1832_20() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_20 = null;
+        {
+          quotedNode_20 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_20 = quotedNode_20;
+          result = quotedNode1_20;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_0 {
-    public QuotationClass_1832_0() {
+  public static class CustomOverloadedOperationsTypesProvider7 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider7(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider7.QuotationClass_1832_22().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider7.QuotationClass_1832_23().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_0 = null;
-      {
-        quotedNode_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_0 = quotedNode_0;
-        result = quotedNode1_0;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider7.QuotationClass_1832_21().createNode();
+    }
+
+    public static class QuotationClass_1832_21 {
+      public QuotationClass_1832_21() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_21 = null;
+        {
+          quotedNode_21 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_21 = quotedNode_21;
+          result = quotedNode1_21;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_22 {
+      public QuotationClass_1832_22() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_22 = null;
+        {
+          quotedNode_22 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_22 = quotedNode_22;
+          result = quotedNode1_22;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_23 {
+      public QuotationClass_1832_23() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_23 = null;
+        {
+          quotedNode_23 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_23 = quotedNode_23;
+          result = quotedNode1_23;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_1 {
-    public QuotationClass_1832_1() {
+  public static class CustomOverloadedOperationsTypesProvider8 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider8(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider8.QuotationClass_1832_25().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider8.QuotationClass_1832_26().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1 = null;
-      {
-        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_1 = quotedNode_1;
-        result = quotedNode1_1;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider8.QuotationClass_1832_24().createNode();
+    }
+
+    public static class QuotationClass_1832_24 {
+      public QuotationClass_1832_24() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_24 = null;
+        {
+          quotedNode_24 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_24 = quotedNode_24;
+          result = quotedNode1_24;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_25 {
+      public QuotationClass_1832_25() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_25 = null;
+        {
+          quotedNode_25 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_25 = quotedNode_25;
+          result = quotedNode1_25;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_26 {
+      public QuotationClass_1832_26() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_26 = null;
+        {
+          quotedNode_26 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_26 = quotedNode_26;
+          result = quotedNode1_26;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_2 {
-    public QuotationClass_1832_2() {
+  public static class CustomOverloadedOperationsTypesProvider9 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider9(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider9.QuotationClass_1832_28().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider9.QuotationClass_1832_29().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_2 = null;
-      {
-        quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_2 = quotedNode_2;
-        result = quotedNode1_2;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider9.QuotationClass_1832_27().createNode();
+    }
+
+    public static class QuotationClass_1832_27 {
+      public QuotationClass_1832_27() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_27 = null;
+        {
+          quotedNode_27 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_27 = quotedNode_27;
+          result = quotedNode1_27;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_28 {
+      public QuotationClass_1832_28() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_28 = null;
+        {
+          quotedNode_28 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_28 = quotedNode_28;
+          result = quotedNode1_28;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_29 {
+      public QuotationClass_1832_29() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_29 = null;
+        {
+          quotedNode_29 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_29 = quotedNode_29;
+          result = quotedNode1_29;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_3 {
-    public QuotationClass_1832_3() {
+  public static class CustomOverloadedOperationsTypesProvider10 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider10(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider10.QuotationClass_1832_31().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider10.QuotationClass_1832_32().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3 = null;
-      {
-        quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3 = quotedNode_3;
-        result = quotedNode1_3;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider10.QuotationClass_1832_30().createNode();
+    }
+
+    public static class QuotationClass_1832_30 {
+      public QuotationClass_1832_30() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_30 = null;
+        {
+          quotedNode_30 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_30 = quotedNode_30;
+          result = quotedNode1_30;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_31 {
+      public QuotationClass_1832_31() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_31 = null;
+        {
+          quotedNode_31 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_31 = quotedNode_31;
+          result = quotedNode1_31;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_32 {
+      public QuotationClass_1832_32() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_32 = null;
+        {
+          quotedNode_32 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_32 = quotedNode_32;
+          result = quotedNode1_32;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_4 {
-    public QuotationClass_1832_4() {
+  public static class CustomOverloadedOperationsTypesProvider11 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider11(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider11.QuotationClass_1832_34().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider11.QuotationClass_1832_35().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4 = null;
-      {
-        quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4 = quotedNode_4;
-        result = quotedNode1_4;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider11.QuotationClass_1832_33().createNode();
+    }
+
+    public static class QuotationClass_1832_33 {
+      public QuotationClass_1832_33() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_33 = null;
+        {
+          quotedNode_33 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_33 = quotedNode_33;
+          result = quotedNode1_33;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_34 {
+      public QuotationClass_1832_34() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_34 = null;
+        {
+          quotedNode_34 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_34 = quotedNode_34;
+          result = quotedNode1_34;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_35 {
+      public QuotationClass_1832_35() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_35 = null;
+        {
+          quotedNode_35 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_35 = quotedNode_35;
+          result = quotedNode1_35;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_5 {
-    public QuotationClass_1832_5() {
+  public static class CustomOverloadedOperationsTypesProvider12 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider12(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider12.QuotationClass_1832_37().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider12.QuotationClass_1832_38().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_5 = null;
-      {
-        quotedNode_5 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_5 = quotedNode_5;
-        result = quotedNode1_5;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider12.QuotationClass_1832_36().createNode();
+    }
+
+    public static class QuotationClass_1832_36 {
+      public QuotationClass_1832_36() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_36 = null;
+        {
+          quotedNode_36 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_36 = quotedNode_36;
+          result = quotedNode1_36;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_37 {
+      public QuotationClass_1832_37() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_37 = null;
+        {
+          quotedNode_37 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_37 = quotedNode_37;
+          result = quotedNode1_37;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_38 {
+      public QuotationClass_1832_38() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_38 = null;
+        {
+          quotedNode_38 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_38 = quotedNode_38;
+          result = quotedNode1_38;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_6 {
-    public QuotationClass_1832_6() {
+  public static class CustomOverloadedOperationsTypesProvider13 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider13(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider13.QuotationClass_1832_40().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider13.QuotationClass_1832_41().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_6 = null;
-      {
-        quotedNode_6 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_6 = quotedNode_6;
-        result = quotedNode1_6;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider13.QuotationClass_1832_39().createNode();
+    }
+
+    public static class QuotationClass_1832_39 {
+      public QuotationClass_1832_39() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_39 = null;
+        {
+          quotedNode_39 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_39 = quotedNode_39;
+          result = quotedNode1_39;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_40 {
+      public QuotationClass_1832_40() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_40 = null;
+        {
+          quotedNode_40 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_40 = quotedNode_40;
+          result = quotedNode1_40;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_41 {
+      public QuotationClass_1832_41() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_41 = null;
+        {
+          quotedNode_41 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_41 = quotedNode_41;
+          result = quotedNode1_41;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_7 {
-    public QuotationClass_1832_7() {
+  public static class CustomOverloadedOperationsTypesProvider14 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider14(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider14.QuotationClass_1832_43().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider14.QuotationClass_1832_44().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_7 = null;
-      {
-        quotedNode_7 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_7 = quotedNode_7;
-        result = quotedNode1_7;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider14.QuotationClass_1832_42().createNode();
+    }
+
+    public static class QuotationClass_1832_42 {
+      public QuotationClass_1832_42() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_42 = null;
+        {
+          quotedNode_42 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_42 = quotedNode_42;
+          result = quotedNode1_42;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_43 {
+      public QuotationClass_1832_43() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_43 = null;
+        {
+          quotedNode_43 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_43 = quotedNode_43;
+          result = quotedNode1_43;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_44 {
+      public QuotationClass_1832_44() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_44 = null;
+        {
+          quotedNode_44 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_44 = quotedNode_44;
+          result = quotedNode1_44;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_8 {
-    public QuotationClass_1832_8() {
+  public static class CustomOverloadedOperationsTypesProvider15 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider15(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider15.QuotationClass_1832_46().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider15.QuotationClass_1832_47().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_8 = null;
-      {
-        quotedNode_8 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_8 = quotedNode_8;
-        result = quotedNode1_8;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider15.QuotationClass_1832_45().createNode();
+    }
+
+    public static class QuotationClass_1832_45 {
+      public QuotationClass_1832_45() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_45 = null;
+        {
+          quotedNode_45 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_45 = quotedNode_45;
+          result = quotedNode1_45;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_46 {
+      public QuotationClass_1832_46() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_46 = null;
+        {
+          quotedNode_46 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_46 = quotedNode_46;
+          result = quotedNode1_46;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_47 {
+      public QuotationClass_1832_47() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_47 = null;
+        {
+          quotedNode_47 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_47 = quotedNode_47;
+          result = quotedNode1_47;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_9 {
-    public QuotationClass_1832_9() {
+  public static class CustomOverloadedOperationsTypesProvider16 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider16(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider16.QuotationClass_1832_49().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider16.QuotationClass_1832_50().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_9 = null;
-      {
-        quotedNode_9 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_9 = quotedNode_9;
-        result = quotedNode1_9;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider16.QuotationClass_1832_48().createNode();
+    }
+
+    public static class QuotationClass_1832_48 {
+      public QuotationClass_1832_48() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_48 = null;
+        {
+          quotedNode_48 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_48 = quotedNode_48;
+          result = quotedNode1_48;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_49 {
+      public QuotationClass_1832_49() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_49 = null;
+        {
+          quotedNode_49 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_49 = quotedNode_49;
+          result = quotedNode1_49;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_50 {
+      public QuotationClass_1832_50() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_50 = null;
+        {
+          quotedNode_50 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_50 = quotedNode_50;
+          result = quotedNode1_50;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_10 {
-    public QuotationClass_1832_10() {
+  public static class CustomOverloadedOperationsTypesProvider17 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider17(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider17.QuotationClass_1832_52().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider17.QuotationClass_1832_53().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_10 = null;
-      {
-        quotedNode_10 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_10 = quotedNode_10;
-        result = quotedNode1_10;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider17.QuotationClass_1832_51().createNode();
+    }
+
+    public static class QuotationClass_1832_51 {
+      public QuotationClass_1832_51() {
       }
-      return result;
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_51 = null;
+        {
+          quotedNode_51 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_51 = quotedNode_51;
+          result = quotedNode1_51;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_52 {
+      public QuotationClass_1832_52() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_52 = null;
+        {
+          quotedNode_52 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_52 = quotedNode_52;
+          result = quotedNode1_52;
+        }
+        return result;
+      }
+    }
+
+    public static class QuotationClass_1832_53 {
+      public QuotationClass_1832_53() {
+      }
+
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_53 = null;
+        {
+          quotedNode_53 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_53 = quotedNode_53;
+          result = quotedNode1_53;
+        }
+        return result;
+      }
     }
   }
 
-  public static class QuotationClass_1832_11 {
-    public QuotationClass_1832_11() {
+  public static class CustomOverloadedOperationsTypesProvider18 extends OverloadedOperationsTypesProvider {
+    public CustomOverloadedOperationsTypesProvider18(String conceptFQ) {
+      this.myLeftOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider18.QuotationClass_1832_55().createNode();
+      this.myRightOperandType = new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider18.QuotationClass_1832_56().createNode();
+      this.myOperationConceptFQName = conceptFQ;
+      this.myLeftTypeIsExact = true;
+      this.myRightTypeIsExact = true;
+      this.myRightIsStrong = false;
+      this.myLeftIsStrong = false;
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_11 = null;
-      {
-        quotedNode_11 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_11 = quotedNode_11;
-        result = quotedNode1_11;
+    public SNode getOperationType(SNode operation, SNode leftOperandType, SNode rightOperandType) {
+      return new TypesystemDescriptor.CustomOverloadedOperationsTypesProvider18.QuotationClass_1832_54().createNode();
+    }
+
+    public static class QuotationClass_1832_54 {
+      public QuotationClass_1832_54() {
       }
-      return result;
-    }
-  }
 
-  public static class QuotationClass_1832_12 {
-    public QuotationClass_1832_12() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_12 = null;
-      {
-        quotedNode_12 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_12 = quotedNode_12;
-        result = quotedNode1_12;
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_54 = null;
+        {
+          quotedNode_54 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_54 = quotedNode_54;
+          result = quotedNode1_54;
+        }
+        return result;
       }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_13 {
-    public QuotationClass_1832_13() {
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_13 = null;
-      {
-        quotedNode_13 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_13 = quotedNode_13;
-        result = quotedNode1_13;
+    public static class QuotationClass_1832_55 {
+      public QuotationClass_1832_55() {
       }
-      return result;
-    }
-  }
 
-  public static class QuotationClass_1832_14 {
-    public QuotationClass_1832_14() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_14 = null;
-      {
-        quotedNode_14 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_14 = quotedNode_14;
-        result = quotedNode1_14;
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_55 = null;
+        {
+          quotedNode_55 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_55 = quotedNode_55;
+          result = quotedNode1_55;
+        }
+        return result;
       }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_15 {
-    public QuotationClass_1832_15() {
     }
 
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_15 = null;
-      {
-        quotedNode_15 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_15 = quotedNode_15;
-        result = quotedNode1_15;
+    public static class QuotationClass_1832_56 {
+      public QuotationClass_1832_56() {
       }
-      return result;
-    }
-  }
 
-  public static class QuotationClass_1832_16 {
-    public QuotationClass_1832_16() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_16 = null;
-      {
-        quotedNode_16 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_16 = quotedNode_16;
-        result = quotedNode1_16;
+      public SNode createNode() {
+        SNode result = null;
+        Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+        SNode quotedNode_56 = null;
+        {
+          quotedNode_56 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_56 = quotedNode_56;
+          result = quotedNode1_56;
+        }
+        return result;
       }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_17 {
-    public QuotationClass_1832_17() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_17 = null;
-      {
-        quotedNode_17 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_17 = quotedNode_17;
-        result = quotedNode1_17;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_18 {
-    public QuotationClass_1832_18() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_18 = null;
-      {
-        quotedNode_18 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_18 = quotedNode_18;
-        result = quotedNode1_18;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_19 {
-    public QuotationClass_1832_19() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_19 = null;
-      {
-        quotedNode_19 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_19 = quotedNode_19;
-        result = quotedNode1_19;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_20 {
-    public QuotationClass_1832_20() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_20 = null;
-      {
-        quotedNode_20 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_20 = quotedNode_20;
-        result = quotedNode1_20;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_21 {
-    public QuotationClass_1832_21() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_21 = null;
-      {
-        quotedNode_21 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_21 = quotedNode_21;
-        result = quotedNode1_21;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_22 {
-    public QuotationClass_1832_22() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_22 = null;
-      {
-        quotedNode_22 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_22 = quotedNode_22;
-        result = quotedNode1_22;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_23 {
-    public QuotationClass_1832_23() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_23 = null;
-      {
-        quotedNode_23 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_23 = quotedNode_23;
-        result = quotedNode1_23;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_24 {
-    public QuotationClass_1832_24() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_24 = null;
-      {
-        quotedNode_24 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_24 = quotedNode_24;
-        result = quotedNode1_24;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_25 {
-    public QuotationClass_1832_25() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_25 = null;
-      {
-        quotedNode_25 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_25 = quotedNode_25;
-        result = quotedNode1_25;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_26 {
-    public QuotationClass_1832_26() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_26 = null;
-      {
-        quotedNode_26 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_26 = quotedNode_26;
-        result = quotedNode1_26;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_27 {
-    public QuotationClass_1832_27() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_27 = null;
-      {
-        quotedNode_27 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_27 = quotedNode_27;
-        result = quotedNode1_27;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_28 {
-    public QuotationClass_1832_28() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_28 = null;
-      {
-        quotedNode_28 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_28 = quotedNode_28;
-        result = quotedNode1_28;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_29 {
-    public QuotationClass_1832_29() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_29 = null;
-      {
-        quotedNode_29 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_29 = quotedNode_29;
-        result = quotedNode1_29;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_30 {
-    public QuotationClass_1832_30() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_30 = null;
-      {
-        quotedNode_30 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_30 = quotedNode_30;
-        result = quotedNode1_30;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_31 {
-    public QuotationClass_1832_31() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_31 = null;
-      {
-        quotedNode_31 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_31 = quotedNode_31;
-        result = quotedNode1_31;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_32 {
-    public QuotationClass_1832_32() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_32 = null;
-      {
-        quotedNode_32 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_32 = quotedNode_32;
-        result = quotedNode1_32;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_33 {
-    public QuotationClass_1832_33() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_33 = null;
-      {
-        quotedNode_33 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_33 = quotedNode_33;
-        result = quotedNode1_33;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_34 {
-    public QuotationClass_1832_34() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_34 = null;
-      {
-        quotedNode_34 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_34 = quotedNode_34;
-        result = quotedNode1_34;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_35 {
-    public QuotationClass_1832_35() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_35 = null;
-      {
-        quotedNode_35 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_35 = quotedNode_35;
-        result = quotedNode1_35;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_36 {
-    public QuotationClass_1832_36() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_36 = null;
-      {
-        quotedNode_36 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_36 = quotedNode_36;
-        result = quotedNode1_36;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_37 {
-    public QuotationClass_1832_37() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_37 = null;
-      {
-        quotedNode_37 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_37 = quotedNode_37;
-        result = quotedNode1_37;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_38 {
-    public QuotationClass_1832_38() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_38 = null;
-      {
-        quotedNode_38 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_38 = quotedNode_38;
-        result = quotedNode1_38;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_39 {
-    public QuotationClass_1832_39() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_39 = null;
-      {
-        quotedNode_39 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_39 = quotedNode_39;
-        result = quotedNode1_39;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_40 {
-    public QuotationClass_1832_40() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_40 = null;
-      {
-        quotedNode_40 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_40 = quotedNode_40;
-        result = quotedNode1_40;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_41 {
-    public QuotationClass_1832_41() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_41 = null;
-      {
-        quotedNode_41 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_41 = quotedNode_41;
-        result = quotedNode1_41;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_42 {
-    public QuotationClass_1832_42() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_42 = null;
-      {
-        quotedNode_42 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_42 = quotedNode_42;
-        result = quotedNode1_42;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_43 {
-    public QuotationClass_1832_43() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_43 = null;
-      {
-        quotedNode_43 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_43 = quotedNode_43;
-        result = quotedNode1_43;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_44 {
-    public QuotationClass_1832_44() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_44 = null;
-      {
-        quotedNode_44 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_44 = quotedNode_44;
-        result = quotedNode1_44;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_45 {
-    public QuotationClass_1832_45() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_45 = null;
-      {
-        quotedNode_45 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_45 = quotedNode_45;
-        result = quotedNode1_45;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_46 {
-    public QuotationClass_1832_46() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_46 = null;
-      {
-        quotedNode_46 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_46 = quotedNode_46;
-        result = quotedNode1_46;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_47 {
-    public QuotationClass_1832_47() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_47 = null;
-      {
-        quotedNode_47 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_47 = quotedNode_47;
-        result = quotedNode1_47;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_48 {
-    public QuotationClass_1832_48() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_48 = null;
-      {
-        quotedNode_48 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_48 = quotedNode_48;
-        result = quotedNode1_48;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_49 {
-    public QuotationClass_1832_49() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_49 = null;
-      {
-        quotedNode_49 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_49 = quotedNode_49;
-        result = quotedNode1_49;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_50 {
-    public QuotationClass_1832_50() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_50 = null;
-      {
-        quotedNode_50 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_50 = quotedNode_50;
-        result = quotedNode1_50;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_51 {
-    public QuotationClass_1832_51() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_51 = null;
-      {
-        quotedNode_51 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_51 = quotedNode_51;
-        result = quotedNode1_51;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_52 {
-    public QuotationClass_1832_52() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_52 = null;
-      {
-        quotedNode_52 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_52 = quotedNode_52;
-        result = quotedNode1_52;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_53 {
-    public QuotationClass_1832_53() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_53 = null;
-      {
-        quotedNode_53 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_53 = quotedNode_53;
-        result = quotedNode1_53;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_54 {
-    public QuotationClass_1832_54() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_54 = null;
-      {
-        quotedNode_54 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_54 = quotedNode_54;
-        result = quotedNode1_54;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_55 {
-    public QuotationClass_1832_55() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_55 = null;
-      {
-        quotedNode_55 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_55 = quotedNode_55;
-        result = quotedNode1_55;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_1832_56 {
-    public QuotationClass_1832_56() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_56 = null;
-      {
-        quotedNode_56 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_56 = quotedNode_56;
-        result = quotedNode1_56;
-      }
-      return result;
     }
   }
 }
