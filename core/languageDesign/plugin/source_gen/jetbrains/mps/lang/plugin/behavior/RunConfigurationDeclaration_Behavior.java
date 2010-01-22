@@ -48,12 +48,12 @@ public class RunConfigurationDeclaration_Behavior {
     public SNode createNode(Object parameter_3854_0) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4 = null;
+      SNode quotedNode_3854_0 = null;
       {
-        quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.RunConfigType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4 = quotedNode_4;
-        quotedNode1_4.setReferent("runConfig", (SNode) parameter_3854_0);
-        result = quotedNode1_4;
+        quotedNode_3854_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.RunConfigType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3854_0 = quotedNode_3854_0;
+        quotedNode1_3854_0.setReferent("runConfig", (SNode) parameter_3854_0);
+        result = quotedNode1_3854_0;
       }
       return result;
     }

@@ -51,18 +51,18 @@ public class typeof_ActionListStatement_InferenceRule extends AbstractInferenceR
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_27 = null;
-      SNode quotedNode_28 = null;
+      SNode quotedNode_5155_0 = null;
+      SNode quotedNode_5155_1 = null;
       {
-        quotedNode_27 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.collections.structure.ListType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_27 = quotedNode_27;
+        quotedNode_5155_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.collections.structure.ListType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5155_0 = quotedNode_5155_0;
         {
-          quotedNode_28 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_28 = quotedNode_28;
-          quotedNode1_28.addReference(SReference.create("classifier", quotedNode1_28, SModelReference.fromString("f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
-          quotedNode_27.addChild("elementType", quotedNode1_28);
+          quotedNode_5155_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_5155_1 = quotedNode_5155_1;
+          quotedNode1_5155_1.addReference(SReference.create("classifier", quotedNode1_5155_1, SModelReference.fromString("f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
+          quotedNode_5155_0.addChild("elementType", quotedNode1_5155_1);
         }
-        result = quotedNode1_27;
+        result = quotedNode1_5155_0;
       }
       return result;
     }
@@ -70,18 +70,18 @@ public class typeof_ActionListStatement_InferenceRule extends AbstractInferenceR
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_27 = null;
-      SNode quotedNode_28 = null;
+      SNode quotedNode_5155_0 = null;
+      SNode quotedNode_5155_1 = null;
       {
-        quotedNode_27 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.collections.structure.ListType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_27 = quotedNode_27;
+        quotedNode_5155_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.collections.structure.ListType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5155_0 = quotedNode_5155_0;
         {
-          quotedNode_28 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_28 = quotedNode_28;
-          quotedNode1_28.addReference(SReference.create("classifier", quotedNode1_28, SModelReference.fromString("f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
-          quotedNode_27.addChild("elementType", quotedNode1_28);
+          quotedNode_5155_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_5155_1 = quotedNode_5155_1;
+          quotedNode1_5155_1.addReference(SReference.create("classifier", quotedNode1_5155_1, SModelReference.fromString("f:java_stub#com.intellij.openapi.actionSystem(com.intellij.openapi.actionSystem@java_stub)"), SNodeId.fromString("~AnAction")));
+          quotedNode_5155_0.addChild("elementType", quotedNode1_5155_1);
         }
-        result = quotedNode1_27;
+        result = quotedNode1_5155_0;
       }
       return result;
     }
