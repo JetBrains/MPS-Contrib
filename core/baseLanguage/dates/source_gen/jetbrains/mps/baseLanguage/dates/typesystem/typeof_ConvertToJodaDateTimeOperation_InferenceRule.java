@@ -49,12 +49,12 @@ public class typeof_ConvertToJodaDateTimeOperation_InferenceRule extends Abstrac
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_119 = null;
+      SNode quotedNode_2608_0 = null;
       {
-        quotedNode_119 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_119 = quotedNode_119;
-        quotedNode1_119.addReference(SReference.create("classifier", quotedNode1_119, SModelReference.fromString("f:java_stub#org.joda.time(org.joda.time@java_stub)"), SNodeId.fromString("~DateTime")));
-        result = quotedNode1_119;
+        quotedNode_2608_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2608_0 = quotedNode_2608_0;
+        quotedNode1_2608_0.addReference(SReference.create("classifier", quotedNode1_2608_0, SModelReference.fromString("f:java_stub#org.joda.time(org.joda.time@java_stub)"), SNodeId.fromString("~DateTime")));
+        result = quotedNode1_2608_0;
       }
       return result;
     }
@@ -62,12 +62,12 @@ public class typeof_ConvertToJodaDateTimeOperation_InferenceRule extends Abstrac
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_119 = null;
+      SNode quotedNode_2608_0 = null;
       {
-        quotedNode_119 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_119 = quotedNode_119;
-        quotedNode1_119.addReference(SReference.create("classifier", quotedNode1_119, SModelReference.fromString("f:java_stub#org.joda.time(org.joda.time@java_stub)"), SNodeId.fromString("~DateTime")));
-        result = quotedNode1_119;
+        quotedNode_2608_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2608_0 = quotedNode_2608_0;
+        quotedNode1_2608_0.addReference(SReference.create("classifier", quotedNode1_2608_0, SModelReference.fromString("f:java_stub#org.joda.time(org.joda.time@java_stub)"), SNodeId.fromString("~DateTime")));
+        result = quotedNode1_2608_0;
       }
       return result;
     }

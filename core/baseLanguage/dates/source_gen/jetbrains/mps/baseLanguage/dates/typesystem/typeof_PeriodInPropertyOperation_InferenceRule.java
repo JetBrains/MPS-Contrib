@@ -54,11 +54,11 @@ public class typeof_PeriodInPropertyOperation_InferenceRule extends AbstractInfe
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_102 = null;
+      SNode quotedNode_1332_0 = null;
       {
-        quotedNode_102 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_102 = quotedNode_102;
-        result = quotedNode1_102;
+        quotedNode_1332_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_1332_0 = quotedNode_1332_0;
+        result = quotedNode1_1332_0;
       }
       return result;
     }
@@ -66,11 +66,11 @@ public class typeof_PeriodInPropertyOperation_InferenceRule extends AbstractInfe
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_102 = null;
+      SNode quotedNode_1332_0 = null;
       {
-        quotedNode_102 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_102 = quotedNode_102;
-        result = quotedNode1_102;
+        quotedNode_1332_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_1332_0 = quotedNode_1332_0;
+        result = quotedNode1_1332_0;
       }
       return result;
     }
@@ -83,23 +83,23 @@ public class typeof_PeriodInPropertyOperation_InferenceRule extends AbstractInfe
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_103 = null;
-      SNode quotedNode_104 = null;
-      SNode quotedNode_105 = null;
+      SNode quotedNode_1332_1 = null;
+      SNode quotedNode_1332_2 = null;
+      SNode quotedNode_1332_3 = null;
       {
-        quotedNode_103 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_103 = quotedNode_103;
+        quotedNode_1332_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_1332_1 = quotedNode_1332_1;
         {
-          quotedNode_104 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_104 = quotedNode_104;
-          quotedNode_103.addChild("argument", quotedNode1_104);
+          quotedNode_1332_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_1332_2 = quotedNode_1332_2;
+          quotedNode_1332_1.addChild("argument", quotedNode1_1332_2);
         }
         {
-          quotedNode_105 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_105 = quotedNode_105;
-          quotedNode_103.addChild("argument", quotedNode1_105);
+          quotedNode_1332_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_1332_3 = quotedNode_1332_3;
+          quotedNode_1332_1.addChild("argument", quotedNode1_1332_3);
         }
-        result = quotedNode1_103;
+        result = quotedNode1_1332_1;
       }
       return result;
     }
@@ -107,23 +107,23 @@ public class typeof_PeriodInPropertyOperation_InferenceRule extends AbstractInfe
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_103 = null;
-      SNode quotedNode_104 = null;
-      SNode quotedNode_105 = null;
+      SNode quotedNode_1332_1 = null;
+      SNode quotedNode_1332_2 = null;
+      SNode quotedNode_1332_3 = null;
       {
-        quotedNode_103 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_103 = quotedNode_103;
+        quotedNode_1332_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_1332_1 = quotedNode_1332_1;
         {
-          quotedNode_104 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_104 = quotedNode_104;
-          quotedNode_103.addChild("argument", quotedNode1_104);
+          quotedNode_1332_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_1332_2 = quotedNode_1332_2;
+          quotedNode_1332_1.addChild("argument", quotedNode1_1332_2);
         }
         {
-          quotedNode_105 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_105 = quotedNode_105;
-          quotedNode_103.addChild("argument", quotedNode1_105);
+          quotedNode_1332_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_1332_3 = quotedNode_1332_3;
+          quotedNode_1332_1.addChild("argument", quotedNode1_1332_3);
         }
-        result = quotedNode1_103;
+        result = quotedNode1_1332_1;
       }
       return result;
     }

@@ -54,11 +54,11 @@ public class typeof_TimeZoneIdOperation_InferenceRule extends AbstractInferenceR
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_139 = null;
+      SNode quotedNode_5899_0 = null;
       {
-        quotedNode_139 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_139 = quotedNode_139;
-        result = quotedNode1_139;
+        quotedNode_5899_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5899_0 = quotedNode_5899_0;
+        result = quotedNode1_5899_0;
       }
       return result;
     }
@@ -66,11 +66,11 @@ public class typeof_TimeZoneIdOperation_InferenceRule extends AbstractInferenceR
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_139 = null;
+      SNode quotedNode_5899_0 = null;
       {
-        quotedNode_139 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_139 = quotedNode_139;
-        result = quotedNode1_139;
+        quotedNode_5899_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5899_0 = quotedNode_5899_0;
+        result = quotedNode1_5899_0;
       }
       return result;
     }
@@ -83,11 +83,11 @@ public class typeof_TimeZoneIdOperation_InferenceRule extends AbstractInferenceR
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_140 = null;
+      SNode quotedNode_5899_1 = null;
       {
-        quotedNode_140 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_140 = quotedNode_140;
-        result = quotedNode1_140;
+        quotedNode_5899_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5899_1 = quotedNode_5899_1;
+        result = quotedNode1_5899_1;
       }
       return result;
     }
@@ -95,11 +95,11 @@ public class typeof_TimeZoneIdOperation_InferenceRule extends AbstractInferenceR
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_140 = null;
+      SNode quotedNode_5899_1 = null;
       {
-        quotedNode_140 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_140 = quotedNode_140;
-        result = quotedNode1_140;
+        quotedNode_5899_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5899_1 = quotedNode_5899_1;
+        result = quotedNode1_5899_1;
       }
       return result;
     }

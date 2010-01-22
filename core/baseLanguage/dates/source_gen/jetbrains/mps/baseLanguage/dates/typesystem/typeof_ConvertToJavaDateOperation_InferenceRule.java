@@ -49,12 +49,12 @@ public class typeof_ConvertToJavaDateOperation_InferenceRule extends AbstractInf
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_118 = null;
+      SNode quotedNode_5187_0 = null;
       {
-        quotedNode_118 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_118 = quotedNode_118;
-        quotedNode1_118.addReference(SReference.create("classifier", quotedNode1_118, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
-        result = quotedNode1_118;
+        quotedNode_5187_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5187_0 = quotedNode_5187_0;
+        quotedNode1_5187_0.addReference(SReference.create("classifier", quotedNode1_5187_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
+        result = quotedNode1_5187_0;
       }
       return result;
     }
@@ -62,12 +62,12 @@ public class typeof_ConvertToJavaDateOperation_InferenceRule extends AbstractInf
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_118 = null;
+      SNode quotedNode_5187_0 = null;
       {
-        quotedNode_118 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_118 = quotedNode_118;
-        quotedNode1_118.addReference(SReference.create("classifier", quotedNode1_118, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
-        result = quotedNode1_118;
+        quotedNode_5187_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5187_0 = quotedNode_5187_0;
+        quotedNode1_5187_0.addReference(SReference.create("classifier", quotedNode1_5187_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
+        result = quotedNode1_5187_0;
       }
       return result;
     }

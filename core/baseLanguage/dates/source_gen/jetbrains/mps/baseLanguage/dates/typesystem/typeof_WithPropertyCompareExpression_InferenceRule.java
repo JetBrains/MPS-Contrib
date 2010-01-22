@@ -61,11 +61,11 @@ public class typeof_WithPropertyCompareExpression_InferenceRule extends Abstract
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_106 = null;
+      SNode quotedNode_8890_0 = null;
       {
-        quotedNode_106 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_106 = quotedNode_106;
-        result = quotedNode1_106;
+        quotedNode_8890_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8890_0 = quotedNode_8890_0;
+        result = quotedNode1_8890_0;
       }
       return result;
     }
@@ -73,11 +73,11 @@ public class typeof_WithPropertyCompareExpression_InferenceRule extends Abstract
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_106 = null;
+      SNode quotedNode_8890_0 = null;
       {
-        quotedNode_106 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_106 = quotedNode_106;
-        result = quotedNode1_106;
+        quotedNode_8890_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8890_0 = quotedNode_8890_0;
+        result = quotedNode1_8890_0;
       }
       return result;
     }
@@ -90,11 +90,11 @@ public class typeof_WithPropertyCompareExpression_InferenceRule extends Abstract
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_107 = null;
+      SNode quotedNode_8890_1 = null;
       {
-        quotedNode_107 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_107 = quotedNode_107;
-        result = quotedNode1_107;
+        quotedNode_8890_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8890_1 = quotedNode_8890_1;
+        result = quotedNode1_8890_1;
       }
       return result;
     }
@@ -102,11 +102,11 @@ public class typeof_WithPropertyCompareExpression_InferenceRule extends Abstract
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_107 = null;
+      SNode quotedNode_8890_1 = null;
       {
-        quotedNode_107 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_107 = quotedNode_107;
-        result = quotedNode1_107;
+        quotedNode_8890_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8890_1 = quotedNode_8890_1;
+        result = quotedNode1_8890_1;
       }
       return result;
     }
@@ -119,11 +119,11 @@ public class typeof_WithPropertyCompareExpression_InferenceRule extends Abstract
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_108 = null;
+      SNode quotedNode_8890_2 = null;
       {
-        quotedNode_108 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_108 = quotedNode_108;
-        result = quotedNode1_108;
+        quotedNode_8890_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8890_2 = quotedNode_8890_2;
+        result = quotedNode1_8890_2;
       }
       return result;
     }
@@ -131,11 +131,11 @@ public class typeof_WithPropertyCompareExpression_InferenceRule extends Abstract
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_108 = null;
+      SNode quotedNode_8890_2 = null;
       {
-        quotedNode_108 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_108 = quotedNode_108;
-        result = quotedNode1_108;
+        quotedNode_8890_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8890_2 = quotedNode_8890_2;
+        result = quotedNode1_8890_2;
       }
       return result;
     }

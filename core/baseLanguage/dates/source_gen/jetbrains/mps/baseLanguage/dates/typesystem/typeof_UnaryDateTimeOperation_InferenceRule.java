@@ -48,35 +48,35 @@ public class typeof_UnaryDateTimeOperation_InferenceRule extends AbstractInferen
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_58 = null;
-      SNode quotedNode_59 = null;
-      SNode quotedNode_60 = null;
-      SNode quotedNode_61 = null;
-      SNode quotedNode_62 = null;
+      SNode quotedNode_0641_0 = null;
+      SNode quotedNode_0641_1 = null;
+      SNode quotedNode_0641_2 = null;
+      SNode quotedNode_0641_3 = null;
+      SNode quotedNode_0641_4 = null;
       {
-        quotedNode_58 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_58 = quotedNode_58;
+        quotedNode_0641_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_0641_0 = quotedNode_0641_0;
         {
-          quotedNode_59 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_59 = quotedNode_59;
-          quotedNode_58.addChild("argument", quotedNode1_59);
+          quotedNode_0641_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_1 = quotedNode_0641_1;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_1);
         }
         {
-          quotedNode_60 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_60 = quotedNode_60;
-          quotedNode_58.addChild("argument", quotedNode1_60);
+          quotedNode_0641_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_2 = quotedNode_0641_2;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_2);
         }
         {
-          quotedNode_61 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_61 = quotedNode_61;
-          quotedNode_58.addChild("argument", quotedNode1_61);
+          quotedNode_0641_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_3 = quotedNode_0641_3;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_3);
         }
         {
-          quotedNode_62 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_62 = quotedNode_62;
-          quotedNode_58.addChild("argument", quotedNode1_62);
+          quotedNode_0641_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_4 = quotedNode_0641_4;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_4);
         }
-        result = quotedNode1_58;
+        result = quotedNode1_0641_0;
       }
       return result;
     }
@@ -84,35 +84,35 @@ public class typeof_UnaryDateTimeOperation_InferenceRule extends AbstractInferen
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_58 = null;
-      SNode quotedNode_59 = null;
-      SNode quotedNode_60 = null;
-      SNode quotedNode_61 = null;
-      SNode quotedNode_62 = null;
+      SNode quotedNode_0641_0 = null;
+      SNode quotedNode_0641_1 = null;
+      SNode quotedNode_0641_2 = null;
+      SNode quotedNode_0641_3 = null;
+      SNode quotedNode_0641_4 = null;
       {
-        quotedNode_58 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_58 = quotedNode_58;
+        quotedNode_0641_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.typesystem.structure.JoinType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_0641_0 = quotedNode_0641_0;
         {
-          quotedNode_59 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_59 = quotedNode_59;
-          quotedNode_58.addChild("argument", quotedNode1_59);
+          quotedNode_0641_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_1 = quotedNode_0641_1;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_1);
         }
         {
-          quotedNode_60 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_60 = quotedNode_60;
-          quotedNode_58.addChild("argument", quotedNode1_60);
+          quotedNode_0641_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_2 = quotedNode_0641_2;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_2);
         }
         {
-          quotedNode_61 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_61 = quotedNode_61;
-          quotedNode_58.addChild("argument", quotedNode1_61);
+          quotedNode_0641_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_3 = quotedNode_0641_3;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_3);
         }
         {
-          quotedNode_62 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_62 = quotedNode_62;
-          quotedNode_58.addChild("argument", quotedNode1_62);
+          quotedNode_0641_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_0641_4 = quotedNode_0641_4;
+          quotedNode_0641_0.addChild("argument", quotedNode1_0641_4);
         }
-        result = quotedNode1_58;
+        result = quotedNode1_0641_0;
       }
       return result;
     }

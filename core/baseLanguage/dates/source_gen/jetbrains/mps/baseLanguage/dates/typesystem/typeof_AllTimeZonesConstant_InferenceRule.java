@@ -49,18 +49,18 @@ public class typeof_AllTimeZonesConstant_InferenceRule extends AbstractInference
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_144 = null;
-      SNode quotedNode_145 = null;
+      SNode quotedNode_6639_0 = null;
+      SNode quotedNode_6639_1 = null;
       {
-        quotedNode_144 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_144 = quotedNode_144;
-        quotedNode1_144.addReference(SReference.create("classifier", quotedNode1_144, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
+        quotedNode_6639_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_6639_0 = quotedNode_6639_0;
+        quotedNode1_6639_0.addReference(SReference.create("classifier", quotedNode1_6639_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
         {
-          quotedNode_145 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_145 = quotedNode_145;
-          quotedNode_144.addChild("parameter", quotedNode1_145);
+          quotedNode_6639_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6639_1 = quotedNode_6639_1;
+          quotedNode_6639_0.addChild("parameter", quotedNode1_6639_1);
         }
-        result = quotedNode1_144;
+        result = quotedNode1_6639_0;
       }
       return result;
     }
@@ -68,18 +68,18 @@ public class typeof_AllTimeZonesConstant_InferenceRule extends AbstractInference
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_144 = null;
-      SNode quotedNode_145 = null;
+      SNode quotedNode_6639_0 = null;
+      SNode quotedNode_6639_1 = null;
       {
-        quotedNode_144 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_144 = quotedNode_144;
-        quotedNode1_144.addReference(SReference.create("classifier", quotedNode1_144, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
+        quotedNode_6639_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_6639_0 = quotedNode_6639_0;
+        quotedNode1_6639_0.addReference(SReference.create("classifier", quotedNode1_6639_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
         {
-          quotedNode_145 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_145 = quotedNode_145;
-          quotedNode_144.addChild("parameter", quotedNode1_145);
+          quotedNode_6639_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6639_1 = quotedNode_6639_1;
+          quotedNode_6639_0.addChild("parameter", quotedNode1_6639_1);
         }
-        result = quotedNode1_144;
+        result = quotedNode1_6639_0;
       }
       return result;
     }

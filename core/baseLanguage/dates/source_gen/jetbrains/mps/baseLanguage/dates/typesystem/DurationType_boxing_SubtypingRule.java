@@ -43,11 +43,11 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_146 = null;
+      SNode quotedNode_3700_0 = null;
       {
-        quotedNode_146 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_146 = quotedNode_146;
-        result = quotedNode1_146;
+        quotedNode_3700_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3700_0 = quotedNode_3700_0;
+        result = quotedNode1_3700_0;
       }
       return result;
     }
@@ -55,11 +55,11 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_146 = null;
+      SNode quotedNode_3700_0 = null;
       {
-        quotedNode_146 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_146 = quotedNode_146;
-        result = quotedNode1_146;
+        quotedNode_3700_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3700_0 = quotedNode_3700_0;
+        result = quotedNode1_3700_0;
       }
       return result;
     }
