@@ -14,7 +14,7 @@ import java.util.HashSet;
 import jetbrains.mps.util.PathManager;
 import java.io.File;
 import jetbrains.mps.reloading.IClassPathItem;
-import jetbrains.mps.reloading.CompositeClassPathItem;
+import jetbrains.mps.reloading.EachClassPathItemVisitor;
 import jetbrains.mps.reloading.FileClassPathItem;
 import jetbrains.mps.reloading.JarFileClassPathItem;
 
@@ -104,18 +104,16 @@ public abstract class BaseRunner {
     return res;
   }
 
-  private static void createModuleClasspath(IClassPathItem cp, Set<String> res) {
-    if (cp instanceof CompositeClassPathItem) {
-      for (IClassPathItem child : ((CompositeClassPathItem) cp).getChildren()) {
-        createModuleClasspath(child, res);
+  private static void createModuleClasspath(IClassPathItem cp, final Set<String> res) {
+    cp.accept(new EachClassPathItemVisitor() {
+      public void visit(FileClassPathItem p0) {
+        SetSequence.fromSet(res).addElement(p0.getClassPath());
       }
-    } else
-    if (cp instanceof FileClassPathItem) {
-      SetSequence.fromSet(res).addElement(((FileClassPathItem) cp).getClassPath());
-    } else
-    if (cp instanceof JarFileClassPathItem) {
-      SetSequence.fromSet(res).addElement(((JarFileClassPathItem) cp).getFile().getAbsolutePath());
-    }
+
+      public void visit(JarFileClassPathItem p0) {
+        SetSequence.fromSet(res).addElement(p0.getFile().getAbsolutePath());
+      }
+    });
   }
 
   public static String getJavaCommand(String javaHome) {
