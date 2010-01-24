@@ -23,7 +23,7 @@ public class DatesQueriesUtil {
 
   public static SNode findEnclosingTableClass2(SNode node, TemplateQueryContext genctx) {
     SNode table = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.dates.structure.DateFormatsTable", true, false);
-    return genctx.getOutputNodeByInputNodeAndMappingLabel(table, "FormatTableClass");
+    return genctx.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(table, genctx.getOutputNode(), "FormatTableClass");
   }
 
   public static SNode findFormattersFieldDeclaration(SNode node, TemplateQueryContext genctx) {
