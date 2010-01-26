@@ -9,7 +9,8 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import java.util.List;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.IVisitor;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
+import jetbrains.mps.internal.collections.runtime.ICollectionSequence;
 
 public class Project_Behavior {
   public static void init(SNode thisNode) {
@@ -61,11 +62,11 @@ public class Project_Behavior {
   public static List<SNode> call_getAllTargets_1213877351828(SNode thisNode) {
     final List<SNode> res = new ArrayList<SNode>();
     ListSequence.fromList(res).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "target", true)));
-    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProject", true)).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        ListSequence.fromList(res).addSequence(ListSequence.fromList(Project_Behavior.call_getAllTargets_1213877351828(SLinkOperations.getTarget(it, "project", false))));
+    ListSequence.fromList(SLinkOperations.getTargets(thisNode, "importProject", true)).visitAll(new _Adapters._return_P1_E0_to_IVisitor_adapter<SNode>(new _FunctionTypes._return_P1_E0<ICollectionSequence<SNode>, SNode>() {
+      public ICollectionSequence<SNode> invoke(SNode it) {
+        return ListSequence.fromList(res).addSequence(ListSequence.fromList(Project_Behavior.call_getAllTargets_1213877351828(SLinkOperations.getTarget(it, "project", false))));
       }
-    });
+    }));
     return res;
   }
 }
