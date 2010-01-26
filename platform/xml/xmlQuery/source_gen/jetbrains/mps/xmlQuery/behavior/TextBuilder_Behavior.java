@@ -99,35 +99,35 @@ public class TextBuilder_Behavior {
           SNode quotedNode1_8659_2 = quotedNode_8659_2;
           {
             quotedNode_8659_3 = (SNode) parameter_8659_0;
-            SNode quotedNode1_2;
+            SNode quotedNode1_8659_3;
             if (_parameterValues_129834374.contains(quotedNode_8659_3)) {
-              quotedNode1_2 = CopyUtil.copy(quotedNode_8659_3);
+              quotedNode1_8659_3 = CopyUtil.copy(quotedNode_8659_3);
             } else {
               _parameterValues_129834374.add(quotedNode_8659_3);
-              quotedNode1_2 = quotedNode_8659_3;
+              quotedNode1_8659_3 = quotedNode_8659_3;
             }
-            if (quotedNode1_2 != null) {
-              quotedNode_8659_2.addChild("operand", HUtil.copyIfNecessary(quotedNode1_2));
+            if (quotedNode1_8659_3 != null) {
+              quotedNode_8659_2.addChild("operand", HUtil.copyIfNecessary(quotedNode1_8659_3));
             }
           }
           {
             quotedNode_8659_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_8659_3 = quotedNode_8659_4;
-            quotedNode1_8659_3.addReference(SReference.create("baseMethodDeclaration", quotedNode1_8659_3, SModelReference.fromString("f:java_stub#org.jdom(org.jdom@java_stub)"), SNodeId.fromString("~Element.setText(java.lang.String):org.jdom.Element")));
+            SNode quotedNode1_8659_4 = quotedNode_8659_4;
+            quotedNode1_8659_4.addReference(SReference.create("baseMethodDeclaration", quotedNode1_8659_4, SModelReference.fromString("f:java_stub#org.jdom(org.jdom@java_stub)"), SNodeId.fromString("~Element.setText(java.lang.String):org.jdom.Element")));
             {
               quotedNode_8659_6 = (SNode) parameter_8659_1;
-              SNode quotedNode1_3;
+              SNode quotedNode1_8659_5;
               if (_parameterValues_129834374.contains(quotedNode_8659_6)) {
-                quotedNode1_3 = CopyUtil.copy(quotedNode_8659_6);
+                quotedNode1_8659_5 = CopyUtil.copy(quotedNode_8659_6);
               } else {
                 _parameterValues_129834374.add(quotedNode_8659_6);
-                quotedNode1_3 = quotedNode_8659_6;
+                quotedNode1_8659_5 = quotedNode_8659_6;
               }
-              if (quotedNode1_3 != null) {
-                quotedNode_8659_4.addChild("actualArgument", HUtil.copyIfNecessary(quotedNode1_3));
+              if (quotedNode1_8659_5 != null) {
+                quotedNode_8659_4.addChild("actualArgument", HUtil.copyIfNecessary(quotedNode1_8659_5));
               }
             }
-            quotedNode_8659_2.addChild("operation", quotedNode1_8659_3);
+            quotedNode_8659_2.addChild("operation", quotedNode1_8659_4);
           }
           quotedNode_8659_1.addChild("expression", quotedNode1_8659_2);
         }
