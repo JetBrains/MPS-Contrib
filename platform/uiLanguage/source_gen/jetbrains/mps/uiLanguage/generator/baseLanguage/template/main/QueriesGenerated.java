@@ -356,6 +356,10 @@ public class QueriesGenerated {
     return ComponentDeclaration_Behavior.call_getBeforeConstruction_1216902155145(_context.getNode()) != null;
   }
 
+  public static boolean ifMacro_Condition_5928051005160891849(final IOperationContext operationContext, final IfMacroContext _context) {
+    return ComponentDeclaration_Behavior.call_getComponentClassName_1213877495512(ComponentDeclaration_Behavior.call_getExtendedComponent_1213877495528(_context.getNode())) != null;
+  }
+
   public static SNode sourceNodeQuery_1202466119287(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "type", true);
   }

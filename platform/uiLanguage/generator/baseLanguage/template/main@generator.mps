@@ -2091,6 +2091,33 @@
           </node>
         </node>
       </node>
+      <node role="nodeMacro$attribute:1" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="5928051005160891848">
+        <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="5928051005160891849">
+          <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5928051005160891850">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5928051005160891851">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.NotEqualsExpression:3" id="5928051005161398397">
+                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="5928051005161399393" />
+                <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5928051005161398392">
+                  <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5928051005160891852">
+                    <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="5928051005160891853" />
+                    <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="5928051005160891854">
+                      <link role="baseMethodDeclaration:16" targetNodeId="21.1213877495528" resolveInfo="getExtendedComponent" />
+                    </node>
+                  </node>
+                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="5928051005161398396">
+                    <link role="baseMethodDeclaration:16" targetNodeId="21.1213877495512" resolveInfo="getComponentClassName" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="alternativeConsequence:2" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence:2" id="5928051005160892853">
+          <node role="templateNode:2" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5928051005160892856">
+            <link role="classifier:3" targetNodeId="5.~JComponent" resolveInfo="JComponent" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="propertyMacro$property_attribute$name:3" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="1202395953747">
       <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="1202395953748">
