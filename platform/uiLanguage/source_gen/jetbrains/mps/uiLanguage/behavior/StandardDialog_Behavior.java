@@ -4,12 +4,38 @@ package jetbrains.mps.uiLanguage.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import java.util.Set;
+import java.util.HashSet;
+import jetbrains.mps.smodel.SModelUtil_new;
+import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.project.GlobalScope;
+import jetbrains.mps.smodel.SReference;
+import jetbrains.mps.smodel.SModelReference;
+import jetbrains.mps.smodel.SNodeId;
 
 public class StandardDialog_Behavior {
   public static void init(SNode thisNode) {
   }
 
   public static SNode virtual_getExtendedComponent_1213877498080(SNode thisNode) {
-    return SLinkOperations.getTarget(new _Quotations.QuotationClass_1().createNode(), "componentDeclaration", false);
+    return SLinkOperations.getTarget(new StandardDialog_Behavior.QuotationClass_1588_0().createNode(), "componentDeclaration", false);
+  }
+
+  public static class QuotationClass_1588_0 {
+    public QuotationClass_1588_0() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_1588_0 = null;
+      {
+        quotedNode_1588_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_1588_0 = quotedNode_1588_0;
+        quotedNode1_1588_0.addReference(SReference.create("componentDeclaration", quotedNode1_1588_0, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1202828480666")));
+        result = quotedNode1_1588_0;
+      }
+      return result;
+    }
   }
 }

@@ -229,29 +229,29 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1202395785142(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "componentFactory");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(_context.getNode(), _context.getOutputNode(), "componentFactory");
   }
 
   public static Object referenceMacro_GetReferent_1202400661315(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(_context.getNode(), _context.getOutputNode(), "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1202732045058(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode instance = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentInstance");
-    return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(instance, _context.getOutputNode(), "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1202747104243(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(SLinkOperations.getTarget(_context.getNode(), "component", false), _context.getOutputNode(), "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1203087977763(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     SNode instance = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentInstance");
-    return _context.getOutputNodeByInputNodeAndMappingLabel(instance, "componentField");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(instance, _context.getOutputNode(), "componentField");
   }
 
   public static Object referenceMacro_GetReferent_1203090308966(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(Scroller_Behavior.call_getWrappedComponent_1213877438937(_context.getNode()), "componentFactory");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(Scroller_Behavior.call_getWrappedComponent_1213877438937(_context.getNode()), _context.getOutputNode(), "componentFactory");
   }
 
   public static Object referenceMacro_GetReferent_1209824360689(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -279,11 +279,11 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1210529781033(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "renderer", true), "componentFactory");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(SLinkOperations.getTarget(_context.getNode(), "renderer", true), _context.getOutputNode(), "componentFactory");
   }
 
   public static Object referenceMacro_GetReferent_1214994948553(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(_context.getNode(), "component", false), "componentClass");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(SLinkOperations.getTarget(_context.getNode(), "component", false), _context.getOutputNode(), "componentClass");
   }
 
   public static Object referenceMacro_GetReferent_4021515509912876383(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -309,7 +309,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_5360151489983400327(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.cast(ThisClassifierExpression_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"), "componentClass");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(SNodeOperations.cast(ThisClassifierExpression_Behavior.call_getClassifier_1213877512819(_context.getNode()), "jetbrains.mps.uiLanguage.structure.ComponentDeclaration"), _context.getOutputNode(), "componentClass");
   }
 
   public static boolean ifMacro_Condition_1202740360197(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -559,10 +559,10 @@ public class QueriesGenerated {
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1208699801315(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsConstructor");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), _context.getOutputNode(), "eventsConstructor");
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_1209660923538(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
-    return _context.getOutputNodeByInputNodeAndMappingLabel(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), "eventsInitializer");
+    return _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(SLinkOperations.getTarget(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.uiLanguage.structure.ComponentController", false, false), "component", false), _context.getOutputNode(), "eventsInitializer");
   }
 }
