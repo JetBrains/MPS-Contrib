@@ -32,7 +32,7 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   }
 
   public boolean isApplicable(SNode argument) {
-    this.myMatchingPattern = new DateTimeType_boxing_SubtypingRule.Pattern_0();
+    this.myMatchingPattern = new DateTimeType_boxing_SubtypingRule.Pattern_5013_0();
     return this.myMatchingPattern.match(argument);
   }
 
@@ -40,8 +40,8 @@ public class DateTimeType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     return true;
   }
 
-  public static class Pattern_0 extends GeneratedMatchingPattern implements IMatchingPattern {
-    public Pattern_0() {
+  public static class Pattern_5013_0 extends GeneratedMatchingPattern implements IMatchingPattern {
+    public Pattern_5013_0() {
     }
 
     public boolean match(SNode nodeToMatch) {
