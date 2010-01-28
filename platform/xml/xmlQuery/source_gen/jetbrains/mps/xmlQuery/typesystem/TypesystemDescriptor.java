@@ -10,11 +10,7 @@ import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
     {
-      InferenceRule_Runtime inferenceRule = new typeof_AccessChildrenOperation_InferenceRule();
-      this.myInferenceRules.add(inferenceRule);
-    }
-    {
-      InferenceRule_Runtime inferenceRule = new typeof_AccessAttributeOperation_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_AccessArbitraryAttributeOperation_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
@@ -22,7 +18,11 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_AccessArbitraryAttributeOperation_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_AccessAttributeOperation_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_AccessChildrenOperation_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
@@ -30,11 +30,11 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_XMLElementCreator_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_XMLAttributeBuilder_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_XMLAttributeBuilder_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_XMLElementCreator_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {

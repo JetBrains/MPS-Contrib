@@ -10,23 +10,11 @@ import jetbrains.mps.lang.typesystem.runtime.SubtypingRule_Runtime;
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
     {
-      InferenceRule_Runtime inferenceRule = new typeof_PropertyDeclaration_InferenceRule();
-      this.myInferenceRules.add(inferenceRule);
-    }
-    {
-      InferenceRule_Runtime inferenceRule = new typeof_PropertyReference_InferenceRule();
-      this.myInferenceRules.add(inferenceRule);
-    }
-    {
       InferenceRule_Runtime inferenceRule = new typeof_BooleanLiteral_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_IntLiteral_InferenceRule();
-      this.myInferenceRules.add(inferenceRule);
-    }
-    {
-      InferenceRule_Runtime inferenceRule = new typeof_StringLiteral_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_CallReference_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
@@ -38,11 +26,11 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_CallReference_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_IntLiteral_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_TagetReferencePropertyValueExpression_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_MultiLineString_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
@@ -50,7 +38,19 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      InferenceRule_Runtime inferenceRule = new typeof_MultiLineString_InferenceRule();
+      InferenceRule_Runtime inferenceRule = new typeof_PropertyDeclaration_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_PropertyReference_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_StringLiteral_InferenceRule();
+      this.myInferenceRules.add(inferenceRule);
+    }
+    {
+      InferenceRule_Runtime inferenceRule = new typeof_TagetReferencePropertyValueExpression_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
     {
