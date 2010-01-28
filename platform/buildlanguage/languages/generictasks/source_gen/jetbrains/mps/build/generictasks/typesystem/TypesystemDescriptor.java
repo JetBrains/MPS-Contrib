@@ -17,11 +17,11 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myInferenceRules.add(inferenceRule);
     }
     {
-      NonTypesystemRule_Runtime nonTypesystemRule = new checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule();
+      NonTypesystemRule_Runtime nonTypesystemRule = new checkAllRequiredAttributesPresent_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
     {
-      NonTypesystemRule_Runtime nonTypesystemRule = new checkParentsOfInterfaceAreInterfaces_NonTypesystemRule();
+      NonTypesystemRule_Runtime nonTypesystemRule = new checkAttributeDeclarationDefaultValueIsInEnum_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
     {
@@ -29,7 +29,7 @@ public class TypesystemDescriptor extends BaseHelginsDescriptor {
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
     {
-      NonTypesystemRule_Runtime nonTypesystemRule = new checkAllRequiredAttributesPresent_NonTypesystemRule();
+      NonTypesystemRule_Runtime nonTypesystemRule = new checkParentsOfInterfaceAreInterfaces_NonTypesystemRule();
       this.myNonTypesystemRules.add(nonTypesystemRule);
     }
   }
