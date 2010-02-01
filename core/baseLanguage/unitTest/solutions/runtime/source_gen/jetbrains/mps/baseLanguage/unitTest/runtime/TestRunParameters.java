@@ -46,7 +46,7 @@ public class TestRunParameters {
     if (!(obj instanceof TestRunParameters)) {
       return false;
     }
-    TestRunParameters parameters = (TestRunParameters)obj;
+    TestRunParameters parameters = (TestRunParameters) obj;
     boolean result = ObjectUtils.equals(this.myTestRunner, parameters.myTestRunner);
     result = result && ObjectUtils.equals(this.myVmParameters, parameters.myVmParameters);
     result = result && ObjectUtils.equals(this.myClassPath, parameters.myClassPath);
