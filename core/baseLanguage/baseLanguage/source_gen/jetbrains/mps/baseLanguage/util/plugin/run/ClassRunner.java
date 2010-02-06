@@ -16,8 +16,15 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ClassRunner extends BaseRunner {
   private ProcessBuilder processBuilder;
+  private boolean myIsDebug;
+  private int myPort;
 
   public ClassRunner() {
+  }
+
+  public void setDebugPort(int port) {
+    this.myIsDebug = true;
+    this.myPort = port;
   }
 
   public Process run(List<SNode> nodes) {
@@ -30,6 +37,9 @@ public class ClassRunner extends BaseRunner {
     List<String> params = ListSequence.fromList(new ArrayList<String>());
 
     this.addJavaCommand(params);
+    if (this.myIsDebug) {
+      this.addDebug(params, this.myPort);
+    }
     this.addClassPath(params, classConcept);
     if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
       String[] paramList = this.splitParams(vmParams);

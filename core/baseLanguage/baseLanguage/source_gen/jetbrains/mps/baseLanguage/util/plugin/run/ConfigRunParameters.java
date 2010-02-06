@@ -11,6 +11,7 @@ public class ConfigRunParameters implements Cloneable {
   private String alternativeJRE;
   private boolean useAlternativeJRE = false;
   private boolean make = false;
+  private int myDefaultPort = 5005;
 
   public ConfigRunParameters() {
   }
@@ -74,6 +75,10 @@ public class ConfigRunParameters implements Cloneable {
 
   public boolean getMake() {
     return this.make;
+  }
+
+  public int getHardcodedDebugPort() {
+    return this.myDefaultPort;
   }
 
   public String getAlternativeJRE() {
