@@ -52,7 +52,7 @@ public abstract class BaseRunner {
   }
 
   protected void addDebug(List<String> params, int port) {
-    this.addDebug(params, "127.0.0.1", port, false, false);
+    this.addDebug(params, "127.0.0.1", port, true, false);
   }
 
   protected void addMaxHeapSize(List<String> params, int megaBytes) {
