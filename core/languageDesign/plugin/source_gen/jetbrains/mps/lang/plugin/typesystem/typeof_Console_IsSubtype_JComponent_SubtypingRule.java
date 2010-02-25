@@ -20,7 +20,7 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
   }
 
   public SNode getSubOrSuperType(SNode consoleType, TypeCheckingContext typeCheckingContext) {
-    return new typeof_Console_IsSubtype_JComponent_SubtypingRule.QuotationClass_6356_l523emnf2upm().createNode(typeCheckingContext);
+    return new typeof_Console_IsSubtype_JComponent_SubtypingRule.QuotationClass_6356_0().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {
@@ -35,19 +35,19 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
     return false;
   }
 
-  public static class QuotationClass_6356_l523emnf2upm {
-    public QuotationClass_6356_l523emnf2upm() {
+  public static class QuotationClass_6356_0 {
+    public QuotationClass_6356_0() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_6356_l523emnf2rmr = null;
+      SNode quotedNode_6356_0 = null;
       {
-        quotedNode_6356_l523emnf2rmr = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_6356_l523emnf2rmr = quotedNode_6356_l523emnf2rmr;
-        quotedNode1_6356_l523emnf2rmr.addReference(SReference.create("classifier", quotedNode1_6356_l523emnf2rmr, SModelReference.fromString("f:java_stub#com.intellij.execution.impl(com.intellij.execution.impl@java_stub)"), SNodeId.fromString("~ConsoleViewImpl")));
-        result = quotedNode1_6356_l523emnf2rmr;
+        quotedNode_6356_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_6356_0 = quotedNode_6356_0;
+        quotedNode1_6356_0.addReference(SReference.create("classifier", quotedNode1_6356_0, SModelReference.fromString("f:java_stub#com.intellij.execution.impl(com.intellij.execution.impl@java_stub)"), SNodeId.fromString("~ConsoleViewImpl")));
+        result = quotedNode1_6356_0;
       }
       return result;
     }
@@ -55,12 +55,12 @@ public class typeof_Console_IsSubtype_JComponent_SubtypingRule extends Subtyping
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_6356_l523emnf2rmr = null;
+      SNode quotedNode_6356_0 = null;
       {
-        quotedNode_6356_l523emnf2rmr = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_6356_l523emnf2rmr = quotedNode_6356_l523emnf2rmr;
-        quotedNode1_6356_l523emnf2rmr.addReference(SReference.create("classifier", quotedNode1_6356_l523emnf2rmr, SModelReference.fromString("f:java_stub#com.intellij.execution.impl(com.intellij.execution.impl@java_stub)"), SNodeId.fromString("~ConsoleViewImpl")));
-        result = quotedNode1_6356_l523emnf2rmr;
+        quotedNode_6356_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_6356_0 = quotedNode_6356_0;
+        quotedNode1_6356_0.addReference(SReference.create("classifier", quotedNode1_6356_0, SModelReference.fromString("f:java_stub#com.intellij.execution.impl(com.intellij.execution.impl@java_stub)"), SNodeId.fromString("~ConsoleViewImpl")));
+        result = quotedNode1_6356_0;
       }
       return result;
     }

@@ -11,12 +11,12 @@ import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 
 public class ModelCreatorTarget_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createConstant_9736_tawon1cuuzaf(editorContext, node);
+    return this.createConstant_9736_0(editorContext, node);
   }
 
-  private EditorCell createConstant_9736_tawon1cuuzaf(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9736_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "model");
-    editorCell.setCellId("Constant_9736_tawon1cuuzaf");
+    editorCell.setCellId("Constant_9736_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;

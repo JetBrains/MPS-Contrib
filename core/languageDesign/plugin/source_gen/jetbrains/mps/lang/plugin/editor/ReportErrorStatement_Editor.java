@@ -16,34 +16,34 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class ReportErrorStatement_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9503_1v0uom7o2egur(editorContext, node);
+    return this.createCollection_9503_0(editorContext, node);
   }
 
-  private EditorCell createCollection_9503_1v0uom7o2egur(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9503_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_9503_1v0uom7o2egur");
-    editorCell.addEditorCell(this.createConstant_9503_1v0uom7o2eguq(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_9503_1v0uom7o2eguu(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9503_q8dwoyp27j18(editorContext, node));
+    editorCell.setCellId("Collection_9503_0");
+    editorCell.addEditorCell(this.createConstant_9503_1(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_9503_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9503_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9503_q8dwoyp27j18(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9503_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
-    editorCell.setCellId("Constant_9503_q8dwoyp27j18");
+    editorCell.setCellId("Constant_9503_0");
     BaseLanguageStyle_StyleSheet.getSemicolon(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9503_1v0uom7o2eguq(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9503_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "report error");
-    editorCell.setCellId("Constant_9503_1v0uom7o2eguq");
+    editorCell.setCellId("Constant_9503_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_9503_1v0uom7o2eguu(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_9503_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("error");
     provider.setNoTargetText("<no error>");
