@@ -47,7 +47,7 @@ public class AddDateTimeProperty_Intention extends BaseIntention implements Inte
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return (SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.EqualsExpression") || SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.NotEqualsExpression")) && ((TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "leftExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_l523emneedcu().createNode(), false) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_l523emneedb0().createNode(), false)) || (TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_l523emneed94().createNode(), false) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_l523emneed7a().createNode(), false)));
+    return (SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.BinaryCompareOperation") || SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.EqualsExpression") || SNodeOperations.isInstanceOf(node, "jetbrains.mps.baseLanguage.structure.NotEqualsExpression")) && ((TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "leftExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_3().createNode(), false) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_2().createNode(), false)) || (TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_1().createNode(), false) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(SLinkOperations.getTarget(node, "rightExpression", true)), new AddDateTimeProperty_Intention.QuotationClass_8882_0().createNode(), false)));
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
@@ -60,69 +60,69 @@ public class AddDateTimeProperty_Intention extends BaseIntention implements Inte
     return "jetbrains.mps.baseLanguage.dates.intentions";
   }
 
-  public static class QuotationClass_8882_l523emneed7a {
-    public QuotationClass_8882_l523emneed7a() {
+  public static class QuotationClass_8882_0 {
+    public QuotationClass_8882_0() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_2207_l523emneeclu = null;
+      SNode quotedNode_2207_0 = null;
       {
-        quotedNode_2207_l523emneeclu = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_2207_l523emneeclu = quotedNode_2207_l523emneeclu;
-        result = quotedNode1_2207_l523emneeclu;
+        quotedNode_2207_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2207_0 = quotedNode_2207_0;
+        result = quotedNode1_2207_0;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_8882_l523emneed94 {
-    public QuotationClass_8882_l523emneed94() {
+  public static class QuotationClass_8882_1 {
+    public QuotationClass_8882_1() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_2207_l523emneecm8 = null;
+      SNode quotedNode_2207_1 = null;
       {
-        quotedNode_2207_l523emneecm8 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_2207_l523emneecm8 = quotedNode_2207_l523emneecm8;
-        result = quotedNode1_2207_l523emneecm8;
+        quotedNode_2207_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2207_1 = quotedNode_2207_1;
+        result = quotedNode1_2207_1;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_8882_l523emneedb0 {
-    public QuotationClass_8882_l523emneedb0() {
+  public static class QuotationClass_8882_2 {
+    public QuotationClass_8882_2() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_2207_l523emneecmm = null;
+      SNode quotedNode_2207_2 = null;
       {
-        quotedNode_2207_l523emneecmm = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_2207_l523emneecmm = quotedNode_2207_l523emneecmm;
-        result = quotedNode1_2207_l523emneecmm;
+        quotedNode_2207_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2207_2 = quotedNode_2207_2;
+        result = quotedNode1_2207_2;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_8882_l523emneedcu {
-    public QuotationClass_8882_l523emneedcu() {
+  public static class QuotationClass_8882_3 {
+    public QuotationClass_8882_3() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_2207_l523emneecn0 = null;
+      SNode quotedNode_2207_3 = null;
       {
-        quotedNode_2207_l523emneecn0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_2207_l523emneecn0 = quotedNode_2207_l523emneecn0;
-        result = quotedNode1_2207_l523emneecn0;
+        quotedNode_2207_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2207_3 = quotedNode_2207_3;
+        result = quotedNode1_2207_3;
       }
       return result;
     }

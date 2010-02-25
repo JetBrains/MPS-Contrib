@@ -24,14 +24,14 @@ public class typeof_TimeZoneFromString_InferenceRule extends AbstractInferenceRu
       SNode _nodeToCheck_1029348928467 = timeZone;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019330217", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019325417", true), (SNode) new typeof_TimeZoneFromString_InferenceRule.QuotationClass_4168_l523emneexyk().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1239019325417", true), (SNode) new typeof_TimeZoneFromString_InferenceRule.QuotationClass_4168_0().createNode(typeCheckingContext), _info_12389875345);
     }
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(timeZone, "string", true);
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215864271026", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215864271028", true), (SNode) new typeof_TimeZoneFromString_InferenceRule.QuotationClass_4168_l523emneey02().createNode(typeCheckingContext), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "5293902215864271028", true), (SNode) new typeof_TimeZoneFromString_InferenceRule.QuotationClass_4168_1().createNode(typeCheckingContext), false, _info_12389875345);
     }
   }
 
@@ -47,18 +47,18 @@ public class typeof_TimeZoneFromString_InferenceRule extends AbstractInferenceRu
     return false;
   }
 
-  public static class QuotationClass_4168_l523emneexyk {
-    public QuotationClass_4168_l523emneexyk() {
+  public static class QuotationClass_4168_0 {
+    public QuotationClass_4168_0() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4168_l523emneess2 = null;
+      SNode quotedNode_4168_0 = null;
       {
-        quotedNode_4168_l523emneess2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4168_l523emneess2 = quotedNode_4168_l523emneess2;
-        result = quotedNode1_4168_l523emneess2;
+        quotedNode_4168_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4168_0 = quotedNode_4168_0;
+        result = quotedNode1_4168_0;
       }
       return result;
     }
@@ -66,28 +66,28 @@ public class typeof_TimeZoneFromString_InferenceRule extends AbstractInferenceRu
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4168_l523emneess2 = null;
+      SNode quotedNode_4168_0 = null;
       {
-        quotedNode_4168_l523emneess2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4168_l523emneess2 = quotedNode_4168_l523emneess2;
-        result = quotedNode1_4168_l523emneess2;
+        quotedNode_4168_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4168_0 = quotedNode_4168_0;
+        result = quotedNode1_4168_0;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_4168_l523emneey02 {
-    public QuotationClass_4168_l523emneey02() {
+  public static class QuotationClass_4168_1 {
+    public QuotationClass_4168_1() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4168_l523emneess8 = null;
+      SNode quotedNode_4168_1 = null;
       {
-        quotedNode_4168_l523emneess8 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4168_l523emneess8 = quotedNode_4168_l523emneess8;
-        result = quotedNode1_4168_l523emneess8;
+        quotedNode_4168_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4168_1 = quotedNode_4168_1;
+        result = quotedNode1_4168_1;
       }
       return result;
     }
@@ -95,11 +95,11 @@ public class typeof_TimeZoneFromString_InferenceRule extends AbstractInferenceRu
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4168_l523emneess8 = null;
+      SNode quotedNode_4168_1 = null;
       {
-        quotedNode_4168_l523emneess8 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4168_l523emneess8 = quotedNode_4168_l523emneess8;
-        result = quotedNode1_4168_l523emneess8;
+        quotedNode_4168_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4168_1 = quotedNode_4168_1;
+        result = quotedNode1_4168_1;
       }
       return result;
     }

@@ -47,7 +47,7 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention implem
   }
 
   public boolean isApplicableToNode(final SNode node, final EditorContext editorContext) {
-    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), new AddDateTimePropertyForPeriod_Intention.QuotationClass_9594_l523emneedjr().createNode(), false);
+    return TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeChecker.getInstance().getTypeOf(node), new AddDateTimePropertyForPeriod_Intention.QuotationClass_9594_0().createNode(), false);
   }
 
   public void execute(final SNode node, final EditorContext editorContext) {
@@ -60,18 +60,18 @@ public class AddDateTimePropertyForPeriod_Intention extends BaseIntention implem
     return "jetbrains.mps.baseLanguage.dates.intentions";
   }
 
-  public static class QuotationClass_9594_l523emneedjr {
-    public QuotationClass_9594_l523emneedjr() {
+  public static class QuotationClass_9594_0 {
+    public QuotationClass_9594_0() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_9369_l523emneecnc = null;
+      SNode quotedNode_9369_0 = null;
       {
-        quotedNode_9369_l523emneecnc = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_9369_l523emneecnc = quotedNode_9369_l523emneecnc;
-        result = quotedNode1_9369_l523emneecnc;
+        quotedNode_9369_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_9369_0 = quotedNode_9369_0;
+        result = quotedNode1_9369_0;
       }
       return result;
     }

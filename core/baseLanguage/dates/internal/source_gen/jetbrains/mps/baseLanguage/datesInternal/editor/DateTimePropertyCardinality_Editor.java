@@ -17,30 +17,30 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6238_ezb1ubjc(editorContext, node);
+    return this.createCollection_6238_0(editorContext, node);
   }
 
-  private EditorCell createCollection_6238_ezb1ubjc(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_6238_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_6238_ezb1ubjc");
+    editorCell.setCellId("Collection_6238_0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
-    editorCell.addEditorCell(this.createProperty_6238_ezb1unb0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6238_ezb1v25e(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_6238_ezb1v4rm(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_6238_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6238_0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_6238_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6238_ezb1v25e(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_6238_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_6238_ezb1v25e");
+    editorCell.setCellId("Constant_6238_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_6238_ezb1unb0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_6238_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("numberOfSymbols");
     provider.setNoTargetText("<no numberOfSymbols>");
@@ -58,7 +58,7 @@ public class DateTimePropertyCardinality_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_6238_ezb1v4rm(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_6238_1(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("meaning");
     provider.setNoTargetText("<no meaning>");

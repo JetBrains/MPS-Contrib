@@ -25,61 +25,61 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_5298_128xyamskqgsp(editorContext, node);
+    return this.createCollection_5298_0(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_5298_128xyamskqhri(editorContext, node);
+    return this.createCollection_5298_2(editorContext, node);
   }
 
-  private EditorCell createCollection_5298_128xyamskqgsp(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_5298_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_5298_128xyamskqgsp");
-    editorCell.addEditorCell(this.createRefNode_5298_128xyamskqgsv(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5298_128xyamskqgsx(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_5298_128xyamskqgt2(editorContext, node));
-    if (renderingCondition5298_128xyamskqgtj(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_5298_128xyamskqgt7(editorContext, node));
+    editorCell.setCellId("Collection_5298_0");
+    editorCell.addEditorCell(this.createRefNode_5298_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5298_0(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_5298_0(editorContext, node));
+    if (renderingCondition5298_0(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_5298_1(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createCollection_5298_128xyamskqgt7(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_5298_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_5298_128xyamskqgt7");
+    editorCell.setCellId("Collection_5298_1");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     }
-    editorCell.addEditorCell(this.createConstant_5298_128xyamskqgtb(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_5298_128xyamskqhre(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5298_128xyamskqgtd(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5298_1(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_5298_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5298_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_5298_128xyamskqhri(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_5298_2(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_5298_128xyamskqhri");
-    editorCell.addEditorCell(this.createCollection_5298_128xyamskqhrm(editorContext, node));
+    editorCell.setCellId("Collection_5298_2");
+    editorCell.addEditorCell(this.createCollection_5298_3(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_5298_128xyamskqhrm(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_5298_3(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_5298_128xyamskqhrm");
+    editorCell.setCellId("Collection_5298_3");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_5298_128xyamskqhrp(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_5298_128xyamskqhrr(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_5298_3(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_5298_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_5298_128xyamskqgsx(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_5298_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
-    editorCell.setCellId("Constant_5298_128xyamskqgsx");
+    editorCell.setCellId("Constant_5298_0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PADDING_LEFT, new Padding(0.0, Measure.SPACES));
@@ -90,31 +90,31 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_5298_128xyamskqgtb(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_5298_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_5298_128xyamskqgtb");
+    editorCell.setCellId("Constant_5298_1");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5298_128xyamskqgtd(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_5298_2(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_5298_128xyamskqgtd");
+    editorCell.setCellId("Constant_5298_2");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     FormatDateTimeExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_5298_128xyamskqhrp(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_5298_3(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
-    editorCell.setCellId("Constant_5298_128xyamskqhrp");
+    editorCell.setCellId("Constant_5298_3");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_5298_128xyamskqgsv(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_5298_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
@@ -131,12 +131,12 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_5298_128xyamskqgt2(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_5298_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("dateFormat");
     provider.setNoTargetText("<no dateFormat>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline5298_128xyamskqgt3());
+    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline5298_0());
     editorCell = provider.createEditorCell(editorContext);
     {
       Style style = editorCell.getStyle();
@@ -154,12 +154,12 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_5298_128xyamskqhre(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_5298_1(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline5298_128xyamskqhrf());
+    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline5298_1());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -172,12 +172,12 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_5298_128xyamskqhrr(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_5298_2(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline5298_128xyamskqhrs());
+    provider.setAuxiliaryCellProvider(new FormatDateTimeExpression_Editor._Inline5298_2());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -190,12 +190,12 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition5298_128xyamskqgtj(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition5298_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
 
-  public static class _Inline5298_128xyamskqgt3 extends InlineCellProvider {
-    public _Inline5298_128xyamskqgt3() {
+  public static class _Inline5298_0 extends InlineCellProvider {
+    public _Inline5298_0() {
       super();
     }
 
@@ -204,10 +204,10 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_5298_128xyamskqgt5(editorContext, node);
+      return this.createProperty_5298_0(editorContext, node);
     }
 
-    private EditorCell createProperty_5298_128xyamskqgt5(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_5298_0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -228,8 +228,8 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline5298_128xyamskqhrf extends InlineCellProvider {
-    public _Inline5298_128xyamskqhrf() {
+  public static class _Inline5298_1 extends InlineCellProvider {
+    public _Inline5298_1() {
       super();
     }
 
@@ -238,10 +238,10 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_5298_128xyamskqhrh(editorContext, node);
+      return this.createProperty_5298_1(editorContext, node);
     }
 
-    private EditorCell createProperty_5298_128xyamskqhrh(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_5298_1(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -261,8 +261,8 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline5298_128xyamskqhrs extends InlineCellProvider {
-    public _Inline5298_128xyamskqhrs() {
+  public static class _Inline5298_2 extends InlineCellProvider {
+    public _Inline5298_2() {
       super();
     }
 
@@ -271,10 +271,10 @@ public class FormatDateTimeExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_5298_128xyamskqhru(editorContext, node);
+      return this.createProperty_5298_2(editorContext, node);
     }
 
-    private EditorCell createProperty_5298_128xyamskqhru(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_5298_2(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

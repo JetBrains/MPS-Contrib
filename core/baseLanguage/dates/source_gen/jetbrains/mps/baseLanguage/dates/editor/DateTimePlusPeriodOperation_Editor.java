@@ -20,22 +20,22 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4539_fejy6rhd(editorContext, node);
+    return this.createCollection_4539_0(editorContext, node);
   }
 
-  private EditorCell createCollection_4539_fejy6rhd(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4539_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4539_fejy6rhd");
-    editorCell.addEditorCell(this.createRefNode_4539_fejy6ug7(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4539_fejy6xix(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4539_fejy6zoo(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_4539_fejy816k(editorContext, node));
+    editorCell.setCellId("Collection_4539_0");
+    editorCell.addEditorCell(this.createRefNode_4539_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4539_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4539_1(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_4539_1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4539_fejy6xix(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4539_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "+");
-    editorCell.setCellId("Constant_4539_fejy6xix");
+    editorCell.setCellId("Constant_4539_0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -45,15 +45,15 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4539_fejy6zoo(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4539_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "period");
-    editorCell.setCellId("Constant_4539_fejy6zoo");
+    editorCell.setCellId("Constant_4539_1");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_4539_fejy6ug7(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_4539_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("leftValue");
     provider.setNoTargetText("<no leftValue>");
@@ -71,7 +71,7 @@ public class DateTimePlusPeriodOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_4539_fejy816k(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_4539_1(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rightValue");
     provider.setNoTargetText("<no rightValue>");

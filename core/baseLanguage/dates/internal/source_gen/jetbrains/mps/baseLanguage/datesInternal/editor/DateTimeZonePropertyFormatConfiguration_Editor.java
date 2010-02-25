@@ -23,30 +23,30 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6009_ezcj263x(editorContext, node);
+    return this.createCollection_6009_0(editorContext, node);
   }
 
-  private EditorCell createCollection_6009_ezcj263x(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_6009_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_6009_ezcj263x");
-    editorCell.addEditorCell(this.createConstant_6009_ezcj263z(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6009_ezcj2643(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_6009_ezcj2646(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6009_ezcj2647(editorContext, node));
+    editorCell.setCellId("Collection_6009_0");
+    editorCell.addEditorCell(this.createConstant_6009_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6009_1(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_6009_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6009_2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6009_ezcj263z(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_6009_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "format configuration for zone");
-    editorCell.setCellId("Constant_6009_ezcj263z");
+    editorCell.setCellId("Constant_6009_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6009_ezcj2643(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_6009_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
-    editorCell.setCellId("Constant_6009_ezcj2643");
+    editorCell.setCellId("Constant_6009_1");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -57,9 +57,9 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     return editorCell;
   }
 
-  private EditorCell createConstant_6009_ezcj2647(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_6009_2(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
-    editorCell.setCellId("Constant_6009_ezcj2647");
+    editorCell.setCellId("Constant_6009_2");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -70,8 +70,8 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_6009_ezcj2646(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new DateTimeZonePropertyFormatConfiguration_Editor.dateTimePropertyFormatTypeListHandler_6009_ezcj2646(node, "dateTimePropertyFormatType", editorContext);
+  private EditorCell createRefNodeList_6009_0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new DateTimeZonePropertyFormatConfiguration_Editor.dateTimePropertyFormatTypeListHandler_6009_0(node, "dateTimePropertyFormatType", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_dateTimePropertyFormatType");
     {
@@ -84,8 +84,8 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
     return editorCell;
   }
 
-  private static class dateTimePropertyFormatTypeListHandler_6009_ezcj2646 extends RefNodeListHandler {
-    public dateTimePropertyFormatTypeListHandler_6009_ezcj2646(SNode ownerNode, String childRole, EditorContext context) {
+  private static class dateTimePropertyFormatTypeListHandler_6009_0 extends RefNodeListHandler {
+    public dateTimePropertyFormatTypeListHandler_6009_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

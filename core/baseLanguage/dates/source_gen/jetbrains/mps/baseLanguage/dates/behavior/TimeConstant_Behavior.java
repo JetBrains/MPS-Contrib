@@ -24,7 +24,7 @@ public class TimeConstant_Behavior {
     if ((expression != null)) {
       String role = thisNode.getRoleOf(expression);
       if (SPropertyOperations.getString(SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "timezone"), "role").equals(role)) {
-        return new TimeConstant_Behavior.QuotationClass_7984_l523emned3o2().createNode();
+        return new TimeConstant_Behavior.QuotationClass_7984_0().createNode();
       }
     }
     return null;
@@ -32,7 +32,7 @@ public class TimeConstant_Behavior {
 
   public static SNode virtual_deriveType_4555537781928374706(SNode thisNode, SNode expression, SNode link) {
     if (SLinkOperations.findLinkDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeConstant", "timezone") == link) {
-      return new TimeConstant_Behavior.QuotationClass_7984_l523emned3pq().createNode();
+      return new TimeConstant_Behavior.QuotationClass_7984_1().createNode();
     }
     return null;
   }
@@ -53,35 +53,35 @@ public class TimeConstant_Behavior {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.baseLanguage.dates.structure.TimeConstant"), callerConceptFqName, "virtual_deriveType_4555537781928374706", PARAMETERS_779372288056825341, expression, link);
   }
 
-  public static class QuotationClass_7984_l523emned3o2 {
-    public QuotationClass_7984_l523emned3o2() {
+  public static class QuotationClass_7984_0 {
+    public QuotationClass_7984_0() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_7984_5x60f2covi7s = null;
+      SNode quotedNode_7984_0 = null;
       {
-        quotedNode_7984_5x60f2covi7s = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_7984_5x60f2covi7s = quotedNode_7984_5x60f2covi7s;
-        result = quotedNode1_7984_5x60f2covi7s;
+        quotedNode_7984_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_7984_0 = quotedNode_7984_0;
+        result = quotedNode1_7984_0;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_7984_l523emned3pq {
-    public QuotationClass_7984_l523emned3pq() {
+  public static class QuotationClass_7984_1 {
+    public QuotationClass_7984_1() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_7984_5x60f2covi8p = null;
+      SNode quotedNode_7984_1 = null;
       {
-        quotedNode_7984_5x60f2covi8p = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_7984_5x60f2covi8p = quotedNode_7984_5x60f2covi8p;
-        result = quotedNode1_7984_5x60f2covi8p;
+        quotedNode_7984_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_7984_1 = quotedNode_7984_1;
+        result = quotedNode1_7984_1;
       }
       return result;
     }

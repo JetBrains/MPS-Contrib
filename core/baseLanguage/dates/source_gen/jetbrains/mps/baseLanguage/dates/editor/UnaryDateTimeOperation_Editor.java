@@ -17,18 +17,18 @@ import jetbrains.mps.nodeEditor.style.StyleAttributes;
 
 public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3905_eye5152p(editorContext, node);
+    return this.createCollection_3905_0(editorContext, node);
   }
 
-  private EditorCell createCollection_3905_eye5152p(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_3905_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_3905_eye5152p");
-    editorCell.addEditorCell(this.createRefNode_3905_eye548bz(editorContext, node));
-    editorCell.addEditorCell(this.createConceptProperty_3905_eye6kur0(editorContext, node));
+    editorCell.setCellId("Collection_3905_0");
+    editorCell.addEditorCell(this.createRefNode_3905_0(editorContext, node));
+    editorCell.addEditorCell(this.createConceptProperty_3905_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_3905_eye548bz(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_3905_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
@@ -45,7 +45,7 @@ public class UnaryDateTimeOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_3905_eye6kur0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_3905_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

@@ -17,35 +17,35 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class Locale_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9646_eypzw4aq(editorContext, node);
+    return this.createCollection_9646_0(editorContext, node);
   }
 
-  private EditorCell createCollection_9646_eypzw4aq(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9646_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9646_eypzw4aq");
-    editorCell.addEditorCell(this.createConstant_9646_eypzw69m(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_9646_eyq033wc(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9646_eyq0c1sq(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_9646_eyq0cc8n(editorContext, node));
+    editorCell.setCellId("Collection_9646_0");
+    editorCell.addEditorCell(this.createConstant_9646_0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_9646_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9646_1(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_9646_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9646_eypzw69m(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9646_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
-    editorCell.setCellId("Constant_9646_eypzw69m");
+    editorCell.setCellId("Constant_9646_0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9646_eyq0c1sq(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9646_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
-    editorCell.setCellId("Constant_9646_eyq0c1sq");
+    editorCell.setCellId("Constant_9646_1");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_9646_eyq033wc(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_9646_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -64,7 +64,7 @@ public class Locale_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_9646_eyq0cc8n(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_9646_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("javaLocale");
     provider.setNoTargetText("<no javaLocale>");

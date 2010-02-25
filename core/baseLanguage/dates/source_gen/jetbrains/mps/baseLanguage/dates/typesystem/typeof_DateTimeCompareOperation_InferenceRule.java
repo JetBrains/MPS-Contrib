@@ -24,21 +24,21 @@ public class typeof_DateTimeCompareOperation_InferenceRule extends AbstractInfer
       SNode _nodeToCheck_1029348928467 = op;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1204416331816", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1204416331818", true), (SNode) new typeof_DateTimeCompareOperation_InferenceRule.QuotationClass_3329_l523emneewp5().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1204416331818", true), (SNode) new typeof_DateTimeCompareOperation_InferenceRule.QuotationClass_3329_0().createNode(typeCheckingContext), _info_12389875345);
     }
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(op, "op1", true);
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, "datetime was expected", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143156664", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143134737", true), (SNode) new typeof_DateTimeCompareOperation_InferenceRule.QuotationClass_3329_l523emneewqn().createNode(typeCheckingContext), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143134737", true), (SNode) new typeof_DateTimeCompareOperation_InferenceRule.QuotationClass_3329_1().createNode(typeCheckingContext), false, _info_12389875345);
     }
     {
       SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(op, "op2", true);
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, "datetime was expected", "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143177194", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143166188", true), (SNode) new typeof_DateTimeCompareOperation_InferenceRule.QuotationClass_3329_l523emneews5().createNode(typeCheckingContext), false, _info_12389875345);
+      typeCheckingContext.createLessThanInequation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1186143166188", true), (SNode) new typeof_DateTimeCompareOperation_InferenceRule.QuotationClass_3329_2().createNode(typeCheckingContext), false, _info_12389875345);
     }
   }
 
@@ -54,18 +54,18 @@ public class typeof_DateTimeCompareOperation_InferenceRule extends AbstractInfer
     return false;
   }
 
-  public static class QuotationClass_3329_l523emneewp5 {
-    public QuotationClass_3329_l523emneewp5() {
+  public static class QuotationClass_3329_0 {
+    public QuotationClass_3329_0() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3329_l523emnees02 = null;
+      SNode quotedNode_3329_0 = null;
       {
-        quotedNode_3329_l523emnees02 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3329_l523emnees02 = quotedNode_3329_l523emnees02;
-        result = quotedNode1_3329_l523emnees02;
+        quotedNode_3329_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3329_0 = quotedNode_3329_0;
+        result = quotedNode1_3329_0;
       }
       return result;
     }
@@ -73,28 +73,28 @@ public class typeof_DateTimeCompareOperation_InferenceRule extends AbstractInfer
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3329_l523emnees02 = null;
+      SNode quotedNode_3329_0 = null;
       {
-        quotedNode_3329_l523emnees02 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3329_l523emnees02 = quotedNode_3329_l523emnees02;
-        result = quotedNode1_3329_l523emnees02;
+        quotedNode_3329_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.BooleanType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3329_0 = quotedNode_3329_0;
+        result = quotedNode1_3329_0;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_3329_l523emneewqn {
-    public QuotationClass_3329_l523emneewqn() {
+  public static class QuotationClass_3329_1 {
+    public QuotationClass_3329_1() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3329_l523emnees08 = null;
+      SNode quotedNode_3329_1 = null;
       {
-        quotedNode_3329_l523emnees08 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3329_l523emnees08 = quotedNode_3329_l523emnees08;
-        result = quotedNode1_3329_l523emnees08;
+        quotedNode_3329_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3329_1 = quotedNode_3329_1;
+        result = quotedNode1_3329_1;
       }
       return result;
     }
@@ -102,28 +102,28 @@ public class typeof_DateTimeCompareOperation_InferenceRule extends AbstractInfer
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3329_l523emnees08 = null;
+      SNode quotedNode_3329_1 = null;
       {
-        quotedNode_3329_l523emnees08 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3329_l523emnees08 = quotedNode_3329_l523emnees08;
-        result = quotedNode1_3329_l523emnees08;
+        quotedNode_3329_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3329_1 = quotedNode_3329_1;
+        result = quotedNode1_3329_1;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_3329_l523emneews5 {
-    public QuotationClass_3329_l523emneews5() {
+  public static class QuotationClass_3329_2 {
+    public QuotationClass_3329_2() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3329_l523emnees0f = null;
+      SNode quotedNode_3329_2 = null;
       {
-        quotedNode_3329_l523emnees0f = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3329_l523emnees0f = quotedNode_3329_l523emnees0f;
-        result = quotedNode1_3329_l523emnees0f;
+        quotedNode_3329_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3329_2 = quotedNode_3329_2;
+        result = quotedNode1_3329_2;
       }
       return result;
     }
@@ -131,11 +131,11 @@ public class typeof_DateTimeCompareOperation_InferenceRule extends AbstractInfer
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3329_l523emnees0f = null;
+      SNode quotedNode_3329_2 = null;
       {
-        quotedNode_3329_l523emnees0f = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3329_l523emnees0f = quotedNode_3329_l523emnees0f;
-        result = quotedNode1_3329_l523emnees0f;
+        quotedNode_3329_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3329_2 = quotedNode_3329_2;
+        result = quotedNode1_3329_2;
       }
       return result;
     }

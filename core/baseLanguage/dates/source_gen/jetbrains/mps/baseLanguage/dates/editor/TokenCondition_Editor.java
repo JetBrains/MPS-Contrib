@@ -19,37 +19,37 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class TokenCondition_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4438_exbl0kmi(editorContext, node);
+    return this.createCollection_4438_1(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4438_exbkyvqd(editorContext, node);
+    return this.createCollection_4438_0(editorContext, node);
   }
 
-  private EditorCell createCollection_4438_exbkyvqd(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4438_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4438_exbkyvqd");
-    editorCell.addEditorCell(this.createConstant_4438_exbkz5fw(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4438_eyhfrai7(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4438_exbkyvqg(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4438_exbo2268(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4438_exbo2aep(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4438_exbo3779(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4438_exbo2m9d(editorContext, node));
+    editorCell.setCellId("Collection_4438_0");
+    editorCell.addEditorCell(this.createConstant_4438_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_7(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_3(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_4(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_6(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_4438_5(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4438_exbl0kmi(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_4438_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4438_exbl0kmi");
-    editorCell.addEditorCell(this.createConstant_4438_exbl0r3o(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_4438_exbl0kmj(editorContext, node));
+    editorCell.setCellId("Collection_4438_1");
+    editorCell.addEditorCell(this.createConstant_4438_2(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_4438_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_exbkyvqg(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date time to format");
-    editorCell.setCellId("Constant_4438_exbkyvqg");
+    editorCell.setCellId("Constant_4438_0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
@@ -59,9 +59,9 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_exbkz5fw(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "parameters:");
-    editorCell.setCellId("Constant_4438_exbkz5fw");
+    editorCell.setCellId("Constant_4438_1");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
@@ -71,9 +71,9 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_exbl0r3o(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_2(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
-    editorCell.setCellId("Constant_4438_exbl0r3o");
+    editorCell.setCellId("Constant_4438_2");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
@@ -82,9 +82,9 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_exbo2268(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_3(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_4438_exbo2268");
+    editorCell.setCellId("Constant_4438_3");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
@@ -94,9 +94,9 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_exbo2aep(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_4(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "returns:");
-    editorCell.setCellId("Constant_4438_exbo2aep");
+    editorCell.setCellId("Constant_4438_4");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
@@ -106,9 +106,9 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_exbo2m9d(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_5(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Value of the expression is a condition to test");
-    editorCell.setCellId("Constant_4438_exbo2m9d");
+    editorCell.setCellId("Constant_4438_5");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
@@ -118,9 +118,9 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_exbo3779(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_6(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Last statement should be an ExpressionStatement");
-    editorCell.setCellId("Constant_4438_exbo3779");
+    editorCell.setCellId("Constant_4438_6");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
@@ -130,14 +130,14 @@ public class TokenCondition_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4438_eyhfrai7(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4438_7(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "datetimeToFormat");
-    editorCell.setCellId("Constant_4438_eyhfrai7");
+    editorCell.setCellId("Constant_4438_7");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_4438_exbl0kmj(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_4438_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("body");
     provider.setNoTargetText("<no body>");

@@ -32,70 +32,70 @@ import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9167_eyfz5mhs(editorContext, node);
+    return this.createCollection_9167_0(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9167_f1c4jiiv(editorContext, node);
+    return this.createCollection_9167_1(editorContext, node);
   }
 
-  private EditorCell createCollection_9167_eyfz5mhs(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9167_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9167_eyfz5mhs");
-    editorCell.addEditorCell(this.createRefNode_9167_eyfz5sj6(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_9167_eyfzff19(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9167_f8y66ya1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_9167_eyfzflkv(editorContext, node));
-    if (renderingCondition9167_f1c4kmko(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_9167_f1c4k4sl(editorContext, node));
+    editorCell.setCellId("Collection_9167_0");
+    editorCell.addEditorCell(this.createRefNode_9167_0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_9167_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9167_2(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_9167_1(editorContext, node));
+    if (renderingCondition9167_0(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_9167_2(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createCollection_9167_f1c4jiiv(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9167_1(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9167_f1c4jiiv");
-    editorCell.addEditorCell(this.createConstant_9167_f1c4jntv(editorContext, node));
-    editorCell.addEditorCell(this.createReadOnlyModelAccessor_9167_fn8tz7r9(editorContext, node));
+    editorCell.setCellId("Collection_9167_1");
+    editorCell.addEditorCell(this.createConstant_9167_0(editorContext, node));
+    editorCell.addEditorCell(this.createReadOnlyModelAccessor_9167_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_9167_f1c4k4sl(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9167_2(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9167_f1c4k4sl");
+    editorCell.setCellId("Collection_9167_2");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_9167_f1c4k8tc(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_9167_f1c4k8td(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9167_1(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_9167_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9167_f1c4jntv(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9167_0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Compare datetime expressions by");
-    editorCell.setCellId("Constant_9167_f1c4jntv");
+    editorCell.setCellId("Constant_9167_0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9167_f1c4k8tc(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9167_1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
-    editorCell.setCellId("Constant_9167_f1c4k8tc");
+    editorCell.setCellId("Constant_9167_1");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9167_f8y66ya1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9167_2(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
-    editorCell.setCellId("Constant_9167_f8y66ya1");
+    editorCell.setCellId("Constant_9167_2");
     Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createReadOnlyModelAccessor_9167_fn8tz7r9(final EditorContext editorContext, final SNode node) {
+  private EditorCell createReadOnlyModelAccessor_9167_0(final EditorContext editorContext, final SNode node) {
     EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
       public String getText() {
         return SPropertyOperations.getString(DateTimeCompareOperation_Behavior.call_getDatetimeProperty_1213877526399(node), "name");
@@ -109,7 +109,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       }
     }, node);
     editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
-    editorCell.setCellId("ReadOnlyModelAccessor_9167_fn8tz7r9");
+    editorCell.setCellId("ReadOnlyModelAccessor_9167_0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.EDITABLE, false);
@@ -117,7 +117,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_9167_eyfz5sj6(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_9167_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("op1");
     provider.setNoTargetText("<no op1>");
@@ -135,7 +135,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_9167_eyfzff19(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_9167_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("compareType");
     provider.setNoTargetText("<no compareType>");
@@ -158,7 +158,7 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_9167_eyfzflkv(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_9167_1(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("op2");
     provider.setNoTargetText("<no op2>");
@@ -180,12 +180,12 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_9167_f1c4k8td(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_9167_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeCompareOperation_Editor._Inline9167_f1c4k8te());
+    provider.setAuxiliaryCellProvider(new DateTimeCompareOperation_Editor._Inline9167_0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -198,12 +198,12 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition9167_f1c4kmko(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition9167_0(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "datetimeProperty", false) != null);
   }
 
-  public static class _Inline9167_f1c4k8te extends InlineCellProvider {
-    public _Inline9167_f1c4k8te() {
+  public static class _Inline9167_0 extends InlineCellProvider {
+    public _Inline9167_0() {
       super();
     }
 
@@ -212,10 +212,10 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_9167_f1c4k8tf(editorContext, node);
+      return this.createProperty_9167_1(editorContext, node);
     }
 
-    private EditorCell createProperty_9167_f1c4k8tf(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_9167_1(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

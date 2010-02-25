@@ -26,7 +26,7 @@ public class typeof_ConvertToJavaCalendarOperation_InferenceRule extends Abstrac
       SNode _nodeToCheck_1029348928467 = operation;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999054", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999051", true), (SNode) new typeof_ConvertToJavaCalendarOperation_InferenceRule.QuotationClass_9251_l523emneeyl6().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999051", true), (SNode) new typeof_ConvertToJavaCalendarOperation_InferenceRule.QuotationClass_9251_0().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 
@@ -42,19 +42,19 @@ public class typeof_ConvertToJavaCalendarOperation_InferenceRule extends Abstrac
     return false;
   }
 
-  public static class QuotationClass_9251_l523emneeyl6 {
-    public QuotationClass_9251_l523emneeyl6() {
+  public static class QuotationClass_9251_0 {
+    public QuotationClass_9251_0() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_9251_l523emneet2j = null;
+      SNode quotedNode_9251_0 = null;
       {
-        quotedNode_9251_l523emneet2j = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_9251_l523emneet2j = quotedNode_9251_l523emneet2j;
-        quotedNode1_9251_l523emneet2j.addReference(SReference.create("classifier", quotedNode1_9251_l523emneet2j, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
-        result = quotedNode1_9251_l523emneet2j;
+        quotedNode_9251_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_9251_0 = quotedNode_9251_0;
+        quotedNode1_9251_0.addReference(SReference.create("classifier", quotedNode1_9251_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
+        result = quotedNode1_9251_0;
       }
       return result;
     }
@@ -62,12 +62,12 @@ public class typeof_ConvertToJavaCalendarOperation_InferenceRule extends Abstrac
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_9251_l523emneet2j = null;
+      SNode quotedNode_9251_0 = null;
       {
-        quotedNode_9251_l523emneet2j = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_9251_l523emneet2j = quotedNode_9251_l523emneet2j;
-        quotedNode1_9251_l523emneet2j.addReference(SReference.create("classifier", quotedNode1_9251_l523emneet2j, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
-        result = quotedNode1_9251_l523emneet2j;
+        quotedNode_9251_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_9251_0 = quotedNode_9251_0;
+        quotedNode1_9251_0.addReference(SReference.create("classifier", quotedNode1_9251_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
+        result = quotedNode1_9251_0;
       }
       return result;
     }

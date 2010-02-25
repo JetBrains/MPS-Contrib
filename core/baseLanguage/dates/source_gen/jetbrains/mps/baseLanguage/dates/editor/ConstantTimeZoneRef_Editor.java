@@ -21,22 +21,22 @@ import jetbrains.mps.nodeEditor.MPSColors;
 
 public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_1638_ft73fdnl(editorContext, node);
+    return this.createCollection_1638_0(editorContext, node);
   }
 
-  private EditorCell createCollection_1638_ft73fdnl(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_1638_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_1638_ft73fdnl");
-    editorCell.addEditorCell(this.createRefCell_1638_ft7258uk(editorContext, node));
+    editorCell.setCellId("Collection_1638_0");
+    editorCell.addEditorCell(this.createRefCell_1638_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefCell_1638_ft7258uk(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_1638_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("zone");
     provider.setNoTargetText("<no zone>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ConstantTimeZoneRef_Editor._Inline1638_ft7258ul());
+    provider.setAuxiliaryCellProvider(new ConstantTimeZoneRef_Editor._Inline1638_0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -49,8 +49,8 @@ public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline1638_ft7258ul extends InlineCellProvider {
-    public _Inline1638_ft7258ul() {
+  public static class _Inline1638_0 extends InlineCellProvider {
+    public _Inline1638_0() {
       super();
     }
 
@@ -59,10 +59,10 @@ public class ConstantTimeZoneRef_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_1638_ft725bae(editorContext, node);
+      return this.createProperty_1638_0(editorContext, node);
     }
 
-    private EditorCell createProperty_1638_ft725bae(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_1638_0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

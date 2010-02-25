@@ -20,17 +20,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class PeriodLiteralFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8248_db8n3ny4ax5(editorContext, node);
+    return this.createCollection_8248_0(editorContext, node);
   }
 
-  private EditorCell createCollection_8248_db8n3ny4ax5(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_8248_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_8248_db8n3ny4ax5");
-    editorCell.addEditorCell(this.createProperty_8248_db8n3ny4ax8(editorContext, node));
+    editorCell.setCellId("Collection_8248_0");
+    editorCell.addEditorCell(this.createProperty_8248_0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createProperty_8248_db8n3ny4ax8(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_8248_0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("value");
     provider.setNoTargetText("<no value>");
