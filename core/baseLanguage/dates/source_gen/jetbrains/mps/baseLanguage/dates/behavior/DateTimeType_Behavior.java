@@ -17,22 +17,22 @@ public class DateTimeType_Behavior {
   }
 
   public static SNode virtual_getJavaType_1213877337345(SNode thisNode) {
-    return new DateTimeType_Behavior.QuotationClass_8604_0().createNode();
+    return new DateTimeType_Behavior.QuotationClass_8604_l523emned31w().createNode();
   }
 
-  public static class QuotationClass_8604_0 {
-    public QuotationClass_8604_0() {
+  public static class QuotationClass_8604_l523emned31w {
+    public QuotationClass_8604_l523emned31w() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_8604_0 = null;
+      SNode quotedNode_8604_fnzw8vi5 = null;
       {
-        quotedNode_8604_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_8604_0 = quotedNode_8604_0;
-        quotedNode1_8604_0.addReference(SReference.create("classifier", quotedNode1_8604_0, SModelReference.fromString("f:java_stub#java.lang(java.lang@java_stub)"), SNodeId.fromString("~Long")));
-        result = quotedNode1_8604_0;
+        quotedNode_8604_fnzw8vi5 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_8604_fnzw8vi5 = quotedNode_8604_fnzw8vi5;
+        quotedNode1_8604_fnzw8vi5.addReference(SReference.create("classifier", quotedNode1_8604_fnzw8vi5, SModelReference.fromString("f:java_stub#java.lang(java.lang@java_stub)"), SNodeId.fromString("~Long")));
+        result = quotedNode1_8604_fnzw8vi5;
       }
       return result;
     }

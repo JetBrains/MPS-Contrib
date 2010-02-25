@@ -16,22 +16,22 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_5020_0(editorContext, node);
+    return this.createCollection_5020_l523emned9rt(editorContext, node);
   }
 
-  private EditorCell createCollection_5020_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_5020_l523emned9rt(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_5020_0");
-    editorCell.addEditorCell(this.createRefCell_5020_0(editorContext, node));
+    editorCell.setCellId("Collection_5020_l523emned9rt");
+    editorCell.addEditorCell(this.createRefCell_5020_l523emned9rq(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefCell_5020_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_5020_l523emned9rq(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("dateTimeProperty");
     provider.setNoTargetText("<no dateTimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimePropetyReferenceOperation_Editor._Inline5020_0());
+    provider.setAuxiliaryCellProvider(new DateTimePropetyReferenceOperation_Editor._Inline5020_l523emned9rr());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -44,8 +44,8 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
     return editorCell;
   }
 
-  public static class _Inline5020_0 extends InlineCellProvider {
-    public _Inline5020_0() {
+  public static class _Inline5020_l523emned9rr extends InlineCellProvider {
+    public _Inline5020_l523emned9rr() {
       super();
     }
 
@@ -54,10 +54,10 @@ public class DateTimePropetyReferenceOperation_Editor extends DefaultNodeEditor 
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_5020_0(editorContext, node);
+      return this.createProperty_5020_l523emned9rs(editorContext, node);
     }
 
-    private EditorCell createProperty_5020_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_5020_l523emned9rs(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

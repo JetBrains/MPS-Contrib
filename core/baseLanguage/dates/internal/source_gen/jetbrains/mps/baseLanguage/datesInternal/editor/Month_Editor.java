@@ -19,28 +19,28 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Month_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9052_0(editorContext, node);
+    return this.createCollection_9052_f8iobydn(editorContext, node);
   }
 
-  private EditorCell createCollection_9052_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9052_f8iobydn(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9052_0");
-    editorCell.addEditorCell(this.createConstant_9052_1(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_9052_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_4(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_9052_3(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_9052_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_2(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_9052_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_5(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9052_3(editorContext, node));
+    editorCell.setCellId("Collection_9052_f8iobydn");
+    editorCell.addEditorCell(this.createConstant_9052_f8iofd6b(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_9052_f8ioc0la(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9052_5x60f2cojpot(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_9052_5x60f2cojpov(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9052_f8ioc5if(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_9052_f8isqkkq(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9052_f8isqr2z(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_9052_f8ioc82s(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9052_5x60f2cojpoy(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9052_f8isqtj7(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9052_f8ioc5if(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_9052_0");
+    editorCell.setCellId("Constant_9052_f8ioc5if");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -51,17 +51,17 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9052_f8iofd6b(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "month");
-    editorCell.setCellId("Constant_9052_1");
+    editorCell.setCellId("Constant_9052_f8iofd6b");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9052_f8isqr2z(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
-    editorCell.setCellId("Constant_9052_2");
+    editorCell.setCellId("Constant_9052_f8isqr2z");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -70,9 +70,9 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_3(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9052_f8isqtj7(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_9052_3");
+    editorCell.setCellId("Constant_9052_f8isqtj7");
     BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -83,9 +83,9 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_4(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9052_5x60f2cojpot(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
-    editorCell.setCellId("Constant_9052_4");
+    editorCell.setCellId("Constant_9052_5x60f2cojpot");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -94,14 +94,14 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9052_5(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9052_5x60f2cojpoy(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "days");
-    editorCell.setCellId("Constant_9052_5");
+    editorCell.setCellId("Constant_9052_5x60f2cojpoy");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_9052_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_9052_f8ioc0la(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -120,7 +120,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_9052_1(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_9052_f8ioc82s(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("days");
     provider.setNoTargetText("<no days>");
@@ -138,7 +138,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_9052_2(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_9052_f8isqkkq(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("shortName");
     provider.setNoTargetText("<no shortName>");
@@ -156,7 +156,7 @@ public class Month_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_9052_3(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_9052_5x60f2cojpov(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("number");
     provider.setNoTargetText("<no number>");

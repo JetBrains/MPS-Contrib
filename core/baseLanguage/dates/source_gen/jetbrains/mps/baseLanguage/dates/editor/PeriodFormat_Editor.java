@@ -24,35 +24,35 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class PeriodFormat_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8828_0(editorContext, node);
+    return this.createCollection_8828_db8n3ny49b7(editorContext, node);
   }
 
-  private EditorCell createCollection_8828_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_8828_db8n3ny49b7(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_8828_0");
-    editorCell.addEditorCell(this.createProperty_8828_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_8828_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8828_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_8828_0(editorContext, node));
+    editorCell.setCellId("Collection_8828_db8n3ny49b7");
+    editorCell.addEditorCell(this.createProperty_8828_db8n3ny49ba(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_8828_db8n3ny49bd(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_8828_db8n3ny49bf(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_8828_db8n3ny49bg(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8828_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_8828_db8n3ny49bf(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_8828_0");
+    editorCell.setCellId("Constant_8828_db8n3ny49bf");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_8828_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new PeriodFormat_Editor.tokenListHandler_8828_0(node, "token", editorContext);
+  private EditorCell createRefNodeList_8828_db8n3ny49bg(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new PeriodFormat_Editor.tokenListHandler_8828_db8n3ny49bg(node, "token", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_token");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createProperty_8828_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_8828_db8n3ny49ba(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("visibility");
     provider.setNoTargetText("<no visibility>");
@@ -71,7 +71,7 @@ public class PeriodFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_8828_1(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_8828_db8n3ny49bd(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -90,8 +90,8 @@ public class PeriodFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class tokenListHandler_8828_0 extends RefNodeListHandler {
-    public tokenListHandler_8828_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class tokenListHandler_8828_db8n3ny49bg extends RefNodeListHandler {
+    public tokenListHandler_8828_db8n3ny49bg(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

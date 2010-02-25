@@ -22,68 +22,68 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_7692_0(editorContext, node);
+    return this.createCollection_7692_9fww3avyk9q(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_7692_2(editorContext, node);
+    return this.createCollection_7692_9fww3avyl8x(editorContext, node);
   }
 
-  private EditorCell createCollection_7692_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_7692_9fww3avyk9q(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_7692_0");
-    editorCell.addEditorCell(this.createRefNode_7692_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7692_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_7692_0(editorContext, node));
-    if (renderingCondition7692_0(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_7692_1(editorContext, node));
+    editorCell.setCellId("Collection_7692_9fww3avyk9q");
+    editorCell.addEditorCell(this.createRefNode_7692_9fww3avyk9t(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7692_9fww3avyka0(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_7692_9fww3avyka1(editorContext, node));
+    if (renderingCondition7692_9fww3avykaa(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_7692_9fww3avyka6(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createCollection_7692_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_7692_9fww3avyka6(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_7692_1");
+    editorCell.setCellId("Collection_7692_9fww3avyka6");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_7692_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_7692_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7692_2(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7692_9fww3avyl8p(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_7692_9fww3avyl8r(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7692_9fww3avyl8w(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_7692_2(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_7692_9fww3avyl8x(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_7692_2");
-    editorCell.addEditorCell(this.createCollection_7692_3(editorContext, node));
+    editorCell.setCellId("Collection_7692_9fww3avyl8x");
+    editorCell.addEditorCell(this.createCollection_7692_9fww3avyl8z(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_7692_3(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_7692_9fww3avyl8z(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_7692_3");
+    editorCell.setCellId("Collection_7692_9fww3avyl8z");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_7692_3(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_7692_2(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_7692_9fww3avyl92(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_7692_9fww3avyl94(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_7692_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_7692_9fww3avyka0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "#");
-    editorCell.setCellId("Constant_7692_0");
+    editorCell.setCellId("Constant_7692_9fww3avyka0");
     FormatPeriodExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_7692_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_7692_9fww3avyl8p(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_7692_1");
+    editorCell.setCellId("Constant_7692_9fww3avyl8p");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
@@ -93,9 +93,9 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7692_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_7692_9fww3avyl8w(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_7692_2");
+    editorCell.setCellId("Constant_7692_9fww3avyl8w");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -105,14 +105,14 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_7692_3(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_7692_9fww3avyl92(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
-    editorCell.setCellId("Constant_7692_3");
+    editorCell.setCellId("Constant_7692_9fww3avyl92");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_7692_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_7692_9fww3avyk9t(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("period");
     provider.setNoTargetText("<no period>");
@@ -129,12 +129,12 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_7692_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_7692_9fww3avyka1(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("format");
     provider.setNoTargetText("<no format>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_0());
+    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_9fww3avyka2());
     editorCell = provider.createEditorCell(editorContext);
     FormatPeriodExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -148,12 +148,12 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_7692_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_7692_9fww3avyl8r(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_1());
+    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_9fww3avyl8s());
     editorCell = provider.createEditorCell(editorContext);
     FormatPeriodExpression_deleteLocale.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -167,12 +167,12 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_7692_2(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_7692_9fww3avyl94(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_2());
+    provider.setAuxiliaryCellProvider(new FormatPeriodExpression_Editor._Inline7692_9fww3avyl95());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -185,12 +185,12 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition7692_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition7692_9fww3avykaa(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
 
-  public static class _Inline7692_0 extends InlineCellProvider {
-    public _Inline7692_0() {
+  public static class _Inline7692_9fww3avyka2 extends InlineCellProvider {
+    public _Inline7692_9fww3avyka2() {
       super();
     }
 
@@ -199,10 +199,10 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_7692_0(editorContext, node);
+      return this.createProperty_7692_9fww3avyka4(editorContext, node);
     }
 
-    private EditorCell createProperty_7692_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_7692_9fww3avyka4(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -222,8 +222,8 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline7692_1 extends InlineCellProvider {
-    public _Inline7692_1() {
+  public static class _Inline7692_9fww3avyl8s extends InlineCellProvider {
+    public _Inline7692_9fww3avyl8s() {
       super();
     }
 
@@ -232,10 +232,10 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_7692_1(editorContext, node);
+      return this.createProperty_7692_9fww3avyl8u(editorContext, node);
     }
 
-    private EditorCell createProperty_7692_1(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_7692_9fww3avyl8u(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -255,8 +255,8 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline7692_2 extends InlineCellProvider {
-    public _Inline7692_2() {
+  public static class _Inline7692_9fww3avyl95 extends InlineCellProvider {
+    public _Inline7692_9fww3avyl95() {
       super();
     }
 
@@ -265,10 +265,10 @@ public class FormatPeriodExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_7692_2(editorContext, node);
+      return this.createProperty_7692_9fww3avyl97(editorContext, node);
     }
 
-    private EditorCell createProperty_7692_2(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_7692_9fww3avyl97(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

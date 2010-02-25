@@ -18,27 +18,27 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class PredefinedPeriodFormat_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3406_0(editorContext, node);
+    return this.createCollection_3406_9fww3avta0z(editorContext, node);
   }
 
-  private EditorCell createCollection_3406_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_3406_9fww3avta0z(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_3406_0");
-    editorCell.addEditorCell(this.createConceptProperty_3406_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_3406_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3406_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_3406_0(editorContext, node));
+    editorCell.setCellId("Collection_3406_9fww3avta0z");
+    editorCell.addEditorCell(this.createConceptProperty_3406_9fww3avta13(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_3406_9fww3avwumt(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3406_9fww3avwumw(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_3406_9fww3avta15(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3406_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_3406_9fww3avwumw(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_3406_0");
+    editorCell.setCellId("Constant_3406_9fww3avwumw");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_3406_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_3406_9fww3avta13(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
@@ -57,7 +57,7 @@ public class PredefinedPeriodFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_3406_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_3406_9fww3avta15(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("formatter");
     provider.setNoTargetText("<no formatter>");
@@ -74,7 +74,7 @@ public class PredefinedPeriodFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_3406_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_3406_9fww3avwumt(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");

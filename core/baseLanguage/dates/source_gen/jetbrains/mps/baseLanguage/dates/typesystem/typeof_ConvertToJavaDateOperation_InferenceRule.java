@@ -26,7 +26,7 @@ public class typeof_ConvertToJavaDateOperation_InferenceRule extends AbstractInf
       SNode _nodeToCheck_1029348928467 = operation;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999070", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999067", true), (SNode) new typeof_ConvertToJavaDateOperation_InferenceRule.QuotationClass_5187_0().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "670620798051999067", true), (SNode) new typeof_ConvertToJavaDateOperation_InferenceRule.QuotationClass_5187_l523emneeymz().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 
@@ -42,19 +42,19 @@ public class typeof_ConvertToJavaDateOperation_InferenceRule extends AbstractInf
     return false;
   }
 
-  public static class QuotationClass_5187_0 {
-    public QuotationClass_5187_0() {
+  public static class QuotationClass_5187_l523emneeymz {
+    public QuotationClass_5187_l523emneeymz() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_5187_0 = null;
+      SNode quotedNode_5187_l523emneet3y = null;
       {
-        quotedNode_5187_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_5187_0 = quotedNode_5187_0;
-        quotedNode1_5187_0.addReference(SReference.create("classifier", quotedNode1_5187_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
-        result = quotedNode1_5187_0;
+        quotedNode_5187_l523emneet3y = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5187_l523emneet3y = quotedNode_5187_l523emneet3y;
+        quotedNode1_5187_l523emneet3y.addReference(SReference.create("classifier", quotedNode1_5187_l523emneet3y, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
+        result = quotedNode1_5187_l523emneet3y;
       }
       return result;
     }
@@ -62,12 +62,12 @@ public class typeof_ConvertToJavaDateOperation_InferenceRule extends AbstractInf
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_5187_0 = null;
+      SNode quotedNode_5187_l523emneet3y = null;
       {
-        quotedNode_5187_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_5187_0 = quotedNode_5187_0;
-        quotedNode1_5187_0.addReference(SReference.create("classifier", quotedNode1_5187_0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
-        result = quotedNode1_5187_0;
+        quotedNode_5187_l523emneet3y = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5187_l523emneet3y = quotedNode_5187_l523emneet3y;
+        quotedNode1_5187_l523emneet3y.addReference(SReference.create("classifier", quotedNode1_5187_l523emneet3y, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
+        result = quotedNode1_5187_l523emneet3y;
       }
       return result;
     }

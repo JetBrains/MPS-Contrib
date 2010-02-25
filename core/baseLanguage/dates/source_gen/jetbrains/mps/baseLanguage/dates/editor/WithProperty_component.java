@@ -22,17 +22,17 @@ public class WithProperty_component extends AbstractCellProvider {
   }
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_7625_0(editorContext, node);
+    return this.createCollection_7625_fta2bgos(editorContext, node);
   }
 
-  private EditorCell createCollection_7625_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_7625_fta2bgos(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_7625_0");
-    editorCell.addEditorCell(this.createRefNode_7625_0(editorContext, node));
+    editorCell.setCellId("Collection_7625_fta2bgos");
+    editorCell.addEditorCell(this.createRefNode_7625_fta33ngz(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_7625_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_7625_fta33ngz(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("operation");
     provider.setNoTargetText("<no operation>");

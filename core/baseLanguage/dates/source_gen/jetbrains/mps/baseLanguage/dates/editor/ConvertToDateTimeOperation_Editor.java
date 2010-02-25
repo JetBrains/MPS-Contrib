@@ -13,10 +13,10 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class ConvertToDateTimeOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createConceptProperty_9742_0(editorContext, node);
+    return this.createConceptProperty_9742_fff8eoju(editorContext, node);
   }
 
-  private EditorCell createConceptProperty_9742_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_9742_fff8eoju(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

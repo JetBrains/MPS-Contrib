@@ -16,22 +16,22 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class DurationTypeReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9617_0(editorContext, node);
+    return this.createCollection_9617_l523emned9ro(editorContext, node);
   }
 
-  private EditorCell createCollection_9617_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9617_l523emned9ro(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9617_0");
-    editorCell.addEditorCell(this.createRefCell_9617_0(editorContext, node));
+    editorCell.setCellId("Collection_9617_l523emned9ro");
+    editorCell.addEditorCell(this.createRefCell_9617_l523emned9rl(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefCell_9617_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_9617_l523emned9rl(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("durationType");
     provider.setNoTargetText("<no durationType>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DurationTypeReference_Editor._Inline9617_0());
+    provider.setAuxiliaryCellProvider(new DurationTypeReference_Editor._Inline9617_l523emned9rm());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -44,8 +44,8 @@ public class DurationTypeReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline9617_0 extends InlineCellProvider {
-    public _Inline9617_0() {
+  public static class _Inline9617_l523emned9rm extends InlineCellProvider {
+    public _Inline9617_l523emned9rm() {
       super();
     }
 
@@ -54,10 +54,10 @@ public class DurationTypeReference_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_9617_0(editorContext, node);
+      return this.createProperty_9617_l523emned9rn(editorContext, node);
     }
 
-    private EditorCell createProperty_9617_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_9617_l523emned9rn(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

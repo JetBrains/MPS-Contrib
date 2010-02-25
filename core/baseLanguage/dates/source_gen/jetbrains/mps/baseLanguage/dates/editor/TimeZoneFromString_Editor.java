@@ -18,22 +18,22 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class TimeZoneFromString_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3128_0(editorContext, node);
+    return this.createCollection_3128_ft746x2c(editorContext, node);
   }
 
-  private EditorCell createCollection_3128_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_3128_ft746x2c(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_3128_0");
-    editorCell.addEditorCell(this.createConstant_3128_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3128_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_3128_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3128_1(editorContext, node));
+    editorCell.setCellId("Collection_3128_ft746x2c");
+    editorCell.addEditorCell(this.createConstant_3128_147xvps10hnp9(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3128_147xvps10deu6(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_3128_ft747dfu(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_3128_147xvps10deu8(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3128_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_3128_147xvps10deu6(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_3128_0");
+    editorCell.setCellId("Constant_3128_147xvps10deu6");
     BaseLanguageStyle_StyleSheet.getBrace(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -44,9 +44,9 @@ public class TimeZoneFromString_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3128_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_3128_147xvps10deu8(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_3128_1");
+    editorCell.setCellId("Constant_3128_147xvps10deu8");
     BaseLanguageStyle_StyleSheet.getBrace(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -56,15 +56,15 @@ public class TimeZoneFromString_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3128_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_3128_147xvps10hnp9(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "timezone");
-    editorCell.setCellId("Constant_3128_2");
+    editorCell.setCellId("Constant_3128_147xvps10hnp9");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_3128_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_3128_ft747dfu(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("string");
     provider.setNoTargetText("<no string>");

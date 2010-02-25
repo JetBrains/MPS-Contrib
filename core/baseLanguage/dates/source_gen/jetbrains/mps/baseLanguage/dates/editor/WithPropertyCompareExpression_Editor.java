@@ -19,39 +19,39 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6938_0(editorContext, node);
+    return this.createCollection_6938_fta042xe(editorContext, node);
   }
 
-  private EditorCell createCollection_6938_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_6938_fta042xe(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_6938_0");
-    editorCell.addEditorCell(this.createComponent_6938_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6938_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_6938_0(editorContext, node));
+    editorCell.setCellId("Collection_6938_fta042xe");
+    editorCell.addEditorCell(this.createComponent_6938_fta2fcjc(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_6938_fta042xf(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_6938_fta042xg(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createComponent_6938_0(EditorContext editorContext, SNode node) {
+  private EditorCell createComponent_6938_fta2fcjc(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new WithProperty_component(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }
 
-  private EditorCell createConstant_6938_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_6938_fta042xf(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "by");
-    editorCell.setCellId("Constant_6938_0");
+    editorCell.setCellId("Constant_6938_fta042xf");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     WithPropertyCompareExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefCell_6938_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_6938_fta042xg(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new WithPropertyCompareExpression_Editor._Inline6938_0());
+    provider.setAuxiliaryCellProvider(new WithPropertyCompareExpression_Editor._Inline6938_fta042xh());
     editorCell = provider.createEditorCell(editorContext);
     WithPropertyCompareExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -65,8 +65,8 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline6938_0 extends InlineCellProvider {
-    public _Inline6938_0() {
+  public static class _Inline6938_fta042xh extends InlineCellProvider {
+    public _Inline6938_fta042xh() {
       super();
     }
 
@@ -75,10 +75,10 @@ public class WithPropertyCompareExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_6938_0(editorContext, node);
+      return this.createProperty_6938_fta042xi(editorContext, node);
     }
 
-    private EditorCell createProperty_6938_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_6938_fta042xi(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("pluralForm");
       provider.setNoTargetText("<no pluralForm>");

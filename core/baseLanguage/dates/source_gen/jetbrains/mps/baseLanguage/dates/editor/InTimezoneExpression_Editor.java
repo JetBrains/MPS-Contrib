@@ -18,32 +18,32 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class InTimezoneExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9626_0(editorContext, node);
+    return this.createCollection_9626_k1ysl5g8j8zl(editorContext, node);
   }
 
-  private EditorCell createCollection_9626_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_9626_k1ysl5g8j8zl(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9626_0");
-    editorCell.addEditorCell(this.createRefNode_9626_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9626_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9626_2(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_9626_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9626_1(editorContext, node));
+    editorCell.setCellId("Collection_9626_k1ysl5g8j8zl");
+    editorCell.addEditorCell(this.createRefNode_9626_k1ysl5g8j8zo(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9626_k1ysl5g8j8zq(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9626_k3b6yd38f4cf(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_9626_k1ysl5g8j8zs(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_9626_k3b6yd38c9q1(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9626_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9626_k1ysl5g8j8zq(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
-    editorCell.setCellId("Constant_9626_0");
+    editorCell.setCellId("Constant_9626_k1ysl5g8j8zq");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_9626_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9626_k3b6yd38c9q1(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_9626_1");
+    editorCell.setCellId("Constant_9626_k3b6yd38c9q1");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -54,16 +54,16 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9626_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_9626_k3b6yd38f4cf(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_9626_2");
+    editorCell.setCellId("Constant_9626_k3b6yd38f4cf");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_9626_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_9626_k1ysl5g8j8zo(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
@@ -80,7 +80,7 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_9626_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_9626_k1ysl5g8j8zs(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("timezone");
     provider.setNoTargetText("<no timezone>");

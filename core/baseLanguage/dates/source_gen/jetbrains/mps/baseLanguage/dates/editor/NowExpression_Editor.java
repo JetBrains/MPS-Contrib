@@ -14,21 +14,21 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class NowExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createConceptProperty_4750_0(editorContext, node);
+    return this.createConceptProperty_4750_fkayi4xr(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createConstant_4750_0(editorContext, node);
+    return this.createConstant_4750_exbjmdq6(editorContext, node);
   }
 
-  private EditorCell createConstant_4750_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_4750_exbjmdq6(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Instance of DateTime corresponding to current moment");
-    editorCell.setCellId("Constant_4750_0");
+    editorCell.setCellId("Constant_4750_exbjmdq6");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_4750_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_4750_fkayi4xr(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

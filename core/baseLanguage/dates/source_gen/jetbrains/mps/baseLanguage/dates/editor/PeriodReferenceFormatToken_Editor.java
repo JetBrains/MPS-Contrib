@@ -20,40 +20,40 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class PeriodReferenceFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_2124_0(editorContext, node);
+    return this.createCollection_2124_1j2xy1etvgowc(editorContext, node);
   }
 
-  private EditorCell createCollection_2124_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_2124_1j2xy1etvgowc(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_2124_0");
-    editorCell.addEditorCell(this.createConstant_2124_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_2124_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_2124_1(editorContext, node));
+    editorCell.setCellId("Collection_2124_1j2xy1etvgowc");
+    editorCell.addEditorCell(this.createConstant_2124_1j2xy1etvgowf(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_2124_1j2xy1etvgowj(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_2124_1j2xy1etvgowh(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2124_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_2124_1j2xy1etvgowf(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
-    editorCell.setCellId("Constant_2124_0");
+    editorCell.setCellId("Constant_2124_1j2xy1etvgowf");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_2124_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_2124_1j2xy1etvgowh(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
-    editorCell.setCellId("Constant_2124_1");
+    editorCell.setCellId("Constant_2124_1j2xy1etvgowh");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefCell_2124_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_2124_1j2xy1etvgowj(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("format");
     provider.setNoTargetText("<no format>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodReferenceFormatToken_Editor._Inline2124_0());
+    provider.setAuxiliaryCellProvider(new PeriodReferenceFormatToken_Editor._Inline2124_1j2xy1etvgowk());
     editorCell = provider.createEditorCell(editorContext);
     {
       Style style = editorCell.getStyle();
@@ -70,8 +70,8 @@ public class PeriodReferenceFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline2124_0 extends InlineCellProvider {
-    public _Inline2124_0() {
+  public static class _Inline2124_1j2xy1etvgowk extends InlineCellProvider {
+    public _Inline2124_1j2xy1etvgowk() {
       super();
     }
 
@@ -80,10 +80,10 @@ public class PeriodReferenceFormatToken_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_2124_0(editorContext, node);
+      return this.createProperty_2124_1j2xy1etvgowm(editorContext, node);
     }
 
-    private EditorCell createProperty_2124_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_2124_1j2xy1etvgowm(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

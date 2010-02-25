@@ -16,26 +16,26 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class DurationType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_7934_0(editorContext, node);
+    return this.createCollection_7934_ezh49m3l(editorContext, node);
   }
 
-  private EditorCell createCollection_7934_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_7934_ezh49m3l(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_7934_0");
-    editorCell.addEditorCell(this.createConstant_7934_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_7934_0(editorContext, node));
+    editorCell.setCellId("Collection_7934_ezh49m3l");
+    editorCell.addEditorCell(this.createConstant_7934_ezh49oct(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_7934_ezh4a2d9(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_7934_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_7934_ezh49oct(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "duration type");
-    editorCell.setCellId("Constant_7934_0");
+    editorCell.setCellId("Constant_7934_ezh49oct");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_7934_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_7934_ezh4a2d9(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("jodaDurationFieldType");
     provider.setNoTargetText("<no jodaDurationFieldType>");

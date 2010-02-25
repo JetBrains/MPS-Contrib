@@ -19,27 +19,27 @@ import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 
 public class PeriodInPropertyExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_0967_0(editorContext, node);
+    return this.createCollection_0967_23pudvo2l69t(editorContext, node);
   }
 
-  private EditorCell createCollection_0967_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_0967_23pudvo2l69t(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_0967_0");
-    editorCell.addEditorCell(this.createRefNode_0967_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_0967_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_0967_0(editorContext, node));
+    editorCell.setCellId("Collection_0967_23pudvo2l69t");
+    editorCell.addEditorCell(this.createRefNode_0967_23pudvo2l69w(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_0967_23pudvo2l6a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_0967_23pudvo2l6a2(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_0967_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_0967_23pudvo2l6a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
-    editorCell.setCellId("Constant_0967_0");
+    editorCell.setCellId("Constant_0967_23pudvo2l6a0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_0967_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_0967_23pudvo2l69w(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("datetime");
     provider.setNoTargetText("<no datetime>");
@@ -56,12 +56,12 @@ public class PeriodInPropertyExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_0967_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_0967_23pudvo2l6a2(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("datetimeProperty");
     provider.setNoTargetText("<no datetimeProperty>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new PeriodInPropertyExpression_Editor._Inline0967_0());
+    provider.setAuxiliaryCellProvider(new PeriodInPropertyExpression_Editor._Inline0967_23pudvo2l6a3());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -74,8 +74,8 @@ public class PeriodInPropertyExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline0967_0 extends InlineCellProvider {
-    public _Inline0967_0() {
+  public static class _Inline0967_23pudvo2l6a3 extends InlineCellProvider {
+    public _Inline0967_23pudvo2l6a3() {
       super();
     }
 
@@ -84,10 +84,10 @@ public class PeriodInPropertyExpression_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_0967_0(editorContext, node);
+      return this.createProperty_0967_23pudvo2l6a5(editorContext, node);
     }
 
-    private EditorCell createProperty_0967_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_0967_23pudvo2l6a5(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("pluralForm");
       provider.setNoTargetText("<no pluralForm>");
