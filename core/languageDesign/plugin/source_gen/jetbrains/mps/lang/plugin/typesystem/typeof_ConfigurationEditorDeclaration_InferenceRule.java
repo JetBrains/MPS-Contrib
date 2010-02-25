@@ -28,7 +28,7 @@ public class typeof_ConfigurationEditorDeclaration_InferenceRule extends Abstrac
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "162872405267677886", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
-      typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(SLinkOperations.getTarget(editor, "editor", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "162872405267677878", true), (SNode) new typeof_ConfigurationEditorDeclaration_InferenceRule.QuotationClass_5371_0().createNode(typeCheckingContext), true, _info_12389875345);
+      typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(SLinkOperations.getTarget(editor, "editor", true), "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "162872405267677878", true), (SNode) new typeof_ConfigurationEditorDeclaration_InferenceRule.QuotationClass_5371_l523emnf2tjg().createNode(typeCheckingContext), true, _info_12389875345);
     }
   }
 
@@ -44,19 +44,19 @@ public class typeof_ConfigurationEditorDeclaration_InferenceRule extends Abstrac
     return false;
   }
 
-  public static class QuotationClass_5371_0 {
-    public QuotationClass_5371_0() {
+  public static class QuotationClass_5371_l523emnf2tjg {
+    public QuotationClass_5371_l523emnf2tjg() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_5371_0 = null;
+      SNode quotedNode_5371_l523emnf2q82 = null;
       {
-        quotedNode_5371_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_5371_0 = quotedNode_5371_0;
-        quotedNode1_5371_0.addReference(SReference.create("classifier", quotedNode1_5371_0, SModelReference.fromString("f:java_stub#javax.swing(javax.swing@java_stub)"), SNodeId.fromString("~JComponent")));
-        result = quotedNode1_5371_0;
+        quotedNode_5371_l523emnf2q82 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5371_l523emnf2q82 = quotedNode_5371_l523emnf2q82;
+        quotedNode1_5371_l523emnf2q82.addReference(SReference.create("classifier", quotedNode1_5371_l523emnf2q82, SModelReference.fromString("f:java_stub#javax.swing(javax.swing@java_stub)"), SNodeId.fromString("~JComponent")));
+        result = quotedNode1_5371_l523emnf2q82;
       }
       return result;
     }
@@ -64,12 +64,12 @@ public class typeof_ConfigurationEditorDeclaration_InferenceRule extends Abstrac
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_5371_0 = null;
+      SNode quotedNode_5371_l523emnf2q82 = null;
       {
-        quotedNode_5371_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_5371_0 = quotedNode_5371_0;
-        quotedNode1_5371_0.addReference(SReference.create("classifier", quotedNode1_5371_0, SModelReference.fromString("f:java_stub#javax.swing(javax.swing@java_stub)"), SNodeId.fromString("~JComponent")));
-        result = quotedNode1_5371_0;
+        quotedNode_5371_l523emnf2q82 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5371_l523emnf2q82 = quotedNode_5371_l523emnf2q82;
+        quotedNode1_5371_l523emnf2q82.addReference(SReference.create("classifier", quotedNode1_5371_l523emnf2q82, SModelReference.fromString("f:java_stub#javax.swing(javax.swing@java_stub)"), SNodeId.fromString("~JComponent")));
+        result = quotedNode1_5371_l523emnf2q82;
       }
       return result;
     }
