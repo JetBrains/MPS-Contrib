@@ -15,34 +15,34 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class LayoutConstraint_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6069_0(editorContext, node);
+    return this.createCollection_fyhbsy_a(editorContext, node);
   }
 
-  private EditorCell createCollection_6069_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_fyhbsy_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_6069_0");
-    editorCell.addEditorCell(this.createConstant_6069_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6069_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_6069_0(editorContext, node));
+    editorCell.setCellId("Collection_fyhbsy_a");
+    editorCell.addEditorCell(this.createConstant_fyhbsy_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_fyhbsy_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_fyhbsy_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6069_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fyhbsy_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "layout constraint");
-    editorCell.setCellId("Constant_6069_0");
+    editorCell.setCellId("Constant_fyhbsy_a0");
     Stylesheet_StyleSheet.getLayoutConstraint(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6069_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fyhbsy_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_6069_1");
+    editorCell.setCellId("Constant_fyhbsy_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_6069_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_fyhbsy_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("constraint");
     provider.setNoTargetText("<no constraint>");

@@ -18,81 +18,81 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class StandardDialogButton_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3931_0(editorContext, node);
+    return this.createCollection_uh1gey_a(editorContext, node);
   }
 
-  private EditorCell createCollection_3931_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_uh1gey_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_3931_0");
+    editorCell.setCellId("Collection_uh1gey_a");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.DRAW_BRACKETS, true);
     }
     editorCell.setGridLayout(true);
-    editorCell.addEditorCell(this.createCollection_3931_1(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_3931_2(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_3931_3(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_uh1gey_a0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_uh1gey_b0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_uh1gey_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3931_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_uh1gey_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_3931_1");
+    editorCell.setCellId("Collection_uh1gey_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_3931_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_3931_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_uh1gey_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_uh1gey_b0a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3931_2(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_uh1gey_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_3931_2");
+    editorCell.setCellId("Collection_uh1gey_b0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_3931_1(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_3931_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_uh1gey_a1a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_uh1gey_b1a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3931_3(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_uh1gey_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_3931_3");
+    editorCell.setCellId("Collection_uh1gey_c0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_3931_2(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_3931_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_uh1gey_a2a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_uh1gey_b2a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3931_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_uh1gey_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "button:");
-    editorCell.setCellId("Constant_3931_0");
+    editorCell.setCellId("Constant_uh1gey_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3931_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_uh1gey_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "default:");
-    editorCell.setCellId("Constant_3931_1");
+    editorCell.setCellId("Constant_uh1gey_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3931_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_uh1gey_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "handler:");
-    editorCell.setCellId("Constant_3931_2");
+    editorCell.setCellId("Constant_uh1gey_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_3931_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_uh1gey_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");
     provider.setNoTargetText("<no text>");
@@ -110,7 +110,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_3931_1(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_uh1gey_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("isDefault");
     provider.setNoTargetText("<no isDefault>");
@@ -128,7 +128,7 @@ public class StandardDialogButton_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_3931_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_uh1gey_b2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("handler");
     provider.setNoTargetText("<no handler>");

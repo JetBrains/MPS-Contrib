@@ -19,24 +19,24 @@ import jetbrains.mps.smodel.SNodeId;
 public class ListElements_Constraints {
   public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance")) {
-      return SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance"), "componentDeclaration", false) == SLinkOperations.getTarget(new ListElements_Constraints.QuotationClass_1452_0().createNode(), "componentDeclaration", false);
+      return SLinkOperations.getTarget(SNodeOperations.cast(_context.getParentNode(), "jetbrains.mps.uiLanguage.structure.ComponentInstance"), "componentDeclaration", false) == SLinkOperations.getTarget(new ListElements_Constraints.QuotationClass_fpzj2u_a0a0a0a0a().createNode(), "componentDeclaration", false);
     }
     return false;
   }
 
-  public static class QuotationClass_1452_0 {
-    public QuotationClass_1452_0() {
+  public static class QuotationClass_fpzj2u_a0a0a0a0a {
+    public QuotationClass_fpzj2u_a0a0a0a0a() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1452_0 = null;
+      SNode quotedNode_fpzj2u_a0a0a0a0a = null;
       {
-        quotedNode_1452_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_1452_0 = quotedNode_1452_0;
-        quotedNode1_1452_0.addReference(SReference.create("componentDeclaration", quotedNode1_1452_0, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1203082515478")));
-        result = quotedNode1_1452_0;
+        quotedNode_fpzj2u_a0a0a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_fpzj2u_a0a0a0a0a = quotedNode_fpzj2u_a0a0a0a0a;
+        quotedNode1_fpzj2u_a0a0a0a0a.addReference(SReference.create("componentDeclaration", quotedNode1_fpzj2u_a0a0a0a0a, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1203082515478")));
+        result = quotedNode1_fpzj2u_a0a0a0a0a;
       }
       return result;
     }

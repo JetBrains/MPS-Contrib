@@ -23,71 +23,71 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Grid_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3546_0(editorContext, node);
+    return this.createCollection_koct37_a(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3546_2(editorContext, node);
+    return this.createCollection_koct37_a_0(editorContext, node);
   }
 
-  private EditorCell createCollection_3546_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_koct37_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_3546_0");
-    editorCell.addEditorCell(this.createConstant_3546_0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_3546_1(editorContext, node));
+    editorCell.setCellId("Collection_koct37_a");
+    editorCell.addEditorCell(this.createConstant_koct37_a0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_koct37_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3546_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_koct37_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_3546_1");
+    editorCell.setCellId("Collection_koct37_b0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createIndentCell3546_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_3546_0(editorContext, node));
+    editorCell.addEditorCell(this.createIndentCell_koct37_a1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_koct37_b1a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_3546_2(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_koct37_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_3546_2");
-    editorCell.addEditorCell(this.createRefNodeList_3546_1(editorContext, node));
+    editorCell.setCellId("Collection_koct37_a_0");
+    editorCell.addEditorCell(this.createRefNodeList_koct37_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3546_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_koct37_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Grid");
-    editorCell.setCellId("Constant_3546_0");
+    editorCell.setCellId("Constant_koct37_a0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3546_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Grid_Editor.rowListHandler_3546_0(node, "row", editorContext);
+  private EditorCell createRefNodeList_koct37_b1a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Grid_Editor.rowListHandler_koct37_b1a(node, "row", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_row");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3546_1(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Grid_Editor.contentListHandler_3546_0(node, "content", editorContext);
+  private EditorCell createRefNodeList_koct37_a0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Grid_Editor.contentListHandler_koct37_a0(node, "content", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_content");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createIndentCell3546_0(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_koct37_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private static class rowListHandler_3546_0 extends RefNodeListHandler {
-    public rowListHandler_3546_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class rowListHandler_koct37_b1a extends RefNodeListHandler {
+    public rowListHandler_koct37_b1a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -128,8 +128,8 @@ public class Grid_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static class contentListHandler_3546_0 extends RefNodeListHandler {
-    public contentListHandler_3546_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class contentListHandler_koct37_a0 extends RefNodeListHandler {
+    public contentListHandler_koct37_a0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

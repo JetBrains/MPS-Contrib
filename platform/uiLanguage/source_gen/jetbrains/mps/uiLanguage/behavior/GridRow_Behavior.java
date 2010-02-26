@@ -26,24 +26,24 @@ public class GridRow_Behavior {
     List<SNode> result = new ArrayList<SNode>();
     ListSequence.fromList(result).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)));
     for (int i = 0; i < columnCount - ListSequence.fromList(SLinkOperations.getTargets(thisNode, "component", true)).count(); i++) {
-      ListSequence.fromList(result).addElement(new GridRow_Behavior.QuotationClass_2877_0().createNode());
+      ListSequence.fromList(result).addElement(new GridRow_Behavior.QuotationClass_cglpzy_a0a0a0d0b().createNode());
     }
     return result;
   }
 
-  public static class QuotationClass_2877_0 {
-    public QuotationClass_2877_0() {
+  public static class QuotationClass_cglpzy_a0a0a0d0b {
+    public QuotationClass_cglpzy_a0a0a0d0b() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_2877_0 = null;
+      SNode quotedNode_cglpzy_a0a0a0d0a = null;
       {
-        quotedNode_2877_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_2877_0 = quotedNode_2877_0;
-        quotedNode1_2877_0.addReference(SReference.create("componentDeclaration", quotedNode1_2877_0, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1202816402995")));
-        result = quotedNode1_2877_0;
+        quotedNode_cglpzy_a0a0a0d0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_cglpzy_a0a0a0d0a = quotedNode_cglpzy_a0a0a0d0a;
+        quotedNode1_cglpzy_a0a0a0d0a.addReference(SReference.create("componentDeclaration", quotedNode1_cglpzy_a0a0a0d0a, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1202816402995")));
+        result = quotedNode1_cglpzy_a0a0a0d0a;
       }
       return result;
     }

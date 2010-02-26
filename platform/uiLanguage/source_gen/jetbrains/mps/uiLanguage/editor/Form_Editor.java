@@ -22,52 +22,52 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class Form_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_1176_0(editorContext, node);
+    return this.createCollection_317s4_a(editorContext, node);
   }
 
-  private EditorCell createCollection_1176_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_317s4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_1176_0");
-    editorCell.addEditorCell(this.createConstant_1176_0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_1176_1(editorContext, node));
+    editorCell.setCellId("Collection_317s4_a");
+    editorCell.addEditorCell(this.createConstant_317s4_a0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_317s4_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_1176_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_317s4_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_1176_1");
+    editorCell.setCellId("Collection_317s4_b0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createIndentCell1176_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_1176_0(editorContext, node));
+    editorCell.addEditorCell(this.createIndentCell_317s4_a1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_317s4_b1a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_1176_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_317s4_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Form");
-    editorCell.setCellId("Constant_1176_0");
+    editorCell.setCellId("Constant_317s4_a0");
     Stylesheet_StyleSheet.getComponent(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_1176_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new Form_Editor.partListHandler_1176_0(node, "part", editorContext);
+  private EditorCell createRefNodeList_317s4_b1a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new Form_Editor.partListHandler_317s4_b1a(node, "part", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_part");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createIndentCell1176_0(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_317s4_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private static class partListHandler_1176_0 extends RefNodeListHandler {
-    public partListHandler_1176_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class partListHandler_317s4_b1a extends RefNodeListHandler {
+    public partListHandler_317s4_b1a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
