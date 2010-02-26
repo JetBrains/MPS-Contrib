@@ -16,31 +16,31 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class SchedulePeriod_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8932_0(editorContext, node);
+    return this.createCollection_fh3pre_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8932_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_fh3pre_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8932_0");
-    editorCell.addEditorCell(this.createProperty_8932_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8932_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_8932_1(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_8932_2(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_8932_3(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_8932_4(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_8932_5(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_8932_6(editorContext, node));
+    editorCell.setCellId("Collection_fh3pre_a");
+    editorCell.addEditorCell(this.createProperty_fh3pre_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_fh3pre_b0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fh3pre_c0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fh3pre_d0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fh3pre_e0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fh3pre_f0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fh3pre_g0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fh3pre_h0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8932_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fh3pre_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_8932_0");
+    editorCell.setCellId("Constant_fh3pre_b0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_8932_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fh3pre_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -59,7 +59,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_8932_1(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fh3pre_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("month");
     provider.setNoTargetText("<no month>");
@@ -77,7 +77,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_8932_2(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fh3pre_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("dayOfMonth");
     provider.setNoTargetText("<no dayOfMonth>");
@@ -95,7 +95,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_8932_3(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fh3pre_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("dayOfWeek");
     provider.setNoTargetText("<no dayOfWeek>");
@@ -113,7 +113,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_8932_4(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fh3pre_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("hour");
     provider.setNoTargetText("<no hour>");
@@ -131,7 +131,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_8932_5(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fh3pre_g0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("minute");
     provider.setNoTargetText("<no minute>");
@@ -149,7 +149,7 @@ public class SchedulePeriod_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_8932_6(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fh3pre_h0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("second");
     provider.setNoTargetText("<no second>");

@@ -16,26 +16,26 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class PredefinedDateFormat_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_0047_0(editorContext, node);
+    return this.createCollection_rn1au8_a(editorContext, node);
   }
 
-  private EditorCell createCollection_0047_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_rn1au8_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_0047_0");
-    editorCell.addEditorCell(this.createConstant_0047_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_0047_0(editorContext, node));
+    editorCell.setCellId("Collection_rn1au8_a");
+    editorCell.addEditorCell(this.createConstant_rn1au8_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_rn1au8_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_0047_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_rn1au8_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "predefined format");
-    editorCell.setCellId("Constant_0047_0");
+    editorCell.setCellId("Constant_rn1au8_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_0047_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_rn1au8_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("formatter");
     provider.setNoTargetText("<no formatter>");
