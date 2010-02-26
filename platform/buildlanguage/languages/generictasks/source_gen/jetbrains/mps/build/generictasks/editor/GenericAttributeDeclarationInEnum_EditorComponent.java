@@ -25,29 +25,29 @@ public class GenericAttributeDeclarationInEnum_EditorComponent extends AbstractC
   }
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4612_0(editorContext, node);
+    return this.createCollection_pdjfsm_a(editorContext, node);
   }
 
-  private EditorCell createCollection_4612_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_pdjfsm_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_4612_0");
-    if (renderingCondition4612_0(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createConstant_4612_0(editorContext, node));
+    editorCell.setCellId("Collection_pdjfsm_a");
+    if (renderingCondition_pdjfsm_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createConstant_pdjfsm_a0(editorContext, node));
     }
-    if (renderingCondition4612_1(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createRefNode_4612_0(editorContext, node));
+    if (renderingCondition_pdjfsm_a1a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createRefNode_pdjfsm_b0(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createConstant_4612_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_pdjfsm_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
-    editorCell.setCellId("Constant_4612_0");
+    editorCell.setCellId("Constant_pdjfsm_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_4612_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_pdjfsm_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("enum");
     provider.setNoTargetText("<no enum>");
@@ -64,11 +64,11 @@ public class GenericAttributeDeclarationInEnum_EditorComponent extends AbstractC
     return editorCell;
   }
 
-  private static boolean renderingCondition4612_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_pdjfsm_a0a(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }
 
-  private static boolean renderingCondition4612_1(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_pdjfsm_a1a(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "enum", true) != null) || editorContext.isInspector();
   }
 }
