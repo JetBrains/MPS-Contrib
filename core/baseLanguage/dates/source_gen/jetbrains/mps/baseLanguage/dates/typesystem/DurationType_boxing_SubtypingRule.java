@@ -16,7 +16,7 @@ import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.project.GlobalScope;
 
 public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
-  private static SNodePointer SNODE_POINTER1 = new SNodePointer("f:java_stub#java.lang(java.lang@java_stub)", "~Long");
+  private static SNodePointer SNODE_POINTER__0 = new SNodePointer("f:java_stub#java.lang(java.lang@java_stub)", "~Long");
 
   /*package*/ GeneratedMatchingPattern myMatchingPattern;
 
@@ -24,7 +24,7 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   }
 
   public SNode getSubOrSuperType(SNode longClassifier, TypeCheckingContext typeCheckingContext) {
-    return new DurationType_boxing_SubtypingRule.QuotationClass_3700_0().createNode(typeCheckingContext);
+    return new DurationType_boxing_SubtypingRule.QuotationClass_jq3mqm_a0a0a().createNode(typeCheckingContext);
   }
 
   public String getApplicableConceptFQName() {
@@ -32,7 +32,7 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
   }
 
   public boolean isApplicable(SNode argument) {
-    this.myMatchingPattern = new DurationType_boxing_SubtypingRule.Pattern_3700_0();
+    this.myMatchingPattern = new DurationType_boxing_SubtypingRule.Pattern_jq3mqm_a0a0a0a2();
     return this.myMatchingPattern.match(argument);
   }
 
@@ -40,21 +40,21 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     return true;
   }
 
-  public static class Pattern_3700_0 extends GeneratedMatchingPattern implements IMatchingPattern {
-    public Pattern_3700_0() {
+  public static class Pattern_jq3mqm_a0a0a0a2 extends GeneratedMatchingPattern implements IMatchingPattern {
+    public Pattern_jq3mqm_a0a0a0a2() {
     }
 
     public boolean match(SNode nodeToMatch) {
       {
-        SNode nodeToMatch_8296_0;
-        nodeToMatch_8296_0 = nodeToMatch;
-        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_8296_0.getConceptFqName()))) {
+        SNode nodeToMatch_etxu84_a0a;
+        nodeToMatch_etxu84_a0a = nodeToMatch;
+        if (!("jetbrains.mps.baseLanguage.structure.ClassifierType".equals(nodeToMatch_etxu84_a0a.getConceptFqName()))) {
           return false;
         }
         {
           SNode referent;
-          referent = SNODE_POINTER1.getNode();
-          if (nodeToMatch_8296_0.getReferent("classifier") != referent) {
+          referent = SNODE_POINTER__0.getNode();
+          if (nodeToMatch_etxu84_a0a.getReferent("classifier") != referent) {
             return false;
           }
         }
@@ -74,18 +74,18 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     }
   }
 
-  public static class QuotationClass_3700_0 {
-    public QuotationClass_3700_0() {
+  public static class QuotationClass_jq3mqm_a0a0a {
+    public QuotationClass_jq3mqm_a0a0a() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3700_0 = null;
+      SNode quotedNode_jq3mqm_a0a0a = null;
       {
-        quotedNode_3700_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3700_0 = quotedNode_3700_0;
-        result = quotedNode1_3700_0;
+        quotedNode_jq3mqm_a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_jq3mqm_a0a0a = quotedNode_jq3mqm_a0a0a;
+        result = quotedNode1_jq3mqm_a0a0a;
       }
       return result;
     }
@@ -93,11 +93,11 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3700_0 = null;
+      SNode quotedNode_jq3mqm_a0a0a = null;
       {
-        quotedNode_3700_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3700_0 = quotedNode_3700_0;
-        result = quotedNode1_3700_0;
+        quotedNode_jq3mqm_a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_jq3mqm_a0a0a = quotedNode_jq3mqm_a0a0a;
+        result = quotedNode1_jq3mqm_a0a0a;
       }
       return result;
     }

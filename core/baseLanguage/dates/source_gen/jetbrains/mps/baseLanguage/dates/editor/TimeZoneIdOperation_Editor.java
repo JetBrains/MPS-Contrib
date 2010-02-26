@@ -15,17 +15,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class TimeZoneIdOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8361_0(editorContext, node);
+    return this.createCollection_8oshgc_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8361_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_8oshgc_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_8361_0");
-    editorCell.addEditorCell(this.createConceptProperty_8361_0(editorContext, node));
+    editorCell.setCellId("Collection_8oshgc_a");
+    editorCell.addEditorCell(this.createConceptProperty_8oshgc_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_8361_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_8oshgc_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

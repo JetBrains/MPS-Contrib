@@ -20,17 +20,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class LiteralFormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6535_0(editorContext, node);
+    return this.createCollection_y7t7rg_a(editorContext, node);
   }
 
-  private EditorCell createCollection_6535_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_y7t7rg_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_6535_0");
-    editorCell.addEditorCell(this.createProperty_6535_0(editorContext, node));
+    editorCell.setCellId("Collection_y7t7rg_a");
+    editorCell.addEditorCell(this.createProperty_y7t7rg_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createProperty_6535_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_y7t7rg_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("value");
     provider.setNoTargetText("<no value>");

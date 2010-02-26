@@ -26,31 +26,31 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class PeriodFormatsTable_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_0535_0(editorContext, node);
+    return this.createCollection_y97r7g_a(editorContext, node);
   }
 
-  private EditorCell createCollection_0535_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_y97r7g_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_0535_0");
-    editorCell.addEditorCell(this.createConstant_0535_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_0535_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_0535_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_0535_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_0535_2(editorContext, node));
+    editorCell.setCellId("Collection_y97r7g_a");
+    editorCell.addEditorCell(this.createConstant_y97r7g_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_y97r7g_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_y97r7g_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_y97r7g_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_y97r7g_e0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_0535_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_y97r7g_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "period formats");
-    editorCell.setCellId("Constant_0535_0");
+    editorCell.setCellId("Constant_y97r7g_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_0535_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_y97r7g_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
-    editorCell.setCellId("Constant_0535_1");
+    editorCell.setCellId("Constant_y97r7g_c0");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -60,16 +60,16 @@ public class PeriodFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_0535_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_y97r7g_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
-    editorCell.setCellId("Constant_0535_2");
+    editorCell.setCellId("Constant_y97r7g_e0");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_0535_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new PeriodFormatsTable_Editor.periodFormatListHandler_0535_0(node, "periodFormat", editorContext);
+  private EditorCell createRefNodeList_y97r7g_d0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new PeriodFormatsTable_Editor.periodFormatListHandler_y97r7g_d0(node, "periodFormat", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_periodFormat");
     {
@@ -82,7 +82,7 @@ public class PeriodFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_0535_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_y97r7g_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("name");
     provider.setNoTargetText("<no name>");
@@ -100,8 +100,8 @@ public class PeriodFormatsTable_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class periodFormatListHandler_0535_0 extends RefNodeListHandler {
-    public periodFormatListHandler_0535_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class periodFormatListHandler_y97r7g_d0 extends RefNodeListHandler {
+    public periodFormatListHandler_y97r7g_d0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

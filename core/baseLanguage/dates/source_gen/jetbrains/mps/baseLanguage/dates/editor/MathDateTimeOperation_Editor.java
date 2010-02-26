@@ -19,22 +19,22 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class MathDateTimeOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_5464_0(editorContext, node);
+    return this.createCollection_egbayc_a(editorContext, node);
   }
 
-  private EditorCell createCollection_5464_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_egbayc_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_5464_0");
-    editorCell.addEditorCell(this.createConceptProperty_5464_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_5464_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_5464_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_5464_1(editorContext, node));
+    editorCell.setCellId("Collection_egbayc_a");
+    editorCell.addEditorCell(this.createConceptProperty_egbayc_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_egbayc_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_egbayc_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_egbayc_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_5464_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_egbayc_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ", ");
-    editorCell.setCellId("Constant_5464_0");
+    editorCell.setCellId("Constant_egbayc_c0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -44,7 +44,7 @@ public class MathDateTimeOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_5464_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_egbayc_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
@@ -63,7 +63,7 @@ public class MathDateTimeOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_5464_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_egbayc_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("leftExpression");
     provider.setNoTargetText("<no leftExpression>");
@@ -80,7 +80,7 @@ public class MathDateTimeOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_5464_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_egbayc_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rightExpression");
     provider.setNoTargetText("<no rightExpression>");

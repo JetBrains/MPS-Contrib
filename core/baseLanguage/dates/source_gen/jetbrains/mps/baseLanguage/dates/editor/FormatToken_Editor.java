@@ -10,12 +10,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 
 public class FormatToken_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createError_3286_0(editorContext, node);
+    return this.createError_ilswth_a(editorContext, node);
   }
 
-  private EditorCell createError_3286_0(EditorContext editorContext, SNode node) {
+  private EditorCell createError_ilswth_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "format token");
-    editorCell.setCellId("Error_3286_0");
+    editorCell.setCellId("Error_ilswth_a");
     return editorCell;
   }
 }

@@ -14,17 +14,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class AllTimeZonesConstant_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6735_0(editorContext, node);
+    return this.createCollection_b8qhz_a(editorContext, node);
   }
 
-  private EditorCell createCollection_6735_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_b8qhz_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_6735_0");
-    editorCell.addEditorCell(this.createConceptProperty_6735_0(editorContext, node));
+    editorCell.setCellId("Collection_b8qhz_a");
+    editorCell.addEditorCell(this.createConceptProperty_b8qhz_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_6735_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_b8qhz_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

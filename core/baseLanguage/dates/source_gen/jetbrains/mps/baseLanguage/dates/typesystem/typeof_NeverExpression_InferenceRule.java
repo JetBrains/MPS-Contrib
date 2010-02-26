@@ -23,7 +23,7 @@ public class typeof_NeverExpression_InferenceRule extends AbstractInferenceRule_
       SNode _nodeToCheck_1029348928467 = expression;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238088382562", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238088376856", true), (SNode) new typeof_NeverExpression_InferenceRule.QuotationClass_1604_0().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895903d1(jetbrains.mps.baseLanguage.dates.typesystem)", "1238088376856", true), (SNode) new typeof_NeverExpression_InferenceRule.QuotationClass_wu1r2e_a0a0a0().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 
@@ -39,18 +39,18 @@ public class typeof_NeverExpression_InferenceRule extends AbstractInferenceRule_
     return false;
   }
 
-  public static class QuotationClass_1604_0 {
-    public QuotationClass_1604_0() {
+  public static class QuotationClass_wu1r2e_a0a0a0 {
+    public QuotationClass_wu1r2e_a0a0a0() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1604_0 = null;
+      SNode quotedNode_wu1r2e_a0a0a0 = null;
       {
-        quotedNode_1604_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_1604_0 = quotedNode_1604_0;
-        result = quotedNode1_1604_0;
+        quotedNode_wu1r2e_a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_wu1r2e_a0a0a0 = quotedNode_wu1r2e_a0a0a0;
+        result = quotedNode1_wu1r2e_a0a0a0;
       }
       return result;
     }
@@ -58,11 +58,11 @@ public class typeof_NeverExpression_InferenceRule extends AbstractInferenceRule_
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_1604_0 = null;
+      SNode quotedNode_wu1r2e_a0a0a0 = null;
       {
-        quotedNode_1604_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_1604_0 = quotedNode_1604_0;
-        result = quotedNode1_1604_0;
+        quotedNode_wu1r2e_a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_wu1r2e_a0a0a0 = quotedNode_wu1r2e_a0a0a0;
+        result = quotedNode1_wu1r2e_a0a0a0;
       }
       return result;
     }

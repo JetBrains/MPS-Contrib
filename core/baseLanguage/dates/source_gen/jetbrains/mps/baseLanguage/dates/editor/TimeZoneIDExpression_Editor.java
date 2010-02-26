@@ -22,17 +22,17 @@ import java.util.ArrayList;
 
 public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_5584_0(editorContext, node);
+    return this.createCollection_dukjzk_a(editorContext, node);
   }
 
-  private EditorCell createCollection_5584_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_dukjzk_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_5584_0");
-    editorCell.addEditorCell(this.createProperty_5584_0(editorContext, node));
+    editorCell.setCellId("Collection_dukjzk_a");
+    editorCell.addEditorCell(this.createProperty_dukjzk_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createProperty_5584_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_dukjzk_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("timezone_id");
     provider.setNoTargetText("<no timezone_id>");
@@ -41,7 +41,7 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_timezone_id");
     Dates_StyleSheet.getDateProperty(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new TimeZoneIDExpression_Editor.TimeZoneIDExpression_timezone_id_cellMenu0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new TimeZoneIDExpression_Editor.TimeZoneIDExpression_timezone_id_cellMenu_a0a0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -52,8 +52,8 @@ public class TimeZoneIDExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class TimeZoneIDExpression_timezone_id_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
-    public TimeZoneIDExpression_timezone_id_cellMenu0() {
+  public static class TimeZoneIDExpression_timezone_id_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
+    public TimeZoneIDExpression_timezone_id_cellMenu_a0a0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {

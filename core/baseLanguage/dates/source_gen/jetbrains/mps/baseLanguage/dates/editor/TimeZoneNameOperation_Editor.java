@@ -29,76 +29,76 @@ import java.util.ArrayList;
 
 public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4167_0(editorContext, node);
+    return this.createCollection_vkak8k_a(editorContext, node);
   }
 
   public EditorCell createInspectedCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4167_2(editorContext, node);
+    return this.createCollection_vkak8k_a_0(editorContext, node);
   }
 
-  private EditorCell createCollection_4167_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_vkak8k_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4167_0");
-    editorCell.addEditorCell(this.createProperty_4167_3(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4167_7(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4167_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_4167_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4167_1(editorContext, node));
-    if (renderingCondition4167_0(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_4167_1(editorContext, node));
+    editorCell.setCellId("Collection_vkak8k_a");
+    editorCell.addEditorCell(this.createProperty_vkak8k_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_vkak8k_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_e0(editorContext, node));
+    if (renderingCondition_vkak8k_a5a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_vkak8k_f0(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createCollection_4167_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_vkak8k_f0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4167_1");
+    editorCell.setCellId("Collection_vkak8k_f0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_4167_2(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4167_5(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_4167_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4167_6(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_a5a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_b5a(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_vkak8k_c5a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_d5a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4167_2(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_vkak8k_a_0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_4167_2");
-    editorCell.addEditorCell(this.createCollection_4167_3(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_4167_4(editorContext, node));
+    editorCell.setCellId("Collection_vkak8k_a_0");
+    editorCell.addEditorCell(this.createCollection_vkak8k_a0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_vkak8k_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4167_3(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_vkak8k_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4167_3");
+    editorCell.setCellId("Collection_vkak8k_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_4167_3(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_4167_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_vkak8k_b0a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_4167_4(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_vkak8k_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4167_4");
+    editorCell.setCellId("Collection_vkak8k_b0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_4167_4(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_4167_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vkak8k_a1a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_vkak8k_b1a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_4167_0");
+    editorCell.setCellId("Constant_vkak8k_c0");
     BaseLanguageStyle_StyleSheet.getLeftBrace(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -109,9 +109,9 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_4167_1");
+    editorCell.setCellId("Constant_vkak8k_e0");
     BaseLanguageStyle_StyleSheet.getRightBrace(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -121,31 +121,31 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_a5a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
-    editorCell.setCellId("Constant_4167_2");
+    editorCell.setCellId("Constant_vkak8k_a5a");
     Dates_StyleSheet.getDateCompactKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_3(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "locale");
-    editorCell.setCellId("Constant_4167_3");
+    editorCell.setCellId("Constant_vkak8k_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_4(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "short");
-    editorCell.setCellId("Constant_4167_4");
+    editorCell.setCellId("Constant_vkak8k_a1a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_5(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_b5a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_4167_5");
+    editorCell.setCellId("Constant_vkak8k_b5a");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_RIGHT, true);
@@ -154,9 +154,9 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_6(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_d5a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_4167_6");
+    editorCell.setCellId("Constant_vkak8k_d5a");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -165,15 +165,15 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_4167_7(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vkak8k_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "at");
-    editorCell.setCellId("Constant_4167_7");
+    editorCell.setCellId("Constant_vkak8k_b0");
     BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_4167_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_vkak8k_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("instant");
     provider.setNoTargetText("<no instant>");
@@ -190,7 +190,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_4167_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_vkak8k_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("property");
     provider.setNoTargetText("<no property>");
@@ -208,12 +208,12 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_4167_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_vkak8k_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline4167_0());
+    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a1a0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -226,12 +226,12 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_4167_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_vkak8k_c5a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("locale");
     provider.setNoTargetText("<no locale>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline4167_1());
+    provider.setAuxiliaryCellProvider(new TimeZoneNameOperation_Editor._Inline_vkak8k_a2f0());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -244,7 +244,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_4167_3(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_vkak8k_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("property");
     provider.setNoTargetText("<no property>");
@@ -253,7 +253,7 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     editorCell.setCellId("property_property_1");
     BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new TimeZoneNameOperation_Editor.TimeZoneNameOperation_property_cellMenu0()}));
+    editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new TimeZoneNameOperation_Editor.TimeZoneNameOperation_property_cellMenu_a0a0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
     if (attributeConcept != null) {
@@ -264,12 +264,12 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition4167_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_vkak8k_a5a(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "locale", false) != null);
   }
 
-  public static class _Inline4167_0 extends InlineCellProvider {
-    public _Inline4167_0() {
+  public static class _Inline_vkak8k_a1a0 extends InlineCellProvider {
+    public _Inline_vkak8k_a1a0() {
       super();
     }
 
@@ -278,10 +278,10 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_4167_2(editorContext, node);
+      return this.createProperty_vkak8k_a0b0a(editorContext, node);
     }
 
-    private EditorCell createProperty_4167_2(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_vkak8k_a0b0a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -301,8 +301,8 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline4167_1 extends InlineCellProvider {
-    public _Inline4167_1() {
+  public static class _Inline_vkak8k_a2f0 extends InlineCellProvider {
+    public _Inline_vkak8k_a2f0() {
       super();
     }
 
@@ -311,10 +311,10 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_4167_1(editorContext, node);
+      return this.createProperty_vkak8k_a0c5a(editorContext, node);
     }
 
-    private EditorCell createProperty_4167_1(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_vkak8k_a0c5a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -334,8 +334,8 @@ public class TimeZoneNameOperation_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class TimeZoneNameOperation_property_cellMenu0 extends AbstractCellMenuPart_PropertyValues {
-    public TimeZoneNameOperation_property_cellMenu0() {
+  public static class TimeZoneNameOperation_property_cellMenu_a0a0 extends AbstractCellMenuPart_PropertyValues {
+    public TimeZoneNameOperation_property_cellMenu_a0a0() {
     }
 
     public List<String> getPropertyValues(SNode node, IScope scope, IOperationContext operationContext) {
