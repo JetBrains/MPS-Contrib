@@ -23,42 +23,42 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GConditionalLine_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_7239_0(editorContext, node);
+    return this.createCollection_mvxs3g_a(editorContext, node);
   }
 
-  private EditorCell createCollection_7239_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_mvxs3g_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_7239_0");
-    editorCell.addEditorCell(this.createConstant_7239_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_7239_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_7239_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_7239_0(editorContext, node));
+    editorCell.setCellId("Collection_mvxs3g_a");
+    editorCell.addEditorCell(this.createConstant_mvxs3g_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_mvxs3g_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_mvxs3g_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_mvxs3g_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_7239_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_mvxs3g_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
-    editorCell.setCellId("Constant_7239_0");
+    editorCell.setCellId("Constant_mvxs3g_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_7239_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_mvxs3g_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "?");
-    editorCell.setCellId("Constant_7239_1");
+    editorCell.setCellId("Constant_mvxs3g_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_7239_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new GConditionalLine_Editor.itemListHandler_7239_0(node, "item", editorContext);
+  private EditorCell createRefNodeList_mvxs3g_d0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new GConditionalLine_Editor.itemListHandler_mvxs3g_d0(node, "item", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_item");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createProperty_7239_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_mvxs3g_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("isSeparate");
     provider.setNoTargetText("<no isSeparate>");
@@ -76,8 +76,8 @@ public class GConditionalLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class itemListHandler_7239_0 extends RefNodeListHandler {
-    public itemListHandler_7239_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class itemListHandler_mvxs3g_d0 extends RefNodeListHandler {
+    public itemListHandler_mvxs3g_d0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

@@ -10,12 +10,12 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_Error;
 
 public class AttributeExpression_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createError_3976_0(editorContext, node);
+    return this.createError_8th4ak_a(editorContext, node);
   }
 
-  private EditorCell createError_3976_0(EditorContext editorContext, SNode node) {
+  private EditorCell createError_8th4ak_a(EditorContext editorContext, SNode node) {
     EditorCell_Error editorCell = new EditorCell_Error(editorContext, node, "attributeExpression");
-    editorCell.setCellId("Error_3976_0");
+    editorCell.setCellId("Error_8th4ak_a");
     return editorCell;
   }
 }

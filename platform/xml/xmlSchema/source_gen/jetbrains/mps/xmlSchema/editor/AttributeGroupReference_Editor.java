@@ -20,22 +20,22 @@ import jetbrains.mps.nodeEditor.MPSColors;
 
 public class AttributeGroupReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_7844_0(editorContext, node);
+    return this.createCollection_2syzia_a(editorContext, node);
   }
 
-  private EditorCell createCollection_7844_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_2syzia_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_7844_0");
-    editorCell.addEditorCell(this.createRefCell_7844_0(editorContext, node));
+    editorCell.setCellId("Collection_2syzia_a");
+    editorCell.addEditorCell(this.createRefCell_2syzia_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefCell_7844_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_2syzia_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("attributeGroup");
     provider.setNoTargetText("<no attributeGroup>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new AttributeGroupReference_Editor._Inline7844_0());
+    provider.setAuxiliaryCellProvider(new AttributeGroupReference_Editor._Inline_2syzia_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -48,8 +48,8 @@ public class AttributeGroupReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline7844_0 extends InlineCellProvider {
-    public _Inline7844_0() {
+  public static class _Inline_2syzia_a0a extends InlineCellProvider {
+    public _Inline_2syzia_a0a() {
       super();
     }
 
@@ -58,10 +58,10 @@ public class AttributeGroupReference_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_7844_0(editorContext, node);
+      return this.createProperty_2syzia_a0a0(editorContext, node);
     }
 
-    private EditorCell createProperty_7844_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_2syzia_a0a0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("attributeGroupName");
       provider.setNoTargetText("<no attributeGroupName>");

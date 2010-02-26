@@ -23,28 +23,28 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GSeparatorItemList_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_1453_0(editorContext, node);
+    return this.createCollection_d3654u_a(editorContext, node);
   }
 
-  private EditorCell createCollection_1453_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_d3654u_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_1453_0");
+    editorCell.setCellId("Collection_d3654u_a");
     editorCell.setUsesBraces(true);
-    editorCell.addEditorCell(this.createConceptProperty_1453_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_1453_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_1453_0(editorContext, node));
+    editorCell.addEditorCell(this.createConceptProperty_d3654u_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_d3654u_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_d3654u_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_1453_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new GSeparatorItemList_Editor.itemListHandler_1453_0(node, "item", editorContext);
+  private EditorCell createRefNodeList_d3654u_c0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new GSeparatorItemList_Editor.itemListHandler_d3654u_c0(node, "item", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_item");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createRefNode_1453_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_d3654u_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("separator");
     provider.setNoTargetText("<no separator>");
@@ -61,7 +61,7 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_1453_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_d3654u_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");
@@ -79,8 +79,8 @@ public class GSeparatorItemList_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class itemListHandler_1453_0 extends RefNodeListHandler {
-    public itemListHandler_1453_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class itemListHandler_d3654u_c0 extends RefNodeListHandler {
+    public itemListHandler_d3654u_c0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

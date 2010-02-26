@@ -19,22 +19,22 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class StringLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3246_0(editorContext, node);
+    return this.createCollection_fgt3_a(editorContext, node);
   }
 
-  private EditorCell createCollection_3246_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_fgt3_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_3246_0");
+    editorCell.setCellId("Collection_fgt3_a");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
-    editorCell.addEditorCell(this.createConstant_3246_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_3246_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3246_1(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_fgt3_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_fgt3_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_fgt3_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3246_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fgt3_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
-    editorCell.setCellId("Constant_3246_0");
+    editorCell.setCellId("Constant_fgt3_a0");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -44,9 +44,9 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3246_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_fgt3_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
-    editorCell.setCellId("Constant_3246_1");
+    editorCell.setCellId("Constant_fgt3_c0");
     BuildLanguageStyle_StyleSheet.getStringLiteral(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
@@ -56,7 +56,7 @@ public class StringLiteral_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_3246_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_fgt3_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("value");
     provider.setNoTargetText("");

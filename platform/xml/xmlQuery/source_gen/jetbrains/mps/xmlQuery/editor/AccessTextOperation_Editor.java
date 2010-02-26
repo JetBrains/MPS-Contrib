@@ -14,17 +14,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class AccessTextOperation_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4006_0(editorContext, node);
+    return this.createCollection_3pg17v_a(editorContext, node);
   }
 
-  private EditorCell createCollection_4006_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_3pg17v_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4006_0");
-    editorCell.addEditorCell(this.createConceptProperty_4006_0(editorContext, node));
+    editorCell.setCellId("Collection_3pg17v_a");
+    editorCell.addEditorCell(this.createConceptProperty_3pg17v_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_4006_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_3pg17v_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

@@ -17,17 +17,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class SchemaType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_2031_0(editorContext, node);
+    return this.createCollection_qq31lk_a(editorContext, node);
   }
 
-  private EditorCell createCollection_2031_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_qq31lk_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_2031_0");
-    editorCell.addEditorCell(this.createConceptProperty_2031_0(editorContext, node));
+    editorCell.setCellId("Collection_qq31lk_a");
+    editorCell.addEditorCell(this.createConceptProperty_qq31lk_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_2031_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_qq31lk_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

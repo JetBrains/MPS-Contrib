@@ -29,26 +29,26 @@ public class BaseElement_attributeList extends AbstractCellProvider {
   }
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_0618_0(editorContext, node);
+    return this.createCollection_usj5o3_a(editorContext, node);
   }
 
-  private EditorCell createCollection_0618_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_usj5o3_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_0618_0");
-    editorCell.addEditorCell(this.createRefNodeList_0618_0(editorContext, node));
+    editorCell.setCellId("Collection_usj5o3_a");
+    editorCell.addEditorCell(this.createRefNodeList_usj5o3_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_0618_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new BaseElement_attributeList.attributeListHandler_0618_0(node, "attribute", editorContext);
+  private EditorCell createRefNodeList_usj5o3_a0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new BaseElement_attributeList.attributeListHandler_usj5o3_a0(node, "attribute", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_attribute");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private static class attributeListHandler_0618_0 extends RefNodeListHandler {
-    public attributeListHandler_0618_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class attributeListHandler_usj5o3_a0 extends RefNodeListHandler {
+    public attributeListHandler_usj5o3_a0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -71,7 +71,7 @@ public class BaseElement_attributeList extends AbstractCellProvider {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_0618_0(editorContext, node);
+      return this.createConstant_usj5o3_a0a(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -99,9 +99,9 @@ public class BaseElement_attributeList extends AbstractCellProvider {
       }
     }
 
-    private EditorCell createConstant_0618_0(EditorContext editorContext, SNode node) {
+    private EditorCell createConstant_usj5o3_a0a(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attr");
-      editorCell.setCellId("Constant_0618_0");
+      editorCell.setCellId("Constant_usj5o3_a0a");
       XmlStyle_StyleSheet.getXmlEmptyCell(editorCell).apply(editorCell);
       editorCell.setDefaultText("");
       return editorCell;

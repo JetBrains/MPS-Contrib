@@ -25,43 +25,43 @@ import jetbrains.mps.nodeEditor.style.Style;
 
 public class TypeExpressionList_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createAlternation_3028_0(editorContext, node);
+    return this.createAlternation_kgtkmm_a(editorContext, node);
   }
 
-  private EditorCell createAlternation_3028_0(EditorContext editorContext, SNode node) {
+  private EditorCell createAlternation_kgtkmm_a(EditorContext editorContext, SNode node) {
     boolean alternationCondition = true;
-    alternationCondition = TypeExpressionList_Editor.renderingCondition3028_0(node, editorContext, editorContext.getOperationContext().getScope());
+    alternationCondition = TypeExpressionList_Editor.renderingCondition_kgtkmm_a0(node, editorContext, editorContext.getOperationContext().getScope());
     EditorCell editorCell = null;
     if (alternationCondition) {
-      editorCell = this.createRefNodeList_3028_1(editorContext, node);
+      editorCell = this.createRefNodeList_kgtkmm_a0_0(editorContext, node);
     } else {
-      editorCell = this.createRefNodeList_3028_0(editorContext, node);
+      editorCell = this.createRefNodeList_kgtkmm_a0(editorContext, node);
     }
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3028_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_3028_0(node, "typeExpression", editorContext);
+  private EditorCell createRefNodeList_kgtkmm_a0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_kgtkmm_a0(node, "typeExpression", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_typeExpression");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_3028_1(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_3028_1(node, "typeExpression", editorContext);
+  private EditorCell createRefNodeList_kgtkmm_a0_0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new TypeExpressionList_Editor.typeExpressionListHandler_kgtkmm_a0_0(node, "typeExpression", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_typeExpression_1");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private static boolean renderingCondition3028_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_kgtkmm_a0(SNode node, EditorContext editorContext, IScope scope) {
     return SPropertyOperations.getBoolean(node, "isVertical");
   }
 
-  private static class typeExpressionListHandler_3028_0 extends RefNodeListHandler {
-    public typeExpressionListHandler_3028_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class typeExpressionListHandler_kgtkmm_a0 extends RefNodeListHandler {
+    public typeExpressionListHandler_kgtkmm_a0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -84,7 +84,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_3028_0(editorContext, node);
+      return this.createConstant_kgtkmm_a0a(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -112,9 +112,9 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       }
     }
 
-    private EditorCell createConstant_3028_0(EditorContext editorContext, SNode node) {
+    private EditorCell createConstant_kgtkmm_a0a(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-      editorCell.setCellId("Constant_3028_0");
+      editorCell.setCellId("Constant_kgtkmm_a0a");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.EDITABLE, true);
@@ -124,8 +124,8 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static class typeExpressionListHandler_3028_1 extends RefNodeListHandler {
-    public typeExpressionListHandler_3028_1(SNode ownerNode, String childRole, EditorContext context) {
+  private static class typeExpressionListHandler_kgtkmm_a0_0 extends RefNodeListHandler {
+    public typeExpressionListHandler_kgtkmm_a0_0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -148,7 +148,7 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_3028_1(editorContext, node);
+      return this.createConstant_kgtkmm_a0a_0(editorContext, node);
     }
 
     public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
@@ -169,9 +169,9 @@ public class TypeExpressionList_Editor extends DefaultNodeEditor {
       return super.createSeparatorCell(editorContext);
     }
 
-    private EditorCell createConstant_3028_1(EditorContext editorContext, SNode node) {
+    private EditorCell createConstant_kgtkmm_a0a_0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-      editorCell.setCellId("Constant_3028_1");
+      editorCell.setCellId("Constant_kgtkmm_a0a_0");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.EDITABLE, true);

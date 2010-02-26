@@ -25,24 +25,24 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class GDocument_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9526_0(editorContext, node);
+    return this.createCollection_rt0po5_a(editorContext, node);
   }
 
-  private EditorCell createCollection_9526_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_rt0po5_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9526_0");
-    editorCell.addEditorCell(this.createProperty_9526_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9526_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_9526_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9526_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_9526_2(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_9526_0(editorContext, node));
+    editorCell.setCellId("Collection_rt0po5_a");
+    editorCell.addEditorCell(this.createProperty_rt0po5_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_rt0po5_b0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_rt0po5_c0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_rt0po5_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_rt0po5_e0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_rt0po5_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_9526_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_rt0po5_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
-    editorCell.setCellId("Constant_9526_0");
+    editorCell.setCellId("Constant_rt0po5_b0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
@@ -52,9 +52,9 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9526_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_rt0po5_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "gDocument");
-    editorCell.setCellId("Constant_9526_1");
+    editorCell.setCellId("Constant_rt0po5_d0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -63,9 +63,9 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_9526_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_rt0po5_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_9526_2");
+    editorCell.setCellId("Constant_rt0po5_e0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
@@ -75,8 +75,8 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_9526_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new GDocument_Editor.itemListHandler_9526_0(node, "item", editorContext);
+  private EditorCell createRefNodeList_rt0po5_f0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new GDocument_Editor.itemListHandler_rt0po5_f0(node, "item", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_item");
     {
@@ -88,7 +88,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_9526_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_rt0po5_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("documentName");
     provider.setNoTargetText("<no documentName>");
@@ -106,7 +106,7 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_9526_1(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_rt0po5_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("extension");
     provider.setNoTargetText("<no extension>");
@@ -125,8 +125,8 @@ public class GDocument_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static class itemListHandler_9526_0 extends RefNodeListHandler {
-    public itemListHandler_9526_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class itemListHandler_rt0po5_f0 extends RefNodeListHandler {
+    public itemListHandler_rt0po5_f0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

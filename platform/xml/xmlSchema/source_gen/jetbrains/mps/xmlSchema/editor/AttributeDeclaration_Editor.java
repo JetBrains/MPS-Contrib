@@ -22,24 +22,24 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class AttributeDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6802_0(editorContext, node);
+    return this.createCollection_vddsqv_a(editorContext, node);
   }
 
-  private EditorCell createCollection_6802_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_vddsqv_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_6802_0");
-    editorCell.addEditorCell(this.createConstant_6802_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_6802_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_6802_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6802_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_6802_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6802_2(editorContext, node));
+    editorCell.setCellId("Collection_vddsqv_a");
+    editorCell.addEditorCell(this.createConstant_vddsqv_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_vddsqv_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_vddsqv_c0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vddsqv_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_vddsqv_e0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_vddsqv_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6802_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vddsqv_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "attribute");
-    editorCell.setCellId("Constant_6802_0");
+    editorCell.setCellId("Constant_vddsqv_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
@@ -48,21 +48,21 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_6802_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vddsqv_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_6802_1");
+    editorCell.setCellId("Constant_vddsqv_d0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6802_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vddsqv_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_6802_2");
+    editorCell.setCellId("Constant_vddsqv_f0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_6802_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_vddsqv_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("attributeName");
     provider.setNoTargetText("<no attributeName>");
@@ -74,7 +74,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD_ITALIC);
       style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
         public Color calculate(EditorCell cell) {
-          return AttributeDeclaration_Editor._StyleParameter_QueryFunction_6802_0((cell == null ?
+          return AttributeDeclaration_Editor._StyleParameter_QueryFunction_vddsqv_a1b0((cell == null ?
             null :
             cell.getSNode()
           ), (cell == null ?
@@ -95,7 +95,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_6802_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_vddsqv_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("useAttribute");
     provider.setNoTargetText("<no useAttribute>");
@@ -112,7 +112,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_6802_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_vddsqv_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("type");
     provider.setNoTargetText("<no type>");
@@ -129,7 +129,7 @@ public class AttributeDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static Color _StyleParameter_QueryFunction_6802_0(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_vddsqv_a1b0(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 }

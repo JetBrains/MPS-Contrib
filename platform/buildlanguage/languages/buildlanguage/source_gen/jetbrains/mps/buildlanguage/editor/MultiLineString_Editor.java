@@ -18,26 +18,26 @@ import jetbrains.mps.nodeEditor.cellMenu.DefaultChildSubstituteInfo;
 
 public class MultiLineString_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9490_0(editorContext, node);
+    return this.createCollection_v49u5j_a(editorContext, node);
   }
 
-  private EditorCell createCollection_9490_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_v49u5j_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9490_0");
-    editorCell.addEditorCell(this.createRefNodeList_9490_0(editorContext, node));
+    editorCell.setCellId("Collection_v49u5j_a");
+    editorCell.addEditorCell(this.createRefNodeList_v49u5j_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_9490_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new MultiLineString_Editor.stringExpressionListHandler_9490_0(node, "stringExpression", editorContext);
+  private EditorCell createRefNodeList_v49u5j_a0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new MultiLineString_Editor.stringExpressionListHandler_v49u5j_a0(node, "stringExpression", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_stringExpression");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private static class stringExpressionListHandler_9490_0 extends RefNodeListHandler {
-    public stringExpressionListHandler_9490_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class stringExpressionListHandler_v49u5j_a0 extends RefNodeListHandler {
+    public stringExpressionListHandler_v49u5j_a0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

@@ -14,17 +14,17 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class XMLElementCreator_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_1381_0(editorContext, node);
+    return this.createCollection_f64ib6_a(editorContext, node);
   }
 
-  private EditorCell createCollection_1381_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_f64ib6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_1381_0");
-    editorCell.addEditorCell(this.createRefNode_1381_0(editorContext, node));
+    editorCell.setCellId("Collection_f64ib6_a");
+    editorCell.addEditorCell(this.createRefNode_f64ib6_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_1381_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_f64ib6_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("type");
     provider.setNoTargetText("<no type>");

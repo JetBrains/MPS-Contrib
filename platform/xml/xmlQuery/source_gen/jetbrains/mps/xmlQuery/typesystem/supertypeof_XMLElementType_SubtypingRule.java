@@ -25,7 +25,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
 
   public SNode getSubOrSuperType(SNode xmlType, TypeCheckingContext typeCheckingContext) {
     if ((SLinkOperations.getTarget(xmlType, "schema", false) == null)) {
-      return new supertypeof_XMLElementType_SubtypingRule.QuotationClass_4922_0().createNode(typeCheckingContext);
+      return new supertypeof_XMLElementType_SubtypingRule.QuotationClass_vusj77_a0a0a0a().createNode(typeCheckingContext);
     } else {
       for (SNode te : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(xmlType, "complexType", false), "typeExpressionList", true), "typeExpression", true))) {
         if (SNodeOperations.isInstanceOf(te, "jetbrains.mps.xmlSchema.structure.ComplexContent")) {
@@ -40,7 +40,7 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
           }
         }
       }
-      return new supertypeof_XMLElementType_SubtypingRule.QuotationClass_4922_1().createNode(typeCheckingContext);
+      return new supertypeof_XMLElementType_SubtypingRule.QuotationClass_vusj77_a0b0a0a0().createNode(typeCheckingContext);
     }
   }
 
@@ -56,19 +56,19 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
     return true;
   }
 
-  public static class QuotationClass_4922_0 {
-    public QuotationClass_4922_0() {
+  public static class QuotationClass_vusj77_a0a0a0a {
+    public QuotationClass_vusj77_a0a0a0a() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4922_0 = null;
+      SNode quotedNode_vusj77_a0a0a0a = null;
       {
-        quotedNode_4922_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4922_0 = quotedNode_4922_0;
-        quotedNode1_4922_0.addReference(SReference.create("classifier", quotedNode1_4922_0, SModelReference.fromString("f:java_stub#org.jdom(org.jdom@java_stub)"), SNodeId.fromString("~Element")));
-        result = quotedNode1_4922_0;
+        quotedNode_vusj77_a0a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_vusj77_a0a0a0a = quotedNode_vusj77_a0a0a0a;
+        quotedNode1_vusj77_a0a0a0a.addReference(SReference.create("classifier", quotedNode1_vusj77_a0a0a0a, SModelReference.fromString("f:java_stub#org.jdom(org.jdom@java_stub)"), SNodeId.fromString("~Element")));
+        result = quotedNode1_vusj77_a0a0a0a;
       }
       return result;
     }
@@ -76,29 +76,29 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4922_0 = null;
+      SNode quotedNode_vusj77_a0a0a0a = null;
       {
-        quotedNode_4922_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4922_0 = quotedNode_4922_0;
-        quotedNode1_4922_0.addReference(SReference.create("classifier", quotedNode1_4922_0, SModelReference.fromString("f:java_stub#org.jdom(org.jdom@java_stub)"), SNodeId.fromString("~Element")));
-        result = quotedNode1_4922_0;
+        quotedNode_vusj77_a0a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_vusj77_a0a0a0a = quotedNode_vusj77_a0a0a0a;
+        quotedNode1_vusj77_a0a0a0a.addReference(SReference.create("classifier", quotedNode1_vusj77_a0a0a0a, SModelReference.fromString("f:java_stub#org.jdom(org.jdom@java_stub)"), SNodeId.fromString("~Element")));
+        result = quotedNode1_vusj77_a0a0a0a;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_4922_1 {
-    public QuotationClass_4922_1() {
+  public static class QuotationClass_vusj77_a0b0a0a0 {
+    public QuotationClass_vusj77_a0b0a0a0() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4922_1 = null;
+      SNode quotedNode_vusj77_a0b0a0a0 = null;
       {
-        quotedNode_4922_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.xmlQuery.structure.XMLElementType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4922_1 = quotedNode_4922_1;
-        result = quotedNode1_4922_1;
+        quotedNode_vusj77_a0b0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.xmlQuery.structure.XMLElementType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_vusj77_a0b0a0a0 = quotedNode_vusj77_a0b0a0a0;
+        result = quotedNode1_vusj77_a0b0a0a0;
       }
       return result;
     }
@@ -106,11 +106,11 @@ public class supertypeof_XMLElementType_SubtypingRule extends SubtypingRule_Runt
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_4922_1 = null;
+      SNode quotedNode_vusj77_a0b0a0a0 = null;
       {
-        quotedNode_4922_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.xmlQuery.structure.XMLElementType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_4922_1 = quotedNode_4922_1;
-        result = quotedNode1_4922_1;
+        quotedNode_vusj77_a0b0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.xmlQuery.structure.XMLElementType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_vusj77_a0b0a0a0 = quotedNode_vusj77_a0b0a0a0;
+        result = quotedNode1_vusj77_a0b0a0a0;
       }
       return result;
     }

@@ -13,12 +13,12 @@ import jetbrains.mps.nodeEditor.MPSColors;
 
 public class MixedAttribute_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createConstant_6965_0(editorContext, node);
+    return this.createConstant_vnk3et_a(editorContext, node);
   }
 
-  private EditorCell createConstant_6965_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_vnk3et_a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "mixed");
-    editorCell.setCellId("Constant_6965_0");
+    editorCell.setCellId("Constant_vnk3et_a");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);

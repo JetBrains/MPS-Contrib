@@ -21,22 +21,22 @@ import java.awt.Color;
 
 public class ElementReference_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_9443_0(editorContext, node);
+    return this.createCollection_uugm4e_a(editorContext, node);
   }
 
-  private EditorCell createCollection_9443_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_uugm4e_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_9443_0");
-    editorCell.addEditorCell(this.createRefCell_9443_0(editorContext, node));
+    editorCell.setCellId("Collection_uugm4e_a");
+    editorCell.addEditorCell(this.createRefCell_uugm4e_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefCell_9443_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_uugm4e_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new ElementReference_Editor._Inline9443_0());
+    provider.setAuxiliaryCellProvider(new ElementReference_Editor._Inline_uugm4e_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -49,8 +49,8 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  public static class _Inline9443_0 extends InlineCellProvider {
-    public _Inline9443_0() {
+  public static class _Inline_uugm4e_a0a extends InlineCellProvider {
+    public _Inline_uugm4e_a0a() {
       super();
     }
 
@@ -59,10 +59,10 @@ public class ElementReference_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_9443_0(editorContext, node);
+      return this.createProperty_uugm4e_a0a0(editorContext, node);
     }
 
-    private EditorCell createProperty_9443_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_uugm4e_a0a0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("elementName");
       provider.setNoTargetText("<no elementName>");
@@ -75,7 +75,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
         style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
         style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
           public Color calculate(EditorCell cell) {
-            return ElementReference_Editor._Inline9443_0._StyleParameter_QueryFunction_9443_0((cell == null ?
+            return ElementReference_Editor._Inline_uugm4e_a0a._StyleParameter_QueryFunction_uugm4e_a1a0a0((cell == null ?
               null :
               cell.getSNode()
             ), (cell == null ?
@@ -96,7 +96,7 @@ public class ElementReference_Editor extends DefaultNodeEditor {
       return editorCell;
     }
 
-    private static Color _StyleParameter_QueryFunction_9443_0(SNode node, EditorContext editorContext) {
+    private static Color _StyleParameter_QueryFunction_uugm4e_a1a0a0(SNode node, EditorContext editorContext) {
       return XmlColorConstants.XML_COLOR;
     }
   }

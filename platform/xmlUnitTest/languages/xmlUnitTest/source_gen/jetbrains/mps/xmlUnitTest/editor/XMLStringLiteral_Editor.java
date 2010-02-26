@@ -18,46 +18,46 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class XMLStringLiteral_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_6219_0(editorContext, node);
+    return this.createCollection_p2tmaa_a(editorContext, node);
   }
 
-  private EditorCell createCollection_6219_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_p2tmaa_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_6219_0");
-    editorCell.addEditorCell(this.createConstant_6219_0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_6219_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_6219_1(editorContext, node));
+    editorCell.setCellId("Collection_p2tmaa_a");
+    editorCell.addEditorCell(this.createConstant_p2tmaa_a0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_p2tmaa_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_p2tmaa_c0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_6219_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_p2tmaa_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_6219_1");
+    editorCell.setCellId("Collection_p2tmaa_b0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.DRAW_BRACKETS, true);
       style.set(StyleAttributes.BRACKETS_COLOR, MPSColors.LIGHT_BLUE);
     }
-    editorCell.addEditorCell(this.createRefNode_6219_0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_p2tmaa_a1a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_6219_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_p2tmaa_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "`");
-    editorCell.setCellId("Constant_6219_0");
+    editorCell.setCellId("Constant_p2tmaa_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_6219_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_p2tmaa_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "`");
-    editorCell.setCellId("Constant_6219_1");
+    editorCell.setCellId("Constant_p2tmaa_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_6219_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_p2tmaa_a1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("xml");
     provider.setNoTargetText("<no xml>");

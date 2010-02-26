@@ -17,10 +17,10 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class GText_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createProperty_7704_0(editorContext, node);
+    return this.createProperty_1uawwc_a(editorContext, node);
   }
 
-  private EditorCell createProperty_7704_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_1uawwc_a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("text");
     provider.setNoTargetText("<no text>");

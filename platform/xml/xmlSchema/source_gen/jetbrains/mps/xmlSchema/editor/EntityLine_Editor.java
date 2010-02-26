@@ -14,18 +14,18 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class EntityLine_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8331_0(editorContext, node);
+    return this.createCollection_xcaal6_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8331_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_xcaal6_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8331_0");
-    editorCell.addEditorCell(this.createRefNode_8331_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8331_1(editorContext, node));
+    editorCell.setCellId("Collection_xcaal6_a");
+    editorCell.addEditorCell(this.createRefNode_xcaal6_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_xcaal6_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_8331_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_xcaal6_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("entityDeclaration");
     provider.setNoTargetText("<no entityDeclaration>");
@@ -42,7 +42,7 @@ public class EntityLine_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_8331_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_xcaal6_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("comment");
     provider.setNoTargetText("<no comment>");

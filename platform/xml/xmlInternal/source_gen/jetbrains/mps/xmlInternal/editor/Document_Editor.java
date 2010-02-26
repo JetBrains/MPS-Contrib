@@ -14,18 +14,18 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Document_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8673_0(editorContext, node);
+    return this.createCollection_7wjwco_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8673_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_7wjwco_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_8673_0");
-    editorCell.addEditorCell(this.createRefNode_8673_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8673_0(editorContext, node));
+    editorCell.setCellId("Collection_7wjwco_a");
+    editorCell.addEditorCell(this.createRefNode_7wjwco_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_7wjwco_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_8673_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_7wjwco_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("rootElement");
     provider.setNoTargetText("<no rootElement>");
@@ -42,7 +42,7 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_8673_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_7wjwco_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("prolog");
     provider.setNoTargetText("<no prolog>");

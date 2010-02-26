@@ -16,18 +16,18 @@ import jetbrains.mps.lang.editor.cellProviders.ConceptPropertyCellProvider;
 
 public class ImportPropertiesFromFile_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_1502_0(editorContext, node);
+    return this.createCollection_56d87r_a(editorContext, node);
   }
 
-  private EditorCell createCollection_1502_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_56d87r_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_1502_0");
-    editorCell.addEditorCell(this.createConceptProperty_1502_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_1502_0(editorContext, node));
+    editorCell.setCellId("Collection_56d87r_a");
+    editorCell.addEditorCell(this.createConceptProperty_56d87r_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_56d87r_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefNode_1502_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_56d87r_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("propertyFile");
     provider.setNoTargetText("<no propertyFile>");
@@ -47,7 +47,7 @@ public class ImportPropertiesFromFile_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConceptProperty_1502_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConceptProperty_56d87r_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new ConceptPropertyCellProvider(node, editorContext);
     provider.setRole("alias");
     provider.setNoTargetText("<no alias>");

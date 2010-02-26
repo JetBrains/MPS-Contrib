@@ -32,55 +32,55 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
   }
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8362_1(editorContext, node);
+    return this.createCollection_8asdb1_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8362_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_8asdb1_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8362_0");
-    editorCell.addEditorCell(this.createConstant_8362_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8362_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_8362_0(editorContext, node));
+    editorCell.setCellId("Collection_8asdb1_a0");
+    editorCell.addEditorCell(this.createConstant_8asdb1_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_8asdb1_b0a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_8asdb1_c0a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_8362_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_8asdb1_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8362_1");
-    if (renderingCondition8362_0(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createCollection_8362_0(editorContext, node));
+    editorCell.setCellId("Collection_8asdb1_a");
+    if (renderingCondition_8asdb1_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_8asdb1_a0(editorContext, node));
     }
     return editorCell;
   }
 
-  private EditorCell createConstant_8362_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_8asdb1_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "depends");
-    editorCell.setCellId("Constant_8362_0");
+    editorCell.setCellId("Constant_8asdb1_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_8362_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_8asdb1_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
-    editorCell.setCellId("Constant_8362_1");
+    editorCell.setCellId("Constant_8asdb1_b0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_8362_0(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new TargetDeclaration_EditorComponent.dependsListHandler_8362_0(node, "depends", editorContext);
+  private EditorCell createRefNodeList_8asdb1_c0a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new TargetDeclaration_EditorComponent.dependsListHandler_8asdb1_c0a(node, "depends", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Horizontal(), false);
     editorCell.setCellId("refNodeList_depends");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private static boolean renderingCondition8362_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_8asdb1_a0a(SNode node, EditorContext editorContext, IScope scope) {
     return ListSequence.fromList(SLinkOperations.getTargets(node, "depends", true)).count() != 0 || editorContext.isInspector();
   }
 
-  private static class dependsListHandler_8362_0 extends RefNodeListHandler {
-    public dependsListHandler_8362_0(SNode ownerNode, String childRole, EditorContext context) {
+  private static class dependsListHandler_8asdb1_c0a extends RefNodeListHandler {
+    public dependsListHandler_8asdb1_c0a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 

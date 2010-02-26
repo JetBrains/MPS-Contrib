@@ -23,63 +23,63 @@ import jetbrains.mps.nodeEditor.cells.EditorCell_RefPresentation;
 
 public class XMLElementType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4691_0(editorContext, node);
+    return this.createCollection_ohiupi_a(editorContext, node);
   }
 
-  private EditorCell createCollection_4691_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_ohiupi_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4691_0");
-    editorCell.addEditorCell(this.createConstant_4691_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_4691_2(editorContext, node));
-    editorCell.addEditorCell(this.createRefCell_4691_0(editorContext, node));
-    if (renderingCondition4691_0(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createConstant_4691_0(editorContext, node));
+    editorCell.setCellId("Collection_ohiupi_a");
+    editorCell.addEditorCell(this.createConstant_ohiupi_a0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_ohiupi_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefCell_ohiupi_c0(editorContext, node));
+    if (renderingCondition_ohiupi_a3a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createConstant_ohiupi_d0(editorContext, node));
     }
-    if (renderingCondition4691_1(node, editorContext, editorContext.getOperationContext().getScope())) {
-      editorCell.addEditorCell(this.createRefCell_4691_1(editorContext, node));
+    if (renderingCondition_ohiupi_a4a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createRefCell_ohiupi_e0(editorContext, node));
     }
-    editorCell.addEditorCell(this.createConstant_4691_3(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_ohiupi_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_4691_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_ohiupi_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_4691_0");
+    editorCell.setCellId("Constant_ohiupi_d0");
     BaseLanguageStyle_StyleSheet.getDot(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4691_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_ohiupi_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "xml");
-    editorCell.setCellId("Constant_4691_1");
+    editorCell.setCellId("Constant_ohiupi_a0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4691_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_ohiupi_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
-    editorCell.setCellId("Constant_4691_2");
+    editorCell.setCellId("Constant_ohiupi_b0");
     BaseLanguageStyle_StyleSheet.getLeftParenAfterName(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_4691_3(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_ohiupi_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ">");
-    editorCell.setCellId("Constant_4691_3");
+    editorCell.setCellId("Constant_ohiupi_f0");
     BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefCell_4691_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_ohiupi_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("schema");
     provider.setNoTargetText("");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline4691_0());
+    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline_ohiupi_a2a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -92,12 +92,12 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_4691_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_ohiupi_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("complexType");
     provider.setNoTargetText("...");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline4691_1());
+    provider.setAuxiliaryCellProvider(new XMLElementType_Editor._Inline_ohiupi_a4a());
     editorCell = provider.createEditorCell(editorContext);
     XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -111,16 +111,16 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static boolean renderingCondition4691_0(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ohiupi_a3a(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "schema", false) != null);
   }
 
-  private static boolean renderingCondition4691_1(SNode node, EditorContext editorContext, IScope scope) {
+  private static boolean renderingCondition_ohiupi_a4a(SNode node, EditorContext editorContext, IScope scope) {
     return (SLinkOperations.getTarget(node, "schema", false) != null);
   }
 
-  public static class _Inline4691_0 extends InlineCellProvider {
-    public _Inline4691_0() {
+  public static class _Inline_ohiupi_a2a extends InlineCellProvider {
+    public _Inline_ohiupi_a2a() {
       super();
     }
 
@@ -129,10 +129,10 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_4691_0(editorContext, node);
+      return this.createProperty_ohiupi_a0c0(editorContext, node);
     }
 
-    private EditorCell createProperty_4691_0(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_ohiupi_a0c0(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("schemaName");
       provider.setNoTargetText("<no schemaName>");
@@ -152,8 +152,8 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline4691_1 extends InlineCellProvider {
-    public _Inline4691_1() {
+  public static class _Inline_ohiupi_a4a extends InlineCellProvider {
+    public _Inline_ohiupi_a4a() {
       super();
     }
 
@@ -162,12 +162,12 @@ public class XMLElementType_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createReferencePresentation_4691_0(editorContext, node);
+      return this.createReferencePresentation_ohiupi_a0e0(editorContext, node);
     }
 
-    private EditorCell createReferencePresentation_4691_0(EditorContext editorContext, SNode node) {
+    private EditorCell createReferencePresentation_ohiupi_a0e0(EditorContext editorContext, SNode node) {
       EditorCell_Property editorCell = EditorCell_RefPresentation.create(editorContext, node, this.getRefNode(), this.getLinkDeclaration());
-      editorCell.setCellId("ReferencePresentation_4691_0");
+      editorCell.setCellId("ReferencePresentation_ohiupi_a0e0");
       return editorCell;
     }
   }

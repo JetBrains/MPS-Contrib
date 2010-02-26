@@ -18,23 +18,23 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Extension_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_1475_0(editorContext, node);
+    return this.createCollection_s04tli_a(editorContext, node);
   }
 
-  private EditorCell createCollection_1475_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_s04tli_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_1475_0");
-    editorCell.addEditorCell(this.createConstant_1475_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_1475_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_1475_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_1475_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_1475_2(editorContext, node));
+    editorCell.setCellId("Collection_s04tli_a");
+    editorCell.addEditorCell(this.createConstant_s04tli_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_s04tli_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_s04tli_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_s04tli_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_s04tli_e0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_1475_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_s04tli_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "extension");
-    editorCell.setCellId("Constant_1475_0");
+    editorCell.setCellId("Constant_s04tli_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
@@ -43,9 +43,9 @@ public class Extension_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_1475_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_s04tli_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_1475_1");
+    editorCell.setCellId("Constant_s04tli_c0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.MATCHING_LABEL, "extension");
@@ -54,9 +54,9 @@ public class Extension_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_1475_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_s04tli_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_1475_2");
+    editorCell.setCellId("Constant_s04tli_e0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.MATCHING_LABEL, "extension");
@@ -65,7 +65,7 @@ public class Extension_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_1475_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_s04tli_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("complexTypeReference");
     provider.setNoTargetText("<no complexTypeReference>");
@@ -82,7 +82,7 @@ public class Extension_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_1475_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_s04tli_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("typeExpressionList");
     provider.setNoTargetText("<no typeExpressionList>");

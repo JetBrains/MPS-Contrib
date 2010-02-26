@@ -16,7 +16,7 @@ public class XmlSchema_StyleSheet {
     Style style = new Style(cell);
     style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
       public Color calculate(EditorCell cell) {
-        return XmlSchema_StyleSheet._StyleParameter_QueryFunction_9352_0((cell == null ?
+        return XmlSchema_StyleSheet._StyleParameter_QueryFunction_35vscc_a0a((cell == null ?
           null :
           cell.getSNode()
         ), (cell == null ?
@@ -29,7 +29,7 @@ public class XmlSchema_StyleSheet {
     return style;
   }
 
-  private static Color _StyleParameter_QueryFunction_9352_0(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_35vscc_a0a(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 }

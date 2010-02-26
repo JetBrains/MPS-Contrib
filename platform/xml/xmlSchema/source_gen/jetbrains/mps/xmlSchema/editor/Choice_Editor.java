@@ -18,23 +18,23 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class Choice_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8501_0(editorContext, node);
+    return this.createCollection_q7klwl_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8501_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_q7klwl_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8501_0");
-    editorCell.addEditorCell(this.createConstant_8501_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8501_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8501_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8501_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8501_2(editorContext, node));
+    editorCell.setCellId("Collection_q7klwl_a");
+    editorCell.addEditorCell(this.createConstant_q7klwl_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_q7klwl_b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_q7klwl_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_q7klwl_d0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_q7klwl_e0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8501_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_q7klwl_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "choice");
-    editorCell.setCellId("Constant_8501_0");
+    editorCell.setCellId("Constant_q7klwl_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
@@ -43,9 +43,9 @@ public class Choice_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_8501_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_q7klwl_c0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_8501_1");
+    editorCell.setCellId("Constant_q7klwl_c0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.MATCHING_LABEL, "choice");
@@ -54,9 +54,9 @@ public class Choice_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_8501_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_q7klwl_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_8501_2");
+    editorCell.setCellId("Constant_q7klwl_e0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.MATCHING_LABEL, "choice");
@@ -65,7 +65,7 @@ public class Choice_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_8501_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_q7klwl_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("occursAttribute");
     provider.setNoTargetText("<no occursAttribute>");
@@ -82,7 +82,7 @@ public class Choice_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_8501_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_q7klwl_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("typeExpressionList");
     provider.setNoTargetText("<no typeExpressionList>");

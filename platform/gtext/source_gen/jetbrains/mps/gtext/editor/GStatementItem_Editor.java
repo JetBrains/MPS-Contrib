@@ -18,20 +18,20 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class GStatementItem_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_2833_0(editorContext, node);
+    return this.createCollection_543h20_a(editorContext, node);
   }
 
-  private EditorCell createCollection_2833_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_543h20_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_2833_0");
-    editorCell.addEditorCell(this.createConstant_2833_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_2833_0(editorContext, node));
+    editorCell.setCellId("Collection_543h20_a");
+    editorCell.addEditorCell(this.createConstant_543h20_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_543h20_b0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_2833_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_543h20_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement");
-    editorCell.setCellId("Constant_2833_0");
+    editorCell.setCellId("Constant_543h20_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.blue);
@@ -41,7 +41,7 @@ public class GStatementItem_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_2833_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_543h20_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("statementList");
     provider.setNoTargetText("<no statementList>");

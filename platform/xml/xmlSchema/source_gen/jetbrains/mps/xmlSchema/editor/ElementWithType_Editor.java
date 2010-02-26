@@ -22,24 +22,24 @@ import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 
 public class ElementWithType_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_3872_0(editorContext, node);
+    return this.createCollection_lsldvs_a(editorContext, node);
   }
 
-  private EditorCell createCollection_3872_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_lsldvs_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_3872_0");
-    editorCell.addEditorCell(this.createConstant_3872_0(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_3872_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_3872_1(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3872_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_3872_0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_3872_2(editorContext, node));
+    editorCell.setCellId("Collection_lsldvs_a");
+    editorCell.addEditorCell(this.createConstant_lsldvs_a0(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_lsldvs_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_lsldvs_c0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_lsldvs_d0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_lsldvs_e0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_lsldvs_f0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_3872_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_lsldvs_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "element");
-    editorCell.setCellId("Constant_3872_0");
+    editorCell.setCellId("Constant_lsldvs_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.DARK_MAGENTA);
@@ -48,21 +48,21 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_3872_1(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_lsldvs_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_3872_1");
+    editorCell.setCellId("Constant_lsldvs_d0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_3872_2(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_lsldvs_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_3872_2");
+    editorCell.setCellId("Constant_lsldvs_f0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createProperty_3872_0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_lsldvs_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("elementName");
     provider.setNoTargetText("<no elementName>");
@@ -74,7 +74,7 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.BOLD);
       style.set(StyleAttributes.TEXT_COLOR, new AttributeCalculator<Color>() {
         public Color calculate(EditorCell cell) {
-          return ElementWithType_Editor._StyleParameter_QueryFunction_3872_0((cell == null ?
+          return ElementWithType_Editor._StyleParameter_QueryFunction_lsldvs_a1b0((cell == null ?
             null :
             cell.getSNode()
           ), (cell == null ?
@@ -95,7 +95,7 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_3872_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_lsldvs_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("complexTypeReference");
     provider.setNoTargetText("<no complexTypeReference>");
@@ -112,7 +112,7 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_3872_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_lsldvs_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("occursAttribute");
     provider.setNoTargetText("<no occursAttribute>");
@@ -129,7 +129,7 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private static Color _StyleParameter_QueryFunction_3872_0(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_lsldvs_a1b0(SNode node, EditorContext editorContext) {
     return XmlColorConstants.XML_COLOR;
   }
 }

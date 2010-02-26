@@ -29,22 +29,22 @@ public class Element_elementDeclaration extends AbstractCellProvider {
   }
 
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_4639_0(editorContext, node);
+    return this.createCollection_vbcaz4_a(editorContext, node);
   }
 
-  private EditorCell createCollection_4639_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_vbcaz4_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_4639_0");
-    editorCell.addEditorCell(this.createRefCell_4639_0(editorContext, node));
+    editorCell.setCellId("Collection_vbcaz4_a");
+    editorCell.addEditorCell(this.createRefCell_vbcaz4_a0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createRefCell_4639_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefCell_vbcaz4_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("elementDeclaration");
     provider.setNoTargetText("<no elementDeclaration>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline4639_0());
+    provider.setAuxiliaryCellProvider(new Element_elementDeclaration._Inline_vbcaz4_a0a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -57,8 +57,8 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     return editorCell;
   }
 
-  public static class _Inline4639_0 extends InlineCellProvider {
-    public _Inline4639_0() {
+  public static class _Inline_vbcaz4_a0a extends InlineCellProvider {
+    public _Inline_vbcaz4_a0a() {
       super();
     }
 
@@ -67,10 +67,10 @@ public class Element_elementDeclaration extends AbstractCellProvider {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createReadOnlyModelAccessor_4639_0(editorContext, node);
+      return this.createReadOnlyModelAccessor_vbcaz4_a0a0(editorContext, node);
     }
 
-    private EditorCell createReadOnlyModelAccessor_4639_0(final EditorContext editorContext, final SNode node) {
+    private EditorCell createReadOnlyModelAccessor_vbcaz4_a0a0(final EditorContext editorContext, final SNode node) {
       EditorCell_Property editorCell = EditorCell_Property.create(editorContext, new ModelAccessor() {
         public String getText() {
           return ElementDeclaration_Behavior.call_getQualifiedName_1213877429904(node);
@@ -84,7 +84,7 @@ public class Element_elementDeclaration extends AbstractCellProvider {
         }
       }, node);
       editorCell.setAction(CellActionType.DELETE, new CellAction_Empty());
-      editorCell.setCellId("ReadOnlyModelAccessor_4639_0");
+      editorCell.setCellId("ReadOnlyModelAccessor_vbcaz4_a0a0");
       return editorCell;
     }
   }

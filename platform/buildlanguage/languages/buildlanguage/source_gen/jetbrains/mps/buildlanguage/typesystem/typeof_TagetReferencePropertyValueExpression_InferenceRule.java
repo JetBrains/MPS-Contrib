@@ -23,7 +23,7 @@ public class typeof_TagetReferencePropertyValueExpression_InferenceRule extends 
       SNode _nodeToCheck_1029348928467 = nodeToCheck;
       BaseIntentionProvider intentionProvider = null;
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1203432895579", 0, intentionProvider);
-      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1203432895581", true), (SNode) new typeof_TagetReferencePropertyValueExpression_InferenceRule.QuotationClass_9738_0().createNode(typeCheckingContext), _info_12389875345);
+      typeCheckingContext.createEquation((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c895904c4(jetbrains.mps.buildlanguage.typesystem)", "1203432895581", true), (SNode) new typeof_TagetReferencePropertyValueExpression_InferenceRule.QuotationClass_4yer19_a0a0a0().createNode(typeCheckingContext), _info_12389875345);
     }
   }
 
@@ -39,18 +39,18 @@ public class typeof_TagetReferencePropertyValueExpression_InferenceRule extends 
     return false;
   }
 
-  public static class QuotationClass_9738_0 {
-    public QuotationClass_9738_0() {
+  public static class QuotationClass_4yer19_a0a0a0 {
+    public QuotationClass_4yer19_a0a0a0() {
     }
 
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_9738_0 = null;
+      SNode quotedNode_4yer19_a0a0a0 = null;
       {
-        quotedNode_9738_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_9738_0 = quotedNode_9738_0;
-        result = quotedNode1_9738_0;
+        quotedNode_4yer19_a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4yer19_a0a0a0 = quotedNode_4yer19_a0a0a0;
+        result = quotedNode1_4yer19_a0a0a0;
       }
       return result;
     }
@@ -58,11 +58,11 @@ public class typeof_TagetReferencePropertyValueExpression_InferenceRule extends 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_9738_0 = null;
+      SNode quotedNode_4yer19_a0a0a0 = null;
       {
-        quotedNode_9738_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_9738_0 = quotedNode_9738_0;
-        result = quotedNode1_9738_0;
+        quotedNode_4yer19_a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.buildlanguage.structure.CallReferenceType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4yer19_a0a0a0 = quotedNode_4yer19_a0a0a0;
+        result = quotedNode1_4yer19_a0a0a0;
       }
       return result;
     }
