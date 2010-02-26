@@ -38,22 +38,22 @@ public class RunConfigurationDeclaration_Behavior {
   }
 
   public static SNode virtual_createType_1213877527970(SNode thisNode) {
-    return new RunConfigurationDeclaration_Behavior.QuotationClass_3854_0().createNode(thisNode);
+    return new RunConfigurationDeclaration_Behavior.QuotationClass_ym0401_a0a0g().createNode(thisNode);
   }
 
-  public static class QuotationClass_3854_0 {
-    public QuotationClass_3854_0() {
+  public static class QuotationClass_ym0401_a0a0g {
+    public QuotationClass_ym0401_a0a0g() {
     }
 
-    public SNode createNode(Object parameter_3854_0) {
+    public SNode createNode(Object parameter_ym0401_a0a0a0f) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3854_0 = null;
+      SNode quotedNode_ym0401_a0a0f = null;
       {
-        quotedNode_3854_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.RunConfigType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3854_0 = quotedNode_3854_0;
-        quotedNode1_3854_0.setReferent("runConfig", (SNode) parameter_3854_0);
-        result = quotedNode1_3854_0;
+        quotedNode_ym0401_a0a0f = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.lang.plugin.structure.RunConfigType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_ym0401_a0a0f = quotedNode_ym0401_a0a0f;
+        quotedNode1_ym0401_a0a0f.setReferent("runConfig", (SNode) parameter_ym0401_a0a0a0f);
+        result = quotedNode1_ym0401_a0a0f;
       }
       return result;
     }

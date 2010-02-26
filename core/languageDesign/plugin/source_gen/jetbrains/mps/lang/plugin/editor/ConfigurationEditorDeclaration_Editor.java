@@ -17,39 +17,39 @@ import jetbrains.mps.nodeEditor.EditorManager;
 
 public class ConfigurationEditorDeclaration_Editor extends DefaultNodeEditor {
   public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-    return this.createCollection_8267_0(editorContext, node);
+    return this.createCollection_mr6qai_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8267_0(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_mr6qai_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_8267_0");
-    editorCell.addEditorCell(this.createCollection_8267_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8267_1(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8267_2(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8267_3(editorContext, node));
+    editorCell.setCellId("Collection_mr6qai_a");
+    editorCell.addEditorCell(this.createCollection_mr6qai_a0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_mr6qai_b0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_mr6qai_c0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_mr6qai_d0(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createCollection_8267_1(EditorContext editorContext, SNode node) {
+  private EditorCell createCollection_mr6qai_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8267_1");
+    editorCell.setCellId("Collection_mr6qai_a0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createConstant_8267_0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8267_0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_mr6qai_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_mr6qai_b0a(editorContext, node));
     return editorCell;
   }
 
-  private EditorCell createConstant_8267_0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_mr6qai_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "component:");
-    editorCell.setCellId("Constant_8267_0");
+    editorCell.setCellId("Constant_mr6qai_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createRefNode_8267_0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_mr6qai_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("editor");
     provider.setNoTargetText("<no editor>");
@@ -66,7 +66,7 @@ public class ConfigurationEditorDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_8267_1(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_mr6qai_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("applyBlock");
     provider.setNoTargetText("<no applyBlock>");
@@ -83,7 +83,7 @@ public class ConfigurationEditorDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_8267_2(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_mr6qai_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("resetBlock");
     provider.setNoTargetText("<no resetBlock>");
@@ -100,7 +100,7 @@ public class ConfigurationEditorDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_8267_3(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_mr6qai_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("disposeBlock");
     provider.setNoTargetText("<no disposeBlock>");
