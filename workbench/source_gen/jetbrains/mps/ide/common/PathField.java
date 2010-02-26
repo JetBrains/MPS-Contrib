@@ -22,8 +22,8 @@ import jetbrains.mps.vfs.IFile;
 
 public class PathField extends JPanel {
   public PathField myThis;
-  private JTextField myPathField0;
-  private JButton myButton0;
+  private JTextField myPathField_b0;
+  private JButton myButton_c0;
   private String myPath;
   private int myMode;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
@@ -39,8 +39,8 @@ public class PathField extends JPanel {
     this.myThis = this;
     PathField component = this;
     component.setLayout(new BorderLayout());
-    component.add(this.createComponent0(), BorderLayout.CENTER);
-    component.add(this.createComponent1(), BorderLayout.EAST);
+    component.add(this.createComponent_b0(), BorderLayout.CENTER);
+    component.add(this.createComponent_c0(), BorderLayout.EAST);
     this.myEvents.initialize();
     myThis.setMode(TreeFileChooser.MODE_DIRECTORIES);
   }
@@ -63,7 +63,7 @@ public class PathField extends JPanel {
     {
       Object sourceObject = myThis;
       Property sourceProperty = BeanProperty.create("path");
-      Object targetObject = this.myPathField0;
+      Object targetObject = this.myPathField_b0;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -79,16 +79,16 @@ public class PathField extends JPanel {
     }
   }
 
-  private JTextField createComponent0() {
+  private JTextField createComponent_b0() {
     JTextField component = new JTextField();
-    this.myPathField0 = component;
+    this.myPathField_b0 = component;
     component.setColumns(40);
     return component;
   }
 
-  private JButton createComponent1() {
+  private JButton createComponent_c0() {
     JButton component = new JButton();
-    this.myButton0 = component;
+    this.myButton_c0 = component;
     component.setText("...");
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
@@ -119,7 +119,7 @@ public class PathField extends JPanel {
   }
 
   /*package*/ void choosePathClicked() {
-    String oldPath = myThis.myPathField0.getText();
+    String oldPath = myThis.myPathField_b0.getText();
     TreeFileChooser chooser = new TreeFileChooser();
     chooser.setMode(myThis.getMode());
     if (oldPath != null) {
@@ -132,7 +132,7 @@ public class PathField extends JPanel {
   }
 
   public void setEnabled(boolean enabled) {
-    myThis.myPathField0.setEnabled(enabled);
-    myThis.myButton0.setEnabled(enabled);
+    myThis.myPathField_b0.setEnabled(enabled);
+    myThis.myButton_c0.setEnabled(enabled);
   }
 }
