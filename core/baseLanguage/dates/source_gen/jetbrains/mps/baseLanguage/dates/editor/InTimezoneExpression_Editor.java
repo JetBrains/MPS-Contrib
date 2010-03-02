@@ -41,6 +41,15 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_xm0e97_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
+    editorCell.setCellId("Constant_xm0e97_c0");
+    BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
+    InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_xm0e97_e0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_xm0e97_e0");
@@ -49,15 +58,6 @@ public class InTimezoneExpression_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.RT_ANCHOR_TAG, "default_RTransform");
     }
-    InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_xm0e97_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
-    editorCell.setCellId("Constant_xm0e97_c0");
-    BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
     InTimeZoneExpression_delete.setCellActions(editorCell, node, editorContext);
     editorCell.setDefaultText("");
     return editorCell;

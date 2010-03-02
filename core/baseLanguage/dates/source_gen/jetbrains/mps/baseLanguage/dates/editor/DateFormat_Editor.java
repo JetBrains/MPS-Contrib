@@ -14,9 +14,9 @@ import jetbrains.mps.nodeEditor.cellProviders.AbstractCellListHandler;
 import jetbrains.mps.nodeEditor.cellLayout.CellLayout_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
+import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -58,14 +58,14 @@ public class DateFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_y08bmb_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_y08bmb_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("name");
-    provider.setNoTargetText("<no name>");
+    provider.setRole("dateFormatVisibility");
+    provider.setNoTargetText("<no dateFormatVisibility>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_name");
-    Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
+    editorCell.setCellId("property_dateFormatVisibility");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -77,14 +77,14 @@ public class DateFormat_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_y08bmb_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_y08bmb_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("dateFormatVisibility");
-    provider.setNoTargetText("<no dateFormatVisibility>");
+    provider.setRole("name");
+    provider.setNoTargetText("<no name>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_dateFormatVisibility");
-    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
+    editorCell.setCellId("property_name");
+    Dates_StyleSheet.getDateFormat(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

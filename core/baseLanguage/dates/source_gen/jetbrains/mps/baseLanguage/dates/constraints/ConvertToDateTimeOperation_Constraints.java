@@ -38,12 +38,12 @@ public class ConvertToDateTimeOperation_Constraints {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_i6v6x6_a1a0a1a1a0 = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_i6v6x6_a1a0a1a1a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_i6v6x6_a1a0a1a1a0 = quotedNode_i6v6x6_a1a0a1a1a0;
-        quotedNode1_i6v6x6_a1a0a1a1a0.addReference(SReference.create("classifier", quotedNode1_i6v6x6_a1a0a1a1a0, SModelReference.fromString("f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)"), SNodeId.fromString("~AbstractInstant")));
-        result = quotedNode1_i6v6x6_a1a0a1a1a0;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)"), SNodeId.fromString("~AbstractInstant")));
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -56,12 +56,12 @@ public class ConvertToDateTimeOperation_Constraints {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_i6v6x6_a1a0a0c0b0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_i6v6x6_a1a0a0c0b0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_i6v6x6_a1a0a0c0b0a = quotedNode_i6v6x6_a1a0a0c0b0a;
-        quotedNode1_i6v6x6_a1a0a0c0b0a.addReference(SReference.create("classifier", quotedNode1_i6v6x6_a1a0a0c0b0a, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
-        result = quotedNode1_i6v6x6_a1a0a0c0b0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -74,12 +74,12 @@ public class ConvertToDateTimeOperation_Constraints {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_i6v6x6_a1a0a0d0b0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_i6v6x6_a1a0a0d0b0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_i6v6x6_a1a0a0d0b0a = quotedNode_i6v6x6_a1a0a0d0b0a;
-        quotedNode1_i6v6x6_a1a0a0d0b0a.addReference(SReference.create("classifier", quotedNode1_i6v6x6_a1a0a0d0b0a, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
-        result = quotedNode1_i6v6x6_a1a0a0d0b0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -92,11 +92,11 @@ public class ConvertToDateTimeOperation_Constraints {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_i6v6x6_a1a0a0e0b0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_i6v6x6_a1a0a0e0b0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_i6v6x6_a1a0a0e0b0a = quotedNode_i6v6x6_a1a0a0e0b0a;
-        result = quotedNode1_i6v6x6_a1a0a0e0b0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -109,11 +109,11 @@ public class ConvertToDateTimeOperation_Constraints {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_i6v6x6_a1a0a0f0b0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_i6v6x6_a1a0a0f0b0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_i6v6x6_a1a0a0f0b0a = quotedNode_i6v6x6_a1a0a0f0b0a;
-        result = quotedNode1_i6v6x6_a1a0a0f0b0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DurationType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -126,11 +126,11 @@ public class ConvertToDateTimeOperation_Constraints {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_i6v6x6_a1a0a0g0b0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_i6v6x6_a1a0a0g0b0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_i6v6x6_a1a0a0g0b0a = quotedNode_i6v6x6_a1a0a0g0b0a;
-        result = quotedNode1_i6v6x6_a1a0a0g0b0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }

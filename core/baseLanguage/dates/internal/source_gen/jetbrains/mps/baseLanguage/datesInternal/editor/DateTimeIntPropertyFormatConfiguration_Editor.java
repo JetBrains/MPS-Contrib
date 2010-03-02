@@ -53,6 +53,14 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
     return editorCell;
   }
 
+  private EditorCell createConstant_e2al3f_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
+    editorCell.setCellId("Constant_e2al3f_b0");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_e2al3f_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
     editorCell.setCellId("Constant_e2al3f_d0");
@@ -75,14 +83,6 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
       style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
     }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_e2al3f_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
-    editorCell.setCellId("Constant_e2al3f_b0");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }

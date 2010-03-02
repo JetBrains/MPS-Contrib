@@ -19,12 +19,12 @@ import jetbrains.mps.util.EqualUtil;
 import jetbrains.mps.nodeEditor.CellActionType;
 import jetbrains.mps.nodeEditor.cellActions.CellAction_Empty;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
-import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
-import jetbrains.mps.smodel.IOperationContext;
-import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.lang.editor.cellProviders.PropertyCellProvider;
 import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
+import jetbrains.mps.smodel.IOperationContext;
+import jetbrains.mps.nodeEditor.EditorManager;
+import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
@@ -52,14 +52,6 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_ehy6fr_a_0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
-    editorCell.setCellId("Collection_ehy6fr_a_0");
-    editorCell.addEditorCell(this.createConstant_ehy6fr_a0(editorContext, node));
-    editorCell.addEditorCell(this.createReadOnlyModelAccessor_ehy6fr_b0(editorContext, node));
-    return editorCell;
-  }
-
   private EditorCell createCollection_ehy6fr_e0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
     editorCell.setCellId("Collection_ehy6fr_e0");
@@ -72,9 +64,18 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_ehy6fr_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Compare datetime expressions by");
-    editorCell.setCellId("Constant_ehy6fr_a0");
+  private EditorCell createCollection_ehy6fr_a_0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createIndent2(editorContext, node);
+    editorCell.setCellId("Collection_ehy6fr_a_0");
+    editorCell.addEditorCell(this.createConstant_ehy6fr_a0(editorContext, node));
+    editorCell.addEditorCell(this.createReadOnlyModelAccessor_ehy6fr_b0(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createConstant_ehy6fr_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
+    editorCell.setCellId("Constant_ehy6fr_c0");
+    Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -87,10 +88,9 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_ehy6fr_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
-    editorCell.setCellId("Constant_ehy6fr_c0");
-    Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
+  private EditorCell createConstant_ehy6fr_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Compare datetime expressions by");
+    editorCell.setCellId("Constant_ehy6fr_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -117,24 +117,6 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_ehy6fr_a0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("op1");
-    provider.setNoTargetText("<no op1>");
-    EditorCell editorCell;
-    editorCell = provider.createEditorCell(editorContext);
-    DateTimeCompareOperation_leftOperand_actionMap.setCellActions(editorCell, node, editorContext);
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
   private EditorCell createProperty_ehy6fr_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
     provider.setRole("compareType");
@@ -147,6 +129,24 @@ public class DateTimeCompareOperation_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
     }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createRefNode_ehy6fr_a0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("op1");
+    provider.setNoTargetText("<no op1>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    DateTimeCompareOperation_leftOperand_actionMap.setCellActions(editorCell, node, editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

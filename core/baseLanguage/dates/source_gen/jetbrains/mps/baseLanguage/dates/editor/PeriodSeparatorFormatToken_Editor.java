@@ -126,6 +126,17 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_ih8plz_a2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
+    editorCell.setCellId("Constant_ih8plz_a2a");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_ih8plz_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "]");
     editorCell.setCellId("Constant_ih8plz_d0");
@@ -143,17 +154,6 @@ public class PeriodSeparatorFormatToken_Editor extends DefaultNodeEditor {
           ));
         }
       });
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_ih8plz_a2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
-    editorCell.setCellId("Constant_ih8plz_a2a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     }
     editorCell.setDefaultText("");
     return editorCell;

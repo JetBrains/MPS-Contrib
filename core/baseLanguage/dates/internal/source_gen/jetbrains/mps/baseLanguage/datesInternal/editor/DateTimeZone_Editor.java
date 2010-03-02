@@ -51,18 +51,18 @@ public class DateTimeZone_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_fpnw4i_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
-    editorCell.setCellId("Constant_fpnw4i_d0");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_fpnw4i_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "zone");
     editorCell.setCellId("Constant_fpnw4i_b0");
     BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_fpnw4i_d0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "for");
+    editorCell.setCellId("Constant_fpnw4i_d0");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }

@@ -5,12 +5,12 @@ package jetbrains.mps.baseLanguage.dates.actions;
 import java.util.regex.Pattern;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.smodel.action.NodeSubstitutePreconditionContext;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.typesystem.inference.TypeChecker;
+import jetbrains.mps.baseLanguage.behavior.TypeDerivable_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.typesystem.runtime.HUtil;
-import jetbrains.mps.baseLanguage.behavior.TypeDerivable_Behavior;
 import jetbrains.mps.smodel.action.SideTransformPreconditionContext;
 import java.util.List;
 import jetbrains.mps.smodel.action.INodeSubstituteAction;
@@ -19,12 +19,12 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import jetbrains.mps.util.NameUtil;
-import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
-import jetbrains.mps.smodel.SModel;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.util.Calculable;
 import org.joda.time.DateTimeZone;
 import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
+import jetbrains.mps.smodel.SModel;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
+import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import jetbrains.mps.smodel.action.SideTransformActionsBuilderContext;
@@ -44,8 +44,13 @@ import jetbrains.mps.smodel.SModelReference;
 import jetbrains.mps.smodel.SNodeId;
 
 public class QueriesGenerated {
-  private static Pattern REGEXP_a0a0a0a2a0a0a0a2a0a2a81 = Pattern.compile("[\\+\\-]\\d\\d[:]\\d\\d", 0);
-  private static Pattern REGEXP_a0a0a0a0c0a0a0a0c0a0c0s = Pattern.compile("[\\+\\-]\\d\\d?\\d?\\d?", 0);
+  private static Pattern REGEXP_a0a0a0a2a0a0a0a2a0a2a71 = Pattern.compile("[\\+\\-]\\d\\d[:]\\d\\d", 0);
+  private static Pattern REGEXP_a0a0a0a0c0a0a0a0c0a0c0r = Pattern.compile("[\\+\\-]\\d\\d?\\d?\\d?", 0);
+
+  public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_4555537781927653007(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
+    SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
+    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new QueriesGenerated.QuotationClass_x583g4_a1a0a1a0().createNode());
+  }
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_TimeZoneNameOperation_1064517862347161195(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     boolean can = false;
@@ -56,124 +61,64 @@ public class QueriesGenerated {
     return can;
   }
 
-  public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_4555537781927653007(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
-    SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
-    return (td != null) && TypeChecker.getInstance().getSubtypingManager().isSubtype(TypeDerivable_Behavior.call_deriveType_4555537781928374706(td, _context.getCurrentTargetNode(), _context.getLink()), new QueriesGenerated.QuotationClass_x583g4_a1a0a1a1().createNode());
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1169657599823(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1172507582020(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfInt(_context.getSourceNode());
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_InlineFormatDateTimeExpression_194163770812434496(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ParseDateTimeExpression_670620798052429713(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ParseDateTimeExpression_670620798052429809(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return (SLinkOperations.getTarget(_context.getSourceNode(), "default", true) == null);
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_670620798052616884(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.StringType"), true) != null;
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1379098806890398952(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfPeriod(_context.getSourceNode());
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_2151017756820978893(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.getContainingPeriod(_context.getSourceNode()) != null;
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6626410111396231034(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"), true) != null;
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_FormatDateTimeExpression_2890840340813346923(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
   }
 
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_5488841840788087896(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfDatetime(_context.getSourceNode());
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6240071430105321172(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6626410111396231034(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.dates.structure.DateTimeType"), true) != null;
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6922407976778399692(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.getCompareExpression(_context.getSourceNode()) != null;
-  }
-
-  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_7499037524191428232(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
-    return DateTypeUtil.isInstanceOfTimezone(_context.getSourceNode()) && SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getSourceNode()), "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_InlineFormatDateTimeExpression_194163770812434496(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
   }
 
   public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_FormatPeriodExpression_8875872347490100003(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
     return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
   }
 
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_TimeZoneNameOperation_1064517862347160283(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation");
-      SNode childConcept = (SNode) _context.getChildConcept();
-      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode op = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", null);
-            SPropertyOperations.set(op, "property", "short name");
-            return op;
-          }
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_670620798052616884(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return TypeChecker.getInstance().getRuntimeSupport().coerce_(TypeChecker.getInstance().getTypeOf(_context.getSourceNode()), HUtil.createMatchingPatternByConceptFQName("jetbrains.mps.baseLanguage.structure.StringType"), true) != null;
+  }
 
-          public String getDescriptionText(String pattern) {
-            return "ex: GMT, CET";
-          }
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_7499037524191428232(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfTimezone(_context.getSourceNode()) && SNodeOperations.isInstanceOf(SNodeOperations.getParent(_context.getSourceNode()), "jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+  }
 
-          public String getMatchingText(String pattern) {
-            return "short name at";
-          }
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ParseDateTimeExpression_670620798052429809(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return (SLinkOperations.getTarget(_context.getSourceNode(), "default", true) == null);
+  }
 
-          public String getVisibleMatchingText(String pattern) {
-            return this.getMatchingText(pattern);
-          }
-        });
-      }
-    }
-    {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation");
-      SNode childConcept = (SNode) _context.getChildConcept();
-      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode op = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", null);
-            SPropertyOperations.set(op, "property", "name");
-            return op;
-          }
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_ParseDateTimeExpression_670620798052429713(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return (SLinkOperations.getTarget(_context.getSourceNode(), "locale", false) == null);
+  }
 
-          public String getDescriptionText(String pattern) {
-            return "ex: Central European Time";
-          }
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6240071430105321172(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
+  }
 
-          public String getMatchingText(String pattern) {
-            return "name at";
-          }
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_5488841840788087896(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfDatetime(_context.getSourceNode());
+  }
 
-          public String getVisibleMatchingText(String pattern) {
-            return this.getMatchingText(pattern);
-          }
-        });
-      }
-    }
-    return result;
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1379098806890398952(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfPeriod(_context.getSourceNode());
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1169657599823(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfDatetimeWithTZ(_context.getSourceNode());
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_6922407976778399692(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.getCompareExpression(_context.getSourceNode()) != null;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_2151017756820978893(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.getContainingPeriod(_context.getSourceNode()) != null;
+  }
+
+  public static boolean sideTransformHintSubstituteActionsBuilder_Precondition_Expression_1172507582020(final IOperationContext operationContext, final SideTransformPreconditionContext _context) {
+    return DateTypeUtil.isInstanceOfInt(_context.getSourceNode());
   }
 
   public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Expression_4555537781927653006(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
@@ -238,9 +183,9 @@ public class QueriesGenerated {
 
           public boolean canSubstitute_internal(String pattern, boolean strictly) {
             if (strictly) {
-              return REGEXP_a0a0a0a2a0a0a0a2a0a2a81.matcher(pattern).matches();
+              return REGEXP_a0a0a0a2a0a0a0a2a0a2a71.matcher(pattern).matches();
             } else {
-              return REGEXP_a0a0a0a0c0a0a0a0c0a0c0s.matcher(pattern).matches();
+              return REGEXP_a0a0a0a0c0a0a0a0c0a0c0r.matcher(pattern).matches();
             }
           }
 
@@ -261,31 +206,65 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1169657550853(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_TimeZoneNameOperation_1064517862347160283(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation");
-      Iterable<SNode> concepts;
-      concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
-      for (final SNode subconcept : concepts) {
-        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
-          continue;
-        }
-        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
-          continue;
-        }
-        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
-          public SNode doSubstitute(String pattern) {
-            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
-            SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
-            SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
-            return result;
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation");
+      SNode childConcept = (SNode) _context.getChildConcept();
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode op = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", null);
+            SPropertyOperations.set(op, "property", "short name");
+            return op;
+          }
+
+          public String getDescriptionText(String pattern) {
+            return "ex: GMT, CET";
+          }
+
+          public String getMatchingText(String pattern) {
+            return "short name at";
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
           }
         });
       }
     }
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation");
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation");
+      SNode childConcept = (SNode) _context.getChildConcept();
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode op = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.TimeZoneNameOperation", null);
+            SPropertyOperations.set(op, "property", "name");
+            return op;
+          }
+
+          public String getDescriptionText(String pattern) {
+            return "ex: Central European Time";
+          }
+
+          public String getMatchingText(String pattern) {
+            return "name at";
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+        });
+      }
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_6626410111396229828(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression");
       Iterable<SNode> concepts;
       concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
       for (final SNode subconcept : concepts) {
@@ -308,43 +287,23 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1172507550761(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_FormatDateTimeExpression_2890840340813345708(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      final SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant");
-      Calculable calculable = new Calculable() {
-        public Object calculate() {
-          return DateTypeUtil.findDateTimeProperties(operationContext.getScope(), _context.getModel());
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0u().createNode(), "locale", false), false);
         }
-      };
-      Iterable<SNode> parameterObjects = (Iterable<SNode>) calculable.calculate();
-      assert parameterObjects != null;
-      for (final SNode item : parameterObjects) {
-        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(item, _context.getSourceNode()) {
-          public SNode doSubstitute(String pattern) {
-            SNode result = SNodeOperations.replaceWithNewChild(_context.getSourceNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodConstant");
-            SLinkOperations.setTarget(result, "count", _context.getSourceNode(), true);
-            SLinkOperations.setTarget(result, "dateTimeProperty", (item), false);
-            return result;
-          }
 
-          public SNode getOutputConcept() {
-            return concept;
-          }
+        public String getMatchingText(String pattern) {
+          return "(";
+        }
 
-          public String getMatchingText(String text) {
-            return SPropertyOperations.getString((item), "pluralForm");
-          }
-
-          public String getVisibleMatchingText(String text) {
-            return this.getMatchingText(text);
-          }
-
-          public String getDescriptionText(String text) {
-            return "Period constant";
-          }
-        });
-      }
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+      });
     }
     return result;
   }
@@ -370,14 +329,13 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_ParseDateTimeExpression_670620798052429712(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_FormatPeriodExpression_8875872347490098521(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression");
       ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
         public SNode doSubstitute(String pattern) {
-          SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0w().createNode(), "locale", false), false);
-          return SNodeOperations.getNode("r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)", "1172074383898");
+          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0w().createNode(), "locale", false), false);
         }
 
         public String getMatchingText(String pattern) {
@@ -386,35 +344,6 @@ public class QueriesGenerated {
 
         public String getVisibleMatchingText(String pattern) {
           return this.getMatchingText(pattern);
-        }
-
-        public String getDescriptionText(String pattern) {
-          return "specify parsing locale";
-        }
-      });
-    }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_ParseDateTimeExpression_670620798052429808(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
-      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "default", new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a1a0a1a32().createNode(), true);
-        }
-
-        public String getMatchingText(String pattern) {
-          return "into";
-        }
-
-        public String getVisibleMatchingText(String pattern) {
-          return this.getMatchingText(pattern);
-        }
-
-        public String getDescriptionText(String pattern) {
-          return "specify datetime with default values";
         }
       });
     }
@@ -448,10 +377,98 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1379098806890398903(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_7499037524191428215(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression");
+      Calculable calc = new Calculable() {
+        public Object calculate() {
+          return SNodeOperations.getParent(_context.getSourceNode());
+        }
+      };
+      SNode node = (SNode) calc.calculate();
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(ModelActions.createRightTransformHintSubstituteActions(node, CellSide.RIGHT, _context.getTransformationTag(), operationContext)));
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_ParseDateTimeExpression_670620798052429808(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          return SLinkOperations.setTarget(_context.getSourceNode(), "default", new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a1a0a1a52().createNode(), true);
+        }
+
+        public String getMatchingText(String pattern) {
+          return "into";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "specify datetime with default values";
+        }
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_ParseDateTimeExpression_670620798052429712(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.ParseDateTimeExpression");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0ab().createNode(), "locale", false), false);
+          return SNodeOperations.getNode("r:00000000-0000-4000-0000-011c895903dd(jetbrains.mps.baseLanguage.datesInternal.structure)", "1172074383898");
+        }
+
+        public String getMatchingText(String pattern) {
+          return "(";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+
+        public String getDescriptionText(String pattern) {
+          return "specify parsing locale";
+        }
+      });
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_6240071430105321137(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression");
+      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
+        public SNode doSubstitute(String pattern) {
+          SNode result = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
+          SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
+          SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
+          return result;
+        }
+
+        public String getMatchingText(String pattern) {
+          return "#{";
+        }
+
+        public String getVisibleMatchingText(String pattern) {
+          return this.getMatchingText(pattern);
+        }
+
+        public String getDescriptionText(String pattern) {
+          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"), "shortDescription");
+        }
+      });
+    }
+    {
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression");
       Iterable<SNode> concepts;
       concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
       for (final SNode subconcept : concepts) {
@@ -465,66 +482,11 @@ public class QueriesGenerated {
           public SNode doSubstitute(String pattern) {
             SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
             SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
-            SLinkOperations.setTarget(result, "period", _context.getSourceNode(), true);
+            SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
             return result;
           }
         });
       }
-    }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_2151017756820977438(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression");
-      Iterable<SNode> concepts;
-      concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
-      for (final SNode subconcept : concepts) {
-        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
-          continue;
-        }
-        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
-          continue;
-        }
-        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
-          public SNode doSubstitute(String pattern) {
-            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
-            {
-              SNode sn = DateTypeUtil.getContainingPeriod(_context.getSourceNode());
-              SNodeOperations.replaceWithAnother(sn, result);
-              if (SNodeOperations.isInstanceOf(sn, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression")) {
-                SLinkOperations.setTarget(result, "datetime", sn, true);
-              } else {
-                SLinkOperations.setTarget(result, "datetime", SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ParenthesizedExpression", null), true);
-                SLinkOperations.setTarget(SNodeOperations.cast(SLinkOperations.getTarget(result, "datetime", true), "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression"), "expression", sn, true);
-              }
-              return result;
-            }
-          }
-        });
-      }
-    }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_FormatDateTimeExpression_2890840340813345708(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression");
-      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0bb().createNode(), "locale", false), false);
-        }
-
-        public String getMatchingText(String pattern) {
-          return "(";
-        }
-
-        public String getVisibleMatchingText(String pattern) {
-          return this.getMatchingText(pattern);
-        }
-      });
     }
     return result;
   }
@@ -586,33 +548,36 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_6240071430105321137(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1379098806890398903(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression");
-      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
-          SNode result = SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression", null);
-          SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
-          SLinkOperations.setTarget(result, "datetime", _context.getSourceNode(), true);
-          return result;
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression");
+      Iterable<SNode> concepts;
+      concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
+      for (final SNode subconcept : concepts) {
+        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
+          continue;
         }
-
-        public String getMatchingText(String pattern) {
-          return "#{";
+        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
+          continue;
         }
-
-        public String getVisibleMatchingText(String pattern) {
-          return this.getMatchingText(pattern);
-        }
-
-        public String getDescriptionText(String pattern) {
-          return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InlineFormatDateTimeExpression"), "shortDescription");
-        }
-      });
+        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
+          public SNode doSubstitute(String pattern) {
+            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
+            SNodeOperations.replaceWithAnother(_context.getSourceNode(), result);
+            SLinkOperations.setTarget(result, "period", _context.getSourceNode(), true);
+            return result;
+          }
+        });
+      }
     }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1169657550853(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression");
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithPropertyOperation");
       Iterable<SNode> concepts;
       concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
       for (final SNode subconcept : concepts) {
@@ -632,13 +597,8 @@ public class QueriesGenerated {
         });
       }
     }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_6626410111396229828(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression");
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.RoundDateTimeOperation");
       Iterable<SNode> concepts;
       concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
       for (final SNode subconcept : concepts) {
@@ -690,37 +650,77 @@ public class QueriesGenerated {
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_7499037524191428215(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_2151017756820977438(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      Calculable calc = new Calculable() {
-        public Object calculate() {
-          return SNodeOperations.getParent(_context.getSourceNode());
+      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodInPropertyExpression");
+      Iterable<SNode> concepts;
+      concepts = SConceptOperations.getAllSubConcepts(concept, _context.getModel(), operationContext.getScope());
+      for (final SNode subconcept : concepts) {
+        if (!(SNodeOperations.isInstanceOf(subconcept, "jetbrains.mps.lang.structure.structure.ConceptDeclaration"))) {
+          continue;
         }
-      };
-      SNode node = (SNode) calc.calculate();
-      ListSequence.fromList(result).addSequence(ListSequence.fromList(ModelActions.createRightTransformHintSubstituteActions(node, CellSide.RIGHT, _context.getTransformationTag(), operationContext)));
+        if (SConceptPropertyOperations.getBoolean(subconcept, "abstract")) {
+          continue;
+        }
+        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(subconcept, _context.getSourceNode()) {
+          public SNode doSubstitute(String pattern) {
+            SNode result = SConceptOperations.createNewNode(NameUtil.nodeFQName(subconcept), null);
+            {
+              SNode sn = DateTypeUtil.getContainingPeriod(_context.getSourceNode());
+              SNodeOperations.replaceWithAnother(sn, result);
+              if (SNodeOperations.isInstanceOf(sn, "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression")) {
+                SLinkOperations.setTarget(result, "datetime", sn, true);
+              } else {
+                SLinkOperations.setTarget(result, "datetime", SConceptOperations.createNewNode("jetbrains.mps.baseLanguage.structure.ParenthesizedExpression", null), true);
+                SLinkOperations.setTarget(SNodeOperations.cast(SLinkOperations.getTarget(result, "datetime", true), "jetbrains.mps.baseLanguage.structure.ParenthesizedExpression"), "expression", sn, true);
+              }
+              return result;
+            }
+          }
+        });
+      }
     }
     return result;
   }
 
-  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_FormatPeriodExpression_8875872347490098521(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
+  public static List<INodeSubstituteAction> sideTransform_ActionsFactory_Expression_1172507550761(final IOperationContext operationContext, final SideTransformActionsBuilderContext _context) {
     List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
     {
-      SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatPeriodExpression");
-      ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(concept, _context.getSourceNode()) {
-        public SNode doSubstitute(String pattern) {
-          return SLinkOperations.setTarget(_context.getSourceNode(), "locale", SLinkOperations.getTarget(new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0hb().createNode(), "locale", false), false);
+      final SNode concept = SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodConstant");
+      Calculable calculable = new Calculable() {
+        public Object calculate() {
+          return DateTypeUtil.findDateTimeProperties(operationContext.getScope(), _context.getModel());
         }
+      };
+      Iterable<SNode> parameterObjects = (Iterable<SNode>) calculable.calculate();
+      assert parameterObjects != null;
+      for (final SNode item : parameterObjects) {
+        ListSequence.fromList(result).addElement(new AbstractSideTransformHintSubstituteAction(item, _context.getSourceNode()) {
+          public SNode doSubstitute(String pattern) {
+            SNode result = SNodeOperations.replaceWithNewChild(_context.getSourceNode(), "jetbrains.mps.baseLanguage.dates.structure.PeriodConstant");
+            SLinkOperations.setTarget(result, "count", _context.getSourceNode(), true);
+            SLinkOperations.setTarget(result, "dateTimeProperty", (item), false);
+            return result;
+          }
 
-        public String getMatchingText(String pattern) {
-          return "(";
-        }
+          public SNode getOutputConcept() {
+            return concept;
+          }
 
-        public String getVisibleMatchingText(String pattern) {
-          return this.getMatchingText(pattern);
-        }
-      });
+          public String getMatchingText(String text) {
+            return SPropertyOperations.getString((item), "pluralForm");
+          }
+
+          public String getVisibleMatchingText(String text) {
+            return this.getMatchingText(text);
+          }
+
+          public String getDescriptionText(String text) {
+            return "Period constant";
+          }
+        });
+      }
     }
     return result;
   }
@@ -742,18 +742,55 @@ public class QueriesGenerated {
     }
   }
 
-  public static class QuotationClass_x583g4_a1a0a1a1 {
-    public QuotationClass_x583g4_a1a0a1a1() {
+  public static class QuotationClass_x583g4_a1a0a1a0 {
+    public QuotationClass_x583g4_a1a0a1a0() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_59mrho_a1a0a1a0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_59mrho_a1a0a1a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_59mrho_a1a0a1a0a = quotedNode_59mrho_a1a0a1a0a;
-        result = quotedNode1_59mrho_a1a0a1a0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
+      }
+      return result;
+    }
+  }
+
+  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0u {
+    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0u() {
+    }
+
+    public SNode createNode() {
+      SNode result = null;
+      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
+      SNode quotedNode_1 = null;
+      SNode quotedNode_2 = null;
+      SNode quotedNode_3 = null;
+      SNode quotedNode_4 = null;
+      {
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5 = quotedNode_1;
+        quotedNode1_5.addReference(SReference.create("dateFormat", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+        quotedNode1_5.addReference(SReference.create("locale", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
+        {
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6 = quotedNode_2;
+          {
+            quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_7 = quotedNode_3;
+            quotedNode_2.addChild("timezone", quotedNode1_7);
+          }
+          {
+            quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_8 = quotedNode_4;
+            quotedNode_2.addChild("datetime", quotedNode1_8);
+          }
+          quotedNode_1.addChild("datetime", quotedNode1_6);
+        }
+        result = quotedNode1_5;
       }
       return result;
     }
@@ -766,31 +803,31 @@ public class QueriesGenerated {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_64jt83_a0a0a0a0a1 = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0b = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0a1 = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0a1_0 = null;
+      SNode quotedNode_1 = null;
+      SNode quotedNode_2 = null;
+      SNode quotedNode_3 = null;
+      SNode quotedNode_4 = null;
       {
-        quotedNode_64jt83_a0a0a0a0a1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_64jt83_a0a0a0a0a1 = quotedNode_64jt83_a0a0a0a0a1;
-        quotedNode1_64jt83_a0a0a0a0a1.addReference(SReference.create("locale", quotedNode1_64jt83_a0a0a0a0a1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
-        quotedNode1_64jt83_a0a0a0a0a1.addReference(SReference.create("dateFormat", quotedNode1_64jt83_a0a0a0a0a1, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5 = quotedNode_1;
+        quotedNode1_5.addReference(SReference.create("locale", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
+        quotedNode1_5.addReference(SReference.create("dateFormat", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
         {
-          quotedNode_64jt83_a0a0a0a0a0b = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_64jt83_a0a0a0a0a0b = quotedNode_64jt83_a0a0a0a0a0b;
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6 = quotedNode_2;
           {
-            quotedNode_64jt83_a0a0a0a0a0a1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_64jt83_a0a0a0a0a0a1 = quotedNode_64jt83_a0a0a0a0a0a1;
-            quotedNode_64jt83_a0a0a0a0a0b.addChild("timezone", quotedNode1_64jt83_a0a0a0a0a0a1);
+            quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_7 = quotedNode_3;
+            quotedNode_2.addChild("timezone", quotedNode1_7);
           }
           {
-            quotedNode_64jt83_a0a0a0a0a0a1_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_64jt83_a0a0a0a0a0a1_0 = quotedNode_64jt83_a0a0a0a0a0a1_0;
-            quotedNode_64jt83_a0a0a0a0a0b.addChild("datetime", quotedNode1_64jt83_a0a0a0a0a0a1_0);
+            quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_8 = quotedNode_4;
+            quotedNode_2.addChild("datetime", quotedNode1_8);
           }
-          quotedNode_64jt83_a0a0a0a0a1.addChild("datetime", quotedNode1_64jt83_a0a0a0a0a0b);
+          quotedNode_1.addChild("datetime", quotedNode1_6);
         }
-        result = quotedNode1_64jt83_a0a0a0a0a1;
+        result = quotedNode1_5;
       }
       return result;
     }
@@ -803,134 +840,97 @@ public class QueriesGenerated {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3ivoac_a0a0a0a0a3 = null;
-      SNode quotedNode_3ivoac_a0a0a0a0a0d = null;
-      SNode quotedNode_3ivoac_a0a0a0a0a0a3 = null;
-      SNode quotedNode_3ivoac_a0a0a0a0a0a3_0 = null;
+      SNode quotedNode_1 = null;
+      SNode quotedNode_2 = null;
+      SNode quotedNode_3 = null;
+      SNode quotedNode_4 = null;
       {
-        quotedNode_3ivoac_a0a0a0a0a3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3ivoac_a0a0a0a0a3 = quotedNode_3ivoac_a0a0a0a0a3;
-        quotedNode1_3ivoac_a0a0a0a0a3.addReference(SReference.create("dateFormat", quotedNode1_3ivoac_a0a0a0a0a3, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
-        quotedNode1_3ivoac_a0a0a0a0a3.addReference(SReference.create("locale", quotedNode1_3ivoac_a0a0a0a0a3, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5 = quotedNode_1;
+        quotedNode1_5.addReference(SReference.create("dateFormat", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+        quotedNode1_5.addReference(SReference.create("locale", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
         {
-          quotedNode_3ivoac_a0a0a0a0a0d = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_3ivoac_a0a0a0a0a0d = quotedNode_3ivoac_a0a0a0a0a0d;
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6 = quotedNode_2;
           {
-            quotedNode_3ivoac_a0a0a0a0a0a3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_3ivoac_a0a0a0a0a0a3 = quotedNode_3ivoac_a0a0a0a0a0a3;
-            quotedNode_3ivoac_a0a0a0a0a0d.addChild("timezone", quotedNode1_3ivoac_a0a0a0a0a0a3);
+            quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_7 = quotedNode_3;
+            quotedNode_2.addChild("timezone", quotedNode1_7);
           }
           {
-            quotedNode_3ivoac_a0a0a0a0a0a3_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_3ivoac_a0a0a0a0a0a3_0 = quotedNode_3ivoac_a0a0a0a0a0a3_0;
-            quotedNode_3ivoac_a0a0a0a0a0d.addChild("datetime", quotedNode1_3ivoac_a0a0a0a0a0a3_0);
+            quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_8 = quotedNode_4;
+            quotedNode_2.addChild("datetime", quotedNode1_8);
           }
-          quotedNode_3ivoac_a0a0a0a0a3.addChild("datetime", quotedNode1_3ivoac_a0a0a0a0a0d);
+          quotedNode_1.addChild("datetime", quotedNode1_6);
         }
-        result = quotedNode1_3ivoac_a0a0a0a0a3;
+        result = quotedNode1_5;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a1a0a1a32 {
-    public QuotationClass_x583g4_a0a0a0a0a0a1a0a1a32() {
+  public static class QuotationClass_x583g4_a0a0a0a0a0a1a0a1a52 {
+    public QuotationClass_x583g4_a0a0a0a0a0a1a0a1a52() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_3ivoac_a0a0a0a0c = null;
-      SNode quotedNode_3ivoac_a0a0a0a0a2 = null;
-      SNode quotedNode_3ivoac_a0a0a0a0a2_0 = null;
+      SNode quotedNode_1 = null;
+      SNode quotedNode_2 = null;
+      SNode quotedNode_3 = null;
       {
-        quotedNode_3ivoac_a0a0a0a0c = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_3ivoac_a0a0a0a0c = quotedNode_3ivoac_a0a0a0a0c;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_4 = quotedNode_1;
         {
-          quotedNode_3ivoac_a0a0a0a0a2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_3ivoac_a0a0a0a0a2 = quotedNode_3ivoac_a0a0a0a0a2;
-          quotedNode_3ivoac_a0a0a0a0c.addChild("datetime", quotedNode1_3ivoac_a0a0a0a0a2);
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_5 = quotedNode_2;
+          quotedNode_1.addChild("datetime", quotedNode1_5);
         }
         {
-          quotedNode_3ivoac_a0a0a0a0a2_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_3ivoac_a0a0a0a0a2_0 = quotedNode_3ivoac_a0a0a0a0a2_0;
-          quotedNode_3ivoac_a0a0a0a0c.addChild("timezone", quotedNode1_3ivoac_a0a0a0a0a2_0);
+          quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DefaultTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6 = quotedNode_3;
+          quotedNode_1.addChild("timezone", quotedNode1_6);
         }
-        result = quotedNode1_3ivoac_a0a0a0a0c;
+        result = quotedNode1_4;
       }
       return result;
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0bb {
-    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0bb() {
+  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0ab {
+    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0ab() {
     }
 
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_64jt83_a0a0a0a0a0 = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0a = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0a0 = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0a0_0 = null;
+      SNode quotedNode_1 = null;
+      SNode quotedNode_2 = null;
+      SNode quotedNode_3 = null;
+      SNode quotedNode_4 = null;
       {
-        quotedNode_64jt83_a0a0a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_64jt83_a0a0a0a0a0 = quotedNode_64jt83_a0a0a0a0a0;
-        quotedNode1_64jt83_a0a0a0a0a0.addReference(SReference.create("dateFormat", quotedNode1_64jt83_a0a0a0a0a0, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
-        quotedNode1_64jt83_a0a0a0a0a0.addReference(SReference.create("locale", quotedNode1_64jt83_a0a0a0a0a0, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_5 = quotedNode_1;
+        quotedNode1_5.addReference(SReference.create("dateFormat", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
+        quotedNode1_5.addReference(SReference.create("locale", quotedNode1_5, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
         {
-          quotedNode_64jt83_a0a0a0a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_64jt83_a0a0a0a0a0a = quotedNode_64jt83_a0a0a0a0a0a;
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_6 = quotedNode_2;
           {
-            quotedNode_64jt83_a0a0a0a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_64jt83_a0a0a0a0a0a0 = quotedNode_64jt83_a0a0a0a0a0a0;
-            quotedNode_64jt83_a0a0a0a0a0a.addChild("timezone", quotedNode1_64jt83_a0a0a0a0a0a0);
+            quotedNode_3 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_7 = quotedNode_3;
+            quotedNode_2.addChild("timezone", quotedNode1_7);
           }
           {
-            quotedNode_64jt83_a0a0a0a0a0a0_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_64jt83_a0a0a0a0a0a0_0 = quotedNode_64jt83_a0a0a0a0a0a0_0;
-            quotedNode_64jt83_a0a0a0a0a0a.addChild("datetime", quotedNode1_64jt83_a0a0a0a0a0a0_0);
+            quotedNode_4 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+            SNode quotedNode1_8 = quotedNode_4;
+            quotedNode_2.addChild("datetime", quotedNode1_8);
           }
-          quotedNode_64jt83_a0a0a0a0a0.addChild("datetime", quotedNode1_64jt83_a0a0a0a0a0a);
+          quotedNode_1.addChild("datetime", quotedNode1_6);
         }
-        result = quotedNode1_64jt83_a0a0a0a0a0;
-      }
-      return result;
-    }
-  }
-
-  public static class QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0hb {
-    public QuotationClass_x583g4_a0a0a0a0a0a0b0a0b0hb() {
-    }
-
-    public SNode createNode() {
-      SNode result = null;
-      Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_64jt83_a0a0a0a0a2 = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0c = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0a2 = null;
-      SNode quotedNode_64jt83_a0a0a0a0a0a2_0 = null;
-      {
-        quotedNode_64jt83_a0a0a0a0a2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.FormatDateTimeExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_64jt83_a0a0a0a0a2 = quotedNode_64jt83_a0a0a0a0a2;
-        quotedNode1_64jt83_a0a0a0a0a2.addReference(SReference.create("dateFormat", quotedNode1_64jt83_a0a0a0a0a2, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1173884238614")));
-        quotedNode1_64jt83_a0a0a0a0a2.addReference(SReference.create("locale", quotedNode1_64jt83_a0a0a0a0a2, SModelReference.fromString("r:00000000-0000-4000-0000-011c895903d6(jetbrains.mps.baseLanguage.dates.accessories)"), SNodeId.fromString("1172681308861")));
-        {
-          quotedNode_64jt83_a0a0a0a0a0c = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.InTimezoneExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_64jt83_a0a0a0a0a0c = quotedNode_64jt83_a0a0a0a0a0c;
-          {
-            quotedNode_64jt83_a0a0a0a0a0a2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.UTCTimeZoneConstant", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_64jt83_a0a0a0a0a0a2 = quotedNode_64jt83_a0a0a0a0a0a2;
-            quotedNode_64jt83_a0a0a0a0a0c.addChild("timezone", quotedNode1_64jt83_a0a0a0a0a0a2);
-          }
-          {
-            quotedNode_64jt83_a0a0a0a0a0a2_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.NowExpression", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-            SNode quotedNode1_64jt83_a0a0a0a0a0a2_0 = quotedNode_64jt83_a0a0a0a0a0a2_0;
-            quotedNode_64jt83_a0a0a0a0a0c.addChild("datetime", quotedNode1_64jt83_a0a0a0a0a0a2_0);
-          }
-          quotedNode_64jt83_a0a0a0a0a2.addChild("datetime", quotedNode1_64jt83_a0a0a0a0a0c);
-        }
-        result = quotedNode1_64jt83_a0a0a0a0a2;
+        result = quotedNode1_5;
       }
       return result;
     }

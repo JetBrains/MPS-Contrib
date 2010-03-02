@@ -60,6 +60,14 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_ezq9vh_d0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
+    editorCell.setCellId("Constant_ezq9vh_d0");
+    Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_ezq9vh_f0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_ezq9vh_f0");
@@ -72,14 +80,6 @@ public class DateTimeMinusOperation_Editor extends DefaultNodeEditor {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "in");
     editorCell.setCellId("Constant_ezq9vh_g0");
     BaseLanguageStyle_StyleSheet.getOperator(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_ezq9vh_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "date");
-    editorCell.setCellId("Constant_ezq9vh_d0");
-    Dates_StyleSheet.getDateSmall(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }

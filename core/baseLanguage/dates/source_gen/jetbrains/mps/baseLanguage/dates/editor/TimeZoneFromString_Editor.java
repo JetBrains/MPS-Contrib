@@ -31,6 +31,14 @@ public class TimeZoneFromString_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_qwah5o_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "timezone");
+    editorCell.setCellId("Constant_qwah5o_a0");
+    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_qwah5o_b0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_qwah5o_b0");
@@ -52,14 +60,6 @@ public class TimeZoneFromString_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.PUNCTUATION_LEFT, true);
     }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_qwah5o_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "timezone");
-    editorCell.setCellId("Constant_qwah5o_a0");
-    BaseLanguageStyle_StyleSheet.getKeyWord(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }

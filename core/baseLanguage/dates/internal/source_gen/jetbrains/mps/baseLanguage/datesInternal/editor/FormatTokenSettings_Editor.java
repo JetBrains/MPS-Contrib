@@ -103,13 +103,24 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_o189cj_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
-    editorCell.setCellId("Constant_o189cj_d0");
-    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
+  private EditorCell createConstant_o189cj_b2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_o189cj_b2a");
     {
       Style style = editorCell.getStyle();
-      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_o189cj_d2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_o189cj_d2a");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
     editorCell.setDefaultText("");
@@ -124,6 +135,14 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_o189cj_b0e2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
+    editorCell.setCellId("Constant_o189cj_b0e2a");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -152,32 +171,13 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_o189cj_d2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_o189cj_d2a");
+  private EditorCell createConstant_o189cj_d0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
+    editorCell.setCellId("Constant_o189cj_d0");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_o189cj_b0e2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "{");
-    editorCell.setCellId("Constant_o189cj_b0e2a");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_o189cj_b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_o189cj_b2a");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
     }
     editorCell.setDefaultText("");
@@ -188,6 +188,19 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     AbstractCellListHandler handler = new FormatTokenSettings_Editor.predefinedDateFormatListHandler_o189cj_a2a(node, "predefinedDateFormat", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_predefinedDateFormat");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
+    }
+    editorCell.setRole(handler.getElementRole());
+    return editorCell;
+  }
+
+  private EditorCell createRefNodeList_o189cj_c2a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new FormatTokenSettings_Editor.predefinedPeriodFormatListHandler_o189cj_c2a(node, "predefinedPeriodFormat", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
+    editorCell.setCellId("refNodeList_predefinedPeriodFormat");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -215,19 +228,6 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     AbstractCellListHandler handler = new FormatTokenSettings_Editor.dateTimePropertyFormatConfigurationListHandler_o189cj_g2a(node, "dateTimePropertyFormatConfiguration", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
     editorCell.setCellId("refNodeList_dateTimePropertyFormatConfiguration");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-      style.set(StyleAttributes.INDENT_LAYOUT_CHILDREN_NEWLINE, true);
-    }
-    editorCell.setRole(handler.getElementRole());
-    return editorCell;
-  }
-
-  private EditorCell createRefNodeList_o189cj_c2a(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new FormatTokenSettings_Editor.predefinedPeriodFormatListHandler_o189cj_c2a(node, "predefinedPeriodFormat", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Indent(), false);
-    editorCell.setCellId("refNodeList_predefinedPeriodFormat");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -285,6 +285,63 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     private EditorCell createConstant_o189cj_a0c0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<predefined date formats>");
       editorCell.setCellId("Constant_o189cj_a0c0");
+      {
+        Style style = editorCell.getStyle();
+        style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
+      }
+      editorCell.setDefaultText("");
+      return editorCell;
+    }
+  }
+
+  private static class predefinedPeriodFormatListHandler_o189cj_c2a extends RefNodeListHandler {
+    public predefinedPeriodFormatListHandler_o189cj_c2a(SNode ownerNode, String childRole, EditorContext context) {
+      super(ownerNode, childRole, context, false);
+    }
+
+    public SNode createNodeToInsert(EditorContext editorContext) {
+      SNode listOwner = super.getOwner();
+      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
+    }
+
+    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
+      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
+      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
+      return elementCell;
+    }
+
+    public EditorCell createEmptyCell(EditorContext editorContext) {
+      EditorCell emptyCell = null;
+      emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
+      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
+      return emptyCell;
+    }
+
+    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
+      return this.createConstant_o189cj_a2c0(editorContext, node);
+    }
+
+    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
+      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
+        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
+        SNode substituteInfoNode = listOwner;
+        if (elementNode != null) {
+          substituteInfoNode = elementNode;
+          elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
+        }
+        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
+          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
+        }
+      }
+    }
+
+    public EditorCell createSeparatorCell(EditorContext editorContext) {
+      return super.createSeparatorCell(editorContext);
+    }
+
+    private EditorCell createConstant_o189cj_a2c0(EditorContext editorContext, SNode node) {
+      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<predefined period formats>");
+      editorCell.setCellId("Constant_o189cj_a2c0");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
@@ -399,63 +456,6 @@ public class FormatTokenSettings_Editor extends DefaultNodeEditor {
     private EditorCell createConstant_o189cj_a6c0(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<no datetime property format configuration>");
       editorCell.setCellId("Constant_o189cj_a6c0");
-      {
-        Style style = editorCell.getStyle();
-        style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
-      }
-      editorCell.setDefaultText("");
-      return editorCell;
-    }
-  }
-
-  private static class predefinedPeriodFormatListHandler_o189cj_c2a extends RefNodeListHandler {
-    public predefinedPeriodFormatListHandler_o189cj_c2a(SNode ownerNode, String childRole, EditorContext context) {
-      super(ownerNode, childRole, context, false);
-    }
-
-    public SNode createNodeToInsert(EditorContext editorContext) {
-      SNode listOwner = super.getOwner();
-      return NodeFactoryManager.createNode(listOwner, editorContext, super.getElementRole());
-    }
-
-    public EditorCell createNodeCell(EditorContext editorContext, SNode elementNode) {
-      EditorCell elementCell = super.createNodeCell(editorContext, elementNode);
-      this.installElementCellActions(this.getOwner(), elementNode, elementCell, editorContext);
-      return elementCell;
-    }
-
-    public EditorCell createEmptyCell(EditorContext editorContext) {
-      EditorCell emptyCell = null;
-      emptyCell = this.createEmptyCell_internal(editorContext, this.getOwner());
-      this.installElementCellActions(super.getOwner(), null, emptyCell, editorContext);
-      return emptyCell;
-    }
-
-    public EditorCell createEmptyCell_internal(EditorContext editorContext, SNode node) {
-      return this.createConstant_o189cj_a2c0(editorContext, node);
-    }
-
-    public void installElementCellActions(SNode listOwner, SNode elementNode, EditorCell elementCell, EditorContext editorContext) {
-      if (elementCell.getUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET) == null) {
-        elementCell.putUserObject(AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET, AbstractCellListHandler.ELEMENT_CELL_ACTIONS_SET);
-        SNode substituteInfoNode = listOwner;
-        if (elementNode != null) {
-          substituteInfoNode = elementNode;
-          elementCell.setAction(CellActionType.DELETE, new CellAction_DeleteNode(elementNode));
-        }
-        if (elementCell.getSubstituteInfo() == null || elementCell.getSubstituteInfo() instanceof DefaultReferenceSubstituteInfo) {
-          elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
-        }
-      }
-    }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
-
-    private EditorCell createConstant_o189cj_a2c0(EditorContext editorContext, SNode node) {
-      EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<predefined period formats>");
-      editorCell.setCellId("Constant_o189cj_a2c0");
       {
         Style style = editorCell.getStyle();
         style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);

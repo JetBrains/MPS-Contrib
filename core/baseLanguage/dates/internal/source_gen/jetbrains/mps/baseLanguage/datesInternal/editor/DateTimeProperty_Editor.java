@@ -78,30 +78,9 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_kwu3ge_d0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
-    editorCell.setCellId("Constant_kwu3ge_d0");
-    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_kwu3ge_b2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DateTimeFieldType");
     editorCell.setCellId("Constant_kwu3ge_b2a");
-    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_kwu3ge_q2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Plural form");
-    editorCell.setCellId("Constant_kwu3ge_q2a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
@@ -115,16 +94,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_kwu3ge_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_kwu3ge_e0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_kwu3ge_n2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Single form");
-    editorCell.setCellId("Constant_kwu3ge_n2a");
+  private EditorCell createConstant_kwu3ge_h2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DurationType");
+    editorCell.setCellId("Constant_kwu3ge_h2a");
+    DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -136,10 +109,37 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_kwu3ge_h2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Joda DurationType");
-    editorCell.setCellId("Constant_kwu3ge_h2a");
+  private EditorCell createConstant_kwu3ge_n2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Single form");
+    editorCell.setCellId("Constant_kwu3ge_n2a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_kwu3ge_q2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "Plural form");
+    editorCell.setCellId("Constant_kwu3ge_q2a");
     DatesInternal_StyleSheet.getSimpleText(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_kwu3ge_d0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "}");
+    editorCell.setCellId("Constant_kwu3ge_d0");
+    BaseLanguageStyle_StyleSheet.getMatching(editorCell).apply(editorCell);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+      style.set(StyleAttributes.FONT_STYLE, MPSFonts.PLAIN);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_kwu3ge_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_kwu3ge_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -154,12 +154,7 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  private EditorCell createIndentCell_kwu3ge_p2a(EditorContext editorContext, SNode node) {
-    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
-    return result;
-  }
-
-  private EditorCell createIndentCell_kwu3ge_m2a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_kwu3ge_g2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
@@ -169,7 +164,12 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  private EditorCell createIndentCell_kwu3ge_g2a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_kwu3ge_m2a(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    return result;
+  }
+
+  private EditorCell createIndentCell_kwu3ge_p2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
@@ -193,13 +193,14 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_kwu3ge_c2a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("jodaDateTimeFieldType");
-    provider.setNoTargetText("<no jodaDateTimeFieldType>");
+  private EditorCell createProperty_kwu3ge_o2a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("singleForm");
+    provider.setNoTargetText("<no singleForm>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a2c0());
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_singleForm");
+    BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -238,6 +239,28 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createRefCell_kwu3ge_c2a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("jodaDateTimeFieldType");
+    provider.setNoTargetText("<no jodaDateTimeFieldType>");
+    EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a2c0());
+    editorCell = provider.createEditorCell(editorContext);
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
+    }
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
   private EditorCell createRefCell_kwu3ge_f2a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("jodaPeriodType");
@@ -260,14 +283,13 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_kwu3ge_o2a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("singleForm");
-    provider.setNoTargetText("<no singleForm>");
+  private EditorCell createRefCell_kwu3ge_i2a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("jodaDurationType");
+    provider.setNoTargetText("<no jodaDurationType>");
     EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a8c0());
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_singleForm");
-    BaseLanguageStyle_StyleSheet.getField(editorCell).apply(editorCell);
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
@@ -289,28 +311,6 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     provider.setNoTargetText("<no periodFormatMethod>");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a11c0());
-    editorCell = provider.createEditorCell(editorContext);
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.INDENT_LAYOUT_NEW_LINE, true);
-    }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
-    SNode attributeConcept = provider.getRoleAttribute();
-    Class attributeKind = provider.getRoleAttributeClass();
-    if (attributeConcept != null) {
-      IOperationContext opContext = editorContext.getOperationContext();
-      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
-      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
-    } else
-    return editorCell;
-  }
-
-  private EditorCell createRefCell_kwu3ge_i2a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("jodaDurationType");
-    provider.setNoTargetText("<no jodaDurationType>");
-    EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new DateTimeProperty_Editor._Inline_kwu3ge_a8c0());
     editorCell = provider.createEditorCell(editorContext);
     {
       Style style = editorCell.getStyle();
@@ -395,8 +395,8 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline_kwu3ge_a11c0 extends InlineCellProvider {
-    public _Inline_kwu3ge_a11c0() {
+  public static class _Inline_kwu3ge_a8c0 extends InlineCellProvider {
+    public _Inline_kwu3ge_a8c0() {
       super();
     }
 
@@ -405,10 +405,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_kwu3ge_a0l2a(editorContext, node);
+      return this.createProperty_kwu3ge_a0i2a(editorContext, node);
     }
 
-    private EditorCell createProperty_kwu3ge_a0l2a(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_kwu3ge_a0i2a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");
@@ -429,8 +429,8 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     }
   }
 
-  public static class _Inline_kwu3ge_a8c0 extends InlineCellProvider {
-    public _Inline_kwu3ge_a8c0() {
+  public static class _Inline_kwu3ge_a11c0 extends InlineCellProvider {
+    public _Inline_kwu3ge_a11c0() {
       super();
     }
 
@@ -439,10 +439,10 @@ public class DateTimeProperty_Editor extends DefaultNodeEditor {
     }
 
     public EditorCell createEditorCell(EditorContext editorContext, SNode node) {
-      return this.createProperty_kwu3ge_a0i2a(editorContext, node);
+      return this.createProperty_kwu3ge_a0l2a(editorContext, node);
     }
 
-    private EditorCell createProperty_kwu3ge_a0i2a(EditorContext editorContext, SNode node) {
+    private EditorCell createProperty_kwu3ge_a0l2a(EditorContext editorContext, SNode node) {
       CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
       provider.setRole("name");
       provider.setNoTargetText("<no name>");

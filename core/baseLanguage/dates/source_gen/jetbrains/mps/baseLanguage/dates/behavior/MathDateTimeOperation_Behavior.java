@@ -44,12 +44,12 @@ public class MathDateTimeOperation_Behavior {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_26vghy_a1a0a2a2 = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_26vghy_a1a0a2a2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_26vghy_a1a0a2a2 = quotedNode_26vghy_a1a0a2a2;
-        quotedNode1_26vghy_a1a0a2a2.addReference(SReference.create("classifier", quotedNode1_26vghy_a1a0a2a2, SModelReference.fromString("f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)"), SNodeId.fromString("~AbstractInstant")));
-        result = quotedNode1_26vghy_a1a0a2a2;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#org.joda.time.base(org.joda.time.base@java_stub)"), SNodeId.fromString("~AbstractInstant")));
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -62,12 +62,12 @@ public class MathDateTimeOperation_Behavior {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_26vghy_a1a0a0d0c = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_26vghy_a1a0a0d0c = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_26vghy_a1a0a0d0c = quotedNode_26vghy_a1a0a0d0c;
-        quotedNode1_26vghy_a1a0a0d0c.addReference(SReference.create("classifier", quotedNode1_26vghy_a1a0a0d0c, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
-        result = quotedNode1_26vghy_a1a0a0d0c;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Date")));
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -80,12 +80,12 @@ public class MathDateTimeOperation_Behavior {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_26vghy_a1a0a0e0c = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_26vghy_a1a0a0e0c = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_26vghy_a1a0a0e0c = quotedNode_26vghy_a1a0a0e0c;
-        quotedNode1_26vghy_a1a0a0e0c.addReference(SReference.create("classifier", quotedNode1_26vghy_a1a0a0e0c, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
-        result = quotedNode1_26vghy_a1a0a0e0c;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Calendar")));
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -98,11 +98,11 @@ public class MathDateTimeOperation_Behavior {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_26vghy_a1a0a0f0c = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_26vghy_a1a0a0f0c = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_26vghy_a1a0a0f0c = quotedNode_26vghy_a1a0a0f0c;
-        result = quotedNode1_26vghy_a1a0a0f0c;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.PeriodType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }

@@ -49,18 +49,18 @@ public class typeof_AllTimeZonesConstant_InferenceRule extends AbstractInference
     public SNode createNode(final TypeCheckingContext typeCheckingContext) {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_nsz8jk_a0a0a0 = null;
-      SNode quotedNode_nsz8jk_a0a0a0a = null;
+      SNode quotedNode_1 = null;
+      SNode quotedNode_2 = null;
       {
-        quotedNode_nsz8jk_a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_nsz8jk_a0a0a0 = quotedNode_nsz8jk_a0a0a0;
-        quotedNode1_nsz8jk_a0a0a0.addReference(SReference.create("classifier", quotedNode1_nsz8jk_a0a0a0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3 = quotedNode_1;
+        quotedNode1_3.addReference(SReference.create("classifier", quotedNode1_3, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
         {
-          quotedNode_nsz8jk_a0a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_nsz8jk_a0a0a0a = quotedNode_nsz8jk_a0a0a0a;
-          quotedNode_nsz8jk_a0a0a0.addChild("parameter", quotedNode1_nsz8jk_a0a0a0a);
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_4 = quotedNode_2;
+          quotedNode_1.addChild("parameter", quotedNode1_4);
         }
-        result = quotedNode1_nsz8jk_a0a0a0;
+        result = quotedNode1_3;
       }
       return result;
     }
@@ -68,18 +68,18 @@ public class typeof_AllTimeZonesConstant_InferenceRule extends AbstractInference
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_nsz8jk_a0a0a0 = null;
-      SNode quotedNode_nsz8jk_a0a0a0a = null;
+      SNode quotedNode_1 = null;
+      SNode quotedNode_2 = null;
       {
-        quotedNode_nsz8jk_a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_nsz8jk_a0a0a0 = quotedNode_nsz8jk_a0a0a0;
-        quotedNode1_nsz8jk_a0a0a0.addReference(SReference.create("classifier", quotedNode1_nsz8jk_a0a0a0, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_3 = quotedNode_1;
+        quotedNode1_3.addReference(SReference.create("classifier", quotedNode1_3, SModelReference.fromString("f:java_stub#java.util(java.util@java_stub)"), SNodeId.fromString("~Set")));
         {
-          quotedNode_nsz8jk_a0a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-          SNode quotedNode1_nsz8jk_a0a0a0a = quotedNode_nsz8jk_a0a0a0a;
-          quotedNode_nsz8jk_a0a0a0.addChild("parameter", quotedNode1_nsz8jk_a0a0a0a);
+          quotedNode_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.StringType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+          SNode quotedNode1_4 = quotedNode_2;
+          quotedNode_1.addChild("parameter", quotedNode1_4);
         }
-        result = quotedNode1_nsz8jk_a0a0a0;
+        result = quotedNode1_3;
       }
       return result;
     }

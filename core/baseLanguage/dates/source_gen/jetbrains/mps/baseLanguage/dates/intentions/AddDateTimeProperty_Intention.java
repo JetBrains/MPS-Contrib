@@ -67,11 +67,11 @@ public class AddDateTimeProperty_Intention extends BaseIntention implements Inte
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_stau8o_a1a0a0a0a0a0 = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_stau8o_a1a0a0a0a0a0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_stau8o_a1a0a0a0a0a0 = quotedNode_stau8o_a1a0a0a0a0a0;
-        result = quotedNode1_stau8o_a1a0a0a0a0a0;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -84,11 +84,11 @@ public class AddDateTimeProperty_Intention extends BaseIntention implements Inte
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_stau8o_a1a0a0a0a0a0_0 = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_stau8o_a1a0a0a0a0a0_0 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_stau8o_a1a0a0a0a0a0_0 = quotedNode_stau8o_a1a0a0a0a0a0_0;
-        result = quotedNode1_stau8o_a1a0a0a0a0a0_0;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeWithTZType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -101,11 +101,11 @@ public class AddDateTimeProperty_Intention extends BaseIntention implements Inte
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_stau8o_a1a0a0a0a0a0_1 = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_stau8o_a1a0a0a0a0a0_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_stau8o_a1a0a0a0a0a0_1 = quotedNode_stau8o_a1a0a0a0a0a0_1;
-        result = quotedNode1_stau8o_a1a0a0a0a0a0_1;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -118,11 +118,11 @@ public class AddDateTimeProperty_Intention extends BaseIntention implements Inte
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_stau8o_a1a0a0a0a0a0_2 = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_stau8o_a1a0a0a0a0a0_2 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_stau8o_a1a0a0a0a0a0_2 = quotedNode_stau8o_a1a0a0a0a0a0_2;
-        result = quotedNode1_stau8o_a1a0a0a0a0a0_2;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }

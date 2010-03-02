@@ -60,11 +60,11 @@ public class ParseDateTimeExpression_Behavior {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_b1835x_a0a0b0a0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_b1835x_a0a0b0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_b1835x_a0a0b0a0a = quotedNode_b1835x_a0a0b0a0a;
-        result = quotedNode1_b1835x_a0a0b0a0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }
@@ -77,11 +77,11 @@ public class ParseDateTimeExpression_Behavior {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_b1835x_a0a0a0b = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_b1835x_a0a0a0b = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_b1835x_a0a0a0b = quotedNode_b1835x_a0a0a0b;
-        result = quotedNode1_b1835x_a0a0a0b;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.dates.structure.DateTimeZoneType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        result = quotedNode1_2;
       }
       return result;
     }

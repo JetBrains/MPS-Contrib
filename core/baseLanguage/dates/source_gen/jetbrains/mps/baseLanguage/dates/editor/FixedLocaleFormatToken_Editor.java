@@ -53,18 +53,18 @@ public class FixedLocaleFormatToken_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_gkiggc_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
-    editorCell.setCellId("Constant_gkiggc_f0");
-    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_gkiggc_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "(");
     editorCell.setCellId("Constant_gkiggc_d0");
     BaseLanguageStyle_StyleSheet.getLeftParen(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_gkiggc_f0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
+    editorCell.setCellId("Constant_gkiggc_f0");
+    BaseLanguageStyle_StyleSheet.getRightParen(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
