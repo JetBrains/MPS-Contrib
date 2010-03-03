@@ -45,13 +45,6 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_u5c1mf_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
-    editorCell.setCellId("Constant_u5c1mf_e0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_u5c1mf_a0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "createRunConfig");
     editorCell.setCellId("Constant_u5c1mf_a0");
@@ -66,6 +59,20 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_u5c1mf_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
+    editorCell.setCellId("Constant_u5c1mf_e0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_u5c1mf_g0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
+    editorCell.setCellId("Constant_u5c1mf_g0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_u5c1mf_i0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_u5c1mf_i0");
@@ -76,13 +83,6 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_u5c1mf_j0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
     editorCell.setCellId("Constant_u5c1mf_j0");
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_u5c1mf_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ",");
-    editorCell.setCellId("Constant_u5c1mf_g0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -113,12 +113,11 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_u5c1mf_b0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("runConfig");
-    provider.setNoTargetText("<no runConfig>");
+  private EditorCell createRefNode_u5c1mf_h0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("suggestedName");
+    provider.setNoTargetText("<no name>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new CreateRunConfigStatement_Editor._Inline_u5c1mf_a1a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
@@ -131,11 +130,12 @@ public class CreateRunConfigStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_u5c1mf_h0(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("suggestedName");
-    provider.setNoTargetText("<no name>");
+  private EditorCell createRefCell_u5c1mf_b0(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("runConfig");
+    provider.setNoTargetText("<no runConfig>");
     EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new CreateRunConfigStatement_Editor._Inline_u5c1mf_a1a());
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();

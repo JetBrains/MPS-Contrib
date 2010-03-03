@@ -27,16 +27,16 @@ public class RunConfigMainNodeStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_xsmi4i_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
-    editorCell.setCellId("Constant_xsmi4i_c0");
+  private EditorCell createConstant_xsmi4i_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "main context item");
+    editorCell.setCellId("Constant_xsmi4i_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_xsmi4i_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "main context item");
-    editorCell.setCellId("Constant_xsmi4i_a0");
+  private EditorCell createConstant_xsmi4i_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ";");
+    editorCell.setCellId("Constant_xsmi4i_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }

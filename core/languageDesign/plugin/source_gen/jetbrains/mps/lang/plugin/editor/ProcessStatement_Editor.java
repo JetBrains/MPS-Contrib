@@ -30,16 +30,16 @@ public class ProcessStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_ogig6_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "command");
-    editorCell.setCellId("Constant_ogig6_c0");
+  private EditorCell createConstant_ogig6_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "process");
+    editorCell.setCellId("Constant_ogig6_a0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_ogig6_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "process");
-    editorCell.setCellId("Constant_ogig6_a0");
+  private EditorCell createConstant_ogig6_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "command");
+    editorCell.setCellId("Constant_ogig6_c0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -52,10 +52,10 @@ public class ProcessStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_ogig6_d0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_ogig6_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("command");
-    provider.setNoTargetText("<no command>");
+    provider.setRole("process");
+    provider.setNoTargetText("<no process>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -69,10 +69,10 @@ public class ProcessStatement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_ogig6_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_ogig6_d0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("process");
-    provider.setNoTargetText("<no process>");
+    provider.setRole("command");
+    provider.setNoTargetText("<no command>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
