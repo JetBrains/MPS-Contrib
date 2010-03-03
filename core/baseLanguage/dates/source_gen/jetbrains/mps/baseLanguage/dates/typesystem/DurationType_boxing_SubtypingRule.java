@@ -16,7 +16,7 @@ import jetbrains.mps.project.GlobalScope;
 import jetbrains.mps.lang.pattern.IMatchingPattern;
 
 public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime implements ISubtypingRule_Runtime {
-  private static SNodePointer SNODE_POINTER__0 = new SNodePointer("f:java_stub#java.lang(java.lang@java_stub)", "~Long");
+  private static SNodePointer SNODE_POINTER_jq3mqm_a0a1a0a1a2a0a0a0a0a0a2 = new SNodePointer("f:java_stub#java.lang(java.lang@java_stub)", "~Long");
 
   /*package*/ GeneratedMatchingPattern myMatchingPattern;
 
@@ -82,7 +82,7 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
         }
         {
           SNode referent;
-          referent = SNODE_POINTER__0.getNode();
+          referent = SNODE_POINTER_jq3mqm_a0a1a0a1a2a0a0a0a0a0a2.getNode();
           if (nodeToMatch_etxu84_a0a.getReferent("classifier") != referent) {
             return false;
           }
