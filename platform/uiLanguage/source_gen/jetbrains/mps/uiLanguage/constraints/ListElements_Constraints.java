@@ -31,12 +31,12 @@ public class ListElements_Constraints {
     public SNode createNode() {
       SNode result = null;
       Set<SNode> _parameterValues_129834374 = new HashSet<SNode>();
-      SNode quotedNode_fpzj2u_a0a0a0a0a = null;
+      SNode quotedNode_1 = null;
       {
-        quotedNode_fpzj2u_a0a0a0a0a = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
-        SNode quotedNode1_fpzj2u_a0a0a0a0a = quotedNode_fpzj2u_a0a0a0a0a;
-        quotedNode1_fpzj2u_a0a0a0a0a.addReference(SReference.create("componentDeclaration", quotedNode1_fpzj2u_a0a0a0a0a, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1203082515478")));
-        result = quotedNode1_fpzj2u_a0a0a0a0a;
+        quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.uiLanguage.structure.ComponentInstance", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
+        SNode quotedNode1_2 = quotedNode_1;
+        quotedNode1_2.addReference(SReference.create("componentDeclaration", quotedNode1_2, SModelReference.fromString("r:00000000-0000-4000-0000-011c8959054d(jetbrains.mps.uiLanguage.components)"), SNodeId.fromString("1203082515478")));
+        result = quotedNode1_2;
       }
       return result;
     }

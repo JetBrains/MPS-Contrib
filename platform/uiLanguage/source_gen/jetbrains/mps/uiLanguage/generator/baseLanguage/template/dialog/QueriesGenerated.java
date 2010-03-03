@@ -16,12 +16,12 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "text");
   }
 
-  public static SNode sourceNodeQuery_1202833843652(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "handler", true);
-  }
-
   public static SNode sourceNodeQuery_1202833877884(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "rootComponent", true);
+  }
+
+  public static SNode sourceNodeQuery_1202833843652(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "handler", true);
   }
 
   public static Iterable sourceNodesQuery_1202833810237(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

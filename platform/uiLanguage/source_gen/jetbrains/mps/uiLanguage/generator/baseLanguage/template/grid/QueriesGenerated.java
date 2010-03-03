@@ -8,8 +8,8 @@ import jetbrains.mps.uiLanguage.behavior.Grid_Behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
-import jetbrains.mps.uiLanguage.behavior.GridRow_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
+import jetbrains.mps.uiLanguage.behavior.GridRow_Behavior;
 
 public class QueriesGenerated {
   public static Object propertyMacro_GetPropertyValue_1202825165022(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -24,12 +24,12 @@ public class QueriesGenerated {
     return _context.getNode();
   }
 
-  public static Iterable sourceNodesQuery_1202825291118(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
-    return GridRow_Behavior.call_getRowComponents_1213877252264(_context.getNode());
-  }
-
   public static Iterable sourceNodesQuery_1202825294699(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "row", true);
+  }
+
+  public static Iterable sourceNodesQuery_1202825291118(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return GridRow_Behavior.call_getRowComponents_1213877252264(_context.getNode());
   }
 
   public static Iterable sourceNodesQuery_1203604100897(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

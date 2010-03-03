@@ -5,10 +5,10 @@ package jetbrains.mps.uiLanguage.generator.baseLanguage.template.form;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 import jetbrains.mps.generator.template.WeavingMappingRuleContext;
@@ -18,13 +18,13 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "label");
   }
 
-  public static Object propertyMacro_GetPropertyValue_1202822099795(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "part", true)).count();
-  }
-
   public static Object propertyMacro_GetPropertyValue_1202822134016(final IOperationContext operationContext, final PropertyMacroContext _context) {
     SNode parent = SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.uiLanguage.structure.Form");
     return ListSequence.fromList(SLinkOperations.getTargets(parent, "part", true)).indexOf(_context.getNode());
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1202822099795(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "part", true)).count();
   }
 
   public static Object propertyMacro_GetPropertyValue_1202822227345(final IOperationContext operationContext, final PropertyMacroContext _context) {

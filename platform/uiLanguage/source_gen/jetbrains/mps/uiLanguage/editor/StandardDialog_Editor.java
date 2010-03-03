@@ -62,6 +62,18 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createCollection_trqmo3_b1b0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_trqmo3_b1b0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_trqmo3_a1b1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_trqmo3_b1b1a(editorContext, node));
+    return editorCell;
+  }
+
   private EditorCell createCollection_trqmo3_c0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_trqmo3_c0");
@@ -83,18 +95,6 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createConstant_trqmo3_a1c0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_trqmo3_b1c0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createCollection_trqmo3_b1b0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_trqmo3_b1b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createIndentCell_trqmo3_a1b1a(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_trqmo3_b1b1a(editorContext, node));
     return editorCell;
   }
 
@@ -147,12 +147,12 @@ public class StandardDialog_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  private EditorCell createIndentCell_trqmo3_a2a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_trqmo3_a1b1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell_trqmo3_a1b1a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_trqmo3_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }

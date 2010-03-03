@@ -45,6 +45,18 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createCollection_dfptdd_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_dfptdd_a0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createConstant_dfptdd_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_dfptdd_b0a(editorContext, node));
+    return editorCell;
+  }
+
   private EditorCell createCollection_dfptdd_d0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_dfptdd_d0");
@@ -54,6 +66,18 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createIndentCell_dfptdd_a3a(editorContext, node));
     editorCell.addEditorCell(this.createRefNodeList_dfptdd_b3a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_dfptdd_g0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_dfptdd_g0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_dfptdd_a6a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_dfptdd_b6a(editorContext, node));
     return editorCell;
   }
 
@@ -69,27 +93,21 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_dfptdd_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_dfptdd_a0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createConstant_dfptdd_a0a(editorContext, node));
-    editorCell.addEditorCell(this.createProperty_dfptdd_b0a(editorContext, node));
+  private EditorCell createConstant_dfptdd_a0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "bean");
+    editorCell.setCellId("Constant_dfptdd_a0a");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createCollection_dfptdd_g0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_dfptdd_g0");
+  private EditorCell createConstant_dfptdd_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_dfptdd_b0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createIndentCell_dfptdd_a6a(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_dfptdd_b6a(editorContext, node));
+    editorCell.setDefaultText("");
     return editorCell;
   }
 
@@ -111,35 +129,6 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_dfptdd_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "methods:");
-    editorCell.setCellId("Constant_dfptdd_i0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_dfptdd_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_dfptdd_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_dfptdd_a0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "bean");
-    editorCell.setCellId("Constant_dfptdd_a0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -166,18 +155,21 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_dfptdd_i0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "methods:");
+    editorCell.setCellId("Constant_dfptdd_i0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createRefNodeList_dfptdd_b3a(EditorContext editorContext, SNode node) {
     AbstractCellListHandler handler = new BeanDeclaration_Editor.attributeListHandler_dfptdd_b3a(node, "attribute", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_attribute");
-    editorCell.setRole(handler.getElementRole());
-    return editorCell;
-  }
-
-  private EditorCell createRefNodeList_dfptdd_b9a(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new BeanDeclaration_Editor.methodListHandler_dfptdd_b9a(node, "method", editorContext);
-    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
-    editorCell.setCellId("refNodeList_method");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
@@ -190,17 +182,25 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createRefNodeList_dfptdd_b9a(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new BeanDeclaration_Editor.methodListHandler_dfptdd_b9a(node, "method", editorContext);
+    EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
+    editorCell.setCellId("refNodeList_method");
+    editorCell.setRole(handler.getElementRole());
+    return editorCell;
+  }
+
   private EditorCell createIndentCell_dfptdd_a3a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell_dfptdd_a9a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_dfptdd_a6a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
 
-  private EditorCell createIndentCell_dfptdd_a6a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_dfptdd_a9a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
@@ -265,8 +265,8 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static class methodListHandler_dfptdd_b9a extends RefNodeListHandler {
-    public methodListHandler_dfptdd_b9a(SNode ownerNode, String childRole, EditorContext context) {
+  private static class constructorListHandler_dfptdd_b6a extends RefNodeListHandler {
+    public constructorListHandler_dfptdd_b6a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
@@ -307,8 +307,8 @@ public class BeanDeclaration_Editor extends DefaultNodeEditor {
     }
   }
 
-  private static class constructorListHandler_dfptdd_b6a extends RefNodeListHandler {
-    public constructorListHandler_dfptdd_b6a(SNode ownerNode, String childRole, EditorContext context) {
+  private static class methodListHandler_dfptdd_b9a extends RefNodeListHandler {
+    public methodListHandler_dfptdd_b9a(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
