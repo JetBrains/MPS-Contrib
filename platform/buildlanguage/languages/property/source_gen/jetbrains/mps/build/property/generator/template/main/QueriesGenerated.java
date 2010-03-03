@@ -14,12 +14,12 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name");
   }
 
-  public static Object propertyMacro_GetPropertyValue_1224603018407(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "propertyValue", true));
-  }
-
   public static Object propertyMacro_GetPropertyValue_1224603131345(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1224603018407(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return PropertyValueExpression_Behavior.call_toString_1213877472569(SLinkOperations.getTarget(_context.getNode(), "propertyValue", true));
   }
 
   public static Iterable sourceNodesQuery_1224602989836(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {

@@ -146,12 +146,14 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
     return editorCell;
   }
 
-  private EditorCell createRefNode_es1meb_c1a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("default");
-    provider.setNoTargetText("<no default>");
+  private EditorCell createProperty_es1meb_c2a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("deprecated");
+    provider.setNoTargetText("<no deprecated>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_deprecated");
+    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -163,14 +165,12 @@ public class GenericAttributeDeclaration_EditorComponent extends AbstractCellPro
     return editorCell;
   }
 
-  private EditorCell createProperty_es1meb_c2a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("deprecated");
-    provider.setNoTargetText("<no deprecated>");
+  private EditorCell createRefNode_es1meb_c1a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
+    provider.setRole("default");
+    provider.setNoTargetText("<no default>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_deprecated");
-    BuildLanguageStyle_StyleSheet.getBooleanLiteral(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

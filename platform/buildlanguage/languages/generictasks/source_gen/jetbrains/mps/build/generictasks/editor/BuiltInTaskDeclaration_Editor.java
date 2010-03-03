@@ -31,55 +31,12 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
     return this.createComponent_5jjl7x_a(editorContext, node);
   }
 
-  private EditorCell createCollection_5jjl7x_b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
-    editorCell.setCellId("Collection_5jjl7x_b2a");
-    editorCell.addEditorCell(this.createCollection_5jjl7x_a1c0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_5jjl7x_b1c0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createCollection_5jjl7x_b1c0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_5jjl7x_b1c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createIndentCell_5jjl7x_a1b2a(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_5jjl7x_b1b2a(editorContext, node));
-    return editorCell;
-  }
-
   private EditorCell createCollection_5jjl7x_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
     editorCell.setCellId("Collection_5jjl7x_a");
     editorCell.addEditorCell(this.createComponent_5jjl7x_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_5jjl7x_b0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_5jjl7x_c0(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createCollection_5jjl7x_a1c0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_5jjl7x_a1c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createConstant_5jjl7x_a0b2a(editorContext, node));
-    return editorCell;
-  }
-
-  private EditorCell createCollection_5jjl7x_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_5jjl7x_c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createIndentCell_5jjl7x_a2a(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_5jjl7x_b2a(editorContext, node));
     return editorCell;
   }
 
@@ -95,6 +52,55 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createCollection_5jjl7x_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_5jjl7x_c0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_5jjl7x_a2a(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_5jjl7x_b2a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_5jjl7x_b2a(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
+    editorCell.setCellId("Collection_5jjl7x_b2a");
+    editorCell.addEditorCell(this.createCollection_5jjl7x_a1c0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_5jjl7x_b1c0(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_5jjl7x_a1c0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_5jjl7x_a1c0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createConstant_5jjl7x_a0b2a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_5jjl7x_b1c0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_5jjl7x_b1c0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_5jjl7x_a1b2a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_5jjl7x_b1b2a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createComponent_5jjl7x_a0(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new TaskDeclarationHeader_EditorComponent(node);
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    return editorCell;
+  }
+
   private EditorCell createComponent_5jjl7x_b1a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new TaskDeclarationAttributes_EditorComponent(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
@@ -103,12 +109,6 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
 
   private EditorCell createComponent_5jjl7x_a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new TaskDeclarationInspector_EditorComponent(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
-    return editorCell;
-  }
-
-  private EditorCell createComponent_5jjl7x_a0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new TaskDeclarationHeader_EditorComponent(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }
@@ -133,7 +133,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createIndentCell_5jjl7x_a1b2a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_5jjl7x_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
@@ -143,7 +143,7 @@ public class BuiltInTaskDeclaration_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  private EditorCell createIndentCell_5jjl7x_a1a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_5jjl7x_a1b2a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
