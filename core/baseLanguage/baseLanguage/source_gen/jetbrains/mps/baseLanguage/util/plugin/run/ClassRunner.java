@@ -17,14 +17,14 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 public class ClassRunner extends BaseRunner {
   private ProcessBuilder processBuilder;
   private boolean myIsDebug;
-  private int myPort;
+  private String myDebugArguments;
 
   public ClassRunner() {
   }
 
-  public void setDebugPort(int port) {
+  public void setDebugArguments(String arguments) {
     this.myIsDebug = true;
-    this.myPort = port;
+    this.myDebugArguments = arguments;
   }
 
   public Process run(List<SNode> nodes) {
@@ -38,7 +38,7 @@ public class ClassRunner extends BaseRunner {
 
     this.addJavaCommand(params);
     if (this.myIsDebug) {
-      this.addDebug(params, this.myPort);
+      this.addDebug(params, this.myDebugArguments);
     }
     this.addClassPath(params, classConcept);
     if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {

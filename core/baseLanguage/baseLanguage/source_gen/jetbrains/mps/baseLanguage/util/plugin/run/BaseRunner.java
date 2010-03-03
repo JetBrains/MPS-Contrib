@@ -51,8 +51,8 @@ public abstract class BaseRunner {
     )) + ",address=" + address + ":" + port);
   }
 
-  protected void addDebug(List<String> params, int port) {
-    this.addDebug(params, "127.0.0.1", port, true, false);
+  protected void addDebug(List<String> params, String arguments) {
+    ListSequence.fromList(params).addElement(arguments);
   }
 
   protected void addMaxHeapSize(List<String> params, int megaBytes) {
