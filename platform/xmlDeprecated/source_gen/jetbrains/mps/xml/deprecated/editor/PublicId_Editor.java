@@ -56,17 +56,17 @@ public class PublicId_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_d4ew5w_f0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
-    editorCell.setCellId("Constant_d4ew5w_f0");
-    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
+  private EditorCell createConstant_d4ew5w_e0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, " ");
+    editorCell.setCellId("Constant_d4ew5w_e0");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_d4ew5w_e0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, " ");
-    editorCell.setCellId("Constant_d4ew5w_e0");
+  private EditorCell createConstant_d4ew5w_f0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "\"");
+    editorCell.setCellId("Constant_d4ew5w_f0");
+    XMLDeprecatedStyles_StyleSheet.getAttributeValue(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
