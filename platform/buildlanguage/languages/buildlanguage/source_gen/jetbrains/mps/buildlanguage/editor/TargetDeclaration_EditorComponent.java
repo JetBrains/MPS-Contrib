@@ -35,21 +35,21 @@ public class TargetDeclaration_EditorComponent extends AbstractCellProvider {
     return this.createCollection_8asdb1_a(editorContext, node);
   }
 
-  private EditorCell createCollection_8asdb1_a0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8asdb1_a0");
-    editorCell.addEditorCell(this.createConstant_8asdb1_a0a(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_8asdb1_b0a(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_8asdb1_c0a(editorContext, node));
-    return editorCell;
-  }
-
   private EditorCell createCollection_8asdb1_a(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8asdb1_a");
     if (renderingCondition_8asdb1_a0a(node, editorContext, editorContext.getOperationContext().getScope())) {
       editorCell.addEditorCell(this.createCollection_8asdb1_a0(editorContext, node));
     }
+    return editorCell;
+  }
+
+  private EditorCell createCollection_8asdb1_a0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_8asdb1_a0");
+    editorCell.addEditorCell(this.createConstant_8asdb1_a0a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_8asdb1_b0a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_8asdb1_c0a(editorContext, node));
     return editorCell;
   }
 
