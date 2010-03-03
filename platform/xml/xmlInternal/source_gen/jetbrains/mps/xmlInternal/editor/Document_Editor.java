@@ -25,10 +25,10 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_7wjwco_b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_7wjwco_a0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("rootElement");
-    provider.setNoTargetText("<no rootElement>");
+    provider.setRole("prolog");
+    provider.setNoTargetText("<no prolog>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -42,10 +42,10 @@ public class Document_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_7wjwco_a0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_7wjwco_b0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("prolog");
-    provider.setNoTargetText("<no prolog>");
+    provider.setRole("rootElement");
+    provider.setNoTargetText("<no rootElement>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

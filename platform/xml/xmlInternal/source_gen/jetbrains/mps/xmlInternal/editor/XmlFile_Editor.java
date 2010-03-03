@@ -18,8 +18,8 @@ import jetbrains.mps.nodeEditor.style.Padding;
 import jetbrains.mps.nodeEditor.style.Measure;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
-import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
+import jetbrains.mps.lang.editor.cellProviders.RefCellCellProvider;
 import jetbrains.mps.nodeEditor.InlineCellProvider;
 
 public class XmlFile_Editor extends DefaultNodeEditor {
@@ -53,17 +53,6 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_zencf0_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_zencf0_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_zencf0_b0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ".");
     editorCell.setCellId("Constant_zencf0_b0a");
@@ -80,6 +69,13 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_zencf0_e0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "schema:");
+    editorCell.setCellId("Constant_zencf0_e0a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_zencf0_g0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ")");
     editorCell.setCellId("Constant_zencf0_g0a");
@@ -88,9 +84,13 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_zencf0_e0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "schema:");
-    editorCell.setCellId("Constant_zencf0_e0a");
+  private EditorCell createConstant_zencf0_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
+    editorCell.setCellId("Constant_zencf0_b0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -117,13 +117,17 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefCell_zencf0_f0a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
-    provider.setRole("schema");
-    provider.setNoTargetText("<no schema>");
+  private EditorCell createProperty_zencf0_c0a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("extension");
+    provider.setNoTargetText("<no extension>");
     EditorCell editorCell;
-    provider.setAuxiliaryCellProvider(new XmlFile_Editor._Inline_zencf0_a5a0());
     editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_extension");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
+    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -152,17 +156,13 @@ public class XmlFile_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_zencf0_c0a(EditorContext editorContext, SNode node) {
-    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("extension");
-    provider.setNoTargetText("<no extension>");
+  private EditorCell createRefCell_zencf0_f0a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
+    provider.setRole("schema");
+    provider.setNoTargetText("<no schema>");
     EditorCell editorCell;
+    provider.setAuxiliaryCellProvider(new XmlFile_Editor._Inline_zencf0_a5a0());
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_extension");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.0, Measure.SPACES));
-    }
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

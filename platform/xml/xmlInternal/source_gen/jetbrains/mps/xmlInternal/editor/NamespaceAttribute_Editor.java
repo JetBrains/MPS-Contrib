@@ -40,6 +40,14 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_t8bc39_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
+    editorCell.setCellId("Constant_t8bc39_b0");
+    XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_t8bc39_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "=");
     editorCell.setCellId("Constant_t8bc39_d0");
@@ -64,22 +72,14 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_t8bc39_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ":");
-    editorCell.setCellId("Constant_t8bc39_b0");
-    XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createProperty_t8bc39_f0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_t8bc39_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("uri");
-    provider.setNoTargetText("<no uri>");
+    provider.setRole("prefix");
+    provider.setNoTargetText("<no prefix>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_uri");
-    XmlStyle_StyleSheet.getXmlText(editorCell).apply(editorCell);
+    editorCell.setCellId("property_prefix");
+    XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -91,14 +91,14 @@ public class NamespaceAttribute_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createProperty_t8bc39_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createProperty_t8bc39_f0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
-    provider.setRole("prefix");
-    provider.setNoTargetText("<no prefix>");
+    provider.setRole("uri");
+    provider.setNoTargetText("<no uri>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    editorCell.setCellId("property_prefix");
-    XmlStyle_StyleSheet.getXmlAttribute(editorCell).apply(editorCell);
+    editorCell.setCellId("property_uri");
+    XmlStyle_StyleSheet.getXmlText(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();

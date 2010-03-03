@@ -14,12 +14,12 @@ import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
 
 public class QueriesGenerated {
-  public static Object propertyMacro_GetPropertyValue_1174862705229(final IOperationContext operationContext, final PropertyMacroContext _context) {
-    return SPropertyOperations.getString(_context.getNode(), "value");
-  }
-
   public static Object propertyMacro_GetPropertyValue_1174863564998(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "docTypeName");
+  }
+
+  public static Object propertyMacro_GetPropertyValue_1174862705229(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "value");
   }
 
   public static Object propertyMacro_GetPropertyValue_1179109574373(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -50,20 +50,24 @@ public class QueriesGenerated {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getNode(), "text", true)).count() > 1;
   }
 
+  public static SNode sourceNodeQuery_1174865627918(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "statementList", true);
+  }
+
   public static SNode sourceNodeQuery_1173194024331(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "content", true);
   }
 
-  public static SNode sourceNodeQuery_1174856383112(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "document", true);
+  public static SNode sourceNodeQuery_1174860272727(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "prolog", true);
   }
 
   public static SNode sourceNodeQuery_1174857414256(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "rootElement", true);
   }
 
-  public static SNode sourceNodeQuery_1174860272727(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "prolog", true);
+  public static SNode sourceNodeQuery_1174856383112(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "document", true);
   }
 
   public static SNode sourceNodeQuery_1174860358857(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -82,16 +86,12 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "systemLiteral", true);
   }
 
-  public static SNode sourceNodeQuery_1174865627918(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "statementList", true);
+  public static SNode sourceNodeQuery_1179272149292(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "elementName", true);
   }
 
   public static SNode sourceNodeQuery_1179117518551(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "contentList", true);
-  }
-
-  public static SNode sourceNodeQuery_1179272149292(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "elementName", true);
   }
 
   public static SNode sourceNodeQuery_1179272215702(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

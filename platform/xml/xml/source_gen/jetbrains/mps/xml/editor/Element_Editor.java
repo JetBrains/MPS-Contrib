@@ -123,14 +123,8 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createComponent_76r4mg_c0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new BaseElement_attributeList(node);
-    EditorCell editorCell = provider.createEditorCell(editorContext);
-    return editorCell;
-  }
-
-  private EditorCell createComponent_76r4mg_c0a0(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new BaseElement_attributeList(node);
+  private EditorCell createComponent_76r4mg_b0a0a(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new Element_elementDeclaration(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }
@@ -141,7 +135,7 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createComponent_76r4mg_b0a(EditorContext editorContext, SNode node) {
+  private EditorCell createComponent_76r4mg_b2a0a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new Element_elementDeclaration(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
@@ -153,20 +147,26 @@ public class Element_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createComponent_76r4mg_c0a0(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new BaseElement_attributeList(node);
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    return editorCell;
+  }
+
   private EditorCell createComponent_76r4mg_g0a0(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new Element_elementDeclaration(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }
 
-  private EditorCell createComponent_76r4mg_b0a0a(EditorContext editorContext, SNode node) {
+  private EditorCell createComponent_76r4mg_b0a(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new Element_elementDeclaration(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }
 
-  private EditorCell createComponent_76r4mg_b2a0a(EditorContext editorContext, SNode node) {
-    AbstractCellProvider provider = new Element_elementDeclaration(node);
+  private EditorCell createComponent_76r4mg_c0a(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new BaseElement_attributeList(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }

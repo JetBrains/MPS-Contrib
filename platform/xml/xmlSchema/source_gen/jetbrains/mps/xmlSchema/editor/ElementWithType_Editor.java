@@ -95,10 +95,10 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_lsldvs_e0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_lsldvs_c0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("complexTypeReference");
-    provider.setNoTargetText("<no complexTypeReference>");
+    provider.setRole("occursAttribute");
+    provider.setNoTargetText("<no occursAttribute>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -112,10 +112,10 @@ public class ElementWithType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_lsldvs_c0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_lsldvs_e0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("occursAttribute");
-    provider.setNoTargetText("<no occursAttribute>");
+    provider.setRole("complexTypeReference");
+    provider.setNoTargetText("<no complexTypeReference>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

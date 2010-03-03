@@ -180,11 +180,11 @@ public class XmlStyle_StyleSheet {
     return style;
   }
 
-  private static Color _StyleParameter_QueryFunction_yh53wd_a2b(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_yh53wd_a0a(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 
-  private static Color _StyleParameter_QueryFunction_yh53wd_a0a(SNode node, EditorContext editorContext) {
+  private static Color _StyleParameter_QueryFunction_yh53wd_a2b(SNode node, EditorContext editorContext) {
     return new Color(134, 114, 93);
   }
 

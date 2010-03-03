@@ -31,18 +31,6 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_8rs9tb_b0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_8rs9tb_b0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createIndentCell_8rs9tb_a1a(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_8rs9tb_b1a(editorContext, node));
-    return editorCell;
-  }
-
   private EditorCell createCollection_8rs9tb_a0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_8rs9tb_a0");
@@ -54,6 +42,18 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createConstant_8rs9tb_a0a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_8rs9tb_b0a(editorContext, node));
     editorCell.addEditorCell(this.createConstant_8rs9tb_c0a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_8rs9tb_b0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_8rs9tb_b0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_8rs9tb_a1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_8rs9tb_b1a(editorContext, node));
     return editorCell;
   }
 
@@ -71,18 +71,18 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_8rs9tb_b0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
-    editorCell.setCellId("Constant_8rs9tb_b0a");
-    XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_8rs9tb_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<");
     editorCell.setCellId("Constant_8rs9tb_a0a");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_8rs9tb_b0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
+    editorCell.setCellId("Constant_8rs9tb_b0a");
+    XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -95,18 +95,18 @@ public class StatementElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createConstant_8rs9tb_b2a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
-    editorCell.setCellId("Constant_8rs9tb_b2a");
-    XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
   private EditorCell createConstant_8rs9tb_a2a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "</");
     editorCell.setCellId("Constant_8rs9tb_a2a");
     XmlStyle_StyleSheet.getXmlOpenParen(editorCell).apply(editorCell);
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_8rs9tb_b2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "statement element");
+    editorCell.setCellId("Constant_8rs9tb_b2a");
+    XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     editorCell.setDefaultText("");
     return editorCell;
   }

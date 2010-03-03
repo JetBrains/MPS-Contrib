@@ -20,9 +20,9 @@ import jetbrains.mps.smodel.action.DefaultChildNodeSubstituteAction;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
-import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 import jetbrains.mps.smodel.action.DefaultSimpleSubstituteAction;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.xmlSchema.behavior.TypeExpression_Behavior;
 import jetbrains.mps.smodel.action.RemoveSubstituteActionByConditionContext;
 import java.util.Iterator;
 import jetbrains.mps.util.Condition;
@@ -34,15 +34,15 @@ public class QueriesGenerated {
     }
   }
 
-  public static void nodeFactory_NodeSetup_ContentList_1178622500723(final IOperationContext operationContext, final NodeSetupContext _context) {
-    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
-      ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "content", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
-    }
-  }
-
   public static void nodeFactory_NodeSetup_Element_1188911043247(final IOperationContext operationContext, final NodeSetupContext _context) {
     if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
       ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNewNode(), "contentList", true), "content", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
+    }
+  }
+
+  public static void nodeFactory_NodeSetup_ContentList_1178622500723(final IOperationContext operationContext, final NodeSetupContext _context) {
+    if (SNodeOperations.isInstanceOf(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content")) {
+      ListSequence.fromList(SLinkOperations.getTargets(_context.getNewNode(), "content", true)).addElement(SNodeOperations.cast(_context.getSampleNode(), "jetbrains.mps.xml.structure.Content"));
     }
   }
 
@@ -83,6 +83,49 @@ public class QueriesGenerated {
             });
           }
         }
+      }
+    }
+    return result;
+  }
+
+  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1201903366642(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
+    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
+    {
+      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text");
+      SNode childConcept = (SNode) _context.getChildConcept();
+      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
+        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
+          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
+            SNode text = SConceptOperations.createNewNode("jetbrains.mps.xml.structure.Text", _context.getCurrentTargetNode());
+            if (pattern.length() > 0) {
+              SPropertyOperations.set(text, "text", pattern.substring(1));
+            }
+            return text;
+          }
+
+          public boolean hasSubstitute() {
+            return true;
+          }
+
+          public boolean canSubstitute_internal(String pattern, boolean strictly) {
+            return pattern.startsWith("/") || pattern.length() == 0;
+          }
+
+          public String getDescriptionText(String pattern) {
+            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
+          }
+
+          public String getMatchingText(String pattern) {
+            return (pattern.length() == 0 ?
+              "/text" :
+              pattern
+            );
+          }
+
+          public String getVisibleMatchingText(String pattern) {
+            return this.getMatchingText(pattern);
+          }
+        });
       }
     }
     return result;
@@ -144,49 +187,6 @@ public class QueriesGenerated {
             });
           }
         }
-      }
-    }
-    return result;
-  }
-
-  public static List<INodeSubstituteAction> nodeSubstituteActionsBuilder_ActionsFactory_Content_1201903366642(final IOperationContext operationContext, final NodeSubstituteActionsFactoryContext _context) {
-    List<INodeSubstituteAction> result = ListSequence.fromList(new ArrayList<INodeSubstituteAction>());
-    {
-      SNode outputConcept = SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text");
-      SNode childConcept = (SNode) _context.getChildConcept();
-      if (outputConcept == null || SConceptOperations.isSuperConceptOf(childConcept, NameUtil.nodeFQName(outputConcept))) {
-        ListSequence.fromList(result).addElement(new DefaultSimpleSubstituteAction(outputConcept, _context.getParentNode(), _context.getCurrentTargetNode(), _context.getChildSetter(), operationContext.getScope()) {
-          public SNode createChildNode(Object parameterObject, SModel model, String pattern) {
-            SNode text = SConceptOperations.createNewNode("jetbrains.mps.xml.structure.Text", _context.getCurrentTargetNode());
-            if (pattern.length() > 0) {
-              SPropertyOperations.set(text, "text", pattern.substring(1));
-            }
-            return text;
-          }
-
-          public boolean hasSubstitute() {
-            return true;
-          }
-
-          public boolean canSubstitute_internal(String pattern, boolean strictly) {
-            return pattern.startsWith("/") || pattern.length() == 0;
-          }
-
-          public String getDescriptionText(String pattern) {
-            return SConceptPropertyOperations.getString(SConceptOperations.findConceptDeclaration("jetbrains.mps.xml.structure.Text"), "shortDescription");
-          }
-
-          public String getMatchingText(String pattern) {
-            return (pattern.length() == 0 ?
-              "/text" :
-              pattern
-            );
-          }
-
-          public String getVisibleMatchingText(String pattern) {
-            return this.getMatchingText(pattern);
-          }
-        });
       }
     }
     return result;

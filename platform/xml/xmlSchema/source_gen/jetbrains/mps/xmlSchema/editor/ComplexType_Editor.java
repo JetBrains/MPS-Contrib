@@ -63,6 +63,13 @@ public class ComplexType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
+  private EditorCell createConstant_1xbd1d_c0a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ": ");
+    editorCell.setCellId("Constant_1xbd1d_c0a");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
   private EditorCell createConstant_1xbd1d_a1a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "  ");
     editorCell.setCellId("Constant_1xbd1d_a1a");
@@ -70,13 +77,6 @@ public class ComplexType_Editor extends DefaultNodeEditor {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.setDefaultText("");
-    return editorCell;
-  }
-
-  private EditorCell createConstant_1xbd1d_c0a(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, ": ");
-    editorCell.setCellId("Constant_1xbd1d_c0a");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -104,10 +104,10 @@ public class ComplexType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_1xbd1d_b1a(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_1xbd1d_d0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("typeExpressionList");
-    provider.setNoTargetText("<no typeExpressionList>");
+    provider.setRole("mixedAttribute");
+    provider.setNoTargetText("<no mixedAttribute>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -121,10 +121,10 @@ public class ComplexType_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_1xbd1d_d0a(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_1xbd1d_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("mixedAttribute");
-    provider.setNoTargetText("<no mixedAttribute>");
+    provider.setRole("typeExpressionList");
+    provider.setNoTargetText("<no typeExpressionList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());

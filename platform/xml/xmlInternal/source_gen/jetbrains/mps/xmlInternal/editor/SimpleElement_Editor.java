@@ -54,17 +54,6 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createCollection_944ac1_c0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_944ac1_c0");
-    {
-      Style style = editorCell.getStyle();
-      style.set(StyleAttributes.SELECTABLE, false);
-    }
-    editorCell.addEditorCell(this.createConstant_944ac1_a2a(editorContext, node));
-    return editorCell;
-  }
-
   private EditorCell createCollection_944ac1_b0(EditorContext editorContext, SNode node) {
     EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
     editorCell.setCellId("Collection_944ac1_b0");
@@ -74,6 +63,17 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     }
     editorCell.addEditorCell(this.createIndentCell_944ac1_a1a(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_944ac1_b1a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_944ac1_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_944ac1_c0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createConstant_944ac1_a2a(editorContext, node));
     return editorCell;
   }
 
@@ -114,12 +114,13 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     return result;
   }
 
-  private EditorCell createRefNode_944ac1_b1a(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_944ac1_b0a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("contentList");
-    provider.setNoTargetText("<no contentList>");
+    provider.setRole("elementName");
+    provider.setNoTargetText("<no elementName>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
+    XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
@@ -131,13 +132,12 @@ public class SimpleElement_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_944ac1_b0a(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_944ac1_b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
-    provider.setRole("elementName");
-    provider.setNoTargetText("<no elementName>");
+    provider.setRole("contentList");
+    provider.setNoTargetText("<no contentList>");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
-    XmlStyle_StyleSheet.getXmlElement(editorCell).apply(editorCell);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
