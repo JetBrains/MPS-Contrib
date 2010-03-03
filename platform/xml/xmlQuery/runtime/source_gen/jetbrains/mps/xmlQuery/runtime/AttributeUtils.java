@@ -37,7 +37,7 @@ public class AttributeUtils {
     if (element == null) {
       return ListSequence.fromList(new ArrayList<Element>());
     } else {
-      return (List<Element>)element.getChildren(name);
+      return (List<Element>) element.getChildren(name);
     }
   }
 }
