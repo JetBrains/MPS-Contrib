@@ -16,7 +16,9 @@
       <mapping-priorities />
     </generator>
   </generators>
-  <classPath />
+  <classPath>
+    <entry path="${language_descriptor}/classes" include="false" />
+  </classPath>
   <languageRuntimeClassPath />
   <sourcePath />
   <usedDevKits>
