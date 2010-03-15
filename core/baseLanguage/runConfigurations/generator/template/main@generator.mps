@@ -41,6 +41,10 @@
   <import index="3" modelUID="f:java_stub#jetbrains.mps.plugins.pluginparts.runconfigs(jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="6629582826328981981">
     <property name="name:2" value="main" />
+    <node role="rootMappingRule:2" type="jetbrains.mps.lang.generator.structure.Root_MappingRule:2" id="3858464128067315525">
+      <link role="applicableConcept:2" targetNodeId="1.8456022385895583119" resolveInfo="JavaRunConfiguration" />
+      <link role="template:2" targetNodeId="6629582826329117125" resolveInfo="JavaRunConfiguration" />
+    </node>
   </node>
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
@@ -48,6 +52,7 @@
   <node type="jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration:23" id="6629582826329117125">
     <property name="name:23" value="JavaRunConfiguration" />
     <property name="caption:23" value="Caption" />
+    <property name="iconPath:23" value="${mps_home}/core/baseLanguage/runConfigurations/runConfigurations.mpl" />
     <link role="stateTypeParameter:23" targetNodeId="3.~BaseRunProfileState" resolveInfo="BaseRunProfileState" />
     <node role="executionParameter:23" type="jetbrains.mps.lang.plugin.structure.RunConfigExecutionParameterDeclaration:23" id="6629582826329149655">
       <node role="nodeMacro$attribute:23" type="jetbrains.mps.lang.generator.structure.CopySrcListMacro:2" id="6629582826329149657">
@@ -167,6 +172,20 @@
                     <link role="link:16" targetNodeId="4v.1137022507850:3" />
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="propertyMacro$property_attribute$iconPath:23" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="2405499025431274299">
+      <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="2405499025431274300">
+        <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2405499025431274301">
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2405499025431281875">
+            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2405499025431281877">
+              <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="2405499025431281876" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="2405499025431281881">
+                <link role="property:16" targetNodeId="2v.678887849223472622:23" resolveInfo="iconPath" />
               </node>
             </node>
           </node>

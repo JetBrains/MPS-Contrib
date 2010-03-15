@@ -20,6 +20,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "caption");
   }
 
+  public static Object propertyMacro_GetPropertyValue_2405499025431274300(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getString(_context.getNode(), "iconPath");
+  }
+
   public static Object referenceMacro_GetReferent_6629582826329119014(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "configType", false);
   }
