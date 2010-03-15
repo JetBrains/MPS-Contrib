@@ -4,6 +4,7 @@
   <refactoringHistory />
   <language namespace="82c32a3b-4a54-4fc1-b551-7ff9f198d7c1(jetbrains.mps.baseLanguage.runConfigurations)" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
+  <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
@@ -60,13 +61,40 @@
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="6629582826329649012">
       <link role="conceptPropertyDeclaration:0" targetNodeId="2.1216468774225:3" resolveInfo="showName" />
     </node>
+    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.ReferenceConceptLink:0" id="668913963928626712">
+      <link role="conceptLinkDeclaration:0" targetNodeId="2.1161119487665:3" resolveInfo="applicableConceptFunctionParameter" />
+      <link role="target:0" targetNodeId="668913963928626711" resolveInfo="Node_FunctionParameter" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8456022385895584871">
     <property name="name:0" value="JavaCheckBlock" />
     <link role="extends:0" targetNodeId="2v.1347772807199150767:23" resolveInfo="AbstractCheckConfigBlock" />
+    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.ReferenceConceptLink:0" id="668913963929392860">
+      <link role="conceptLinkDeclaration:0" targetNodeId="2.1161119487665:3" resolveInfo="applicableConceptFunctionParameter" />
+      <link role="target:0" targetNodeId="668913963928626711" resolveInfo="Node_FunctionParameter" />
+    </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6629582826329141261">
       <property name="value:0" value="check java" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="668913963929538836">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2.1216468774225:3" resolveInfo="showName" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="668913963928626711">
+    <property name="name:0" value="Node_FunctionParameter" />
+    <link role="extends:0" targetNodeId="2.1107135704075:3" resolveInfo="ConceptFunctionParameter" />
+    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="668913963929584081">
+      <link role="conceptLinkDeclaration:0" targetNodeId="2.1137545963098:3" resolveInfo="conceptFunctionParameterType" />
+      <node role="target:0" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="668913963929590801" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="668913963928627169">
+      <property name="value:0" value="node" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="668913963928627185">
+      <property name="value:0" value="node to run" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473914776:0" resolveInfo="shortDescription" />
     </node>
   </node>
 </model>
