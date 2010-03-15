@@ -146,7 +146,7 @@ public class RunConfigurationDeclaration_Editor extends DefaultNodeEditor {
   private EditorCell createRefCell_l50atq_b0b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefCellCellProvider(node, editorContext);
     provider.setRole("stateTypeParameter");
-    provider.setNoTargetText("<no stateTypeParameter>");
+    provider.setNoTargetText("RunProfileState");
     EditorCell editorCell;
     provider.setAuxiliaryCellProvider(new RunConfigurationDeclaration_Editor._Inline_l50atq_a1a1b0());
     editorCell = provider.createEditorCell(editorContext);
