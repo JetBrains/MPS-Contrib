@@ -32,11 +32,11 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "editor", true);
   }
 
-  public static SNode sourceNodeQuery_668913963929392840(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_1110842925894777687(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "checkBlock", true), "body", true);
   }
 
-  public static SNode sourceNodeQuery_668913963928633725(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_1110842925894777667(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "executeBlock", true), "body", true);
   }
 
