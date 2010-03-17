@@ -591,6 +591,7 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1208090496480">
     <property name="package:0" value="Events.Operations" />
     <property name="name:0" value="AddListenerOperation" />
+    <property name="rootable:0" value="true" />
     <link role="extends:0" targetNodeId="2.1081773326031:3" resolveInfo="BinaryOperation" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1208093568835">
       <property name="value:0" value="+=" />

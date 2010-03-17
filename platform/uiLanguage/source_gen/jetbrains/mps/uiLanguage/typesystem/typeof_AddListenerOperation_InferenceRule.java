@@ -58,7 +58,7 @@ public class typeof_AddListenerOperation_InferenceRule extends AbstractInference
   }
 
   public boolean overrides() {
-    return false;
+    return true;
   }
 
   public static class QuotationClass_of7xmz_a0a4a0 {

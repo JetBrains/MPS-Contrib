@@ -394,6 +394,7 @@
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1208111228780">
     <property name="name:3" value="typeof_RemoveListenerOperation" />
     <property name="package:3" value="Events.Operations" />
+    <property name="overrides:3" value="true" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1208111228781">
       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="1208689440991">
         <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1208689440992">
@@ -569,6 +570,7 @@
   <node type="jetbrains.mps.lang.typesystem.structure.InferenceRule:3" id="1208111558169">
     <property name="name:3" value="typeof_AddListenerOperation" />
     <property name="package:3" value="Events.Operations" />
+    <property name="overrides:3" value="true" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1208111558170">
       <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="1208686568944">
         <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1208686568945">
