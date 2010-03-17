@@ -53,7 +53,7 @@
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8456022385895584870">
     <property name="name:0" value="JavaExecuteBlock" />
-    <link role="extends:0" targetNodeId="2v.1347772807199150763:23" resolveInfo="AbstractExcecuteConfigBlock" />
+    <link role="extends:0" targetNodeId="2.1137021947720:3" resolveInfo="ConceptFunction" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6629582826329141262">
       <property name="value:0" value="execute java" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
@@ -64,6 +64,9 @@
     <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.ReferenceConceptLink:0" id="668913963928626712">
       <link role="conceptLinkDeclaration:0" targetNodeId="2.1161119487665:3" resolveInfo="applicableConceptFunctionParameter" />
       <link role="target:0" targetNodeId="668913963928626711" resolveInfo="Node_FunctionParameter" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="8376523923662592820">
+      <link role="intfc:0" targetNodeId="2v.8376523923662591983:23" resolveInfo="IExecuteConfigBlock" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8456022385895584871">

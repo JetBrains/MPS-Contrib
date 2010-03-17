@@ -8,6 +8,6 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class RunConfigParameterReferenceOperation_Constraints {
   public static boolean canBeAChild(final IOperationContext operationContext, final CanBeAChildContext _context) {
-    return (SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock", false, false) != null);
+    return (SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.lang.plugin.structure.IExecuteConfigBlock", false, false) != null);
   }
 }

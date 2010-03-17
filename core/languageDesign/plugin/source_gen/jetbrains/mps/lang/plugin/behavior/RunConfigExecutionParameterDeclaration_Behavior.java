@@ -12,4 +12,8 @@ public class RunConfigExecutionParameterDeclaration_Behavior {
   public static boolean virtual_canBeReferent_8179323502814657526(SNode thisNode, SNode referentConcept) {
     return referentConcept == SNodeOperations.getNode("r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)", "8179323502814630510");
   }
+
+  public static boolean virtual_canOperationBeChild_4593153787954614840(SNode thisNode, SNode parentNode) {
+    return (SNodeOperations.getAncestor(parentNode, "jetbrains.mps.lang.plugin.structure.IExecuteConfigBlock", false, false) != null);
+  }
 }
