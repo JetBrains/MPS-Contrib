@@ -9,6 +9,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Collection;
 import jetbrains.mps.nodeEditor.style.Style;
 import jetbrains.mps.nodeEditor.style.StyleAttributes;
+import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
 import jetbrains.mps.nodeEditor.cellProviders.CellProviderWithRole;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeCellProvider;
@@ -49,13 +50,88 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.SELECTABLE, false);
     }
     editorCell.addEditorCell(this.createRefNode_elhbwn_a1b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_elhbwn_b1b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_elhbwn_c1b0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_elhbwn_d1b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_elhbwn_b1b0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_elhbwn_c1b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_elhbwn_d1b0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_elhbwn_e1b0(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_elhbwn_f1b0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_elhbwn_g1b0(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_elhbwn_c1b0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_elhbwn_c1b0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_elhbwn_a2b1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_elhbwn_b2b1a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_elhbwn_e1b0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_elhbwn_e1b0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_elhbwn_a4b1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_elhbwn_b4b1a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_elhbwn_g1b0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_elhbwn_g1b0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_elhbwn_a6b1a(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_elhbwn_b6b1a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createConstant_elhbwn_b1b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "actions:");
+    editorCell.setCellId("Constant_elhbwn_b1b0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_elhbwn_d1b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "console:");
+    editorCell.setCellId("Constant_elhbwn_d1b0");
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_elhbwn_f1b0(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "process:");
+    editorCell.setCellId("Constant_elhbwn_f1b0");
+    editorCell.setDefaultText("");
     return editorCell;
   }
 
   private EditorCell createIndentCell_elhbwn_a1a(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    return result;
+  }
+
+  private EditorCell createIndentCell_elhbwn_a2b1a(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    return result;
+  }
+
+  private EditorCell createIndentCell_elhbwn_a4b1a(EditorContext editorContext, SNode node) {
+    EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
+    return result;
+  }
+
+  private EditorCell createIndentCell_elhbwn_a6b1a(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
@@ -77,7 +153,7 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_elhbwn_b1b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_elhbwn_b2b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeActions");
     provider.setNoTargetText("<no executeActions>");
@@ -94,7 +170,7 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_elhbwn_c1b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_elhbwn_b4b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeConsole");
     provider.setNoTargetText("<no executeConsole>");
@@ -111,7 +187,7 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
     return editorCell;
   }
 
-  private EditorCell createRefNode_elhbwn_d1b0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_elhbwn_b6b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeProcess");
     provider.setNoTargetText("<no executeProcess>");
