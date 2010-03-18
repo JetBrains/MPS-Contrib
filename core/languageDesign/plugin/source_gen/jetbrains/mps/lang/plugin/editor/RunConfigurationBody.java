@@ -219,7 +219,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
   private EditorCell createRefNode_mrxxs6_l0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeBlock");
-    provider.setNoTargetText("<no executeBlock>");
+    provider.setNoTargetText("execute block");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
