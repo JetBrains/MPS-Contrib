@@ -257,7 +257,7 @@ public class QueriesGenerated {
   }
 
   public static Object referenceMacro_GetReferent_1169648061915(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    SNode cc = _context.getOutputNodeByInputNodeAndMappingLabelAndOutputNode(_context.getNode(), _context.getOutputNode(), "ConditionalDateTimePrinterImpl");
+    SNode cc = _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "ConditionalDateTimePrinterImpl");
     return ListSequence.fromList(SLinkOperations.getTargets(cc, "constructor", true)).first();
   }
 
