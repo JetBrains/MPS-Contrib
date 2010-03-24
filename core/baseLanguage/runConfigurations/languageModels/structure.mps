@@ -124,5 +124,18 @@
       <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.AnnotationLinkDeclaration:0" id="7549816165173144969">
+    <property name="role:0" value="userComponentReferenceAnnotation" />
+    <link role="source:0" targetNodeId="2v.3452826078638178132:23" resolveInfo="ComponentReference" />
+    <link role="target:0" targetNodeId="7549816165173145425" resolveInfo="UserComponentReferenceAnnotation" />
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7549816165173145425">
+    <property name="name:0" value="UserComponentReferenceAnnotation" />
+    <link role="extends:0" targetNodeId="3v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7549816165173145427">
+      <property name="value:0" value="user component reference" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 
