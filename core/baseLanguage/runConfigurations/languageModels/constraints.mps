@@ -38,5 +38,28 @@
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="6629582826328966593">
     <link role="concept:8" targetNodeId="1.8456022385895583119" resolveInfo="JavaRunConfiguration" />
   </node>
+  <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="8126994885492054823">
+    <link role="concept:8" targetNodeId="1.8456022385895584871" resolveInfo="JavaCheckBlock" />
+    <node role="canBeChild:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild:8" id="8126994885492054824">
+      <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8126994885492054825">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8126994885492054826">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8126994885492054839">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8126994885492054828">
+              <node role="operand:3" type="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode:8" id="8126994885492054827" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation:16" id="8126994885492054832">
+                <node role="parameter:16" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept:16" id="8126994885492054833">
+                  <node role="conceptArgument:16" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference:16" id="8126994885492054836">
+                    <link role="conceptDeclaration:16" targetNodeId="1.8456022385895583119" resolveInfo="JavaNodeRunConfiguration" />
+                  </node>
+                </node>
+                <node role="parameter:16" type="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion:16" id="8126994885492054838" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="8126994885492054843" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

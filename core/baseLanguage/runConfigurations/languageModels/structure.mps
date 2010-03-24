@@ -5,6 +5,7 @@
   <language namespace="82c32a3b-4a54-4fc1-b551-7ff9f198d7c1(jetbrains.mps.baseLanguage.runConfigurations)" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <language namespace="ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)" />
+  <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
@@ -29,14 +30,15 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="2" />
+  <maxImportIndex value="3" />
   <import index="1" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="-1" />
   <import index="2" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
+  <import index="3" modelUID="r:f144b87b-8ea5-4a8a-bb79-78fd4663e93c(jetbrains.mps.baseLanguage.util.plugin.run)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="8456022385895583119">
-    <property name="name:0" value="JavaRunConfiguration" />
+    <property name="name:0" value="JavaNodeRunConfiguration" />
     <property name="rootable:0" value="true" />
-    <link role="extends:0" targetNodeId="2v.7035278950562851062:23" resolveInfo="RunConfigurationDeclaration" />
+    <link role="extends:0" targetNodeId="655818460756091959" resolveInfo="JavaRunConfiguration" />
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="8456022385895584872">
       <property name="metaClass:0" value="aggregation" />
       <property name="role:0" value="checkBlock" />
@@ -98,6 +100,28 @@
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="668913963928627185">
       <property name="value:0" value="node to run" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473914776:0" resolveInfo="shortDescription" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="655818460756091959">
+    <property name="name:0" value="JavaRunConfiguration" />
+    <property name="rootable:0" value="true" />
+    <link role="extends:0" targetNodeId="2v.7035278950562851062:23" resolveInfo="RunConfigurationDeclaration" />
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="655818460756092288">
+      <link role="intfc:0" targetNodeId="2v.3636700473138841144:23" resolveInfo="IEnchancedRunConfiguration" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4964800443628314809">
+    <property name="name:0" value="JavaConfigurationRunParameters_FunctionParameter" />
+    <link role="extends:0" targetNodeId="2.1107135704075:3" resolveInfo="ConceptFunctionParameter" />
+    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="4964800443628314814">
+      <link role="conceptLinkDeclaration:0" targetNodeId="2.1137545963098:3" resolveInfo="conceptFunctionParameterType" />
+      <node role="target:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4964800443628318550">
+        <link role="classifier:3" targetNodeId="3.8492459591399148682" resolveInfo="ConfigRunParameters" />
+      </node>
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4964800443628314811">
+      <property name="value:0" value="javaParameters" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
 </model>
