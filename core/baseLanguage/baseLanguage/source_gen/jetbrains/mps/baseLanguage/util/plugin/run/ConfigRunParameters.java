@@ -5,24 +5,24 @@ package jetbrains.mps.baseLanguage.util.plugin.run;
 import java.io.File;
 
 public class ConfigRunParameters implements Cloneable {
-  private String vmParam;
-  private String programParam;
-  private String workingDir;
-  private String alternativeJRE;
-  private boolean useAlternativeJRE = false;
-  private boolean make = false;
+  private String myVmParam;
+  private String myProgramParam;
+  private String myWorkingDir;
+  private String myAlternativeJRE;
+  private boolean myUseAlternativeJRE = false;
+  private boolean myMake = false;
 
   public ConfigRunParameters() {
   }
 
   public ConfigRunParameters(boolean makeBeforeRun) {
-    this.make = makeBeforeRun;
+    this.myMake = makeBeforeRun;
   }
 
   public String getErrorReport() {
-    if (this.useAlternativeJRE) {
-      if (this.alternativeJRE != null) {
-        File file = new File(BaseRunner.getJavaCommand(this.alternativeJRE));
+    if (this.myUseAlternativeJRE) {
+      if (this.myAlternativeJRE != null) {
+        File file = new File(BaseRunner.getJavaCommand(this.myAlternativeJRE));
         if (file.exists()) {
           return null;
         }
@@ -33,51 +33,51 @@ public class ConfigRunParameters implements Cloneable {
   }
 
   public void setVMParameters(String value) {
-    this.vmParam = value;
+    this.myVmParam = value;
   }
 
   public void setProgramParameters(String value) {
-    this.programParam = value;
+    this.myProgramParam = value;
   }
 
   public void setWorkingDirectory(String value) {
-    this.workingDir = value;
+    this.myWorkingDir = value;
   }
 
   public void setMake(boolean value) {
-    this.make = value;
+    this.myMake = value;
   }
 
   public void setAlternativeJRE(String value) {
-    this.alternativeJRE = value;
+    this.myAlternativeJRE = value;
   }
 
   public void setUseAlternativeJRE(boolean value) {
-    this.useAlternativeJRE = value;
+    this.myUseAlternativeJRE = value;
   }
 
   public boolean getUseAlternativeJRE() {
-    return this.useAlternativeJRE;
+    return this.myUseAlternativeJRE;
   }
 
   public String getVMParameters() {
-    return this.vmParam;
+    return this.myVmParam;
   }
 
   public String getProgramParameters() {
-    return this.programParam;
+    return this.myProgramParam;
   }
 
   public String getWorkingDirectory() {
-    return this.workingDir;
+    return this.myWorkingDir;
   }
 
   public boolean getMake() {
-    return this.make;
+    return this.myMake;
   }
 
   public String getAlternativeJRE() {
-    return this.alternativeJRE;
+    return this.myAlternativeJRE;
   }
 
   public ConfigRunParameters copy() {

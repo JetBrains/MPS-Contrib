@@ -19,7 +19,7 @@ import jetbrains.mps.reloading.FileClassPathItem;
 import jetbrains.mps.reloading.JarFileClassPathItem;
 
 public abstract class BaseRunner {
-  private String javaHome = System.getProperty("java.home");
+  private String myJavaHome = System.getProperty("java.home");
 
   public String getCommandString(ProcessBuilder p) {
     StringBuilder res = new StringBuilder();
@@ -34,11 +34,11 @@ public abstract class BaseRunner {
   }
 
   public void setJavaHomePath(String alternativeJavaHome) {
-    this.javaHome = alternativeJavaHome.replace("/", fs());
+    this.myJavaHome = alternativeJavaHome.replace("/", fs());
   }
 
   protected void addJavaCommand(List<String> params) {
-    ListSequence.fromList(params).addElement(getJavaCommand(this.javaHome));
+    ListSequence.fromList(params).addElement(getJavaCommand(this.myJavaHome));
   }
 
   protected void addDebug(List<String> params, String arguments) {

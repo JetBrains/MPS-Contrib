@@ -15,7 +15,7 @@ import jetbrains.mps.logging.Logger;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ClassRunner extends BaseRunner {
-  private ProcessBuilder processBuilder;
+  private ProcessBuilder myProcessBuilder;
   private boolean myIsDebug;
   private String myDebugArguments;
 
@@ -50,14 +50,14 @@ public class ClassRunner extends BaseRunner {
       String[] paramList = this.splitParams(programParams);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
-    this.processBuilder = new ProcessBuilder(params);
+    this.myProcessBuilder = new ProcessBuilder(params);
 
     if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
-      this.processBuilder.directory(new File(workingDir));
+      this.myProcessBuilder.directory(new File(workingDir));
     }
 
     try {
-      return this.processBuilder.start();
+      return this.myProcessBuilder.start();
     } catch (IOException e) {
       Logger.getLogger(ClassRunner.class).error("Can't run " + className, e);
       return null;
@@ -65,7 +65,7 @@ public class ClassRunner extends BaseRunner {
   }
 
   public String getCommandString() {
-    return this.getCommandString(this.processBuilder);
+    return this.getCommandString(this.myProcessBuilder);
   }
 
   public static SNode getClassConcept(List<SNode> nodes) {
