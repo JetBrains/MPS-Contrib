@@ -5,17 +5,20 @@ package jetbrains.mps.baseLanguage.unitTest.plugin;
 import jetbrains.mps.baseLanguage.util.plugin.run.BaseRunner;
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
-import org.jetbrains.annotations.Nullable;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
+import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
+import jetbrains.mps.smodel.ModelAccess;
+import org.jetbrains.annotations.Nullable;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
-import java.util.ArrayList;
-import org.apache.commons.lang.StringUtils;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
+import jetbrains.mps.internal.collections.runtime.IVisitor;
 import jetbrains.mps.internal.collections.runtime.Sequence;
+import org.apache.commons.lang.StringUtils;
 import java.io.File;
-import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.Set;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -26,12 +29,31 @@ import java.util.LinkedHashSet;
 public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
-  private UnitTestViewComponent myComponent;
-  private ConfigRunParameters configParameter;
-  private ProcessBuilder processBuilder;
+  private ConfigRunParameters myConfigParameter;
+  private ProcessBuilder myProcessBuilder;
+  private final List<SNode> myTestable = new ArrayList<SNode>();
 
-  public UnitTestRunner(UnitTestViewComponent component) {
-    this.myComponent = component;
+  public UnitTestRunner() {
+    this(new ArrayList<SNode>(), null);
+  }
+
+  public UnitTestRunner(List<SNode> testable) {
+    this(testable, null);
+  }
+
+  public UnitTestRunner(List<SNode> testable, ConfigRunParameters parameters) {
+    ListSequence.fromList(this.myTestable).addSequence(ListSequence.fromList(testable));
+    this.setConfigParameters(parameters);
+  }
+
+  public Process run() {
+    final Wrappers._T<Process> process = new Wrappers._T<Process>();
+    ModelAccess.instance().runReadAction(new Runnable() {
+      public void run() {
+        process.value = UnitTestRunner.this.run(UnitTestRunner.this.myTestable);
+      }
+    });
+    return process.value;
   }
 
   @Nullable
@@ -40,27 +62,34 @@ public class UnitTestRunner extends BaseRunner {
       return null;
     }
 
-    TestRunParameters runParams = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
-    for (SNode test : ListSequence.fromList(tests)) {
-      TestRunParameters parameters = ITestable_Behavior.call_getTestRunParameters_1216045139515(test);
-      if (!(parameters.equals(runParams))) {
-        LOG.error("Can't execute tests with diffirent run parameters");
-        return null;
+    final TestRunParameters runParams = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
+    Iterable<SNode> testsToRun = ListSequence.fromList(tests).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams);
       }
-    }
-
-    return this.runTestWithParameters(runParams, tests);
+    });
+    ListSequence.fromList(tests).visitAll(new IVisitor<SNode>() {
+      public void visit(SNode it) {
+        if (!(ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams))) {
+          LOG.error("Can not execute " + it + ": run parameters does not match.");
+        }
+      }
+    });
+    return this.runTestWithParameters(runParams, Sequence.fromIterable(testsToRun).toListSequence());
   }
 
   public void setConfigParameters(ConfigRunParameters configRunParameters) {
-    this.configParameter = configRunParameters;
+    this.myConfigParameter = configRunParameters;
+    if (configRunParameters != null && configRunParameters.getUseAlternativeJRE()) {
+      this.setJavaHomePath(configRunParameters.getAlternativeJRE());
+    }
   }
 
   public String getCommandString() {
-    if (this.processBuilder == null) {
+    if (this.myProcessBuilder == null) {
       return null;
     }
-    return this.getCommandString(this.processBuilder);
+    return this.getCommandString(this.myProcessBuilder);
   }
 
   private Process runTestWithParameters(TestRunParameters parameters, List<SNode> tests) {
@@ -68,10 +97,10 @@ public class UnitTestRunner extends BaseRunner {
     String workingDir = null;
     String programParams = null;
     String vmParams = null;
-    if (this.configParameter != null) {
-      workingDir = this.configParameter.getWorkingDirectory();
-      programParams = this.configParameter.getProgramParameters();
-      vmParams = this.configParameter.getVMParameters();
+    if (this.myConfigParameter != null) {
+      workingDir = this.myConfigParameter.getWorkingDirectory();
+      programParams = this.myConfigParameter.getProgramParameters();
+      vmParams = this.myConfigParameter.getVMParameters();
     }
     this.addJavaCommand(params);
     ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
@@ -88,18 +117,13 @@ public class UnitTestRunner extends BaseRunner {
       String[] paramList = this.splitParams(programParams);
       ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
     }
-    this.processBuilder = new ProcessBuilder(params);
+    this.myProcessBuilder = new ProcessBuilder(params);
     if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
-      this.processBuilder.directory(new File(workingDir));
+      this.myProcessBuilder.directory(new File(workingDir));
     }
 
     try {
-      final Process result = this.processBuilder.start();
-      this.myComponent.addCloseListener(new _FunctionTypes._void_P0_E0() {
-        public void invoke() {
-          result.destroy();
-        }
-      });
+      Process result = this.myProcessBuilder.start();
       return result;
     } catch (Exception e) {
       Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);

@@ -41,16 +41,6 @@ public abstract class BaseRunner {
     ListSequence.fromList(params).addElement(getJavaCommand(this.javaHome));
   }
 
-  protected void addDebug(List<String> params, String address, int port, boolean suspend, boolean server) {
-    ListSequence.fromList(params).addElement("-Xrunjdwp:transport=dt_socket,server=" + ((server ?
-      'y' :
-      'n'
-    )) + ",suspend=" + ((suspend ?
-      'y' :
-      'n'
-    )) + ",address=" + address + ":" + port);
-  }
-
   protected void addDebug(List<String> params, String arguments) {
     ListSequence.fromList(params).addElement(arguments);
   }

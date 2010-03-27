@@ -969,6 +969,27 @@
             </node>
           </node>
         </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="395356748211779519">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="395356748211779521">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="395356748211779520" />
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="395356748211780403">
+              <link role="baseMethodDeclaration:3" targetNodeId="11.~Container.add(java.awt.Component,java.lang.Object):void" resolveInfo="add" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="395356748211780404">
+                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="395356748211780405">
+                  <link role="fieldDeclaration:3" targetNodeId="3251065477411861205" resolveInfo="myUsersComponent" />
+                </node>
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="395356748211780406" />
+              </node>
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="395356748211780413">
+                <link role="classConcept:3" targetNodeId="6.8492459591399147955" resolveInfo="LayoutUtil" />
+                <link role="baseMethodDeclaration:3" targetNodeId="6.8492459591399148006" resolveInfo="createPanelConstraints" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="8737001958124733315">
+                  <property name="value:3" value="0" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3251065477410606967">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3251065477410606968">
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="3251065477410606969">
@@ -982,8 +1003,8 @@
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="3251065477411318132">
                 <link role="baseMethodDeclaration:3" targetNodeId="6.8492459591399148006" resolveInfo="createPanelConstraints" />
                 <link role="classConcept:3" targetNodeId="6.8492459591399147955" resolveInfo="LayoutUtil" />
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3251065477411318133">
-                  <property name="value:3" value="0" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="395356748211780412">
+                  <property name="value:3" value="1" />
                 </node>
               </node>
             </node>
