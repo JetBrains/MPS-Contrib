@@ -11,11 +11,9 @@ import jetbrains.mps.generator.template.PropertyMacroContext;
 import jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaRunConfiguration_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations;
 import jetbrains.mps.generator.template.ReferenceMacroContext;
-import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior;
 import jetbrains.mps.generator.template.IfMacroContext;
+import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -53,15 +51,6 @@ public class QueriesGenerated {
 
   public static Object propertyMacro_GetPropertyValue_3251065477410865589(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "_Editor";
-  }
-
-  public static Object referenceMacro_GetReferent_1905391470717906012(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    SNode runConfigurationDeclaration = _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", false, true), "map_JavaRunConfigurationToRunConfiguration");
-    return ListSequence.fromList(SLinkOperations.getTargets(runConfigurationDeclaration, "property", true)).findFirst(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return SPropertyOperations.getString(it, "name").equals(JavaConfigurationRunParameters_FunctionParameter_Behavior.getGeneratedFieldName_8126994885493110313());
-      }
-    });
   }
 
   public static Object referenceMacro_GetReferent_3251065477410858822(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -112,7 +101,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "iconBlock", true);
   }
 
-  public static SNode sourceNodeQuery_5334136372060920638(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_4729163311832215107(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "executeBlock", true);
   }
 

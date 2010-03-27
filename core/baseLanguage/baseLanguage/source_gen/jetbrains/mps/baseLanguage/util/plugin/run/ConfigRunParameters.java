@@ -80,6 +80,14 @@ public class ConfigRunParameters implements Cloneable {
     return this.alternativeJRE;
   }
 
+  public ConfigRunParameters copy() {
+    try {
+      return (ConfigRunParameters) this.clone();
+    } catch (CloneNotSupportedException ignored) {
+    }
+    return null;
+  }
+
   public Object clone() throws CloneNotSupportedException {
     return super.clone();
   }

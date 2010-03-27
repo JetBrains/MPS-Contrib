@@ -29,21 +29,16 @@ import java.util.LinkedHashSet;
 public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
-  private ConfigRunParameters myConfigParameter;
+  private final ConfigRunParameters myConfigParameter;
   private ProcessBuilder myProcessBuilder;
   private final List<SNode> myTestable = new ArrayList<SNode>();
 
-  public UnitTestRunner() {
-    this(new ArrayList<SNode>(), null);
-  }
-
-  public UnitTestRunner(List<SNode> testable) {
-    this(testable, null);
-  }
-
   public UnitTestRunner(List<SNode> testable, ConfigRunParameters parameters) {
     ListSequence.fromList(this.myTestable).addSequence(ListSequence.fromList(testable));
-    this.setConfigParameters(parameters);
+    this.myConfigParameter = parameters;
+    if (parameters != null && parameters.getUseAlternativeJRE()) {
+      this.setJavaHomePath(parameters.getAlternativeJRE());
+    }
   }
 
   public Process run() {
@@ -76,13 +71,6 @@ public class UnitTestRunner extends BaseRunner {
       }
     });
     return this.runTestWithParameters(runParams, Sequence.fromIterable(testsToRun).toListSequence());
-  }
-
-  public void setConfigParameters(ConfigRunParameters configRunParameters) {
-    this.myConfigParameter = configRunParameters;
-    if (configRunParameters != null && configRunParameters.getUseAlternativeJRE()) {
-      this.setJavaHomePath(configRunParameters.getAlternativeJRE());
-    }
   }
 
   public String getCommandString() {
