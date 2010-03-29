@@ -36,6 +36,10 @@ public class UnitTestExecutionController {
       npe.printStackTrace();
     }
     this.myCurrentProcess = testRunner.run();
+    if (this.myCurrentProcess == null) {
+      this.myState.terminate();
+      return null;
+    }
     return new UnitTestProcessHandler(this.myDispatcher, this.myCurrentProcess, testRunner.getCommandString());
   }
 
