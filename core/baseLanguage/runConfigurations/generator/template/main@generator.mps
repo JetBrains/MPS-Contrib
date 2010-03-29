@@ -762,6 +762,12 @@
       <link role="template:2" targetNodeId="3251065477410581227" resolveInfo="map_JavaRunConfiguration" />
       <link role="labelDeclaration:2" targetNodeId="3251065477410858820" resolveInfo="map_JavaRunConfigurationToEditorComponent" />
     </node>
+    <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="3607966867310085151">
+      <link role="applicableConcept:2" targetNodeId="1.3607966867310075767" resolveInfo="JavaConfigurationNode_FunctionParameter" />
+      <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="3607966867310085153">
+        <link role="template:2" targetNodeId="3607966867310085149" resolveInfo="reduce_JavaConfigurationNode_FunctionParameter" />
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="3251065477410581227">
     <property name="name:3" value="JavaEditorComponent" />
@@ -1253,6 +1259,14 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3607966867310085149">
+    <property name="name:2" value="reduce_JavaConfigurationNode_FunctionParameter" />
+    <link role="applicableConcept:2" targetNodeId="1.3607966867310075767" resolveInfo="JavaConfigurationNode_FunctionParameter" />
+    <node role="contentNode:2" type="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference:1" id="3607966867310085154">
+      <property name="name:1" value="node" />
+      <node role="type:1" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="3607966867310086831" />
     </node>
   </node>
 </model>

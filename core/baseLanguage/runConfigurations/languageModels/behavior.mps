@@ -35,13 +35,58 @@
   <import index="1" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="-1" />
   <import index="2" modelUID="f:java_stub#jetbrains.mps.plugins.pluginparts.runconfigs(jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
+  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590360(jetbrains.mps.lang.plugin.behavior)" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="6629582826328967165">
     <link role="concept" targetNodeId="1.8456022385895583119" resolveInfo="JavaRunConfiguration" />
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="3607966867310086836">
+      <property name="name" value="getAdditionalParameters" />
+      <link role="overriddenMethod" targetNodeId="2v.3636700473138841189" resolveInfo="getAdditionalParameters" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3607966867310086837">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="3607966867310086838">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="3607966867310086839">
+            <property name="name:3" value="parameters" />
+            <node role="type:3" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="3607966867310086840">
+              <node role="elementType:7" type="jetbrains.mps.lang.smodel.structure.SConceptType:16" id="3607966867310086841">
+                <link role="conceptDeclaraton:16" targetNodeId="3.1107135704075:3" resolveInfo="ConceptFunctionParameter" />
+              </node>
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3607966867310086842">
+              <node role="operand:3" type="jetbrains.mps.lang.behavior.structure.SuperNodeExpression" id="3607966867310086857" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="3607966867310086844">
+                <link role="baseMethodDeclaration:16" targetNodeId="2v.3636700473138841189" resolveInfo="getAdditionalParameters" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3607966867310086845">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3607966867310086846">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3607966867310086847">
+              <link role="variableDeclaration:3" targetNodeId="3607966867310086839" resolveInfo="parameters" />
+            </node>
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation:7" id="3607966867310086848">
+              <node role="argument:7" type="jetbrains.mps.lang.smodel.structure.ConceptRefExpression:16" id="3607966867310086849">
+                <link role="conceptDeclaration:16" targetNodeId="1.3607966867310075767" resolveInfo="JavaConfigurationNode_FunctionParameter" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="3607966867310086850">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3607966867310086851">
+            <link role="variableDeclaration:3" targetNodeId="3607966867310086839" resolveInfo="parameters" />
+          </node>
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="3607966867310086860">
+        <node role="elementType:7" type="jetbrains.mps.lang.smodel.structure.SConceptType:16" id="3607966867310086861">
+          <link role="conceptDeclaraton:16" targetNodeId="3.1107135704075:3" resolveInfo="ConceptFunctionParameter" />
+        </node>
+      </node>
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3607966867310086862" />
+    </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="6629582826328967166">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6629582826328967167" />
     </node>
   </node>
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590360(jetbrains.mps.lang.plugin.behavior)" />
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="4964800443628310125">
     <link role="concept" targetNodeId="1.655818460756091959" resolveInfo="JavaRunConfiguration" />
@@ -148,6 +193,12 @@
     </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="8126994885493110311">
       <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8126994885493110312" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="3607966867310747821">
+    <link role="concept" targetNodeId="1.3607966867310075767" resolveInfo="Node_FunctionParameter" />
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="3607966867310747822">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3607966867310747823" />
     </node>
   </node>
 </model>
