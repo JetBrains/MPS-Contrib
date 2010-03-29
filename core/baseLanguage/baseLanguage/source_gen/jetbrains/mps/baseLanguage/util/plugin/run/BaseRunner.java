@@ -78,6 +78,10 @@ public abstract class BaseRunner {
     return res.toString();
   }
 
+  public String getJavaHome() {
+    return this.myJavaHome;
+  }
+
   protected static String fs() {
     return System.getProperty("file.separator");
   }

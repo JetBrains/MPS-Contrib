@@ -9,16 +9,18 @@ import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
-import jetbrains.mps.smodel.ModelAccess;
+import com.intellij.execution.process.ProcessNotCreatedException;
 import org.jetbrains.annotations.Nullable;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.baseLanguage.unitTest.runtime.TestRunParameters;
+import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.baseLanguage.unitTest.behavior.ITestable_Behavior;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.internal.collections.runtime.IVisitor;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import org.apache.commons.lang.StringUtils;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.io.File;
+import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -41,36 +43,36 @@ public class UnitTestRunner extends BaseRunner {
     }
   }
 
-  public Process run() {
-    final Wrappers._T<Process> process = new Wrappers._T<Process>();
-    ModelAccess.instance().runReadAction(new Runnable() {
-      public void run() {
-        process.value = UnitTestRunner.this.run(UnitTestRunner.this.myTestable);
-      }
-    });
-    return process.value;
+  public Process run() throws ProcessNotCreatedException {
+    return this.run(this.myTestable);
   }
 
   @Nullable
-  public Process run(List<SNode> tests) {
+  public Process run(final List<SNode> tests) throws ProcessNotCreatedException {
     if (ListSequence.fromList(tests).isEmpty()) {
       return null;
     }
 
-    final TestRunParameters runParams = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
-    Iterable<SNode> testsToRun = ListSequence.fromList(tests).where(new IWhereFilter<SNode>() {
-      public boolean accept(SNode it) {
-        return ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams);
+    final Wrappers._T<TestRunParameters> runParams = new Wrappers._T<TestRunParameters>();
+    final Wrappers._T<List<SNode>> testsToRun = new Wrappers._T<List<SNode>>();
+    ModelAccess.instance().runReadAction(new Runnable() {
+      public void run() {
+        runParams.value = ITestable_Behavior.call_getTestRunParameters_1216045139515(ListSequence.fromList(tests).first());
+        testsToRun.value = ListSequence.fromList(tests).where(new IWhereFilter<SNode>() {
+          public boolean accept(SNode it) {
+            return ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams.value);
+          }
+        }).toListSequence();
+        ListSequence.fromList(tests).visitAll(new IVisitor<SNode>() {
+          public void visit(SNode it) {
+            if (!(ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams.value))) {
+              LOG.error("Can not execute " + it + ": run parameters does not match.");
+            }
+          }
+        });
       }
     });
-    ListSequence.fromList(tests).visitAll(new IVisitor<SNode>() {
-      public void visit(SNode it) {
-        if (!(ITestable_Behavior.call_getTestRunParameters_1216045139515(it).equals(runParams))) {
-          LOG.error("Can not execute " + it + ": run parameters does not match.");
-        }
-      }
-    });
-    return this.runTestWithParameters(runParams, Sequence.fromIterable(testsToRun).toListSequence());
+    return this.runTestWithParameters(runParams.value, testsToRun.value);
   }
 
   public String getCommandString() {
@@ -80,43 +82,53 @@ public class UnitTestRunner extends BaseRunner {
     return this.getCommandString(this.myProcessBuilder);
   }
 
-  private Process runTestWithParameters(TestRunParameters parameters, List<SNode> tests) {
-    List<String> params = ListSequence.fromList(new ArrayList<String>());
-    String workingDir = null;
-    String programParams = null;
-    String vmParams = null;
-    if (this.myConfigParameter != null) {
-      workingDir = this.myConfigParameter.getWorkingDirectory();
-      programParams = this.myConfigParameter.getProgramParameters();
-      vmParams = this.myConfigParameter.getVMParameters();
-    }
-    this.addJavaCommand(params);
-    ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
-    if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
-      String[] paramList = this.splitParams(vmParams);
-      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
-    }
-    this.addClassPath(params, this.getClasspathString(tests, parameters.getClassPath()));
-    ListSequence.fromList(params).addElement(parameters.getTestRunner());
-    for (SNode test : ListSequence.fromList(tests)) {
-      ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
-    }
-    if (programParams != null && StringUtils.isNotEmpty(programParams)) {
-      String[] paramList = this.splitParams(programParams);
-      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
-    }
-    this.myProcessBuilder = new ProcessBuilder(params);
-    if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
-      this.myProcessBuilder.directory(new File(workingDir));
-    }
+  private Process runTestWithParameters(final TestRunParameters parameters, final List<SNode> tests) throws ProcessNotCreatedException {
+    ModelAccess.instance().runReadAction(new Runnable() {
+      public void run() {
+        List<String> params = ListSequence.fromList(new ArrayList<String>());
+        String workingDir = null;
+        String programParams = null;
+        String vmParams = null;
+        if (UnitTestRunner.this.myConfigParameter != null) {
+          workingDir = UnitTestRunner.this.myConfigParameter.getWorkingDirectory();
+          programParams = UnitTestRunner.this.myConfigParameter.getProgramParameters();
+          vmParams = UnitTestRunner.this.myConfigParameter.getVMParameters();
+        }
+        UnitTestRunner.this.addJavaCommand(params);
+        ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
+        if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
+          String[] paramList = UnitTestRunner.this.splitParams(vmParams);
+          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+        }
+        UnitTestRunner.this.addClassPath(params, UnitTestRunner.this.getClasspathString(tests, parameters.getClassPath()));
+        ListSequence.fromList(params).addElement(parameters.getTestRunner());
+        for (SNode test : ListSequence.fromList(tests)) {
+          ListSequence.fromList(params).addSequence(ListSequence.fromList(ITestable_Behavior.call_getParametersPart_1215620460293(test)));
+        }
+        if (programParams != null && StringUtils.isNotEmpty(programParams)) {
+          String[] paramList = UnitTestRunner.this.splitParams(programParams);
+          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+        }
+        UnitTestRunner.this.myProcessBuilder = new ProcessBuilder(params);
+        if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
+          UnitTestRunner.this.myProcessBuilder.directory(new File(workingDir));
+        }
+      }
+    });
 
     try {
-      Process result = this.myProcessBuilder.start();
-      return result;
-    } catch (Exception e) {
-      Logger.getLogger(UnitTestRunner.class).error("Can't run tests", e);
-      return null;
+      return this.myProcessBuilder.start();
+    } catch (Throwable e) {
+      LOG.error("Can't run tests: " + e.getMessage(), e);
+      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine());
     }
+  }
+
+  public GeneralCommandLine getCommandLine() {
+    GeneralCommandLine commandLine = new GeneralCommandLine();
+    commandLine.setExePath(getJavaCommand(this.getJavaHome()));
+    commandLine.setWorkDirectory(this.myConfigParameter.getWorkingDirectory());
+    return commandLine;
   }
 
   public String getClasspathString(List<SNode> list, List<String> addictionClassPath) {

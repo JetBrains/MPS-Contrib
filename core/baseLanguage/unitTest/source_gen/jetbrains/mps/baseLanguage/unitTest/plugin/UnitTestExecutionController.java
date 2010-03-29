@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.SNode;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import com.intellij.execution.process.ProcessHandler;
+import com.intellij.execution.process.ProcessNotCreatedException;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
 public class UnitTestExecutionController {
@@ -28,7 +29,7 @@ public class UnitTestExecutionController {
     return this.myState;
   }
 
-  public ProcessHandler execute() {
+  public ProcessHandler execute() throws ProcessNotCreatedException {
     UnitTestRunner testRunner = null;
     try {
       testRunner = new UnitTestRunner(this.myWhatToTest, this.myConfigurationRunParameters);
