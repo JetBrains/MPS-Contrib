@@ -48,7 +48,6 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590553(jetbrains.mps.uiLanguage.structure)" version="1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959054e(jetbrains.mps.uiLanguage.constraints)" version="26" />
-  <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902c8(jetbrains.mps.baseLanguage.plugin)" version="0" />
   <languageAspect modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="16" />
@@ -63,7 +62,7 @@
   <import index="9" modelUID="r:44be5a71-98f4-4137-88b1-8ccaf67186a8(jetbrains.mps.baseLanguage.runConfigurations.behavior)" version="-1" />
   <import index="10" modelUID="f:java_stub#javax.swing(javax.swing@java_stub)" version="-1" />
   <import index="11" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
-  <import index="12" modelUID="r:00000000-0000-4000-0000-011c895902c8(jetbrains.mps.baseLanguage.plugin)" version="0" />
+  <import index="12" modelUID="r:00000000-0000-4000-0000-011c895902c8(jetbrains.mps.baseLanguage.plugin)" version="-1" />
   <import index="13" modelUID="f:java_stub#jetbrains.mps.debug(jetbrains.mps.debug@java_stub)" version="-1" />
   <import index="14" modelUID="f:java_stub#com.intellij.execution.executors(com.intellij.execution.executors@java_stub)" version="-1" />
   <import index="15" modelUID="r:57517435-426f-4b91-b723-daace71114db(jetbrains.mps.baseLanguage.tuples)" version="-1" />
@@ -917,7 +916,7 @@
       <property name="name:3" value="myJavaConfigurationOptions" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="3251065477411315357" />
       <node role="type:3" type="jetbrains.mps.uiLanguage.structure.ComponentType:1" id="3251065477411315359">
-        <link role="component:1" targetNodeId="12.73588894266431817:0" resolveInfo="JavaConfigOptions" />
+        <link role="component:1" targetNodeId="12.73588894266431817" resolveInfo="JavaConfigOptions" />
       </node>
     </node>
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="3251065477411861205">
@@ -963,7 +962,7 @@
               <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="3251065477411318137" />
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation:0" id="3251065477411318142">
-              <link role="member:0" targetNodeId="12.73588894266431673:0" resolveInfo="apply" />
+              <link role="member:0" targetNodeId="12.73588894266431673" resolveInfo="apply" />
               <node role="actualArgument:0" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3251065477411318144">
                 <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="3251065477411318143">
                   <link role="variableDeclaration:3" targetNodeId="3251065477411291361" resolveInfo="configuration" />
@@ -1003,7 +1002,7 @@
               </node>
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation:0" id="3251065477411318161">
-              <link role="member:0" targetNodeId="12.73588894266431614:0" resolveInfo="reset" />
+              <link role="member:0" targetNodeId="12.73588894266431614" resolveInfo="reset" />
               <node role="actualArgument:0" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3251065477411318163">
                 <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="3251065477411318162">
                   <link role="variableDeclaration:3" targetNodeId="3251065477411291363" resolveInfo="configuration" />
@@ -1031,7 +1030,7 @@
               <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="3251065477411318171" />
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation:0" id="3251065477411318176">
-              <link role="member:0" targetNodeId="12.73588894266431726:0" resolveInfo="dispose" />
+              <link role="member:0" targetNodeId="12.73588894266431726" resolveInfo="dispose" />
             </node>
           </node>
         </node>
@@ -1100,7 +1099,7 @@
             </node>
             <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3251065477411315368">
               <node role="creator:3" type="jetbrains.mps.uiLanguage.structure.ComponentCreator:1" id="3251065477411315369">
-                <link role="componentDeclaration:1" targetNodeId="12.73588894266431817:0" resolveInfo="JavaConfigOptions" />
+                <link role="componentDeclaration:1" targetNodeId="12.73588894266431817" resolveInfo="JavaConfigOptions" />
               </node>
             </node>
           </node>
