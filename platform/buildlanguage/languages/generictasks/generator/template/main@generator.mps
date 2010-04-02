@@ -51,13 +51,6 @@
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895905a3(jetbrains.mps.xml.deprecated.structure)" version="0" />
   <import index="4" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
   <import index="5" modelUID="r:00000000-0000-4000-0000-011c895904c8(jetbrains.mps.buildlanguage.structure)" version="21" />
-  <import index="7" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="8" modelUID="f:java_stub#org.apache.tools.ant(org.apache.tools.ant@java_stub)" version="-1" />
-  <import index="9" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
-  <import index="10" modelUID="r:83b1eb02-118e-488e-ab83-e4cc714b9392(jetbrains.mps.build.generictasks.behavior)" version="-1" />
-  <import index="11" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
-  <import index="12" modelUID="r:00000000-0000-4000-0000-011c89590374(jetbrains.mps.baseLanguage.classifiers.generator.baseLanguage.template.main@generator)" version="-1" />
-  <import index="13" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="683020775182432298">
     <property name="name:2" value="main" />
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="353793545802729441">

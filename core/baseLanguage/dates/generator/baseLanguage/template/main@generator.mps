@@ -68,9 +68,6 @@
   <import index="37" modelUID="f:java_stub#jetbrains.mps.baseLanguage.dates.runtime.table(jetbrains.mps.baseLanguage.dates.runtime.table@java_stub)" version="-1" />
   <import index="43" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="44" modelUID="r:00000000-0000-4000-0000-011c895903da(jetbrains.mps.baseLanguage.datesInternal.behavior)" version="-1" />
-  <import index="45" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
-  <import index="46" modelUID="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" version="-1" />
-  <import index="47" modelUID="f:java_stub#jetbrains.mps.util(jetbrains.mps.util@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1169550125892">
     <property name="name:2" value="main" />
     <node role="rootMappingRule:2" type="jetbrains.mps.lang.generator.structure.Root_MappingRule:2" id="1169550186237">

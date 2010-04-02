@@ -54,7 +54,6 @@
   <import index="7" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="18" modelUID="r:00000000-0000-4000-0000-011c895904c0(jetbrains.mps.buildlanguage.behavior)" version="-1" />
   <import index="19" modelUID="r:00000000-0000-4000-0000-011c895904dd(jetbrains.mps.build.property.behavior)" version="-1" />
-  <import index="20" modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1197036397046">
     <property name="name:2" value="main" />
     <property name="topPriorityGroup:2" value="false" />
