@@ -60,7 +60,7 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "name") + "_Editor";
   }
 
-  public static Object propertyMacro_GetPropertyValue_1491021298367190483(final IOperationContext operationContext, final PropertyMacroContext _context) {
+  public static Object propertyMacro_GetPropertyValue_472629177864052142(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return Node_FunctionParameter_Behavior.getVariableForExecuteBlockNameStatic_281656731534771380();
   }
 
@@ -140,7 +140,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "configName", true);
   }
 
-  public static SNode sourceNodeQuery_1491021298367190477(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_472629177864052136(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 
@@ -168,7 +168,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "checkBlock", true);
   }
 
-  public static SNode sourceNodeQuery_2392137962931159137(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_9207521573506875613(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "executeBlock", true);
   }
 
