@@ -20,7 +20,6 @@ import jetbrains.mps.internal.collections.runtime.IVisitor;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.io.File;
-import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.project.IModule;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -120,15 +119,8 @@ public class UnitTestRunner extends BaseRunner {
       return this.myProcessBuilder.start();
     } catch (Throwable e) {
       LOG.error("Can't run tests: " + e.getMessage(), e);
-      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine());
+      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine(this.myConfigParameter.getWorkingDirectory()));
     }
-  }
-
-  public GeneralCommandLine getCommandLine() {
-    GeneralCommandLine commandLine = new GeneralCommandLine();
-    commandLine.setExePath(getJavaCommand(this.getJavaHome()));
-    commandLine.setWorkDirectory(this.myConfigParameter.getWorkingDirectory());
-    return commandLine;
   }
 
   public String getClasspathString(List<SNode> list, List<String> addictionClassPath) {

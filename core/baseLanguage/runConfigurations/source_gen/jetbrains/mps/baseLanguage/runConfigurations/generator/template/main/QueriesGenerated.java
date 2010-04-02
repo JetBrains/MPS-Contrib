@@ -144,11 +144,23 @@ public class QueriesGenerated {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 
+  public static SNode sourceNodeQuery_1633282062187904803(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+  }
+
   public static SNode sourceNodeQuery_664608570000532592(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 
-  public static SNode sourceNodeQuery_664608570000532622(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+  public static SNode sourceNodeQuery_1633282062187628598(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+  }
+
+  public static SNode sourceNodeQuery_1633282062187628611(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+  }
+
+  public static SNode sourceNodeQuery_1633282062187904717(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 
@@ -206,6 +218,10 @@ public class QueriesGenerated {
 
   public static SNode weaving_MappingRule_ContextNodeQuery_2392137962931159118(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
     return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "checkBlock", true), "jetbrains.mps.lang.plugin.structure.CheckConfigurationBlock"), "body", true);
+  }
+
+  public static SNode weaving_MappingRule_ContextNodeQuery_1633282062187298929(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent");
   }
 
   public static void mappingScript_CodeBlock_7549816165173146547(final IOperationContext operationContext, final MappingScriptContext _context) {

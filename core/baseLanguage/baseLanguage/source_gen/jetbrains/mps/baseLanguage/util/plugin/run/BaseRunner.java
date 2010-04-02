@@ -8,6 +8,7 @@ import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.project.IModule;
+import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
@@ -80,6 +81,13 @@ public abstract class BaseRunner {
 
   public String getJavaHome() {
     return this.myJavaHome;
+  }
+
+  protected GeneralCommandLine getCommandLine(String workingDir) {
+    GeneralCommandLine commandLine = new GeneralCommandLine();
+    commandLine.setExePath(getJavaCommand(this.getJavaHome()));
+    commandLine.setWorkDirectory(workingDir);
+    return commandLine;
   }
 
   protected static String fs() {
