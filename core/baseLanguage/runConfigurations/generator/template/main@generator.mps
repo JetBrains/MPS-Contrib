@@ -2447,75 +2447,30 @@
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="6784027201970263456" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="6784027201970263457" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6784027201970263458">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="3527001481346760346">
-          <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3527001481346760347">
-            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3527001481346760348">
-              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3527001481346760349">
-                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="3527001481346760350" />
-                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="3527001481346760351">
-                  <link role="baseMethodDeclaration:3" targetNodeId="11.~Container.add(java.awt.Component,java.lang.Object):void" resolveInfo="add" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3527001481346760352">
-                    <node role="operation:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialFieldReference:1" id="3527001481346760353">
-                      <property name="fieldName:1" value="myChooseNodeComponent" />
-                      <node role="fieldType:1" type="jetbrains.mps.uiLanguage.structure.ComponentType:1" id="3527001481346760354">
-                        <link role="component:1" targetNodeId="12.8832748096582864998" resolveInfo="MainClassField" />
-                      </node>
-                    </node>
-                    <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="3527001481346760355" />
-                  </node>
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="3527001481346760356">
-                    <link role="baseMethodDeclaration:3" targetNodeId="6.8492459591399148006" resolveInfo="createPanelConstraints" />
-                    <link role="classConcept:3" targetNodeId="6.8492459591399147955" resolveInfo="LayoutUtil" />
-                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3527001481346760357">
-                      <property name="value:3" value="0" />
-                    </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5490073957291250194">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5490073957291250195">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="5490073957291250196" />
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5490073957291250197">
+              <link role="baseMethodDeclaration:3" targetNodeId="11.~Container.add(java.awt.Component,java.lang.Object):void" resolveInfo="add" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5490073957291250198">
+                <node role="operation:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialFieldReference:1" id="5490073957291250199">
+                  <property name="fieldName:1" value="myChooseNodeComponent" />
+                  <node role="fieldType:1" type="jetbrains.mps.uiLanguage.structure.ComponentType:1" id="5490073957291250200">
+                    <link role="component:1" targetNodeId="12.8832748096582864998" resolveInfo="MainClassField" />
                   </node>
                 </node>
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="5490073957291250201" />
               </node>
-            </node>
-            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3527001481346760361">
-              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3527001481346760368">
-                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression:3" id="3527001481346760366">
-                  <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3527001481346760362">
-                    <node role="operation:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialFieldReference:1" id="3527001481346760363">
-                      <property name="fieldName:1" value="myChooseNodeComponent" />
-                      <node role="fieldType:1" type="jetbrains.mps.uiLanguage.structure.ComponentType:1" id="3527001481346760364">
-                        <link role="component:1" targetNodeId="12.8832748096582864998" resolveInfo="MainClassField" />
-                      </node>
-                    </node>
-                    <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="3527001481346760365" />
-                  </node>
-                </node>
-                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="3527001481346763129">
-                  <link role="baseMethodDeclaration:3" targetNodeId="12.73588894266444155" resolveInfo="addActionListener" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="3527001481346763130">
-                    <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.AnonymousClassCreator:3" id="3527001481346790469">
-                      <node role="cls:3" type="jetbrains.mps.baseLanguage.structure.AnonymousClass:3" id="3527001481346790470">
-                        <property name="nonStatic:3" value="true" />
-                        <link role="classifier:3" targetNodeId="21.~ActionListener" resolveInfo="ActionListener" />
-                        <link role="baseMethodDeclaration:3" targetNodeId="2.~Object.&lt;init&gt;()" resolveInfo="Object" />
-                        <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3527001481346790471" />
-                        <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="3527001481346790472">
-                          <property name="isAbstract:3" value="false" />
-                          <property name="name:3" value="actionPerformed" />
-                          <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3527001481346790473" />
-                          <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="3527001481346790474" />
-                          <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="3527001481346790475">
-                            <property name="name:3" value="p0" />
-                            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3527001481346790476">
-                              <link role="classifier:3" targetNodeId="21.~ActionEvent" resolveInfo="ActionEvent" />
-                            </node>
-                          </node>
-                          <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3527001481346790477" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5490073957291250202">
+                <link role="baseMethodDeclaration:3" targetNodeId="6.8492459591399148006" resolveInfo="createPanelConstraints" />
+                <link role="classConcept:3" targetNodeId="6.8492459591399147955" resolveInfo="LayoutUtil" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="5490073957291250203">
+                  <property name="value:3" value="0" />
                 </node>
               </node>
             </node>
           </node>
-          <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="3527001481346760359" />
+          <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="5490073957291254744" />
         </node>
       </node>
     </node>
