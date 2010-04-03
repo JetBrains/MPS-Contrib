@@ -6,9 +6,11 @@ import jetbrains.mps.logging.Logger;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import com.intellij.execution.process.ProcessNotCreatedException;
-import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
+import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import jetbrains.mps.smodel.ModelAccess;
+import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.io.File;
@@ -35,34 +37,38 @@ public class ClassRunner extends BaseRunner {
     return this.run(classConcept, null, null, null);
   }
 
-  public Process run(SNode classConcept, String programParams, String vmParams, String workingDir) throws ProcessNotCreatedException {
-    String className = INamedConcept_Behavior.call_getFqName_1213877404258(classConcept);
-    List<String> params = ListSequence.fromList(new ArrayList<String>());
+  public Process run(final SNode classConcept, final String programParams, final String vmParams, final String workingDir) throws ProcessNotCreatedException {
+    final Wrappers._T<String> className = new Wrappers._T<String>();
+    final List<String> params = ListSequence.fromList(new ArrayList<String>());
+    ModelAccess.instance().runReadAction(new Runnable() {
+      public void run() {
+        className.value = INamedConcept_Behavior.call_getFqName_1213877404258(classConcept);
+        ClassRunner.this.addJavaCommand(params);
+        if (ClassRunner.this.myIsDebug) {
+          ClassRunner.this.addDebug(params, ClassRunner.this.myDebugArguments);
+        }
+        ClassRunner.this.addClassPath(params, classConcept);
+        if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
+          String[] paramList = ClassRunner.this.splitParams(vmParams);
+          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+        }
+        ListSequence.fromList(params).addElement(className.value);
+        if (programParams != null && StringUtils.isNotEmpty(programParams)) {
+          String[] paramList = ClassRunner.this.splitParams(programParams);
+          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+        }
+        ClassRunner.this.myProcessBuilder = new ProcessBuilder(params);
 
-    this.addJavaCommand(params);
-    if (this.myIsDebug) {
-      this.addDebug(params, this.myDebugArguments);
-    }
-    this.addClassPath(params, classConcept);
-    if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
-      String[] paramList = this.splitParams(vmParams);
-      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
-    }
-    ListSequence.fromList(params).addElement(className);
-    if (programParams != null && StringUtils.isNotEmpty(programParams)) {
-      String[] paramList = this.splitParams(programParams);
-      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
-    }
-    this.myProcessBuilder = new ProcessBuilder(params);
-
-    if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
-      this.myProcessBuilder.directory(new File(workingDir));
-    }
+        if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
+          ClassRunner.this.myProcessBuilder.directory(new File(workingDir));
+        }
+      }
+    });
 
     try {
       return this.myProcessBuilder.start();
     } catch (IOException e) {
-      LOG.error("Can't run class " + className + ": " + e.getMessage(), e);
+      LOG.error("Can't run class " + className.value + ": " + e.getMessage(), e);
       throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine(workingDir));
     }
   }
