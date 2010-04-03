@@ -2261,7 +2261,10 @@
                         <node role="operand:3" type="jetbrains.mps.baseLanguage.classifiers.structure.ThisClassifierExpression:0" id="1614521997361913475" />
                         <node role="operation:3" type="jetbrains.mps.baseLanguageInternal.structure.InternalPartialInstanceMethodCall:1" id="1614521997361913476">
                           <property name="methodName:1" value="checkNode" />
-                          <node role="returnType:1" type="jetbrains.mps.baseLanguage.structure.Type:3" id="1614521997361913477" />
+                          <node role="returnType:1" type="jetbrains.mps.baseLanguage.tuples.structure.IndexedTupleType:2" id="5196878156379053844">
+                            <node role="componentType:2" type="jetbrains.mps.lang.smodel.structure.SNodeType:16" id="5196878156379053860" />
+                            <node role="componentType:2" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="5196878156379053876" />
+                          </node>
                         </node>
                       </node>
                       <node role="lValue:3" type="jetbrains.mps.baseLanguage.tuples.structure.IndexedTupleLiteral:2" id="1614521997361913478">
