@@ -200,6 +200,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "property", true);
   }
 
+  public static Iterable sourceNodesQuery_6784027201968276223(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "body", true), "statement", true);
+  }
+
   public static SNode weaving_MappingRule_ContextNodeQuery_5147346160405481760(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
     return SLinkOperations.getTarget(SNodeOperations.cast(SLinkOperations.getTarget(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToRunConfiguration"), "executeBlock", true), "jetbrains.mps.lang.plugin.structure.ExecuteConfigBlock"), "body", true);
   }

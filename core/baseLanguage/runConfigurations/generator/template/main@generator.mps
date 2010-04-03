@@ -776,6 +776,7 @@
       </node>
     </node>
     <node role="weavingMappingRule:2" type="jetbrains.mps.lang.generator.structure.Weaving_MappingRule:2" id="2392137962931159116">
+      <property name="applyToConceptInheritors:2" value="true" />
       <link role="applicableConcept:2" targetNodeId="1.655818460756091959" resolveInfo="JavaRunConfiguration" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="2392137962931160634">
         <link role="template:2" targetNodeId="1491021298367441738" resolveInfo="weave_JavaRunConfigurationCheck" />
@@ -808,6 +809,7 @@
       </node>
     </node>
     <node role="weavingMappingRule:2" type="jetbrains.mps.lang.generator.structure.Weaving_MappingRule:2" id="1633282062187298927">
+      <property name="applyToConceptInheritors:2" value="true" />
       <link role="applicableConcept:2" targetNodeId="1.8456022385895583119" resolveInfo="JavaNodeRunConfiguration" />
       <node role="contextNodeQuery:2" type="jetbrains.mps.lang.generator.structure.Weaving_MappingRule_ContextNodeQuery:2" id="1633282062187298929">
         <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1633282062187298930">
@@ -1932,7 +1934,7 @@
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="2392137962931159145">
           <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="2392137962931159146" />
           <node role="nodeMacro$attribute:3" type="jetbrains.mps.lang.generator.structure.SwitchMacro:2" id="2392137962931159148">
-            <link role="templateSwitch:2" targetNodeId="16.2392137962931144929" resolveInfo="switch_IChechConfigBlock" />
+            <link role="templateSwitch:2" targetNodeId="6784027201968272728" resolveInfo="switch_ICheckConfigBlockForJava" />
             <node role="sourceNodeQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery:2" id="2392137962931159149">
               <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2392137962931159150">
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2392137962931159151">
@@ -1998,6 +2000,42 @@
         <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1633282062187307827" />
         <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1633282062187307828" />
         <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1633282062187307829" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateSwitch:2" id="6784027201968272728">
+    <property name="name:2" value="switch_ICheckConfigBlockForJava" />
+    <link role="modifiedSwitch:2" targetNodeId="16.2392137962931144929" resolveInfo="switch_ICheckConfigBlock" />
+    <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="6784027201968276213">
+      <link role="applicableConcept:2" targetNodeId="1.8456022385895584871" resolveInfo="JavaCheckBlock" />
+      <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="6784027201968276218">
+        <link role="template:2" targetNodeId="6784027201968276216" resolveInfo="case_JavaCheckBlock" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="6784027201968276216">
+    <property name="name:2" value="case_JavaCheckBlock" />
+    <link role="applicableConcept:2" targetNodeId="1.8456022385895584871" resolveInfo="JavaCheckBlock" />
+    <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="6784027201968276219">
+      <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="6784027201968276220" />
+      <node role="nodeMacro$attribute:3" type="jetbrains.mps.lang.generator.structure.CopySrcListMacro:2" id="6784027201968276222">
+        <node role="sourceNodesQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodesQuery:2" id="6784027201968276223">
+          <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6784027201968276224">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="6784027201968279375">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6784027201968279382">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="6784027201968279377">
+                  <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="6784027201968279376" />
+                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="6784027201968279381">
+                    <link role="link:16" targetNodeId="3v.1137022507850:3" />
+                  </node>
+                </node>
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="6784027201968279386">
+                  <link role="link:16" targetNodeId="3v.1068581517665:3" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
