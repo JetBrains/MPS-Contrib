@@ -121,6 +121,10 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "conceptDeclaration", false) != null);
   }
 
+  public static boolean ifMacro_Condition_8364915720905770132(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "checkBlock", true) != null);
+  }
+
   public static SNode sourceNodeQuery_1810772216404834499(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return IJavaRunConfigurationParameter_Behavior.call_getParameterType_1810772216404820824(_context.getNode());
   }
@@ -207,6 +211,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_9207521573506875613(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "executeBlock", true);
+  }
+
+  public static SNode sourceNodeQuery_8364915720905777963(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "checkBlock", true);
   }
 
   public static Iterable sourceNodesQuery_1905391470717577619(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
