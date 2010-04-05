@@ -72,6 +72,10 @@
     <property name="name:0" value="JavaRunConfiguration" />
     <property name="rootable:0" value="true" />
     <link role="extends:0" targetNodeId="2v.7035278950562851062:23" resolveInfo="RunConfigurationDeclaration" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="3405970486215426047">
+      <property name="name:0" value="isDebuggable" />
+      <link role="dataType:0" targetNodeId="3v.1082983657063:0" resolveInfo="boolean" />
+    </node>
     <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="655818460756092288">
       <link role="intfc:0" targetNodeId="2v.3636700473138841144:23" resolveInfo="IEnchancedRunConfiguration" />
     </node>

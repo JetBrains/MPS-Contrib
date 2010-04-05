@@ -32,4 +32,8 @@ public abstract class BaseRunConfig extends RunConfigurationBase implements Loca
   public String suggestedName() {
     return getName();
   }
+
+  public boolean isDebuggable() {
+    return false;  
+  }
 }

@@ -105,6 +105,14 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "editor", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "editor", true), "disposeBlock", true) != null);
   }
 
+  public static boolean ifMacro_Condition_3405970486215439993(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), "isDebuggable");
+  }
+
+  public static boolean ifMacro_Condition_1154778242028903573(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), "isDebuggable");
+  }
+
   public static boolean ifMacro_Condition_2195473424935857384(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "editor", true) != null);
   }
