@@ -20,8 +20,8 @@ public class ExecuteParameterQuery_Behavior {
   public static List<SNode> virtual_getParameters_1213877374450(SNode thisNode) {
     List<SNode> conceptFunctionParameterConcepts = ConceptFunction_Behavior.callSuper_getParameters_1213877374450(thisNode, "jetbrains.mps.lang.plugin.structure.ExecuteParameterQuery");
     SNode root = SNodeOperations.getAncestor(thisNode, null, false, true);
-    if (SNodeOperations.isInstanceOf(root, "jetbrains.mps.lang.plugin.structure.IEnchancedRunConfiguration")) {
-      ListSequence.fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.fromList(IEnchancedRunConfiguration_Behavior.call_getAdditionalParameters_3636700473138841189(SNodeOperations.cast(root, "jetbrains.mps.lang.plugin.structure.IEnchancedRunConfiguration"))));
+    if (SNodeOperations.isInstanceOf(root, "jetbrains.mps.lang.plugin.structure.IEnhancedRunConfiguration")) {
+      ListSequence.fromList(conceptFunctionParameterConcepts).addSequence(ListSequence.fromList(IEnhancedRunConfiguration_Behavior.call_getAdditionalParameters_3636700473138841189(SNodeOperations.cast(root, "jetbrains.mps.lang.plugin.structure.IEnhancedRunConfiguration"))));
     }
     return conceptFunctionParameterConcepts;
   }

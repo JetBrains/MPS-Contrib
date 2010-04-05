@@ -5,7 +5,7 @@ package jetbrains.mps.baseLanguage.runConfigurations.behavior;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import java.util.List;
-import jetbrains.mps.lang.plugin.behavior.IEnchancedRunConfiguration_Behavior;
+import jetbrains.mps.lang.plugin.behavior.IEnhancedRunConfiguration_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 import java.util.Set;
@@ -23,7 +23,7 @@ public class JavaRunConfiguration_Behavior {
   }
 
   public static List<SNode> virtual_getAdditionalParameters_3636700473138841189(SNode thisNode) {
-    List<SNode> parameters = IEnchancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_3636700473138841189(thisNode, "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration");
+    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_3636700473138841189(thisNode, "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration");
     ListSequence.fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.JavaConfigurationRunParameters_FunctionParameter"));
     return parameters;
   }
@@ -43,7 +43,7 @@ public class JavaRunConfiguration_Behavior {
       {
         quotedNode_1 = SModelUtil_new.instantiateConceptDeclaration("jetbrains.mps.baseLanguage.structure.ClassifierType", TypeChecker.getInstance().getRuntimeTypesModel(), GlobalScope.getInstance(), false);
         SNode quotedNode1_2 = quotedNode_1;
-        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#jetbrains.mps.plugins.pluginparts.runconfigs(jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)"), SNodeId.fromString("~BaseRunProfileState")));
+        quotedNode1_2.addReference(SReference.create("classifier", quotedNode1_2, SModelReference.fromString("f:java_stub#com.intellij.execution.configurations(com.intellij.execution.configurations@java_stub)"), SNodeId.fromString("~RunProfileState")));
         result = quotedNode1_2;
       }
       return result;

@@ -4,7 +4,7 @@ package jetbrains.mps.baseLanguage.runConfigurations.behavior;
 
 import jetbrains.mps.smodel.SNode;
 import java.util.List;
-import jetbrains.mps.lang.plugin.behavior.IEnchancedRunConfiguration_Behavior;
+import jetbrains.mps.lang.plugin.behavior.IEnhancedRunConfiguration_Behavior;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
 
@@ -13,7 +13,7 @@ public class JavaNodeRunConfiguration_Behavior {
   }
 
   public static List<SNode> virtual_getAdditionalParameters_3636700473138841189(SNode thisNode) {
-    List<SNode> parameters = IEnchancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_3636700473138841189(thisNode, "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration");
+    List<SNode> parameters = IEnhancedRunConfiguration_Behavior.callSuper_getAdditionalParameters_3636700473138841189(thisNode, "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration");
     ListSequence.fromList(parameters).addElement(SConceptOperations.findConceptDeclaration("jetbrains.mps.baseLanguage.runConfigurations.structure.Node_FunctionParameter"));
     return parameters;
   }
