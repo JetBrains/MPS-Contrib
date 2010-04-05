@@ -27,11 +27,6 @@ public class ClassRunner extends BaseRunner {
   public ClassRunner() {
   }
 
-  public void setDebugArguments(String arguments) {
-    this.myIsDebug = true;
-    this.myDebugArguments = arguments;
-  }
-
   public Process run(List<SNode> nodes) throws ProcessNotCreatedException {
     SNode classConcept = getClassConcept(nodes);
     return this.run(classConcept, null, null, null);
@@ -44,9 +39,6 @@ public class ClassRunner extends BaseRunner {
       public void run() {
         className.value = INamedConcept_Behavior.call_getFqName_1213877404258(classConcept);
         ClassRunner.this.addJavaCommand(params);
-        if (ClassRunner.this.myIsDebug) {
-          ClassRunner.this.addDebug(params, ClassRunner.this.myDebugArguments);
-        }
         ClassRunner.this.addClassPath(params, classConcept);
         if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
           String[] paramList = ClassRunner.this.splitParams(vmParams);
