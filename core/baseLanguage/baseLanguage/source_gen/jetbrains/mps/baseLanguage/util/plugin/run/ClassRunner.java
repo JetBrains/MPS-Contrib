@@ -21,8 +21,6 @@ public class ClassRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(ClassRunner.class);
 
   private ProcessBuilder myProcessBuilder;
-  private boolean myIsDebug;
-  private String myDebugArguments;
 
   public ClassRunner() {
   }
