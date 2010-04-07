@@ -210,7 +210,7 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createRefNode_elhbwn_a1b1b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeActions");
-    provider.setNoTargetText("<no executeActions>");
+    provider.setNoTargetText("default actions");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
@@ -227,7 +227,7 @@ public class ParametrizedExecuteBlock_Editor extends DefaultNodeEditor {
   private EditorCell createRefNode_elhbwn_a1b2b1a(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeConsole");
-    provider.setNoTargetText("<no executeConsole>");
+    provider.setNoTargetText("default console");
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
