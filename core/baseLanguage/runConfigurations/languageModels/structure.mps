@@ -43,7 +43,7 @@
       <property name="metaClass:0" value="reference" />
       <property name="role:0" value="conceptDeclaration" />
       <property name="sourceCardinality:0" value="0..1" />
-      <link role="target:0" targetNodeId="4.1071489090640:0" resolveInfo="ConceptDeclaration" />
+      <link role="target:0" targetNodeId="4.1169125787135:0" resolveInfo="AbstractConceptDeclaration" />
     </node>
     <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="8456022385895584872">
       <property name="metaClass:0" value="aggregation" />

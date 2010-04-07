@@ -600,6 +600,20 @@
                     </node>
                     <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.IsNotEmptyOperation:3" id="3405970486215439976" />
                   </node>
+                  <node role="ifFalseStatement:3" type="jetbrains.mps.baseLanguage.structure.BlockStatement:3" id="1053283424754076479">
+                    <node role="statements:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1053283424754076480">
+                      <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1053283424754083822">
+                        <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="1053283424754083878">
+                          <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1053283424754083881">
+                            <property name="value:3" value="" />
+                          </node>
+                          <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1053283424754083823">
+                            <link role="variableDeclaration:3" targetNodeId="3405970486215439963" resolveInfo="oldVmParams" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
                 <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3405970486215439977">
                   <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3405970486215439978">
