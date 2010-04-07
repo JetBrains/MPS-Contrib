@@ -128,5 +128,16 @@
   <node type="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration:0" id="1810772216404800349">
     <property name="name:0" value="IJavaRunConfigurationParameter" />
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="3361586479360705438">
+    <property name="name:0" value="NodeRunConfigPropertyInstance" />
+    <link role="extends:0" targetNodeId="3v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="3361586479361483886">
+      <property name="value:0" value="node" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="3361586479360707233">
+      <link role="intfc:0" targetNodeId="2v.7086588812844908357:23" resolveInfo="IRunConfigPropertyInstance" />
+    </node>
+  </node>
 </model>
 

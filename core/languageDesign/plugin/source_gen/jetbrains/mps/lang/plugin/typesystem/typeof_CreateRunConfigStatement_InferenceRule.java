@@ -9,7 +9,6 @@ import jetbrains.mps.typesystem.inference.TypeCheckingContext;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.intentions.BaseIntentionProvider;
 import jetbrains.mps.typesystem.inference.EquationInfo;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.smodel.SModelUtil_new;
 import java.util.Set;
 import java.util.HashSet;
@@ -34,15 +33,6 @@ public class typeof_CreateRunConfigStatement_InferenceRule extends AbstractInfer
       EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7162284997071996041", 0, intentionProvider);
       _info_12389875345.setInequationGroup("default");
       typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7162284997071996046", true), (SNode) new typeof_CreateRunConfigStatement_InferenceRule.QuotationClass_2l6ps1_a0a1a0().createNode(typeCheckingContext), false, _info_12389875345);
-    }
-    for (SNode property : ListSequence.fromList(SLinkOperations.getTargets(statement, "property", true))) {
-      {
-        SNode _nodeToCheck_1029348928467 = SLinkOperations.getTarget(property, "propertyValue", true);
-        BaseIntentionProvider intentionProvider = null;
-        EquationInfo _info_12389875345 = new EquationInfo(_nodeToCheck_1029348928467, null, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7066926174333307556", 0, intentionProvider);
-        _info_12389875345.setInequationGroup("default");
-        typeCheckingContext.createLessThanInequationStrong((SNode) typeCheckingContext.typeOf(_nodeToCheck_1029348928467, "r:00000000-0000-4000-0000-011c89590364(jetbrains.mps.lang.plugin.typesystem)", "7066926174333307542", true), (SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(property, "property", false), "type", true), false, _info_12389875345);
-      }
     }
   }
 
