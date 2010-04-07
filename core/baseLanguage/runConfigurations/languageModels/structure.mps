@@ -135,7 +135,7 @@
       <property name="value:0" value="node" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="3v.1137473891462:0" resolveInfo="alias" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="3361586479360707233">
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="7589249354678411013">
       <link role="intfc:0" targetNodeId="2v.7086588812844908357:23" resolveInfo="IRunConfigPropertyInstance" />
     </node>
   </node>

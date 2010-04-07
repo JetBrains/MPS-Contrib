@@ -33,7 +33,7 @@ public class QueriesGenerated {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration");
   }
 
-  public static boolean baseMappingRule_Condition_6951161063040395920(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+  public static boolean baseMappingRule_Condition_7589249354678755140(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration");
   }
 
