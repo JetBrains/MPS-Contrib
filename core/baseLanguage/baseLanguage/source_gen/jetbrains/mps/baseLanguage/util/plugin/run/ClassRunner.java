@@ -22,15 +22,20 @@ public class ClassRunner extends BaseRunner {
 
   private ProcessBuilder myProcessBuilder;
 
-  public ClassRunner() {
+  public ClassRunner(ConfigRunParameters parameters) {
+    super(parameters);
   }
 
   public Process run(List<SNode> nodes) throws ProcessNotCreatedException {
     SNode classConcept = getClassConcept(nodes);
-    return this.run(classConcept, null, null, null);
+    return this.run(classConcept, this.myRunParameters.getProgramParameters(), this.myRunParameters.getAlternativeJRE(), this.myRunParameters.getWorkingDirectory());
   }
 
-  public Process run(final SNode classConcept, final String programParams, final String vmParams, final String workingDir) throws ProcessNotCreatedException {
+  public Process run(SNode node) throws ProcessNotCreatedException {
+    return this.run(node, this.myRunParameters.getProgramParameters(), this.myRunParameters.getAlternativeJRE(), this.myRunParameters.getWorkingDirectory());
+  }
+
+  private Process run(final SNode classConcept, final String programParams, final String vmParams, final String workingDir) throws ProcessNotCreatedException {
     final Wrappers._T<String> className = new Wrappers._T<String>();
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     ModelAccess.instance().runReadAction(new Runnable() {

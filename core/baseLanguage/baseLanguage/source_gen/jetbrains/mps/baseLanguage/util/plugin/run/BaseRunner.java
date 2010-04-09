@@ -21,6 +21,14 @@ import jetbrains.mps.reloading.JarFileClassPathItem;
 
 public abstract class BaseRunner {
   private String myJavaHome = System.getProperty("java.home");
+  protected final ConfigRunParameters myRunParameters;
+
+  public BaseRunner(ConfigRunParameters parameters) {
+    this.myRunParameters = parameters;
+    if (parameters != null && parameters.getUseAlternativeJRE()) {
+      this.setJavaHomePath(parameters.getAlternativeJRE());
+    }
+  }
 
   public String getCommandString(ProcessBuilder p) {
     StringBuilder res = new StringBuilder();

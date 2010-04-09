@@ -4,10 +4,10 @@ package jetbrains.mps.baseLanguage.unitTest.plugin;
 
 import jetbrains.mps.baseLanguage.util.plugin.run.BaseRunner;
 import jetbrains.mps.logging.Logger;
-import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import java.util.ArrayList;
+import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import com.intellij.execution.process.ProcessNotCreatedException;
 import org.jetbrains.annotations.Nullable;
@@ -30,16 +30,12 @@ import java.util.LinkedHashSet;
 public class UnitTestRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(UnitTestRunner.class);
 
-  private final ConfigRunParameters myConfigParameter;
   private ProcessBuilder myProcessBuilder;
   private final List<SNode> myTestable = new ArrayList<SNode>();
 
   public UnitTestRunner(List<SNode> testable, ConfigRunParameters parameters) {
+    super(parameters);
     ListSequence.fromList(this.myTestable).addSequence(ListSequence.fromList(testable));
-    this.myConfigParameter = parameters;
-    if (parameters != null && parameters.getUseAlternativeJRE()) {
-      this.setJavaHomePath(parameters.getAlternativeJRE());
-    }
   }
 
   public Process run() throws ProcessNotCreatedException {
@@ -74,13 +70,6 @@ public class UnitTestRunner extends BaseRunner {
     return this.runTestWithParameters(runParams.value, testsToRun.value);
   }
 
-  public String getCommandString() {
-    if (this.myProcessBuilder == null) {
-      return null;
-    }
-    return this.getCommandString(this.myProcessBuilder);
-  }
-
   private Process runTestWithParameters(final TestRunParameters parameters, final List<SNode> tests) throws ProcessNotCreatedException {
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
@@ -88,10 +77,10 @@ public class UnitTestRunner extends BaseRunner {
         String workingDir = null;
         String programParams = null;
         String vmParams = null;
-        if (UnitTestRunner.this.myConfigParameter != null) {
-          workingDir = UnitTestRunner.this.myConfigParameter.getWorkingDirectory();
-          programParams = UnitTestRunner.this.myConfigParameter.getProgramParameters();
-          vmParams = UnitTestRunner.this.myConfigParameter.getVMParameters();
+        if (UnitTestRunner.this.myRunParameters != null) {
+          workingDir = UnitTestRunner.this.myRunParameters.getWorkingDirectory();
+          programParams = UnitTestRunner.this.myRunParameters.getProgramParameters();
+          vmParams = UnitTestRunner.this.myRunParameters.getVMParameters();
         }
         UnitTestRunner.this.addJavaCommand(params);
         ListSequence.fromList(params).addSequence(ListSequence.fromList(parameters.getVmParameters()));
@@ -119,8 +108,15 @@ public class UnitTestRunner extends BaseRunner {
       return this.myProcessBuilder.start();
     } catch (Throwable e) {
       LOG.error("Can't run tests: " + e.getMessage(), e);
-      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine(this.myConfigParameter.getWorkingDirectory()));
+      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine(this.myRunParameters.getWorkingDirectory()));
     }
+  }
+
+  public String getCommandString() {
+    if (this.myProcessBuilder == null) {
+      return null;
+    }
+    return this.getCommandString(this.myProcessBuilder);
   }
 
   public String getClasspathString(List<SNode> list, List<String> addictionClassPath) {
