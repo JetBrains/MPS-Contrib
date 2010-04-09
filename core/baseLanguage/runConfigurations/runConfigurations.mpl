@@ -14,8 +14,8 @@
       </external-templates>
       <dependencies>
         <dependency reexport="false">37a3367b-1fb2-44d8-aa6b-18075e74e003(MPS.Classpath)</dependency>
+        <dependency reexport="true">37b32414-2b1a-43b8-8d53-e2044057fdbf(jetbrains.mps.baseLanguage.runConfigurations.runtime)</dependency>
         <dependency reexport="false">d44dab97-aaac-44cb-9745-8a14db674c03(jetbrains.mps.baseLanguage.tuples.runtime)</dependency>
-        <dependency reexport="false">37b32414-2b1a-43b8-8d53-e2044057fdbf(jetbrains.mps.baseLanguage.runConfigurations.runtime)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>5d6bee4c-f891-4a93-a0c9-e2268726ae47(jetbrains.mps.uiLanguage)</usedLanguage>
@@ -62,7 +62,7 @@
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
   <runtime>
-    <dependency reexport="false">37b32414-2b1a-43b8-8d53-e2044057fdbf(jetbrains.mps.baseLanguage.runConfigurations.runtime)</dependency>
+    <dependency reexport="true">37b32414-2b1a-43b8-8d53-e2044057fdbf(jetbrains.mps.baseLanguage.runConfigurations.runtime)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)</extendedLanguage>

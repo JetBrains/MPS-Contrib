@@ -1186,11 +1186,11 @@
       <property name="name:3" value="myJavaConfigurationOptions" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="3251065477411315357" />
       <node role="type:3" type="jetbrains.mps.uiLanguage.structure.ComponentType:1" id="3251065477411315359">
-        <link role="component:1" targetNodeId="12.73588894266431817" resolveInfo="JavaConfigOptions" />
+        <link role="component:1" targetNodeId="22.1447676209063345962" resolveInfo="JavaConfigOptions" />
       </node>
       <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="6784027201969395697">
         <node role="creator:3" type="jetbrains.mps.uiLanguage.structure.ComponentCreator:1" id="6784027201969395698">
-          <link role="componentDeclaration:1" targetNodeId="12.73588894266431817" resolveInfo="JavaConfigOptions" />
+          <link role="componentDeclaration:1" targetNodeId="22.1447676209063345962" resolveInfo="JavaConfigOptions" />
         </node>
       </node>
     </node>
@@ -1281,7 +1281,7 @@
               <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="3251065477411318137" />
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation:0" id="3251065477411318142">
-              <link role="member:0" targetNodeId="12.73588894266431673" resolveInfo="apply" />
+              <link role="member:0" targetNodeId="22.1447676209063346136" resolveInfo="apply" />
               <node role="actualArgument:0" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3251065477411318144">
                 <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="3251065477411318143">
                   <link role="variableDeclaration:3" targetNodeId="3251065477411291361" resolveInfo="configuration" />
@@ -1321,7 +1321,7 @@
               </node>
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation:0" id="3251065477411318161">
-              <link role="member:0" targetNodeId="12.73588894266431614" resolveInfo="reset" />
+              <link role="member:0" targetNodeId="22.1447676209063346077" resolveInfo="reset" />
               <node role="actualArgument:0" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3251065477411318163">
                 <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="3251065477411318162">
                   <link role="variableDeclaration:3" targetNodeId="3251065477411291363" resolveInfo="configuration" />
@@ -1349,7 +1349,7 @@
               <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="3251065477411318171" />
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation:0" id="3251065477411318176">
-              <link role="member:0" targetNodeId="12.73588894266431726" resolveInfo="dispose" />
+              <link role="member:0" targetNodeId="22.1447676209063346189" resolveInfo="dispose" />
             </node>
           </node>
         </node>
