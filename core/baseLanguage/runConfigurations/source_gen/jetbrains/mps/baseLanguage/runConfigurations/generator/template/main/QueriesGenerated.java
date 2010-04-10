@@ -125,6 +125,10 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "editor", true) != null);
   }
 
+  public static boolean ifMacro_Condition_3592413331517069553(final IOperationContext operationContext, final IfMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), "generate");
+  }
+
   public static boolean ifMacro_Condition_5827490094965878951(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "conceptDeclaration", false) != null);
   }

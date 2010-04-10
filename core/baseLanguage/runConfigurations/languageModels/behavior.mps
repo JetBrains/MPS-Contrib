@@ -32,12 +32,13 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959028c(jetbrains.mps.lang.structure.constraints)" version="11" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="7" />
+  <maxImportIndex value="8" />
   <import index="1" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="-1" />
   <import index="3" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <import index="4" modelUID="r:f144b87b-8ea5-4a8a-bb79-78fd4663e93c(jetbrains.mps.baseLanguage.util.plugin.run)" version="-1" />
   <import index="6" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <import index="7" modelUID="f:java_stub#com.intellij.execution.configurations(com.intellij.execution.configurations@java_stub)" version="-1" />
+  <import index="8" modelUID="f:java_stub#jetbrains.mps.plugins.pluginparts.runconfigs(jetbrains.mps.plugins.pluginparts.runconfigs@java_stub)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590360(jetbrains.mps.lang.plugin.behavior)" />
   <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="6629582826328967165">
     <link role="concept" targetNodeId="1.8456022385895583119" resolveInfo="JavaRunConfiguration" />
@@ -87,7 +88,23 @@
       <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3607966867310086862" />
     </node>
     <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="6629582826328967166">
-      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6629582826328967167" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="6629582826328967167">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3592413331517228993">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3592413331517229006">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3592413331517228997">
+              <node role="operand:3" type="jetbrains.mps.lang.behavior.structure.ThisNodeExpression" id="3592413331517228994" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="3592413331517229003">
+                <link role="property:16" targetNodeId="1.3592413331516836478" resolveInfo="generate" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Property_SetOperation:16" id="3592413331517229012">
+              <node role="value:16" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="3592413331517240110">
+                <property name="value:3" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
@@ -166,8 +183,8 @@
             <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation:16" id="8126994885492052339">
               <node role="linkTarget:16" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8126994885492054777">
                 <node role="operand:3" type="jetbrains.mps.lang.quotation.structure.Quotation:0" id="8126994885492054770">
-                  <node role="quotedNode:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3405970486215879193">
-                    <link role="classifier:3" targetNodeId="7.~RunProfileState" resolveInfo="RunProfileState" />
+                  <node role="quotedNode:0" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3592413331516699352">
+                    <link role="classifier:3" targetNodeId="8.~BaseRunProfileState" resolveInfo="BaseRunProfileState" />
                   </node>
                 </node>
                 <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="8126994885492054782">

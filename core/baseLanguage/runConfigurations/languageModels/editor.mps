@@ -71,6 +71,18 @@
           </node>
           <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="3405970486215434347" />
         </node>
+        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="3592413331516836937">
+          <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem:32" id="3592413331516836938">
+            <property name="flag:32" value="false" />
+          </node>
+          <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="3592413331516836941">
+            <property name="text:32" value="generate before run:" />
+          </node>
+          <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="3592413331516836943">
+            <link role="relationDeclaration:32" targetNodeId="1.3592413331516836478" resolveInfo="generate" />
+          </node>
+          <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="3592413331516836940" />
+        </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="6629582826328966261" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6629582826328966262">
           <link role="editorComponent:32" targetNodeId="2v.8456022385895659191" resolveInfo="RunConfigurationBody" />
