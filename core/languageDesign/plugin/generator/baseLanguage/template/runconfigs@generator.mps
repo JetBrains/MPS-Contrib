@@ -1156,6 +1156,9 @@
           </node>
         </node>
       </node>
+      <node role="annotation:3" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="6986911548761815179">
+        <link role="annotation:3" targetNodeId="8.~NotNull" resolveInfo="NotNull" />
+      </node>
     </node>
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="2185619653173672786">
       <property name="name:3" value="getName" />
