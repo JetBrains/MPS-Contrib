@@ -32,7 +32,7 @@ public class ClassRunner extends BaseRunner {
   }
 
   public Process run(SNode node) throws ProcessNotCreatedException {
-    return this.run(node, this.myRunParameters.getProgramParameters(), this.myRunParameters.getAlternativeJRE(), this.myRunParameters.getWorkingDirectory());
+    return this.run(node, this.myRunParameters.getProgramParameters(), this.myRunParameters.getVMParameters(), this.myRunParameters.getWorkingDirectory());
   }
 
   private Process run(final SNode classConcept, final String programParams, final String vmParams, final String workingDir) throws ProcessNotCreatedException {
