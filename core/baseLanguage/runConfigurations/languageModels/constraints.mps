@@ -32,14 +32,17 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590340(jetbrains.mps.lang.pattern.constraints)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" version="23" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ae(jetbrains.mps.lang.typesystem.constraints)" version="17" />
+  <languageAspect modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   <maxImportIndex value="4" />
-  <import index="1" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="-1" />
+  <import index="1" modelUID="r:550fbd90-c9f2-4576-a8a6-223eca16d68b(jetbrains.mps.baseLanguage.runConfigurations.structure)" version="0" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="6629582826328966593">
-    <link role="concept:8" targetNodeId="1.8456022385895583119" resolveInfo="JavaRunConfiguration" />
+    <property name="package:8" value="node" />
+    <link role="concept:8" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaRunConfiguration" />
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="8126994885492054823">
-    <link role="concept:8" targetNodeId="1.8456022385895584871" resolveInfo="JavaCheckBlock" />
+    <property name="package:8" value="node" />
+    <link role="concept:8" targetNodeId="1.8456022385895584871:0" resolveInfo="JavaCheckBlock" />
     <node role="canBeChild:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild:8" id="8126994885492054824">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8126994885492054825">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8126994885492054826">
@@ -49,7 +52,7 @@
               <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation:16" id="8126994885492054832">
                 <node role="parameter:16" type="jetbrains.mps.lang.smodel.structure.OperationParm_Concept:16" id="8126994885492054833">
                   <node role="conceptArgument:16" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference:16" id="8126994885492054836">
-                    <link role="conceptDeclaration:16" targetNodeId="1.8456022385895583119" resolveInfo="JavaNodeRunConfiguration" />
+                    <link role="conceptDeclaration:16" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
                   </node>
                 </node>
                 <node role="parameter:16" type="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion:16" id="8126994885492054838" />
@@ -64,7 +67,8 @@
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590368(jetbrains.mps.lang.plugin.structure)" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="3361586479360707234">
-    <link role="concept:8" targetNodeId="1.3361586479360705438" resolveInfo="NodeRunConfigPropertyInstance" />
+    <property name="package:8" value="node" />
+    <link role="concept:8" targetNodeId="1.3361586479360705438:0" resolveInfo="NodeRunConfigPropertyInstance" />
     <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="3361586479360707235">
       <link role="applicableProperty:8" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
       <node role="propertyGetter:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyGetter:8" id="3361586479360707236">
@@ -111,7 +115,7 @@
             </node>
             <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation:16" id="3361586479360712839">
               <node role="conceptArgument:16" type="jetbrains.mps.lang.smodel.structure.RefConcept_Reference:16" id="3361586479360712841">
-                <link role="conceptDeclaration:16" targetNodeId="1.8456022385895583119" resolveInfo="JavaNodeRunConfiguration" />
+                <link role="conceptDeclaration:16" targetNodeId="1.8456022385895583119:0" resolveInfo="JavaNodeRunConfiguration" />
               </node>
             </node>
           </node>

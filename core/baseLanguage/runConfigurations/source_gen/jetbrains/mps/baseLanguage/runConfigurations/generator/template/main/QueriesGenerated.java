@@ -29,6 +29,10 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), AttributesRolesUtil.childRoleFromAttributeRole("userComponentReferenceAnnotation"), true) != null);
   }
 
+  public static boolean baseMappingRule_Condition_1566895476211683172(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), AttributesRolesUtil.childRoleFromAttributeRole("componentInsideOfChangeListenerAnnotation"), true) != null);
+  }
+
   public static boolean baseMappingRule_Condition_6951161063040189470(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
     return SNodeOperations.isInstanceOf(SLinkOperations.getTarget(_context.getNode(), "runConfig", false), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration");
   }
@@ -38,7 +42,7 @@ public class QueriesGenerated {
   }
 
   public static boolean baseMappingRule_Condition_5842104767989368318(final IOperationContext operationContext, final BaseMappingRuleContext _context) {
-    return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration", false, false) != null);
+    return (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.lang.plugin.structure.ConfigurationEditorDeclaration", false, false) != null) && (SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", false, false) == null);
   }
 
   public static Object propertyMacro_GetPropertyValue_1810772216404819116(final IOperationContext operationContext, final PropertyMacroContext _context) {
@@ -97,6 +101,10 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "conceptDeclaration", false);
   }
 
+  public static Object referenceMacro_GetReferent_1566895476212361240(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", false, true), "map_JavaRunConfigurationToEditorComponent");
+  }
+
   public static boolean ifMacro_Condition_3251065477411868084(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "editor", true) != null) && (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "editor", true), "applyBlock", true) != null);
   }
@@ -133,12 +141,20 @@ public class QueriesGenerated {
     return SPropertyOperations.getBoolean(_context.getNode(), "generate");
   }
 
+  public static boolean ifMacro_Condition_4462513030604266151(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true) != null);
+  }
+
   public static boolean ifMacro_Condition_5827490094965878951(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "conceptDeclaration", false) != null);
   }
 
-  public static boolean ifMacro_Condition_8364915720905770132(final IOperationContext operationContext, final IfMacroContext _context) {
-    return (SLinkOperations.getTarget(_context.getNode(), "checkBlock", true) != null);
+  public static boolean ifMacro_Condition_4462513030604285707(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true) != null);
+  }
+
+  public static boolean ifMacro_Condition_2178855608171476001(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "editor", true), "onChangeNodeBlock", true) != null);
   }
 
   public static SNode sourceNodeQuery_1810772216404834499(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
@@ -209,6 +225,14 @@ public class QueriesGenerated {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
 
+  public static SNode sourceNodeQuery_4462513030604562848(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+  }
+
+  public static SNode sourceNodeQuery_4462513030604562802(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
+  }
+
   public static SNode sourceNodeQuery_664608570000532664(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(_context.getNode());
   }
@@ -229,10 +253,6 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "executeBlock", true);
   }
 
-  public static SNode sourceNodeQuery_8364915720905777963(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "checkBlock", true);
-  }
-
   public static Iterable sourceNodesQuery_1905391470717577619(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(_context.getNode(), "executionParameter", true);
   }
@@ -249,8 +269,20 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "property", true);
   }
 
+  public static Iterable sourceNodesQuery_4462513030604266287(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true), "body", true), "statement", true);
+  }
+
+  public static Iterable sourceNodesQuery_4462513030604285638(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true), "body", true), "statement", true);
+  }
+
   public static Iterable sourceNodesQuery_6784027201968276223(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "body", true), "statement", true);
+  }
+
+  public static Iterable sourceNodesQuery_2178855608171511263(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+    return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "editor", true), "onChangeNodeBlock", true), "body", true), "statement", true);
   }
 
   public static SNode weaving_MappingRule_ContextNodeQuery_5147346160405481760(final IOperationContext opereationContext, final WeavingMappingRuleContext _context) {
@@ -300,7 +332,11 @@ public class QueriesGenerated {
   public static void mappingScript_CodeBlock_7549816165173146547(final IOperationContext operationContext, final MappingScriptContext _context) {
     for (SNode configuration : ListSequence.fromList(SModelOperations.getRoots(_context.getModel(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration"))) {
       for (SNode componentRef : ListSequence.fromList(SNodeOperations.getDescendants(configuration, "jetbrains.mps.lang.plugin.structure.ComponentReference", false, new String[]{}))) {
-        SLinkOperations.setNewChild(componentRef, AttributesRolesUtil.childRoleFromAttributeRole("userComponentReferenceAnnotation"), "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation");
+        if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.lang.plugin.structure.AbstractEnhancedConceptFunction", false, false) != null)) {
+          SLinkOperations.setNewChild(componentRef, AttributesRolesUtil.childRoleFromAttributeRole("userComponentReferenceAnnotation"), "jetbrains.mps.baseLanguage.runConfigurations.structure.UserComponentReferenceAnnotation");
+        } else if ((SNodeOperations.getAncestor(componentRef, "jetbrains.mps.baseLanguage.runConfigurations.structure.IOnChangeEditorBlock", false, false) != null)) {
+          SLinkOperations.setNewChild(componentRef, AttributesRolesUtil.childRoleFromAttributeRole("componentInsideOfChangeListenerAnnotation"), "jetbrains.mps.baseLanguage.runConfigurations.structure.ComponentInsideOfChangeListenerAnnotation");
+        }
       }
     }
   }
