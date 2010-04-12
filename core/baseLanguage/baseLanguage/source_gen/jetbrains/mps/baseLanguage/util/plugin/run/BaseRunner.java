@@ -18,6 +18,8 @@ import jetbrains.mps.reloading.IClassPathItem;
 import jetbrains.mps.reloading.EachClassPathItemVisitor;
 import jetbrains.mps.reloading.FileClassPathItem;
 import jetbrains.mps.reloading.JarFileClassPathItem;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import org.apache.commons.lang.StringUtils;
 
 public abstract class BaseRunner {
   private String myJavaHome = System.getProperty("java.home");
@@ -25,9 +27,7 @@ public abstract class BaseRunner {
 
   public BaseRunner(ConfigRunParameters parameters) {
     this.myRunParameters = parameters;
-    if (parameters != null && parameters.getUseAlternativeJRE()) {
-      this.setJavaHomePath(parameters.getAlternativeJRE());
-    }
+    this.updateJavaHome(parameters);
   }
 
   public String getCommandString(ProcessBuilder p) {
@@ -98,6 +98,14 @@ public abstract class BaseRunner {
     return commandLine;
   }
 
+  private void updateJavaHome(ConfigRunParameters parameters) {
+    if (parameters != null && parameters.getUseAlternativeJRE()) {
+      this.setJavaHomePath(parameters.getAlternativeJRE());
+    } else {
+      this.setJavaHomePath(getJdkHome());
+    }
+  }
+
   protected static String fs() {
     return System.getProperty("file.separator");
   }
@@ -143,5 +151,40 @@ public abstract class BaseRunner {
     } else {
       return result + "java";
     }
+  }
+
+  public static List<String> getJavaHomes() {
+    String systemJavaHome = System.getProperty("java.home");
+    List<String> homes = ListSequence.fromListAndArray(new LinkedList<String>(), systemJavaHome);
+    String systemJdkHome = systemJavaHome.substring(0, systemJavaHome.length() - "/jre".length());
+    if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
+      ListSequence.fromList(homes).addElement(systemJdkHome);
+    }
+    if (StringUtils.isNotEmpty(System.getenv("JAVA_HOME"))) {
+      ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
+    }
+    return homes;
+  }
+
+  public static String getJdkHome() {
+    for (String javaHome : ListSequence.fromList(BaseRunner.getJavaHomes())) {
+      String javaBinHome = javaHome + File.separator + "bin" + File.separator;
+      String osName = System.getProperty("os.name");
+      if (osName.startsWith("Mac OS")) {
+        if (new File(javaBinHome + "java").exists()) {
+          return javaHome;
+        }
+      } else
+      if (osName.startsWith("Windows")) {
+        if (new File(javaBinHome + "java.exe").exists()) {
+          return javaHome;
+        }
+      } else {
+        if (new File(javaBinHome + "java").exists()) {
+          return javaHome;
+        }
+      }
+    }
+    return ListSequence.fromList(BaseRunner.getJavaHomes()).first();
   }
 }
