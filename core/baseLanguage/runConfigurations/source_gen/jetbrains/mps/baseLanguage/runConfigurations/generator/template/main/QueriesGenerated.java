@@ -241,16 +241,20 @@ public class QueriesGenerated {
     return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration"));
   }
 
-  public static SNode sourceNodeQuery_1614521997361913464(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
-    return Node_FunctionParameter_Behavior.getParameterType_5147346160405686358(SNodeOperations.cast(SNodeOperations.getParent(_context.getNode()), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration"));
-  }
-
   public static SNode sourceNodeQuery_2392137962931159149(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "checkBlock", true);
   }
 
   public static SNode sourceNodeQuery_9207521573506875613(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "executeBlock", true);
+  }
+
+  public static SNode sourceNodeQuery_2625030007890237299(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "propertyValue", true);
+  }
+
+  public static SNode sourceNodeQuery_2625030007890239220(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "propertyValue", true);
   }
 
   public static Iterable sourceNodesQuery_1905391470717577619(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
