@@ -2971,7 +2971,7 @@
                       <link role="variableDeclaration:3" targetNodeId="7840798570675189117" resolveInfo="factory" />
                     </node>
                     <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="7840798570675189132">
-                      <link role="baseMethodDeclaration:3" targetNodeId="21.~ActionFactory.acquireRegisteredAction(java.lang.String,java.lang.String,java.lang.Object...):jetbrains.mps.workbench.action.BaseAction" resolveInfo="acquireRegisteredAction" />
+                      <link role="baseMethodDeclaration:3" targetNodeId="21.~ActionFactory.acquireRegisteredAction(java.lang.String,java.lang.String,java.lang.Object...):com.intellij.openapi.actionSystem.AnAction" resolveInfo="acquireRegisteredAction" />
                       <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7840798570675189133">
                         <property name="value:3" value="actionClass" />
                         <node role="propertyMacro$property_attribute$value:3" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="7840798570675189134">
