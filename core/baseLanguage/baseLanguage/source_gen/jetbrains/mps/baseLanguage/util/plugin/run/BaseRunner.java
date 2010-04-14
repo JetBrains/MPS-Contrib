@@ -155,7 +155,7 @@ public abstract class BaseRunner {
 
   public static List<String> getJavaHomes() {
     String systemJavaHome = System.getProperty("java.home");
-    List<String> homes = ListSequence.fromListAndArray(new LinkedList<String>(), systemJavaHome);
+    List<String> homes = ListSequence.fromList(new LinkedList<String>());
     String systemJdkHome = systemJavaHome.substring(0, systemJavaHome.length() - "/jre".length());
     if (systemJavaHome.endsWith("jre") && new File(systemJdkHome + File.separator + "bin").exists()) {
       ListSequence.fromList(homes).addElement(systemJdkHome);
@@ -163,6 +163,7 @@ public abstract class BaseRunner {
     if (StringUtils.isNotEmpty(System.getenv("JAVA_HOME"))) {
       ListSequence.fromList(homes).addElement(System.getenv("JAVA_HOME"));
     }
+    ListSequence.fromList(homes).addElement(systemJavaHome);
     return homes;
   }
 
