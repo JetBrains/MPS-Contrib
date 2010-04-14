@@ -101,6 +101,14 @@ public class QueriesGenerated {
     return SLinkOperations.getTarget(_context.getNode(), "conceptDeclaration", false);
   }
 
+  public static Object referenceMacro_GetReferent_6061708161040576203(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent");
+  }
+
+  public static Object referenceMacro_GetReferent_6061708161040576234(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    return _context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent");
+  }
+
   public static Object referenceMacro_GetReferent_1566895476212361240(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", false, true), "map_JavaRunConfigurationToEditorComponent");
   }
@@ -273,11 +281,11 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(_context.getNode(), "property", true);
   }
 
-  public static Iterable sourceNodesQuery_4462513030604266287(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_6061708161041341102(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true), "body", true), "statement", true);
   }
 
-  public static Iterable sourceNodesQuery_4462513030604285638(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_6061708161040332153(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "isApplicableBlock", true), "body", true), "statement", true);
   }
 
@@ -285,7 +293,7 @@ public class QueriesGenerated {
     return SLinkOperations.getTargets(SLinkOperations.getTarget(_context.getNode(), "body", true), "statement", true);
   }
 
-  public static Iterable sourceNodesQuery_2178855608171511263(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
+  public static Iterable sourceNodesQuery_6061708161040543790(final IOperationContext operationContext, final SourceSubstituteMacroNodesContext _context) {
     return SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(SLinkOperations.getTarget(_context.getNode(), "editor", true), "onChangeNodeBlock", true), "body", true), "statement", true);
   }
 
