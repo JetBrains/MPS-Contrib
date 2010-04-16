@@ -5,17 +5,14 @@ package jetbrains.mps.baseLanguage.util.plugin.run;
 import jetbrains.mps.logging.Logger;
 import jetbrains.mps.smodel.SNode;
 import com.intellij.execution.process.ProcessNotCreatedException;
-import jetbrains.mps.baseLanguage.closures.runtime.Wrappers;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.ModelAccess;
-import jetbrains.mps.lang.core.behavior.INamedConcept_Behavior;
 import org.apache.commons.lang.StringUtils;
 import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.io.File;
 import java.io.IOException;
-import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 
 public class ClassRunner extends BaseRunner {
   private static Logger LOG = Logger.getLogger(ClassRunner.class);
@@ -26,23 +23,21 @@ public class ClassRunner extends BaseRunner {
     super(parameters);
   }
 
-  public Process run(SNode node) throws ProcessNotCreatedException {
-    return this.run(node, this.myRunParameters.getProgramParameters(), this.myRunParameters.getVMParameters(), this.myRunParameters.getWorkingDirectory());
+  public Process run(SNode node, String classname) throws ProcessNotCreatedException {
+    return this.run(node, classname, this.myRunParameters.getProgramParameters(), this.myRunParameters.getVMParameters(), this.myRunParameters.getWorkingDirectory());
   }
 
-  private Process run(final SNode classConcept, final String programParams, final String vmParams, final String workingDir) throws ProcessNotCreatedException {
-    final Wrappers._T<String> className = new Wrappers._T<String>();
+  protected Process run(final SNode node, final String className, final String programParams, final String vmParams, final String workingDir) throws ProcessNotCreatedException {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        className.value = INamedConcept_Behavior.call_getFqName_1213877404258(classConcept);
         ClassRunner.this.addJavaCommand(params);
-        ClassRunner.this.addClassPath(params, classConcept);
+        ClassRunner.this.addClassPath(params, node);
         if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
           String[] paramList = ClassRunner.this.splitParams(vmParams);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
         }
-        ListSequence.fromList(params).addElement(className.value);
+        ListSequence.fromList(params).addElement(className);
         if (programParams != null && StringUtils.isNotEmpty(programParams)) {
           String[] paramList = ClassRunner.this.splitParams(programParams);
           ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
@@ -58,26 +53,12 @@ public class ClassRunner extends BaseRunner {
     try {
       return this.myProcessBuilder.start();
     } catch (IOException e) {
-      LOG.error("Can't run class " + className.value + ": " + e.getMessage(), e);
+      LOG.error("Can't run class " + className + ": " + e.getMessage(), e);
       throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine(workingDir));
     }
   }
 
   public String getCommandString() {
     return this.getCommandString(this.myProcessBuilder);
-  }
-
-  public static SNode getClassConcept(List<SNode> nodes) {
-    SNode classConcept = null;
-    if (nodes != null) {
-      for (SNode node : ListSequence.fromList(nodes)) {
-        SNode n = SNodeOperations.getAncestor(node, "jetbrains.mps.baseLanguage.structure.ClassConcept", true, false);
-        if ((n != null)) {
-          classConcept = n;
-          break;
-        }
-      }
-    }
-    return classConcept;
   }
 }
