@@ -785,7 +785,23 @@
             </node>
           </node>
           <node role="alternativeConsequence:2" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence:2" id="7840798570674908552">
-            <node role="templateNode:2" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="7840798570674908553" />
+            <node role="templateNode:2" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8354753220769473701">
+              <link role="baseMethodDeclaration:3" targetNodeId="3.~IconManager.loadIcon(java.lang.String,boolean):javax.swing.Icon" resolveInfo="loadIcon" />
+              <link role="classConcept:3" targetNodeId="3.~IconManager" resolveInfo="IconManager" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8354753220769473702">
+                <link role="baseMethodDeclaration:3" targetNodeId="5v.~MacrosUtil.expandPath(java.lang.String,java.lang.String):java.lang.String" resolveInfo="expandPath" />
+                <link role="classConcept:3" targetNodeId="5v.~MacrosUtil" resolveInfo="MacrosUtil" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="8354753220769480838">
+                  <property name="value:3" value="${language_descriptor}/icons/runApp.png" />
+                </node>
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="8354753220769473729">
+                  <property name="value:3" value="jetbrains.mps.lang.plugin" />
+                </node>
+              </node>
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="8354753220769473757">
+                <property name="value:3" value="true" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
