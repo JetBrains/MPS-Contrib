@@ -25,7 +25,7 @@ import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 
 public class QueriesGenerated {
-  private static Pattern REGEXP_a0a0a2a0a0a0a2a0a1a4 = Pattern.compile("\\d", 0);
+  private static Pattern REGEXP_x583g4_a0a0a2a0a0a0a2a0a1a4 = Pattern.compile("\\d", 0);
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_PropertyValueExpression_1201708668619(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     return Util.checkNodeType(_context.getParentNode(), SConceptOperations.findConceptDeclaration("jetbrains.mps.buildlanguage.structure.BooleanType"));
@@ -112,7 +112,7 @@ public class QueriesGenerated {
           }
 
           public boolean canSubstitute_internal(String pattern, boolean strictly) {
-            return REGEXP_a0a0a2a0a0a0a2a0a1a4.matcher(pattern).matches();
+            return REGEXP_x583g4_a0a0a2a0a0a0a2a0a1a4.matcher(pattern).matches();
           }
 
           public String getMatchingText(String pattern) {

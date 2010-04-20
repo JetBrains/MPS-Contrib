@@ -44,8 +44,8 @@ import jetbrains.mps.smodel.SModelReference;
 import jetbrains.mps.smodel.SNodeId;
 
 public class QueriesGenerated {
-  private static Pattern REGEXP_a0a0a0a2a0a0a0a2a0a2a71 = Pattern.compile("[\\+\\-]\\d\\d[:]\\d\\d", 0);
-  private static Pattern REGEXP_a0a0a0a0c0a0a0a0c0a0c0r = Pattern.compile("[\\+\\-]\\d\\d?\\d?\\d?", 0);
+  private static Pattern REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a2a71 = Pattern.compile("[\\+\\-]\\d\\d[:]\\d\\d", 0);
+  private static Pattern REGEXP_x583g4_a0a0a0a0c0a0a0a0c0a0c0r = Pattern.compile("[\\+\\-]\\d\\d?\\d?\\d?", 0);
 
   public static boolean nodeSubstituteActionsBuilder_Precondition_Expression_4555537781927653007(final IOperationContext operationContext, final NodeSubstitutePreconditionContext _context) {
     SNode td = SNodeOperations.getAncestor(_context.getParentNode(), "jetbrains.mps.baseLanguage.structure.TypeDerivable", true, false);
@@ -183,9 +183,9 @@ public class QueriesGenerated {
 
           public boolean canSubstitute_internal(String pattern, boolean strictly) {
             if (strictly) {
-              return REGEXP_a0a0a0a2a0a0a0a2a0a2a71.matcher(pattern).matches();
+              return REGEXP_x583g4_a0a0a0a2a0a0a0a2a0a2a71.matcher(pattern).matches();
             } else {
-              return REGEXP_a0a0a0a0c0a0a0a0c0a0c0r.matcher(pattern).matches();
+              return REGEXP_x583g4_a0a0a0a0c0a0a0a0c0a0c0r.matcher(pattern).matches();
             }
           }
 
