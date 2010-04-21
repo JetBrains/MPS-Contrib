@@ -9,10 +9,6 @@ import jetbrains.mps.lang.typesystem.runtime.NonTypesystemRule_Runtime;
 public class TypesystemDescriptor extends BaseHelginsDescriptor {
   public TypesystemDescriptor() {
     {
-      InferenceRule_Runtime inferenceRule = new typeof_JavaRunConfiguration_InferenceRule();
-      this.myInferenceRules.add(inferenceRule);
-    }
-    {
       InferenceRule_Runtime inferenceRule = new typeof_Node_FunctionParameter_InferenceRule();
       this.myInferenceRules.add(inferenceRule);
     }
