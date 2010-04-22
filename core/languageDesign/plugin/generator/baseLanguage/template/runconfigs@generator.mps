@@ -2004,6 +2004,7 @@
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="8821770403474041635">
           <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="8821770403474041636">
             <property name="name:3" value="error" />
+            <property name="isFinal:3" value="true" />
             <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="8821770403474041637">
               <link role="classifier:3" targetNodeId="4.~StringBuilder" resolveInfo="StringBuilder" />
             </node>
