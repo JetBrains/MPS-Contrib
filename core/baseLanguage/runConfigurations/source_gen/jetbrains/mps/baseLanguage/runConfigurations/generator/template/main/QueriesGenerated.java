@@ -65,6 +65,10 @@ public class QueriesGenerated {
     return SPropertyOperations.getString(_context.getNode(), "iconPath");
   }
 
+  public static Object propertyMacro_GetPropertyValue_8255351389869477991(final IOperationContext operationContext, final PropertyMacroContext _context) {
+    return SPropertyOperations.getBoolean(_context.getNode(), "isDebuggable");
+  }
+
   public static Object propertyMacro_GetPropertyValue_3251065477410865589(final IOperationContext operationContext, final PropertyMacroContext _context) {
     return SPropertyOperations.getString(_context.getNode(), "name") + "_Editor";
   }
@@ -79,10 +83,6 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_3251065477410858822(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return ListSequence.fromList(SLinkOperations.getTargets(_context.getOutputNodeByInputNodeAndMappingLabel(_context.getNode(), "map_JavaRunConfigurationToEditorComponent"), "constructor", true)).first();
-  }
-
-  public static Object referenceMacro_GetReferent_8126994885493673830(final IOperationContext operationContext, final ReferenceMacroContext _context) {
-    return SLinkOperations.getTarget(_context.getNode(), "stateTypeParameter", false);
   }
 
   public static Object referenceMacro_GetReferent_8126994885493673851(final IOperationContext operationContext, final ReferenceMacroContext _context) {
@@ -129,8 +129,8 @@ public class QueriesGenerated {
     return SPropertyOperations.getBoolean(_context.getNode(), "isDebuggable");
   }
 
-  public static boolean ifMacro_Condition_1154778242028903573(final IOperationContext operationContext, final IfMacroContext _context) {
-    return SPropertyOperations.getBoolean(_context.getNode(), "isDebuggable");
+  public static boolean ifMacro_Condition_8255351389869487974(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "debugSessionCreator", true) != null);
   }
 
   public static boolean ifMacro_Condition_2195473424935857384(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -183,6 +183,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_8126994885493673885(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "iconBlock", true);
+  }
+
+  public static SNode sourceNodeQuery_8255351389869487990(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "debugSessionCreator", true);
   }
 
   public static SNode sourceNodeQuery_7549816165173598500(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

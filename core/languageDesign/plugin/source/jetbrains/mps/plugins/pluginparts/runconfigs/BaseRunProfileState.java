@@ -23,9 +23,5 @@ public abstract class BaseRunProfileState implements RunProfileState {
     return (T) myUserData.get(key);
   }
 
-  //todo make method abstract
-  public AbstractDebugSessionCreator createDebugSessionCreator(Project p) {
-    //current default
-    return new VMCreator(p);
-  }
+  public abstract AbstractDebugSessionCreator createDebugSessionCreator(Project p);
 }

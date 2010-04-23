@@ -106,5 +106,14 @@
       <link role="concept:3" targetNodeId="1.4462513030604064303:0" resolveInfo="IsApplicableBlock" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="8255351389870630288">
+    <property name="name:3" value="check_JavaRunConfiguration" />
+    <property name="overrides:3" value="true" />
+    <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8255351389870630289" />
+    <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="8255351389870630290">
+      <property name="name:3" value="javaRunConfiguration" />
+      <link role="concept:3" targetNodeId="1.655818460756091959:0" resolveInfo="JavaRunConfiguration" />
+    </node>
+  </node>
 </model>
 

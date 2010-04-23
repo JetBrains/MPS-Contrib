@@ -57,6 +57,7 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
     editorCell.setGridLayout(true);
     editorCell.addEditorCell(this.createCollection_ltb2bm_a0(editorContext, node));
     editorCell.addEditorCell(this.createCollection_ltb2bm_b0(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_ltb2bm_c0(editorContext, node));
     return editorCell;
   }
 
@@ -97,6 +98,18 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
     return editorCell;
   }
 
+  private EditorCell createCollection_ltb2bm_c0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_ltb2bm_c0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createConstant_ltb2bm_a2a(editorContext, node));
+    editorCell.addEditorCell(this.createProperty_ltb2bm_b2a(editorContext, node));
+    return editorCell;
+  }
+
   private EditorCell createConstant_ltb2bm_a0a(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "caption:");
     editorCell.setCellId("Constant_ltb2bm_a0a");
@@ -122,6 +135,13 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.TEXT_COLOR, MPSColors.lightGray);
     }
+    editorCell.setDefaultText("");
+    return editorCell;
+  }
+
+  private EditorCell createConstant_ltb2bm_a2a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "is debuggable:");
+    editorCell.setCellId("Constant_ltb2bm_a2a");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -169,6 +189,24 @@ public class RunConfigurationPresentation extends AbstractCellProvider {
     EditorCell editorCell;
     editorCell = provider.createEditorCell(editorContext);
     editorCell.setCellId("property_iconPath");
+    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
+    SNode attributeConcept = provider.getRoleAttribute();
+    Class attributeKind = provider.getRoleAttributeClass();
+    if (attributeConcept != null) {
+      IOperationContext opContext = editorContext.getOperationContext();
+      EditorManager manager = EditorManager.getInstanceFromContext(opContext);
+      return manager.createRoleAttributeCell(editorContext, attributeConcept, attributeKind, editorCell);
+    } else
+    return editorCell;
+  }
+
+  private EditorCell createProperty_ltb2bm_b2a(EditorContext editorContext, SNode node) {
+    CellProviderWithRole provider = new PropertyCellProvider(node, editorContext);
+    provider.setRole("isDebuggable");
+    provider.setNoTargetText("<no isDebuggable>");
+    EditorCell editorCell;
+    editorCell = provider.createEditorCell(editorContext);
+    editorCell.setCellId("property_isDebuggable");
     editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
