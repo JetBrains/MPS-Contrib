@@ -126,9 +126,5 @@ public class TaskDeclarationAttributes_EditorComponent extends AbstractCellProvi
         }
       }
     }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
   }
 }

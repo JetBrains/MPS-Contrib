@@ -120,9 +120,5 @@ public class DateTimeZonePropertyFormatConfiguration_Editor extends DefaultNodeE
         }
       }
     }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
   }
 }

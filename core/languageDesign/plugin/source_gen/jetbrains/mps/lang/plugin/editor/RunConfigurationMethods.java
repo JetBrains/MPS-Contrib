@@ -95,10 +95,6 @@ public class RunConfigurationMethods extends AbstractCellProvider {
       }
     }
 
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
-
     private EditorCell createConstant_a3nk37_a1a(EditorContext editorContext, SNode node) {
       EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "<additional methods>");
       editorCell.setCellId("Constant_a3nk37_a1a");

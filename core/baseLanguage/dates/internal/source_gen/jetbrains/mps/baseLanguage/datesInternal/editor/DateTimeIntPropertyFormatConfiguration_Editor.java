@@ -196,9 +196,5 @@ public class DateTimeIntPropertyFormatConfiguration_Editor extends DefaultNodeEd
         }
       }
     }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
   }
 }

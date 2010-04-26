@@ -269,10 +269,6 @@ public class RunConfigurationBody extends AbstractCellProvider {
         }
       }
     }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
   }
 
   private static class executionParameterListHandler_mrxxs6_b9a extends RefNodeListHandler {
@@ -310,10 +306,6 @@ public class RunConfigurationBody extends AbstractCellProvider {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
-    }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
     }
   }
 }
