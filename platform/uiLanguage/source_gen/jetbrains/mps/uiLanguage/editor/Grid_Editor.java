@@ -122,10 +122,6 @@ public class Grid_Editor extends DefaultNodeEditor {
         }
       }
     }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
   }
 
   private static class contentListHandler_koct37_a0 extends RefNodeListHandler {
@@ -163,10 +159,6 @@ public class Grid_Editor extends DefaultNodeEditor {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
-    }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
     }
   }
 }

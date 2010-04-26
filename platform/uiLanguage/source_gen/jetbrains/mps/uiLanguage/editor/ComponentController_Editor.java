@@ -363,10 +363,6 @@ public class ComponentController_Editor extends DefaultNodeEditor {
         }
       }
     }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
   }
 
   private static class eventListHandler_ac817d_b6a extends RefNodeListHandler {
@@ -405,10 +401,6 @@ public class ComponentController_Editor extends DefaultNodeEditor {
         }
       }
     }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
-    }
   }
 
   private static class componentMethodListHandler_ac817d_b31a extends RefNodeListHandler {
@@ -446,10 +438,6 @@ public class ComponentController_Editor extends DefaultNodeEditor {
           elementCell.setSubstituteInfo(new DefaultChildSubstituteInfo(listOwner, elementNode, super.getLinkDeclaration(), editorContext));
         }
       }
-    }
-
-    public EditorCell createSeparatorCell(EditorContext editorContext) {
-      return super.createSeparatorCell(editorContext);
     }
   }
 }
