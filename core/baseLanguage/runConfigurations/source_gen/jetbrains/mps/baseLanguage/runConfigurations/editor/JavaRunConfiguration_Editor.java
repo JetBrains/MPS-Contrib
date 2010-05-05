@@ -13,6 +13,7 @@ import jetbrains.mps.nodeEditor.AbstractCellProvider;
 import jetbrains.mps.lang.plugin.editor.RunConfigurationHeader;
 import jetbrains.mps.lang.plugin.editor.RunConfigurationPresentation;
 import jetbrains.mps.lang.plugin.editor.RunConfigurationBody;
+import jetbrains.mps.lang.plugin.editor.RunConfigurationMethods;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Constant;
 import jetbrains.mps.baseLanguage.editor.BaseLanguageStyle_StyleSheet;
 import jetbrains.mps.nodeEditor.cells.EditorCell_Indent;
@@ -71,6 +72,7 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
     editorCell.addEditorCell(this.createComponent_gt2apr_a1b0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_gt2apr_b1b0(editorContext, node));
     editorCell.addEditorCell(this.createComponent_gt2apr_c1b0(editorContext, node));
+    editorCell.addEditorCell(this.createComponent_gt2apr_d1b0(editorContext, node));
     return editorCell;
   }
 
@@ -88,6 +90,12 @@ public class JavaRunConfiguration_Editor extends DefaultNodeEditor {
 
   private EditorCell createComponent_gt2apr_c1b0(EditorContext editorContext, SNode node) {
     AbstractCellProvider provider = new RunConfigurationBody(node);
+    EditorCell editorCell = provider.createEditorCell(editorContext);
+    return editorCell;
+  }
+
+  private EditorCell createComponent_gt2apr_d1b0(EditorContext editorContext, SNode node) {
+    AbstractCellProvider provider = new RunConfigurationMethods(node);
     EditorCell editorCell = provider.createEditorCell(editorContext);
     return editorCell;
   }

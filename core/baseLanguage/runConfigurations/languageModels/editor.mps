@@ -91,6 +91,9 @@
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6629582826328966262">
           <link role="editorComponent:32" targetNodeId="2v.8456022385895659191" resolveInfo="RunConfigurationBody" />
         </node>
+        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="5156436276193323062">
+          <link role="editorComponent:32" targetNodeId="2v.8255351389869730373" resolveInfo="RunConfigurationMethods" />
+        </node>
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="6629582826328966263" />
       </node>
       <node role="header:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="6629582826328966264">
@@ -110,6 +113,9 @@
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="3405970486215434367" />
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="3405970486215434368">
           <link role="editorComponent:32" targetNodeId="2v.8456022385895659191" resolveInfo="RunConfigurationBody" />
+        </node>
+        <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="5156436276193306986">
+          <link role="editorComponent:32" targetNodeId="2v.8255351389869730373" resolveInfo="RunConfigurationMethods" />
         </node>
         <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Vertical:32" id="3405970486215434369" />
       </node>
