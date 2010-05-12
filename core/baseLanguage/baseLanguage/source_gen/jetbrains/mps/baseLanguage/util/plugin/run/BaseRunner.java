@@ -12,6 +12,8 @@ import com.intellij.execution.configurations.GeneralCommandLine;
 import java.util.Set;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
+import jetbrains.mps.project.AbstractModule;
+import jetbrains.mps.util.CollectionUtil;
 import jetbrains.mps.util.PathManager;
 import java.io.File;
 import jetbrains.mps.reloading.IClassPathItem;
@@ -119,7 +121,7 @@ public abstract class BaseRunner {
     SetSequence.fromSet(res).addElement(module.getClassesGen().getAbsolutePath());
     createModuleClasspath(module.getClassPathItem(), res);
     if (withDependencies) {
-      createModuleClasspath(module.getModuleWithDependenciesClassPathItem(), res);
+      createModuleClasspath(AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true), res);
     }
     String junitClasspath = PathManager.getHomePath() + fs() + "lib" + fs() + "junit4" + fs() + "junit-4.1.jar";
     if (new File(junitClasspath).exists()) {
