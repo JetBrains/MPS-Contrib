@@ -14,13 +14,12 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.project.AbstractModule;
 import jetbrains.mps.util.CollectionUtil;
-import jetbrains.mps.util.PathManager;
-import java.io.File;
 import jetbrains.mps.reloading.IClassPathItem;
 import jetbrains.mps.reloading.EachClassPathItemVisitor;
 import jetbrains.mps.reloading.FileClassPathItem;
 import jetbrains.mps.reloading.JarFileClassPathItem;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.io.File;
 import org.apache.commons.lang.StringUtils;
 
 public abstract class BaseRunner {
@@ -122,10 +121,6 @@ public abstract class BaseRunner {
     createModuleClasspath(module.getClassPathItem(), res);
     if (withDependencies) {
       createModuleClasspath(AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true), res);
-    }
-    String junitClasspath = PathManager.getHomePath() + fs() + "lib" + fs() + "junit4" + fs() + "junit-4.1.jar";
-    if (new File(junitClasspath).exists()) {
-      SetSequence.fromSet(res).addElement(junitClasspath);
     }
     return res;
   }
