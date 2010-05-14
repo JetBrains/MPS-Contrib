@@ -14,6 +14,7 @@ import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import jetbrains.mps.project.AbstractModule;
 import jetbrains.mps.util.CollectionUtil;
+import jetbrains.mps.reloading.CommonPaths;
 import jetbrains.mps.reloading.IClassPathItem;
 import jetbrains.mps.reloading.EachClassPathItemVisitor;
 import jetbrains.mps.reloading.FileClassPathItem;
@@ -122,6 +123,15 @@ public abstract class BaseRunner {
     if (withDependencies) {
       createModuleClasspath(AbstractModule.getDependenciesClasspath(CollectionUtil.set(module), true), res);
     }
+
+    Set<String> delete = SetSequence.fromSet(new HashSet<String>());
+    for (String cpItem : SetSequence.fromSet(res)) {
+      if (CommonPaths.getJDKPath().contains(cpItem)) {
+        SetSequence.fromSet(delete).addElement(cpItem);
+      }
+    }
+
+    SetSequence.fromSet(res).removeSequence(SetSequence.fromSet(delete));
     return res;
   }
 
