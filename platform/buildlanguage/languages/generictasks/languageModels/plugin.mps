@@ -35,12 +35,12 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <languageAspect modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" version="22" />
   <devkit namespace="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
-  <maxImportIndex value="10" />
+  <maxImportIndex value="11" />
   <import index="3" modelUID="f:java_stub#jetbrains.mps.smodel(jetbrains.mps.smodel@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#jetbrains.mps.workbench(jetbrains.mps.workbench@java_stub)" version="-1" />
   <import index="5" modelUID="f:java_stub#jetbrains.mps.project(jetbrains.mps.project@java_stub)" version="-1" />
   <import index="6" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="10" modelUID="f:java_stub#jetbrains.mps.build.generictasks.tasksfromjar(jetbrains.mps.build.generictasks.tasksfromjar@java_stub)" version="-1" />
+  <import index="11" modelUID="r:641cc795-9da1-457c-a0b5-fbe12a078030(jetbrains.mps.build.generictasks.taskfromjar)" version="-1" />
   <node type="jetbrains.mps.lang.plugin.structure.ActionDeclaration:23" id="353793545803155581">
     <property name="name:23" value="ImportAntStuff" />
     <property name="caption:23" value="Import Ant Stuff" />
@@ -60,11 +60,11 @@
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="353793545803155590">
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="353793545803155591">
               <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="3037831562616242240">
-                <link role="baseMethodDeclaration:3" targetNodeId="10.~Generator.&lt;init&gt;()" resolveInfo="Generator" />
+                <link role="baseMethodDeclaration:3" targetNodeId="11.1462969652806436719" resolveInfo="Generator" />
               </node>
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="353793545803155593">
-              <link role="baseMethodDeclaration:3" targetNodeId="10.~Generator.generateTasks(jetbrains.mps.smodel.SModel,jetbrains.mps.build.generictasks.tasksfromjar.Generator$Modes,jetbrains.mps.smodel.SModel...):void" resolveInfo="generateTasks" />
+              <link role="baseMethodDeclaration:3" targetNodeId="11.1462969652806436758" resolveInfo="generateTasks" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="353793545803155594">
                 <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="353793545803155595">
                   <link role="variableDeclaration:3" targetNodeId="353793545803155603" resolveInfo="model" />
@@ -102,8 +102,8 @@
       </node>
       <node role="parameter:0" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="353793545803155605">
         <property name="name:3" value="m" />
-        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3037831562616242243">
-          <link role="classifier:3" targetNodeId="10.~Generator$Modes" resolveInfo="Generator.Modes" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1462969652806545065">
+          <link role="classifier:3" targetNodeId="11.1462969652806435817" resolveInfo="Generator.Modes" />
         </node>
       </node>
     </node>
@@ -146,8 +146,8 @@
                 </node>
               </node>
               <node role="actualArgument:0" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="353793545803155625">
-                <link role="enumClass:3" targetNodeId="10.~Generator$Modes" resolveInfo="Generator.Modes" />
-                <link role="enumConstantDeclaration:3" targetNodeId="10.~Generator$Modes.CORE" resolveInfo="CORE" />
+                <link role="enumClass:3" targetNodeId="11.1462969652806435817" resolveInfo="Modes" />
+                <link role="enumConstantDeclaration:3" targetNodeId="11.1462969652806435819" resolveInfo="CORE" />
               </node>
             </node>
           </node>
@@ -168,8 +168,8 @@
                 </node>
               </node>
               <node role="actualArgument:0" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="353793545803155633">
-                <link role="enumClass:3" targetNodeId="10.~Generator$Modes" resolveInfo="Generator.Modes" />
-                <link role="enumConstantDeclaration:3" targetNodeId="10.~Generator$Modes.NODEPS" resolveInfo="NODEPS" />
+                <link role="enumClass:3" targetNodeId="11.1462969652806435817" resolveInfo="Modes" />
+                <link role="enumConstantDeclaration:3" targetNodeId="11.1462969652806435820" resolveInfo="NODEPS" />
               </node>
             </node>
           </node>
@@ -190,8 +190,8 @@
                 </node>
               </node>
               <node role="actualArgument:0" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="353793545803155641">
-                <link role="enumClass:3" targetNodeId="10.~Generator$Modes" resolveInfo="Generator.Modes" />
-                <link role="enumConstantDeclaration:3" targetNodeId="10.~Generator$Modes.JUNIT" resolveInfo="JUNIT" />
+                <link role="enumClass:3" targetNodeId="11.1462969652806435817" resolveInfo="Modes" />
+                <link role="enumConstantDeclaration:3" targetNodeId="11.1462969652806435821" resolveInfo="JUNIT" />
               </node>
             </node>
           </node>
