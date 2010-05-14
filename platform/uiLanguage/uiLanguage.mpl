@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="jetbrains.mps.uiLanguage" uuid="5d6bee4c-f891-4a93-a0c9-e2268726ae47" java-stubs-enabled="false" compileInMPS="false" doNotGenerateAdapters="false">
+<language namespace="jetbrains.mps.uiLanguage" uuid="5d6bee4c-f891-4a93-a0c9-e2268726ae47" java-stubs-enabled="false" compileInMPS="true" doNotGenerateAdapters="false">
   <models>
     <modelRoot path="${language_descriptor}/languageAccessories" namespacePrefix="jetbrains.mps.uiLanguage" />
     <modelRoot path="${language_descriptor}/languageModels" namespacePrefix="jetbrains.mps.uiLanguage" />
@@ -103,8 +103,8 @@
     <entry path="${language_descriptor}/runtime/classes" include="false" />
   </classPath>
   <languageRuntimeClassPath>
-    <entry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" />
-    <entry path="${language_descriptor}/runtime/classes" />
+    <entry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false" />
+    <entry path="${language_descriptor}/runtime/classes" include="false" />
   </languageRuntimeClassPath>
   <sourcePath />
   <dependencies>
