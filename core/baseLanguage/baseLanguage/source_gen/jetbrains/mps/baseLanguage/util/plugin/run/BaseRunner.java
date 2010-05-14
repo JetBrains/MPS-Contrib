@@ -125,8 +125,9 @@ public abstract class BaseRunner {
     }
 
     Set<String> delete = SetSequence.fromSet(new HashSet<String>());
+    List<String> jdkPath = CommonPaths.getJDKPath();
     for (String cpItem : SetSequence.fromSet(res)) {
-      if (CommonPaths.getJDKPath().contains(cpItem)) {
+      if (jdkPath.contains(cpItem)) {
         SetSequence.fromSet(delete).addElement(cpItem);
       }
     }
