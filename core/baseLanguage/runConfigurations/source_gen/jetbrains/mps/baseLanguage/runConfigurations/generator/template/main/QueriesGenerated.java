@@ -138,6 +138,10 @@ public class QueriesGenerated {
     return (SLinkOperations.getTarget(_context.getNode(), "debugSessionCreator", true) != null);
   }
 
+  public static boolean ifMacro_Condition_5025216477741576989(final IOperationContext operationContext, final IfMacroContext _context) {
+    return (SLinkOperations.getTarget(_context.getNode(), "prepareBlock", true) != null);
+  }
+
   public static boolean ifMacro_Condition_2195473424935857384(final IOperationContext operationContext, final IfMacroContext _context) {
     return (SLinkOperations.getTarget(_context.getNode(), "editor", true) != null);
   }
@@ -192,6 +196,10 @@ public class QueriesGenerated {
 
   public static SNode sourceNodeQuery_8255351389869487990(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
     return SLinkOperations.getTarget(_context.getNode(), "debugSessionCreator", true);
+  }
+
+  public static SNode sourceNodeQuery_5025216477741577132(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {
+    return SLinkOperations.getTarget(_context.getNode(), "prepareBlock", true);
   }
 
   public static SNode sourceNodeQuery_7549816165173598500(final IOperationContext operationContext, final SourceSubstituteMacroNodeContext _context) {

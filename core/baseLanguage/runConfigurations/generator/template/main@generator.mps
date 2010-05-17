@@ -818,6 +818,41 @@
         </node>
       </node>
     </node>
+    <node role="prepareBlock:23" type="jetbrains.mps.lang.plugin.structure.PrepareConceptFunction:23" id="5025216477741576984">
+      <node role="retrunTypeParameter:23" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5025216477741576985" />
+      <node role="body:23" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5025216477741576986" />
+      <node role="nodeMacro$attribute:23" type="jetbrains.mps.lang.generator.structure.IfMacro:2" id="5025216477741576988">
+        <node role="conditionFunction:2" type="jetbrains.mps.lang.generator.structure.IfMacro_Condition:2" id="5025216477741576989">
+          <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5025216477741576990">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5025216477741577118">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5025216477741577125">
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5025216477741577120">
+                  <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="5025216477741577119" />
+                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="5025216477741577124">
+                    <link role="link:16" targetNodeId="2v.9017024590936865850:23" />
+                  </node>
+                </node>
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation:16" id="5025216477741577129" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="nodeMacro$attribute:23" type="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro:2" id="5025216477741577131">
+        <node role="sourceNodeQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery:2" id="5025216477741577132">
+          <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5025216477741577133">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5025216477741577134">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5025216477741577136">
+                <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="5025216477741577135" />
+                <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkAccess:16" id="5025216477741577140">
+                  <link role="link:16" targetNodeId="2v.9017024590936865850:23" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="6629582826328981981">
     <property name="name:2" value="main" />
