@@ -107,7 +107,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="8255351389870630288">
-    <property name="name:3" value="check_JavaRunConfiguration" />
+    <property name="name:3" value="check_RunConfigurationCreatesDebugSession" />
     <property name="overrides:3" value="true" />
     <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8255351389870630289" />
     <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="8255351389870630290">
