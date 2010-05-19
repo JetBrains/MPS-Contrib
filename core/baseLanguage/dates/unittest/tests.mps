@@ -5042,14 +5042,71 @@
               <node role="initializer:3" type="jetbrains.mps.baseLanguage.dates.structure.NowExpression:1" id="5450502488469200651" />
             </node>
           </node>
-          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5450502488469200642">
-            <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5450502488469200643">
-              <property name="name:3" value="fdt" />
-              <node role="type:3" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="5450502488469200644" />
-              <node role="initializer:3" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression:1" id="5450502488469200645">
-                <link role="dateFormat:1" targetNodeId="1.1173884355215" resolveInfo="fullDateTime" />
-                <node role="dateExpression:1" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5450502488469200652">
-                  <link role="variableDeclaration:3" targetNodeId="5450502488469200649" resolveInfo="instant" />
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5088260876035740514">
+            <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5088260876035740515">
+              <property name="name:3" value="thrown" />
+              <node role="type:3" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="5088260876035740516" />
+              <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="5088260876035740518">
+                <property name="value:3" value="false" />
+              </node>
+            </node>
+          </node>
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.TryCatchStatement:3" id="5088260876035740501">
+            <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5088260876035740502">
+              <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5088260876035740508">
+                <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5088260876035740509">
+                  <property name="name:3" value="fdt" />
+                  <node role="type:3" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="5088260876035740510" />
+                  <node role="initializer:3" type="jetbrains.mps.baseLanguage.dates.structure.FormatExpression:1" id="5088260876035740511">
+                    <link role="dateFormat:1" targetNodeId="1.1173884355215" resolveInfo="fullDateTime" />
+                    <node role="dateExpression:1" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5088260876035740512">
+                      <link role="variableDeclaration:3" targetNodeId="5450502488469200649" resolveInfo="instant" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5088260876035747699">
+                <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5088260876035747700">
+                  <property name="name:3" value="x" />
+                  <node role="type:3" type="jetbrains.mps.baseLanguage.dates.structure.DateTimeType:1" id="5088260876035747701" />
+                  <node role="initializer:3" type="jetbrains.mps.baseLanguage.dates.structure.ParseExpression:1" id="5088260876035747703">
+                    <link role="dateFormat:1" targetNodeId="1.1173884355215" resolveInfo="fullDateTime" />
+                    <node role="source:1" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5088260876035747704">
+                      <link role="variableDeclaration:3" targetNodeId="5088260876035740509" resolveInfo="fdt" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="statement:3" type="jetbrains.mps.baseLanguage.unitTest.structure.Fail" id="5088260876035744106">
+                <node role="message" type="jetbrains.mps.baseLanguage.unitTest.structure.Message" id="5088260876035744107">
+                  <node role="message" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="5088260876035744109">
+                    <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5088260876035744108">
+                      <property name="value:3" value="No exception: " />
+                    </node>
+                    <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5088260876035744112">
+                      <link role="variableDeclaration:3" targetNodeId="5088260876035740509" resolveInfo="fdt" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="catchClause:3" type="jetbrains.mps.baseLanguage.structure.CatchClause:3" id="5088260876035740504">
+              <node role="throwable:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5088260876035740505">
+                <property name="name:3" value="iae" />
+                <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5088260876035740520">
+                  <link role="classifier:3" targetNodeId="2.~IllegalArgumentException" resolveInfo="IllegalArgumentException" />
+                </node>
+              </node>
+              <node role="catchBody:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5088260876035740507">
+                <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5088260876035740521">
+                  <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="5088260876035740523">
+                    <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5088260876035740522">
+                      <link role="variableDeclaration:3" targetNodeId="5088260876035740515" resolveInfo="thrown" />
+                    </node>
+                    <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="5088260876035740526">
+                      <property name="value:3" value="true" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -5059,11 +5116,13 @@
               <property name="text:3" value=" the fullDateTime is not parseable (Joda apparently can't parse abbreviated time zone)" />
             </node>
           </node>
-          <node role="statement:3" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertIsNull" id="8783374338363182103">
-            <node role="expression" type="jetbrains.mps.baseLanguage.dates.structure.ParseExpression:1" id="8783374338363182106">
-              <link role="dateFormat:1" targetNodeId="1.1173884355215" resolveInfo="fullDateTime" />
-              <node role="source:1" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="8783374338363182107">
-                <link role="variableDeclaration:3" targetNodeId="5450502488469200643" resolveInfo="fdt" />
+          <node role="statement:3" type="jetbrains.mps.baseLanguage.unitTest.structure.AssertTrue" id="5088260876035740529">
+            <node role="condition" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5088260876035740531">
+              <link role="variableDeclaration:3" targetNodeId="5088260876035740515" resolveInfo="thrown" />
+            </node>
+            <node role="message" type="jetbrains.mps.baseLanguage.unitTest.structure.Message" id="5088260876035740532">
+              <node role="message" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5088260876035740533">
+                <property name="value:3" value="IAE is not thrown" />
               </node>
             </node>
           </node>

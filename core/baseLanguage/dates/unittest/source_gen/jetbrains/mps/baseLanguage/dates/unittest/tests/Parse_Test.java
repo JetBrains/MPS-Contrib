@@ -38,9 +38,16 @@ public class Parse_Test extends BaseTestCase {
 
   public void test_predefined() throws Exception {
     Long instant = System.currentTimeMillis();
-    String fdt = DateTimeOperations.print(instant, DateTimeFormat.fullDateTime(), null, null);
+    boolean thrown = false;
+    try {
+      String fdt = DateTimeOperations.print(instant, DateTimeFormat.fullDateTime(), null, null);
+      Long x = DateTimeOperations.parse(fdt, DateTimeFormat.fullDateTime(), null, null, null);
+      Assert.fail("No exception: " + fdt);
+    } catch (IllegalArgumentException iae) {
+      thrown = true;
+    }
     //  the fullDateTime is not parseable (Joda apparently can't parse abbreviated time zone) 
-    Assert.assertNull(DateTimeOperations.parse(fdt, DateTimeFormat.fullDateTime(), null, null, null));
+    Assert.assertTrue("IAE is not thrown", thrown);
     String fd = DateTimeOperations.print(instant, DateTimeFormat.fullDate(), null, null);
     Assert.assertEquals(DateTimeOperations.parse(fd, DateTimeFormat.fullDate(), null, null, null), DateTimeOperations.roundFloor(instant, DateTimeFieldType.dayOfMonth()));
   }
