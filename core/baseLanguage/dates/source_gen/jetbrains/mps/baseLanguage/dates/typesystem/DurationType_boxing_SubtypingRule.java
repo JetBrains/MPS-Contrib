@@ -101,5 +101,9 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
     public Object getFieldValue(String fieldName) {
       return null;
     }
+
+    public void performActions() {
+      throw new RuntimeException("NOT IMPLEMENTED");
+    }
   }
 }
