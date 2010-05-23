@@ -10,6 +10,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
 import jetbrains.mps.buildlanguage.behavior.IDeclaration_Behavior;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.build.generictasks.plugin.ImportAntStuffUtil;
 
@@ -19,11 +20,11 @@ public class BuiltInTaskDeclaration_Behavior {
     SPropertyOperations.set(thisNode, "fake", "" + (false));
   }
 
-  public static List<SNode> call_getAttributesDeaclarations_353793545802644071(SNode thisNode) {
+  public static List<SNode> virtual_getAttributesDeclarations_1190349257898147625(SNode thisNode) {
     List<SNode> attrs = new ArrayList<SNode>();
     ListSequence.fromList(attrs).addSequence(ListSequence.fromList(SLinkOperations.getTargets(thisNode, "attributesDecl", true)));
     if ((SLinkOperations.getTarget(thisNode, "parentRef", true) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) {
-      List<SNode> nodes = BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(((SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false)));
+      List<SNode> nodes = ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(((SNode) SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false)));
       for (SNode newAttrDecl : ListSequence.fromList(nodes)) {
         boolean found = false;
         for (SNode oldAttrDecl : ListSequence.fromList(attrs)) {
@@ -103,8 +104,8 @@ public class BuiltInTaskDeclaration_Behavior {
     return ITaskDeclaration_Behavior.callSuper_canBeRootTask_1449762848926780427(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration") && !(SPropertyOperations.getBoolean(thisNode, "fake"));
   }
 
-  public static List<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
-    return ListSequence.fromList(ITaskDeclaration_Behavior.callSuper_getPossibleNesteds_1449762848926780436(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", declarations)).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode))).toListSequence();
+  public static Iterable<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
+    return Sequence.fromIterable(ITaskDeclaration_Behavior.callSuper_getPossibleNesteds_1449762848926780436(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", declarations)).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
   }
 
   public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {

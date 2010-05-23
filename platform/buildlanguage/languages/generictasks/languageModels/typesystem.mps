@@ -546,8 +546,8 @@
               <link role="link:16" targetNodeId="1.353793545802643478:22" />
             </node>
           </node>
-          <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="353793545802854803">
-            <link role="baseMethodDeclaration:16" targetNodeId="4v.353793545802644071" resolveInfo="getAttributesDeaclarations" />
+          <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="1190349257898217013">
+            <link role="baseMethodDeclaration:16" targetNodeId="4v.1190349257898147625" resolveInfo="getAttributesDeclarations" />
           </node>
         </node>
         <node role="body:7" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="353793545802854804">
@@ -646,11 +646,11 @@
                   <node role="statement:3" type="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement:3" id="353793545802854846">
                     <node role="errorString:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="353793545802854847">
                       <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="353793545802854848">
-                        <property name="value:3" value="&quot; undefined." />
+                        <property name="value:3" value=" is undefined." />
                       </node>
                       <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="353793545802854849">
                         <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="353793545802854850">
-                          <property name="value:3" value="Required attribute &quot;" />
+                          <property name="value:3" value="Required attribute " />
                         </node>
                         <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="353793545802854851">
                           <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="353793545802854852">

@@ -5,6 +5,7 @@
     <refactoringContext modelVersion="0">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="GenericAttribute" conceptFQName="jetbrains.mps.build.generictasks.structure.GenericAttribute" featureKind="CONCEPT" />
@@ -15,6 +16,7 @@
     <refactoringContext modelVersion="1">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="GenericAttributeDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.GenericAttributeDeclaration" featureKind="CONCEPT" />
@@ -25,6 +27,7 @@
     <refactoringContext modelVersion="2">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="GenericCall" conceptFQName="jetbrains.mps.build.generictasks.structure.GenericCall" featureKind="CONCEPT" />
@@ -35,6 +38,7 @@
     <refactoringContext modelVersion="3">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="GenericTaskDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.GenericTaskDeclaration" featureKind="CONCEPT" />
@@ -45,6 +49,7 @@
     <refactoringContext modelVersion="4">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="Call" conceptFQName="jetbrains.mps.build.generictasks.structure.Call" featureKind="CONCEPT" />
@@ -55,6 +60,7 @@
     <refactoringContext modelVersion="5">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="GenericInterfaceDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.GenericInterfaceDeclaration" featureKind="CONCEPT" />
@@ -65,6 +71,7 @@
     <refactoringContext modelVersion="6">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="NestedReference" conceptFQName="jetbrains.mps.build.generictasks.structure.NestedReference" featureKind="CONCEPT" />
@@ -75,6 +82,7 @@
     <refactoringContext modelVersion="7">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="Reference" conceptFQName="jetbrains.mps.build.generictasks.structure.Reference" featureKind="CONCEPT" />
@@ -85,6 +93,7 @@
     <refactoringContext modelVersion="8">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="NestedReferenceDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.NestedReferenceDeclaration" featureKind="CONCEPT" />
@@ -100,6 +109,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482258555" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="abstract" featureKind="PROPERTY" />
@@ -115,6 +125,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482265724" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="canHaveInternalText" featureKind="PROPERTY" />
@@ -130,6 +141,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482272893" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="classname" featureKind="PROPERTY" />
@@ -145,6 +157,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482293756" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="attributesDecl" featureKind="CHILD" />
@@ -160,6 +173,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482300626" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="parentRef" featureKind="CHILD" />
@@ -175,6 +189,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482307496" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="interfaces" featureKind="CHILD" />
@@ -190,6 +205,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482329395" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="canHaveInternalText" featureKind="PROPERTY" />
@@ -205,6 +221,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482349460" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="abstract" featureKind="PROPERTY" />
@@ -220,6 +237,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="1191515374482465107" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="depracated" featureKind="PROPERTY" />
@@ -230,6 +248,7 @@
     <refactoringContext modelVersion="18">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="TaskDeclaration" conceptFQName="jetbrains.mps.build.generictasks.structure.TaskDeclaration" featureKind="CONCEPT" />
@@ -240,6 +259,7 @@
     <refactoringContext modelVersion="19">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="AttributesMethodCall" conceptFQName="jetbrains.mps.build.generictasks.structure.AttributesMethodCall" featureKind="CONCEPT" />
@@ -255,6 +275,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="2631460705265241807" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="actualArgument" featureKind="CHILD" />
@@ -270,6 +291,7 @@
           <value modelUID="r:1e7ada09-c25e-41ea-a9b5-398e142ef533(jetbrains.mps.build.generictasks.structure)" nodeId="2631460705265414465" />
         </entry>
       </moveMap>
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="methodDeclaration" featureKind="REFERENCE" />
@@ -280,6 +302,7 @@
     <refactoringContext modelVersion="22">
       <refactoring refactoringClass="jetbrains.mps.lang.structure.scripts.RenameConcept" />
       <moveMap />
+      <sourceMap />
       <conceptFeatureMap>
         <entry>
           <key featureName="CustomTaskDeclarationType" conceptFQName="jetbrains.mps.build.generictasks.structure.CustomTaskDeclarationType" featureKind="CONCEPT" />
@@ -438,7 +461,7 @@
       <property name="value:0" value="generic declaration" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
-    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1449762848926952243">
+    <node role="implements:0" type="jetbrains.mps.lang.structure.structure.InterfaceConceptReference:0" id="1648602681640242301">
       <link role="intfc:0" targetNodeId="5699548131010533020:22" resolveInfo="ITaskDeclaration" />
     </node>
   </node>

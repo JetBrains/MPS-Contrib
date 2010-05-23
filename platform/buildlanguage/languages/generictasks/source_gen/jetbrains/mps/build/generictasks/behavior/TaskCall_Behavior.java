@@ -9,7 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior;
 import java.util.List;
-import java.util.ArrayList;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class TaskCall_Behavior {
   public static void init(SNode thisNode) {
@@ -41,14 +41,13 @@ public class TaskCall_Behavior {
     return false;
   }
 
-  public static List<SNode> call_getUndefinedAttributes_353793545802643943(SNode thisNode) {
-    List<SNode> result = new ArrayList<SNode>();
-    for (SNode attrDecl : ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getAttributesDeaclarations_353793545802644071(SLinkOperations.getTarget(thisNode, "declaration", false)))) {
-      if (!(TaskCall_Behavior.call_isAttributeDefined_353793545802643915(thisNode, attrDecl))) {
-        ListSequence.fromList(result).addElement(attrDecl);
+  public static Iterable<SNode> call_getUndefinedAttributes_353793545802643943(final SNode thisNode) {
+    List<SNode> attributeDeclarations = ITaskDeclaration_Behavior.call_getAttributesDeclarations_1190349257898147625(SLinkOperations.getTarget(thisNode, "declaration", false));
+    return ListSequence.fromList(attributeDeclarations).where(new IWhereFilter<SNode>() {
+      public boolean accept(SNode it) {
+        return !(TaskCall_Behavior.call_isAttributeDefined_353793545802643915(thisNode, it));
       }
-    }
-    return result;
+    });
   }
 
   public static boolean call_isReferencedAndOfDeclaration_353793545802644027(SNode thisNode, String name) {
