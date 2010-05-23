@@ -61,8 +61,8 @@ public class BuiltInTaskDeclaration_Behavior {
         ListSequence.fromList(result).addElement(declaration);
       }
     }
-    if ((SLinkOperations.getTarget(thisNode, "parentRef", true) != null)) {
-      ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false))));
+    if ((SLinkOperations.getTarget(thisNode, "parentRef", true) != null) && SNodeOperations.isInstanceOf(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration")) {
+      ListSequence.fromList(result).addSequence(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(SNodeOperations.cast(SLinkOperations.getTarget(SLinkOperations.getTarget(thisNode, "parentRef", true), "declaration", false), "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration"))));
     }
     return result;
   }
@@ -106,6 +106,10 @@ public class BuiltInTaskDeclaration_Behavior {
 
   public static Iterable<SNode> virtual_getPossibleNesteds_1449762848926780436(SNode thisNode, List<SNode> declarations) {
     return Sequence.fromIterable(ITaskDeclaration_Behavior.callSuper_getPossibleNesteds_1449762848926780436(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", declarations)).union(ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)));
+  }
+
+  public static boolean virtual_isPossibleNested_1648602681640249389(SNode thisNode, SNode declaration, List<SNode> nestedTasks) {
+    return ITaskDeclaration_Behavior.callSuper_isPossibleNested_1648602681640249389(thisNode, "jetbrains.mps.build.generictasks.structure.BuiltInTaskDeclaration", declaration, nestedTasks) || ListSequence.fromList(BuiltInTaskDeclaration_Behavior.call_getFakeDeclarations_353793545802644200(thisNode)).contains(declaration);
   }
 
   public static boolean virtual_filterMeOut_4710899751214010949(SNode thisNode) {
