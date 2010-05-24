@@ -939,7 +939,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1190349257898069072">
-    <property name="name:3" value="DefaultSearchScope" />
+    <property name="name:3" value="SequenceSearchScope" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="1190349257898069151">
       <property name="name:3" value="myNodes" />
       <property name="isFinal:3" value="true" />
@@ -966,31 +966,6 @@
             </node>
             <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="1190349257898069160">
               <link role="variableDeclaration:3" targetNodeId="1190349257898069151" resolveInfo="myNodes" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="1190349257898069093">
-      <property name="name:3" value="isInScope" />
-      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1190349257898069094" />
-      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="1190349257898069095" />
-      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="1190349257898069096">
-        <property name="name:3" value="node" />
-        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1190349257898069097">
-          <link role="classifier:3" targetNodeId="16.~SNode" resolveInfo="SNode" />
-        </node>
-      </node>
-      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1190349257898069098">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1190349257898069178">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1190349257898069180">
-            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="1190349257898069179">
-              <link role="variableDeclaration:3" targetNodeId="1190349257898069151" resolveInfo="myNodes" />
-            </node>
-            <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation:7" id="1190349257898069184">
-              <node role="argument:7" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="1190349257898069186">
-                <link role="variableDeclaration:3" targetNodeId="1190349257898069096" resolveInfo="node" />
-              </node>
             </node>
           </node>
         </node>
