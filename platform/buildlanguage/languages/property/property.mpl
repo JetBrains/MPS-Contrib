@@ -37,10 +37,6 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <classPath>
-    <entry path="${language_descriptor}/classes" include="false" />
-  </classPath>
-  <languageRuntimeClassPath />
   <sourcePath>
     <source path="${mps_home}/platform/buildlanguage/source" />
   </sourcePath>

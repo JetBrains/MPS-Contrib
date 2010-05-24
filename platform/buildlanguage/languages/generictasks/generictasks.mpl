@@ -46,14 +46,19 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <classPath>
-    <entry path="${mps_home}/lib/ant-1.7.0/lib/ant.jar" include="false" />
-    <entry path="${mps_home}/lib/asm/asm.jar" include="false" />
-    <entry path="${language_descriptor}/classes" include="false" />
-  </classPath>
-  <languageRuntimeClassPath>
-    <entry path="${language_descriptor}/classes" include="false" />
-  </languageRuntimeClassPath>
+  <stubModelEntries>
+    <stubModelEntry path="${mps_home}/lib/ant-1.7.0/lib/ant.jar" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="${mps_home}/lib/asm/asm.jar" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+  </stubModelEntries>
+  <runtimeStubModels>
+    <stubModelEntry path="${language_descriptor}/classes" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+  </runtimeStubModels>
   <sourcePath>
     <source path="${language_descriptor}/source" />
   </sourcePath>
@@ -67,7 +72,6 @@
     <usedLanguage>af65afd8-f0dd-4942-87d9-63a55f2a9db1(jetbrains.mps.lang.behavior)</usedLanguage>
     <usedLanguage>7a5dda62-9140-4668-ab76-d5ed1746f2b2(jetbrains.mps.lang.typesystem)</usedLanguage>
     <usedLanguage>823d79c6-2e26-4b0e-92a0-e1884a10bba9(jetbrains.mps.xml.deprecated)</usedLanguage>
-    <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
   </usedLanguages>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
