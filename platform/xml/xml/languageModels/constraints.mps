@@ -144,7 +144,7 @@
                     </node>
                     <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1217888351020">
                       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1217888351022">
-                        <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(jetbrains.mps.smodel.SNode)" resolveInfo="SimpleSearchScope" />
+                        <link role="baseMethodDeclaration:3" targetNodeId="7.~SimpleSearchScope.&lt;init&gt;(java.util.List)" resolveInfo="SimpleSearchScope" />
                         <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="1213104840370">
                           <link role="variableDeclaration:3" targetNodeId="1213104840345:6" resolveInfo="elementDeclarations" />
                         </node>
