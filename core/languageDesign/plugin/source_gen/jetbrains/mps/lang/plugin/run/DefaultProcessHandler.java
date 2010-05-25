@@ -10,7 +10,7 @@ import com.intellij.execution.process.ProcessEvent;
 import com.intellij.openapi.util.Key;
 import com.intellij.execution.process.ProcessTerminatedListener;
 import com.intellij.execution.process.ProcessOutputTypes;
-import jetbrains.mps.debug.info.StacktraceUtil;
+import jetbrains.mps.debug.api.info.StacktraceUtil;
 import com.intellij.execution.ui.ConsoleViewContentType;
 
 public class DefaultProcessHandler extends DefaultJavaProcessHandler {
