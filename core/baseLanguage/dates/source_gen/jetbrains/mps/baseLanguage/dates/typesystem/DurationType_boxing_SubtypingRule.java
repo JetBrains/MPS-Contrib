@@ -102,8 +102,8 @@ public class DurationType_boxing_SubtypingRule extends SubtypingRule_Runtime imp
       return null;
     }
 
-    public void performActions() {
-      throw new RuntimeException("NOT IMPLEMENTED");
+    public void performActions(Object o) {
+
     }
   }
 }
