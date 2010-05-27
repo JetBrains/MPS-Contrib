@@ -4,6 +4,8 @@ package jetbrains.mps.baseLanguage.util.plugin.run;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import org.apache.commons.lang.StringUtils;
+import jetbrains.mps.internal.collections.runtime.Sequence;
 import jetbrains.mps.smodel.SNode;
 import jetbrains.mps.smodel.SModel;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations;
@@ -21,7 +23,6 @@ import jetbrains.mps.reloading.FileClassPathItem;
 import jetbrains.mps.reloading.JarFileClassPathItem;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.io.File;
-import org.apache.commons.lang.StringUtils;
 
 public abstract class BaseRunner {
   private String myJavaHome = System.getProperty("java.home");
@@ -60,6 +61,21 @@ public abstract class BaseRunner {
     ListSequence.fromList(params).addElement("-Xmx" + megaBytes + "m");
   }
 
+  protected void addVmOptions(List<String> params) {
+    this.addParametersString(params, myRunParameters.getVMParameters());
+  }
+
+  protected void addProgramParameters(List<String> params) {
+    this.addParametersString(params, myRunParameters.getProgramParameters());
+  }
+
+  private void addParametersString(List<String> params, String parametersString) {
+    if (parametersString != null && StringUtils.isNotEmpty(parametersString)) {
+      String[] paramList = this.splitParams(parametersString);
+      ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
+    }
+  }
+
   protected void addClassPath(List<String> params, SNode node) {
     this.addClassPath(params, this.getClasspath(node));
   }
@@ -91,6 +107,10 @@ public abstract class BaseRunner {
 
   public String getJavaHome() {
     return this.myJavaHome;
+  }
+
+  protected GeneralCommandLine getCommandLine() {
+    return getCommandLine(myRunParameters.getWorkingDirectory());
   }
 
   protected GeneralCommandLine getCommandLine(String workingDir) {

@@ -10,7 +10,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.smodel.ModelAccess;
 import org.apache.commons.lang.StringUtils;
-import jetbrains.mps.internal.collections.runtime.Sequence;
 import java.io.File;
 import java.io.IOException;
 
@@ -23,27 +22,18 @@ public class ClassRunner extends BaseRunner {
     super(parameters);
   }
 
-  public Process run(SNode node, String classname) throws ProcessNotCreatedException {
-    return this.run(node, classname, this.myRunParameters.getProgramParameters(), this.myRunParameters.getVMParameters(), this.myRunParameters.getWorkingDirectory());
-  }
-
-  protected Process run(final SNode node, final String className, final String programParams, final String vmParams, final String workingDir) throws ProcessNotCreatedException {
+  public Process run(final SNode node, final String className) throws ProcessNotCreatedException {
     final List<String> params = ListSequence.fromList(new ArrayList<String>());
     ModelAccess.instance().runReadAction(new Runnable() {
       public void run() {
-        ClassRunner.this.addJavaCommand(params);
-        ClassRunner.this.addClassPath(params, node);
-        if (vmParams != null && StringUtils.isNotEmpty(vmParams)) {
-          String[] paramList = ClassRunner.this.splitParams(vmParams);
-          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
-        }
+        addJavaCommand(params);
+        addClassPath(params, node);
+        addVmOptions(params);
         ListSequence.fromList(params).addElement(className);
-        if (programParams != null && StringUtils.isNotEmpty(programParams)) {
-          String[] paramList = ClassRunner.this.splitParams(programParams);
-          ListSequence.fromList(params).addSequence(Sequence.fromIterable(Sequence.fromArray(paramList)));
-        }
+        addProgramParameters(params);
         ClassRunner.this.myProcessBuilder = new ProcessBuilder(params);
 
+        String workingDir = myRunParameters.getWorkingDirectory();
         if (workingDir != null && StringUtils.isNotEmpty(workingDir)) {
           ClassRunner.this.myProcessBuilder.directory(new File(workingDir));
         }
@@ -54,7 +44,7 @@ public class ClassRunner extends BaseRunner {
       return this.myProcessBuilder.start();
     } catch (IOException e) {
       LOG.error("Can't run class " + className + ": " + e.getMessage(), e);
-      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine(workingDir));
+      throw new ProcessNotCreatedException(e.getMessage(), e, this.getCommandLine());
     }
   }
 
