@@ -6,9 +6,10 @@ import jetbrains.mps.baseLanguage.util.plugin.run.ConfigRunParameters;
 import java.util.List;
 import jetbrains.mps.smodel.SNode;
 import java.util.ArrayList;
+import jetbrains.mps.smodel.ModelAccess;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import com.intellij.execution.process.ProcessHandler;
-import com.intellij.execution.process.ProcessNotCreatedException;
+import com.intellij.execution.ExecutionException;
 import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 
 public class UnitTestExecutionController {
@@ -18,9 +19,13 @@ public class UnitTestExecutionController {
   private final List<SNode> myWhatToTest = new ArrayList<SNode>();
   private Process myCurrentProcess;
 
-  public UnitTestExecutionController(List<SNode> whatToTest, ConfigRunParameters configurationRunParameters) {
-    ListSequence.fromList(this.myWhatToTest).addSequence(ListSequence.fromList(whatToTest));
-    this.myState = new TestRunState(whatToTest);
+  public UnitTestExecutionController(final List<SNode> whatToTest, ConfigRunParameters configurationRunParameters) {
+    ModelAccess.instance().runReadAction(new Runnable() {
+      public void run() {
+        ListSequence.fromList(UnitTestExecutionController.this.myWhatToTest).addSequence(ListSequence.fromList(whatToTest));
+      }
+    });
+    this.myState = new TestRunState(myWhatToTest);
     this.myDispatcher = new TestEventsDispatcher(this.myState);
     this.myConfigurationRunParameters = configurationRunParameters;
   }
@@ -29,7 +34,11 @@ public class UnitTestExecutionController {
     return this.myState;
   }
 
-  public ProcessHandler execute() throws ProcessNotCreatedException {
+  public ProcessHandler execute() throws ExecutionException {
+    if (ListSequence.fromList(myWhatToTest).isEmpty()) {
+      throw new ExecutionException("Nothing to test.");
+    }
+
     UnitTestRunner testRunner = null;
     try {
       testRunner = new UnitTestRunner(this.myWhatToTest, this.myConfigurationRunParameters);
