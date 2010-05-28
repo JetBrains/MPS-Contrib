@@ -1242,7 +1242,7 @@
                 </node>
                 <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="1203087836926">
                   <link role="classConcept:3" targetNodeId="17.~SwingBindings" resolveInfo="SwingBindings" />
-                  <link role="baseMethodDeclaration:3" targetNodeId="17.~SwingBindings.createJListBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.util.List,javax.swing.JList,java.lang.String):org.jdesktop.swingbinding.JListBinding" resolveInfo="createJListBinding" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="17.~SwingBindings.createJListBinding(org.jdesktop.beansbinding.AutoBinding$UpdateStrategy,java.lang.Object,org.jdesktop.beansbinding.Property,javax.swing.JList):org.jdesktop.swingbinding.JListBinding" resolveInfo="createJListBinding" />
                   <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="1203087877506">
                     <link role="enumClass:3" targetNodeId="12.~AutoBinding$UpdateStrategy" resolveInfo="AutoBinding.UpdateStrategy" />
                     <link role="enumConstantDeclaration:3" targetNodeId="12.~AutoBinding$UpdateStrategy.READ_WRITE" resolveInfo="READ_WRITE" />
