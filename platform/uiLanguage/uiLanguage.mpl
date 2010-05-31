@@ -104,9 +104,6 @@
     <stubModelEntry path="${language_descriptor}/classes" include="false">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
-    <stubModelEntry path="${language_descriptor}/runtime/classes" include="false">
-      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
-    </stubModelEntry>
   </stubModelEntries>
   <runtimeStubModels>
     <stubModelEntry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false">
