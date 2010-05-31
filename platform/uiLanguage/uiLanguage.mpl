@@ -97,15 +97,22 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <classPath>
-    <entry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false" />
-    <entry path="${language_descriptor}/classes" include="false" />
-    <entry path="${language_descriptor}/runtime/classes" include="false" />
-  </classPath>
-  <languageRuntimeClassPath>
-    <entry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false" />
-    <entry path="${language_descriptor}/runtime/classes" include="false" />
-  </languageRuntimeClassPath>
+  <stubModelEntries>
+    <stubModelEntry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="${language_descriptor}/classes" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="${language_descriptor}/runtime/classes" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+  </stubModelEntries>
+  <runtimeStubModels>
+    <stubModelEntry path="${mps_home}/lib/beansbinding/beansbinding-1.2.1.jar" include="false">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+  </runtimeStubModels>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
@@ -115,6 +122,9 @@
   <usedLanguages>
     <usedLanguage>df345b11-b8c7-4213-ac66-48d2a9b75d88(jetbrains.mps.baseLanguageInternal)</usedLanguage>
   </usedLanguages>
+  <runtime>
+    <dependency reexport="false">ceb47609-02c2-4927-bb6d-d58368388a62(jetbrains.mps.ide.uiLanguage.runtime)</dependency>
+  </runtime>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
     <extendedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</extendedLanguage>
