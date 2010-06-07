@@ -21,7 +21,7 @@ import jetbrains.mps.reloading.IClassPathItem;
 import jetbrains.mps.reloading.EachClassPathItemVisitor;
 import jetbrains.mps.reloading.FileClassPathItem;
 import jetbrains.mps.reloading.JarFileClassPathItem;
-import java.util.LinkedList;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 import java.io.File;
 
 public abstract class BaseRunner {
