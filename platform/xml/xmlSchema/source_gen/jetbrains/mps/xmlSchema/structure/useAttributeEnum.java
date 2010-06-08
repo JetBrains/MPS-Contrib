@@ -4,7 +4,7 @@ package jetbrains.mps.xmlSchema.structure;
 
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.LinkedList;
+import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public enum useAttributeEnum {
   optional("optional", "optional"),
