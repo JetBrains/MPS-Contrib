@@ -95,6 +95,9 @@
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Component:32" id="5211164146777002735">
         <link role="editorComponent:32" targetNodeId="2v.5168467225194540178" resolveInfo="MessageComponent" />
+        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.SelectableStyleSheetItem:32" id="6425011686328630594">
+          <property name="flag:32" value="false" />
+        </node>
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="5211164146777002736">
         <property name="text:32" value=";" />
