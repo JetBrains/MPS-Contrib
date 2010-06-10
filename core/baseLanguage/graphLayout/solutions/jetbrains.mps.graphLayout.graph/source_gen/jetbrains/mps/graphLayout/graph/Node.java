@@ -15,8 +15,10 @@ public class Node {
     myIndex = index;
   }
 
-  public void addEdgeTo(Node target) {
-    ListSequence.fromList(myOutEdges).addElement(new Edge(this, target));
+  public Edge addEdgeTo(Node target) {
+    Edge edge = new Edge(this, target);
+    ListSequence.fromList(myOutEdges).addElement(edge);
+    return edge;
   }
 
   public List<Edge> getOutEdges() {

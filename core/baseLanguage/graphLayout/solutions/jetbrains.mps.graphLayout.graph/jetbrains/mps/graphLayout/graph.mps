@@ -19,25 +19,43 @@
     <property name="name:3" value="Node" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="8567569493821112323">
       <property name="name:3" value="addEdgeTo" />
-      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="8567569493821112324" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4660430665333277099">
+        <link role="classifier:3" targetNodeId="8567569493821103292" resolveInfo="Edge" />
+      </node>
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8567569493821112325" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8567569493821112326">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4660430665333277100">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4660430665333277101">
+            <property name="name:3" value="edge" />
+            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4660430665333277102">
+              <link role="classifier:3" targetNodeId="8567569493821103292" resolveInfo="Edge" />
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4660430665333277103">
+              <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4660430665333277104">
+                <link role="baseMethodDeclaration:3" targetNodeId="8567569493821103294" resolveInfo="Edge" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="4660430665333277105" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="4660430665333277106">
+                  <link role="variableDeclaration:3" targetNodeId="8567569493821112328" resolveInfo="target" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="8567569493821112330">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="8567569493821112332">
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="8567569493821112331">
               <link role="variableDeclaration:3" targetNodeId="8567569493821103314" resolveInfo="myOutEdges" />
             </node>
             <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.AddLastElementOperation:7" id="8567569493821112336">
-              <node role="argument:7" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="8567569493821112338">
-                <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="8567569493821112340">
-                  <link role="baseMethodDeclaration:3" targetNodeId="8567569493821103294" resolveInfo="Edge" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="8567569493821112341" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="8567569493821112343">
-                    <link role="variableDeclaration:3" targetNodeId="8567569493821112328" resolveInfo="target" />
-                  </node>
-                </node>
+              <node role="argument:7" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4660430665333277107">
+                <link role="variableDeclaration:3" targetNodeId="4660430665333277101" resolveInfo="edge" />
               </node>
             </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="4660430665333277109">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4660430665333277111">
+            <link role="variableDeclaration:3" targetNodeId="4660430665333277101" resolveInfo="edge" />
           </node>
         </node>
       </node>
@@ -196,6 +214,28 @@
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="8567569493821111995" />
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.FieldReferenceOperation:3" id="8567569493821111996">
               <link role="fieldDeclaration:3" targetNodeId="8567569493821107721" resolveInfo="myTarget" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4660430665333277202">
+      <property name="name:3" value="removeFromGraph" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4660430665333277203" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4660430665333277204" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4660430665333277205">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4660430665333277206">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4660430665333277213">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4660430665333277208">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="4660430665333277207">
+                <link role="variableDeclaration:3" targetNodeId="8567569493821107717" resolveInfo="mySource" />
+              </node>
+              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="4660430665333277212">
+                <link role="baseMethodDeclaration:3" targetNodeId="8567569493821110932" resolveInfo="getOutEdges" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.RemoveElementOperation:7" id="4660430665333277217">
+              <node role="argument:7" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="4660430665333277219" />
             </node>
           </node>
         </node>
