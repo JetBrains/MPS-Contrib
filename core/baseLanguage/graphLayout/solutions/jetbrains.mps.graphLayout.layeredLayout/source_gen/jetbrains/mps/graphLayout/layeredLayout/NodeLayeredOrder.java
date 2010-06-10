@@ -29,4 +29,8 @@ public class NodeLayeredOrder {
   public List<Node> getOrder(int layer) {
     return ListSequence.fromList(myLayeredOrder).getElement(layer);
   }
+
+  public int getMaxLayer() {
+    return ListSequence.fromList(myLayeredOrder).count() - 1;
+  }
 }
