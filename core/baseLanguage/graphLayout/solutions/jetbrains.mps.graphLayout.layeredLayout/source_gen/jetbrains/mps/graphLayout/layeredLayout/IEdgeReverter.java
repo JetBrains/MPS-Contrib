@@ -7,5 +7,5 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.Graph;
 
 public interface IEdgeReverter {
-  public Set<Edge> RevertEdges(Graph g);
+  public Set<Edge> revertEdges(Graph g);
 }

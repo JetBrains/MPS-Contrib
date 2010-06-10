@@ -1366,7 +1366,7 @@
       <link role="classifier:3" targetNodeId="4660430665333276854" resolveInfo="IEdgeReverter" />
     </node>
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4660430665333276866">
-      <property name="name:3" value="RevertEdges" />
+      <property name="name:3" value="revertEdges" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.collections.structure.SetType:7" id="4660430665333276867">
         <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4660430665333276868">
           <link role="classifier:3" targetNodeId="1.8567569493821103292" resolveInfo="Edge" />
@@ -1555,7 +1555,7 @@
     <property name="name:3" value="IEdgeReverter" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4660430665333276856">
       <property name="isAbstract:3" value="true" />
-      <property name="name:3" value="RevertEdges" />
+      <property name="name:3" value="revertEdges" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.collections.structure.SetType:7" id="4660430665333276862">
         <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4660430665333276864">
           <link role="classifier:3" targetNodeId="1.8567569493821103292" resolveInfo="Edge" />
