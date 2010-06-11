@@ -8,7 +8,7 @@ public class Edge {
   private Node mySource;
   private Node myTarget;
 
-  /*package*/ Edge(Node source, Node target) {
+  public Edge(Node source, Node target) {
     mySource = source;
     myTarget = target;
   }

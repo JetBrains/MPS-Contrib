@@ -24,4 +24,12 @@ public class Node {
   public List<Edge> getOutEdges() {
     return myOutEdges;
   }
+
+  /*package*/ void addEdge(Edge edge) {
+    ListSequence.fromList(myOutEdges).addElement(edge);
+  }
+
+  public int getIndex() {
+    return this.myIndex;
+  }
 }

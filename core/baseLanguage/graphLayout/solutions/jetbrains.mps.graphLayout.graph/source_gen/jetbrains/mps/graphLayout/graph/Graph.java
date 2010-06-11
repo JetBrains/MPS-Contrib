@@ -28,4 +28,8 @@ public class Graph {
   public Node addNode() {
     return ListSequence.fromList(myNodes).addElement(new Node(ListSequence.fromList(myNodes).count()));
   }
+
+  public void addEdge(Edge edge) {
+    edge.getSource().addEdge(edge);
+  }
 }
