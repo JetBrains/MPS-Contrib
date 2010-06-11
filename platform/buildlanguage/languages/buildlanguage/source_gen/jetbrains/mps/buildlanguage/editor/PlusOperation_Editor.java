@@ -82,7 +82,6 @@ public class PlusOperation_Editor extends DefaultNodeEditor {
       style.set(StyleAttributes.PADDING_LEFT, new Padding(0.8, Measure.SPACES));
       style.set(StyleAttributes.PADDING_RIGHT, new Padding(0.8, Measure.SPACES));
     }
-    editorCell.setSubstituteInfo(provider.createDefaultSubstituteInfo());
     editorCell.setSubstituteInfo(new CompositeSubstituteInfo(editorContext, provider.getCellContext(), new SubstituteInfoPart[]{new PlusOperation_Editor.PlusOperation_Editor_replaceWith_BinaryOperation_cellMenu_a0b0()}));
     SNode attributeConcept = provider.getRoleAttribute();
     Class attributeKind = provider.getRoleAttributeClass();
