@@ -24,6 +24,7 @@ public abstract class BaseRunProfileState implements RunProfileState {
     return (T) myUserData.get(key);
   }
 
+  @NotNull
   public abstract AbstractDebugSessionCreator createDebugSessionCreator(Project p);
 
   @Nullable

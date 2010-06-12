@@ -6,11 +6,13 @@ import jetbrains.mps.plugins.pluginparts.runconfigs.BaseRunProfileState;
 import jetbrains.mps.debug.api.AbstractDebugSessionCreator;
 import com.intellij.openapi.project.Project;
 import jetbrains.mps.debug.runtime.VMCreator;
+import org.jetbrains.annotations.NotNull;
 
 public abstract class JavaRunProfileState extends BaseRunProfileState {
   public JavaRunProfileState() {
   }
 
+  @NotNull
   public AbstractDebugSessionCreator createDebugSessionCreator(Project project) {
     return new VMCreator(project);
   }
