@@ -8,16 +8,19 @@ import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
 
 public class Node {
   private List<Edge> myOutEdges;
+  private List<Edge> myInEdges;
   private int myIndex;
 
   /*package*/ Node(int index) {
     myOutEdges = ListSequence.fromList(new LinkedList<Edge>());
+    myInEdges = ListSequence.fromList(new LinkedList<Edge>());
     myIndex = index;
   }
 
   public Edge addEdgeTo(Node target) {
     Edge edge = new Edge(this, target);
-    ListSequence.fromList(myOutEdges).addElement(edge);
+    this.addOutEdge(edge);
+    target.addInEdge(edge);
     return edge;
   }
 
@@ -25,8 +28,24 @@ public class Node {
     return myOutEdges;
   }
 
-  /*package*/ void addEdge(Edge edge) {
+  public List<Edge> getInEdges() {
+    return myInEdges;
+  }
+
+  public List<Edge> getEdges(Edge.Direction dir) {
+    if (dir == Edge.Direction.FRONT) {
+      return getOutEdges();
+    } else {
+      return getInEdges();
+    }
+  }
+
+  /*package*/ void addOutEdge(Edge edge) {
     ListSequence.fromList(myOutEdges).addElement(edge);
+  }
+
+  /*package*/ void addInEdge(Edge edge) {
+    ListSequence.fromList(myInEdges).addElement(edge);
   }
 
   public int getIndex() {

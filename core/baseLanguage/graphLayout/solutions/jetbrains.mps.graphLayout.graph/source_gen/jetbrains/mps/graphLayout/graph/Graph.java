@@ -30,6 +30,7 @@ public class Graph {
   }
 
   public void addEdge(Edge edge) {
-    edge.getSource().addEdge(edge);
+    edge.getSource().addOutEdge(edge);
+    edge.getTarget().addInEdge(edge);
   }
 }

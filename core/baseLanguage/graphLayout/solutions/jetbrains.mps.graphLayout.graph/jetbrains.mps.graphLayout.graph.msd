@@ -4,5 +4,8 @@
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
   <sourcePath />
+  <usedLanguages>
+    <usedLanguage>8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</usedLanguage>
+  </usedLanguages>
 </solution>
 

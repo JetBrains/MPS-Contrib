@@ -17,11 +17,41 @@ public class Edge {
     return this.mySource;
   }
 
+  public Node getSource(Edge.Direction dir) {
+    if (dir == Edge.Direction.FRONT) {
+      return getSource();
+    } else {
+      return getTarget();
+    }
+  }
+
+  public Node getTarget(Edge.Direction dir) {
+    if (dir == Edge.Direction.FRONT) {
+      return getTarget();
+    } else {
+      return getSource();
+    }
+  }
+
   public Node getTarget() {
     return this.myTarget;
   }
 
   public void removeFromGraph() {
     ListSequence.fromList(mySource.getOutEdges()).removeElement(this);
+    ListSequence.fromList(myTarget.getInEdges()).removeElement(this);
+  }
+
+  @Override
+  public String toString() {
+    return "[" + getSource().getIndex() + " -> " + getTarget().getIndex() + "]";
+  }
+
+  public static   enum Direction {
+    FRONT(),
+    BACK();
+
+    Direction() {
+    }
   }
 }
