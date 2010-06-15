@@ -5099,7 +5099,7 @@
                 <link role="baseMethodDeclaration:3" targetNodeId="28.~BaseConfigCreator.setSourceElement(com.intellij.psi.PsiElement):void" resolveInfo="setSourceElement" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="5015922156501763903">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="5015922156501763990">
-                    <link role="baseMethodDeclaration:3" targetNodeId="28.~MPSPsiElement.&lt;init&gt;(java.util.List)" resolveInfo="MPSPsiElement" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="28.~MPSPsiElement.&lt;init&gt;(jetbrains.mps.project.MPSProject)" resolveInfo="MPSPsiElement" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="5015922156501763991">
                       <node role="nodeMacro$attribute:3" type="jetbrains.mps.lang.generator.structure.CopySrcNodeMacro:2" id="5015922156501763992">
                         <node role="sourceNodeQuery:2" type="jetbrains.mps.lang.generator.structure.SourceSubstituteMacro_SourceNodeQuery:2" id="5015922156501763993">
