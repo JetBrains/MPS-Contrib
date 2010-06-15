@@ -6,7 +6,7 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.Edge;
 
 public class LayerByLayerNodeSorter implements INodeSorter {
-  private int myNumIterations = 1000;
+  private int myNumIterations = 50;
   private IOneLayerSorter myLayerSorter;
 
   public LayerByLayerNodeSorter(IOneLayerSorter layerSorter) {

@@ -3237,7 +3237,7 @@
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="190081711777509515" />
       <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="190081711777509499" />
       <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="190081711777509501">
-        <property name="value:3" value="1000" />
+        <property name="value:3" value="50" />
       </node>
     </node>
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="190081711777509748">
