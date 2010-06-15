@@ -701,6 +701,40 @@
         </node>
       </node>
     </node>
+    <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4038232163187048517">
+      <property name="name:3" value="addEdgeByIndex" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4038232163187048518" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4038232163187048519" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4038232163187048520">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4038232163187048526">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4038232163187048529">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall:3" id="4038232163187048527">
+              <link role="baseMethodDeclaration:3" targetNodeId="8567569493821112501" resolveInfo="getNode" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="4038232163187048528">
+                <link role="variableDeclaration:3" targetNodeId="4038232163187048521" resolveInfo="sourceIndex" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="4038232163187048533">
+              <link role="baseMethodDeclaration:3" targetNodeId="8567569493821112323" resolveInfo="addEdgeTo" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall:3" id="4038232163187048534">
+                <link role="baseMethodDeclaration:3" targetNodeId="8567569493821112501" resolveInfo="getNode" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="4038232163187048535">
+                  <link role="variableDeclaration:3" targetNodeId="4038232163187048523" resolveInfo="targetIndex" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="4038232163187048521">
+        <property name="name:3" value="sourceIndex" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="4038232163187048522" />
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="4038232163187048523">
+        <property name="name:3" value="targetIndex" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="4038232163187048525" />
+      </node>
+    </node>
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="8567569493821107942">
       <property name="name:3" value="myNodes" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="8567569493821107943" />

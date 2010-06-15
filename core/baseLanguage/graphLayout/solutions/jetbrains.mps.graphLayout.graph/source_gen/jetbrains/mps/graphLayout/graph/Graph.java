@@ -33,4 +33,8 @@ public class Graph {
     edge.getSource().addOutEdge(edge);
     edge.getTarget().addInEdge(edge);
   }
+
+  public void addEdgeByIndex(int sourceIndex, int targetIndex) {
+    getNode(sourceIndex).addEdgeTo(getNode(targetIndex));
+  }
 }
