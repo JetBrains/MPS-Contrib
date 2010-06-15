@@ -6,7 +6,6 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.testLayeredLayout.CheckCycles;
-import jetbrains.mps.graphLayout.testLayeredLayout.GraphWriter;
 import java.util.Map;
 import java.util.List;
 import jetbrains.mps.graphLayout.testLayeredLayout.CheckLayers;
@@ -40,14 +39,7 @@ public class LayeredLayouter {
     }
     NodeLayers layers = myLayerer.computeLayers(graph);
     final int numRealVertices = graph.getNumNodes();
-    /*
-      System.out.print(GraphWriter.printGraph(graph));
-      System.out.println("--------");
-    */
     Map<Edge, List<Edge>> substituteEdgeMap = insertDummyNodes(graph, layers);
-    /*
-      System.out.print(GraphWriter.printGraph(graph));
-    */
     if (CheckLayers.hasBadEdges(graph, layers)) {
       throw new RuntimeException("there is bad edges!!!");
     }
@@ -91,9 +83,6 @@ public class LayeredLayouter {
         int sourceLayer = layers.get(edge.getSource());
         int targetLayer = layers.get(edge.getTarget());
         if (targetLayer > sourceLayer + 1) {
-          /*
-            edge.removeFromGraph();
-          */
           MapSequence.fromMap(substituteMap).put(edge, ListSequence.fromList(new ArrayList<Edge>()));
           Node cur = edge.getSource();
           for (int i = sourceLayer + 1; i <= targetLayer; i++) {
@@ -104,9 +93,6 @@ public class LayeredLayouter {
             } else {
               newTarget = edge.getTarget();
             }
-            /*
-              ListSequence.fromList(MapSequence.fromMap(substituteMap).get(edge)).addElement(cur.addEdgeTo(newTarget));
-            */
             ListSequence.fromList(MapSequence.fromMap(substituteMap).get(edge)).addElement(new Edge(cur, newTarget));
             cur = newTarget;
           }
