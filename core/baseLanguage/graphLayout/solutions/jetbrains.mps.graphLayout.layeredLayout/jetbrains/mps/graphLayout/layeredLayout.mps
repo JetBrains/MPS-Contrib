@@ -19,8 +19,6 @@
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="4" modelUID="f:java_stub#java.awt(java.awt@java_stub)" version="-1" />
   <import index="5" modelUID="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)" version="-1" />
-  <import index="6" modelUID="r:a4abca1e-eeb7-453b-8847-0bb45835c38c(jetbrains.mps.graphLayout.testLayeredLayout)" version="-1" />
-  <import index="7" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
   <import index="8" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="8567569493821107752">
     <property name="name:3" value="BFSLayerer" />
@@ -2098,33 +2096,6 @@
             </node>
           </node>
         </node>
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="7777374380555158641">
-          <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7777374380555158642">
-            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ThrowStatement:3" id="7777374380555158654">
-              <node role="throwable:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7777374380555158656">
-                <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="7777374380555158658">
-                  <link role="baseMethodDeclaration:3" targetNodeId="2.~RuntimeException.&lt;init&gt;(java.lang.String)" resolveInfo="RuntimeException" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7777374380555158659">
-                    <property name="value:3" value="there is cycles!!!" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7777374380555158648">
-            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7777374380555158645">
-              <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="7777374380555158647">
-                <link role="baseMethodDeclaration:3" targetNodeId="6.4660430665333279625" resolveInfo="CheckCycles" />
-              </node>
-            </node>
-            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="7777374380555158652">
-              <link role="baseMethodDeclaration:3" targetNodeId="6.4660430665333279630" resolveInfo="hasCycle" />
-              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="7777374380555158653">
-                <link role="variableDeclaration:3" targetNodeId="4660430665333280336" resolveInfo="graph" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4660430665333280348">
           <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4660430665333280349">
             <property name="name:3" value="layers" />
@@ -2179,30 +2150,6 @@
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4660430665333281046">
                 <link role="variableDeclaration:3" targetNodeId="4660430665333280349" resolveInfo="layers" />
               </node>
-            </node>
-          </node>
-        </node>
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="7777374380555158661">
-          <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7777374380555158662">
-            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ThrowStatement:3" id="7777374380555158663">
-              <node role="throwable:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="7777374380555158664">
-                <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="7777374380555158665">
-                  <link role="baseMethodDeclaration:3" targetNodeId="2.~RuntimeException.&lt;init&gt;(java.lang.String)" resolveInfo="RuntimeException" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7777374380555158666">
-                    <property name="value:3" value="there is bad edges!!!" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="7777374380555158679">
-            <link role="baseMethodDeclaration:3" targetNodeId="6.5644771614742803430" resolveInfo="checkEdges" />
-            <link role="classConcept:3" targetNodeId="6.5644771614742803420" resolveInfo="CheckLayers" />
-            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="7777374380555158680">
-              <link role="variableDeclaration:3" targetNodeId="4660430665333280336" resolveInfo="graph" />
-            </node>
-            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="7777374380555158681">
-              <link role="variableDeclaration:3" targetNodeId="4660430665333280349" resolveInfo="layers" />
             </node>
           </node>
         </node>

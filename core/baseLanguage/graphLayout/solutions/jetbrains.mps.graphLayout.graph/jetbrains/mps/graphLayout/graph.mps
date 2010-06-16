@@ -703,7 +703,9 @@
     </node>
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4038232163187048517">
       <property name="name:3" value="addEdgeByIndex" />
-      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4038232163187048518" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1567683135099892108">
+        <link role="classifier:3" targetNodeId="8567569493821103292" resolveInfo="Edge" />
+      </node>
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4038232163187048519" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4038232163187048520">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4038232163187048526">

@@ -4,11 +4,5 @@
     <modelRoot path="${solution_descriptor}/" namespacePrefix="" />
   </models>
   <sourcePath />
-  <dependencies>
-    <dependency reexport="false">5465d6e5-a895-46c0-8462-dad85a03ee2a(jetbrains.mps.graphLayout.layeredLayout)</dependency>
-  </dependencies>
-  <usedLanguages>
-    <usedLanguage>8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</usedLanguage>
-  </usedLanguages>
 </solution>
 

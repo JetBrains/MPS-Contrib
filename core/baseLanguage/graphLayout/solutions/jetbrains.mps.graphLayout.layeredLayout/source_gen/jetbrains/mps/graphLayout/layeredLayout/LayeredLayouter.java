@@ -5,10 +5,8 @@ package jetbrains.mps.graphLayout.layeredLayout;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Edge;
-import jetbrains.mps.graphLayout.testLayeredLayout.CheckCycles;
 import java.util.Map;
 import java.util.List;
-import jetbrains.mps.graphLayout.testLayeredLayout.CheckLayers;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.awt.Point;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -34,15 +32,9 @@ public class LayeredLayouter {
 
   public GraphLayout doLayout(Graph graph) {
     Set<Edge> reverted = myReverter.revertEdges(graph);
-    if (new CheckCycles().hasCycle(graph)) {
-      throw new RuntimeException("there is cycles!!!");
-    }
     NodeLayers layers = myLayerer.computeLayers(graph);
     final int numRealVertices = graph.getNumNodes();
     Map<Edge, List<Edge>> substituteEdgeMap = insertDummyNodes(graph, layers);
-    if (CheckLayers.hasBadEdges(graph, layers)) {
-      throw new RuntimeException("there is bad edges!!!");
-    }
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
     Map<Node, Point> nodeCoordinates = myPlacer.placeCoordinates(graph, order);
     GraphLayout graphLayout = new GraphLayout(graph);
