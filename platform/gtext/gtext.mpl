@@ -32,13 +32,7 @@
       </mapping-priorities>
     </generator>
   </generators>
-  <classPath>
-    <entry path="${language_descriptor}/classes_gen" include="false" />
-  </classPath>
-  <languageRuntimeClassPath />
-  <sourcePath>
-    <source path="${language_descriptor}/source" />
-  </sourcePath>
+  <sourcePath />
   <dependencies>
     <dependency reexport="true">34f23130-e35c-4795-a45a-85d828b16016(jetbrains.mps.gtext.runtime)</dependency>
   </dependencies>
