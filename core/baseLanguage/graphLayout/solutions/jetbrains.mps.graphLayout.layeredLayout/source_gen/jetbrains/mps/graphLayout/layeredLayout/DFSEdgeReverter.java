@@ -32,7 +32,7 @@ public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
   protected void processEdge(Edge edge) {
     Node target = edge.getTarget();
     int state = MapSequence.fromMap(getDfsState()).get(target);
-    if (state == 1) {
+    if (state == Dfs.DURING) {
       SetSequence.fromSet(myToRevert).addElement(edge);
     }
   }

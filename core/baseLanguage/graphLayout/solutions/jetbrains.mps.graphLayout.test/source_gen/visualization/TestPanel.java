@@ -139,7 +139,7 @@ public class TestPanel extends JPanel {
   private void layoutGraph() {
     Scanner scanner = new Scanner(myTextArea.getText());
     try {
-      Graph g = GraphScanner.scanGraph(scanner);
+      Graph g = GraphIO.scanGraph(scanner);
       myCurrentLayout = myLayouter.doLayout(g);
     } catch (IllegalArgumentException e) {
       JOptionPane.showMessageDialog(this, "something is wrong in graph...");

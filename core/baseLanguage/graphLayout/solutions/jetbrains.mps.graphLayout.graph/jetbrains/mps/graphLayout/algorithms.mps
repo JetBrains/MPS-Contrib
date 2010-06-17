@@ -19,6 +19,30 @@
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4660430665333277271">
     <property name="name:3" value="Dfs" />
     <property name="abstractClass:3" value="true" />
+    <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="4519409331094618576">
+      <property name="name:3" value="BEFORE" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094618600" />
+      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="4519409331094618579" />
+      <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4519409331094618581">
+        <property name="value:3" value="0" />
+      </node>
+    </node>
+    <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="4519409331094618582">
+      <property name="name:3" value="DURING" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094618601" />
+      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="4519409331094618585" />
+      <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4519409331094618587">
+        <property name="value:3" value="1" />
+      </node>
+    </node>
+    <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="4519409331094618588">
+      <property name="name:3" value="AFTER" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094618602" />
+      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="4519409331094618591" />
+      <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4519409331094618593">
+        <property name="value:3" value="2" />
+      </node>
+    </node>
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4660430665333277333">
       <property name="name:3" value="doDfs" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4660430665333277334" />
@@ -54,9 +78,6 @@
           <node role="body:7" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4660430665333277340">
             <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.IfStatement:3" id="4660430665333277359">
               <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="4660430665333277367">
-                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4660430665333277370">
-                  <property name="value:3" value="0" />
-                </node>
                 <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.collections.structure.MapElement:7" id="4660430665333277363">
                   <node role="key:7" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="4660430665333277366">
                     <link role="variable:7" targetNodeId="4660430665333277338" resolveInfo="node" />
@@ -64,6 +85,9 @@
                   <node role="map:7" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="4660430665333277362">
                     <link role="variableDeclaration:3" targetNodeId="4660430665333277292" resolveInfo="myDfsState" />
                   </node>
+                </node>
+                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference:3" id="4519409331094618594">
+                  <link role="variableDeclaration:3" targetNodeId="4519409331094618576" resolveInfo="BEFORE" />
                 </node>
               </node>
               <node role="ifTrue:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4660430665333277361">
@@ -94,9 +118,6 @@
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4660430665333277374">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4660430665333277383">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="4660430665333277389">
-            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4660430665333277392">
-              <property name="value:3" value="1" />
-            </node>
             <node role="lValue:3" type="jetbrains.mps.baseLanguage.collections.structure.MapElement:7" id="4660430665333277385">
               <node role="key:7" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="4660430665333277388">
                 <link role="variableDeclaration:3" targetNodeId="4660430665333277379" resolveInfo="node" />
@@ -104,6 +125,9 @@
               <node role="map:7" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="4660430665333277384">
                 <link role="variableDeclaration:3" targetNodeId="4660430665333277292" resolveInfo="myDfsState" />
               </node>
+            </node>
+            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference:3" id="4519409331094618595">
+              <link role="variableDeclaration:3" targetNodeId="4519409331094618582" resolveInfo="DURING" />
             </node>
           </node>
         </node>
@@ -164,9 +188,6 @@
                 </node>
               </node>
               <node role="condition:3" type="jetbrains.mps.baseLanguage.structure.EqualsExpression:3" id="4660430665333277480">
-                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4660430665333277483">
-                  <property name="value:3" value="0" />
-                </node>
                 <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.collections.structure.MapElement:7" id="4660430665333277464">
                   <node role="key:7" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4660430665333277479">
                     <link role="variableDeclaration:3" targetNodeId="4660430665333277474" resolveInfo="target" />
@@ -174,6 +195,9 @@
                   <node role="map:7" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="4660430665333277463">
                     <link role="variableDeclaration:3" targetNodeId="4660430665333277292" resolveInfo="myDfsState" />
                   </node>
+                </node>
+                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference:3" id="4519409331094618596">
+                  <link role="variableDeclaration:3" targetNodeId="4519409331094618576" resolveInfo="BEFORE" />
                 </node>
               </node>
             </node>
@@ -189,9 +213,6 @@
         </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4660430665333277394">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="4660430665333277400">
-            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4660430665333277403">
-              <property name="value:3" value="2" />
-            </node>
             <node role="lValue:3" type="jetbrains.mps.baseLanguage.collections.structure.MapElement:7" id="4660430665333277396">
               <node role="key:7" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="4660430665333277399">
                 <link role="variableDeclaration:3" targetNodeId="4660430665333277379" resolveInfo="node" />
@@ -199,6 +220,9 @@
               <node role="map:7" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="4660430665333277395">
                 <link role="variableDeclaration:3" targetNodeId="4660430665333277292" resolveInfo="myDfsState" />
               </node>
+            </node>
+            <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference:3" id="4519409331094618597">
+              <link role="variableDeclaration:3" targetNodeId="4519409331094618588" resolveInfo="AFTER" />
             </node>
           </node>
         </node>
@@ -247,9 +271,6 @@
           <node role="body:7" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4660430665333277315">
             <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4660430665333277322">
               <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="4660430665333277329">
-                <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="4660430665333277332">
-                  <property name="value:3" value="0" />
-                </node>
                 <node role="lValue:3" type="jetbrains.mps.baseLanguage.collections.structure.MapElement:7" id="4660430665333277324">
                   <node role="map:7" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="4660430665333277323">
                     <link role="variableDeclaration:3" targetNodeId="4660430665333277292" resolveInfo="myDfsState" />
@@ -257,6 +278,9 @@
                   <node role="key:7" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="4660430665333277328">
                     <link role="variable:7" targetNodeId="4660430665333277313" resolveInfo="node" />
                   </node>
+                </node>
+                <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.LocalStaticFieldReference:3" id="4519409331094618598">
+                  <link role="variableDeclaration:3" targetNodeId="4519409331094618576" resolveInfo="BEFORE" />
                 </node>
               </node>
             </node>

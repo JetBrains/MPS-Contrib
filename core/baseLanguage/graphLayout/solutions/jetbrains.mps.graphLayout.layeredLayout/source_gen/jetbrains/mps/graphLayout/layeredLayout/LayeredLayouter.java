@@ -15,7 +15,6 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import java.util.HashMap;
-import java.util.HashSet;
 
 public class LayeredLayouter {
   private IEdgeReverter myReverter;
@@ -33,7 +32,6 @@ public class LayeredLayouter {
   public GraphLayout doLayout(Graph graph) {
     Set<Edge> reverted = myReverter.revertEdges(graph);
     NodeLayers layers = myLayerer.computeLayers(graph);
-    final int numRealVertices = graph.getNumNodes();
     Map<Edge, List<Edge>> substituteEdgeMap = insertDummyNodes(graph, layers);
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
     Map<Node, Point> nodeCoordinates = myPlacer.placeCoordinates(graph, order);
@@ -50,7 +48,7 @@ public class LayeredLayouter {
     }
     ListSequence.fromList(graph.getNodes()).removeWhere(new IWhereFilter<Node>() {
       public boolean accept(Node it) {
-        return it.getIndex() >= numRealVertices;
+        return it.isDummy();
       }
     });
     for (Node node : ListSequence.fromList(graph.getNodes())) {
@@ -65,10 +63,9 @@ public class LayeredLayouter {
     return graphLayout;
   }
 
-  private static Map<Edge, List<Edge>> insertDummyNodes(Graph graph, NodeLayers layers) {
+  public static Map<Edge, List<Edge>> insertDummyNodes(Graph graph, NodeLayers layers) {
     Map<Edge, List<Edge>> substituteMap = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     int numOfRealNodes = graph.getNumNodes();
-    Set<Edge> toDelete = SetSequence.fromSet(new HashSet<Edge>());
     for (int index = 0; index < numOfRealNodes; index++) {
       Node node = graph.getNode(index);
       for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
@@ -80,7 +77,7 @@ public class LayeredLayouter {
           for (int i = sourceLayer + 1; i <= targetLayer; i++) {
             Node newTarget;
             if (i < targetLayer) {
-              newTarget = graph.addNode();
+              newTarget = graph.addDummyNode();
               layers.set(newTarget, i);
             } else {
               newTarget = edge.getTarget();

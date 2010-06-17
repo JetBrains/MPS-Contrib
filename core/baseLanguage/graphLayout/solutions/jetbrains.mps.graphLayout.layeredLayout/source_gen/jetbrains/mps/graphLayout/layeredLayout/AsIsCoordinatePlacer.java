@@ -17,7 +17,7 @@ public class AsIsCoordinatePlacer implements ICoordinatePlacer {
 
   public Map<Node, Point> placeCoordinates(Graph graph, NodeLayeredOrder order) {
     Map<Node, Point> placement = MapSequence.fromMap(new HashMap<Node, Point>());
-    for (int layer = 0; layer <= order.getMaxLayer(); layer++) {
+    for (int layer = 0; layer < order.getNumLayers(); layer++) {
       List<Node> layerOrder = order.getOrder(layer);
       int xCoord = 0;
       for (Node node : ListSequence.fromList(layerOrder)) {

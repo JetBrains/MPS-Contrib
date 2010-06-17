@@ -12,12 +12,12 @@ public class CheckLayers {
   public static boolean hasBadEdges(Graph graph, NodeLayers layers) {
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-        if (layers.get(edge.getSource()) + 1 != layers.get(edge.getTarget())) {
+        if (layers.get(edge.getSource()) > layers.get(edge.getTarget())) {
           return true;
         }
       }
       for (Edge edge : ListSequence.fromList(node.getInEdges())) {
-        if (layers.get(edge.getSource()) + 1 != layers.get(edge.getTarget())) {
+        if (layers.get(edge.getSource()) > layers.get(edge.getTarget())) {
           return true;
         }
       }

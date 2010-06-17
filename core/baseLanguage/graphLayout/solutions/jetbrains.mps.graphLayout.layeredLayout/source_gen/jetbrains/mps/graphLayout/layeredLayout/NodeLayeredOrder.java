@@ -47,8 +47,8 @@ public class NodeLayeredOrder {
     }).toListSequence();
   }
 
-  public int getMaxLayer() {
-    return ListSequence.fromList(myLayeredOrder).count() - 1;
+  public int getNumLayers() {
+    return ListSequence.fromList(myLayeredOrder).count();
   }
 
   public Graph getGraph() {

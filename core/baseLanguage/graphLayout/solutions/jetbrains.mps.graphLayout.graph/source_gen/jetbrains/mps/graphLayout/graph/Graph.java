@@ -8,6 +8,7 @@ import java.util.ArrayList;
 
 public class Graph {
   private List<Node> myNodes;
+  private int myNumRealVerices;
 
   public Graph() {
     myNodes = ListSequence.fromList(new ArrayList<Node>());
@@ -26,7 +27,11 @@ public class Graph {
   }
 
   public Node addNode() {
-    return ListSequence.fromList(myNodes).addElement(new Node(ListSequence.fromList(myNodes).count()));
+    return ListSequence.fromList(myNodes).addElement(new Node(ListSequence.fromList(myNodes).count(), false));
+  }
+
+  public Node addDummyNode() {
+    return ListSequence.fromList(myNodes).addElement(new Node(ListSequence.fromList(myNodes).count(), true));
   }
 
   public void addEdge(Edge edge) {
@@ -36,5 +41,27 @@ public class Graph {
 
   public Edge addEdgeByIndex(int sourceIndex, int targetIndex) {
     return getNode(sourceIndex).addEdgeTo(getNode(targetIndex));
+  }
+
+  @Override
+  public String toString() {
+    super.toString();
+    StringBuilder result = new StringBuilder();
+    result.append("Graph " + this + " with " + this.getNumNodes() + " nodes:\n");
+    for (Node node : ListSequence.fromList(this.getNodes())) {
+      result.append("node " + node.getIndex() + ": \n");
+      result.append("  out edges:\n");
+      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+        result.append(edge + ", ");
+      }
+      result.append("\n");
+      result.append("  in edges:\n");
+      for (Edge edge : ListSequence.fromList(node.getInEdges())) {
+        result.append(edge + ", ");
+      }
+      result.append("\n");
+    }
+    result.append("end " + this);
+    return result.toString();
   }
 }

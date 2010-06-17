@@ -10,11 +10,13 @@ public class Node {
   private List<Edge> myOutEdges;
   private List<Edge> myInEdges;
   private int myIndex;
+  private boolean myIsDummy;
 
-  /*package*/ Node(int index) {
+  /*package*/ Node(int index, boolean isDummy) {
     myOutEdges = ListSequence.fromList(new LinkedList<Edge>());
     myInEdges = ListSequence.fromList(new LinkedList<Edge>());
     myIndex = index;
+    myIsDummy = isDummy;
   }
 
   public Edge addEdgeTo(Node target) {
@@ -50,5 +52,9 @@ public class Node {
 
   public int getIndex() {
     return this.myIndex;
+  }
+
+  public boolean isDummy() {
+    return myIsDummy;
   }
 }

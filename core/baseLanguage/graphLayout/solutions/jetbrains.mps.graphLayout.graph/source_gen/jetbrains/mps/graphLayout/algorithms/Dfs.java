@@ -11,6 +11,10 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.HashMap;
 
 public abstract class Dfs {
+  public static int BEFORE = 0;
+  public static int DURING = 1;
+  public static int AFTER = 2;
+
   private Graph myGraph;
   private Map<Node, Integer> myDfsState;
 
@@ -21,30 +25,30 @@ public abstract class Dfs {
     myGraph = graph;
     init();
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      if (MapSequence.fromMap(myDfsState).get(node) == 0) {
+      if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
         dfs(node);
       }
     }
   }
 
   private void dfs(Node node) {
-    MapSequence.fromMap(myDfsState).put(node, 1);
+    MapSequence.fromMap(myDfsState).put(node, DURING);
     preprocess(node);
     for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
       processEdge(edge);
       Node target = edge.getTarget();
-      if (MapSequence.fromMap(myDfsState).get(target) == 0) {
+      if (MapSequence.fromMap(myDfsState).get(target) == BEFORE) {
         dfs(target);
       }
     }
     postprocess(node);
-    MapSequence.fromMap(myDfsState).put(node, 2);
+    MapSequence.fromMap(myDfsState).put(node, AFTER);
   }
 
   private void init() {
     myDfsState = MapSequence.fromMap(new HashMap<Node, Integer>());
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      MapSequence.fromMap(myDfsState).put(node, 0);
+      MapSequence.fromMap(myDfsState).put(node, BEFORE);
     }
   }
 

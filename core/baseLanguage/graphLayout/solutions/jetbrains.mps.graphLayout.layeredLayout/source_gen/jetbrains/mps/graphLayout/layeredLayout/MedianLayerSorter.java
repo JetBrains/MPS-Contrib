@@ -84,9 +84,13 @@ public class MedianLayerSorter implements IOneLayerSorter {
 
   public double computeBarycenter(Node node, Map<Integer, Integer> nodesOrder, Edge.Direction dir) {
     double barycenter = 0;
-    for (Edge edge : ListSequence.fromList(node.getEdges(dir))) {
-      barycenter += MapSequence.fromMap(nodesOrder).get(edge.getTarget(dir).getIndex());
+    List<Edge> edges = node.getEdges(dir);
+    if (ListSequence.fromList(edges).count() > 0) {
+      for (Edge edge : ListSequence.fromList(edges)) {
+        barycenter += MapSequence.fromMap(nodesOrder).get(edge.getTarget(dir).getIndex());
+      }
+      barycenter = barycenter / ListSequence.fromList(edges).count();
     }
-    return barycenter / ListSequence.fromList(node.getEdges(dir)).count();
+    return barycenter;
   }
 }
