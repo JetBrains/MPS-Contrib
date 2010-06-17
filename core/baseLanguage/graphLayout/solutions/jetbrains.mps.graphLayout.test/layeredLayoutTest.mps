@@ -17,11 +17,14 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d5(jetbrains.mps.baseLanguage.unitTest.plugin)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902d2(jetbrains.mps.baseLanguage.unitTest.constraints)" version="1" />
-  <maxImportIndex value="4" />
+  <maxImportIndex value="7" />
   <import index="1" modelUID="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" version="-1" />
   <import index="2" modelUID="r:56e7ed05-c300-4310-9801-1a49a3ba1a5a(jetbrains.mps.graphLayout.layeredLayout)" version="-1" />
   <import index="3" modelUID="r:5aba4e89-d910-492c-9b56-c5e3fe8c0f28(jetbrains.mps.graphLayout.algorithms)" version="-1" />
   <import index="4" modelUID="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" version="-1" />
+  <import index="5" modelUID="r:964bbf7c-f239-4721-836a-ba42f2f69703(visualization)" version="-1" />
+  <import index="6" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
+  <import index="7" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1567683135099906065">
     <property name="testCaseName" value="DFSEdgeReverter" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1567683135099906066" />
@@ -2002,22 +2005,6 @@
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="7033456583153162586" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="7033456583153162450" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="7033456583153162451">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="7033456583153162469">
-          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="7033456583153162470">
-            <property name="name:3" value="graph" />
-            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="7033456583153162471">
-              <link role="classifier:3" targetNodeId="1.8567569493821103298" resolveInfo="Graph" />
-            </node>
-            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="7033456583153162472">
-              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="7033456583153162473">
-                <link role="variableDeclaration:3" targetNodeId="7033456583153162458" resolveInfo="order" />
-              </node>
-              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="7033456583153162474">
-                <link role="baseMethodDeclaration:3" targetNodeId="2.4759409676487240519" resolveInfo="getGraph" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ForStatement:3" id="7033456583153162475">
           <node role="variable:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="7033456583153162476">
             <property name="name:3" value="layer" />
@@ -2316,33 +2303,6 @@
       </node>
     </node>
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="6088058844796081231" />
-  </node>
-  <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="4519409331094619319">
-    <property name="testCaseName" value="BKCoordinatePlacer" />
-    <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094619320" />
-    <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="4519409331094619321">
-      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4519409331094619322" />
-      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094619323" />
-      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4519409331094619324" />
-    </node>
-    <node role="testMethodList" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethodList" id="4519409331094619325">
-      <node role="testMethod" type="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" id="4519409331094619326">
-        <property name="methodName" value="test1" />
-        <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4519409331094619327" />
-        <node role="returnType" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4519409331094619328" />
-        <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4519409331094619329">
-          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4519409331094619337">
-            <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4519409331094619338">
-              <property name="name:3" value="graphString" />
-              <node role="type:3" type="jetbrains.mps.baseLanguage.structure.StringType:3" id="4519409331094619340" />
-              <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4519409331094619346">
-                <property name="value:3" value="" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4519409331094619347">
     <property name="name:3" value="EdgeReverterProxy" />

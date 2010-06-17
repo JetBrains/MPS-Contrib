@@ -54,4 +54,18 @@ public class NodeLayeredOrder {
   public Graph getGraph() {
     return this.myGraph;
   }
+
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("Node layered order: \n");
+    for (List<Node> layerOrder : ListSequence.fromList(myLayeredOrder)) {
+      for (Node node : ListSequence.fromList(layerOrder)) {
+        builder.append(node.getIndex() + " ");
+      }
+      builder.append("\n");
+    }
+    builder.append("end order");
+    return builder.toString();
+  }
 }

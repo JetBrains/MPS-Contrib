@@ -8,7 +8,6 @@ import java.util.ArrayList;
 
 public class Graph {
   private List<Node> myNodes;
-  private int myNumRealVerices;
 
   public Graph() {
     myNodes = ListSequence.fromList(new ArrayList<Node>());
@@ -45,9 +44,8 @@ public class Graph {
 
   @Override
   public String toString() {
-    super.toString();
     StringBuilder result = new StringBuilder();
-    result.append("Graph " + this + " with " + this.getNumNodes() + " nodes:\n");
+    result.append("Graph " + super.toString() + " with " + this.getNumNodes() + " nodes:\n");
     for (Node node : ListSequence.fromList(this.getNodes())) {
       result.append("node " + node.getIndex() + ": \n");
       result.append("  out edges:\n");
@@ -61,7 +59,7 @@ public class Graph {
       }
       result.append("\n");
     }
-    result.append("end " + this);
+    result.append("end " + super.toString());
     return result.toString();
   }
 }

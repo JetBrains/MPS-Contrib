@@ -8,8 +8,10 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.awt.Point;
 import jetbrains.mps.graphLayout.graph.Graph;
-import java.util.List;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
+import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.List;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import java.util.Comparator;
@@ -22,23 +24,32 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
   }
 
   public Map<Node, Point> placeCoordinates(Graph graph, NodeLayeredOrder order) {
-    myPosInLayer = new int[graph.getNumNodes()];
-    for (int layer = 0; layer < order.getNumLayers(); layer++) {
-      List<Integer> layerOrder = order.getIntOrder(layer);
-      for (int pos = 0; pos < ListSequence.fromList(layerOrder).count(); pos++) {
-        myPosInLayer[ListSequence.fromList(layerOrder).getElement(pos)] = pos;
-      }
-    }
-    badEdges = SetSequence.fromSet(new HashSet<Edge>());
-    for (int layer = 0; layer < order.getNumLayers() - 1; layer++) {
-      SetSequence.fromSet(badEdges).addSequence(SetSequence.fromSet(findBadEdgesInLayer(order.getOrder(layer))));
-    }
+    this.init(graph, order);
     int[] roots = computeBlocks(order);
+    this.createBlockGraph(order, roots);
     return null;
   }
 
-  public int[] getRoots(NodeLayeredOrder order) {
-    Graph graph = order.getGraph();
+  public Graph createBlockGraph(NodeLayeredOrder order, int[] roots) {
+    Graph blockGraph = new Graph();
+    Map<Integer, Node> rootsMap = MapSequence.fromMap(new HashMap<Integer, Node>());
+    for (int layer = 0; layer < order.getNumLayers(); layer++) {
+      Node prevBlock = null;
+      for (int index : ListSequence.fromList(order.getIntOrder(layer))) {
+        if (roots[index] == index) {
+          MapSequence.fromMap(rootsMap).put(index, blockGraph.addNode());
+        }
+        Node currentBlock = MapSequence.fromMap(rootsMap).get(roots[index]);
+        if (prevBlock != null) {
+          prevBlock.addEdgeTo(currentBlock);
+        }
+        prevBlock = currentBlock;
+      }
+    }
+    return blockGraph;
+  }
+
+  public void init(Graph graph, NodeLayeredOrder order) {
     myPosInLayer = new int[graph.getNumNodes()];
     for (int layer = 0; layer < order.getNumLayers(); layer++) {
       List<Integer> layerOrder = order.getIntOrder(layer);
@@ -50,7 +61,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     for (int layer = 0; layer < order.getNumLayers() - 1; layer++) {
       SetSequence.fromSet(badEdges).addSequence(SetSequence.fromSet(findBadEdgesInLayer(order.getOrder(layer))));
     }
-    return computeBlocks(order);
   }
 
   private Set<Edge> findBadEdgesInLayer(List<Node> layerOrder) {
@@ -58,16 +68,21 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     int p1 = -1;
     int p2 = -1;
     for (Node node : ListSequence.fromList(layerOrder)) {
-      if (node.isDummy()) {
+      if (isInnerDummy(node)) {
         p2 = getOppositePos(node);
         break;
       }
     }
     if (p2 > -1) {
       for (Node node : ListSequence.fromList(layerOrder)) {
-        if (node.isDummy()) {
-          p1 = p2;
-          p2 = getOppositePos(node);
+        if (isInnerDummy(node)) {
+          if (p1 == -1) {
+            p1 = p2;
+            p2 = Integer.MAX_VALUE;
+          } else {
+            p1 = p2;
+            p2 = getOppositePos(node);
+          }
         } else {
           for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
             int targetPos = myPosInLayer[edge.getTarget().getIndex()];
@@ -82,11 +97,19 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
 
   }
 
+  private boolean isInnerDummy(Node node) {
+    if (ListSequence.fromList(node.getOutEdges()).count() != 1) {
+      return false;
+    }
+    Edge edge = ListSequence.fromList(node.getOutEdges()).getElement(0);
+    return edge.getSource().isDummy() && edge.getTarget().isDummy();
+  }
+
   private int getOppositePos(Node dummyNode) {
     return myPosInLayer[ListSequence.fromList(dummyNode.getOutEdges()).getElement(0).getTarget().getIndex()];
   }
 
-  private int[] computeBlocks(NodeLayeredOrder order) {
+  public int[] computeBlocks(NodeLayeredOrder order) {
     Graph graph = order.getGraph();
     int[] roots = new int[graph.getNumNodes()];
     for (int i = 0; i < roots.length; i++) {
@@ -103,11 +126,11 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
             return myPosInLayer[aSourceIndex] - myPosInLayer[bSourceIndex];
           }
         }, true).toListSequence();
-        Edge medianEdge = ListSequence.fromList(sortedByPos).getElement(ListSequence.fromList(sortedByPos).count() / 2);
+        Edge medianEdge = ListSequence.fromList(sortedByPos).getElement((ListSequence.fromList(sortedByPos).count() - 1) / 2);
         if (roots[index] == index) {
           curConnectedPos = this.tryToAddRoot(index, roots, medianEdge, curConnectedPos);
         }
-        medianEdge = ListSequence.fromList(sortedByPos).getElement((ListSequence.fromList(sortedByPos).count() + 1) / 2);
+        medianEdge = ListSequence.fromList(sortedByPos).getElement((ListSequence.fromList(sortedByPos).count()) / 2);
         if (roots[index] == index) {
           curConnectedPos = this.tryToAddRoot(index, roots, medianEdge, curConnectedPos);
         }

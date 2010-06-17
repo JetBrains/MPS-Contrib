@@ -810,11 +810,6 @@
         <link role="classifier:3" targetNodeId="2v.~String" resolveInfo="String" />
       </node>
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4519409331094617230">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4519409331094617232">
-          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.SuperMethodCall:3" id="4519409331094617233">
-            <link role="baseMethodDeclaration:3" targetNodeId="2v.~Object.toString():java.lang.String" resolveInfo="toString" />
-          </node>
-        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="4519409331094617234">
           <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="4519409331094617235">
             <property name="name:3" value="result" />
@@ -845,7 +840,9 @@
                       <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4519409331094617248">
                         <property name="value:3" value="Graph " />
                       </node>
-                      <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="4519409331094617328" />
+                      <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.SuperMethodCall:3" id="4519409331094704257">
+                        <link role="baseMethodDeclaration:3" targetNodeId="2v.~Object.toString():java.lang.String" resolveInfo="toString" />
+                      </node>
                     </node>
                     <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4519409331094617250">
                       <property name="value:3" value=" with " />
@@ -1029,7 +1026,9 @@
             <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="4519409331094617320">
               <link role="baseMethodDeclaration:3" targetNodeId="2v.~StringBuilder.append(java.lang.String):java.lang.StringBuilder" resolveInfo="append" />
               <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.PlusExpression:3" id="4519409331094617321">
-                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.ThisExpression:3" id="4519409331094617331" />
+                <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.SuperMethodCall:3" id="4519409331094704364">
+                  <link role="baseMethodDeclaration:3" targetNodeId="2v.~Object.toString():java.lang.String" resolveInfo="toString" />
+                </node>
                 <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4519409331094617323">
                   <property name="value:3" value="end " />
                 </node>
@@ -1060,11 +1059,6 @@
           <link role="classifier:3" targetNodeId="4671312709908983848" resolveInfo="Node" />
         </node>
       </node>
-    </node>
-    <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="6088058844796081275">
-      <property name="name:3" value="myNumRealVerices" />
-      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="6088058844796081276" />
-      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="6088058844796081278" />
     </node>
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8567569493821103299" />
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="8567569493821103300">
