@@ -601,6 +601,12 @@
         <link role="template:2" targetNodeId="3361586479360290437" resolveInfo="reduce_RunConfigPropertyInstance" />
       </node>
     </node>
+    <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="3680762252127977710">
+      <link role="applicableConcept:2" targetNodeId="2v.3680762252127977523:23" resolveInfo="ProjectExpression" />
+      <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="3680762252127977712">
+        <link role="template:2" targetNodeId="3680762252127977708" resolveInfo="reduce_ProjectExpression" />
+      </node>
+    </node>
   </node>
   <visible index="5" modelUID="f:java_stub#jetbrains.mps.plugins(jetbrains.mps.plugins@java_stub)" />
   <visible index="6" modelUID="f:java_stub#jetbrains.mps.generator.template(jetbrains.mps.generator.template@java_stub)" />
@@ -2866,6 +2872,36 @@
                                 </node>
                               </node>
                             </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="3680762252128110849">
+                      <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="3680762252128110850">
+                        <property name="name:3" value="project" />
+                        <property name="isFinal:3" value="true" />
+                        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3680762252128110851">
+                          <link role="classifier:3" targetNodeId="12.~Project" resolveInfo="Project" />
+                        </node>
+                        <node role="propertyMacro$property_attribute$name:3" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="3680762252128110852">
+                          <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="3680762252128110853">
+                            <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3680762252128110854">
+                              <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3680762252128110855">
+                                <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="3680762252128110857">
+                                  <link role="baseMethodDeclaration:3" targetNodeId="41.~VariableNameUtil.createComplicatedNameSuffix(java.lang.String):java.lang.String" resolveInfo="createComplicatedNameSuffix" />
+                                  <link role="classConcept:3" targetNodeId="41.~VariableNameUtil" resolveInfo="VariableNameUtil" />
+                                  <node role="actualArgument:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_templatePropertyValue:2" id="3680762252128110858" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="3680762252128110861">
+                          <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="3680762252128110860">
+                            <link role="variableDeclaration:3" targetNodeId="7840798570674956113" resolveInfo="environment" />
+                          </node>
+                          <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="3680762252128110865">
+                            <link role="baseMethodDeclaration:3" targetNodeId="14.~ExecutionEnvironment.getProject():com.intellij.openapi.project.Project" resolveInfo="getProject" />
                           </node>
                         </node>
                       </node>
@@ -6911,6 +6947,31 @@
           </node>
         </node>
         <node role="templateFragment$attribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="3361586479360296996" />
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="3680762252127977708">
+    <property name="name:2" value="reduce_ProjectExpression" />
+    <property name="package:2" value="RunConfigs.Configuration.Execute.Statements" />
+    <link role="applicableConcept:2" targetNodeId="2v.3680762252127977523:23" resolveInfo="ProjectExpression" />
+    <node role="contentNode:2" type="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference:1" id="3680762252127977713">
+      <property name="name:1" value="project" />
+      <node role="type:1" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3680762252127977715">
+        <link role="classifier:3" targetNodeId="12.~Project" resolveInfo="Project" />
+      </node>
+      <node role="templateFragment$attribute:1" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="3680762252127977716" />
+      <node role="propertyMacro$property_attribute$name:1" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="3680762252127977717">
+        <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="3680762252127977718">
+          <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3680762252127977719">
+            <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3680762252127977720">
+              <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="3680762252127977721">
+                <link role="classConcept:3" targetNodeId="41.~VariableNameUtil" resolveInfo="VariableNameUtil" />
+                <link role="baseMethodDeclaration:3" targetNodeId="41.~VariableNameUtil.createComplicatedNameSuffix(java.lang.String):java.lang.String" resolveInfo="createComplicatedNameSuffix" />
+                <node role="actualArgument:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_templatePropertyValue:2" id="3680762252127977722" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

@@ -138,6 +138,7 @@
             </node>
           </node>
         </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.Statement:3" id="3680762252127977504" />
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="4964800443628319902">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4964800443628319904">
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="4964800443628319903">
