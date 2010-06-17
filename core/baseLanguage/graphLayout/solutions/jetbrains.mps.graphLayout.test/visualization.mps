@@ -13,7 +13,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
-  <maxImportIndex value="10" />
+  <maxImportIndex value="11" />
   <import index="1" modelUID="f:java_stub#javax.swing.text(javax.swing.text@java_stub)" version="-1" />
   <import index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" version="-1" />
   <import index="3" modelUID="r:d228b8c9-d2b1-4686-9904-e3c49a346bc6(jetbrains.mps.graphLayout.graph)" version="-1" />
@@ -24,6 +24,7 @@
   <import index="8" modelUID="f:java_stub#java.awt.event(java.awt.event@java_stub)" version="-1" />
   <import index="9" modelUID="r:1674ee60-7c44-4176-8f8c-2c87c767d971(sampleGraphs)" version="-1" />
   <import index="10" modelUID="f:java_stub#java.io(java.io@java_stub)" version="-1" />
+  <import index="11" modelUID="r:e4338979-215b-4b9c-a1e7-b887743c18eb(layeredLayoutTest)" version="-1" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1567683135099906914">
     <property name="name:3" value="GraphIO" />
     <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="1567683135099906915">
@@ -2302,14 +2303,24 @@
             <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907888">
               <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907889">
                 <link role="baseMethodDeclaration:3" targetNodeId="4.4660430665333276834" resolveInfo="LayeredLayouter" />
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907890">
-                  <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907891">
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.4660430665333276850" resolveInfo="DFSEdgeReverter" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4519409331094638005">
+                  <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4519409331094638007">
+                    <link role="baseMethodDeclaration:3" targetNodeId="11.4519409331094619349" resolveInfo="EdgeReverterProxy" />
+                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4519409331094638008">
+                      <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4519409331094638009">
+                        <link role="baseMethodDeclaration:3" targetNodeId="4.4660430665333276850" resolveInfo="DFSEdgeReverter" />
+                      </node>
+                    </node>
                   </node>
                 </node>
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907892">
-                  <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907893">
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.8567569493821114468" resolveInfo="BFSLayerer" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4519409331094638012">
+                  <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4519409331094638014">
+                    <link role="baseMethodDeclaration:3" targetNodeId="11.4519409331094620045" resolveInfo="LayererProxy" />
+                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4519409331094638015">
+                      <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4519409331094638016">
+                        <link role="baseMethodDeclaration:3" targetNodeId="4.8567569493821114468" resolveInfo="BFSLayerer" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907894">
@@ -2317,14 +2328,9 @@
                     <link role="baseMethodDeclaration:3" targetNodeId="4.3256072703923740071" resolveInfo="AsIsCoordinatePlacer" />
                   </node>
                 </node>
-                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907896">
-                  <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907897">
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.190081711777509438" resolveInfo="LayerByLayerNodeSorter" />
-                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907898">
-                      <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907899">
-                        <link role="baseMethodDeclaration:3" targetNodeId="4.190081711777509917" resolveInfo="MedianLayerSorter" />
-                      </node>
-                    </node>
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4519409331094638018">
+                  <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4519409331094638020">
+                    <link role="baseMethodDeclaration:3" targetNodeId="11.4519409331094621477" resolveInfo="MedianLayerByLayerSorterProxy" />
                   </node>
                 </node>
               </node>

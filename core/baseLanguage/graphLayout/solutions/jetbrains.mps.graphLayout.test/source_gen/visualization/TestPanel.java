@@ -14,8 +14,9 @@ import jetbrains.mps.graphLayout.layeredLayout.DFSEdgeReverter;
 import jetbrains.mps.graphLayout.layeredLayout.BFSLayerer;
 import jetbrains.mps.graphLayout.layeredLayout.AsIsCoordinatePlacer;
 import jetbrains.mps.graphLayout.layeredLayout.DFSNodeSorter;
-import jetbrains.mps.graphLayout.layeredLayout.LayerByLayerNodeSorter;
-import jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter;
+import layeredLayoutTest.EdgeReverterProxy;
+import layeredLayoutTest.LayererProxy;
+import layeredLayoutTest.MedianLayerByLayerSorterProxy;
 import javax.swing.BorderFactory;
 import java.awt.GridBagConstraints;
 import javax.swing.JButton;
@@ -62,7 +63,7 @@ public class TestPanel extends JPanel {
     /*
       myLayouter = new LayeredLayouter(new DFSEdgeReverter(), new BFSLayerer(), new AsIsCoordinatePlacer(), new DFSNodeSorter());
     */
-    myLayouter = new LayeredLayouter(new DFSEdgeReverter(), new BFSLayerer(), new AsIsCoordinatePlacer(), new LayerByLayerNodeSorter(new MedianLayerSorter()));
+    myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new BFSLayerer()), new AsIsCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
     myCurrentLayout = null;
   }
 

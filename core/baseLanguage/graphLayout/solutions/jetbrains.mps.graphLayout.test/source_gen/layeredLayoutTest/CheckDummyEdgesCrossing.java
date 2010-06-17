@@ -4,28 +4,29 @@ package layeredLayoutTest;
 
 import jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder;
 import jetbrains.mps.graphLayout.graph.Graph;
+import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.IWhereFilter;
-import jetbrains.mps.internal.collections.runtime.Sequence;
-import java.util.List;
 
 public class CheckDummyEdgesCrossing {
   public static boolean hasCrosses(NodeLayeredOrder order) {
     Graph graph = order.getGraph();
     for (int layer = 0; layer < order.getNumLayers() - 1; layer++) {
-      Iterable<Node> dummyNodes = ListSequence.fromList(graph.getNodes()).where(new IWhereFilter<Node>() {
+      List<Node> dummyNodes = ListSequence.fromList(order.getOrder(layer)).where(new IWhereFilter<Node>() {
         public boolean accept(Node it) {
           return it.isDummy();
         }
-      });
-      for (int first = 0; first < Sequence.fromIterable(dummyNodes).count(); first++) {
-        for (int second = first + 1; second < Sequence.fromIterable(dummyNodes).count(); second++) {
-          Node firstTarget = ListSequence.fromList(graph.getNode(first).getOutEdges()).getElement(0).getTarget();
-          Node secondTarget = ListSequence.fromList(graph.getNode(second).getOutEdges()).getElement(0).getTarget();
-          List<Node> nextLayerOrder = order.getOrder(layer + 1);
-          if (ListSequence.fromList(nextLayerOrder).indexOf(firstTarget) > ListSequence.fromList(nextLayerOrder).indexOf(secondTarget)) {
-            return true;
+      }).toListSequence();
+      for (int first = 0; first < ListSequence.fromList(dummyNodes).count(); first++) {
+        for (int second = first + 1; second < ListSequence.fromList(dummyNodes).count(); second++) {
+          Node firstTarget = ListSequence.fromList(ListSequence.fromList(dummyNodes).getElement(first).getOutEdges()).getElement(0).getTarget();
+          Node secondTarget = ListSequence.fromList(ListSequence.fromList(dummyNodes).getElement(second).getOutEdges()).getElement(0).getTarget();
+          if (firstTarget.isDummy() && secondTarget.isDummy()) {
+            List<Node> nextLayerOrder = order.getOrder(layer + 1);
+            if (ListSequence.fromList(nextLayerOrder).indexOf(firstTarget) > ListSequence.fromList(nextLayerOrder).indexOf(secondTarget)) {
+              return true;
+            }
           }
         }
       }
