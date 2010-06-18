@@ -15,13 +15,13 @@ import java.awt.GridLayout;
 
 public class GridDemo extends JFrame {
   public GridDemo myThis;
-  private JPanel myComponent0;
-  private JLabel myComponent1;
-  private JLabel myComponent2;
-  private JPanel myComponent3;
-  private JLabel myComponent4;
-  private JLabel myComponent5;
-  private JLabel myComponent6;
+  private JPanel myComponent_a0;
+  private JLabel myComponent_b0a;
+  private JLabel myComponent_c0a;
+  private JPanel myComponent_d0a;
+  private JLabel myComponent_e0a;
+  private JLabel myComponent_f0a;
+  private JLabel myComponent_g0a;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
@@ -34,7 +34,7 @@ public class GridDemo extends JFrame {
   public GridDemo() {
     this.myThis = this;
     GridDemo component = this;
-    component.add(this.createComponent0());
+    component.add(this.createComponent_a0());
     component.setSize(new Dimension(400, 300));
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setVisible(true);
@@ -66,56 +66,56 @@ public class GridDemo extends JFrame {
     }
   }
 
-  private JPanel createComponent0() {
+  private JPanel createComponent_a0() {
     JPanel component = new JPanel();
-    this.myComponent0 = component;
+    this.myComponent_a0 = component;
     component.setLayout(new GridLayout(2, 3));
-    component.add(this.createComponent1());
-    component.add(this.createComponent2());
-    component.add(this.createComponent3());
-    component.add(this.createComponent4());
-    component.add(this.createComponent5());
-    component.add(this.createComponent6());
+    component.add(this.createComponent_b0a());
+    component.add(this.createComponent_c0a());
+    component.add(this.createComponent_d0a());
+    component.add(this.createComponent_e0a());
+    component.add(this.createComponent_f0a());
+    component.add(this.createComponent_g0a());
     return component;
   }
 
-  private JLabel createComponent1() {
+  private JLabel createComponent_b0a() {
     JLabel component = new JLabel();
-    this.myComponent1 = component;
+    this.myComponent_b0a = component;
     component.setText("1,1");
     return component;
   }
 
-  private JLabel createComponent2() {
+  private JLabel createComponent_c0a() {
     JLabel component = new JLabel();
-    this.myComponent2 = component;
+    this.myComponent_c0a = component;
     component.setText("1,l2");
     return component;
   }
 
-  private JPanel createComponent3() {
+  private JPanel createComponent_d0a() {
     JPanel component = new JPanel();
-    this.myComponent3 = component;
+    this.myComponent_d0a = component;
     return component;
   }
 
-  private JLabel createComponent4() {
+  private JLabel createComponent_e0a() {
     JLabel component = new JLabel();
-    this.myComponent4 = component;
+    this.myComponent_e0a = component;
     component.setText("2,1");
     return component;
   }
 
-  private JLabel createComponent5() {
+  private JLabel createComponent_f0a() {
     JLabel component = new JLabel();
-    this.myComponent5 = component;
+    this.myComponent_f0a = component;
     component.setText("2,2");
     return component;
   }
 
-  private JLabel createComponent6() {
+  private JLabel createComponent_g0a() {
     JLabel component = new JLabel();
-    this.myComponent6 = component;
+    this.myComponent_g0a = component;
     component.setText("2,3");
     return component;
   }

@@ -18,12 +18,12 @@ import java.awt.GridBagConstraints;
 
 public class FormDemo extends JFrame {
   public FormDemo myThis;
-  private JPanel myComponent0;
-  private JLabel myComponent1;
-  private JLabel myComponent2;
-  private JTextField myComponent3;
-  private JTextField myComponent4;
-  private JPanel myComponent5;
+  private JPanel myComponent_a0;
+  private JLabel myComponent_b0a;
+  private JLabel myComponent_c0a;
+  private JTextField myComponent_d0a;
+  private JTextField myComponent_e0a;
+  private JPanel myComponent_f0a;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
@@ -36,7 +36,7 @@ public class FormDemo extends JFrame {
   public FormDemo() {
     this.myThis = this;
     FormDemo component = this;
-    component.add(this.createComponent0());
+    component.add(this.createComponent_a0());
     component.setSize(new Dimension(400, 300));
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setVisible(true);
@@ -68,11 +68,11 @@ public class FormDemo extends JFrame {
     }
   }
 
-  private JPanel createComponent0() {
+  private JPanel createComponent_a0() {
     JPanel component = new JPanel();
-    this.myComponent0 = component;
+    this.myComponent_a0 = component;
     component.setLayout(new GridBagLayout());
-    component.add(this.createComponent1(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_b0a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -81,7 +81,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent2(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_c0a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -90,7 +90,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent3(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_d0a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -100,7 +100,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent4(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_e0a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 1;
@@ -110,7 +110,7 @@ public class FormDemo extends JFrame {
         return c;
       }
     }.value());
-    component.add(this.createComponent5(), new ValueWrapper<GridBagConstraints>() {
+    component.add(this.createComponent_f0a(), new ValueWrapper<GridBagConstraints>() {
       public GridBagConstraints value() {
         GridBagConstraints c = new GridBagConstraints();
         c.gridx = 0;
@@ -123,37 +123,37 @@ public class FormDemo extends JFrame {
     return component;
   }
 
-  private JLabel createComponent1() {
+  private JLabel createComponent_b0a() {
     JLabel component = new JLabel();
-    this.myComponent1 = component;
+    this.myComponent_b0a = component;
     component.setText("Name");
     return component;
   }
 
-  private JLabel createComponent2() {
+  private JLabel createComponent_c0a() {
     JLabel component = new JLabel();
-    this.myComponent2 = component;
+    this.myComponent_c0a = component;
     component.setText("Last Name");
     return component;
   }
 
-  private JTextField createComponent3() {
+  private JTextField createComponent_d0a() {
     JTextField component = new JTextField();
-    this.myComponent3 = component;
+    this.myComponent_d0a = component;
     component.setColumns(20);
     return component;
   }
 
-  private JTextField createComponent4() {
+  private JTextField createComponent_e0a() {
     JTextField component = new JTextField();
-    this.myComponent4 = component;
+    this.myComponent_e0a = component;
     component.setColumns(20);
     return component;
   }
 
-  private JPanel createComponent5() {
+  private JPanel createComponent_f0a() {
     JPanel component = new JPanel();
-    this.myComponent5 = component;
+    this.myComponent_f0a = component;
     return component;
   }
 }

@@ -19,9 +19,9 @@ import org.jdesktop.beansbinding.Bindings;
 
 public class CheckBoxDemo extends JFrame {
   public CheckBoxDemo myThis;
-  private VBoxPanel myComponent0;
-  private JLabel myComponent1;
-  private JCheckBox myCheckbox0;
+  private VBoxPanel myComponent_a0;
+  private JLabel myComponent_a0a;
+  private JCheckBox myCheckbox_b0a;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
@@ -34,7 +34,7 @@ public class CheckBoxDemo extends JFrame {
   public CheckBoxDemo() {
     this.myThis = this;
     CheckBoxDemo component = this;
-    component.add(this.createComponent0());
+    component.add(this.createComponent_a0());
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setSize(new Dimension(400, 300));
     component.setLayout(new FlowLayout());
@@ -58,9 +58,9 @@ public class CheckBoxDemo extends JFrame {
 
   private void bind() {
     {
-      Object sourceObject = myThis.myCheckbox0;
+      Object sourceObject = myThis.myCheckbox_b0a;
       Property sourceProperty = BeanProperty.create("selected");
-      Object targetObject = this.myComponent1;
+      Object targetObject = this.myComponent_a0a;
       Property targetProperty = BeanProperty.create("text");
       AutoBinding binding = Bindings.createAutoBinding(AutoBinding.UpdateStrategy.READ_WRITE, sourceObject, sourceProperty, targetObject, targetProperty);
       binding.bind();
@@ -76,23 +76,23 @@ public class CheckBoxDemo extends JFrame {
     }
   }
 
-  private VBoxPanel createComponent0() {
+  private VBoxPanel createComponent_a0() {
     VBoxPanel component = new VBoxPanel();
-    this.myComponent0 = component;
-    component.add(this.createComponent1());
-    component.add(this.createComponent2());
+    this.myComponent_a0 = component;
+    component.add(this.createComponent_a0a());
+    component.add(this.createComponent_b0a());
     return component;
   }
 
-  private JLabel createComponent1() {
+  private JLabel createComponent_a0a() {
     JLabel component = new JLabel();
-    this.myComponent1 = component;
+    this.myComponent_a0a = component;
     return component;
   }
 
-  private JCheckBox createComponent2() {
+  private JCheckBox createComponent_b0a() {
     JCheckBox component = new JCheckBox();
-    this.myCheckbox0 = component;
+    this.myCheckbox_b0a = component;
     component.setText("Check me");
     return component;
   }

@@ -18,9 +18,9 @@ import java.awt.event.ActionEvent;
 
 public class ActionsSample extends JFrame {
   public ActionsSample myThis;
-  private VBoxPanel myComponent0;
-  private JLabel myLabel0;
-  private JButton myComponent1;
+  private VBoxPanel myComponent_a0;
+  private JLabel myLabel_a0a;
+  private JButton myComponent_b0a;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
@@ -33,7 +33,7 @@ public class ActionsSample extends JFrame {
   public ActionsSample() {
     this.myThis = this;
     ActionsSample component = this;
-    component.add(this.createComponent0());
+    component.add(this.createComponent_a0());
     component.setTitle("Actions Sample");
     component.setLayout(new FlowLayout());
     component.setSize(new Dimension(400, 300));
@@ -67,27 +67,27 @@ public class ActionsSample extends JFrame {
     }
   }
 
-  private VBoxPanel createComponent0() {
+  private VBoxPanel createComponent_a0() {
     VBoxPanel component = new VBoxPanel();
-    this.myComponent0 = component;
-    component.add(this.createComponent1());
-    component.add(this.createComponent2());
+    this.myComponent_a0 = component;
+    component.add(this.createComponent_a0a());
+    component.add(this.createComponent_b0a());
     return component;
   }
 
-  private JLabel createComponent1() {
+  private JLabel createComponent_a0a() {
     JLabel component = new JLabel();
-    this.myLabel0 = component;
+    this.myLabel_a0a = component;
     component.setText("<PRESS BUTTON>");
     return component;
   }
 
-  private JButton createComponent2() {
+  private JButton createComponent_b0a() {
     JButton component = new JButton();
-    this.myComponent1 = component;
+    this.myComponent_b0a = component;
     component.addActionListener(new ActionListener() {
       public void actionPerformed(ActionEvent event) {
-        myThis.myLabel0.setText("Preved");
+        myThis.myLabel_a0a.setText("Preved");
       }
     });
     component.setText("Change Text");

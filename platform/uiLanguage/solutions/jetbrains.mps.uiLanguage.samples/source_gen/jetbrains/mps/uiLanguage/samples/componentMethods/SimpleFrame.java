@@ -13,7 +13,7 @@ import java.awt.Dimension;
 
 public class SimpleFrame extends JFrame {
   public SimpleFrame myThis;
-  private JCheckBox myComponent0;
+  private JCheckBox myComponent_d0;
   public List<AutoBinding> myBindings = ListSequence.fromList(new ArrayList<AutoBinding>());
   private Events myEvents = new Events(null) {
     {
@@ -29,7 +29,7 @@ public class SimpleFrame extends JFrame {
     component.setSize(new Dimension(400, 300));
     component.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     component.setVisible(true);
-    component.add(this.createComponent0());
+    component.add(this.createComponent_d0());
     this.myEvents.initialize();
     {
       int i = 0;
@@ -61,9 +61,9 @@ public class SimpleFrame extends JFrame {
     }
   }
 
-  private JCheckBox createComponent0() {
+  private JCheckBox createComponent_d0() {
     JCheckBox component = new JCheckBox();
-    this.myComponent0 = component;
+    this.myComponent_d0 = component;
     return component;
   }
 
