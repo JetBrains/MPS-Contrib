@@ -6,17 +6,17 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import java.awt.Point;
 import jetbrains.mps.graphLayout.graph.Graph;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
-import java.util.HashMap;
+import jetbrains.mps.graphLayout.util.NodeMap;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class AsIsCoordinatePlacer implements ICoordinatePlacer {
   public AsIsCoordinatePlacer() {
   }
 
   public Map<Node, Point> placeCoordinates(Graph graph, NodeLayeredOrder order) {
-    Map<Node, Point> placement = MapSequence.fromMap(new HashMap<Node, Point>());
+    Map<Node, Point> placement = new NodeMap<Point>(graph);
     for (int layer = 0; layer < order.getNumLayers(); layer++) {
       List<Node> layerOrder = order.getOrder(layer);
       int xCoord = 0;

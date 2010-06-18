@@ -5,9 +5,9 @@ package jetbrains.mps.graphLayout.algorithms;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
-import java.util.HashMap;
+import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
 
 public abstract class Dfs {
@@ -23,7 +23,7 @@ public abstract class Dfs {
 
   public void doDfs(Graph graph) {
     myGraph = graph;
-    myDfsState = MapSequence.fromMap(new HashMap<Node, Integer>());
+    myDfsState = new NodeMap<Integer>(graph);
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       MapSequence.fromMap(myDfsState).put(node, BEFORE);
     }

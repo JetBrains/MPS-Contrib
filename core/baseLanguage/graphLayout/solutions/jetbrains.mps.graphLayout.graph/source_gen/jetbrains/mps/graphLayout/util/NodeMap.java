@@ -4,15 +4,16 @@ package jetbrains.mps.graphLayout.util;
 
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
+import java.util.ArrayList;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Set;
 import java.util.Collection;
 
 public class NodeMap<V> implements Map<Node, V> {
-  private Object[] myMap;
+  private ArrayList<V> myMap;
 
   public NodeMap(Graph graph) {
-    myMap = new Object[graph.getNumNodes()];
+    myMap = new ArrayList<V>();
   }
 
   public Set<Map.Entry<Node, V>> entrySet() {
@@ -36,20 +37,21 @@ public class NodeMap<V> implements Map<Node, V> {
   }
 
   public V remove(Object object) {
-    Node node = ((Node) object);
-    V value = ((V) myMap[node.getIndex()]);
-    myMap[node.getIndex()] = null;
-    return value;
+    throw new RuntimeException("method is not implemented");
   }
 
   public V put(Node node, V value) {
-    myMap[node.getIndex()] = value;
+    int index = node.getIndex();
+    fillToPosition(index);
+    myMap.set(index, value);
     return value;
   }
 
   public V get(Object object) {
     Node node = ((Node) object);
-    return ((V) myMap[node.getIndex()]);
+    int index = node.getIndex();
+    fillToPosition(index);
+    return myMap.get(index);
   }
 
   public boolean containsValue(Object object) {
@@ -65,6 +67,25 @@ public class NodeMap<V> implements Map<Node, V> {
   }
 
   public int size() {
-    return myMap.length;
+    return myMap.size();
+  }
+
+  private void fillToPosition(int position) {
+    if (position >= myMap.size()) {
+      for (int i = myMap.size(); i <= position; i++) {
+        myMap.add(null);
+      }
+    }
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
+    builder.append("node map:");
+    for (int i = 0; i < myMap.size(); i++) {
+      builder.append(i + " -> " + myMap.get(i) + "\n");
+    }
+    builder.append("end map");
+    return builder.toString();
   }
 }
