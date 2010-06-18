@@ -16,6 +16,7 @@ import jetbrains.mps.graphLayout.layeredLayout.AsIsCoordinatePlacer;
 import jetbrains.mps.graphLayout.layeredLayout.DFSNodeSorter;
 import layeredLayoutTest.EdgeReverterProxy;
 import layeredLayoutTest.LayererProxy;
+import jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer;
 import layeredLayoutTest.MedianLayerByLayerSorterProxy;
 import javax.swing.BorderFactory;
 import java.awt.GridBagConstraints;
@@ -63,7 +64,7 @@ public class TestPanel extends JPanel {
     /*
       myLayouter = new LayeredLayouter(new DFSEdgeReverter(), new BFSLayerer(), new AsIsCoordinatePlacer(), new DFSNodeSorter());
     */
-    myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new BFSLayerer()), new AsIsCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
+    myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new BFSLayerer()), new BKCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
     myCurrentLayout = null;
   }
 

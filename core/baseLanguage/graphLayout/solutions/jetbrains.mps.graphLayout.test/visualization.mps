@@ -2325,7 +2325,7 @@
                 </node>
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907894">
                   <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907895">
-                    <link role="baseMethodDeclaration:3" targetNodeId="4.3256072703923740071" resolveInfo="AsIsCoordinatePlacer" />
+                    <link role="baseMethodDeclaration:3" targetNodeId="4.7033456583153163506" resolveInfo="BKCoordinatePlacer" />
                   </node>
                 </node>
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4519409331094638018">

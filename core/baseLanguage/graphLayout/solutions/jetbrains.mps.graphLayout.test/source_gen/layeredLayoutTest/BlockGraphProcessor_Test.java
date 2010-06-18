@@ -6,12 +6,33 @@ import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import visualization.GraphIO;
 import java.util.Scanner;
+import jetbrains.mps.graphLayout.layeredLayout.NodeLayers;
 import jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor;
+import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class BlockGraphProcessor_Test extends TestCase {
   public void test_test1() throws Exception {
     String graphString = "5 4  0 1  1 2  3 2  3 4";
+    test(graphString);
+  }
+
+  public void test_test2() throws Exception {
+    String graphString = "7 8 0 1  0 2  1 2  2 3  4 2  4 5   5 6  6 3";
+    test(graphString);
+  }
+
+  public void test_test3() throws Exception {
+    String graphString = "8 10 0 1  0 2  1 2  2 3  4 2  4 5   5 6  6 3 6 7  7 3";
+    test(graphString);
+  }
+
+  public void test(String graphString) {
     Graph blockGraph = GraphIO.scanGraph(new Scanner(graphString));
-    new BlockGraphProcessor().process(blockGraph);
+    NodeLayers layers = new BlockGraphProcessor().process(blockGraph);
+    for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
+      System.out.println("node " + node.getIndex() + ": " + layers.get(node));
+    }
+    System.out.println("----");
   }
 }

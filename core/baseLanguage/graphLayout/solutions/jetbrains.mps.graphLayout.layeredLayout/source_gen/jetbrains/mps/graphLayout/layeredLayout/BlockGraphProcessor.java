@@ -5,57 +5,74 @@ package jetbrains.mps.graphLayout.layeredLayout;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import java.util.List;
+import java.util.Queue;
+import jetbrains.mps.internal.collections.runtime.QueueSequence;
 import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
-import jetbrains.mps.graphLayout.algorithms.Dfs;
 import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.graphLayout.algorithms.Dfs;
 
 public class BlockGraphProcessor {
   private int[] myClasses;
   private int[] myNumInEdges;
   private int[] myShift;
-  private int[] myPosition;
   private int myMaxClass;
+  private NodeLayers myLayers;
+  private Graph myGraph;
 
   public BlockGraphProcessor() {
   }
 
-  public void process(Graph blockGraph) {
+  public NodeLayers process(Graph blockGraph) {
+    myGraph = blockGraph;
     BlockGraphProcessor.ClassesFinder finder = new BlockGraphProcessor.ClassesFinder();
     finder.doDfs(blockGraph);
     int curClass = 1;
     myShift = new int[myMaxClass + 1];
-    myPosition = new int[blockGraph.getNumNodes()];
+    myLayers = new NodeLayers(blockGraph);
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      if (myClasses[node.getIndex()] == curClass) {
+      int index = node.getIndex();
+      if (myClasses[index] == curClass) {
+        processClass(index);
+        if (myShift[myClasses[index]] == Integer.MAX_VALUE) {
+          myShift[myClasses[index]] = 0;
+        }
+        curClass++;
       }
-      curClass++;
     }
-    debugInfo();
-  }
-
-  private void debugInfo() {
-    System.out.println("block graph processing:");
-    System.out.println("num of classes: " + myMaxClass);
-    System.out.println("classes:");
-    for (int i = 0; i < myClasses.length; i++) {
-      System.out.print(i + ": " + myClasses[i] + ", ");
+    int minPos = Integer.MAX_VALUE;
+    for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
+      myLayers.set(node, myLayers.get(node) + myShift[myClasses[node.getIndex()]]);
+      minPos = Math.min(minPos, myLayers.get(node));
     }
-    System.out.println();
-    System.out.println("num of in class edges:");
-    for (int i = 0; i < myNumInEdges.length; i++) {
-      System.out.print(i + ": " + myNumInEdges[i] + ", ");
+    for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
+      myLayers.set(node, myLayers.get(node) - minPos);
     }
-    System.out.println();
+    return myLayers;
   }
 
   private void processClass(int index) {
     if (myNumInEdges[index] > 0) {
       throw new RuntimeException("block graph has incorrect order of block nodes");
     }
-    List<Integer> queue = ListSequence.fromList(new LinkedList<Integer>());
-    ListSequence.fromList(queue).addElement(index);
-    while (ListSequence.fromList(queue).count() > 0) {
+    Queue<Integer> queue = QueueSequence.fromQueue(new LinkedList<Integer>());
+    QueueSequence.fromQueue(queue).addLastElement(index);
+    myLayers.set(index, 0);
+    int classIndex = myClasses[index];
+    myShift[classIndex] = Integer.MAX_VALUE;
+    while (QueueSequence.fromQueue(queue).count() > 0) {
+      int cur = QueueSequence.fromQueue(queue).removeFirstElement();
+      for (Edge edge : ListSequence.fromList(myGraph.getNode(cur).getOutEdges())) {
+        int target = edge.getTarget().getIndex();
+        if (myClasses[cur] == myClasses[target]) {
+          myNumInEdges[target]--;
+          if (myNumInEdges[target] == 0) {
+            myLayers.set(target, myLayers.get(cur) + 1);
+            QueueSequence.fromQueue(queue).addLastElement(target);
+          }
+        } else {
+          myShift[classIndex] = Math.min(myShift[classIndex], myLayers.get(target) - myLayers.get(cur) - 1);
+        }
+      }
     }
   }
 
