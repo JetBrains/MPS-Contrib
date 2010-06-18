@@ -11,15 +11,16 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.util.NodeMap;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import java.util.HashSet;
 import java.util.Comparator;
 
 public class BKCoordinatePlacer implements ICoordinatePlacer {
-  private int[] myPosInLayer;
-  private int[] myNumLayer;
-  private Map<Integer, Node> myRoots;
+  private Map<Node, Integer> myPosInLayer;
+  private Map<Node, Integer> myNumLayer;
+  private Map<Node, Node> myBlocks;
   private Set<Edge> badEdges;
 
   public BKCoordinatePlacer() {
@@ -27,7 +28,7 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
 
   public Map<Node, Point> placeCoordinates(Graph graph, NodeLayeredOrder order) {
     this.init(graph, order);
-    int[] roots = computeBlocks(order);
+    Map<Node, Node> roots = computeBlocks(order);
     Graph blockGraph = this.createBlockGraph(order, roots);
     /*
       NodeLayers layers = new BlockGraphProcessor().process(blockGraph);
@@ -35,22 +36,21 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     NodeLayers layers = new NewBlockGraphProcessor().process(blockGraph);
     Map<Node, Point> coord = MapSequence.fromMap(new HashMap<Node, Point>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      int index = node.getIndex();
-      MapSequence.fromMap(coord).put(node, new Point(layers.get(MapSequence.fromMap(myRoots).get(roots[index])), myNumLayer[index]));
+      MapSequence.fromMap(coord).put(node, new Point(layers.get(MapSequence.fromMap(myBlocks).get(MapSequence.fromMap(roots).get(node))), MapSequence.fromMap(myNumLayer).get(node)));
     }
     return coord;
   }
 
-  public Graph createBlockGraph(NodeLayeredOrder order, int[] roots) {
+  public Graph createBlockGraph(NodeLayeredOrder order, Map<Node, Node> roots) {
     Graph blockGraph = new Graph();
-    myRoots = MapSequence.fromMap(new HashMap<Integer, Node>());
+    myBlocks = MapSequence.fromMap(new HashMap<Node, Node>());
     for (int layer = 0; layer < order.getNumLayers(); layer++) {
       Node prevBlock = null;
-      for (int index : ListSequence.fromList(order.getIntOrder(layer))) {
-        if (roots[index] == index) {
-          MapSequence.fromMap(myRoots).put(index, blockGraph.addNode());
+      for (Node node : ListSequence.fromList(order.getOrder(layer))) {
+        if (MapSequence.fromMap(roots).get(node) == node) {
+          MapSequence.fromMap(myBlocks).put(node, blockGraph.addNode());
         }
-        Node currentBlock = MapSequence.fromMap(myRoots).get(roots[index]);
+        Node currentBlock = MapSequence.fromMap(myBlocks).get(MapSequence.fromMap(roots).get(node));
         if (prevBlock != null) {
           prevBlock.addEdgeTo(currentBlock);
         }
@@ -61,13 +61,13 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
   }
 
   public void init(Graph graph, NodeLayeredOrder order) {
-    myPosInLayer = new int[graph.getNumNodes()];
-    myNumLayer = new int[graph.getNumNodes()];
+    myPosInLayer = new NodeMap<Integer>(graph);
+    myNumLayer = new NodeMap<Integer>(graph);
     for (int layer = 0; layer < order.getNumLayers(); layer++) {
-      List<Integer> layerOrder = order.getIntOrder(layer);
+      List<Node> layerOrder = order.getOrder(layer);
       for (int pos = 0; pos < ListSequence.fromList(layerOrder).count(); pos++) {
-        myPosInLayer[ListSequence.fromList(layerOrder).getElement(pos)] = pos;
-        myNumLayer[ListSequence.fromList(layerOrder).getElement(pos)] = layer;
+        MapSequence.fromMap(myPosInLayer).put(ListSequence.fromList(layerOrder).getElement(pos), pos);
+        MapSequence.fromMap(myNumLayer).put(ListSequence.fromList(layerOrder).getElement(pos), layer);
       }
     }
     badEdges = SetSequence.fromSet(new HashSet<Edge>());
@@ -85,7 +85,7 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
         closestInnerEdgePos = getOppositePos(node);
       } else {
         for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-          int targetPos = myPosInLayer[edge.getTarget().getIndex()];
+          int targetPos = MapSequence.fromMap(myPosInLayer).get(edge.getTarget());
           if (targetPos < closestInnerEdgePos) {
             SetSequence.fromSet(badEdges).addElement(edge);
           }
@@ -99,7 +99,7 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
         closestInnerEdgePos = getOppositePos(node);
       } else {
         for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-          int targetPos = myPosInLayer[edge.getTarget().getIndex()];
+          int targetPos = MapSequence.fromMap(myPosInLayer).get(edge.getTarget());
           if (targetPos > closestInnerEdgePos) {
             SetSequence.fromSet(badEdges).addElement(edge);
           }
@@ -118,44 +118,43 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
   }
 
   private int getOppositePos(Node dummyNode) {
-    return myPosInLayer[ListSequence.fromList(dummyNode.getOutEdges()).getElement(0).getTarget().getIndex()];
+    return MapSequence.fromMap(myPosInLayer).get(ListSequence.fromList(dummyNode.getOutEdges()).getElement(0).getTarget());
   }
 
-  public int[] computeBlocks(NodeLayeredOrder order) {
+  public Map<Node, Node> computeBlocks(NodeLayeredOrder order) {
     Graph graph = order.getGraph();
-    int[] roots = new int[graph.getNumNodes()];
-    for (int i = 0; i < roots.length; i++) {
-      roots[i] = i;
+    Map<Node, Node> roots = new NodeMap<Node>(graph);
+    for (Node node : ListSequence.fromList(graph.getNodes())) {
+      MapSequence.fromMap(roots).put(node, node);
     }
     for (int layer = 1; layer < order.getNumLayers(); layer++) {
       int curConnectedPos = -1;
-      for (int index : ListSequence.fromList(order.getIntOrder(layer))) {
-        Node node = graph.getNode(index);
+      for (Node node : ListSequence.fromList(order.getOrder(layer))) {
         List<Edge> sortedByPos = ListSequence.fromList(node.getInEdges()).sort(new Comparator<Edge>() {
           public int compare(Edge a, Edge b) {
-            int aSourceIndex = a.getSource().getIndex();
-            int bSourceIndex = b.getSource().getIndex();
-            return myPosInLayer[aSourceIndex] - myPosInLayer[bSourceIndex];
+            Node aSource = a.getSource();
+            Node bSource = b.getSource();
+            return MapSequence.fromMap(myPosInLayer).get(aSource) - MapSequence.fromMap(myPosInLayer).get(bSource);
           }
         }, true).toListSequence();
         Edge medianEdge = ListSequence.fromList(sortedByPos).getElement((ListSequence.fromList(sortedByPos).count() - 1) / 2);
-        if (roots[index] == index) {
-          curConnectedPos = this.tryToAddRoot(index, roots, medianEdge, curConnectedPos);
+        if (MapSequence.fromMap(roots).get(node) == node) {
+          curConnectedPos = this.tryToAddRoot(node, roots, medianEdge, curConnectedPos);
         }
         medianEdge = ListSequence.fromList(sortedByPos).getElement((ListSequence.fromList(sortedByPos).count()) / 2);
-        if (roots[index] == index) {
-          curConnectedPos = this.tryToAddRoot(index, roots, medianEdge, curConnectedPos);
+        if (MapSequence.fromMap(roots).get(node) == node) {
+          curConnectedPos = this.tryToAddRoot(node, roots, medianEdge, curConnectedPos);
         }
       }
     }
     return roots;
   }
 
-  private int tryToAddRoot(int index, int[] roots, Edge edge, int curConnectedPos) {
-    int medianIndex = edge.getSource().getIndex();
-    if (!(SetSequence.fromSet(badEdges).contains(edge)) && myPosInLayer[medianIndex] > curConnectedPos) {
-      roots[index] = roots[medianIndex];
-      curConnectedPos = myPosInLayer[medianIndex];
+  private int tryToAddRoot(Node node, Map<Node, Node> roots, Edge edge, int curConnectedPos) {
+    Node medianNode = edge.getSource();
+    if (!(SetSequence.fromSet(badEdges).contains(edge)) && MapSequence.fromMap(myPosInLayer).get(medianNode) > curConnectedPos) {
+      MapSequence.fromMap(roots).put(node, MapSequence.fromMap(roots).get(medianNode));
+      curConnectedPos = MapSequence.fromMap(myPosInLayer).get(medianNode);
     }
     return curConnectedPos;
   }
