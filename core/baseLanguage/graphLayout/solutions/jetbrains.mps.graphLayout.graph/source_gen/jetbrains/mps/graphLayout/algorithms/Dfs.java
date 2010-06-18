@@ -5,10 +5,10 @@ package jetbrains.mps.graphLayout.algorithms;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
-import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.HashMap;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.graphLayout.graph.Edge;
 
 public abstract class Dfs {
   public static int BEFORE = 0;
@@ -23,9 +23,13 @@ public abstract class Dfs {
 
   public void doDfs(Graph graph) {
     myGraph = graph;
-    init();
+    myDfsState = MapSequence.fromMap(new HashMap<Node, Integer>());
+    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
+      MapSequence.fromMap(myDfsState).put(node, BEFORE);
+    }
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
+        processRoot();
         dfs(node);
       }
     }
@@ -45,11 +49,7 @@ public abstract class Dfs {
     MapSequence.fromMap(myDfsState).put(node, AFTER);
   }
 
-  private void init() {
-    myDfsState = MapSequence.fromMap(new HashMap<Node, Integer>());
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      MapSequence.fromMap(myDfsState).put(node, BEFORE);
-    }
+  protected void processRoot() {
   }
 
   protected void preprocess(Node node) {

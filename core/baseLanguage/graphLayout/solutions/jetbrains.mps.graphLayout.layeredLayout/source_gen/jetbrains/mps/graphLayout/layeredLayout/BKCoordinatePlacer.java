@@ -65,36 +65,35 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
 
   private Set<Edge> findBadEdgesInLayer(List<Node> layerOrder) {
     Set<Edge> badEdges = SetSequence.fromSet(new HashSet<Edge>());
-    int p1 = -1;
-    int p2 = -1;
-    for (Node node : ListSequence.fromList(layerOrder)) {
+    int closestInnerEdgePos = -1;
+    for (int i = 0; i < ListSequence.fromList(layerOrder).count(); i++) {
+      Node node = ListSequence.fromList(layerOrder).getElement(i);
       if (isInnerDummy(node)) {
-        p2 = getOppositePos(node);
-        break;
+        closestInnerEdgePos = getOppositePos(node);
+      } else {
+        for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+          int targetPos = myPosInLayer[edge.getTarget().getIndex()];
+          if (targetPos < closestInnerEdgePos) {
+            SetSequence.fromSet(badEdges).addElement(edge);
+          }
+        }
       }
     }
-    if (p2 > -1) {
-      for (Node node : ListSequence.fromList(layerOrder)) {
-        if (isInnerDummy(node)) {
-          if (p1 == -1) {
-            p1 = p2;
-            p2 = Integer.MAX_VALUE;
-          } else {
-            p1 = p2;
-            p2 = getOppositePos(node);
-          }
-        } else {
-          for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-            int targetPos = myPosInLayer[edge.getTarget().getIndex()];
-            if (targetPos < p1 || targetPos > p2) {
-              SetSequence.fromSet(badEdges).addElement(edge);
-            }
+    closestInnerEdgePos = ListSequence.fromList(layerOrder).count() + 1;
+    for (int i = ListSequence.fromList(layerOrder).count() - 1; i >= 0; i--) {
+      Node node = ListSequence.fromList(layerOrder).getElement(i);
+      if (isInnerDummy(node)) {
+        closestInnerEdgePos = getOppositePos(node);
+      } else {
+        for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
+          int targetPos = myPosInLayer[edge.getTarget().getIndex()];
+          if (targetPos > closestInnerEdgePos) {
+            SetSequence.fromSet(badEdges).addElement(edge);
           }
         }
       }
     }
     return badEdges;
-
   }
 
   private boolean isInnerDummy(Node node) {

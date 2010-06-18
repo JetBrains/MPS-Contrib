@@ -34,6 +34,7 @@ public class LayeredLayouter {
     NodeLayers layers = myLayerer.computeLayers(graph);
     Map<Edge, List<Edge>> substituteEdgeMap = insertDummyNodes(graph, layers);
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
+
     System.out.println(order);
     BKCoordinatePlacer placer = new BKCoordinatePlacer();
     placer.init(graph, order);
@@ -43,6 +44,11 @@ public class LayeredLayouter {
     }
     Graph blockGraph = placer.createBlockGraph(order, roots);
     System.out.println(blockGraph.toString());
+    try {
+      new BlockGraphProcessor().process(blockGraph);
+    } catch (Exception e) {
+      throw new RuntimeException("botva ^(", e);
+    }
     Map<Node, Point> nodeCoordinates = myPlacer.placeCoordinates(graph, order);
     GraphLayout graphLayout = new GraphLayout(graph);
     for (Edge deletedEdge : SetSequence.fromSet(MapSequence.fromMap(substituteEdgeMap).keySet())) {
