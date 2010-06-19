@@ -19,6 +19,8 @@ import jetbrains.mps.smodel.IOperationContext;
 import jetbrains.mps.nodeEditor.EditorManager;
 import jetbrains.mps.smodel.IScope;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptPropertyOperations;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.editor.cellProviders.RefNodeListHandler;
 import jetbrains.mps.smodel.action.NodeFactoryManager;
 import jetbrains.mps.nodeEditor.CellActionType;
@@ -50,10 +52,11 @@ public class RunConfigurationBody extends AbstractCellProvider {
     editorCell.addEditorCell(this.createConstant_mrxxs6_f0(editorContext, node));
     editorCell.addEditorCell(this.createRefNode_mrxxs6_g0(editorContext, node));
     editorCell.addEditorCell(this.createConstant_mrxxs6_h0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_mrxxs6_i0(editorContext, node));
-    editorCell.addEditorCell(this.createCollection_mrxxs6_j0(editorContext, node));
-    editorCell.addEditorCell(this.createConstant_mrxxs6_k0(editorContext, node));
-    editorCell.addEditorCell(this.createRefNode_mrxxs6_l0(editorContext, node));
+    if (renderingCondition_mrxxs6_a8a(node, editorContext, editorContext.getOperationContext().getScope())) {
+      editorCell.addEditorCell(this.createCollection_mrxxs6_i0(editorContext, node));
+    }
+    editorCell.addEditorCell(this.createConstant_mrxxs6_j0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNode_mrxxs6_k0(editorContext, node));
     return editorCell;
   }
 
@@ -74,15 +77,27 @@ public class RunConfigurationBody extends AbstractCellProvider {
     return editorCell;
   }
 
-  private EditorCell createCollection_mrxxs6_j0(EditorContext editorContext, SNode node) {
-    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
-    editorCell.setCellId("Collection_mrxxs6_j0");
+  private EditorCell createCollection_mrxxs6_i0(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createVertical(editorContext, node);
+    editorCell.setCellId("Collection_mrxxs6_i0");
     {
       Style style = editorCell.getStyle();
       style.set(StyleAttributes.SELECTABLE, false);
     }
-    editorCell.addEditorCell(this.createIndentCell_mrxxs6_a9a(editorContext, node));
-    editorCell.addEditorCell(this.createRefNodeList_mrxxs6_b9a(editorContext, node));
+    editorCell.addEditorCell(this.createConstant_mrxxs6_a8a(editorContext, node));
+    editorCell.addEditorCell(this.createCollection_mrxxs6_b8a(editorContext, node));
+    return editorCell;
+  }
+
+  private EditorCell createCollection_mrxxs6_b8a(EditorContext editorContext, SNode node) {
+    EditorCell_Collection editorCell = EditorCell_Collection.createHorizontal(editorContext, node);
+    editorCell.setCellId("Collection_mrxxs6_b8a");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
+    editorCell.addEditorCell(this.createIndentCell_mrxxs6_a1i0(editorContext, node));
+    editorCell.addEditorCell(this.createRefNodeList_mrxxs6_b1i0(editorContext, node));
     return editorCell;
   }
 
@@ -137,16 +152,16 @@ public class RunConfigurationBody extends AbstractCellProvider {
     return editorCell;
   }
 
-  private EditorCell createConstant_mrxxs6_i0(EditorContext editorContext, SNode node) {
-    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "execution parameters:");
-    editorCell.setCellId("Constant_mrxxs6_i0");
+  private EditorCell createConstant_mrxxs6_a8a(EditorContext editorContext, SNode node) {
+    EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "execution parameters (deprecated):");
+    editorCell.setCellId("Constant_mrxxs6_a8a");
     editorCell.setDefaultText("");
     return editorCell;
   }
 
-  private EditorCell createConstant_mrxxs6_k0(EditorContext editorContext, SNode node) {
+  private EditorCell createConstant_mrxxs6_j0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
-    editorCell.setCellId("Constant_mrxxs6_k0");
+    editorCell.setCellId("Constant_mrxxs6_j0");
     editorCell.setDefaultText("");
     return editorCell;
   }
@@ -159,15 +174,15 @@ public class RunConfigurationBody extends AbstractCellProvider {
     return editorCell;
   }
 
-  private EditorCell createRefNodeList_mrxxs6_b9a(EditorContext editorContext, SNode node) {
-    AbstractCellListHandler handler = new RunConfigurationBody.executionParameterListHandler_mrxxs6_b9a(node, "executionParameter", editorContext);
+  private EditorCell createRefNodeList_mrxxs6_b1i0(EditorContext editorContext, SNode node) {
+    AbstractCellListHandler handler = new RunConfigurationBody.executionParameterListHandler_mrxxs6_b1i0(node, "executionParameter", editorContext);
     EditorCell_Collection editorCell = handler.createCells(editorContext, new CellLayout_Vertical(), false);
     editorCell.setCellId("refNodeList_executionParameter");
     editorCell.setRole(handler.getElementRole());
     return editorCell;
   }
 
-  private EditorCell createIndentCell_mrxxs6_a9a(EditorContext editorContext, SNode node) {
+  private EditorCell createIndentCell_mrxxs6_a1i0(EditorContext editorContext, SNode node) {
     EditorCell_Indent result = new EditorCell_Indent(editorContext, node);
     return result;
   }
@@ -240,7 +255,7 @@ public class RunConfigurationBody extends AbstractCellProvider {
     return editorCell;
   }
 
-  private EditorCell createRefNode_mrxxs6_l0(EditorContext editorContext, SNode node) {
+  private EditorCell createRefNode_mrxxs6_k0(EditorContext editorContext, SNode node) {
     CellProviderWithRole provider = new RefNodeCellProvider(node, editorContext);
     provider.setRole("executeBlock");
     provider.setNoTargetText("execute block");
@@ -263,6 +278,10 @@ public class RunConfigurationBody extends AbstractCellProvider {
 
   private static boolean renderingCondition_mrxxs6_a2c0(SNode node, EditorContext editorContext, IScope scope) {
     return !(SConceptPropertyOperations.getBoolean(node, "requiresCustomEditor"));
+  }
+
+  private static boolean renderingCondition_mrxxs6_a8a(SNode node, EditorContext editorContext, IScope scope) {
+    return ListSequence.fromList(SLinkOperations.getTargets(node, "executionParameter", true)).isNotEmpty();
   }
 
   private static class propertyListHandler_mrxxs6_a0 extends RefNodeListHandler {
@@ -303,8 +322,8 @@ public class RunConfigurationBody extends AbstractCellProvider {
     }
   }
 
-  private static class executionParameterListHandler_mrxxs6_b9a extends RefNodeListHandler {
-    public executionParameterListHandler_mrxxs6_b9a(SNode ownerNode, String childRole, EditorContext context) {
+  private static class executionParameterListHandler_mrxxs6_b1i0 extends RefNodeListHandler {
+    public executionParameterListHandler_mrxxs6_b1i0(SNode ownerNode, String childRole, EditorContext context) {
       super(ownerNode, childRole, context, false);
     }
 
