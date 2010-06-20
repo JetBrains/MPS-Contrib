@@ -22,6 +22,6 @@ public class DFSNodeSorter extends Dfs implements INodeSorter {
 
   @Override
   protected void preprocess(Node node) {
-    myLayeredOrder.addLast(node.getIndex(), myNodeLayers.get(node.getIndex()));
+    myLayeredOrder.addLast(node.getIndex(), myNodeLayers.get(node));
   }
 }

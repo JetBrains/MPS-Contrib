@@ -17,11 +17,11 @@ public class LayerByLayerNodeSorter implements INodeSorter {
     NodeLayeredOrder order = initialLayeringOrder(graph, layers);
     for (int iteration = 0; iteration < myNumIterations; iteration++) {
       if (iteration % 2 == 0) {
-        for (int layer = 0; layer < layers.getMaxLayer(); layer++) {
+        for (int layer = 0; layer < order.getNumLayers() - 1; layer++) {
           myLayerSorter.sortLayer(layer + 1, order, Edge.Direction.BACK);
         }
       } else {
-        for (int layer = layers.getMaxLayer(); layer > 0; layer--) {
+        for (int layer = order.getNumLayers() - 1; layer > 0; layer--) {
           myLayerSorter.sortLayer(layer - 1, order, Edge.Direction.FRONT);
         }
       }
