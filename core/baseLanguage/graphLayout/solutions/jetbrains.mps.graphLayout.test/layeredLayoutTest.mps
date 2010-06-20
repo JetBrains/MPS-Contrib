@@ -2621,11 +2621,11 @@
             <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5180427534211903963">
               <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="5180427534211903964">
                 <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="5180427534211903965">
-                  <link role="baseMethodDeclaration:3" targetNodeId="2.4519409331094794630" resolveInfo="BlockGraphProcessor" />
+                  <link role="baseMethodDeclaration:3" targetNodeId="2.5180427534212031824" resolveInfo="BlockGraphProcessor" />
                 </node>
               </node>
               <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="5180427534211903966">
-                <link role="baseMethodDeclaration:3" targetNodeId="2.4519409331094794634" resolveInfo="process" />
+                <link role="baseMethodDeclaration:3" targetNodeId="2.5180427534212031550" resolveInfo="process" />
                 <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="5180427534211903967">
                   <link role="variableDeclaration:3" targetNodeId="5180427534211902525" resolveInfo="blockGraph" />
                 </node>
