@@ -5,7 +5,10 @@ package layeredLayoutTest;
 import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import sampleGraphs.SimpleDirectedGraphs;
-import jetbrains.mps.graphLayout.layeredLayout.NodeLayers;
+import java.util.Map;
+import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.graphLayout.util.NodeMap;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder;
 import jetbrains.mps.graphLayout.layeredLayout.DFSNodeSorter;
 import junit.framework.Assert;
@@ -15,10 +18,10 @@ import sampleGraphs.GraphsForLayers;
 public class DFSNodeSorter_Test extends TestCase {
   public void test_Chain() throws Exception {
     Graph chain = SimpleDirectedGraphs.chain(3);
-    NodeLayers layers = new NodeLayers(chain);
-    layers.set(chain.getNode(0), 0);
-    layers.set(chain.getNode(1), 1);
-    layers.set(chain.getNode(2), 2);
+    Map<Node, Integer> layers = new NodeMap<Integer>(chain);
+    MapSequence.fromMap(layers).put(chain.getNode(0), 0);
+    MapSequence.fromMap(layers).put(chain.getNode(1), 1);
+    MapSequence.fromMap(layers).put(chain.getNode(2), 2);
     NodeLayeredOrder order = new DFSNodeSorter().sortNodes(chain, layers);
     Assert.assertTrue(ListSequence.fromList(order.getOrder(0)).count() == 1);
     Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).count() == 1);
@@ -30,12 +33,12 @@ public class DFSNodeSorter_Test extends TestCase {
 
   public void test_simpleFourLeyers() throws Exception {
     Graph simpleGraph = GraphsForLayers.simpleFourLayersGraph();
-    NodeLayers layers = new NodeLayers(simpleGraph);
-    layers.set(simpleGraph.getNode(0), 0);
-    layers.set(simpleGraph.getNode(1), 1);
-    layers.set(simpleGraph.getNode(2), 2);
-    layers.set(simpleGraph.getNode(3), 3);
-    layers.set(simpleGraph.getNode(4), 1);
+    Map<Node, Integer> layers = new NodeMap<Integer>(simpleGraph);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(0), 0);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(1), 1);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(2), 2);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(3), 3);
+    MapSequence.fromMap(layers).put(simpleGraph.getNode(4), 1);
     NodeLayeredOrder order = new DFSNodeSorter().sortNodes(simpleGraph, layers);
     Assert.assertTrue(ListSequence.fromList(order.getOrder(0)).count() == 1);
     Assert.assertTrue(ListSequence.fromList(order.getOrder(1)).count() == 2);

@@ -6,8 +6,8 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Set;
 import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.Map;
-import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
+import java.util.List;
 import java.awt.Point;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
@@ -31,7 +31,7 @@ public class LayeredLayouter {
 
   public GraphLayout doLayout(Graph graph) {
     Set<Edge> reverted = myReverter.revertEdges(graph);
-    NodeLayers layers = myLayerer.computeLayers(graph);
+    Map<Node, Integer> layers = myLayerer.computeLayers(graph);
     Map<Edge, List<Edge>> substituteEdgeMap = insertDummyNodes(graph, layers);
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
     Map<Node, Point> nodeCoordinates = myPlacer.placeCoordinates(graph, order);
@@ -63,7 +63,7 @@ public class LayeredLayouter {
     return graphLayout;
   }
 
-  public static Map<Edge, List<Edge>> insertDummyNodes(Graph graph, NodeLayers layers) {
+  public static Map<Edge, List<Edge>> insertDummyNodes(Graph graph, Map<Node, Integer> layers) {
     Map<Edge, List<Edge>> substituteMap = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     int numOfRealNodes = graph.getNumNodes();
     for (int index = 0; index < numOfRealNodes; index++) {
@@ -78,7 +78,7 @@ public class LayeredLayouter {
             Node newTarget;
             if (i < targetLayer) {
               newTarget = graph.addDummyNode();
-              layers.set(newTarget, i);
+              MapSequence.fromMap(layers).put(newTarget, i);
             } else {
               newTarget = edge.getTarget();
             }

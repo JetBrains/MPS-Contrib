@@ -30,7 +30,7 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     this.init(graph, order);
     Map<Node, Node> roots = computeBlocks(order);
     Graph blockGraph = this.createBlockGraph(order, roots);
-    NodeLayers layers = new BlockGraphProcessor().process(blockGraph);
+    Map<Node, Integer> layers = new BlockGraphProcessor().process(blockGraph);
     Map<Node, Point> coord = MapSequence.fromMap(new HashMap<Node, Point>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
       MapSequence.fromMap(coord).put(node, new Point(layers.get(MapSequence.fromMap(myBlocks).get(MapSequence.fromMap(roots).get(node))), MapSequence.fromMap(myNumLayer).get(node)));

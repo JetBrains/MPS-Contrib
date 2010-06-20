@@ -6,9 +6,9 @@ import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import visualization.GraphIO;
 import java.util.Scanner;
-import jetbrains.mps.graphLayout.layeredLayout.NodeLayers;
-import jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor;
+import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.graphLayout.layeredLayout.BlockGraphProcessor;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class BlockGraphProcessor_Test extends TestCase {
@@ -29,7 +29,7 @@ public class BlockGraphProcessor_Test extends TestCase {
 
   public void test(String graphString) {
     Graph blockGraph = GraphIO.scanGraph(new Scanner(graphString));
-    NodeLayers layers = new BlockGraphProcessor().process(blockGraph);
+    Map<Node, Integer> layers = new BlockGraphProcessor().process(blockGraph);
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
       System.out.println("node " + node.getIndex() + ": " + layers.get(node));
     }

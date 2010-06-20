@@ -6,12 +6,12 @@ import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import sampleGraphs.RandomGraphGenerator;
 import junit.framework.Assert;
-import jetbrains.mps.graphLayout.layeredLayout.NodeLayers;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.graphLayout.util.NodeMap;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
-import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class TestRandomGraph_Test extends TestCase {
   public void test_threeLayersGraph() throws Exception {
@@ -48,23 +48,22 @@ public class TestRandomGraph_Test extends TestCase {
     RandomGraphGenerator.generateFixedNumLayers(numInLayer, minNumEdges);
   }
 
-  public NodeLayers getLayers(Graph g, int[] numInLayer) {
-    NodeLayers layers = new NodeLayers(g);
+  public Map<Node, Integer> getLayers(Graph g, int[] numInLayer) {
+    Map<Node, Integer> layers = new NodeMap<Integer>(g);
     int cur = 0;
     for (int i = 0; i < numInLayer.length; i++) {
       for (int j = 0; j < numInLayer[i]; j++) {
-        layers.set(g.getNode(cur), i);
+        MapSequence.fromMap(layers).put(g.getNode(cur), i);
         cur++;
       }
     }
     return layers;
   }
 
-  public void testEdges(Graph g, NodeLayers layers) {
-    Map<Node, Integer> nodeLayers = layers.getNodeLayers();
+  public void testEdges(Graph g, Map<Node, Integer> layers) {
     for (Node node : ListSequence.fromList(g.getNodes())) {
       for (Edge edge : ListSequence.fromList(node.getInEdges())) {
-        Assert.assertTrue(MapSequence.fromMap(nodeLayers).get(edge.getSource()) < MapSequence.fromMap(nodeLayers).get(edge.getTarget()));
+        Assert.assertTrue(MapSequence.fromMap(layers).get(edge.getSource()) < MapSequence.fromMap(layers).get(edge.getTarget()));
       }
     }
   }

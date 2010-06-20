@@ -19,12 +19,12 @@ public class BlockGraphProcessor {
   private Map<Node, Integer> myNumInEdges;
   private int[] myShift;
   private int myMaxClass;
-  private NodeLayers myLayers;
+  private Map<Node, Integer> myLayers;
 
   public BlockGraphProcessor() {
   }
 
-  public NodeLayers process(Graph blockGraph) {
+  public Map<Node, Integer> process(Graph blockGraph) {
     myMaxClass = 0;
     myClasses = new NodeMap<Integer>(blockGraph);
     myNumInEdges = new NodeMap<Integer>(blockGraph);
@@ -32,7 +32,7 @@ public class BlockGraphProcessor {
     finder.doDfs(blockGraph);
     int curClass = 1;
     myShift = new int[myMaxClass + 1];
-    myLayers = new NodeLayers(blockGraph);
+    myLayers = new NodeMap<Integer>(blockGraph);
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
       if (MapSequence.fromMap(myClasses).get(node) == curClass) {
         processClass(node);
@@ -44,11 +44,11 @@ public class BlockGraphProcessor {
     }
     int minPos = Integer.MAX_VALUE;
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      myLayers.set(node, myLayers.get(node) + myShift[MapSequence.fromMap(myClasses).get(node)]);
+      MapSequence.fromMap(myLayers).put(node, MapSequence.fromMap(myLayers).get(node) + myShift[MapSequence.fromMap(myClasses).get(node)]);
       minPos = Math.min(minPos, myLayers.get(node));
     }
     for (Node node : ListSequence.fromList(blockGraph.getNodes())) {
-      myLayers.set(node, myLayers.get(node) - minPos);
+      MapSequence.fromMap(myLayers).put(node, MapSequence.fromMap(myLayers).get(node) - minPos);
     }
     return myLayers;
   }
@@ -56,7 +56,7 @@ public class BlockGraphProcessor {
   private void processClass(Node node) {
     Queue<Node> queue = QueueSequence.fromQueue(new LinkedList<Node>());
     QueueSequence.fromQueue(queue).addLastElement(node);
-    myLayers.set(node, 0);
+    MapSequence.fromMap(myLayers).put(node, 0);
     int nodeClass = MapSequence.fromMap(myClasses).get(node);
     myShift[nodeClass] = Integer.MAX_VALUE;
     while (QueueSequence.fromQueue(queue).count() > 0) {
@@ -66,7 +66,7 @@ public class BlockGraphProcessor {
         if (MapSequence.fromMap(myClasses).get(node) == MapSequence.fromMap(myClasses).get(target)) {
           MapSequence.fromMap(myNumInEdges).put(target, MapSequence.fromMap(myNumInEdges).get(target) - 1);
           if (MapSequence.fromMap(myNumInEdges).get(target) == 0) {
-            myLayers.set(target, myLayers.get(cur) + 1);
+            MapSequence.fromMap(myLayers).put(target, MapSequence.fromMap(myLayers).get(cur) + 1);
             QueueSequence.fromQueue(queue).addLastElement(target);
           }
         } else {

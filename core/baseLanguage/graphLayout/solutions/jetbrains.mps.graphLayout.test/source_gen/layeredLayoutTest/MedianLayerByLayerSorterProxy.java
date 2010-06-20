@@ -7,7 +7,8 @@ import jetbrains.mps.graphLayout.layeredLayout.LayerByLayerNodeSorter;
 import jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter;
 import jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder;
 import jetbrains.mps.graphLayout.graph.Graph;
-import jetbrains.mps.graphLayout.layeredLayout.NodeLayers;
+import java.util.Map;
+import jetbrains.mps.graphLayout.graph.Node;
 import junit.framework.Assert;
 
 public class MedianLayerByLayerSorterProxy implements INodeSorter {
@@ -17,7 +18,7 @@ public class MedianLayerByLayerSorterProxy implements INodeSorter {
     mySorter = new LayerByLayerNodeSorter(new MedianLayerSorter());
   }
 
-  public NodeLayeredOrder sortNodes(Graph graph, NodeLayers layers) {
+  public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> layers) {
     NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
     Assert.assertFalse(CheckDummyEdgesCrossing.hasCrosses(order));
     return order;

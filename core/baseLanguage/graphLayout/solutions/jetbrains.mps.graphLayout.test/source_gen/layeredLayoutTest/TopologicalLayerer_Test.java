@@ -5,10 +5,9 @@ package layeredLayoutTest;
 import junit.framework.TestCase;
 import jetbrains.mps.graphLayout.graph.Graph;
 import sampleGraphs.SimpleDirectedGraphs;
-import jetbrains.mps.graphLayout.layeredLayout.NodeLayers;
-import jetbrains.mps.graphLayout.layeredLayout.TopologicalLayerer;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.graphLayout.layeredLayout.TopologicalLayerer;
 import junit.framework.Assert;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import sampleGraphs.GraphsForLayers;
@@ -16,23 +15,20 @@ import sampleGraphs.GraphsForLayers;
 public class TopologicalLayerer_Test extends TestCase {
   public void test_chain1() throws Exception {
     Graph chain = SimpleDirectedGraphs.chain(1);
-    NodeLayers nodeLayers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
-    Map<Node, Integer> layers = nodeLayers.getNodeLayers();
+    Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
     Assert.assertTrue(MapSequence.fromMap(layers).get(chain.getNode(0)) == 0);
   }
 
   public void test_chain2() throws Exception {
     Graph chain = SimpleDirectedGraphs.chain(2);
-    NodeLayers nodeLayers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
-    Map<Node, Integer> layers = nodeLayers.getNodeLayers();
+    Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
     Assert.assertTrue(MapSequence.fromMap(layers).get(chain.getNode(0)) == 0);
     Assert.assertTrue(MapSequence.fromMap(layers).get(chain.getNode(1)) == 1);
   }
 
   public void test_chain3() throws Exception {
     Graph chain = SimpleDirectedGraphs.chain(3);
-    NodeLayers nodeLayers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
-    Map<Node, Integer> layers = nodeLayers.getNodeLayers();
+    Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(chain);
     Assert.assertTrue(MapSequence.fromMap(layers).get(chain.getNode(0)) == 0);
     Assert.assertTrue(MapSequence.fromMap(layers).get(chain.getNode(1)) == 1);
     Assert.assertTrue(MapSequence.fromMap(layers).get(chain.getNode(2)) == 2);
@@ -40,8 +36,7 @@ public class TopologicalLayerer_Test extends TestCase {
 
   public void test_triangle() throws Exception {
     Graph triangle = SimpleDirectedGraphs.triangle();
-    NodeLayers nodeLayers = new LayererProxy(new TopologicalLayerer()).computeLayers(triangle);
-    Map<Node, Integer> layers = nodeLayers.getNodeLayers();
+    Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(triangle);
     Assert.assertTrue(MapSequence.fromMap(layers).get(triangle.getNode(0)) == 0);
     Assert.assertTrue(MapSequence.fromMap(layers).get(triangle.getNode(1)) == 1);
     Assert.assertTrue(MapSequence.fromMap(layers).get(triangle.getNode(2)) == 2);
@@ -59,8 +54,7 @@ public class TopologicalLayerer_Test extends TestCase {
 
   public void test_sandwatches() throws Exception {
     Graph sandwatches = SimpleDirectedGraphs.sandwatches();
-    NodeLayers nodeLayers = new LayererProxy(new TopologicalLayerer()).computeLayers(sandwatches);
-    Map<Node, Integer> layers = nodeLayers.getNodeLayers();
+    Map<Node, Integer> layers = new LayererProxy(new TopologicalLayerer()).computeLayers(sandwatches);
     Assert.assertTrue(MapSequence.fromMap(layers).get(sandwatches.getNode(0)) == 0);
     Assert.assertTrue(MapSequence.fromMap(layers).get(sandwatches.getNode(1)) == 0);
     Assert.assertTrue(MapSequence.fromMap(layers).get(sandwatches.getNode(2)) == 1);
@@ -71,8 +65,7 @@ public class TopologicalLayerer_Test extends TestCase {
 
   public void test_simpleFourLayers() throws Exception {
     Graph simpleGraph = GraphsForLayers.simpleFourLayersGraph();
-    NodeLayers nodeLayers = new TopologicalLayerer().computeLayers(simpleGraph);
-    Map<Node, Integer> layers = nodeLayers.getNodeLayers();
+    Map<Node, Integer> layers = new TopologicalLayerer().computeLayers(simpleGraph);
     Assert.assertTrue(MapSequence.fromMap(layers).get(simpleGraph.getNode(0)) == 0);
     Assert.assertTrue(MapSequence.fromMap(layers).get(simpleGraph.getNode(1)) == 1);
     Assert.assertTrue(MapSequence.fromMap(layers).get(simpleGraph.getNode(2)) == 2);
