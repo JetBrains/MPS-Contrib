@@ -29,8 +29,9 @@ public abstract class Dfs {
     }
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
-        processRoot();
+        preprocessRoot();
         dfs(node);
+        postprocessRoot();
       }
     }
   }
@@ -49,7 +50,10 @@ public abstract class Dfs {
     MapSequence.fromMap(myDfsState).put(node, AFTER);
   }
 
-  protected void processRoot() {
+  protected void preprocessRoot() {
+  }
+
+  protected void postprocessRoot() {
   }
 
   protected void preprocess(Node node) {

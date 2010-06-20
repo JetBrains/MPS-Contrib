@@ -2264,40 +2264,6 @@
             <link role="baseMethodDeclaration:3" targetNodeId="1567683135099907761" resolveInfo="createGraphPanel" />
           </node>
         </node>
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock:3" id="1567683135099907872">
-          <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1567683135099907873">
-            <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="1567683135099907874">
-              <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907875">
-                <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907876">
-                  <link role="baseMethodDeclaration:3" targetNodeId="4.4660430665333276834" resolveInfo="LayeredLayouter" />
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907877">
-                    <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907878">
-                      <link role="baseMethodDeclaration:3" targetNodeId="4.4660430665333276850" resolveInfo="DFSEdgeReverter" />
-                    </node>
-                  </node>
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907879">
-                    <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907880">
-                      <link role="baseMethodDeclaration:3" targetNodeId="4.8567569493821114468" resolveInfo="BFSLayerer" />
-                    </node>
-                  </node>
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907881">
-                    <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907882">
-                      <link role="baseMethodDeclaration:3" targetNodeId="4.3256072703923740071" resolveInfo="AsIsCoordinatePlacer" />
-                    </node>
-                  </node>
-                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907883">
-                    <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="1567683135099907884">
-                      <link role="baseMethodDeclaration:3" targetNodeId="4.4666079041336346282" resolveInfo="DFSNodeSorter" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node role="lValue:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="1567683135099907885">
-                <link role="variableDeclaration:3" targetNodeId="1567683135099907327" resolveInfo="myLayouter" />
-              </node>
-            </node>
-          </node>
-        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1567683135099907886">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.AssignmentExpression:3" id="1567683135099907887">
             <node role="rValue:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="1567683135099907888">
@@ -2318,7 +2284,7 @@
                     <link role="baseMethodDeclaration:3" targetNodeId="11.4519409331094620045" resolveInfo="LayererProxy" />
                     <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4519409331094638015">
                       <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="4519409331094638016">
-                        <link role="baseMethodDeclaration:3" targetNodeId="4.8567569493821114468" resolveInfo="BFSLayerer" />
+                        <link role="baseMethodDeclaration:3" targetNodeId="4.5180427534212021893" resolveInfo="TopologicalLayerer" />
                       </node>
                     </node>
                   </node>

@@ -80,7 +80,7 @@
   </node>
   <visible index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" />
   <node type="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" id="1567683135099906087">
-    <property name="testCaseName" value="BFSLayerer" />
+    <property name="testCaseName" value="TopologicalLayerer" />
     <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1567683135099906088" />
     <node role="constructor" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="1567683135099906089">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1567683135099906090" />

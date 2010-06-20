@@ -81,7 +81,7 @@ public class NodeMap<V> implements Map<Node, V> {
   @Override
   public String toString() {
     StringBuilder builder = new StringBuilder();
-    builder.append("node map:");
+    builder.append("node map:\n");
     for (int i = 0; i < myMap.size(); i++) {
       builder.append(i + " -> " + myMap.get(i) + "\n");
     }
