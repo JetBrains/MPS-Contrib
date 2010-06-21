@@ -442,9 +442,8 @@
                       <link role="classifier:3" targetNodeId="1567683135099907102" resolveInfo="TestPanel" />
                       <link role="variableDeclaration:3" targetNodeId="1567683135099907849" resolveInfo="NSIZE" />
                     </node>
-                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1567683135099907125">
-                      <link role="classifier:3" targetNodeId="1567683135099907102" resolveInfo="TestPanel" />
-                      <link role="variableDeclaration:3" targetNodeId="1567683135099907845" resolveInfo="SCALE" />
+                    <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="8780938838750213643">
+                      <property name="value:3" value="40" />
                     </node>
                   </node>
                 </node>
@@ -462,9 +461,8 @@
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1567683135099907132">
                     <property name="name:3" value="xOffset" />
                     <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="1567683135099907133" />
-                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1567683135099907134">
-                      <link role="classifier:3" targetNodeId="1567683135099907102" resolveInfo="TestPanel" />
-                      <link role="variableDeclaration:3" targetNodeId="1567683135099907845" resolveInfo="SCALE" />
+                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="8780938838750213561">
+                      <property name="value:3" value="40" />
                     </node>
                   </node>
                 </node>
@@ -472,9 +470,8 @@
                   <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="1567683135099907136">
                     <property name="name:3" value="yOffset" />
                     <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="1567683135099907137" />
-                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1567683135099907138">
-                      <link role="classifier:3" targetNodeId="1567683135099907102" resolveInfo="TestPanel" />
-                      <link role="variableDeclaration:3" targetNodeId="1567683135099907845" resolveInfo="SCALE" />
+                    <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="8780938838750213563">
+                      <property name="value:3" value="40" />
                     </node>
                   </node>
                 </node>
@@ -603,8 +600,8 @@
                                         </node>
                                       </node>
                                       <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1567683135099907194">
-                                        <link role="variableDeclaration:3" targetNodeId="1567683135099907845" resolveInfo="SCALE" />
                                         <link role="classifier:3" targetNodeId="1567683135099907102" resolveInfo="TestPanel" />
+                                        <link role="variableDeclaration:3" targetNodeId="8780938838750213476" resolveInfo="SCALE_Y" />
                                       </node>
                                     </node>
                                   </node>
@@ -641,8 +638,8 @@
                                         </node>
                                       </node>
                                       <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1567683135099907208">
-                                        <link role="variableDeclaration:3" targetNodeId="1567683135099907845" resolveInfo="SCALE" />
                                         <link role="classifier:3" targetNodeId="1567683135099907102" resolveInfo="TestPanel" />
+                                        <link role="variableDeclaration:3" targetNodeId="8780938838750213476" resolveInfo="SCALE_Y" />
                                       </node>
                                     </node>
                                   </node>
@@ -754,8 +751,8 @@
                                 </node>
                               </node>
                               <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldReference:3" id="1567683135099907252">
-                                <link role="variableDeclaration:3" targetNodeId="1567683135099907845" resolveInfo="SCALE" />
                                 <link role="classifier:3" targetNodeId="1567683135099907102" resolveInfo="TestPanel" />
+                                <link role="variableDeclaration:3" targetNodeId="8780938838750213476" resolveInfo="SCALE_Y" />
                               </node>
                             </node>
                           </node>
@@ -2211,10 +2208,18 @@
       </node>
     </node>
     <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="1567683135099907845">
-      <property name="name:3" value="SCALE" />
+      <property name="name:3" value="SCALE_X" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="1567683135099907846" />
       <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="1567683135099907847" />
       <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="1567683135099907848">
+        <property name="value:3" value="20" />
+      </node>
+    </node>
+    <node role="staticField:3" type="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration:3" id="8780938838750213476">
+      <property name="name:3" value="SCALE_Y" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="8780938838750213477" />
+      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="8780938838750213479" />
+      <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="8780938838750213481">
         <property name="value:3" value="40" />
       </node>
     </node>

@@ -42,7 +42,8 @@ import java.awt.Color;
 
 public class TestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
-  private static int SCALE = 40;
+  private static int SCALE_X = 20;
+  private static int SCALE_Y = 40;
   private static int NSIZE = 20;
 
   private JTextArea myTextArea;
@@ -197,24 +198,24 @@ public class TestPanel extends JPanel {
     @Override
     public void paintComponent(Graphics graphics) {
       if (myCurrentLayout == null) {
-        graphics.drawString("no graph yet", TestPanel.NSIZE, TestPanel.SCALE);
+        graphics.drawString("no graph yet", TestPanel.NSIZE, 40);
       } else {
-        int xOffset = TestPanel.SCALE;
-        int yOffset = TestPanel.SCALE;
+        int xOffset = 40;
+        int yOffset = 40;
         Map<Node, Point> nodeLayout = myCurrentLayout.getNodeLayout();
         Map<Edge, List<Point>> edgeLayout = myCurrentLayout.getEdgeLayout();
         for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(edgeLayout).keySet())) {
           Point cur = null;
           for (Point point : ListSequence.fromList(MapSequence.fromMap(edgeLayout).get(edge))) {
             if (cur != null) {
-              graphics.drawLine(cur.x * TestPanel.SCALE + xOffset, cur.y * TestPanel.SCALE + yOffset, point.x * TestPanel.SCALE + xOffset, point.y * TestPanel.SCALE + yOffset);
+              graphics.drawLine(cur.x * TestPanel.SCALE_X + xOffset, cur.y * TestPanel.SCALE_Y + yOffset, point.x * TestPanel.SCALE_X + xOffset, point.y * TestPanel.SCALE_Y + yOffset);
             }
             cur = point;
           }
         }
         for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeLayout).keySet())) {
-          int x = xOffset + (MapSequence.fromMap(nodeLayout).get(node).x) * TestPanel.SCALE - TestPanel.NSIZE / 2;
-          int y = yOffset + (MapSequence.fromMap(nodeLayout).get(node).y) * TestPanel.SCALE - TestPanel.NSIZE / 2;
+          int x = xOffset + (MapSequence.fromMap(nodeLayout).get(node).x) * TestPanel.SCALE_X - TestPanel.NSIZE / 2;
+          int y = yOffset + (MapSequence.fromMap(nodeLayout).get(node).y) * TestPanel.SCALE_Y - TestPanel.NSIZE / 2;
           Color oldColor = graphics.getColor();
           graphics.setColor(myGraphLabel.getBackground());
           graphics.fillOval(x, y, TestPanel.NSIZE, TestPanel.NSIZE);

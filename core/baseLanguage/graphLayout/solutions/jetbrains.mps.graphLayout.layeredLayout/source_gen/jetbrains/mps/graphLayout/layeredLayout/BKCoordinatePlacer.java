@@ -11,8 +11,9 @@ import java.awt.Point;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.util.NodeMap;
+import jetbrains.mps.internal.collections.runtime.ISelector;
 import java.util.Iterator;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.SetSequence;
@@ -46,10 +47,48 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
     ListSequence.fromList(xCoords).addElement(computeCoords(TOP_TO_BOTTOM, RIGHTMOST));
     ListSequence.fromList(xCoords).addElement(computeCoords(BOTTOM_TO_TOP, LEFTMOST));
     ListSequence.fromList(xCoords).addElement(computeCoords(BOTTOM_TO_TOP, RIGHTMOST));
+    List<Integer> maxCoord = ListSequence.fromList(new ArrayList<Integer>());
+    int minMaxCoord = Integer.MAX_VALUE;
+    List<Node> nodes = graph.getNodes();
+    for (Map<Node, Integer> coords : ListSequence.fromList(xCoords)) {
+      int curMaxCoord = 0;
+      for (Node node : ListSequence.fromList(nodes)) {
+        curMaxCoord = Math.max(curMaxCoord, MapSequence.fromMap(coords).get(node));
+      }
+      minMaxCoord = Math.min(minMaxCoord, curMaxCoord);
+      ListSequence.fromList(maxCoord).addElement(curMaxCoord);
+    }
+    List<Integer> shifts = ListSequence.fromList(new ArrayList<Integer>());
+    for (int i = 0; i < ListSequence.fromList(xCoords).count(); i++) {
+      if (i % 2 == 0) {
+        ListSequence.fromList(shifts).addElement(0);
+      } else {
+        ListSequence.fromList(shifts).addElement(minMaxCoord - ListSequence.fromList(maxCoord).getElement(i));
+      }
+    }
+    Map<Node, Integer> finalXCoord = new NodeMap<Integer>(graph);
+    for (Node node : ListSequence.fromList(nodes)) {
+      List<Integer> nodeXCoords = ListSequence.fromList(new ArrayList<Integer>());
+      for (int i = 0; i < ListSequence.fromList(xCoords).count(); i++) {
+        ListSequence.fromList(nodeXCoords).addElement(MapSequence.fromMap(ListSequence.fromList(xCoords).getElement(i)).get(node) + ListSequence.fromList(shifts).getElement(i));
+      }
+      nodeXCoords = ListSequence.fromList(nodeXCoords).sort(new ISelector<Integer, Comparable<?>>() {
+        public Comparable<?> select(Integer it) {
+          return it;
+        }
+      }, true).toListSequence();
+      MapSequence.fromMap(finalXCoord).put(node, ListSequence.fromList(nodeXCoords).getElement(1) + ListSequence.fromList(nodeXCoords).getElement(2));
+    }
+    int minXCoord = Integer.MAX_VALUE;
+    for (Node node : ListSequence.fromList(nodes)) {
+      minXCoord = Math.min(minXCoord, MapSequence.fromMap(finalXCoord).get(node));
+    }
+    for (Node node : ListSequence.fromList(nodes)) {
+      MapSequence.fromMap(finalXCoord).put(node, MapSequence.fromMap(finalXCoord).get(node) - minXCoord);
+    }
     Map<Node, Point> coord = new NodeMap<Point>(graph);
-    for (Node node : ListSequence.fromList(graph.getNodes())) {
-      Map<Node, Integer> layers = ListSequence.fromList(xCoords).getElement(1);
-      MapSequence.fromMap(coord).put(node, new Point(MapSequence.fromMap(layers).get(node), MapSequence.fromMap(myNumLayer).get(node)));
+    for (Node node : ListSequence.fromList(nodes)) {
+      MapSequence.fromMap(coord).put(node, new Point(MapSequence.fromMap(finalXCoord).get(node), MapSequence.fromMap(myNumLayer).get(node)));
     }
     return coord;
   }
@@ -148,7 +187,6 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
         }
       }
     }
-    System.out.println(badEdges);
     return badEdges;
   }
 
@@ -218,6 +256,11 @@ public class BKCoordinatePlacer implements ICoordinatePlacer {
           ListSequence.fromList(candidates).addElement(ListSequence.fromList(sortedByPos).getElement((ListSequence.fromList(sortedByPos).count() - 1) / 2));
           ListSequence.fromList(candidates).addElement(ListSequence.fromList(sortedByPos).getElement(ListSequence.fromList(sortedByPos).count() / 2));
           if (layerDirection != LEFTMOST) {
+            candidates = ListSequence.fromList(candidates).reversedList();
+          }
+          boolean hasDummy0 = ListSequence.fromList(candidates).getElement(0).getSource().isDummy() || ListSequence.fromList(candidates).getElement(0).getTarget().isDummy();
+          boolean hasDummy1 = ListSequence.fromList(candidates).getElement(1).getSource().isDummy() || ListSequence.fromList(candidates).getElement(1).getTarget().isDummy();
+          if (hasDummy1 && !(hasDummy0)) {
             candidates = ListSequence.fromList(candidates).reversedList();
           }
           for (Edge candidate : ListSequence.fromList(candidates)) {
