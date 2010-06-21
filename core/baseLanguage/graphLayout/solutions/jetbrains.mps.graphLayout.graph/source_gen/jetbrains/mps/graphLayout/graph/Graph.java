@@ -47,7 +47,7 @@ public class Graph {
     StringBuilder result = new StringBuilder();
     result.append("Graph " + super.toString() + " with " + this.getNumNodes() + " nodes:\n");
     for (Node node : ListSequence.fromList(this.getNodes())) {
-      result.append("node " + node.getIndex() + ": \n");
+      result.append("node " + node + ": \n");
       result.append("  out edges:\n");
       for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
         result.append(edge + ", ");

@@ -57,4 +57,9 @@ public class Node {
   public boolean isDummy() {
     return myIsDummy;
   }
+
+  @Override
+  public String toString() {
+    return Integer.toString(myIndex);
+  }
 }

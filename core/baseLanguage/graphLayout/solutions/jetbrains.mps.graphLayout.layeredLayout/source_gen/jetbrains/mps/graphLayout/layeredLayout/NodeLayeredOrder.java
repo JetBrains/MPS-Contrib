@@ -7,7 +7,7 @@ import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import jetbrains.mps.internal.collections.runtime.ISelector;
+import java.util.Iterator;
 
 public class NodeLayeredOrder {
   private List<List<Node>> myLayeredOrder;
@@ -39,14 +39,6 @@ public class NodeLayeredOrder {
     return ListSequence.fromList(myLayeredOrder).getElement(layer);
   }
 
-  public List<Integer> getIntOrder(int layer) {
-    return ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).select(new ISelector<Node, Integer>() {
-      public Integer select(Node it) {
-        return it.getIndex();
-      }
-    }).toListSequence();
-  }
-
   public int getNumLayers() {
     return ListSequence.fromList(myLayeredOrder).count();
   }
@@ -67,5 +59,13 @@ public class NodeLayeredOrder {
     }
     builder.append("end order");
     return builder.toString();
+  }
+
+  public Iterator<List<Node>> getTopToBottomIterator() {
+    return ListSequence.fromList(myLayeredOrder).iterator();
+  }
+
+  public Iterator<List<Node>> getBottomToTopIterator() {
+    return ListSequence.fromList(myLayeredOrder).reversedList().iterator();
   }
 }

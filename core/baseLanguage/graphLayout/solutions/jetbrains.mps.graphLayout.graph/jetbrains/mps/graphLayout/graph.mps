@@ -15,6 +15,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590334(jetbrains.mps.baseLanguage.closures.constraints)" version="2" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="f:java_stub#java.util(java.util@java_stub)" version="-1" />
+  <visible index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="4671312709908983848">
     <property name="name:3" value="Node" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="8567569493821112323">
@@ -319,8 +320,28 @@
         </node>
       </node>
     </node>
+    <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="8780938838750190861">
+      <property name="name:3" value="toString" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8780938838750190862" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="8780938838750190863">
+        <link role="classifier:3" targetNodeId="2v.~String" resolveInfo="String" />
+      </node>
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8780938838750190864">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="8780938838750190868">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8780938838750190873">
+            <link role="classConcept:3" targetNodeId="2v.~Integer" resolveInfo="Integer" />
+            <link role="baseMethodDeclaration:3" targetNodeId="2v.~Integer.toString(int):java.lang.String" resolveInfo="toString" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceFieldReference:3" id="8780938838750190874">
+              <link role="variableDeclaration:3" targetNodeId="8567569493821112294" resolveInfo="myIndex" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="annotation:3" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="8780938838750190865">
+        <link role="annotation:3" targetNodeId="2v.~Override" />
+      </node>
+    </node>
   </node>
-  <visible index="2" modelUID="f:java_stub#java.lang(java.lang@java_stub)" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="8567569493821103292">
     <property name="name:3" value="Edge" />
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="8567569493821107717">
@@ -885,13 +906,8 @@
                       <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4519409331094617267">
                         <property name="value:3" value="node " />
                       </node>
-                      <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="4519409331094617268">
-                        <node role="operand:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="4519409331094617269">
-                          <link role="variable:7" targetNodeId="4519409331094617255" resolveInfo="node" />
-                        </node>
-                        <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="4519409331094617270">
-                          <link role="baseMethodDeclaration:3" targetNodeId="4660430665333281569" resolveInfo="getIndex" />
-                        </node>
+                      <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference:7" id="4519409331094617269">
+                        <link role="variable:7" targetNodeId="4519409331094617255" resolveInfo="node" />
                       </node>
                     </node>
                   </node>

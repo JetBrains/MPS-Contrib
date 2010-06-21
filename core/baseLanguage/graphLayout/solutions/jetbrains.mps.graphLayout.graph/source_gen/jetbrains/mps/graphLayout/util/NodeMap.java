@@ -8,12 +8,16 @@ import java.util.ArrayList;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Set;
 import java.util.Collection;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import java.util.HashSet;
 
 public class NodeMap<V> implements Map<Node, V> {
   private ArrayList<V> myMap;
+  private Graph myGraph;
 
   public NodeMap(Graph graph) {
     myMap = new ArrayList<V>();
+    myGraph = graph;
   }
 
   public Set<Map.Entry<Node, V>> entrySet() {
@@ -21,10 +25,17 @@ public class NodeMap<V> implements Map<Node, V> {
   }
 
   public Collection<V> values() {
-    throw new RuntimeException("method is not implemented");
+    return myMap;
   }
 
   public Set<Node> keySet() {
+    /*
+      Set<Node> res = SetSequence.fromSet(new HashSet<Node>());
+      for (int i = 0; i < myMap.size(); i++) {
+        res.add(myGraph.getNode(i));
+      }
+      return res;
+    */
     throw new RuntimeException("method is not implemented");
   }
 
