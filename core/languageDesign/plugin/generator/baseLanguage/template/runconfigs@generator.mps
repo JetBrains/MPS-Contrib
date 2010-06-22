@@ -3191,7 +3191,7 @@
                     </node>
                   </node>
                   <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="8255351389869499385">
-                    <property name="name:3" value="p" />
+                    <property name="name:3" value="project" />
                     <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="8255351389869499386">
                       <link role="classifier:3" targetNodeId="12.~Project" resolveInfo="Project" />
                     </node>
