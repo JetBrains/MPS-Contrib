@@ -29,7 +29,7 @@ public class DFSEdgeReverter extends Dfs implements IEdgeReverter {
   }
 
   @Override
-  protected void processEdge(Edge edge) {
+  protected void processEdge(Edge edge, Node source) {
     Node target = edge.getTarget();
     int state = MapSequence.fromMap(getDfsState()).get(target);
     if (state == Dfs.DURING) {

@@ -22,7 +22,9 @@ public class Node {
   public Edge addEdgeTo(Node target) {
     Edge edge = new Edge(this, target);
     this.addOutEdge(edge);
-    target.addInEdge(edge);
+    if (target != this) {
+      target.addInEdge(edge);
+    }
     return edge;
   }
 
@@ -37,6 +39,8 @@ public class Node {
   public List<Edge> getEdges(Edge.Direction dir) {
     if (dir == Edge.Direction.FRONT) {
       return getOutEdges();
+    } else if (dir == Edge.Direction.BOTH) {
+      return ListSequence.fromList(getOutEdges()).concat(ListSequence.fromList(getInEdges())).toListSequence();
     } else {
       return getInEdges();
     }

@@ -4,18 +4,23 @@ package jetbrains.mps.graphLayout.layeredLayout;
 
 import java.util.List;
 import jetbrains.mps.graphLayout.graph.Node;
+import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
+import jetbrains.mps.graphLayout.util.NodeMap;
+import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.Iterator;
 
 public class NodeLayeredOrder {
   private List<List<Node>> myLayeredOrder;
+  private Map<Node, Integer> myPosInLayer;
   private Graph myGraph;
 
   public NodeLayeredOrder(Graph graph) {
     myGraph = graph;
     myLayeredOrder = ListSequence.fromList(new ArrayList<List<Node>>());
+    myPosInLayer = new NodeMap<Integer>(graph);
   }
 
   public void addLast(Node node, int layer) {
@@ -24,15 +29,24 @@ public class NodeLayeredOrder {
         ListSequence.fromList(myLayeredOrder).addElement(ListSequence.fromList(new ArrayList<Node>()));
       }
     }
+    MapSequence.fromMap(myPosInLayer).put(node, ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).count());
     ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).addElement(node);
   }
 
   public void setLayer(List<Node> nodes, int layer) {
     ListSequence.fromList(myLayeredOrder).setElement(layer, nodes);
+    for (int i = 0; i < ListSequence.fromList(nodes).count(); i++) {
+      MapSequence.fromMap(myPosInLayer).put(ListSequence.fromList(nodes).getElement(i), i);
+    }
   }
 
-  public void addLast(int index, int layer) {
-    addLast(myGraph.getNode(index), layer);
+  public void set(int layer, Node node, int pos) {
+    ListSequence.fromList(ListSequence.fromList(myLayeredOrder).getElement(layer)).setElement(pos, node);
+    MapSequence.fromMap(myPosInLayer).put(node, pos);
+  }
+
+  public Map<Node, Integer> getPosInLayer() {
+    return myPosInLayer;
   }
 
   public List<Node> getOrder(int layer) {

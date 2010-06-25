@@ -81,13 +81,12 @@ public class BlockGraphProcessor {
     }
 
     @Override
-    protected void preprocess(Node node) {
+    protected void preprocess(Node node, Edge from) {
       MapSequence.fromMap(myClasses).put(node, myMaxClass);
     }
 
     @Override
-    protected void processEdge(Edge edge) {
-      Node source = edge.getSource();
+    protected void processEdge(Edge edge, Node source) {
       Node target = edge.getTarget();
       if (MapSequence.fromMap(myClasses).get(target) == null || MapSequence.fromMap(myClasses).get(source) == MapSequence.fromMap(myClasses).get(target)) {
         if (MapSequence.fromMap(myNumInEdges).get(target) == null) {

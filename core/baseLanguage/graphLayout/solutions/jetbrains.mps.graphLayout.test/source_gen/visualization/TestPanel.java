@@ -16,6 +16,7 @@ import layeredLayoutTest.LayererProxy;
 import jetbrains.mps.graphLayout.layeredLayout.TopologicalLayerer;
 import jetbrains.mps.graphLayout.layeredLayout.BKCoordinatePlacer;
 import layeredLayoutTest.MedianLayerByLayerSorterProxy;
+import layeredLayoutTest.RefineAdjacentNodeSorterProxy;
 import javax.swing.BorderFactory;
 import java.awt.GridBagConstraints;
 import javax.swing.JButton;
@@ -61,6 +62,9 @@ public class TestPanel extends JPanel {
     createTextPanel();
     createGraphPanel();
     myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new TopologicalLayerer()), new BKCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
+    /*
+      myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new TopologicalLayerer()), new BKCoordinatePlacer(), new RefineAdjacentNodeSorterProxy());
+    */
     myCurrentLayout = null;
   }
 

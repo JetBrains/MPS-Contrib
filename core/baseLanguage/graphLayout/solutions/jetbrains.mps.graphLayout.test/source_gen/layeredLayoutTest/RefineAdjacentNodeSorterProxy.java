@@ -4,19 +4,19 @@ package layeredLayoutTest;
 
 import jetbrains.mps.graphLayout.layeredLayout.INodeSorter;
 import jetbrains.mps.graphLayout.layeredLayout.LayerByLayerNodeSorter;
-import jetbrains.mps.graphLayout.layeredLayout.MedianLayerSorter;
-import jetbrains.mps.graphLayout.layeredLayout.DFSNodeSorter;
+import jetbrains.mps.graphLayout.layeredLayout.AdjacentExhangeNodeSorter;
 import jetbrains.mps.graphLayout.layeredLayout.NodeLayeredOrder;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import junit.framework.Assert;
 
-public class MedianLayerByLayerSorterProxy implements INodeSorter {
+public class RefineAdjacentNodeSorterProxy implements INodeSorter {
   private LayerByLayerNodeSorter mySorter;
 
-  public MedianLayerByLayerSorterProxy() {
-    mySorter = new LayerByLayerNodeSorter(new MedianLayerSorter(), new DFSNodeSorter());
+  public RefineAdjacentNodeSorterProxy() {
+    INodeSorter medianSorter = new MedianLayerByLayerSorterProxy();
+    mySorter = new LayerByLayerNodeSorter(new AdjacentExhangeNodeSorter(), medianSorter);
   }
 
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> layers) {

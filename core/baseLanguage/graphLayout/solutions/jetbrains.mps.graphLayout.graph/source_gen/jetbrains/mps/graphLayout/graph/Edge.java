@@ -37,6 +37,16 @@ public class Edge {
     return this.myTarget;
   }
 
+  public Node getOpposite(Node node) {
+    if (node == mySource) {
+      return myTarget;
+    }
+    if (node == myTarget) {
+      return mySource;
+    }
+    throw new RuntimeException("argument is't adjacent to this edge");
+  }
+
   public void removeFromGraph() {
     ListSequence.fromList(mySource.getOutEdges()).removeElement(this);
     ListSequence.fromList(myTarget.getInEdges()).removeElement(this);
@@ -49,7 +59,8 @@ public class Edge {
 
   public static   enum Direction {
     FRONT(),
-    BACK();
+    BACK(),
+    BOTH();
 
     Direction() {
     }

@@ -6,6 +6,7 @@ import jetbrains.mps.graphLayout.algorithms.Dfs;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Graph;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class DFSNodeSorter extends Dfs implements INodeSorter {
@@ -23,7 +24,7 @@ public class DFSNodeSorter extends Dfs implements INodeSorter {
   }
 
   @Override
-  protected void preprocess(Node node) {
-    myLayeredOrder.addLast(node.getIndex(), MapSequence.fromMap(myNodeLayers).get(node));
+  protected void preprocess(Node node, Edge from) {
+    myLayeredOrder.addLast(node, MapSequence.fromMap(myNodeLayers).get(node));
   }
 }

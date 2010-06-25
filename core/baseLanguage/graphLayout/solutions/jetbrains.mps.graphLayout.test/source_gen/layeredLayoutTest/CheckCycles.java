@@ -5,6 +5,7 @@ package layeredLayoutTest;
 import jetbrains.mps.graphLayout.algorithms.Dfs;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 
 public class CheckCycles extends Dfs {
@@ -20,7 +21,7 @@ public class CheckCycles extends Dfs {
   }
 
   @Override
-  protected void processEdge(Edge edge) {
+  protected void processEdge(Edge edge, Node source) {
     if (MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == 0) {
       hasCycles = false;
     }

@@ -25,7 +25,7 @@ public class TopologicalSorting extends Dfs {
   }
 
   @Override
-  protected void postprocess(Node node) {
+  protected void postprocess(Node node, Edge from) {
     ListSequence.fromList(myOrder).insertElement(0, node);
   }
 
@@ -38,7 +38,7 @@ public class TopologicalSorting extends Dfs {
   }
 
   @Override
-  protected void processEdge(Edge edge) {
+  protected void processEdge(Edge edge, Node source) {
     if (MapSequence.fromMap(getDfsState()).get(edge.getTarget()) == Dfs.DURING) {
       myHasCycles = true;
     }

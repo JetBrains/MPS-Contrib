@@ -5,10 +5,10 @@ package jetbrains.mps.graphLayout.algorithms;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
-import jetbrains.mps.graphLayout.graph.Edge;
 
 public abstract class Dfs {
   public static int BEFORE = 0;
@@ -17,36 +17,44 @@ public abstract class Dfs {
 
   private Graph myGraph;
   private Map<Node, Integer> myDfsState;
+  private Edge.Direction myDirection;
 
   public Dfs() {
   }
 
   public void doDfs(Graph graph) {
+    doDfs(graph, Edge.Direction.FRONT);
+  }
+
+  public void doDfs(Graph graph, Edge.Direction direction) {
     myGraph = graph;
     myDfsState = new NodeMap<Integer>(graph);
+    myDirection = direction;
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       MapSequence.fromMap(myDfsState).put(node, BEFORE);
     }
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
         preprocessRoot();
-        dfs(node);
+        dfs(node, null);
         postprocessRoot();
       }
     }
   }
 
-  private void dfs(Node node) {
+  private void dfs(Node node, Edge from) {
     MapSequence.fromMap(myDfsState).put(node, DURING);
-    preprocess(node);
-    for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-      processEdge(edge);
-      Node target = edge.getTarget();
-      if (MapSequence.fromMap(myDfsState).get(target) == BEFORE) {
-        dfs(target);
+    preprocess(node, from);
+    for (Edge edge : ListSequence.fromList(node.getEdges(myDirection))) {
+      if (edge != from) {
+        processEdge(edge, node);
+        Node target = edge.getOpposite(node);
+        if (MapSequence.fromMap(myDfsState).get(target) == BEFORE) {
+          dfs(target, edge);
+        }
       }
     }
-    postprocess(node);
+    postprocess(node, from);
     MapSequence.fromMap(myDfsState).put(node, AFTER);
   }
 
@@ -56,13 +64,13 @@ public abstract class Dfs {
   protected void postprocessRoot() {
   }
 
-  protected void preprocess(Node node) {
+  protected void preprocess(Node node, Edge from) {
   }
 
-  protected void processEdge(Edge edge) {
+  protected void processEdge(Edge edge, Node source) {
   }
 
-  protected void postprocess(Node node) {
+  protected void postprocess(Node node, Edge from) {
   }
 
   protected Map<Node, Integer> getDfsState() {

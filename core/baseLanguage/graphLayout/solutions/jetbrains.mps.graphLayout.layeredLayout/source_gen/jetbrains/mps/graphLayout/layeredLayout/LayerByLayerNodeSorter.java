@@ -9,14 +9,16 @@ import jetbrains.mps.graphLayout.graph.Edge;
 
 public class LayerByLayerNodeSorter implements INodeSorter {
   private int myNumIterations = 51;
+  private INodeSorter mySorter;
   private IOneLayerSorter myLayerSorter;
 
-  public LayerByLayerNodeSorter(IOneLayerSorter layerSorter) {
+  public LayerByLayerNodeSorter(IOneLayerSorter layerSorter, INodeSorter initialSorter) {
     myLayerSorter = layerSorter;
+    mySorter = initialSorter;
   }
 
   public NodeLayeredOrder sortNodes(Graph graph, Map<Node, Integer> layers) {
-    NodeLayeredOrder order = initialLayeringOrder(graph, layers);
+    NodeLayeredOrder order = mySorter.sortNodes(graph, layers);
     for (int iteration = 0; iteration < myNumIterations; iteration++) {
       if (iteration % 2 == 0) {
         for (int layer = 0; layer < order.getNumLayers() - 1; layer++) {
@@ -31,11 +33,7 @@ public class LayerByLayerNodeSorter implements INodeSorter {
     return order;
   }
 
-  protected NodeLayeredOrder initialLayeringOrder(Graph graph, Map<Node, Integer> layers) {
-    return new DFSNodeSorter().sortNodes(graph, layers);
-  }
-
-  protected void setNumIterations(int numIterations) {
+  public void setNumIterations(int numIterations) {
     this.myNumIterations = numIterations;
   }
 }
