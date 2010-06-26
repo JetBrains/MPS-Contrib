@@ -5,7 +5,7 @@ package jetbrains.mps.graphLayout.planarGraph;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
-import jetbrains.mps.internal.collections.runtime.backports.LinkedList;
+import java.util.ArrayList;
 
 public class Face {
   private Graph myGraph;
@@ -13,7 +13,7 @@ public class Face {
 
   public Face(Graph graph) {
     myGraph = graph;
-    myDarts = ListSequence.fromList(new LinkedList<Dart>());
+    myDarts = ListSequence.fromList(new ArrayList<Dart>());
   }
 
   public void addNext(Dart dart) {

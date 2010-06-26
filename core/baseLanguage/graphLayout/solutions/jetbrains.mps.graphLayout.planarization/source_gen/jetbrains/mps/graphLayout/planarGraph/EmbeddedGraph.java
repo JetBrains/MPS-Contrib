@@ -5,45 +5,72 @@ package jetbrains.mps.graphLayout.planarGraph;
 import java.util.List;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.graphLayout.graph.Graph;
-import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.SetSequence;
 
 public class EmbeddedGraph {
   private List<Face> myFaces;
-  private Map<Edge, List<Face>> myEdgeToFacesMap;
+  private Map<Edge, List<Face>> myAdjacentFacesMap;
+  private Graph myGraph;
+  private Face myOuterFace;
 
-  public EmbeddedGraph() {
+  public EmbeddedGraph(Graph graph) {
     myFaces = ListSequence.fromList(new ArrayList<Face>());
-    myEdgeToFacesMap = MapSequence.fromMap(new HashMap<Edge, List<Face>>());
+    myAdjacentFacesMap = MapSequence.fromMap(new HashMap<Edge, List<Face>>());
+    myGraph = graph;
   }
 
   public void addFace(Face face) {
     ListSequence.fromList(myFaces).addElement(face);
     for (Dart dart : ListSequence.fromList(face.getDarts())) {
       Edge edge = dart.getEdge();
-      if (MapSequence.fromMap(myEdgeToFacesMap).get(edge) == null) {
-        MapSequence.fromMap(myEdgeToFacesMap).put(edge, ListSequence.fromList(new ArrayList<Face>()));
+      if (MapSequence.fromMap(myAdjacentFacesMap).get(edge) == null) {
+        MapSequence.fromMap(myAdjacentFacesMap).put(edge, ListSequence.fromList(new ArrayList<Face>()));
       }
-      ListSequence.fromList(MapSequence.fromMap(myEdgeToFacesMap).get(edge)).addElement(face);
+      ListSequence.fromList(MapSequence.fromMap(myAdjacentFacesMap).get(edge)).addElement(face);
     }
   }
 
-  public Graph getDualGraph() {
-    Graph dualGraph = new Graph();
-    Map<Face, Node> faceToNodeMap = MapSequence.fromMap(new HashMap<Face, Node>());
+  public void removeFace(Face face) {
+    ListSequence.fromList(myFaces).removeElement(face);
+    for (Dart dart : ListSequence.fromList(face.getDarts())) {
+      ListSequence.fromList(MapSequence.fromMap(myAdjacentFacesMap).get(dart.getEdge())).removeElement(face);
+    }
+  }
+
+  public List<Face> getFaces() {
+    return this.myFaces;
+  }
+
+  public Map<Edge, List<Face>> getAdjacentFacesMap() {
+    return this.myAdjacentFacesMap;
+  }
+
+  public Graph getGraph() {
+    return this.myGraph;
+  }
+
+  @Override
+  public String toString() {
+    StringBuilder builder = new StringBuilder();
     for (Face face : ListSequence.fromList(myFaces)) {
-      MapSequence.fromMap(faceToNodeMap).put(face, dualGraph.addNode());
+      builder.append(face + "\n");
     }
-    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeToFacesMap).keySet())) {
-      Node faceNode1 = MapSequence.fromMap(faceToNodeMap).get(ListSequence.fromList(MapSequence.fromMap(myEdgeToFacesMap).get(edge)).getElement(0));
-      Node faceNode2 = MapSequence.fromMap(faceToNodeMap).get(ListSequence.fromList(MapSequence.fromMap(myEdgeToFacesMap).get(edge)).getElement(1));
-      faceNode1.addEdgeTo(faceNode2);
-    }
-    return dualGraph;
+    return builder.toString();
+  }
+
+  public Face getOuterFace() {
+    return this.myOuterFace;
+  }
+
+  public void setOuterFace(Face outerFace) {
+    this.myOuterFace = outerFace;
+  }
+
+  public boolean isOuterFace(Face face) {
+    return face == myOuterFace;
   }
 }

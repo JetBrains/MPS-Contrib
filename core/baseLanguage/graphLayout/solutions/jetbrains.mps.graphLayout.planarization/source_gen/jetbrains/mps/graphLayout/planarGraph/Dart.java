@@ -39,4 +39,8 @@ public class Dart {
   public String toString() {
     return "(dart " + getSource() + " -> " + getTarget() + ")";
   }
+
+  public Edge.Direction getDirection() {
+    return this.myDirection;
+  }
 }

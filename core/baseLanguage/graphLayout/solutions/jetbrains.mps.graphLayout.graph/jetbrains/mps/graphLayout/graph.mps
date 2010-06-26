@@ -612,6 +612,32 @@
         </node>
       </node>
     </node>
+    <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4179389957059014443">
+      <property name="name:3" value="getAdjacentNodes" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.collections.structure.ListType:7" id="4179389957059014447">
+        <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4179389957059014449">
+          <link role="classifier:3" targetNodeId="4671312709908983848" resolveInfo="Node" />
+        </node>
+      </node>
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="4179389957059014445" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="4179389957059014446">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="4179389957059014450">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="4179389957059014452">
+            <node role="creator:3" type="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit:7" id="4179389957059014453">
+              <node role="elementType:7" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="4179389957059014454">
+                <link role="classifier:3" targetNodeId="4671312709908983848" resolveInfo="Node" />
+              </node>
+              <node role="initValue:7" type="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall:3" id="4179389957059014456">
+                <link role="baseMethodDeclaration:3" targetNodeId="8567569493821111981" resolveInfo="getSource" />
+              </node>
+              <node role="initValue:7" type="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall:3" id="4179389957059014458">
+                <link role="baseMethodDeclaration:3" targetNodeId="8567569493821111989" resolveInfo="getTarget" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="4660430665333277202">
       <property name="name:3" value="removeFromGraph" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="4660430665333277203" />
