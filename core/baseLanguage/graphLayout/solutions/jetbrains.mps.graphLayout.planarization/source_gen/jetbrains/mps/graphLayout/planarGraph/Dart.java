@@ -9,11 +9,6 @@ public class Dart {
   private Edge myEdge;
   private Edge.Direction myDirection;
 
-  public Dart(Edge edge, Edge.Direction direction) {
-    myEdge = edge;
-    myDirection = direction;
-  }
-
   public Dart(Edge edge, Node source) {
     myEdge = edge;
     if (source == edge.getSource()) {

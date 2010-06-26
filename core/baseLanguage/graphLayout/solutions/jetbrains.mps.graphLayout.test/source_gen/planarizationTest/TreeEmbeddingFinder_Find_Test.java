@@ -26,6 +26,16 @@ public class TreeEmbeddingFinder_Find_Test extends TestCase {
     test(GraphIO.scanGraph(new Scanner(graphString)));
   }
 
+  public void test_K5() throws Exception {
+    String graphString = "5 10  0 1  0 2  0 3  0 4  1 2  1 3  1 4  2 3  2 4  3 4";
+    test(GraphIO.scanGraph(new Scanner(graphString)));
+  }
+
+  public void test_K3_3() throws Exception {
+    String graphString = "6 9  0 3  0 4  0 5  1 3  1 4  1 5  2 3  2 4  2 5";
+    test(GraphIO.scanGraph(new Scanner(graphString)));
+  }
+
   public void test(Graph graph) {
     TreeEmbeddingFinder embeddingFinder = new TreeEmbeddingFinder();
     EmbeddedGraph embeddedGraph = embeddingFinder.find(graph);

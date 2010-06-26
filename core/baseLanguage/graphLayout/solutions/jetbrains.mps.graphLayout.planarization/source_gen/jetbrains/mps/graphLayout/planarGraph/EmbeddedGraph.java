@@ -27,18 +27,41 @@ public class EmbeddedGraph {
     ListSequence.fromList(myFaces).addElement(face);
     for (Dart dart : ListSequence.fromList(face.getDarts())) {
       Edge edge = dart.getEdge();
-      if (MapSequence.fromMap(myAdjacentFacesMap).get(edge) == null) {
-        MapSequence.fromMap(myAdjacentFacesMap).put(edge, ListSequence.fromList(new ArrayList<Face>()));
-      }
-      ListSequence.fromList(MapSequence.fromMap(myAdjacentFacesMap).get(edge)).addElement(face);
+      this.adjustEdge(edge, face);
     }
+  }
+
+  private void adjustEdge(Edge edge, Face face) {
+    if (MapSequence.fromMap(myAdjacentFacesMap).get(edge) == null) {
+      MapSequence.fromMap(myAdjacentFacesMap).put(edge, ListSequence.fromList(new ArrayList<Face>()));
+    }
+    ListSequence.fromList(MapSequence.fromMap(myAdjacentFacesMap).get(edge)).addElement(face);
   }
 
   public void removeFace(Face face) {
     ListSequence.fromList(myFaces).removeElement(face);
     for (Dart dart : ListSequence.fromList(face.getDarts())) {
-      ListSequence.fromList(MapSequence.fromMap(myAdjacentFacesMap).get(dart.getEdge())).removeElement(face);
+      this.unadjustEdge(dart.getEdge(), face);
     }
+  }
+
+  private void unadjustEdge(Edge edge, Face face) {
+    ListSequence.fromList(MapSequence.fromMap(myAdjacentFacesMap).get(edge)).removeElement(face);
+    if (ListSequence.fromList(MapSequence.fromMap(myAdjacentFacesMap).get(edge)).count() == 0) {
+      MapSequence.fromMap(myAdjacentFacesMap).removeKey(edge);
+    }
+  }
+
+  public void setDart(Face face, int pos, Dart dart) {
+    Dart oldDart = ListSequence.fromList(face.getDarts()).getElement(pos);
+    unadjustEdge(oldDart.getEdge(), face);
+    ListSequence.fromList(face.getDarts()).setElement(pos, dart);
+    adjustEdge(dart.getEdge(), face);
+  }
+
+  public void insertDart(Face face, int pos, Dart dart) {
+    ListSequence.fromList(face.getDarts()).insertElement(pos, dart);
+    adjustEdge(dart.getEdge(), face);
   }
 
   public List<Face> getFaces() {
