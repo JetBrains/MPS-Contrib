@@ -1,0 +1,12 @@
+*.txt text
+*.iml text
+*.ipr text
+*.xml text
+*.java text
+*.mps eol=lf
+*.mpl text
+*.msd text
+*.css text
+*.html text
+.debug eol=lf
+.dependencies eol=lf
