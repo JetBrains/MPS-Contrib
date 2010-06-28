@@ -3,10 +3,12 @@
 *.ipr text
 *.xml text
 *.java text
-*.mps eol=lf
+*.mps text
 *.mpl text
 *.msd text
+*.mpr text
 *.css text
 *.html text
-.debug eol=lf
-.dependencies eol=lf
+.debug text
+.dependencies text
+.generated text

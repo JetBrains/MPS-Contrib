@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="5211164146777002739">
+    <nodeInfo nodeId="5211164146777002742" fileName="AssertXMLEquals_DataFlow.java" startLine="15" startPosition="102" endLine="16" endPosition="105" />
+    <nodeInfo nodeId="5211164146777002746" fileName="AssertXMLEquals_DataFlow.java" startLine="16" startPosition="105" endLine="17" endPosition="103" />
+    <scopeInfo nodeId="5211164146777002741" fileName="AssertXMLEquals_DataFlow.java" startLine="15" startPosition="102" endLine="17" endPosition="103" />
+  </root>
+</debugInfo>
+
