@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1213104840187">
+    <nodeInfo nodeId="1213104840191" fileName="ComponentReference_component_ReferentConstraint.java" startLine="32" startPosition="132" endLine="33" endPosition="241" />
+    <nodeInfo nodeId="1213104840201" fileName="ComponentReference_component_ReferentConstraint.java" startLine="33" startPosition="241" endLine="34" endPosition="38" />
+    <nodeInfo nodeId="1213104840207" fileName="ComponentReference_component_ReferentConstraint.java" startLine="35" startPosition="108" endLine="36" endPosition="166" />
+    <nodeInfo nodeId="1213104840220" fileName="ComponentReference_component_ReferentConstraint.java" startLine="38" startPosition="109" endLine="39" endPosition="120" />
+    <nodeInfo nodeId="1213104840229" fileName="ComponentReference_component_ReferentConstraint.java" startLine="40" startPosition="5" endLine="41" endPosition="48" />
+    <nodeInfo nodeId="1213104840259" fileName="ComponentReference_component_ReferentConstraint.java" startLine="48" startPosition="5" endLine="49" endPosition="18" />
+    <nodeInfo nodeId="1213104840205" fileName="ComponentReference_component_ReferentConstraint.java" startLine="34" startPosition="38" endLine="37" endPosition="5" />
+    <nodeInfo nodeId="1213104840218" fileName="ComponentReference_component_ReferentConstraint.java" startLine="37" startPosition="5" endLine="40" endPosition="5" />
+    <nodeInfo nodeId="1227876799509" fileName="ComponentReference_component_ReferentConstraint.java" startLine="43" startPosition="236" endLine="47" endPosition="0" />
+    <nodeInfo nodeId="1213104840237" fileName="ComponentReference_component_ReferentConstraint.java" startLine="42" startPosition="39" endLine="47" endPosition="10" />
+    <nodeInfo nodeId="1213104840235" fileName="ComponentReference_component_ReferentConstraint.java" startLine="41" startPosition="48" endLine="48" endPosition="5" />
+    <scopeInfo nodeId="1213104840206" fileName="ComponentReference_component_ReferentConstraint.java" startLine="35" startPosition="108" endLine="36" endPosition="166" />
+    <scopeInfo nodeId="1213104840219" fileName="ComponentReference_component_ReferentConstraint.java" startLine="38" startPosition="109" endLine="39" endPosition="120" />
+    <scopeInfo nodeId="1227876799512" fileName="ComponentReference_component_ReferentConstraint.java" startLine="44" startPosition="41" endLine="45" endPosition="67" />
+    <scopeInfo nodeId="1227876799509" fileName="ComponentReference_component_ReferentConstraint.java" startLine="43" startPosition="236" endLine="47" endPosition="0" />
+    <scopeInfo nodeId="1213104840236" fileName="ComponentReference_component_ReferentConstraint.java" startLine="42" startPosition="39" endLine="47" endPosition="10" />
+    <scopeInfo nodeId="1213104840190" fileName="ComponentReference_component_ReferentConstraint.java" startLine="32" startPosition="132" endLine="49" endPosition="18">
+      <varInfo nodeId="1213104840230" varName="result" />
+      <varInfo nodeId="1213104840192" varName="container" />
+      <varInfo nodeId="1213104840202" varName="componentDeclaration" />
+    </scopeInfo>
+    <unitInfo nodeId="1227876799509" fileName="ComponentReference_component_ReferentConstraint.java" startLine="43" startPosition="213" endLine="47" endPosition="7" unitName="jetbrains.mps.uiLanguage.constraints.ComponentReference_component_ReferentConstraint$1" />
+  </root>
+  <root nodeId="1213104846152">
+    <nodeInfo nodeId="1213104846156" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="31" startPosition="132" endLine="32" endPosition="52" />
+    <nodeInfo nodeId="1213104846180" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="37" startPosition="8" endLine="38" endPosition="22" />
+    <nodeInfo nodeId="1227876806094" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="33" startPosition="258" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="1213104846162" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="32" startPosition="52" endLine="37" endPosition="8" />
+    <scopeInfo nodeId="1227876806097" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="34" startPosition="39" endLine="35" endPosition="65" />
+    <scopeInfo nodeId="1227876806094" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="33" startPosition="258" endLine="37" endPosition="0" />
+    <scopeInfo nodeId="1213104846155" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="31" startPosition="132" endLine="38" endPosition="22">
+      <varInfo nodeId="1213104846157" varName="components" />
+    </scopeInfo>
+    <unitInfo nodeId="1227876806094" fileName="ComponentInstance_componentDeclaration_ReferentConstraint.java" startLine="33" startPosition="235" endLine="37" endPosition="5" unitName="jetbrains.mps.uiLanguage.constraints.ComponentInstance_componentDeclaration_ReferentConstraint$1" />
+  </root>
+  <root nodeId="1213104846650">
+    <nodeInfo nodeId="1213104846654" fileName="ComponentController_name_PropertyConstraint.java" startLine="25" startPosition="80" endLine="26" endPosition="118" />
+    <scopeInfo nodeId="1213104846653" fileName="ComponentController_name_PropertyConstraint.java" startLine="25" startPosition="80" endLine="26" endPosition="118" />
+  </root>
+  <root nodeId="1213104846878">
+    <nodeInfo nodeId="1213104846882" fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="31" startPosition="132" endLine="32" endPosition="147" />
+    <nodeInfo nodeId="1213104846890" fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="32" startPosition="147" endLine="33" endPosition="48" />
+    <nodeInfo nodeId="1213104846898" fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="34" startPosition="27" endLine="35" endPosition="203" />
+    <nodeInfo nodeId="1213104846910" fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="36" startPosition="5" endLine="37" endPosition="18" />
+    <nodeInfo nodeId="1213104846896" fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="33" startPosition="48" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="1213104846897" fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="34" startPosition="27" endLine="35" endPosition="203" />
+    <scopeInfo nodeId="1213104846881" fileName="AttributeValue_attribute_ReferentConstraint.java" startLine="31" startPosition="132" endLine="37" endPosition="18">
+      <varInfo nodeId="1213104846891" varName="result" />
+      <varInfo nodeId="1213104846883" varName="instance" />
+    </scopeInfo>
+  </root>
+  <root nodeId="1213104847124">
+    <scopeInfo nodeId="1213104847143" fileName="StubCellRendererInfo_cellRendererSetter_ReferentConstraint.java" startLine="29" startPosition="132" endLine="30" endPosition="316" />
+  </root>
+  <root nodeId="1213107435785">
+    <scopeInfo nodeId="1213107435787" fileName="EventHandlerReference_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="245" />
+  </root>
+  <root nodeId="1213107435822">
+    <nodeInfo nodeId="1213107435832" fileName="CellRendererAttribute_Constraints.java" startLine="14" startPosition="124" endLine="15" endPosition="19" />
+    <nodeInfo nodeId="1213107435834" fileName="CellRendererAttribute_Constraints.java" startLine="16" startPosition="5" endLine="17" endPosition="124" />
+    <nodeInfo nodeId="1213107435839" fileName="CellRendererAttribute_Constraints.java" startLine="17" startPosition="124" endLine="18" endPosition="144" />
+    <nodeInfo nodeId="1213107435825" fileName="CellRendererAttribute_Constraints.java" startLine="13" startPosition="114" endLine="16" endPosition="5" />
+    <scopeInfo nodeId="1213107435831" fileName="CellRendererAttribute_Constraints.java" startLine="14" startPosition="124" endLine="15" endPosition="19" />
+    <scopeInfo nodeId="1213107435824" fileName="CellRendererAttribute_Constraints.java" startLine="13" startPosition="114" endLine="18" endPosition="144">
+      <varInfo nodeId="1213107435835" varName="instance" />
+    </scopeInfo>
+  </root>
+  <root nodeId="1213107435946">
+    <nodeInfo nodeId="1213107435949" fileName="RaiseOperation_Constraints.java" startLine="12" startPosition="114" endLine="13" endPosition="165" />
+    <nodeInfo nodeId="1213107435958" fileName="RaiseOperation_Constraints.java" startLine="14" startPosition="105" endLine="15" endPosition="19" />
+    <nodeInfo nodeId="1213107435967" fileName="RaiseOperation_Constraints.java" startLine="17" startPosition="232" endLine="18" endPosition="19" />
+    <nodeInfo nodeId="1213107435977" fileName="RaiseOperation_Constraints.java" startLine="19" startPosition="5" endLine="20" endPosition="16" />
+    <nodeInfo nodeId="1213107435956" fileName="RaiseOperation_Constraints.java" startLine="13" startPosition="165" endLine="16" endPosition="5" />
+    <nodeInfo nodeId="1213107435965" fileName="RaiseOperation_Constraints.java" startLine="16" startPosition="5" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="1213107435957" fileName="RaiseOperation_Constraints.java" startLine="14" startPosition="105" endLine="15" endPosition="19" />
+    <scopeInfo nodeId="1213107435966" fileName="RaiseOperation_Constraints.java" startLine="17" startPosition="232" endLine="18" endPosition="19" />
+    <scopeInfo nodeId="1213107435948" fileName="RaiseOperation_Constraints.java" startLine="12" startPosition="114" endLine="20" endPosition="16">
+      <varInfo nodeId="1213107435950" varName="operand" />
+    </scopeInfo>
+  </root>
+  <root nodeId="1213107435979">
+    <nodeInfo nodeId="1213107435986" fileName="RemoveListenerOperation_Constraints.java" startLine="13" startPosition="118" endLine="14" endPosition="21" />
+    <nodeInfo nodeId="1213107435995" fileName="RemoveListenerOperation_Constraints.java" startLine="16" startPosition="245" endLine="17" endPosition="21" />
+    <nodeInfo nodeId="1213107436012" fileName="RemoveListenerOperation_Constraints.java" startLine="21" startPosition="124" endLine="22" endPosition="21" />
+    <nodeInfo nodeId="1213107436022" fileName="RemoveListenerOperation_Constraints.java" startLine="24" startPosition="5" endLine="25" endPosition="16" />
+    <nodeInfo nodeId="1213107435984" fileName="RemoveListenerOperation_Constraints.java" startLine="12" startPosition="128" endLine="15" endPosition="7" />
+    <nodeInfo nodeId="1213107435993" fileName="RemoveListenerOperation_Constraints.java" startLine="15" startPosition="7" endLine="18" endPosition="7" />
+    <nodeInfo nodeId="1213107436010" fileName="RemoveListenerOperation_Constraints.java" startLine="20" startPosition="129" endLine="23" endPosition="7" />
+    <nodeInfo nodeId="1213107436008" fileName="RemoveListenerOperation_Constraints.java" startLine="19" startPosition="5" endLine="24" endPosition="5" />
+    <nodeInfo nodeId="1213107435982" fileName="RemoveListenerOperation_Constraints.java" startLine="11" startPosition="116" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="1213107435985" fileName="RemoveListenerOperation_Constraints.java" startLine="13" startPosition="118" endLine="14" endPosition="21" />
+    <scopeInfo nodeId="1213107435994" fileName="RemoveListenerOperation_Constraints.java" startLine="16" startPosition="245" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="1213107436011" fileName="RemoveListenerOperation_Constraints.java" startLine="21" startPosition="124" endLine="22" endPosition="21" />
+    <scopeInfo nodeId="1213107436009" fileName="RemoveListenerOperation_Constraints.java" startLine="20" startPosition="129" endLine="23" endPosition="7" />
+    <scopeInfo nodeId="1213107435983" fileName="RemoveListenerOperation_Constraints.java" startLine="12" startPosition="128" endLine="18" endPosition="7" />
+    <scopeInfo nodeId="1213107435981" fileName="RemoveListenerOperation_Constraints.java" startLine="11" startPosition="116" endLine="25" endPosition="16" />
+  </root>
+  <root nodeId="1213107436133">
+    <nodeInfo nodeId="1213107436143" fileName="InlineRenderer_Constraints.java" startLine="14" startPosition="124" endLine="15" endPosition="19" />
+    <nodeInfo nodeId="1213107436145" fileName="InlineRenderer_Constraints.java" startLine="16" startPosition="5" endLine="17" endPosition="124" />
+    <nodeInfo nodeId="1213107436150" fileName="InlineRenderer_Constraints.java" startLine="17" startPosition="124" endLine="18" endPosition="144" />
+    <nodeInfo nodeId="1213107436136" fileName="InlineRenderer_Constraints.java" startLine="13" startPosition="114" endLine="16" endPosition="5" />
+    <scopeInfo nodeId="1213107436142" fileName="InlineRenderer_Constraints.java" startLine="14" startPosition="124" endLine="15" endPosition="19" />
+    <scopeInfo nodeId="1213107436135" fileName="InlineRenderer_Constraints.java" startLine="13" startPosition="114" endLine="18" endPosition="144">
+      <varInfo nodeId="1213107436146" varName="instance" />
+    </scopeInfo>
+  </root>
+  <root nodeId="1213107436238">
+    <scopeInfo nodeId="1213107436240" fileName="RenderingObject_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="140" />
+  </root>
+  <root nodeId="1213107436257">
+    <nodeInfo nodeId="1213107436260" fileName="RaiseInternalStatement_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="142" />
+    <scopeInfo nodeId="1213107436259" fileName="RaiseInternalStatement_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="142" />
+  </root>
+  <root nodeId="1213107436301">
+    <scopeInfo nodeId="1213107436303" fileName="StandardDialog_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="125" />
+  </root>
+  <root nodeId="1213107437627">
+    <nodeInfo nodeId="1213107437632" fileName="ListElements_Constraints.java" startLine="21" startPosition="121" endLine="22" endPosition="311" />
+    <nodeInfo nodeId="1213107437646" fileName="ListElements_Constraints.java" startLine="23" startPosition="5" endLine="24" endPosition="17" />
+    <nodeInfo nodeId="1213107437630" fileName="ListElements_Constraints.java" startLine="20" startPosition="114" endLine="23" endPosition="5" />
+    <scopeInfo nodeId="1213107437631" fileName="ListElements_Constraints.java" startLine="21" startPosition="121" endLine="22" endPosition="311" />
+    <scopeInfo nodeId="1213107437629" fileName="ListElements_Constraints.java" startLine="20" startPosition="114" endLine="24" endPosition="17" />
+  </root>
+  <root nodeId="1213107437711">
+    <nodeInfo nodeId="1213107437718" fileName="AddListenerOperation_Constraints.java" startLine="13" startPosition="118" endLine="14" endPosition="21" />
+    <nodeInfo nodeId="1213107437727" fileName="AddListenerOperation_Constraints.java" startLine="16" startPosition="245" endLine="17" endPosition="21" />
+    <nodeInfo nodeId="1213107437744" fileName="AddListenerOperation_Constraints.java" startLine="21" startPosition="124" endLine="22" endPosition="21" />
+    <nodeInfo nodeId="1213107437754" fileName="AddListenerOperation_Constraints.java" startLine="24" startPosition="5" endLine="25" endPosition="16" />
+    <nodeInfo nodeId="1213107437716" fileName="AddListenerOperation_Constraints.java" startLine="12" startPosition="128" endLine="15" endPosition="7" />
+    <nodeInfo nodeId="1213107437725" fileName="AddListenerOperation_Constraints.java" startLine="15" startPosition="7" endLine="18" endPosition="7" />
+    <nodeInfo nodeId="1213107437742" fileName="AddListenerOperation_Constraints.java" startLine="20" startPosition="129" endLine="23" endPosition="7" />
+    <nodeInfo nodeId="1213107437740" fileName="AddListenerOperation_Constraints.java" startLine="19" startPosition="5" endLine="24" endPosition="5" />
+    <nodeInfo nodeId="1213107437714" fileName="AddListenerOperation_Constraints.java" startLine="11" startPosition="116" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="1213107437717" fileName="AddListenerOperation_Constraints.java" startLine="13" startPosition="118" endLine="14" endPosition="21" />
+    <scopeInfo nodeId="1213107437726" fileName="AddListenerOperation_Constraints.java" startLine="16" startPosition="245" endLine="17" endPosition="21" />
+    <scopeInfo nodeId="1213107437743" fileName="AddListenerOperation_Constraints.java" startLine="21" startPosition="124" endLine="22" endPosition="21" />
+    <scopeInfo nodeId="1213107437741" fileName="AddListenerOperation_Constraints.java" startLine="20" startPosition="129" endLine="23" endPosition="7" />
+    <scopeInfo nodeId="1213107437715" fileName="AddListenerOperation_Constraints.java" startLine="12" startPosition="128" endLine="18" endPosition="7" />
+    <scopeInfo nodeId="1213107437713" fileName="AddListenerOperation_Constraints.java" startLine="11" startPosition="116" endLine="25" endPosition="16" />
+  </root>
+  <root nodeId="1213107437981">
+    <nodeInfo nodeId="1213107437991" fileName="ActionHandler_Constraints.java" startLine="14" startPosition="124" endLine="15" endPosition="19" />
+    <nodeInfo nodeId="1213107437993" fileName="ActionHandler_Constraints.java" startLine="16" startPosition="5" endLine="17" endPosition="124" />
+    <nodeInfo nodeId="1213107437998" fileName="ActionHandler_Constraints.java" startLine="17" startPosition="124" endLine="18" endPosition="146" />
+    <nodeInfo nodeId="1213107437984" fileName="ActionHandler_Constraints.java" startLine="13" startPosition="114" endLine="16" endPosition="5" />
+    <scopeInfo nodeId="1213107437990" fileName="ActionHandler_Constraints.java" startLine="14" startPosition="124" endLine="15" endPosition="19" />
+    <scopeInfo nodeId="1213107437983" fileName="ActionHandler_Constraints.java" startLine="13" startPosition="114" endLine="18" endPosition="146">
+      <varInfo nodeId="1213107437994" varName="instance" />
+    </scopeInfo>
+  </root>
+  <root nodeId="1213107438021">
+    <nodeInfo nodeId="1213107438024" fileName="BindExpression_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="346" />
+    <scopeInfo nodeId="1213107438023" fileName="BindExpression_Constraints.java" startLine="10" startPosition="114" endLine="11" endPosition="346" />
+  </root>
+</debugInfo>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1202387802426">
+    <scopeInfo nodeId="1202393286069" fileName="ComponentDeclaration_Editor.java" startLine="402" startPosition="111" endLine="403" endPosition="59" />
+    <scopeInfo nodeId="1202393348518" fileName="ComponentDeclaration_Editor.java" startLine="406" startPosition="111" endLine="407" endPosition="56" />
+  </root>
+  <root nodeId="1202388034021">
+    <scopeInfo nodeId="1202397019550" fileName="ComponentInstance_Editor.java" startLine="197" startPosition="112" endLine="198" endPosition="63" />
+  </root>
+  <root nodeId="1202388865572">
+    <scopeInfo nodeId="1204896132109" fileName="AttributeDeclaration_Editor.java" startLine="182" startPosition="112" endLine="183" endPosition="72" />
+    <scopeInfo nodeId="1203674745802" fileName="AttributeDeclaration_Editor.java" startLine="186" startPosition="112" endLine="187" endPosition="69" />
+  </root>
+</debugInfo>
+
