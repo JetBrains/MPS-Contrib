@@ -95,6 +95,10 @@ public class UniversalRunConfigCreator_Editor extends DefaultNodeEditor {
   private EditorCell createConstant_5cdmsx_d0(EditorContext editorContext, SNode node) {
     EditorCell_Constant editorCell = new EditorCell_Constant(editorContext, node, "");
     editorCell.setCellId("Constant_5cdmsx_d0");
+    {
+      Style style = editorCell.getStyle();
+      style.set(StyleAttributes.SELECTABLE, false);
+    }
     editorCell.setDefaultText("");
     return editorCell;
   }
