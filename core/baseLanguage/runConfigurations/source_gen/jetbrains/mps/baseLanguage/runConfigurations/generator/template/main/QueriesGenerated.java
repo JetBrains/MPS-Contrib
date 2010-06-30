@@ -15,8 +15,8 @@ import jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParame
 import jetbrains.mps.generator.template.ReferenceMacroContext;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.lang.plugin.behavior.RunConfigurationDeclaration_Behavior;
-import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.smodel.SNode;
+import jetbrains.mps.generator.template.IfMacroContext;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodeContext;
 import jetbrains.mps.typesystem.inference.TypeChecker;
 import jetbrains.mps.generator.template.SourceSubstituteMacroNodesContext;
@@ -123,6 +123,11 @@ public class QueriesGenerated {
 
   public static Object referenceMacro_GetReferent_1566895476212361240(final IOperationContext operationContext, final ReferenceMacroContext _context) {
     return _context.getOutputNodeByInputNodeAndMappingLabel(SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaRunConfiguration", false, true), "map_JavaRunConfigurationToEditorComponent");
+  }
+
+  public static Object referenceMacro_GetReferent_4192954426741041230(final IOperationContext operationContext, final ReferenceMacroContext _context) {
+    SNode nodeRunConfiguration = SNodeOperations.getAncestor(_context.getNode(), "jetbrains.mps.baseLanguage.runConfigurations.structure.JavaNodeRunConfiguration", false, false);
+    return RunConfigurationDeclaration_Behavior.call_getGeneratedName_7840798570674951656(nodeRunConfiguration);
   }
 
   public static boolean ifMacro_Condition_3251065477411868084(final IOperationContext operationContext, final IfMacroContext _context) {
@@ -382,15 +387,15 @@ public class QueriesGenerated {
       if ((SLinkOperations.getTarget(config, "isApplicableBlock", true) != null)) {
         for (SNode statement : ListSequence.fromList(SLinkOperations.getTargets(SLinkOperations.getTarget(SLinkOperations.getTarget(config, "isApplicableBlock", true), "body", true), "statement", true))) {
           if (LastStatementUtil.canMakeReturnStatement(statement)) {
-            SNodeOperations.replaceWithAnother(statement, new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0a0ed().createNode(SLinkOperations.getTarget(SNodeOperations.cast(statement, "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true)));
+            SNodeOperations.replaceWithAnother(statement, new QueriesGenerated.QuotationClass_x583g4_a0a0a0a0a0a0a0fd().createNode(SLinkOperations.getTarget(SNodeOperations.cast(statement, "jetbrains.mps.baseLanguage.structure.ExpressionStatement"), "expression", true)));
           }
         }
       }
     }
   }
 
-  public static class QuotationClass_x583g4_a0a0a0a0a0a0a0ed {
-    public QuotationClass_x583g4_a0a0a0a0a0a0a0ed() {
+  public static class QuotationClass_x583g4_a0a0a0a0a0a0a0fd {
+    public QuotationClass_x583g4_a0a0a0a0a0a0a0fd() {
     }
 
     public SNode createNode(Object parameter_5) {

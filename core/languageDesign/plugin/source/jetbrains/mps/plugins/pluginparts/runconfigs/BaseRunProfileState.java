@@ -6,6 +6,7 @@ import com.intellij.execution.runners.ProgramRunner;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Key;
 import jetbrains.mps.debug.api.AbstractDebugSessionCreator;
+import jetbrains.mps.project.IModule;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
