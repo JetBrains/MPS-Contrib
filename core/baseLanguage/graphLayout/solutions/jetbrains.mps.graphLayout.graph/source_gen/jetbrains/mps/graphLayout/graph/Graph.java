@@ -17,6 +17,14 @@ public class Graph {
     return myNodes;
   }
 
+  public List<Edge> getEdges() {
+    List<Edge> allEdges = ListSequence.fromList(new ArrayList<Edge>());
+    for (Node node : ListSequence.fromList(getNodes())) {
+      ListSequence.fromList(allEdges).addSequence(ListSequence.fromList(node.getOutEdges()));
+    }
+    return allEdges;
+  }
+
   public Node getNode(int index) {
     return ListSequence.fromList(myNodes).getElement(index);
   }
@@ -34,8 +42,7 @@ public class Graph {
   }
 
   public void addEdge(Edge edge) {
-    edge.getSource().addOutEdge(edge);
-    edge.getTarget().addInEdge(edge);
+    edge.addToGraph();
   }
 
   public Edge addEdgeByIndex(int sourceIndex, int targetIndex) {

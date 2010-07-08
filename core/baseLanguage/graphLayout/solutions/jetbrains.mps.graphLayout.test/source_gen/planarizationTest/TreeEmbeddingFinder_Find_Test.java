@@ -36,6 +36,11 @@ public class TreeEmbeddingFinder_Find_Test extends TestCase {
     test(GraphIO.scanGraph(new Scanner(graphString)));
   }
 
+  public void test_BookGraph() throws Exception {
+    String graphString = "9 15  \n0 1  \n0 5  \n0 3  \n0 7  \n1 2  \n2 4  \n2 3  \n3 6  \n3 7  \n3 8  \n4 5  \n4 6  \n5 8  \n6 8 \n 7 8";
+    test(GraphIO.scanGraph(new Scanner(graphString)));
+  }
+
   public void test(Graph graph) {
     TreeEmbeddingFinder embeddingFinder = new TreeEmbeddingFinder();
     EmbeddedGraph embeddedGraph = embeddingFinder.find(graph);

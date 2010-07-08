@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="4671312709908983848">
+    <nodeInfo nodeId="8567569493821103314" fileName="Node.java" startLine="9" startPosition="19" endLine="10" endPosition="32" />
+    <nodeInfo nodeId="190081711777510129" fileName="Node.java" startLine="10" startPosition="32" endLine="11" endPosition="31" />
+    <nodeInfo nodeId="8567569493821112294" fileName="Node.java" startLine="11" startPosition="31" endLine="12" endPosition="22" />
+    <nodeInfo nodeId="6088058844796081282" fileName="Node.java" startLine="12" startPosition="22" endLine="13" endPosition="28" />
+    <nodeInfo nodeId="8567569493821103320" fileName="Node.java" startLine="15" startPosition="48" endLine="16" endPosition="63" />
+    <nodeInfo nodeId="190081711777510242" fileName="Node.java" startLine="16" startPosition="63" endLine="17" endPosition="62" />
+    <nodeInfo nodeId="8567569493821112301" fileName="Node.java" startLine="17" startPosition="62" endLine="18" endPosition="20" />
+    <nodeInfo nodeId="6088058844796081291" fileName="Node.java" startLine="18" startPosition="20" endLine="19" endPosition="24" />
+    <nodeInfo nodeId="4660430665333277100" fileName="Node.java" startLine="22" startPosition="38" endLine="23" endPosition="39" />
+    <nodeInfo nodeId="8567569493821112330" fileName="Node.java" startLine="23" startPosition="39" endLine="24" endPosition="26" />
+    <nodeInfo nodeId="190081711777510192" fileName="Node.java" startLine="25" startPosition="25" endLine="26" endPosition="29" />
+    <nodeInfo nodeId="4660430665333277109" fileName="Node.java" startLine="27" startPosition="5" endLine="28" endPosition="16" />
+    <nodeInfo nodeId="8567569493821110939" fileName="Node.java" startLine="31" startPosition="35" endLine="32" endPosition="22" />
+    <nodeInfo nodeId="190081711777510142" fileName="Node.java" startLine="35" startPosition="34" endLine="36" endPosition="21" />
+    <nodeInfo nodeId="1327612371813211001" fileName="Node.java" startLine="39" startPosition="32" endLine="40" endPosition="41" />
+    <nodeInfo nodeId="190081711777510166" fileName="Node.java" startLine="44" startPosition="38" endLine="45" endPosition="27" />
+    <nodeInfo nodeId="2899723422951324713" fileName="Node.java" startLine="46" startPosition="44" endLine="47" endPosition="111" />
+    <nodeInfo nodeId="190081711777510177" fileName="Node.java" startLine="48" startPosition="12" endLine="49" endPosition="26" />
+    <nodeInfo nodeId="4660430665333281410" fileName="Node.java" startLine="53" startPosition="42" endLine="54" endPosition="55" />
+    <nodeInfo nodeId="190081711777510217" fileName="Node.java" startLine="57" startPosition="41" endLine="58" endPosition="54" />
+    <nodeInfo nodeId="6088058844796081330" fileName="Node.java" startLine="65" startPosition="28" endLine="66" endPosition="21" />
+    <nodeInfo nodeId="8780938838750190868" fileName="Node.java" startLine="70" startPosition="28" endLine="71" endPosition="37" />
+    <nodeInfo nodeId="190081711777510175" fileName="Node.java" startLine="48" startPosition="10" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="4179389957059013852" fileName="Node.java" startLine="24" startPosition="26" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="8567569493821110932" fileName="Node.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <nodeInfo nodeId="190081711777510135" fileName="Node.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="1327612371813210994" fileName="Node.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <nodeInfo nodeId="4660430665333281403" fileName="Node.java" startLine="52" startPosition="0" endLine="56" endPosition="0" />
+    <nodeInfo nodeId="190081711777510211" fileName="Node.java" startLine="56" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="4660430665333281569" fileName="Node.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
+    <nodeInfo nodeId="6088058844796081325" fileName="Node.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="8780938838750190861" fileName="Node.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
+    <nodeInfo nodeId="4671312709908983850" fileName="Node.java" startLine="14" startPosition="0" endLine="20" endPosition="3" />
+    <nodeInfo nodeId="190081711777510156" fileName="Node.java" startLine="43" startPosition="50" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="8567569493821112323" fileName="Node.java" startLine="21" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="190081711777510145" fileName="Node.java" startLine="42" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="4179389957059013854" fileName="Node.java" startLine="25" startPosition="25" endLine="26" endPosition="29" />
+    <scopeInfo nodeId="8567569493821110935" fileName="Node.java" startLine="31" startPosition="35" endLine="32" endPosition="22" />
+    <scopeInfo nodeId="190081711777510138" fileName="Node.java" startLine="35" startPosition="34" endLine="36" endPosition="21" />
+    <scopeInfo nodeId="1327612371813210997" fileName="Node.java" startLine="39" startPosition="32" endLine="40" endPosition="41" />
+    <scopeInfo nodeId="190081711777510158" fileName="Node.java" startLine="44" startPosition="38" endLine="45" endPosition="27" />
+    <scopeInfo nodeId="2899723422951324706" fileName="Node.java" startLine="46" startPosition="44" endLine="47" endPosition="111" />
+    <scopeInfo nodeId="190081711777510176" fileName="Node.java" startLine="48" startPosition="12" endLine="49" endPosition="26" />
+    <scopeInfo nodeId="4660430665333281406" fileName="Node.java" startLine="53" startPosition="42" endLine="54" endPosition="55" />
+    <scopeInfo nodeId="190081711777510214" fileName="Node.java" startLine="57" startPosition="41" endLine="58" endPosition="54" />
+    <scopeInfo nodeId="4660430665333281572" fileName="Node.java" startLine="61" startPosition="25" endLine="62" endPosition="24" />
+    <scopeInfo nodeId="6088058844796081328" fileName="Node.java" startLine="65" startPosition="28" endLine="66" endPosition="21" />
+    <scopeInfo nodeId="8780938838750190864" fileName="Node.java" startLine="70" startPosition="28" endLine="71" endPosition="37" />
+    <scopeInfo nodeId="4671312709908983853" fileName="Node.java" startLine="15" startPosition="48" endLine="19" endPosition="24" />
+    <scopeInfo nodeId="8567569493821110932" fileName="Node.java" startLine="30" startPosition="0" endLine="34" endPosition="0" />
+    <scopeInfo nodeId="190081711777510135" fileName="Node.java" startLine="34" startPosition="0" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="1327612371813210994" fileName="Node.java" startLine="38" startPosition="0" endLine="42" endPosition="0" />
+    <scopeInfo nodeId="4660430665333281403" fileName="Node.java" startLine="52" startPosition="0" endLine="56" endPosition="0">
+      <varInfo nodeId="4660430665333281408" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="190081711777510211" fileName="Node.java" startLine="56" startPosition="0" endLine="60" endPosition="0">
+      <varInfo nodeId="190081711777510215" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4660430665333281569" fileName="Node.java" startLine="60" startPosition="0" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="6088058844796081325" fileName="Node.java" startLine="64" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="8780938838750190861" fileName="Node.java" startLine="68" startPosition="0" endLine="73" endPosition="0" />
+    <scopeInfo nodeId="4671312709908983850" fileName="Node.java" startLine="14" startPosition="0" endLine="20" endPosition="3">
+      <varInfo nodeId="8567569493821112298" varName="index" />
+      <varInfo nodeId="6088058844796081287" varName="isDummy" />
+    </scopeInfo>
+    <scopeInfo nodeId="8567569493821112326" fileName="Node.java" startLine="22" startPosition="38" endLine="28" endPosition="16">
+      <varInfo nodeId="4660430665333277101" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="190081711777510148" fileName="Node.java" startLine="43" startPosition="50" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="8567569493821112323" fileName="Node.java" startLine="21" startPosition="0" endLine="30" endPosition="0">
+      <varInfo nodeId="8567569493821112328" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="190081711777510145" fileName="Node.java" startLine="42" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="190081711777510154" varName="dir" />
+    </scopeInfo>
+    <unitInfo nodeId="4671312709908983848" fileName="Node.java" startLine="9" startPosition="0" endLine="74" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Node" />
+  </root>
+  <root nodeId="8567569493821103292">
+    <nodeInfo nodeId="8567569493821107717" fileName="Edge.java" startLine="9" startPosition="19" endLine="10" endPosition="24" />
+    <nodeInfo nodeId="8567569493821107721" fileName="Edge.java" startLine="10" startPosition="24" endLine="11" endPosition="24" />
+    <nodeInfo nodeId="8567569493821107730" fileName="Edge.java" startLine="13" startPosition="41" endLine="14" endPosition="22" />
+    <nodeInfo nodeId="8567569493821107737" fileName="Edge.java" startLine="14" startPosition="22" endLine="15" endPosition="22" />
+    <nodeInfo nodeId="190081711777515825" fileName="Edge.java" startLine="23" startPosition="38" endLine="24" endPosition="25" />
+    <nodeInfo nodeId="190081711777515835" fileName="Edge.java" startLine="25" startPosition="12" endLine="26" endPosition="25" />
+    <nodeInfo nodeId="190081711777515864" fileName="Edge.java" startLine="31" startPosition="38" endLine="32" endPosition="25" />
+    <nodeInfo nodeId="190081711777515870" fileName="Edge.java" startLine="33" startPosition="12" endLine="34" endPosition="25" />
+    <nodeInfo nodeId="1646208389854254594" fileName="Edge.java" startLine="43" startPosition="27" endLine="44" endPosition="22" />
+    <nodeInfo nodeId="1646208389854254609" fileName="Edge.java" startLine="46" startPosition="27" endLine="47" endPosition="22" />
+    <nodeInfo nodeId="1646208389854254613" fileName="Edge.java" startLine="48" startPosition="5" endLine="49" endPosition="70" />
+    <nodeInfo nodeId="4179389957059014450" fileName="Edge.java" startLine="52" startPosition="40" endLine="53" endPosition="90" />
+    <nodeInfo nodeId="4660430665333277206" fileName="Edge.java" startLine="56" startPosition="33" endLine="57" endPosition="70" />
+    <nodeInfo nodeId="190081711777510270" fileName="Edge.java" startLine="57" startPosition="70" endLine="58" endPosition="69" />
+    <nodeInfo nodeId="6984255766319276411" fileName="Edge.java" startLine="61" startPosition="28" endLine="62" endPosition="30" />
+    <nodeInfo nodeId="6984255766319276420" fileName="Edge.java" startLine="62" startPosition="30" endLine="63" endPosition="29" />
+    <nodeInfo nodeId="7777374380555164021" fileName="Edge.java" startLine="67" startPosition="28" endLine="68" endPosition="80" />
+    <nodeInfo nodeId="6984255766319276399" fileName="Edge.java" startLine="71" startPosition="24" endLine="72" endPosition="22" />
+    <nodeInfo nodeId="1654665216152488970" fileName="Edge.java" startLine="72" startPosition="22" endLine="73" endPosition="25" />
+    <nodeInfo nodeId="1654665216152488976" fileName="Edge.java" startLine="73" startPosition="25" endLine="74" endPosition="24" />
+    <nodeInfo nodeId="1654665216152488983" fileName="Edge.java" startLine="74" startPosition="24" endLine="75" endPosition="20" />
+    <nodeInfo nodeId="6984255766319276436" fileName="Edge.java" startLine="75" startPosition="20" endLine="76" endPosition="17" />
+    <nodeInfo nodeId="190081711777515833" fileName="Edge.java" startLine="25" startPosition="10" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="190081711777515868" fileName="Edge.java" startLine="33" startPosition="10" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="190081711777509659" fileName="Edge.java" startLine="83" startPosition="0" endLine="85" endPosition="5" />
+    <nodeInfo nodeId="1646208389854254586" fileName="Edge.java" startLine="42" startPosition="38" endLine="45" endPosition="5" />
+    <nodeInfo nodeId="1646208389854254598" fileName="Edge.java" startLine="45" startPosition="5" endLine="48" endPosition="5" />
+    <nodeInfo nodeId="8567569493821103294" fileName="Edge.java" startLine="12" startPosition="0" endLine="16" endPosition="3" />
+    <nodeInfo nodeId="8567569493821111981" fileName="Edge.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <nodeInfo nodeId="8567569493821111989" fileName="Edge.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <nodeInfo nodeId="4179389957059014443" fileName="Edge.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="190081711777515816" fileName="Edge.java" startLine="22" startPosition="45" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="190081711777515854" fileName="Edge.java" startLine="30" startPosition="45" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="4660430665333277202" fileName="Edge.java" startLine="55" startPosition="0" endLine="60" endPosition="0" />
+    <nodeInfo nodeId="6984255766319276407" fileName="Edge.java" startLine="60" startPosition="0" endLine="65" endPosition="0" />
+    <nodeInfo nodeId="7777374380555164014" fileName="Edge.java" startLine="65" startPosition="0" endLine="70" endPosition="0" />
+    <nodeInfo nodeId="190081711777515809" fileName="Edge.java" startLine="21" startPosition="0" endLine="29" endPosition="0" />
+    <nodeInfo nodeId="190081711777515847" fileName="Edge.java" startLine="29" startPosition="0" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="1654665216152488964" fileName="Edge.java" startLine="70" startPosition="0" endLine="78" endPosition="0" />
+    <nodeInfo nodeId="1646208389854254579" fileName="Edge.java" startLine="41" startPosition="0" endLine="51" endPosition="0" />
+    <scopeInfo nodeId="190081711777509662" fileName="Edge.java" startLine="84" startPosition="17" endLine="84" endPosition="17" />
+    <scopeInfo nodeId="8567569493821111984" fileName="Edge.java" startLine="18" startPosition="27" endLine="19" endPosition="25" />
+    <scopeInfo nodeId="190081711777515818" fileName="Edge.java" startLine="23" startPosition="38" endLine="24" endPosition="25" />
+    <scopeInfo nodeId="190081711777515834" fileName="Edge.java" startLine="25" startPosition="12" endLine="26" endPosition="25" />
+    <scopeInfo nodeId="190081711777515856" fileName="Edge.java" startLine="31" startPosition="38" endLine="32" endPosition="25" />
+    <scopeInfo nodeId="190081711777515869" fileName="Edge.java" startLine="33" startPosition="12" endLine="34" endPosition="25" />
+    <scopeInfo nodeId="8567569493821111992" fileName="Edge.java" startLine="38" startPosition="27" endLine="39" endPosition="25" />
+    <scopeInfo nodeId="1646208389854254588" fileName="Edge.java" startLine="43" startPosition="27" endLine="44" endPosition="22" />
+    <scopeInfo nodeId="1646208389854254599" fileName="Edge.java" startLine="46" startPosition="27" endLine="47" endPosition="22" />
+    <scopeInfo nodeId="4179389957059014446" fileName="Edge.java" startLine="52" startPosition="40" endLine="53" endPosition="90" />
+    <scopeInfo nodeId="7777374380555164017" fileName="Edge.java" startLine="67" startPosition="28" endLine="68" endPosition="80" />
+    <scopeInfo nodeId="8567569493821103297" fileName="Edge.java" startLine="13" startPosition="41" endLine="15" endPosition="22" />
+    <scopeInfo nodeId="4660430665333277205" fileName="Edge.java" startLine="56" startPosition="33" endLine="58" endPosition="69" />
+    <scopeInfo nodeId="6984255766319276410" fileName="Edge.java" startLine="61" startPosition="28" endLine="63" endPosition="29" />
+    <scopeInfo nodeId="190081711777509659" fileName="Edge.java" startLine="83" startPosition="0" endLine="85" endPosition="5" />
+    <scopeInfo nodeId="8567569493821103294" fileName="Edge.java" startLine="12" startPosition="0" endLine="16" endPosition="3">
+      <varInfo nodeId="8567569493821107725" varName="source" />
+      <varInfo nodeId="8567569493821107727" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="8567569493821111981" fileName="Edge.java" startLine="17" startPosition="0" endLine="21" endPosition="0" />
+    <scopeInfo nodeId="8567569493821111989" fileName="Edge.java" startLine="37" startPosition="0" endLine="41" endPosition="0" />
+    <scopeInfo nodeId="4179389957059014443" fileName="Edge.java" startLine="51" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="190081711777515812" fileName="Edge.java" startLine="22" startPosition="45" endLine="27" endPosition="5" />
+    <scopeInfo nodeId="190081711777515850" fileName="Edge.java" startLine="30" startPosition="45" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="4660430665333277202" fileName="Edge.java" startLine="55" startPosition="0" endLine="60" endPosition="0" />
+    <scopeInfo nodeId="6984255766319276407" fileName="Edge.java" startLine="60" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="7777374380555164014" fileName="Edge.java" startLine="65" startPosition="0" endLine="70" endPosition="0" />
+    <scopeInfo nodeId="1654665216152488967" fileName="Edge.java" startLine="71" startPosition="24" endLine="76" endPosition="17">
+      <varInfo nodeId="1654665216152488971" varName="temp" />
+    </scopeInfo>
+    <scopeInfo nodeId="1646208389854254582" fileName="Edge.java" startLine="42" startPosition="38" endLine="49" endPosition="70" />
+    <scopeInfo nodeId="190081711777515809" fileName="Edge.java" startLine="21" startPosition="0" endLine="29" endPosition="0">
+      <varInfo nodeId="190081711777515814" varName="dir" />
+    </scopeInfo>
+    <scopeInfo nodeId="190081711777515847" fileName="Edge.java" startLine="29" startPosition="0" endLine="37" endPosition="0">
+      <varInfo nodeId="190081711777515852" varName="dir" />
+    </scopeInfo>
+    <scopeInfo nodeId="1654665216152488964" fileName="Edge.java" startLine="70" startPosition="0" endLine="78" endPosition="0" />
+    <scopeInfo nodeId="1646208389854254579" fileName="Edge.java" startLine="41" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="1646208389854254584" varName="node" />
+    </scopeInfo>
+    <unitInfo nodeId="190081711777509657" fileName="Edge.java" startLine="79" startPosition="0" endLine="87" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Edge$Direction" />
+    <unitInfo nodeId="8567569493821103292" fileName="Edge.java" startLine="9" startPosition="0" endLine="88" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Edge" />
+  </root>
+  <root nodeId="8567569493821103298">
+    <nodeInfo nodeId="8567569493821107942" fileName="Graph.java" startLine="9" startPosition="20" endLine="10" endPosition="29" />
+    <nodeInfo nodeId="8567569493821107948" fileName="Graph.java" startLine="12" startPosition="18" endLine="13" endPosition="59" />
+    <nodeInfo nodeId="8567569493821110919" fileName="Graph.java" startLine="16" startPosition="32" endLine="17" endPosition="19" />
+    <nodeInfo nodeId="1654665216152485912" fileName="Graph.java" startLine="20" startPosition="32" endLine="21" endPosition="71" />
+    <nodeInfo nodeId="1654665216152488884" fileName="Graph.java" startLine="22" startPosition="57" endLine="23" endPosition="93" />
+    <nodeInfo nodeId="1654665216152488899" fileName="Graph.java" startLine="24" startPosition="5" endLine="25" endPosition="20" />
+    <nodeInfo nodeId="8567569493821112508" fileName="Graph.java" startLine="28" startPosition="34" endLine="29" endPosition="60" />
+    <nodeInfo nodeId="8567569493821112219" fileName="Graph.java" startLine="32" startPosition="28" endLine="33" endPosition="50" />
+    <nodeInfo nodeId="6984255766319276428" fileName="Graph.java" startLine="44" startPosition="34" endLine="45" endPosition="22" />
+    <nodeInfo nodeId="4519409331094617234" fileName="Graph.java" startLine="53" startPosition="28" endLine="54" endPosition="47" />
+    <nodeInfo nodeId="4519409331094617239" fileName="Graph.java" startLine="54" startPosition="47" endLine="55" endPosition="93" />
+    <nodeInfo nodeId="4519409331094617260" fileName="Graph.java" startLine="56" startPosition="62" endLine="57" endPosition="45" />
+    <nodeInfo nodeId="4519409331094617271" fileName="Graph.java" startLine="57" startPosition="45" endLine="58" endPosition="38" />
+    <nodeInfo nodeId="4519409331094617282" fileName="Graph.java" startLine="59" startPosition="67" endLine="60" endPosition="35" />
+    <nodeInfo nodeId="4519409331094617289" fileName="Graph.java" startLine="61" startPosition="7" endLine="62" endPosition="26" />
+    <nodeInfo nodeId="4519409331094617294" fileName="Graph.java" startLine="62" startPosition="26" endLine="63" endPosition="37" />
+    <nodeInfo nodeId="4519409331094617305" fileName="Graph.java" startLine="64" startPosition="66" endLine="65" endPosition="35" />
+    <nodeInfo nodeId="4519409331094617312" fileName="Graph.java" startLine="66" startPosition="7" endLine="67" endPosition="26" />
+    <nodeInfo nodeId="4519409331094617317" fileName="Graph.java" startLine="68" startPosition="5" endLine="69" endPosition="45" />
+    <nodeInfo nodeId="4519409331094617324" fileName="Graph.java" startLine="69" startPosition="45" endLine="70" endPosition="29" />
+    <nodeInfo nodeId="8567569493821103300" fileName="Graph.java" startLine="11" startPosition="0" endLine="14" endPosition="3" />
+    <nodeInfo nodeId="1654665216152488878" fileName="Graph.java" startLine="21" startPosition="71" endLine="24" endPosition="5" />
+    <nodeInfo nodeId="4519409331094617276" fileName="Graph.java" startLine="58" startPosition="38" endLine="61" endPosition="7" />
+    <nodeInfo nodeId="4519409331094617299" fileName="Graph.java" startLine="63" startPosition="37" endLine="66" endPosition="7" />
+    <nodeInfo nodeId="8567569493821107956" fileName="Graph.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
+    <nodeInfo nodeId="8567569493821112501" fileName="Graph.java" startLine="27" startPosition="0" endLine="31" endPosition="0" />
+    <nodeInfo nodeId="8567569493821112214" fileName="Graph.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <nodeInfo nodeId="8567569493821112344" fileName="Graph.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <nodeInfo nodeId="6088058844796081411" fileName="Graph.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <nodeInfo nodeId="4660430665333281388" fileName="Graph.java" startLine="43" startPosition="0" endLine="47" endPosition="0" />
+    <nodeInfo nodeId="4038232163187048517" fileName="Graph.java" startLine="47" startPosition="0" endLine="51" endPosition="0" />
+    <nodeInfo nodeId="1654665216152485905" fileName="Graph.java" startLine="19" startPosition="0" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="4519409331094617254" fileName="Graph.java" startLine="55" startPosition="93" endLine="68" endPosition="5" />
+    <nodeInfo nodeId="4519409331094617227" fileName="Graph.java" startLine="51" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="8567569493821103303" fileName="Graph.java" startLine="12" startPosition="18" endLine="13" endPosition="59" />
+    <scopeInfo nodeId="8567569493821107959" fileName="Graph.java" startLine="16" startPosition="32" endLine="17" endPosition="19" />
+    <scopeInfo nodeId="1654665216152488881" fileName="Graph.java" startLine="22" startPosition="57" endLine="23" endPosition="93" />
+    <scopeInfo nodeId="8567569493821112504" fileName="Graph.java" startLine="28" startPosition="34" endLine="29" endPosition="60" />
+    <scopeInfo nodeId="8567569493821112217" fileName="Graph.java" startLine="32" startPosition="28" endLine="33" endPosition="50" />
+    <scopeInfo nodeId="8567569493821112347" fileName="Graph.java" startLine="36" startPosition="25" endLine="37" endPosition="110" />
+    <scopeInfo nodeId="6088058844796081414" fileName="Graph.java" startLine="40" startPosition="30" endLine="41" endPosition="109" />
+    <scopeInfo nodeId="4660430665333281391" fileName="Graph.java" startLine="44" startPosition="34" endLine="45" endPosition="22" />
+    <scopeInfo nodeId="4038232163187048520" fileName="Graph.java" startLine="48" startPosition="64" endLine="49" endPosition="64" />
+    <scopeInfo nodeId="4519409331094617281" fileName="Graph.java" startLine="59" startPosition="67" endLine="60" endPosition="35" />
+    <scopeInfo nodeId="4519409331094617304" fileName="Graph.java" startLine="64" startPosition="66" endLine="65" endPosition="35" />
+    <scopeInfo nodeId="8567569493821103300" fileName="Graph.java" startLine="11" startPosition="0" endLine="14" endPosition="3" />
+    <scopeInfo nodeId="1654665216152488878" fileName="Graph.java" startLine="21" startPosition="71" endLine="24" endPosition="5" />
+    <scopeInfo nodeId="4519409331094617276" fileName="Graph.java" startLine="58" startPosition="38" endLine="61" endPosition="7" />
+    <scopeInfo nodeId="4519409331094617299" fileName="Graph.java" startLine="63" startPosition="37" endLine="66" endPosition="7" />
+    <scopeInfo nodeId="8567569493821107956" fileName="Graph.java" startLine="15" startPosition="0" endLine="19" endPosition="0" />
+    <scopeInfo nodeId="8567569493821112501" fileName="Graph.java" startLine="27" startPosition="0" endLine="31" endPosition="0">
+      <varInfo nodeId="8567569493821112506" varName="index" />
+    </scopeInfo>
+    <scopeInfo nodeId="8567569493821112214" fileName="Graph.java" startLine="31" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="8567569493821112344" fileName="Graph.java" startLine="35" startPosition="0" endLine="39" endPosition="0" />
+    <scopeInfo nodeId="6088058844796081411" fileName="Graph.java" startLine="39" startPosition="0" endLine="43" endPosition="0" />
+    <scopeInfo nodeId="4660430665333281388" fileName="Graph.java" startLine="43" startPosition="0" endLine="47" endPosition="0">
+      <varInfo nodeId="4660430665333281394" varName="edge" />
+    </scopeInfo>
+    <scopeInfo nodeId="4038232163187048517" fileName="Graph.java" startLine="47" startPosition="0" endLine="51" endPosition="0">
+      <varInfo nodeId="4038232163187048523" varName="targetIndex" />
+      <varInfo nodeId="4038232163187048521" varName="sourceIndex" />
+    </scopeInfo>
+    <scopeInfo nodeId="1654665216152485908" fileName="Graph.java" startLine="20" startPosition="32" endLine="25" endPosition="20">
+      <varInfo nodeId="1654665216152485913" varName="allEdges" />
+    </scopeInfo>
+    <scopeInfo nodeId="1654665216152485905" fileName="Graph.java" startLine="19" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4519409331094617259" fileName="Graph.java" startLine="56" startPosition="62" endLine="67" endPosition="26" />
+    <scopeInfo nodeId="4519409331094617254" fileName="Graph.java" startLine="55" startPosition="93" endLine="68" endPosition="5" />
+    <scopeInfo nodeId="4519409331094617230" fileName="Graph.java" startLine="53" startPosition="28" endLine="70" endPosition="29">
+      <varInfo nodeId="4519409331094617235" varName="result" />
+    </scopeInfo>
+    <scopeInfo nodeId="4519409331094617227" fileName="Graph.java" startLine="51" startPosition="0" endLine="72" endPosition="0" />
+    <unitInfo nodeId="8567569493821103298" fileName="Graph.java" startLine="9" startPosition="0" endLine="73" endPosition="0" unitName="jetbrains.mps.graphLayout.graph.Graph" />
+  </root>
+</debugInfo>
+

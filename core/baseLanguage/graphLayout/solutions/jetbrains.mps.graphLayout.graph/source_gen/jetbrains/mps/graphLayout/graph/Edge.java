@@ -58,9 +58,22 @@ public class Edge {
     ListSequence.fromList(myTarget.getInEdges()).removeElement(this);
   }
 
+  public void addToGraph() {
+    mySource.addOutEdge(this);
+    myTarget.addInEdge(this);
+  }
+
   @Override
   public String toString() {
     return "[" + getSource().getIndex() + " -> " + getTarget().getIndex() + "]";
+  }
+
+  public void revert() {
+    removeFromGraph();
+    Node temp = mySource;
+    mySource = myTarget;
+    myTarget = temp;
+    addToGraph();
   }
 
   public static   enum Direction {

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="508819492464323617">
+    <nodeInfo nodeId="508819492464323638" fileName="OrthogonalFromVisibility_Test.java" startLine="13" startPosition="49" endLine="14" endPosition="137" />
+    <nodeInfo nodeId="508819492464323642" fileName="OrthogonalFromVisibility_Test.java" startLine="14" startPosition="137" endLine="15" endPosition="62" />
+    <nodeInfo nodeId="508819492464323628" fileName="OrthogonalFromVisibility_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="72" />
+    <nodeInfo nodeId="508819492464323624" fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="61" endLine="18" endPosition="0" />
+    <scopeInfo nodeId="508819492464323627" fileName="OrthogonalFromVisibility_Test.java" startLine="13" startPosition="49" endLine="16" endPosition="72">
+      <varInfo nodeId="508819492464323639" varName="graphString" />
+      <varInfo nodeId="508819492464323643" varName="graph" />
+      <varInfo nodeId="508819492464323629" varName="layout" />
+    </scopeInfo>
+    <scopeInfo nodeId="508819492464323624" fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="61" endLine="18" endPosition="0" />
+  </root>
+  <root nodeId="6984255766319282469">
+    <nodeInfo nodeId="3619822174190268963" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="45" endLine="24" endPosition="263" />
+    <nodeInfo nodeId="508819492464319394" fileName="VisibilityRepresentation_Test.java" startLine="24" startPosition="263" endLine="25" endPosition="92" />
+    <nodeInfo nodeId="508819492464319401" fileName="VisibilityRepresentation_Test.java" startLine="25" startPosition="92" endLine="26" endPosition="43" />
+    <nodeInfo nodeId="508819492464319407" fileName="VisibilityRepresentation_Test.java" startLine="26" startPosition="43" endLine="27" endPosition="103" />
+    <nodeInfo nodeId="508819492464319421" fileName="VisibilityRepresentation_Test.java" startLine="27" startPosition="103" endLine="28" endPosition="108" />
+    <nodeInfo nodeId="508819492464319434" fileName="VisibilityRepresentation_Test.java" startLine="29" startPosition="63" endLine="30" endPosition="82" />
+    <nodeInfo nodeId="508819492464319451" fileName="VisibilityRepresentation_Test.java" startLine="32" startPosition="63" endLine="33" endPosition="82" />
+    <nodeInfo nodeId="508819492464319474" fileName="VisibilityRepresentation_Test.java" startLine="37" startPosition="49" endLine="38" endPosition="137" />
+    <nodeInfo nodeId="508819492464319487" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="137" endLine="39" endPosition="62" />
+    <nodeInfo nodeId="508819492464319520" fileName="VisibilityRepresentation_Test.java" startLine="39" startPosition="62" endLine="40" endPosition="119" />
+    <nodeInfo nodeId="508819492464323345" fileName="VisibilityRepresentation_Test.java" startLine="40" startPosition="119" endLine="41" endPosition="102" />
+    <nodeInfo nodeId="508819492464323370" fileName="VisibilityRepresentation_Test.java" startLine="41" startPosition="102" endLine="42" endPosition="102" />
+    <nodeInfo nodeId="508819492464319498" fileName="VisibilityRepresentation_Test.java" startLine="42" startPosition="102" endLine="43" endPosition="73" />
+    <nodeInfo nodeId="508819492464323390" fileName="VisibilityRepresentation_Test.java" startLine="43" startPosition="73" endLine="44" endPosition="108" />
+    <nodeInfo nodeId="508819492464323484" fileName="VisibilityRepresentation_Test.java" startLine="45" startPosition="63" endLine="46" endPosition="82" />
+    <nodeInfo nodeId="508819492464323501" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" />
+    <nodeInfo nodeId="3619822174190284697" fileName="VisibilityRepresentation_Test.java" startLine="53" startPosition="42" endLine="54" endPosition="82" />
+    <nodeInfo nodeId="3619822174190284812" fileName="VisibilityRepresentation_Test.java" startLine="54" startPosition="82" endLine="55" endPosition="62" />
+    <nodeInfo nodeId="3619822174190284825" fileName="VisibilityRepresentation_Test.java" startLine="55" startPosition="62" endLine="56" endPosition="72" />
+    <nodeInfo nodeId="3619822174190284992" fileName="VisibilityRepresentation_Test.java" startLine="56" startPosition="72" endLine="57" endPosition="102" />
+    <nodeInfo nodeId="3619822174190285004" fileName="VisibilityRepresentation_Test.java" startLine="57" startPosition="102" endLine="58" endPosition="102" />
+    <nodeInfo nodeId="3619822174190284754" fileName="VisibilityRepresentation_Test.java" startLine="58" startPosition="102" endLine="59" endPosition="73" />
+    <nodeInfo nodeId="3619822174190284768" fileName="VisibilityRepresentation_Test.java" startLine="59" startPosition="73" endLine="60" endPosition="108" />
+    <nodeInfo nodeId="3619822174190284781" fileName="VisibilityRepresentation_Test.java" startLine="61" startPosition="63" endLine="62" endPosition="82" />
+    <nodeInfo nodeId="3619822174190284798" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="63" endLine="65" endPosition="82" />
+    <nodeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="28" startPosition="108" endLine="31" endPosition="5" />
+    <nodeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="44" startPosition="108" endLine="47" endPosition="5" />
+    <nodeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="5" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="60" startPosition="108" endLine="63" endPosition="5" />
+    <nodeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="63" startPosition="5" endLine="66" endPosition="5" />
+    <nodeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="22" startPosition="61" endLine="36" endPosition="0" />
+    <nodeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="36" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="52" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="508819492464319433" fileName="VisibilityRepresentation_Test.java" startLine="29" startPosition="63" endLine="30" endPosition="82" />
+    <scopeInfo nodeId="508819492464319450" fileName="VisibilityRepresentation_Test.java" startLine="32" startPosition="63" endLine="33" endPosition="82" />
+    <scopeInfo nodeId="508819492464323483" fileName="VisibilityRepresentation_Test.java" startLine="45" startPosition="63" endLine="46" endPosition="82" />
+    <scopeInfo nodeId="508819492464323500" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" />
+    <scopeInfo nodeId="3619822174190284780" fileName="VisibilityRepresentation_Test.java" startLine="61" startPosition="63" endLine="62" endPosition="82" />
+    <scopeInfo nodeId="3619822174190284797" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="63" endLine="65" endPosition="82" />
+    <scopeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="28" startPosition="108" endLine="31" endPosition="5" />
+    <scopeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="44" startPosition="108" endLine="47" endPosition="5" />
+    <scopeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="5" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="60" startPosition="108" endLine="63" endPosition="5" />
+    <scopeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="63" startPosition="5" endLine="66" endPosition="5" />
+    <scopeInfo nodeId="6984255766319282479" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="45" endLine="34" endPosition="5">
+      <varInfo nodeId="3619822174190268964" varName="graphString" />
+      <varInfo nodeId="508819492464319402" varName="graph" />
+      <varInfo nodeId="508819492464319422" varName="visibility" />
+      <varInfo nodeId="508819492464319408" varName="stPlanarGraph" />
+      <varInfo nodeId="508819492464319395" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="508819492464319472" fileName="VisibilityRepresentation_Test.java" startLine="37" startPosition="49" endLine="50" endPosition="5">
+      <varInfo nodeId="508819492464319475" varName="graphString" />
+      <varInfo nodeId="508819492464323371" varName="t" />
+      <varInfo nodeId="508819492464319488" varName="graph" />
+      <varInfo nodeId="508819492464323346" varName="s" />
+      <varInfo nodeId="508819492464323391" varName="visibility" />
+      <varInfo nodeId="508819492464319499" varName="stPlanarGraph" />
+      <varInfo nodeId="508819492464319521" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="3619822174190284696" fileName="VisibilityRepresentation_Test.java" startLine="53" startPosition="42" endLine="66" endPosition="5">
+      <varInfo nodeId="3619822174190284698" varName="graphString" />
+      <varInfo nodeId="3619822174190285005" varName="t" />
+      <varInfo nodeId="3619822174190284813" varName="graph" />
+      <varInfo nodeId="3619822174190284993" varName="s" />
+      <varInfo nodeId="3619822174190284769" varName="visibility" />
+      <varInfo nodeId="3619822174190284755" varName="stPlanarGraph" />
+      <varInfo nodeId="3619822174190284826" varName="embeddedGraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="22" startPosition="61" endLine="36" endPosition="0" />
+    <scopeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="36" startPosition="0" endLine="52" endPosition="0" />
+    <scopeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="52" startPosition="0" endLine="68" endPosition="0" />
+  </root>
+</debugInfo>
+

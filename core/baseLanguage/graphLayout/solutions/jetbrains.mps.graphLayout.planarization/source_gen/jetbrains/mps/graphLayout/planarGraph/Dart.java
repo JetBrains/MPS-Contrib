@@ -7,23 +7,19 @@ import jetbrains.mps.graphLayout.graph.Node;
 
 public class Dart {
   private Edge myEdge;
-  private Edge.Direction myDirection;
+  private Node mySource;
 
   public Dart(Edge edge, Node source) {
     myEdge = edge;
-    if (source == edge.getSource()) {
-      myDirection = Edge.Direction.FRONT;
-    } else {
-      myDirection = Edge.Direction.BACK;
-    }
+    mySource = source;
   }
 
   public Node getSource() {
-    return myEdge.getSource(myDirection);
+    return mySource;
   }
 
   public Node getTarget() {
-    return myEdge.getTarget(myDirection);
+    return myEdge.getOpposite(mySource);
   }
 
   public Edge getEdge() {
@@ -33,9 +29,5 @@ public class Dart {
   @Override
   public String toString() {
     return "(dart " + getSource() + " -> " + getTarget() + ")";
-  }
-
-  public Edge.Direction getDirection() {
-    return this.myDirection;
   }
 }

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" file="BiconnectedInitialEmbeddingFinder.java">
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.HashSet" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.planarization.IEmbeddinngFinder" />
+  </dependency>
+  <dependency className="jetbrains.mps.graphLayout.planarization.IEmbeddinngFinder" file="IEmbeddinngFinder.java">
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+  </dependency>
+  <dependency className="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" file="ShortestPathEmbeddingFinder.java">
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.planarization.IEmbeddinngFinder" />
+  </dependency>
+  <dependency className="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" file="TreeEmbeddingFinder.java">
+    <classNode dependClassName="java.lang.Override" />
+    <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.Iterator" />
+    <classNode dependClassName="java.util.LinkedHashSet" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="java.util.Set" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.CheckEmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Dart" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.algorithms.Dfs" />
+    <classNode extendsClassName="jetbrains.mps.graphLayout.planarization.IEmbeddinngFinder" />
+  </dependency>
+</dependenciesRoot>
+

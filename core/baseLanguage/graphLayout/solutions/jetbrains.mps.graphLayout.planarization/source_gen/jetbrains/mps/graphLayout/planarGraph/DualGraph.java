@@ -42,6 +42,16 @@ public class DualGraph extends Graph {
     }
   }
 
+  public Node addRealNode(Node realNode) {
+    Node newNode = this.addDummyNode();
+    for (Edge edge : ListSequence.fromList(realNode.getEdges())) {
+      for (Face face : ListSequence.fromList(MapSequence.fromMap(myEmbeddedGraph.getAdjacentFacesMap()).get(edge))) {
+        newNode.addEdgeTo(MapSequence.fromMap(this.getNodesMap()).get(face));
+      }
+    }
+    return newNode;
+  }
+
   public EmbeddedGraph getEmbeddedGraph() {
     return this.myEmbeddedGraph;
   }
@@ -56,5 +66,15 @@ public class DualGraph extends Graph {
 
   public Map<Edge, Edge> getEdgesMap() {
     return this.myEdgesMap;
+  }
+
+  public void removeFromGraph(Edge edge) {
+    edge.removeFromGraph();
+    MapSequence.fromMap(myEdgesMap).removeKey(edge);
+  }
+
+  public void addEdge(Node source, Node target, Edge realEdge) {
+    Edge edge = source.addEdgeTo(target);
+    MapSequence.fromMap(myEdgesMap).put(edge, realEdge);
   }
 }

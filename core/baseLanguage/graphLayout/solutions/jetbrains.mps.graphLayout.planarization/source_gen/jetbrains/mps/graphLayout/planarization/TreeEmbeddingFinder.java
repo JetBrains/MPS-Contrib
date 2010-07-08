@@ -31,11 +31,11 @@ public class TreeEmbeddingFinder implements IEmbeddinngFinder {
     List<Edge> removed = ListSequence.fromList(new ArrayList<Edge>());
     Face outerFace = getOuterTreeFace(graph, removed);
     for (Edge edge : ListSequence.fromList(removed)) {
+
       edge.removeFromGraph();
     }
     embeddedGraph.addFace(outerFace);
     embeddedGraph.setOuterFace(outerFace);
-    System.out.println("initial: " + embeddedGraph);
     for (Edge removedEdge : ListSequence.fromList(removed)) {
       this.restoreEdge(embeddedGraph, removedEdge);
       CheckEmbeddedGraph.checkEmbeddedGraph(embeddedGraph);
@@ -56,10 +56,8 @@ public class TreeEmbeddingFinder implements IEmbeddinngFinder {
       }
       ListSequence.fromList(newNodes).addElement(newNode);
     }
-    /*
-      System.out.println("before: " + embeddedGraph);
-      System.out.println(dualGraph);
-    */
+    System.out.println("before: " + embeddedGraph);
+    System.out.println(dualGraph);
     System.out.println("adding " + removedEdge);
     List<Edge> path = ShortestPath.getPath(dualGraph, ListSequence.fromList(newNodes).getElement(0), ListSequence.fromList(newNodes).getElement(1), Edge.Direction.BOTH);
     List<Node> nodePath = ListSequence.fromList(new ArrayList<Node>());
@@ -81,7 +79,9 @@ public class TreeEmbeddingFinder implements IEmbeddinngFinder {
     for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
       splitFace(embeddedGraph, ListSequence.fromList(facePath).getElement(i), ListSequence.fromListAndArray(new ArrayList<Node>(), ListSequence.fromList(nodePath).getElement(i), ListSequence.fromList(nodePath).getElement(i + 1)));
     }
-    System.out.println("after: " + embeddedGraph);
+    /*
+      System.out.println("after: " + embeddedGraph);
+    */
   }
 
   public void splitFace(EmbeddedGraph embeddedGraph, Face face, List<Node> nodes) {
@@ -121,6 +121,9 @@ public class TreeEmbeddingFinder implements IEmbeddinngFinder {
     embeddedGraph.removeFace(face);
     for (Face newFace : ListSequence.fromList(newFaces)) {
       embeddedGraph.addFace(newFace);
+    }
+    if (embeddedGraph.isOuterFace(face)) {
+      embeddedGraph.setOuterFace(ListSequence.fromList(newFaces).getElement(1));
     }
   }
 

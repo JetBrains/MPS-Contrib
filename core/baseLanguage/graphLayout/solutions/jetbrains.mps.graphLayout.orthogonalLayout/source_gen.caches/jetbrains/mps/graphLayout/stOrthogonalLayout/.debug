@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<debugInfo>
+  <root nodeId="1327612371813201698">
+    <nodeInfo nodeId="1327612371813205071" fileName="OrthogonalFromVisibility.java" startLine="29" startPosition="6" endLine="30" endPosition="121" />
+    <nodeInfo nodeId="508819492464331041" fileName="OrthogonalFromVisibility.java" startLine="31" startPosition="6" endLine="32" endPosition="72" />
+    <nodeInfo nodeId="1327612371813205131" fileName="OrthogonalFromVisibility.java" startLine="32" startPosition="72" endLine="33" endPosition="73" />
+    <nodeInfo nodeId="1327612371813205158" fileName="OrthogonalFromVisibility.java" startLine="34" startPosition="86" endLine="35" endPosition="69" />
+    <nodeInfo nodeId="1327612371813205175" fileName="OrthogonalFromVisibility.java" startLine="36" startPosition="5" endLine="37" endPosition="61" />
+    <nodeInfo nodeId="1327612371813208146" fileName="OrthogonalFromVisibility.java" startLine="37" startPosition="61" endLine="38" endPosition="107" />
+    <nodeInfo nodeId="1327612371813208182" fileName="OrthogonalFromVisibility.java" startLine="38" startPosition="107" endLine="39" endPosition="73" />
+    <nodeInfo nodeId="1327612371813208200" fileName="OrthogonalFromVisibility.java" startLine="39" startPosition="73" endLine="40" endPosition="108" />
+    <nodeInfo nodeId="1327612371813205057" fileName="OrthogonalFromVisibility.java" startLine="40" startPosition="108" endLine="41" endPosition="48" />
+    <nodeInfo nodeId="1327612371813208234" fileName="OrthogonalFromVisibility.java" startLine="42" startPosition="63" endLine="43" endPosition="65" />
+    <nodeInfo nodeId="1327612371813208219" fileName="OrthogonalFromVisibility.java" startLine="43" startPosition="65" endLine="44" endPosition="76" />
+    <nodeInfo nodeId="1327612371813208288" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="63" endLine="47" endPosition="65" />
+    <nodeInfo nodeId="1327612371813208298" fileName="OrthogonalFromVisibility.java" startLine="47" startPosition="65" endLine="48" endPosition="73" />
+    <nodeInfo nodeId="1327612371813208310" fileName="OrthogonalFromVisibility.java" startLine="48" startPosition="73" endLine="49" endPosition="86" />
+    <nodeInfo nodeId="1327612371813208335" fileName="OrthogonalFromVisibility.java" startLine="49" startPosition="86" endLine="50" endPosition="74" />
+    <nodeInfo nodeId="1327612371813208360" fileName="OrthogonalFromVisibility.java" startLine="50" startPosition="74" endLine="51" endPosition="88" />
+    <nodeInfo nodeId="1327612371813208382" fileName="OrthogonalFromVisibility.java" startLine="51" startPosition="88" endLine="52" endPosition="86" />
+    <nodeInfo nodeId="1327612371813210627" fileName="OrthogonalFromVisibility.java" startLine="52" startPosition="86" endLine="53" endPosition="40" />
+    <nodeInfo nodeId="1327612371813205066" fileName="OrthogonalFromVisibility.java" startLine="54" startPosition="5" endLine="55" endPosition="18" />
+    <nodeInfo nodeId="1327612371813201700" fileName="OrthogonalFromVisibility.java" startLine="24" startPosition="60" endLine="26" endPosition="3" />
+    <nodeInfo nodeId="6074874003310511087" fileName="OrthogonalFromVisibility.java" startLine="28" startPosition="44" endLine="31" endPosition="6" />
+    <nodeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="33" startPosition="73" endLine="36" endPosition="5" />
+    <nodeInfo nodeId="1327612371813208209" fileName="OrthogonalFromVisibility.java" startLine="41" startPosition="48" endLine="45" endPosition="5" />
+    <nodeInfo nodeId="1327612371813208276" fileName="OrthogonalFromVisibility.java" startLine="45" startPosition="5" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="27" startPosition="0" endLine="57" endPosition="0" />
+    <scopeInfo nodeId="1327612371813201703" fileName="OrthogonalFromVisibility.java" startLine="25" startPosition="37" endLine="25" endPosition="37" />
+    <scopeInfo nodeId="1327612371813205146" fileName="OrthogonalFromVisibility.java" startLine="34" startPosition="86" endLine="35" endPosition="69" />
+    <scopeInfo nodeId="1327612371813201700" fileName="OrthogonalFromVisibility.java" startLine="24" startPosition="60" endLine="26" endPosition="3" />
+    <scopeInfo nodeId="1327612371813208212" fileName="OrthogonalFromVisibility.java" startLine="42" startPosition="63" endLine="44" endPosition="76">
+      <varInfo nodeId="1327612371813208235" varName="rect" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813205143" fileName="OrthogonalFromVisibility.java" startLine="33" startPosition="73" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="1327612371813208209" fileName="OrthogonalFromVisibility.java" startLine="41" startPosition="48" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="1327612371813208279" fileName="OrthogonalFromVisibility.java" startLine="46" startPosition="63" endLine="53" endPosition="40">
+      <varInfo nodeId="1327612371813208299" varName="points" />
+      <varInfo nodeId="1327612371813208289" varName="rect" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813208276" fileName="OrthogonalFromVisibility.java" startLine="45" startPosition="5" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="1327612371813201707" fileName="OrthogonalFromVisibility.java" startLine="28" startPosition="44" endLine="55" endPosition="18">
+      <varInfo nodeId="1327612371813208147" varName="t" />
+      <varInfo nodeId="1327612371813205176" varName="s" />
+      <varInfo nodeId="1327612371813208201" varName="visibility" />
+      <varInfo nodeId="1327612371813208183" varName="stPlanarGraph" />
+      <varInfo nodeId="1327612371813205058" varName="layout" />
+      <varInfo nodeId="508819492464331042" varName="embeddedGraph" />
+      <varInfo nodeId="1327612371813205132" varName="outerNodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="1327612371813201704" fileName="OrthogonalFromVisibility.java" startLine="27" startPosition="0" endLine="57" endPosition="0">
+      <varInfo nodeId="1327612371813205053" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="1327612371813201698" fileName="OrthogonalFromVisibility.java" startLine="24" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility" />
+  </root>
+  <root nodeId="5213231752900665239">
+    <nodeInfo nodeId="5213231752900665251" fileName="OrthogonalLayouter.java" startLine="30" startPosition="37" endLine="31" endPosition="80" />
+    <nodeInfo nodeId="5213231752900665487" fileName="OrthogonalLayouter.java" startLine="31" startPosition="80" endLine="32" endPosition="25" />
+    <nodeInfo nodeId="5213231752900665503" fileName="OrthogonalLayouter.java" startLine="33" startPosition="63" endLine="34" endPosition="87" />
+    <nodeInfo nodeId="5213231752900665442" fileName="OrthogonalLayouter.java" startLine="35" startPosition="5" endLine="36" endPosition="56" />
+    <nodeInfo nodeId="5213231752900665463" fileName="OrthogonalLayouter.java" startLine="36" startPosition="56" endLine="37" endPosition="74" />
+    <nodeInfo nodeId="5213231752900665532" fileName="OrthogonalLayouter.java" startLine="38" startPosition="45" endLine="39" endPosition="63" />
+    <nodeInfo nodeId="5213231752900665552" fileName="OrthogonalLayouter.java" startLine="41" startPosition="63" endLine="42" endPosition="110" />
+    <nodeInfo nodeId="5213231752900665569" fileName="OrthogonalLayouter.java" startLine="42" startPosition="110" endLine="43" endPosition="66" />
+    <nodeInfo nodeId="5213231752900665596" fileName="OrthogonalLayouter.java" startLine="45" startPosition="63" endLine="46" endPosition="121" />
+    <nodeInfo nodeId="5213231752900665646" fileName="OrthogonalLayouter.java" startLine="48" startPosition="61" endLine="49" endPosition="26" />
+    <nodeInfo nodeId="6074874003310509006" fileName="OrthogonalLayouter.java" startLine="53" startPosition="41" endLine="54" endPosition="72" />
+    <nodeInfo nodeId="6074874003310509023" fileName="OrthogonalLayouter.java" startLine="54" startPosition="72" endLine="55" endPosition="80" />
+    <nodeInfo nodeId="6074874003310509016" fileName="OrthogonalLayouter.java" startLine="55" startPosition="80" endLine="56" endPosition="124" />
+    <nodeInfo nodeId="6074874003310509056" fileName="OrthogonalLayouter.java" startLine="56" startPosition="124" endLine="57" endPosition="59" />
+    <nodeInfo nodeId="6074874003310509419" fileName="OrthogonalLayouter.java" startLine="57" startPosition="59" endLine="58" endPosition="59" />
+    <nodeInfo nodeId="6074874003310509080" fileName="OrthogonalLayouter.java" startLine="58" startPosition="59" endLine="59" endPosition="29" />
+    <nodeInfo nodeId="6074874003310509433" fileName="OrthogonalLayouter.java" startLine="60" startPosition="63" endLine="61" endPosition="36" />
+    <nodeInfo nodeId="6074874003310509099" fileName="OrthogonalLayouter.java" startLine="61" startPosition="36" endLine="62" endPosition="58" />
+    <nodeInfo nodeId="6074874003310509441" fileName="OrthogonalLayouter.java" startLine="62" startPosition="58" endLine="63" endPosition="58" />
+    <nodeInfo nodeId="6074874003310509128" fileName="OrthogonalLayouter.java" startLine="65" startPosition="63" endLine="66" endPosition="127" />
+    <nodeInfo nodeId="6074874003310509157" fileName="OrthogonalLayouter.java" startLine="67" startPosition="5" endLine="68" endPosition="71" />
+    <nodeInfo nodeId="6074874003310509175" fileName="OrthogonalLayouter.java" startLine="68" startPosition="71" endLine="69" endPosition="73" />
+    <nodeInfo nodeId="6074874003310509190" fileName="OrthogonalLayouter.java" startLine="70" startPosition="86" endLine="71" endPosition="69" />
+    <nodeInfo nodeId="6074874003310509197" fileName="OrthogonalLayouter.java" startLine="77" startPosition="24" endLine="78" endPosition="61" />
+    <nodeInfo nodeId="6074874003310509204" fileName="OrthogonalLayouter.java" startLine="78" startPosition="61" endLine="79" endPosition="107" />
+    <nodeInfo nodeId="6074874003310509495" fileName="OrthogonalLayouter.java" startLine="79" startPosition="107" endLine="80" endPosition="137" />
+    <nodeInfo nodeId="6074874003310509407" fileName="OrthogonalLayouter.java" startLine="82" startPosition="77" endLine="83" endPosition="17" />
+    <nodeInfo nodeId="6074874003310509512" fileName="OrthogonalLayouter.java" startLine="84" startPosition="7" endLine="85" endPosition="79" />
+    <nodeInfo nodeId="6074874003310509527" fileName="OrthogonalLayouter.java" startLine="85" startPosition="79" endLine="86" endPosition="79" />
+    <nodeInfo nodeId="6074874003310509415" fileName="OrthogonalLayouter.java" startLine="87" startPosition="88" endLine="88" endPosition="26" />
+    <nodeInfo nodeId="6074874003310509591" fileName="OrthogonalLayouter.java" startLine="95" startPosition="9" endLine="96" endPosition="63" />
+    <nodeInfo nodeId="6074874003310509659" fileName="OrthogonalLayouter.java" startLine="101" startPosition="10" endLine="102" endPosition="0" />
+    <nodeInfo nodeId="5213231752900665241" fileName="OrthogonalLayouter.java" startLine="26" startPosition="33" endLine="28" endPosition="3" />
+    <nodeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="32" startPosition="25" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="37" startPosition="74" endLine="40" endPosition="5" />
+    <nodeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="44" startPosition="5" endLine="47" endPosition="5" />
+    <nodeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="47" startPosition="5" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="6074874003310509114" fileName="OrthogonalLayouter.java" startLine="64" startPosition="5" endLine="67" endPosition="5" />
+    <nodeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="69" startPosition="73" endLine="72" endPosition="5" />
+    <nodeInfo nodeId="6074874003310509379" fileName="OrthogonalLayouter.java" startLine="81" startPosition="66" endLine="84" endPosition="7" />
+    <nodeInfo nodeId="6074874003310509413" fileName="OrthogonalLayouter.java" startLine="86" startPosition="79" endLine="89" endPosition="7" />
+    <nodeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="40" startPosition="5" endLine="44" endPosition="5" />
+    <nodeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="73" startPosition="83" endLine="77" endPosition="0" />
+    <nodeInfo nodeId="6074874003310509566" fileName="OrthogonalLayouter.java" startLine="91" startPosition="103" endLine="95" endPosition="0" />
+    <nodeInfo nodeId="6074874003310509647" fileName="OrthogonalLayouter.java" startLine="97" startPosition="123" endLine="101" endPosition="0" />
+    <nodeInfo nodeId="6074874003310509088" fileName="OrthogonalLayouter.java" startLine="59" startPosition="29" endLine="64" endPosition="5" />
+    <nodeInfo nodeId="6074874003310509218" fileName="OrthogonalLayouter.java" startLine="72" startPosition="5" endLine="77" endPosition="24" />
+    <nodeInfo nodeId="6074874003310509623" fileName="OrthogonalLayouter.java" startLine="96" startPosition="63" endLine="101" endPosition="10" />
+    <nodeInfo nodeId="6074874003310509369" fileName="OrthogonalLayouter.java" startLine="80" startPosition="137" endLine="90" endPosition="5" />
+    <nodeInfo nodeId="6074874003310509551" fileName="OrthogonalLayouter.java" startLine="90" startPosition="5" endLine="103" endPosition="5" />
+    <nodeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="29" startPosition="0" endLine="52" endPosition="0" />
+    <nodeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="52" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="5213231752900665244" fileName="OrthogonalLayouter.java" startLine="27" startPosition="31" endLine="27" endPosition="31" />
+    <scopeInfo nodeId="5213231752900665496" fileName="OrthogonalLayouter.java" startLine="33" startPosition="63" endLine="34" endPosition="87" />
+    <scopeInfo nodeId="5213231752900665518" fileName="OrthogonalLayouter.java" startLine="38" startPosition="45" endLine="39" endPosition="63" />
+    <scopeInfo nodeId="5213231752900665589" fileName="OrthogonalLayouter.java" startLine="45" startPosition="63" endLine="46" endPosition="121" />
+    <scopeInfo nodeId="5213231752900665632" fileName="OrthogonalLayouter.java" startLine="48" startPosition="61" endLine="49" endPosition="26" />
+    <scopeInfo nodeId="6074874003310509117" fileName="OrthogonalLayouter.java" startLine="65" startPosition="63" endLine="66" endPosition="127" />
+    <scopeInfo nodeId="6074874003310509189" fileName="OrthogonalLayouter.java" startLine="70" startPosition="86" endLine="71" endPosition="69" />
+    <scopeInfo nodeId="6074874003310509230" fileName="OrthogonalLayouter.java" startLine="74" startPosition="38" endLine="75" endPosition="31" />
+    <scopeInfo nodeId="6074874003310509381" fileName="OrthogonalLayouter.java" startLine="82" startPosition="77" endLine="83" endPosition="17" />
+    <scopeInfo nodeId="6074874003310509414" fileName="OrthogonalLayouter.java" startLine="87" startPosition="88" endLine="88" endPosition="26" />
+    <scopeInfo nodeId="6074874003310509567" fileName="OrthogonalLayouter.java" startLine="92" startPosition="38" endLine="93" endPosition="28" />
+    <scopeInfo nodeId="6074874003310509648" fileName="OrthogonalLayouter.java" startLine="98" startPosition="37" endLine="99" endPosition="43" />
+    <scopeInfo nodeId="5213231752900665241" fileName="OrthogonalLayouter.java" startLine="26" startPosition="33" endLine="28" endPosition="3" />
+    <scopeInfo nodeId="5213231752900665434" fileName="OrthogonalLayouter.java" startLine="41" startPosition="63" endLine="43" endPosition="66">
+      <varInfo nodeId="5213231752900665553" varName="subgraph" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900665493" fileName="OrthogonalLayouter.java" startLine="32" startPosition="25" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665517" fileName="OrthogonalLayouter.java" startLine="37" startPosition="74" endLine="40" endPosition="5">
+      <varInfo nodeId="5213231752900665520" varName="i" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900665586" fileName="OrthogonalLayouter.java" startLine="44" startPosition="5" endLine="47" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665629" fileName="OrthogonalLayouter.java" startLine="47" startPosition="5" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="6074874003310509091" fileName="OrthogonalLayouter.java" startLine="60" startPosition="63" endLine="63" endPosition="58">
+      <varInfo nodeId="6074874003310509434" varName="newNode" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310509114" fileName="OrthogonalLayouter.java" startLine="64" startPosition="5" endLine="67" endPosition="5" />
+    <scopeInfo nodeId="6074874003310509182" fileName="OrthogonalLayouter.java" startLine="69" startPosition="73" endLine="72" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665431" fileName="OrthogonalLayouter.java" startLine="40" startPosition="5" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="73" startPosition="83" endLine="77" endPosition="0" />
+    <scopeInfo nodeId="6074874003310509566" fileName="OrthogonalLayouter.java" startLine="91" startPosition="103" endLine="95" endPosition="0" />
+    <scopeInfo nodeId="6074874003310509647" fileName="OrthogonalLayouter.java" startLine="97" startPosition="123" endLine="101" endPosition="0" />
+    <scopeInfo nodeId="6074874003310509088" fileName="OrthogonalLayouter.java" startLine="59" startPosition="29" endLine="64" endPosition="5" />
+    <scopeInfo nodeId="6074874003310509554" fileName="OrthogonalLayouter.java" startLine="95" startPosition="9" endLine="102" endPosition="0">
+      <varInfo nodeId="6074874003310509592" varName="adj" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310509372" fileName="OrthogonalLayouter.java" startLine="81" startPosition="66" endLine="89" endPosition="7">
+      <varInfo nodeId="6074874003310509513" varName="source" />
+      <varInfo nodeId="6074874003310509528" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310509369" fileName="OrthogonalLayouter.java" startLine="80" startPosition="137" endLine="90" endPosition="5" />
+    <scopeInfo nodeId="6074874003310509551" fileName="OrthogonalLayouter.java" startLine="90" startPosition="5" endLine="103" endPosition="5" />
+    <scopeInfo nodeId="5213231752900665248" fileName="OrthogonalLayouter.java" startLine="30" startPosition="37" endLine="50" endPosition="5">
+      <varInfo nodeId="5213231752900665464" varName="subgraphs" />
+      <varInfo nodeId="5213231752900665488" varName="maxComponent" />
+      <varInfo nodeId="5213231752900665443" varName="newNodes" />
+      <varInfo nodeId="5213231752900665252" varName="components" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900665245" fileName="OrthogonalLayouter.java" startLine="29" startPosition="0" endLine="52" endPosition="0">
+      <varInfo nodeId="5213231752900665249" varName="graph" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900665643" fileName="OrthogonalLayouter.java" startLine="53" startPosition="41" endLine="103" endPosition="5">
+      <varInfo nodeId="6074874003310509057" varName="graphToCopy" />
+      <varInfo nodeId="6074874003310509496" varName="num" />
+      <varInfo nodeId="6074874003310509205" varName="t" />
+      <varInfo nodeId="6074874003310509198" varName="s" />
+      <varInfo nodeId="6074874003310509007" varName="addedEdges" />
+      <varInfo nodeId="6074874003310509158" varName="embeddedGraph" />
+      <varInfo nodeId="6074874003310509176" varName="outerNodes" />
+      <varInfo nodeId="6074874003310509420" varName="copyToGraph" />
+      <varInfo nodeId="6074874003310509081" varName="copy" />
+      <varInfo nodeId="6074874003310509017" varName="addedNodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="5213231752900665640" fileName="OrthogonalLayouter.java" startLine="52" startPosition="0" endLine="105" endPosition="0">
+      <varInfo nodeId="5213231752900665644" varName="graph" />
+    </scopeInfo>
+    <unitInfo nodeId="6074874003310509229" fileName="OrthogonalLayouter.java" startLine="73" startPosition="61" endLine="77" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$1" />
+    <unitInfo nodeId="6074874003310509566" fileName="OrthogonalLayouter.java" startLine="91" startPosition="81" endLine="95" endPosition="5" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$3" />
+    <unitInfo nodeId="6074874003310509647" fileName="OrthogonalLayouter.java" startLine="97" startPosition="98" endLine="101" endPosition="7" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter$2" />
+    <unitInfo nodeId="5213231752900665239" fileName="OrthogonalLayouter.java" startLine="26" startPosition="0" endLine="106" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter" />
+  </root>
+  <root nodeId="6984255766319277285">
+    <nodeInfo nodeId="6984255766319281789" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="21" endPosition="43" />
+    <nodeInfo nodeId="6984255766319281781" fileName="VisibilityRepresentation.java" startLine="21" startPosition="43" endLine="22" endPosition="67" />
+    <nodeInfo nodeId="6984255766319277716" fileName="VisibilityRepresentation.java" startLine="22" startPosition="67" endLine="23" endPosition="63" />
+    <nodeInfo nodeId="6984255766319281956" fileName="VisibilityRepresentation.java" startLine="23" startPosition="63" endLine="24" endPosition="50" />
+    <nodeInfo nodeId="6984255766319277727" fileName="VisibilityRepresentation.java" startLine="24" startPosition="50" endLine="25" endPosition="20" />
+    <nodeInfo nodeId="6984255766319277733" fileName="VisibilityRepresentation.java" startLine="25" startPosition="20" endLine="26" endPosition="82" />
+    <nodeInfo nodeId="6984255766319277780" fileName="VisibilityRepresentation.java" startLine="26" startPosition="82" endLine="27" endPosition="69" />
+    <nodeInfo nodeId="6984255766319277826" fileName="VisibilityRepresentation.java" startLine="27" startPosition="69" endLine="28" endPosition="16" />
+    <nodeInfo nodeId="6984255766319277829" fileName="VisibilityRepresentation.java" startLine="28" startPosition="16" endLine="29" endPosition="75" />
+    <nodeInfo nodeId="6984255766319277859" fileName="VisibilityRepresentation.java" startLine="29" startPosition="75" endLine="30" endPosition="78" />
+    <nodeInfo nodeId="3619822174190283520" fileName="VisibilityRepresentation.java" startLine="30" startPosition="78" endLine="31" endPosition="39" />
+    <nodeInfo nodeId="3619822174190283796" fileName="VisibilityRepresentation.java" startLine="32" startPosition="71" endLine="33" endPosition="134" />
+    <nodeInfo nodeId="6984255766319281829" fileName="VisibilityRepresentation.java" startLine="34" startPosition="5" endLine="35" endPosition="94" />
+    <nodeInfo nodeId="6984255766319281902" fileName="VisibilityRepresentation.java" startLine="35" startPosition="94" endLine="36" endPosition="56" />
+    <nodeInfo nodeId="3619822174190283450" fileName="VisibilityRepresentation.java" startLine="37" startPosition="63" endLine="38" endPosition="60" />
+    <nodeInfo nodeId="3619822174190283460" fileName="VisibilityRepresentation.java" startLine="38" startPosition="60" endLine="39" endPosition="126" />
+    <nodeInfo nodeId="3619822174190283480" fileName="VisibilityRepresentation.java" startLine="39" startPosition="126" endLine="40" endPosition="132" />
+    <nodeInfo nodeId="3619822174190283641" fileName="VisibilityRepresentation.java" startLine="41" startPosition="58" endLine="42" endPosition="72" />
+    <nodeInfo nodeId="3619822174190283496" fileName="VisibilityRepresentation.java" startLine="43" startPosition="7" endLine="44" endPosition="92" />
+    <nodeInfo nodeId="3619822174190283557" fileName="VisibilityRepresentation.java" startLine="46" startPosition="63" endLine="47" endPosition="122" />
+    <nodeInfo nodeId="3619822174190283577" fileName="VisibilityRepresentation.java" startLine="47" startPosition="122" endLine="48" endPosition="91" />
+    <nodeInfo nodeId="3619822174190283594" fileName="VisibilityRepresentation.java" startLine="48" startPosition="91" endLine="49" endPosition="92" />
+    <nodeInfo nodeId="3619822174190283604" fileName="VisibilityRepresentation.java" startLine="49" startPosition="92" endLine="50" endPosition="92" />
+    <nodeInfo nodeId="6984255766319277774" fileName="VisibilityRepresentation.java" startLine="51" startPosition="5" endLine="52" endPosition="22" />
+    <nodeInfo nodeId="3619822174190283786" fileName="VisibilityRepresentation.java" startLine="31" startPosition="39" endLine="34" endPosition="5" />
+    <nodeInfo nodeId="3619822174190283628" fileName="VisibilityRepresentation.java" startLine="40" startPosition="132" endLine="43" endPosition="7" />
+    <nodeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="45" startPosition="5" endLine="51" endPosition="5" />
+    <nodeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="36" startPosition="56" endLine="45" endPosition="5" />
+    <nodeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0" />
+    <scopeInfo nodeId="3619822174190283789" fileName="VisibilityRepresentation.java" startLine="32" startPosition="71" endLine="33" endPosition="134" />
+    <scopeInfo nodeId="3619822174190283629" fileName="VisibilityRepresentation.java" startLine="41" startPosition="58" endLine="42" endPosition="72" />
+    <scopeInfo nodeId="3619822174190283786" fileName="VisibilityRepresentation.java" startLine="31" startPosition="39" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="3619822174190283541" fileName="VisibilityRepresentation.java" startLine="46" startPosition="63" endLine="50" endPosition="92">
+      <varInfo nodeId="3619822174190283595" varName="yRight" />
+      <varInfo nodeId="3619822174190283578" varName="yLeft" />
+      <varInfo nodeId="3619822174190283558" varName="x" />
+    </scopeInfo>
+    <scopeInfo nodeId="3619822174190283538" fileName="VisibilityRepresentation.java" startLine="45" startPosition="5" endLine="51" endPosition="5" />
+    <scopeInfo nodeId="3619822174190283438" fileName="VisibilityRepresentation.java" startLine="37" startPosition="63" endLine="44" endPosition="92">
+      <varInfo nodeId="3619822174190283461" varName="xLeft" />
+      <varInfo nodeId="3619822174190283481" varName="xRight" />
+      <varInfo nodeId="3619822174190283451" varName="y" />
+    </scopeInfo>
+    <scopeInfo nodeId="3619822174190283435" fileName="VisibilityRepresentation.java" startLine="36" startPosition="56" endLine="45" endPosition="5" />
+    <scopeInfo nodeId="6984255766319277709" fileName="VisibilityRepresentation.java" startLine="20" startPosition="97" endLine="52" endPosition="22">
+      <varInfo nodeId="6984255766319281790" varName="graph" />
+      <varInfo nodeId="6984255766319277781" varName="dualTarget" />
+      <varInfo nodeId="6984255766319277830" varName="graphNumbering" />
+      <varInfo nodeId="6984255766319281782" varName="embeddedGraph" />
+      <varInfo nodeId="6984255766319281957" varName="outerFace" />
+      <varInfo nodeId="6984255766319277717" varName="dualGraph" />
+      <varInfo nodeId="6984255766319281830" varName="rectangles" />
+      <varInfo nodeId="6984255766319277860" varName="dualNumbering" />
+      <varInfo nodeId="6984255766319277734" varName="dualSource" />
+      <varInfo nodeId="6984255766319281903" varName="faceNodes" />
+    </scopeInfo>
+    <scopeInfo nodeId="6984255766319277706" fileName="VisibilityRepresentation.java" startLine="19" startPosition="39" endLine="54" endPosition="0">
+      <varInfo nodeId="6984255766319277711" varName="stPlanarGraph" />
+    </scopeInfo>
+    <unitInfo nodeId="6984255766319277285" fileName="VisibilityRepresentation.java" startLine="19" startPosition="0" endLine="55" endPosition="0" unitName="jetbrains.mps.graphLayout.stOrthogonalLayout.VisibilityRepresentation" />
+  </root>
+</debugInfo>
+

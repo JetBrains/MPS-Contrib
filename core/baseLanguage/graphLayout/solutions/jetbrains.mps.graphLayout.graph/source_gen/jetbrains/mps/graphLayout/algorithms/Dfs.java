@@ -6,9 +6,9 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Edge;
-import jetbrains.mps.graphLayout.util.NodeMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
+import jetbrains.mps.graphLayout.util.NodeMap;
 
 public abstract class Dfs {
   public static int BEFORE = 0;
@@ -27,12 +27,7 @@ public abstract class Dfs {
   }
 
   public void doDfs(Graph graph, Edge.Direction direction) {
-    myGraph = graph;
-    myDfsState = new NodeMap<Integer>(graph);
-    myDirection = direction;
-    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
-      MapSequence.fromMap(myDfsState).put(node, BEFORE);
-    }
+    this.init(graph, direction);
     for (Node node : ListSequence.fromList(myGraph.getNodes())) {
       if (MapSequence.fromMap(myDfsState).get(node) == BEFORE) {
         preprocessRoot();
@@ -42,7 +37,16 @@ public abstract class Dfs {
     }
   }
 
-  private void dfs(Node node, Edge from) {
+  public void init(Graph graph, Edge.Direction direction) {
+    myGraph = graph;
+    myDfsState = new NodeMap<Integer>(graph);
+    myDirection = direction;
+    for (Node node : ListSequence.fromList(myGraph.getNodes())) {
+      MapSequence.fromMap(myDfsState).put(node, BEFORE);
+    }
+  }
+
+  protected void dfs(Node node, Edge from) {
     MapSequence.fromMap(myDfsState).put(node, DURING);
     preprocess(node, from);
     for (Edge edge : ListSequence.fromList(node.getEdges(myDirection))) {
@@ -75,5 +79,9 @@ public abstract class Dfs {
 
   protected Map<Node, Integer> getDfsState() {
     return this.myDfsState;
+  }
+
+  public Graph getGraph() {
+    return myGraph;
   }
 }

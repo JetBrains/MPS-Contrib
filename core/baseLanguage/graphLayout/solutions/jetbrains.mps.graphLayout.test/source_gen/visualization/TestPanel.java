@@ -5,11 +5,13 @@ package visualization;
 import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
-import jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter;
-import jetbrains.mps.graphLayout.layeredLayout.GraphLayout;
+import jetbrains.mps.graphLayout.graphLayout.ILayouter;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import javax.swing.JRadioButton;
 import java.awt.GridBagLayout;
+import jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility;
+import jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter;
 import layeredLayoutTest.EdgeReverterProxy;
 import jetbrains.mps.graphLayout.layeredLayout.DFSEdgeReverter;
 import layeredLayoutTest.LayererProxy;
@@ -43,13 +45,13 @@ import java.awt.Color;
 
 public class TestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
-  private static int SCALE_X = 20;
+  private static int SCALE_X = 40;
   private static int SCALE_Y = 40;
   private static int NSIZE = 20;
 
   private JTextArea myTextArea;
   private TestPanel.MyGraphLabel myGraphLabel;
-  private LayeredLayouter myLayouter;
+  private ILayouter myLayouter;
   private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
@@ -61,7 +63,10 @@ public class TestPanel extends JPanel {
     createNewGraphButton();
     createTextPanel();
     createGraphPanel();
-    myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new TopologicalLayerer()), new BKCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
+    myLayouter = new OrthogonalFromVisibility();
+    /*
+      myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new TopologicalLayerer()), new BKCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
+    */
     /*
       myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new TopologicalLayerer()), new BKCoordinatePlacer(), new RefineAdjacentNodeSorterProxy());
     */

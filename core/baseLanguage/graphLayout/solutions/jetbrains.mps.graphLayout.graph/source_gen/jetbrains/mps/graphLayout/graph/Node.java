@@ -36,6 +36,10 @@ public class Node {
     return myInEdges;
   }
 
+  public List<Edge> getEdges() {
+    return getEdges(Edge.Direction.BOTH);
+  }
+
   public List<Edge> getEdges(Edge.Direction dir) {
     if (dir == Edge.Direction.FRONT) {
       return getOutEdges();
