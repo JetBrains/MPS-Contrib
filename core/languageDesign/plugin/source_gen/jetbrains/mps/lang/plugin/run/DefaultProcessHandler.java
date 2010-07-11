@@ -10,7 +10,6 @@ import com.intellij.execution.process.ProcessEvent;
 import com.intellij.openapi.util.Key;
 import com.intellij.execution.process.ProcessTerminatedListener;
 import com.intellij.execution.process.ProcessOutputTypes;
-import jetbrains.mps.debug.api.info.StacktraceUtil;
 import com.intellij.execution.ui.ConsoleViewContentType;
 
 public class DefaultProcessHandler extends DefaultJavaProcessHandler {
@@ -30,11 +29,11 @@ public class DefaultProcessHandler extends DefaultJavaProcessHandler {
 
   private void append(String s, Key k) {
     if (ProcessOutputTypes.STDERR.equals(k)) {
-      StacktraceUtil.appendStacktraceToConsole(this.myConsoleView, s, ConsoleViewContentType.ERROR_OUTPUT);
+      myConsoleView.print(s, ConsoleViewContentType.ERROR_OUTPUT);
     } else if (ProcessOutputTypes.SYSTEM.equals(k)) {
-      StacktraceUtil.appendStacktraceToConsole(this.myConsoleView, s, ConsoleViewContentType.SYSTEM_OUTPUT);
+      myConsoleView.print(s, ConsoleViewContentType.SYSTEM_OUTPUT);
     } else if (ProcessOutputTypes.STDOUT.equals(k)) {
-      this.myConsoleView.print(s, ConsoleViewContentType.NORMAL_OUTPUT);
+      myConsoleView.print(s, ConsoleViewContentType.NORMAL_OUTPUT);
     }
   }
 }
