@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dependenciesRoot>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.CallReference_call_ReferentConstraint" file="CallReference_call_ReferentConstraint.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode dependClassName="org.apache.commons.lang.StringUtils" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.ConstraintsDescriptor" file="ConstraintsDescriptor.java">
+    <classNode dependClassName="java.util.ArrayList" />
+    <classNode dependClassName="java.util.List" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.CallReference_call_ReferentConstraint" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.MultiLineString_name_PropertyConstraint" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.PropertyReference_propertyDeclaration_ReferentConstraint" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.StringLiteral_name_PropertyConstraint" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.TargetReferencePropertyValueExpression_fullName_PropertyConstraint" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.constraints.TargetReference_targetDeclaration_ReferentConstraint" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.ExternalPropertyDeclaration_Constraints" file="ExternalPropertyDeclaration_Constraints.java">
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.CanBeAChildContext" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.MultiLineString_name_PropertyConstraint" file="MultiLineString_name_PropertyConstraint.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyValueExpression_Behavior" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.PropertyReference_propertyDeclaration_ReferentConstraint" file="PropertyReference_propertyDeclaration_ReferentConstraint.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.PropertyReference_Behavior" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.StringLiteral_name_PropertyConstraint" file="StringLiteral_name_PropertyConstraint.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.TargetReferencePropertyValueExpression_fullName_PropertyConstraint" file="TargetReferencePropertyValueExpression_fullName_PropertyConstraint.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IScope" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.INodePropertyGetter" />
+  </dependency>
+  <dependency className="jetbrains.mps.buildlanguage.constraints.TargetReference_targetDeclaration_ReferentConstraint" file="TargetReference_targetDeclaration_ReferentConstraint.java">
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="jetbrains.mps.buildlanguage.behavior.Project_Behavior" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SNodeOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.IOperationContext" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNodePointer" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ModelConstraintsManager" />
+    <classNode dependClassName="jetbrains.mps.smodel.constraints.ReferentConstraintContext" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.BaseNodeReferenceSearchScopeProvider" />
+    <classNode extendsClassName="jetbrains.mps.smodel.constraints.IModelConstraints" />
+  </dependency>
+</dependenciesRoot>
+
