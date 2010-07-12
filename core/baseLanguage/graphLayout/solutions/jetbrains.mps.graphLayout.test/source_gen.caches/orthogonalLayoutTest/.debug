@@ -3,9 +3,9 @@
   <root nodeId="508819492464323617">
     <nodeInfo nodeId="508819492464323638" fileName="OrthogonalFromVisibility_Test.java" startLine="13" startPosition="49" endLine="14" endPosition="137" />
     <nodeInfo nodeId="508819492464323642" fileName="OrthogonalFromVisibility_Test.java" startLine="14" startPosition="137" endLine="15" endPosition="62" />
-    <nodeInfo nodeId="508819492464323628" fileName="OrthogonalFromVisibility_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="72" />
+    <nodeInfo nodeId="508819492464323628" fileName="OrthogonalFromVisibility_Test.java" startLine="15" startPosition="62" endLine="16" endPosition="77" />
     <nodeInfo nodeId="508819492464323624" fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="61" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="508819492464323627" fileName="OrthogonalFromVisibility_Test.java" startLine="13" startPosition="49" endLine="16" endPosition="72">
+    <scopeInfo nodeId="508819492464323627" fileName="OrthogonalFromVisibility_Test.java" startLine="13" startPosition="49" endLine="16" endPosition="77">
       <varInfo nodeId="508819492464323639" varName="graphString" />
       <varInfo nodeId="508819492464323643" varName="graph" />
       <varInfo nodeId="508819492464323629" varName="layout" />
@@ -13,60 +13,63 @@
     <scopeInfo nodeId="508819492464323624" fileName="OrthogonalFromVisibility_Test.java" startLine="12" startPosition="61" endLine="18" endPosition="0" />
   </root>
   <root nodeId="6984255766319282469">
-    <nodeInfo nodeId="3619822174190268963" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="45" endLine="24" endPosition="263" />
-    <nodeInfo nodeId="508819492464319394" fileName="VisibilityRepresentation_Test.java" startLine="24" startPosition="263" endLine="25" endPosition="92" />
-    <nodeInfo nodeId="508819492464319401" fileName="VisibilityRepresentation_Test.java" startLine="25" startPosition="92" endLine="26" endPosition="43" />
-    <nodeInfo nodeId="508819492464319407" fileName="VisibilityRepresentation_Test.java" startLine="26" startPosition="43" endLine="27" endPosition="103" />
-    <nodeInfo nodeId="508819492464319421" fileName="VisibilityRepresentation_Test.java" startLine="27" startPosition="103" endLine="28" endPosition="108" />
-    <nodeInfo nodeId="508819492464319434" fileName="VisibilityRepresentation_Test.java" startLine="29" startPosition="63" endLine="30" endPosition="82" />
-    <nodeInfo nodeId="508819492464319451" fileName="VisibilityRepresentation_Test.java" startLine="32" startPosition="63" endLine="33" endPosition="82" />
-    <nodeInfo nodeId="508819492464319474" fileName="VisibilityRepresentation_Test.java" startLine="37" startPosition="49" endLine="38" endPosition="137" />
-    <nodeInfo nodeId="508819492464319487" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="137" endLine="39" endPosition="62" />
-    <nodeInfo nodeId="508819492464319520" fileName="VisibilityRepresentation_Test.java" startLine="39" startPosition="62" endLine="40" endPosition="119" />
-    <nodeInfo nodeId="508819492464323345" fileName="VisibilityRepresentation_Test.java" startLine="40" startPosition="119" endLine="41" endPosition="102" />
-    <nodeInfo nodeId="508819492464323370" fileName="VisibilityRepresentation_Test.java" startLine="41" startPosition="102" endLine="42" endPosition="102" />
-    <nodeInfo nodeId="508819492464319498" fileName="VisibilityRepresentation_Test.java" startLine="42" startPosition="102" endLine="43" endPosition="73" />
-    <nodeInfo nodeId="508819492464323390" fileName="VisibilityRepresentation_Test.java" startLine="43" startPosition="73" endLine="44" endPosition="108" />
-    <nodeInfo nodeId="508819492464323484" fileName="VisibilityRepresentation_Test.java" startLine="45" startPosition="63" endLine="46" endPosition="82" />
-    <nodeInfo nodeId="508819492464323501" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" />
-    <nodeInfo nodeId="3619822174190284697" fileName="VisibilityRepresentation_Test.java" startLine="53" startPosition="42" endLine="54" endPosition="82" />
-    <nodeInfo nodeId="3619822174190284812" fileName="VisibilityRepresentation_Test.java" startLine="54" startPosition="82" endLine="55" endPosition="62" />
-    <nodeInfo nodeId="3619822174190284825" fileName="VisibilityRepresentation_Test.java" startLine="55" startPosition="62" endLine="56" endPosition="72" />
-    <nodeInfo nodeId="3619822174190284992" fileName="VisibilityRepresentation_Test.java" startLine="56" startPosition="72" endLine="57" endPosition="102" />
-    <nodeInfo nodeId="3619822174190285004" fileName="VisibilityRepresentation_Test.java" startLine="57" startPosition="102" endLine="58" endPosition="102" />
-    <nodeInfo nodeId="3619822174190284754" fileName="VisibilityRepresentation_Test.java" startLine="58" startPosition="102" endLine="59" endPosition="73" />
-    <nodeInfo nodeId="3619822174190284768" fileName="VisibilityRepresentation_Test.java" startLine="59" startPosition="73" endLine="60" endPosition="108" />
-    <nodeInfo nodeId="3619822174190284781" fileName="VisibilityRepresentation_Test.java" startLine="61" startPosition="63" endLine="62" endPosition="82" />
-    <nodeInfo nodeId="3619822174190284798" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="63" endLine="65" endPosition="82" />
-    <nodeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="28" startPosition="108" endLine="31" endPosition="5" />
-    <nodeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5" />
-    <nodeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="44" startPosition="108" endLine="47" endPosition="5" />
-    <nodeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="5" endLine="50" endPosition="5" />
-    <nodeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="60" startPosition="108" endLine="63" endPosition="5" />
-    <nodeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="63" startPosition="5" endLine="66" endPosition="5" />
-    <nodeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="22" startPosition="61" endLine="36" endPosition="0" />
-    <nodeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="36" startPosition="0" endLine="52" endPosition="0" />
-    <nodeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="52" startPosition="0" endLine="68" endPosition="0" />
-    <scopeInfo nodeId="508819492464319433" fileName="VisibilityRepresentation_Test.java" startLine="29" startPosition="63" endLine="30" endPosition="82" />
-    <scopeInfo nodeId="508819492464319450" fileName="VisibilityRepresentation_Test.java" startLine="32" startPosition="63" endLine="33" endPosition="82" />
-    <scopeInfo nodeId="508819492464323483" fileName="VisibilityRepresentation_Test.java" startLine="45" startPosition="63" endLine="46" endPosition="82" />
-    <scopeInfo nodeId="508819492464323500" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" />
-    <scopeInfo nodeId="3619822174190284780" fileName="VisibilityRepresentation_Test.java" startLine="61" startPosition="63" endLine="62" endPosition="82" />
-    <scopeInfo nodeId="3619822174190284797" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="63" endLine="65" endPosition="82" />
-    <scopeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="28" startPosition="108" endLine="31" endPosition="5" />
-    <scopeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="5" endLine="34" endPosition="5" />
-    <scopeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="44" startPosition="108" endLine="47" endPosition="5" />
-    <scopeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="5" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="60" startPosition="108" endLine="63" endPosition="5" />
-    <scopeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="63" startPosition="5" endLine="66" endPosition="5" />
-    <scopeInfo nodeId="6984255766319282479" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="45" endLine="34" endPosition="5">
+    <nodeInfo nodeId="3619822174190268963" fileName="VisibilityRepresentation_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="263" />
+    <nodeInfo nodeId="508819492464319394" fileName="VisibilityRepresentation_Test.java" startLine="25" startPosition="263" endLine="26" endPosition="92" />
+    <nodeInfo nodeId="508819492464319401" fileName="VisibilityRepresentation_Test.java" startLine="26" startPosition="92" endLine="27" endPosition="43" />
+    <nodeInfo nodeId="1418350014056254765" fileName="VisibilityRepresentation_Test.java" startLine="27" startPosition="43" endLine="28" endPosition="73" />
+    <nodeInfo nodeId="508819492464319407" fileName="VisibilityRepresentation_Test.java" startLine="28" startPosition="73" endLine="29" endPosition="103" />
+    <nodeInfo nodeId="508819492464319421" fileName="VisibilityRepresentation_Test.java" startLine="29" startPosition="103" endLine="30" endPosition="108" />
+    <nodeInfo nodeId="508819492464319434" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="63" endLine="32" endPosition="82" />
+    <nodeInfo nodeId="508819492464319451" fileName="VisibilityRepresentation_Test.java" startLine="34" startPosition="63" endLine="35" endPosition="82" />
+    <nodeInfo nodeId="508819492464319474" fileName="VisibilityRepresentation_Test.java" startLine="39" startPosition="49" endLine="40" endPosition="137" />
+    <nodeInfo nodeId="508819492464319487" fileName="VisibilityRepresentation_Test.java" startLine="40" startPosition="137" endLine="41" endPosition="62" />
+    <nodeInfo nodeId="508819492464319520" fileName="VisibilityRepresentation_Test.java" startLine="41" startPosition="62" endLine="42" endPosition="119" />
+    <nodeInfo nodeId="508819492464323345" fileName="VisibilityRepresentation_Test.java" startLine="42" startPosition="119" endLine="43" endPosition="102" />
+    <nodeInfo nodeId="508819492464323370" fileName="VisibilityRepresentation_Test.java" startLine="43" startPosition="102" endLine="44" endPosition="102" />
+    <nodeInfo nodeId="1418350014056254756" fileName="VisibilityRepresentation_Test.java" startLine="44" startPosition="102" endLine="45" endPosition="43" />
+    <nodeInfo nodeId="508819492464319498" fileName="VisibilityRepresentation_Test.java" startLine="45" startPosition="43" endLine="46" endPosition="73" />
+    <nodeInfo nodeId="508819492464323390" fileName="VisibilityRepresentation_Test.java" startLine="46" startPosition="73" endLine="47" endPosition="108" />
+    <nodeInfo nodeId="508819492464323484" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" />
+    <nodeInfo nodeId="508819492464323501" fileName="VisibilityRepresentation_Test.java" startLine="51" startPosition="63" endLine="52" endPosition="82" />
+    <nodeInfo nodeId="3619822174190284697" fileName="VisibilityRepresentation_Test.java" startLine="56" startPosition="42" endLine="57" endPosition="82" />
+    <nodeInfo nodeId="3619822174190284812" fileName="VisibilityRepresentation_Test.java" startLine="57" startPosition="82" endLine="58" endPosition="62" />
+    <nodeInfo nodeId="3619822174190284825" fileName="VisibilityRepresentation_Test.java" startLine="58" startPosition="62" endLine="59" endPosition="72" />
+    <nodeInfo nodeId="3619822174190284992" fileName="VisibilityRepresentation_Test.java" startLine="59" startPosition="72" endLine="60" endPosition="102" />
+    <nodeInfo nodeId="3619822174190285004" fileName="VisibilityRepresentation_Test.java" startLine="60" startPosition="102" endLine="61" endPosition="102" />
+    <nodeInfo nodeId="1418350014056255587" fileName="VisibilityRepresentation_Test.java" startLine="61" startPosition="102" endLine="62" endPosition="43" />
+    <nodeInfo nodeId="3619822174190284754" fileName="VisibilityRepresentation_Test.java" startLine="62" startPosition="43" endLine="63" endPosition="73" />
+    <nodeInfo nodeId="3619822174190284768" fileName="VisibilityRepresentation_Test.java" startLine="63" startPosition="73" endLine="64" endPosition="108" />
+    <nodeInfo nodeId="3619822174190284781" fileName="VisibilityRepresentation_Test.java" startLine="65" startPosition="63" endLine="66" endPosition="82" />
+    <nodeInfo nodeId="3619822174190284798" fileName="VisibilityRepresentation_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="82" />
+    <nodeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="108" endLine="33" endPosition="5" />
+    <nodeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="33" startPosition="5" endLine="36" endPosition="5" />
+    <nodeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="108" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="50" startPosition="5" endLine="53" endPosition="5" />
+    <nodeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="108" endLine="67" endPosition="5" />
+    <nodeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="67" startPosition="5" endLine="70" endPosition="5" />
+    <nodeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="61" endLine="38" endPosition="0" />
+    <nodeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="0" endLine="55" endPosition="0" />
+    <nodeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="55" startPosition="0" endLine="72" endPosition="0" />
+    <scopeInfo nodeId="508819492464319433" fileName="VisibilityRepresentation_Test.java" startLine="31" startPosition="63" endLine="32" endPosition="82" />
+    <scopeInfo nodeId="508819492464319450" fileName="VisibilityRepresentation_Test.java" startLine="34" startPosition="63" endLine="35" endPosition="82" />
+    <scopeInfo nodeId="508819492464323483" fileName="VisibilityRepresentation_Test.java" startLine="48" startPosition="63" endLine="49" endPosition="82" />
+    <scopeInfo nodeId="508819492464323500" fileName="VisibilityRepresentation_Test.java" startLine="51" startPosition="63" endLine="52" endPosition="82" />
+    <scopeInfo nodeId="3619822174190284780" fileName="VisibilityRepresentation_Test.java" startLine="65" startPosition="63" endLine="66" endPosition="82" />
+    <scopeInfo nodeId="3619822174190284797" fileName="VisibilityRepresentation_Test.java" startLine="68" startPosition="63" endLine="69" endPosition="82" />
+    <scopeInfo nodeId="508819492464319428" fileName="VisibilityRepresentation_Test.java" startLine="30" startPosition="108" endLine="33" endPosition="5" />
+    <scopeInfo nodeId="508819492464319445" fileName="VisibilityRepresentation_Test.java" startLine="33" startPosition="5" endLine="36" endPosition="5" />
+    <scopeInfo nodeId="508819492464323478" fileName="VisibilityRepresentation_Test.java" startLine="47" startPosition="108" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="508819492464323495" fileName="VisibilityRepresentation_Test.java" startLine="50" startPosition="5" endLine="53" endPosition="5" />
+    <scopeInfo nodeId="3619822174190284775" fileName="VisibilityRepresentation_Test.java" startLine="64" startPosition="108" endLine="67" endPosition="5" />
+    <scopeInfo nodeId="3619822174190284792" fileName="VisibilityRepresentation_Test.java" startLine="67" startPosition="5" endLine="70" endPosition="5" />
+    <scopeInfo nodeId="6984255766319282479" fileName="VisibilityRepresentation_Test.java" startLine="24" startPosition="45" endLine="36" endPosition="5">
       <varInfo nodeId="3619822174190268964" varName="graphString" />
       <varInfo nodeId="508819492464319402" varName="graph" />
       <varInfo nodeId="508819492464319422" varName="visibility" />
       <varInfo nodeId="508819492464319408" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464319395" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="508819492464319472" fileName="VisibilityRepresentation_Test.java" startLine="37" startPosition="49" endLine="50" endPosition="5">
+    <scopeInfo nodeId="508819492464319472" fileName="VisibilityRepresentation_Test.java" startLine="39" startPosition="49" endLine="53" endPosition="5">
       <varInfo nodeId="508819492464319475" varName="graphString" />
       <varInfo nodeId="508819492464323371" varName="t" />
       <varInfo nodeId="508819492464319488" varName="graph" />
@@ -75,7 +78,7 @@
       <varInfo nodeId="508819492464319499" varName="stPlanarGraph" />
       <varInfo nodeId="508819492464319521" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="3619822174190284696" fileName="VisibilityRepresentation_Test.java" startLine="53" startPosition="42" endLine="66" endPosition="5">
+    <scopeInfo nodeId="3619822174190284696" fileName="VisibilityRepresentation_Test.java" startLine="56" startPosition="42" endLine="70" endPosition="5">
       <varInfo nodeId="3619822174190284698" varName="graphString" />
       <varInfo nodeId="3619822174190285005" varName="t" />
       <varInfo nodeId="3619822174190284813" varName="graph" />
@@ -84,9 +87,89 @@
       <varInfo nodeId="3619822174190284755" varName="stPlanarGraph" />
       <varInfo nodeId="3619822174190284826" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="22" startPosition="61" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="36" startPosition="0" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="52" startPosition="0" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="6984255766319282476" fileName="VisibilityRepresentation_Test.java" startLine="23" startPosition="61" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="508819492464319469" fileName="VisibilityRepresentation_Test.java" startLine="38" startPosition="0" endLine="55" endPosition="0" />
+    <scopeInfo nodeId="3619822174190284693" fileName="VisibilityRepresentation_Test.java" startLine="55" startPosition="0" endLine="72" endPosition="0" />
+  </root>
+  <root nodeId="903391227141028133">
+    <nodeInfo nodeId="903391227141029780" fileName="NodeConstraintsSupporter_Test.java" startLine="23" startPosition="45" endLine="24" endPosition="51" />
+    <nodeInfo nodeId="903391227141029797" fileName="NodeConstraintsSupporter_Test.java" startLine="24" startPosition="51" endLine="25" endPosition="54" />
+    <nodeInfo nodeId="903391227141105441" fileName="NodeConstraintsSupporter_Test.java" startLine="28" startPosition="42" endLine="29" endPosition="78" />
+    <nodeInfo nodeId="903391227141105447" fileName="NodeConstraintsSupporter_Test.java" startLine="29" startPosition="78" endLine="30" endPosition="50" />
+    <nodeInfo nodeId="903391227141028148" fileName="NodeConstraintsSupporter_Test.java" startLine="33" startPosition="33" endLine="34" endPosition="72" />
+    <nodeInfo nodeId="903391227141032588" fileName="NodeConstraintsSupporter_Test.java" startLine="34" startPosition="72" endLine="35" endPosition="38" />
+    <nodeInfo nodeId="903391227141028539" fileName="NodeConstraintsSupporter_Test.java" startLine="35" startPosition="38" endLine="36" endPosition="102" />
+    <nodeInfo nodeId="903391227141028551" fileName="NodeConstraintsSupporter_Test.java" startLine="36" startPosition="102" endLine="37" endPosition="102" />
+    <nodeInfo nodeId="903391227141029786" fileName="NodeConstraintsSupporter_Test.java" startLine="37" startPosition="102" endLine="38" endPosition="43" />
+    <nodeInfo nodeId="903391227141032594" fileName="NodeConstraintsSupporter_Test.java" startLine="38" startPosition="43" endLine="39" endPosition="30" />
+    <nodeInfo nodeId="903391227141028563" fileName="NodeConstraintsSupporter_Test.java" startLine="39" startPosition="30" endLine="40" endPosition="73" />
+    <nodeInfo nodeId="903391227141056863" fileName="NodeConstraintsSupporter_Test.java" startLine="41" startPosition="63" endLine="42" endPosition="86" />
+    <nodeInfo nodeId="903391227141088285" fileName="NodeConstraintsSupporter_Test.java" startLine="44" startPosition="63" endLine="45" endPosition="88" />
+    <nodeInfo nodeId="903391227141028605" fileName="NodeConstraintsSupporter_Test.java" startLine="46" startPosition="5" endLine="47" endPosition="55" />
+    <nodeInfo nodeId="903391227141028616" fileName="NodeConstraintsSupporter_Test.java" startLine="47" startPosition="55" endLine="48" endPosition="55" />
+    <nodeInfo nodeId="903391227141028645" fileName="NodeConstraintsSupporter_Test.java" startLine="50" startPosition="27" endLine="51" endPosition="44" />
+    <nodeInfo nodeId="903391227141028656" fileName="NodeConstraintsSupporter_Test.java" startLine="51" startPosition="44" endLine="52" endPosition="44" />
+    <nodeInfo nodeId="903391227141028671" fileName="NodeConstraintsSupporter_Test.java" startLine="53" startPosition="14" endLine="54" endPosition="44" />
+    <nodeInfo nodeId="903391227141028682" fileName="NodeConstraintsSupporter_Test.java" startLine="54" startPosition="44" endLine="55" endPosition="44" />
+    <nodeInfo nodeId="903391227141029548" fileName="NodeConstraintsSupporter_Test.java" startLine="57" startPosition="5" endLine="58" endPosition="103" />
+    <nodeInfo nodeId="903391227141030736" fileName="NodeConstraintsSupporter_Test.java" startLine="59" startPosition="82" endLine="60" endPosition="41" />
+    <nodeInfo nodeId="903391227141030743" fileName="NodeConstraintsSupporter_Test.java" startLine="60" startPosition="41" endLine="61" endPosition="63" />
+    <nodeInfo nodeId="903391227141029561" fileName="NodeConstraintsSupporter_Test.java" startLine="62" startPosition="5" endLine="63" endPosition="51" />
+    <nodeInfo nodeId="903391227141056853" fileName="NodeConstraintsSupporter_Test.java" startLine="40" startPosition="73" endLine="43" endPosition="5" />
+    <nodeInfo nodeId="903391227141088279" fileName="NodeConstraintsSupporter_Test.java" startLine="43" startPosition="5" endLine="46" endPosition="5" />
+    <nodeInfo nodeId="903391227141028669" fileName="NodeConstraintsSupporter_Test.java" startLine="53" startPosition="12" endLine="56" endPosition="7" />
+    <nodeInfo nodeId="903391227141030730" fileName="NodeConstraintsSupporter_Test.java" startLine="58" startPosition="103" endLine="62" endPosition="5" />
+    <nodeInfo nodeId="903391227141029776" fileName="NodeConstraintsSupporter_Test.java" startLine="22" startPosition="61" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="903391227141105437" fileName="NodeConstraintsSupporter_Test.java" startLine="27" startPosition="0" endLine="32" endPosition="0" />
+    <nodeInfo nodeId="903391227141028636" fileName="NodeConstraintsSupporter_Test.java" startLine="49" startPosition="63" endLine="56" endPosition="7" />
+    <nodeInfo nodeId="903391227141028626" fileName="NodeConstraintsSupporter_Test.java" startLine="48" startPosition="55" endLine="57" endPosition="5" />
+    <nodeInfo nodeId="903391227141028140" fileName="NodeConstraintsSupporter_Test.java" startLine="32" startPosition="0" endLine="65" endPosition="0" />
+    <scopeInfo nodeId="903391227141056856" fileName="NodeConstraintsSupporter_Test.java" startLine="41" startPosition="63" endLine="42" endPosition="86" />
+    <scopeInfo nodeId="903391227141088284" fileName="NodeConstraintsSupporter_Test.java" startLine="44" startPosition="63" endLine="45" endPosition="88" />
+    <scopeInfo nodeId="903391227141029779" fileName="NodeConstraintsSupporter_Test.java" startLine="23" startPosition="45" endLine="25" endPosition="54">
+      <varInfo nodeId="903391227141029781" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141105440" fileName="NodeConstraintsSupporter_Test.java" startLine="28" startPosition="42" endLine="30" endPosition="50">
+      <varInfo nodeId="903391227141105442" varName="gString" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141028638" fileName="NodeConstraintsSupporter_Test.java" startLine="50" startPosition="27" endLine="52" endPosition="44" />
+    <scopeInfo nodeId="903391227141028670" fileName="NodeConstraintsSupporter_Test.java" startLine="53" startPosition="14" endLine="55" endPosition="44" />
+    <scopeInfo nodeId="903391227141030735" fileName="NodeConstraintsSupporter_Test.java" startLine="59" startPosition="82" endLine="61" endPosition="63" />
+    <scopeInfo nodeId="903391227141056853" fileName="NodeConstraintsSupporter_Test.java" startLine="40" startPosition="73" endLine="43" endPosition="5" />
+    <scopeInfo nodeId="903391227141088279" fileName="NodeConstraintsSupporter_Test.java" startLine="43" startPosition="5" endLine="46" endPosition="5" />
+    <scopeInfo nodeId="903391227141030730" fileName="NodeConstraintsSupporter_Test.java" startLine="58" startPosition="103" endLine="62" endPosition="5" />
+    <scopeInfo nodeId="903391227141029776" fileName="NodeConstraintsSupporter_Test.java" startLine="22" startPosition="61" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="903391227141105437" fileName="NodeConstraintsSupporter_Test.java" startLine="27" startPosition="0" endLine="32" endPosition="0" />
+    <scopeInfo nodeId="903391227141028629" fileName="NodeConstraintsSupporter_Test.java" startLine="49" startPosition="63" endLine="56" endPosition="7" />
+    <scopeInfo nodeId="903391227141028626" fileName="NodeConstraintsSupporter_Test.java" startLine="48" startPosition="55" endLine="57" endPosition="5" />
+    <scopeInfo nodeId="903391227141028143" fileName="NodeConstraintsSupporter_Test.java" startLine="33" startPosition="33" endLine="63" endPosition="51">
+      <varInfo nodeId="903391227141028552" varName="t" />
+      <varInfo nodeId="903391227141028540" varName="s" />
+      <varInfo nodeId="903391227141028564" varName="stPlanarGraph" />
+      <varInfo nodeId="903391227141028149" varName="embeddedGraph" />
+      <varInfo nodeId="903391227141028617" varName="y" />
+      <varInfo nodeId="903391227141029549" varName="rep" />
+      <varInfo nodeId="903391227141028606" varName="x" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141028140" fileName="NodeConstraintsSupporter_Test.java" startLine="32" startPosition="0" endLine="65" endPosition="0">
+      <varInfo nodeId="903391227141028144" varName="graph" />
+    </scopeInfo>
+  </root>
+  <root nodeId="903391227141028692">
+    <nodeInfo nodeId="903391227141028736" fileName="NodeConstraintsChecker.java" startLine="15" startPosition="63" endLine="16" endPosition="126" />
+    <nodeInfo nodeId="903391227141028757" fileName="NodeConstraintsChecker.java" startLine="16" startPosition="126" endLine="17" endPosition="127" />
+    <nodeInfo nodeId="903391227141028722" fileName="NodeConstraintsChecker.java" startLine="14" startPosition="150" endLine="18" endPosition="5" />
+    <nodeInfo nodeId="903391227141028698" fileName="NodeConstraintsChecker.java" startLine="13" startPosition="37" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="903391227141028725" fileName="NodeConstraintsChecker.java" startLine="15" startPosition="63" endLine="17" endPosition="127" />
+    <scopeInfo nodeId="903391227141028701" fileName="NodeConstraintsChecker.java" startLine="14" startPosition="150" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="903391227141028722" fileName="NodeConstraintsChecker.java" startLine="14" startPosition="150" endLine="18" endPosition="5" />
+    <scopeInfo nodeId="903391227141028698" fileName="NodeConstraintsChecker.java" startLine="13" startPosition="37" endLine="20" endPosition="0">
+      <varInfo nodeId="903391227141028727" varName="graph" />
+      <varInfo nodeId="903391227141028702" varName="representation" />
+      <varInfo nodeId="903391227141028715" varName="verConstraints" />
+      <varInfo nodeId="903391227141028708" varName="horConstraints" />
+    </scopeInfo>
+    <unitInfo nodeId="903391227141028692" fileName="NodeConstraintsChecker.java" startLine="13" startPosition="0" endLine="21" endPosition="0" unitName="orthogonalLayoutTest.NodeConstraintsChecker" />
   </root>
 </debugInfo>
 

@@ -73,13 +73,16 @@ public class ShortestPathEmbeddingFinder implements IEmbeddinngFinder {
         ListSequence.fromList(facePath).addElement(curFace);
       }
     }
+    List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(nodePath).addElement(ListSequence.fromList(removedEdge.getAdjacentNodes()).getElement(1));
     for (int i = 0; i < ListSequence.fromList(nodePath).count() - 1; i++) {
       Node start = ListSequence.fromList(nodePath).getElement(i);
       Node end = ListSequence.fromList(nodePath).getElement(i + 1);
       Edge newEdge = start.addEdgeTo(end);
+      ListSequence.fromList(newEdges).addElement(newEdge);
       List<Edge> tempPath = ListSequence.fromListAndArray(new ArrayList<Edge>(), newEdge);
       embeddedGraph.splitFace(ListSequence.fromList(facePath).getElement(i), tempPath, start, end);
     }
+    embeddedGraph.setEdgesHistory(removedEdge, newEdges);
   }
 }

@@ -37,6 +37,7 @@
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="java.util.Scanner" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.TopologicalNumbering" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
@@ -77,24 +78,6 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" />
-    <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
-    <classNode dependClassName="visualization.GraphIO" />
-    <classNode extendsClassName="junit.framework.TestCase" />
-  </dependency>
-  <dependency className="planarizationTest.TreeEmbeddingFinder_Test" file="TreeEmbeddingFinder_Test.java">
-    <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.String" />
-    <classNode dependClassName="java.lang.System" />
-    <classNode dependClassName="java.util.ArrayList" />
-    <classNode dependClassName="java.util.Scanner" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="junit.framework.Assert" />
-    <classNode dependClassName="planarizationTest.CheckFace" />
     <classNode dependClassName="sampleGraphs.SimpleDirectedGraphs" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />

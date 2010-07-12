@@ -7,11 +7,9 @@ import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
-import jetbrains.mps.graphLayout.graph.Graph;
-import jetbrains.mps.graphLayout.algorithms.STNumbering;
-import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.List;
+import jetbrains.mps.graphLayout.graph.Graph;
 
 public class STPlanarGraph {
   private Map<Face, Node> myOrigNode;
@@ -34,11 +32,6 @@ public class STPlanarGraph {
     myRightFaceForNode = MapSequence.fromMap(new HashMap<Node, Face>());
     mySource = source;
     myTarget = target;
-
-    Graph originalGraph = embeddedGraph.getGraph();
-    System.out.println(STNumbering.number(originalGraph, mySource, myTarget));
-    GraphOrientation.orientST(originalGraph, mySource, myTarget);
-    System.out.println(originalGraph);
     computeMaps();
   }
 

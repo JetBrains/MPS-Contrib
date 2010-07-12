@@ -6,11 +6,11 @@ import javax.swing.JPanel;
 import java.awt.Dimension;
 import javax.swing.JTextArea;
 import jetbrains.mps.graphLayout.graphLayout.ILayouter;
-import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
+import jetbrains.mps.graphLayout.graphLayout.GraphLayoutPoint;
 import javax.swing.JTextField;
 import javax.swing.JRadioButton;
 import java.awt.GridBagLayout;
-import jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility;
+import jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalLayouter;
 import jetbrains.mps.graphLayout.layeredLayout.LayeredLayouter;
 import layeredLayoutTest.EdgeReverterProxy;
 import jetbrains.mps.graphLayout.layeredLayout.DFSEdgeReverter;
@@ -52,7 +52,7 @@ public class TestPanel extends JPanel {
   private JTextArea myTextArea;
   private TestPanel.MyGraphLabel myGraphLabel;
   private ILayouter myLayouter;
-  private GraphLayout myCurrentLayout;
+  private GraphLayoutPoint myCurrentLayout;
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
   private JRadioButton myAllowMultiEdges;
@@ -63,7 +63,7 @@ public class TestPanel extends JPanel {
     createNewGraphButton();
     createTextPanel();
     createGraphPanel();
-    myLayouter = new OrthogonalFromVisibility();
+    myLayouter = new OrthogonalLayouter();
     /*
       myLayouter = new LayeredLayouter(new EdgeReverterProxy(new DFSEdgeReverter()), new LayererProxy(new TopologicalLayerer()), new BKCoordinatePlacer(), new MedianLayerByLayerSorterProxy());
     */
@@ -145,12 +145,13 @@ public class TestPanel extends JPanel {
 
   private void layoutGraph() {
     Scanner scanner = new Scanner(myTextArea.getText());
+    Graph g = null;
     try {
-      Graph g = GraphIO.scanGraph(scanner);
-      myCurrentLayout = myLayouter.doLayout(g);
+      g = GraphIO.scanGraph(scanner);
     } catch (IllegalArgumentException e) {
       JOptionPane.showMessageDialog(this, "something is wrong in graph...");
     }
+    myCurrentLayout = myLayouter.doLayout(g);
   }
 
   private void createTextPanel() {

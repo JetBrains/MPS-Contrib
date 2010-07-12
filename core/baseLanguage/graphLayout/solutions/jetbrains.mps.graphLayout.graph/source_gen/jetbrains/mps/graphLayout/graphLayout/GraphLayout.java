@@ -5,28 +5,29 @@ package jetbrains.mps.graphLayout.graphLayout;
 import jetbrains.mps.graphLayout.graph.Graph;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
-import java.awt.Point;
+import java.awt.Rectangle;
 import jetbrains.mps.graphLayout.graph.Edge;
 import java.util.List;
+import java.awt.Point;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 
 public class GraphLayout {
   private Graph myGraph;
-  private Map<Node, Point> myNodeLayout;
+  private Map<Node, Rectangle> myNodeLayout;
   private Map<Edge, List<Point>> myEdgeLayout;
 
   public GraphLayout(Graph graph) {
     myGraph = graph;
-    myNodeLayout = MapSequence.fromMap(new HashMap<Node, Point>());
+    myNodeLayout = MapSequence.fromMap(new HashMap<Node, Rectangle>());
     myEdgeLayout = MapSequence.fromMap(new HashMap<Edge, List<Point>>());
   }
 
-  public Map<Node, Point> getNodeLayout() {
+  public Map<Node, Rectangle> getNodeLayout() {
     return this.myNodeLayout;
   }
 
-  public void setNodeLayout(Map<Node, Point> nodeLayout) {
+  public void setNodeLayout(Map<Node, Rectangle> nodeLayout) {
     this.myNodeLayout = nodeLayout;
   }
 
@@ -38,11 +39,11 @@ public class GraphLayout {
     this.myEdgeLayout = edgeLayout;
   }
 
-  public void setLayoutFor(Node node, Point point) {
-    MapSequence.fromMap(myNodeLayout).put(node, point);
+  public void setLayoutFor(Node node, Rectangle rect) {
+    MapSequence.fromMap(myNodeLayout).put(node, rect);
   }
 
-  public Point getLayoutFor(Node node) {
+  public Rectangle getLayoutFor(Node node) {
     return MapSequence.fromMap(myNodeLayout).get(node);
   }
 

@@ -6,6 +6,7 @@ import java.util.List;
 import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.graph.Graph;
 import jetbrains.mps.graphLayout.graph.Node;
+import jetbrains.mps.baseLanguage.closures.runtime._FunctionTypes;
 import java.util.Map;
 import jetbrains.mps.graphLayout.util.NodeMap;
 import java.util.Queue;
@@ -16,6 +17,14 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 
 public class ShortestPath {
   public static List<Edge> getPath(Graph graph, Node source, Node target, Edge.Direction direction) {
+    return getPath(graph, source, target, direction, new _FunctionTypes._return_P1_E0<Boolean, Edge>() {
+      public Boolean invoke(Edge edge) {
+        return true;
+      }
+    });
+  }
+
+  public static List<Edge> getPath(Graph graph, Node source, Node target, Edge.Direction direction, _FunctionTypes._return_P1_E0<? extends Boolean, ? super Edge> filter) {
     Map<Node, Integer> dist = new NodeMap<Integer>(graph);
     Map<Node, Edge> prev = new NodeMap<Edge>(graph);
     Queue<Node> queue = QueueSequence.fromQueue(new LinkedList<Node>());
@@ -30,11 +39,13 @@ public class ShortestPath {
         break;
       }
       for (Edge edge : ListSequence.fromList(cur.getEdges(direction))) {
-        Node next = edge.getOpposite(cur);
-        if (MapSequence.fromMap(dist).get(next) == null) {
-          QueueSequence.fromQueue(queue).addLastElement(next);
-          MapSequence.fromMap(dist).put(next, MapSequence.fromMap(dist).get(cur) + 1);
-          MapSequence.fromMap(prev).put(next, edge);
+        if (filter.invoke(edge)) {
+          Node next = edge.getOpposite(cur);
+          if (MapSequence.fromMap(dist).get(next) == null) {
+            QueueSequence.fromQueue(queue).addLastElement(next);
+            MapSequence.fromMap(dist).put(next, MapSequence.fromMap(dist).get(cur) + 1);
+            MapSequence.fromMap(prev).put(next, edge);
+          }
         }
       }
     }

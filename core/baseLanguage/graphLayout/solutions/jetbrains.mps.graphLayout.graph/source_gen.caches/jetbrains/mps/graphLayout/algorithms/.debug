@@ -191,45 +191,59 @@
     <unitInfo nodeId="1654665216152485857" fileName="GraphOrientation.java" startLine="12" startPosition="0" endLine="24" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
   </root>
   <root nodeId="4179389957059009260">
-    <nodeInfo nodeId="4179389957059012257" fileName="ShortestPath.java" startLine="18" startPosition="101" endLine="19" endPosition="58" />
-    <nodeInfo nodeId="4179389957059012272" fileName="ShortestPath.java" startLine="19" startPosition="58" endLine="20" endPosition="52" />
-    <nodeInfo nodeId="4179389957059012287" fileName="ShortestPath.java" startLine="20" startPosition="52" endLine="21" endPosition="72" />
-    <nodeInfo nodeId="4179389957059012297" fileName="ShortestPath.java" startLine="21" startPosition="72" endLine="22" endPosition="45" />
-    <nodeInfo nodeId="4179389957059012309" fileName="ShortestPath.java" startLine="22" startPosition="45" endLine="23" endPosition="48" />
-    <nodeInfo nodeId="4179389957059012320" fileName="ShortestPath.java" startLine="23" startPosition="48" endLine="24" endPosition="58" />
-    <nodeInfo nodeId="4179389957059012335" fileName="ShortestPath.java" startLine="24" startPosition="58" endLine="25" endPosition="26" />
-    <nodeInfo nodeId="4179389957059012357" fileName="ShortestPath.java" startLine="26" startPosition="56" endLine="27" endPosition="69" />
-    <nodeInfo nodeId="4179389957059012387" fileName="ShortestPath.java" startLine="28" startPosition="26" endLine="29" endPosition="21" />
-    <nodeInfo nodeId="4179389957059012394" fileName="ShortestPath.java" startLine="29" startPosition="21" endLine="30" endPosition="14" />
-    <nodeInfo nodeId="4179389957059012403" fileName="ShortestPath.java" startLine="32" startPosition="72" endLine="33" endPosition="42" />
-    <nodeInfo nodeId="4179389957059012426" fileName="ShortestPath.java" startLine="34" startPosition="58" endLine="35" endPosition="62" />
-    <nodeInfo nodeId="4179389957059012436" fileName="ShortestPath.java" startLine="35" startPosition="62" endLine="36" endPosition="86" />
-    <nodeInfo nodeId="4179389957059012455" fileName="ShortestPath.java" startLine="36" startPosition="86" endLine="37" endPosition="52" />
-    <nodeInfo nodeId="4179389957059012474" fileName="ShortestPath.java" startLine="41" startPosition="19" endLine="42" endPosition="18" />
-    <nodeInfo nodeId="4179389957059012478" fileName="ShortestPath.java" startLine="43" startPosition="5" endLine="44" endPosition="68" />
-    <nodeInfo nodeId="4179389957059012499" fileName="ShortestPath.java" startLine="44" startPosition="68" endLine="45" endPosition="22" />
-    <nodeInfo nodeId="4179389957059012518" fileName="ShortestPath.java" startLine="46" startPosition="56" endLine="47" endPosition="87" />
-    <nodeInfo nodeId="4179389957059012539" fileName="ShortestPath.java" startLine="47" startPosition="87" endLine="48" endPosition="64" />
-    <nodeInfo nodeId="4179389957059012488" fileName="ShortestPath.java" startLine="49" startPosition="5" endLine="50" endPosition="16" />
-    <nodeInfo nodeId="4179389957059012467" fileName="ShortestPath.java" startLine="40" startPosition="5" endLine="43" endPosition="5" />
-    <nodeInfo nodeId="4179389957059012378" fileName="ShortestPath.java" startLine="27" startPosition="69" endLine="31" endPosition="7" />
-    <nodeInfo nodeId="4179389957059012505" fileName="ShortestPath.java" startLine="45" startPosition="22" endLine="49" endPosition="5" />
-    <nodeInfo nodeId="4179389957059012397" fileName="ShortestPath.java" startLine="33" startPosition="42" endLine="38" endPosition="9" />
-    <nodeInfo nodeId="4179389957059012368" fileName="ShortestPath.java" startLine="31" startPosition="7" endLine="39" endPosition="7" />
-    <nodeInfo nodeId="4179389957059012330" fileName="ShortestPath.java" startLine="25" startPosition="26" endLine="40" endPosition="5" />
-    <nodeInfo nodeId="4179389957059009270" fileName="ShortestPath.java" startLine="17" startPosition="27" endLine="52" endPosition="0" />
-    <scopeInfo nodeId="4179389957059012468" fileName="ShortestPath.java" startLine="41" startPosition="19" endLine="42" endPosition="18" />
-    <scopeInfo nodeId="4179389957059012379" fileName="ShortestPath.java" startLine="28" startPosition="26" endLine="30" endPosition="14" />
-    <scopeInfo nodeId="4179389957059012507" fileName="ShortestPath.java" startLine="46" startPosition="56" endLine="48" endPosition="64" />
-    <scopeInfo nodeId="4179389957059012399" fileName="ShortestPath.java" startLine="34" startPosition="58" endLine="37" endPosition="52" />
-    <scopeInfo nodeId="4179389957059012371" fileName="ShortestPath.java" startLine="32" startPosition="72" endLine="38" endPosition="9">
+    <nodeInfo nodeId="4179389957059012257" fileName="ShortestPath.java" startLine="27" startPosition="171" endLine="28" endPosition="58" />
+    <nodeInfo nodeId="4179389957059012272" fileName="ShortestPath.java" startLine="28" startPosition="58" endLine="29" endPosition="52" />
+    <nodeInfo nodeId="4179389957059012287" fileName="ShortestPath.java" startLine="29" startPosition="52" endLine="30" endPosition="72" />
+    <nodeInfo nodeId="4179389957059012297" fileName="ShortestPath.java" startLine="30" startPosition="72" endLine="31" endPosition="45" />
+    <nodeInfo nodeId="4179389957059012309" fileName="ShortestPath.java" startLine="31" startPosition="45" endLine="32" endPosition="48" />
+    <nodeInfo nodeId="4179389957059012320" fileName="ShortestPath.java" startLine="32" startPosition="48" endLine="33" endPosition="58" />
+    <nodeInfo nodeId="4179389957059012335" fileName="ShortestPath.java" startLine="33" startPosition="58" endLine="34" endPosition="26" />
+    <nodeInfo nodeId="4179389957059012357" fileName="ShortestPath.java" startLine="35" startPosition="56" endLine="36" endPosition="69" />
+    <nodeInfo nodeId="4179389957059012387" fileName="ShortestPath.java" startLine="37" startPosition="26" endLine="38" endPosition="21" />
+    <nodeInfo nodeId="4179389957059012394" fileName="ShortestPath.java" startLine="38" startPosition="21" endLine="39" endPosition="14" />
+    <nodeInfo nodeId="4179389957059012403" fileName="ShortestPath.java" startLine="42" startPosition="34" endLine="43" endPosition="44" />
+    <nodeInfo nodeId="4179389957059012426" fileName="ShortestPath.java" startLine="44" startPosition="60" endLine="45" endPosition="64" />
+    <nodeInfo nodeId="4179389957059012436" fileName="ShortestPath.java" startLine="45" startPosition="64" endLine="46" endPosition="88" />
+    <nodeInfo nodeId="4179389957059012455" fileName="ShortestPath.java" startLine="46" startPosition="88" endLine="47" endPosition="54" />
+    <nodeInfo nodeId="4179389957059012474" fileName="ShortestPath.java" startLine="52" startPosition="19" endLine="53" endPosition="18" />
+    <nodeInfo nodeId="4179389957059012478" fileName="ShortestPath.java" startLine="54" startPosition="5" endLine="55" endPosition="68" />
+    <nodeInfo nodeId="4179389957059012499" fileName="ShortestPath.java" startLine="55" startPosition="68" endLine="56" endPosition="22" />
+    <nodeInfo nodeId="4179389957059012518" fileName="ShortestPath.java" startLine="57" startPosition="56" endLine="58" endPosition="87" />
+    <nodeInfo nodeId="4179389957059012539" fileName="ShortestPath.java" startLine="58" startPosition="87" endLine="59" endPosition="64" />
+    <nodeInfo nodeId="4179389957059012488" fileName="ShortestPath.java" startLine="60" startPosition="5" endLine="61" endPosition="16" />
+    <nodeInfo nodeId="4179389957059012467" fileName="ShortestPath.java" startLine="51" startPosition="5" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="1418350014056290856" fileName="ShortestPath.java" startLine="20" startPosition="104" endLine="24" endPosition="0" />
+    <nodeInfo nodeId="4179389957059012378" fileName="ShortestPath.java" startLine="36" startPosition="69" endLine="40" endPosition="7" />
+    <nodeInfo nodeId="4179389957059012505" fileName="ShortestPath.java" startLine="56" startPosition="22" endLine="60" endPosition="5" />
+    <nodeInfo nodeId="1418350014056290845" fileName="ShortestPath.java" startLine="19" startPosition="101" endLine="24" endPosition="7" />
+    <nodeInfo nodeId="4179389957059012397" fileName="ShortestPath.java" startLine="43" startPosition="44" endLine="48" endPosition="11" />
+    <nodeInfo nodeId="1418350014056290822" fileName="ShortestPath.java" startLine="18" startPosition="27" endLine="26" endPosition="0" />
+    <nodeInfo nodeId="1418350014056290808" fileName="ShortestPath.java" startLine="41" startPosition="72" endLine="49" endPosition="9" />
+    <nodeInfo nodeId="4179389957059012368" fileName="ShortestPath.java" startLine="40" startPosition="7" endLine="50" endPosition="7" />
+    <nodeInfo nodeId="4179389957059012330" fileName="ShortestPath.java" startLine="34" startPosition="26" endLine="51" endPosition="5" />
+    <nodeInfo nodeId="4179389957059009270" fileName="ShortestPath.java" startLine="26" startPosition="0" endLine="63" endPosition="0" />
+    <scopeInfo nodeId="1418350014056290857" fileName="ShortestPath.java" startLine="21" startPosition="40" endLine="22" endPosition="20" />
+    <scopeInfo nodeId="4179389957059012468" fileName="ShortestPath.java" startLine="52" startPosition="19" endLine="53" endPosition="18" />
+    <scopeInfo nodeId="4179389957059012379" fileName="ShortestPath.java" startLine="37" startPosition="26" endLine="39" endPosition="14" />
+    <scopeInfo nodeId="4179389957059012507" fileName="ShortestPath.java" startLine="57" startPosition="56" endLine="59" endPosition="64" />
+    <scopeInfo nodeId="4179389957059012399" fileName="ShortestPath.java" startLine="44" startPosition="60" endLine="47" endPosition="54" />
+    <scopeInfo nodeId="1418350014056290856" fileName="ShortestPath.java" startLine="20" startPosition="104" endLine="24" endPosition="0" />
+    <scopeInfo nodeId="1418350014056290825" fileName="ShortestPath.java" startLine="19" startPosition="101" endLine="24" endPosition="7" />
+    <scopeInfo nodeId="1418350014056290810" fileName="ShortestPath.java" startLine="42" startPosition="34" endLine="48" endPosition="11">
       <varInfo nodeId="4179389957059012404" varName="next" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059012368" fileName="ShortestPath.java" startLine="31" startPosition="7" endLine="39" endPosition="7" />
-    <scopeInfo nodeId="4179389957059012332" fileName="ShortestPath.java" startLine="26" startPosition="56" endLine="39" endPosition="7">
+    <scopeInfo nodeId="1418350014056290822" fileName="ShortestPath.java" startLine="18" startPosition="27" endLine="26" endPosition="0">
+      <varInfo nodeId="1418350014056290832" varName="graph" />
+      <varInfo nodeId="1418350014056290834" varName="source" />
+      <varInfo nodeId="1418350014056290842" varName="direction" />
+      <varInfo nodeId="1418350014056290839" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="4179389957059012371" fileName="ShortestPath.java" startLine="41" startPosition="72" endLine="49" endPosition="9" />
+    <scopeInfo nodeId="4179389957059012368" fileName="ShortestPath.java" startLine="40" startPosition="7" endLine="50" endPosition="7" />
+    <scopeInfo nodeId="4179389957059012332" fileName="ShortestPath.java" startLine="35" startPosition="56" endLine="50" endPosition="7">
       <varInfo nodeId="4179389957059012358" varName="cur" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059012250" fileName="ShortestPath.java" startLine="18" startPosition="101" endLine="50" endPosition="16">
+    <scopeInfo nodeId="4179389957059012250" fileName="ShortestPath.java" startLine="27" startPosition="171" endLine="61" endPosition="16">
       <varInfo nodeId="4179389957059012288" varName="queue" />
       <varInfo nodeId="4179389957059012479" varName="path" />
       <varInfo nodeId="4179389957059012500" varName="cur" />
@@ -237,13 +251,15 @@
       <varInfo nodeId="4179389957059012273" varName="prev" />
       <varInfo nodeId="4179389957059012258" varName="dist" />
     </scopeInfo>
-    <scopeInfo nodeId="4179389957059009270" fileName="ShortestPath.java" startLine="17" startPosition="27" endLine="52" endPosition="0">
+    <scopeInfo nodeId="4179389957059009270" fileName="ShortestPath.java" startLine="26" startPosition="0" endLine="63" endPosition="0">
       <varInfo nodeId="4179389957059012235" varName="graph" />
       <varInfo nodeId="4179389957059012237" varName="source" />
       <varInfo nodeId="4179389957059012246" varName="direction" />
       <varInfo nodeId="4179389957059012240" varName="target" />
+      <varInfo nodeId="1418350014056290802" varName="filter" />
     </scopeInfo>
-    <unitInfo nodeId="4179389957059009260" fileName="ShortestPath.java" startLine="17" startPosition="0" endLine="53" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
+    <unitInfo nodeId="1418350014056290856" fileName="ShortestPath.java" startLine="20" startPosition="57" endLine="24" endPosition="5" unitName="jetbrains.mps.graphLayout.algorithms.ShortestPath$1" />
+    <unitInfo nodeId="4179389957059009260" fileName="ShortestPath.java" startLine="18" startPosition="0" endLine="64" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.ShortestPath" />
   </root>
   <root nodeId="4660430665333277271">
     <nodeInfo nodeId="4519409331094618576" fileName="Dfs.java" startLine="13" startPosition="27" endLine="14" endPosition="31" />
@@ -565,6 +581,35 @@
     </scopeInfo>
     <unitInfo nodeId="6074874003310495255" fileName="BiconnectAugmentation.java" startLine="21" startPosition="0" endLine="89" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation$MyDfs" />
     <unitInfo nodeId="5213231752900665923" fileName="BiconnectAugmentation.java" startLine="16" startPosition="0" endLine="90" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation" />
+  </root>
+  <root nodeId="903391227141019952">
+    <nodeInfo nodeId="903391227141022947" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="16" endPosition="56" />
+    <nodeInfo nodeId="903391227141022953" fileName="WeightedTopologicalNumbering.java" startLine="16" startPosition="56" endLine="17" endPosition="63" />
+    <nodeInfo nodeId="903391227141022968" fileName="WeightedTopologicalNumbering.java" startLine="18" startPosition="63" endLine="19" endPosition="50" />
+    <nodeInfo nodeId="903391227141022984" fileName="WeightedTopologicalNumbering.java" startLine="22" startPosition="67" endLine="23" endPosition="39" />
+    <nodeInfo nodeId="903391227141022990" fileName="WeightedTopologicalNumbering.java" startLine="23" startPosition="39" endLine="24" endPosition="188" />
+    <nodeInfo nodeId="903391227141023004" fileName="WeightedTopologicalNumbering.java" startLine="26" startPosition="5" endLine="27" endPosition="21" />
+    <nodeInfo nodeId="903391227141022962" fileName="WeightedTopologicalNumbering.java" startLine="17" startPosition="63" endLine="20" endPosition="5" />
+    <nodeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="54" endLine="25" endPosition="7" />
+    <nodeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="20" startPosition="5" endLine="26" endPosition="5" />
+    <nodeInfo nodeId="903391227141019962" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="43" endLine="29" endPosition="0" />
+    <scopeInfo nodeId="903391227141022967" fileName="WeightedTopologicalNumbering.java" startLine="18" startPosition="63" endLine="19" endPosition="50" />
+    <scopeInfo nodeId="903391227141022983" fileName="WeightedTopologicalNumbering.java" startLine="22" startPosition="67" endLine="24" endPosition="188">
+      <varInfo nodeId="903391227141022985" varName="target" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141022962" fileName="WeightedTopologicalNumbering.java" startLine="17" startPosition="63" endLine="20" endPosition="5" />
+    <scopeInfo nodeId="903391227141022977" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="54" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="903391227141022978" fileName="WeightedTopologicalNumbering.java" startLine="21" startPosition="54" endLine="25" endPosition="7" />
+    <scopeInfo nodeId="903391227141022974" fileName="WeightedTopologicalNumbering.java" startLine="20" startPosition="5" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="903391227141019965" fileName="WeightedTopologicalNumbering.java" startLine="15" startPosition="116" endLine="27" endPosition="21">
+      <varInfo nodeId="903391227141022954" varName="numbering" />
+      <varInfo nodeId="903391227141022948" varName="sorting" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141019962" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="43" endLine="29" endPosition="0">
+      <varInfo nodeId="903391227141019974" varName="graph" />
+      <varInfo nodeId="903391227141019976" varName="weights" />
+    </scopeInfo>
+    <unitInfo nodeId="903391227141019952" fileName="WeightedTopologicalNumbering.java" startLine="14" startPosition="0" endLine="30" endPosition="0" unitName="jetbrains.mps.graphLayout.algorithms.WeightedTopologicalNumbering" />
   </root>
 </debugInfo>
 

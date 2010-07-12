@@ -9,6 +9,7 @@ import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import junit.framework.Assert;
 import jetbrains.mps.graphLayout.graph.Edge;
+import layeredLayoutTest.CheckCycles;
 
 public class STNumberingChecker {
   public static void check(Graph graph, Node source, Node target, Map<Node, Integer> stNumbering) {
@@ -32,5 +33,6 @@ public class STNumberingChecker {
       Assert.assertTrue(minAdj < MapSequence.fromMap(stNumbering).get(node));
       Assert.assertTrue(maxAdj > MapSequence.fromMap(stNumbering).get(node));
     }
+    Assert.assertFalse(new CheckCycles().hasCycle(graph));
   }
 }

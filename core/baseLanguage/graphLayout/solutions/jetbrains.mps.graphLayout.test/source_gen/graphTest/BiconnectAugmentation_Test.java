@@ -8,6 +8,8 @@ import sampleGraphs.SimpleDirectedGraphs;
 import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
 import visualization.GraphIO;
 import java.util.Scanner;
+import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
+import jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder;
 
 public class BiconnectAugmentation_Test extends TestCase {
   public void test_chain3() throws Exception {
@@ -26,10 +28,17 @@ public class BiconnectAugmentation_Test extends TestCase {
     test(graphString);
   }
 
+  public void test_K5() throws Exception {
+    String graphString = "5 10  0 1  0 2  0 3  0 4  1 2  1 3  1 4  2 3  2 4  3 4";
+    test(graphString);
+  }
+
   public void test(String graphString) {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     BiconnectAugmentation.makeBiconnected(graph);
     System.out.println(graph);
+    EmbeddedGraph embeddedGraph = new TreeEmbeddingFinder().find(graph);
+    System.out.println(embeddedGraph);
     BiconnectivityChecker.check(graph);
   }
 }

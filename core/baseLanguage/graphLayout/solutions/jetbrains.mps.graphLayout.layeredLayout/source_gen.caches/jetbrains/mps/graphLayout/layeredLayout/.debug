@@ -316,12 +316,12 @@
     <nodeInfo nodeId="4660430665333280311" fileName="LayeredLayouter.java" startLine="28" startPosition="27" endLine="29" endPosition="27" />
     <nodeInfo nodeId="4660430665333280299" fileName="LayeredLayouter.java" startLine="29" startPosition="27" endLine="30" endPosition="29" />
     <nodeInfo nodeId="4660430665333280278" fileName="LayeredLayouter.java" startLine="30" startPosition="29" endLine="31" endPosition="31" />
-    <nodeInfo nodeId="4660430665333280362" fileName="LayeredLayouter.java" startLine="34" startPosition="44" endLine="35" endPosition="55" />
+    <nodeInfo nodeId="4660430665333280362" fileName="LayeredLayouter.java" startLine="34" startPosition="49" endLine="35" endPosition="55" />
     <nodeInfo nodeId="4660430665333280348" fileName="LayeredLayouter.java" startLine="35" startPosition="55" endLine="36" endPosition="63" />
     <nodeInfo nodeId="4660430665333281038" fileName="LayeredLayouter.java" startLine="36" startPosition="63" endLine="37" endPosition="78" />
     <nodeInfo nodeId="4660430665333281067" fileName="LayeredLayouter.java" startLine="37" startPosition="78" endLine="38" endPosition="63" />
     <nodeInfo nodeId="4660430665333281077" fileName="LayeredLayouter.java" startLine="38" startPosition="63" endLine="39" endPosition="79" />
-    <nodeInfo nodeId="4660430665333281254" fileName="LayeredLayouter.java" startLine="39" startPosition="79" endLine="40" endPosition="53" />
+    <nodeInfo nodeId="4660430665333281254" fileName="LayeredLayouter.java" startLine="39" startPosition="79" endLine="40" endPosition="63" />
     <nodeInfo nodeId="4660430665333281278" fileName="LayeredLayouter.java" startLine="41" startPosition="99" endLine="42" endPosition="77" />
     <nodeInfo nodeId="4660430665333281289" fileName="LayeredLayouter.java" startLine="42" startPosition="77" endLine="43" endPosition="118" />
     <nodeInfo nodeId="4660430665333281324" fileName="LayeredLayouter.java" startLine="44" startPosition="107" endLine="45" endPosition="116" />
@@ -359,7 +359,7 @@
     <nodeInfo nodeId="190081711777474404" fileName="LayeredLayouter.java" startLine="80" startPosition="27" endLine="86" endPosition="13" />
     <nodeInfo nodeId="190081711777478262" fileName="LayeredLayouter.java" startLine="92" startPosition="5" endLine="98" endPosition="5" />
     <nodeInfo nodeId="4660430665333281638" fileName="LayeredLayouter.java" startLine="55" startPosition="7" endLine="64" endPosition="5" />
-    <nodeInfo nodeId="4660430665333281267" fileName="LayeredLayouter.java" startLine="40" startPosition="53" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="4660430665333281267" fileName="LayeredLayouter.java" startLine="40" startPosition="63" endLine="50" endPosition="5" />
     <nodeInfo nodeId="190081711777474399" fileName="LayeredLayouter.java" startLine="78" startPosition="38" endLine="89" endPosition="11" />
     <nodeInfo nodeId="190081711777474374" fileName="LayeredLayouter.java" startLine="75" startPosition="55" endLine="90" endPosition="9" />
     <nodeInfo nodeId="190081711777474350" fileName="LayeredLayouter.java" startLine="72" startPosition="39" endLine="91" endPosition="7" />
@@ -394,7 +394,7 @@
     <scopeInfo nodeId="190081711777474400" fileName="LayeredLayouter.java" startLine="79" startPosition="64" endLine="88" endPosition="28">
       <varInfo nodeId="190081711777474402" varName="newTarget" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333281267" fileName="LayeredLayouter.java" startLine="40" startPosition="53" endLine="50" endPosition="5" />
+    <scopeInfo nodeId="4660430665333281267" fileName="LayeredLayouter.java" startLine="40" startPosition="63" endLine="50" endPosition="5" />
     <scopeInfo nodeId="190081711777474399" fileName="LayeredLayouter.java" startLine="78" startPosition="38" endLine="89" endPosition="11">
       <varInfo nodeId="190081711777474437" varName="i" />
     </scopeInfo>
@@ -412,7 +412,7 @@
     <scopeInfo nodeId="190081711777474315" fileName="LayeredLayouter.java" startLine="70" startPosition="45" endLine="92" endPosition="5">
       <varInfo nodeId="190081711777474318" varName="index" />
     </scopeInfo>
-    <scopeInfo nodeId="4660430665333280335" fileName="LayeredLayouter.java" startLine="34" startPosition="44" endLine="65" endPosition="23">
+    <scopeInfo nodeId="4660430665333280335" fileName="LayeredLayouter.java" startLine="34" startPosition="49" endLine="65" endPosition="23">
       <varInfo nodeId="4660430665333281039" varName="substituteEdgeMap" />
       <varInfo nodeId="4660430665333281068" varName="order" />
       <varInfo nodeId="4660430665333281255" varName="graphLayout" />

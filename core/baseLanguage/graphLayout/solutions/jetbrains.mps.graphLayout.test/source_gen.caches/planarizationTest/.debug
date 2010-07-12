@@ -151,57 +151,6 @@
     </scopeInfo>
     <unitInfo nodeId="1646208389854262552" fileName="CheckFace.java" startLine="11" startPosition="0" endLine="28" endPosition="0" unitName="planarizationTest.CheckFace" />
   </root>
-  <root nodeId="1646208389854275490">
-    <nodeInfo nodeId="1646208389854277239" fileName="TreeEmbeddingFinder_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="48" />
-    <nodeInfo nodeId="1646208389854277244" fileName="TreeEmbeddingFinder_Test.java" startLine="20" startPosition="48" endLine="21" endPosition="16" />
-    <nodeInfo nodeId="1646208389854277253" fileName="TreeEmbeddingFinder_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="41" />
-    <nodeInfo nodeId="1646208389854277257" fileName="TreeEmbeddingFinder_Test.java" startLine="25" startPosition="41" endLine="26" endPosition="62" />
-    <nodeInfo nodeId="1646208389854277264" fileName="TreeEmbeddingFinder_Test.java" startLine="26" startPosition="62" endLine="27" endPosition="16" />
-    <nodeInfo nodeId="1646208389854277313" fileName="TreeEmbeddingFinder_Test.java" startLine="30" startPosition="45" endLine="31" endPosition="41" />
-    <nodeInfo nodeId="1646208389854277317" fileName="TreeEmbeddingFinder_Test.java" startLine="31" startPosition="41" endLine="32" endPosition="62" />
-    <nodeInfo nodeId="1646208389854277324" fileName="TreeEmbeddingFinder_Test.java" startLine="32" startPosition="62" endLine="33" endPosition="16" />
-    <nodeInfo nodeId="1646208389854277333" fileName="TreeEmbeddingFinder_Test.java" startLine="36" startPosition="45" endLine="37" endPosition="66" />
-    <nodeInfo nodeId="1646208389854277337" fileName="TreeEmbeddingFinder_Test.java" startLine="37" startPosition="66" endLine="38" endPosition="62" />
-    <nodeInfo nodeId="1646208389854277344" fileName="TreeEmbeddingFinder_Test.java" startLine="38" startPosition="62" endLine="39" endPosition="16" />
-    <nodeInfo nodeId="4179389957059017297" fileName="TreeEmbeddingFinder_Test.java" startLine="42" startPosition="33" endLine="43" endPosition="68" />
-    <nodeInfo nodeId="1646208389854276332" fileName="TreeEmbeddingFinder_Test.java" startLine="43" startPosition="68" endLine="44" endPosition="102" />
-    <nodeInfo nodeId="1646208389854276514" fileName="TreeEmbeddingFinder_Test.java" startLine="44" startPosition="102" endLine="45" endPosition="29" />
-    <nodeInfo nodeId="1646208389854277672" fileName="TreeEmbeddingFinder_Test.java" startLine="45" startPosition="29" endLine="46" endPosition="59" />
-    <nodeInfo nodeId="1646208389854277679" fileName="TreeEmbeddingFinder_Test.java" startLine="46" startPosition="59" endLine="47" endPosition="32" />
-    <nodeInfo nodeId="1646208389854276343" fileName="TreeEmbeddingFinder_Test.java" startLine="47" startPosition="32" endLine="48" endPosition="45" />
-    <nodeInfo nodeId="1646208389854277235" fileName="TreeEmbeddingFinder_Test.java" startLine="18" startPosition="56" endLine="23" endPosition="0" />
-    <nodeInfo nodeId="1646208389854277249" fileName="TreeEmbeddingFinder_Test.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
-    <nodeInfo nodeId="1646208389854277309" fileName="TreeEmbeddingFinder_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
-    <nodeInfo nodeId="1646208389854277329" fileName="TreeEmbeddingFinder_Test.java" startLine="35" startPosition="0" endLine="41" endPosition="0" />
-    <nodeInfo nodeId="1646208389854276323" fileName="TreeEmbeddingFinder_Test.java" startLine="41" startPosition="0" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="1646208389854277238" fileName="TreeEmbeddingFinder_Test.java" startLine="19" startPosition="45" endLine="21" endPosition="16">
-      <varInfo nodeId="1646208389854277240" varName="graph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1646208389854277252" fileName="TreeEmbeddingFinder_Test.java" startLine="24" startPosition="45" endLine="27" endPosition="16">
-      <varInfo nodeId="1646208389854277254" varName="graphString" />
-      <varInfo nodeId="1646208389854277258" varName="graph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1646208389854277312" fileName="TreeEmbeddingFinder_Test.java" startLine="30" startPosition="45" endLine="33" endPosition="16">
-      <varInfo nodeId="1646208389854277314" varName="graphString" />
-      <varInfo nodeId="1646208389854277318" varName="graph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1646208389854277332" fileName="TreeEmbeddingFinder_Test.java" startLine="36" startPosition="45" endLine="39" endPosition="16">
-      <varInfo nodeId="1646208389854277334" varName="graphString" />
-      <varInfo nodeId="1646208389854277338" varName="graph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1646208389854277235" fileName="TreeEmbeddingFinder_Test.java" startLine="18" startPosition="56" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="1646208389854277249" fileName="TreeEmbeddingFinder_Test.java" startLine="23" startPosition="0" endLine="29" endPosition="0" />
-    <scopeInfo nodeId="1646208389854277309" fileName="TreeEmbeddingFinder_Test.java" startLine="29" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="1646208389854277329" fileName="TreeEmbeddingFinder_Test.java" startLine="35" startPosition="0" endLine="41" endPosition="0" />
-    <scopeInfo nodeId="1646208389854276326" fileName="TreeEmbeddingFinder_Test.java" startLine="42" startPosition="33" endLine="48" endPosition="45">
-      <varInfo nodeId="4179389957059017298" varName="embeddingFinder" />
-      <varInfo nodeId="1646208389854276333" varName="face" />
-      <varInfo nodeId="1646208389854277673" varName="embeddedGraph" />
-    </scopeInfo>
-    <scopeInfo nodeId="1646208389854276323" fileName="TreeEmbeddingFinder_Test.java" startLine="41" startPosition="0" endLine="50" endPosition="0">
-      <varInfo nodeId="1646208389854276329" varName="graph" />
-    </scopeInfo>
-  </root>
   <root nodeId="4179389957059017814">
     <nodeInfo nodeId="4179389957059017898" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="50" />
     <nodeInfo nodeId="4179389957059017905" fileName="TreeEmbeddingFinder_Find_Test.java" startLine="15" startPosition="50" endLine="16" endPosition="16" />
@@ -259,96 +208,95 @@
     </scopeInfo>
   </root>
   <root nodeId="6984255766319183447">
-    <nodeInfo nodeId="6984255766319236613" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="45" endLine="28" endPosition="53" />
-    <nodeInfo nodeId="6984255766319236774" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="53" endLine="29" endPosition="34" />
-    <nodeInfo nodeId="6984255766319236784" fileName="STPlanarGraph_Test.java" startLine="29" startPosition="34" endLine="30" endPosition="34" />
-    <nodeInfo nodeId="6984255766319236814" fileName="STPlanarGraph_Test.java" startLine="30" startPosition="34" endLine="31" endPosition="34" />
-    <nodeInfo nodeId="6984255766319236822" fileName="STPlanarGraph_Test.java" startLine="31" startPosition="34" endLine="32" endPosition="34" />
-    <nodeInfo nodeId="6984255766319236647" fileName="STPlanarGraph_Test.java" startLine="32" startPosition="34" endLine="33" endPosition="41" />
-    <nodeInfo nodeId="6984255766319236669" fileName="STPlanarGraph_Test.java" startLine="33" startPosition="41" endLine="34" endPosition="41" />
-    <nodeInfo nodeId="6984255766319236683" fileName="STPlanarGraph_Test.java" startLine="34" startPosition="41" endLine="35" endPosition="41" />
-    <nodeInfo nodeId="6984255766319236697" fileName="STPlanarGraph_Test.java" startLine="35" startPosition="41" endLine="36" endPosition="41" />
-    <nodeInfo nodeId="6984255766319236711" fileName="STPlanarGraph_Test.java" startLine="36" startPosition="41" endLine="37" endPosition="41" />
-    <nodeInfo nodeId="6984255766319236736" fileName="STPlanarGraph_Test.java" startLine="37" startPosition="41" endLine="38" endPosition="59" />
-    <nodeInfo nodeId="6984255766319236747" fileName="STPlanarGraph_Test.java" startLine="38" startPosition="59" endLine="39" endPosition="35" />
-    <nodeInfo nodeId="6984255766319236755" fileName="STPlanarGraph_Test.java" startLine="39" startPosition="35" endLine="40" endPosition="45" />
-    <nodeInfo nodeId="6984255766319236830" fileName="STPlanarGraph_Test.java" startLine="40" startPosition="45" endLine="41" endPosition="45" />
-    <nodeInfo nodeId="6984255766319236839" fileName="STPlanarGraph_Test.java" startLine="41" startPosition="45" endLine="42" endPosition="45" />
-    <nodeInfo nodeId="6984255766319236852" fileName="STPlanarGraph_Test.java" startLine="42" startPosition="45" endLine="43" endPosition="35" />
-    <nodeInfo nodeId="6984255766319238863" fileName="STPlanarGraph_Test.java" startLine="43" startPosition="35" endLine="44" endPosition="35" />
-    <nodeInfo nodeId="6984255766319236878" fileName="STPlanarGraph_Test.java" startLine="44" startPosition="35" endLine="45" endPosition="45" />
-    <nodeInfo nodeId="6984255766319236886" fileName="STPlanarGraph_Test.java" startLine="45" startPosition="45" endLine="46" endPosition="45" />
-    <nodeInfo nodeId="6984255766319236894" fileName="STPlanarGraph_Test.java" startLine="46" startPosition="45" endLine="47" endPosition="45" />
-    <nodeInfo nodeId="6984255766319236902" fileName="STPlanarGraph_Test.java" startLine="47" startPosition="45" endLine="48" endPosition="35" />
-    <nodeInfo nodeId="6984255766319238877" fileName="STPlanarGraph_Test.java" startLine="48" startPosition="35" endLine="49" endPosition="36" />
-    <nodeInfo nodeId="6984255766319236919" fileName="STPlanarGraph_Test.java" startLine="49" startPosition="36" endLine="50" endPosition="46" />
-    <nodeInfo nodeId="6984255766319236927" fileName="STPlanarGraph_Test.java" startLine="50" startPosition="46" endLine="51" endPosition="46" />
-    <nodeInfo nodeId="6984255766319236935" fileName="STPlanarGraph_Test.java" startLine="51" startPosition="46" endLine="52" endPosition="46" />
-    <nodeInfo nodeId="6984255766319236949" fileName="STPlanarGraph_Test.java" startLine="52" startPosition="46" endLine="53" endPosition="46" />
-    <nodeInfo nodeId="6984255766319236943" fileName="STPlanarGraph_Test.java" startLine="53" startPosition="46" endLine="54" endPosition="36" />
-    <nodeInfo nodeId="6984255766319236964" fileName="STPlanarGraph_Test.java" startLine="54" startPosition="36" endLine="55" endPosition="41" />
-    <nodeInfo nodeId="6984255766319236976" fileName="STPlanarGraph_Test.java" startLine="55" startPosition="41" endLine="56" endPosition="81" />
-    <nodeInfo nodeId="6984255766319238820" fileName="STPlanarGraph_Test.java" startLine="56" startPosition="81" endLine="57" endPosition="67" />
-    <nodeInfo nodeId="6984255766319238910" fileName="STPlanarGraph_Test.java" startLine="57" startPosition="67" endLine="58" endPosition="67" />
-    <nodeInfo nodeId="6984255766319238919" fileName="STPlanarGraph_Test.java" startLine="58" startPosition="67" endLine="59" endPosition="67" />
-    <nodeInfo nodeId="6984255766319238926" fileName="STPlanarGraph_Test.java" startLine="59" startPosition="67" endLine="60" endPosition="67" />
-    <nodeInfo nodeId="6984255766319238934" fileName="STPlanarGraph_Test.java" startLine="60" startPosition="67" endLine="61" endPosition="68" />
-    <nodeInfo nodeId="6984255766319238941" fileName="STPlanarGraph_Test.java" startLine="61" startPosition="68" endLine="62" endPosition="68" />
-    <nodeInfo nodeId="6984255766319240593" fileName="STPlanarGraph_Test.java" startLine="62" startPosition="68" endLine="63" endPosition="68" />
-    <nodeInfo nodeId="6984255766319240607" fileName="STPlanarGraph_Test.java" startLine="63" startPosition="68" endLine="64" endPosition="70" />
-    <nodeInfo nodeId="6984255766319240651" fileName="STPlanarGraph_Test.java" startLine="64" startPosition="70" endLine="65" endPosition="69" />
-    <nodeInfo nodeId="6984255766319240658" fileName="STPlanarGraph_Test.java" startLine="65" startPosition="69" endLine="66" endPosition="69" />
-    <nodeInfo nodeId="6984255766319240666" fileName="STPlanarGraph_Test.java" startLine="66" startPosition="69" endLine="67" endPosition="69" />
-    <nodeInfo nodeId="6984255766319240673" fileName="STPlanarGraph_Test.java" startLine="67" startPosition="69" endLine="68" endPosition="69" />
-    <nodeInfo nodeId="6984255766319240681" fileName="STPlanarGraph_Test.java" startLine="68" startPosition="69" endLine="69" endPosition="69" />
-    <nodeInfo nodeId="6984255766319240688" fileName="STPlanarGraph_Test.java" startLine="69" startPosition="69" endLine="70" endPosition="69" />
-    <nodeInfo nodeId="6984255766319240696" fileName="STPlanarGraph_Test.java" startLine="70" startPosition="69" endLine="71" endPosition="68" />
-    <nodeInfo nodeId="6984255766319240703" fileName="STPlanarGraph_Test.java" startLine="71" startPosition="68" endLine="72" endPosition="69" />
-    <nodeInfo nodeId="6984255766319273447" fileName="STPlanarGraph_Test.java" startLine="72" startPosition="69" endLine="73" endPosition="68" />
-    <nodeInfo nodeId="6984255766319273461" fileName="STPlanarGraph_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="69" />
-    <nodeInfo nodeId="6984255766319273469" fileName="STPlanarGraph_Test.java" startLine="74" startPosition="69" endLine="75" endPosition="68" />
-    <nodeInfo nodeId="6984255766319273476" fileName="STPlanarGraph_Test.java" startLine="75" startPosition="68" endLine="76" endPosition="69" />
-    <nodeInfo nodeId="6984255766319273486" fileName="STPlanarGraph_Test.java" startLine="76" startPosition="69" endLine="77" endPosition="68" />
-    <nodeInfo nodeId="6984255766319273493" fileName="STPlanarGraph_Test.java" startLine="77" startPosition="68" endLine="78" endPosition="68" />
-    <nodeInfo nodeId="6984255766319273504" fileName="STPlanarGraph_Test.java" startLine="78" startPosition="68" endLine="79" endPosition="68" />
-    <nodeInfo nodeId="6984255766319273511" fileName="STPlanarGraph_Test.java" startLine="79" startPosition="68" endLine="80" endPosition="68" />
-    <nodeInfo nodeId="6984255766319275689" fileName="STPlanarGraph_Test.java" startLine="83" startPosition="42" endLine="84" endPosition="82" />
-    <nodeInfo nodeId="6984255766319275699" fileName="STPlanarGraph_Test.java" startLine="84" startPosition="82" endLine="85" endPosition="62" />
-    <nodeInfo nodeId="6984255766319275712" fileName="STPlanarGraph_Test.java" startLine="86" startPosition="6" endLine="87" endPosition="74" />
-    <nodeInfo nodeId="6984255766319275738" fileName="STPlanarGraph_Test.java" startLine="87" startPosition="74" endLine="88" endPosition="104" />
-    <nodeInfo nodeId="6984255766319275765" fileName="STPlanarGraph_Test.java" startLine="88" startPosition="104" endLine="89" endPosition="104" />
-    <nodeInfo nodeId="508819492464333765" fileName="STPlanarGraph_Test.java" startLine="90" startPosition="6" endLine="91" endPosition="119" />
-    <nodeInfo nodeId="508819492464333775" fileName="STPlanarGraph_Test.java" startLine="91" startPosition="119" endLine="92" endPosition="73" />
-    <nodeInfo nodeId="508819492464333790" fileName="STPlanarGraph_Test.java" startLine="93" startPosition="86" endLine="94" endPosition="69" />
-    <nodeInfo nodeId="508819492464333797" fileName="STPlanarGraph_Test.java" startLine="95" startPosition="5" endLine="96" endPosition="61" />
-    <nodeInfo nodeId="508819492464333804" fileName="STPlanarGraph_Test.java" startLine="96" startPosition="61" endLine="97" endPosition="107" />
-    <nodeInfo nodeId="6984255766319275728" fileName="STPlanarGraph_Test.java" startLine="97" startPosition="107" endLine="98" endPosition="73" />
-    <nodeInfo nodeId="6984255766319275787" fileName="STPlanarGraph_Test.java" startLine="98" startPosition="73" endLine="99" endPosition="63" />
-    <nodeInfo nodeId="508819492464333821" fileName="STPlanarGraph_Test.java" startLine="99" startPosition="63" endLine="100" endPosition="43" />
-    <nodeInfo nodeId="508819492464311776" fileName="STPlanarGraph_Test.java" startLine="103" startPosition="49" endLine="104" endPosition="137" />
-    <nodeInfo nodeId="508819492464311784" fileName="STPlanarGraph_Test.java" startLine="104" startPosition="137" endLine="105" endPosition="62" />
-    <nodeInfo nodeId="508819492464311797" fileName="STPlanarGraph_Test.java" startLine="105" startPosition="62" endLine="106" endPosition="119" />
-    <nodeInfo nodeId="508819492464333471" fileName="STPlanarGraph_Test.java" startLine="106" startPosition="119" endLine="107" endPosition="73" />
-    <nodeInfo nodeId="508819492464333486" fileName="STPlanarGraph_Test.java" startLine="108" startPosition="86" endLine="109" endPosition="69" />
-    <nodeInfo nodeId="508819492464333493" fileName="STPlanarGraph_Test.java" startLine="110" startPosition="5" endLine="111" endPosition="61" />
-    <nodeInfo nodeId="508819492464333500" fileName="STPlanarGraph_Test.java" startLine="111" startPosition="61" endLine="112" endPosition="107" />
-    <nodeInfo nodeId="508819492464311814" fileName="STPlanarGraph_Test.java" startLine="113" startPosition="6" endLine="114" endPosition="104" />
-    <nodeInfo nodeId="508819492464311826" fileName="STPlanarGraph_Test.java" startLine="114" startPosition="104" endLine="115" endPosition="104" />
-    <nodeInfo nodeId="508819492464311841" fileName="STPlanarGraph_Test.java" startLine="116" startPosition="6" endLine="117" endPosition="73" />
-    <nodeInfo nodeId="508819492464332655" fileName="STPlanarGraph_Test.java" startLine="117" startPosition="73" endLine="118" endPosition="63" />
-    <nodeInfo nodeId="508819492464332662" fileName="STPlanarGraph_Test.java" startLine="118" startPosition="63" endLine="119" endPosition="34" />
-    <nodeInfo nodeId="508819492464333782" fileName="STPlanarGraph_Test.java" startLine="92" startPosition="73" endLine="95" endPosition="5" />
-    <nodeInfo nodeId="508819492464333478" fileName="STPlanarGraph_Test.java" startLine="107" startPosition="73" endLine="110" endPosition="5" />
-    <nodeInfo nodeId="508819492464333512" fileName="STPlanarGraph_Test.java" startLine="112" startPosition="107" endLine="116" endPosition="6" />
-    <nodeInfo nodeId="508819492464333760" fileName="STPlanarGraph_Test.java" startLine="85" startPosition="62" endLine="90" endPosition="6" />
-    <nodeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="102" startPosition="0" endLine="121" endPosition="0" />
-    <nodeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="82" startPosition="0" endLine="102" endPosition="0" />
-    <nodeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="26" startPosition="50" endLine="82" endPosition="0" />
-    <scopeInfo nodeId="508819492464333789" fileName="STPlanarGraph_Test.java" startLine="93" startPosition="86" endLine="94" endPosition="69" />
-    <scopeInfo nodeId="508819492464333485" fileName="STPlanarGraph_Test.java" startLine="108" startPosition="86" endLine="109" endPosition="69" />
-    <scopeInfo nodeId="508819492464333782" fileName="STPlanarGraph_Test.java" startLine="92" startPosition="73" endLine="95" endPosition="5" />
-    <scopeInfo nodeId="508819492464333478" fileName="STPlanarGraph_Test.java" startLine="107" startPosition="73" endLine="110" endPosition="5" />
-    <scopeInfo nodeId="508819492464311775" fileName="STPlanarGraph_Test.java" startLine="103" startPosition="49" endLine="119" endPosition="34">
+    <nodeInfo nodeId="6984255766319236613" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="45" endLine="29" endPosition="53" />
+    <nodeInfo nodeId="6984255766319236774" fileName="STPlanarGraph_Test.java" startLine="29" startPosition="53" endLine="30" endPosition="34" />
+    <nodeInfo nodeId="6984255766319236784" fileName="STPlanarGraph_Test.java" startLine="30" startPosition="34" endLine="31" endPosition="34" />
+    <nodeInfo nodeId="6984255766319236814" fileName="STPlanarGraph_Test.java" startLine="31" startPosition="34" endLine="32" endPosition="34" />
+    <nodeInfo nodeId="6984255766319236822" fileName="STPlanarGraph_Test.java" startLine="32" startPosition="34" endLine="33" endPosition="34" />
+    <nodeInfo nodeId="6984255766319236647" fileName="STPlanarGraph_Test.java" startLine="33" startPosition="34" endLine="34" endPosition="41" />
+    <nodeInfo nodeId="6984255766319236669" fileName="STPlanarGraph_Test.java" startLine="34" startPosition="41" endLine="35" endPosition="41" />
+    <nodeInfo nodeId="6984255766319236683" fileName="STPlanarGraph_Test.java" startLine="35" startPosition="41" endLine="36" endPosition="41" />
+    <nodeInfo nodeId="6984255766319236697" fileName="STPlanarGraph_Test.java" startLine="36" startPosition="41" endLine="37" endPosition="41" />
+    <nodeInfo nodeId="6984255766319236711" fileName="STPlanarGraph_Test.java" startLine="37" startPosition="41" endLine="38" endPosition="41" />
+    <nodeInfo nodeId="6984255766319236736" fileName="STPlanarGraph_Test.java" startLine="38" startPosition="41" endLine="39" endPosition="59" />
+    <nodeInfo nodeId="6984255766319236747" fileName="STPlanarGraph_Test.java" startLine="39" startPosition="59" endLine="40" endPosition="35" />
+    <nodeInfo nodeId="6984255766319236755" fileName="STPlanarGraph_Test.java" startLine="40" startPosition="35" endLine="41" endPosition="45" />
+    <nodeInfo nodeId="6984255766319236830" fileName="STPlanarGraph_Test.java" startLine="41" startPosition="45" endLine="42" endPosition="45" />
+    <nodeInfo nodeId="6984255766319236839" fileName="STPlanarGraph_Test.java" startLine="42" startPosition="45" endLine="43" endPosition="45" />
+    <nodeInfo nodeId="6984255766319236852" fileName="STPlanarGraph_Test.java" startLine="43" startPosition="45" endLine="44" endPosition="35" />
+    <nodeInfo nodeId="6984255766319238863" fileName="STPlanarGraph_Test.java" startLine="44" startPosition="35" endLine="45" endPosition="35" />
+    <nodeInfo nodeId="6984255766319236878" fileName="STPlanarGraph_Test.java" startLine="45" startPosition="35" endLine="46" endPosition="45" />
+    <nodeInfo nodeId="6984255766319236886" fileName="STPlanarGraph_Test.java" startLine="46" startPosition="45" endLine="47" endPosition="45" />
+    <nodeInfo nodeId="6984255766319236894" fileName="STPlanarGraph_Test.java" startLine="47" startPosition="45" endLine="48" endPosition="45" />
+    <nodeInfo nodeId="6984255766319236902" fileName="STPlanarGraph_Test.java" startLine="48" startPosition="45" endLine="49" endPosition="35" />
+    <nodeInfo nodeId="6984255766319238877" fileName="STPlanarGraph_Test.java" startLine="49" startPosition="35" endLine="50" endPosition="36" />
+    <nodeInfo nodeId="6984255766319236919" fileName="STPlanarGraph_Test.java" startLine="50" startPosition="36" endLine="51" endPosition="46" />
+    <nodeInfo nodeId="6984255766319236927" fileName="STPlanarGraph_Test.java" startLine="51" startPosition="46" endLine="52" endPosition="46" />
+    <nodeInfo nodeId="6984255766319236935" fileName="STPlanarGraph_Test.java" startLine="52" startPosition="46" endLine="53" endPosition="46" />
+    <nodeInfo nodeId="6984255766319236949" fileName="STPlanarGraph_Test.java" startLine="53" startPosition="46" endLine="54" endPosition="46" />
+    <nodeInfo nodeId="6984255766319236943" fileName="STPlanarGraph_Test.java" startLine="54" startPosition="46" endLine="55" endPosition="36" />
+    <nodeInfo nodeId="6984255766319236964" fileName="STPlanarGraph_Test.java" startLine="55" startPosition="36" endLine="56" endPosition="41" />
+    <nodeInfo nodeId="1418350014056255782" fileName="STPlanarGraph_Test.java" startLine="56" startPosition="41" endLine="57" endPosition="51" />
+    <nodeInfo nodeId="6984255766319236976" fileName="STPlanarGraph_Test.java" startLine="57" startPosition="51" endLine="58" endPosition="81" />
+    <nodeInfo nodeId="6984255766319238820" fileName="STPlanarGraph_Test.java" startLine="58" startPosition="81" endLine="59" endPosition="67" />
+    <nodeInfo nodeId="6984255766319238910" fileName="STPlanarGraph_Test.java" startLine="59" startPosition="67" endLine="60" endPosition="67" />
+    <nodeInfo nodeId="6984255766319238919" fileName="STPlanarGraph_Test.java" startLine="60" startPosition="67" endLine="61" endPosition="67" />
+    <nodeInfo nodeId="6984255766319238926" fileName="STPlanarGraph_Test.java" startLine="61" startPosition="67" endLine="62" endPosition="67" />
+    <nodeInfo nodeId="6984255766319238934" fileName="STPlanarGraph_Test.java" startLine="62" startPosition="67" endLine="63" endPosition="68" />
+    <nodeInfo nodeId="6984255766319238941" fileName="STPlanarGraph_Test.java" startLine="63" startPosition="68" endLine="64" endPosition="68" />
+    <nodeInfo nodeId="6984255766319240593" fileName="STPlanarGraph_Test.java" startLine="64" startPosition="68" endLine="65" endPosition="68" />
+    <nodeInfo nodeId="6984255766319240607" fileName="STPlanarGraph_Test.java" startLine="65" startPosition="68" endLine="66" endPosition="70" />
+    <nodeInfo nodeId="6984255766319240651" fileName="STPlanarGraph_Test.java" startLine="66" startPosition="70" endLine="67" endPosition="69" />
+    <nodeInfo nodeId="6984255766319240658" fileName="STPlanarGraph_Test.java" startLine="67" startPosition="69" endLine="68" endPosition="69" />
+    <nodeInfo nodeId="6984255766319240666" fileName="STPlanarGraph_Test.java" startLine="68" startPosition="69" endLine="69" endPosition="69" />
+    <nodeInfo nodeId="6984255766319240673" fileName="STPlanarGraph_Test.java" startLine="69" startPosition="69" endLine="70" endPosition="69" />
+    <nodeInfo nodeId="6984255766319240681" fileName="STPlanarGraph_Test.java" startLine="70" startPosition="69" endLine="71" endPosition="69" />
+    <nodeInfo nodeId="6984255766319240688" fileName="STPlanarGraph_Test.java" startLine="71" startPosition="69" endLine="72" endPosition="69" />
+    <nodeInfo nodeId="6984255766319240696" fileName="STPlanarGraph_Test.java" startLine="72" startPosition="69" endLine="73" endPosition="68" />
+    <nodeInfo nodeId="6984255766319240703" fileName="STPlanarGraph_Test.java" startLine="73" startPosition="68" endLine="74" endPosition="69" />
+    <nodeInfo nodeId="6984255766319273447" fileName="STPlanarGraph_Test.java" startLine="74" startPosition="69" endLine="75" endPosition="68" />
+    <nodeInfo nodeId="6984255766319273461" fileName="STPlanarGraph_Test.java" startLine="75" startPosition="68" endLine="76" endPosition="69" />
+    <nodeInfo nodeId="6984255766319273469" fileName="STPlanarGraph_Test.java" startLine="76" startPosition="69" endLine="77" endPosition="68" />
+    <nodeInfo nodeId="6984255766319273476" fileName="STPlanarGraph_Test.java" startLine="77" startPosition="68" endLine="78" endPosition="69" />
+    <nodeInfo nodeId="6984255766319273486" fileName="STPlanarGraph_Test.java" startLine="78" startPosition="69" endLine="79" endPosition="68" />
+    <nodeInfo nodeId="6984255766319273493" fileName="STPlanarGraph_Test.java" startLine="79" startPosition="68" endLine="80" endPosition="68" />
+    <nodeInfo nodeId="6984255766319273504" fileName="STPlanarGraph_Test.java" startLine="80" startPosition="68" endLine="81" endPosition="68" />
+    <nodeInfo nodeId="6984255766319273511" fileName="STPlanarGraph_Test.java" startLine="81" startPosition="68" endLine="82" endPosition="68" />
+    <nodeInfo nodeId="6984255766319275689" fileName="STPlanarGraph_Test.java" startLine="85" startPosition="42" endLine="86" endPosition="82" />
+    <nodeInfo nodeId="6984255766319275699" fileName="STPlanarGraph_Test.java" startLine="86" startPosition="82" endLine="87" endPosition="62" />
+    <nodeInfo nodeId="6984255766319275712" fileName="STPlanarGraph_Test.java" startLine="88" startPosition="6" endLine="89" endPosition="74" />
+    <nodeInfo nodeId="6984255766319275738" fileName="STPlanarGraph_Test.java" startLine="89" startPosition="74" endLine="90" endPosition="104" />
+    <nodeInfo nodeId="6984255766319275765" fileName="STPlanarGraph_Test.java" startLine="90" startPosition="104" endLine="91" endPosition="104" />
+    <nodeInfo nodeId="508819492464333765" fileName="STPlanarGraph_Test.java" startLine="92" startPosition="6" endLine="93" endPosition="119" />
+    <nodeInfo nodeId="508819492464333775" fileName="STPlanarGraph_Test.java" startLine="93" startPosition="119" endLine="94" endPosition="73" />
+    <nodeInfo nodeId="508819492464333790" fileName="STPlanarGraph_Test.java" startLine="95" startPosition="86" endLine="96" endPosition="69" />
+    <nodeInfo nodeId="508819492464333797" fileName="STPlanarGraph_Test.java" startLine="97" startPosition="5" endLine="98" endPosition="61" />
+    <nodeInfo nodeId="508819492464333804" fileName="STPlanarGraph_Test.java" startLine="98" startPosition="61" endLine="99" endPosition="107" />
+    <nodeInfo nodeId="1418350014056256029" fileName="STPlanarGraph_Test.java" startLine="99" startPosition="107" endLine="100" endPosition="43" />
+    <nodeInfo nodeId="6984255766319275728" fileName="STPlanarGraph_Test.java" startLine="100" startPosition="43" endLine="101" endPosition="73" />
+    <nodeInfo nodeId="6984255766319275787" fileName="STPlanarGraph_Test.java" startLine="101" startPosition="73" endLine="102" endPosition="63" />
+    <nodeInfo nodeId="508819492464333821" fileName="STPlanarGraph_Test.java" startLine="102" startPosition="63" endLine="103" endPosition="43" />
+    <nodeInfo nodeId="508819492464311776" fileName="STPlanarGraph_Test.java" startLine="106" startPosition="49" endLine="107" endPosition="137" />
+    <nodeInfo nodeId="508819492464311784" fileName="STPlanarGraph_Test.java" startLine="107" startPosition="137" endLine="108" endPosition="62" />
+    <nodeInfo nodeId="508819492464311797" fileName="STPlanarGraph_Test.java" startLine="108" startPosition="62" endLine="109" endPosition="119" />
+    <nodeInfo nodeId="508819492464333471" fileName="STPlanarGraph_Test.java" startLine="109" startPosition="119" endLine="110" endPosition="73" />
+    <nodeInfo nodeId="508819492464333486" fileName="STPlanarGraph_Test.java" startLine="111" startPosition="86" endLine="112" endPosition="69" />
+    <nodeInfo nodeId="508819492464333493" fileName="STPlanarGraph_Test.java" startLine="113" startPosition="5" endLine="114" endPosition="61" />
+    <nodeInfo nodeId="508819492464333500" fileName="STPlanarGraph_Test.java" startLine="114" startPosition="61" endLine="115" endPosition="107" />
+    <nodeInfo nodeId="508819492464311841" fileName="STPlanarGraph_Test.java" startLine="115" startPosition="107" endLine="116" endPosition="73" />
+    <nodeInfo nodeId="508819492464332655" fileName="STPlanarGraph_Test.java" startLine="116" startPosition="73" endLine="117" endPosition="63" />
+    <nodeInfo nodeId="508819492464332662" fileName="STPlanarGraph_Test.java" startLine="117" startPosition="63" endLine="118" endPosition="34" />
+    <nodeInfo nodeId="508819492464333782" fileName="STPlanarGraph_Test.java" startLine="94" startPosition="73" endLine="97" endPosition="5" />
+    <nodeInfo nodeId="508819492464333478" fileName="STPlanarGraph_Test.java" startLine="110" startPosition="73" endLine="113" endPosition="5" />
+    <nodeInfo nodeId="508819492464333760" fileName="STPlanarGraph_Test.java" startLine="87" startPosition="62" endLine="92" endPosition="6" />
+    <nodeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="105" startPosition="0" endLine="120" endPosition="0" />
+    <nodeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="84" startPosition="0" endLine="105" endPosition="0" />
+    <nodeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="50" endLine="84" endPosition="0" />
+    <scopeInfo nodeId="508819492464333789" fileName="STPlanarGraph_Test.java" startLine="95" startPosition="86" endLine="96" endPosition="69" />
+    <scopeInfo nodeId="508819492464333485" fileName="STPlanarGraph_Test.java" startLine="111" startPosition="86" endLine="112" endPosition="69" />
+    <scopeInfo nodeId="508819492464333782" fileName="STPlanarGraph_Test.java" startLine="94" startPosition="73" endLine="97" endPosition="5" />
+    <scopeInfo nodeId="508819492464333478" fileName="STPlanarGraph_Test.java" startLine="110" startPosition="73" endLine="113" endPosition="5" />
+    <scopeInfo nodeId="508819492464311775" fileName="STPlanarGraph_Test.java" startLine="106" startPosition="49" endLine="118" endPosition="34">
       <varInfo nodeId="508819492464311777" varName="graphString" />
       <varInfo nodeId="508819492464333501" varName="t" />
       <varInfo nodeId="508819492464311785" varName="graph" />
@@ -358,7 +306,8 @@
       <varInfo nodeId="508819492464333472" varName="outerNodes" />
       <varInfo nodeId="508819492464332656" varName="dualGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319275688" fileName="STPlanarGraph_Test.java" startLine="83" startPosition="42" endLine="100" endPosition="43">
+    <scopeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="105" startPosition="0" endLine="120" endPosition="0" />
+    <scopeInfo nodeId="6984255766319275688" fileName="STPlanarGraph_Test.java" startLine="85" startPosition="42" endLine="103" endPosition="43">
       <varInfo nodeId="6984255766319275690" varName="graphString" />
       <varInfo nodeId="508819492464333805" varName="t" />
       <varInfo nodeId="6984255766319275700" varName="graph" />
@@ -368,9 +317,8 @@
       <varInfo nodeId="508819492464333776" varName="outerNodes" />
       <varInfo nodeId="6984255766319275788" varName="dualGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="508819492464311772" fileName="STPlanarGraph_Test.java" startLine="102" startPosition="0" endLine="121" endPosition="0" />
-    <scopeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="82" startPosition="0" endLine="102" endPosition="0" />
-    <scopeInfo nodeId="6984255766319183457" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="45" endLine="80" endPosition="68">
+    <scopeInfo nodeId="6984255766319275685" fileName="STPlanarGraph_Test.java" startLine="84" startPosition="0" endLine="105" endPosition="0" />
+    <scopeInfo nodeId="6984255766319183457" fileName="STPlanarGraph_Test.java" startLine="28" startPosition="45" endLine="82" endPosition="68">
       <varInfo nodeId="6984255766319236684" varName="edge32" />
       <varInfo nodeId="6984255766319236698" varName="edge20" />
       <varInfo nodeId="6984255766319236748" varName="face012" />
@@ -387,7 +335,7 @@
       <varInfo nodeId="6984255766319236823" varName="node3" />
       <varInfo nodeId="6984255766319238878" varName="face0123" />
     </scopeInfo>
-    <scopeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="26" startPosition="50" endLine="82" endPosition="0" />
+    <scopeInfo nodeId="6984255766319183454" fileName="STPlanarGraph_Test.java" startLine="27" startPosition="50" endLine="84" endPosition="0" />
   </root>
 </debugInfo>
 

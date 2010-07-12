@@ -73,8 +73,9 @@ public class DualGraph extends Graph {
     MapSequence.fromMap(myEdgesMap).removeKey(edge);
   }
 
-  public void addEdge(Node source, Node target, Edge realEdge) {
+  public Edge addEdge(Node source, Node target, Edge realEdge) {
     Edge edge = source.addEdgeTo(target);
     MapSequence.fromMap(myEdgesMap).put(edge, realEdge);
+    return edge;
   }
 }

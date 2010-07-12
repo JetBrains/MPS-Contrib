@@ -18,10 +18,12 @@ public class EmbeddedGraph {
   private Map<Edge, List<Face>> myAdjacentFacesMap;
   private Graph myGraph;
   private Face myOuterFace;
+  private Map<Edge, List<Edge>> myEdgesHistory;
 
   public EmbeddedGraph(Graph graph) {
     myFaces = ListSequence.fromList(new ArrayList<Face>());
     myAdjacentFacesMap = MapSequence.fromMap(new HashMap<Edge, List<Face>>());
+    myEdgesHistory = MapSequence.fromMap(new HashMap<Edge, List<Edge>>());
     myGraph = graph;
   }
 
@@ -52,6 +54,7 @@ public class EmbeddedGraph {
     List<Edge> newEdges = ListSequence.fromList(new ArrayList<Edge>());
     ListSequence.fromList(newEdges).addElement(edge.getSource().addEdgeTo(newNode));
     ListSequence.fromList(newEdges).addElement(newNode.addEdgeTo(edge.getTarget()));
+    MapSequence.fromMap(myEdgesHistory).put(edge, newEdges);
     List<Face> facesToProcess = ListSequence.fromList(new ArrayList<Face>());
     ListSequence.fromList(facesToProcess).addSequence(ListSequence.fromList(MapSequence.fromMap(this.getAdjacentFacesMap()).get(edge)));
     for (Face face : ListSequence.fromList(facesToProcess)) {
@@ -206,5 +209,26 @@ public class EmbeddedGraph {
 
   public boolean isOuterFace(Face face) {
     return face == myOuterFace;
+  }
+
+  public Map<Edge, List<Edge>> getEdgesHistory() {
+    return myEdgesHistory;
+  }
+
+  public void setEdgesHistory(Edge edge, List<Edge> newEdges) {
+    MapSequence.fromMap(myEdgesHistory).put(edge, newEdges);
+  }
+
+  public List<Edge> findFullHistory(Edge edge) {
+    List<Edge> fullHistory = ListSequence.fromList(new ArrayList<Edge>());
+    List<Edge> history = MapSequence.fromMap(myEdgesHistory).get(edge);
+    if (history == null) {
+      ListSequence.fromList(fullHistory).addElement(edge);
+    } else {
+      for (Edge newEdge : ListSequence.fromList(history)) {
+        ListSequence.fromList(fullHistory).addSequence(ListSequence.fromList(findFullHistory(newEdge)));
+      }
+    }
+    return fullHistory;
   }
 }

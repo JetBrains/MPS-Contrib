@@ -61,8 +61,13 @@
     <nodeInfo nodeId="5213231752900621491" fileName="STNumbering_Test.java" startLine="22" startPosition="103" endLine="23" endPosition="62" />
     <nodeInfo nodeId="5213231752900621498" fileName="STNumbering_Test.java" startLine="23" startPosition="62" endLine="24" endPosition="97" />
     <nodeInfo nodeId="5213231752900629117" fileName="STNumbering_Test.java" startLine="24" startPosition="97" endLine="25" endPosition="83" />
+    <nodeInfo nodeId="4624841703139866878" fileName="STNumbering_Test.java" startLine="28" startPosition="46" endLine="29" endPosition="92" />
+    <nodeInfo nodeId="4624841703139866882" fileName="STNumbering_Test.java" startLine="29" startPosition="92" endLine="30" endPosition="62" />
+    <nodeInfo nodeId="4624841703139866889" fileName="STNumbering_Test.java" startLine="30" startPosition="62" endLine="31" endPosition="97" />
+    <nodeInfo nodeId="4624841703139866904" fileName="STNumbering_Test.java" startLine="31" startPosition="97" endLine="32" endPosition="83" />
     <nodeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="13" startPosition="48" endLine="20" endPosition="0" />
     <nodeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="20" startPosition="0" endLine="27" endPosition="0" />
+    <nodeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" />
     <scopeInfo nodeId="1654665216152489685" fileName="STNumbering_Test.java" startLine="14" startPosition="45" endLine="18" endPosition="83">
       <varInfo nodeId="1654665216152489687" varName="graphString" />
       <varInfo nodeId="1654665216152489696" varName="graph" />
@@ -73,8 +78,14 @@
       <varInfo nodeId="5213231752900621492" varName="graph" />
       <varInfo nodeId="5213231752900621499" varName="numbering" />
     </scopeInfo>
+    <scopeInfo nodeId="4624841703139866874" fileName="STNumbering_Test.java" startLine="28" startPosition="46" endLine="32" endPosition="83">
+      <varInfo nodeId="4624841703139866879" varName="graphString" />
+      <varInfo nodeId="4624841703139866883" varName="graph" />
+      <varInfo nodeId="4624841703139866890" varName="numbering" />
+    </scopeInfo>
     <scopeInfo nodeId="1654665216152489682" fileName="STNumbering_Test.java" startLine="13" startPosition="48" endLine="20" endPosition="0" />
     <scopeInfo nodeId="5213231752900621480" fileName="STNumbering_Test.java" startLine="20" startPosition="0" endLine="27" endPosition="0" />
+    <scopeInfo nodeId="4624841703139866871" fileName="STNumbering_Test.java" startLine="27" startPosition="0" endLine="34" endPosition="0" />
   </root>
   <root nodeId="4179389957059012709">
     <nodeInfo nodeId="4179389957059012722" fileName="ShortestPath_Test.java" startLine="15" startPosition="48" endLine="16" endPosition="50" />
@@ -111,45 +122,46 @@
     <scopeInfo nodeId="5180427534212042878" fileName="TopologicalSorting_Test.java" startLine="15" startPosition="55" endLine="26" endPosition="0" />
   </root>
   <root nodeId="5213231752900628577">
-    <nodeInfo nodeId="5213231752900628643" fileName="STNumberingChecker.java" startLine="14" startPosition="99" endLine="15" endPosition="23" />
-    <nodeInfo nodeId="5213231752900628660" fileName="STNumberingChecker.java" startLine="16" startPosition="63" endLine="17" endPosition="82" />
-    <nodeInfo nodeId="5213231752900628611" fileName="STNumberingChecker.java" startLine="18" startPosition="5" endLine="19" endPosition="73" />
-    <nodeInfo nodeId="5213231752900628630" fileName="STNumberingChecker.java" startLine="19" startPosition="73" endLine="20" endPosition="81" />
-    <nodeInfo nodeId="5213231752900628705" fileName="STNumberingChecker.java" startLine="22" startPosition="45" endLine="23" endPosition="17" />
-    <nodeInfo nodeId="5213231752900628707" fileName="STNumberingChecker.java" startLine="24" startPosition="7" endLine="25" endPosition="43" />
-    <nodeInfo nodeId="5213231752900628722" fileName="STNumberingChecker.java" startLine="25" startPosition="43" endLine="26" endPosition="22" />
-    <nodeInfo nodeId="5213231752900628745" fileName="STNumberingChecker.java" startLine="27" startPosition="64" endLine="28" endPosition="42" />
-    <nodeInfo nodeId="5213231752900628757" fileName="STNumberingChecker.java" startLine="28" startPosition="42" endLine="29" endPosition="77" />
-    <nodeInfo nodeId="5213231752900628774" fileName="STNumberingChecker.java" startLine="29" startPosition="77" endLine="30" endPosition="77" />
-    <nodeInfo nodeId="5213231752900628797" fileName="STNumberingChecker.java" startLine="31" startPosition="7" endLine="32" endPosition="77" />
-    <nodeInfo nodeId="5213231752900628809" fileName="STNumberingChecker.java" startLine="32" startPosition="77" endLine="33" endPosition="77" />
-    <nodeInfo nodeId="5213231752900628649" fileName="STNumberingChecker.java" startLine="15" startPosition="23" endLine="18" endPosition="5" />
-    <nodeInfo nodeId="5213231752900628689" fileName="STNumberingChecker.java" startLine="21" startPosition="63" endLine="24" endPosition="7" />
-    <nodeInfo nodeId="5213231752900628728" fileName="STNumberingChecker.java" startLine="26" startPosition="22" endLine="31" endPosition="7" />
-    <nodeInfo nodeId="5213231752900628679" fileName="STNumberingChecker.java" startLine="20" startPosition="81" endLine="34" endPosition="5" />
-    <nodeInfo nodeId="5213231752900628583" fileName="STNumberingChecker.java" startLine="13" startPosition="33" endLine="36" endPosition="0" />
-    <scopeInfo nodeId="5213231752900628652" fileName="STNumberingChecker.java" startLine="16" startPosition="63" endLine="17" endPosition="82" />
-    <scopeInfo nodeId="5213231752900628691" fileName="STNumberingChecker.java" startLine="22" startPosition="45" endLine="23" endPosition="17" />
-    <scopeInfo nodeId="5213231752900628649" fileName="STNumberingChecker.java" startLine="15" startPosition="23" endLine="18" endPosition="5" />
-    <scopeInfo nodeId="5213231752900628731" fileName="STNumberingChecker.java" startLine="27" startPosition="64" endLine="30" endPosition="77">
+    <nodeInfo nodeId="5213231752900628643" fileName="STNumberingChecker.java" startLine="15" startPosition="99" endLine="16" endPosition="23" />
+    <nodeInfo nodeId="5213231752900628660" fileName="STNumberingChecker.java" startLine="17" startPosition="63" endLine="18" endPosition="82" />
+    <nodeInfo nodeId="5213231752900628611" fileName="STNumberingChecker.java" startLine="19" startPosition="5" endLine="20" endPosition="73" />
+    <nodeInfo nodeId="5213231752900628630" fileName="STNumberingChecker.java" startLine="20" startPosition="73" endLine="21" endPosition="81" />
+    <nodeInfo nodeId="5213231752900628705" fileName="STNumberingChecker.java" startLine="23" startPosition="45" endLine="24" endPosition="17" />
+    <nodeInfo nodeId="5213231752900628707" fileName="STNumberingChecker.java" startLine="25" startPosition="7" endLine="26" endPosition="43" />
+    <nodeInfo nodeId="5213231752900628722" fileName="STNumberingChecker.java" startLine="26" startPosition="43" endLine="27" endPosition="22" />
+    <nodeInfo nodeId="5213231752900628745" fileName="STNumberingChecker.java" startLine="28" startPosition="64" endLine="29" endPosition="42" />
+    <nodeInfo nodeId="5213231752900628757" fileName="STNumberingChecker.java" startLine="29" startPosition="42" endLine="30" endPosition="77" />
+    <nodeInfo nodeId="5213231752900628774" fileName="STNumberingChecker.java" startLine="30" startPosition="77" endLine="31" endPosition="77" />
+    <nodeInfo nodeId="5213231752900628797" fileName="STNumberingChecker.java" startLine="32" startPosition="7" endLine="33" endPosition="77" />
+    <nodeInfo nodeId="5213231752900628809" fileName="STNumberingChecker.java" startLine="33" startPosition="77" endLine="34" endPosition="77" />
+    <nodeInfo nodeId="4624841703139866531" fileName="STNumberingChecker.java" startLine="35" startPosition="5" endLine="36" endPosition="58" />
+    <nodeInfo nodeId="5213231752900628649" fileName="STNumberingChecker.java" startLine="16" startPosition="23" endLine="19" endPosition="5" />
+    <nodeInfo nodeId="5213231752900628689" fileName="STNumberingChecker.java" startLine="22" startPosition="63" endLine="25" endPosition="7" />
+    <nodeInfo nodeId="5213231752900628728" fileName="STNumberingChecker.java" startLine="27" startPosition="22" endLine="32" endPosition="7" />
+    <nodeInfo nodeId="5213231752900628679" fileName="STNumberingChecker.java" startLine="21" startPosition="81" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="5213231752900628583" fileName="STNumberingChecker.java" startLine="14" startPosition="33" endLine="38" endPosition="0" />
+    <scopeInfo nodeId="5213231752900628652" fileName="STNumberingChecker.java" startLine="17" startPosition="63" endLine="18" endPosition="82" />
+    <scopeInfo nodeId="5213231752900628691" fileName="STNumberingChecker.java" startLine="23" startPosition="45" endLine="24" endPosition="17" />
+    <scopeInfo nodeId="5213231752900628649" fileName="STNumberingChecker.java" startLine="16" startPosition="23" endLine="19" endPosition="5" />
+    <scopeInfo nodeId="5213231752900628731" fileName="STNumberingChecker.java" startLine="28" startPosition="64" endLine="31" endPosition="77">
       <varInfo nodeId="5213231752900628746" varName="adj" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900628728" fileName="STNumberingChecker.java" startLine="26" startPosition="22" endLine="31" endPosition="7" />
-    <scopeInfo nodeId="5213231752900628682" fileName="STNumberingChecker.java" startLine="21" startPosition="63" endLine="33" endPosition="77">
+    <scopeInfo nodeId="5213231752900628728" fileName="STNumberingChecker.java" startLine="27" startPosition="22" endLine="32" endPosition="7" />
+    <scopeInfo nodeId="5213231752900628682" fileName="STNumberingChecker.java" startLine="22" startPosition="63" endLine="34" endPosition="77">
       <varInfo nodeId="5213231752900628708" varName="minAdj" />
       <varInfo nodeId="5213231752900628723" varName="maxAdj" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900628679" fileName="STNumberingChecker.java" startLine="20" startPosition="81" endLine="34" endPosition="5" />
-    <scopeInfo nodeId="5213231752900628610" fileName="STNumberingChecker.java" startLine="14" startPosition="99" endLine="34" endPosition="5">
+    <scopeInfo nodeId="5213231752900628679" fileName="STNumberingChecker.java" startLine="21" startPosition="81" endLine="35" endPosition="5" />
+    <scopeInfo nodeId="5213231752900628610" fileName="STNumberingChecker.java" startLine="15" startPosition="99" endLine="36" endPosition="58">
       <varInfo nodeId="5213231752900628644" varName="maxNumber" />
     </scopeInfo>
-    <scopeInfo nodeId="5213231752900628583" fileName="STNumberingChecker.java" startLine="13" startPosition="33" endLine="36" endPosition="0">
+    <scopeInfo nodeId="5213231752900628583" fileName="STNumberingChecker.java" startLine="14" startPosition="33" endLine="38" endPosition="0">
       <varInfo nodeId="5213231752900628589" varName="graph" />
       <varInfo nodeId="5213231752900628604" varName="source" />
       <varInfo nodeId="5213231752900628597" varName="stNumbering" />
       <varInfo nodeId="5213231752900628607" varName="target" />
     </scopeInfo>
-    <unitInfo nodeId="5213231752900628577" fileName="STNumberingChecker.java" startLine="13" startPosition="0" endLine="37" endPosition="0" unitName="graphTest.STNumberingChecker" />
+    <unitInfo nodeId="5213231752900628577" fileName="STNumberingChecker.java" startLine="14" startPosition="0" endLine="39" endPosition="0" unitName="graphTest.STNumberingChecker" />
   </root>
   <root nodeId="6074874003310499065">
     <nodeInfo nodeId="6074874003310499704" fileName="BiconnectivityChecker.java" startLine="15" startPosition="48" endLine="16" endPosition="32" />
@@ -237,39 +249,69 @@
     <unitInfo nodeId="6074874003310499065" fileName="BiconnectivityChecker.java" startLine="15" startPosition="0" endLine="77" endPosition="0" unitName="graphTest.BiconnectivityChecker" />
   </root>
   <root nodeId="6074874003310500653">
-    <nodeInfo nodeId="6074874003310507284" fileName="BiconnectAugmentation_Test.java" startLine="13" startPosition="46" endLine="14" endPosition="48" />
-    <nodeInfo nodeId="6074874003310500674" fileName="BiconnectAugmentation_Test.java" startLine="14" startPosition="48" endLine="15" endPosition="49" />
-    <nodeInfo nodeId="6074874003310506959" fileName="BiconnectAugmentation_Test.java" startLine="15" startPosition="49" endLine="16" endPosition="39" />
-    <nodeInfo nodeId="6074874003310507610" fileName="BiconnectAugmentation_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="41" />
-    <nodeInfo nodeId="6074874003310508336" fileName="BiconnectAugmentation_Test.java" startLine="20" startPosition="41" endLine="21" endPosition="22" />
-    <nodeInfo nodeId="6074874003310508297" fileName="BiconnectAugmentation_Test.java" startLine="24" startPosition="45" endLine="25" endPosition="66" />
-    <nodeInfo nodeId="6074874003310508340" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="66" endLine="26" endPosition="22" />
-    <nodeInfo nodeId="6074874003310508321" fileName="BiconnectAugmentation_Test.java" startLine="29" startPosition="40" endLine="30" endPosition="62" />
-    <nodeInfo nodeId="6074874003310508328" fileName="BiconnectAugmentation_Test.java" startLine="30" startPosition="62" endLine="31" endPosition="49" />
-    <nodeInfo nodeId="6074874003310508670" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="49" endLine="32" endPosition="30" />
-    <nodeInfo nodeId="6074874003310508331" fileName="BiconnectAugmentation_Test.java" startLine="32" startPosition="30" endLine="33" endPosition="39" />
-    <nodeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" />
-    <nodeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
-    <nodeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" />
-    <nodeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="28" startPosition="0" endLine="35" endPosition="0" />
-    <scopeInfo nodeId="6074874003310507609" fileName="BiconnectAugmentation_Test.java" startLine="19" startPosition="45" endLine="21" endPosition="22">
+    <nodeInfo nodeId="6074874003310507284" fileName="BiconnectAugmentation_Test.java" startLine="15" startPosition="46" endLine="16" endPosition="48" />
+    <nodeInfo nodeId="6074874003310500674" fileName="BiconnectAugmentation_Test.java" startLine="16" startPosition="48" endLine="17" endPosition="49" />
+    <nodeInfo nodeId="6074874003310506959" fileName="BiconnectAugmentation_Test.java" startLine="17" startPosition="49" endLine="18" endPosition="39" />
+    <nodeInfo nodeId="6074874003310507610" fileName="BiconnectAugmentation_Test.java" startLine="21" startPosition="45" endLine="22" endPosition="41" />
+    <nodeInfo nodeId="6074874003310508336" fileName="BiconnectAugmentation_Test.java" startLine="22" startPosition="41" endLine="23" endPosition="22" />
+    <nodeInfo nodeId="6074874003310508297" fileName="BiconnectAugmentation_Test.java" startLine="26" startPosition="45" endLine="27" endPosition="66" />
+    <nodeInfo nodeId="6074874003310508340" fileName="BiconnectAugmentation_Test.java" startLine="27" startPosition="66" endLine="28" endPosition="22" />
+    <nodeInfo nodeId="4624841703139859439" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="42" endLine="32" endPosition="82" />
+    <nodeInfo nodeId="4624841703139859445" fileName="BiconnectAugmentation_Test.java" startLine="32" startPosition="82" endLine="33" endPosition="22" />
+    <nodeInfo nodeId="6074874003310508321" fileName="BiconnectAugmentation_Test.java" startLine="36" startPosition="40" endLine="37" endPosition="62" />
+    <nodeInfo nodeId="6074874003310508328" fileName="BiconnectAugmentation_Test.java" startLine="37" startPosition="62" endLine="38" endPosition="49" />
+    <nodeInfo nodeId="6074874003310508670" fileName="BiconnectAugmentation_Test.java" startLine="38" startPosition="49" endLine="39" endPosition="30" />
+    <nodeInfo nodeId="4624841703139860124" fileName="BiconnectAugmentation_Test.java" startLine="39" startPosition="30" endLine="40" endPosition="72" />
+    <nodeInfo nodeId="4624841703139860147" fileName="BiconnectAugmentation_Test.java" startLine="40" startPosition="72" endLine="41" endPosition="38" />
+    <nodeInfo nodeId="6074874003310508331" fileName="BiconnectAugmentation_Test.java" startLine="41" startPosition="38" endLine="42" endPosition="39" />
+    <nodeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
+    <nodeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
+    <nodeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="14" startPosition="58" endLine="20" endPosition="0" />
+    <nodeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="35" startPosition="0" endLine="44" endPosition="0" />
+    <scopeInfo nodeId="6074874003310507609" fileName="BiconnectAugmentation_Test.java" startLine="21" startPosition="45" endLine="23" endPosition="22">
       <varInfo nodeId="6074874003310507611" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310508296" fileName="BiconnectAugmentation_Test.java" startLine="24" startPosition="45" endLine="26" endPosition="22">
+    <scopeInfo nodeId="6074874003310508296" fileName="BiconnectAugmentation_Test.java" startLine="26" startPosition="45" endLine="28" endPosition="22">
       <varInfo nodeId="6074874003310508298" varName="graphString" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310500667" fileName="BiconnectAugmentation_Test.java" startLine="13" startPosition="46" endLine="16" endPosition="39">
+    <scopeInfo nodeId="4624841703139859438" fileName="BiconnectAugmentation_Test.java" startLine="31" startPosition="42" endLine="33" endPosition="22">
+      <varInfo nodeId="4624841703139859440" varName="graphString" />
+    </scopeInfo>
+    <scopeInfo nodeId="6074874003310500667" fileName="BiconnectAugmentation_Test.java" startLine="15" startPosition="46" endLine="18" endPosition="39">
       <varInfo nodeId="6074874003310507285" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310508317" fileName="BiconnectAugmentation_Test.java" startLine="29" startPosition="40" endLine="33" endPosition="39">
+    <scopeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="20" startPosition="0" endLine="25" endPosition="0" />
+    <scopeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="25" startPosition="0" endLine="30" endPosition="0" />
+    <scopeInfo nodeId="4624841703139859435" fileName="BiconnectAugmentation_Test.java" startLine="30" startPosition="0" endLine="35" endPosition="0" />
+    <scopeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="14" startPosition="58" endLine="20" endPosition="0" />
+    <scopeInfo nodeId="6074874003310508317" fileName="BiconnectAugmentation_Test.java" startLine="36" startPosition="40" endLine="42" endPosition="39">
       <varInfo nodeId="6074874003310508322" varName="graph" />
+      <varInfo nodeId="4624841703139860125" varName="embeddedGraph" />
     </scopeInfo>
-    <scopeInfo nodeId="6074874003310507606" fileName="BiconnectAugmentation_Test.java" startLine="18" startPosition="0" endLine="23" endPosition="0" />
-    <scopeInfo nodeId="6074874003310508293" fileName="BiconnectAugmentation_Test.java" startLine="23" startPosition="0" endLine="28" endPosition="0" />
-    <scopeInfo nodeId="6074874003310500664" fileName="BiconnectAugmentation_Test.java" startLine="12" startPosition="58" endLine="18" endPosition="0" />
-    <scopeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="28" startPosition="0" endLine="35" endPosition="0">
+    <scopeInfo nodeId="6074874003310508314" fileName="BiconnectAugmentation_Test.java" startLine="35" startPosition="0" endLine="44" endPosition="0">
       <varInfo nodeId="6074874003310508318" varName="graphString" />
     </scopeInfo>
+  </root>
+  <root nodeId="903391227141030928">
+    <nodeInfo nodeId="903391227141030947" fileName="WeightedTopologicalNumbering_Test.java" startLine="19" startPosition="45" endLine="20" endPosition="50" />
+    <nodeInfo nodeId="903391227141030962" fileName="WeightedTopologicalNumbering_Test.java" startLine="20" startPosition="50" endLine="21" endPosition="40" />
+    <nodeInfo nodeId="903391227141030975" fileName="WeightedTopologicalNumbering_Test.java" startLine="21" startPosition="40" endLine="22" endPosition="77" />
+    <nodeInfo nodeId="903391227141030991" fileName="WeightedTopologicalNumbering_Test.java" startLine="22" startPosition="77" endLine="23" endPosition="78" />
+    <nodeInfo nodeId="903391227141031006" fileName="WeightedTopologicalNumbering_Test.java" startLine="23" startPosition="78" endLine="24" endPosition="78" />
+    <nodeInfo nodeId="903391227141031015" fileName="WeightedTopologicalNumbering_Test.java" startLine="24" startPosition="78" endLine="25" endPosition="78" />
+    <nodeInfo nodeId="903391227141031029" fileName="WeightedTopologicalNumbering_Test.java" startLine="25" startPosition="78" endLine="26" endPosition="75" />
+    <nodeInfo nodeId="903391227141031422" fileName="WeightedTopologicalNumbering_Test.java" startLine="26" startPosition="75" endLine="27" endPosition="75" />
+    <nodeInfo nodeId="903391227141031440" fileName="WeightedTopologicalNumbering_Test.java" startLine="27" startPosition="75" endLine="28" endPosition="75" />
+    <nodeInfo nodeId="903391227141031450" fileName="WeightedTopologicalNumbering_Test.java" startLine="28" startPosition="75" endLine="29" endPosition="75" />
+    <nodeInfo nodeId="903391227141030935" fileName="WeightedTopologicalNumbering_Test.java" startLine="18" startPosition="65" endLine="31" endPosition="0" />
+    <scopeInfo nodeId="903391227141030938" fileName="WeightedTopologicalNumbering_Test.java" startLine="19" startPosition="45" endLine="29" endPosition="75">
+      <varInfo nodeId="903391227141030976" varName="w" />
+      <varInfo nodeId="903391227141031030" varName="num" />
+      <varInfo nodeId="903391227141030948" varName="graph" />
+      <varInfo nodeId="903391227141030963" varName="edges" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141030935" fileName="WeightedTopologicalNumbering_Test.java" startLine="18" startPosition="65" endLine="31" endPosition="0" />
   </root>
   <root nodeId="920414672219836580">
     <nodeInfo nodeId="920414672219836591" fileName="TopologicalNumbering_Test.java" startLine="17" startPosition="51" endLine="18" endPosition="53" />

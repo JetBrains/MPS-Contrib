@@ -10,6 +10,7 @@ import jetbrains.mps.graphLayout.graph.Edge;
 import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.planarGraph.Dart;
+import jetbrains.mps.graphLayout.algorithms.GraphOrientation;
 import jetbrains.mps.graphLayout.planarGraph.STPlanarGraph;
 import junit.framework.Assert;
 import visualization.GraphIO;
@@ -53,6 +54,7 @@ public class STPlanarGraph_Test extends TestCase {
     face0123.addNext(new Dart(edge13, node3));
     embeddedGraph.addFace(face0123);
     embeddedGraph.setOuterFace(face0123);
+    GraphOrientation.orientST(graph, node1, node0);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, node1, node0);
     Assert.assertTrue(stPlanarGraph.getOrigNode(face012) == node1);
     Assert.assertTrue(stPlanarGraph.getDestNode(face012) == node0);
@@ -95,6 +97,7 @@ public class STPlanarGraph_Test extends TestCase {
     }
     Node s = ListSequence.fromList(outerNodes).getElement(0);
     Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
+    GraphOrientation.orientST(graph, s, t);
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
     TopologicalNumbering.number(dualGraph);
@@ -110,10 +113,6 @@ public class STPlanarGraph_Test extends TestCase {
     }
     Node s = ListSequence.fromList(outerNodes).getElement(0);
     Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
-    /*
-      Node s = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getSource();
-      Node t = ListSequence.fromList(embeddedGraph.getOuterFace().getDarts()).getElement(0).getTarget();
-    */
     STPlanarGraph stPlanarGraph = new STPlanarGraph(embeddedGraph, s, t);
     DualGraph dualGraph = stPlanarGraph.getModifiedDualGraph();
     System.out.println(dualGraph);
