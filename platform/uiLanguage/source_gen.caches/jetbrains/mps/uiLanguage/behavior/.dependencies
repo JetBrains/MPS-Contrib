@@ -99,7 +99,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
     <classNode dependClassName="jetbrains.mps.uiLanguage.behavior.Grid_Behavior" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.behavior.Grid_Behavior" file="Grid_Behavior.java">
@@ -156,7 +155,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.uiLanguage.behavior.StubCellRendererInfo_Behavior" file="StubCellRendererInfo_Behavior.java">
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
