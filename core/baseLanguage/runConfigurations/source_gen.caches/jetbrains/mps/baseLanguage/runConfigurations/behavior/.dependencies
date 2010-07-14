@@ -14,7 +14,6 @@
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaConfigurationRunParameters_FunctionParameter_Behavior" file="JavaConfigurationRunParameters_FunctionParameter_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -26,7 +25,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.JavaNodeRunConfiguration_Behavior" file="JavaNodeRunConfiguration_Behavior.java">
     <classNode dependClassName="java.util.List" />
@@ -52,7 +50,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.runConfigurations.behavior.Node_FunctionParameter_Behavior" file="Node_FunctionParameter_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -64,7 +61,6 @@
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
 </dependenciesRoot>
 
