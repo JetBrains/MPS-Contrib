@@ -14,6 +14,7 @@ import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import jetbrains.mps.baseLanguage.classifiers.behavior.IMember_Behavior;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations;
 import jetbrains.mps.lang.smodel.generator.smodelAdapter.SConceptOperations;
+import jetbrains.mps.lang.smodel.generator.smodelAdapter.SModelOperations;
 import jetbrains.mps.smodel.behaviour.BehaviorManager;
 import java.util.Set;
 import java.util.HashSet;
@@ -74,12 +75,27 @@ public class RunConfigurationDeclaration_Behavior {
     return new RunConfigurationDeclaration_Behavior.QuotationClass_ym0401_a0c0i().createNode();
   }
 
+  public static boolean call_isForeign_5236594288019752588(SNode thisNode) {
+    SNode type = SLinkOperations.getTarget(thisNode, "configType", false);
+    if (type == null) {
+      return false;
+    }
+    return neq_ym0401_a0c0j(SModelOperations.getModelName(SNodeOperations.getModel(thisNode)), SModelOperations.getModelName(SNodeOperations.getModel(type)));
+  }
+
   public static SNode call_getStateType_9017024590936598176(SNode thisNode) {
     return (SNode) BehaviorManager.getInstance().invoke(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration"), "virtual_getStateType_9017024590936598176", PARAMETERS_9017024590936598176);
   }
 
   public static SNode callSuper_getStateType_9017024590936598176(SNode thisNode, String callerConceptFqName) {
     return (SNode) BehaviorManager.getInstance().invokeSuper(Object.class, SNodeOperations.cast(thisNode, "jetbrains.mps.lang.plugin.structure.RunConfigurationDeclaration"), callerConceptFqName, "virtual_getStateType_9017024590936598176", PARAMETERS_9017024590936598176);
+  }
+
+  private static boolean neq_ym0401_a0c0j(Object a, Object b) {
+    return !((a != null ?
+      a.equals(b) :
+      a == b
+    ));
   }
 
   public static class QuotationClass_ym0401_a0a0g {
