@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <debugInfo>
   <root nodeId="10026583185457214">
-    <scopeInfo nodeId="10026583185457216" fileName="TextBuilder_Behavior.java" startLine="25" startPosition="43" endLine="25" endPosition="43" />
-    <scopeInfo nodeId="10026583185457219" fileName="TextBuilder_Behavior.java" startLine="28" startPosition="81" endLine="29" endPosition="79" />
-    <scopeInfo nodeId="10026583185457223" fileName="TextBuilder_Behavior.java" startLine="32" startPosition="105" endLine="33" endPosition="62" />
-    <scopeInfo nodeId="608266221866981709" fileName="TextBuilder_Behavior.java" startLine="36" startPosition="145" endLine="37" endPosition="98" />
+    <scopeInfo nodeId="10026583185457216" fileName="TextBuilder_Behavior.java" startLine="24" startPosition="43" endLine="24" endPosition="43" />
+    <scopeInfo nodeId="10026583185457219" fileName="TextBuilder_Behavior.java" startLine="27" startPosition="81" endLine="28" endPosition="79" />
+    <scopeInfo nodeId="10026583185457223" fileName="TextBuilder_Behavior.java" startLine="31" startPosition="105" endLine="32" endPosition="62" />
+    <scopeInfo nodeId="608266221866981709" fileName="TextBuilder_Behavior.java" startLine="35" startPosition="145" endLine="36" endPosition="98" />
   </root>
   <root nodeId="3149278768676788185">
-    <nodeInfo nodeId="1384720974900260450" fileName="ElementBuilder_Behavior.java" startLine="30" startPosition="81" endLine="31" endPosition="122" />
-    <nodeInfo nodeId="1384720974900260459" fileName="ElementBuilder_Behavior.java" startLine="34" startPosition="105" endLine="35" endPosition="192" />
-    <nodeInfo nodeId="1384720974900260476" fileName="ElementBuilder_Behavior.java" startLine="38" startPosition="145" endLine="39" endPosition="101" />
-    <nodeInfo nodeId="1384720974900281923" fileName="ElementBuilder_Behavior.java" startLine="43" startPosition="158" endLine="44" endPosition="259" />
-    <nodeInfo nodeId="1384720974900281940" fileName="ElementBuilder_Behavior.java" startLine="45" startPosition="168" endLine="46" endPosition="204" />
-    <nodeInfo nodeId="1384720974900281949" fileName="ElementBuilder_Behavior.java" startLine="47" startPosition="12" endLine="48" endPosition="19" />
-    <nodeInfo nodeId="1384720974900281951" fileName="ElementBuilder_Behavior.java" startLine="48" startPosition="19" endLine="49" endPosition="18" />
-    <nodeInfo nodeId="1384720974900281947" fileName="ElementBuilder_Behavior.java" startLine="47" startPosition="10" endLine="50" endPosition="5" />
-    <nodeInfo nodeId="1384720974900281915" fileName="ElementBuilder_Behavior.java" startLine="42" startPosition="79" endLine="50" endPosition="5" />
-    <scopeInfo nodeId="3149278768676788187" fileName="ElementBuilder_Behavior.java" startLine="27" startPosition="43" endLine="27" endPosition="43" />
-    <scopeInfo nodeId="1384720974900260449" fileName="ElementBuilder_Behavior.java" startLine="30" startPosition="81" endLine="31" endPosition="122" />
-    <scopeInfo nodeId="1384720974900260458" fileName="ElementBuilder_Behavior.java" startLine="34" startPosition="105" endLine="35" endPosition="192" />
-    <scopeInfo nodeId="1384720974900260475" fileName="ElementBuilder_Behavior.java" startLine="38" startPosition="145" endLine="39" endPosition="101" />
-    <scopeInfo nodeId="1384720974900281922" fileName="ElementBuilder_Behavior.java" startLine="43" startPosition="158" endLine="44" endPosition="259" />
-    <scopeInfo nodeId="1384720974900281939" fileName="ElementBuilder_Behavior.java" startLine="45" startPosition="168" endLine="46" endPosition="204" />
-    <scopeInfo nodeId="1384720974900281948" fileName="ElementBuilder_Behavior.java" startLine="47" startPosition="12" endLine="49" endPosition="18" />
-    <scopeInfo nodeId="1384720974900281913" fileName="ElementBuilder_Behavior.java" startLine="42" startPosition="79" endLine="50" endPosition="5" />
+    <nodeInfo nodeId="1384720974900260450" fileName="ElementBuilder_Behavior.java" startLine="29" startPosition="81" endLine="30" endPosition="122" />
+    <nodeInfo nodeId="1384720974900260459" fileName="ElementBuilder_Behavior.java" startLine="33" startPosition="105" endLine="34" endPosition="192" />
+    <nodeInfo nodeId="1384720974900260476" fileName="ElementBuilder_Behavior.java" startLine="37" startPosition="145" endLine="38" endPosition="101" />
+    <nodeInfo nodeId="1384720974900281923" fileName="ElementBuilder_Behavior.java" startLine="42" startPosition="158" endLine="43" endPosition="259" />
+    <nodeInfo nodeId="1384720974900281940" fileName="ElementBuilder_Behavior.java" startLine="44" startPosition="168" endLine="45" endPosition="204" />
+    <nodeInfo nodeId="1384720974900281949" fileName="ElementBuilder_Behavior.java" startLine="46" startPosition="12" endLine="47" endPosition="19" />
+    <nodeInfo nodeId="1384720974900281951" fileName="ElementBuilder_Behavior.java" startLine="47" startPosition="19" endLine="48" endPosition="18" />
+    <nodeInfo nodeId="1384720974900281947" fileName="ElementBuilder_Behavior.java" startLine="46" startPosition="10" endLine="49" endPosition="5" />
+    <nodeInfo nodeId="1384720974900281915" fileName="ElementBuilder_Behavior.java" startLine="41" startPosition="79" endLine="49" endPosition="5" />
+    <scopeInfo nodeId="3149278768676788187" fileName="ElementBuilder_Behavior.java" startLine="26" startPosition="43" endLine="26" endPosition="43" />
+    <scopeInfo nodeId="1384720974900260449" fileName="ElementBuilder_Behavior.java" startLine="29" startPosition="81" endLine="30" endPosition="122" />
+    <scopeInfo nodeId="1384720974900260458" fileName="ElementBuilder_Behavior.java" startLine="33" startPosition="105" endLine="34" endPosition="192" />
+    <scopeInfo nodeId="1384720974900260475" fileName="ElementBuilder_Behavior.java" startLine="37" startPosition="145" endLine="38" endPosition="101" />
+    <scopeInfo nodeId="1384720974900281922" fileName="ElementBuilder_Behavior.java" startLine="42" startPosition="158" endLine="43" endPosition="259" />
+    <scopeInfo nodeId="1384720974900281939" fileName="ElementBuilder_Behavior.java" startLine="44" startPosition="168" endLine="45" endPosition="204" />
+    <scopeInfo nodeId="1384720974900281948" fileName="ElementBuilder_Behavior.java" startLine="46" startPosition="12" endLine="48" endPosition="18" />
+    <scopeInfo nodeId="1384720974900281913" fileName="ElementBuilder_Behavior.java" startLine="41" startPosition="79" endLine="49" endPosition="5" />
   </root>
   <root nodeId="7129398160685000025">
     <nodeInfo nodeId="7129398160685022766" fileName="XMLElementType_Behavior.java" startLine="19" startPosition="73" endLine="20" endPosition="22" />
@@ -48,10 +48,10 @@
     <scopeInfo nodeId="7129398160685021504" fileName="XMLElementType_Behavior.java" startLine="18" startPosition="78" endLine="32" endPosition="5" />
   </root>
   <root nodeId="7225751495667376065">
-    <scopeInfo nodeId="7225751495667376067" fileName="AttributeBuilder_Behavior.java" startLine="27" startPosition="43" endLine="27" endPosition="43" />
-    <scopeInfo nodeId="7225751495667376243" fileName="AttributeBuilder_Behavior.java" startLine="30" startPosition="81" endLine="31" endPosition="107" />
-    <scopeInfo nodeId="7225751495667376247" fileName="AttributeBuilder_Behavior.java" startLine="34" startPosition="105" endLine="35" endPosition="62" />
-    <scopeInfo nodeId="608266221866981660" fileName="AttributeBuilder_Behavior.java" startLine="38" startPosition="145" endLine="39" endPosition="219" />
+    <scopeInfo nodeId="7225751495667376067" fileName="AttributeBuilder_Behavior.java" startLine="26" startPosition="43" endLine="26" endPosition="43" />
+    <scopeInfo nodeId="7225751495667376243" fileName="AttributeBuilder_Behavior.java" startLine="29" startPosition="81" endLine="30" endPosition="107" />
+    <scopeInfo nodeId="7225751495667376247" fileName="AttributeBuilder_Behavior.java" startLine="33" startPosition="105" endLine="34" endPosition="62" />
+    <scopeInfo nodeId="608266221866981660" fileName="AttributeBuilder_Behavior.java" startLine="37" startPosition="145" endLine="38" endPosition="219" />
   </root>
 </debugInfo>
 

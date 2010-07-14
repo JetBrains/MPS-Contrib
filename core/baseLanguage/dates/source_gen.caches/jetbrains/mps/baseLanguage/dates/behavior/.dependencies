@@ -39,7 +39,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.SNodeId" />
     <classNode dependClassName="jetbrains.mps.smodel.SReference" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FixedLocaleFormatToken_Behavior" file="FixedLocaleFormatToken_Behavior.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
@@ -57,7 +56,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FormatExpression_Behavior" file="FormatExpression_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -68,7 +66,6 @@
     <classNode dependClassName="jetbrains.mps.project.GlobalScope" />
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.FormatPeriodExpression_Behavior" file="FormatPeriodExpression_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
@@ -83,7 +80,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.InTimezoneExpression_Behavior" file="InTimezoneExpression_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
@@ -98,7 +94,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.MathDateTimeOperation_Behavior" file="MathDateTimeOperation_Behavior.java">
     <classNode dependClassName="java.util.HashSet" />
@@ -126,7 +121,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.PeriodFormatsTable_Behavior" file="PeriodFormatsTable_Behavior.java">
     <classNode dependClassName="java.lang.String" />
@@ -160,7 +154,6 @@
     <classNode dependClassName="jetbrains.mps.smodel.SModelUtil_new" />
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
-    <classNode dependClassName="jetbrains.mps.typesystem.inference.TypeChecker" />
   </dependency>
   <dependency className="jetbrains.mps.baseLanguage.dates.behavior.TimeZoneIDExpression_Behavior" file="TimeZoneIDExpression_Behavior.java">
     <classNode dependClassName="jetbrains.mps.smodel.SNode" />

@@ -11,49 +11,49 @@
     <scopeInfo nodeId="10026583185000615" fileName="typeof_XMLAttributeBuilder_InferenceRule.java" startLine="19" startPosition="93" endLine="26" endPosition="5" />
   </root>
   <root nodeId="10026583185478629">
-    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="23" startPosition="5" endLine="24" endPosition="91" />
-    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="24" startPosition="91" endLine="25" endPosition="53" />
-    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="25" startPosition="53" endLine="26" endPosition="210" />
-    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="26" startPosition="210" endLine="27" endPosition="54" />
-    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="27" startPosition="54" endLine="28" endPosition="357" />
-    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="22" startPosition="93" endLine="29" endPosition="5" />
-    <scopeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="23" startPosition="5" endLine="28" endPosition="357" />
-    <scopeInfo nodeId="10026583185478630" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="22" startPosition="93" endLine="29" endPosition="5" />
+    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="91" />
+    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="23" startPosition="91" endLine="24" endPosition="53" />
+    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="24" startPosition="53" endLine="25" endPosition="210" />
+    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="25" startPosition="210" endLine="26" endPosition="54" />
+    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="26" startPosition="54" endLine="27" endPosition="357" />
+    <nodeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="21" startPosition="93" endLine="28" endPosition="5" />
+    <scopeInfo nodeId="10026583185478632" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="22" startPosition="5" endLine="27" endPosition="357" />
+    <scopeInfo nodeId="10026583185478630" fileName="typeof_XMLTextBuilder_InferenceRule.java" startLine="21" startPosition="93" endLine="28" endPosition="5" />
   </root>
   <root nodeId="115745247309398848">
-    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="51" />
-    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="23" startPosition="51" endLine="24" endPosition="53" />
-    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="24" startPosition="53" endLine="25" endPosition="211" />
-    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="25" startPosition="211" endLine="26" endPosition="346" />
-    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="21" startPosition="95" endLine="27" endPosition="5" />
-    <scopeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="26" endPosition="346" />
-    <scopeInfo nodeId="115745247309398849" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="21" startPosition="95" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="21" startPosition="5" endLine="22" endPosition="51" />
+    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="22" startPosition="51" endLine="23" endPosition="53" />
+    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="23" startPosition="53" endLine="24" endPosition="211" />
+    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="24" startPosition="211" endLine="25" endPosition="346" />
+    <nodeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="20" startPosition="95" endLine="26" endPosition="5" />
+    <scopeInfo nodeId="115745247309398866" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="21" startPosition="5" endLine="25" endPosition="346" />
+    <scopeInfo nodeId="115745247309398849" fileName="typeof_AccessTextOperation_InferenceRule.java" startLine="20" startPosition="95" endLine="26" endPosition="5" />
   </root>
   <root nodeId="3865540407050958119">
-    <nodeInfo nodeId="3865540407050958130" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="27" startPosition="72" endLine="28" endPosition="122" />
-    <nodeInfo nodeId="115745247309565332" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="32" startPosition="218" endLine="33" endPosition="254" />
-    <nodeInfo nodeId="115745247309565347" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="33" startPosition="254" endLine="34" endPosition="0" />
-    <nodeInfo nodeId="115745247309542722" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="34" startPosition="0" endLine="35" endPosition="115" />
-    <nodeInfo nodeId="115745247309542730" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="35" startPosition="115" endLine="36" endPosition="152" />
-    <nodeInfo nodeId="115745247309565360" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="36" startPosition="152" endLine="37" endPosition="70" />
-    <nodeInfo nodeId="115745247309565371" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="37" startPosition="70" endLine="38" endPosition="0" />
-    <nodeInfo nodeId="115745247309565373" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="38" startPosition="0" endLine="39" endPosition="24" />
-    <nodeInfo nodeId="115745247309507237" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="42" startPosition="7" endLine="43" endPosition="123" />
-    <nodeInfo nodeId="115745247309507187" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="31" startPosition="99" endLine="40" endPosition="11" />
-    <nodeInfo nodeId="115745247309507172" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="211" endLine="41" endPosition="9" />
-    <nodeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="42" endPosition="7" />
-    <nodeInfo nodeId="115745247309506892" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="10" endLine="44" endPosition="5" />
-    <nodeInfo nodeId="3865540407050958128" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="26" startPosition="90" endLine="44" endPosition="5" />
-    <scopeInfo nodeId="3865540407050958129" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="27" startPosition="72" endLine="28" endPosition="122" />
-    <scopeInfo nodeId="115745247309507189" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="32" startPosition="218" endLine="39" endPosition="24">
+    <nodeInfo nodeId="3865540407050958130" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="26" startPosition="72" endLine="27" endPosition="122" />
+    <nodeInfo nodeId="115745247309565332" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="31" startPosition="218" endLine="32" endPosition="254" />
+    <nodeInfo nodeId="115745247309565347" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="32" startPosition="254" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="115745247309542722" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="33" startPosition="0" endLine="34" endPosition="115" />
+    <nodeInfo nodeId="115745247309542730" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="34" startPosition="115" endLine="35" endPosition="152" />
+    <nodeInfo nodeId="115745247309565360" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="35" startPosition="152" endLine="36" endPosition="70" />
+    <nodeInfo nodeId="115745247309565371" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="36" startPosition="70" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="115745247309565373" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="37" startPosition="0" endLine="38" endPosition="24" />
+    <nodeInfo nodeId="115745247309507237" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="41" startPosition="7" endLine="42" endPosition="123" />
+    <nodeInfo nodeId="115745247309507187" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="99" endLine="39" endPosition="11" />
+    <nodeInfo nodeId="115745247309507172" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="211" endLine="40" endPosition="9" />
+    <nodeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="28" startPosition="12" endLine="41" endPosition="7" />
+    <nodeInfo nodeId="115745247309506892" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="28" startPosition="10" endLine="43" endPosition="5" />
+    <nodeInfo nodeId="3865540407050958128" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="25" startPosition="90" endLine="43" endPosition="5" />
+    <scopeInfo nodeId="3865540407050958129" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="26" startPosition="72" endLine="27" endPosition="122" />
+    <scopeInfo nodeId="115745247309507189" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="31" startPosition="218" endLine="38" endPosition="24">
       <varInfo nodeId="115745247309542723" varName="type" />
       <varInfo nodeId="115745247309565333" varName="ct" />
     </scopeInfo>
-    <scopeInfo nodeId="115745247309507174" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="31" startPosition="99" endLine="40" endPosition="11" />
-    <scopeInfo nodeId="115745247309507162" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="211" endLine="41" endPosition="9" />
-    <scopeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="42" endPosition="7" />
-    <scopeInfo nodeId="115745247309506893" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="12" endLine="43" endPosition="123" />
-    <scopeInfo nodeId="3865540407050958120" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="26" startPosition="90" endLine="44" endPosition="5" />
+    <scopeInfo nodeId="115745247309507174" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="30" startPosition="99" endLine="39" endPosition="11" />
+    <scopeInfo nodeId="115745247309507162" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="29" startPosition="211" endLine="40" endPosition="9" />
+    <scopeInfo nodeId="115745247309507159" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="28" startPosition="12" endLine="41" endPosition="7" />
+    <scopeInfo nodeId="115745247309506893" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="28" startPosition="12" endLine="42" endPosition="123" />
+    <scopeInfo nodeId="3865540407050958120" fileName="supertypeof_XMLElementType_SubtypingRule.java" startLine="25" startPosition="90" endLine="43" endPosition="5" />
   </root>
   <root nodeId="4705273682234223825">
     <nodeInfo nodeId="4705273682234223845" fileName="typeof_XMLElementCreator_InferenceRule.java" startLine="19" startPosition="5" endLine="20" endPosition="49" />
@@ -65,22 +65,22 @@
     <scopeInfo nodeId="4705273682234223826" fileName="typeof_XMLElementCreator_InferenceRule.java" startLine="18" startPosition="93" endLine="24" endPosition="5" />
   </root>
   <root nodeId="4991903842868198512">
-    <nodeInfo nodeId="4991903842868219196" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="26" startPosition="95" endLine="27" endPosition="97" />
-    <nodeInfo nodeId="4991903842868219241" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="27" startPosition="97" endLine="28" endPosition="22" />
-    <nodeInfo nodeId="4991903842868219251" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="29" startPosition="112" endLine="30" endPosition="220" />
-    <nodeInfo nodeId="4991903842868219264" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="31" startPosition="12" endLine="32" endPosition="165" />
-    <nodeInfo nodeId="6992757512064049678" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="33" startPosition="5" endLine="34" endPosition="107" />
-    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="35" startPosition="5" endLine="36" endPosition="51" />
-    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="36" startPosition="51" endLine="37" endPosition="53" />
-    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="37" startPosition="53" endLine="38" endPosition="212" />
-    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="38" startPosition="212" endLine="39" endPosition="400" />
-    <nodeInfo nodeId="4991903842868219262" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="31" startPosition="10" endLine="33" endPosition="5" />
-    <nodeInfo nodeId="4991903842868219208" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="28" startPosition="22" endLine="33" endPosition="5" />
-    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="34" startPosition="107" endLine="40" endPosition="5" />
-    <scopeInfo nodeId="4991903842868219209" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="29" startPosition="112" endLine="30" endPosition="220" />
-    <scopeInfo nodeId="4991903842868219263" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="31" startPosition="12" endLine="32" endPosition="165" />
-    <scopeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="35" startPosition="5" endLine="39" endPosition="400" />
-    <scopeInfo nodeId="4991903842868198513" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="26" startPosition="95" endLine="40" endPosition="5">
+    <nodeInfo nodeId="4991903842868219196" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="25" startPosition="95" endLine="26" endPosition="97" />
+    <nodeInfo nodeId="4991903842868219241" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="26" startPosition="97" endLine="27" endPosition="22" />
+    <nodeInfo nodeId="4991903842868219251" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="28" startPosition="112" endLine="29" endPosition="220" />
+    <nodeInfo nodeId="4991903842868219264" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="30" startPosition="12" endLine="31" endPosition="165" />
+    <nodeInfo nodeId="6992757512064049678" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="32" startPosition="5" endLine="33" endPosition="107" />
+    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="34" startPosition="5" endLine="35" endPosition="51" />
+    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="35" startPosition="51" endLine="36" endPosition="53" />
+    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="36" startPosition="53" endLine="37" endPosition="212" />
+    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="37" startPosition="212" endLine="38" endPosition="400" />
+    <nodeInfo nodeId="4991903842868219262" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="30" startPosition="10" endLine="32" endPosition="5" />
+    <nodeInfo nodeId="4991903842868219208" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="27" startPosition="22" endLine="32" endPosition="5" />
+    <nodeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="33" startPosition="107" endLine="39" endPosition="5" />
+    <scopeInfo nodeId="4991903842868219209" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="28" startPosition="112" endLine="29" endPosition="220" />
+    <scopeInfo nodeId="4991903842868219263" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="30" startPosition="12" endLine="31" endPosition="165" />
+    <scopeInfo nodeId="7129398160684691426" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="34" startPosition="5" endLine="38" endPosition="400" />
+    <scopeInfo nodeId="4991903842868198513" fileName="typeof_AccessChildrenOperation_InferenceRule.java" startLine="25" startPosition="95" endLine="39" endPosition="5">
       <varInfo nodeId="4991903842868219242" varName="complexType" />
       <varInfo nodeId="4991903842868219197" varName="elementDeclaration" />
     </scopeInfo>
@@ -95,36 +95,36 @@
     <scopeInfo nodeId="4991903842868473296" fileName="typeof_AccessAttributeOperation_InferenceRule.java" startLine="19" startPosition="95" endLine="25" endPosition="5" />
   </root>
   <root nodeId="634907465121461835">
-    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="23" startPosition="5" endLine="24" endPosition="51" />
-    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="24" startPosition="51" endLine="25" endPosition="53" />
-    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="25" startPosition="53" endLine="26" endPosition="212" />
-    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="26" startPosition="212" endLine="27" endPosition="360" />
-    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="29" startPosition="5" endLine="30" endPosition="107" />
-    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="30" startPosition="107" endLine="31" endPosition="53" />
-    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="31" startPosition="53" endLine="32" endPosition="212" />
-    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="32" startPosition="212" endLine="33" endPosition="54" />
-    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="33" startPosition="54" endLine="34" endPosition="377" />
-    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="22" startPosition="95" endLine="28" endPosition="5" />
-    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="28" startPosition="5" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="23" startPosition="5" endLine="27" endPosition="360" />
-    <scopeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="29" startPosition="5" endLine="34" endPosition="377" />
-    <scopeInfo nodeId="634907465121461836" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="22" startPosition="95" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="51" />
+    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="23" startPosition="51" endLine="24" endPosition="53" />
+    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="24" startPosition="53" endLine="25" endPosition="212" />
+    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="25" startPosition="212" endLine="26" endPosition="360" />
+    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="28" startPosition="5" endLine="29" endPosition="107" />
+    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="29" startPosition="107" endLine="30" endPosition="53" />
+    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="30" startPosition="53" endLine="31" endPosition="212" />
+    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="31" startPosition="212" endLine="32" endPosition="54" />
+    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="32" startPosition="54" endLine="33" endPosition="377" />
+    <nodeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="21" startPosition="95" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="4203809819610648546" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="26" endPosition="360" />
+    <scopeInfo nodeId="4203809819610648568" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="28" startPosition="5" endLine="33" endPosition="377" />
+    <scopeInfo nodeId="634907465121461836" fileName="typeof_AccessArbitraryChildrenOperation_InferenceRule.java" startLine="21" startPosition="95" endLine="34" endPosition="5" />
   </root>
   <root nodeId="634907465121486818">
-    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="23" startPosition="5" endLine="24" endPosition="51" />
-    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="24" startPosition="51" endLine="25" endPosition="53" />
-    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="25" startPosition="53" endLine="26" endPosition="211" />
-    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="26" startPosition="211" endLine="27" endPosition="360" />
-    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="29" startPosition="5" endLine="30" endPosition="111" />
-    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="30" startPosition="111" endLine="31" endPosition="53" />
-    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="31" startPosition="53" endLine="32" endPosition="212" />
-    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="32" startPosition="212" endLine="33" endPosition="54" />
-    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="33" startPosition="54" endLine="34" endPosition="378" />
-    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="22" startPosition="95" endLine="28" endPosition="5" />
-    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="28" startPosition="5" endLine="35" endPosition="5" />
-    <scopeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="23" startPosition="5" endLine="27" endPosition="360" />
-    <scopeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="29" startPosition="5" endLine="34" endPosition="378" />
-    <scopeInfo nodeId="634907465121486819" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="22" startPosition="95" endLine="35" endPosition="5" />
+    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="23" endPosition="51" />
+    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="23" startPosition="51" endLine="24" endPosition="53" />
+    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="24" startPosition="53" endLine="25" endPosition="211" />
+    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="25" startPosition="211" endLine="26" endPosition="360" />
+    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="28" startPosition="5" endLine="29" endPosition="111" />
+    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="29" startPosition="111" endLine="30" endPosition="53" />
+    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="30" startPosition="53" endLine="31" endPosition="212" />
+    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="31" startPosition="212" endLine="32" endPosition="54" />
+    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="32" startPosition="54" endLine="33" endPosition="378" />
+    <nodeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="21" startPosition="95" endLine="27" endPosition="5" />
+    <nodeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="27" startPosition="5" endLine="34" endPosition="5" />
+    <scopeInfo nodeId="634907465121486825" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="22" startPosition="5" endLine="26" endPosition="360" />
+    <scopeInfo nodeId="4203809819610648514" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="28" startPosition="5" endLine="33" endPosition="378" />
+    <scopeInfo nodeId="634907465121486819" fileName="typeof_AccessArbitraryAttributeOperation_InferenceRule.java" startLine="21" startPosition="95" endLine="34" endPosition="5" />
   </root>
   <root nodeId="7129398160684499233">
     <nodeInfo nodeId="7129398160684613517" fileName="check_XMLElementType_references_NonTypesystemRule.java" startLine="24" startPosition="9" endLine="25" endPosition="57" />

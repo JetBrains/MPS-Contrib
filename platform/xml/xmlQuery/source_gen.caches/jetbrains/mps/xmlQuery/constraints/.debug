@@ -15,196 +15,196 @@
     </scopeInfo>
   </root>
   <root nodeId="2341233264267552651">
-    <nodeInfo nodeId="5285611549890897323" fileName="SchemaUtil.java" startLine="24" startPosition="35" endLine="25" endPosition="36" />
-    <nodeInfo nodeId="5285611549890897330" fileName="SchemaUtil.java" startLine="26" startPosition="5" endLine="27" endPosition="0" />
-    <nodeInfo nodeId="5285611549890897333" fileName="SchemaUtil.java" startLine="28" startPosition="107" endLine="29" endPosition="163" />
-    <nodeInfo nodeId="5285611549890897340" fileName="SchemaUtil.java" startLine="29" startPosition="163" endLine="30" endPosition="102" />
-    <nodeInfo nodeId="5285611549890897345" fileName="SchemaUtil.java" startLine="30" startPosition="102" endLine="31" endPosition="0" />
-    <nodeInfo nodeId="5285611549890897346" fileName="SchemaUtil.java" startLine="31" startPosition="0" endLine="32" endPosition="105" />
-    <nodeInfo nodeId="5285611549890897351" fileName="SchemaUtil.java" startLine="32" startPosition="105" endLine="33" endPosition="365" />
-    <nodeInfo nodeId="5285611549890897368" fileName="SchemaUtil.java" startLine="33" startPosition="365" endLine="34" endPosition="0" />
-    <nodeInfo nodeId="5285611549890897394" fileName="SchemaUtil.java" startLine="35" startPosition="120" endLine="36" endPosition="54" />
-    <nodeInfo nodeId="5285611549890897400" fileName="SchemaUtil.java" startLine="36" startPosition="54" endLine="37" endPosition="147" />
-    <nodeInfo nodeId="5285611549890897406" fileName="SchemaUtil.java" startLine="37" startPosition="147" endLine="38" endPosition="24" />
-    <nodeInfo nodeId="5285611549890897414" fileName="SchemaUtil.java" startLine="39" startPosition="123" endLine="40" endPosition="244" />
-    <nodeInfo nodeId="5285611549890897428" fileName="SchemaUtil.java" startLine="41" startPosition="115" endLine="42" endPosition="36" />
-    <nodeInfo nodeId="5285611549890897438" fileName="SchemaUtil.java" startLine="43" startPosition="111" endLine="44" endPosition="230" />
-    <nodeInfo nodeId="5285611549890897375" fileName="SchemaUtil.java" startLine="45" startPosition="12" endLine="46" endPosition="117" />
-    <nodeInfo nodeId="5285611549890897384" fileName="SchemaUtil.java" startLine="46" startPosition="117" endLine="47" endPosition="36" />
-    <nodeInfo nodeId="2341233264267552782" fileName="SchemaUtil.java" startLine="51" startPosition="81" endLine="52" endPosition="52" />
-    <nodeInfo nodeId="2341233264267552791" fileName="SchemaUtil.java" startLine="53" startPosition="73" endLine="54" endPosition="115" />
-    <nodeInfo nodeId="2341233264267552799" fileName="SchemaUtil.java" startLine="55" startPosition="5" endLine="56" endPosition="22" />
-    <nodeInfo nodeId="2341233264267552807" fileName="SchemaUtil.java" startLine="59" startPosition="69" endLine="60" endPosition="50" />
-    <nodeInfo nodeId="2341233264267552824" fileName="SchemaUtil.java" startLine="69" startPosition="8" endLine="70" endPosition="20" />
-    <nodeInfo nodeId="4705273682234098407" fileName="SchemaUtil.java" startLine="73" startPosition="67" endLine="74" endPosition="77" />
-    <nodeInfo nodeId="4705273682234098415" fileName="SchemaUtil.java" startLine="75" startPosition="40" endLine="76" endPosition="170" />
-    <nodeInfo nodeId="4705273682234098428" fileName="SchemaUtil.java" startLine="77" startPosition="12" endLine="78" endPosition="34" />
-    <nodeInfo nodeId="4705273682234223398" fileName="SchemaUtil.java" startLine="82" startPosition="66" endLine="83" endPosition="107" />
-    <nodeInfo nodeId="1558623248073038284" fileName="SchemaUtil.java" startLine="84" startPosition="30" endLine="85" endPosition="155" />
-    <nodeInfo nodeId="1558623248073038294" fileName="SchemaUtil.java" startLine="85" startPosition="155" endLine="86" endPosition="73" />
-    <nodeInfo nodeId="4705273682234223434" fileName="SchemaUtil.java" startLine="87" startPosition="5" endLine="88" endPosition="16" />
-    <nodeInfo nodeId="3149278768676788085" fileName="SchemaUtil.java" startLine="92" startPosition="112" endLine="93" endPosition="238" />
-    <nodeInfo nodeId="3149278768676788095" fileName="SchemaUtil.java" startLine="94" startPosition="122" endLine="95" endPosition="183" />
-    <nodeInfo nodeId="3149278768676788080" fileName="SchemaUtil.java" startLine="96" startPosition="5" endLine="97" endPosition="16" />
-    <nodeInfo nodeId="7225751495667397644" fileName="SchemaUtil.java" startLine="100" startPosition="68" endLine="101" endPosition="94" />
-    <nodeInfo nodeId="7225751495667397703" fileName="SchemaUtil.java" startLine="102" startPosition="147" endLine="103" endPosition="73" />
-    <nodeInfo nodeId="7225751495667402962" fileName="SchemaUtil.java" startLine="104" startPosition="122" endLine="105" endPosition="74" />
-    <nodeInfo nodeId="7225751495667402968" fileName="SchemaUtil.java" startLine="106" startPosition="122" endLine="107" endPosition="74" />
-    <nodeInfo nodeId="7225751495667402974" fileName="SchemaUtil.java" startLine="108" startPosition="5" endLine="109" endPosition="69" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="116" startPosition="31" endLine="117" endPosition="26" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="117" startPosition="26" endLine="118" endPosition="67" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="118" startPosition="67" endLine="119" endPosition="32" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="120" startPosition="7" endLine="121" endPosition="203" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="121" startPosition="203" endLine="122" endPosition="43" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="122" startPosition="43" endLine="123" endPosition="31" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="124" startPosition="7" endLine="125" endPosition="20" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="133" startPosition="31" endLine="134" endPosition="26" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="134" startPosition="26" endLine="135" endPosition="67" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="135" startPosition="67" endLine="136" endPosition="32" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="137" startPosition="7" endLine="138" endPosition="204" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="138" startPosition="204" endLine="139" endPosition="43" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="139" startPosition="43" endLine="140" endPosition="31" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="141" startPosition="7" endLine="142" endPosition="20" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="150" startPosition="31" endLine="151" endPosition="26" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="151" startPosition="26" endLine="152" endPosition="67" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="152" startPosition="67" endLine="153" endPosition="32" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="154" startPosition="7" endLine="155" endPosition="204" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="155" startPosition="204" endLine="156" endPosition="43" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="156" startPosition="43" endLine="157" endPosition="31" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="158" startPosition="7" endLine="159" endPosition="20" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="167" startPosition="31" endLine="168" endPosition="26" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="168" startPosition="26" endLine="169" endPosition="67" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="169" startPosition="67" endLine="170" endPosition="32" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="171" startPosition="7" endLine="172" endPosition="203" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="172" startPosition="203" endLine="173" endPosition="43" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="173" startPosition="43" endLine="174" endPosition="31" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="175" startPosition="7" endLine="176" endPosition="20" />
-    <nodeInfo nodeId="4705273682234098426" fileName="SchemaUtil.java" startLine="77" startPosition="10" endLine="79" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="112" startPosition="53" endLine="114" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="129" startPosition="54" endLine="131" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="146" startPosition="54" endLine="148" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="163" startPosition="51" endLine="165" endPosition="5" />
-    <nodeInfo nodeId="5285611549890897321" fileName="SchemaUtil.java" startLine="23" startPosition="74" endLine="26" endPosition="5" />
-    <nodeInfo nodeId="5285611549890897373" fileName="SchemaUtil.java" startLine="45" startPosition="10" endLine="48" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552788" fileName="SchemaUtil.java" startLine="52" startPosition="52" endLine="55" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="61" startPosition="225" endLine="65" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="65" startPosition="45" endLine="69" endPosition="0" />
-    <nodeInfo nodeId="1558623248073038272" fileName="SchemaUtil.java" startLine="83" startPosition="107" endLine="87" endPosition="5" />
-    <nodeInfo nodeId="4705273682234098413" fileName="SchemaUtil.java" startLine="74" startPosition="77" endLine="79" endPosition="5" />
-    <nodeInfo nodeId="3149278768676788019" fileName="SchemaUtil.java" startLine="91" startPosition="83" endLine="96" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="119" startPosition="32" endLine="124" endPosition="7" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="136" startPosition="32" endLine="141" endPosition="7" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="153" startPosition="32" endLine="158" endPosition="7" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="170" startPosition="32" endLine="175" endPosition="7" />
-    <nodeInfo nodeId="7225751495667397652" fileName="SchemaUtil.java" startLine="101" startPosition="94" endLine="108" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552778" fileName="SchemaUtil.java" startLine="50" startPosition="0" endLine="58" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552813" fileName="SchemaUtil.java" startLine="60" startPosition="50" endLine="69" endPosition="8" />
-    <nodeInfo nodeId="4705273682234098401" fileName="SchemaUtil.java" startLine="72" startPosition="0" endLine="81" endPosition="0" />
-    <nodeInfo nodeId="4705273682234223376" fileName="SchemaUtil.java" startLine="81" startPosition="0" endLine="90" endPosition="0" />
-    <nodeInfo nodeId="3149278768676787979" fileName="SchemaUtil.java" startLine="90" startPosition="0" endLine="99" endPosition="0" />
-    <nodeInfo nodeId="7225751495667397638" fileName="SchemaUtil.java" startLine="99" startPosition="0" endLine="111" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="115" startPosition="0" endLine="127" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="132" startPosition="0" endLine="144" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="149" startPosition="0" endLine="161" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="166" startPosition="0" endLine="178" endPosition="0" />
-    <nodeInfo nodeId="2341233264267552803" fileName="SchemaUtil.java" startLine="58" startPosition="0" endLine="72" endPosition="0" />
-    <nodeInfo nodeId="5285611549890897331" fileName="SchemaUtil.java" startLine="27" startPosition="0" endLine="48" endPosition="5" />
-    <nodeInfo nodeId="2341233264267552653" fileName="SchemaUtil.java" startLine="22" startPosition="25" endLine="50" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="113" startPosition="44" endLine="113" endPosition="44" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="130" startPosition="45" endLine="130" endPosition="45" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="147" startPosition="45" endLine="147" endPosition="45" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="164" startPosition="42" endLine="164" endPosition="42" />
-    <scopeInfo nodeId="5285611549890897322" fileName="SchemaUtil.java" startLine="24" startPosition="35" endLine="25" endPosition="36" />
-    <scopeInfo nodeId="5285611549890897413" fileName="SchemaUtil.java" startLine="39" startPosition="123" endLine="40" endPosition="244" />
-    <scopeInfo nodeId="5285611549890897427" fileName="SchemaUtil.java" startLine="41" startPosition="115" endLine="42" endPosition="36" />
-    <scopeInfo nodeId="5285611549890897437" fileName="SchemaUtil.java" startLine="43" startPosition="111" endLine="44" endPosition="230" />
-    <scopeInfo nodeId="2341233264267552790" fileName="SchemaUtil.java" startLine="53" startPosition="73" endLine="54" endPosition="115" />
-    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="62" startPosition="39" endLine="63" endPosition="84" />
-    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="66" startPosition="37" endLine="67" endPosition="74" />
-    <scopeInfo nodeId="4705273682234098414" fileName="SchemaUtil.java" startLine="75" startPosition="40" endLine="76" endPosition="170" />
-    <scopeInfo nodeId="4705273682234098427" fileName="SchemaUtil.java" startLine="77" startPosition="12" endLine="78" endPosition="34" />
-    <scopeInfo nodeId="3149278768676788020" fileName="SchemaUtil.java" startLine="92" startPosition="112" endLine="93" endPosition="238" />
-    <scopeInfo nodeId="3149278768676788057" fileName="SchemaUtil.java" startLine="94" startPosition="122" endLine="95" endPosition="183" />
-    <scopeInfo nodeId="7225751495667397653" fileName="SchemaUtil.java" startLine="102" startPosition="147" endLine="103" endPosition="73" />
-    <scopeInfo nodeId="7225751495667397674" fileName="SchemaUtil.java" startLine="104" startPosition="122" endLine="105" endPosition="74" />
-    <scopeInfo nodeId="7225751495667397683" fileName="SchemaUtil.java" startLine="106" startPosition="122" endLine="107" endPosition="74" />
-    <scopeInfo nodeId="5285611549890897374" fileName="SchemaUtil.java" startLine="45" startPosition="12" endLine="47" endPosition="36" />
-    <scopeInfo nodeId="1558623248073038273" fileName="SchemaUtil.java" startLine="84" startPosition="30" endLine="86" endPosition="73" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="112" startPosition="53" endLine="114" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="129" startPosition="54" endLine="131" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="146" startPosition="54" endLine="148" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="163" startPosition="51" endLine="165" endPosition="5" />
-    <scopeInfo nodeId="5285611549890897393" fileName="SchemaUtil.java" startLine="35" startPosition="120" endLine="38" endPosition="24">
+    <nodeInfo nodeId="5285611549890897323" fileName="SchemaUtil.java" startLine="23" startPosition="35" endLine="24" endPosition="36" />
+    <nodeInfo nodeId="5285611549890897330" fileName="SchemaUtil.java" startLine="25" startPosition="5" endLine="26" endPosition="0" />
+    <nodeInfo nodeId="5285611549890897333" fileName="SchemaUtil.java" startLine="27" startPosition="107" endLine="28" endPosition="163" />
+    <nodeInfo nodeId="5285611549890897340" fileName="SchemaUtil.java" startLine="28" startPosition="163" endLine="29" endPosition="102" />
+    <nodeInfo nodeId="5285611549890897345" fileName="SchemaUtil.java" startLine="29" startPosition="102" endLine="30" endPosition="0" />
+    <nodeInfo nodeId="5285611549890897346" fileName="SchemaUtil.java" startLine="30" startPosition="0" endLine="31" endPosition="105" />
+    <nodeInfo nodeId="5285611549890897351" fileName="SchemaUtil.java" startLine="31" startPosition="105" endLine="32" endPosition="365" />
+    <nodeInfo nodeId="5285611549890897368" fileName="SchemaUtil.java" startLine="32" startPosition="365" endLine="33" endPosition="0" />
+    <nodeInfo nodeId="5285611549890897394" fileName="SchemaUtil.java" startLine="34" startPosition="120" endLine="35" endPosition="54" />
+    <nodeInfo nodeId="5285611549890897400" fileName="SchemaUtil.java" startLine="35" startPosition="54" endLine="36" endPosition="147" />
+    <nodeInfo nodeId="5285611549890897406" fileName="SchemaUtil.java" startLine="36" startPosition="147" endLine="37" endPosition="24" />
+    <nodeInfo nodeId="5285611549890897414" fileName="SchemaUtil.java" startLine="38" startPosition="123" endLine="39" endPosition="244" />
+    <nodeInfo nodeId="5285611549890897428" fileName="SchemaUtil.java" startLine="40" startPosition="115" endLine="41" endPosition="36" />
+    <nodeInfo nodeId="5285611549890897438" fileName="SchemaUtil.java" startLine="42" startPosition="111" endLine="43" endPosition="230" />
+    <nodeInfo nodeId="5285611549890897375" fileName="SchemaUtil.java" startLine="44" startPosition="12" endLine="45" endPosition="117" />
+    <nodeInfo nodeId="5285611549890897384" fileName="SchemaUtil.java" startLine="45" startPosition="117" endLine="46" endPosition="36" />
+    <nodeInfo nodeId="2341233264267552782" fileName="SchemaUtil.java" startLine="50" startPosition="81" endLine="51" endPosition="52" />
+    <nodeInfo nodeId="2341233264267552791" fileName="SchemaUtil.java" startLine="52" startPosition="73" endLine="53" endPosition="115" />
+    <nodeInfo nodeId="2341233264267552799" fileName="SchemaUtil.java" startLine="54" startPosition="5" endLine="55" endPosition="22" />
+    <nodeInfo nodeId="2341233264267552807" fileName="SchemaUtil.java" startLine="58" startPosition="69" endLine="59" endPosition="50" />
+    <nodeInfo nodeId="2341233264267552824" fileName="SchemaUtil.java" startLine="68" startPosition="8" endLine="69" endPosition="20" />
+    <nodeInfo nodeId="4705273682234098407" fileName="SchemaUtil.java" startLine="72" startPosition="67" endLine="73" endPosition="77" />
+    <nodeInfo nodeId="4705273682234098415" fileName="SchemaUtil.java" startLine="74" startPosition="40" endLine="75" endPosition="170" />
+    <nodeInfo nodeId="4705273682234098428" fileName="SchemaUtil.java" startLine="76" startPosition="12" endLine="77" endPosition="34" />
+    <nodeInfo nodeId="4705273682234223398" fileName="SchemaUtil.java" startLine="81" startPosition="66" endLine="82" endPosition="107" />
+    <nodeInfo nodeId="1558623248073038284" fileName="SchemaUtil.java" startLine="83" startPosition="30" endLine="84" endPosition="155" />
+    <nodeInfo nodeId="1558623248073038294" fileName="SchemaUtil.java" startLine="84" startPosition="155" endLine="85" endPosition="73" />
+    <nodeInfo nodeId="4705273682234223434" fileName="SchemaUtil.java" startLine="86" startPosition="5" endLine="87" endPosition="16" />
+    <nodeInfo nodeId="3149278768676788085" fileName="SchemaUtil.java" startLine="91" startPosition="112" endLine="92" endPosition="238" />
+    <nodeInfo nodeId="3149278768676788095" fileName="SchemaUtil.java" startLine="93" startPosition="122" endLine="94" endPosition="183" />
+    <nodeInfo nodeId="3149278768676788080" fileName="SchemaUtil.java" startLine="95" startPosition="5" endLine="96" endPosition="16" />
+    <nodeInfo nodeId="7225751495667397644" fileName="SchemaUtil.java" startLine="99" startPosition="68" endLine="100" endPosition="94" />
+    <nodeInfo nodeId="7225751495667397703" fileName="SchemaUtil.java" startLine="101" startPosition="147" endLine="102" endPosition="73" />
+    <nodeInfo nodeId="7225751495667402962" fileName="SchemaUtil.java" startLine="103" startPosition="122" endLine="104" endPosition="74" />
+    <nodeInfo nodeId="7225751495667402968" fileName="SchemaUtil.java" startLine="105" startPosition="122" endLine="106" endPosition="74" />
+    <nodeInfo nodeId="7225751495667402974" fileName="SchemaUtil.java" startLine="107" startPosition="5" endLine="108" endPosition="69" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="115" startPosition="31" endLine="116" endPosition="26" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="116" startPosition="26" endLine="117" endPosition="67" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="117" startPosition="67" endLine="118" endPosition="32" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="119" startPosition="7" endLine="120" endPosition="159" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="120" startPosition="159" endLine="121" endPosition="43" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="121" startPosition="43" endLine="122" endPosition="31" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="123" startPosition="7" endLine="124" endPosition="20" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="132" startPosition="31" endLine="133" endPosition="26" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="133" startPosition="26" endLine="134" endPosition="67" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="134" startPosition="67" endLine="135" endPosition="32" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="136" startPosition="7" endLine="137" endPosition="160" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="137" startPosition="160" endLine="138" endPosition="43" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="138" startPosition="43" endLine="139" endPosition="31" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="140" startPosition="7" endLine="141" endPosition="20" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="149" startPosition="31" endLine="150" endPosition="26" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="150" startPosition="26" endLine="151" endPosition="67" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="151" startPosition="67" endLine="152" endPosition="32" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="153" startPosition="7" endLine="154" endPosition="160" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="154" startPosition="160" endLine="155" endPosition="43" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="155" startPosition="43" endLine="156" endPosition="31" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="157" startPosition="7" endLine="158" endPosition="20" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="166" startPosition="31" endLine="167" endPosition="26" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="167" startPosition="26" endLine="168" endPosition="67" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="168" startPosition="67" endLine="169" endPosition="32" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="170" startPosition="7" endLine="171" endPosition="159" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="171" startPosition="159" endLine="172" endPosition="43" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="172" startPosition="43" endLine="173" endPosition="31" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="174" startPosition="7" endLine="175" endPosition="20" />
+    <nodeInfo nodeId="4705273682234098426" fileName="SchemaUtil.java" startLine="76" startPosition="10" endLine="78" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="111" startPosition="53" endLine="113" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="128" startPosition="54" endLine="130" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="145" startPosition="54" endLine="147" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="162" startPosition="51" endLine="164" endPosition="5" />
+    <nodeInfo nodeId="5285611549890897321" fileName="SchemaUtil.java" startLine="22" startPosition="74" endLine="25" endPosition="5" />
+    <nodeInfo nodeId="5285611549890897373" fileName="SchemaUtil.java" startLine="44" startPosition="10" endLine="47" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552788" fileName="SchemaUtil.java" startLine="51" startPosition="52" endLine="54" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="60" startPosition="225" endLine="64" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="64" startPosition="45" endLine="68" endPosition="0" />
+    <nodeInfo nodeId="1558623248073038272" fileName="SchemaUtil.java" startLine="82" startPosition="107" endLine="86" endPosition="5" />
+    <nodeInfo nodeId="4705273682234098413" fileName="SchemaUtil.java" startLine="73" startPosition="77" endLine="78" endPosition="5" />
+    <nodeInfo nodeId="3149278768676788019" fileName="SchemaUtil.java" startLine="90" startPosition="83" endLine="95" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="118" startPosition="32" endLine="123" endPosition="7" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="135" startPosition="32" endLine="140" endPosition="7" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="152" startPosition="32" endLine="157" endPosition="7" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="169" startPosition="32" endLine="174" endPosition="7" />
+    <nodeInfo nodeId="7225751495667397652" fileName="SchemaUtil.java" startLine="100" startPosition="94" endLine="107" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552778" fileName="SchemaUtil.java" startLine="49" startPosition="0" endLine="57" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552813" fileName="SchemaUtil.java" startLine="59" startPosition="50" endLine="68" endPosition="8" />
+    <nodeInfo nodeId="4705273682234098401" fileName="SchemaUtil.java" startLine="71" startPosition="0" endLine="80" endPosition="0" />
+    <nodeInfo nodeId="4705273682234223376" fileName="SchemaUtil.java" startLine="80" startPosition="0" endLine="89" endPosition="0" />
+    <nodeInfo nodeId="3149278768676787979" fileName="SchemaUtil.java" startLine="89" startPosition="0" endLine="98" endPosition="0" />
+    <nodeInfo nodeId="7225751495667397638" fileName="SchemaUtil.java" startLine="98" startPosition="0" endLine="110" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="114" startPosition="0" endLine="126" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="131" startPosition="0" endLine="143" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="148" startPosition="0" endLine="160" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="165" startPosition="0" endLine="177" endPosition="0" />
+    <nodeInfo nodeId="2341233264267552803" fileName="SchemaUtil.java" startLine="57" startPosition="0" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="5285611549890897331" fileName="SchemaUtil.java" startLine="26" startPosition="0" endLine="47" endPosition="5" />
+    <nodeInfo nodeId="2341233264267552653" fileName="SchemaUtil.java" startLine="21" startPosition="25" endLine="49" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="112" startPosition="44" endLine="112" endPosition="44" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="129" startPosition="45" endLine="129" endPosition="45" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="146" startPosition="45" endLine="146" endPosition="45" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="163" startPosition="42" endLine="163" endPosition="42" />
+    <scopeInfo nodeId="5285611549890897322" fileName="SchemaUtil.java" startLine="23" startPosition="35" endLine="24" endPosition="36" />
+    <scopeInfo nodeId="5285611549890897413" fileName="SchemaUtil.java" startLine="38" startPosition="123" endLine="39" endPosition="244" />
+    <scopeInfo nodeId="5285611549890897427" fileName="SchemaUtil.java" startLine="40" startPosition="115" endLine="41" endPosition="36" />
+    <scopeInfo nodeId="5285611549890897437" fileName="SchemaUtil.java" startLine="42" startPosition="111" endLine="43" endPosition="230" />
+    <scopeInfo nodeId="2341233264267552790" fileName="SchemaUtil.java" startLine="52" startPosition="73" endLine="53" endPosition="115" />
+    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="61" startPosition="39" endLine="62" endPosition="84" />
+    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="65" startPosition="37" endLine="66" endPosition="74" />
+    <scopeInfo nodeId="4705273682234098414" fileName="SchemaUtil.java" startLine="74" startPosition="40" endLine="75" endPosition="170" />
+    <scopeInfo nodeId="4705273682234098427" fileName="SchemaUtil.java" startLine="76" startPosition="12" endLine="77" endPosition="34" />
+    <scopeInfo nodeId="3149278768676788020" fileName="SchemaUtil.java" startLine="91" startPosition="112" endLine="92" endPosition="238" />
+    <scopeInfo nodeId="3149278768676788057" fileName="SchemaUtil.java" startLine="93" startPosition="122" endLine="94" endPosition="183" />
+    <scopeInfo nodeId="7225751495667397653" fileName="SchemaUtil.java" startLine="101" startPosition="147" endLine="102" endPosition="73" />
+    <scopeInfo nodeId="7225751495667397674" fileName="SchemaUtil.java" startLine="103" startPosition="122" endLine="104" endPosition="74" />
+    <scopeInfo nodeId="7225751495667397683" fileName="SchemaUtil.java" startLine="105" startPosition="122" endLine="106" endPosition="74" />
+    <scopeInfo nodeId="5285611549890897374" fileName="SchemaUtil.java" startLine="44" startPosition="12" endLine="46" endPosition="36" />
+    <scopeInfo nodeId="1558623248073038273" fileName="SchemaUtil.java" startLine="83" startPosition="30" endLine="85" endPosition="73" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="111" startPosition="53" endLine="113" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="128" startPosition="54" endLine="130" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="145" startPosition="54" endLine="147" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="162" startPosition="51" endLine="164" endPosition="5" />
+    <scopeInfo nodeId="5285611549890897393" fileName="SchemaUtil.java" startLine="34" startPosition="120" endLine="37" endPosition="24">
       <varInfo nodeId="5285611549890897395" varName="attributes" />
     </scopeInfo>
-    <scopeInfo nodeId="2341233264267552788" fileName="SchemaUtil.java" startLine="52" startPosition="52" endLine="55" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="120" startPosition="7" endLine="123" endPosition="31" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="137" startPosition="7" endLine="140" endPosition="31" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="154" startPosition="7" endLine="157" endPosition="31" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="171" startPosition="7" endLine="174" endPosition="31" />
-    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="61" startPosition="225" endLine="65" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="65" startPosition="45" endLine="69" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552781" fileName="SchemaUtil.java" startLine="51" startPosition="81" endLine="56" endPosition="22">
+    <scopeInfo nodeId="2341233264267552788" fileName="SchemaUtil.java" startLine="51" startPosition="52" endLine="54" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="119" startPosition="7" endLine="122" endPosition="31" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="136" startPosition="7" endLine="139" endPosition="31" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="153" startPosition="7" endLine="156" endPosition="31" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="170" startPosition="7" endLine="173" endPosition="31" />
+    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="60" startPosition="225" endLine="64" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="64" startPosition="45" endLine="68" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552781" fileName="SchemaUtil.java" startLine="50" startPosition="81" endLine="55" endPosition="22">
       <varInfo nodeId="2341233264267552783" varName="attributes" />
     </scopeInfo>
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="119" startPosition="32" endLine="124" endPosition="7" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="136" startPosition="32" endLine="141" endPosition="7" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="153" startPosition="32" endLine="158" endPosition="7" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="170" startPosition="32" endLine="175" endPosition="7" />
-    <scopeInfo nodeId="5285611549890897332" fileName="SchemaUtil.java" startLine="28" startPosition="107" endLine="34" endPosition="0">
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="118" startPosition="32" endLine="123" endPosition="7" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="135" startPosition="32" endLine="140" endPosition="7" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="152" startPosition="32" endLine="157" endPosition="7" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="169" startPosition="32" endLine="174" endPosition="7" />
+    <scopeInfo nodeId="5285611549890897332" fileName="SchemaUtil.java" startLine="27" startPosition="107" endLine="33" endPosition="0">
       <varInfo nodeId="5285611549890897347" varName="extension" />
       <varInfo nodeId="5285611549890897334" varName="contentItem" />
     </scopeInfo>
-    <scopeInfo nodeId="4705273682234098404" fileName="SchemaUtil.java" startLine="73" startPosition="67" endLine="79" endPosition="5">
+    <scopeInfo nodeId="4705273682234098404" fileName="SchemaUtil.java" startLine="72" startPosition="67" endLine="78" endPosition="5">
       <varInfo nodeId="4705273682234098408" varName="typeName" />
     </scopeInfo>
-    <scopeInfo nodeId="4705273682234223379" fileName="SchemaUtil.java" startLine="82" startPosition="66" endLine="88" endPosition="16">
+    <scopeInfo nodeId="4705273682234223379" fileName="SchemaUtil.java" startLine="81" startPosition="66" endLine="87" endPosition="16">
       <varInfo nodeId="4705273682234223399" varName="type" />
     </scopeInfo>
-    <scopeInfo nodeId="3149278768676787982" fileName="SchemaUtil.java" startLine="91" startPosition="83" endLine="97" endPosition="16" />
-    <scopeInfo nodeId="2341233264267552778" fileName="SchemaUtil.java" startLine="50" startPosition="0" endLine="58" endPosition="0">
+    <scopeInfo nodeId="3149278768676787982" fileName="SchemaUtil.java" startLine="90" startPosition="83" endLine="96" endPosition="16" />
+    <scopeInfo nodeId="2341233264267552778" fileName="SchemaUtil.java" startLine="49" startPosition="0" endLine="57" endPosition="0">
       <varInfo nodeId="2341233264267552801" varName="typeExpressions" />
     </scopeInfo>
-    <scopeInfo nodeId="4705273682234098401" fileName="SchemaUtil.java" startLine="72" startPosition="0" endLine="81" endPosition="0">
+    <scopeInfo nodeId="4705273682234098401" fileName="SchemaUtil.java" startLine="71" startPosition="0" endLine="80" endPosition="0">
       <varInfo nodeId="4705273682234098436" varName="complexType" />
     </scopeInfo>
-    <scopeInfo nodeId="4705273682234223376" fileName="SchemaUtil.java" startLine="81" startPosition="0" endLine="90" endPosition="0">
+    <scopeInfo nodeId="4705273682234223376" fileName="SchemaUtil.java" startLine="80" startPosition="0" endLine="89" endPosition="0">
       <varInfo nodeId="4705273682234223381" varName="complexType" />
     </scopeInfo>
-    <scopeInfo nodeId="3149278768676787979" fileName="SchemaUtil.java" startLine="90" startPosition="0" endLine="99" endPosition="0">
+    <scopeInfo nodeId="3149278768676787979" fileName="SchemaUtil.java" startLine="89" startPosition="0" endLine="98" endPosition="0">
       <varInfo nodeId="3149278768676788012" varName="elementDeclaration" />
     </scopeInfo>
-    <scopeInfo nodeId="7225751495667397641" fileName="SchemaUtil.java" startLine="100" startPosition="68" endLine="109" endPosition="69">
+    <scopeInfo nodeId="7225751495667397641" fileName="SchemaUtil.java" startLine="99" startPosition="68" endLine="108" endPosition="69">
       <varInfo nodeId="7225751495667397645" varName="attributeSchemaType" />
     </scopeInfo>
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="116" startPosition="31" endLine="125" endPosition="20" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="133" startPosition="31" endLine="142" endPosition="20" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="150" startPosition="31" endLine="159" endPosition="20" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="167" startPosition="31" endLine="176" endPosition="20" />
-    <scopeInfo nodeId="2341233264267552806" fileName="SchemaUtil.java" startLine="59" startPosition="69" endLine="70" endPosition="20">
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="115" startPosition="31" endLine="124" endPosition="20" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="132" startPosition="31" endLine="141" endPosition="20" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="149" startPosition="31" endLine="158" endPosition="20" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="166" startPosition="31" endLine="175" endPosition="20" />
+    <scopeInfo nodeId="2341233264267552806" fileName="SchemaUtil.java" startLine="58" startPosition="69" endLine="69" endPosition="20">
       <varInfo nodeId="2341233264267552808" varName="children" />
     </scopeInfo>
-    <scopeInfo nodeId="7225751495667397638" fileName="SchemaUtil.java" startLine="99" startPosition="0" endLine="111" endPosition="0">
+    <scopeInfo nodeId="7225751495667397638" fileName="SchemaUtil.java" startLine="98" startPosition="0" endLine="110" endPosition="0">
       <varInfo nodeId="7225751495667397695" varName="attributeDeclaration" />
     </scopeInfo>
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="115" startPosition="0" endLine="127" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="132" startPosition="0" endLine="144" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="149" startPosition="0" endLine="161" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="166" startPosition="0" endLine="178" endPosition="0" />
-    <scopeInfo nodeId="2341233264267552803" fileName="SchemaUtil.java" startLine="58" startPosition="0" endLine="72" endPosition="0">
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="114" startPosition="0" endLine="126" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="131" startPosition="0" endLine="143" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="148" startPosition="0" endLine="160" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="165" startPosition="0" endLine="177" endPosition="0" />
+    <scopeInfo nodeId="2341233264267552803" fileName="SchemaUtil.java" startLine="57" startPosition="0" endLine="71" endPosition="0">
       <varInfo nodeId="2341233264267552826" varName="complexType" />
     </scopeInfo>
-    <scopeInfo nodeId="2341233264267552656" fileName="SchemaUtil.java" startLine="23" startPosition="74" endLine="48" endPosition="5" />
-    <scopeInfo nodeId="2341233264267552653" fileName="SchemaUtil.java" startLine="22" startPosition="25" endLine="50" endPosition="0">
+    <scopeInfo nodeId="2341233264267552656" fileName="SchemaUtil.java" startLine="22" startPosition="74" endLine="47" endPosition="5" />
+    <scopeInfo nodeId="2341233264267552653" fileName="SchemaUtil.java" startLine="21" startPosition="25" endLine="49" endPosition="0">
       <varInfo nodeId="2341233264267552654" varName="typeExpression" />
     </scopeInfo>
-    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="61" startPosition="202" endLine="65" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$1" />
-    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="65" startPosition="18" endLine="69" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
-    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="112" startPosition="0" endLine="128" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b0g" />
-    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="129" startPosition="0" endLine="145" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0a1a6" />
-    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="146" startPosition="0" endLine="162" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b1a6" />
-    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="163" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0c0g" />
-    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="22" startPosition="0" endLine="180" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil" />
+    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="60" startPosition="202" endLine="64" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$1" />
+    <unitInfo nodeId="2341233264267552817" fileName="SchemaUtil.java" startLine="64" startPosition="18" endLine="68" endPosition="5" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$2" />
+    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="111" startPosition="0" endLine="127" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b0g" />
+    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="128" startPosition="0" endLine="144" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0a1a6" />
+    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="145" startPosition="0" endLine="161" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0a0b1a6" />
+    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="162" startPosition="0" endLine="178" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil$QuotationClass_crwl9t_a0c0g" />
+    <unitInfo nodeId="2341233264267552651" fileName="SchemaUtil.java" startLine="21" startPosition="0" endLine="179" endPosition="0" unitName="jetbrains.mps.xmlQuery.constraints.SchemaUtil" />
   </root>
   <root nodeId="4815471077468703816">
     <nodeInfo nodeId="3096351618093111307" fileName="XMLElementType_schema_ReferentConstraint.java" startLine="24" startPosition="138" endLine="25" endPosition="46" />
