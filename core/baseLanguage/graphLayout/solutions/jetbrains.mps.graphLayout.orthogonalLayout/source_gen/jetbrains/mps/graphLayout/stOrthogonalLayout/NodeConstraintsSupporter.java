@@ -28,7 +28,7 @@ public class NodeConstraintsSupporter {
   private Map<Node, Integer> myHorNumbering;
   private Map<Node, Integer> myVerNumbering;
   private int myMinEdgeXDistance = 10;
-  private int myMinEdgeYDistance = 3;
+  private int myMinEdgeYDistance = 10;
 
   public NodeConstraintsSupporter() {
   }

@@ -400,218 +400,285 @@
     <unitInfo nodeId="903391227141130074" fileName="LayoutPainter.java" startLine="18" startPosition="0" endLine="41" endPosition="0" unitName="visualization.LayoutPainter" />
   </root>
   <root nodeId="903391227141135207">
-    <nodeInfo nodeId="903391227141135927" fileName="OrthogonalLayoutTestPanel.java" startLine="34" startPosition="55" endLine="35" endPosition="69" />
-    <nodeInfo nodeId="1418350014056289153" fileName="OrthogonalLayoutTestPanel.java" startLine="35" startPosition="69" endLine="36" endPosition="44" />
-    <nodeInfo nodeId="903391227141135413" fileName="OrthogonalLayoutTestPanel.java" startLine="37" startPosition="0" endLine="38" endPosition="31" />
-    <nodeInfo nodeId="903391227141135416" fileName="OrthogonalLayoutTestPanel.java" startLine="38" startPosition="31" endLine="39" endPosition="62" />
-    <nodeInfo nodeId="903391227141136156" fileName="OrthogonalLayoutTestPanel.java" startLine="39" startPosition="62" endLine="40" endPosition="44" />
-    <nodeInfo nodeId="903391227141136131" fileName="OrthogonalLayoutTestPanel.java" startLine="40" startPosition="44" endLine="41" endPosition="34" />
-    <nodeInfo nodeId="903391227141135422" fileName="OrthogonalLayoutTestPanel.java" startLine="41" startPosition="34" endLine="42" endPosition="38" />
-    <nodeInfo nodeId="903391227141135425" fileName="OrthogonalLayoutTestPanel.java" startLine="42" startPosition="38" endLine="43" endPosition="37" />
-    <nodeInfo nodeId="903391227141135428" fileName="OrthogonalLayoutTestPanel.java" startLine="43" startPosition="37" endLine="44" endPosition="37" />
-    <nodeInfo nodeId="903391227141135951" fileName="OrthogonalLayoutTestPanel.java" startLine="46" startPosition="38" endLine="47" endPosition="40" />
-    <nodeInfo nodeId="903391227141135957" fileName="OrthogonalLayoutTestPanel.java" startLine="47" startPosition="40" endLine="48" endPosition="27" />
-    <nodeInfo nodeId="903391227141135959" fileName="OrthogonalLayoutTestPanel.java" startLine="48" startPosition="27" endLine="49" endPosition="27" />
-    <nodeInfo nodeId="903391227141135961" fileName="OrthogonalLayoutTestPanel.java" startLine="49" startPosition="27" endLine="50" endPosition="22" />
-    <nodeInfo nodeId="903391227141135963" fileName="OrthogonalLayoutTestPanel.java" startLine="50" startPosition="22" endLine="51" endPosition="23" />
-    <nodeInfo nodeId="903391227141135965" fileName="OrthogonalLayoutTestPanel.java" startLine="51" startPosition="23" endLine="52" endPosition="46" />
-    <nodeInfo nodeId="1418350014056290615" fileName="OrthogonalLayoutTestPanel.java" startLine="52" startPosition="46" endLine="53" endPosition="35" />
-    <nodeInfo nodeId="903391227141136006" fileName="OrthogonalLayoutTestPanel.java" startLine="53" startPosition="35" endLine="54" endPosition="27" />
-    <nodeInfo nodeId="903391227141136080" fileName="OrthogonalLayoutTestPanel.java" startLine="54" startPosition="27" endLine="55" endPosition="36" />
-    <nodeInfo nodeId="903391227141135438" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="39" endLine="59" endPosition="41" />
-    <nodeInfo nodeId="903391227141135444" fileName="OrthogonalLayoutTestPanel.java" startLine="59" startPosition="41" endLine="60" endPosition="74" />
-    <nodeInfo nodeId="903391227141135450" fileName="OrthogonalLayoutTestPanel.java" startLine="60" startPosition="74" endLine="61" endPosition="41" />
-    <nodeInfo nodeId="903391227141135456" fileName="OrthogonalLayoutTestPanel.java" startLine="61" startPosition="41" endLine="62" endPosition="74" />
-    <nodeInfo nodeId="903391227141135468" fileName="OrthogonalLayoutTestPanel.java" startLine="62" startPosition="74" endLine="63" endPosition="52" />
-    <nodeInfo nodeId="903391227141135473" fileName="OrthogonalLayoutTestPanel.java" startLine="63" startPosition="52" endLine="64" endPosition="16" />
-    <nodeInfo nodeId="903391227141135479" fileName="OrthogonalLayoutTestPanel.java" startLine="64" startPosition="16" endLine="65" endPosition="16" />
-    <nodeInfo nodeId="903391227141135485" fileName="OrthogonalLayoutTestPanel.java" startLine="65" startPosition="16" endLine="66" endPosition="43" />
-    <nodeInfo nodeId="903391227141135491" fileName="OrthogonalLayoutTestPanel.java" startLine="66" startPosition="43" endLine="67" endPosition="30" />
-    <nodeInfo nodeId="903391227141135496" fileName="OrthogonalLayoutTestPanel.java" startLine="67" startPosition="30" endLine="68" endPosition="16" />
-    <nodeInfo nodeId="903391227141135502" fileName="OrthogonalLayoutTestPanel.java" startLine="68" startPosition="16" endLine="69" endPosition="30" />
-    <nodeInfo nodeId="903391227141135507" fileName="OrthogonalLayoutTestPanel.java" startLine="69" startPosition="30" endLine="70" endPosition="16" />
-    <nodeInfo nodeId="903391227141135518" fileName="OrthogonalLayoutTestPanel.java" startLine="70" startPosition="16" endLine="71" endPosition="16" />
-    <nodeInfo nodeId="903391227141135524" fileName="OrthogonalLayoutTestPanel.java" startLine="71" startPosition="16" endLine="72" endPosition="52" />
-    <nodeInfo nodeId="903391227141135546" fileName="OrthogonalLayoutTestPanel.java" startLine="75" startPosition="13" endLine="76" endPosition="69" />
-    <nodeInfo nodeId="903391227141135553" fileName="OrthogonalLayoutTestPanel.java" startLine="76" startPosition="69" endLine="77" endPosition="69" />
-    <nodeInfo nodeId="903391227141135560" fileName="OrthogonalLayoutTestPanel.java" startLine="77" startPosition="69" endLine="78" endPosition="18" />
-    <nodeInfo nodeId="903391227141136150" fileName="OrthogonalLayoutTestPanel.java" startLine="78" startPosition="18" endLine="79" endPosition="76" />
-    <nodeInfo nodeId="903391227141135582" fileName="OrthogonalLayoutTestPanel.java" startLine="79" startPosition="76" endLine="80" endPosition="24" />
-    <nodeInfo nodeId="903391227141135589" fileName="OrthogonalLayoutTestPanel.java" startLine="81" startPosition="31" endLine="82" endPosition="127" />
-    <nodeInfo nodeId="903391227141135597" fileName="OrthogonalLayoutTestPanel.java" startLine="85" startPosition="7" endLine="86" endPosition="21" />
-    <nodeInfo nodeId="903391227141135606" fileName="OrthogonalLayoutTestPanel.java" startLine="89" startPosition="39" endLine="90" endPosition="47" />
-    <nodeInfo nodeId="903391227141135612" fileName="OrthogonalLayoutTestPanel.java" startLine="90" startPosition="47" endLine="91" endPosition="52" />
-    <nodeInfo nodeId="903391227141135631" fileName="OrthogonalLayoutTestPanel.java" startLine="93" startPosition="51" endLine="94" endPosition="22" />
-    <nodeInfo nodeId="903391227141135633" fileName="OrthogonalLayoutTestPanel.java" startLine="94" startPosition="22" endLine="95" endPosition="31" />
-    <nodeInfo nodeId="903391227141135637" fileName="OrthogonalLayoutTestPanel.java" startLine="97" startPosition="7" endLine="98" endPosition="43" />
-    <nodeInfo nodeId="903391227141135643" fileName="OrthogonalLayoutTestPanel.java" startLine="98" startPosition="43" endLine="99" endPosition="51" />
-    <nodeInfo nodeId="903391227141135649" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="51" endLine="100" endPosition="16" />
-    <nodeInfo nodeId="903391227141135655" fileName="OrthogonalLayoutTestPanel.java" startLine="100" startPosition="16" endLine="101" endPosition="16" />
-    <nodeInfo nodeId="903391227141135661" fileName="OrthogonalLayoutTestPanel.java" startLine="101" startPosition="16" endLine="102" endPosition="20" />
-    <nodeInfo nodeId="903391227141135667" fileName="OrthogonalLayoutTestPanel.java" startLine="102" startPosition="20" endLine="103" endPosition="21" />
-    <nodeInfo nodeId="903391227141135673" fileName="OrthogonalLayoutTestPanel.java" startLine="103" startPosition="21" endLine="104" endPosition="21" />
-    <nodeInfo nodeId="903391227141135682" fileName="OrthogonalLayoutTestPanel.java" startLine="107" startPosition="40" endLine="108" endPosition="21" />
-    <nodeInfo nodeId="903391227141135686" fileName="OrthogonalLayoutTestPanel.java" startLine="108" startPosition="21" endLine="109" endPosition="40" />
-    <nodeInfo nodeId="903391227141135697" fileName="OrthogonalLayoutTestPanel.java" startLine="110" startPosition="52" endLine="111" endPosition="68" />
-    <nodeInfo nodeId="903391227141135705" fileName="OrthogonalLayoutTestPanel.java" startLine="112" startPosition="5" endLine="113" endPosition="27" />
-    <nodeInfo nodeId="903391227141135710" fileName="OrthogonalLayoutTestPanel.java" startLine="113" startPosition="27" endLine="114" endPosition="67" />
-    <nodeInfo nodeId="903391227141135733" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="67" endLine="117" endPosition="98" />
-    <nodeInfo nodeId="903391227141135758" fileName="OrthogonalLayoutTestPanel.java" startLine="122" startPosition="30" endLine="123" endPosition="56" />
-    <nodeInfo nodeId="1418350014056287927" fileName="OrthogonalLayoutTestPanel.java" startLine="123" startPosition="56" endLine="124" endPosition="81" />
-    <nodeInfo nodeId="1418350014056287940" fileName="OrthogonalLayoutTestPanel.java" startLine="124" startPosition="81" endLine="125" endPosition="81" />
-    <nodeInfo nodeId="903391227141135766" fileName="OrthogonalLayoutTestPanel.java" startLine="125" startPosition="81" endLine="126" endPosition="19" />
-    <nodeInfo nodeId="903391227141135772" fileName="OrthogonalLayoutTestPanel.java" startLine="127" startPosition="9" endLine="128" endPosition="37" />
-    <nodeInfo nodeId="1418350014056289095" fileName="OrthogonalLayoutTestPanel.java" startLine="129" startPosition="36" endLine="130" endPosition="49" />
-    <nodeInfo nodeId="1418350014056289115" fileName="OrthogonalLayoutTestPanel.java" startLine="130" startPosition="49" endLine="131" endPosition="64" />
-    <nodeInfo nodeId="1418350014056289128" fileName="OrthogonalLayoutTestPanel.java" startLine="131" startPosition="64" endLine="132" endPosition="64" />
-    <nodeInfo nodeId="903391227141135781" fileName="OrthogonalLayoutTestPanel.java" startLine="134" startPosition="42" endLine="135" endPosition="76" />
-    <nodeInfo nodeId="903391227141155939" fileName="OrthogonalLayoutTestPanel.java" startLine="139" startPosition="59" endLine="140" endPosition="66" />
-    <nodeInfo nodeId="903391227141155950" fileName="OrthogonalLayoutTestPanel.java" startLine="140" startPosition="66" endLine="141" endPosition="66" />
-    <nodeInfo nodeId="903391227141138873" fileName="OrthogonalLayoutTestPanel.java" startLine="143" startPosition="7" endLine="144" endPosition="61" />
-    <nodeInfo nodeId="903391227141135796" fileName="OrthogonalLayoutTestPanel.java" startLine="148" startPosition="34" endLine="149" endPosition="39" />
-    <nodeInfo nodeId="903391227141135803" fileName="OrthogonalLayoutTestPanel.java" startLine="149" startPosition="39" endLine="150" endPosition="79" />
-    <nodeInfo nodeId="903391227141135809" fileName="OrthogonalLayoutTestPanel.java" startLine="150" startPosition="79" endLine="151" endPosition="52" />
-    <nodeInfo nodeId="903391227141135814" fileName="OrthogonalLayoutTestPanel.java" startLine="151" startPosition="52" endLine="152" endPosition="41" />
-    <nodeInfo nodeId="903391227141135820" fileName="OrthogonalLayoutTestPanel.java" startLine="152" startPosition="41" endLine="153" endPosition="48" />
-    <nodeInfo nodeId="903391227141135826" fileName="OrthogonalLayoutTestPanel.java" startLine="153" startPosition="48" endLine="154" endPosition="16" />
-    <nodeInfo nodeId="903391227141135832" fileName="OrthogonalLayoutTestPanel.java" startLine="154" startPosition="16" endLine="155" endPosition="16" />
-    <nodeInfo nodeId="903391227141135838" fileName="OrthogonalLayoutTestPanel.java" startLine="155" startPosition="16" endLine="156" endPosition="18" />
-    <nodeInfo nodeId="903391227141135844" fileName="OrthogonalLayoutTestPanel.java" startLine="156" startPosition="18" endLine="157" endPosition="28" />
-    <nodeInfo nodeId="903391227141135854" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="35" endLine="161" endPosition="64" />
-    <nodeInfo nodeId="903391227141135859" fileName="OrthogonalLayoutTestPanel.java" startLine="161" startPosition="64" endLine="162" endPosition="77" />
-    <nodeInfo nodeId="903391227141135865" fileName="OrthogonalLayoutTestPanel.java" startLine="162" startPosition="77" endLine="163" endPosition="52" />
-    <nodeInfo nodeId="903391227141135870" fileName="OrthogonalLayoutTestPanel.java" startLine="163" startPosition="52" endLine="164" endPosition="37" />
-    <nodeInfo nodeId="903391227141135876" fileName="OrthogonalLayoutTestPanel.java" startLine="164" startPosition="37" endLine="165" endPosition="47" />
-    <nodeInfo nodeId="903391227141135882" fileName="OrthogonalLayoutTestPanel.java" startLine="165" startPosition="47" endLine="166" endPosition="48" />
-    <nodeInfo nodeId="903391227141135888" fileName="OrthogonalLayoutTestPanel.java" startLine="166" startPosition="48" endLine="167" endPosition="16" />
-    <nodeInfo nodeId="903391227141135894" fileName="OrthogonalLayoutTestPanel.java" startLine="167" startPosition="16" endLine="168" endPosition="16" />
-    <nodeInfo nodeId="903391227141135900" fileName="OrthogonalLayoutTestPanel.java" startLine="168" startPosition="16" endLine="169" endPosition="18" />
-    <nodeInfo nodeId="903391227141135906" fileName="OrthogonalLayoutTestPanel.java" startLine="169" startPosition="18" endLine="170" endPosition="18" />
-    <nodeInfo nodeId="903391227141135919" fileName="OrthogonalLayoutTestPanel.java" startLine="170" startPosition="18" endLine="171" endPosition="47" />
-    <nodeInfo nodeId="903391227141136015" fileName="OrthogonalLayoutTestPanel.java" startLine="174" startPosition="32" endLine="175" endPosition="32" />
-    <nodeInfo nodeId="903391227141136020" fileName="OrthogonalLayoutTestPanel.java" startLine="175" startPosition="32" endLine="176" endPosition="57" />
-    <nodeInfo nodeId="903391227141136025" fileName="OrthogonalLayoutTestPanel.java" startLine="176" startPosition="57" endLine="177" endPosition="47" />
-    <nodeInfo nodeId="903391227141136031" fileName="OrthogonalLayoutTestPanel.java" startLine="177" startPosition="47" endLine="178" endPosition="68" />
-    <nodeInfo nodeId="903391227141136036" fileName="OrthogonalLayoutTestPanel.java" startLine="178" startPosition="68" endLine="179" endPosition="17" />
-    <nodeInfo nodeId="903391227141136040" fileName="OrthogonalLayoutTestPanel.java" startLine="179" startPosition="17" endLine="180" endPosition="27" />
-    <nodeInfo nodeId="903391227141136059" fileName="OrthogonalLayoutTestPanel.java" startLine="185" startPosition="25" endLine="186" endPosition="17" />
-    <nodeInfo nodeId="903391227141135214" fileName="OrthogonalLayoutTestPanel.java" startLine="192" startPosition="27" endLine="193" endPosition="14" />
-    <nodeInfo nodeId="903391227141136096" fileName="OrthogonalLayoutTestPanel.java" startLine="198" startPosition="36" endLine="199" endPosition="55" />
-    <nodeInfo nodeId="903391227141136110" fileName="OrthogonalLayoutTestPanel.java" startLine="200" startPosition="14" endLine="201" endPosition="51" />
-    <nodeInfo nodeId="903391227141136108" fileName="OrthogonalLayoutTestPanel.java" startLine="200" startPosition="12" endLine="202" endPosition="7" />
-    <nodeInfo nodeId="903391227141135693" fileName="OrthogonalLayoutTestPanel.java" startLine="109" startPosition="40" endLine="112" endPosition="5" />
-    <nodeInfo nodeId="903391227141135727" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="52" endLine="118" endPosition="7" />
-    <nodeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="45" endLine="194" endPosition="5" />
-    <nodeInfo nodeId="1418350014056289141" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="61" endLine="142" endPosition="9" />
-    <nodeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="184" startPosition="47" endLine="188" endPosition="0" />
-    <nodeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="92" startPosition="51" endLine="97" endPosition="0" />
-    <nodeInfo nodeId="903391227141135723" fileName="OrthogonalLayoutTestPanel.java" startLine="114" startPosition="67" endLine="119" endPosition="5" />
-    <nodeInfo nodeId="1418350014056287950" fileName="OrthogonalLayoutTestPanel.java" startLine="128" startPosition="37" endLine="133" endPosition="7" />
-    <nodeInfo nodeId="903391227141136049" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="42" endLine="188" endPosition="7" />
-    <nodeInfo nodeId="903391227141136088" fileName="OrthogonalLayoutTestPanel.java" startLine="197" startPosition="51" endLine="202" endPosition="7" />
-    <nodeInfo nodeId="903391227141135617" fileName="OrthogonalLayoutTestPanel.java" startLine="91" startPosition="52" endLine="97" endPosition="7" />
-    <nodeInfo nodeId="903391227141155926" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="20" endLine="143" endPosition="7" />
-    <nodeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="0" endLine="190" endPosition="0" />
-    <nodeInfo nodeId="903391227141135544" fileName="OrthogonalLayoutTestPanel.java" startLine="74" startPosition="51" endLine="83" endPosition="9" />
-    <nodeInfo nodeId="903391227141138859" fileName="OrthogonalLayoutTestPanel.java" startLine="136" startPosition="5" endLine="145" endPosition="5" />
-    <nodeInfo nodeId="903391227141136011" fileName="OrthogonalLayoutTestPanel.java" startLine="173" startPosition="0" endLine="182" endPosition="0" />
-    <nodeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="0" endLine="204" endPosition="0" />
-    <nodeInfo nodeId="903391227141135770" fileName="OrthogonalLayoutTestPanel.java" startLine="126" startPosition="19" endLine="136" endPosition="5" />
-    <nodeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="45" startPosition="0" endLine="56" endPosition="3" />
-    <nodeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="73" startPosition="51" endLine="85" endPosition="0" />
-    <nodeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="147" startPosition="0" endLine="159" endPosition="0" />
-    <nodeInfo nodeId="903391227141135530" fileName="OrthogonalLayoutTestPanel.java" startLine="72" startPosition="52" endLine="85" endPosition="7" />
-    <nodeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="159" startPosition="0" endLine="173" endPosition="0" />
-    <nodeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="106" startPosition="0" endLine="121" endPosition="0" />
-    <nodeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="88" startPosition="0" endLine="106" endPosition="0" />
-    <nodeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="121" startPosition="0" endLine="147" endPosition="0" />
-    <nodeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="57" startPosition="0" endLine="88" endPosition="0" />
-    <scopeInfo nodeId="903391227141135588" fileName="OrthogonalLayoutTestPanel.java" startLine="81" startPosition="31" endLine="82" endPosition="127" />
-    <scopeInfo nodeId="903391227141135696" fileName="OrthogonalLayoutTestPanel.java" startLine="110" startPosition="52" endLine="111" endPosition="68" />
-    <scopeInfo nodeId="903391227141135732" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="67" endLine="117" endPosition="98" />
-    <scopeInfo nodeId="903391227141135780" fileName="OrthogonalLayoutTestPanel.java" startLine="134" startPosition="42" endLine="135" endPosition="76" />
-    <scopeInfo nodeId="903391227141136058" fileName="OrthogonalLayoutTestPanel.java" startLine="185" startPosition="25" endLine="186" endPosition="17" />
-    <scopeInfo nodeId="903391227141135213" fileName="OrthogonalLayoutTestPanel.java" startLine="192" startPosition="27" endLine="193" endPosition="14" />
-    <scopeInfo nodeId="903391227141136090" fileName="OrthogonalLayoutTestPanel.java" startLine="198" startPosition="36" endLine="199" endPosition="55" />
-    <scopeInfo nodeId="903391227141136109" fileName="OrthogonalLayoutTestPanel.java" startLine="200" startPosition="14" endLine="201" endPosition="51" />
-    <scopeInfo nodeId="903391227141135630" fileName="OrthogonalLayoutTestPanel.java" startLine="93" startPosition="51" endLine="95" endPosition="31" />
-    <scopeInfo nodeId="1418350014056289143" fileName="OrthogonalLayoutTestPanel.java" startLine="139" startPosition="59" endLine="141" endPosition="66" />
-    <scopeInfo nodeId="903391227141135693" fileName="OrthogonalLayoutTestPanel.java" startLine="109" startPosition="40" endLine="112" endPosition="5" />
-    <scopeInfo nodeId="903391227141135726" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="52" endLine="118" endPosition="7" />
-    <scopeInfo nodeId="903391227141135727" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="52" endLine="118" endPosition="7" />
-    <scopeInfo nodeId="1418350014056287952" fileName="OrthogonalLayoutTestPanel.java" startLine="129" startPosition="36" endLine="132" endPosition="64">
+    <nodeInfo nodeId="903391227141135927" fileName="OrthogonalLayoutTestPanel.java" startLine="36" startPosition="55" endLine="37" endPosition="69" />
+    <nodeInfo nodeId="1418350014056289153" fileName="OrthogonalLayoutTestPanel.java" startLine="37" startPosition="69" endLine="38" endPosition="44" />
+    <nodeInfo nodeId="903391227141135413" fileName="OrthogonalLayoutTestPanel.java" startLine="39" startPosition="0" endLine="40" endPosition="31" />
+    <nodeInfo nodeId="903391227141135416" fileName="OrthogonalLayoutTestPanel.java" startLine="40" startPosition="31" endLine="41" endPosition="62" />
+    <nodeInfo nodeId="903391227141136156" fileName="OrthogonalLayoutTestPanel.java" startLine="41" startPosition="62" endLine="42" endPosition="44" />
+    <nodeInfo nodeId="903391227141136131" fileName="OrthogonalLayoutTestPanel.java" startLine="42" startPosition="44" endLine="43" endPosition="34" />
+    <nodeInfo nodeId="903391227141135422" fileName="OrthogonalLayoutTestPanel.java" startLine="43" startPosition="34" endLine="44" endPosition="38" />
+    <nodeInfo nodeId="903391227141135425" fileName="OrthogonalLayoutTestPanel.java" startLine="44" startPosition="38" endLine="45" endPosition="37" />
+    <nodeInfo nodeId="903391227141135428" fileName="OrthogonalLayoutTestPanel.java" startLine="45" startPosition="37" endLine="46" endPosition="37" />
+    <nodeInfo nodeId="6160477238666742422" fileName="OrthogonalLayoutTestPanel.java" startLine="46" startPosition="37" endLine="47" endPosition="66" />
+    <nodeInfo nodeId="903391227141135951" fileName="OrthogonalLayoutTestPanel.java" startLine="49" startPosition="38" endLine="50" endPosition="40" />
+    <nodeInfo nodeId="903391227141135957" fileName="OrthogonalLayoutTestPanel.java" startLine="50" startPosition="40" endLine="51" endPosition="27" />
+    <nodeInfo nodeId="903391227141135959" fileName="OrthogonalLayoutTestPanel.java" startLine="51" startPosition="27" endLine="52" endPosition="27" />
+    <nodeInfo nodeId="6160477238666723347" fileName="OrthogonalLayoutTestPanel.java" startLine="52" startPosition="27" endLine="53" endPosition="32" />
+    <nodeInfo nodeId="903391227141135961" fileName="OrthogonalLayoutTestPanel.java" startLine="53" startPosition="32" endLine="54" endPosition="22" />
+    <nodeInfo nodeId="903391227141135963" fileName="OrthogonalLayoutTestPanel.java" startLine="54" startPosition="22" endLine="55" endPosition="23" />
+    <nodeInfo nodeId="903391227141135965" fileName="OrthogonalLayoutTestPanel.java" startLine="55" startPosition="23" endLine="56" endPosition="46" />
+    <nodeInfo nodeId="1418350014056290615" fileName="OrthogonalLayoutTestPanel.java" startLine="56" startPosition="46" endLine="57" endPosition="35" />
+    <nodeInfo nodeId="903391227141136006" fileName="OrthogonalLayoutTestPanel.java" startLine="57" startPosition="35" endLine="58" endPosition="27" />
+    <nodeInfo nodeId="903391227141136080" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="27" endLine="59" endPosition="36" />
+    <nodeInfo nodeId="6160477238666723586" fileName="OrthogonalLayoutTestPanel.java" startLine="62" startPosition="44" endLine="63" endPosition="48" />
+    <nodeInfo nodeId="6160477238666723529" fileName="OrthogonalLayoutTestPanel.java" startLine="63" startPosition="48" endLine="64" endPosition="52" />
+    <nodeInfo nodeId="6160477238666723534" fileName="OrthogonalLayoutTestPanel.java" startLine="64" startPosition="52" endLine="65" endPosition="16" />
+    <nodeInfo nodeId="6160477238666723540" fileName="OrthogonalLayoutTestPanel.java" startLine="65" startPosition="16" endLine="66" endPosition="16" />
+    <nodeInfo nodeId="6160477238666723546" fileName="OrthogonalLayoutTestPanel.java" startLine="66" startPosition="16" endLine="67" endPosition="43" />
+    <nodeInfo nodeId="6160477238666742434" fileName="OrthogonalLayoutTestPanel.java" startLine="67" startPosition="43" endLine="68" endPosition="68" />
+    <nodeInfo nodeId="6160477238666740738" fileName="OrthogonalLayoutTestPanel.java" startLine="68" startPosition="68" endLine="69" endPosition="29" />
+    <nodeInfo nodeId="903391227141135438" fileName="OrthogonalLayoutTestPanel.java" startLine="72" startPosition="39" endLine="73" endPosition="41" />
+    <nodeInfo nodeId="903391227141135444" fileName="OrthogonalLayoutTestPanel.java" startLine="73" startPosition="41" endLine="74" endPosition="74" />
+    <nodeInfo nodeId="903391227141135450" fileName="OrthogonalLayoutTestPanel.java" startLine="74" startPosition="74" endLine="75" endPosition="41" />
+    <nodeInfo nodeId="903391227141135456" fileName="OrthogonalLayoutTestPanel.java" startLine="75" startPosition="41" endLine="76" endPosition="74" />
+    <nodeInfo nodeId="903391227141135468" fileName="OrthogonalLayoutTestPanel.java" startLine="76" startPosition="74" endLine="77" endPosition="52" />
+    <nodeInfo nodeId="903391227141135473" fileName="OrthogonalLayoutTestPanel.java" startLine="77" startPosition="52" endLine="78" endPosition="16" />
+    <nodeInfo nodeId="903391227141135479" fileName="OrthogonalLayoutTestPanel.java" startLine="78" startPosition="16" endLine="79" endPosition="16" />
+    <nodeInfo nodeId="903391227141135485" fileName="OrthogonalLayoutTestPanel.java" startLine="79" startPosition="16" endLine="80" endPosition="43" />
+    <nodeInfo nodeId="903391227141135491" fileName="OrthogonalLayoutTestPanel.java" startLine="80" startPosition="43" endLine="81" endPosition="30" />
+    <nodeInfo nodeId="903391227141135496" fileName="OrthogonalLayoutTestPanel.java" startLine="81" startPosition="30" endLine="82" endPosition="16" />
+    <nodeInfo nodeId="903391227141135502" fileName="OrthogonalLayoutTestPanel.java" startLine="82" startPosition="16" endLine="83" endPosition="30" />
+    <nodeInfo nodeId="903391227141135507" fileName="OrthogonalLayoutTestPanel.java" startLine="83" startPosition="30" endLine="84" endPosition="16" />
+    <nodeInfo nodeId="903391227141135518" fileName="OrthogonalLayoutTestPanel.java" startLine="84" startPosition="16" endLine="85" endPosition="16" />
+    <nodeInfo nodeId="903391227141135524" fileName="OrthogonalLayoutTestPanel.java" startLine="85" startPosition="16" endLine="86" endPosition="52" />
+    <nodeInfo nodeId="903391227141135546" fileName="OrthogonalLayoutTestPanel.java" startLine="89" startPosition="13" endLine="90" endPosition="69" />
+    <nodeInfo nodeId="903391227141135553" fileName="OrthogonalLayoutTestPanel.java" startLine="90" startPosition="69" endLine="91" endPosition="69" />
+    <nodeInfo nodeId="903391227141135560" fileName="OrthogonalLayoutTestPanel.java" startLine="91" startPosition="69" endLine="92" endPosition="18" />
+    <nodeInfo nodeId="903391227141136150" fileName="OrthogonalLayoutTestPanel.java" startLine="92" startPosition="18" endLine="93" endPosition="70" />
+    <nodeInfo nodeId="903391227141135582" fileName="OrthogonalLayoutTestPanel.java" startLine="93" startPosition="70" endLine="94" endPosition="24" />
+    <nodeInfo nodeId="903391227141135589" fileName="OrthogonalLayoutTestPanel.java" startLine="95" startPosition="31" endLine="96" endPosition="127" />
+    <nodeInfo nodeId="903391227141135597" fileName="OrthogonalLayoutTestPanel.java" startLine="99" startPosition="7" endLine="100" endPosition="21" />
+    <nodeInfo nodeId="903391227141135606" fileName="OrthogonalLayoutTestPanel.java" startLine="103" startPosition="39" endLine="104" endPosition="47" />
+    <nodeInfo nodeId="903391227141135612" fileName="OrthogonalLayoutTestPanel.java" startLine="104" startPosition="47" endLine="105" endPosition="52" />
+    <nodeInfo nodeId="903391227141135631" fileName="OrthogonalLayoutTestPanel.java" startLine="107" startPosition="51" endLine="108" endPosition="22" />
+    <nodeInfo nodeId="903391227141135633" fileName="OrthogonalLayoutTestPanel.java" startLine="108" startPosition="22" endLine="109" endPosition="31" />
+    <nodeInfo nodeId="903391227141135637" fileName="OrthogonalLayoutTestPanel.java" startLine="111" startPosition="7" endLine="112" endPosition="43" />
+    <nodeInfo nodeId="903391227141135643" fileName="OrthogonalLayoutTestPanel.java" startLine="112" startPosition="43" endLine="113" endPosition="51" />
+    <nodeInfo nodeId="903391227141135649" fileName="OrthogonalLayoutTestPanel.java" startLine="113" startPosition="51" endLine="114" endPosition="16" />
+    <nodeInfo nodeId="903391227141135655" fileName="OrthogonalLayoutTestPanel.java" startLine="114" startPosition="16" endLine="115" endPosition="16" />
+    <nodeInfo nodeId="903391227141135661" fileName="OrthogonalLayoutTestPanel.java" startLine="115" startPosition="16" endLine="116" endPosition="20" />
+    <nodeInfo nodeId="903391227141135667" fileName="OrthogonalLayoutTestPanel.java" startLine="116" startPosition="20" endLine="117" endPosition="21" />
+    <nodeInfo nodeId="903391227141135673" fileName="OrthogonalLayoutTestPanel.java" startLine="117" startPosition="21" endLine="118" endPosition="21" />
+    <nodeInfo nodeId="903391227141135682" fileName="OrthogonalLayoutTestPanel.java" startLine="121" startPosition="40" endLine="122" endPosition="21" />
+    <nodeInfo nodeId="903391227141135686" fileName="OrthogonalLayoutTestPanel.java" startLine="122" startPosition="21" endLine="123" endPosition="40" />
+    <nodeInfo nodeId="903391227141135697" fileName="OrthogonalLayoutTestPanel.java" startLine="124" startPosition="52" endLine="125" endPosition="68" />
+    <nodeInfo nodeId="903391227141135705" fileName="OrthogonalLayoutTestPanel.java" startLine="126" startPosition="5" endLine="127" endPosition="27" />
+    <nodeInfo nodeId="903391227141135710" fileName="OrthogonalLayoutTestPanel.java" startLine="127" startPosition="27" endLine="128" endPosition="67" />
+    <nodeInfo nodeId="903391227141135733" fileName="OrthogonalLayoutTestPanel.java" startLine="130" startPosition="67" endLine="131" endPosition="98" />
+    <nodeInfo nodeId="6160477238666742415" fileName="OrthogonalLayoutTestPanel.java" startLine="136" startPosition="30" endLine="137" endPosition="71" />
+    <nodeInfo nodeId="903391227141135758" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="71" endLine="138" endPosition="56" />
+    <nodeInfo nodeId="6160477238666745732" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="56" endLine="139" endPosition="94" />
+    <nodeInfo nodeId="903391227141135766" fileName="OrthogonalLayoutTestPanel.java" startLine="139" startPosition="94" endLine="140" endPosition="19" />
+    <nodeInfo nodeId="903391227141135772" fileName="OrthogonalLayoutTestPanel.java" startLine="141" startPosition="9" endLine="142" endPosition="37" />
+    <nodeInfo nodeId="1418350014056289095" fileName="OrthogonalLayoutTestPanel.java" startLine="143" startPosition="36" endLine="144" endPosition="49" />
+    <nodeInfo nodeId="1418350014056289115" fileName="OrthogonalLayoutTestPanel.java" startLine="144" startPosition="49" endLine="145" endPosition="107" />
+    <nodeInfo nodeId="903391227141135781" fileName="OrthogonalLayoutTestPanel.java" startLine="147" startPosition="42" endLine="148" endPosition="76" />
+    <nodeInfo nodeId="6160477238666745762" fileName="OrthogonalLayoutTestPanel.java" startLine="152" startPosition="68" endLine="153" endPosition="109" />
+    <nodeInfo nodeId="903391227141138873" fileName="OrthogonalLayoutTestPanel.java" startLine="155" startPosition="7" endLine="156" endPosition="63" />
+    <nodeInfo nodeId="903391227141135796" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="34" endLine="161" endPosition="39" />
+    <nodeInfo nodeId="903391227141135803" fileName="OrthogonalLayoutTestPanel.java" startLine="161" startPosition="39" endLine="162" endPosition="79" />
+    <nodeInfo nodeId="903391227141135809" fileName="OrthogonalLayoutTestPanel.java" startLine="162" startPosition="79" endLine="163" endPosition="52" />
+    <nodeInfo nodeId="903391227141135814" fileName="OrthogonalLayoutTestPanel.java" startLine="163" startPosition="52" endLine="164" endPosition="41" />
+    <nodeInfo nodeId="903391227141135820" fileName="OrthogonalLayoutTestPanel.java" startLine="164" startPosition="41" endLine="165" endPosition="48" />
+    <nodeInfo nodeId="903391227141135826" fileName="OrthogonalLayoutTestPanel.java" startLine="165" startPosition="48" endLine="166" endPosition="16" />
+    <nodeInfo nodeId="903391227141135832" fileName="OrthogonalLayoutTestPanel.java" startLine="166" startPosition="16" endLine="167" endPosition="16" />
+    <nodeInfo nodeId="903391227141135838" fileName="OrthogonalLayoutTestPanel.java" startLine="167" startPosition="16" endLine="168" endPosition="18" />
+    <nodeInfo nodeId="903391227141135844" fileName="OrthogonalLayoutTestPanel.java" startLine="168" startPosition="18" endLine="169" endPosition="28" />
+    <nodeInfo nodeId="903391227141135854" fileName="OrthogonalLayoutTestPanel.java" startLine="172" startPosition="35" endLine="173" endPosition="64" />
+    <nodeInfo nodeId="903391227141135859" fileName="OrthogonalLayoutTestPanel.java" startLine="173" startPosition="64" endLine="174" endPosition="77" />
+    <nodeInfo nodeId="903391227141135865" fileName="OrthogonalLayoutTestPanel.java" startLine="174" startPosition="77" endLine="175" endPosition="52" />
+    <nodeInfo nodeId="903391227141135870" fileName="OrthogonalLayoutTestPanel.java" startLine="175" startPosition="52" endLine="176" endPosition="37" />
+    <nodeInfo nodeId="903391227141135876" fileName="OrthogonalLayoutTestPanel.java" startLine="176" startPosition="37" endLine="177" endPosition="47" />
+    <nodeInfo nodeId="903391227141135882" fileName="OrthogonalLayoutTestPanel.java" startLine="177" startPosition="47" endLine="178" endPosition="48" />
+    <nodeInfo nodeId="903391227141135888" fileName="OrthogonalLayoutTestPanel.java" startLine="178" startPosition="48" endLine="179" endPosition="16" />
+    <nodeInfo nodeId="903391227141135894" fileName="OrthogonalLayoutTestPanel.java" startLine="179" startPosition="16" endLine="180" endPosition="16" />
+    <nodeInfo nodeId="903391227141135900" fileName="OrthogonalLayoutTestPanel.java" startLine="180" startPosition="16" endLine="181" endPosition="18" />
+    <nodeInfo nodeId="903391227141135906" fileName="OrthogonalLayoutTestPanel.java" startLine="181" startPosition="18" endLine="182" endPosition="18" />
+    <nodeInfo nodeId="903391227141135919" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="18" endLine="183" endPosition="47" />
+    <nodeInfo nodeId="903391227141136015" fileName="OrthogonalLayoutTestPanel.java" startLine="186" startPosition="32" endLine="187" endPosition="32" />
+    <nodeInfo nodeId="903391227141136020" fileName="OrthogonalLayoutTestPanel.java" startLine="187" startPosition="32" endLine="188" endPosition="57" />
+    <nodeInfo nodeId="903391227141136025" fileName="OrthogonalLayoutTestPanel.java" startLine="188" startPosition="57" endLine="189" endPosition="47" />
+    <nodeInfo nodeId="903391227141136031" fileName="OrthogonalLayoutTestPanel.java" startLine="189" startPosition="47" endLine="190" endPosition="68" />
+    <nodeInfo nodeId="903391227141136036" fileName="OrthogonalLayoutTestPanel.java" startLine="190" startPosition="68" endLine="191" endPosition="17" />
+    <nodeInfo nodeId="903391227141136040" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="17" endLine="192" endPosition="27" />
+    <nodeInfo nodeId="903391227141136059" fileName="OrthogonalLayoutTestPanel.java" startLine="197" startPosition="25" endLine="198" endPosition="17" />
+    <nodeInfo nodeId="6160477238666743957" fileName="OrthogonalLayoutTestPanel.java" startLine="203" startPosition="46" endLine="204" endPosition="30" />
+    <nodeInfo nodeId="6160477238666740870" fileName="OrthogonalLayoutTestPanel.java" startLine="206" startPosition="29" endLine="207" endPosition="44" />
+    <nodeInfo nodeId="6160477238666741127" fileName="OrthogonalLayoutTestPanel.java" startLine="207" startPosition="44" endLine="208" endPosition="54" />
+    <nodeInfo nodeId="6160477238666741132" fileName="OrthogonalLayoutTestPanel.java" startLine="208" startPosition="54" endLine="209" endPosition="43" />
+    <nodeInfo nodeId="6160477238666741138" fileName="OrthogonalLayoutTestPanel.java" startLine="209" startPosition="43" endLine="210" endPosition="18" />
+    <nodeInfo nodeId="6160477238666741159" fileName="OrthogonalLayoutTestPanel.java" startLine="210" startPosition="18" endLine="211" endPosition="18" />
+    <nodeInfo nodeId="6160477238666743968" fileName="OrthogonalLayoutTestPanel.java" startLine="211" startPosition="18" endLine="212" endPosition="66" />
+    <nodeInfo nodeId="6160477238666744023" fileName="OrthogonalLayoutTestPanel.java" startLine="214" startPosition="53" endLine="215" endPosition="28" />
+    <nodeInfo nodeId="6160477238666740909" fileName="OrthogonalLayoutTestPanel.java" startLine="217" startPosition="9" endLine="218" endPosition="23" />
+    <nodeInfo nodeId="6160477238666743977" fileName="OrthogonalLayoutTestPanel.java" startLine="218" startPosition="23" endLine="219" endPosition="24" />
+    <nodeInfo nodeId="6160477238666741096" fileName="OrthogonalLayoutTestPanel.java" startLine="219" startPosition="24" endLine="220" endPosition="18" />
+    <nodeInfo nodeId="6160477238666741166" fileName="OrthogonalLayoutTestPanel.java" startLine="220" startPosition="18" endLine="221" endPosition="48" />
+    <nodeInfo nodeId="6160477238666744063" fileName="OrthogonalLayoutTestPanel.java" startLine="223" startPosition="53" endLine="224" endPosition="28" />
+    <nodeInfo nodeId="6160477238666741173" fileName="OrthogonalLayoutTestPanel.java" startLine="226" startPosition="9" endLine="227" endPosition="23" />
+    <nodeInfo nodeId="6160477238666743988" fileName="OrthogonalLayoutTestPanel.java" startLine="227" startPosition="23" endLine="228" endPosition="24" />
+    <nodeInfo nodeId="6160477238666741182" fileName="OrthogonalLayoutTestPanel.java" startLine="228" startPosition="24" endLine="229" endPosition="18" />
+    <nodeInfo nodeId="6160477238666741188" fileName="OrthogonalLayoutTestPanel.java" startLine="229" startPosition="18" endLine="230" endPosition="52" />
+    <nodeInfo nodeId="6160477238666744082" fileName="OrthogonalLayoutTestPanel.java" startLine="232" startPosition="53" endLine="233" endPosition="28" />
+    <nodeInfo nodeId="6160477238666741194" fileName="OrthogonalLayoutTestPanel.java" startLine="235" startPosition="9" endLine="236" endPosition="23" />
+    <nodeInfo nodeId="6160477238666741201" fileName="OrthogonalLayoutTestPanel.java" startLine="236" startPosition="23" endLine="237" endPosition="24" />
+    <nodeInfo nodeId="6160477238666742152" fileName="OrthogonalLayoutTestPanel.java" startLine="237" startPosition="24" endLine="238" endPosition="31" />
+    <nodeInfo nodeId="6160477238666744005" fileName="OrthogonalLayoutTestPanel.java" startLine="238" startPosition="31" endLine="239" endPosition="24" />
+    <nodeInfo nodeId="6160477238666743961" fileName="OrthogonalLayoutTestPanel.java" startLine="242" startPosition="41" endLine="243" endPosition="27" />
+    <nodeInfo nodeId="903391227141135214" fileName="OrthogonalLayoutTestPanel.java" startLine="248" startPosition="27" endLine="249" endPosition="14" />
+    <nodeInfo nodeId="903391227141136096" fileName="OrthogonalLayoutTestPanel.java" startLine="254" startPosition="36" endLine="255" endPosition="55" />
+    <nodeInfo nodeId="903391227141136110" fileName="OrthogonalLayoutTestPanel.java" startLine="256" startPosition="14" endLine="257" endPosition="51" />
+    <nodeInfo nodeId="903391227141136108" fileName="OrthogonalLayoutTestPanel.java" startLine="256" startPosition="12" endLine="258" endPosition="7" />
+    <nodeInfo nodeId="903391227141135693" fileName="OrthogonalLayoutTestPanel.java" startLine="123" startPosition="40" endLine="126" endPosition="5" />
+    <nodeInfo nodeId="903391227141135727" fileName="OrthogonalLayoutTestPanel.java" startLine="129" startPosition="52" endLine="132" endPosition="7" />
+    <nodeInfo nodeId="1418350014056289141" fileName="OrthogonalLayoutTestPanel.java" startLine="151" startPosition="61" endLine="154" endPosition="9" />
+    <nodeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="247" startPosition="45" endLine="250" endPosition="5" />
+    <nodeInfo nodeId="1418350014056287950" fileName="OrthogonalLayoutTestPanel.java" startLine="142" startPosition="37" endLine="146" endPosition="7" />
+    <nodeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="196" startPosition="47" endLine="200" endPosition="0" />
+    <nodeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="213" startPosition="53" endLine="217" endPosition="0" />
+    <nodeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="222" startPosition="53" endLine="226" endPosition="0" />
+    <nodeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="231" startPosition="53" endLine="235" endPosition="0" />
+    <nodeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="241" startPosition="0" endLine="245" endPosition="0" />
+    <nodeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="106" startPosition="51" endLine="111" endPosition="0" />
+    <nodeInfo nodeId="903391227141135723" fileName="OrthogonalLayoutTestPanel.java" startLine="128" startPosition="67" endLine="133" endPosition="5" />
+    <nodeInfo nodeId="903391227141155926" fileName="OrthogonalLayoutTestPanel.java" startLine="150" startPosition="20" endLine="155" endPosition="7" />
+    <nodeInfo nodeId="903391227141136049" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="42" endLine="200" endPosition="7" />
+    <nodeInfo nodeId="6160477238666743998" fileName="OrthogonalLayoutTestPanel.java" startLine="212" startPosition="66" endLine="217" endPosition="9" />
+    <nodeInfo nodeId="6160477238666744049" fileName="OrthogonalLayoutTestPanel.java" startLine="221" startPosition="48" endLine="226" endPosition="9" />
+    <nodeInfo nodeId="6160477238666744068" fileName="OrthogonalLayoutTestPanel.java" startLine="230" startPosition="52" endLine="235" endPosition="9" />
+    <nodeInfo nodeId="903391227141136088" fileName="OrthogonalLayoutTestPanel.java" startLine="253" startPosition="51" endLine="258" endPosition="7" />
+    <nodeInfo nodeId="903391227141135617" fileName="OrthogonalLayoutTestPanel.java" startLine="105" startPosition="52" endLine="111" endPosition="7" />
+    <nodeInfo nodeId="903391227141138859" fileName="OrthogonalLayoutTestPanel.java" startLine="149" startPosition="5" endLine="157" endPosition="5" />
+    <nodeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="194" startPosition="0" endLine="202" endPosition="0" />
+    <nodeInfo nodeId="903391227141135544" fileName="OrthogonalLayoutTestPanel.java" startLine="88" startPosition="51" endLine="97" endPosition="9" />
+    <nodeInfo nodeId="903391227141135770" fileName="OrthogonalLayoutTestPanel.java" startLine="140" startPosition="19" endLine="149" endPosition="5" />
+    <nodeInfo nodeId="903391227141136011" fileName="OrthogonalLayoutTestPanel.java" startLine="185" startPosition="0" endLine="194" endPosition="0" />
+    <nodeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="0" endLine="260" endPosition="0" />
+    <nodeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="61" startPosition="0" endLine="71" endPosition="0" />
+    <nodeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="48" startPosition="0" endLine="60" endPosition="3" />
+    <nodeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="87" startPosition="51" endLine="99" endPosition="0" />
+    <nodeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="159" startPosition="0" endLine="171" endPosition="0" />
+    <nodeInfo nodeId="903391227141135530" fileName="OrthogonalLayoutTestPanel.java" startLine="86" startPosition="52" endLine="99" endPosition="7" />
+    <nodeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="171" startPosition="0" endLine="185" endPosition="0" />
+    <nodeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="0" endLine="135" endPosition="0" />
+    <nodeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="102" startPosition="0" endLine="120" endPosition="0" />
+    <nodeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="135" startPosition="0" endLine="159" endPosition="0" />
+    <nodeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="71" startPosition="0" endLine="102" endPosition="0" />
+    <nodeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="0" endLine="240" endPosition="5" />
+    <scopeInfo nodeId="903391227141135588" fileName="OrthogonalLayoutTestPanel.java" startLine="95" startPosition="31" endLine="96" endPosition="127" />
+    <scopeInfo nodeId="903391227141135696" fileName="OrthogonalLayoutTestPanel.java" startLine="124" startPosition="52" endLine="125" endPosition="68" />
+    <scopeInfo nodeId="903391227141135732" fileName="OrthogonalLayoutTestPanel.java" startLine="130" startPosition="67" endLine="131" endPosition="98" />
+    <scopeInfo nodeId="903391227141135780" fileName="OrthogonalLayoutTestPanel.java" startLine="147" startPosition="42" endLine="148" endPosition="76" />
+    <scopeInfo nodeId="1418350014056289143" fileName="OrthogonalLayoutTestPanel.java" startLine="152" startPosition="68" endLine="153" endPosition="109" />
+    <scopeInfo nodeId="903391227141136058" fileName="OrthogonalLayoutTestPanel.java" startLine="197" startPosition="25" endLine="198" endPosition="17" />
+    <scopeInfo nodeId="6160477238666744022" fileName="OrthogonalLayoutTestPanel.java" startLine="214" startPosition="53" endLine="215" endPosition="28" />
+    <scopeInfo nodeId="6160477238666744062" fileName="OrthogonalLayoutTestPanel.java" startLine="223" startPosition="53" endLine="224" endPosition="28" />
+    <scopeInfo nodeId="6160477238666744081" fileName="OrthogonalLayoutTestPanel.java" startLine="232" startPosition="53" endLine="233" endPosition="28" />
+    <scopeInfo nodeId="6160477238666742342" fileName="OrthogonalLayoutTestPanel.java" startLine="242" startPosition="41" endLine="243" endPosition="27" />
+    <scopeInfo nodeId="903391227141135213" fileName="OrthogonalLayoutTestPanel.java" startLine="248" startPosition="27" endLine="249" endPosition="14" />
+    <scopeInfo nodeId="903391227141136090" fileName="OrthogonalLayoutTestPanel.java" startLine="254" startPosition="36" endLine="255" endPosition="55" />
+    <scopeInfo nodeId="903391227141136109" fileName="OrthogonalLayoutTestPanel.java" startLine="256" startPosition="14" endLine="257" endPosition="51" />
+    <scopeInfo nodeId="903391227141135630" fileName="OrthogonalLayoutTestPanel.java" startLine="107" startPosition="51" endLine="109" endPosition="31" />
+    <scopeInfo nodeId="1418350014056287952" fileName="OrthogonalLayoutTestPanel.java" startLine="143" startPosition="36" endLine="145" endPosition="107">
       <varInfo nodeId="1418350014056289096" varName="node" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="45" endLine="194" endPosition="5" />
-    <scopeInfo nodeId="903391227141155929" fileName="OrthogonalLayoutTestPanel.java" startLine="138" startPosition="61" endLine="142" endPosition="9" />
-    <scopeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="184" startPosition="47" endLine="188" endPosition="0" />
-    <scopeInfo nodeId="903391227141135545" fileName="OrthogonalLayoutTestPanel.java" startLine="75" startPosition="13" endLine="80" endPosition="24">
+    <scopeInfo nodeId="903391227141135693" fileName="OrthogonalLayoutTestPanel.java" startLine="123" startPosition="40" endLine="126" endPosition="5" />
+    <scopeInfo nodeId="903391227141135726" fileName="OrthogonalLayoutTestPanel.java" startLine="129" startPosition="52" endLine="132" endPosition="7" />
+    <scopeInfo nodeId="903391227141135727" fileName="OrthogonalLayoutTestPanel.java" startLine="129" startPosition="52" endLine="132" endPosition="7" />
+    <scopeInfo nodeId="903391227141155929" fileName="OrthogonalLayoutTestPanel.java" startLine="151" startPosition="61" endLine="154" endPosition="9" />
+    <scopeInfo nodeId="903391227141135210" fileName="OrthogonalLayoutTestPanel.java" startLine="247" startPosition="45" endLine="250" endPosition="5" />
+    <scopeInfo nodeId="903391227141136055" fileName="OrthogonalLayoutTestPanel.java" startLine="196" startPosition="47" endLine="200" endPosition="0" />
+    <scopeInfo nodeId="6160477238666744017" fileName="OrthogonalLayoutTestPanel.java" startLine="213" startPosition="53" endLine="217" endPosition="0">
+      <varInfo nodeId="6160477238666744020" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="6160477238666744057" fileName="OrthogonalLayoutTestPanel.java" startLine="222" startPosition="53" endLine="226" endPosition="0">
+      <varInfo nodeId="6160477238666744060" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="6160477238666744076" fileName="OrthogonalLayoutTestPanel.java" startLine="231" startPosition="53" endLine="235" endPosition="0">
+      <varInfo nodeId="6160477238666744079" varName="p0" />
+    </scopeInfo>
+    <scopeInfo nodeId="6160477238666742339" fileName="OrthogonalLayoutTestPanel.java" startLine="241" startPosition="0" endLine="245" endPosition="0" />
+    <scopeInfo nodeId="903391227141135545" fileName="OrthogonalLayoutTestPanel.java" startLine="89" startPosition="13" endLine="94" endPosition="24">
       <varInfo nodeId="903391227141135561" varName="g" />
       <varInfo nodeId="903391227141135554" varName="numEdges" />
       <varInfo nodeId="903391227141135547" varName="numNodes" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="92" startPosition="51" endLine="97" endPosition="0">
+    <scopeInfo nodeId="903391227141135625" fileName="OrthogonalLayoutTestPanel.java" startLine="106" startPosition="51" endLine="111" endPosition="0">
       <varInfo nodeId="903391227141135628" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135723" fileName="OrthogonalLayoutTestPanel.java" startLine="114" startPosition="67" endLine="119" endPosition="5" />
-    <scopeInfo nodeId="903391227141136048" fileName="OrthogonalLayoutTestPanel.java" startLine="183" startPosition="42" endLine="188" endPosition="7" />
-    <scopeInfo nodeId="903391227141135221" fileName="OrthogonalLayoutTestPanel.java" startLine="197" startPosition="51" endLine="202" endPosition="7" />
-    <scopeInfo nodeId="903391227141135771" fileName="OrthogonalLayoutTestPanel.java" startLine="127" startPosition="9" endLine="133" endPosition="7" />
-    <scopeInfo nodeId="903391227141155926" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="20" endLine="143" endPosition="7" />
-    <scopeInfo nodeId="903391227141136014" fileName="OrthogonalLayoutTestPanel.java" startLine="174" startPosition="32" endLine="180" endPosition="27">
+    <scopeInfo nodeId="903391227141135723" fileName="OrthogonalLayoutTestPanel.java" startLine="128" startPosition="67" endLine="133" endPosition="5" />
+    <scopeInfo nodeId="903391227141135771" fileName="OrthogonalLayoutTestPanel.java" startLine="141" startPosition="9" endLine="146" endPosition="7" />
+    <scopeInfo nodeId="903391227141155926" fileName="OrthogonalLayoutTestPanel.java" startLine="150" startPosition="20" endLine="155" endPosition="7" />
+    <scopeInfo nodeId="903391227141136048" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="42" endLine="200" endPosition="7" />
+    <scopeInfo nodeId="903391227141135221" fileName="OrthogonalLayoutTestPanel.java" startLine="253" startPosition="51" endLine="258" endPosition="7" />
+    <scopeInfo nodeId="903391227141138860" fileName="OrthogonalLayoutTestPanel.java" startLine="150" startPosition="20" endLine="156" endPosition="63" />
+    <scopeInfo nodeId="903391227141136014" fileName="OrthogonalLayoutTestPanel.java" startLine="186" startPosition="32" endLine="192" endPosition="27">
       <varInfo nodeId="903391227141136016" varName="frame" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141138860" fileName="OrthogonalLayoutTestPanel.java" startLine="137" startPosition="20" endLine="144" endPosition="61" />
-    <scopeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="182" startPosition="0" endLine="190" endPosition="0">
+    <scopeInfo nodeId="6160477238666723344" fileName="OrthogonalLayoutTestPanel.java" startLine="62" startPosition="44" endLine="69" endPosition="29">
+      <varInfo nodeId="6160477238666723587" varName="buttonGroup" />
+      <varInfo nodeId="6160477238666723530" varName="c" />
+    </scopeInfo>
+    <scopeInfo nodeId="903391227141136045" fileName="OrthogonalLayoutTestPanel.java" startLine="194" startPosition="0" endLine="202" endPosition="0">
       <varInfo nodeId="903391227141136061" varName="args" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135950" fileName="OrthogonalLayoutTestPanel.java" startLine="46" startPosition="38" endLine="55" endPosition="36" />
-    <scopeInfo nodeId="903391227141135543" fileName="OrthogonalLayoutTestPanel.java" startLine="74" startPosition="51" endLine="83" endPosition="9" />
-    <scopeInfo nodeId="903391227141135795" fileName="OrthogonalLayoutTestPanel.java" startLine="148" startPosition="34" endLine="157" endPosition="28">
+    <scopeInfo nodeId="903391227141135543" fileName="OrthogonalLayoutTestPanel.java" startLine="88" startPosition="51" endLine="97" endPosition="9" />
+    <scopeInfo nodeId="903391227141135795" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="34" endLine="169" endPosition="28">
       <varInfo nodeId="903391227141135810" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141136011" fileName="OrthogonalLayoutTestPanel.java" startLine="173" startPosition="0" endLine="182" endPosition="0" />
-    <scopeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="195" startPosition="0" endLine="204" endPosition="0">
+    <scopeInfo nodeId="903391227141136011" fileName="OrthogonalLayoutTestPanel.java" startLine="185" startPosition="0" endLine="194" endPosition="0" />
+    <scopeInfo nodeId="903391227141135216" fileName="OrthogonalLayoutTestPanel.java" startLine="251" startPosition="0" endLine="260" endPosition="0">
       <varInfo nodeId="903391227141135219" varName="graphics" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="45" startPosition="0" endLine="56" endPosition="3" />
-    <scopeInfo nodeId="903391227141135853" fileName="OrthogonalLayoutTestPanel.java" startLine="160" startPosition="35" endLine="171" endPosition="47">
+    <scopeInfo nodeId="903391227141135950" fileName="OrthogonalLayoutTestPanel.java" startLine="49" startPosition="38" endLine="59" endPosition="36" />
+    <scopeInfo nodeId="6160477238666723341" fileName="OrthogonalLayoutTestPanel.java" startLine="61" startPosition="0" endLine="71" endPosition="0" />
+    <scopeInfo nodeId="903391227141135853" fileName="OrthogonalLayoutTestPanel.java" startLine="172" startPosition="35" endLine="183" endPosition="47">
       <varInfo nodeId="903391227141135866" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="73" startPosition="51" endLine="85" endPosition="0">
+    <scopeInfo nodeId="903391227141135947" fileName="OrthogonalLayoutTestPanel.java" startLine="48" startPosition="0" endLine="60" endPosition="3" />
+    <scopeInfo nodeId="903391227141135538" fileName="OrthogonalLayoutTestPanel.java" startLine="87" startPosition="51" endLine="99" endPosition="0">
       <varInfo nodeId="903391227141135541" varName="p0" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135681" fileName="OrthogonalLayoutTestPanel.java" startLine="107" startPosition="40" endLine="119" endPosition="5">
+    <scopeInfo nodeId="903391227141135681" fileName="OrthogonalLayoutTestPanel.java" startLine="121" startPosition="40" endLine="133" endPosition="5">
       <varInfo nodeId="903391227141135683" varName="numEdges" />
       <varInfo nodeId="903391227141135687" varName="nodes" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="147" startPosition="0" endLine="159" endPosition="0" />
-    <scopeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="159" startPosition="0" endLine="173" endPosition="0" />
-    <scopeInfo nodeId="903391227141135605" fileName="OrthogonalLayoutTestPanel.java" startLine="89" startPosition="39" endLine="104" endPosition="21">
+    <scopeInfo nodeId="903391227141135792" fileName="OrthogonalLayoutTestPanel.java" startLine="159" startPosition="0" endLine="171" endPosition="0" />
+    <scopeInfo nodeId="903391227141135850" fileName="OrthogonalLayoutTestPanel.java" startLine="171" startPosition="0" endLine="185" endPosition="0" />
+    <scopeInfo nodeId="903391227141135605" fileName="OrthogonalLayoutTestPanel.java" startLine="103" startPosition="39" endLine="118" endPosition="21">
       <varInfo nodeId="903391227141135613" varName="c" />
       <varInfo nodeId="903391227141135607" varName="button" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="106" startPosition="0" endLine="121" endPosition="0">
+    <scopeInfo nodeId="903391227141135678" fileName="OrthogonalLayoutTestPanel.java" startLine="120" startPosition="0" endLine="135" endPosition="0">
       <varInfo nodeId="903391227141135752" varName="graph" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="88" startPosition="0" endLine="106" endPosition="0" />
-    <scopeInfo nodeId="903391227141135757" fileName="OrthogonalLayoutTestPanel.java" startLine="122" startPosition="30" endLine="145" endPosition="5">
+    <scopeInfo nodeId="903391227141135602" fileName="OrthogonalLayoutTestPanel.java" startLine="102" startPosition="0" endLine="120" endPosition="0" />
+    <scopeInfo nodeId="903391227141135757" fileName="OrthogonalLayoutTestPanel.java" startLine="136" startPosition="30" endLine="157" endPosition="5">
       <varInfo nodeId="903391227141135767" varName="g" />
-      <varInfo nodeId="1418350014056287928" varName="xSize" />
-      <varInfo nodeId="1418350014056287941" varName="ySize" />
+      <varInfo nodeId="6160477238666745733" varName="nodeDimensions" />
       <varInfo nodeId="903391227141135759" varName="scanner" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="121" startPosition="0" endLine="147" endPosition="0" />
-    <scopeInfo nodeId="903391227141135437" fileName="OrthogonalLayoutTestPanel.java" startLine="58" startPosition="39" endLine="86" endPosition="21">
+    <scopeInfo nodeId="903391227141135754" fileName="OrthogonalLayoutTestPanel.java" startLine="135" startPosition="0" endLine="159" endPosition="0" />
+    <scopeInfo nodeId="903391227141135437" fileName="OrthogonalLayoutTestPanel.java" startLine="72" startPosition="39" endLine="100" endPosition="21">
       <varInfo nodeId="903391227141135525" varName="button" />
       <varInfo nodeId="903391227141135469" varName="c" />
     </scopeInfo>
-    <scopeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="57" startPosition="0" endLine="88" endPosition="0" />
-    <unitInfo nodeId="903391227141136053" fileName="OrthogonalLayoutTestPanel.java" startLine="184" startPosition="35" endLine="188" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$3" />
-    <unitInfo nodeId="903391227141135623" fileName="OrthogonalLayoutTestPanel.java" startLine="92" startPosition="33" endLine="97" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$2" />
-    <unitInfo nodeId="903391227141135536" fileName="OrthogonalLayoutTestPanel.java" startLine="73" startPosition="33" endLine="85" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$1" />
-    <unitInfo nodeId="903391227141135208" fileName="OrthogonalLayoutTestPanel.java" startLine="191" startPosition="0" endLine="205" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel$MyGraphLabel" />
-    <unitInfo nodeId="903391227141135207" fileName="OrthogonalLayoutTestPanel.java" startLine="34" startPosition="0" endLine="206" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel" />
+    <scopeInfo nodeId="903391227141135434" fileName="OrthogonalLayoutTestPanel.java" startLine="71" startPosition="0" endLine="102" endPosition="0" />
+    <scopeInfo nodeId="6160477238666740869" fileName="OrthogonalLayoutTestPanel.java" startLine="206" startPosition="29" endLine="239" endPosition="24">
+      <varInfo nodeId="6160477238666743969" varName="button" />
+      <varInfo nodeId="6160477238666741128" varName="c" />
+      <varInfo nodeId="6160477238666740871" varName="group" />
+    </scopeInfo>
+    <scopeInfo nodeId="6160477238666740866" fileName="OrthogonalLayoutTestPanel.java" startLine="205" startPosition="0" endLine="240" endPosition="5" />
+    <unitInfo nodeId="903391227141136053" fileName="OrthogonalLayoutTestPanel.java" startLine="196" startPosition="35" endLine="200" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$3" />
+    <unitInfo nodeId="6160477238666744015" fileName="OrthogonalLayoutTestPanel.java" startLine="213" startPosition="35" endLine="217" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$1" />
+    <unitInfo nodeId="6160477238666744055" fileName="OrthogonalLayoutTestPanel.java" startLine="222" startPosition="35" endLine="226" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$2" />
+    <unitInfo nodeId="6160477238666744074" fileName="OrthogonalLayoutTestPanel.java" startLine="231" startPosition="35" endLine="235" endPosition="7" unitName="visualization.OrthogonalLayoutTestPanel$3" />
+    <unitInfo nodeId="903391227141135623" fileName="OrthogonalLayoutTestPanel.java" startLine="106" startPosition="33" endLine="111" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$2" />
+    <unitInfo nodeId="903391227141135536" fileName="OrthogonalLayoutTestPanel.java" startLine="87" startPosition="33" endLine="99" endPosition="5" unitName="visualization.OrthogonalLayoutTestPanel$1" />
+    <unitInfo nodeId="903391227141135208" fileName="OrthogonalLayoutTestPanel.java" startLine="247" startPosition="0" endLine="261" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel$MyGraphLabel" />
+    <unitInfo nodeId="6160477238666740861" fileName="OrthogonalLayoutTestPanel.java" startLine="203" startPosition="0" endLine="246" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel$MyLayoutChoice" />
+    <unitInfo nodeId="903391227141135207" fileName="OrthogonalLayoutTestPanel.java" startLine="36" startPosition="0" endLine="262" endPosition="0" unitName="visualization.OrthogonalLayoutTestPanel" />
   </root>
 </debugInfo>
 

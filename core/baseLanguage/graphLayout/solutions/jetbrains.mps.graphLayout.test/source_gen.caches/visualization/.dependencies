@@ -47,9 +47,11 @@
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Scanner" />
     <classNode dependClassName="javax.swing.BorderFactory" />
+    <classNode dependClassName="javax.swing.ButtonGroup" />
     <classNode dependClassName="javax.swing.JButton" />
     <classNode dependClassName="javax.swing.JFrame" />
     <classNode dependClassName="javax.swing.JOptionPane" />
+    <classNode dependClassName="javax.swing.JRadioButton" />
     <classNode dependClassName="javax.swing.JScrollPane" />
     <classNode dependClassName="javax.swing.JTextArea" />
     <classNode dependClassName="javax.swing.JTextField" />

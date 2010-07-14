@@ -3,12 +3,12 @@
   <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" file="LayoutOptimizer.java">
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.awt.Rectangle" />
-    <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.List" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graphLayout.GraphLayout" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.GeomUtil" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
@@ -85,6 +85,7 @@
     <classNode extendsClassName="jetbrains.mps.graphLayout.graphLayout.ILayouter" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter" file="RectOrthogonalLayouter.java">
+    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Comparable" />
@@ -111,7 +112,9 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" />
     <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.NodeConstraintsSupporter" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.GeomUtil" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.IWhereFilter" />

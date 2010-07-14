@@ -9,6 +9,15 @@ import java.util.Scanner;
 import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.algorithms.STNumbering;
+import jetbrains.mps.graphLayout.algorithms.BiconnectAugmentation;
+import jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph;
+import jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder;
+import jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder;
+import java.util.List;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import java.util.ArrayList;
+import jetbrains.mps.graphLayout.planarGraph.Dart;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 
 public class STNumbering_Test extends TestCase {
   public void test_test1() throws Exception {
@@ -30,5 +39,33 @@ public class STNumbering_Test extends TestCase {
     Graph graph = GraphIO.scanGraph(new Scanner(graphString));
     Map<Node, Integer> numbering = STNumbering.number(graph, graph.getNode(0), graph.getNode(4));
     STNumberingChecker.check(graph, graph.getNode(0), graph.getNode(4), numbering);
+  }
+
+  public void test_test2() throws Exception {
+    String graphString = "7 15 \n 0 1  \n0 4  \n1 4  \n1 3  \n1 2  \n1 6  \n2 0  \n3 0  \n3 6  \n4 2  \n5 6  \n5 2  \n5 1  \n5 3\n  6 4\n";
+    Graph graph = GraphIO.scanGraph(new Scanner(graphString));
+    BiconnectAugmentation.makeBiconnected(graph);
+    final int maxIndex = graph.getNumNodes();
+    EmbeddedGraph embeddedGraph = new ShortestPathEmbeddingFinder(new BiconnectedInitialEmbeddingFinder()).find(graph);
+    List<Node> outerNodes = ListSequence.fromList(new ArrayList<Node>());
+    BiconnectivityChecker.check(graph);
+    for (Dart dart : ListSequence.fromList(embeddedGraph.getOuterFace().getDarts())) {
+      ListSequence.fromList(outerNodes).addElement(dart.getTarget());
+    }
+    System.out.println(outerNodes);
+    outerNodes = ListSequence.fromList(outerNodes).where(new IWhereFilter<Node>() {
+      public boolean accept(Node it) {
+        return it.getIndex() < maxIndex;
+      }
+    }).toListSequence();
+    Node s = ListSequence.fromList(outerNodes).getElement(0);
+    Node t = ListSequence.fromList(outerNodes).getElement((ListSequence.fromList(outerNodes).count()) / 2);
+    /*
+      System.out.println(graph);
+    */
+    Map<Node, Integer> numbering = STNumbering.number(graph, s, t);
+    System.out.println("s = " + s + ", t = " + t);
+    System.out.println(numbering);
+    STNumberingChecker.check(graph, s, t, numbering);
   }
 }

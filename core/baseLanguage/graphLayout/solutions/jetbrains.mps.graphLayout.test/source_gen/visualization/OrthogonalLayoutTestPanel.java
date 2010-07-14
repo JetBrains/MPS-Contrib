@@ -9,8 +9,9 @@ import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
-import javax.swing.BorderFactory;
+import javax.swing.ButtonGroup;
 import java.awt.GridBagConstraints;
+import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
@@ -28,12 +29,13 @@ import java.util.HashMap;
 import javax.swing.JScrollPane;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
+import javax.swing.JRadioButton;
 import javax.swing.JLabel;
 import java.awt.Graphics;
 
 public class OrthogonalLayoutTestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
-  private static int DEFAULT_NODE_SIZE = 30;
+  private static int DEFAULT_NODE_SIZE = 40;
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
@@ -42,17 +44,29 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   private GraphLayout myCurrentLayout;
   private JTextField myNumEdgesField;
   private JTextField myNumNodesField;
+  private OrthogonalLayoutTestPanel.MyLayoutChoice myLayoutChoice;
 
   public OrthogonalLayoutTestPanel() {
     this.setLayout(new GridBagLayout());
     createDoLayoutButton();
     createNewGraphButton();
+    createLayoutChoiceButtons();
     createTextPanel();
     createGraphPanel();
     myLayouter = new RectOrthogonalLayouter();
-    myLayouter.setEdgeDistance(15);
+    myLayouter.setEdgeDistance(20);
     myCurrentLayout = null;
     myPainter = new LayoutPainter();
+  }
+
+  private void createLayoutChoiceButtons() {
+    ButtonGroup buttonGroup = new ButtonGroup();
+    GridBagConstraints c = new GridBagConstraints();
+    c.gridy = 0;
+    c.gridx = 2;
+    c.fill = GridBagConstraints.HORIZONTAL;
+    myLayoutChoice = new OrthogonalLayoutTestPanel.MyLayoutChoice();
+    this.add(myLayoutChoice);
   }
 
   private void createNewGraphButton() {
@@ -76,7 +90,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
           int numNodes = Integer.parseInt(myNumNodesField.getText());
           int numEdges = Integer.parseInt(myNumEdgesField.getText());
           Graph g;
-          g = RandomGraphGenerator.generateLayeredGraph(numNodes, numEdges);
+          g = RandomGraphGenerator.generateSimple(numNodes, numEdges);
           writeGraph(g);
         } catch (Exception e) {
           JOptionPane.showMessageDialog(OrthogonalLayoutTestPanel.this, "enter number of nodes and edges...\n" + e.toString());
@@ -120,28 +134,26 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   }
 
   private void layoutGraph() {
+    myLayouter.setLayoutLevel(myLayoutChoice.getSelectedLayoutLavel());
     Scanner scanner = new Scanner(myTextArea.getText());
-    Map<Node, Integer> xSize = MapSequence.fromMap(new HashMap<Node, Integer>());
-    Map<Node, Integer> ySize = MapSequence.fromMap(new HashMap<Node, Integer>());
+    Map<Node, Dimension> nodeDimensions = MapSequence.fromMap(new HashMap<Node, Dimension>());
     Graph g = null;
     try {
       g = GraphIO.scanGraph(scanner);
       while (scanner.hasNextInt()) {
         Node node = g.getNode(scanner.nextInt());
-        MapSequence.fromMap(xSize).put(node, scanner.nextInt());
-        MapSequence.fromMap(ySize).put(node, scanner.nextInt());
+        MapSequence.fromMap(nodeDimensions).put(node, new Dimension(scanner.nextInt(), scanner.nextInt()));
       }
     } catch (IllegalArgumentException e) {
       JOptionPane.showMessageDialog(this, "something is wrong in graph...");
     }
     if (g != null) {
       for (Node node : ListSequence.fromList(g.getNodes())) {
-        if (MapSequence.fromMap(xSize).get(node) == null) {
-          MapSequence.fromMap(xSize).put(node, DEFAULT_NODE_SIZE);
-          MapSequence.fromMap(ySize).put(node, DEFAULT_NODE_SIZE);
+        if (MapSequence.fromMap(nodeDimensions).get(node) == null) {
+          MapSequence.fromMap(nodeDimensions).put(node, new Dimension(DEFAULT_NODE_SIZE, DEFAULT_NODE_SIZE));
         }
       }
-      myCurrentLayout = myLayouter.doLayout(g, xSize, ySize);
+      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions);
     }
   }
 
@@ -186,6 +198,50 @@ public class OrthogonalLayoutTestPanel extends JPanel {
         create();
       }
     });
+  }
+
+  public class MyLayoutChoice extends JPanel {
+    private int myLayoutLevel;
+
+    public MyLayoutChoice() {
+      ButtonGroup group = new ButtonGroup();
+      GridBagConstraints c = new GridBagConstraints();
+      c.fill = GridBagConstraints.VERTICAL;
+      c.gridx = 0;
+      c.gridy = 0;
+      JRadioButton button = new JRadioButton("visibility layout");
+      button.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent p0) {
+          myLayoutLevel = 0;
+        }
+      });
+      this.add(button);
+      group.add(button);
+      c.gridy = 1;
+      button = new JRadioButton("graph layout");
+      button.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent p0) {
+          myLayoutLevel = 1;
+        }
+      });
+      this.add(button);
+      group.add(button);
+      c.gridy = 2;
+      button = new JRadioButton("optimized layout");
+      button.addActionListener(new ActionListener() {
+        public void actionPerformed(ActionEvent p0) {
+          myLayoutLevel = 2;
+        }
+      });
+      this.add(button);
+      group.add(button);
+      button.setSelected(true);
+      myLayoutLevel = 2;
+    }
+
+    public int getSelectedLayoutLavel() {
+      return myLayoutLevel;
+    }
   }
 
   private class MyGraphLabel extends JLabel {

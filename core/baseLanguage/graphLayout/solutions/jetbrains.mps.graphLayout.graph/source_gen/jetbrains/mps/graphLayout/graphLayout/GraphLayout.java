@@ -11,6 +11,10 @@ import java.util.List;
 import java.awt.Point;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
+import jetbrains.mps.internal.collections.runtime.SetSequence;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
+import jetbrains.mps.internal.collections.runtime.Sequence;
+import java.util.ArrayList;
 
 public class GraphLayout {
   private Graph myGraph;
@@ -57,5 +61,77 @@ public class GraphLayout {
 
   public Graph getGraph() {
     return this.myGraph;
+  }
+
+  public void refineEdgeLayout() {
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(myEdgeLayout).keySet())) {
+      Rectangle rect = MapSequence.fromMap(myNodeLayout).get(edge.getSource());
+      List<Point> path = MapSequence.fromMap(myEdgeLayout).get(edge);
+      Point p = moveToBorder(rect, ListSequence.fromList(path).getElement(0), ListSequence.fromList(path).getElement(1));
+      if (p != null) {
+        ListSequence.fromList(path).setElement(0, p);
+      }
+      rect = MapSequence.fromMap(myNodeLayout).get(edge.getTarget());
+      p = moveToBorder(rect, ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 1), ListSequence.fromList(path).getElement(ListSequence.fromList(path).count() - 2));
+      if (p != null) {
+        ListSequence.fromList(path).setElement(ListSequence.fromList(path).count() - 1, p);
+      }
+    }
+    for (List<Point> path : Sequence.fromIterable(MapSequence.fromMap(myEdgeLayout).values())) {
+      boolean ver = ListSequence.fromList(path).getElement(0).x == ListSequence.fromList(path).getElement(1).x;
+      int i = 2;
+      while (i < ListSequence.fromList(path).count()) {
+        boolean curVer = ListSequence.fromList(path).getElement(i - 1).x == ListSequence.fromList(path).getElement(i).x;
+        if (curVer == ver) {
+          ListSequence.fromList(path).removeElementAt(i - 1);
+        } else {
+          i++;
+          ver = curVer;
+        }
+      }
+    }
+  }
+
+  public Point moveToBorder(Rectangle rect, Point b, Point e) {
+    List<Point> rectPoints = ListSequence.fromList(new ArrayList<Point>());
+    boolean ver = b.x == e.x;
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x, rect.y));
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x, rect.y + rect.height));
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y));
+    ListSequence.fromList(rectPoints).addElement(new Point(rect.x + rect.width, rect.y + rect.height));
+    for (Point p : ListSequence.fromList(rectPoints)) {
+      if (ver) {
+        if (p.x == b.x && (p.y - b.y) * (p.y - e.y) < 0) {
+          return p;
+        }
+      } else {
+        if (p.y == b.y && (p.x - b.x) * (p.x - e.x) < 0) {
+          return p;
+        }
+      }
+    }
+    return null;
+  }
+
+  public Rectangle getContainingRectangle() {
+    int minX = Integer.MAX_VALUE;
+    int minY = Integer.MAX_VALUE;
+    int maxX = Integer.MIN_VALUE;
+    int maxY = Integer.MIN_VALUE;
+    for (Rectangle nodeRect : Sequence.fromIterable(MapSequence.fromMap(myNodeLayout).values())) {
+      minX = Math.min(minX, nodeRect.x);
+      minY = Math.min(minY, nodeRect.y);
+      maxX = Math.max(maxX, nodeRect.x + nodeRect.width);
+      maxY = Math.max(maxY, nodeRect.x + nodeRect.height);
+    }
+    for (List<Point> path : Sequence.fromIterable(MapSequence.fromMap(myEdgeLayout).values())) {
+      for (Point p : ListSequence.fromList(path)) {
+        minX = Math.min(minX, p.x);
+        minY = Math.min(minY, p.y);
+        maxX = Math.max(maxX, p.x);
+        maxY = Math.max(maxY, p.y);
+      }
+    }
+    return new Rectangle(minX, minY, maxX - minX, maxY - minY);
   }
 }
