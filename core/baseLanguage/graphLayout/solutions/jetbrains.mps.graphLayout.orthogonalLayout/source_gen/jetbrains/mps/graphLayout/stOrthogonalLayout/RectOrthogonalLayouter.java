@@ -76,7 +76,11 @@ public class RectOrthogonalLayouter {
       Edge newEdge = MapSequence.fromMap(newNodes).get(edge.getSource()).addEdgeTo(MapSequence.fromMap(newNodes).get(edge.getTarget()));
       MapSequence.fromMap(newEdges).put(edge, newEdge);
       Graph subgraph = MapSequence.fromMap(nodeSubgraphs).get(edge.getSource());
-      MapSequence.fromMap(MapSequence.fromMap(subEdgeSizes).get(subgraph)).put(newEdge, new Dimension(MapSequence.fromMap(edgeSizes).get(edge).width + myEdgeDistance, MapSequence.fromMap(edgeSizes).get(edge).height + myEdgeDistance));
+      if (MapSequence.fromMap(edgeSizes).get(edge) == null) {
+        MapSequence.fromMap(MapSequence.fromMap(subEdgeSizes).get(subgraph)).put(newEdge, new Dimension(myEdgeDistance, myEdgeDistance));
+      } else {
+        MapSequence.fromMap(MapSequence.fromMap(subEdgeSizes).get(subgraph)).put(newEdge, new Dimension(MapSequence.fromMap(edgeSizes).get(edge).width + myEdgeDistance, MapSequence.fromMap(edgeSizes).get(edge).height + myEdgeDistance));
+      }
     }
     Map<Graph, GraphLayout> subgraphLayouts = MapSequence.fromMap(new HashMap<Graph, GraphLayout>());
     int shiftX = 0;
@@ -94,7 +98,9 @@ public class RectOrthogonalLayouter {
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
       GraphLayout subgraphLayout = MapSequence.fromMap(subgraphLayouts).get(MapSequence.fromMap(nodeSubgraphs).get(edge.getSource()));
       layout.setLayoutFor(edge, subgraphLayout.getLayoutFor(MapSequence.fromMap(newEdges).get(edge)));
-      layout.setLabelLayout(edge, subgraphLayout.getLabelLayout(MapSequence.fromMap(myMovedLabels).get(MapSequence.fromMap(newEdges).get(edge))));
+      if (MapSequence.fromMap(edgeSizes).containsKey(edge)) {
+        layout.setLabelLayout(edge, subgraphLayout.getLabelLayout(MapSequence.fromMap(myMovedLabels).get(MapSequence.fromMap(newEdges).get(edge))));
+      }
     }
     if (myLayoutLevel == 0) {
       return MapSequence.fromMap(subgraphLayouts).get(ListSequence.fromList(subgraphs).getElement(0));
@@ -189,6 +195,7 @@ public class RectOrthogonalLayouter {
         } else {
           targetPoint = new Point(ListSequence.fromList(targetHistoryPath).first());
         }
+        Edge prev = null;
         for (Edge edge : ListSequence.fromList(history)) {
           List<Point> edgeLayout = graphLayout.getLayoutFor(edge);
           if (edge.getSource() != cur) {
@@ -205,6 +212,17 @@ public class RectOrthogonalLayouter {
               ListSequence.fromList(oldEdgeLayout).getElement(last - 1).translate(shift, 0);
               ListSequence.fromList(edgeLayout).getElement(0).translate(shift, 0);
               ListSequence.fromList(edgeLayout).getElement(1).translate(shift, 0);
+              // if edge has a label, it should be shifted too  
+              Rectangle labelRect = graphLayout.getLabelLayout(edge);
+              if (labelRect != null) {
+                labelRect.setLocation(labelRect.x + shift, labelRect.y);
+              }
+              if (prev != null) {
+                labelRect = graphLayout.getLabelLayout(prev);
+                if (labelRect != null) {
+                  labelRect.setLocation(labelRect.x + shift, labelRect.y);
+                }
+              }
             } else {
               y = rect.y;
               SetSequence.fromSet(visited).addElement(cur);
@@ -213,6 +231,7 @@ public class RectOrthogonalLayouter {
             Point right = ListSequence.fromList(edgeLayout).removeElementAt(0);
             ListSequence.fromList(oldEdgeLayout).addElement(new Point(left.x, y));
             ListSequence.fromList(edgeLayout).insertElement(0, new Point(right.x, y));
+            prev = edge;
           }
           ListSequence.fromList(oldEdgeLayout).addSequence(ListSequence.fromList(edgeLayout));
           cur = edge.getOpposite(cur);

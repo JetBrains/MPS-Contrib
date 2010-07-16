@@ -9,7 +9,6 @@ import jetbrains.mps.graphLayout.stOrthogonalLayout.RectOrthogonalLayouter;
 import jetbrains.mps.graphLayout.graphLayout.GraphLayout;
 import javax.swing.JTextField;
 import java.awt.GridBagLayout;
-import javax.swing.ButtonGroup;
 import java.awt.GridBagConstraints;
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -19,17 +18,19 @@ import jetbrains.mps.graphLayout.graph.Graph;
 import sampleGraphs.RandomGraphGenerator;
 import javax.swing.JOptionPane;
 import java.util.List;
-import jetbrains.mps.graphLayout.graph.Node;
-import jetbrains.mps.internal.collections.runtime.ListSequence;
 import jetbrains.mps.graphLayout.graph.Edge;
+import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.Scanner;
 import java.util.Map;
+import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
+import jetbrains.mps.internal.collections.runtime.IWhereFilter;
 import javax.swing.JScrollPane;
 import javax.swing.JFrame;
 import javax.swing.SwingUtilities;
 import javax.swing.JRadioButton;
+import javax.swing.ButtonGroup;
 import javax.swing.JLabel;
 import java.awt.Graphics;
 
@@ -62,7 +63,6 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   }
 
   private void createLayoutChoiceButtons() {
-    ButtonGroup buttonGroup = new ButtonGroup();
     GridBagConstraints c = new GridBagConstraints();
     c.gridy = 0;
     c.gridx = 2;
@@ -121,18 +121,13 @@ public class OrthogonalLayoutTestPanel extends JPanel {
   }
 
   private void writeGraph(Graph graph) {
-    int numEdges = 0;
-    List<Node> nodes = graph.getNodes();
-    for (Node node : ListSequence.fromList(nodes)) {
-      numEdges += ListSequence.fromList(node.getOutEdges()).count();
-    }
+    List<Edge> edges = graph.getEdges();
     myTextArea.setText("");
-    myTextArea.append(graph.getNumNodes() + " " + numEdges + "\n");
-    for (Node node : ListSequence.fromList(nodes)) {
-      for (Edge edge : ListSequence.fromList(node.getOutEdges())) {
-        myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "\n");
-      }
+    myTextArea.append(graph.getNumNodes() + " " + ListSequence.fromList(edges).count() + "\n");
+    for (Edge edge : ListSequence.fromList(graph.getEdges())) {
+      myTextArea.append(edge.getSource().getIndex() + " " + edge.getTarget().getIndex() + "\n");
     }
+    myTextArea.append("\n\n 0 \n 0 \n");
   }
 
   private void layoutGraph() {
@@ -143,9 +138,21 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     Graph g = null;
     try {
       g = GraphIO.scanGraph(scanner);
-      while (scanner.hasNextInt()) {
+      int numNodeSizes = scanner.nextInt();
+      for (int i = 0; i < numNodeSizes; i++) {
         Node node = g.getNode(scanner.nextInt());
         MapSequence.fromMap(nodeDimensions).put(node, new Dimension(scanner.nextInt(), scanner.nextInt()));
+      }
+      int edgeLabelSizes = scanner.nextInt();
+      for (int i = 0; i < edgeLabelSizes; i++) {
+        Node source = g.getNode(scanner.nextInt());
+        final Node target = g.getNode(scanner.nextInt());
+        Edge edge = ListSequence.fromList(source.getOutEdges()).where(new IWhereFilter<Edge>() {
+          public boolean accept(Edge it) {
+            return it.getTarget() == target;
+          }
+        }).first();
+        MapSequence.fromMap(edgeDimensions).put(edge, new Dimension(scanner.nextInt(), scanner.nextInt()));
       }
     } catch (IllegalArgumentException e) {
       JOptionPane.showMessageDialog(this, "something is wrong in graph...");
@@ -156,9 +163,11 @@ public class OrthogonalLayoutTestPanel extends JPanel {
           MapSequence.fromMap(nodeDimensions).put(node, new Dimension(DEFAULT_NODE_SIZE, DEFAULT_NODE_SIZE));
         }
       }
-      for (Edge edge : ListSequence.fromList(g.getEdges())) {
-        if (MapSequence.fromMap(edgeDimensions).get(edge) == null) {
-          MapSequence.fromMap(edgeDimensions).put(edge, new Dimension(DEFAULT_EDGE_X_SIZE, DEFAULT_EDGE_Y_SIZE));
+      if (myLayoutChoice.isSetLabels()) {
+        for (Edge edge : ListSequence.fromList(g.getEdges())) {
+          if (MapSequence.fromMap(edgeDimensions).get(edge) == null) {
+            MapSequence.fromMap(edgeDimensions).put(edge, new Dimension(DEFAULT_EDGE_X_SIZE, DEFAULT_EDGE_Y_SIZE));
+          }
         }
       }
       myCurrentLayout = myLayouter.doLayout(g, nodeDimensions, edgeDimensions);
@@ -210,6 +219,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
 
   public class MyLayoutChoice extends JPanel {
     private int myLayoutLevel;
+    private JRadioButton myLabelForAllEdges;
 
     public MyLayoutChoice() {
       ButtonGroup group = new ButtonGroup();
@@ -244,11 +254,20 @@ public class OrthogonalLayoutTestPanel extends JPanel {
       this.add(button);
       group.add(button);
       button.setSelected(true);
+      c.gridy = 3;
+      button = new JRadioButton("add labels for each edge");
+      this.add(button);
+      button.setSelected(true);
+      myLabelForAllEdges = button;
       myLayoutLevel = 2;
     }
 
     public int getSelectedLayoutLavel() {
       return myLayoutLevel;
+    }
+
+    public boolean isSetLabels() {
+      return myLabelForAllEdges.isSelected();
     }
   }
 

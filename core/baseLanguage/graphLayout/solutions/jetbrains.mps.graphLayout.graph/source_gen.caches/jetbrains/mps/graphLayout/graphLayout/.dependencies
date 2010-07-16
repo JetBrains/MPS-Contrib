@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="jetbrains.mps.graphLayout.graphLayout.EdgeLayout" file="EdgeLayout.java">
-    <classNode dependClassName="java.awt.Dimension" />
-    <classNode dependClassName="java.awt.Point" />
-    <classNode dependClassName="java.util.List" />
-  </dependency>
   <dependency className="jetbrains.mps.graphLayout.graphLayout.GraphLayout" file="GraphLayout.java">
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.awt.Rectangle" />

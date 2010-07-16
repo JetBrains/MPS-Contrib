@@ -140,6 +140,7 @@
     <nodeInfo nodeId="6160477238666701902" fileName="GeomUtil.java" startLine="48" startPosition="52" endLine="49" endPosition="39" />
     <nodeInfo nodeId="6160477238666701913" fileName="GeomUtil.java" startLine="51" startPosition="65" endLine="52" endPosition="52" />
     <nodeInfo nodeId="6160477238666701829" fileName="GeomUtil.java" startLine="54" startPosition="5" endLine="55" endPosition="16" />
+    <nodeInfo nodeId="8680836410351713691" fileName="GeomUtil.java" startLine="58" startPosition="76" endLine="59" endPosition="56" />
     <nodeInfo nodeId="6160477238666701766" fileName="GeomUtil.java" startLine="39" startPosition="23" endLine="42" endPosition="7" />
     <nodeInfo nodeId="6160477238666701824" fileName="GeomUtil.java" startLine="42" startPosition="7" endLine="45" endPosition="7" />
     <nodeInfo nodeId="6160477238666701890" fileName="GeomUtil.java" startLine="47" startPosition="23" endLine="50" endPosition="7" />
@@ -147,6 +148,7 @@
     <nodeInfo nodeId="5639900666367221376" fileName="GeomUtil.java" startLine="8" startPosition="23" endLine="12" endPosition="0" />
     <nodeInfo nodeId="5639900666367292092" fileName="GeomUtil.java" startLine="12" startPosition="0" endLine="16" endPosition="0" />
     <nodeInfo nodeId="6160477238666598196" fileName="GeomUtil.java" startLine="33" startPosition="0" endLine="37" endPosition="0" />
+    <nodeInfo nodeId="8680836410351713675" fileName="GeomUtil.java" startLine="57" startPosition="0" endLine="61" endPosition="0" />
     <nodeInfo nodeId="5639900666367221478" fileName="GeomUtil.java" startLine="16" startPosition="0" endLine="24" endPosition="0" />
     <nodeInfo nodeId="6160477238666701748" fileName="GeomUtil.java" startLine="38" startPosition="72" endLine="46" endPosition="5" />
     <nodeInfo nodeId="6160477238666701871" fileName="GeomUtil.java" startLine="46" startPosition="5" endLine="54" endPosition="5" />
@@ -159,6 +161,7 @@
     <scopeInfo nodeId="6160477238666701825" fileName="GeomUtil.java" startLine="43" startPosition="66" endLine="44" endPosition="53" />
     <scopeInfo nodeId="6160477238666701901" fileName="GeomUtil.java" startLine="48" startPosition="52" endLine="49" endPosition="39" />
     <scopeInfo nodeId="6160477238666701912" fileName="GeomUtil.java" startLine="51" startPosition="65" endLine="52" endPosition="52" />
+    <scopeInfo nodeId="8680836410351713678" fileName="GeomUtil.java" startLine="58" startPosition="76" endLine="59" endPosition="56" />
     <scopeInfo nodeId="5639900666367221376" fileName="GeomUtil.java" startLine="8" startPosition="23" endLine="12" endPosition="0">
       <varInfo nodeId="5639900666367221382" varName="end2" />
       <varInfo nodeId="5639900666367221380" varName="end1" />
@@ -172,6 +175,12 @@
     <scopeInfo nodeId="6160477238666598196" fileName="GeomUtil.java" startLine="33" startPosition="0" endLine="37" endPosition="0">
       <varInfo nodeId="6160477238666598203" varName="p" />
       <varInfo nodeId="6160477238666598201" varName="rect" />
+    </scopeInfo>
+    <scopeInfo nodeId="8680836410351713675" fileName="GeomUtil.java" startLine="57" startPosition="0" endLine="61" endPosition="0">
+      <varInfo nodeId="8680836410351713688" varName="maxY" />
+      <varInfo nodeId="8680836410351713682" varName="maxX" />
+      <varInfo nodeId="8680836410351713680" varName="minX" />
+      <varInfo nodeId="8680836410351713685" varName="minY" />
     </scopeInfo>
     <scopeInfo nodeId="5639900666367221481" fileName="GeomUtil.java" startLine="17" startPosition="60" endLine="22" endPosition="63">
       <varInfo nodeId="5639900666367221537" varName="maxY" />
@@ -198,7 +207,7 @@
       <varInfo nodeId="6160477238666701742" varName="p1" />
       <varInfo nodeId="6160477238666701740" varName="rect" />
     </scopeInfo>
-    <unitInfo nodeId="5639900666367221336" fileName="GeomUtil.java" startLine="8" startPosition="0" endLine="58" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GeomUtil" />
+    <unitInfo nodeId="5639900666367221336" fileName="GeomUtil.java" startLine="8" startPosition="0" endLine="62" endPosition="0" unitName="jetbrains.mps.graphLayout.util.GeomUtil" />
   </root>
 </debugInfo>
 

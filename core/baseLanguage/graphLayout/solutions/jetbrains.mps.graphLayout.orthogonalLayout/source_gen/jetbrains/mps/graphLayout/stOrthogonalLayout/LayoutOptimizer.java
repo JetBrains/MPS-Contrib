@@ -120,6 +120,11 @@ public class LayoutOptimizer {
         }
       }
     }
+    for (Rectangle labelRect : Sequence.fromIterable(MapSequence.fromMap(myLayout.getLabelLayout()).values())) {
+      if (GeomUtil.intersects(labelRect.x, labelRect.x + labelRect.width, rect.x, rect.x + rect.width) && GeomUtil.intersects(labelRect.y, labelRect.y + labelRect.height, rect.y, rect.y + rect.height)) {
+        return false;
+      }
+    }
     return true;
   }
 

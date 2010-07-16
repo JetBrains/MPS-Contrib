@@ -1723,6 +1723,53 @@
         </node>
       </node>
     </node>
+    <node role="staticMethod:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration:3" id="8680836410351713675">
+      <property name="name:3" value="intersects" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="8680836410351713679" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="8680836410351713677" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="8680836410351713678">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="8680836410351713691">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.GreaterThanOrEqualsExpression:3" id="8680836410351713701">
+            <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8680836410351713702">
+              <link role="classConcept:3" targetNodeId="2v.~Math" resolveInfo="Math" />
+              <link role="baseMethodDeclaration:3" targetNodeId="2v.~Math.min(int,int):int" resolveInfo="min" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="8680836410351713703">
+                <link role="variableDeclaration:3" targetNodeId="8680836410351713682" resolveInfo="maxX" />
+              </node>
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="8680836410351713704">
+                <link role="variableDeclaration:3" targetNodeId="8680836410351713688" resolveInfo="maxY" />
+              </node>
+            </node>
+            <node role="rightExpression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="8680836410351713707">
+              <link role="classConcept:3" targetNodeId="2v.~Math" resolveInfo="Math" />
+              <link role="baseMethodDeclaration:3" targetNodeId="2v.~Math.max(int,int):int" resolveInfo="max" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="8680836410351713708">
+                <link role="variableDeclaration:3" targetNodeId="8680836410351713680" resolveInfo="minX" />
+              </node>
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="8680836410351713710">
+                <link role="variableDeclaration:3" targetNodeId="8680836410351713685" resolveInfo="minY" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="8680836410351713680">
+        <property name="name:3" value="minX" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="8680836410351713681" />
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="8680836410351713682">
+        <property name="name:3" value="maxX" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="8680836410351713684" />
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="8680836410351713685">
+        <property name="name:3" value="minY" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="8680836410351713687" />
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="8680836410351713688">
+        <property name="name:3" value="maxY" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.IntegerType:3" id="8680836410351713690" />
+      </node>
+    </node>
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="5639900666367221337" />
   </node>
 </model>

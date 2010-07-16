@@ -68,28 +68,6 @@
     </scopeInfo>
     <unitInfo nodeId="1327612371813208563" fileName="ILayouter.java" startLine="7" startPosition="0" endLine="10" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.ILayouter" />
   </root>
-  <root nodeId="8680836410351704115">
-    <nodeInfo nodeId="8680836410351704125" fileName="EdgeLayout.java" startLine="9" startPosition="25" endLine="10" endPosition="29" />
-    <nodeInfo nodeId="8680836410351704131" fileName="EdgeLayout.java" startLine="10" startPosition="29" endLine="11" endPosition="37" />
-    <nodeInfo nodeId="8680836410351704136" fileName="EdgeLayout.java" startLine="11" startPosition="37" endLine="12" endPosition="30" />
-    <nodeInfo nodeId="8680836410351704140" fileName="EdgeLayout.java" startLine="14" startPosition="39" endLine="15" endPosition="18" />
-    <nodeInfo nodeId="8680836410351704151" fileName="EdgeLayout.java" startLine="15" startPosition="18" endLine="16" endPosition="28" />
-    <nodeInfo nodeId="8680836410351704158" fileName="EdgeLayout.java" startLine="16" startPosition="28" endLine="17" endPosition="25" />
-    <nodeInfo nodeId="8680836410351704191" fileName="EdgeLayout.java" startLine="20" startPosition="70" endLine="21" endPosition="27" />
-    <nodeInfo nodeId="8680836410351704198" fileName="EdgeLayout.java" startLine="21" startPosition="27" endLine="22" endPosition="38" />
-    <nodeInfo nodeId="8680836410351704117" fileName="EdgeLayout.java" startLine="13" startPosition="0" endLine="18" endPosition="3" />
-    <nodeInfo nodeId="8680836410351704182" fileName="EdgeLayout.java" startLine="19" startPosition="0" endLine="24" endPosition="0" />
-    <scopeInfo nodeId="8680836410351704185" fileName="EdgeLayout.java" startLine="20" startPosition="70" endLine="22" endPosition="38" />
-    <scopeInfo nodeId="8680836410351704120" fileName="EdgeLayout.java" startLine="14" startPosition="39" endLine="17" endPosition="25" />
-    <scopeInfo nodeId="8680836410351704117" fileName="EdgeLayout.java" startLine="13" startPosition="0" endLine="18" endPosition="3">
-      <varInfo nodeId="8680836410351704168" varName="path" />
-    </scopeInfo>
-    <scopeInfo nodeId="8680836410351704182" fileName="EdgeLayout.java" startLine="19" startPosition="0" endLine="24" endPosition="0">
-      <varInfo nodeId="8680836410351704188" varName="labelDimension" />
-      <varInfo nodeId="8680836410351704186" varName="anchor" />
-    </scopeInfo>
-    <unitInfo nodeId="8680836410351704115" fileName="EdgeLayout.java" startLine="9" startPosition="0" endLine="25" endPosition="0" unitName="jetbrains.mps.graphLayout.graphLayout.EdgeLayout" />
-  </root>
   <root nodeId="903391227141129818">
     <nodeInfo nodeId="903391227141129824" fileName="GraphLayout.java" startLine="19" startPosition="26" endLine="20" endPosition="24" />
     <nodeInfo nodeId="903391227141129827" fileName="GraphLayout.java" startLine="20" startPosition="24" endLine="21" endPosition="44" />
