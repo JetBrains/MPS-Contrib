@@ -35,7 +35,9 @@ import java.awt.Graphics;
 
 public class OrthogonalLayoutTestPanel extends JPanel {
   private static Dimension FRAME_DIMENSION = new Dimension(800, 600);
-  private static int DEFAULT_NODE_SIZE = 40;
+  private static final int DEFAULT_NODE_SIZE = 40;
+  private static final int DEFAULT_EDGE_X_SIZE = 50;
+  private static final int DEFAULT_EDGE_Y_SIZE = 20;
 
   private JTextArea myTextArea;
   private OrthogonalLayoutTestPanel.MyGraphLabel myGraphLabel;
@@ -137,6 +139,7 @@ public class OrthogonalLayoutTestPanel extends JPanel {
     myLayouter.setLayoutLevel(myLayoutChoice.getSelectedLayoutLavel());
     Scanner scanner = new Scanner(myTextArea.getText());
     Map<Node, Dimension> nodeDimensions = MapSequence.fromMap(new HashMap<Node, Dimension>());
+    Map<Edge, Dimension> edgeDimensions = MapSequence.fromMap(new HashMap<Edge, Dimension>());
     Graph g = null;
     try {
       g = GraphIO.scanGraph(scanner);
@@ -153,7 +156,12 @@ public class OrthogonalLayoutTestPanel extends JPanel {
           MapSequence.fromMap(nodeDimensions).put(node, new Dimension(DEFAULT_NODE_SIZE, DEFAULT_NODE_SIZE));
         }
       }
-      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions);
+      for (Edge edge : ListSequence.fromList(g.getEdges())) {
+        if (MapSequence.fromMap(edgeDimensions).get(edge) == null) {
+          MapSequence.fromMap(edgeDimensions).put(edge, new Dimension(DEFAULT_EDGE_X_SIZE, DEFAULT_EDGE_Y_SIZE));
+        }
+      }
+      myCurrentLayout = myLayouter.doLayout(g, nodeDimensions, edgeDimensions);
     }
   }
 

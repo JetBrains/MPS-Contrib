@@ -20,11 +20,13 @@ public class GraphLayout {
   private Graph myGraph;
   private Map<Node, Rectangle> myNodeLayout;
   private Map<Edge, List<Point>> myEdgeLayout;
+  private Map<Edge, Rectangle> myLabelLayout;
 
   public GraphLayout(Graph graph) {
     myGraph = graph;
     myNodeLayout = MapSequence.fromMap(new HashMap<Node, Rectangle>());
     myEdgeLayout = MapSequence.fromMap(new HashMap<Edge, List<Point>>());
+    myLabelLayout = MapSequence.fromMap(new HashMap<Edge, Rectangle>());
   }
 
   public Map<Node, Rectangle> getNodeLayout() {
@@ -57,6 +59,18 @@ public class GraphLayout {
 
   public List<Point> getLayoutFor(Edge edge) {
     return MapSequence.fromMap(myEdgeLayout).get(edge);
+  }
+
+  public void setLabelLayout(Edge edge, Rectangle rectangle) {
+    MapSequence.fromMap(myLabelLayout).put(edge, rectangle);
+  }
+
+  public Rectangle getLabelLayout(Edge edge) {
+    return MapSequence.fromMap(myLabelLayout).get(edge);
+  }
+
+  public Map<Edge, Rectangle> getLabelLayout() {
+    return myLabelLayout;
   }
 
   public Graph getGraph() {
@@ -118,11 +132,11 @@ public class GraphLayout {
     int minY = Integer.MAX_VALUE;
     int maxX = Integer.MIN_VALUE;
     int maxY = Integer.MIN_VALUE;
-    for (Rectangle nodeRect : Sequence.fromIterable(MapSequence.fromMap(myNodeLayout).values())) {
-      minX = Math.min(minX, nodeRect.x);
-      minY = Math.min(minY, nodeRect.y);
-      maxX = Math.max(maxX, nodeRect.x + nodeRect.width);
-      maxY = Math.max(maxY, nodeRect.x + nodeRect.height);
+    for (Rectangle rect : Sequence.fromIterable(MapSequence.fromMap(myNodeLayout).values()).concat(Sequence.fromIterable(MapSequence.fromMap(myLabelLayout).values()))) {
+      minX = Math.min(minX, rect.x);
+      minY = Math.min(minY, rect.y);
+      maxX = Math.max(maxX, rect.x + rect.width);
+      maxY = Math.max(maxY, rect.x + rect.height);
     }
     for (List<Point> path : Sequence.fromIterable(MapSequence.fromMap(myEdgeLayout).values())) {
       for (Point p : ListSequence.fromList(path)) {

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
-  <dependency className="orthogonalLayoutTest.NodeConstraintsChecker" file="NodeConstraintsChecker.java">
+  <dependency className="orthogonalLayoutTest.ConstraintsChecker" file="ConstraintsChecker.java">
+    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Rectangle" />
-    <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
@@ -11,27 +11,28 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="junit.framework.Assert" />
   </dependency>
-  <dependency className="orthogonalLayoutTest.NodeConstraintsSupporter_Test" file="NodeConstraintsSupporter_Test.java">
+  <dependency className="orthogonalLayoutTest.ConstraintsSupporter_Test" file="ConstraintsSupporter_Test.java">
+    <classNode dependClassName="java.awt.Dimension" />
     <classNode dependClassName="java.awt.Rectangle" />
     <classNode dependClassName="java.lang.Exception" />
-    <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Object" />
     <classNode dependClassName="java.lang.String" />
     <classNode dependClassName="java.lang.System" />
+    <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.Map" />
     <classNode dependClassName="java.util.Scanner" />
     <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.GraphOrientation" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.EmbeddedGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.TreeEmbeddingFinder" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.NodeConstraintsSupporter" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-    <classNode dependClassName="orthogonalLayoutTest.NodeConstraintsChecker" />
+    <classNode dependClassName="orthogonalLayoutTest.ConstraintsChecker" />
     <classNode dependClassName="visualization.GraphIO" />
     <classNode extendsClassName="junit.framework.TestCase" />
   </dependency>

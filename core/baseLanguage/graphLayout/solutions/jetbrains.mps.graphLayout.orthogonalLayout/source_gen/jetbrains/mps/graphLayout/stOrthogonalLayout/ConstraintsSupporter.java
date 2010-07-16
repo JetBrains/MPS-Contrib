@@ -9,6 +9,7 @@ import java.util.Map;
 import jetbrains.mps.graphLayout.graph.Node;
 import jetbrains.mps.graphLayout.graph.Edge;
 import java.awt.Rectangle;
+import java.awt.Dimension;
 import jetbrains.mps.internal.collections.runtime.MapSequence;
 import java.util.HashMap;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
@@ -16,7 +17,7 @@ import jetbrains.mps.graphLayout.algorithms.WeightedTopologicalNumbering;
 import jetbrains.mps.graphLayout.planarGraph.Face;
 import jetbrains.mps.graphLayout.util.NodeMap;
 
-public class NodeConstraintsSupporter {
+public class ConstraintsSupporter {
   private STPlanarGraph myStPlanarGraph;
   private Graph myModifiedGraph;
   private DualGraph myModifiedDualGraph;
@@ -30,31 +31,32 @@ public class NodeConstraintsSupporter {
   private int myMinEdgeXDistance = 10;
   private int myMinEdgeYDistance = 10;
 
-  public NodeConstraintsSupporter() {
+  public ConstraintsSupporter() {
   }
 
-  public Map<Object, Rectangle> getRepresentation(STPlanarGraph stPlanarGraph, Map<Node, Integer> horConstraints, Map<Node, Integer> verConstraints) {
+  public Map<Object, Rectangle> getRepresentation(STPlanarGraph stPlanarGraph, Map<Node, Dimension> nodeConstraints, Map<Edge, Dimension> edgeConstraints) {
     myStPlanarGraph = stPlanarGraph;
     Graph graph = myStPlanarGraph.getGraph();
     myModifiedGraph = splitNodes(graph);
     myModifiedDualGraph = modifyDualGraph(stPlanarGraph);
-    /*
-      System.out.println(stPlanarGraph.getModifiedDualGraph());
-      System.out.println(myModifiedDualGraph);
-    */
     Map<Edge, Integer> edgeWeights = MapSequence.fromMap(new HashMap<Edge, Integer>());
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(edgeWeights).put(MapSequence.fromMap(myFakeEdges).get(node), MapSequence.fromMap(verConstraints).get(node));
+      MapSequence.fromMap(edgeWeights).put(MapSequence.fromMap(myFakeEdges).get(node), MapSequence.fromMap(nodeConstraints).get(node).height);
     }
     for (Edge edge : ListSequence.fromList(graph.getEdges())) {
-      MapSequence.fromMap(edgeWeights).put(MapSequence.fromMap(myEdgesMap).get(edge), myMinEdgeYDistance);
+      MapSequence.fromMap(edgeWeights).put(MapSequence.fromMap(myEdgesMap).get(edge), MapSequence.fromMap(edgeConstraints).get(edge).height);
     }
     Map<Edge, Integer> dualEdgeWeights = MapSequence.fromMap(new HashMap<Edge, Integer>());
-    for (Edge edge : ListSequence.fromList(myModifiedDualGraph.getEdges())) {
-      MapSequence.fromMap(dualEdgeWeights).put(edge, myMinEdgeXDistance);
-    }
     for (Node node : ListSequence.fromList(graph.getNodes())) {
-      MapSequence.fromMap(dualEdgeWeights).put(MapSequence.fromMap(myFakeDualEdges).get(node), MapSequence.fromMap(horConstraints).get(node));
+      MapSequence.fromMap(dualEdgeWeights).put(MapSequence.fromMap(myFakeDualEdges).get(node), MapSequence.fromMap(nodeConstraints).get(node).width);
+    }
+    for (Edge edge : ListSequence.fromList(myModifiedDualGraph.getEdges())) {
+      Edge realEdge = MapSequence.fromMap(myModifiedDualGraph.getEdgesMap()).get(edge);
+      Dimension dimension = MapSequence.fromMap(edgeConstraints).get(realEdge);
+      // dimension is null only for fake dual edges 
+      if (dimension != null) {
+        MapSequence.fromMap(dualEdgeWeights).put(edge, dimension.width);
+      }
     }
     myVerNumbering = WeightedTopologicalNumbering.number(myModifiedGraph, edgeWeights);
     myHorNumbering = WeightedTopologicalNumbering.number(myModifiedDualGraph, dualEdgeWeights);

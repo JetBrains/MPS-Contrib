@@ -34,7 +34,13 @@ public class LayoutPainter {
     for (Node node : SetSequence.fromSet(MapSequence.fromMap(nodeLayout).keySet())) {
       Rectangle rect = MapSequence.fromMap(nodeLayout).get(node);
       g.drawRect(rect.x, rect.y, rect.width, rect.height);
-      g.drawString(Integer.toString(node.getIndex()), rect.x + 5, rect.y + 15);
+      g.drawString(node.toString(), rect.x + 5, rect.y + 15);
+    }
+    Map<Edge, Rectangle> labelLayout = layout.getLabelLayout();
+    for (Edge edge : SetSequence.fromSet(MapSequence.fromMap(labelLayout).keySet())) {
+      Rectangle rect = MapSequence.fromMap(labelLayout).get(edge);
+      g.drawRect(rect.x, rect.y, rect.width, rect.height);
+      g.drawString(edge.toString(), rect.x + 5, rect.y + 12);
     }
   }
 }

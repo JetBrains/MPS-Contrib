@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <dependenciesRoot>
+  <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter" file="ConstraintsSupporter.java">
+    <classNode dependClassName="java.awt.Dimension" />
+    <classNode dependClassName="java.awt.Rectangle" />
+    <classNode dependClassName="java.lang.Integer" />
+    <classNode dependClassName="java.lang.Object" />
+    <classNode dependClassName="java.util.HashMap" />
+    <classNode dependClassName="java.util.Map" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.WeightedTopologicalNumbering" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
+    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
+  </dependency>
   <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" file="LayoutOptimizer.java">
     <classNode dependClassName="java.awt.Point" />
     <classNode dependClassName="java.awt.Rectangle" />
@@ -13,24 +31,6 @@
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.Sequence" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.SetSequence" />
-  </dependency>
-  <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.NodeConstraintsSupporter" file="NodeConstraintsSupporter.java">
-    <classNode dependClassName="java.awt.Rectangle" />
-    <classNode dependClassName="java.lang.Integer" />
-    <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.System" />
-    <classNode dependClassName="java.util.HashMap" />
-    <classNode dependClassName="java.util.Map" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.algorithms.WeightedTopologicalNumbering" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Edge" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Graph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.graph.Node" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.DualGraph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.Face" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ListSequence" />
-    <classNode dependClassName="jetbrains.mps.internal.collections.runtime.MapSequence" />
   </dependency>
   <dependency className="jetbrains.mps.graphLayout.stOrthogonalLayout.OrthogonalFromVisibility" file="OrthogonalFromVisibility.java">
     <classNode dependClassName="java.awt.Point" />
@@ -92,7 +92,6 @@
     <classNode dependClassName="java.lang.Integer" />
     <classNode dependClassName="java.lang.Math" />
     <classNode dependClassName="java.lang.Object" />
-    <classNode dependClassName="java.lang.System" />
     <classNode dependClassName="java.util.ArrayList" />
     <classNode dependClassName="java.util.HashMap" />
     <classNode dependClassName="java.util.HashSet" />
@@ -112,8 +111,8 @@
     <classNode dependClassName="jetbrains.mps.graphLayout.planarGraph.STPlanarGraph" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.BiconnectedInitialEmbeddingFinder" />
     <classNode dependClassName="jetbrains.mps.graphLayout.planarization.ShortestPathEmbeddingFinder" />
+    <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.ConstraintsSupporter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.LayoutOptimizer" />
-    <classNode dependClassName="jetbrains.mps.graphLayout.stOrthogonalLayout.NodeConstraintsSupporter" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.GeomUtil" />
     <classNode dependClassName="jetbrains.mps.graphLayout.util.NodeMap" />
     <classNode dependClassName="jetbrains.mps.internal.collections.runtime.ISelector" />
