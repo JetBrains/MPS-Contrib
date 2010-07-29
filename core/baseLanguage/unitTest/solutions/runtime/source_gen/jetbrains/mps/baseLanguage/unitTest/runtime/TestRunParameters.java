@@ -5,7 +5,6 @@ package jetbrains.mps.baseLanguage.unitTest.runtime;
 import java.util.List;
 import jetbrains.mps.internal.collections.runtime.ListSequence;
 import java.util.ArrayList;
-import org.apache.commons.lang.ObjectUtils;
 
 public class TestRunParameters {
   private String myTestRunner;
@@ -47,13 +46,34 @@ public class TestRunParameters {
       return false;
     }
     TestRunParameters parameters = (TestRunParameters) obj;
-    boolean result = ObjectUtils.equals(this.myTestRunner, parameters.myTestRunner);
-    result = result && ObjectUtils.equals(this.myVmParameters, parameters.myVmParameters);
-    result = result && ObjectUtils.equals(this.myClassPath, parameters.myClassPath);
+    boolean result = eq_mls2ap_a0a2a6(this.myTestRunner, parameters.myTestRunner);
+    result = result && eq_mls2ap_a0a0d0g(this.myVmParameters, parameters.myVmParameters);
+    result = result && eq_mls2ap_a0a0e0g(this.myClassPath, parameters.myClassPath);
     return result;
   }
 
   public int hashCode() {
     return this.myTestRunner.hashCode() + this.myClassPath.hashCode() + this.myVmParameters.hashCode();
+  }
+
+  private static boolean eq_mls2ap_a0a2a6(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
+  }
+
+  private static boolean eq_mls2ap_a0a0d0g(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
+  }
+
+  private static boolean eq_mls2ap_a0a0e0g(Object a, Object b) {
+    return (a != null ?
+      a.equals(b) :
+      a == b
+    );
   }
 }
