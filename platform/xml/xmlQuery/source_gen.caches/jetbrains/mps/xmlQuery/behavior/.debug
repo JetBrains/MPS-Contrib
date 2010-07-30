@@ -6,6 +6,13 @@
     <scopeInfo nodeId="10026583185457223" fileName="TextBuilder_Behavior.java" startLine="31" startPosition="105" endLine="32" endPosition="62" />
     <scopeInfo nodeId="608266221866981709" fileName="TextBuilder_Behavior.java" startLine="35" startPosition="145" endLine="36" endPosition="98" />
   </root>
+  <root nodeId="2268737274628969538">
+    <nodeInfo nodeId="2268737274628969549" fileName="XMLSAXNodeCreator_Behavior.java" startLine="16" startPosition="83" endLine="17" endPosition="120" />
+    <scopeInfo nodeId="2268737274628969540" fileName="XMLSAXNodeCreator_Behavior.java" startLine="13" startPosition="43" endLine="13" endPosition="43" />
+    <scopeInfo nodeId="2268737274628969543" fileName="XMLSAXNodeCreator_Behavior.java" startLine="16" startPosition="83" endLine="18" endPosition="57">
+      <varInfo nodeId="2268737274628969550" varName="rule" />
+    </scopeInfo>
+  </root>
   <root nodeId="3149278768676788185">
     <nodeInfo nodeId="1384720974900260450" fileName="ElementBuilder_Behavior.java" startLine="29" startPosition="81" endLine="30" endPosition="122" />
     <nodeInfo nodeId="1384720974900260459" fileName="ElementBuilder_Behavior.java" startLine="33" startPosition="105" endLine="34" endPosition="192" />
