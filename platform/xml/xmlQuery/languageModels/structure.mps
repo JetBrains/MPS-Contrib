@@ -320,6 +320,11 @@
       <property name="role:0" value="creator" />
       <link role="target:0" targetNodeId="2268737274628897541:4" resolveInfo="XMLSAXNodeCreator" />
     </node>
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="3444414697307356525">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="validator" />
+      <link role="target:0" targetNodeId="3444414697307355268:4" resolveInfo="XMLSAXNodeValidator" />
+    </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="4635390255047870170">
       <property name="name:0" value="tagName" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
@@ -500,6 +505,22 @@
     </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="2268737274628969689">
       <link role="conceptPropertyDeclaration:0" targetNodeId="3.1216468774225:3" resolveInfo="showName" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="3444414697307355268">
+    <property name="package:0" value="sax" />
+    <property name="name:0" value="XMLSAXNodeValidator" />
+    <link role="extends:0" targetNodeId="4635390255048097274:4" resolveInfo="XMLSAXHandlerFunction" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="3444414697307355271">
+      <property name="value:0" value="validate" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="3444414697307355269">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="3.1216468774225:3" resolveInfo="showName" />
+    </node>
+    <node role="conceptLink:0" type="jetbrains.mps.lang.structure.structure.AggregationConceptLink:0" id="3444414697307355857">
+      <link role="conceptLinkDeclaration:0" targetNodeId="3.1137545148427:3" resolveInfo="conceptFunctionReturnType" />
+      <node role="target:0" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="3444414697307356524" />
     </node>
   </node>
 </model>

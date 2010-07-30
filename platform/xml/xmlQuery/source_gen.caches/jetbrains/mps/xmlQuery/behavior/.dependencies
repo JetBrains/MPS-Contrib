@@ -69,6 +69,13 @@
     <classNode dependClassName="jetbrains.mps.smodel.behaviour.BehaviorManager" />
     <classNode dependClassName="org.apache.commons.lang.StringUtils" />
   </dependency>
+  <dependency className="jetbrains.mps.xmlQuery.behavior.XMLSAXChildRule_Behavior" file="XMLSAXChildRule_Behavior.java">
+    <classNode dependClassName="java.lang.String" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SLinkOperations" />
+    <classNode dependClassName="jetbrains.mps.lang.smodel.generator.smodelAdapter.SPropertyOperations" />
+    <classNode dependClassName="jetbrains.mps.smodel.SNode" />
+    <classNode dependClassName="org.apache.commons.lang.StringUtils" />
+  </dependency>
   <dependency className="jetbrains.mps.xmlQuery.behavior.XMLSAXNodeCreator_Behavior" file="XMLSAXNodeCreator_Behavior.java">
     <classNode dependClassName="java.lang.Class" />
     <classNode dependClassName="java.lang.Object" />

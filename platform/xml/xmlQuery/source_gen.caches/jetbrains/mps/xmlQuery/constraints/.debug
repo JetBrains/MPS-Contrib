@@ -209,18 +209,22 @@
   <root nodeId="4815471077468703816">
     <nodeInfo nodeId="3096351618093111307" fileName="XMLElementType_schema_ReferentConstraint.java" startLine="24" startPosition="138" endLine="25" endPosition="46" />
     <nodeInfo nodeId="3096351618093111311" fileName="XMLElementType_schema_ReferentConstraint.java" startLine="25" startPosition="46" endLine="26" endPosition="73" />
+    <nodeInfo nodeId="4705273682234098451" fileName="XMLElementType_complexType_ReferentConstraint.java" startLine="35" startPosition="132" endLine="36" endPosition="108" />
+    <nodeInfo nodeId="4705273682234098447" fileName="XMLElementType_complexType_ReferentConstraint.java" startLine="47" startPosition="129" endLine="48" endPosition="75" />
     <scopeInfo nodeId="3096351618092932126" fileName="XMLElementType_complexType_ReferentConstraint.java" startLine="32" startPosition="138" endLine="32" endPosition="138" />
     <scopeInfo nodeId="4815471077468703819" fileName="XMLElementType_complexType_ReferentConstraint.java" startLine="35" startPosition="132" endLine="36" endPosition="108" />
     <scopeInfo nodeId="4815471077468703827" fileName="XMLElementType_complexType_ReferentConstraint.java" startLine="47" startPosition="129" endLine="48" endPosition="75" />
     <scopeInfo nodeId="3096351618093111306" fileName="XMLElementType_schema_ReferentConstraint.java" startLine="24" startPosition="138" endLine="26" endPosition="73" />
   </root>
   <root nodeId="4991903842868384279">
+    <nodeInfo nodeId="4991903842868384282" fileName="XMLElementOperation_Constraints.java" startLine="12" startPosition="114" endLine="13" endPosition="386" />
     <scopeInfo nodeId="4991903842868384281" fileName="XMLElementOperation_Constraints.java" startLine="12" startPosition="114" endLine="13" endPosition="386" />
   </root>
   <root nodeId="4991903842868413101">
     <nodeInfo nodeId="3129600724328900184" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="33" startPosition="132" endLine="34" endPosition="337" />
     <nodeInfo nodeId="2341233264267687145" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="35" startPosition="30" endLine="36" endPosition="36" />
     <nodeInfo nodeId="3129600724328918847" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="37" startPosition="5" endLine="38" endPosition="142" />
+    <nodeInfo nodeId="3014833108615703012" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="41" startPosition="42" endLine="42" endPosition="142" />
     <nodeInfo nodeId="1211753978542125464" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="45" startPosition="5" endLine="46" endPosition="151" />
     <nodeInfo nodeId="3850127206707162776" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="46" startPosition="151" endLine="47" endPosition="31" />
     <nodeInfo nodeId="2341233264267687136" fileName="AccessChildrenOperation_elementDeclaration_ReferentConstraint.java" startLine="34" startPosition="337" endLine="37" endPosition="5" />
@@ -243,9 +247,11 @@
     <scopeInfo nodeId="4991903842868445315" fileName="AccessAttributeOperation_attributeDeclaration_ReferentConstraint.java" startLine="27" startPosition="132" endLine="28" endPosition="353" />
   </root>
   <root nodeId="7225751495667376030">
+    <nodeInfo nodeId="7567280977595060290" fileName="AttributeBuilder_Constraints.java" startLine="11" startPosition="114" endLine="12" endPosition="173" />
     <nodeInfo nodeId="10026583184937143" fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="31" startPosition="132" endLine="32" endPosition="111" />
     <nodeInfo nodeId="10026583184963812" fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="34" startPosition="113" endLine="35" endPosition="201" />
     <nodeInfo nodeId="10026583184963844" fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="36" startPosition="5" endLine="37" endPosition="34" />
+    <nodeInfo nodeId="7225751495667532413" fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="48" startPosition="129" endLine="49" endPosition="87" />
     <nodeInfo nodeId="10026583184937149" fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="32" startPosition="111" endLine="36" endPosition="5" />
     <scopeInfo nodeId="10026583184937150" fileName="AttributeBuilder_attributeDeclaration_ReferentConstraint.java" startLine="33" startPosition="33" endLine="33" endPosition="33" />
     <scopeInfo nodeId="7567280977594943780" fileName="AttributeBuilder_Constraints.java" startLine="11" startPosition="114" endLine="12" endPosition="173" />
@@ -256,6 +262,7 @@
     </scopeInfo>
   </root>
   <root nodeId="7567280977594965151">
+    <nodeInfo nodeId="7567280977595060301" fileName="TextBuilder_Constraints.java" startLine="11" startPosition="114" endLine="12" endPosition="173" />
     <scopeInfo nodeId="7567280977594965153" fileName="TextBuilder_Constraints.java" startLine="11" startPosition="114" endLine="12" endPosition="173" />
   </root>
 </debugInfo>
